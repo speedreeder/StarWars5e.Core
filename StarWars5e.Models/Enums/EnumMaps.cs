@@ -49,7 +49,7 @@ namespace StarWars5e.Models.Enums
         {
             {"beast", MonsterType.Beast},
             {"construct", MonsterType.Construct},
-            {"medium", MonsterType.Droid},
+            {"droid", MonsterType.Droid},
             {"force-wielder", MonsterType.ForceWielder},
             {"humanoid", MonsterType.Humanoid},
         };

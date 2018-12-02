@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Models.Monster
@@ -7,7 +9,7 @@ namespace StarWars5e.Models.Monster
     /// <summary>
     /// Representation of a Monster in the Sw5E Monster Manual
     /// </summary>
-    public class Monster
+    public class Monster : TableEntity
     {
         /// <summary>
         /// Default constructor for serialization
@@ -18,7 +20,7 @@ namespace StarWars5e.Models.Monster
         public string Name { get; set; }
 
         [JsonProperty("monsterType")]
-        public MonsterType MonsterType { get; set; }
+        public string MonsterType { get; set; }
 
         [JsonProperty("size")]
         public string Size { get; set; }
@@ -71,14 +73,36 @@ namespace StarWars5e.Models.Monster
         [JsonProperty("charismaModifier")]
         public int CharismaModifier { get; set; }
 
+        [JsonIgnore]
+        public IEnumerable<KvPair> Features
+        {
+            get => this.FeatureJson == null ? new List<KvPair>() : JsonConvert.DeserializeObject<List<KvPair>>(this.FeatureJson) ?? new List<KvPair>();
+            set => this.FeatureJson = JsonConvert.SerializeObject(value);
+        }
+
         [JsonProperty("features")]
-        public IEnumerable<KvPair> Features { get; set; }
+        public string FeatureJson { get; set; } = "";
+
 
         [JsonProperty("actions")]
-        public IEnumerable<KvPair> Actions { get; set; }
+        public string ActionJson { get; private set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<KvPair> Actions
+        {
+            get => this.ActionJson == null ? new List<KvPair>() :  JsonConvert.DeserializeObject<List<KvPair>>(this.ActionJson) ?? new List<KvPair>();
+            set => this.ActionJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("legendaryActions")]
-        public IEnumerable<KvPair> LegendaryActions { get; set; }
+        public string LegendaryActionsJson { get; set; } = "";
+
+        [JsonIgnore]
+        public List<KvPair> LegendaryActions
+        {
+            get => this.LegendaryActionsJson == null ? new List<KvPair>() : JsonConvert.DeserializeObject<List<KvPair>>(this.LegendaryActionsJson) ?? new List<KvPair>();
+            set => this.LegendaryActionsJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("walkingSpeed")]
         public int WalkingSpeed { get; set; }
@@ -99,33 +123,97 @@ namespace StarWars5e.Models.Monster
         public string ExperiencePoints { get; set; }
 
         [JsonProperty("skills")]
-        public IEnumerable<KvPair> Skills { get; set; }
+        public string SkillsJson  { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<KvPair> Skills
+        {
+            get => JsonConvert.DeserializeObject<List<KvPair>>(this.SkillsJson) ?? new List<KvPair>();
+            set => this.SkillsJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("senses")]
-        public IEnumerable<KvPair> Senses { get; set; }
+        public string SensesJson { get; set; } = "";
+
+
+        [JsonIgnore]
+        public IEnumerable<KvPair> Senses
+        {
+            get => JsonConvert.DeserializeObject<List<KvPair>>(this.SensesJson) ?? new List<KvPair>();
+            set => this.SensesJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("languages")]
-        public IEnumerable<string> Languages { get; set; }
+        public string LanguagesJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<string> Languages
+        {
+            get => JsonConvert.DeserializeObject<List<string>>(this.LanguagesJson) ?? new List<string>();
+            set => this.LanguagesJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("savingThrows")]
-        public List<KvPair> SavingThrows { get; set; }
+        public string SavingThrowsJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<KvPair> SavingThrows
+        {
+            get => JsonConvert.DeserializeObject<List<KvPair>>(this.SavingThrowsJson) ?? new List<KvPair>();
+            set => this.SavingThrowsJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("damageVulnerabilities")]
-        public IEnumerable<string> DamageVulnerabilities { get; set; }
+        public string DamageVulnerabilitiesJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<string> DamageVulnerabilities
+        {
+            get => JsonConvert.DeserializeObject<List<string>>(this.DamageVulnerabilitiesJson) ?? new List<string>();
+            set => this.DamageVulnerabilitiesJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("damageResistances")]
-        public IEnumerable<string> DamageResistances { get; set; }
+        public string DamageResistancesJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<string> DamageResistances
+        {
+            get => JsonConvert.DeserializeObject<List<string>>(this.DamageResistancesJson) ?? new List<string>();
+            set => this.DamageResistancesJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("damageImmunities")]
-        public IEnumerable<string> DamageImmunities { get; set; }
+        public string DamageImmunitiesJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<string> DamageImmunities
+        {
+            get => JsonConvert.DeserializeObject<List<string>>(this.DamageImmunitiesJson) ?? new List<string>();
+            set => this.DamageImmunitiesJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("conditionImmunities")]
-        public IEnumerable<string> ConditionImmunities { get; set; }
+        public string ConditionImmunitiesJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<string> ConditionImmunities
+        {
+            get => JsonConvert.DeserializeObject<List<string>>(this.ConditionImmunitiesJson) ?? new List<string>();
+            set => this.ConditionImmunitiesJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("reactions")]
-        public IEnumerable<KvPair> Reactions { get; set; }
+        public string ReactionsJson { get; set; } = "";
+
+        [JsonIgnore]
+        public IEnumerable<KvPair> Reactions
+        {
+            get => JsonConvert.DeserializeObject<List<KvPair>>(this.ReactionsJson) ?? new List<KvPair>();
+            set => this.ReactionsJson = JsonConvert.SerializeObject(value);
+        }
 
         [JsonProperty("legendaryActionDescription")]
-        public string LegendaryActionsDescription { get; set; }
+        public string LegendaryActionsDescription { get; set; } = "";
     }
 }
