@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Text.RegularExpressions;
 using StarWars5e.Models.Monster;
 
 namespace StarWars.MonsterManual.Parser.SectionProcessors
@@ -9,21 +10,33 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
 
         public Monster Process(Monster monster, string input)
         {
-            // TODO: PROBLEM here
-            // "Name": "Swarm of<br> Monkey-Lizards",
-            // "Type": "beast",
-            // "Size": "Medium swarm of Tiny",
-            var content = input.Substring(2);
-            var groups = content.Split(',');
-            monster.MonsterType= this.GetType(groups[0].Trim());
-            var size = groups[0];
-            if (size.Contains('('))
+            try
             {
-                var ix = size.IndexOf('(');
-                size = size.Substring(0, ix).Trim();
+                // TODO: PROBLEM here
+                // "Name": "Swarm of<br> Monkey-Lizards",
+                // "Type": "beast",
+                // "Size": "Medium swarm of Tiny",
+                var content = input.Substring(2);
+                var groups = content.Split(',');
+                monster.MonsterType= this.GetType(groups[0].Trim());
+                var size = groups[0];
+                if (size.Contains('('))
+                {
+                    var ix = size.IndexOf('(');
+                    size = size.Substring(0, ix).Trim();
+                }
+                monster.Size = size.Substring(0, size.LastIndexOf(' '));
+                if (groups.Length == 1)
+                {
+                    ;
+                }
+                monster.Alignment = groups[1].Trim().Trim('*');
             }
-            monster.Size = size.Substring(0, size.LastIndexOf(' '));
-            monster.Alignment = groups[1].Trim().Trim('*');
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
             return monster;
         }
 

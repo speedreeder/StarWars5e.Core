@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using StarWars5e.Models.Monster;
 
@@ -19,44 +20,52 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
 
         public Monster Process()
         {
-            var count = 0;
-            var lines = Regex.Split(this.content, "\r\n|\r|\n");
-            var sectionType = MonsterSections.Unknown;
-
-            foreach (var line in lines)
+            try
             {
-                ++count;
-                switch (sectionType)
+                var count = 0;
+                var lines = Regex.Split(this.content, "\r\n|\r|\n");
+                var sectionType = MonsterSections.Unknown;
+
+                foreach (var line in lines)
                 {
-                    case MonsterSections.Features:
-                        var reallyFeature = SectionMatchers.FeatureProc.DoubleCheck(line);
-                        if (reallyFeature || this.currentSectionContent.Count > 0)
-                        {
-                            sectionType = this.DoFeatureThings(line, MonsterSections.Features);
-                        }
-                        else
-                        {
-                            sectionType = this.DetermineSection(line); // this is super new: 11/29 at 10pm
-                        }
-                        break;
-                    case MonsterSections.Actions:
-                        sectionType = this.DoFeatureThings(line, MonsterSections.Actions);
-                        break;
-                    case MonsterSections.Reactions:
-                        sectionType = this.DoFeatureThings(line, MonsterSections.Reactions);
-                        break;
-                    case MonsterSections.LegendaryActions:
-                        sectionType = this.DoFeatureThings(line, MonsterSections.LegendaryActions);
-                        break;
-                    default:
-                        sectionType = this.DetermineSection(line);
-                        this.featureTriggered = sectionType == MonsterSections.Features;
-                        break;
+                    ++count;
+                    switch (sectionType)
+                    {
+                        case MonsterSections.Features:
+                            var reallyFeature = SectionMatchers.FeatureProc.DoubleCheck(line);
+                            if (reallyFeature || this.currentSectionContent.Count > 0)
+                            {
+                                sectionType = this.DoFeatureThings(line, MonsterSections.Features);
+                            }
+                            else
+                            {
+                                sectionType = this.DetermineSection(line); // this is super new: 11/29 at 10pm
+                            }
+                            break;
+                        case MonsterSections.Actions:
+                            sectionType = this.DoFeatureThings(line, MonsterSections.Actions);
+                            break;
+                        case MonsterSections.Reactions:
+                            sectionType = this.DoFeatureThings(line, MonsterSections.Reactions);
+                            break;
+                        case MonsterSections.LegendaryActions:
+                            sectionType = this.DoFeatureThings(line, MonsterSections.LegendaryActions);
+                            break;
+                        default:
+                            sectionType = this.DetermineSection(line);
+                            this.featureTriggered = sectionType == MonsterSections.Features;
+                            break;
+                    }
+
                 }
 
+                return monster;
             }
-
-            return monster;
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         private MonsterSections DoFeatureThings(string line, MonsterSections section)

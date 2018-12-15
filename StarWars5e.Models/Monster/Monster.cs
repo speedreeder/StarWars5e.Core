@@ -19,6 +19,13 @@ namespace StarWars5e.Models.Monster
         [JsonProperty("name")]
         public string Name { get; set; }
 
+        /// <summary>
+        ///  (discord) name of the person who created the monster
+        /// </summary>
+        [JsonProperty("ownerName")]
+        public string OwnerName { get; set; }
+
+
         [JsonProperty("monsterType")]
         public string MonsterType { get; set; }
 
@@ -85,7 +92,7 @@ namespace StarWars5e.Models.Monster
 
 
         [JsonProperty("actions")]
-        public string ActionJson { get; private set; } = "";
+        public string ActionJson { get;  set; } = "";
 
         [JsonIgnore]
         public IEnumerable<KvPair> Actions

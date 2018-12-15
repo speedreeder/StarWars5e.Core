@@ -16,26 +16,35 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
 
         public Monster Process(Monster monster, string input)
         {
-            input = input.Substring(1).Trim('|');
-            var groups = input.Split('|');
-            var strength = this.ProcessStatGroup(groups[0]);
-            var dexterity = this.ProcessStatGroup(groups[1]);
-            var constitution = this.ProcessStatGroup(groups[2]);
-            var intelligence = this.ProcessStatGroup(groups[3]);
-            var wisdom = this.ProcessStatGroup(groups[4]);
-            var charisma = this.ProcessStatGroup(groups[5]);
-            monster.Strength = strength.Item1;
-            monster.StrengthModifier = strength.Item2;
-            monster.Dexterity = dexterity.Item1;
-            monster.DexterityModifier = dexterity.Item2;
-            monster.Constitution = constitution.Item1;
-            monster.ConstitutionModifer = constitution.Item2;
-            monster.Intelligence = intelligence.Item1;
-            monster.IntelligenceModifier = intelligence.Item2;
-            monster.Wisdom = wisdom.Item1;
-            monster.WisdomModifier = wisdom.Item2;
-            monster.Charisma = charisma.Item1;
-            monster.CharismaModifier = charisma.Item2;
+            try
+            {
+                input = input.Substring(1).Trim('|');
+                var groups = input.Split('|');
+                var strength = this.ProcessStatGroup(groups[0]);
+                var dexterity = this.ProcessStatGroup(groups[1]);
+                var constitution = this.ProcessStatGroup(groups[2]);
+                var intelligence = this.ProcessStatGroup(groups[3]);
+                var wisdom = this.ProcessStatGroup(groups[4]);
+                var charisma = this.ProcessStatGroup(groups[5]);
+                monster.Strength = strength.Item1;
+                monster.StrengthModifier = strength.Item2;
+                monster.Dexterity = dexterity.Item1;
+                monster.DexterityModifier = dexterity.Item2;
+                monster.Constitution = constitution.Item1;
+                monster.ConstitutionModifer = constitution.Item2;
+                monster.Intelligence = intelligence.Item1;
+                monster.IntelligenceModifier = intelligence.Item2;
+                monster.Wisdom = wisdom.Item1;
+                monster.WisdomModifier = wisdom.Item2;
+                monster.Charisma = charisma.Item1;
+                monster.CharismaModifier = charisma.Item2;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+
 
             return monster;
         }

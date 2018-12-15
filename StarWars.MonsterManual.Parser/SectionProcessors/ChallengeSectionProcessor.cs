@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Text.RegularExpressions;
 using StarWars5e.Models.Monster;
 
 namespace StarWars.MonsterManual.Parser.SectionProcessors
@@ -9,11 +10,19 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
 
         public Monster Process(Monster monster, string input)
         {
-            var toRemove = "> - **Challenge** ";
-            var challengeVal = input.Substring(toRemove.Length);
-            var split = challengeVal.Split(' ');
-            monster.Challenge = split[0];
-            monster.ExperiencePoints = this.ExtractValueFromParenthesis(split[1] + split[2]);
+            try
+            {
+                var toRemove = "> - **Challenge** ";
+                var challengeVal = input.Substring(toRemove.Length);
+                var split = challengeVal.Split(' ');
+                monster.Challenge = split[0];
+                monster.ExperiencePoints = this.ExtractValueFromParenthesis(split[1] + split[2]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
             // find the thing we care about....
             return monster;
         }
