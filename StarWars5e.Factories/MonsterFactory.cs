@@ -51,7 +51,7 @@ namespace StarWars5e.Factories
 
             model.Features = input.Features;
             model.Languages = input.Languages;
-            model.LegendaryActions = input.LegendaryActions;
+//            model.LegendaryActions = input.LegendaryActions;
             model.LegendaryActionsDescription = input.LegendaryActionsDescription;
             model.Reactions = input.Reactions;
             model.Skills = input.Skills;

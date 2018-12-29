@@ -79,5 +79,44 @@ namespace StarWars5e.Models.Enums
         }
 
         #endregion
+
+        #region Attributes
+
+        private static Dictionary<string, CharacterAttribute> attributes = new Dictionary<string, CharacterAttribute>
+        {
+            {"Unknown", CharacterAttribute.Unknown},
+            {"Strength", CharacterAttribute.Strength},
+            {"Dexterity", CharacterAttribute.Dexterity},
+            {"Constitution", CharacterAttribute.Constitution},
+            {"Intelligence", CharacterAttribute.Intelligence},
+            {"Wisdom", CharacterAttribute.Wisdom},
+            {"Charisma", CharacterAttribute.Charisma}
+        };
+
+        /// <summary>
+        /// Retrieve an attribute by the string representation
+        /// </summary>
+        /// <param name="input">Value to check</param>
+        /// <returns>The <see cref="CharacterAttribute"/> value, or unknown if the value isn't matched</returns>
+        public static CharacterAttribute RetrieveAttribute(string input)
+        {
+            var result = attributes.TryGetValue(input.ToLower(), out var found);
+            return result
+                ? found
+                : CharacterAttribute.Unknown;
+        }
+
+        /// <summary>
+        /// Given a attribute this will return the appropriate string (with casing)
+        /// </summary>
+        /// <param name="input">an <see cref="CharacterAttribute"/></param>
+        /// <returns>String representation</returns>
+        public static string ConvertAttributeToString(CharacterAttribute input)
+        {
+            var found = attributes.FirstOrDefault(s => s.Value == input);
+            return found.Key;
+        }
+
+        #endregion
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using StarWars.Storage.Clients;
+using StarWars.Storage.Repositories;
 
 namespace StarWars.Storage
 {
@@ -13,7 +14,14 @@ namespace StarWars.Storage
 
             builder.RegisterType<MonsterRepository>()
                 .As<IMonsterRepository>();
+            builder.RegisterType<PowerRepository>()
+                .As<IPowerRepository>();
 
+            builder.RegisterType<SpeciesRepository>()
+                .As<ISpeciesRepository>();
+
+            builder.RegisterType<BackgroundRepository>()
+                .As<IBackgroundRepository>();
             return builder;
         }
     }

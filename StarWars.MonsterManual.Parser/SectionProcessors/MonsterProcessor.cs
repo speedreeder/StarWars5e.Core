@@ -66,6 +66,7 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
                 Console.WriteLine(e);
                 throw;
             }
+
         }
 
         private MonsterSections DoFeatureThings(string line, MonsterSections section)

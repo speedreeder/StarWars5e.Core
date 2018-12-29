@@ -45,7 +45,6 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
                 throw;
             }
 
-
             return monster;
         }
 

@@ -52,7 +52,6 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
                 Console.WriteLine(e);
                 throw;
             }
-
         }
 
         public MonsterSections IsMatch(string input)

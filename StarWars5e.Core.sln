@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
@@ -7,6 +6,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Models", "StarWa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Factories", "StarWars5e.Factories\StarWars5e.Factories.csproj", "{890ADEAF-DBD3-498D-9C07-056315D6E65B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.MonsterManual.Parser", "StarWars.MonsterManual.Parser\StarWars.MonsterManual.Parser.csproj", "{3156DF85-B655-4B33-BEB1-9039A0DD97FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Storage", "StarWars.Storage\StarWars.Storage.csproj", "{E44A5220-1CBB-4F7D-8DDC-CC0126118CF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Common", "StarWars5e.Common\StarWars5e.Common.csproj", "{179B6E4E-FF00-4FD0-A15E-6B896F10715D}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.MonsterManual.Parser", "StarWars.MonsterManual.Parser\StarWars.MonsterManual.Parser.csproj", "{3156DF85-B655-4B33-BEB1-9039A0DD97FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Storage", "StarWars.Storage\StarWars.Storage.csproj", "{E44A5220-1CBB-4F7D-8DDC-CC0126118CF9}"
@@ -18,6 +22,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{442411A4-4D96-4C12-9619-BFD466471C2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{7CEB7EB7-EE66-4FB0-8833-3904A674059D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Powers.Parser", "StarWars.Powers.Parser\StarWars.Powers.Parser.csproj", "{37D78FF1-8214-486D-8F29-121D1C9D3595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Species.Parser", "StarWars.Species.Parser\StarWars.Species.Parser.csproj", "{1A6E77C9-E812-456F-BDBD-2D6BC753A8B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Background.Parser", "StarWars.Background.Parser\StarWars.Background.Parser.csproj", "{7D28B21D-0EEA-44CF-BD4C-DAE6050A3E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,18 @@ Global
 		{179B6E4E-FF00-4FD0-A15E-6B896F10715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{179B6E4E-FF00-4FD0-A15E-6B896F10715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{179B6E4E-FF00-4FD0-A15E-6B896F10715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D78FF1-8214-486D-8F29-121D1C9D3595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D78FF1-8214-486D-8F29-121D1C9D3595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D78FF1-8214-486D-8F29-121D1C9D3595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D78FF1-8214-486D-8F29-121D1C9D3595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6E77C9-E812-456F-BDBD-2D6BC753A8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6E77C9-E812-456F-BDBD-2D6BC753A8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6E77C9-E812-456F-BDBD-2D6BC753A8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6E77C9-E812-456F-BDBD-2D6BC753A8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D28B21D-0EEA-44CF-BD4C-DAE6050A3E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D28B21D-0EEA-44CF-BD4C-DAE6050A3E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D28B21D-0EEA-44CF-BD4C-DAE6050A3E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D28B21D-0EEA-44CF-BD4C-DAE6050A3E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +77,9 @@ Global
 		{3156DF85-B655-4B33-BEB1-9039A0DD97FB} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
 		{E44A5220-1CBB-4F7D-8DDC-CC0126118CF9} = {442411A4-4D96-4C12-9619-BFD466471C2C}
 		{179B6E4E-FF00-4FD0-A15E-6B896F10715D} = {D12DC960-F60D-4797-9496-58E8D441ACAC}
+		{37D78FF1-8214-486D-8F29-121D1C9D3595} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
+		{1A6E77C9-E812-456F-BDBD-2D6BC753A8B6} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
+		{7D28B21D-0EEA-44CF-BD4C-DAE6050A3E4D} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F9930B0-064C-4475-8720-B3D0C35F59F7}
