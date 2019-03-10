@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.ViewModels;
@@ -68,7 +69,7 @@ namespace StarWars5e.Factories
             model.DurationLength = input.DurationLength;
             model.PotencyPower = input.PotencyPower;
             model.PowerAlignment = (int) input.PowerAlignment;
-            model.Tags = input.Tags;
+            model.Tags = input.Tags.ToList();
             return model;
         }
     }

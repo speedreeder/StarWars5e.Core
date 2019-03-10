@@ -126,13 +126,18 @@ namespace StarWars5e.Models
         ///  List of generated tags for this power. These are not found in the source documentation and will be used for filtering
         /// </summary>
         [JsonProperty("tags")]
-        public string TagsJson { get; set; } = "";
+        public string TagsJson
+        {
+            get => this.Tags == null ? "" : JsonConvert.SerializeObject(this.Tags);
+            set => this.Tags = JsonConvert.DeserializeObject<List<string>>(value);
+
+        }
 
         [JsonIgnore]
-        public IEnumerable<string> Tags
-        {
-            get => string.IsNullOrEmpty(this.TagsJson) ? new List<string>() : JsonConvert.DeserializeObject<List<string>>(this.TagsJson);
-            set => this.TagsJson = JsonConvert.SerializeObject(value);
-        }
+        public List<string> Tags { get; set; }
+//        {
+//            get => string.IsNullOrEmpty(this.TagsJson) ? new List<string>() : JsonConvert.DeserializeObject<List<string>>(this.TagsJson);
+//            set => this.TagsJson = JsonConvert.SerializeObject(value);
+//        }
     }
 }

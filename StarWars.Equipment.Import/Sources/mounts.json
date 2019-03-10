@@ -1,0 +1,96 @@
+﻿[
+  {
+    "name": "Airspeeder",
+    "category": 14,
+    "weight": 0,
+    "cost": 14500,
+    "description": "",
+    "rarity": 0
+  },
+  {
+    "name": "Landspeeder",
+    "category": 14,
+    "weight": 0,
+    "cost": 10000,
+    "description": "",
+    "rarity": 0
+  },
+  {
+    "name": "Speederbike",
+    "category": 14,
+    "weight": 0,
+    "cost": 6000,
+    "description": "",
+    "rarity": 0
+  },
+  {
+    "name": "Tauntaun",
+    "category": 13,
+    "weight": 0,
+    "cost": 500,
+    "description": "",
+    "rarity": 0,
+    "speed": 50,
+    "carryingCapacity": 480
+  },
+  {
+    "name": "Kaadu",
+    "category": 13,
+    "weight": 0,
+    "cost": 450,
+    "description": "",
+    "rarity": 0,
+    "speed": 40,
+    "carryingCapacity": 620
+  },
+  {
+    "name": "Rancor",
+    "category": 13,
+    "weight": 0,
+    "cost": 2000,
+    "description": "",
+    "rarity": 0,
+    "speed": 40,
+    "carryingCapacity": 3320
+  },
+  {
+    "name": "Sleen",
+    "category": 13,
+    "weight": 0,
+    "cost": 500,
+    "description": "",
+    "rarity": 0,
+    "speed": 40,
+    "carryingCapacity": 740
+  },
+  {
+    "name": "Varactyl",
+    "category": 13,
+    "weight": 0,
+    "cost": 750,
+    "description": "",
+    "rarity": 0,
+    "speed": 60,
+    "carryingCapacity": 2200
+  },
+  {
+    "name": "Bantha",
+    "category": 13,
+    "weight": 0,
+    "cost": 1200,
+    "description": "",
+    "rarity": 0,
+    "speed": 40,
+    "carryingCapacity": 8000
+  },
+  {
+    "name": "Dewback",
+    "category": 13,
+    "weight": 0,
+    "cost": 900,
+    "description": "",
+    "rarity": 0,
+    "speed": 50,
+    "carryingCapacity":  1140 
+  }
+]

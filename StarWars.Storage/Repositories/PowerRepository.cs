@@ -17,10 +17,17 @@ namespace StarWars.Storage.Repositories
         {
             await this._db.UpsertPowers(powers);
         }
+
+        public async Task<List<Power>> GetAllPowers()
+        {
+            return await this._db.GetAllPowers();
+        }
     }
 
     public interface IPowerRepository
     {
         Task InsertPowers(List<Power> powers);
+
+        Task<List<Power>> GetAllPowers();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using StarWars5e.Models.Monster;
 
@@ -18,55 +19,56 @@ namespace StarWars.MonsterManual.Parser.SectionProcessors
             this.monster = new Monster();
         }
 
+        public Monster ProcessLineList(List<string> lines)
+        {
+            this.monster = new Monster();
+            monster.OwnerName = "Jawa";
+            var sectionType = MonsterSections.Unknown;
+            foreach (var line in lines)
+            {
+                switch (sectionType)
+                {
+                    case MonsterSections.Features:
+                        var reallyFeature = SectionMatchers.FeatureProc.DoubleCheck(line);
+                        if (reallyFeature || this.currentSectionContent.Count > 0)
+                        {
+                            sectionType = this.DoFeatureThings(line, MonsterSections.Features);
+                        }
+                        else
+                        {
+                            sectionType = this.DetermineSection(line); // this is super new: 11/29 at 10pm
+                        }
+                        break;
+                    case MonsterSections.Actions:
+                        sectionType = this.DoFeatureThings(line, MonsterSections.Actions);
+                        break;
+                    case MonsterSections.Reactions:
+                        sectionType = this.DoFeatureThings(line, MonsterSections.Reactions);
+                        break;
+                    case MonsterSections.LegendaryActions:
+                        sectionType = this.DoFeatureThings(line, MonsterSections.LegendaryActions);
+                        break;
+                    default:
+                        sectionType = this.DetermineSection(line);
+                        this.featureTriggered = sectionType == MonsterSections.Features;
+                        break;
+                }
+            }
+            return this.monster;
+        }
+
         public Monster Process()
         {
             try
             {
-                var count = 0;
-                var lines = Regex.Split(this.content, "\r\n|\r|\n");
-                var sectionType = MonsterSections.Unknown;
-
-                foreach (var line in lines)
-                {
-                    ++count;
-                    switch (sectionType)
-                    {
-                        case MonsterSections.Features:
-                            var reallyFeature = SectionMatchers.FeatureProc.DoubleCheck(line);
-                            if (reallyFeature || this.currentSectionContent.Count > 0)
-                            {
-                                sectionType = this.DoFeatureThings(line, MonsterSections.Features);
-                            }
-                            else
-                            {
-                                sectionType = this.DetermineSection(line); // this is super new: 11/29 at 10pm
-                            }
-                            break;
-                        case MonsterSections.Actions:
-                            sectionType = this.DoFeatureThings(line, MonsterSections.Actions);
-                            break;
-                        case MonsterSections.Reactions:
-                            sectionType = this.DoFeatureThings(line, MonsterSections.Reactions);
-                            break;
-                        case MonsterSections.LegendaryActions:
-                            sectionType = this.DoFeatureThings(line, MonsterSections.LegendaryActions);
-                            break;
-                        default:
-                            sectionType = this.DetermineSection(line);
-                            this.featureTriggered = sectionType == MonsterSections.Features;
-                            break;
-                    }
-
-                }
-
-                return monster;
+                var lines = Regex.Split(this.content, "\r\n|\r|\n").ToList();
+                return this.ProcessLineList(lines);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
                 throw;
             }
-
         }
 
         private MonsterSections DoFeatureThings(string line, MonsterSections section)
