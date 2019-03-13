@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Auth;
@@ -36,6 +37,7 @@ namespace StarWars.Storage.Clients
         Task<List<Power>> GetAllPowers();
 
         Task AddItem(IEquipment item);
+        Task AddModification(Modification background);
     }
 
     /// <summary>
@@ -48,6 +50,7 @@ namespace StarWars.Storage.Clients
         private CloudTable backgroundTable;
         private CloudTable speciesTable;
         private CloudTable equipmentTable;
+        private CloudTable _modificationsTable;
 
         public TableStorageConnection()
         {
@@ -63,11 +66,13 @@ namespace StarWars.Storage.Clients
             this.speciesTable = tableClient.GetTableReference("species");
             this.backgroundTable = tableClient.GetTableReference("backgrounds");
             this.equipmentTable = tableClient.GetTableReference("equipment");
+            _modificationsTable = tableClient.GetTableReference("modifications");
             this.powerTable.CreateIfNotExistsAsync().Wait();
             this.monsterTable.CreateIfNotExistsAsync().Wait();
             this.speciesTable.CreateIfNotExistsAsync().Wait();
             this.backgroundTable.CreateIfNotExistsAsync().Wait();
             this.equipmentTable.CreateIfNotExistsAsync().Wait();
+             _modificationsTable.CreateIfNotExistsAsync().Wait();
         }
 
         public async Task AddMonsters(List<Monster> monsters)
@@ -119,7 +124,7 @@ namespace StarWars.Storage.Clients
                     {
                         power.RowKey = Guid.NewGuid().ToString();
                     }
-                    var insertOperation = TableOperation.InsertOrMerge(power);
+                    var insertOperation = TableOperation.Insert(power);
                     await this.powerTable.ExecuteAsync(insertOperation);
                 }
                 catch (Exception e)
@@ -137,7 +142,7 @@ namespace StarWars.Storage.Clients
             var entities = new List<Power>();
             do
             {
-                var queryResult = await this.powerTable.ExecuteQuerySegmentedAsync(new TableQuery<Power>(), token);
+                var queryResult = await powerTable.ExecuteQuerySegmentedAsync(new TableQuery<Power>(), token);
                 entities.AddRange(queryResult.Results);
                 token = queryResult.ContinuationToken;
             } while (token != null);
@@ -163,43 +168,11 @@ namespace StarWars.Storage.Clients
             var insertOperation = TableOperation.Insert(bob);
             await this.equipmentTable.ExecuteAsync(insertOperation);
         }
-        public async Task UpsertPowers(List<Power> powers)
-        {
-            foreach (var power in powers)
-            {
-                try
-                {
-                    if (string.IsNullOrEmpty(power.PowerType))
-                    {
-                        throw new ArgumentException("All powers must have a type");
-                    }
 
-                    power.PartitionKey = power.PowerType;
-                    if (string.IsNullOrEmpty(power.RowKey))
-                    {
-                        power.RowKey = Guid.NewGuid().ToString();
-                    }
-                    var insertOperation = TableOperation.Insert(power);
-                    await this.powerTable.ExecuteAsync(insertOperation);
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e);
-                    throw;
-                }
-            }
-        }
-
-        public async Task AddSpecies(Species species)
+        public async Task AddModification(Modification modification)
         {
-            var insertOperation = TableOperation.Insert(species);
-            await this.speciesTable.ExecuteAsync(insertOperation);
-        }
-
-        public async Task AddBackground(BackgroundViewModel background)
-        {
-            var insertOperation = TableOperation.Insert(background);
-            await this.backgroundTable.ExecuteAsync(insertOperation);
+            var insertOperation = TableOperation.Insert(modification);
+            await _modificationsTable.ExecuteAsync(insertOperation);
         }
     }
 }
