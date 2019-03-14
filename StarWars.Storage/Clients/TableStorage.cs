@@ -91,7 +91,7 @@ namespace StarWars.Storage.Clients
                     {
                         input.RowKey = Guid.NewGuid().ToString();
                     }
-                    var insertOperation = TableOperation.InsertOrMerge(input);
+                    var insertOperation = TableOperation.Insert(input);
                     await this.monsterTable.ExecuteAsync(insertOperation);
                 }
                 catch (Exception e)
@@ -120,7 +120,7 @@ namespace StarWars.Storage.Clients
                     {
                         power.RowKey = Guid.NewGuid().ToString();
                     }
-                    var insertOperation = TableOperation.Insert(power);
+                    var insertOperation = TableOperation.InsertOrMerge(power);
                     await this.powerTable.ExecuteAsync(insertOperation);
                 }
                 catch (Exception e)
