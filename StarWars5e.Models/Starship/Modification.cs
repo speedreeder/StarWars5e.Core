@@ -12,15 +12,25 @@ namespace StarWars5e.Models.Starship
             Type = (int) modificationType;
         }
 
-        public int Type { get; set; }
         public string Name { get; set; }
+
+        [IgnoreProperty]
+        public ModificationType TypeEnum { get; set; }
+        public int Type
+        {
+            get => (int)TypeEnum;
+            set => TypeEnum = (ModificationType)value;
+        }
+
+        [IgnoreProperty]
         public List<string> Prerequisites { get; set; }
-        public string PrerequisitesString
+        public string PrerequisitesJson
         {
             get => Prerequisites == null ? "" : JsonConvert.SerializeObject(Prerequisites);
             set => Prerequisites = JsonConvert.DeserializeObject<List<string>>(value);
 
         }
+
         public string Content { get; set; }
     }
 }

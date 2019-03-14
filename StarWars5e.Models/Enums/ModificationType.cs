@@ -2,6 +2,7 @@
 {
     public enum ModificationType
     {
+        None,
         Engineering,
         Operation,
         Suite,
