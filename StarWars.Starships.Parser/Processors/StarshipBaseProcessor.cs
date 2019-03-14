@@ -28,7 +28,7 @@ namespace StarWars.Starships.Parser.Processors
                 lines = await ReadInternalFile(location);
             }
 
-            var blocks = FindBlocks(lines);
+            var blocks = await FindBlocks(lines);
             return blocks;
         }
 
@@ -58,7 +58,7 @@ namespace StarWars.Starships.Parser.Processors
             }
         }
 
-        public abstract List<T> FindBlocks(List<string> lines);
+        public abstract Task<List<T>> FindBlocks(List<string> lines);
 
         /// <summary>
         /// Process a remote file and turn it into a list of strings to be read
