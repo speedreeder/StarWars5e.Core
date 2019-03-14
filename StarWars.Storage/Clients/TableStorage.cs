@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Auth;
 using Microsoft.WindowsAzure.Storage.Table;
-using Newtonsoft.Json;
 using StarWars5e.Models;
-using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Interfaces;
 using StarWars5e.Models.Monster;
 using StarWars5e.Models.ViewModels;
@@ -37,7 +33,7 @@ namespace StarWars.Storage.Clients
         Task<List<Power>> GetAllPowers();
 
         Task AddItem(IEquipment item);
-        Task AddModification(Modification background);
+        Task AddModifications(TableBatchOperation modificationOperation);
     }
 
     /// <summary>
@@ -169,10 +165,9 @@ namespace StarWars.Storage.Clients
             await this.equipmentTable.ExecuteAsync(insertOperation);
         }
 
-        public async Task AddModification(Modification modification)
+        public async Task AddModifications(TableBatchOperation modificationOperation)
         {
-            var insertOperation = TableOperation.Insert(modification);
-            await _modificationsTable.ExecuteAsync(insertOperation);
+            await _modificationsTable.ExecuteBatchAsync(modificationOperation);
         }
     }
 }

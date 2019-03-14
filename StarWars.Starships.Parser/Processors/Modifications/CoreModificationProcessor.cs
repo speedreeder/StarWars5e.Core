@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using StarWars5e.Models;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Starship;
 
 namespace StarWars.Starships.Parser.Processors.Modifications
 {
@@ -61,11 +61,7 @@ namespace StarWars.Starships.Parser.Processors.Modifications
             var modifications = new List<Modification>();
             for (var i = 0; i < systemLines.Count; i++)
             {
-                var modification = new Modification
-                {
-                    PartitionKey = "core",
-                    Type = type
-                };
+                var modification = new Modification(type);
 
                 if (!systemLines[i].StartsWith("### ")) continue;
 

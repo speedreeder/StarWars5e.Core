@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.WindowsAzure.Storage.Table;
 using StarWars.Storage.Clients;
-using StarWars5e.Models;
+using StarWars5e.Models.Starship;
+using StarWars5e.Models.Utils;
 
 namespace StarWars.Storage.Repositories
 {
@@ -16,24 +18,32 @@ namespace StarWars.Storage.Repositories
         }
 
 
-        public async Task InsertModifications(List<Modification> modifications, string partitionKey)
+        public async Task Insert(List<Modification> modifications, string partitionKey)
         {
-            foreach (var modification in modifications)
+            
+            var chunkedLists = modifications.ChunkBy(100);
+
+            foreach (var chunkedList in chunkedLists)
             {
-                modification.PartitionKey = partitionKey;
-
-                if (string.IsNullOrEmpty(modification.RowKey))
+                var modificationOperation = new TableBatchOperation();
+                foreach (var modification in chunkedList)
                 {
-                    modification.RowKey = Guid.NewGuid().ToString();
-                }
+                    modification.PartitionKey = partitionKey;
 
-                await _db.AddModification(modification);
+                    if (string.IsNullOrEmpty(modification.RowKey))
+                    {
+                        modification.RowKey = Guid.NewGuid().ToString();
+                    }
+
+                    modificationOperation.Insert(modification);
+                }
+                await _db.AddModifications(modificationOperation);
             }
         }
     }
 
     public interface IModificationRepository
     {
-        Task InsertModifications(List<Modification> modifications, string partitionKey);
+        Task Insert(List<Modification> modifications, string partitionKey);
     }
 }

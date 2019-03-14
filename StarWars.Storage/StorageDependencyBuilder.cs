@@ -25,8 +25,8 @@ namespace StarWars.Storage
             builder.RegisterType<EquipmentRepository>()
                 .As<IEquipmentRepository>();
 
-            builder.RegisterType<BackgroundRepository>()
-                .As<IBackgroundRepository>();
+            builder.RegisterType<ModificationRepository>()
+                .As<IModificationRepository>();
             return builder;
         }
     }
