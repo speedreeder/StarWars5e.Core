@@ -91,7 +91,7 @@ namespace StarWars.Storage.Clients
                     {
                         input.RowKey = Guid.NewGuid().ToString();
                     }
-                    var insertOperation = TableOperation.Insert(input);
+                    var insertOperation = TableOperation.InsertOrMerge(input);
                     await this.monsterTable.ExecuteAsync(insertOperation);
                 }
                 catch (Exception e)
