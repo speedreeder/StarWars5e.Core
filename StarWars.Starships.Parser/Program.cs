@@ -12,7 +12,7 @@ namespace StarWars.Starships.Parser
         public static void Main(string[] args)
         {
             var dependencies = Startup();
-            var modificationProcessor = new CoreModificationProcessor();
+            var modificationProcessor = new ModificationProcessor();
 
             var modifications = modificationProcessor.Process("modifications").Result;
             dependencies.GetService<IModificationRepository>().Insert(modifications, "core").Wait();
