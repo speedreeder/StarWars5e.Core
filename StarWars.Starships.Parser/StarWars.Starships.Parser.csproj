@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <None Remove="Sources\modifications.md" />
+    <None Remove="Sources\starshipSizes.md" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Sources\modifications.md" />
+    <EmbeddedResource Include="Sources\starshipSizes.md" />
   </ItemGroup>
 
   <ItemGroup>

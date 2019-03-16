@@ -13,9 +13,12 @@ namespace StarWars.Starships.Parser
         {
             var dependencies = Startup();
             var modificationProcessor = new ModificationProcessor();
+            var baseSizeProcessor = new BaseSizeProcessor();
 
             var modifications = modificationProcessor.Process("modifications").Result;
             dependencies.GetService<IModificationRepository>().Insert(modifications, "core").Wait();
+
+            var baseSizes = baseSizeProcessor.Process("starshipSizes").Result;
         }
 
         public static AutofacServiceProvider Startup()

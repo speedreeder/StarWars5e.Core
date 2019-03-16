@@ -9,9 +9,9 @@ namespace StarWars.Starships.Parser.Processors.Modifications
 {
     public class BaseSizeProcessor : StarshipBaseProcessor<StarshipBaseSize>
     {
-        private static readonly string[] _savingThrowOptions = {"Strength", "Dexterity", "Constitution"};
+        private static readonly string[] SavingThrowOptions = {"Strength", "Dexterity", "Constitution"};
 
-        public override async Task<List<StarshipBaseSize>> FindBlocks(List<string> lines)
+        public override Task<List<StarshipBaseSize>> FindBlocks(List<string> lines)
         {
             var starshipBaseSizes = new List<StarshipBaseSize>();
             var shipLinesWithSizes = new Dictionary<string, List<string>>();
@@ -32,7 +32,7 @@ namespace StarWars.Starships.Parser.Processors.Modifications
                 starshipBaseSizes.Add(CreateStarShipBaseSize(shipLinesWithSize));
             }
 
-            return starshipBaseSizes;
+            return Task.FromResult(starshipBaseSizes);
         }
 
         private static StarshipBaseSize CreateStarShipBaseSize(KeyValuePair<string, List<string>> shipLinesWithSize)
@@ -42,56 +42,74 @@ namespace StarWars.Starships.Parser.Processors.Modifications
                 Name = shipLinesWithSize.Key
             };
 
-            var strengthNums = Regex.Split(shipLinesWithSize.Value.Find(s => s.Contains("Strength at Tier 0")),
-                @"\-*\d+");
-            starshipBaseSize.Strength = int.Parse(strengthNums[1]);
-            starshipBaseSize.StrengthModifier = int.Parse(strengthNums[2]);
-            var dexNums = Regex.Split(shipLinesWithSize.Value.Find(s => s.Contains("Dexterity at Tier 0")),
-                @"\-*\d+");
-            starshipBaseSize.Dexterity = int.Parse(dexNums[1]);
-            starshipBaseSize.DexterityModifier = int.Parse(strengthNums[2]);
-            var constitutionNums = Regex.Split(shipLinesWithSize.Value.Find(s => s.Contains("Constitution at Tier 0")),
-                @"\-*\d+");
-            starshipBaseSize.Constitution = int.Parse(constitutionNums[1]);
-            starshipBaseSize.ConstitutionModifier = int.Parse(strengthNums[2]);
+            var strengthNums = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Strength at Tier 0")),
+                @"-?\d+");
+            starshipBaseSize.Strength = int.Parse(strengthNums[1].ToString());
+            starshipBaseSize.StrengthModifier = int.Parse(strengthNums[2].ToString());
+            var dexNums = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Dexterity at Tier 0")),
+                @"-?\d+");
+            starshipBaseSize.Dexterity = int.Parse(dexNums[1].ToString());
+            starshipBaseSize.DexterityModifier = int.Parse(dexNums[2].ToString());
+            var constitutionNums = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Constitution at Tier 0")),
+                @"-?\d+");
+            starshipBaseSize.Constitution = int.Parse(constitutionNums[1].ToString());
+            starshipBaseSize.ConstitutionModifier = int.Parse(constitutionNums[2].ToString());
 
-            var hitDice = Regex.Split(shipLinesWithSize.Value.Find(s => s.Contains("Hit Dice at Tier 0")),
+            var hitDice = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Hit Dice at Tier 0")),
                 @"\d+");
-            starshipBaseSize.HitDiceNumberOfDice = int.Parse(hitDice[2]);
-            starshipBaseSize.HitDiceDieType = int.Parse(hitDice[1]);
+            starshipBaseSize.HitDiceNumberOfDice = int.Parse(hitDice[2].ToString());
+            starshipBaseSize.HitDiceDieType = int.Parse(hitDice[1].ToString());
 
-            var maxSuiteSystems = Regex.Split(shipLinesWithSize.Value.Find(s => s.Contains("Maximum Suite Systems:")),
+            var maxSuiteSystems = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Maximum Suite Systems:")),
                 @"\d+");
-            starshipBaseSize.MaxSuiteSystems = int.Parse(maxSuiteSystems[0]);
+            starshipBaseSize.MaxSuiteSystems = maxSuiteSystems.Any() ?  int.Parse(maxSuiteSystems[0].ToString()) : 0;
 
-            var modSlotsAtTier0 = Regex.Split(shipLinesWithSize.Value.Find(s => s.Contains("Modification Slots at Tier 0:")),
+            var modSlotsAtTier0 = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Modification Slots at Tier 0:")),
                 @"\d+");
-            starshipBaseSize.ModSlotsAtTier0 = int.Parse(modSlotsAtTier0[1]);
+            starshipBaseSize.ModSlotsAtTier0 = int.Parse(modSlotsAtTier0[1].ToString());
 
             var stockModificationsLine = shipLinesWithSize.Value.Find(s => s.Contains("Stock Modifications:"));
-            starshipBaseSize.StockModificationNames = stockModificationsLine
-                .Substring(stockModificationsLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase),
-                    stockModificationsLine.IndexOf(", and", StringComparison.InvariantCultureIgnoreCase)).Trim().Split(", ")
-                .ToList();
+            var suiteChoiceSplitIndex =
+                stockModificationsLine.IndexOf(", and", StringComparison.InvariantCultureIgnoreCase);
+
+            //var c = stockModificationsLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase);
+            //var b = suiteChoiceSplitIndex == -1 ? stockModificationsLine.Length : suiteChoiceSplitIndex;
+            //var a = stockModificationsLine
+            //    .Substring(c,
+            //        b - c);
+            //    var e = a.Trim()
+            //    .Split(", ")
+            //    .ToList();
+            //stockModificationsLine
+
             starshipBaseSize.StockModificationSuiteChoices = stockModificationsLine
                 .Substring(stockModificationsLine.IndexOf(", and", StringComparison.InvariantCultureIgnoreCase)).Trim().Split(", ")
                 .ToList();
 
             var savingThrowsLine = shipLinesWithSize.Value.Find(s => s.Contains("Saving Throws:"));
             starshipBaseSize.SavingThrowOptions = savingThrowsLine.Split(' ')
-                .Where(s => _savingThrowOptions.Contains(s)).ToList();
+                .Where(s => SavingThrowOptions.Contains(s)).ToList();
 
             var featLines =
                 shipLinesWithSize.Value.Skip(shipLinesWithSize.Value.IndexOf("<div class='classTable'>")).ToList();
 
             var startIndex = featLines.FindIndex(f => f.Equals("| Tier | Features | "));
-            var endindex = featLines.FindIndex(startIndex, x => x.StartsWith("</div>"));
-            var featTableLines = featLines.Skip(startIndex).Take(endindex - startIndex).ToList();
+            var endIndex = featLines.FindIndex(startIndex, x => x.StartsWith("</div>"));
+            var featTableLines = featLines.Skip(startIndex).Take(endIndex - startIndex).ToList();
 
-            //for (var i = 0; i < featTableLines.Count; i++)
-            //{
-                
-            //}
+            var feats = new List<StarshipFeature>();
+            for (var i = 0; i < featTableLines.Count; i++)
+            {
+                var splitFeatTable = featTableLines[i].Split('|');
+                feats = splitFeatTable[2].Split(',').Select(featNames => new StarshipFeature
+                {
+                    Name = featNames.Trim(),
+                    Tier = int.Parse(splitFeatTable[1])
+                }).ToList();
+
+            }
+
+            starshipBaseSize.Features = feats;
 
 
             //for (var i = 0; i < shipLinesWithSize.Value.Count; i++)
