@@ -29,13 +29,13 @@ namespace StarWars.Starships.Parser.Processors.Modifications
 
             foreach (var shipLinesWithSize in shipLinesWithSizes)
             {
-                starshipBaseSizes.Add(CreateStarShipBaseSize(shipLinesWithSize));
+                starshipBaseSizes.Add(CreateStarShipBaseSizes(shipLinesWithSize));
             }
 
             return Task.FromResult(starshipBaseSizes);
         }
 
-        private static StarshipBaseSize CreateStarShipBaseSize(KeyValuePair<string, List<string>> shipLinesWithSize)
+        private static StarshipBaseSize CreateStarShipBaseSizes(KeyValuePair<string, List<string>> shipLinesWithSize)
         {
             var starshipBaseSize = new StarshipBaseSize
             {
@@ -60,6 +60,10 @@ namespace StarWars.Starships.Parser.Processors.Modifications
             starshipBaseSize.HitDiceNumberOfDice = int.Parse(hitDice[2].ToString());
             starshipBaseSize.HitDiceDieType = int.Parse(hitDice[1].ToString());
 
+            var additionalHitDice = shipLinesWithSize.Value.Find(s => s.Contains("Hit Points for subsequent Hit Die:"));
+            starshipBaseSize.AdditionalHitDiceText = additionalHitDice.Substring(additionalHitDice.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase))
+                .Replace("**", string.Empty).Trim();
+
             var maxSuiteSystems = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Maximum Suite Systems:")),
                 @"\d+");
             starshipBaseSize.MaxSuiteSystems = maxSuiteSystems.Any() ?  int.Parse(maxSuiteSystems[0].ToString()) : 0;
@@ -72,56 +76,86 @@ namespace StarWars.Starships.Parser.Processors.Modifications
             var suiteChoiceSplitIndex =
                 stockModificationsLine.IndexOf(", and", StringComparison.InvariantCultureIgnoreCase);
 
-            //var c = stockModificationsLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase);
-            //var b = suiteChoiceSplitIndex == -1 ? stockModificationsLine.Length : suiteChoiceSplitIndex;
-            //var a = stockModificationsLine
-            //    .Substring(c,
-            //        b - c);
-            //    var e = a.Trim()
-            //    .Split(", ")
-            //    .ToList();
-            //stockModificationsLine
-
-            starshipBaseSize.StockModificationSuiteChoices = stockModificationsLine
-                .Substring(stockModificationsLine.IndexOf(", and", StringComparison.InvariantCultureIgnoreCase)).Trim().Split(", ")
+            var stockModsStartIndex = stockModificationsLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase);
+            var stockModsEndIndex = suiteChoiceSplitIndex == -1 ? stockModificationsLine.Length : suiteChoiceSplitIndex;
+            starshipBaseSize.StockModificationNames = stockModificationsLine
+                .Substring(stockModsStartIndex,
+                    stockModsEndIndex - stockModsStartIndex)
+                .Split(", ")
+                .Select(t => t.Trim().Replace("** ", string.Empty))
                 .ToList();
+
+            if (suiteChoiceSplitIndex > 0)
+            {
+                starshipBaseSize.StockModificationSuiteChoices = stockModificationsLine
+                    .Substring(suiteChoiceSplitIndex).Trim().Split(", ")
+                    .ToList();
+            }
 
             var savingThrowsLine = shipLinesWithSize.Value.Find(s => s.Contains("Saving Throws:"));
             starshipBaseSize.SavingThrowOptions = savingThrowsLine.Split(' ')
                 .Where(s => SavingThrowOptions.Contains(s)).ToList();
 
+            var startingEquipmentLine = shipLinesWithSize.Value.Find(s => s.Contains("**Starting Equipment:**"));
+            var endOfArmorChoices = startingEquipmentLine.IndexOf(';') == -1 ? startingEquipmentLine.Length : startingEquipmentLine.IndexOf(';');
+            var lastIndexOfChoicePre = startingEquipmentLine.LastIndexOf(" Your choice of ", StringComparison.InvariantCultureIgnoreCase) + " Your choice of ".Length;
+            starshipBaseSize.StartingEquipmentShieldChoices =
+                startingEquipmentLine
+                    .Substring(lastIndexOfChoicePre, endOfArmorChoices - lastIndexOfChoicePre)
+                    .Split(',').Select(s => s.Replace(" or ", string.Empty).Trim()).ToList();
+
+            if (endOfArmorChoices != startingEquipmentLine.Length)
+            {
+                starshipBaseSize.StartingEquipmentNonShield = startingEquipmentLine.Substring(endOfArmorChoices)
+                    .Split(';')
+                    .Select(s => s.Replace(" a ", string.Empty).Replace(" and ", string.Empty))
+                    .ToList();
+            }
+
             var featLines =
                 shipLinesWithSize.Value.Skip(shipLinesWithSize.Value.IndexOf("<div class='classTable'>")).ToList();
 
-            var startIndex = featLines.FindIndex(f => f.Equals("| Tier | Features | "));
+            var startIndex = featLines.FindIndex(f =>
+                f.Contains("Tier", StringComparison.InvariantCultureIgnoreCase) &&
+                f.Contains("Features", StringComparison.InvariantCultureIgnoreCase));
             var endIndex = featLines.FindIndex(startIndex, x => x.StartsWith("</div>"));
-            var featTableLines = featLines.Skip(startIndex).Take(endIndex - startIndex).ToList();
+            var featTableLines = featLines.Skip(startIndex + 2).Take(endIndex - startIndex - 3).ToList();
 
             var feats = new List<StarshipFeature>();
             for (var i = 0; i < featTableLines.Count; i++)
             {
                 var splitFeatTable = featTableLines[i].Split('|');
-                feats = splitFeatTable[2].Split(',').Select(featNames => new StarshipFeature
+                var a = splitFeatTable[2].Split(',');
+                var baseFeats = a.Select(featName => new StarshipFeature
                 {
-                    Name = featNames.Trim(),
-                    Tier = int.Parse(splitFeatTable[1])
+                    Name = Regex.Replace(featName.Trim(), @"[^\u0000-\u007F]+", string.Empty),
+                    Tier = int.Parse(Regex.Match(splitFeatTable[1], @"\d+").Value)
                 }).ToList();
 
+                feats.AddRange(baseFeats);
             }
 
-            starshipBaseSize.Features = feats;
+            starshipBaseSize.Features = feats.Where(f => !string.IsNullOrEmpty(f.Name)).ToList();
 
+            foreach (var starshipFeature in starshipBaseSize.Features)
+            {
+                var currentFeatNameLineIndex = featLines.IndexOf($"### {starshipFeature.Name}");
+                var nextFeatNameLineIndex = featLines.IndexOf("### ", currentFeatNameLineIndex) == -1 ? featLines.Count : featLines.IndexOf("### ", currentFeatNameLineIndex);
+                var starshipFeatureContentLines = featLines.Skip(currentFeatNameLineIndex)
+                    .Take(nextFeatNameLineIndex - currentFeatNameLineIndex).Where(s =>
+                        !string.IsNullOrWhiteSpace(s) &&
+                        !s.StartsWith('\\') &&
+                        !s.StartsWith('<')).ToList();
+                if (starshipFeature.Name == "Starship Improvements" && starshipFeatureContentLines.Any(s => s == "#### Additional Modifications"))
+                {
+                    var additionalImprovementLineIndex = starshipFeatureContentLines.IndexOf("#### Additional Modifications");
+                    starshipBaseSize.ModSlotsPerLevel = int.Parse(Regex
+                        .Match(starshipFeatureContentLines[additionalImprovementLineIndex + 1], @"\d+").Value);
+                }
 
-            //for (var i = 0; i < shipLinesWithSize.Value.Count; i++)
-            //{
-            //    if (shipLinesWithSize.Value[i].StartsWith("## ", StringComparison.InvariantCultureIgnoreCase) && !shipLinesWithSize.Value[i].Contains("feature", StringComparison.InvariantCultureIgnoreCase))
-            //    {
-            //        var sizeName = shipLinesWithSize.Value[i].Split(' ')[1];
-            //        var endIndex = shipLinesWithSize.Value.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase) && !x.Contains("feature", StringComparison.InvariantCultureIgnoreCase));
-            //        var shipLines = shipLinesWithSize.Value.Skip(i).Take((endIndex == -1 ? lines.Count - 1 : endIndex) - i).ToList();
-            //        shipLinesWithSizes.Add(sizeName, shipLines);
-            //    }
-            //}
+                starshipFeature.Content = string.Join("\r\n", starshipFeatureContentLines);
+                
+            }
 
             return starshipBaseSize;
         }

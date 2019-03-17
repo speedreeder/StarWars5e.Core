@@ -383,7 +383,7 @@ ___
 | 2nd | Role Specialization, Concentrated Fire |
 | 3rd | Versatile Frigate, Heavy Cannon |
 | 4th | Role Mastery, Tactical Retreat |
-| 5th | Paragon Cruiser, Spinal Mount | 
+| 5th | Paragon Frigate, Spinal Mount | 
 
 </div>
 
@@ -515,7 +515,7 @@ ___
 | 2nd | Role Specialization, Staging Grounds |
 | 3rd | Versatile Cruiser, Capital Railgun |
 | 4th | Role Mastery, Broadside |
-| 5th | Paragon Frigate, Capital Ship | 
+| 5th | Paragon Cruiser, Capital Ship | 
 
 </div>
 
@@ -556,7 +556,7 @@ Your ship gains two Docking Bay suites, which do not count against its total mod
 #### Interdictor 
 Your ship gains the Tractor Beam and Gravity Well Projector modifications, which do not count against its total modifications. Additionally, ships of Large size or smaller have disadvantage on saving throws against your tractor beams.
 
-### Staging Ground
+### Staging Grounds
 Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crew members or troopers deploy, they have advantage on their first ability check, attack roll, or saving throw they make before the end of their next long rest. Once a crew member or troop has benefited from this feature, they can not benefit from it again until they complete a long rest.
 
 ### Versatile Cruiser

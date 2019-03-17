@@ -9,12 +9,6 @@ namespace StarWars.Starships.Parser.Processors
 {
     public abstract class StarshipBaseProcessor<T> where T: class
     {
-        /// <summary>
-        /// Convert a markdown file into a list of starship modifications that can be programmatically interacted with
-        /// </summary>
-        /// <param name="location">Location of the file</param>
-        /// <param name="isRemote">Does an http call need to be made to get this mardown file?</param>
-        /// <returns></returns>
         public async Task<List<T>> Process(string location, bool isRemote = false)
         {
             List<string> lines;
@@ -60,11 +54,6 @@ namespace StarWars.Starships.Parser.Processors
 
         public abstract Task<List<T>> FindBlocks(List<string> lines);
 
-        /// <summary>
-        /// Process a remote file and turn it into a list of strings to be read
-        /// </summary>
-        /// <param name="location"></param>
-        /// <returns></returns>
         private async Task<List<string>> ReadRemoteFile(string location)
         {
             throw new NotImplementedException();

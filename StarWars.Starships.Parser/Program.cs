@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
+using StarWars.Starships.Parser.Processors;
 using StarWars.Starships.Parser.Processors.Modifications;
 using StarWars.Storage;
 using StarWars.Storage.Repositories;
@@ -14,11 +15,14 @@ namespace StarWars.Starships.Parser
             var dependencies = Startup();
             var modificationProcessor = new ModificationProcessor();
             var baseSizeProcessor = new BaseSizeProcessor();
+            var starshipEquipmentProcessor = new StarshipEquipmentProcessor();
 
-            var modifications = modificationProcessor.Process("modifications").Result;
-            dependencies.GetService<IModificationRepository>().Insert(modifications, "core").Wait();
+            //var modifications = modificationProcessor.Process("modifications").Result;
+            //dependencies.GetService<IModificationRepository>().Insert(modifications, "core").Wait();
 
-            var baseSizes = baseSizeProcessor.Process("starshipSizes").Result;
+            //var baseSizes = baseSizeProcessor.Process("starshipSizes").Result;
+
+            var equipment = starshipEquipmentProcessor.Process("equipment").Result;
         }
 
         public static AutofacServiceProvider Startup()

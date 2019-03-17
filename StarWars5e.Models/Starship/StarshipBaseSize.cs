@@ -39,11 +39,24 @@ namespace StarWars5e.Models.Starship
             set => StockModificationSuiteChoices = JsonConvert.DeserializeObject<List<string>>(value);
 
         }
-        public string StartingEquipment { get; set; }
+        [IgnoreProperty]
+        public List<string> StartingEquipmentNonShield { get; set; }
+        public string StartingEquipmentNonShieldJson
+        {
+            get => StartingEquipmentNonShield == null ? "" : JsonConvert.SerializeObject(StartingEquipmentNonShield);
+            set => StartingEquipmentNonShield = JsonConvert.DeserializeObject<List<string>>(value);
+
+        }
+        [IgnoreProperty]
+        public List<string> StartingEquipmentShieldChoices { get; set; }
+        public string StartingEquipmentShieldChoicesJson
+        {
+            get => StartingEquipmentShieldChoices == null ? "" : JsonConvert.SerializeObject(StartingEquipmentShieldChoices);
+            set => StartingEquipmentShieldChoices = JsonConvert.DeserializeObject<List<string>>(value);
+
+        }
         public int ModSlotsPerLevel { get; set; }
         public string AdditionalHitDiceText { get; set; }
-        public string AdditionalModificationsText { get; set; }
-        public string AbilityScoreImprovementText { get; set; }
         [IgnoreProperty]
         public List<string> SavingThrowOptions { get; set; }
         public string SavingThrowOptionsJson
@@ -62,7 +75,7 @@ namespace StarWars5e.Models.Starship
         }
         [IgnoreProperty]
         public List<StarshipFeature> Features { get; set; }
-        public string FeaturesString
+        public string FeaturesJson
         {
             get => Features == null ? "" : JsonConvert.SerializeObject(Features);
             set => Features = JsonConvert.DeserializeObject<List<StarshipFeature>>(value);
