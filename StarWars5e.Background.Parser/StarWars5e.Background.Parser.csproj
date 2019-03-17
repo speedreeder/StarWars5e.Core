@@ -6,15 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Sources\force-powers.md" />
-    <None Remove="Sources\tech-powers.md" />
+    <None Remove="Sources\core.md" />
+    <None Remove="Sources\expanded-content.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Sources\force-powers.md">
+    <EmbeddedResource Include="Sources\core.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sources\tech-powers.md">
+    <EmbeddedResource Include="Sources\expanded-content.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
@@ -27,8 +27,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StarWars.Storage\StarWars.Storage.csproj" />
+    <ProjectReference Include="..\StarWars.Storage\StarWars5e.Storage.csproj" />
     <ProjectReference Include="..\StarWars5e.Factories\StarWars5e.Factories.csproj" />
+    <ProjectReference Include="..\StarWars5e.Models\StarWars5e.Models.csproj" />
   </ItemGroup>
 
 </Project>

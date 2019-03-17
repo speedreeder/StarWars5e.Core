@@ -6,20 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Sources\core.md" />
-    <None Remove="Sources\errata.md" />
-    <None Remove="Sources\expanded.md" />
+    <None Remove="Sources\force-powers.md" />
+    <None Remove="Sources\tech-powers.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Sources\core.md">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <EmbeddedResource Include="Sources\force-powers.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sources\errata.md">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sources\expanded.md">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <EmbeddedResource Include="Sources\tech-powers.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
 
@@ -31,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StarWars.Storage\StarWars.Storage.csproj" />
+    <ProjectReference Include="..\StarWars.Storage\StarWars5e.Storage.csproj" />
     <ProjectReference Include="..\StarWars5e.Factories\StarWars5e.Factories.csproj" />
   </ItemGroup>
 

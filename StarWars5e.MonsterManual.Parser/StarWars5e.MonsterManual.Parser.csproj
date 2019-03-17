@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StarWars.Storage\StarWars.Storage.csproj" />
+    <ProjectReference Include="..\StarWars.Storage\StarWars5e.Storage.csproj" />
     <ProjectReference Include="..\StarWars5e.Models\StarWars5e.Models.csproj" />
   </ItemGroup>
 
