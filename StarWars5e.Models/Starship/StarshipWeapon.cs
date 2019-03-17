@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StarWars.Starships.Parser.Processors
+namespace StarWars5e.Models.Starship
 {
-    class CoreStarshipSizeProcessor
+    class StarshipWeapon
     {
     }
 }

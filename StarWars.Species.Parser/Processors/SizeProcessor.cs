@@ -26,15 +26,15 @@ namespace StarWars.Species.Parser.Processors
             species.SizeMarkdown = trimmed;
             if (trimmed.Contains("Small"))
             {
-                species.Size = Size.Small;
+                species.Size = StarshipSize.Small;
             }
             else if (trimmed.Contains("Medium"))
             {
-                species.Size = Size.Medium;
+                species.Size = StarshipSize.Medium;
             }
             else if (trimmed.Contains("Large"))
             {
-                species.Size = Size.Large;
+                species.Size = StarshipSize.Large;
             }
             else
             {

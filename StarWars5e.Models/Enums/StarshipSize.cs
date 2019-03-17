@@ -1,9 +1,6 @@
 ﻿namespace StarWars5e.Models.Enums
 {
-    /// <summary>
-    /// Reference for the "size" mechanic in Sw5e
-    /// </summary>
-    public enum Size
+    public enum StarshipSize
     {
         Unknown,
         Tiny,

@@ -7,14 +7,14 @@ namespace StarWars5e.Models.Enums
     {
         #region Size Enum
 
-        private static Dictionary<string, Size> sizes = new Dictionary<string, Size>
+        private static Dictionary<string, StarshipSize> sizes = new Dictionary<string, StarshipSize>
         {
-            {"tiny", Size.Tiny},
-            {"small", Size.Small},
-            {"medium", Size.Medium},
-            {"large", Size.Large},
-            {"huge", Size.Huge},
-            {"gargantuan", Size.Gargantuan}
+            {"tiny", StarshipSize.Tiny},
+            {"small", StarshipSize.Small},
+            {"medium", StarshipSize.Medium},
+            {"large", StarshipSize.Large},
+            {"huge", StarshipSize.Huge},
+            {"gargantuan", StarshipSize.Gargantuan}
         };
 
         /// <summary>
@@ -22,20 +22,20 @@ namespace StarWars5e.Models.Enums
         /// </summary>
         /// <param name="input">Value to check</param>
         /// <returns>The size value, or unknown if the value isn't matched</returns>
-        public static Size RetrieveSize(string input)
+        public static StarshipSize RetrieveSize(string input)
         {
             var result = sizes.TryGetValue(input.ToLower(), out var found);
             return result
                 ? found
-                : Size.Unknown;
+                : StarshipSize.Unknown;
         }
 
         /// <summary>
         /// Given a size this will return the appropriate string (with casing)
         /// </summary>
-        /// <param name="input">a <see cref="Size"/></param>
+        /// <param name="input">a <see cref="StarshipSize"/></param>
         /// <returns>String representation</returns>
-        public static string ConvertSizeToString(Size input)
+        public static string ConvertSizeToString(StarshipSize input)
         {
             var found = sizes.FirstOrDefault(s => s.Value == input);
             return found.Key;
@@ -70,7 +70,7 @@ namespace StarWars5e.Models.Enums
         /// <summary>
         /// Given a monster type this will return the appropriate string (with casing)
         /// </summary>
-        /// <param name="input">a <see cref="Size"/></param>
+        /// <param name="input">a <see cref="StarshipSize"/></param>
         /// <returns>String representation</returns>
         public static string ConvertMonsterTypeToString(MonsterType input)
         {

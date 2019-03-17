@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 
-namespace StarWars.Starships.Parser.Processors.Modifications
+namespace StarWars.Starships.Parser.Processors
 {
     public class ModificationProcessor : StarshipBaseProcessor<Modification>
     {

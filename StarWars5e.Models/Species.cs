@@ -321,7 +321,7 @@ namespace StarWars5e.Models
         ///  The size for the species
         /// </summary>
         [JsonProperty("size")]
-        public Size Size { get; set; }
+        public StarshipSize Size { get; set; }
 
         /// <summary>
         ///  The size description of the species

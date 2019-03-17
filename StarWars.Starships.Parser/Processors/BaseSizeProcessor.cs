@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.Starship;
 
-namespace StarWars.Starships.Parser.Processors.Modifications
+namespace StarWars.Starships.Parser.Processors
 {
     public class BaseSizeProcessor : StarshipBaseProcessor<StarshipBaseSize>
     {
@@ -29,13 +29,13 @@ namespace StarWars.Starships.Parser.Processors.Modifications
 
             foreach (var shipLinesWithSize in shipLinesWithSizes)
             {
-                starshipBaseSizes.Add(CreateStarShipBaseSizes(shipLinesWithSize));
+                starshipBaseSizes.Add(CreateStarshipBaseSizes(shipLinesWithSize));
             }
 
             return Task.FromResult(starshipBaseSizes);
         }
 
-        private static StarshipBaseSize CreateStarShipBaseSizes(KeyValuePair<string, List<string>> shipLinesWithSize)
+        private static StarshipBaseSize CreateStarshipBaseSizes(KeyValuePair<string, List<string>> shipLinesWithSize)
         {
             var starshipBaseSize = new StarshipBaseSize
             {
