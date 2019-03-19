@@ -1,6 +1,6 @@
 ﻿using StarWars5e.Models.Monster;
 
-namespace StarWars.MonsterManual.Parser.SectionProcessors
+namespace StarWars5e.MonsterManual.Parser.SectionProcessors
 {
     interface IMonsterSectionProcessor
     {

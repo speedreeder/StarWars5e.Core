@@ -1,19 +1,18 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using StarWars.Starships.Parser.Processors;
-using StarWars.Storage;
-using StarWars.Storage.Repositories;
+using StarWars5e.Starships.Parser.Processors;
+using StarWars5e.Storage;
 
-namespace StarWars.Starships.Parser
+namespace StarWars5e.Starships.Parser
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var dependencies = Startup();
-            var modificationProcessor = new ModificationProcessor();
-            var baseSizeProcessor = new BaseSizeProcessor();
+            var modificationProcessor = new StarshipModificationProcessor();
+            var starshipSizeProcessor = new StarshipSizeProcessor();
             var starshipEquipmentProcessor = new StarshipEquipmentProcessor();
 
             //var modifications = modificationProcessor.Process("modifications").Result;

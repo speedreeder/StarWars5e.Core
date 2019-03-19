@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Reflection.Metadata;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Background.Parser.Processors
+namespace StarWars5e.Background.Parser.Processors
 {
     public class CoreProcessor
     {

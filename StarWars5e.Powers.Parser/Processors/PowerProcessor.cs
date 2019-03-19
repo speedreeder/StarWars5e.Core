@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     /// <summary>
     /// Class that takes an individual power block and converts it from markdown into usable data

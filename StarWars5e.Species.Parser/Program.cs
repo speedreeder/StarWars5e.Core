@@ -1,13 +1,12 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using StarWars.Storage;
-using StarWars.Storage.Repositories;
 using StarWars5e.Factories;
+using StarWars5e.Storage;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.Species.Parser
+namespace StarWars5e.Species.Parser
 {
     class Program
     {

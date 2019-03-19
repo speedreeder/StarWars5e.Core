@@ -1,4 +1,4 @@
-﻿namespace StarWars.Species.Parser.Processors
+﻿namespace StarWars5e.Species.Parser.Processors
 {
     public enum SpeciesSection
     {

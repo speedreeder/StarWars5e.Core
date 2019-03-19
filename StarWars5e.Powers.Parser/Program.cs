@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using StarWars.Storage;
-using StarWars.Storage.Repositories;
-using StarWars5e.Factories;
 using StarWars5e.Models;
+using StarWars5e.Storage;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.Powers.Parser
+namespace StarWars5e.Powers.Parser
 {
     class Program
     {

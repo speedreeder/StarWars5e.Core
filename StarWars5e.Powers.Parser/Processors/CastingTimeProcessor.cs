@@ -4,7 +4,7 @@ using System.Linq;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     /// <summary>
     /// This populates the type and number of units of time that it takes to cast this power.

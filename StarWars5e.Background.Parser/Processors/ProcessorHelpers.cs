@@ -2,7 +2,7 @@
 using System.Linq;
 using StarWars5e.Models.Enums;
 
-namespace StarWars.Background.Parser.Processors
+namespace StarWars5e.Background.Parser.Processors
 {
     public static class ProcessorHelpers
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     /// <summary>
     /// This populates the duration of a power

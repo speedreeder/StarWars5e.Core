@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Net.Mime;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using StarWars.Powers.Parser.Processors;
-using StarWars.Storage;
-using StarWars.Storage.Repositories;
 using StarWars5e.Models.ViewModels;
+using StarWars5e.Powers.Parser.Processors;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.Powers.Parser
+namespace StarWars5e.Powers.Parser
 {
 
     /// <summary>

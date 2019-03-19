@@ -1,9 +1,9 @@
-﻿    using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Species.Parser.Processors
+namespace StarWars5e.Species.Parser.Processors
 {
     public class NamesProcessor : ISpeciesProcessor
     {

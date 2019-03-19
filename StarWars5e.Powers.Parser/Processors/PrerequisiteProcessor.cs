@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     /// <summary>
     /// This creates a single string that lays out all of the requirements to learn this power

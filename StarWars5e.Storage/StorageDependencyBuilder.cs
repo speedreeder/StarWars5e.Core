@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using StarWars.Storage.Clients;
-using StarWars.Storage.Repositories;
+using StarWars5e.Storage.Clients;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.Storage
+namespace StarWars5e.Storage
 {
     public class StorageDependencyBuilder
     {

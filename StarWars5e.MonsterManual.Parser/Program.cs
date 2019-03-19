@@ -2,9 +2,10 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using StarWars.Storage;
+using StarWars5e.Storage;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.MonsterManual.Parser
+namespace StarWars5e.MonsterManual.Parser
 {
     class Program
     {

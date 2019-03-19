@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using StarWars.Background.Parser.Processors;
+using StarWars5e.Background.Parser.Processors;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Background.Parser
+namespace StarWars5e.Background.Parser
 {
     public class BackgroundDocumentParser
     {

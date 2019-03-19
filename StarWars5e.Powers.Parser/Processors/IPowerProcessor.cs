@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     public interface IPowerProcessor
     {

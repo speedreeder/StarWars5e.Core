@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
-using StarWars.Storage.Clients;
 using StarWars5e.Models.Starship;
 using StarWars5e.Models.Utils;
+using StarWars5e.Storage.Clients;
 
-namespace StarWars.Storage.Repositories
+namespace StarWars5e.Storage.Repositories
 {
     public class ModificationRepository : IModificationRepository
     {

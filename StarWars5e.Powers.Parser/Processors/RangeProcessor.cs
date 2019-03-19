@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     /// <summary>
     /// This processor will determine Range, Shape

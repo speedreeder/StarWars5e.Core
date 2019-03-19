@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 
-namespace StarWars.Starships.Parser.Processors
+namespace StarWars5e.Starships.Parser.Processors
 {
-    public class ModificationProcessor : StarshipBaseProcessor<Modification>
+    public class StarshipModificationProcessor : StarshipBaseProcessor<Modification>
     {
         public override async Task<List<Modification>> FindBlocks(List<string> lines)
         {

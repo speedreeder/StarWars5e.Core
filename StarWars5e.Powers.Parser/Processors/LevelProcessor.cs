@@ -4,7 +4,7 @@ using System.Linq;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Powers.Parser.Processors
+namespace StarWars5e.Powers.Parser.Processors
 {
     /// <summary>
     /// This builds the level and alignment for a power

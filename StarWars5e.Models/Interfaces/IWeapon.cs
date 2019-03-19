@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
+using StarWars5e.Models.ViewModels;
 
 namespace StarWars5e.Models.Interfaces
 {

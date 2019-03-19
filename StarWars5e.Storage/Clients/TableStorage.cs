@@ -8,7 +8,7 @@ using StarWars5e.Models.Interfaces;
 using StarWars5e.Models.Monster;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Storage.Clients
+namespace StarWars5e.Storage.Clients
 {
     public interface ITableStorageConnection
     {

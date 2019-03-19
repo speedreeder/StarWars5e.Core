@@ -1,4 +1,4 @@
-﻿namespace StarWars5e.Models.Equipment
+﻿namespace StarWars5e.Models.Enums
 {
     /// <summary>
     /// What basic family of weapon does this fall into

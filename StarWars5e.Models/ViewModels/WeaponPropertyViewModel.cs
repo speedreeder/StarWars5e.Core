@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace StarWars5e.Models.Equipment
+namespace StarWars5e.Models.ViewModels
 {
     /// <summary>
     /// KvPairs of items associated with a weapon

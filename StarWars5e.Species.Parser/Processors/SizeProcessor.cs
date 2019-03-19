@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Species.Parser.Processors
+namespace StarWars5e.Species.Parser.Processors
 {
     public class SizeProcessor: ISpeciesProcessor
     {

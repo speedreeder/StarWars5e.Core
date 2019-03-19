@@ -1,4 +1,4 @@
-﻿namespace StarWars.MonsterManual.Parser.SectionProcessors
+﻿namespace StarWars5e.MonsterManual.Parser.SectionProcessors
 {
     enum MonsterSections
     {

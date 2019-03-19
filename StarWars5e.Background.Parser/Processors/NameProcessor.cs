@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Background.Parser.Processors
+namespace StarWars5e.Background.Parser.Processors
 {
     public class NameProcessor : IBackgroundProcessor
     {

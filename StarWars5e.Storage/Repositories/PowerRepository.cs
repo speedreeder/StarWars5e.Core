@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using StarWars.Storage.Clients;
 using StarWars5e.Models;
+using StarWars5e.Storage.Clients;
 
-namespace StarWars.Storage.Repositories
+namespace StarWars5e.Storage.Repositories
 {
     public class PowerRepository : IPowerRepository
     {

@@ -5,13 +5,11 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using StarWars.MonsterManual.Parser.SectionProcessors;
-using StarWars.Storage;
 using StarWars5e.Models.Monster;
+using StarWars5e.MonsterManual.Parser.SectionProcessors;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.MonsterManual.Parser
+namespace StarWars5e.MonsterManual.Parser
 {
     /// <summary>
     /// This works through parsing an entire manual

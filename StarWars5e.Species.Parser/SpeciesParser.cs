@@ -5,11 +5,11 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using StarWars.Species.Parser.Processors;
-using StarWars.Storage.Repositories;
 using StarWars5e.Models.ViewModels;
+using StarWars5e.Species.Parser.Processors;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.Species.Parser
+namespace StarWars5e.Species.Parser
 {
     public class SpeciesParser
     {

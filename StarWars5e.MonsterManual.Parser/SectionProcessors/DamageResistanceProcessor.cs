@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using StarWars5e.Models.Monster;
 
-namespace StarWars.MonsterManual.Parser.SectionProcessors
+namespace StarWars5e.MonsterManual.Parser.SectionProcessors
 {
     class DamageResistanceProcessor: IMonsterSectionProcessor
     {

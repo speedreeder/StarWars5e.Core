@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using StarWars5e.Models.Monster;
 using StarWars5e.Models.Utils;
 
-namespace StarWars.MonsterManual.Parser.SectionProcessors
+namespace StarWars5e.MonsterManual.Parser.SectionProcessors
 {
     class LegendaryActionsProcessor : IMonsterSectionProcessor
     {

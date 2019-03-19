@@ -3,6 +3,7 @@ using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Interfaces;
+using StarWars5e.Models.ViewModels;
 
 namespace StarWars5e.Models.Equipment
 {

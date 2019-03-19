@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Background.Parser.Processors
+namespace StarWars5e.Background.Parser.Processors
 {
     public interface IBackgroundProcessor
     {

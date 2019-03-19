@@ -5,9 +5,9 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.Starship;
 
-namespace StarWars.Starships.Parser.Processors
+namespace StarWars5e.Starships.Parser.Processors
 {
-    public class BaseSizeProcessor : StarshipBaseProcessor<StarshipBaseSize>
+    public class StarshipSizeProcessor : StarshipBaseProcessor<StarshipBaseSize>
     {
         private static readonly string[] SavingThrowOptions = {"Strength", "Dexterity", "Constitution"};
 

@@ -5,13 +5,13 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using StarWars.Storage.Repositories;
 using StarWars5e.Factories;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Interfaces;
 using StarWars5e.Models.ViewModels;
+using StarWars5e.Storage.Repositories;
 
-namespace StarWars.Equipment.Import
+namespace StarWars5e.Equipment.Import
 {
     public class EquipmentProcessor
     {

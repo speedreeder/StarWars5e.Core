@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.ViewModels;
 
-namespace StarWars.Species.Parser.Processors
+namespace StarWars5e.Species.Parser.Processors
 {
     public interface ISpeciesProcessor
     {
