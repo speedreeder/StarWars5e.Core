@@ -18,7 +18,7 @@ namespace StarWars5e.Storage.Repositories
         }
 
 
-        public async Task Insert(List<Modification> modifications, string partitionKey)
+        public async Task Insert(List<StarshipModification> modifications, string partitionKey)
         {
             
             var chunkedLists = modifications.ChunkBy(100);
@@ -44,6 +44,6 @@ namespace StarWars5e.Storage.Repositories
 
     public interface IModificationRepository
     {
-        Task Insert(List<Modification> modifications, string partitionKey);
+        Task Insert(List<StarshipModification> modifications, string partitionKey);
     }
 }

@@ -7,11 +7,11 @@ using StarWars5e.Models.Starship;
 
 namespace StarWars5e.Starships.Parser.Processors
 {
-    public class StarshipModificationProcessor : StarshipBaseProcessor<Modification>
+    public class StarshipModificationProcessor : StarshipBaseProcessor<StarshipModification>
     {
-        public override async Task<List<Modification>> FindBlocks(List<string> lines)
+        public override async Task<List<StarshipModification>> FindBlocks(List<string> lines)
         {
-            var modifications = new List<Modification>();
+            var modifications = new List<StarshipModification>();
 
             var engineeringSystemsLines = new List<string>();
             var operationSystemsLines = new List<string>();
@@ -56,12 +56,12 @@ namespace StarWars5e.Starships.Parser.Processors
             return modifications;
         }
 
-        private static Task<List<Modification>> CreateModifications(List<string> systemLines, ModificationType type)
+        private static Task<List<StarshipModification>> CreateModifications(List<string> systemLines, ModificationType type)
         {
-            var modifications = new List<Modification>();
+            var modifications = new List<StarshipModification>();
             for (var i = 0; i < systemLines.Count; i++)
             {
-                var modification = new Modification(type);
+                var modification = new StarshipModification(type);
 
                 if (!systemLines[i].StartsWith("### ")) continue;
 

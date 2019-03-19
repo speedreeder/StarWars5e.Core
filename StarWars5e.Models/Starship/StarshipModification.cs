@@ -5,9 +5,9 @@ using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
 {
-    public class Modification : TableEntity
+    public class StarshipModification : TableEntity
     {
-        public Modification(ModificationType modificationType)
+        public StarshipModification(ModificationType modificationType)
         {
             Type = (int) modificationType;
         }

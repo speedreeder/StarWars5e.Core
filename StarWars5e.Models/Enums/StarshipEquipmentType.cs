@@ -5,6 +5,7 @@
         Armor,
         Shield,
         Weapon,
+        Ammunition,
         Hyperdrive,
         Navcomputer
     }
