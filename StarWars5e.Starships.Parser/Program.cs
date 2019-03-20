@@ -14,14 +14,20 @@ namespace StarWars5e.Starships.Parser
             var modificationProcessor = new StarshipModificationProcessor();
             var starshipSizeProcessor = new StarshipSizeProcessor();
             var starshipEquipmentProcessor = new StarshipEquipmentProcessor();
-
+            var starshipVentureProcessor = new StarshipVentureProcessor();
+            var starshipChapterRulesProcessor = new StarshipChapterRulesProcessor();
+            var starshipDeploymentProcessor = new StarshipDeploymentProcessor();
 
             //var modifications = modificationProcessor.Process("modifications").Result;
             //dependencies.GetService<IModificationRepository>().Insert(modifications, "core").Wait();
 
             //var baseSizes = baseSizeProcessor.Process("starshipSizes").Result;
 
-            var equipment = starshipEquipmentProcessor.Process("equipment").Result;
+            //var equipment = starshipEquipmentProcessor.Process("equipment").Result;
+            //var ventures = starshipVentureProcessor.Process("sotg").Result;
+
+            var rules = starshipChapterRulesProcessor.Process("sotg").Result;
+            //var deployments = starshipDeploymentProcessor.Process("sotg").Result;
         }
 
         public static AutofacServiceProvider Startup()
