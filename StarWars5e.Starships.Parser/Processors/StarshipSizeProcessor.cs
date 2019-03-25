@@ -16,13 +16,17 @@ namespace StarWars5e.Starships.Parser.Processors
             var starshipBaseSizes = new List<StarshipBaseSize>();
             var shipLinesWithSizes = new Dictionary<string, List<string>>();
 
-            for (var i = 0; i < lines.Count; i++)
+            var shipLinesStart = lines.FindIndex(f => f.StartsWith("## Tiny Ships"));
+            var shipLinesEnd = lines.FindIndex(shipLinesStart, f => f == "## Variant: Space Stations");
+            var shipSectionLines = lines.Skip(shipLinesStart).Take(shipLinesEnd - shipLinesStart).ToList();
+
+            for (var i = 0; i < shipSectionLines.Count; i++)
             {
-                if (lines[i].StartsWith("## ", StringComparison.InvariantCultureIgnoreCase) && !lines[i].Contains("feature", StringComparison.InvariantCultureIgnoreCase))
+                if (shipSectionLines[i].StartsWith("## ", StringComparison.InvariantCultureIgnoreCase) && !shipSectionLines[i].Contains("feature", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var sizeName = lines[i].Split(' ')[1];
-                    var endIndex = lines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase) && !x.Contains("feature", StringComparison.InvariantCultureIgnoreCase));
-                    var shipLines = lines.Skip(i).Take((endIndex == -1 ? lines.Count - 1 : endIndex) - i).ToList();
+                    var sizeName = shipSectionLines[i].Split(' ')[1];
+                    var endIndex = shipSectionLines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase) && !x.Contains("feature", StringComparison.InvariantCultureIgnoreCase));
+                    var shipLines = shipSectionLines.Skip(i).Take((endIndex == -1 ? shipSectionLines.Count - 1 : endIndex) - i).ToList();
                     shipLinesWithSizes.Add(sizeName, shipLines);
                 }
             }
@@ -99,7 +103,7 @@ namespace StarWars5e.Starships.Parser.Processors
             var startingEquipmentLine = shipLinesWithSize.Value.Find(s => s.Contains("**Starting Equipment:**"));
             var endOfArmorChoices = startingEquipmentLine.IndexOf(';') == -1 ? startingEquipmentLine.Length : startingEquipmentLine.IndexOf(';');
             var lastIndexOfChoicePre = startingEquipmentLine.LastIndexOf(" Your choice of ", StringComparison.InvariantCultureIgnoreCase) + " Your choice of ".Length;
-            starshipBaseSize.StartingEquipmentShieldChoices =
+            starshipBaseSize.StartingEquipmentArmorChoices =
                 startingEquipmentLine
                     .Substring(lastIndexOfChoicePre, endOfArmorChoices - lastIndexOfChoicePre)
                     .Split(',').Select(s => s.Replace(" or ", string.Empty).Trim()).ToList();

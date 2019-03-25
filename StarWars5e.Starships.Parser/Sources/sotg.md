@@ -4,7 +4,7 @@
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he *Star Wars* 5th Edition roleplaying game is<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; about storytelling in worlds of lightsabers and the Force. It shares elements with childhood games of make-believe. Like those games, SW5e is driven by imagination. It’s about picturing the towering AT-AT beneath the stormy night sky and imagining how a troup of solider might overcome the challenges that scene presents.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he *Star Wars* 5th Edition roleplaying game is<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; about storytelling in worlds of lightsabers and the Force. It shares elements with childhood games of make-believe. Like those games, SW5e is driven by imagination. Itï¿½s about picturing the towering AT-AT beneath the stormy night sky and imagining how a troup of solider might overcome the challenges that scene presents.
 
 This book is designed to add another significant layer to your SW5e experience. The rules are designed to work alongside the traditional SW5e ruleset, and so an experienced player should have no trouble jumping right into the book. For the less experienced-or more curious-player, this Introduction discusses the basics.
 
@@ -20,7 +20,7 @@ This book is designed to add another significant layer to your SW5e experience. 
 
 </div>
 
-Unlike a game of make-believe, D&D gives structure to the stories, a way of determining the consequences of the adventurers’ action. Players roll dice to resolve whether their attacks hit or miss or whether their starship can scale a skim the surface of a star destroyer, break the lock on a concussion missile, or pull off some other dangerous task. Anything is possible, but the dice make some outcomes more probable than others.
+Unlike a game of make-believe, D&D gives structure to the stories, a way of determining the consequences of the adventurersï¿½ action. Players roll dice to resolve whether their attacks hit or miss or whether their starship can scale a skim the surface of a star destroyer, break the lock on a concussion missile, or pull off some other dangerous task. Anything is possible, but the dice make some outcomes more probable than others.
 
 <div class='descriptive'>
 
@@ -44,13 +44,13 @@ Unlike a game of make-believe, D&D gives structure to the stories, a way of dete
 
 &emsp;In the Dungeons and Dragons game, each player creates an adventurer (also called a character) and teams up with other adventurers (played by friends). Working together, the group might obtain a freighter and take to the stars, expanding the scope and potential of their game. They might become pirates, the scourge of the Outer Rim, or they may accept missions from a leading faction. They may become smugglers, taking jobs as they see fit, or become bounty hunters in the employee of a powerful hutt.
 
-One player, however, takes on the role of the Game Master (GM), the game’s lead storyteller and referee. The GM creates adventures for the characters, who navigate its hazards and decide which paths to explore. The GM might describe an ongoing naval battle, and the players decide what they want their adventurers to do. Will they choose a side and join in the combat? Will they attempt to mediate a truce? Or will they simply choose a new destination?
+One player, however, takes on the role of the Game Master (GM), the gameï¿½s lead storyteller and referee. The GM creates adventures for the characters, who navigate its hazards and decide which paths to explore. The GM might describe an ongoing naval battle, and the players decide what they want their adventurers to do. Will they choose a side and join in the combat? Will they attempt to mediate a truce? Or will they simply choose a new destination?
 
-Then the GM determines the results of the adventurers’ actions and narrates what they experience. Because the GM can improvise to react to anything the players attempt, D&D is infinitely flexible, and each adventure can be exciting and unexpected.
+Then the GM determines the results of the adventurersï¿½ actions and narrates what they experience. Because the GM can improvise to react to anything the players attempt, D&D is infinitely flexible, and each adventure can be exciting and unexpected.
 
-The game has no real end; when one story or quest wraps up, another one can begin, creating an ongoing story called a **campaign**. Many people who play the game keep their campaigns going for months or years, meeting with their friends every week or so to pick up the story where they left off. The adventurers grow in might as the campaign continues. Each force defeated, each adventure completed, and each relic recovered not only adds to the continuing story, but also earns the adventurers new capabilities. This increase in power is reflected by an adventurer’s level and deployment rank, as well as their starship's tier.
+The game has no real end; when one story or quest wraps up, another one can begin, creating an ongoing story called a **campaign**. Many people who play the game keep their campaigns going for months or years, meeting with their friends every week or so to pick up the story where they left off. The adventurers grow in might as the campaign continues. Each force defeated, each adventure completed, and each relic recovered not only adds to the continuing story, but also earns the adventurers new capabilities. This increase in power is reflected by an adventurerï¿½s level and deployment rank, as well as their starship's tier.
 
-There’s no winning and losing in the Dungeons and Dragons game—at least, not the way those terms are usually understood. Together, the GM and the players create an exciting story of bold adventurers who confront deadly perils. Sometimes an adventurer might come to a grisly end, dispatched by a Sith lord. The party itself might meet it's devise should it bite off more than it can chew in a starship encounter. Even so, the other adventurers can beseech a powerful Jedi to revive their fallen comrade, or the players might choose (or be forced) to create new characters to carry on. The group might fail to complete an adventure successfully, but if everyone had a good time and created a memorable story, they all win.
+Thereï¿½s no winning and losing in the Dungeons and Dragons gameï¿½at least, not the way those terms are usually understood. Together, the GM and the players create an exciting story of bold adventurers who confront deadly perils. Sometimes an adventurer might come to a grisly end, dispatched by a Sith lord. The party itself might meet it's devise should it bite off more than it can chew in a starship encounter. Even so, the other adventurers can beseech a powerful Jedi to revive their fallen comrade, or the players might choose (or be forced) to create new characters to carry on. The group might fail to complete an adventure successfully, but if everyone had a good time and created a memorable story, they all win.
 
 ## Take to the Stars
 One of the premier components of *Star Wars* 5th Edition, versus a traditional Dungeons and Dragons campaign, is the wide variety of planets a character can visit and explore. To facilitate and encourage that experience, adventurers need a means to travel.
@@ -68,7 +68,7 @@ But if your players want to journey among the stars, this book is designed to th
 ## Using This Book
 The *Starships of the Galaxy* is divided into three parts.
 
-**Part 1** is about taking your SW5e character, adopting a deployment, and designing a ship. It includes information on the five main deployments, the five ship size classifications, ship upgrades, ship equipment, and the customization options that you can choose from. Many of the rules in part 1 rely on material in parts 2 and 3. If you come across a game concept in part 1 that you don’t understand, consult the book’s index. 
+**Part 1** is about taking your SW5e character, adopting a deployment, and designing a ship. It includes information on the five main deployments, the five ship size classifications, ship upgrades, ship equipment, and the customization options that you can choose from. Many of the rules in part 1 rely on material in parts 2 and 3. If you come across a game concept in part 1 that you donï¿½t understand, consult the bookï¿½s index. 
 
 **Part 2** details the rules of how to run this portion of the game, beyond the basics described in this introduction. This part covers where the rules deviate from the ground game, and where they remain the same. 
 
@@ -112,7 +112,7 @@ Advantage and Disadvantage function identical to the ground game; with advantage
 In the same vein, while latter chapters contain broad strokes for the game's rules, certain deployment or ship features override those rules, creating an exception to how the rest of the game works. Remember this: if a specific rule contradicts a general rule, the specific rule wins.
 
 ### Round Down
-There’s one more general rule you need to know at the outset. Whenever you divide a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater, unless otherwise specified.
+Thereï¿½s one more general rule you need to know at the outset. Whenever you divide a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater, unless otherwise specified.
 
 ## What It Brings
 The **Starships of the Galaxy** is designed to be an *in addition to* rather than *instead of*. The rules here, predominantly, function identically to the ground game, but the features and boons achieved here are designed to be kept separate. While features of the ground game, such as your characters' species, classes, backgrounds, and customization options impact your character's prowess in the space game, the space game should not affect your characters in the ground game. 
@@ -133,9 +133,9 @@ Before you dive into step 1 below, think about where your adventurer would be mo
 
 Additionally, what kind of ship, and your intended purpose, can impact these decisions. Do you want to be a soldier in the Imperial Navy, piloting a TIE fighter and leading a squadron? Or are you more inclined to travel as a mercenary aboard a light freighter, taking jobs as you see fit in order to keep your ship in space? Maybe you instead want to be a bounty hunter in an assault craft, tracking your quarry to the Outer Rim, and beyond?
 
-Once you have an idea in mind, follow these steps in order, making decisions that reflect the character and ship you want. Your conception of your character and starship might evolve with each choice you make. What’s important is that you come to the table with a character you’re excited to play.
+Once you have an idea in mind, follow these steps in order, making decisions that reflect the character and ship you want. Your conception of your character and starship might evolve with each choice you make. Whatï¿½s important is that you come to the table with a character youï¿½re excited to play.
 
-Throughout this section, we use the term **deployment sheet** and **starship sheet** to mean whatever you use to track your character, whether it’s a formal sheet (like the ones at the end of these rules), some form of digital record, or a piece of notebook paper. The official SW5e sheets are a fine place to start until you know what information you need and how you use it during the game.
+Throughout this section, we use the term **deployment sheet** and **starship sheet** to mean whatever you use to track your character, whether itï¿½s a formal sheet (like the ones at the end of these rules), some form of digital record, or a piece of notebook paper. The official SW5e sheets are a fine place to start until you know what information you need and how you use it during the game.
 
 > ##### Building the Millennium Falcon
 > Each step of character creation includes an example of that step, with a player building the iconic starship the Millennium Falcon, as it is portrayed during the events of Episode IV.
@@ -143,9 +143,9 @@ Throughout this section, we use the term **deployment sheet** and **starship she
 \columnbreak
 
 ### 1. Choose a Deployment
-Every character has a role on the ship. There are five major roles directly tied to the control of a starship: coordinator, gunner, mechanic, operator, and pilot. How your character interacts with your ship—or enemy ships—is determined by where they are deployed on the ship. The **Deployments** chapter provides more information about each deployment.
+Every character has a role on the ship. There are five major roles directly tied to the control of a starship: coordinator, gunner, mechanic, operator, and pilot. How your character interacts with your shipï¿½or enemy shipsï¿½is determined by where they are deployed on the ship. The **Deployments** chapter provides more information about each deployment.
 
-The deployment you choose is the first impactful decision you make when you adopt the space portion of your campaign. Each of the five deployments has a unique and tangible function, and many of them interact with—and synergize—with your character's species and class features. As you progress through the ranks of your chosen deployment, you unlock unique features that augment and enhance your interaction with that deployment, potentially granting you new actions, or simply improving the actions already available to your deployment.
+The deployment you choose is the first impactful decision you make when you adopt the space portion of your campaign. Each of the five deployments has a unique and tangible function, and many of them interact withï¿½and synergizeï¿½with your character's species and class features. As you progress through the ranks of your chosen deployment, you unlock unique features that augment and enhance your interaction with that deployment, potentially granting you new actions, or simply improving the actions already available to your deployment.
 
 #### Rank
 Typically, a character starts their space journey at deployment rank 0, and advances through the ranks (up to 5th) over time. A rank 0 character is typically inexperienced in the ways of their starship, although he or she might have been on a starship previously.
@@ -167,16 +167,16 @@ A crew is nothing without its starship, and this chapter covers the acquisition 
 What starship you acquire is the second impactful decision you make when you adopt the space portion of your campaign. Each size category of starship has unique and tangible features, and determines what kind of crew your starship can support. A Small starship, for instance, can support 1-2 crew members at tier 0, while a Medium starship can support an entire adventuring party. At larger sizes, the crew shifts into the hundreds and thousands of crew members a ship can support.
 
 #### Tier
-Once you've obtained your starship—through any number of ways—you gain the ability to upgrade your ship. Typically, like deployments, starships are obtained at tier 0. A tier 0 ship is typically newly constructed, or otherwise not yet battle tested or broken in.
+Once you've obtained your starshipï¿½through any number of waysï¿½you gain the ability to upgrade your ship. Typically, like deployments, starships are obtained at tier 0. A tier 0 ship is typically newly constructed, or otherwise not yet battle tested or broken in.
 
-Starting off at tier 0 marks the beginning of your starships journey and evolution. Over time, with the use of resources and workers—and credits—a starship can be upgraded from tier 0 all the way up to tier 5, unlocking unique features—and choices—as it improves.
+Starting off at tier 0 marks the beginning of your starships journey and evolution. Over time, with the use of resources and workersï¿½and creditsï¿½a starship can be upgraded from tier 0 all the way up to tier 5, unlocking unique featuresï¿½and choicesï¿½as it improves.
 
 #### Hit Points and Hit Dice
-Your starship’s hit points define how tough your ship is in combat and other dangerous situations. Your hit points are determined by your Hit Dice (short for Hit Point Dice).
+Your starshipï¿½s hit points define how tough your ship is in combat and other dangerous situations. Your hit points are determined by your Hit Dice (short for Hit Point Dice).
 
 At tier 0, your starship has a varying quantity and size of Hit Die, depending on its size category. Your starship starts with hit points equal to the highest roll of that die, as well as the average roll for each additional Hit Die. You also add your Constitution modifier to each die. This is your **hit point maximum**.
 
-Record your starship’s hit points on your starship sheet. Also record the type of Hit Die your starship uses and the number of Hit Dice it has. After you conduct repairs, you can spend Hit Dice to regain hit points (see “Repairs” in the Adventuring section).
+Record your starshipï¿½s hit points on your starship sheet. Also record the type of Hit Die your starship uses and the number of Hit Dice it has. After you conduct repairs, you can spend Hit Dice to regain hit points (see ï¿½Repairsï¿½ in the Adventuring section).
 
 \columnbreak
 
@@ -185,14 +185,14 @@ Record your starship’s hit points on your starship sheet. Also record the type o
 > ##### Building the Millennium Falcon, Step 2
 > The Millennium Falcon is a heavily modified YT-1300f light freighter, and falls under the Medium size category. The ship starts at tier 0.
 >
-> As a tier 0 Medium ship, the Millennium Falcon has 5 Hit Dice—which are d8s—and a Constitution modifier of +1. Consequently, the Millennium Falcon has 33 hit points: 8 + the average for the subsequent four dice (5) + the Constitution modifier for each Hit Die (5 x 1).
+> As a tier 0 Medium ship, the Millennium Falcon has 5 Hit Diceï¿½which are d8sï¿½and a Constitution modifier of +1. Consequently, the Millennium Falcon has 33 hit points: 8 + the average for the subsequent four dice (5) + the Constitution modifier for each Hit Die (5 x 1).
 > 
 > When the Millennium Falcon progresses to tier 1 it gains the following features: Starship Improvements and Evasive Maneuvers. We record Evasive Maneuvers on the starship sheet. Since the Millennium Falcon is fast, we increase its Strength with the Ability Score Improvement. It gains an additional Hit Dice, and it's current and maximum hit points increases by 6. It also gains additional modifications, discussed in Chapter 4.
 > 
 > Additionally, at tier 0, a Medium ship gets a choice of Strength, Dexterity, or Constitution saving throws proficiencies. For the Falcon, we choose Strength.
 
 ### 3. Installing Modifications
-At tier 0, your starship has a number of modification slots, depending on its size, and it gains more modification slots as it progresses through tiers. Modifications—at the expense of credits, workers, and time—can be installed in these modification slots, enhancing and augmenting the ship's functionality. Modifications fall into five categories: engineering, operation, suite, universal, and weapon. The **Modifications** chapter provides more information about these categories.
+At tier 0, your starship has a number of modification slots, depending on its size, and it gains more modification slots as it progresses through tiers. Modificationsï¿½at the expense of credits, workers, and timeï¿½can be installed in these modification slots, enhancing and augmenting the ship's functionality. Modifications fall into five categories: engineering, operation, suite, universal, and weapon. The **Modifications** chapter provides more information about these categories.
 
 > ##### Building the Millennium Falcon, Step 3
 > At tier 0, the Millennium Falcon has 10 modification slots. Since it's a Medium ship, it comes with one Barracks at no cost. Additionally, we choose a Living Quarters to give the crew their own rooms. We also choose the Cantina and Storage Compartment suites, bringing the total modifications to 3.
@@ -228,15 +228,15 @@ Your ship can have a number of weapons no greater than the number of hardpoints 
 \columnbreak
 
 ### 5. Come Together
-Most Star Wars characters don’t work alone, and while some starships can be operated by a single crew member, it is more dynamic—and engaging—to crew a starship with a **party*, with each member of the party fulfilling a needed role on the ship. Teamwork and cooperation greatly improve your party's chance to survive the unapologetic lethality of spacefaring.
+Most Star Wars characters donï¿½t work alone, and while some starships can be operated by a single crew member, it is more dynamicï¿½and engagingï¿½to crew a starship with a **party*, with each member of the party fulfilling a needed role on the ship. Teamwork and cooperation greatly improve your party's chance to survive the unapologetic lethality of spacefaring.
 
 #### Beyond the Basics
-As your characters—and the starship—go on adventures and overcomes challenges, they can increase in their ranks and tiers, respectively. While tiers are driven by the amount of effort—and credits—directly applied to the starship, ranks are earned separately. Generally, the characters should be awarded their first deployment rank after no more than five encounters. After that, they should be awarded at the discretion of the GM.
+As your charactersï¿½and the starshipï¿½go on adventures and overcomes challenges, they can increase in their ranks and tiers, respectively. While tiers are driven by the amount of effortï¿½and creditsï¿½directly applied to the starship, ranks are earned separately. Generally, the characters should be awarded their first deployment rank after no more than five encounters. After that, they should be awarded at the discretion of the GM.
 
 > The expectation is to tie ranks to proficiency bonuses. When characters reach 5th-level, their proficiency bonus increases to 3, and again at 9th (4), 13th (5), and 17th (6). Ranks 2-4 are designed to be awarded at or around those same improvements.
 
 #### Features and Hit Dice
-When your starship gains a tier, it unlocks additional features, depending on its size, as detailed in the description. Some of these features allow you to increase your starship's ability scores. You can’t increase an ability score above 20. 
+When your starship gains a tier, it unlocks additional features, depending on its size, as detailed in the description. Some of these features allow you to increase your starship's ability scores. You canï¿½t increase an ability score above 20. 
 
 Each time your starship gains a tier, it gains gain 1 additional Hit Die. Roll that Hit Die, add your ship's Constitution modifier to the roll, and add the total to your hit point maximum. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up).
 
@@ -250,7 +250,7 @@ When your ship's Constitution modifier increases by 1, its hit point maximum inc
 
 <img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:78px;left:63px;width:35px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dventurers are extraordinary people, driven<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can’t stand against.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dventurers are extraordinary people, driven<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men canï¿½t stand against.
 
 Deployments are roles your characters can fill that are not directly correlated with their class. A character can then specialize in a specific deployment, granting a variety of features, such as the gunner's gambits or the pilot's tactics. As you progress in your deployment specialization, you gain more powerful features, and some features improve. Each deployment specialization entry in this chapter includes a table summarizing the benefits you gain at every rank, and a detailed explanation of each one.
 
@@ -357,7 +357,7 @@ Additionally, when you roll an uplifting directive number, you can take the maxi
 ### Rallying Cry
 Also at 5th rank, as a bonus action, you can extend a rallying cry to those that can hear you. Choose a number of friendly creatures up to twice your Charisma modifier that can see or hear you. Each of those creatures gains an Inspiring Display die that lasts until the end of your next turn. This die does not count against your number of Inspiring Display uses, but creatures can still only have one Inspiring Display die at a time. When a creature uses this die, they take the maximum instead of rolling.
 
-Once you've used this feature, you can’t use it again until you finish a short or long rest.
+Once you've used this feature, you canï¿½t use it again until you finish a short or long rest.
 
 <div class='footnote'>PART 1 | DEPLOYMENTS</div>
 
@@ -404,7 +404,7 @@ You have two gambit dice, which are d4s. A gambit die is expended when you use i
 You gain another gambit die at 2nd, 3rd, 4th, and 5th rank in this deployment. Additionally, your gambit die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
 
 #### Saving Throws
-Some of your gambits require your target to make a saving throw to resist the gambit’s effects. The saving throw DC is calculated as follows:
+Some of your gambits require your target to make a saving throw to resist the gambitï¿½s effects. The saving throw DC is calculated as follows:
 
 ___
 
@@ -434,22 +434,22 @@ When you hit a ship with a ship attack, you can expend one gambit die to cripple
 When you make a ship attack roll against a ship, you can expend one gambit die to add it to the roll. On a hit, the ship has disadvantage on the next ability check or attack roll it makes before the end of your next turn.
 
 #### Distracting Shot
-When you hit a ship with a ship attack, you can expend one gambit die to give your allies an opening. You add the gambit die to the attack’s damage roll, and the next attack roll against the target by someone other than you has advantage if the attack is made before the start of your next turn.
+When you hit a ship with a ship attack, you can expend one gambit die to give your allies an opening. You add the gambit die to the attackï¿½s damage roll, and the next attack roll against the target by someone other than you has advantage if the attack is made before the start of your next turn.
 
 #### Explosive Shot
-When you reduce a ship to 0 hit points, you can expend one gambit die and use a bonus action on your turn to make one additional ship attack against a different ship within range. If that attack hits, add the gambit die to the attack’s damage roll.
+When you reduce a ship to 0 hit points, you can expend one gambit die and use a bonus action on your turn to make one additional ship attack against a different ship within range. If that attack hits, add the gambit die to the attackï¿½s damage roll.
 
 #### Expose Weakness
 When you hit a ship with a ship attack, you can expend a gambit die and deal additional damage equal to the number rolled. This damage cannot be reduced in any way.
 
 #### Feinting Shot
-You can expend one gambit die and use a bonus action on your turn to feint, choosing one ship within your weapon's normal range as your target. You have advantage on your next attack roll against that ship. If that attack hits, add the gambit die to the attack’s damage roll.
+You can expend one gambit die and use a bonus action on your turn to feint, choosing one ship within your weapon's normal range as your target. You have advantage on your next attack roll against that ship. If that attack hits, add the gambit die to the attackï¿½s damage roll.
 
 #### Penetrating Shot
 When you hit a ship with a ship attack, you can expend one gambit die to attempt to damage another ship with the same attack. Choose a second ship within 150 feet of and directly behind your initial target. If the original attack roll would hit the second ship, it takes damage equal to the number you roll on your gambit die. The damage is of the same type dealt by the original attack.
 
 #### Precision Shot
-When you make a ship attack roll against a ship, you can expend one gambit die to add it to the roll. If that attack hits, add the gambit die to the attack’s damage roll. You can use this gambit before or after making the attack roll, but before any effects of the attack are applied.
+When you make a ship attack roll against a ship, you can expend one gambit die to add it to the roll. If that attack hits, add the gambit die to the attackï¿½s damage roll. You can use this gambit before or after making the attack roll, but before any effects of the attack are applied.
 
 \columnbreak
 
@@ -479,7 +479,7 @@ Additionally, when you make an attack roll while deployed as a gunner, you can c
 ### Maximum Power
 Also at 5th rank, when you hit a ship with a ship attack, you can deal maximum damage with that attack. 
 
-Once you've used this feature, you can’t use it again until you finish a short or long rest.
+Once you've used this feature, you canï¿½t use it again until you finish a short or long rest.
 
 <div class='footnote'>PART 1 | DEPLOYMENTS</div>
 
@@ -649,7 +649,7 @@ As of 5th tier, you are a paragon of your deployment. You regain all expended us
 Additionally, when you would make a Technology check while deployed as an operator, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Overload Systems
-Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disruption. The ship must make a Constitution saving throw (DC = 8 + your bonus to Technology checks). On a failed save, the target’s flying speed reduced by half, it's turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it's shields no longer regenerate, and it can’t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the ship’s abilities, crew, or equipment, it can’t make more than one melee or ranged attack during its turn.
+Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disruption. The ship must make a Constitution saving throw (DC = 8 + your bonus to Technology checks). On a failed save, the targetï¿½s flying speed reduced by half, it's turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it's shields no longer regenerate, and it canï¿½t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the shipï¿½s abilities, crew, or equipment, it canï¿½t make more than one melee or ranged attack during its turn.
 
 The ship's pilot makes another Constitution saving throw at the end of its turns. On a successful save, the effect ends.
 
@@ -752,7 +752,7 @@ Also at 3rd rank, once per round, when your ship is hit with a ship attack or fa
 At 4th rank, when you take the Evade action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on attack rolls it makes against you before the start of your next turn, instead of one.
 
 ### Uncanny Dodge
-Also at 4th rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack’s damage against your ship.
+Also at 4th rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attackï¿½s damage against your ship.
 
 ### Paragon Pilot
 As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your Pilot Procedure feature when you finish a short or long rest.
@@ -762,7 +762,7 @@ Additionally, when you would make a Piloting check while deployed as a pilot, yo
 ### Pilot Extraordinaire
 Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Piloting checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against you have disadvantage.
 
-Once you've used this feature, you can’t use it again until you finish a short or long rest.
+Once you've used this feature, you canï¿½t use it again until you finish a short or long rest.
 
 <div class='footnote'>PART 1 | DEPLOYMENTS</div>
 
@@ -944,7 +944,7 @@ ___
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** —
+- **Maximum Suite Systems:** ï¿½
 - **Modification Slots at Tier 0:** 2
 - **Stock Modifications:** Droid Brain
 
@@ -964,10 +964,10 @@ ___
 | Tier |  Features |
 |:---:|:---|
 | 1st |  Starship Improvements  | 
-| 2nd |  — |  
-| 3rd |  — |  
-| 4th |  — |  
-| 5th |  — |  
+| 2nd |  ï¿½ |  
+| 3rd |  ï¿½ |  
+| 4th |  ï¿½ |  
+| 5th |  ï¿½ |  
 
 </div>
 
@@ -975,7 +975,7 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+You can increase your ship's Strength, Dexterity, or Constitution score by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you canï¿½t increase an ability score above 20 using this feature.
 
 #### Additional Hit Dice
 Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
@@ -1016,7 +1016,7 @@ ___
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** —
+- **Maximum Suite Systems:** ï¿½
 - **Modification Slots at Tier 0:** 5
 - **Stock Modifications:** One Fixed Hardpoint
 
@@ -1047,7 +1047,7 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you canï¿½t increase an ability score above 20 using this feature.
 
 #### Additional Hit Dice
 Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
@@ -1181,7 +1181,7 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you canï¿½t increase an ability score above 20 using this feature.
 
 #### Additional Hit Dice
 Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
@@ -1305,7 +1305,7 @@ ___
 | 2nd | Role Specialization, Concentrated Fire |
 | 3rd | Versatile Frigate, Heavy Cannon |
 | 4th | Role Mastery, Tactical Retreat |
-| 5th | Paragon Cruiser, Spinal Mount | 
+| 5th | Paragon Frigate, Spinal Mount | 
 
 </div>
 
@@ -1313,7 +1313,7 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you canï¿½t increase an ability score above 20 using this feature.
 
 #### Additional Hit Dice
 Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
@@ -1437,7 +1437,7 @@ ___
 | 2nd | Role Specialization, Staging Grounds |
 | 3rd | Versatile Cruiser, Capital Railgun |
 | 4th | Role Mastery, Broadside |
-| 5th | Paragon Frigate, Capital Ship | 
+| 5th | Paragon Cruiser, Capital Ship | 
 
 </div>
 
@@ -1445,7 +1445,7 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you canï¿½t increase an ability score above 20 using this feature.
 
 #### Additional Hit Dice
 Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
@@ -1478,7 +1478,7 @@ Your ship gains two Docking Bay suites, which do not count against its total mod
 #### Interdictor 
 Your ship gains the Tractor Beam and Gravity Well Projector modifications, which do not count against its total modifications. Additionally, ships of Large size or smaller have disadvantage on saving throws against your tractor beams.
 
-### Staging Ground
+### Staging Grounds
 Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crew members or troopers deploy, they have advantage on their first ability check, attack roll, or saving throw they make before the end of their next long rest. Once a crew member or troop has benefited from this feature, they can not benefit from it again until they complete a long rest.
 
 ### Versatile Cruiser
@@ -1577,7 +1577,7 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you canï¿½t increase an ability score above 20 using this feature.
 
 #### Additional Hit Dice
 Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
@@ -1659,7 +1659,7 @@ This effect ends early if the ship is disabled. Once this feature has been used,
 \pagebreakNum
 
 ## Variant: Space Stations
-Players may decide they want to invest in a space station. Only size categories Large and larger are appropriate for space stations. If players elect to own a space station instead of—or in addition to—a starship, use the following rules. 
+Players may decide they want to invest in a space station. Only size categories Large and larger are appropriate for space stations. If players elect to own a space station instead ofï¿½or in addition toï¿½a starship, use the following rules. 
 
 #### Armor Class
 When calculating a space station's armor class, use the operator's Technology instead of of the pilot's Piloting, by taking the station's size base armor class (as shown in the Starship Size Base Armor Class table on page 56), add the deployed operator's Intelligence (Technology) modifier, and any applicable bonuses. For example, a Large station has a base armor class of 7. If the operator has an Intelligence of 16, a proficiency bonus of +2, proficiency in Technology, and the station is using deflection armor, his station has an armor class of 12. You do not require proficiency in Technology to attempt to operate a space station.
@@ -2133,8 +2133,8 @@ Suite systems add additional functionality to the ship in the form of bays, stat
 #### Starship Size Maximum Suites
 | Starship Size | Suite Capacity |
 |:----:|:----:|
-| Tiny  | — |
-| Small  | — |
+| Tiny  | ï¿½ |
+| Small  | ï¿½ |
 | Medium  | 4 |
 | Large  | 8 |
 | Huge | 15 |
@@ -2145,8 +2145,8 @@ Additionally, unless otherwise specified, each suite system can accommodate a st
 #### Starship Size Suite Capacity
 | Starship Size | Suite Capacity |
 |:----:|:----:|
-| Tiny  | — |
-| Small  | — |
+| Tiny  | ï¿½ |
+| Small  | ï¿½ |
 | Medium  | 4 |
 | Large  | 400 |
 | Huge | 4,000 |
@@ -2686,7 +2686,7 @@ Each ship comes with a capacity for a certain amount of cargo, depending on its 
 #### Starship Size Cargo Capacity
 |Starship Size|Cargo Capacity&emsp;&emsp;|
 |:--:|--:|
-|Tiny|—&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|
+|Tiny|ï¿½&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|
 |Small|2 tons&emsp;&emsp;&emsp;&emsp;|
 |Medium|25 tons&emsp;&emsp;&emsp;&emsp;|
 |Large|500 tons&emsp;&emsp;&emsp;&emsp;|
@@ -2752,13 +2752,13 @@ Quick-Charge Shields, opposite of Fortress Shields, offer a reduced capacity, bu
 |Name|Cost|Armor Class<br> Bonus|Hit Points<br>per Hit Die|&nbsp;&nbsp;&nbsp;Shield<br> &nbsp;Capacity|Shield Regeneration<br>&nbsp;&nbsp;&nbsp;Rate Coefficient|
 |:--|--:|:--:|:--:|:--|:--|
 |	_Armor_	    |||||||
-|&emsp;	Deflection Armor       |3,100 cr| — | — |&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
-|&emsp;	Lightweight Armor      |3,700 cr| +1| -1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
-|&emsp;	Reinforced Armor       |3,450 cr| -1| +1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—|
+|&emsp;	Deflection Armor       |3,100 cr| ï¿½ | ï¿½ |&emsp;&nbsp;&nbsp;ï¿½|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;ï¿½| 
+|&emsp;	Lightweight Armor      |3,700 cr| +1| -1|&emsp;&nbsp;&nbsp;ï¿½|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;ï¿½| 
+|&emsp;	Reinforced Armor       |3,450 cr| -1| +1|&emsp;&nbsp;&nbsp;ï¿½|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;ï¿½|
 |	_Shields_	|||||||
-|&emsp;	Directional Shield     |4,300 cr| — | — |&emsp;&nbsp;&nbsp;x 1|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 1|
-|&emsp;	Fortress Shield        |4,650 cr| — | — |&emsp;&nbsp;&nbsp;x 2|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 0.5|
-|&emsp;	Quick-Charge Shield    |4,900 cr| — | — |&emsp;&nbsp;&nbsp;x 0.5|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 2|
+|&emsp;	Directional Shield     |4,300 cr| ï¿½ | ï¿½ |&emsp;&nbsp;&nbsp;x 1|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 1|
+|&emsp;	Fortress Shield        |4,650 cr| ï¿½ | ï¿½ |&emsp;&nbsp;&nbsp;x 2|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 0.5|
+|&emsp;	Quick-Charge Shield    |4,900 cr| ï¿½ | ï¿½ |&emsp;&nbsp;&nbsp;x 0.5|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 2|
 
 </div>
 
@@ -2807,7 +2807,7 @@ You can use a weapon that has the ammunition property to make a ranged attack on
 
 Weapons with the ammunition property come with a range in parentheses after the property. The range property varies based on the weapon type.
 
-***Tertiary Weapons.***  The first number is the tertiary weapon’s **normal range** in feet, and the second number indicates the tertiary weapon’s **long range**. When attacking a target with a tertiary weapon beyond **normal range**, they have advantage on the saving throw. You can’t attack a target beyond the tertiary weapon’s **long range**.
+***Tertiary Weapons.***  The first number is the tertiary weaponï¿½s **normal range** in feet, and the second number indicates the tertiary weaponï¿½s **long range**. When attacking a target with a tertiary weapon beyond **normal range**, they have advantage on the saving throw. You canï¿½t attack a target beyond the tertiary weaponï¿½s **long range**.
 
 ***Quaternary Weapons.*** Quaternary weapons do not have a range. Instead, quaternary weapons travel in a straight line at a rate of 100 feet per round.
 
@@ -2828,9 +2828,9 @@ You can use a weapon that has the power property to make a ranged attack without
 
 Weapons with the power property come with a range in parentheses after the property. The range lists two numbers. The effect of these two numbers varies based on the weapon type.
 
-***Primary Weapons.*** The first number is the primary weapon’s **normal range** in feet, and the second number indicates the primary weapon’s **long range**. When attacking a target with a primary weapon beyond **normal range**, you have disadvantage on the attack roll. In a Large or larger ship, when attacking a target with a primary weapon beyond **normal range**, they have advantage on the saving throw. You can’t attack a target beyond the weapon’s **long range**. 
+***Primary Weapons.*** The first number is the primary weaponï¿½s **normal range** in feet, and the second number indicates the primary weaponï¿½s **long range**. When attacking a target with a primary weapon beyond **normal range**, you have disadvantage on the attack roll. In a Large or larger ship, when attacking a target with a primary weapon beyond **normal range**, they have advantage on the saving throw. You canï¿½t attack a target beyond the weaponï¿½s **long range**. 
 
-***Secondary Weapons.*** The first number is the secondary weapon’s **close range** in feet, and the second number indicates the secondary weapon’s **normal range**. When attacking a target within **close range**, you have disadvantage on the attack roll. When attacking a target beyond **close range**, but within **normal range**, you make the attack roll unaltered. In a Large or larger ship, when attacking a target within **close range**, they have advantage on the saving throw. When attacking a target beyond **close range**, but within **normal range**, they make the saving throw unaltered. You can’t attack a target beyond the secondary weapon’s **normal range**. 
+***Secondary Weapons.*** The first number is the secondary weaponï¿½s **close range** in feet, and the second number indicates the secondary weaponï¿½s **normal range**. When attacking a target within **close range**, you have disadvantage on the attack roll. When attacking a target beyond **close range**, but within **normal range**, you make the attack roll unaltered. In a Large or larger ship, when attacking a target within **close range**, they have advantage on the saving throw. When attacking a target beyond **close range**, but within **normal range**, they make the saving throw unaltered. You canï¿½t attack a target beyond the secondary weaponï¿½s **normal range**. 
 
 #### Reload
 A limited number of shots can be made with a weapon that has the reload property. A deployed crew member must then reload it. Reloading a weapon takes 1 minute per ammunition.
@@ -2876,14 +2876,14 @@ For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy dam
 |Name|Cost|  |Damage|Attack<br> Bonus|Attacks<br> per Round|Properties| 
 |:---|---:|:-:|:---|:--:|:-:|:---|
 |_Primary Weapons_	|||||||
-|&emsp;	Burst laser cannon			|4,000 cr||3d6 energy	 | — |1|Power (range 300/600)|
+|&emsp;	Burst laser cannon			|4,000 cr||3d6 energy	 | ï¿½ |1|Power (range 300/600)|
 |&emsp;	Heavy laser cannon			|4,150 cr||1d6+1 energy	 | +1|1|Power (range 600/1,200)|
-|&emsp;	Ion cannon      			|4,300 cr||3d6 pulse	 | — |1|Power (range 300/600)|
-|&emsp;	Laser cannon             	|3,800 cr||1d6 energy	 | — |2|Power (range 450/900)|
-|&emsp;	Light laser cannon       	|4,100 cr||1d6+1 energy	 | — |2|Power (range 300/600)|
+|&emsp;	Ion cannon      			|4,300 cr||3d6 pulse	 | ï¿½ |1|Power (range 300/600)|
+|&emsp;	Laser cannon             	|3,800 cr||1d6 energy	 | ï¿½ |2|Power (range 450/900)|
+|&emsp;	Light laser cannon       	|4,100 cr||1d6+1 energy	 | ï¿½ |2|Power (range 300/600)|
 |&emsp;	Quad laser cannon       	|4,400 cr||1d6+1 energy	 | -1|2|Power (range 450/900)|
 |&emsp;	Rapid-fire laser cannon    	|4,600 cr||1d6 energy	 | -1|3|Power (range 300/600)|
-|&emsp;	Thermite cannon      		|4,300 cr||3d6 thermite	 | — |1|Power (range 300/600)|
+|&emsp;	Thermite cannon      		|4,300 cr||3d6 thermite	 | ï¿½ |1|Power (range 300/600)|
 |_Secondary Weapons_	|||||||
 |&emsp;	Ion railgun		        	|5,300 cr||2d8 pulse 	 | +1|1|Power (range 600/1,800)|
 |&emsp;	Slug railgun		    	|5,150 cr||2d8 kinetic   | +1|1|Power (range 600/1,800)|
@@ -2893,10 +2893,10 @@ For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy dam
 |&emsp;	Concussion missile launcher |6,250 cr||3d10 energy   | +2|1|Ammunition (range 600/1,200), reload 4|
 |&emsp;	Ion missile launcher        |6,600 cr||2d10 pulse    | +2|1|Ammunition (range 900/1,800), reload 4|
 |&emsp;	Proton torpedo launcher     |6,900 cr||2d10 energy   | +2|1|Ammunition (range 900/1,800), reload 4|
-|&emsp;	Rocket pod launcher         |6,300 cr||1d10 energy   | — |3|Ammunition (range 600/1,200), reload 12|
+|&emsp;	Rocket pod launcher         |6,300 cr||1d10 energy   | ï¿½ |3|Ammunition (range 600/1,200), reload 12|
 |&emsp;	Thermite torpedo launcher   |6,700 cr||2d10 thermite | +2|1|Ammunition (range 900/1,800), reload 4|
 |_Quaternary Weapons_	|||||||
-|&emsp;	Bomb deployer               |8,000 cr|| —            | — |1|Ammunition, reload 4|
+|&emsp;	Bomb deployer               |8,000 cr|| ï¿½            | ï¿½ |1|Ammunition, reload 4|
 
 </div>
 
@@ -2910,14 +2910,14 @@ For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy dam
 |Name|Cost|  |Damage|Attack<br> Bonus|Attacks<br> per Round|Properties| 
 |:---|---:|:-:|:---|:--:|:-:|:---|
 |_Primary Weapons_	|||||||
-|&emsp;	Burst laser battery			|4,000 cr||6d6 energy	     | — |1|Power (range 300/600)|
+|&emsp;	Burst laser battery			|4,000 cr||6d6 energy	     | ï¿½ |1|Power (range 300/600)|
 |&emsp;	Heavy laser battery			|4,150 cr||2d6+2 energy	     | +1|1|Power (range 600/1,200)|
-|&emsp;	Ion battery      			|4,300 cr||6d6 pulse	     | — |1|Power (range 300/600)|
-|&emsp;	Laser battery             	|3,800 cr||2d6 energy	     | — |2|Power (range 450/900)|
-|&emsp;	Light laser battery       	|4,100 cr||2d6+2 energy	     | — |2|Power (range 300/600)|
+|&emsp;	Ion battery      			|4,300 cr||6d6 pulse	     | ï¿½ |1|Power (range 300/600)|
+|&emsp;	Laser battery             	|3,800 cr||2d6 energy	     | ï¿½ |2|Power (range 450/900)|
+|&emsp;	Light laser battery       	|4,100 cr||2d6+2 energy	     | ï¿½ |2|Power (range 300/600)|
 |&emsp;	Quad laser battery       	|4,400 cr||2d6+2 energy	     | -1|2|Power (range 450/900)|
 |&emsp;	Rapid-fire laser battery   	|4,600 cr||2d6 energy	     | -1|3|Power (range 300/600)|
-|&emsp;	Thermite battery      		|4,300 cr||6d6 thermite      | — |1|Power (range 300/600)|
+|&emsp;	Thermite battery      		|4,300 cr||6d6 thermite      | ï¿½ |1|Power (range 300/600)|
 |_Secondary Weapons_	|||||||
 |&emsp;	Heavy ion railgun	       	|5,300 cr||4d8 pulse 	     | +1|1|Power (range 600/1,800)|
 |&emsp;	Heavy slug railgun	    	|5,150 cr||4d8 kinetic     | +1|1|Power (range 600/1,800)|
@@ -2927,10 +2927,10 @@ For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy dam
 |&emsp;	Concussion missile array    |6,250 cr||6d10 energy     | +2|1|Ammunition (range 600/1,200), reload 32|
 |&emsp;	Ion missile array           |6,600 cr||4d10 pulse      | +2|1|Ammunition (range 900/1,800), reload 32|
 |&emsp;	Proton torpedo array        |6,900 cr||4d10 energy     | +2|1|Ammunition (range 900/1,800), reload 32|
-|&emsp;	Rocket pod array            |6,300 cr||2d10 energy     | — |3|Ammunition (range 600/1,200), reload 96|
+|&emsp;	Rocket pod array            |6,300 cr||2d10 energy     | ï¿½ |3|Ammunition (range 600/1,200), reload 96|
 |&emsp;	Thermite torpedo array      |6,700 cr||4d10 thermite   | +2|1|Ammunition (range 900/1,800), reload 32|
 |_Quaternary Weapons_	|||||||
-|&emsp;	Bomb layer                  |8,000 cr|| —              | — |1|Ammunition, reload 32|
+|&emsp;	Bomb layer                  |8,000 cr|| ï¿½              | ï¿½ |1|Ammunition, reload 32|
 
 </div>
 
@@ -2992,7 +2992,7 @@ When a seismic charge detonates, each ship within 300 feet must make a Dexterity
 ## Hyperdrive
 The hyperdrive is a propulsion system that allows a starship to reach lightspeed and traverse the void between stars in the alternate dimension of hyperspace. For a starship to have a hyperdrive, it must have a vacant hyperdrive slot modification.
 
-The hyperdrive functions by sending hypermatter particles to hurl a ship into hyperspace while<br> preserving the vessel's mass/energy profile, and<br> requires a functional hyperdrive motivator to do so.<br> The vessel then travels along a programmed course<br> until it drops back into normal space—realspace—at its<br> destination.
+The hyperdrive functions by sending hypermatter particles to hurl a ship into hyperspace while<br> preserving the vessel's mass/energy profile, and<br> requires a functional hyperdrive motivator to do so.<br> The vessel then travels along a programmed course<br> until it drops back into normal spaceï¿½realspaceï¿½at its<br> destination.
 
 A deployed operator can engage the hyperdrive as an action, after which it takes 1 minute to boot up. During that time, if the ship takes damage, it must make a Constitution saving throw (DC = 10 or half the damage taken, whichever is higher). On a failed save, the hyperdrive fails to boot. If the ship takes damage from multiple sources, it makes a separate saving throw for each source of damage.
 
@@ -3107,7 +3107,7 @@ Ships store food and beverage in terms of "portions", the quantity of which vari
 #### Starship Size Food Capacity
 |Starship Size|Food Capacity|
 |:--|--:|
-|Tiny| —|
+|Tiny| ï¿½|
 |Small| 10 portions|
 |Medium| 120 portions|
 |Large| 240,000 portions|
@@ -3122,7 +3122,7 @@ Ships store food and beverage in terms of "portions", the quantity of which vari
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he combination of your character's personal  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; features, as well as their chosen deployment, defines your character’s capabilities in the space component of the game, and the personal details you create set your character apart from every other character. Even within your class, species, and deployment specialization you have options to fine-tune what your character can do. But this chapter is for players who want to go a step further.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he combination of your character's personal  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; features, as well as their chosen deployment, defines your characterï¿½s capabilities in the space component of the game, and the personal details you create set your character apart from every other character. Even within your class, species, and deployment specialization you have options to fine-tune what your character can do. But this chapter is for players who want to go a step further.
 
 This chapter defines two sets of rules for customizing your character: multispeccing and ventures. Multispeccing lets you combine deployments together, and ventures are special options you can choose as you gain ranks.
 
@@ -3131,17 +3131,17 @@ Ships are locked to their respective size-driven tiers and have no multiclass pa
 ## Multispecializing
 Multispecializing allows you to gain ranks in multiple deployment specializations. Doing so lets you mix the abilities of those deployments to realize a character concept that might not be reflected in one of the standard specialization options.
 
-With this rule, you have the option of gaining a rank in a new specialization whenever you advance in rank, instead of gaining a rank in your current specialization. Your ranks in all your deployments are added together to determine your character rank. For example, if you have two ranks in pilot and one in gunner, you’re a 3rd-rank character.
+With this rule, you have the option of gaining a rank in a new specialization whenever you advance in rank, instead of gaining a rank in your current specialization. Your ranks in all your deployments are added together to determine your character rank. For example, if you have two ranks in pilot and one in gunner, youï¿½re a 3rd-rank character.
 
-As you advance in ranks, you might primarily remain a member of your original deployment with just a single rank in another specialization, or you might change course entirely, never looking back at the deployment you left behind. You might even start progressing in a third or fourth specialization. Compared to a single-specialized character of the same rank, you’ll sacrifice some focus in exchange for versatility.
+As you advance in ranks, you might primarily remain a member of your original deployment with just a single rank in another specialization, or you might change course entirely, never looking back at the deployment you left behind. You might even start progressing in a third or fourth specialization. Compared to a single-specialized character of the same rank, youï¿½ll sacrifice some focus in exchange for versatility.
 
 ><br>
 >
 >#### Multispecializing Example
 > 
->Drew is playing a 1st-rank pilot. When his character is ready to progress to 2nd rank, Drew decides that his character will multispec instead of continuing to progress as a pilot. Drew’s character has been spending a lot of time with Rickey’s gunner, and has even been doing some simulations. Drew decides that his character will multispec into the gunner deployment, and thus his character becomes a 1st-rank pilot and 1st-rank gunner (written as pilot 1/gunner 1).
+>Drew is playing a 1st-rank pilot. When his character is ready to progress to 2nd rank, Drew decides that his character will multispec instead of continuing to progress as a pilot. Drewï¿½s character has been spending a lot of time with Rickeyï¿½s gunner, and has even been doing some simulations. Drew decides that his character will multispec into the gunner deployment, and thus his character becomes a 1st-rank pilot and 1st-rank gunner (written as pilot 1/gunner 1).
 > 
->When Drew’s character is ready to progress to 3rd rank, he can decide whether to add another pilot rank (becoming a pilot 2/gunner 1), another gunner rank (becoming a pilot 1/gunner 2), or a rank in a third deployment, perhaps dabbling in the inner workings of the ship (becoming a pilot 1/gunner 1/mechanic 1).
+>When Drewï¿½s character is ready to progress to 3rd rank, he can decide whether to add another pilot rank (becoming a pilot 2/gunner 1), another gunner rank (becoming a pilot 1/gunner 2), or a rank in a third deployment, perhaps dabbling in the inner workings of the ship (becoming a pilot 1/gunner 1/mechanic 1).
 <br><br>
 
 \columnbreak
@@ -3264,7 +3264,7 @@ While raging, you add your rage damage bonus to damage rolls from primary ship w
 ### Gunner Adept
 _Prerequisite: Rank 2_<br>
 You have gunner training that allows you to perform special combat gambits. You gain the following benefits:
-- You learn two gambits of your choice from among those available to the gunner deployment. If a gambit you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your ship's Dexterity modifier.
+- You learn two gambits of your choice from among those available to the gunner deployment. If a gambit you use requires your target to make a saving throw to resist the maneuverï¿½s effects, the saving throw DC equals 8 + your proficiency bonus + your ship's Dexterity modifier.
 - If you already have gambit dice, you gain one more; otherwise, you have one gambit die, which is a d4. This die is used to fuel your gambits. A gambit die is expended when you use it. You regain all of your expended gambit dice when you finish a long rest.
 
 ### Gunner in Training
@@ -3420,7 +3420,7 @@ When an ally makes an ability check or attack roll affected by your Direct actio
 
 <img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:78px;left:63px;width:38px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix abilities provide a quick description of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every ship's, and her crew’s, physical and mental<br> characteristics:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix abilities provide a quick description of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every ship's, and her crewï¿½s, physical and mental<br> characteristics:<br>
 
 ___
 
@@ -3433,14 +3433,14 @@ ___
 
 ___
 
-Is a ship indomitable, and her crew insightful? Fast and frightening? Nimble and notorious? Ability scores define these qualities—a ship and her crew’s assets as well as weaknesses.
+Is a ship indomitable, and her crew insightful? Fast and frightening? Nimble and notorious? Ability scores define these qualitiesï¿½a ship and her crewï¿½s assets as well as weaknesses.
 
-The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores. The book’s introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
+The three main rolls of the gameï¿½the ability check, the saving throw, and the attack rollï¿½rely on the six ability scores. The bookï¿½s introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
 
 This chapter focuses on how to use ability checks and saving throws, covering the fundamental activities that creatures attempt in the game. Rules for attack rolls appear in chapter 9.
 
 ## Ability Scores and Modifiers
-Each of a ship and her crew’s abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a ship’s modification, or the crew's training, in activities related to that ability.
+Each of a ship and her crewï¿½s abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a shipï¿½s modification, or the crew's training, in activities related to that ability.
 
 A score of 10 or 11 is the normal average, but many ships and crew members are a cut above average in most abilities. A score of 18 is the highest that a ship or crew usually reaches. Some can have scores as high as 20, and monsters and capital ships can have scores as high as 30.
 
@@ -3481,11 +3481,11 @@ Because ability modifiers affect almost every attack roll, ability check, and sa
 ## Advantage and Disadvantage
 Sometimes a special ability or power tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
 
-If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don’t roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
+If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you donï¿½t roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
 
 If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
 
-When you have advantage or disadvantage and something in the game, such as the iktotchi’s Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a l and a 13, the iktotchi could use the Precognition trait to reroll the 1.
+When you have advantage or disadvantage and something in the game, such as the iktotchiï¿½s Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a l and a 13, the iktotchi could use the Precognition trait to reroll the 1.
 
 You usually gain advantage or disadvantage through the use of special abilities, actions, or powers. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 
@@ -3496,13 +3496,13 @@ You usually gain advantage or disadvantage through the use of special abilities,
 ## Proficiency Bonus
 Ships do not have a proficiency bonus. Instead, when a feature references a proficiency bonus, instead use the proficiency bonus of the character manning the relevant deployment. The bonus is used in the rules on ability checks, attack rolls, and saving throws.
 
-Your proficiency bonus can’t be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
+Your proficiency bonus canï¿½t be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
 
 Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
 
-By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn’t normally benefit from your proficiency bonus, you still don’t add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying O by any number is still 0. For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks.
+By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldnï¿½t normally benefit from your proficiency bonus, you still donï¿½t add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying O by any number is still 0. For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks.
 
-In general, you don’t multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
+In general, you donï¿½t multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
 
 ### Expertise
 Certain features, such as the Expertise class feature or Ace Pilot feat, let you double your proficiency bonus with a given skill or tool proficiency, granting expertise in that skill or tool. As usual, you can only gain expertise in a skill or tool once.
@@ -3512,7 +3512,7 @@ An ability check ship's ability to overcome a challenge. The DM calls for an abi
 
 For every ability check, the DM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
 
-To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crew member, overcomes the challenge at hand. Otherwise, it’s a failure, which means the ship or crew member makes no progress toward the objective or makes progress combined with a setback determined by the DM.
+To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crew member, overcomes the challenge at hand. Otherwise, itï¿½s a failure, which means the ship or crew member makes no progress toward the objective or makes progress combined with a setback determined by the DM.
 
 When making an ability check that involves Strength, Dexterity, or Constitution, you use the ship's score instead of your own, as dictated by logic.
 
@@ -3521,7 +3521,7 @@ When making an ability check that involves Strength, Dexterity, or Constitution,
 <div style='margin-top:26px'></div>
 
 ### Contests
-Sometimes one ship's or crew member's efforts are directly opposed to another’s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.
+Sometimes one ship's or crew member's efforts are directly opposed to anotherï¿½s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goalï¿½for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.
 
 Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That ship or crew member either succeeds at the action or prevents the other one from succeeding.
 
@@ -3654,7 +3654,7 @@ If your ship's Constitution modifier changes, its hit point maximum changes as w
 
 This chapter covers the basics of adventuring in space, from the mechanics of movement to the acquisition of the ship itself. The rules for maintenance are also in this chapter, along with a discussion of the activities your characters might pursue between adventures.
 
-Whether adventurers are exploring uncharted territories or a complicated relationship with a criminal organization, the game follows a natural rhythm, as outlined in the book’s introduction:
+Whether adventurers are exploring uncharted territories or a complicated relationship with a criminal organization, the game follows a natural rhythm, as outlined in the bookï¿½s introduction:
 
 ___
 
@@ -3668,7 +3668,7 @@ ___
 
 Typically, the GM uses a map as an outline of the adventure, tracking the characters' progress as they explore enclave corridors or wilderness regions.
 
-The GM’s notes, including a key to the map, describe what the adventurers find as they enter each new area. Sometimes, the passage of time and the adventurers’ actions determine what happens, so the GM might use a timeline or a flowchart to track their progress instead of a map.
+The GMï¿½s notes, including a key to the map, describe what the adventurers find as they enter each new area. Sometimes, the passage of time and the adventurersï¿½ actions determine what happens, so the GM might use a timeline or a flowchart to track their progress instead of a map.
 
 ## Ship Registration
 Pilots are required to register their starships with the Bureau of Ships and Services (or BoSS). Additionally, at registration, the pilot must acquire an Operating License at the cost of 1,000 credits. To be eligible for this license they must pass a written piloting test, which requires a DC 15 Intelligence (Piloting) check.
@@ -3704,13 +3704,13 @@ Upon arrival in a star system, most starships immediately connect to a specializ
 Most planets also provide incoming space traffic with basic computer communication channels. These channels connect the ship to planetary information networks that provide everything from communications directory assistance to tourism information and planetary maps. Planetary information channels allow use of the Technology skill to access information relevant to the planet, and it possible for a slicer to access other functions.
 
 ## Time
-In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In an enclosed environment, the adventurers‘ movement happens on a scale of minutes. It takes them about a minute to navigate an asteroid field, a minute to dock in a space port, and a good 10 minutes to clear customs.
+In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In an enclosed environment, the adventurersï¿½ movement happens on a scale of minutes. It takes them about a minute to navigate an asteroid field, a minute to dock in a space port, and a good 10 minutes to clear customs.
 
 While traveling in realspace, a scale of hours is often more appropriate. Adventurers eager to reach a pirate stronghold on the other side of the planet travel those 150 miles in just over an hour.
 
 In hyerspace, however, a scale of days works best. Following the road from Tatooine to Kashyyk, the adventurers spend four uneventful days before a pirate ambush interrupts their journey.
 
-In combat and other fast—paced situations, the game relies on rounds, a 6—second span of time described in chapter 9.
+In combat and other fastï¿½paced situations, the game relies on rounds, a 6ï¿½second span of time described in chapter 9.
 
 ## Movement and Travel
 There are two significant travel types: Realspace and Hyperspace. 
@@ -3720,9 +3720,9 @@ There are two significant travel types: Realspace and Hyperspace.
 ### Travel in Realspace
 All starships have sublight engines that propel them through realspace, using them when taking off, landing, or flying within a gravity sphere. Coupled with an ion drive, ships are capable of incredible acceleration. 
 
-When traveling in realspace, the GM can summarize the adventurers’ movement without calculating exact distances or travel times: "You fly around the planet, reaching the stronghold late in the evening." 
+When traveling in realspace, the GM can summarize the adventurersï¿½ movement without calculating exact distances or travel times: "You fly around the planet, reaching the stronghold late in the evening." 
 
-Sometimes it’s important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
+Sometimes itï¿½s important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
 
 #### Flying Speed
 **Flying speed** is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels, it expends one foot from its speed.
@@ -3735,7 +3735,7 @@ A ship can turn more or less than 90 degrees on its turn, by spending a proporti
 If a ship's **turning speed** exceeds its **flying speed**, treat its **turning speed** as equal to its **flying speed**.
 
 #### Travel Pace
-While traveling in realspace, a starship can move at a normal, fast, or slow pace. While traveling at a fast pace, your starship's flying speed is doubled, but your starship—and its crew—have disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks. While traveling at a slow pace, your flying speed is halved, but you can travel stealthily. A fast pace makes a ship less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the “Activity While Traveling” section later in this chapter for more information).
+While traveling in realspace, a starship can move at a normal, fast, or slow pace. While traveling at a fast pace, your starship's flying speed is doubled, but your starshipï¿½and its crewï¿½have disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks. While traveling at a slow pace, your flying speed is halved, but you can travel stealthily. A fast pace makes a ship less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the ï¿½Activity While Travelingï¿½ section later in this chapter for more information).
 
 You can use the following Sample Realspace Travel Times table to determine travel times in realspace for an average starship traveling at a normal pace.
 
@@ -3755,10 +3755,10 @@ You can use the following Sample Realspace Travel Times table to determine trave
 #### Difficult Terrain
 The travel speeds given in the Travel Pace table assume unobstructed terrain. But adventurers often face narrow canyons, tight formations, or other difficult terrain.
 
-You move at half speed in difficult terrain—moving 1 foot in difficult terrain costs 2 feet of speed—so you can cover only half the normal distance in a minute, an hour, or a day.
+You move at half speed in difficult terrainï¿½moving 1 foot in difficult terrain costs 2 feet of speedï¿½so you can cover only half the normal distance in a minute, an hour, or a day.
 
 #### Activity While Traveling
-As adventurers travel on their starship, they need to remain alert for danger, and some characters might perform other tasks to help the group’s journey.
+As adventurers travel on their starship, they need to remain alert for danger, and some characters might perform other tasks to help the groupï¿½s journey.
 
 #### Deployment Order
 While traveling, adventurers want to determine who is deployed where.
@@ -3770,25 +3770,25 @@ A character might occupy the cockpit, a gunner station, or a relevant suite. The
 > A ship might encounter a hostile ship while some crew members are resting or relaxing instead of deployed. It is up to the GM to determine how long it takes each crew member to deploy.
 
 #### Stealth
-While traveling at a slow pace, the starship can move stealthily. As long as they’re not in the open, they can try to surprise or sneak by other starships they encounter. See the rules for hiding in chapter 7.
+While traveling at a slow pace, the starship can move stealthily. As long as theyï¿½re not in the open, they can try to surprise or sneak by other starships they encounter. See the rules for hiding in chapter 7.
 
 #### Noticing Threats
 Use the passive Wisdom (Perception) scores of the characters to determine whether anyone in the starship notices a hidden threat. The GM might decide that a threat can be noticed only by deployed characters. For example, as the characters are traveling through an asteroid field, the GM might decide that only those characters deployed in a rear-facing deployment have a chance to spot a stealthy starship following the group, while characters deployed elsewhere cannot. While traveling at a fast pace, characters take a -5 penalty to their passive Wisdom (Perception) scores to notice hidden threats.
 
-***Encountering Starships.*** If the GM determines that the adventurers encounter another starship while they’re traveling, it’s up to both groups to decide what happens next. Either group might decide to attack, initiate a dialogue, run away, or wait to see what the other group does.
+***Encountering Starships.*** If the GM determines that the adventurers encounter another starship while theyï¿½re traveling, itï¿½s up to both groups to decide what happens next. Either group might decide to attack, initiate a dialogue, run away, or wait to see what the other group does.
 
 ***Surprising Foes.*** If the adventurers encounter a hostile creature or group, the GM determines whether the adventurers or their foes might be surprised when combat erupts. See chapter 9 for more about surprise.
 
 \columnbreak
 
 #### Other Activities
-Characters who turn their attention to other tasks as the group travels are not focused on watching for danger. These characters don’t contribute their passive Wisdom (Perception) scores to the group’s chance of noticing hidden threats. However, a character not watching for danger can do one of the following activities instead, or some other activity with the GM’s permission.
+Characters who turn their attention to other tasks as the group travels are not focused on watching for danger. These characters donï¿½t contribute their passive Wisdom (Perception) scores to the groupï¿½s chance of noticing hidden threats. However, a character not watching for danger can do one of the following activities instead, or some other activity with the GMï¿½s permission.
 
-***Navigate.*** The character can try to prevent the group from becoming lost, making an Wisdom (Survival) check when the GM calls for it. (The *Dungeon Master’s Guide* has rules to determine whether the group gets lost.)
+***Navigate.*** The character can try to prevent the group from becoming lost, making an Wisdom (Survival) check when the GM calls for it. (The *Dungeon Masterï¿½s Guide* has rules to determine whether the group gets lost.)
 
-***Maintain a Map.*** The character can maintain a map that records the group’s progress and helps the characters get back on course if they get lost. No ability check is required.
+***Maintain a Map.*** The character can maintain a map that records the groupï¿½s progress and helps the characters get back on course if they get lost. No ability check is required.
 
-***Track.*** A character can follow the tracks of another starship, making a Wisdom (Survival) check when the GM calls for it. (The *Dungeon Master’s Guide* has rules for tracking.)
+***Track.*** A character can follow the tracks of another starship, making a Wisdom (Survival) check when the GM calls for it. (The *Dungeon Masterï¿½s Guide* has rules for tracking.)
 
 > ##### Splitting Up the Party
 > Splitting up the party is more difficult when your party only has one ship. Should they acquire a fleet of their own, however, they can form multiple parties, each moving at a different speed. Each group has its own deployment order.
@@ -3873,7 +3873,7 @@ Ships have a minimum and maximum crew capacity determined by their size, modific
 #### Starship Size Minimum Crew
 |Starship Size|Minimum Crew|
 |:--:|:--:|
-|Tiny|—|
+|Tiny|ï¿½|
 |Small|1|
 |Medium|1|
 |Large|200|
@@ -3892,10 +3892,10 @@ While deployed in only one deployment, it is assumed you can have access to all 
 \columnbreak
 
 ## The Environment
-Starship exploration involves delving into the potentially dangerous, uncharted territory. The rules in this section cover some of the most important ways in which adventurers, and their ships, interact with the environment. The Dungeon Master’s Guide has rules covering more unusual situations.
+Starship exploration involves delving into the potentially dangerous, uncharted territory. The rules in this section cover some of the most important ways in which adventurers, and their ships, interact with the environment. The Dungeon Masterï¿½s Guide has rules covering more unusual situations.
 
 ### Vision and Light
-The most fundamental tasks of starfaring — noticing danger, finding hidden objects, and hitting an enemy ship in combat, to name just a few — rely heavily on a character’s ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
+The most fundamental tasks of starfaring ï¿½ noticing danger, finding hidden objects, and hitting an enemy ship in combat, to name just a few ï¿½ rely heavily on a characterï¿½s ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
 
 A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, dust clouds, or electrical storms, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
 
@@ -3935,7 +3935,7 @@ As long as a ship has a deployed mechanic, they can conduct makeshift repairs wi
 |Huge|2 days|
 |Gargantuan|1 week|
 
-If conducting repairs is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting powers, or similar adventuring activity—the workforce must begin repairs again for the ship to gain any benefit from it.
+If conducting repairs is interrupted by a period of strenuous activityï¿½at least 1 hour of walking, fighting, casting powers, or similar adventuring activityï¿½the workforce must begin repairs again for the ship to gain any benefit from it.
 
 Once repairs are conducted, a deployed mechanic can attempt to spend one or more Hit Dice, up to the starship's maximum number of Hit Dice, by making an Intelligence (Mechanic's kit) check. On a roll of 10 or less, you roll the Hit Die twice and take the lesser amount. On a roll of 11 to 20, you roll the Hit Die normally. On a roll of 21 or higher, you roll the Hit Die twice and take the greater amount.
 
@@ -3958,7 +3958,7 @@ Maintenance is a period of extended downtime that requires docking at a spacepor
 |Huge|1 week|
 |Gargantuan|1 month|
 
-If conducting maintenance is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting powers, or similar adventuring activity—the workforce must begin maintenance again for the ship to gain any benefit from it.
+If conducting maintenance is interrupted by a period of strenuous activityï¿½at least 1 hour of walking, fighting, casting powers, or similar adventuring activityï¿½the workforce must begin maintenance again for the ship to gain any benefit from it.
 
 At the end of maintenance, a ship regains all lost hit points and Hit Dice, and its system damage level is reduced by 1. 
 
@@ -3995,18 +3995,18 @@ A typical combat encounter is a clash between two sides, a flurry of cannon shot
 ### Surprise
 An assault carrier exits hyperspace and immediately begins firing on its prey. Fighters rapidly exit bays to support and protect the craft. Their opponents, caught unawares, are slow to respond and take significant damage before mounting their defense. In this situation, one side of the battle gained surprise over the other.
 
-The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any ship that doesn’t notice a threat is surprised at the start of the encounter.
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any ship that doesnï¿½t notice a threat is surprised at the start of the encounter.
 
-If you’re surprised, you can’t move or take an action on your first turn of the combat, and you can’t take a reaction until that turn ends. A member of a group can be surprised even if the other members aren’t.
+If youï¿½re surprised, you canï¿½t move or take an action on your first turn of the combat, and you canï¿½t take a reaction until that turn ends. A member of a group can be surprised even if the other members arenï¿½t.
 
 \columnbreak
 
 > ##### Combat Step By Step
 > **&emsp;1. Determine surprise.** The GM determines whether anyone involved in the combat encounter is surprised.
 > 
-> **2. Establish positions.** The GM decides where all the characters and monsters are located. Given the adventurers’ marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
+> **2. Establish positions.** The GM decides where all the characters and monsters are located. Given the adventurersï¿½ marching order or their stated positions in the room or other location, the GM figures out where the adversaries areï¿½how far away and in what direction.
 > 
-> **3. Roll initiative.** Everyone involved in the combat encounter rolls initiative normally, determining the order of combatants’ turns.
+> **3. Roll initiative.** Everyone involved in the combat encounter rolls initiative normally, determining the order of combatantsï¿½ turns.
 > 
 > **4. Take turns.** Each participant in the battle takes a turn in initiative order.
 > 
@@ -4015,7 +4015,7 @@ If you’re surprised, you can’t move or take an action on your first turn of the 
 ### Your Role On Your Turn
 Your abilities depend on where you are deployed during space combat. In a snubfighter, you control all aspects of your craft: movement and maneuvering, weapons, operation, and engines. In a larger craft, however, your abilities are dependent on your role in the ship. You may be a gunner, a pilot, or a support crew member. The amount of control you have varies accordingly.
 
-The “Movement and Position” section later in this chapter gives the rules for your move.
+The ï¿½Movement and Positionï¿½ section later in this chapter gives the rules for your move.
 
 #### Actions
 The actions available to you depend on where you are deployed at a given time. You might be firing a weapon, manipulating the engines, or interacting with a control panel. 
@@ -4044,7 +4044,7 @@ In combat, ships are in constant motion, often using movement and position to ga
 
 On your turn, you can move a distance up to your speed. You can use as much or as little of your speed as you like on your turn, following the rules here.
 
-Sometimes it’s important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
+Sometimes itï¿½s important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
 
 ### Flying Speed
 **Flying speed** is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels, it expends one foot from its speed.
@@ -4063,11 +4063,11 @@ A ship can turn more or less than 90 degrees on its turn, by spending a proporti
 > 
 > If you use a grid often, consider writing your speed in squares on your character sheet.
 > 
-> ***Entering a Square.*** To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to the square you’re in (discussed below). 
+> ***Entering a Square.*** To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to the square youï¿½re in (discussed below). 
 > 
-> ***Corners.*** Diagonal movement can’t cross the corner of an asteroid or other terrain feature that fills its space.
+> ***Corners.*** Diagonal movement canï¿½t cross the corner of an asteroid or other terrain feature that fills its space.
 > 
-> ***Ranges.*** To determine the range on a grid between two things—whether ships or objects—start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
+> ***Ranges.*** To determine the range on a grid between two thingsï¿½whether ships or objectsï¿½start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
 >
 > ***Diagonals.*** When measuring range or moving diagonally, the first diagonal square counts as 50 feet, but the second diagonal square counts as 100 feet. This pattern of 50 feet and then 100 feet continues whenever you're counting diagonally, even if you move horizontally or vertically between different bits of diagonal movement. For instance, a ship might move one square diagonally (50 feet), then three squares straight (150 feet), and then another square diagonally (100 feet) for a total movement of 300 feet.
 
@@ -4082,7 +4082,7 @@ You can break up your movement on your turn, using some of your speed before and
 If you take an action that includes more than one ship attack, you can break up your movement even further by moving between those attacks. For example, a ship that can make two attacks and that has a speed of 300 feet could move 100 feet, make an attack, move 200 feet, and then attack again.
 
 ### Difficult Terrain
-Combat rarely takes place in featureless terrain. Asteroid fields, mountain ranges, tight formations—the setting of a typical fight contains difficult terrain.
+Combat rarely takes place in featureless terrain. Asteroid fields, mountain ranges, tight formationsï¿½the setting of a typical fight contains difficult terrain.
 
 Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain.
 
@@ -4154,7 +4154,7 @@ You can attempt to ram another ship while flying through its space. As an action
 ### Ready
 Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction. Any deployment can take the Ready action.
 
-First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger. For instance, “When the starfighter comes into range, I'll shoot it with my railgun." 
+First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger. For instance, ï¿½When the starfighter comes into range, I'll shoot it with my railgun." 
 
 When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.
 
@@ -4169,25 +4169,25 @@ When an object requires your action for its use, you take the Use an Object acti
 \pagebreakNum
 
 ## Making an Attack
-Whether you’re shooting your laser cannons or a railgun, an attack has a simple structure.
+Whether youï¿½re shooting your laser cannons or a railgun, an attack has a simple structure.
 
-**1. Choose a target.** Pick a target within your attack’s range: a ship, an object, or a location.
+**1. Choose a target.** Pick a target within your attackï¿½s range: a ship, an object, or a location.
 
 **2. Determine modifiers.** The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
 
-**3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there’s ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
+**3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If thereï¿½s ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
 
 ### Attack Rolls
-When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20, add your proficiency bonus (if proficient), the ship's Dexterity modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target’s Armor Class (AC), the attack hits. 
+When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20, add your proficiency bonus (if proficient), the ship's Dexterity modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the targetï¿½s Armor Class (AC), the attack hits. 
 
 If you are proficient with any martial weapons, you are considered proficient with a ship's weapons.
 
 #### Rolling 1 or 20
 Sometimes fate blesses or curses a gunner, causing the novice to hit and the veteran to miss. 
 
-If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target’s AC. In addition, the attack is a critical hit, as explained later in this chapter.
+If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the targetï¿½s AC. In addition, the attack is a critical hit, as explained later in this chapter.
 
-If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target’s AC.
+If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the targetï¿½s AC.
 
 #### Range
 You can make ranged attacks only against targets within a specified range.
@@ -4227,7 +4227,7 @@ ___
 Each ship weapon specifies the damage it deals. You roll the damage die or dice, add the ship's Dexterity modifier, and apply the damage to your target. Higher quality weapons, special abilities, and other factors can grant a bonus to damage.
 
 #### Critical Hits
-When you score a critical hit, you get to roll extra dice for the attack’s damage against the target. Roll all of the attack’s damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
+When you score a critical hit, you get to roll extra dice for the attackï¿½s damage against the target. Roll all of the attackï¿½s damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
 
 #### Damage Types
 Starship combat relies on four different damage types.
@@ -4258,7 +4258,7 @@ A target with **half cover** has a +2 bonus to AC and Dexterity saving throws. A
 
 A target with **three-quarters cover** has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is covered by an obstacle. 
 
-A target with **total cover** can’t be targeted directly by an attack, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
+A target with **total cover** canï¿½t be targeted directly by an attack, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
 
 \columnbreak
 
@@ -4278,7 +4278,7 @@ Whenever a ship with shield points takes damage, the shield takes the damage ins
 ### Repairs
 Damage to hulls is permanent until repaired. Small repairs can happen while the ship is still in space, but significant repairs require docking in an appropriate location, as discussed in Chapter 8.
 
-When a ship receives repairs of any kind, hit points regained are added to its current hit points. A ship’s hit points can’t exceed its hit point maximum.
+When a ship receives repairs of any kind, hit points regained are added to its current hit points. A shipï¿½s hit points canï¿½t exceed its hit point maximum.
 
 <div class='footnote'>PART 2 | COMBAT</div>
 
@@ -4294,7 +4294,7 @@ When a ship is reduced to 0 hit points, it is either destroyed or disabled. If t
 Massive damage can destroy a ship instantly. When damage reduces a ship to 0 hit points and there is damage remaining, the ship explodes if the remaining damage equals or exceeds its hit point point maximum.
 
 #### Destruction Saving Throws
-Whenever you start your turn and your ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn’t tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes and failures don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
+Whenever you start your turn and your ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isnï¿½t tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes and failures don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
 
 ***Rolling 1 or 20.*** When you make a destruction saving throw and roll a 1 on the d20, it counts as two failures, causing 2 levels of system damage. If you roll a 20 on the d20, your ship regains 1 hit point.
 
@@ -4305,11 +4305,11 @@ Whenever you start your turn and your ship has 0 hit points, you must make a spe
 <div style='margin-top:23px'></div>
 
 #### Stabilizing a Ship
-The best way to stablize a ship with 0 hit points is to repair it. If repairs are unavailable, the ship can at least be stabilized so that it isn’t killed by a failed destruction saving throw.
+The best way to stablize a ship with 0 hit points is to repair it. If repairs are unavailable, the ship can at least be stabilized so that it isnï¿½t killed by a failed destruction saving throw.
 
 A deployed mechanic can use their action to attempt repairs on a disabled ship and attempt to stabilize it, which requires a successful DC 10 Intelligence (Mechanic's Kit) check.
 
-A **stable** ship doesn’t make destruction saving throws, even though it has 0 hit points, but it does remain disabled. The ship stops being stable, and must start making destruction saving throws again, if it takes any damage. A stable ship that isn’t repaired regains 1 hit point after 1d4 hours.
+A **stable** ship doesnï¿½t make destruction saving throws, even though it has 0 hit points, but it does remain disabled. The ship stops being stable, and must start making destruction saving throws again, if it takes any damage. A stable ship that isnï¿½t repaired regains 1 hit point after 1d4 hours.
 
 #### Ships and Destruction
 Most GMs have a ship explode the instant it drops to 0 hit points, rather than disabling it and having it make destruction saving throws. Special ships are common exceptions; the GM might have them be disabled and follow the same rules as player ships.

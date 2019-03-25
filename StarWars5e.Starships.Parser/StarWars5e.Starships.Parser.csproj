@@ -7,17 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Sources\equipment.md" />
     <None Remove="Sources\modifications.md" />
     <None Remove="Sources\sotg.md" />
-    <None Remove="Sources\starshipSizes.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Sources\equipment.md" />
-    <EmbeddedResource Include="Sources\modifications.md" />
     <EmbeddedResource Include="Sources\sotg.md" />
-    <EmbeddedResource Include="Sources\starshipSizes.md" />
   </ItemGroup>
 
   <ItemGroup>

@@ -48,11 +48,11 @@ namespace StarWars5e.Models.Starship
 
         }
         [IgnoreProperty]
-        public List<string> StartingEquipmentShieldChoices { get; set; }
-        public string StartingEquipmentShieldChoicesJson
+        public List<string> StartingEquipmentArmorChoices { get; set; }
+        public string StartingEquipmentArmorChoicesJson
         {
-            get => StartingEquipmentShieldChoices == null ? "" : JsonConvert.SerializeObject(StartingEquipmentShieldChoices);
-            set => StartingEquipmentShieldChoices = JsonConvert.DeserializeObject<List<string>>(value);
+            get => StartingEquipmentArmorChoices == null ? "" : JsonConvert.SerializeObject(StartingEquipmentArmorChoices);
+            set => StartingEquipmentArmorChoices = JsonConvert.DeserializeObject<List<string>>(value);
 
         }
         public int ModSlotsPerLevel { get; set; }

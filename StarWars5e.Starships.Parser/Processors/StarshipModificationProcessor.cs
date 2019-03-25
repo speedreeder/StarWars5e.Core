@@ -13,37 +13,41 @@ namespace StarWars5e.Starships.Parser.Processors
         {
             var modifications = new List<StarshipModification>();
 
+            var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Modifications");
+            var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Equipment");
+            var modificationLines = lines.Skip(chapter4StartIndex).Take(chapter5StartIndex - chapter4StartIndex).ToList();
+
             var engineeringSystemsLines = new List<string>();
             var operationSystemsLines = new List<string>();
             var suiteSystemsLines = new List<string>();
             var universalSystemsLines = new List<string>();
             var weaponSystemsLines = new List<string>();
-            for (var i = 0; i < lines.Count; i++)
+            for (var i = 0; i < modificationLines.Count; i++)
             {
-                if (lines[i].StartsWith("## Engineering Systems", StringComparison.InvariantCultureIgnoreCase))
+                if (modificationLines[i].StartsWith("## Engineering Systems", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var endIndex = lines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
-                    engineeringSystemsLines = lines.Skip(i).Take((endIndex == -1 ? lines.Count - 1 : endIndex) - i).ToList();
+                    var endIndex = modificationLines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
+                    engineeringSystemsLines = modificationLines.Skip(i).Take((endIndex == -1 ? modificationLines.Count - 1 : endIndex) - i).ToList();
                 }
-                else if (lines[i].StartsWith("## Operation Systems", StringComparison.InvariantCultureIgnoreCase))
+                else if (modificationLines[i].StartsWith("## Operation Systems", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var endIndex = lines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
-                    operationSystemsLines = lines.Skip(i).Take(i - endIndex == -1 ? lines.Count - 1 : endIndex).ToList();
+                    var endIndex = modificationLines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
+                    operationSystemsLines = modificationLines.Skip(i).Take(i - endIndex == -1 ? modificationLines.Count - 1 : endIndex).ToList();
                 }
-                else if (lines[i].StartsWith("## Suite Systems", StringComparison.InvariantCultureIgnoreCase))
+                else if (modificationLines[i].StartsWith("## Suite Systems", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var endIndex = lines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
-                    suiteSystemsLines = lines.Skip(i).Take(i - endIndex == -1 ? lines.Count - 1 : endIndex).ToList();
+                    var endIndex = modificationLines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
+                    suiteSystemsLines = modificationLines.Skip(i).Take(i - endIndex == -1 ? modificationLines.Count - 1 : endIndex).ToList();
                 }
-                else if (lines[i].StartsWith("## Universal Systems", StringComparison.InvariantCultureIgnoreCase))
+                else if (modificationLines[i].StartsWith("## Universal Systems", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var endIndex = lines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
-                    universalSystemsLines = lines.Skip(i).Take(i - endIndex == -1 ? lines.Count - 1 : endIndex).ToList();
+                    var endIndex = modificationLines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
+                    universalSystemsLines = modificationLines.Skip(i).Take(i - endIndex == -1 ? modificationLines.Count - 1 : endIndex).ToList();
                 }
-                else if (lines[i].StartsWith("## Weapon Systems", StringComparison.InvariantCultureIgnoreCase))
+                else if (modificationLines[i].StartsWith("## Weapon Systems", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var endIndex = lines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
-                    weaponSystemsLines = lines.Skip(i).Take(i - endIndex == -1 ? lines.Count - 1 : endIndex).ToList();
+                    var endIndex = modificationLines.FindIndex(i + 1, x => x.StartsWith("## ", StringComparison.InvariantCultureIgnoreCase));
+                    weaponSystemsLines = modificationLines.Skip(i).Take(i - endIndex == -1 ? modificationLines.Count - 1 : endIndex).ToList();
                 }
             }
 

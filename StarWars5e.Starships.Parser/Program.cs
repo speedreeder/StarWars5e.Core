@@ -18,15 +18,15 @@ namespace StarWars5e.Starships.Parser
             var starshipChapterRulesProcessor = new StarshipChapterRulesProcessor();
             var starshipDeploymentProcessor = new StarshipDeploymentProcessor();
 
-            //var modifications = modificationProcessor.Process("modifications").Result;
+            //var modifications = modificationProcessor.Process("sotg").Result;
             //dependencies.GetService<IModificationRepository>().Insert(modifications, "core").Wait();
 
-            //var baseSizes = baseSizeProcessor.Process("starshipSizes").Result;
+            //var baseSizes = starshipSizeProcessor.Process("sotg").Result;
 
-            //var equipment = starshipEquipmentProcessor.Process("equipment").Result;
+            //var equipment = starshipEquipmentProcessor.Process("sotg").Result;
             //var ventures = starshipVentureProcessor.Process("sotg").Result;
 
-            var rules = starshipChapterRulesProcessor.Process("sotg").Result;
+            //var rules = starshipChapterRulesProcessor.Process("sotg").Result;
             //var deployments = starshipDeploymentProcessor.Process("sotg").Result;
         }
 
