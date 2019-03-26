@@ -5,7 +5,7 @@ using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
 {
-    public class StarshipBaseSize : TableEntity
+    public class StarshipBaseSize : BaseEntity
     {
         public string Name { get; set; }
         public int Strength { get; set; }

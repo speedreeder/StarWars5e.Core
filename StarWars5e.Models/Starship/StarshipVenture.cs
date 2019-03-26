@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace StarWars5e.Models.Starship
 {
-    public class StarshipVenture
+    public class StarshipVenture: BaseEntity
     {
         public string Name { get; set; }
         public string Content { get; set; }

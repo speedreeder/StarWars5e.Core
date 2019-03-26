@@ -8,7 +8,7 @@ using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 using StarWars5e.Models.Utils;
 
-namespace StarWars5e.Starships.Parser.Processors
+namespace StarWars5e.Parser.Parsers
 {
     public class StarshipEquipmentProcessor : StarshipBaseProcessor<StarshipEquipment>
     {
@@ -66,6 +66,8 @@ namespace StarWars5e.Starships.Parser.Processors
                 var armorColumns = armorLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
                 var armor = new StarshipArmor
                 {
+                    PartitionKey = ContentType.Base.ToString(),
+                    RowKey = armorColumns[1],
                     TypeEnum = StarshipEquipmentType.Armor,
                     Name = armorColumns[1],
                     Cost = int.Parse(armorColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands),
@@ -81,6 +83,8 @@ namespace StarWars5e.Starships.Parser.Processors
                 var shieldColumns = shieldLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
                 var shield = new StarshipShield
                 {
+                    PartitionKey = ContentType.Base.ToString(),
+                    RowKey = shieldColumns[1],
                     TypeEnum = StarshipEquipmentType.Shield,
                     Name = shieldColumns[1],
                     Cost = int.TryParse(shieldColumns[2].Replace(" cr", string.Empty), out var cost) ? cost : 0,
@@ -115,6 +119,8 @@ namespace StarWars5e.Starships.Parser.Processors
                     var weaponColumns = weaponLine.Split('|');
                     var weapon = new StarshipWeapon
                     {
+                        PartitionKey = ContentType.Base.ToString(),
+                        RowKey = weaponColumns[1].RemoveHtmlWhitespace().Trim(),
                         TypeEnum = StarshipEquipmentType.Weapon,
                         WeaponSizeEnum = isSmallWeapons ? StarshipWeaponSize.Small : StarshipWeaponSize.Huge,
                         WeaponCategoryEnum = weaponCategory,
@@ -188,6 +194,8 @@ namespace StarWars5e.Starships.Parser.Processors
                     var ammunitionColumns = ammunitionLine.Split('|');
                     var ammunition = new StarshipAmmunition
                     {
+                        PartitionKey = ContentType.Base.ToString(),
+                        RowKey = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
                         TypeEnum = StarshipEquipmentType.Ammunition,
                         StarshipWeaponCategoryEnum = weaponCategory,
                         Name = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
@@ -211,6 +219,8 @@ namespace StarWars5e.Starships.Parser.Processors
                     .Where(c => c != "." && c.Trim() != "").ToList();
                 var hyperdrive = new StarshipHyperdrive
                 {
+                    PartitionKey = ContentType.Base.ToString(),
+                    RowKey = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Hyperdrive,
                     Name = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
                     Cost = int.Parse(hyperdriveColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands),
@@ -232,6 +242,8 @@ namespace StarWars5e.Starships.Parser.Processors
                 var navcomputerBonusMatch = Regex.Match(navcomputerColumns[1], @"\d+");
                 var navcomputer = new StarshipNavcomputer
                 {
+                    PartitionKey = ContentType.Base.ToString(),
+                    RowKey = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Navcomputer,
                     Name = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
                     Cost = int.Parse(navcomputerColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands),

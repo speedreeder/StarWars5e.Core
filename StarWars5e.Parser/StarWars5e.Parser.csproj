@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sources\EC_Backgrounds.md" />
+    <None Remove="Sources\EC_Equipment.md" />
+    <None Remove="Sources\EC_Species.md" />
+    <None Remove="Sources\MM.md" />
+    <None Remove="Sources\sotg.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sources\EC_Backgrounds.md" />
+    <EmbeddedResource Include="Sources\EC_Equipment.md" />
+    <EmbeddedResource Include="Sources\EC_Species.md" />
+    <EmbeddedResource Include="Sources\MM.md" />
+    <EmbeddedResource Include="Sources\sotg.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.TableStorage.Repository" Version="2.0.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StarWars5e.Models\StarWars5e.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

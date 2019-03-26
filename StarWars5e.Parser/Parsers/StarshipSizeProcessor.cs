@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 
-namespace StarWars5e.Starships.Parser.Processors
+namespace StarWars5e.Parser.Parsers
 {
     public class StarshipSizeProcessor : StarshipBaseProcessor<StarshipBaseSize>
     {
@@ -43,7 +44,9 @@ namespace StarWars5e.Starships.Parser.Processors
         {
             var starshipBaseSize = new StarshipBaseSize
             {
-                Name = shipLinesWithSize.Key
+                Name = shipLinesWithSize.Key,
+                PartitionKey = ContentType.Base.ToString(),
+                RowKey = shipLinesWithSize.Key
             };
 
             var strengthNums = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Strength at Tier 0")),

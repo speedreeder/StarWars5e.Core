@@ -1,16 +1,16 @@
-﻿using Microsoft.WindowsAzure.Storage.Table;
+﻿using System;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
 {
-    public class StarshipEquipment : TableEntity
+    public class StarshipEquipment : BaseEntity
     {
         public string Name { get; set; }
         public StarshipEquipmentType TypeEnum { get; set; }
-        public int Type
+        public string Type
         {
-            get => (int)TypeEnum;
-            set => TypeEnum = (StarshipEquipmentType)value;
+            get => TypeEnum.ToString();
+            set => TypeEnum = Enum.Parse<StarshipEquipmentType>(value);
         }
 
     }
