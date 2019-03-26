@@ -1,4 +1,5 @@
-﻿using Microsoft.WindowsAzure.Storage.Table;
+﻿using System;
+using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
@@ -6,17 +7,17 @@ namespace StarWars5e.Models.Starship
     public class StarshipWeapon : StarshipEquipment
     {
         public StarshipWeaponCategory WeaponCategoryEnum { get; set; }
-        public int WeaponCategory
+        public string WeaponCategory
         {
-            get => (int)WeaponCategoryEnum;
-            set => WeaponCategoryEnum = (StarshipWeaponCategory)value;
+            get => WeaponCategoryEnum.ToString();
+            set => WeaponCategoryEnum = Enum.Parse<StarshipWeaponCategory>(value);
         }
 
         public StarshipWeaponSize WeaponSizeEnum { get; set; }
-        public int WeaponSize
+        public string WeaponSize
         {
-            get => (int)WeaponSizeEnum;
-            set => WeaponSizeEnum = (StarshipWeaponSize)value;
+            get => WeaponSizeEnum.ToString();
+            set => WeaponSizeEnum = Enum.Parse<StarshipWeaponSize>(value);
         }
 
         public int Cost { get; set; }

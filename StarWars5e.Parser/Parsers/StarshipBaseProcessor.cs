@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StarWars5e.Starships.Parser.Processors
+namespace StarWars5e.Parser.Parsers
 {
-    public abstract class StarshipBaseProcessor<T> where T: class
+    public abstract class StarshipBaseProcessor<T>: IStarshipBaseProcessor<T> where T: class
     {
         public async Task<List<T>> Process(string location, bool isRemote = false)
         {
@@ -31,7 +31,7 @@ namespace StarWars5e.Starships.Parser.Processors
             try
             {
                 var lines = new List<string>();
-                using (var stream = Assembly.GetEntryAssembly().GetManifestResourceStream($"StarWars5e.Starships.Parser.Sources.{location}.md"))
+                using (var stream = Assembly.GetEntryAssembly().GetManifestResourceStream($"StarWars5e.Parser.Sources.{location}.md"))
                 {
                     using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))
                     {

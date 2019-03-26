@@ -7,11 +7,19 @@ using StarWars5e.Models;
 using StarWars5e.Models.Interfaces;
 using StarWars5e.Models.Monster;
 using StarWars5e.Models.ViewModels;
+using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Storage.Clients
 {
     public interface ITableStorageConnection
     {
+
+        CloudTable MonsterTable { get; }
+        CloudTable PowerTable { get; }
+        CloudTable BackgroundTable { get; }
+        CloudTable SpeciesTable { get; }
+        CloudTable EquipmentTable { get; }
+        CloudTable ModificationsTable { get; }
         Task AddMonsters(List<Monster> monsters);
 
         /// <summary>
@@ -41,34 +49,35 @@ namespace StarWars5e.Storage.Clients
     /// </summary>
     public class TableStorageConnection : ITableStorageConnection
     {
-        private CloudTable monsterTable;
-        private CloudTable powerTable;
-        private CloudTable backgroundTable;
-        private CloudTable speciesTable;
-        private CloudTable equipmentTable;
-        private CloudTable _modificationsTable;
+        public CloudTable MonsterTable { get; private set; }
+        public CloudTable PowerTable { get; private set; }
+        public CloudTable BackgroundTable { get; private set; }
+        public CloudTable SpeciesTable { get; private set; }
+        public CloudTable EquipmentTable { get; private set; }
+        public CloudTable ModificationsTable { get; private set; }
 
         public TableStorageConnection()
         {
-            this.InitConnection();
+            InitConnection();
         }
 
         private void InitConnection()
         {
             var storageAccount = CloudStorageAccount.Parse("removed");
             var tableClient = storageAccount.CreateCloudTableClient();
-            this.monsterTable = tableClient.GetTableReference("monsters");
-            this.powerTable = tableClient.GetTableReference("powers");
-            this.speciesTable = tableClient.GetTableReference("species");
-            this.backgroundTable = tableClient.GetTableReference("backgrounds");
-            this.equipmentTable = tableClient.GetTableReference("equipment");
-            _modificationsTable = tableClient.GetTableReference("modifications");
-            this.powerTable.CreateIfNotExistsAsync().Wait();
-            this.monsterTable.CreateIfNotExistsAsync().Wait();
-            this.speciesTable.CreateIfNotExistsAsync().Wait();
-            this.backgroundTable.CreateIfNotExistsAsync().Wait();
-            this.equipmentTable.CreateIfNotExistsAsync().Wait();
-             _modificationsTable.CreateIfNotExistsAsync().Wait();
+
+            MonsterTable = tableClient.GetTableReference("monsters");
+            PowerTable = tableClient.GetTableReference("powers");
+            SpeciesTable = tableClient.GetTableReference("species");
+            BackgroundTable = tableClient.GetTableReference("backgrounds");
+            EquipmentTable = tableClient.GetTableReference("equipment");
+            ModificationsTable = tableClient.GetTableReference("modifications");
+            PowerTable.CreateIfNotExistsAsync().Wait();
+            MonsterTable.CreateIfNotExistsAsync().Wait();
+            SpeciesTable.CreateIfNotExistsAsync().Wait();
+            BackgroundTable.CreateIfNotExistsAsync().Wait();
+            EquipmentTable.CreateIfNotExistsAsync().Wait();
+            ModificationsTable.CreateIfNotExistsAsync().Wait();
         }
 
         public async Task AddMonsters(List<Monster> monsters)
@@ -92,7 +101,7 @@ namespace StarWars5e.Storage.Clients
                         input.RowKey = Guid.NewGuid().ToString();
                     }
                     var insertOperation = TableOperation.Insert(input);
-                    await this.monsterTable.ExecuteAsync(insertOperation);
+                    await this.MonsterTable.ExecuteAsync(insertOperation);
                 }
                 catch (Exception e)
                 {
@@ -121,7 +130,7 @@ namespace StarWars5e.Storage.Clients
                         power.RowKey = Guid.NewGuid().ToString();
                     }
                     var insertOperation = TableOperation.InsertOrMerge(power);
-                    await this.powerTable.ExecuteAsync(insertOperation);
+                    await this.PowerTable.ExecuteAsync(insertOperation);
                 }
                 catch (Exception e)
                 {
@@ -138,7 +147,7 @@ namespace StarWars5e.Storage.Clients
             var entities = new List<Power>();
             do
             {
-                var queryResult = await powerTable.ExecuteQuerySegmentedAsync(new TableQuery<Power>(), token);
+                var queryResult = await PowerTable.ExecuteQuerySegmentedAsync(new TableQuery<Power>(), token);
                 entities.AddRange(queryResult.Results);
                 token = queryResult.ContinuationToken;
             } while (token != null);
@@ -149,25 +158,25 @@ namespace StarWars5e.Storage.Clients
         public async Task AddSpecies(Species species)
         {
             var insertOperation = TableOperation.Insert(species);
-            await this.speciesTable.ExecuteAsync(insertOperation);
+            await this.SpeciesTable.ExecuteAsync(insertOperation);
         }
 
         public async Task AddBackground(BackgroundViewModel background)
         {
             var insertOperation = TableOperation.Insert(background);
-            await this.backgroundTable.ExecuteAsync(insertOperation);
+            await this.BackgroundTable.ExecuteAsync(insertOperation);
         }
 
         public async Task AddItem(IEquipment item)
         {
             var bob = item as ITableEntity;
             var insertOperation = TableOperation.Insert(bob);
-            await this.equipmentTable.ExecuteAsync(insertOperation);
+            await this.EquipmentTable.ExecuteAsync(insertOperation);
         }
 
         public async Task AddModifications(TableBatchOperation modificationOperation)
         {
-            await _modificationsTable.ExecuteBatchAsync(modificationOperation);
+            await ModificationsTable.ExecuteBatchAsync(modificationOperation);
         }
     }
 }

@@ -1,14 +1,15 @@
-﻿using StarWars5e.Models.Enums;
+﻿using System;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
 {
     public class StarshipAmmunition : StarshipEquipment
     {
         public StarshipWeaponCategory StarshipWeaponCategoryEnum { get; set; }
-        public int StarshipWeaponCategory
+        public string StarshipWeaponCategory
         {
-            get => (int)StarshipWeaponCategoryEnum;
-            set => StarshipWeaponCategoryEnum = (StarshipWeaponCategory)value;
+            get => StarshipWeaponCategoryEnum.ToString();
+            set => StarshipWeaponCategoryEnum = Enum.Parse<StarshipWeaponCategory>(value);
         }
         public int Cost { get; set; }
     }

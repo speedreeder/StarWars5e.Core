@@ -1,25 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
 {
-    public class StarshipModification : TableEntity
+    public class StarshipModification : BaseEntity
     {
-        public StarshipModification(ModificationType modificationType)
-        {
-            Type = (int) modificationType;
-        }
-
         public string Name { get; set; }
 
         [IgnoreProperty]
         public ModificationType TypeEnum { get; set; }
-        public int Type
+        public string Type
         {
-            get => (int)TypeEnum;
-            set => TypeEnum = (ModificationType)value;
+            get => TypeEnum.ToString();
+            set => TypeEnum = Enum.Parse<ModificationType>(value);
         }
 
         [IgnoreProperty]

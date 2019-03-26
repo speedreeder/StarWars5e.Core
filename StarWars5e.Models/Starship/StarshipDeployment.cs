@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using Microsoft.WindowsAzure.Storage.Table;
 
 namespace StarWars5e.Models.Starship
 {
-    public class StarshipDeployment
+    public class StarshipDeployment: BaseEntity
     {
         public StarshipDeployment()
         {
