@@ -11,7 +11,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
         private readonly Regex regex = new Regex(@">\s###\sAction");
         private readonly Regex titleRegex = new Regex(@"\*\*\*(?'Title'.*)\*\*\*");
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             // find the thing we care about....
             return monster;
@@ -24,7 +24,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
                 : MonsterSections.Unknown;
         }
 
-        public Monster Process(Monster monster, List<string> actionLines)
+        public MonsterOld Process(MonsterOld monster, List<string> actionLines)
         {
             //TODO: Long multi line things ain't working
             /**

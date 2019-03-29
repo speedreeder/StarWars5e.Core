@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StarWars5e.Parser.Parsers
 {
-    public abstract class StarshipBaseProcessor<T>: IStarshipBaseProcessor<T> where T: class
+    public abstract class BaseProcessor<T>: IBaseProcessor<T> where T: class
     {
         public async Task<List<T>> Process(string location, bool isRemote = false)
         {

@@ -119,7 +119,7 @@ namespace StarWars5e.Models.ViewModels
         ///  How does this power align with the force (all tech powers will be unaligned)
         /// </summary>
         [JsonProperty("powerAlignment")]
-        public Alignment PowerAlignment { get; set; }
+        public ForceAlignment PowerAlignment { get; set; }
 
         /// <summary>
         ///  List of generated tags for this power. These are not found in the source documentation and will be used for filtering

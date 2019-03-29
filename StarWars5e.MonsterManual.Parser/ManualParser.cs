@@ -18,23 +18,16 @@ namespace StarWars5e.MonsterManual.Parser
     {
         private readonly IMonsterRepository _monsterRepo;
         private string fileLocation;
-        private List<Monster> monsters = new List<Monster>();
+        private List<MonsterOld> monsters = new List<MonsterOld>();
 
         public ManualParser(IMonsterRepository monsterRepo)
         {
             _monsterRepo = monsterRepo;
         }
 
-        /// <summary>
-        /// Convert a markdown file into a list of bakcgrounds that can be programmatically interacted with
-        /// </summary>
-        /// <param name="location">Location of the file</param>
-        /// <param name="isRemote">Does an http call need to be made to get this markdown file</param>
-        /// <param name="isInternal">Is this file included as an intenral resource in our assembly</param>
-        /// <returns></returns>
-        public async Task<List<Monster>> Process(string location, bool isRemote = false, bool isInternal = false)
+        public async Task<List<MonsterOld>> Process(string location, bool isRemote = false, bool isInternal = false)
         {
-            var monsters = new List<Monster>();
+            var monsters = new List<MonsterOld>();
             List<string> lines = new List<string>();
 
             if (isRemote)

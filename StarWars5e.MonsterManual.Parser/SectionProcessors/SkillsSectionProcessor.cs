@@ -9,7 +9,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
     {
         private readonly Regex regex = new Regex(@">\s-\s\*\*Skills\*\*");
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             var skillList = new List<KvPair>();
 

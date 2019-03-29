@@ -20,7 +20,7 @@ namespace StarWars5e.Storage.Clients
         CloudTable SpeciesTable { get; }
         CloudTable EquipmentTable { get; }
         CloudTable ModificationsTable { get; }
-        Task AddMonsters(List<Monster> monsters);
+        Task AddMonsters(List<MonsterOld> monsters);
 
         /// <summary>
         /// Given a list of powers this will bulk insert them into the backing database
@@ -80,7 +80,7 @@ namespace StarWars5e.Storage.Clients
             ModificationsTable.CreateIfNotExistsAsync().Wait();
         }
 
-        public async Task AddMonsters(List<Monster> monsters)
+        public async Task AddMonsters(List<MonsterOld> monsters)
         {
             foreach (var input in monsters)
             {

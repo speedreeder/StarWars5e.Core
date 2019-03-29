@@ -8,12 +8,12 @@ namespace StarWars5e.Parser.Managers
     public class StarshipsOfTheGalaxyManager
     {
         private readonly ITableStorage _tableStorage;
-        private readonly IStarshipBaseProcessor<StarshipDeployment> _starshipDeploymentProcessor;
-        private readonly IStarshipBaseProcessor<StarshipEquipment> _starshipEquipmentProcessor;
-        private readonly IStarshipBaseProcessor<StarshipModification> _starshipModificationProcessor;
-        private readonly IStarshipBaseProcessor<StarshipBaseSize> _starshipSizeProcessor;
-        private readonly IStarshipBaseProcessor<StarshipVenture> _starshipVentureProcessor;
-        private readonly IStarshipBaseProcessor<StarshipChapterRules> _starshipChapterRulesProcessor;
+        private readonly IBaseProcessor<StarshipDeployment> _starshipDeploymentProcessor;
+        private readonly IBaseProcessor<StarshipEquipment> _starshipEquipmentProcessor;
+        private readonly IBaseProcessor<StarshipModification> _starshipModificationProcessor;
+        private readonly IBaseProcessor<StarshipBaseSize> _starshipSizeProcessor;
+        private readonly IBaseProcessor<StarshipVenture> _starshipVentureProcessor;
+        private readonly IBaseProcessor<StarshipChapterRules> _starshipChapterRulesProcessor;
         private const string StarshipsOfTheGalaxyFile = "sotg";
 
         public StarshipsOfTheGalaxyManager(ITableStorage tableStorage)

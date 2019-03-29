@@ -5,13 +5,18 @@
     /// </summary>
     public enum DamageType
     {
-        Unknown = 0,
-        Energy = 1,
-        Kinetic = 2,
-        Ion = 3,
-        Force = 4,
-        Psychic = 5,
-        Necrotic = 6,
-        Fire = 7
+        Unknown,
+        Acid,
+        Cold,
+        Energy, 
+        Fire,
+        Force,
+        Ion,
+        Kinetic,
+        Lightning,
+        Necrotic,
+        Poison,
+        Psychic,
+        Sonic
     }
 }

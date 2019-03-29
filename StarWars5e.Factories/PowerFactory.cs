@@ -35,7 +35,7 @@ namespace StarWars5e.Factories
             vm.DurationLengthModifier = (Duration) input.DurationLengthModifier;
             vm.DurationLength = input.DurationLength;
             vm.PotencyPower = input.PotencyPower;
-            vm.PowerAlignment = (Alignment) input.PowerAlignment;
+            vm.PowerAlignment = (ForceAlignment) input.PowerAlignment;
             vm.Tags = input.Tags;
             return vm;
         }

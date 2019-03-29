@@ -13,7 +13,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
         private readonly Regex dividerRegex = new Regex(@"___");
         private readonly Regex titleRegex = new Regex(@"\*\*\*(?'Title'.*)\*\*\*");
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             // find the thing we care about....
             return monster;
@@ -26,7 +26,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
                 : MonsterSections.Unknown;
         }
 
-        internal Monster Process(Monster monster, List<string> currentSection)
+        internal MonsterOld Process(MonsterOld monster, List<string> currentSection)
         {
             var list = new List<KvPair>();
             var currentAction = new StringBuilder();

@@ -7,7 +7,7 @@ using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers
 {
-    public class StarshipChapterRulesProcessor : StarshipBaseProcessor<StarshipChapterRules>
+    public class StarshipChapterRulesProcessor : BaseProcessor<StarshipChapterRules>
     {
         public override Task<List<StarshipChapterRules>> FindBlocks(List<string> lines)
         {
