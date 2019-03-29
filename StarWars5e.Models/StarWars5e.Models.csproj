@@ -14,10 +14,6 @@
       <Generator>DtsGenerator</Generator>
       <LastGenOutput>BackgroundViewModel.cs.d.ts</LastGenOutput>
     </Compile>
-    <Compile Update="ViewModels\SpeciesViewModel.cs">
-      <Generator>DtsGenerator</Generator>
-      <LastGenOutput>SpeciesViewModel.cs.d.ts</LastGenOutput>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -25,11 +21,6 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BackgroundViewModel.cs</DependentUpon>
-    </None>
-    <None Update="ViewModels\SpeciesViewModel.cs.d.ts">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>SpeciesViewModel.cs</DependentUpon>
     </None>
   </ItemGroup>
 
