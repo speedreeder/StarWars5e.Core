@@ -6,20 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Sources\force-powers.md" />
-    <None Remove="Sources\tech-powers.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Sources\force-powers.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sources\tech-powers.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
@@ -29,6 +15,10 @@
   <ItemGroup>
     <ProjectReference Include="..\StarWars5e.Factories\StarWars5e.Factories.csproj" />
     <ProjectReference Include="..\StarWars5e.Storage\StarWars5e.Storage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sources\" />
   </ItemGroup>
 
 </Project>
