@@ -12,7 +12,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
         private readonly Regex passiveRegex = new Regex(@"passive Perception");
         private readonly Regex feetRegex = new Regex(@"ft\.");
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             try
             {

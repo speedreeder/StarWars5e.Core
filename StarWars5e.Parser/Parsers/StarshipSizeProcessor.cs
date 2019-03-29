@@ -8,7 +8,7 @@ using StarWars5e.Models.Starship;
 
 namespace StarWars5e.Parser.Parsers
 {
-    public class StarshipSizeProcessor : StarshipBaseProcessor<StarshipBaseSize>
+    public class StarshipSizeProcessor : BaseProcessor<StarshipBaseSize>
     {
         private static readonly string[] SavingThrowOptions = {"Strength", "Dexterity", "Constitution"};
 

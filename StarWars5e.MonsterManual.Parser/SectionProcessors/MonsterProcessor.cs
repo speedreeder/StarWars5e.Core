@@ -11,17 +11,17 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
         private List<string> currentSectionContent = new List<string>();
         private readonly string content;
         private bool featureTriggered = false;
-        private Monster monster;
+        private MonsterOld monster;
 
         public MonsterProcessor(string input)
         {
             this.content = input;
-            this.monster = new Monster();
+            this.monster = new MonsterOld();
         }
 
-        public Monster ProcessLineList(List<string> lines)
+        public MonsterOld ProcessLineList(List<string> lines)
         {
-            this.monster = new Monster();
+            this.monster = new MonsterOld();
             monster.OwnerName = "Jawa";
             var sectionType = MonsterSections.Unknown;
             foreach (var line in lines)
@@ -57,7 +57,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
             return this.monster;
         }
 
-        public Monster Process()
+        public MonsterOld Process()
         {
             try
             {

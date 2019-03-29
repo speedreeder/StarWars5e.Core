@@ -34,20 +34,20 @@ namespace StarWars5e.Powers.Parser.Processors
             }
         }
 
-        private Alignment GetAlignment(string input)
+        private ForceAlignment GetAlignment(string input)
         {
             var lower = input.ToLower();
             if (lower.Contains("dark"))
             {
-                return Alignment.DarkSide;
+                return ForceAlignment.DarkSide;
             }
 
             if (lower.Contains("light"))
             {
-                return Alignment.LightSide;
+                return ForceAlignment.LightSide;
             }
 
-            return Alignment.Neutral;
+            return ForceAlignment.Neutral;
         }
 
 

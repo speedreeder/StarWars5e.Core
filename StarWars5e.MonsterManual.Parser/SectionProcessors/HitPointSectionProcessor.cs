@@ -8,7 +8,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
         private readonly Regex regex = new Regex(@">\s-\s\*\*Hit");
 
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             var toRemove = "> - **Hit Points** ";
             var value = input.Substring(toRemove.Length);

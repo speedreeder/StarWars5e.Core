@@ -8,8 +8,10 @@ namespace StarWars5e.Models.Utils
     {
         public static IEnumerable<string> CleanListOfStrings(this IEnumerable<string> source)
         {
-            var output = source.Where(s => !(s.StartsWith("<") && s.EndsWith(">")) && !s.StartsWith("\\"))
-                .Select(s => Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace())
+            var cleanListOfStrings = source.ToList();
+            if (!cleanListOfStrings.Any()) return cleanListOfStrings;
+            var output = cleanListOfStrings.Where(s => !(s.StartsWith("<") && s.EndsWith(">")) && !s.StartsWith("\\"))
+                .Select(s => Regex.Replace(s, "<.*?>", string.Empty).Replace("�", string.Empty).RemoveHtmlWhitespace())
                 .ToList();
 
             var badIndexes = new List<int>();
@@ -18,7 +20,8 @@ namespace StarWars5e.Models.Utils
                 var currentLine = output[i];
                 var nextLine = output.ElementAtOrDefault(i + 1);
 
-                if (nextLine != null && string.IsNullOrWhiteSpace(currentLine) && string.IsNullOrWhiteSpace(nextLine))
+                if (nextLine != null && string.IsNullOrWhiteSpace(currentLine) && string.IsNullOrWhiteSpace(nextLine) 
+                    || currentLine != null && Regex.IsMatch(currentLine, @"^>\s*$"))
                 {
                     badIndexes.Add(i);
                 }

@@ -6,6 +6,6 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
     {
 
         MonsterSections IsMatch(string input);
-        Monster Process(Monster monster, string line);
+        MonsterOld Process(MonsterOld monster, string line);
     }
 }

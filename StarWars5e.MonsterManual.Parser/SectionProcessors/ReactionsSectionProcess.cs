@@ -18,12 +18,12 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
                 : MonsterSections.Unknown;
         }
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             return monster;
         }
 
-        public Monster Process(Monster monster, List<string> reactionLines)
+        public MonsterOld Process(MonsterOld monster, List<string> reactionLines)
         {
 
             var list = new List<KvPair>();

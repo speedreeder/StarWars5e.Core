@@ -15,7 +15,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
                 : MonsterSections.Unknown;
         }
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             var toRemove = "> - **Speed** ";
             var value = input.Substring(toRemove.Length);

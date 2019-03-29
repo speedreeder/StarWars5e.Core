@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -9,7 +8,7 @@ using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers
 {
-    public class StarshipDeploymentProcessor : StarshipBaseProcessor<StarshipDeployment>
+    public class StarshipDeploymentProcessor : BaseProcessor<StarshipDeployment>
     {
         public override Task<List<StarshipDeployment>> FindBlocks(List<string> lines)
         {
@@ -74,11 +73,11 @@ namespace StarWars5e.Parser.Parsers
                     var starshipFeatureContentLines = deploymentLines.Skip(currentFeatNameLineIndex + 1)
                         .Take(nextFeatNameLineIndex - (currentFeatNameLineIndex + 1)).CleanListOfStrings();
 
-                    deploymentFeature.Content = string.Join((string) "\r\n", (IEnumerable<string>) starshipFeatureContentLines);
+                    deploymentFeature.Content = string.Join("\r\n", starshipFeatureContentLines);
                 }
 
-                deployment.FlavorText = string.Join((string) "\r\n",
-                    (IEnumerable<string>) deploymentLines.Skip(1).Take(deploymentTableStart - 1)
+                deployment.FlavorText = string.Join("\r\n",
+                    deploymentLines.Skip(1).Take(deploymentTableStart - 1)
                         .CleanListOfStrings());
 
                 deployments.Add(deployment);

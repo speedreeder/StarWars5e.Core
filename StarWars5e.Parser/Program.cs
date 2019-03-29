@@ -20,11 +20,13 @@ namespace StarWars5e.Parser
                 .AddSingleton<ITableStorage>(tableStorage)
                 .BuildServiceProvider();
 
-            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>());
-            var speciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>());
+            //var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>());
+            //var speciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>());
+            var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>());
 
-            await starshipManager.Parse();
-            await speciesManager.Parse();
+            //await starshipManager.Parse();
+            //await speciesManager.Parse();
+            await monsterManualManager.Parse();
         }
     }
 }

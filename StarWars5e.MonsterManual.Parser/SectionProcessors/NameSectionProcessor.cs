@@ -7,7 +7,7 @@ namespace StarWars5e.MonsterManual.Parser.SectionProcessors
     {
         private readonly Regex regex = new Regex(@">\s##\s");
 
-        public Monster Process(Monster monster, string input)
+        public MonsterOld Process(MonsterOld monster, string input)
         {
             // find the thing we care about....
             var name = input.Substring(5);

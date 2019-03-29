@@ -14,7 +14,7 @@ namespace StarWars5e.Storage.Repositories
             _db = db;
         }
 
-        public async Task InsertMonsters(List<Monster> monsters)
+        public async Task InsertMonsters(List<MonsterOld> monsters)
         {
             await this._db.AddMonsters(monsters);
         }
@@ -22,6 +22,6 @@ namespace StarWars5e.Storage.Repositories
 
     public interface IMonsterRepository
     {
-        Task InsertMonsters(List<Monster> monsters);
+        Task InsertMonsters(List<MonsterOld> monsters);
     }
 }
