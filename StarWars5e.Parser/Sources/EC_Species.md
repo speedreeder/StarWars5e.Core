@@ -1,9 +1,4 @@
-<style>
-  .phb .footnote {
-    width: 800px;
-  }
-  body {counter-reset: phb-page-numbers -1;}
-</style>
+
 
 ## Changelog
 
@@ -264,12 +259,12 @@ ___
 Ardennians are sentient humanoid simians hailing from the tropical paradise of Ardennia. They are covered in fur from head to their wrists and ankles, with brown and grey being the most common fur colors. Ardennians sport four arms and prehensile feet. All six of their limbs are equally dexterous.
 
 ### Society and Culture
-The Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennan’s live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.
+The Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennanï¿½s live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.
 
-Ardennia’s distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who don’t mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy. 
+Ardenniaï¿½s distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who donï¿½t mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy. 
 
 ### Names
-Ardennian’s names are typically concise and rarely more than two syllables, with a familal surname.
+Ardennianï¿½s names are typically concise and rarely more than two syllables, with a familal surname.
 
 **Male Names.** Rio, Jakar, Hul, Lup, Quil, Jerno
 
@@ -1027,9 +1022,9 @@ Due to their lack of lips, Draethos names typically lack hard consonants. Surnam
 
 **Male Names.** Odan, Gyeto, Hurl, Jan, Talon
 
-**Female Names.** Gillen, Teria, Kat’h, Yul, Aswe
+**Female Names.** Gillen, Teria, Katï¿½h, Yul, Aswe
 
-**Surnames.** Urr, Slyter, Qelu’tlapa, Ayahu, Jek
+**Surnames.** Urr, Slyter, Qeluï¿½tlapa, Ayahu, Jek
 
 \columnbreak
 
@@ -1910,7 +1905,7 @@ As a Gran, you have the following special traits.
 
 ***Keen Sight.*** Through use of infrared vision, you have advantage on Wisdom (Perception) checks that rely on sight. 
 
-***Reader of Hearts.*** Through identifying subtle variations in a target’s body heat, the Gran are able to better understand their emotions and intentions. You are proficient in the Insight skill. 
+***Reader of Hearts.*** Through identifying subtle variations in a targetï¿½s body heat, the Gran are able to better understand their emotions and intentions. You are proficient in the Insight skill. 
 
 ***Toughness.*** Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
 
@@ -2030,7 +2025,7 @@ The Harch possess a large-fanged mouth between two prominent chelicerae, above w
 The Harch are distantly related to the Aqualish<br> species and there is much debate among geneticists<br> regarding the relationship between the Harch and the<br> Aqualish Ualaq subspecies. However, the Harch<br> themselves considered such discussions to be<br> obscene.
 
 ### Society and Culture
-Not much is known about the Harch, as few of them have mingled with the galactic community, preferring to stay on Secundus Ando. Harch that leave the planet tend to have a more aspirant nature than their fellows, and often reach great heights in their chosen professions in the galaxy. Such Harch are considered outliers—most apparently care little for titles.
+Not much is known about the Harch, as few of them have mingled with the galactic community, preferring to stay on Secundus Ando. Harch that leave the planet tend to have a more aspirant nature than their fellows, and often reach great heights in their chosen professions in the galaxy. Such Harch are considered outliersï¿½most apparently care little for titles.
 
 Like the Arcona species, female Harch are seen as more domineering and aggressive than their male counterparts. It is not unheard of for a male Harch to raise entire broods of hatchlings alone.
 
@@ -2406,7 +2401,7 @@ ___
 <div style='margin-top:49px'></div>
 
 ### Biology and Appearance
-Kaminoans’ evolution from aquatic creatures in the vast oceans of Kamino is reflected in their tall shape, glassy coated eyes, near luminescent skin, and long, thin necks. The almond-shaped eyes of Kaminoans are also able to see color in the ultraviolet spectrum. While female Kaminoans are bald, males possess headcrests and fin ridges along the rear of their small, bulbous skulls.
+Kaminoansï¿½ evolution from aquatic creatures in the vast oceans of Kamino is reflected in their tall shape, glassy coated eyes, near luminescent skin, and long, thin necks. The almond-shaped eyes of Kaminoans are also able to see color in the ultraviolet spectrum. While female Kaminoans are bald, males possess headcrests and fin ridges along the rear of their small, bulbous skulls.
 
 ### Society and Culture
 The Kaminoans see themselves as a superior form of life, but nevertheless remained polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who do not are obviously inferior; self-improvement has a central role in Kaminoan society. Through the development and mastery of selective breeding, genetics, and cloning, the Kaminoans were able to overcome a cataclysm that pushed them to the brink of extinction. 
@@ -3077,7 +3072,7 @@ ___
 Muuns are tall, gaunt humanoids with thin bodies, long<br> limbs, and elongated hairless heads. They typically<br> have pale pink or white skin, most likely derived from<br> their propensity for staying indoors. Muuns have tiny<br> ears on the middle of the sides of their heads, flat<br> noses, and slim mouths which leads to a<br> commonly nasally voice.
 
 ### Society and Culture
-Muuns believe in tradition, with an established culture based on intelligence and merit. A class-based hierarchy, Muuns consider the  the intellectual pursuits — financiers, lawyers, engineers, diplomats, scientists — as the highest levels of society. Muun culture, and life, revolves around economics and finance. Intense competition among coworkers encourages economic growth, increased productivity, and superior work ethic. Muuns also have a fundamental respect for justice, though they typically adhere to the letter of the law rather than the spirit.
+Muuns believe in tradition, with an established culture based on intelligence and merit. A class-based hierarchy, Muuns consider the  the intellectual pursuits ï¿½ financiers, lawyers, engineers, diplomats, scientists ï¿½ as the highest levels of society. Muun culture, and life, revolves around economics and finance. Intense competition among coworkers encourages economic growth, increased productivity, and superior work ethic. Muuns also have a fundamental respect for justice, though they typically adhere to the letter of the law rather than the spirit.
 
 Since Muuns tend to shy away from fighting and physical pursuits, Muun society relies on alternative means for their planet's protection, using vast financial resources to purchase massive floating defense platforms to defend their civilization from attack.
 
@@ -3306,7 +3301,7 @@ Ortolans are squat, heavily-built humanoid bipeds with long, trunklike noses and
 ### Society and Culture
 Ortolan society is reasonably industrialised, though not as technologically advanced as other species. Despite this, their economy is mostly based on barter, with credits primarily used to trade with offworlders. Education is the responsibility of their parents, though gifted youngsters are often traded to other families to get specialized education. 
 
-While most Ortolans appear to have blue skin, Ortolans are actually covered in short velvety fur which they often dyed in bright colors, most often blue and pink.  This tradition began when a Devaronian trader tried to sell Ortolans a shipment of food dyes—they considered dyeing their food a waste of time, but found dyed fur to be quite stylish.
+While most Ortolans appear to have blue skin, Ortolans are actually covered in short velvety fur which they often dyed in bright colors, most often blue and pink.  This tradition began when a Devaronian trader tried to sell Ortolans a shipment of food dyesï¿½they considered dyeing their food a waste of time, but found dyed fur to be quite stylish.
 
 ### Names
 Ortolan names are generally short with big sounds. Female names are typically softer. Surnames are familial.
@@ -3749,7 +3744,7 @@ ___
 <div style='margin-top:21px'></div>
 
 ### Biology and Appearance
-Squibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an<br> olfactory organ, able to pick up scents at a distance<br> and ascertain intrinsic details—such as penetrating<br> through a disguise or identifying a forgery—when<br> rubbed against. The species has both male and female<br> sexes, although non-Squibs often have difficulty<br> determining the sex of a Squib based on appearance<br> alone. Their mouths are full of forbidding, sharp, white<br> teeth, and their flexible cheeks were capable of storing<br> items.
+Squibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an<br> olfactory organ, able to pick up scents at a distance<br> and ascertain intrinsic detailsï¿½such as penetrating<br> through a disguise or identifying a forgeryï¿½when<br> rubbed against. The species has both male and female<br> sexes, although non-Squibs often have difficulty<br> determining the sex of a Squib based on appearance<br> alone. Their mouths are full of forbidding, sharp, white<br> teeth, and their flexible cheeks were capable of storing<br> items.
 
 ### Society and Culture
 Squibs are friendly and cheerful to such an extent that, over time, they are considered quite annoying. Squibs are inherently curious, handling items with literal regard to care. They are unabashed pack rats, and they wear clothing for the excess storage rather than necessity. The Squibs' overconfidence is a defining trait. The typical Squib response to a threat is not to fight or flee, but to bluff and bluster, especially when not face-to-face. In person, their sharp teeth are their favored means of intimidation. Squibs believe that bargaining is the highest form of communication, and they believe haggling is more important than the goods themselves. A deal is a binding oath to Squibs, and they are incredibly loyal to their business partners.
@@ -3897,7 +3892,7 @@ ___
 <div style='margin-top:50px'></div>
 
 ### Biology and Appearence
-Talz are large, bulky, bipedal creatures, that are covered head to toe in thick white fur, which provides exceptional insulation against their frozen world. Talz have four eyes, which are also adaptations to their native environment. The larger set of eyes are shut during the day, when sunlight reflects off the snow with dazzling brightness—able to blind sensitive optical organs—leaving the smaller set to navigate with. Alternatively, during the deep darkness of their homeworld's moonless night, the larger pair are utilized to provide the Talz with adequate vision. Talz use a small proboscis to eat and communicate, creating high-pitched chirps and buzzes.
+Talz are large, bulky, bipedal creatures, that are covered head to toe in thick white fur, which provides exceptional insulation against their frozen world. Talz have four eyes, which are also adaptations to their native environment. The larger set of eyes are shut during the day, when sunlight reflects off the snow with dazzling brightnessï¿½able to blind sensitive optical organsï¿½leaving the smaller set to navigate with. Alternatively, during the deep darkness of their homeworld's moonless night, the larger pair are utilized to provide the Talz with adequate vision. Talz use a small proboscis to eat and communicate, creating high-pitched chirps and buzzes.
 
 ### Society and Culture
 Talz are a hunter-gatherer, clan-based society. They work in unison, and treat the entire clan as one single familial entity. Resources on Ordo Plutonia are often scarce, which leads to warring among Talz tribes. However, the clans are adept at forming a unified front when they face a common enemy.
@@ -3958,7 +3953,7 @@ ___
 > ##### Physical Characteristics
 > ||||
 > |:---|:------------:|:------------:|
-> |  ***Height*** |6’2"|+2d12"|
+> |  ***Height*** |6ï¿½2"|+2d12"|
 > |  ***Weight*** |175 lb.|x(2d6) lb.|
 > ___
 >##### Sociocultural Characteristics
@@ -4618,353 +4613,3 @@ As a Weequay, you have the following special traits.
 <img src='https://www.gmbinder.com/images/rULowc8.png' style='position:absolute;top:10px;right:45px;width:301px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
-
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Russo+One|Open+Sans|Bungee+Inline');
-    
-	.phb {
-        background: #afc6d6;
-        background: -moz-linear-gradient(left, #afc6d6 0%, #d6d6d6 30%, #d6d6d6 70%, #afc6d6 100%);
-        background: -webkit-linear-gradient(left, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
-        background: linear-gradient(to right, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afc6d6', endColorstr='#afc6d6',GradientType=1 );
-        color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        line-height: 1em;
-    }
-    
-    .phb p {
-        font-size: 0.9em;
-        line-height: 1.2em;
-    }
-    
-    .phb ul {
-        font-size: 0.85em;
-    }
-    
-    .phb h1,.phb h2,.phb h3,.phb h4 {
-	    color: #c40f0f;
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-	}
-    
-    .phb h1+p::first-letter {
-	    color: #000000;
-        font-family: 'Bungee Inline', cursive;
-
-        font-size: 6em;
-        line-height: 1em;
-        margin-right: 4px;
-	}
-	
-    .phb h1 {
-        font-size: 0.7cm;
-    }
-    
-    .phb h2 {
-        font-size: 0.5cm
-    }
-
-    .phb h3 {
-        font-size: .4cm;
-        border-bottom: 2px solid #0d99cc
-    }
-
-    .phb h4 {
-        font-size: .35cm
-    }
-
-    .phb h5 {
-        font-size: .4cm;
-    }
-    
-    .phb h4+p+hr+ul, .phb h4+hr+ul, .phb h4+hr+ul+hr+ul {
-        font-size: 0.85em;
-    }
-    
-    .phb .toc a {
-    	color: #e6e6e6;
-	}
-    
-    .phb:after {
-    	background-image: none;
-        border-bottom: 2px solid #0d99cc;
-		bottom: 16px
-	}
-    
-    .phb blockquote {
-        box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
-        margin-bottom: 1em;
-        padding: 5px 10px;
-        background-color: #bdc8cc;
-        border: 1px solid #0d99cc;
-        border-image: none;
-        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
-        color: #000000;
-        font-size: 1em;
-    }
-    
-    .phb blockquote h4 {
-        color: #000000;
-    }
-    
-    .phb blockquote p, .phb blockquote ul {
-        font-size: 0.85em;
-        line-height: 1.12em
-    }
-    
-    .phb hr+section blockquote {
-        position: relative;
-        padding-top: 15px;
-        background-color: #bdc8cc;
-        border-top: 0.2em solid #0d99cc;
-        border-bottom: 0.2em solid #0d99cc;
-        border-left: 0;
-        border-right: 0;
-        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
-        background-image: none;
-        border-image: none;
-        color: #000000;
-    }
-    
-    
-    .phb hr+section blockquote h2 {
-        margin-top: -8px;
-        margin-bottom: 0;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h2+p {
-        padding-bottom: 0;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h3 {
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        border-bottom: 1px solid #000000;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h4 {
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+ul {
-        color: #000000;
-        font-size: 0.9em;
-    }
-    
-    .phb hr+section blockquote ul {
-        font-family: 'Open Sans', sans-serif;
-        padding-left: 1em;
-        font-size: .352cm;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote section section ul li {
-        text-indent: -1em;
-        list-style-type: none;
-        margin-bottom: 7px;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote ul em {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote ul strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+table {
-        margin: 0;
-        column-span: 1;
-        background-color: transparent;
-        border-style: none;
-        border-image: none;
-        -webkit-column-span: 1;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+table tbody tr:nth-child(odd),.phb hr+section blockquote hr+table tbody tr:nth-child(even) {
-        background-color: transparent
-    }
-    
-    .phb hr+section blockquote table {
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote p+p {
-        margin-top: 0;
-        text-indent: 0;
-        margin-bottom: 7px
-    }
-    
-    .phb hr+section blockquote hr {
-        visibility: visible;
-        height: 5px;
-        margin: 4px 0;
-        background-color: #0d99cc;
-        background-image: none;
-        background-size: 100% 100%;
-        border: none
-    }
-    
-    .phb hr+hr+section blockquote {
-        column-count: 2;
-        column-fill: auto;
-        column-gap: 1cm;
-        column-width: 7.68cm;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        -webkit-column-width: 7.68cm;
-        -moz-column-width: 7.68cm;
-        -webkit-column-gap: 1cm;
-        -moz-column-gap: 1cm
-    }
-    
-    .phb .pageNumber {
-        color: #c40f0f;
-    }
-    
-    .phb .footnote {
-        color: #c40f0f;
-        bottom: 25px;
-    }
-    
-    .phb:nth-child(even):after {
-        background-image: none;
-    }
-    
-    
-    .phb .descriptive {
-        color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.95em;
-        background-color: #bdc8cc;
-        border-image: none;
-        border-left: 0.2em solid #0d99cc;
-        border-right: 0.2em solid #0d99cc;
-        border-top: 0;
-        border-bottom: 0;
-        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
-        padding: 0.25em 1em;
-    }
-    
-    .phb .descriptive p {
-        font-family: 'Open Sans', sans-serif;
-        display: block;
-        padding-bottom: 0;
-        line-height: 1.25em;
-        padding: 0 1em 0 2em;
-        text-indent: -1em;
-    }
-    
-    .phb .descriptive p+p {
-        padding-top: .4em
-    }
-    
-    .phb .descriptive em {
-        font-style: italic
-    }
-    
-    .phb .descriptive strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em
-    }
-    
-    .phb pre+.descriptive {
-        margin-top: .7em;
-    }
-    
-    .phb p+p {
-        text-indent: 1em;
-    }
-    
-    .phb table {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        width: 100%;
-        margin-bottom: 1em;
-        line-height: 1em;
-    }
-    
-    .phb table em {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-    }
-    
-    .phb table strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-    }
-    
-    .phb table thead {
-        font-weight: 800;
-    }
-    
-    .phb table thead th {
-        font-size: 0.875em;
-    }
-    
-    .phb table tbody tr td {
-        padding: .3em .1em;
-        font-size: 0.8em;
-        min-width: 2.5em;
-    }
-    
-    .phb table tbody tr:nth-child(odd) {
-        background-color: #c9d6db;
-    }
-    
-    .phb table tbody tr:nth-child(even) {
-        background-color: #bdc8cc;
-    }
-    
-    .phb .classTable {
-        background-color: #bdc8cc;
-        border-top: 0.2em solid #0d99cc;
-        border-bottom: 0.2em solid #0d99cc;
-        border-left: 0;
-        border-right: 0;
-        border-image: none;
-        padding: 1em;
-        font-size: 1em;
-        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
-    }
-    
-    .phb .classTable h5 {
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-
-    code {
-        padding: 2px 4px;
-        font-size: 90%;
-        color: #2d2d2d;
-        background-color: #bdc8cc;
-        border-radius: 2px;
-        max-width: 95%;
-        word-break: break-all;
-    }
-    
-    a:-webkit-any-link {
-    	color: #cc6d0e;
-	}
-	
-	.phb:after { content: ""; }
-</style>

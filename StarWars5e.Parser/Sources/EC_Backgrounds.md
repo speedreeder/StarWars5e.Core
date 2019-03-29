@@ -1,9 +1,3 @@
-<style>
-  .phb .footnote {
-    width: 800px;
-  }
-  body {counter-reset: phb-page-numbers 0;}
-</style>
 
 ## Changelog
 ### New Backgrounds
@@ -100,19 +94,19 @@ Often considered rude and uncouth among civilized folk, barbarians have little r
 
 |d8|Personality Trait|
 |:---:|:----------|
-|1|I’m driven by a wanderlust that led me away from home.|
+|1|Iï¿½m driven by a wanderlust that led me away from home.|
 |2|I watch over my friends as if they were a litter of newborn pups.|
-|3|I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I’d do it again if I had to.|
+|3|I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. Iï¿½d do it again if I had to.|
 |4|I have a lesson for every situation, drawn from observing nature.|
-|5|I place no stock in wealthy or well-mannered folk. Money and manners won’t save you from a hungry owlbear.|
-|6|I’m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
+|5|I place no stock in wealthy or well-mannered folk. Money and manners wonï¿½t save you from a hungry owlbear.|
+|6|Iï¿½m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
 |7|I feel far more comfortable around animals than people.|
 |8|I was, in fact, raised by wolves.|
 
 |d6|Ideal|
 |:---:|:----------|
 |1|**Change**. Life is like the seasons, in constant change, and we must change with it. (Chaotic)|
-|2|**Greater Good**. It is each person’s responsibility to make the most happiness for the whole tribe. (Light)|
+|2|**Greater Good**. It is each personï¿½s responsibility to make the most happiness for the whole tribe. (Light)|
 |3|**Honor**. If I dishonor myself, I dishonor my whole clan. (Lawful)|
 |4|**Might**. The strongest are meant to rule. (Dark)|
 |5|**Nature**. The natural world is more important than all the constructs of civilization. (Neutral)|
@@ -130,11 +124,11 @@ Often considered rude and uncouth among civilized folk, barbarians have little r
 |d6|Flaw|
 |:---:|:----------|
 |1|I am too enamored of ale, wine, and other intoxicants.|
-|2|There’s no room for caution in a life lived to the fullest.|
-|3|I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.|
+|2|Thereï¿½s no room for caution in a life lived to the fullest.|
+|3|I remember every insult Iï¿½ve received and nurse a silent resentment toward anyone whoï¿½s ever wronged me.|
 |4|I am slow to trust members of other species, tribes, and societies.|
 |5|Violence is my answer to almost any challenge.|
-|6|Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish.|
+|6|Donï¿½t expect me to save those who canï¿½t save themselves. It is natureï¿½s way that the strong thrive and the weak perish.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -149,7 +143,7 @@ ___
 - **Languages:** Two of your choice
 - **Equipment:** A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of binders, and a pouch containing 100 cr
 
-### Feature: Watcher’s Eye
+### Feature: Watcherï¿½s Eye
 Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter.
 
 ### Background Feat
@@ -183,9 +177,9 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |d8|Personality Trait|
 |:---:|:----------|
 |1|I'm always polite and respectful.|
-|2|I’m haunted by memories of war. I can’t get the images of violence out of my mind.|
-|3|I’ve lost too many friends, and I’m slow to make new ones.|
-|4|I’m full of inspiring and cautionary tales from my guard service relevant to almost every combat situation.|
+|2|Iï¿½m haunted by memories of war. I canï¿½t get the images of violence out of my mind.|
+|3|Iï¿½ve lost too many friends, and Iï¿½m slow to make new ones.|
+|4|Iï¿½m full of inspiring and cautionary tales from my guard service relevant to almost every combat situation.|
 |5|I can stare down a hell hound without flinching.|
 |6|I enjoy being strong and like breaking things.|
 |7|I have a crude sense of humor. |
@@ -197,7 +191,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |2|**Responsibility**. I do what I must and obey just authority. (Lawful)|
 |3|**Independence**. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)|
 |4|**Might**. In life as in war, the stronger force wins. (Dark)|
-|5|**Live and Let Live**. Ideals aren’t worth killing over or going to war for. (Neutral)|
+|5|**Live and Let Live**. Ideals arenï¿½t worth killing over or going to war for. (Neutral)|
 |6|**Nation**. My city, nation, or people are all that matter. (Any)|
 
 |d6|Bond|
@@ -205,7 +199,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |1|I would still lay down my life for the people I served with.|
 |2|Someone saved my life on the battlefield. To this day, I will never leave a friend behind.|
 |3|My honor is my life.|
-|4|I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.|
+|4|Iï¿½ll never forget the crushing defeat my company suffered or the enemies who dealt it.|
 |5|Those who fight beside me are those worth dying for.|
 |6|I fight for those who cannot fight for themselves.|
 
@@ -213,10 +207,10 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |:---:|:----------|
 |1|The monstrous enemy we faced in battle still leaves me quivering with fear.|
 |2|I have little respect for anyone who is not a proven warrior.|
-|3|I made a terrible mistake in battle cost many lives— and I would do anything to keep that mistake secret.|
+|3|I made a terrible mistake in battle cost many livesï¿½ and I would do anything to keep that mistake secret.|
 |4|My hatred of my enemies is blind and unreasoning.|
 |5|I obey the law, even if the law causes misery.|
-|6|I’d rather eat my armor than admit when I’m wrong.|
+|6|Iï¿½d rather eat my armor than admit when Iï¿½m wrong.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -289,18 +283,18 @@ Clones are trained from birth to be the perfect soldier; over time, they also de
 |3|I face problems head-on. A simple, direct solution is the best path to success.|
 |4|I have a sense of humor. This is rare among my brothers.|
 |5|I judge people by their actions, not their words.|
-|6|I’ve lost too many friends, and I’m slow to make new ones.|
+|6|Iï¿½ve lost too many friends, and Iï¿½m slow to make new ones.|
 |7|I ask a lot of questions.|
-|8|I’ll settle for nothing less than perfection.|
+|8|Iï¿½ll settle for nothing less than perfection.|
 
 |d6|Ideal|
 |:---:|:----------|
 |1|**Responsibility**. I do what I must and obey just authority. (Lawful)|
 |2|**Might**. Strength, not compassion, wins battles. (Dark)|
 |3|**Republic**. My brothers, the Republic, or people are all that matter. (Any)|
-|4|**Greater Light**. We fight not for ourselves, but for countless of others that can’t fight for themselves. (Light)|
+|4|**Greater Light**. We fight not for ourselves, but for countless of others that canï¿½t fight for themselves. (Light)|
 |5|**Freedom**. Tyrants must not be allowed to oppress the people. (Chaotic)|
-|6|**Live and Let Live**. Ideals aren’t worth killing or going to war over. (Neutral)|
+|6|**Live and Let Live**. Ideals arenï¿½t worth killing or going to war over. (Neutral)|
 
 |d6|Bond|
 |:---:|:----------|
@@ -315,7 +309,7 @@ Clones are trained from birth to be the perfect soldier; over time, they also de
 |:---:|:----------|
 |1|I have little respect for anyone who is of a lesser rank.|
 |2|I obey the orders without, even if the orders cause misery.|
-|3|I’d rather eat my armor than admit when I’m wrong.|
+|3|Iï¿½d rather eat my armor than admit when Iï¿½m wrong.|
 |4|I judge others harshly, and myself even more severely.|
 |5|I am inflexible in my thinking.|
 |6|I can't tell a lie for the life of me.|
@@ -368,41 +362,41 @@ The noble court or bureaucratic organization where you got your start is directl
 
 |d8|Personality Trait|
 |:---:|:----------|
-|1|I believe that anything worth doing is worth doing right. I can’t help it— I’m a perfectionist.|
-|2|I’m a snob who looks down on those who can’t appreciate fine art.|
+|1|I believe that anything worth doing is worth doing right. I canï¿½t help itï¿½ Iï¿½m a perfectionist.|
+|2|Iï¿½m a snob who looks down on those who canï¿½t appreciate fine art.|
 |3|I always want to know how things work and what makes people tick.|
-|4|I’m full of witty aphorisms and have a proverb for every occasion.|
-|5|I’m rude to people who lack my commitment to hard work and fair play.|
+|4|Iï¿½m full of witty aphorisms and have a proverb for every occasion.|
+|5|Iï¿½m rude to people who lack my commitment to hard work and fair play.|
 |6|I like to talk at length about my profession.|
-|7|I don’t part with my money easily and will haggle tirelessly to get the best deal possible.|
-|8|I’m well known for my work, so I'm always taken aback when people haven’t heard of me.|
+|7|I donï¿½t part with my money easily and will haggle tirelessly to get the best deal possible.|
+|8|Iï¿½m well known for my work, so I'm always taken aback when people havenï¿½t heard of me.|
 
 |d6|Ideal|
 |:---:|:----------|
 |1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
 |2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
 |3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
-|4|**Greed.** I’m only in it for the money. (Dark)|
-|5|**People.** I’m committed to the people I care about, not to ideals. (Neutral)|
+|4|**Greed.** Iï¿½m only in it for the money. (Dark)|
+|5|**People.** Iï¿½m committed to the people I care about, not to ideals. (Neutral)|
 |6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
 
 |d6|Bond|
 |:---:|:----------|
 |1|The location where I learned my trade is the most important place in the world to me.|
-|2|I created a great work for someone unworthy to receive it. I’m still looking for someone worthy.|
+|2|I created a great work for someone unworthy to receive it. Iï¿½m still looking for someone worthy.|
 |3|I owe someone a great debt for forging me into the person I am today.|
-|4|I pursue wealth to secure someone’s love.|
+|4|I pursue wealth to secure someoneï¿½s love.|
 |5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
 |6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
 
 |d6|Flaw|
 |:---:|:---------|
-|1|I’ll do anything to get my hands on something rare or priceless.|
-|2|I’m quick to assume that someone is trying to cheat me.|
+|1|Iï¿½ll do anything to get my hands on something rare or priceless.|
+|2|Iï¿½m quick to assume that someone is trying to cheat me.|
 |3|No one must ever learn that I once stole money from guild coffers.|
-|4|I’m never satisfied with what I have— I always want more.|
+|4|Iï¿½m never satisfied with what I haveï¿½ I always want more.|
 |5|I would kill to acquire a noble title.|
-|6|I’m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I’m surrounded by rivals.|
+|6|Iï¿½m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, Iï¿½m surrounded by rivals.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -474,37 +468,37 @@ Crime lords might seem like villains on the surface, and many of them are villai
 |2|I am always calm, no matter what the situation. I never raise my voice or let me emotions control me.|
 |3|My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.|
 |4|I would rather make a new friend than a new enemy.|
-|5|I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable accommodations.|
+|5|I donï¿½t like to get my hands dirty, and I wonï¿½t be caught dead in unsuitable accommodations.|
 |6|My favor, once lost, is lost forever.|
 |7|If you do me an injury, I will crush you, ruin your name, and salt your fields.|
 |8|I blow up at the slightest insult.|
 
 |d6|Ideal|
 |:---:|:---------|
-|1|**Honor**. I don’t steal from others in the trade. (Lawful)|
+|1|**Honor**. I donï¿½t steal from others in the trade. (Lawful)|
 |2|**Freedom**. Chains are meant to be broken, as are those who would forge them. (Chaotic)|
 |3|**Charity**. I steal from the wealthy so that I can help people in need. (Light)|
 |4|**Greed**. I will do whatever it takes to become wealthy. (Dark)|
-|5|**People**. I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)|
-|6|**Redemption**. There’s a spark of good in everyone. (Light)|
+|5|**People**. Iï¿½m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)|
+|6|**Redemption**. Thereï¿½s a spark of good in everyone. (Light)|
 
 |d6|Bond|
 |:---:|:----------|
-|1|I’m trying to pay off an old debt I owe to a generous benefactor.|
+|1|Iï¿½m trying to pay off an old debt I owe to a generous benefactor.|
 |2|My ill-gotten gains go to support my family.|
 |3|Something important was taken from me, and I aim to steal it back.|
 |4|The common folk must see me as a hero of the people.|
-|5|I’m guilty of a terrible crime. I hope I can redeem myself for it.|
+|5|Iï¿½m guilty of a terrible crime. I hope I can redeem myself for it.|
 |6|Someone I loved died because of a mistake I made. That will never happen again.|
 
 |d6|Flaw|
 |:---:|:----------|
 |1|I secretly believe that everyone is beneath me.|
 |2|When faced with a choice between money and my friends, I usually choose the money.|
-|3|I too often hear veiled insults and threats in every word addressed to me, and I’m quick to anger.|
-|4|I have a “tell” that reveals when I'm lying.|
+|3|I too often hear veiled insults and threats in every word addressed to me, and Iï¿½m quick to anger.|
+|4|I have a ï¿½tellï¿½ that reveals when I'm lying.|
 |5|I turn tail and run when things look bad.|
-|6|An innocent person is in prison for a crime that I committed. I’m okay with that.|
+|6|An innocent person is in prison for a crime that I committed. Iï¿½m okay with that.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -576,16 +570,16 @@ Dathomir Witches are shaped by their training. They study their book of laws and
 |1|I try and bring my culture to outsiders.|
 |2|I always put my clan first.|
 |3|I follow my clan's book of law to the letter.|
-|4|I once ran twenty-five miles without stopping to warn to my clan of an approaching rival clan. I’d do it again if I had to.|
-|5|I place no stock in wealthy or well-mannered folk. Credits and manners won’t save you from a hungry rancor.|
+|4|I once ran twenty-five miles without stopping to warn to my clan of an approaching rival clan. Iï¿½d do it again if I had to.|
+|5|I place no stock in wealthy or well-mannered folk. Credits and manners wonï¿½t save you from a hungry rancor.|
 |6|I have a lesson for every situation, drawn from observing nature.|
 |7|I feel far more comfortable around wildlife than I do society.|
-|8|I’m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
+|8|Iï¿½m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
 
 |d6|Ideal|
 |:---:|:---------|
 |1|**Change**. Life is like the seasons, in constant change, and we must change with it. (Chaotic)|
-|2|**Greater Good**. It is each person’s responsibility to make the most happiness for the whole clan. (Light)|
+|2|**Greater Good**. It is each personï¿½s responsibility to make the most happiness for the whole clan. (Light)|
 |3|**Honor**. If I dishonor myself, I dishonor my whole clan. (Lawful)|
 |4|**Might**. The strongest are meant to rule. (Dark)|
 |5|**Nature**. The natural world is more important than all the constructs of civilization. (Neutral) |
@@ -603,11 +597,11 @@ Dathomir Witches are shaped by their training. They study their book of laws and
 |d6|Flaw|
 |:---:|:----------|
 |1|I stick to my traditions no matter what, even at the cost of others.|
-|2|There’s no room for caution in a life lived to the fullest.|
-|3|I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.|
+|2|Thereï¿½s no room for caution in a life lived to the fullest.|
+|3|I remember every insult Iï¿½ve received and nurse a silent resentment toward anyone whoï¿½s ever wronged me.|
 |4|I am slow to trust members of other species, clans, and societies.|
 |5|Violence is my answer to almost any challenge.|
-|6|Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish.|
+|6|Donï¿½t expect me to save those who canï¿½t save themselves. It is natureï¿½s way that the strong thrive and the weak perish.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -721,7 +715,7 @@ The distance you've traveled manifests itself in the way you speak and carry you
 You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.
 ___
 - **Skill Proficiencies:** Choose two from Animal Handling, Athletics, Nature, and Performance
-- **Tool Proficiencies:** One type of artisan’s tools, biochemist's kit, or chef's kit
+- **Tool Proficiencies:** One type of artisanï¿½s tools, biochemist's kit, or chef's kit
 - **Languages:** One of your choice
 - **Equipment:** A set of tools (one of your choice), a set of common clothes, and a belt pouch containing 100 cr
 
@@ -730,13 +724,13 @@ You previously pursued a simple profession among the peasantry, perhaps as a far
 
 |d8|Defining Event|
 |:---:|:----------|
-|1|I stood up to a tyrant’s agents.|
+|1|I stood up to a tyrantï¿½s agents.|
 |2|I saved people during a natural disaster.|
 |3|I stood alone against a terrible monster.|
 |4|I stole from a corrupt merchant to help the poor.|
 |5|I led a militia to fight off an invading army.|
-|6|I broke into a tyrant’s castle and stole weapons to arm the people.|
-|7|I trained the peasantry to use farm implements as weapons against a tyrant’s soldiers.|
+|6|I broke into a tyrantï¿½s castle and stole weapons to arm the people.|
+|7|I trained the peasantry to use farm implements as weapons against a tyrantï¿½s soldiers.|
 |8|A lord rescinded an unpopular decree after I led a symbolic act of protect against it.|
 
 ### Feature: Rustic Hospitality
@@ -773,10 +767,10 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 |d8|Personality Trait|
 |:---:|:----------|
 |1|I judge people by their actions, not their words.|
-|2|If someone is in trouble, I’m always ready to lend help.|
+|2|If someone is in trouble, Iï¿½m always ready to lend help.|
 |3|When I set my mind to something, I follow through no matter what gets in my way.|
 |4|I have a strong sense of fair play and always try to find the most equitable solution to arguments.|
-|5|I’m confident in my own abilities and do what I can to instill confidence in others.|
+|5|Iï¿½m confident in my own abilities and do what I can to instill confidence in others.|
 |6|Thinking is for other people. I prefer action.|
 |7|I misuse long words in an attempt to sound smarter.|
 |8|I get bored easily. When am I going to get on with my destiny?|
@@ -786,8 +780,8 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 |1|**Respect**. People deserve to be treated with dignity and respect. (Light)|
 |2|**Fairness**. No one should get preferential treatment before the law, and no one is above the law. (Lawful)|
 |3|**Freedom**. Tyrants must not be allowed to oppress the people. (Chaotic)|
-|4|**Might**. If I become strong, I can take what I want—what I deserve. (Dark)|
-|5|**Sincerity**. There’s no good in pretending to be something I’m not. (Neutral)|
+|4|**Might**. If I become strong, I can take what I wantï¿½what I deserve. (Dark)|
+|5|**Sincerity**. Thereï¿½s no good in pretending to be something Iï¿½m not. (Neutral)|
 |6|**Destiny**. Nothing and no one can steer me away from my higher calling. (Any)|
 
 |d6|Bond|
@@ -802,7 +796,7 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 |d6|Flaw|
 |:---:|:----------|
 |1|The tyrant who rules my land will stop at nothing to see me killed.|
-|2|I’m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.|
+|2|Iï¿½m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.|
 |3|The people who knew me when I was young know my shameful secret, so I can never go home again.|
 |4|I have a weakness for the vices of the city, especially hard drink.|
 |5|Secretly, I believe that things would be better if I were a tyrant lording over the land.|
@@ -813,7 +807,7 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 \pagebreak
 
 ## Gladiator
-A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your A Champion Well Known feature, you can find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. 
+A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your A Champion Well Known feature, you can find a place to perform in any place that features combat for entertainmentï¿½perhaps a gladiatorial arena or secret pit fighting club. 
 ___
 - **Skill Proficiencies:** Choose two from Acrobatics, Athletics, Intimidation, and Performance
 - **Tool Proficiencies:** One type of musical instrument
@@ -821,7 +815,7 @@ ___
 - **Equipment:** A trophy earned via some sort of competition, clothing suitable to your profession, and a belt pouch containing 150 cr
 
 ### Feature: A Champion Well Known
-You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.
+You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a nobleï¿½s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -845,7 +839,7 @@ As a further embodiment of the experience and training of your background, you c
 </div>
 
 #### Suggested Characteristics
-Successful entertainers have to be able to capture and hold an audience’s attention, so they tend to have flamboyant or forceful personalities. They’re inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.
+Successful entertainers have to be able to capture and hold an audienceï¿½s attention, so they tend to have flamboyant or forceful personalities. Theyï¿½re inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.
 
 \columnbreak
 
@@ -855,11 +849,11 @@ Successful entertainers have to be able to capture and hold an audience’s attent
 |:---:|:----------|
 |1|I know a story relevant to almost every situation.|
 |2|Whenever I come to a new place, I collect local rumors and spread gossip.|
-|3|I’m a hopeless romantic, always searching for that “special someone.”|
+|3|Iï¿½m a hopeless romantic, always searching for that ï¿½special someone.ï¿½|
 |4|Nobody stays angry at me or around me for long, since I can defuse any amount of tension.|
 |5|I love a good insult, even one directed at me.|
-|6|I get bitter if I’m not the center of attention.|
-|7|I’ll settle for nothing less than perfection.|
+|6|I get bitter if Iï¿½m not the center of attention.|
+|7|Iï¿½ll settle for nothing less than perfection.|
 |8|I change my mood or my mind as quickly as I change key in a song.|
 
 |d6|Ideal|
@@ -867,23 +861,23 @@ Successful entertainers have to be able to capture and hold an audience’s attent
 |1|**Beauty**. When I perform, I make the world better than it was. (Light)|
 |2|**Tradition**. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)|
 |3|**Creativity**. The world is in need of new ideas and bold action. (Chaotic)|
-|4|**Greed**. I’m only in it for the money and fame. (Dark)|
-|5|**People**. I like seeing the smiles on people’s faces when I perform. That’s all that matters. (Neutral)|
+|4|**Greed**. Iï¿½m only in it for the money and fame. (Dark)|
+|5|**People**. I like seeing the smiles on peopleï¿½s faces when I perform. Thatï¿½s all that matters. (Neutral)|
 |6|**Honesty**. Art should reflect the soul; it should come from within and reveal who we really are. (Any)|
 
 |d6|Bond|
 |:---:|:----------|
 |1|My instrument is my most treasured possession, and it reminds me of someone I love.|
-|2|Someone stole my precious trophy, and someday I’ll get it back.|
+|2|Someone stole my precious trophy, and someday Iï¿½ll get it back.|
 |3|I want to be famous, whatever it takes.|
-|4|I idolize a hero of the old tales and measure my deeds against that person’s.|
+|4|I idolize a hero of the old tales and measure my deeds against that personï¿½s.|
 |5|I will do anything to prove myself superior to my hated rival.|
 |6|I would do anything for the other members of my old troupe.|
 
 |d6|Flaw|
 |:---:|:----------|
-|1|I’ll do anything to win fame and renown.|
-|2|I’m a sucker for a pretty face.|
+|1|Iï¿½ll do anything to win fame and renown.|
+|2|Iï¿½m a sucker for a pretty face.|
 |3|A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.|
 |4|I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.|
 |5|I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.|
@@ -907,7 +901,7 @@ You have either been adventuring or assisting other in adventuring since a very 
 ### Feature: Guild Membership
 You are an established and respected member of an adventurer's guild, allowing you to rely on certain benefits that membership provides. If you are in a town with a headquarters for your adventurer's guild and you are in good standing with the guild, you will be allowed to look at the job postings and find adventuring work to earn money. 
 
-Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild’s good graces.
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guildï¿½s good graces.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -980,12 +974,12 @@ Adventurers are well adjusted to life on the road. They are often comfortable do
 \pagebreak
 
 ## Guild Artisan
-You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
+You are a member of an artisanï¿½s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
 ___
 - **Skill Proficiencies:** Choose two from Athletics, Insight, Persuasion, and Technology
-- **Tool Proficiencies:** One type of artisan’s tools, biochemist's kit, or chef's kit
+- **Tool Proficiencies:** One type of artisanï¿½s tools, biochemist's kit, or chef's kit
 - **Languages:** One of your choice
-- **Equipment:** A set of tools (one of your choice), a letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 150 cr
+- **Equipment:** A set of tools (one of your choice), a letter of introduction from your guild, a set of travelerï¿½s clothes, and a belt pouch containing 150 cr
 
 #### Guild Business
 Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild.
@@ -993,7 +987,7 @@ Guilds are generally found in cities large enough to support several artisans pr
 ### Feature: Guild Membership
 As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
 
-Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild’s good graces.
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guildï¿½s good graces.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -1017,7 +1011,7 @@ As a further embodiment of the experience and training of your background, you c
 </div>
 
 #### Suggested Characteristics
-Guild artisans are among the most ordinary people in the world—until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they’re vulnerable to sins of greed and covetousness.
+Guild artisans are among the most ordinary people in the worldï¿½until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but theyï¿½re vulnerable to sins of greed and covetousness.
 
 \columnbreak
 
@@ -1025,22 +1019,22 @@ Guild artisans are among the most ordinary people in the world—until they set do
 
 |d8|Personality Trait|
 |:---:|:----------|
-|1|I believe that anything worth doing is worth doing right. I can’t help it— I’m a perfectionist.|
-|2|I’m a snob who looks down on those who can’t appreciate fine art.|
+|1|I believe that anything worth doing is worth doing right. I canï¿½t help itï¿½ Iï¿½m a perfectionist.|
+|2|Iï¿½m a snob who looks down on those who canï¿½t appreciate fine art.|
 |3|I always want to know how things work and what makes people tick.|
-|4|I’m full of witty aphorisms and have a proverb for every occasion.|
-|5|I’m rude to people who lack my commitment to hard work and fair play.|
+|4|Iï¿½m full of witty aphorisms and have a proverb for every occasion.|
+|5|Iï¿½m rude to people who lack my commitment to hard work and fair play.|
 |6|I like to talk at length about my profession.|
-|7|I don’t part with my money easily and will haggle tirelessly to get the best deal possible.|
-|8|I believe I’m well known for my work, and I'm always taken aback when people haven’t heard of me.|
+|7|I donï¿½t part with my money easily and will haggle tirelessly to get the best deal possible.|
+|8|I believe Iï¿½m well known for my work, and I'm always taken aback when people havenï¿½t heard of me.|
 
 |d6|Ideal|
 |:---:|:----------|
 |1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
 |2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
 |3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
-|4|**Greed.** I’m only in it for the money. (Dark)|
-|5|**People.** I’m committed to the people I care about, not to ideals. (Neutral)|
+|4|**Greed.** Iï¿½m only in it for the money. (Dark)|
+|5|**People.** Iï¿½m committed to the people I care about, not to ideals. (Neutral)|
 |6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
 
 |d6|Bond|
@@ -1048,29 +1042,29 @@ Guild artisans are among the most ordinary people in the world—until they set do
 |1|The workshop where I learned my trade is the most important place in the world to me.|
 |2|I created a great work for someone, and then found them unworthy of it; I now search for someone worthy.|
 |3|I owe my guild a great debt for forging me into the person I am today.|
-|4|I pursue wealth to secure someone’s love.|
+|4|I pursue wealth to secure someoneï¿½s love.|
 |5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
 |6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
 
 |d6|Flaw|
 |:---:|:----------|
-|1|I’ll do anything to get my hands on something rare or priceless.|
-|2|I’m quick to assume that someone is trying to cheat me.|
+|1|Iï¿½ll do anything to get my hands on something rare or priceless.|
+|2|Iï¿½m quick to assume that someone is trying to cheat me.|
 |3|No one must ever learn that I once stole money from guild coffers.|
-|4|I’m never satisfied with what I have— I always want more.|
+|4|Iï¿½m never satisfied with what I haveï¿½ I always want more.|
 |5|I would kill to acquire a noble title.|
-|6|I’m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I’m surrounded by rivals.|
+|6|Iï¿½m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, Iï¿½m surrounded by rivals.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
 \pagebreak
 
 ## Guild Merchant
-Instead of an artisans’ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others. Your guild might be a large merchant consortium (or family) with interests across the galaxy. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant’s life lends itself to adventure far more than the life of an artisan.
+Instead of an artisansï¿½ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You donï¿½t craft items yourself but earn a living by buying and selling the works of others. Your guild might be a large merchant consortium (or family) with interests across the galaxy. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchantï¿½s life lends itself to adventure far more than the life of an artisan.
 ___
 - **Skill Proficiencies:** Choose two from Deception, Insight, Performance, and Persuasion
 - **Languages:** Two of your choice
-- **Equipment:** A letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 150 cr
+- **Equipment:** A letter of introduction from your guild, a set of travelerï¿½s clothes, and a belt pouch containing 150 cr
 
 #### Guild Business
 Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild.
@@ -1078,7 +1072,7 @@ Guilds are generally found in cities large enough to support several artisans pr
 ### Feature: Guild Membership
 As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
 
-Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild’s good graces.
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guildï¿½s good graces.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -1102,7 +1096,7 @@ As a further embodiment of the experience and training of your background, you c
 </div>
 
 #### Suggested Characteristics
-Guild merchants are among the most ordinary people in the world—until they abscond to take up an adventuring career. They understand the value of hard work and the importance of community, but they’re vulnerable to sins of greed and covetousness.
+Guild merchants are among the most ordinary people in the worldï¿½until they abscond to take up an adventuring career. They understand the value of hard work and the importance of community, but theyï¿½re vulnerable to sins of greed and covetousness.
 
 \columnbreak
 
@@ -1110,22 +1104,22 @@ Guild merchants are among the most ordinary people in the world—until they absco
 
 |d8|Personality Trait|
 |:---:|:---------|
-|1|I believe that anything worth doing is worth doing right. I can’t help it— I’m a perfectionist.|
-|2|I’m a snob who looks down on those who can’t appreciate fine art.|
+|1|I believe that anything worth doing is worth doing right. I canï¿½t help itï¿½ Iï¿½m a perfectionist.|
+|2|Iï¿½m a snob who looks down on those who canï¿½t appreciate fine art.|
 |3|I always want to know how things work and what makes people tick.|
-|4|I’m full of witty aphorisms and have a proverb for every occasion.|
-|5|I’m rude to people who lack my commitment to hard work and fair play.|
+|4|Iï¿½m full of witty aphorisms and have a proverb for every occasion.|
+|5|Iï¿½m rude to people who lack my commitment to hard work and fair play.|
 |6|I like to talk at length about my profession.|
-|7|I don’t part with my money easily and will haggle tirelessly to get the best deal possible.|
-|8|I believe I’m well known for my work, and I'm always taken aback when people haven’t heard of me.|
+|7|I donï¿½t part with my money easily and will haggle tirelessly to get the best deal possible.|
+|8|I believe Iï¿½m well known for my work, and I'm always taken aback when people havenï¿½t heard of me.|
 
 |d6|Ideal|
 |:---:|:----------|
 |1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
 |2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
 |3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
-|4|**Greed.** I’m only in it for the money. (Dark)|
-|5|**People.** I’m committed to the people I care about, not to ideals. (Neutral)|
+|4|**Greed.** Iï¿½m only in it for the money. (Dark)|
+|5|**People.** Iï¿½m committed to the people I care about, not to ideals. (Neutral)|
 |6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
 
 |d6|Bond|
@@ -1133,25 +1127,25 @@ Guild merchants are among the most ordinary people in the world—until they absco
 |1|The workshop where I learned my trade is the most important place in the world to me.|
 |2|I commissioned a great work for someone unworthy of it; I now search for someone worthy.|
 |3|I owe my guild a great debt for forging me into the person I am today.|
-|4|I pursue wealth to secure someone’s love.|
+|4|I pursue wealth to secure someoneï¿½s love.|
 |5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
 |6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
 
 |d6|Flaw|
 |:---:|:----------|
-|1|I’ll do anything to get my hands on something rare or priceless.|
-|2|I’m quick to assume that someone is trying to cheat me.|
+|1|Iï¿½ll do anything to get my hands on something rare or priceless.|
+|2|Iï¿½m quick to assume that someone is trying to cheat me.|
 |3|No one must ever learn that I once stole money from guild coffers.|
-|4|I’m never satisfied with what I have— I always want more.|
+|4|Iï¿½m never satisfied with what I haveï¿½ I always want more.|
 |5|I would kill to acquire a noble title.|
-|6|I’m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I’m surrounded by rivals.|
+|6|Iï¿½m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, Iï¿½m surrounded by rivals.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
 \pagebreak
 
 ## Hermit
-You lived in seclusion—either in a community or alone—for a formative part of your life. In your time apart from society, you found quiet, solitude, and perhaps some of the answers you were looking for.
+You lived in seclusionï¿½either in a community or aloneï¿½for a formative part of your life. In your time apart from society, you found quiet, solitude, and perhaps some of the answers you were looking for.
 ___
 - **Skill Proficiencies:** Choose two from Animal Handling, Lore, Medicine, and Nature
 - **Tool Proficiencies:** Herbalism kit
@@ -1203,11 +1197,11 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 
 |d8|Personality Trait|
 |:---:|:----------|
-|1|I’ve been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.|
+|1|Iï¿½ve been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.|
 |2|I am utterly serene, even in the face of disaster.|
 |3|The leader of my community had something wise to say on every topic, and I am eager to share that wisdom.|
 |4|I feel tremendous empathy for all who suffer.|
-|5|I’m oblivious to etiquette and social expectations.|
+|5|Iï¿½m oblivious to etiquette and social expectations.|
 |6|I connect everything that happens to me to a grand, cosmic plan.|
 |7|I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.|
 |8|I am working on a grand philosophical theory and love sharing my ideas.|
@@ -1219,13 +1213,13 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 |3|**Free Thinking.** Inquiry and curiosity are the pillars of progress. (Chaotic)|
 |4|**Power**. Solitude and contemplation are paths toward mystical power. (Dark)|
 |5|**Live and Let Live**. Meddling in the affairs of others only causes trouble. (Neutral)|
-|6|**Self-Knowledge**. If you know yourself, there’s nothing left to know. (Any)|
+|6|**Self-Knowledge**. If you know yourself, thereï¿½s nothing left to know. (Any)|
 
 |d6|Bond|
 |:---:|:----------|
 |1|Nothing is more important than the other members of my hermitage, order, or association.|
 |2|I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.|
-|3|I’m still seeking the enlightenment I pursued in my seclusion, and it still eludes me.|
+|3|Iï¿½m still seeking the enlightenment I pursued in my seclusion, and it still eludes me.|
 |4|I entered seclusion because I loved someone I could not have.|
 |5|Should my discovery come to light, it could bring ruin to the world.|
 |6|My isolation gave me great insight into a great Dark that only I can destroy.|
@@ -1236,8 +1230,8 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 |2|I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.|
 |3|I am dogmatic in my thoughts and philosophy.|
 |4|I let my need to win arguments overshadow friendships and harmony.|
-|5|I’d risk too much to uncover a lost bit of knowledge.|
-|6|I like keeping secrets and won’t share them with anyone.|
+|5|Iï¿½d risk too much to uncover a lost bit of knowledge.|
+|6|I like keeping secrets and wonï¿½t share them with anyone.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -1251,7 +1245,7 @@ ___
 - **Equipment:** A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of binders, and a pouch containing 100 cr
 
 
-### Feature: Watcher’s Eye
+### Feature: Watcherï¿½s Eye
 Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter.
 
 ### Background Feat
@@ -1285,9 +1279,9 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |d8|Personality Trait|
 |:---:|:----------|
 |1|I'm always polite and respectful.|
-|2|I’m haunted by memories of war. I can’t get the images of violence out of my mind.|
-|3|I’ve lost too many friends, and I’m slow to make new ones.|
-|4|I’m full of inspiring and cautionary tales from my guard service relevant to almost every combat situation.|
+|2|Iï¿½m haunted by memories of war. I canï¿½t get the images of violence out of my mind.|
+|3|Iï¿½ve lost too many friends, and Iï¿½m slow to make new ones.|
+|4|Iï¿½m full of inspiring and cautionary tales from my guard service relevant to almost every combat situation.|
 |5|I can stare down a hell hound without flinching.|
 |6|I enjoy being strong and like breaking things.|
 |7|I have a crude sense of humor. |
@@ -1299,7 +1293,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |2|**Responsibility**. I do what I must and obey just authority. (Lawful)|
 |3|**Independence**. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)|
 |4|**Might**. In life as in war, the stronger force wins. (Dark)|
-|5|**Live and Let Live**. Ideals aren’t worth killing over or going to war for. (Neutral)|
+|5|**Live and Let Live**. Ideals arenï¿½t worth killing over or going to war for. (Neutral)|
 |6|**Nation**. My city, nation, or people are all that matter. (Any)|
 
 |d6|Bond|
@@ -1307,7 +1301,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |1|I would still lay down my life for the people I served with.|
 |2|Someone saved my life on the battlefield. To this day, I will never leave a friend behind.|
 |3|My honor is my life.|
-|4|I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.|
+|4|Iï¿½ll never forget the crushing defeat my company suffered or the enemies who dealt it.|
 |5|Those who fight beside me are those worth dying for.|
 |6|I fight for those who cannot fight for themselves.|
 
@@ -1315,10 +1309,10 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |:---:|:----------|
 |1|The monstrous enemy we faced in battle still leaves me quivering with fear.|
 |2|I have little respect for anyone who is not a proven warrior.|
-|3|I made a terrible mistake in battle cost many lives— and I would do anything to keep that mistake secret.|
+|3|I made a terrible mistake in battle cost many livesï¿½ and I would do anything to keep that mistake secret.|
 |4|My hatred of my enemies is blind and unreasoning.|
 |5|I obey the law, even if the law causes misery.|
-|6|I’d rather eat my armor than admit when I’m wrong.|
+|6|Iï¿½d rather eat my armor than admit when Iï¿½m wrong.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -1371,11 +1365,11 @@ Jensaarai are shaped by the unique capacity of their upbringing. Their study of 
 |d8|Personality Trait|
 |:---:|:----------|
 |1|I ignore the rhetoric a person spouts when meeting them, preferring to judge them by action.|
-|2|I’m the first to swing a punch, but the last to draw a weapon.|
+|2|Iï¿½m the first to swing a punch, but the last to draw a weapon.|
 |3|Danger is my middle name.|
 |4|Goodwill is in short supply in the galaxy, and I always try to foster a little more wherever I go.|
 |5|Both the Republic and the Empire have tried to crush us under their bootheels. I refuse to yield.|
-|6|Defiant to the last isn’t good enough. Upon death I will become a force spirit and continue to defy my killer.|
+|6|Defiant to the last isnï¿½t good enough. Upon death I will become a force spirit and continue to defy my killer.|
 |7|Well-behaved people rarely make history.|
 |8|What gave you the idea that I was going to give you a fair fight?|
 
@@ -1386,7 +1380,7 @@ Jensaarai are shaped by the unique capacity of their upbringing. Their study of 
 |3|**Growth.** Self-improvement is an unending chore, but one that must be done. (Any)|
 |4|**Escalation.** I will immediately end a hostile situation with all means at my disposal. (Neutral)|
 |5|**Power.** Given our luck with both Jedi and Sith, I need all I can get. (Dark)|
-|6|**Redemption.** There’s a spark of good in everyone. (Light)|
+|6|**Redemption.** Thereï¿½s a spark of good in everyone. (Light)|
 
 |d6|Bond|
 |:---:|:----------|
@@ -1394,7 +1388,7 @@ Jensaarai are shaped by the unique capacity of their upbringing. Their study of 
 |2|I was once a Jedi, but grew disillusioned by their inactivity.|
 |3|I fight for those who cannot fight for themselves.|
 |4|I lost my mentor in battle. I will honor their sacrifice by destroying their killer.|
-|5|I was able to slough off Dark Side corruption, but I couldn’t avoid making amends.|
+|5|I was able to slough off Dark Side corruption, but I couldnï¿½t avoid making amends.|
 |6|The powerful use their strength to raise people up, not keep them down.|
 
 |d6|Flaw|
@@ -1403,8 +1397,8 @@ Jensaarai are shaped by the unique capacity of their upbringing. Their study of 
 |2|I am my own worst critic, in everything I do.|
 |3|My armor is precision crafted and has served me faithfully. I never give up a chance to prove how well.|
 |4|I have a collection of lightsabers from fallen foes, and I love adding to it.|
-|5|The Jedi and Sith worship the Force as a religion. I do everything I can to remind them they’re just worshipping a hammer.|
-|6|The minute you tell me that someone should not be crossed, I’m already crossing them.|
+|5|The Jedi and Sith worship the Force as a religion. I do everything I can to remind them theyï¿½re just worshipping a hammer.|
+|6|The minute you tell me that someone should not be crossed, Iï¿½m already crossing them.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -1497,12 +1491,12 @@ A lawyer's career is centered on issues of right, wrong, and punishment, so they
 \pagebreak
 
 ## Nomad
-You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild.
+You grew up in the wilds, far from civilization and the comforts of town and technology. Youï¿½ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you donï¿½t know the specific features of the terrain, you know the ways of the wild.
 ___
 - **Skill Proficiencies:** Choose two from Animal Handling, Athletics, Medicine, and Survival
 - **Tool Proficiencies:** One type of musical instrument
 - **Languages:** One of your choice
-- **Equipment:** A walking stick, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 100 cr
+- **Equipment:** A walking stick, a hunting trap, a trophy from an animal you killed, a set of travelerï¿½s clothes, and a belt pouch containing 100 cr
 
 ### Feature: Wanderer
 You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.
@@ -1537,19 +1531,19 @@ Often considered rude and uncouth among civilized folk, nomads have little respe
 
 |d8|Personality Trait|
 |:---:|:----------|
-|1|I’m driven by a wanderlust that led me away from home.|
+|1|Iï¿½m driven by a wanderlust that led me away from home.|
 |2|I watch over my friends as if they were a litter of newborn pups.|
-|3|I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I’d do it again if I had to.|
+|3|I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. Iï¿½d do it again if I had to.|
 |4|I have a lesson for every situation, drawn from observing nature.|
-|5|I place no stock in wealthy or well-mannered folk. Money and manners won’t save you from a hungry owlbear.|
-|6|I’m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
+|5|I place no stock in wealthy or well-mannered folk. Money and manners wonï¿½t save you from a hungry owlbear.|
+|6|Iï¿½m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
 |7|I feel far more comfortable around animals than people.|
 |8|I was, in fact, raised by wolves.|
 
 |d6|Ideal|
 |:---:|:----------|
 |1|**Change**. Life is like the seasons, in constant change, and we must change with it. (Chaotic)|
-|2|**Greater Good**. It is each person’s responsibility to make the most happiness for the whole tribe. (Light)|
+|2|**Greater Good**. It is each personï¿½s responsibility to make the most happiness for the whole tribe. (Light)|
 |3|**Honor**. If I dishonor myself, I dishonor my whole clan. (Lawful)|
 |4|**Might**. The strongest are meant to rule. (Dark)|
 |5|**Nature**. The natural world is more important than all the constructs of civilization. (Neutral)|
@@ -1567,11 +1561,11 @@ Often considered rude and uncouth among civilized folk, nomads have little respe
 |d6|Flaw|
 |:---:|:----------|
 |1|I am too enamored of ale, wine, and other intoxicants.|
-|2|There’s no room for caution in a life lived to the fullest.|
-|3|I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.|
+|2|Thereï¿½s no room for caution in a life lived to the fullest.|
+|3|I remember every insult Iï¿½ve received and nurse a silent resentment toward anyone whoï¿½s ever wronged me.|
 |4|I am slow to trust members of other species, tribes, and societies.|
 |5|Violence is my answer to almost any challenge.|
-|6|Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish.|
+|6|Donï¿½t expect me to save those who canï¿½t save themselves. It is natureï¿½s way that the strong thrive and the weak perish.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -1635,10 +1629,10 @@ An outlaw is a hero for the common people who takes pride in his humble origins 
 |d8|Personality Trait|
 |:---:|:----------|
 |1|I judge people by their actions, not their words.|
-|2|If someone is in trouble, I’m always ready to lend help.|
+|2|If someone is in trouble, Iï¿½m always ready to lend help.|
 |3|When I set my mind to something, I follow through no matter what gets in my way.|
 |4|I have a strong sense of fair play and always try to find the most equitable solution to arguments.|
-|5|I’m confident in my own abilities and do what I can to instill confidence in others.|
+|5|Iï¿½m confident in my own abilities and do what I can to instill confidence in others.|
 |6|Thinking is for other people. I prefer action.|
 |7|I misuse long words in an attempt to sound smarter.|
 |8|I get bored easily. When am I going to get on with my destiny?|
@@ -1648,8 +1642,8 @@ An outlaw is a hero for the common people who takes pride in his humble origins 
 |1|**Respect.** People deserve to be treated with dignity and respect. (Light)|
 |2|**Fairness.** No one should get preferential treatment before the law, and no one is above the law. (Lawful)|
 |3|**Freedom.** Tyrants must not be allowed to oppress the people. (Chaotic)|
-|4|**Might.** If I become strong, I can take what I want—what I deserve. (Dark)|
-|5|**Sincerity.** There’s no good in pretending to be something I’m not. (Neutral)|
+|4|**Might.** If I become strong, I can take what I wantï¿½what I deserve. (Dark)|
+|5|**Sincerity.** Thereï¿½s no good in pretending to be something Iï¿½m not. (Neutral)|
 |6|**Destiny.** Nothing and no one can steer me away from my higher calling. (Any)|
 
 |d6|Bond|
@@ -1664,7 +1658,7 @@ An outlaw is a hero for the common people who takes pride in his humble origins 
 |d6|Flaw|
 |:---:|:----------|
 |1|The tyrant who rules my land will stop at nothing to see me killed.|
-|2|I’m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.|
+|2|Iï¿½m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.|
 |3|The people who knew me when I was young know my shameful secret, so I can never go home again.|
 |4|I have a weakness for the vices of the city, especially hard drink.|
 |5|Secretly, I believe that things would be better if I were a tyrant lording over the land.|
@@ -1795,7 +1789,7 @@ As a further embodiment of the experience and training of your background, you c
 </div>
 
 #### Suggested Characteristics
-Cloistered scholars are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, they value knowledge highly – as a worthy goal in itself, or as a means to a desirable end.
+Cloistered scholars are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, they value knowledge highly ï¿½ as a worthy goal in itself, or as a means to a desirable end.
 
 \columnbreak
 
@@ -1804,13 +1798,13 @@ Cloistered scholars are defined by their extensive studies, and their characteri
 |d8|Personality Trait|
 |:---:|:----------|
 |1|I use polysyllabic words that convey the impression of great erudition.|
-|2|I've read every book in the world’s greatest libraries—or I like to boast that I have.|
-|3|I'm used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.|
-|4|There’s nothing I like more than a good mystery.|
-|5|I’m willing to listen to every side of an argument before I make my own judgment.|
+|2|I've read every book in the worldï¿½s greatest librariesï¿½or I like to boast that I have.|
+|3|I'm used to helping out those who arenï¿½t as smart as I am, and I patiently explain anything and everything to others.|
+|4|Thereï¿½s nothing I like more than a good mystery.|
+|5|Iï¿½m willing to listen to every side of an argument before I make my own judgment.|
 |6|I... speak... slowly... when talking... to idiots,... which... almost... everyone... is... compared... to me.|
 |7|I am horribly, horribly awkward in social situations.|
-|8|I’m convinced that people are always trying to steal my secrets.|
+|8|Iï¿½m convinced that people are always trying to steal my secrets.|
 
 |d6|Ideal|
 |:---:|:---------|
@@ -1826,7 +1820,7 @@ Cloistered scholars are defined by their extensive studies, and their characteri
 |1|It is my duty to protect my students. |
 |2|I have an ancient text that holds terrible secrets that must not fall into the wrong hands.|
 |3|I work to preserve a library, university, scriptorium, or monastery.|
-|4|My life’s work is a series of tomes related to a specific field of lore.|
+|4|My lifeï¿½s work is a series of tomes related to a specific field of lore.|
 |5|I've been searching my whole life for the answer to a certain question.|
 |6|I sold my soul for knowledge. I hope to do great deeds and win it back.|
 
@@ -1837,14 +1831,14 @@ Cloistered scholars are defined by their extensive studies, and their characteri
 |3|Unlocking an ancient mystery is worth the price of a civilization.|
 |4|I overlook obvious solutions in favor of complicated ones.|
 |5|I speak without really thinking through my words, invariably insulting others.|
-|6|I can’t keep a secret to save my life, or anyone else’s.|
+|6|I canï¿½t keep a secret to save my life, or anyone elseï¿½s.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
 \pagebreak
 
 ## Urchin
-You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each.
+You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. Youï¿½ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each.
 
 You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?
 ___
@@ -1877,7 +1871,7 @@ As a further embodiment of the experience and training of your background, you c
 </div>
 
 #### Suggested Characteristics
-Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life— and maybe get some payback on all the rich people who treated them badly.
+Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better lifeï¿½ and maybe get some payback on all the rich people who treated them badly.
 
 \columnbreak
 
@@ -1890,8 +1884,8 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 |3|I like to squeeze into small places where no one else can get to me.|
 |4|I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.|
 |5|I eat like a pig and have bad manners.|
-|6|I think anyone who’s nice to me is hiding Dark intent.|
-|7|I don’t like to bathe.|
+|6|I think anyone whoï¿½s nice to me is hiding Dark intent.|
+|7|I donï¿½t like to bathe.|
 |8|I bluntly say what other people are hinting at or hiding.|
 
 |d6|Ideal|
@@ -1900,375 +1894,25 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 |2|**Community**. We have to take care of each other, because no one else is going to do it. (Lawful)|
 |3|**Change**. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)|
 |4|**Retribution**. The rich need to be shown what life and death are like in the gutters. (Dark)|
-|5|**People**. I help the people who help me—that’s what keeps us alive. (Neutral)|
+|5|**People**. I help the people who help meï¿½thatï¿½s what keeps us alive. (Neutral)|
 |6|**Aspiration**. I'm going to prove that I'm worthy of a better life. (Any)
 
 |d6|Bond|
 |:---:|:----------|
-|1|My town or city is my home, and I’ll fight to defend it.|
+|1|My town or city is my home, and Iï¿½ll fight to defend it.|
 |2|I sponsor an orphanage to keep others from enduring what I was forced to endure.|
 |3|I owe my survival to another urchin who taught me to live on the streets.|
 |4|I owe a debt I can never repay to the person who took pity on me.|
-|5|I escaped my life of poverty by robbing an important person, and I’m wanted for it.|
-|6|No one else should have to endure the hardships I’ve been through.|
+|5|I escaped my life of poverty by robbing an important person, and Iï¿½m wanted for it.|
+|6|No one else should have to endure the hardships Iï¿½ve been through.|
 
 |d6|Flaw|
 |:---:|:----------|
 |1|If I'm outnumbered, I will run away from a fight.|
-|2|Gold seems like a lot of money to me, and I’ll do just about anything for more of it.|
+|2|Gold seems like a lot of money to me, and Iï¿½ll do just about anything for more of it.|
 |3|I will never fully trust anyone other than myself.|
-|4|I’d rather kill someone in their sleep then fight fair.|
-|5|It’s not stealing if I need it more than someone else.|
+|4|Iï¿½d rather kill someone in their sleep then fight fair.|
+|5|Itï¿½s not stealing if I need it more than someone else.|
 |6|People who can't take care of themselves get what they deserve.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
-
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Russo+One|Open+Sans|Bungee+Inline');
-    
-	.phb {
-        background: #afc6d6;
-        background: -moz-linear-gradient(left, #afc6d6 0%, #d6d6d6 30%, #d6d6d6 70%, #afc6d6 100%);
-        background: -webkit-linear-gradient(left, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
-        background: linear-gradient(to right, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afc6d6', endColorstr='#afc6d6',GradientType=1 );
-        color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        line-height: 1em;
-    }
-    
-    .phb p {
-        font-size: 0.9em;
-        line-height: 1.2em;
-    }
-    
-    .phb ul {
-        font-size: 0.85em;
-    }
-    
-    .phb h1,.phb h2,.phb h3,.phb h4 {
-	    color: #c40f0f;
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-	}
-    
-    .phb h1+p::first-letter {
-	    color: #000000;
-        font-family: 'Bungee Inline', cursive;
-
-        font-size: 6em;
-        line-height: 1em;
-        margin-right: 4px;
-	}
-	
-    .phb h1 {
-        font-size: 0.7cm;
-    }
-    
-    .phb h2 {
-        font-size: 0.5cm
-    }
-
-    .phb h3 {
-        font-size: .4cm;
-        border-bottom: 2px solid #0d99cc
-    }
-
-    .phb h4 {
-        font-size: .35cm
-    }
-
-    .phb h5 {
-        font-size: .4cm;
-    }
-    
-    .phb h4+p+hr+ul, .phb h4+hr+ul, .phb h4+hr+ul+hr+ul {
-        font-size: 0.85em;
-    }
-    
-    .phb .toc a {
-    	color: #e6e6e6;
-	}
-    
-    .phb:after {
-    	background-image: none;
-        border-bottom: 2px solid #0d99cc;
-		bottom: 16px
-	}
-    
-    .phb blockquote {
-        box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
-        margin-bottom: 1em;
-        padding: 5px 10px;
-        background-color: #bdc8cc;
-        border: 1px solid #0d99cc;
-        border-image: none;
-        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
-        color: #000000;
-        font-size: 1em;
-    }
-    
-    .phb blockquote h4 {
-        color: #000000;
-    }
-    
-    .phb blockquote p, .phb blockquote ul {
-        font-size: 0.85em;
-        line-height: 1.12em
-    }
-    
-    .phb hr+section blockquote {
-        position: relative;
-        padding-top: 15px;
-        background-color: #bdc8cc;
-        border-top: 0.2em solid #0d99cc;
-        border-bottom: 0.2em solid #0d99cc;
-        border-left: 0;
-        border-right: 0;
-        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
-        background-image: none;
-        border-image: none;
-        color: #000000;
-    }
-    
-    
-    .phb hr+section blockquote h2 {
-        margin-top: -8px;
-        margin-bottom: 0;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h2+p {
-        padding-bottom: 0;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h3 {
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        border-bottom: 1px solid #000000;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h4 {
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+ul {
-        color: #000000;
-        font-size: 0.9em;
-    }
-    
-    .phb hr+section blockquote ul {
-        font-family: 'Open Sans', sans-serif;
-        padding-left: 1em;
-        font-size: .352cm;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote section section ul li {
-        text-indent: -1em;
-        list-style-type: none;
-        margin-bottom: 7px;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote ul em {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote ul strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+table {
-        margin: 0;
-        column-span: 1;
-        background-color: transparent;
-        border-style: none;
-        border-image: none;
-        -webkit-column-span: 1;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+table tbody tr:nth-child(odd),.phb hr+section blockquote hr+table tbody tr:nth-child(even) {
-        background-color: transparent
-    }
-    
-    .phb hr+section blockquote table {
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote p+p {
-        margin-top: 0;
-        text-indent: 0;
-        margin-bottom: 7px
-    }
-    
-    .phb hr+section blockquote hr {
-        visibility: visible;
-        height: 5px;
-        margin: 4px 0;
-        background-color: #0d99cc;
-        background-image: none;
-        background-size: 100% 100%;
-        border: none
-    }
-    
-    .phb hr+hr+section blockquote {
-        column-count: 2;
-        column-fill: auto;
-        column-gap: 1cm;
-        column-width: 7.68cm;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        -webkit-column-width: 7.68cm;
-        -moz-column-width: 7.68cm;
-        -webkit-column-gap: 1cm;
-        -moz-column-gap: 1cm
-    }
-    
-    .phb .pageNumber {
-        color: #c40f0f;
-    }
-    
-    .phb .footnote {
-        color: #c40f0f;
-        bottom: 25px;
-    }
-    
-    .phb:nth-child(even):after {
-        background-image: none;
-    }
-    
-    
-    .phb .descriptive {
-        color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.95em;
-        background-color: #bdc8cc;
-        border-image: none;
-        border-left: 0.2em solid #0d99cc;
-        border-right: 0.2em solid #0d99cc;
-        border-top: 0;
-        border-bottom: 0;
-        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
-        padding: 0.25em 1em;
-    }
-    
-    .phb .descriptive p {
-        font-family: 'Open Sans', sans-serif;
-        display: block;
-        padding-bottom: 0;
-        line-height: 1.25em;
-        padding: 0 1em 0 2em;
-        text-indent: -1em;
-    }
-    
-    .phb .descriptive p+p {
-        padding-top: .4em
-    }
-    
-    .phb .descriptive em {
-        font-style: italic
-    }
-    
-    .phb .descriptive strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em
-    }
-    
-    .phb pre+.descriptive {
-        margin-top: .7em;
-    }
-    
-    .phb p+p {
-        text-indent: 1em;
-    }
-    
-    .phb table {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        width: 100%;
-        margin-bottom: 1em;
-        line-height: 1em;
-    }
-    
-    .phb table em {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-    }
-    
-    .phb table strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-    }
-    
-    .phb table thead {
-        font-weight: 800;
-    }
-    
-    .phb table thead th {
-        font-size: 0.875em;
-    }
-    
-    .phb table tbody tr td {
-        padding: .3em .1em;
-        font-size: 0.8em;
-        min-width: 2.5em;
-    }
-    
-    .phb table tbody tr:nth-child(odd) {
-        background-color: #c9d6db;
-    }
-    
-    .phb table tbody tr:nth-child(even) {
-        background-color: #bdc8cc;
-    }
-    
-    .phb .classTable {
-        background-color: #bdc8cc;
-        border-top: 0.2em solid #0d99cc;
-        border-bottom: 0.2em solid #0d99cc;
-        border-left: 0;
-        border-right: 0;
-        border-image: none;
-        padding: 1em;
-        font-size: 1em;
-        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
-    }
-    
-    .phb .classTable h5 {
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-
-    code {
-        padding: 2px 4px;
-        font-size: 90%;
-        color: #2d2d2d;
-        background-color: #bdc8cc;
-        border-radius: 2px;
-        max-width: 95%;
-        word-break: break-all;
-    }
-    
-    a:-webkit-any-link {
-    	color: #cc6d0e;
-	}
-	
-	.phb:after { content: ""; }
-</style>

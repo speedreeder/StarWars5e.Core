@@ -1,11 +1,3 @@
-<style>
-	.phb:after { content: ""; }
-</style>
-
-<style>
-  .phb#p1:after { display:none; }
-</style>
-
 <img src='https://www.gmbinder.com/images/MKvbSA5.jpg' class='cover-image' />
 
 \pagebreak
@@ -152,7 +144,7 @@ Two appendicies of all statblocks exist: one is sorted alphabetically, the other
 # Introduction
 This bestiary is for storytellers and worldbuilders. If you have ever thought about running a DUNGEONS & DRAGONS game using my SW5e conversion for your friends, either a single night's adventure or a long-running campaign, this book contains page after page of inspiration. It's your one-stop shop for creatures both malevolent and benign.
 
-Some of the creatures that inhabit the worlds of *Star Wars* have origins rooted in real-world mythology and fantasy literature. Other creatures are *Star Wars* originals. The monsters in this book have been culled from all multitude. Herein you'll discover classic critters such as the rancor and the dewback next to more recent creations such as the shyrack and the porg. Common beasts mingle with the weird, the terrifying, and the ridiculous. In collecting monsters from the *Star Wars* mythos, I’ve endeavored to reflect the multifaceted nature of the game. *Star Wars* monsters come in all shapes and sizes, with stories that not only thrill us but also make us smile.
+Some of the creatures that inhabit the worlds of *Star Wars* have origins rooted in real-world mythology and fantasy literature. Other creatures are *Star Wars* originals. The monsters in this book have been culled from all multitude. Herein you'll discover classic critters such as the rancor and the dewback next to more recent creations such as the shyrack and the porg. Common beasts mingle with the weird, the terrifying, and the ridiculous. In collecting monsters from the *Star Wars* mythos, Iï¿½ve endeavored to reflect the multifaceted nature of the game. *Star Wars* monsters come in all shapes and sizes, with stories that not only thrill us but also make us smile.
 
 If you're an experienced Dungeon Master (DM) and have run traditional 5e games, nothing in this book should surprise you. For the most part, these are how I interpret the creatures of *Star Wars*, with a few of my own twists. Naturally, you can do with these monsters what you will. Nothing I say here is intended to curtail your creativity. 
 
@@ -237,7 +229,7 @@ ___
 >|22 (+6)|9 (-1)|17 (+3)|3 (-4)|11 (+0)|5 (-3)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 5 (1,800 XP)
 > ___
 > ***Trampling Charge.*** If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it as a bonus action.
@@ -263,7 +255,7 @@ ___
 >|25 (+7)|10 (+0)|20 (+5)|3 (-4)|11 (+0)|5 (-3)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 8 (3,900 XP)
 > ___
 > ***Trampling Charge.*** If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 19 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it as a bonus action.
@@ -296,7 +288,7 @@ ___
 >|22 (+6)|9 (-1)|17 (+3)|3 (-4)|11 (+0)|6 (-2)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Trampling Charge.*** If the bantha moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the bantha can make one stomp attack against it as a bonus action.
@@ -322,7 +314,7 @@ ___
 >|24 (+7)|9 (-1)|21 (+5)|3 (-4)|11 (+0)|6 (-2)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 6 (2,300 XP)
 > ___
 > ***Trampling Charge.*** If the bantha moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the bantha can make one stomp attack against it as a bonus action.
@@ -356,7 +348,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** passive Perception 13
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 1 (200 XP)
 > ___
 > ***Keen Smell.*** The dewback has advantage on Wisdom (Perception) checks that rely on smell.
@@ -385,7 +377,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** passive Perception 13
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Keen Smell.*** The dewback has advantage on Wisdom (Perception) checks that rely on smell.
@@ -419,7 +411,7 @@ ___
 >|8 (-1)|14 (+2)|11 (+0)|5 (-2)|12 (+1)|6 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 0 (10 XP)
 > ___
 > ***Pack Tactics.*** The monkey-lizard has advantage on attack rolls against a creature if at least one of the monkey-lizard's allies is within 5 feet of the creature and the ally isn't incapacitated.
@@ -445,7 +437,7 @@ ___
 > - **Damage Resistances** energy, kinetic
 > - **Condition Immunities** charmed, frightened, paralyzed, petrified, prone, restrained, stunned
 > - **Senses** passive Perception 15
-> - **Languages** –
+> - **Languages** ï¿½
 > - **Challenge** 1/2 (100 XP)
 > ___
 > ***Pack Tactics.*** The swarm has advantage on attack rolls against a creature while at more than half of its hit points.
@@ -490,17 +482,17 @@ ___
 > ***Detect Dark Side.***  The orbalisk can sense the presence and location of any dark side aligned creature within 300 feet.
 > <br><br><br><br><br><br><br><br><br><br>
 > ### Actions
-> ***Attach.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) kinetic damage, and the orbalisk attaches to the target. Once attached to a target, every day that passes the orbalisk will reproduce through fragmentation, so their numbers will be multiplied by 2. As the orbalisk covers the host’s body, the following effects will take place (percentages relative to HP):
+> ***Attach.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) kinetic damage, and the orbalisk attaches to the target. Once attached to a target, every day that passes the orbalisk will reproduce through fragmentation, so their numbers will be multiplied by 2. As the orbalisk covers the hostï¿½s body, the following effects will take place (percentages relative to HP):
 >
-> 0-25%: Host’s max HP is reduced by the number of orbalisk.
+> 0-25%: Hostï¿½s max HP is reduced by the number of orbalisk.
 >
-> 25-50%: Host’s max HP is reduced by the number of orbalisk. The host gains a +2 bonus to AC, and Wisdom is decreased by 1.
+> 25-50%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +2 bonus to AC, and Wisdom is decreased by 1.
 >
-> 50-70%: Host’s max HP is reduced by the number of orbalisk. The host gains a +3 bonus to AC, Wisdom is decreased by 2, and max force points are reduced by one-third (rounded down).
+> 50-70%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +3 bonus to AC, Wisdom is decreased by 2, and max force points are reduced by one-third (rounded down).
 >
-> 70-90%: Host’s max HP is reduced by the number of orbalisk. The host gains a +4 bonus to AC, Wisdom is decreased by 3, and max force points are reduced by two-thirds (rounded up).
+> 70-90%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +4 bonus to AC, Wisdom is decreased by 3, and max force points are reduced by two-thirds (rounded up).
 >
-> 90-99%: Host’s max HP is reduced by the number of orbalisk. The host gains a +5 bonus to AC, Wisdom is decreased by 4, and max force points are reduced to 0.
+> 90-99%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +5 bonus to AC, Wisdom is decreased by 4, and max force points are reduced to 0.
 >
 > 100%: Host dies.
 
@@ -531,7 +523,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** passive Perception 13
-> - **Languages** –
+> - **Languages** ï¿½
 > - **Challenge** 0 (10 XP)
 > ___
 > ***Keen Smell.*** The porg has advantage on Wisdom (Perception) checks that rely on smell.
@@ -557,7 +549,7 @@ ___
 > - **Damage Resistances** energy, kinetic
 > - **Condition Immunities** charmed, frightened, paralyzed, petrified, prone, restrained, stunned
 > - **Senses** passive Perception 15
-> - **Languages** –
+> - **Languages** ï¿½
 > - **Challenge** 1/4 (50 XP)
 > ___
 > ***Keen Smell.*** The swarm has advantage on Wisdom (Perception) checks that rely on smell.
@@ -592,7 +584,7 @@ ___
 >___
 > - **Saving Throws** Str +10, Dex +4, Con +10, Wis +4
 > - **Senses** darkvision 120 ft., passive Perception 14
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 12 (8,400 XP)
 > ___
 > ***Siege Monster.*** The rancor deals double damage to objects and structures.
@@ -635,7 +627,7 @@ ___
 >|18 (+5)|11 (+0)|16 (+5)|4 (-3)|9 (-1)|6 (-2)|
 >___
 > - **Senses** darkvision 120 ft., passive Perception 9
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 2 (450 XP)
 > ___
 > ### Actions
@@ -666,7 +658,7 @@ ___
 >|20 (+5)|11 (+0)|21 (+5)|4 (-3)|9 (-1)|6 (-2)|
 >___
 > - **Senses** darkvision 120 ft., passive Perception 9
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 8 (3,900 XP)<br><br>
 > ___
 > ***Siege Monster*** The rancor deals double damage to objects and structures.
@@ -699,7 +691,7 @@ ___
 > - **Skills** Athletics +13
 > - **Damage Resistances** energy, ion, and kinetic fron unenhanced weapons
 > - **Senses** darkvision 120 ft., passive Perception 16
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 19 (22,000 XP)
 > ___
 > ***Siege Monster.*** The Rancor deals double damage to objects and structures.
@@ -761,7 +753,7 @@ ___
 >|21 (+5)|8 (-1)|15 (+2)|2 (-4)|12 (+1)|6 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Charge.*** If the reek moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) kinetic damage. If the target is a Large or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.
@@ -785,7 +777,7 @@ ___
 >|23 (+6)|8 (-1)|17 (+3)|2 (-4)|12 (+1)|6 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 7 (2,900 XP)
 > ___
 > ***Charge.*** If the reek moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 18 (4d8) kinetic damage. If the target is a Huge or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.
@@ -876,7 +868,7 @@ ___
 >|16 (+3)|10 (+0)|12 (+1)|2 (-4)|11 (+0)|7 (-2)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 1/4 (50 XP)
 > ___
 > ***Trampling Charge.*** If the varactyl moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the varactyl can make another attack with its bite against it as a bonus action.
@@ -900,7 +892,7 @@ ___
 >|18 (+4)|12 (+1)|13 (+1)|2 (-4)|12 (+1)|7 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 1/2 (100 XP)
 > ___
 > ***Trampling Charge.*** If the varactyl moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the varactyl can make another attack with its bite against it as a bonus action.
@@ -932,7 +924,7 @@ ___
 > - **Skills** Perception +3, Stealth +3
 > - **Damage Immunities** cold
 > - **Senses** darkvision 60 ft., passive Perception 13
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 3 (700 XP)
 > ___
 > ***Fear of Fire.*** If the wampa takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
@@ -970,7 +962,7 @@ ___
 >___
 > - **Skills** Athletics +8, Perception +4, Stealth +3
 > - **Senses** darkvision 60 ft., passive Perception 14
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 5 (1,800 XP)
 > ___
 > ***Keen Smell.*** The wampa has advantage on Wisdom (Perception) checks that rely on smell.
@@ -1003,7 +995,7 @@ ___
 >___
 > - **Skills** Perception +2, Stealth +2
 > - **Senses** darkvision 60 ft., passive Perception 12
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Putrid Smell.*** The wampa has disadvantage on Dexterity (Stealth) checks. At the start of each wampas turns, each creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 10 (4d4) poison damage.
@@ -1041,7 +1033,7 @@ ___
 >|14 (+2)|10 (+0)|13 (+1)|2 (-4)|10 (+0)|5 (-3)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** –
+> - **Languages** ï¿½
 > - **Challenge** 1/8 (25 XP)
 > ___
 > ***Sure-Footed.*** The kaadu has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
@@ -1075,9 +1067,9 @@ ___
 >
 > ***Battery Drainer.*** If the mynock attaches itself to a piece of equipment that needs energy to function, that piece will stop working until the Mynock is removed.
 >
-> ***Pack Tactics.*** The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isn’t incapacitated.
+> ***Pack Tactics.*** The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isnï¿½t incapacitated.
 > ### Actions
-> ***Energy Drain.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) kinetic damage, and the mynock attaches to the target. If attached to a droid or construct, at the start of each of the mynock’s turns, the target loses 5 (1d4 + 3) hit points due to energy being drained. 
+> ***Energy Drain.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) kinetic damage, and the mynock attaches to the target. If attached to a droid or construct, at the start of each of the mynockï¿½s turns, the target loses 5 (1d4 + 3) hit points due to energy being drained. 
 >
 > The mynock can detach itself by spending 5 feet of its Movement. It does so after it drains 10 Hit Points of energy from the target or the target dies. A creature, including the target, can use its action to detach the Mynock.
 
@@ -1107,7 +1099,7 @@ ___
 >___
 > - **Skills** Stealth +6
 > - **Senses** passive Perception 10, Darkvision 60 ft.
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 5 (1800 XP)
 > ___
 > ***Kidnapper*** The sea killer may move at full speed while grappling a creature.
@@ -1142,7 +1134,7 @@ ___
 >___
 > - **Skills** Perception +3, Stealth +4
 > - **Senses** passive Perception 13
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 1/4 (50 XP)
 > ___
 > ***Keen Hearing and Smell.*** The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.
@@ -1176,7 +1168,7 @@ ___
 >|16 (+3)|8 (-1)|14 (+2)|2 (-4)|8 (-1)|5 (-3)|
 >___
 > - **Senses** passive Perception 9
-> - **Languages** –
+> - **Languages** ï¿½
 > - **Challenge** 1/8 (25 XP)
 > ___
 > ### Actions
@@ -1185,7 +1177,7 @@ ___
 \columnbreak
 
 ## Ysalamir
-Ysalamiri are furry, lizard-like tree-dwellers about 2 feet long native to the planet Myrkr, most known for their ability to repel the Force by creating a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together can expand their Force-neutral bubble by varying distances – sometimes by miles.
+Ysalamiri are furry, lizard-like tree-dwellers about 2 feet long native to the planet Myrkr, most known for their ability to repel the Force by creating a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together can expand their Force-neutral bubble by varying distances ï¿½ sometimes by miles.
 
 <div style='margin-top:406px'></div>
 
@@ -1289,8 +1281,8 @@ ___
 > - **Damage Vulnerabilities** ion, lightning
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** —
-> - **Languages** —
+> - **Senses** ï¿½
+> - **Languages** ï¿½
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Comm Jammers.*** The construct suppresses all electronic communications devices within 60 feet of it.
@@ -1330,8 +1322,8 @@ ___
 > - **Damage Resistances** psychic
 > - **Damage Immunities** poison, necrotic
 > - **Condition Immunities** poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed
-> - **Senses** —
-> - **Languages** —
+> - **Senses** ï¿½
+> - **Languages** ï¿½
 > - **Challenge** 19 (22,000 XP)
 > ___
 > ***Towering.*** Creatures of Large size or smaller can stand in the AT-AT's space. 
@@ -1354,7 +1346,7 @@ ___
 >
 >***Frightful Presence:*** Each creature of the AT-AT's choice that is within 240 feet of the AT-AT and aware of it must succeed on a DC 16 Wisdom saving throw or become Frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-AT's Frightful Presence for the next 24 hours.
 > ### Legendary Actions
-> The AT-AT can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The AT-AT regains spent legendary actions at the start of their turn.
+> The AT-AT can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creatureï¿½s turn. The AT-AT regains spent legendary actions at the start of their turn.
 >
 > **Stomp** The AT-AT makes a stomp attack.
 >
@@ -1393,8 +1385,8 @@ ___
 > - **Damage Resistances** psychic
 > - **Damage Immunities** poison, necrotic
 > - **Condition Immunities** poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed
-> - **Senses** —
-> - **Languages** —
+> - **Senses** ï¿½
+> - **Languages** ï¿½
 > - **Challenge** 11 (7,200 XP)
 > ___
 > ***Towering*** Creatures of Medium size or smaller can stand in the AT-ST's space. 
@@ -1445,8 +1437,8 @@ ___
 > - **Damage Vulnerabilities** ion, lightning
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** —
-> - **Languages** —
+> - **Senses** ï¿½
+> - **Languages** ï¿½
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Piloted.*** The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.
@@ -1482,8 +1474,8 @@ ___
 > - **Damage Vulnerabilities** ion, lightning
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** —
-> - **Languages** —
+> - **Senses** ï¿½
+> - **Languages** ï¿½
 > - **Challenge** 1 (200 XP)
 > ___
 > ***Piloted.*** The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.
@@ -2393,7 +2385,7 @@ Humanoids have no inherent vulnerabilities or resistances, except those based on
 \pagebreakNum
 
 ## Rakghouls
-Rakghouls are a living plague–the manifestation of a highly communicable disease capable of swiftly transforming its victims into twisted, degenerate monsters with predatory instincts. The rakghoul virus can infect hundreds of known species and is most often delivered through a rakghoul’s bite; a person attacked by a rakghoul and “lucky” enough to survive typically becomes a rakghoul him- or herself. Some victims resist the virus for days, succumbing to rakghoul instincts while retaining their original bodies.
+Rakghouls are a living plagueï¿½the manifestation of a highly communicable disease capable of swiftly transforming its victims into twisted, degenerate monsters with predatory instincts. The rakghoul virus can infect hundreds of known species and is most often delivered through a rakghoulï¿½s bite; a person attacked by a rakghoul and ï¿½luckyï¿½ enough to survive typically becomes a rakghoul him- or herself. Some victims resist the virus for days, succumbing to rakghoul instincts while retaining their original bodies.
 
 <div style='margin-top:100px'></div>
 
@@ -2411,7 +2403,7 @@ ___
 >___
 > - **Skills** Perception +2
 > - **Senses** passive Perception 12
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 1 (200 XP)
 > ___
 > ***Rakghoul Plague.*** Creatures that come in contact with the rakghoul may become afflicted with rakghoul plague, a virulent disease that transforms the creature into a rakghoul over the next 24 (7d6) hours. The plague is only effective against humanoids.
@@ -2440,7 +2432,7 @@ ___
 >___
 > - **Skills** Athletics +6, Perception +3
 > - **Senses** passive Perception 12
-> - **Languages** —
+> - **Languages** ï¿½
 > - **Challenge** 5 (1,800 XP)
 > ___
 > ***Rakghoul Plague.*** Creatures that come in contact with the rakghoul may become afflicted with rakghoul plague, a virulent disease that transforms the creature into a rakghoul over the next 24 (7d6) hours. The plague is only effective against humanoids.
@@ -2623,7 +2615,7 @@ ___
 > ### Actions
 > ***Flamethrower.*** Each creature in a 30-foot cone must make a DC 13 Dexterity saving throw. A creature takes 13 (3d8) fire damage on a failed save, or half as much on a successful one.
 > 
-> The fire ignites any flammable objects in the area that aren’t being worn or carried.
+> The fire ignites any flammable objects in the area that arenï¿½t being worn or carried.
 >
 > ***Blaster Pistol.*** *Ranged Weapon Attack:* +5 to hit, range 40/160 ft., one target. *Hit:* 6 (1d6+3) energy damage.
 >
@@ -3302,353 +3294,3 @@ ___
 <div class='footnote'>Appendix A | Sorted by Challenge Rating</div>
 
 <div class='pageNumber auto'></div>
-
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Russo+One|Open+Sans|Bungee+Inline');
-    
-	.phb {
-        background: #afc6d6;
-        background: -moz-linear-gradient(left, #afc6d6 0%, #d6d6d6 30%, #d6d6d6 70%, #afc6d6 100%);
-        background: -webkit-linear-gradient(left, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
-        background: linear-gradient(to right, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afc6d6', endColorstr='#afc6d6',GradientType=1 );
-        color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        line-height: 1em;
-    }
-    
-    .phb p {
-        font-size: 0.9em;
-        line-height: 1.2em;
-    }
-    
-    .phb ul {
-        font-size: 0.85em;
-    }
-    
-    .phb h1,.phb h2,.phb h3,.phb h4 {
-	    color: #c40f0f;
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-	}
-    
-    .phb h1+p::first-letter {
-	    color: #000000;
-        font-family: 'Bungee Inline', cursive;
-
-        font-size: 6em;
-        line-height: 1em;
-        margin-right: 4px;
-	}
-	
-    .phb h1 {
-        font-size: 0.7cm;
-    }
-    
-    .phb h2 {
-        font-size: 0.5cm
-    }
-
-    .phb h3 {
-        font-size: .4cm;
-        border-bottom: 2px solid #0d99cc
-    }
-
-    .phb h4 {
-        font-size: .35cm
-    }
-
-    .phb h5 {
-        font-size: .4cm;
-    }
-    
-    .phb h4+p+hr+ul, .phb h4+hr+ul, .phb h4+hr+ul+hr+ul {
-        font-size: 0.85em;
-    }
-    
-    .phb .toc a {
-    	color: #e6e6e6;
-	}
-    
-    .phb:after {
-    	background-image: none;
-        border-bottom: 2px solid #0d99cc;
-		bottom: 16px
-	}
-    
-    .phb blockquote {
-        box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
-        margin-bottom: 1em;
-        padding: 5px 10px;
-        background-color: #bdc8cc;
-        border: 1px solid #0d99cc;
-        border-image: none;
-        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
-        color: #000000;
-        font-size: 1em;
-    }
-    
-    .phb blockquote h4 {
-        color: #000000;
-    }
-    
-    .phb blockquote p, .phb blockquote ul {
-        font-size: 0.85em;
-        line-height: 1.12em
-    }
-    
-    .phb hr+section blockquote {
-        position: relative;
-        padding-top: 15px;
-        background-color: #bdc8cc;
-        border-top: 0.2em solid #0d99cc;
-        border-bottom: 0.2em solid #0d99cc;
-        border-left: 0;
-        border-right: 0;
-        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
-        background-image: none;
-        border-image: none;
-        color: #000000;
-    }
-    
-    
-    .phb hr+section blockquote h2 {
-        margin-top: -8px;
-        margin-bottom: 0;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h2+p {
-        padding-bottom: 0;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h3 {
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        border-bottom: 1px solid #000000;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote h4 {
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+ul {
-        color: #000000;
-        font-size: 0.9em;
-    }
-    
-    .phb hr+section blockquote ul {
-        font-family: 'Open Sans', sans-serif;
-        padding-left: 1em;
-        font-size: .352cm;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote section section ul li {
-        text-indent: -1em;
-        list-style-type: none;
-        margin-bottom: 7px;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote ul em {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote ul strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+table {
-        margin: 0;
-        column-span: 1;
-        background-color: transparent;
-        border-style: none;
-        border-image: none;
-        -webkit-column-span: 1;
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote hr+table tbody tr:nth-child(odd),.phb hr+section blockquote hr+table tbody tr:nth-child(even) {
-        background-color: transparent
-    }
-    
-    .phb hr+section blockquote table {
-        color: #000000;
-    }
-    
-    .phb hr+section blockquote p+p {
-        margin-top: 0;
-        text-indent: 0;
-        margin-bottom: 7px
-    }
-    
-    .phb hr+section blockquote hr {
-        visibility: visible;
-        height: 5px;
-        margin: 4px 0;
-        background-color: #0d99cc;
-        background-image: none;
-        background-size: 100% 100%;
-        border: none
-    }
-    
-    .phb hr+hr+section blockquote {
-        column-count: 2;
-        column-fill: auto;
-        column-gap: 1cm;
-        column-width: 7.68cm;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        -webkit-column-width: 7.68cm;
-        -moz-column-width: 7.68cm;
-        -webkit-column-gap: 1cm;
-        -moz-column-gap: 1cm
-    }
-    
-    .phb .pageNumber {
-        color: #c40f0f;
-    }
-    
-    .phb .footnote {
-        color: #c40f0f;
-        bottom: 25px;
-    }
-    
-    .phb:nth-child(even):after {
-        background-image: none;
-    }
-    
-    
-    .phb .descriptive {
-        color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.95em;
-        background-color: #bdc8cc;
-        border-image: none;
-        border-left: 0.2em solid #0d99cc;
-        border-right: 0.2em solid #0d99cc;
-        border-top: 0;
-        border-bottom: 0;
-        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
-        padding: 0.25em 1em;
-    }
-    
-    .phb .descriptive p {
-        font-family: 'Open Sans', sans-serif;
-        display: block;
-        padding-bottom: 0;
-        line-height: 1.25em;
-        padding: 0 1em 0 2em;
-        text-indent: -1em;
-    }
-    
-    .phb .descriptive p+p {
-        padding-top: .4em
-    }
-    
-    .phb .descriptive em {
-        font-style: italic
-    }
-    
-    .phb .descriptive strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em
-    }
-    
-    .phb pre+.descriptive {
-        margin-top: .7em;
-    }
-    
-    .phb p+p {
-        text-indent: 1em;
-    }
-    
-    .phb table {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        width: 100%;
-        margin-bottom: 1em;
-        line-height: 1em;
-    }
-    
-    .phb table em {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-    }
-    
-    .phb table strong {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-    }
-    
-    .phb table thead {
-        font-weight: 800;
-    }
-    
-    .phb table thead th {
-        font-size: 0.875em;
-    }
-    
-    .phb table tbody tr td {
-        padding: .3em .1em;
-        font-size: 0.8em;
-        min-width: 2.5em;
-    }
-    
-    .phb table tbody tr:nth-child(odd) {
-        background-color: #c9d6db;
-    }
-    
-    .phb table tbody tr:nth-child(even) {
-        background-color: #bdc8cc;
-    }
-    
-    .phb .classTable {
-        background-color: #bdc8cc;
-        border-top: 0.2em solid #0d99cc;
-        border-bottom: 0.2em solid #0d99cc;
-        border-left: 0;
-        border-right: 0;
-        border-image: none;
-        padding: 1em;
-        font-size: 1em;
-        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
-    }
-    
-    .phb .classTable h5 {
-        font-family: 'Russo One', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-
-    code {
-        padding: 2px 4px;
-        font-size: 90%;
-        color: #2d2d2d;
-        background-color: #bdc8cc;
-        border-radius: 2px;
-        max-width: 95%;
-        word-break: break-all;
-    }
-    
-    a:-webkit-any-link {
-    	color: #cc6d0e;
-	}
-	
-	.phb:after { content: ""; }
-</style>
