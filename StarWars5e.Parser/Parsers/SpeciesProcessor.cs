@@ -42,7 +42,7 @@ namespace StarWars5e.Parser.Parsers
                     ContentTypeEnum = ContentType.ExpandedContent,
                     Name = name,
                     RowKey = name,
-                    ContentType = ContentType.ExpandedContent.ToString()
+                    PartitionKey = ContentType.ExpandedContent.ToString()
                 };
 
                 var descriptionStart = speciesLines.FindIndex(f => f.StartsWith("### "));
