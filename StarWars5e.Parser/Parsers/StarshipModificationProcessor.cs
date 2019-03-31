@@ -39,16 +39,16 @@ namespace StarWars5e.Parser.Parsers
             var weaponSystemsLines = modificationLines.Skip(weaponLinesStart)
                 .Take(modificationLines.Count - weaponLinesStart).ToList();
 
-            modifications.AddRange(CreateModifications(engineeringSystemsLines, ModificationType.Engineering));
-            modifications.AddRange(CreateModifications(operationSystemsLines, ModificationType.Operation));
-            modifications.AddRange(CreateModifications(suiteSystemsLines, ModificationType.Suite));
-            modifications.AddRange(CreateModifications(universalSystemsLines, ModificationType.Universal));
-            modifications.AddRange(CreateModifications(weaponSystemsLines, ModificationType.Weapon));
+            modifications.AddRange(CreateModifications(engineeringSystemsLines, StarshipModificationType.Engineering));
+            modifications.AddRange(CreateModifications(operationSystemsLines, StarshipModificationType.Operation));
+            modifications.AddRange(CreateModifications(suiteSystemsLines, StarshipModificationType.Suite));
+            modifications.AddRange(CreateModifications(universalSystemsLines, StarshipModificationType.Universal));
+            modifications.AddRange(CreateModifications(weaponSystemsLines, StarshipModificationType.Weapon));
 
             return Task.FromResult(modifications);
         }
 
-        private static IEnumerable<StarshipModification> CreateModifications(List<string> systemLines, ModificationType type)
+        private static IEnumerable<StarshipModification> CreateModifications(List<string> systemLines, StarshipModificationType type)
         {
             var modifications = new List<StarshipModification>();
             for (var i = 0; i < systemLines.Count; i++)

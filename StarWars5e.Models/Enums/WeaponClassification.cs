@@ -1,8 +1,5 @@
 ﻿namespace StarWars5e.Models.Enums
 {
-    /// <summary>
-    /// What basic family of weapon does this fall into
-    /// </summary>
     public enum WeaponClassification
     {
         Unknown = 0,

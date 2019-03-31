@@ -11,11 +11,11 @@ namespace StarWars5e.Models.Starship
         public string Name { get; set; }
 
         [IgnoreProperty]
-        public ModificationType TypeEnum { get; set; }
+        public StarshipModificationType TypeEnum { get; set; }
         public string Type
         {
             get => TypeEnum.ToString();
-            set => TypeEnum = Enum.Parse<ModificationType>(value);
+            set => TypeEnum = Enum.Parse<StarshipModificationType>(value);
         }
 
         [IgnoreProperty]

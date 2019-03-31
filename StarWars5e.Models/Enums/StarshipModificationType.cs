@@ -1,6 +1,6 @@
 ﻿namespace StarWars5e.Models.Enums
 {
-    public enum ModificationType
+    public enum StarshipModificationType
     {
         None,
         Engineering,

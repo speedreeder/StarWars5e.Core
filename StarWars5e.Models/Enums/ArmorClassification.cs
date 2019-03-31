@@ -2,8 +2,9 @@
 {
     public enum ArmorClassification
     {
-        Light = 0,
-        Medium = 1,
-        Heavy = 2
+        None,
+        Light,
+        Medium,
+        Heavy,
     }
 }
