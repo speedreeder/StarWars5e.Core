@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StarWars5e.Factories\StarWars5e.Factories.csproj" />
-    <ProjectReference Include="..\StarWars5e.Storage\StarWars5e.Storage.csproj" />
   </ItemGroup>
 
   <ItemGroup>
