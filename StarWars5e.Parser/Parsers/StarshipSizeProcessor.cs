@@ -64,8 +64,8 @@ namespace StarWars5e.Parser.Parsers
 
             var hitDice = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Hit Dice at Tier 0")),
                 @"\d+");
-            starshipBaseSize.HitDiceNumberOfDice = int.Parse(hitDice[2].ToString());
-            starshipBaseSize.HitDiceDieType = int.Parse(hitDice[1].ToString());
+            starshipBaseSize.HitDiceNumberOfDice = int.Parse(hitDice[1].ToString());
+            starshipBaseSize.HitDiceDieTypeEnum = (DiceType)int.Parse(hitDice[2].ToString());
 
             var additionalHitDice = shipLinesWithSize.Value.Find(s => s.Contains("Hit Points for subsequent Hit Die:"));
             starshipBaseSize.AdditionalHitDiceText = additionalHitDice.Substring(additionalHitDice.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase))

@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Starship
@@ -26,11 +25,10 @@ namespace StarWars5e.Models.Starship
         public int DamageDieModifier{ get; set; }
         public int DamageDieType
         {
-            get => (int)HitDiceDieTypeEnum;
-            set => HitDiceDieTypeEnum = (DiceType)value;
+            get => (int)DamageDiceDieTypeEnum;
+            set => DamageDiceDieTypeEnum = (DiceType)value;
         }
-        [IgnoreProperty]
-        public DiceType HitDiceDieTypeEnum { get; set; }
+        public DiceType DamageDiceDieTypeEnum { get; set; }
 
         public int AttackBonus { get; set; }
         public int AttacksPerRound { get; set; }

@@ -135,9 +135,8 @@ namespace StarWars5e.Parser.Parsers
                     if (damage.Any())
                     {
                         weapon.DamageNumberOfDice = int.Parse(damage[0].Value);
-                        weapon.DamageDieType = int.Parse(damage[1].Value);
+                        weapon.DamageDiceDieTypeEnum = (DiceType)int.Parse(damage[1].Value);
                     }
-                    
 
                     if (damage.ElementAtOrDefault(2) != null)
                     {
