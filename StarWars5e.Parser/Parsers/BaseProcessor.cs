@@ -9,36 +9,32 @@ namespace StarWars5e.Parser.Parsers
 {
     public abstract class BaseProcessor<T>: IBaseProcessor<T> where T: class
     {
-        public async Task<List<T>> Process(string location, bool isRemote = false)
+        public async Task<List<T>> Process(List<string> locations)
         {
-            List<string> lines;
-
-            if (isRemote)
-            {
-                lines = await ReadRemoteFile(location);
-            }
-            else
-            {
-                lines = await ReadInternalFile(location);
-            }
-
+            var lines = await ReadInternalFile(locations);
+            
             var blocks = await FindBlocks(lines);
             return blocks;
         }
 
-        private static async Task<List<string>> ReadInternalFile(string location)
+        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations)
         {
             try
             {
                 var lines = new List<string>();
-                using (var stream = Assembly.GetEntryAssembly().GetManifestResourceStream($"StarWars5e.Parser.Sources.{location}.md"))
+
+                foreach (var location in locations)
                 {
-                    using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))
+                    using (var stream = Assembly.GetEntryAssembly()
+                        .GetManifestResourceStream($"StarWars5e.Parser.Sources.{location}"))
                     {
-                        string currentLine;
-                        while ((currentLine = await reader.ReadLineAsync()) != null)
+                        using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))
                         {
-                            lines.Add(currentLine);
+                            string currentLine;
+                            while ((currentLine = await reader.ReadLineAsync()) != null)
+                            {
+                                lines.Add(currentLine);
+                            }
                         }
                     }
                 }
@@ -53,11 +49,5 @@ namespace StarWars5e.Parser.Parsers
         }
 
         public abstract Task<List<T>> FindBlocks(List<string> lines);
-
-        private async Task<List<string>> ReadRemoteFile(string location)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

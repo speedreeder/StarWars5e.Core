@@ -2,9 +2,10 @@
 {
     public enum ArmorClassification
     {
-        None,
+        Unknown,
         Light,
         Medium,
         Heavy,
+        Shield
     }
 }

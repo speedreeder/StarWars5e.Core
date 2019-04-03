@@ -1,4 +1,5 @@
 
+
 ## Changelog
 ### 10/30/2018
 #### Miscellaneous
@@ -35,19 +36,19 @@ When a creature is reduced to 0 hit points by a weapon with the disintegrate pro
 | &nbsp;&nbsp;&nbsp;Disruptor pistol    | 6,000 cr&nbsp;&nbsp;| 1d8 necrotic | 6 lb&nbsp;&nbsp; | Ammunition (range 40/160), disintegrate, reload 1 |
 | &nbsp;&nbsp;&nbsp;Disruptor rifle     | 7,000 cr&nbsp;&nbsp;| 1d10 necrotic | 12 lb&nbsp;&nbsp; | Ammunition (range 100/400), disintegrate, reload 1, two-handed |
 | &nbsp;&nbsp;&nbsp;E-web blaster   | 9,800 cr&nbsp;&nbsp;| 1d12 energy | 76 lb&nbsp;&nbsp; | Ammunition (range 100), auto, burst, special |
-| &nbsp;&nbsp;&nbsp;Grenade launcher    |   800 cr&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ | 10 lb&nbsp;&nbsp; | Ammunition (range 80/320), reload 1, strength 13, special, two-handed |
+| &nbsp;&nbsp;&nbsp;Grenade launcher    |   800 cr&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— | 10 lb&nbsp;&nbsp; | Ammunition (range 80/320), reload 1, strength 13, special, two-handed |
 | &nbsp;&nbsp;&nbsp;Heavy repeater      | 6,400 cr&nbsp;&nbsp;| 1d10 energy | 12 lb&nbsp;&nbsp; | Ammunition (range 60), auto, burst 2, reload 8, strength 15,<br> two-handed |
 | &nbsp;&nbsp;&nbsp;Heavy shotgun      |   400 cr&nbsp;&nbsp;| 2d4 kinetic | 16 lb&nbsp;&nbsp; | Ammunition (range 30/120), burst 2, reload 12, strength 13,<br> two-handed |
 | &nbsp;&nbsp;&nbsp;Incinerator sniper   | 5,600 cr&nbsp;&nbsp;| 1d8 fire | 10 lb&nbsp;&nbsp; | Ammunition (range 150/600), disintegrate, reload 4, strength 13,<br> two-handed |
-| &nbsp;&nbsp;&nbsp;IWS          | 7,200 cr&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ | 12 lb&nbsp;&nbsp; | Special, strength 13, two-handed |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Antiarmor           | ï¿½&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ | ï¿½&nbsp;&nbsp;&nbsp;&nbsp; | Ammunition (range 60/240), reload 1, special |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blaster            | ï¿½&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1d8 energy | ï¿½&nbsp;&nbsp;&nbsp;&nbsp; | Ammunition (range 80/320), reload 12 |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sniper              | ï¿½&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1d12 energy | ï¿½&nbsp;&nbsp;&nbsp;&nbsp; | Ammunition (range 120/480), reload 4 |
+| &nbsp;&nbsp;&nbsp;IWS          | 7,200 cr&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— | 12 lb&nbsp;&nbsp; | Special, strength 13, two-handed |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Antiarmor           | —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— | —&nbsp;&nbsp;&nbsp;&nbsp; | Ammunition (range 60/240), reload 1, special |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blaster            | —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1d8 energy | —&nbsp;&nbsp;&nbsp;&nbsp; | Ammunition (range 80/320), reload 12 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sniper              | —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1d12 energy | —&nbsp;&nbsp;&nbsp;&nbsp; | Ammunition (range 120/480), reload 4 |
 | &nbsp;&nbsp;&nbsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| 4d6 kinetic | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, strength 15, special,<br> two-handed |
 | &nbsp;&nbsp;&nbsp;Sonic pistol 		|   650 cr&nbsp;&nbsp;| 1d6 sonic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 16 |
 | &nbsp;&nbsp;&nbsp;Sonic rifle 		|   800 cr&nbsp;&nbsp;| 1d8 sonic | 10 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 12, two-handed |
 | &nbsp;&nbsp;&nbsp;Subrepeater 		| 1,200 cr&nbsp;&nbsp;| 1d6 energy | 4 lb&nbsp;&nbsp; | Ammunition (range 30), auto, burst 8, light, reload 16 |
-| &nbsp;&nbsp;&nbsp;Vapor projector      | 1,600 cr&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ | 14 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 13, two-handed |
+| &nbsp;&nbsp;&nbsp;Vapor projector      | 1,600 cr&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— | 14 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 13, two-handed |
 
 </div>
 
@@ -85,7 +86,7 @@ The needler includes a specialized compartment for poison. One dose of poison, w
 Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets.
 
 #### Vapor Projector
-The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tankï¿½s effects. The DC for this saving throw is 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
+The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank’s effects. The DC for this saving throw is 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
 
 ### Ammunition
 
@@ -120,7 +121,7 @@ A carbonite projector tank is a type of ammunition for the vapor projector. When
 The fragmentation rocket is the most common ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes. The target and each creature within 10 feet must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 3d6 kinetic damage on a failed save, or half as much on a succesful one.
 
 #### Rocket, Ion
-The ion rocket is a specialized ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes. The target and each creature within 10 feet must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 3d4 ion damage on a failed save, or half as much on a succesful one. Any electronics within the blast radius that arenï¿½t being worn or carried are disabled until rebooted.
+The ion rocket is a specialized ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes. The target and each creature within 10 feet must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 3d4 ion damage on a failed save, or half as much on a succesful one. Any electronics within the blast radius that aren’t being worn or carried are disabled until rebooted.
 
 #### Rocket, Plasma
 The plasma rocket is a specialized ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 2d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
@@ -135,7 +136,7 @@ The plasma rocket is a specialized ammunition type for the rocket launcher. On a
 Gravity generators are special devices typically worn on belts that function as a portable, personal artificial gravity source. Activating or deactivating the belt requires a bonus action and, while active, you are able to move as if in a standard gravitational pull. The generator lasts for 10 minutes and can be recharged by a power source or replacing the power cell.
 
 #### Shock Gloves
-A shock glove is a type of armored glove<br> that is coated with a webbed lacing. When<br> used for an attack, this webbing carries a charge that deals 1d4 lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an attack roll, using a Strength (Athletics) check contested by the targetï¿½s Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).
+A shock glove is a type of armored glove<br> that is coated with a webbed lacing. When<br> used for an attack, this webbing carries a charge that deals 1d4 lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an attack roll, using a Strength (Athletics) check contested by the target’s Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).
 
 \columnbreak
 

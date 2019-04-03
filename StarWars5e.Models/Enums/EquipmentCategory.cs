@@ -7,12 +7,12 @@
         Explosive,
         Weapon,
         Armor,
-        Container,
+        Storage,
         AdventurePack,
         Communications,
-        DataRecorder,
+        DataRecordingAndStorage,
         LifeSupport,
-        MedicalSupply,
+        Medical,
         WeaponOrArmorAccessory,
         Tool,
         Mount,
@@ -21,6 +21,7 @@
         Utility,
         GamingSet,
         MusicalInstrument,
-        Droid
+        Droid,
+        Clothing
     }
 }

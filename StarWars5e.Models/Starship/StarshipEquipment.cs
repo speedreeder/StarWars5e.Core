@@ -12,6 +12,5 @@ namespace StarWars5e.Models.Starship
             get => TypeEnum.ToString();
             set => TypeEnum = Enum.Parse<StarshipEquipmentType>(value);
         }
-
     }
 }

@@ -9,11 +9,11 @@ using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers
 {
-    public class BackgroundProcessor : BaseProcessor<Background>
+    public class ExpandedContentBackgroundProcessor : BaseProcessor<Background>
     {
         public override Task<List<Background>> FindBlocks(List<string> lines)
         {
-            var species = new List<Background>();
+            var backgrounds = new List<Background>();
 
             for (var i = 0; i < lines.Count; i++)
             {
@@ -26,10 +26,10 @@ namespace StarWars5e.Parser.Parsers
                     backgroundLines = lines.Skip(i).Take(backgroundEndIndex - i).CleanListOfStrings().ToList();
                 }
 
-                species.Add(ParseBackground(backgroundLines));
+                backgrounds.Add(ParseBackground(backgroundLines));
             }
 
-            return Task.FromResult(species);
+            return Task.FromResult(backgrounds);
         }
 
         private static Background ParseBackground(List<string> backgroundLines)

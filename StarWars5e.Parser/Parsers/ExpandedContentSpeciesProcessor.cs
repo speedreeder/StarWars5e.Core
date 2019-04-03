@@ -9,7 +9,7 @@ using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers
 {
-    public class SpeciesProcessor : BaseProcessor<Species>
+    public class ExpandedContentSpeciesProcessor : BaseProcessor<Species>
     {
         public override Task<List<Species>> FindBlocks(List<string> lines)
         {

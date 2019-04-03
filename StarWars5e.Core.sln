@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parsers", "Parsers", "{7CEB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Parser", "StarWars5e.Parser\StarWars5e.Parser.csproj", "{3973ED00-33E1-4D8B-99A0-DD1B23F495CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F2308C5A-F131-43D4-B3BB-7190BB65A63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars5e.Api", "StarWars5e.Api\StarWars5e.Api.csproj", "{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 		{3973ED00-33E1-4D8B-99A0-DD1B23F495CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3973ED00-33E1-4D8B-99A0-DD1B23F495CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3973ED00-33E1-4D8B-99A0-DD1B23F495CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0ADC6A0E-ABD2-47F8-9772-D64BB1B3EAEC} = {442411A4-4D96-4C12-9619-BFD466471C2C}
 		{3973ED00-33E1-4D8B-99A0-DD1B23F495CD} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
+		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084} = {F2308C5A-F131-43D4-B3BB-7190BB65A63E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F9930B0-064C-4475-8720-B3D0C35F59F7}

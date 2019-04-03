@@ -3,6 +3,7 @@
 ## Changelog
 
 ### New Species
+- Zygerrian (3/29/2019)
 - Togorian (3/18/2019)
 - Umbaran (3/7/2019)
 - Falleen (1/22/2019)
@@ -113,10 +114,10 @@
 |	Iktotchi	        |	29	|
 |	Ithorian	        |	30	|
 |	Kaleesh	            |	31	|
+|	Kaminoan        	|	32	|
 
 |||
 |:--|--:|
-|	Kaminoan        	|	32	|
 |	Karkarodon          |	33	|
 |	Killik	            |	34	|
 |	Kushiban        	|	35	|
@@ -146,6 +147,7 @@
 |	Voss	            |	59	|
 |	Vurk            	|	60	|
 |	Weequay	            |	61	|
+|	Zygerrian           |	62	|
 
 </div>
 
@@ -259,12 +261,12 @@ ___
 Ardennians are sentient humanoid simians hailing from the tropical paradise of Ardennia. They are covered in fur from head to their wrists and ankles, with brown and grey being the most common fur colors. Ardennians sport four arms and prehensile feet. All six of their limbs are equally dexterous.
 
 ### Society and Culture
-The Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennanï¿½s live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.
+The Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennan’s live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.
 
-Ardenniaï¿½s distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who donï¿½t mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy. 
+Ardennia’s distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who don’t mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy. 
 
 ### Names
-Ardennianï¿½s names are typically concise and rarely more than two syllables, with a familal surname.
+Ardennian’s names are typically concise and rarely more than two syllables, with a familal surname.
 
 **Male Names.** Rio, Jakar, Hul, Lup, Quil, Jerno
 
@@ -285,9 +287,9 @@ As an Ardennian, you have the following special traits.
 
 ***Alignment.*** Ardennians' peaceful nature causes them to tend toward the light side, though there are exceptions.
 
-***Size.*** Ardennians typically stand 4 to 4 and a half feet tall and weigh around 60 lbs. Regardless of your position in that range, your size is Small.
+***Size.*** Ardennians typically stand 4 to 4 and a half feet tall and weigh around 60 lbs. Regardless of your position in that range, your size is Medium.
 
-***Speed.*** Your base walking speed is 25 feet.
+***Speed.*** Your base walking speed is 30 feet.
 
 ***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
@@ -1022,9 +1024,9 @@ Due to their lack of lips, Draethos names typically lack hard consonants. Surnam
 
 **Male Names.** Odan, Gyeto, Hurl, Jan, Talon
 
-**Female Names.** Gillen, Teria, Katï¿½h, Yul, Aswe
+**Female Names.** Gillen, Teria, Kat’h, Yul, Aswe
 
-**Surnames.** Urr, Slyter, Qeluï¿½tlapa, Ayahu, Jek
+**Surnames.** Urr, Slyter, Qelu’tlapa, Ayahu, Jek
 
 \columnbreak
 
@@ -1905,7 +1907,7 @@ As a Gran, you have the following special traits.
 
 ***Keen Sight.*** Through use of infrared vision, you have advantage on Wisdom (Perception) checks that rely on sight. 
 
-***Reader of Hearts.*** Through identifying subtle variations in a targetï¿½s body heat, the Gran are able to better understand their emotions and intentions. You are proficient in the Insight skill. 
+***Reader of Hearts.*** Through identifying subtle variations in a target’s body heat, the Gran are able to better understand their emotions and intentions. You are proficient in the Insight skill. 
 
 ***Toughness.*** Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
 
@@ -2025,7 +2027,7 @@ The Harch possess a large-fanged mouth between two prominent chelicerae, above w
 The Harch are distantly related to the Aqualish<br> species and there is much debate among geneticists<br> regarding the relationship between the Harch and the<br> Aqualish Ualaq subspecies. However, the Harch<br> themselves considered such discussions to be<br> obscene.
 
 ### Society and Culture
-Not much is known about the Harch, as few of them have mingled with the galactic community, preferring to stay on Secundus Ando. Harch that leave the planet tend to have a more aspirant nature than their fellows, and often reach great heights in their chosen professions in the galaxy. Such Harch are considered outliersï¿½most apparently care little for titles.
+Not much is known about the Harch, as few of them have mingled with the galactic community, preferring to stay on Secundus Ando. Harch that leave the planet tend to have a more aspirant nature than their fellows, and often reach great heights in their chosen professions in the galaxy. Such Harch are considered outliers—most apparently care little for titles.
 
 Like the Arcona species, female Harch are seen as more domineering and aggressive than their male counterparts. It is not unheard of for a male Harch to raise entire broods of hatchlings alone.
 
@@ -2401,7 +2403,7 @@ ___
 <div style='margin-top:49px'></div>
 
 ### Biology and Appearance
-Kaminoansï¿½ evolution from aquatic creatures in the vast oceans of Kamino is reflected in their tall shape, glassy coated eyes, near luminescent skin, and long, thin necks. The almond-shaped eyes of Kaminoans are also able to see color in the ultraviolet spectrum. While female Kaminoans are bald, males possess headcrests and fin ridges along the rear of their small, bulbous skulls.
+Kaminoans’ evolution from aquatic creatures in the vast oceans of Kamino is reflected in their tall shape, glassy coated eyes, near luminescent skin, and long, thin necks. The almond-shaped eyes of Kaminoans are also able to see color in the ultraviolet spectrum. While female Kaminoans are bald, males possess headcrests and fin ridges along the rear of their small, bulbous skulls.
 
 ### Society and Culture
 The Kaminoans see themselves as a superior form of life, but nevertheless remained polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who do not are obviously inferior; self-improvement has a central role in Kaminoan society. Through the development and mastery of selective breeding, genetics, and cloning, the Kaminoans were able to overcome a cataclysm that pushed them to the brink of extinction. 
@@ -3072,7 +3074,7 @@ ___
 Muuns are tall, gaunt humanoids with thin bodies, long<br> limbs, and elongated hairless heads. They typically<br> have pale pink or white skin, most likely derived from<br> their propensity for staying indoors. Muuns have tiny<br> ears on the middle of the sides of their heads, flat<br> noses, and slim mouths which leads to a<br> commonly nasally voice.
 
 ### Society and Culture
-Muuns believe in tradition, with an established culture based on intelligence and merit. A class-based hierarchy, Muuns consider the  the intellectual pursuits ï¿½ financiers, lawyers, engineers, diplomats, scientists ï¿½ as the highest levels of society. Muun culture, and life, revolves around economics and finance. Intense competition among coworkers encourages economic growth, increased productivity, and superior work ethic. Muuns also have a fundamental respect for justice, though they typically adhere to the letter of the law rather than the spirit.
+Muuns believe in tradition, with an established culture based on intelligence and merit. A class-based hierarchy, Muuns consider the  the intellectual pursuits — financiers, lawyers, engineers, diplomats, scientists — as the highest levels of society. Muun culture, and life, revolves around economics and finance. Intense competition among coworkers encourages economic growth, increased productivity, and superior work ethic. Muuns also have a fundamental respect for justice, though they typically adhere to the letter of the law rather than the spirit.
 
 Since Muuns tend to shy away from fighting and physical pursuits, Muun society relies on alternative means for their planet's protection, using vast financial resources to purchase massive floating defense platforms to defend their civilization from attack.
 
@@ -3301,7 +3303,7 @@ Ortolans are squat, heavily-built humanoid bipeds with long, trunklike noses and
 ### Society and Culture
 Ortolan society is reasonably industrialised, though not as technologically advanced as other species. Despite this, their economy is mostly based on barter, with credits primarily used to trade with offworlders. Education is the responsibility of their parents, though gifted youngsters are often traded to other families to get specialized education. 
 
-While most Ortolans appear to have blue skin, Ortolans are actually covered in short velvety fur which they often dyed in bright colors, most often blue and pink.  This tradition began when a Devaronian trader tried to sell Ortolans a shipment of food dyesï¿½they considered dyeing their food a waste of time, but found dyed fur to be quite stylish.
+While most Ortolans appear to have blue skin, Ortolans are actually covered in short velvety fur which they often dyed in bright colors, most often blue and pink.  This tradition began when a Devaronian trader tried to sell Ortolans a shipment of food dyes—they considered dyeing their food a waste of time, but found dyed fur to be quite stylish.
 
 ### Names
 Ortolan names are generally short with big sounds. Female names are typically softer. Surnames are familial.
@@ -3744,7 +3746,7 @@ ___
 <div style='margin-top:21px'></div>
 
 ### Biology and Appearance
-Squibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an<br> olfactory organ, able to pick up scents at a distance<br> and ascertain intrinsic detailsï¿½such as penetrating<br> through a disguise or identifying a forgeryï¿½when<br> rubbed against. The species has both male and female<br> sexes, although non-Squibs often have difficulty<br> determining the sex of a Squib based on appearance<br> alone. Their mouths are full of forbidding, sharp, white<br> teeth, and their flexible cheeks were capable of storing<br> items.
+Squibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an<br> olfactory organ, able to pick up scents at a distance<br> and ascertain intrinsic details—such as penetrating<br> through a disguise or identifying a forgery—when<br> rubbed against. The species has both male and female<br> sexes, although non-Squibs often have difficulty<br> determining the sex of a Squib based on appearance<br> alone. Their mouths are full of forbidding, sharp, white<br> teeth, and their flexible cheeks were capable of storing<br> items.
 
 ### Society and Culture
 Squibs are friendly and cheerful to such an extent that, over time, they are considered quite annoying. Squibs are inherently curious, handling items with literal regard to care. They are unabashed pack rats, and they wear clothing for the excess storage rather than necessity. The Squibs' overconfidence is a defining trait. The typical Squib response to a threat is not to fight or flee, but to bluff and bluster, especially when not face-to-face. In person, their sharp teeth are their favored means of intimidation. Squibs believe that bargaining is the highest form of communication, and they believe haggling is more important than the goods themselves. A deal is a binding oath to Squibs, and they are incredibly loyal to their business partners.
@@ -3892,7 +3894,7 @@ ___
 <div style='margin-top:50px'></div>
 
 ### Biology and Appearence
-Talz are large, bulky, bipedal creatures, that are covered head to toe in thick white fur, which provides exceptional insulation against their frozen world. Talz have four eyes, which are also adaptations to their native environment. The larger set of eyes are shut during the day, when sunlight reflects off the snow with dazzling brightnessï¿½able to blind sensitive optical organsï¿½leaving the smaller set to navigate with. Alternatively, during the deep darkness of their homeworld's moonless night, the larger pair are utilized to provide the Talz with adequate vision. Talz use a small proboscis to eat and communicate, creating high-pitched chirps and buzzes.
+Talz are large, bulky, bipedal creatures, that are covered head to toe in thick white fur, which provides exceptional insulation against their frozen world. Talz have four eyes, which are also adaptations to their native environment. The larger set of eyes are shut during the day, when sunlight reflects off the snow with dazzling brightness—able to blind sensitive optical organs—leaving the smaller set to navigate with. Alternatively, during the deep darkness of their homeworld's moonless night, the larger pair are utilized to provide the Talz with adequate vision. Talz use a small proboscis to eat and communicate, creating high-pitched chirps and buzzes.
 
 ### Society and Culture
 Talz are a hunter-gatherer, clan-based society. They work in unison, and treat the entire clan as one single familial entity. Resources on Ordo Plutonia are often scarce, which leads to warring among Talz tribes. However, the clans are adept at forming a unified front when they face a common enemy.
@@ -3953,7 +3955,7 @@ ___
 > ##### Physical Characteristics
 > ||||
 > |:---|:------------:|:------------:|
-> |  ***Height*** |6ï¿½2"|+2d12"|
+> |  ***Height*** |6’2"|+2d12"|
 > |  ***Weight*** |175 lb.|x(2d6) lb.|
 > ___
 >##### Sociocultural Characteristics
@@ -4613,3 +4615,84 @@ As a Weequay, you have the following special traits.
 <img src='https://www.gmbinder.com/images/rULowc8.png' style='position:absolute;top:10px;right:45px;width:301px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Zygerrian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Light tones|
+> |***Hair Color***|  |Black, brown, gray, or red|
+> |***Eye Color***|  |Blue or yellow|
+> |***Distinctions***|  |Large pointed ears, clawed hands, fur-covered faces, bony facial spurs|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'1"|+2d8"|
+> |***Weight***|  |120 lbs.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--
+> |***Homeworld***|  |Zygerria|
+> |***Language***|  |Zygerrian|
+
+<div style='margin-top:34px'></div>
+
+### Biology and Appearance
+The Zygerrians are a bipedal, sentient humanoid species. Feline in appearance, the species possesses strong, angular features, with long fangs jutting from their jaws and claws extending from their hands. The Zygerrians' faces and their pointed ears are almost entirely covered with fur; males usually have more hair than females, with bands of fur growing on their cheeks. Male Zygerrians also display a number of bony spurs protruding from the chin, which females typically lack. Zygerrians usually have sallow complexions and are physically strong, but some suffer from obesity. 
+
+### Society and Culture
+A warlike species, the Zygerrians hold strength—both physical and mental—in great esteem, viewing it as a means to gain power and authority. They believe that it is the natural order of life for the strong to dominate the weak, so slavery is normal for the species, and a display of weakness could mean death or enslavement in their culture. Those who become their slaves are viewed as inferior by the Zygerrians.
+
+Zygerrian society is organized into clans and classes. They have a noble class, many members of which, despite their high status, pursue a career in the military. The Zygerrian government is a monarchy; female rulers hold the title of Queen, and males are addressed as Kings.
+
+The center of the Zygerrian society is the Zygerrian Slavers Guild, which focuses on the slave trade in the Outer Rim Territories. 
+
+### Names
+Zygerrian names are rather diverse, though shorter names are the most common. Surnames are familial.
+
+**Male Names.** Agruss, Darts, Atai, Sono
+
+**Female Names.** Miraj, Faralhi, Latrans, MaDall
+
+**Surnames.** D'nar, Molec, Scientel, Thanda, Tyne
+
+\columnbreak
+
+<div style='margin-top:440px'></div>
+
+### Zygerrian Traits
+As a Zygerrian, you have the following special traits.
+
+***Ability Score Increase.*** Your Charisma score<br> increases by 2, and your Intelligence score increases by<br> 1.
+
+***Age.*** Zygerrians reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Zygerrian culture's emphasis on subjugation and strength causes them to tend towards chaotic dark side, though there are exceptions.
+
+***Size.*** Zygerrians normally stand between 5 to 6 feet tall and weigh about 140 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Acrobatic.*** You have proficiency in Acrobatics.
+
+***Claws.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+***Darkvision.*** You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Notorious Slavers.*** Whenever you make an ability<br> check related to the buying, selling, or controlling of<br> slaves, you are considered proficient in the check. If<br> you would already be proficient, you instead have<br> expertise.
+
+***Reputation for Cruelty.*** You are proficient in Intimidation, as well as the saberwhip and vibrowhip.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Zygerrian. Zygerrian is characterized by its subtle growls and purrs.
+
+<img src='https://www.gmbinder.com/images/vN5Wn85.png' style='position:absolute;top:40px;right:30px;width:317px;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak

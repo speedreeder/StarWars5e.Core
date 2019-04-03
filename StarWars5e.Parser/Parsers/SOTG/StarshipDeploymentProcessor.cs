@@ -6,7 +6,7 @@ using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 using StarWars5e.Models.Utils;
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Parsers.SOTG
 {
     public class StarshipDeploymentProcessor : BaseProcessor<StarshipDeployment>
     {

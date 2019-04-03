@@ -25,12 +25,14 @@ namespace StarWars5e.Parser
             //var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>());
             //var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>());
+            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>());
 
             //await starshipManager.Parse();
             //await monsterManualManager.Parse();
             //await extendedContentSpeciesManager.Parse();
             //await extendedContentBackgroundManager.Parse();
             await extendedContentEquipmentManager.Parse();
+            await playerHandbookManager.Parse();
         }
     }
 }

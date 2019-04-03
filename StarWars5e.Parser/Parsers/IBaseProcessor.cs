@@ -5,6 +5,6 @@ namespace StarWars5e.Parser.Parsers
 {
     public interface IBaseProcessor<T>
     {
-        Task<List<T>> Process(string location, bool isRemote = false);
+        Task<List<T>> Process(List<string> locations);
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
@@ -9,7 +10,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly ExpandedContentEquipmentProcessor _equipmentProcessor;
-        private const string EcEquipmentFileName = "EC_Equipment";
+        private readonly List<string> _ecEquipmentFileName = new List<string> { "EC_Equipment.md" };
 
         public ExpandedContentEquipmentManager(ITableStorage tableStorage)
         {
@@ -19,7 +20,7 @@ namespace StarWars5e.Parser.Managers
 
         public async Task Parse()
         {
-            var equipment = await _equipmentProcessor.Process(EcEquipmentFileName);
+            var equipment = await _equipmentProcessor.Process(_ecEquipmentFileName);
             await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }

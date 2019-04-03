@@ -7,11 +7,55 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Sources\EC_Archetypes.md" />
     <None Remove="Sources\EC_Backgrounds.md" />
     <None Remove="Sources\EC_Equipment.md" />
     <None Remove="Sources\EC_Species.md" />
     <None Remove="Sources\MM.md" />
+    <None Remove="Sources\PHB\phb_01.txt" />
+    <None Remove="Sources\PHB\phb_02.txt" />
+    <None Remove="Sources\PHB\phb_03.txt" />
+    <None Remove="Sources\PHB\phb_04.txt" />
+    <None Remove="Sources\PHB\phb_05.txt" />
+    <None Remove="Sources\PHB\phb_06.txt" />
+    <None Remove="Sources\PHB\phb_07.txt" />
+    <None Remove="Sources\PHB\phb_08.txt" />
+    <None Remove="Sources\PHB\phb_09.txt" />
+    <None Remove="Sources\PHB\phb_10.txt" />
+    <None Remove="Sources\PHB\phb_11.txt" />
+    <None Remove="Sources\PHB\phb_12.txt" />
+    <None Remove="Sources\PHB\phb_aa.txt" />
+    <None Remove="Sources\PHB\phb_ab.txt" />
     <None Remove="Sources\sotg.md" />
+    <None Remove="Sources\SOTG\sotg_00.txt" />
+    <None Remove="Sources\SOTG\sotg_01.txt" />
+    <None Remove="Sources\SOTG\sotg_02.txt" />
+    <None Remove="Sources\SOTG\sotg_03.txt" />
+    <None Remove="Sources\SOTG\sotg_04.txt" />
+    <None Remove="Sources\SOTG\sotg_05.txt" />
+    <None Remove="Sources\SOTG\sotg_06.txt" />
+    <None Remove="Sources\SOTG\sotg_07.txt" />
+    <None Remove="Sources\SOTG\sotg_08.txt" />
+    <None Remove="Sources\SOTG\sotg_09.txt" />
+    <None Remove="Sources\SOTG\sotg_aa.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sources\EC_Archetypes.md" />
+    <EmbeddedResource Include="Sources\PHB\phb_01.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_02.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_03.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_04.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_05.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_06.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_07.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_08.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_09.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_10.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_11.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_12.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_aa.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_ab.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +63,17 @@
     <EmbeddedResource Include="Sources\EC_Equipment.md" />
     <EmbeddedResource Include="Sources\EC_Species.md" />
     <EmbeddedResource Include="Sources\MM.md" />
-    <EmbeddedResource Include="Sources\sotg.md" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_00.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_01.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_02.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_03.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_04.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_05.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_06.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_07.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_08.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_09.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_aa.txt" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,20 +16,20 @@ namespace StarWars5e.Parser.Parsers
         {
             var equipment = new List<Equipment>();
 
-            equipment.AddRange(await ParseWeapons(lines.CleanListOfStrings().ToList()));
-            equipment.AddRange(await ParseAmmunition(lines.CleanListOfStrings().ToList()));
-            equipment.AddRange(await ParseOtherEquipment(lines.CleanListOfStrings().ToList()));
+            equipment.AddRange(await ParseWeapons(lines, "##### Blasters - Expanded", ContentType.ExpandedContent));
+            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Ammunition_", true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", true, 1, ContentType.ExpandedContent));
 
             return equipment;
         }
 
-        private Task<List<Weapon>> ParseWeapons(List<string> lines)
+        public Task<List<Equipment>> ParseWeapons(List<string> lines, string tableName, ContentType contentType)
         {
-            var equipmentList = new List<Weapon>();
+            var equipmentList = new List<Equipment>();
 
-            var tableStart = lines.FindIndex(f => f.Contains("##### Blasters - Expanded"));
+            var tableStart = lines.FindIndex(f => f.Contains(tableName));
             var tableEnd = lines.FindIndex(tableStart + 3, f => f == string.Empty);
-            var tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).ToList();
+            var tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
 
             var weaponClassification = WeaponClassification.Unknown;
             foreach (var tableLine in tableLines)
@@ -39,10 +39,10 @@ namespace StarWars5e.Parser.Parsers
                 var costMatch = Regex.Match(tableLineSplit[2], @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)(?!\S)");
                 if (!tableLineSplit[1].Contains("_"))
                 {
-                    var weapon = new Weapon
+                    var weapon = new Equipment
                     {
-                        ContentTypeEnum = ContentType.ExpandedContent,
-                        PartitionKey = ContentType.ExpandedContent.ToString()
+                        ContentTypeEnum = contentType,
+                        PartitionKey = contentType.ToString()
                     };
 
                     var weightMatch = Regex.Match(tableLineSplit[4], @"\d+");
@@ -67,7 +67,7 @@ namespace StarWars5e.Parser.Parsers
                         if (costMatch.Success)
                         {
                             weapon.Cost = int.Parse(costMatch.Value, NumberStyles.AllowThousands);
-                            weapon.ClassificationEnum = weaponClassification;
+                            weapon.WeaponClassificationEnum = weaponClassification;
                             weapon.EquipmentCategoryEnum = EquipmentCategory.Weapon;
 
                             var weaponDescriptionStartLine =
@@ -79,7 +79,7 @@ namespace StarWars5e.Parser.Parsers
                                 var weaponDescriptionEndLine = lines.FindIndex(weaponDescriptionStartLine + 1, f => f.StartsWith("#") || f.StartsWith('|'));
                                 weapon.Description = string.Join("\r\n",
                                     lines.Skip(weaponDescriptionStartLine + 1)
-                                        .Take(weaponDescriptionEndLine - (weaponDescriptionStartLine + 1)));
+                                        .Take(weaponDescriptionEndLine - (weaponDescriptionStartLine + 1)).CleanListOfStrings());
                             }
 
                             equipmentList.Add(weapon);
@@ -104,100 +104,66 @@ namespace StarWars5e.Parser.Parsers
             return Task.FromResult(equipmentList);
         }
 
-        private Task<List<Equipment>> ParseAmmunition(List<string> lines)
+        public Task<List<Equipment>> ParseOtherEquipment(List<string> lines, string tableName, bool tableNameIsStartingCategory, int tableNameOccurence, ContentType contentType)
         {
             var equipmentList = new List<Equipment>();
+            List<string> tableLines;
 
-            var tableStart = lines.FindIndex(f => f.Contains("_Ammunition_"));
-            var tableEnd = lines.FindIndex(tableStart + 1, f => f == string.Empty);
-            var tableLines = lines.Skip(tableStart + 1).Take(tableEnd - (tableStart + 1)).Where(f => !f.Contains('_')).ToList();
-
-            foreach (var tableLine in tableLines)
+            if (tableNameIsStartingCategory)
             {
-                var ammunitionTableLineSplit = tableLine.Split('|');
-                var ammunition = new Equipment
-                {
-                    ContentTypeEnum = ContentType.ExpandedContent,
-                    PartitionKey = ContentType.ExpandedContent.ToString()
-                };
-
-                var costMatch = Regex.Match(ammunitionTableLineSplit[2], @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)(?!\S)");
-                ammunition.Name = ammunitionTableLineSplit[1].RemoveHtmlWhitespace().Trim();
-                ammunition.RowKey = ammunition.Name;
-                try
-                {
-                    ammunition.Cost = costMatch.Success ? int.Parse(costMatch.Value, NumberStyles.AllowThousands) : 0;
-                    ammunition.EquipmentCategoryEnum = EquipmentCategory.Ammunition;
-
-                    var weightMatch = Regex.Match(ammunitionTableLineSplit[3], @"\d+");
-                    ammunition.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
-
-                    var ammunitionDescriptionStartLine =
-                        lines.FindIndex(f => Regex.IsMatch(f, $@"####\s+{ammunition.Name}", RegexOptions.IgnoreCase));
-                    if (ammunitionDescriptionStartLine != -1)
-                    {
-                        var ammunitionDescriptionEndLine = lines.FindIndex(ammunitionDescriptionStartLine + 1, f => f.StartsWith("#") || f.StartsWith('|'));
-                        ammunition.Description = string.Join("\r\n",
-                            lines.Skip(ammunitionDescriptionStartLine + 1)
-                                .Take(ammunitionDescriptionEndLine - (ammunitionDescriptionStartLine + 1)));
-                    }
-
-                    equipmentList.Add(ammunition);
-                }
-                catch (Exception e)
-                {
-                    throw new Exception($"Failed while parsing {ammunition.Name}", e);
-                }
+                var tableStart = lines.FindIndex(f => f.Contains(tableName));
+                var tableEnd = lines.FindIndex(tableStart, f => f == string.Empty);
+                if (tableEnd == -1) tableEnd = lines.Count - 1;
+                tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings().ToList();
+                
             }
-            
-            return Task.FromResult(equipmentList);
-        }
-
-        private Task<List<Equipment>> ParseOtherEquipment(List<string> lines)
-        {
-            var equipmentList = new List<Equipment>();
-
-            var tableStart = lines.FindIndex(f => f.Contains("_Utilities_"));
-            var tableLines = lines.Skip(tableStart).ToList();
+            else
+            {
+                var tableStart = lines.FindNthIndex(f => f.Contains(tableName), tableNameOccurence);
+                var tableEnd = lines.FindIndex(tableStart + 3, f => f == string.Empty);
+                if (tableEnd == -1) tableEnd = lines.Count - 1;
+                tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
+            }
 
             var equipmentCategory = EquipmentCategory.Unknown;
             foreach (var tableLine in tableLines)
             {
-                if (tableLine.Contains("_Utilities_"))
+                var otherEquipmentTableLineSplit = tableLine.Split('|');
+
+                if (!otherEquipmentTableLineSplit[1].Contains("_"))
                 {
-                    equipmentCategory = EquipmentCategory.Utility;
-                }
-                else if (tableLine.Contains("_Weapon and Armor Accessories_"))
-                {
-                    equipmentCategory = EquipmentCategory.WeaponOrArmorAccessory;
-                }
-                else
-                {
-                    var otherEquipmentTableLineSplit = tableLine.Split('|');
                     var otherEquipment = new Equipment
                     {
-                        ContentTypeEnum = ContentType.ExpandedContent,
-                        PartitionKey = ContentType.ExpandedContent.ToString()
+                        ContentTypeEnum = contentType,
+                        PartitionKey = contentType.ToString()
                     };
 
-                    var costMatch = Regex.Match(otherEquipmentTableLineSplit[2], @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)(?!\S)");
+                    var costMatch = Regex.Match(otherEquipmentTableLineSplit[2],
+                        @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)(?!\S)");
                     otherEquipment.Name = otherEquipmentTableLineSplit[1].RemoveHtmlWhitespace().Trim();
                     otherEquipment.RowKey = otherEquipment.Name;
-                    try {
-                        otherEquipment.Cost = costMatch.Success ? int.Parse(costMatch.Value, NumberStyles.AllowThousands) : 0;
-                        otherEquipment.EquipmentCategoryEnum = equipmentCategory;
+                    try
+                    {
+                        otherEquipment.Cost = costMatch.Success
+                            ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
+                            : 0;
+                        otherEquipment.EquipmentCategoryEnum = otherEquipmentTableLineSplit[1].HasLeadingHtmlWhitespace() ? equipmentCategory : EquipmentCategory.Unknown;
 
                         var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+");
                         otherEquipment.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
 
                         var otherEquipmentDescriptionStartLine =
-                            lines.FindIndex(f => Regex.IsMatch(f, $@"####\s+{otherEquipment.Name}", RegexOptions.IgnoreCase));
+                            lines.FindIndex(f =>
+                                Regex.IsMatch(f, $@"####\s+{otherEquipment.Name}", RegexOptions.IgnoreCase));
                         if (otherEquipmentDescriptionStartLine != -1)
                         {
-                            var otherEquipmentDescriptionEndLine = lines.FindIndex(otherEquipmentDescriptionStartLine + 1, f => f.StartsWith("#") || f.StartsWith('|'));
+                            var otherEquipmentDescriptionEndLine = lines.FindIndex(
+                                otherEquipmentDescriptionStartLine + 1,
+                                f => f.StartsWith("#") || f.StartsWith('|'));
                             otherEquipment.Description = string.Join("\r\n",
                                 lines.Skip(otherEquipmentDescriptionStartLine + 1)
-                                    .Take(otherEquipmentDescriptionEndLine - (otherEquipmentDescriptionStartLine + 1)));
+                                    .Take(otherEquipmentDescriptionEndLine -
+                                          (otherEquipmentDescriptionStartLine + 1)).CleanListOfStrings());
                         }
 
                         equipmentList.Add(otherEquipment);
@@ -207,23 +173,196 @@ namespace StarWars5e.Parser.Parsers
                         throw new Exception($"Failed while parsing {otherEquipment.Name}", e);
                     }
                 }
+                else
+                {
+                    equipmentCategory = DetermineEquipmentCategory(otherEquipmentTableLineSplit[1]);
+                }
             }
 
             return Task.FromResult(equipmentList);
         }
 
-        private WeaponClassification DetermineWeaponClassification(string weaponClassificationLine)
+        public Task<List<Equipment>> ParseArmor(List<string> lines, string tableName, ContentType contentType)
         {
-            if (Regex.IsMatch(weaponClassificationLine, @"Martial\s*Blaster", RegexOptions.IgnoreCase))
+            var equipmentList = new List<Equipment>();
+
+            var tableStart = lines.FindIndex(f => f.Contains(tableName));
+            var tableEnd = lines.FindIndex(tableStart + 3, f => f == string.Empty);
+            var tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
+
+            var armorClassification = ArmorClassification.Unknown;
+            foreach (var tableLine in tableLines)
+            {
+                var tableLineSplit = tableLine.Split('|');
+                
+                if (!tableLineSplit[1].Contains("_"))
+                {
+                    var armor = new Equipment
+                    {
+                        ContentTypeEnum = contentType,
+                        PartitionKey = contentType.ToString()
+                    };
+
+                    var costMatch = Regex.Match(tableLineSplit[2], @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)(?!\S)");
+                    armor.Name = tableLineSplit[1].RemoveHtmlWhitespace().Trim();
+                    armor.RowKey = armor.Name;
+                    armor.EquipmentCategoryEnum = EquipmentCategory.Armor;
+                    try
+                    {
+                        armor.ArmorClassificationEnum = armorClassification;
+                        armor.Cost = costMatch.Success
+                            ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
+                            : 0;
+
+                        var weightMatch = Regex.Match(tableLineSplit[7], @"\d+");
+                        armor.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
+                        equipmentList.Add(armor);
+
+                        armor.AC = tableLineSplit[4].Trim().RemoveHtmlWhitespace();
+                        armor.StrengthRequirement = tableLineSplit[5].Trim().RemoveHtmlWhitespace();
+                        armor.StealthDisadvantage = tableLineSplit[6].Trim().RemoveHtmlWhitespace()
+                            .Equals("Disadvantage", StringComparison.InvariantCultureIgnoreCase);
+
+                        var armorDescriptionStartLine =
+                            lines.FindIndex(f =>
+                                Regex.IsMatch(f, $@"####\s+{armor.Name}", RegexOptions.IgnoreCase));
+                        if (armorDescriptionStartLine != -1)
+                        {
+                            var otherEquipmentDescriptionEndLine = lines.FindIndex(
+                                armorDescriptionStartLine + 1,
+                                f => f.StartsWith("#") || f.StartsWith('|'));
+                            armor.Description = string.Join("\r\n",
+                                lines.Skip(armorDescriptionStartLine + 1)
+                                    .Take(otherEquipmentDescriptionEndLine -
+                                          (armorDescriptionStartLine + 1)).CleanListOfStrings());
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        throw new Exception($"Failed while parsing {armor.Name}", e);
+                    }
+                }
+                else
+                {
+                    armorClassification = DetermineArmorClassification(tableLineSplit[1]);
+                }
+            }
+
+            return Task.FromResult(equipmentList);
+        }
+
+        private static WeaponClassification DetermineWeaponClassification(string weaponClassificationLine)
+        {
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Blaster\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialBlaster;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"Simple\s*Blaster", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Blaster\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleBlaster;
             }
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Lightweapons\s*_", RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.SimpleLightweapon;
+            }
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Lightweapons\s*_", RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.MartialLightweapon;
+            }
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Vibroweapons\s*_", RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.SimpleVibroweapon;
+            }
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Vibroweapons\s*_", RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.MartialVibroweapon;
+            }
 
             return WeaponClassification.Unknown;
+        }
+
+        private static EquipmentCategory DetermineEquipmentCategory(string equipmentCategoryLine)
+        {
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Utilities\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Utility;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Weapon\s*and\s*Armor\s*Accessories\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.WeaponOrArmorAccessory;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Ammunition\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Ammunition;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Clothing\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Clothing;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Communications\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Communications;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Data\s*Recording\s*and\s*Storage\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.DataRecordingAndStorage;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Explosives\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Explosive;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Life\s*Support\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.LifeSupport;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Medical\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Medical;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Storage\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Storage;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Artisan's\s*tools\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Tool;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Gaming\s*set\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.GamingSet;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Musical\s*instrument\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.MusicalInstrument;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Musical\s*instrument\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.MusicalInstrument;
+            }
+
+            return EquipmentCategory.Unknown;
+        }
+
+        private static ArmorClassification DetermineArmorClassification(string armorClassificationLine)
+        {
+            if (Regex.IsMatch(armorClassificationLine, @"_\s*Light\s*Armor\s*_", RegexOptions.IgnoreCase))
+            {
+                return ArmorClassification.Light;
+            }
+            if (Regex.IsMatch(armorClassificationLine, @"_\s*Medium\s*Armor\s*_", RegexOptions.IgnoreCase))
+            {
+                return ArmorClassification.Medium;
+            }
+            if (Regex.IsMatch(armorClassificationLine, @"_\s*Heavy\s*Armor\s*_", RegexOptions.IgnoreCase))
+            {
+                return ArmorClassification.Heavy;
+            }
+            if (Regex.IsMatch(armorClassificationLine, @"_\s*Shield\s*_", RegexOptions.IgnoreCase))
+            {
+                return ArmorClassification.Shield;
+            }
+
+            return ArmorClassification.Unknown;
         }
     }
 }
