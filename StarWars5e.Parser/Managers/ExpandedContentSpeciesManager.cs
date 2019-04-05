@@ -10,7 +10,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly IBaseProcessor<Species> _speciesProcessor;
-        private readonly List<string> _ecSpeciesFileName = new List<string> { "EC_Species.md" };
+        private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_species.txt" };
 
         public ExpandedContentSpeciesManager(ITableStorage tableStorage)
         {

@@ -8,10 +8,15 @@
 
   <ItemGroup>
     <None Remove="Sources\EC_Archetypes.md" />
+    <None Remove="Sources\ec_archetypes.txt" />
     <None Remove="Sources\EC_Backgrounds.md" />
+    <None Remove="Sources\ec_backgrounds.txt" />
     <None Remove="Sources\EC_Equipment.md" />
+    <None Remove="Sources\ec_equipment.txt" />
     <None Remove="Sources\EC_Species.md" />
+    <None Remove="Sources\ec_species.txt" />
     <None Remove="Sources\MM.md" />
+    <None Remove="Sources\mm.txt" />
     <None Remove="Sources\PHB\phb_01.txt" />
     <None Remove="Sources\PHB\phb_02.txt" />
     <None Remove="Sources\PHB\phb_03.txt" />
@@ -41,7 +46,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Sources\EC_Archetypes.md" />
+    <EmbeddedResource Include="Sources\ec_archetypes.txt" />
+    <EmbeddedResource Include="Sources\ec_backgrounds.txt" />
+    <EmbeddedResource Include="Sources\ec_equipment.txt" />
+    <EmbeddedResource Include="Sources\ec_species.txt" />
+    <EmbeddedResource Include="Sources\mm.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_01.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_02.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_03.txt" />
@@ -59,10 +68,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Sources\EC_Backgrounds.md" />
-    <EmbeddedResource Include="Sources\EC_Equipment.md" />
-    <EmbeddedResource Include="Sources\EC_Species.md" />
-    <EmbeddedResource Include="Sources\MM.md" />
     <EmbeddedResource Include="Sources\SOTG\sotg_00.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_01.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_02.txt" />

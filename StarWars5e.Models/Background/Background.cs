@@ -9,7 +9,12 @@ namespace StarWars5e.Models.Background
         public string FlavorText { get; set; }
         public string FlavorName { get; set; }
         public string FlavorDescription { get; set; }
-        public List<(int Roll, string Name)> FlavorOptions { get; set; }
+        public List<BackgroundOption> FlavorOptions { get; set; }
+        public string FlavorOptionsJson
+        {
+            get => FlavorOptions == null ? "" : JsonConvert.SerializeObject(FlavorOptions);
+            set => FlavorOptions = JsonConvert.DeserializeObject<List<BackgroundOption>>(value);
+        }
         public string SkillProficiencies { get; set; }
         public string ToolProficiencies { get; set; }
         public string Languages { get; set; }

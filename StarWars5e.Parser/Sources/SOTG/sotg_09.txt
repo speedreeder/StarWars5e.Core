@@ -16,18 +16,18 @@ A typical combat encounter is a clash between two sides, a flurry of cannon shot
 ### Surprise
 An assault carrier exits hyperspace and immediately begins firing on its prey. Fighters rapidly exit bays to support and protect the craft. Their opponents, caught unawares, are slow to respond and take significant damage before mounting their defense. In this situation, one side of the battle gained surprise over the other.
 
-The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any ship that doesn’t notice a threat is surprised at the start of the encounter.
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any ship that doesn't notice a threat is surprised at the start of the encounter.
 
-If you’re surprised, you can’t move or take an action on your first turn of the combat, and you can’t take a reaction until that turn ends. A member of a group can be surprised even if the other members aren’t.
+If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
 
 \columnbreak
 
 > ##### Combat Step By Step
 > **&emsp;1. Determine surprise.** The GM determines whether anyone involved in the combat encounter is surprised.
 > 
-> **2. Establish positions.** The GM decides where all the characters and monsters are located. Given the adventurers’ marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
+> **2. Establish positions.** The GM decides where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
 > 
-> **3. Roll initiative.** Everyone involved in the combat encounter rolls initiative normally, determining the order of combatants’ turns.
+> **3. Roll initiative.** Everyone involved in the combat encounter rolls initiative normally, determining the order of combatants' turns.
 > 
 > **4. Take turns.** Each participant in the battle takes a turn in initiative order.
 > 
@@ -65,7 +65,7 @@ In combat, ships are in constant motion, often using movement and position to ga
 
 On your turn, you can move a distance up to your speed. You can use as much or as little of your speed as you like on your turn, following the rules here.
 
-Sometimes it’s important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
+Sometimes it's important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
 
 ### Flying Speed
 **Flying speed** is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels, it expends one foot from its speed.
@@ -84,9 +84,9 @@ A ship can turn more or less than 90 degrees on its turn, by spending a proporti
 > 
 > If you use a grid often, consider writing your speed in squares on your character sheet.
 > 
-> ***Entering a Square.*** To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to the square you’re in (discussed below). 
+> ***Entering a Square.*** To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to the square you're in (discussed below). 
 > 
-> ***Corners.*** Diagonal movement can’t cross the corner of an asteroid or other terrain feature that fills its space.
+> ***Corners.*** Diagonal movement can't cross the corner of an asteroid or other terrain feature that fills its space.
 > 
 > ***Ranges.*** To determine the range on a grid between two things—whether ships or objects—start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
 >
@@ -190,25 +190,25 @@ When an object requires your action for its use, you take the Use an Object acti
 \pagebreakNum
 
 ## Making an Attack
-Whether you’re shooting your laser cannons or a railgun, an attack has a simple structure.
+Whether you're shooting your laser cannons or a railgun, an attack has a simple structure.
 
-**1. Choose a target.** Pick a target within your attack’s range: a ship, an object, or a location.
+**1. Choose a target.** Pick a target within your attack's range: a ship, an object, or a location.
 
 **2. Determine modifiers.** The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
 
-**3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there’s ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
+**3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
 
 ### Attack Rolls
-When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20, add your proficiency bonus (if proficient), the ship's Dexterity modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target’s Armor Class (AC), the attack hits. 
+When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20, add your proficiency bonus (if proficient), the ship's Dexterity modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits. 
 
 If you are proficient with any martial weapons, you are considered proficient with a ship's weapons.
 
 #### Rolling 1 or 20
 Sometimes fate blesses or curses a gunner, causing the novice to hit and the veteran to miss. 
 
-If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target’s AC. In addition, the attack is a critical hit, as explained later in this chapter.
+If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. In addition, the attack is a critical hit, as explained later in this chapter.
 
-If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target’s AC.
+If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
 
 #### Range
 You can make ranged attacks only against targets within a specified range.
@@ -248,7 +248,7 @@ ___
 Each ship weapon specifies the damage it deals. You roll the damage die or dice, add the ship's Dexterity modifier, and apply the damage to your target. Higher quality weapons, special abilities, and other factors can grant a bonus to damage.
 
 #### Critical Hits
-When you score a critical hit, you get to roll extra dice for the attack’s damage against the target. Roll all of the attack’s damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
+When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
 
 #### Damage Types
 Starship combat relies on four different damage types.
@@ -279,7 +279,7 @@ A target with **half cover** has a +2 bonus to AC and Dexterity saving throws. A
 
 A target with **three-quarters cover** has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is covered by an obstacle. 
 
-A target with **total cover** can’t be targeted directly by an attack, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
+A target with **total cover** can't be targeted directly by an attack, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
 
 \columnbreak
 
@@ -299,7 +299,7 @@ Whenever a ship with shield points takes damage, the shield takes the damage ins
 ### Repairs
 Damage to hulls is permanent until repaired. Small repairs can happen while the ship is still in space, but significant repairs require docking in an appropriate location, as discussed in Chapter 8.
 
-When a ship receives repairs of any kind, hit points regained are added to its current hit points. A ship’s hit points can’t exceed its hit point maximum.
+When a ship receives repairs of any kind, hit points regained are added to its current hit points. A ship's hit points can't exceed its hit point maximum.
 
 <div class='footnote'>PART 2 | COMBAT</div>
 
@@ -315,7 +315,7 @@ When a ship is reduced to 0 hit points, it is either destroyed or disabled. If t
 Massive damage can destroy a ship instantly. When damage reduces a ship to 0 hit points and there is damage remaining, the ship explodes if the remaining damage equals or exceeds its hit point point maximum.
 
 #### Destruction Saving Throws
-Whenever you start your turn and your ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn’t tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes and failures don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
+Whenever you start your turn and your ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn't tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes and failures don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
 
 ***Rolling 1 or 20.*** When you make a destruction saving throw and roll a 1 on the d20, it counts as two failures, causing 2 levels of system damage. If you roll a 20 on the d20, your ship regains 1 hit point.
 
@@ -326,11 +326,11 @@ Whenever you start your turn and your ship has 0 hit points, you must make a spe
 <div style='margin-top:23px'></div>
 
 #### Stabilizing a Ship
-The best way to stablize a ship with 0 hit points is to repair it. If repairs are unavailable, the ship can at least be stabilized so that it isn’t killed by a failed destruction saving throw.
+The best way to stablize a ship with 0 hit points is to repair it. If repairs are unavailable, the ship can at least be stabilized so that it isn't killed by a failed destruction saving throw.
 
 A deployed mechanic can use their action to attempt repairs on a disabled ship and attempt to stabilize it, which requires a successful DC 10 Intelligence (Mechanic's Kit) check.
 
-A **stable** ship doesn’t make destruction saving throws, even though it has 0 hit points, but it does remain disabled. The ship stops being stable, and must start making destruction saving throws again, if it takes any damage. A stable ship that isn’t repaired regains 1 hit point after 1d4 hours.
+A **stable** ship doesn't make destruction saving throws, even though it has 0 hit points, but it does remain disabled. The ship stops being stable, and must start making destruction saving throws again, if it takes any damage. A stable ship that isn't repaired regains 1 hit point after 1d4 hours.
 
 #### Ships and Destruction
 Most GMs have a ship explode the instant it drops to 0 hit points, rather than disabling it and having it make destruction saving throws. Special ships are common exceptions; the GM might have them be disabled and follow the same rules as player ships.

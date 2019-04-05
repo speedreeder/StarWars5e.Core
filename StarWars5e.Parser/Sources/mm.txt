@@ -1,150 +1,9 @@
-<img src='https://www.gmbinder.com/images/MKvbSA5.jpg' class='cover-image' />
 
-\pagebreak
-
-___
-> This overhaul was made in accordance to Wizards of the Coast's Fan Content Policy. This is unofficial content made by me, /u/Galiphile, with some collaboration (listed below).
-___
-
-## Credits
-First and foremost, I have to thank the person who got me into D&D: my buddy, Ross. That playgroup was not great, but it started my journey.
-
-Second, I have the thank the original guinea pigs of this conversion: Drew, Eric, and Rickey. It was comically bad, but we had fun with it.
-
-Lastly, while I would love to say that I created *everything* in this conversion, that wouldn't be *entirely* true. The following people deserve credit as well:
-
-Shout out to the /r/sw5e mod team:
-
-/u/karbacca for the *epic* cover and SW5e logo
-
-/u/Grelite for all his help with editing and creation
-
-/u/GAdvance for great job guiding the discord
-
-/u/LordAelfric for the awesome theme that didn't make it into this version because I ran out of time.
-
-___
-
-Also these tools who have helped a little bit.
-
-<div style='column-count:2'>
-
-|   | 
-|:---:|
-|	a_dnd_guy	|
-|	ATrolllol	|
-|	BioRemnant	|
-|	Butts_Are_Butts	|
-|	ColdPlacentaSandwich	|
-|	Croceus	|
-|	EskrimadorNC	|
-|	GAdvance	|
-|	Jondragonskin	|
-
-|   | 
-|:---:|
-|	karbacca	|
-|	LordAelfric	|
-|	mowliegrowlie 	|
-|	playking57	|
-|	Professorpenquin	|
-|	Rhylith	|
-|	Samuel_L_Blackson	|
-|	Shock3600	|
-|	Stoneward13	|
-|	tomato-andrew	|
-
-</div>
-
-
-
-\columnbreak
-
-#### Art Assets
-|Listed alphabetically|
-|:--|
-|	Art of Bartlett	|
-|	Chris Trevas	|
-|	CloneCommanderNeyo	|
-|	Dangerous Covenants	|
-|	Metropolis-Hero1125	|
-|	Skip Skyhook	|
-|	Solo: A Star Wars Story The Official Guide	|
-|	Sperasoft	|
-|	Star Wars Battlefront	|
-|	Star Wars Character Encyclopedia	|
-|	Star Wars Encyclopedia of Starfighters and Other Vehicles	|
-|	Terryl Whitlatch	|
-|	The New Essential Guide to Droids	|
-|	The New Essential Guide to Vehicles and Vessels	|
-|	William O'Connor	|
-
-<br>And of course
-
-Star Wars
-
-Star Wars: The Clone Wars
-
-Star Wars: The Old Republic
-
-Star Wars: Rebels
-
-
-> If I missed you and you feel you deserve credit ***please*** let me know. I've been working on this for years, and I'm fallible.
-
-I hope you like it.
-
-\pagebreak
-
-# Introduction
-This bestiary is for storytellers and worldbuilders. If you have ever thought about running a Star Wars Dungeons & Dragons game for your friends, either a single night's adventure or a long-running campaign, this tome contains page after page of inspiration. It's your one-stop shop for creatures both malevolent and benign. 
-
-Some of the creatures that inhabit the worlds of Star Wars you've seen in the movies or TV shows. Other creatures are from the Expanded Universe or, my personal preference, the Old Republic era. Common beasts mingle with the weird, the terrifying, and the awe-inspiring. I've endeavored to reflect the multifaceted nature of the game, reflected by the monsters as I see them.
-
-## How to Use This
-The best thing about being a DM is that you get to invent your own fantasy world and bring it to life, and nothing brings a D&D world to life more than the creatures that inhabit it. You might read a monster's entry and be spurred to create an adventure revolving around it, or you might have an awesome idea for a dungeon and need just the right monsters to populate it. That's where the Monster Manual comes in handy.
-
-The Monster Manual is one of three books that form the foundation of the Star Wars Dungeons & Dragons game, the other two being the Player's Handbook and the Dungeon Master's Guide. The Monster Manual, like the Dungeon Master's Guide, is a book for DMs. Use it to populate your D&D adventures with pesky droids, stinky gamorrheans, savage trandoshans, mighty rancors, and a veritable horde of constructs.
-
-Guidelines for creating encounters with monsters can be found in the Dungeon Master's Guide. That book also contains wandering monster tables and other goodies to help you use the monsters in this book in interesting ways, as well as advice for modifying monsters and creating your own.
-
-> You will want to buy the Monster Manual if you have not already done so. All of the monsters in this book are made using the same rules, with the only differences being those listed in the Star Wars 5E Player's Handbook.
->
-> I encourage you to buy the Dungeon Master's Guide, also. All (most) of the information in the will directly translate to this overhaul.
-
-## Breakdown
-This book is broken down into 5 chapters: Beasts, Constructs, Droids, Force-Wielders, and Humanoids (which conveniently mirrors the scout's Favored Enemy feature). Each chapter is briefly described to the right:
-
-\columnbreak
-
-### Chapter 1: Beasts
-Every planet in the galaxy has its own native creatures, and many creature have unique traits. Noteworthy creatures include the fearsome rancor, the placid dewback, the hardy tauntaun, or the obnoxious monkey-lizard.
-
-### Chapter 2: Constructs
-Constructs will encompass any kind of non-sentient machines that adventurers might encounter: turrets, vehicles, ships, etc. These often (but not always) utilize a unique mechanic called *piloted* that requires an active operator for the construct to function.
-
-### Chapter 3: Droids
-The other side of the machine coin, droids will cover the sentient side. Droids come in five classifications, but most of the statblocks I generated will be the for combat-oriented ones.
-
-### Chapter 4: Force-Wielders
-This chapter covers those practitioners of the mystical Force. While they function utilizing normal rules, their unique playstyle merits separating them from humanoids.
-
-### Chapter 5: Humanoids
-The majority of the known galaxy is populated by some kind of humanoid. Most non-combat encounters, and many of the combat encounters, involve humanoids.
-
-> Force-Wielders and Humanoids will obviously overlap. I kept them separate for the sake of simplicity for DMs to adjudicate the aforementioned scout's Favor Enemy feature. 
-
-### Appendices
-Two appendicies of all statblocks exist: one is sorted alphabetically, the other by Challenge Rating.
-
-<style>
-	.phb:after { content: ""; }
-</style>
 
 # Introduction
 This bestiary is for storytellers and worldbuilders. If you have ever thought about running a DUNGEONS & DRAGONS game using my SW5e conversion for your friends, either a single night's adventure or a long-running campaign, this book contains page after page of inspiration. It's your one-stop shop for creatures both malevolent and benign.
 
-Some of the creatures that inhabit the worlds of *Star Wars* have origins rooted in real-world mythology and fantasy literature. Other creatures are *Star Wars* originals. The monsters in this book have been culled from all multitude. Herein you'll discover classic critters such as the rancor and the dewback next to more recent creations such as the shyrack and the porg. Common beasts mingle with the weird, the terrifying, and the ridiculous. In collecting monsters from the *Star Wars* mythos, Iï¿½ve endeavored to reflect the multifaceted nature of the game. *Star Wars* monsters come in all shapes and sizes, with stories that not only thrill us but also make us smile.
+Some of the creatures that inhabit the worlds of *Star Wars* have origins rooted in real-world mythology and fantasy literature. Other creatures are *Star Wars* originals. The monsters in this book have been culled from all multitude. Herein you'll discover classic critters such as the rancor and the dewback next to more recent creations such as the shyrack and the porg. Common beasts mingle with the weird, the terrifying, and the ridiculous. In collecting monsters from the *Star Wars* mythos, I've endeavored to reflect the multifaceted nature of the game. *Star Wars* monsters come in all shapes and sizes, with stories that not only thrill us but also make us smile.
 
 If you're an experienced Dungeon Master (DM) and have run traditional 5e games, nothing in this book should surprise you. For the most part, these are how I interpret the creatures of *Star Wars*, with a few of my own twists. Naturally, you can do with these monsters what you will. Nothing I say here is intended to curtail your creativity. 
 
@@ -229,7 +88,7 @@ ___
 >|22 (+6)|9 (-1)|17 (+3)|3 (-4)|11 (+0)|5 (-3)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 5 (1,800 XP)
 > ___
 > ***Trampling Charge.*** If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it as a bonus action.
@@ -255,7 +114,7 @@ ___
 >|25 (+7)|10 (+0)|20 (+5)|3 (-4)|11 (+0)|5 (-3)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 8 (3,900 XP)
 > ___
 > ***Trampling Charge.*** If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 19 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it as a bonus action.
@@ -288,7 +147,7 @@ ___
 >|22 (+6)|9 (-1)|17 (+3)|3 (-4)|11 (+0)|6 (-2)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Trampling Charge.*** If the bantha moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the bantha can make one stomp attack against it as a bonus action.
@@ -314,7 +173,7 @@ ___
 >|24 (+7)|9 (-1)|21 (+5)|3 (-4)|11 (+0)|6 (-2)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 6 (2,300 XP)
 > ___
 > ***Trampling Charge.*** If the bantha moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the bantha can make one stomp attack against it as a bonus action.
@@ -348,7 +207,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** passive Perception 13
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 1 (200 XP)
 > ___
 > ***Keen Smell.*** The dewback has advantage on Wisdom (Perception) checks that rely on smell.
@@ -377,7 +236,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** passive Perception 13
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Keen Smell.*** The dewback has advantage on Wisdom (Perception) checks that rely on smell.
@@ -411,7 +270,7 @@ ___
 >|8 (-1)|14 (+2)|11 (+0)|5 (-2)|12 (+1)|6 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 0 (10 XP)
 > ___
 > ***Pack Tactics.*** The monkey-lizard has advantage on attack rolls against a creature if at least one of the monkey-lizard's allies is within 5 feet of the creature and the ally isn't incapacitated.
@@ -437,7 +296,7 @@ ___
 > - **Damage Resistances** energy, kinetic
 > - **Condition Immunities** charmed, frightened, paralyzed, petrified, prone, restrained, stunned
 > - **Senses** passive Perception 15
-> - **Languages** ï¿½
+> - **Languages** –
 > - **Challenge** 1/2 (100 XP)
 > ___
 > ***Pack Tactics.*** The swarm has advantage on attack rolls against a creature while at more than half of its hit points.
@@ -482,17 +341,17 @@ ___
 > ***Detect Dark Side.***  The orbalisk can sense the presence and location of any dark side aligned creature within 300 feet.
 > <br><br><br><br><br><br><br><br><br><br>
 > ### Actions
-> ***Attach.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) kinetic damage, and the orbalisk attaches to the target. Once attached to a target, every day that passes the orbalisk will reproduce through fragmentation, so their numbers will be multiplied by 2. As the orbalisk covers the hostï¿½s body, the following effects will take place (percentages relative to HP):
+> ***Attach.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) kinetic damage, and the orbalisk attaches to the target. Once attached to a target, every day that passes the orbalisk will reproduce through fragmentation, so their numbers will be multiplied by 2. As the orbalisk covers the host's body, the following effects will take place (percentages relative to HP):
 >
-> 0-25%: Hostï¿½s max HP is reduced by the number of orbalisk.
+> 0-25%: Host's max HP is reduced by the number of orbalisk.
 >
-> 25-50%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +2 bonus to AC, and Wisdom is decreased by 1.
+> 25-50%: Host's max HP is reduced by the number of orbalisk. The host gains a +2 bonus to AC, and Wisdom is decreased by 1.
 >
-> 50-70%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +3 bonus to AC, Wisdom is decreased by 2, and max force points are reduced by one-third (rounded down).
+> 50-70%: Host's max HP is reduced by the number of orbalisk. The host gains a +3 bonus to AC, Wisdom is decreased by 2, and max force points are reduced by one-third (rounded down).
 >
-> 70-90%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +4 bonus to AC, Wisdom is decreased by 3, and max force points are reduced by two-thirds (rounded up).
+> 70-90%: Host's max HP is reduced by the number of orbalisk. The host gains a +4 bonus to AC, Wisdom is decreased by 3, and max force points are reduced by two-thirds (rounded up).
 >
-> 90-99%: Hostï¿½s max HP is reduced by the number of orbalisk. The host gains a +5 bonus to AC, Wisdom is decreased by 4, and max force points are reduced to 0.
+> 90-99%: Host's max HP is reduced by the number of orbalisk. The host gains a +5 bonus to AC, Wisdom is decreased by 4, and max force points are reduced to 0.
 >
 > 100%: Host dies.
 
@@ -523,7 +382,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** passive Perception 13
-> - **Languages** ï¿½
+> - **Languages** –
 > - **Challenge** 0 (10 XP)
 > ___
 > ***Keen Smell.*** The porg has advantage on Wisdom (Perception) checks that rely on smell.
@@ -549,7 +408,7 @@ ___
 > - **Damage Resistances** energy, kinetic
 > - **Condition Immunities** charmed, frightened, paralyzed, petrified, prone, restrained, stunned
 > - **Senses** passive Perception 15
-> - **Languages** ï¿½
+> - **Languages** –
 > - **Challenge** 1/4 (50 XP)
 > ___
 > ***Keen Smell.*** The swarm has advantage on Wisdom (Perception) checks that rely on smell.
@@ -584,7 +443,7 @@ ___
 >___
 > - **Saving Throws** Str +10, Dex +4, Con +10, Wis +4
 > - **Senses** darkvision 120 ft., passive Perception 14
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 12 (8,400 XP)
 > ___
 > ***Siege Monster.*** The rancor deals double damage to objects and structures.
@@ -627,7 +486,7 @@ ___
 >|18 (+5)|11 (+0)|16 (+5)|4 (-3)|9 (-1)|6 (-2)|
 >___
 > - **Senses** darkvision 120 ft., passive Perception 9
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 2 (450 XP)
 > ___
 > ### Actions
@@ -658,7 +517,7 @@ ___
 >|20 (+5)|11 (+0)|21 (+5)|4 (-3)|9 (-1)|6 (-2)|
 >___
 > - **Senses** darkvision 120 ft., passive Perception 9
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 8 (3,900 XP)<br><br>
 > ___
 > ***Siege Monster*** The rancor deals double damage to objects and structures.
@@ -691,7 +550,7 @@ ___
 > - **Skills** Athletics +13
 > - **Damage Resistances** energy, ion, and kinetic fron unenhanced weapons
 > - **Senses** darkvision 120 ft., passive Perception 16
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 19 (22,000 XP)
 > ___
 > ***Siege Monster.*** The Rancor deals double damage to objects and structures.
@@ -753,7 +612,7 @@ ___
 >|21 (+5)|8 (-1)|15 (+2)|2 (-4)|12 (+1)|6 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Charge.*** If the reek moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) kinetic damage. If the target is a Large or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.
@@ -777,7 +636,7 @@ ___
 >|23 (+6)|8 (-1)|17 (+3)|2 (-4)|12 (+1)|6 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 7 (2,900 XP)
 > ___
 > ***Charge.*** If the reek moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 18 (4d8) kinetic damage. If the target is a Huge or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.
@@ -868,7 +727,7 @@ ___
 >|16 (+3)|10 (+0)|12 (+1)|2 (-4)|11 (+0)|7 (-2)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 1/4 (50 XP)
 > ___
 > ***Trampling Charge.*** If the varactyl moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the varactyl can make another attack with its bite against it as a bonus action.
@@ -892,7 +751,7 @@ ___
 >|18 (+4)|12 (+1)|13 (+1)|2 (-4)|12 (+1)|7 (-2)|
 >___
 > - **Senses** passive Perception 11
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 1/2 (100 XP)
 > ___
 > ***Trampling Charge.*** If the varactyl moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the varactyl can make another attack with its bite against it as a bonus action.
@@ -924,7 +783,7 @@ ___
 > - **Skills** Perception +3, Stealth +3
 > - **Damage Immunities** cold
 > - **Senses** darkvision 60 ft., passive Perception 13
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 3 (700 XP)
 > ___
 > ***Fear of Fire.*** If the wampa takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
@@ -962,7 +821,7 @@ ___
 >___
 > - **Skills** Athletics +8, Perception +4, Stealth +3
 > - **Senses** darkvision 60 ft., passive Perception 14
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 5 (1,800 XP)
 > ___
 > ***Keen Smell.*** The wampa has advantage on Wisdom (Perception) checks that rely on smell.
@@ -995,7 +854,7 @@ ___
 >___
 > - **Skills** Perception +2, Stealth +2
 > - **Senses** darkvision 60 ft., passive Perception 12
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Putrid Smell.*** The wampa has disadvantage on Dexterity (Stealth) checks. At the start of each wampas turns, each creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 10 (4d4) poison damage.
@@ -1033,7 +892,7 @@ ___
 >|14 (+2)|10 (+0)|13 (+1)|2 (-4)|10 (+0)|5 (-3)|
 >___
 > - **Senses** passive Perception 10
-> - **Languages** ï¿½
+> - **Languages** –
 > - **Challenge** 1/8 (25 XP)
 > ___
 > ***Sure-Footed.*** The kaadu has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
@@ -1067,9 +926,9 @@ ___
 >
 > ***Battery Drainer.*** If the mynock attaches itself to a piece of equipment that needs energy to function, that piece will stop working until the Mynock is removed.
 >
-> ***Pack Tactics.*** The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isnï¿½t incapacitated.
+> ***Pack Tactics.*** The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isn't incapacitated.
 > ### Actions
-> ***Energy Drain.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) kinetic damage, and the mynock attaches to the target. If attached to a droid or construct, at the start of each of the mynockï¿½s turns, the target loses 5 (1d4 + 3) hit points due to energy being drained. 
+> ***Energy Drain.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) kinetic damage, and the mynock attaches to the target. If attached to a droid or construct, at the start of each of the mynock's turns, the target loses 5 (1d4 + 3) hit points due to energy being drained. 
 >
 > The mynock can detach itself by spending 5 feet of its Movement. It does so after it drains 10 Hit Points of energy from the target or the target dies. A creature, including the target, can use its action to detach the Mynock.
 
@@ -1099,7 +958,7 @@ ___
 >___
 > - **Skills** Stealth +6
 > - **Senses** passive Perception 10, Darkvision 60 ft.
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 5 (1800 XP)
 > ___
 > ***Kidnapper*** The sea killer may move at full speed while grappling a creature.
@@ -1134,7 +993,7 @@ ___
 >___
 > - **Skills** Perception +3, Stealth +4
 > - **Senses** passive Perception 13
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 1/4 (50 XP)
 > ___
 > ***Keen Hearing and Smell.*** The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.
@@ -1168,7 +1027,7 @@ ___
 >|16 (+3)|8 (-1)|14 (+2)|2 (-4)|8 (-1)|5 (-3)|
 >___
 > - **Senses** passive Perception 9
-> - **Languages** ï¿½
+> - **Languages** –
 > - **Challenge** 1/8 (25 XP)
 > ___
 > ### Actions
@@ -1177,7 +1036,7 @@ ___
 \columnbreak
 
 ## Ysalamir
-Ysalamiri are furry, lizard-like tree-dwellers about 2 feet long native to the planet Myrkr, most known for their ability to repel the Force by creating a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together can expand their Force-neutral bubble by varying distances ï¿½ sometimes by miles.
+Ysalamiri are furry, lizard-like tree-dwellers about 2 feet long native to the planet Myrkr, most known for their ability to repel the Force by creating a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together can expand their Force-neutral bubble by varying distances – sometimes by miles.
 
 <div style='margin-top:406px'></div>
 
@@ -1281,8 +1140,8 @@ ___
 > - **Damage Vulnerabilities** ion, lightning
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** ï¿½
-> - **Languages** ï¿½
+> - **Senses** —
+> - **Languages** —
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Comm Jammers.*** The construct suppresses all electronic communications devices within 60 feet of it.
@@ -1322,8 +1181,8 @@ ___
 > - **Damage Resistances** psychic
 > - **Damage Immunities** poison, necrotic
 > - **Condition Immunities** poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed
-> - **Senses** ï¿½
-> - **Languages** ï¿½
+> - **Senses** —
+> - **Languages** —
 > - **Challenge** 19 (22,000 XP)
 > ___
 > ***Towering.*** Creatures of Large size or smaller can stand in the AT-AT's space. 
@@ -1346,7 +1205,7 @@ ___
 >
 >***Frightful Presence:*** Each creature of the AT-AT's choice that is within 240 feet of the AT-AT and aware of it must succeed on a DC 16 Wisdom saving throw or become Frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-AT's Frightful Presence for the next 24 hours.
 > ### Legendary Actions
-> The AT-AT can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creatureï¿½s turn. The AT-AT regains spent legendary actions at the start of their turn.
+> The AT-AT can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The AT-AT regains spent legendary actions at the start of their turn.
 >
 > **Stomp** The AT-AT makes a stomp attack.
 >
@@ -1385,8 +1244,8 @@ ___
 > - **Damage Resistances** psychic
 > - **Damage Immunities** poison, necrotic
 > - **Condition Immunities** poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed
-> - **Senses** ï¿½
-> - **Languages** ï¿½
+> - **Senses** —
+> - **Languages** —
 > - **Challenge** 11 (7,200 XP)
 > ___
 > ***Towering*** Creatures of Medium size or smaller can stand in the AT-ST's space. 
@@ -1437,8 +1296,8 @@ ___
 > - **Damage Vulnerabilities** ion, lightning
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** ï¿½
-> - **Languages** ï¿½
+> - **Senses** —
+> - **Languages** —
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Piloted.*** The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.
@@ -1474,8 +1333,8 @@ ___
 > - **Damage Vulnerabilities** ion, lightning
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** ï¿½
-> - **Languages** ï¿½
+> - **Senses** —
+> - **Languages** —
 > - **Challenge** 1 (200 XP)
 > ___
 > ***Piloted.*** The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.
@@ -2385,7 +2244,7 @@ Humanoids have no inherent vulnerabilities or resistances, except those based on
 \pagebreakNum
 
 ## Rakghouls
-Rakghouls are a living plagueï¿½the manifestation of a highly communicable disease capable of swiftly transforming its victims into twisted, degenerate monsters with predatory instincts. The rakghoul virus can infect hundreds of known species and is most often delivered through a rakghoulï¿½s bite; a person attacked by a rakghoul and ï¿½luckyï¿½ enough to survive typically becomes a rakghoul him- or herself. Some victims resist the virus for days, succumbing to rakghoul instincts while retaining their original bodies.
+Rakghouls are a living plague–the manifestation of a highly communicable disease capable of swiftly transforming its victims into twisted, degenerate monsters with predatory instincts. The rakghoul virus can infect hundreds of known species and is most often delivered through a rakghoul's bite; a person attacked by a rakghoul and “lucky” enough to survive typically becomes a rakghoul him- or herself. Some victims resist the virus for days, succumbing to rakghoul instincts while retaining their original bodies.
 
 <div style='margin-top:100px'></div>
 
@@ -2403,7 +2262,7 @@ ___
 >___
 > - **Skills** Perception +2
 > - **Senses** passive Perception 12
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 1 (200 XP)
 > ___
 > ***Rakghoul Plague.*** Creatures that come in contact with the rakghoul may become afflicted with rakghoul plague, a virulent disease that transforms the creature into a rakghoul over the next 24 (7d6) hours. The plague is only effective against humanoids.
@@ -2432,7 +2291,7 @@ ___
 >___
 > - **Skills** Athletics +6, Perception +3
 > - **Senses** passive Perception 12
-> - **Languages** ï¿½
+> - **Languages** —
 > - **Challenge** 5 (1,800 XP)
 > ___
 > ***Rakghoul Plague.*** Creatures that come in contact with the rakghoul may become afflicted with rakghoul plague, a virulent disease that transforms the creature into a rakghoul over the next 24 (7d6) hours. The plague is only effective against humanoids.
@@ -2615,7 +2474,7 @@ ___
 > ### Actions
 > ***Flamethrower.*** Each creature in a 30-foot cone must make a DC 13 Dexterity saving throw. A creature takes 13 (3d8) fire damage on a failed save, or half as much on a successful one.
 > 
-> The fire ignites any flammable objects in the area that arenï¿½t being worn or carried.
+> The fire ignites any flammable objects in the area that aren't being worn or carried.
 >
 > ***Blaster Pistol.*** *Ranged Weapon Attack:* +5 to hit, range 40/160 ft., one target. *Hit:* 6 (1d6+3) energy damage.
 >

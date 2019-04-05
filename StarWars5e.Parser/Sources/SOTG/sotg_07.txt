@@ -4,7 +4,7 @@
 
 <img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:78px;left:63px;width:38px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix abilities provide a quick description of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every ship's, and her crew’s, physical and mental<br> characteristics:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix abilities provide a quick description of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every ship's, and her crew's, physical and mental<br> characteristics:<br>
 
 ___
 
@@ -17,14 +17,14 @@ ___
 
 ___
 
-Is a ship indomitable, and her crew insightful? Fast and frightening? Nimble and notorious? Ability scores define these qualities—a ship and her crew’s assets as well as weaknesses.
+Is a ship indomitable, and her crew insightful? Fast and frightening? Nimble and notorious? Ability scores define these qualities—a ship and her crew's assets as well as weaknesses.
 
-The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores. The book’s introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
+The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
 
 This chapter focuses on how to use ability checks and saving throws, covering the fundamental activities that creatures attempt in the game. Rules for attack rolls appear in chapter 9.
 
 ## Ability Scores and Modifiers
-Each of a ship and her crew’s abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a ship’s modification, or the crew's training, in activities related to that ability.
+Each of a ship and her crew's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a ship's modification, or the crew's training, in activities related to that ability.
 
 A score of 10 or 11 is the normal average, but many ships and crew members are a cut above average in most abilities. A score of 18 is the highest that a ship or crew usually reaches. Some can have scores as high as 20, and monsters and capital ships can have scores as high as 30.
 
@@ -65,11 +65,11 @@ Because ability modifiers affect almost every attack roll, ability check, and sa
 ## Advantage and Disadvantage
 Sometimes a special ability or power tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
 
-If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don’t roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
+If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
 
 If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
 
-When you have advantage or disadvantage and something in the game, such as the iktotchi’s Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a l and a 13, the iktotchi could use the Precognition trait to reroll the 1.
+When you have advantage or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a l and a 13, the iktotchi could use the Precognition trait to reroll the 1.
 
 You usually gain advantage or disadvantage through the use of special abilities, actions, or powers. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 
@@ -80,13 +80,13 @@ You usually gain advantage or disadvantage through the use of special abilities,
 ## Proficiency Bonus
 Ships do not have a proficiency bonus. Instead, when a feature references a proficiency bonus, instead use the proficiency bonus of the character manning the relevant deployment. The bonus is used in the rules on ability checks, attack rolls, and saving throws.
 
-Your proficiency bonus can’t be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
+Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
 
 Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
 
-By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn’t normally benefit from your proficiency bonus, you still don’t add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying O by any number is still 0. For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks.
+By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying O by any number is still 0. For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks.
 
-In general, you don’t multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
+In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
 
 ### Expertise
 Certain features, such as the Expertise class feature or Ace Pilot feat, let you double your proficiency bonus with a given skill or tool proficiency, granting expertise in that skill or tool. As usual, you can only gain expertise in a skill or tool once.
@@ -96,7 +96,7 @@ An ability check ship's ability to overcome a challenge. The DM calls for an abi
 
 For every ability check, the DM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
 
-To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crew member, overcomes the challenge at hand. Otherwise, it’s a failure, which means the ship or crew member makes no progress toward the objective or makes progress combined with a setback determined by the DM.
+To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crew member, overcomes the challenge at hand. Otherwise, it's a failure, which means the ship or crew member makes no progress toward the objective or makes progress combined with a setback determined by the DM.
 
 When making an ability check that involves Strength, Dexterity, or Constitution, you use the ship's score instead of your own, as dictated by logic.
 
@@ -105,7 +105,7 @@ When making an ability check that involves Strength, Dexterity, or Constitution,
 <div style='margin-top:26px'></div>
 
 ### Contests
-Sometimes one ship's or crew member's efforts are directly opposed to another’s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.
+Sometimes one ship's or crew member's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.
 
 Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That ship or crew member either succeeds at the action or prevents the other one from succeeding.
 

@@ -10,7 +10,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly ExpandedContentEquipmentProcessor _equipmentProcessor;
-        private readonly List<string> _ecEquipmentFileName = new List<string> { "EC_Equipment.md" };
+        private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
 
         public ExpandedContentEquipmentManager(ITableStorage tableStorage)
         {

@@ -22,7 +22,6 @@ namespace StarWars5e.Parser.Managers
             "sotg_07.txt", "sotg_08.txt", "sotg_09.txt", "sotg_aa.txt"
         };
 
-
         public StarshipsOfTheGalaxyManager(ITableStorage tableStorage)
         {
             _tableStorage = tableStorage;

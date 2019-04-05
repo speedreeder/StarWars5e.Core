@@ -26,23 +26,23 @@ namespace StarWars5e.Parser.Parsers
                     backgroundLines = lines.Skip(i).Take(backgroundEndIndex - i).CleanListOfStrings().ToList();
                 }
 
-                backgrounds.Add(ParseBackground(backgroundLines));
+                backgrounds.Add(ParseBackground(backgroundLines, ContentType.ExpandedContent));
             }
 
             return Task.FromResult(backgrounds);
         }
 
-        private static Background ParseBackground(List<string> backgroundLines)
+        public static Background ParseBackground(List<string> backgroundLines, ContentType contentType)
         {
             var name = backgroundLines.Find(f => f.StartsWith("## ") || f.StartsWith("## ")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
             try
             {
                 var background = new Background
                 {
-                    ContentTypeEnum = ContentType.ExpandedContent,
+                    ContentTypeEnum = contentType,
                     Name = name,
                     RowKey = name,
-                    PartitionKey = ContentType.ExpandedContent.ToString()
+                    PartitionKey = contentType.ToString()
                 };
 
                 var nameIndex = backgroundLines.FindIndex(f => f.StartsWith("## ") || f.StartsWith("## "));
@@ -65,7 +65,7 @@ namespace StarWars5e.Parser.Parsers
                 {
                     var checkLine = backgroundLines.FindIndex(flavorNameIndex + 1, f => f.StartsWith("###"));
 
-                    background.FlavorName = backgroundLines[flavorNameIndex];
+                    background.FlavorName = backgroundLines[flavorNameIndex].Split("####")[1].Trim();
                     background.FlavorDescription = string.Join("\r\n", backgroundLines.Skip(flavorNameIndex + 1).Take(checkLine - (flavorNameIndex + 1)));
 
                     var flavorTableLinesStart = backgroundLines.FindIndex(f => f.Contains("|"));
@@ -75,8 +75,14 @@ namespace StarWars5e.Parser.Parsers
                         var flavorTableLinesEnd = backgroundLines.FindIndex(flavorTableLinesStart, f => f.StartsWith($"|{flavorTableDieType}"));
                         var flavorTableLines = backgroundLines.Skip(flavorTableLinesStart).Take(flavorTableLinesEnd - flavorTableLinesStart + 1)
                             .Where(f => Regex.IsMatch(f, @"^\|\d"));
+                        //background.FlavorOptions = flavorTableLines
+                        //    .Select(f => (int.Parse(Regex.Match(f, @"\d").Value), f.Split('|')[2].Trim())).ToList();
                         background.FlavorOptions = flavorTableLines
-                            .Select(f => (int.Parse(Regex.Match(f, @"\d").Value), f.Split('|')[2].Trim())).ToList();
+                            .Select(f => new BackgroundOption
+                            {
+                                Name = f.Split('|')[2].Trim(),
+                                Roll = int.Parse(Regex.Match(f, @"\d").Value)
+                            }).ToList();
                     }
                 }
 
@@ -94,8 +100,8 @@ namespace StarWars5e.Parser.Parsers
                 var featTableLinesStart = backgroundLines.FindIndex(f => f.Contains("|Feat"));
                 var featTableDieType = Regex.Match(backgroundLines[featTableLinesStart], @"\d+").Value;
                 var featTableLinesEnd = backgroundLines.FindIndex(featTableLinesStart, f => Regex.IsMatch(f, @"\|\s*" + $"{featTableDieType}" + @"\s*\|"));
-                var featTableLines = backgroundLines.Skip(featureLineStart).Take(featTableLinesEnd - featureLineStart + 1)
-                    .Where(f => Regex.IsMatch(f, @"^\|\d"));
+                var featTableLines = backgroundLines.Skip(featTableLinesStart + 1).Take(featTableLinesEnd - (featureLineStart + 1))
+                    .Where(f => Regex.IsMatch(f, @"^\|\s*\d"));
                 background.FeatOptions = featTableLines
                     .Select(f => new BackgroundOption
                     {

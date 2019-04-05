@@ -10,7 +10,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly ExpandedContentBackgroundProcessor _backgroundProcessor;
-        private readonly List<string> _ecBackgroundsFileName = new List<string>{"EC_Backgrounds.md"};
+        private readonly List<string> _ecBackgroundsFileName = new List<string>{"ec_backgrounds.txt"};
 
         public ExpandedContentBackgroundsManager(ITableStorage tableStorage)
         {

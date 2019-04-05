@@ -191,7 +191,7 @@ You can use a weapon that has the ammunition property to make a ranged attack on
 
 Weapons with the ammunition property come with a range in parentheses after the property. The range property varies based on the weapon type.
 
-***Tertiary Weapons.***  The first number is the tertiary weapon’s **normal range** in feet, and the second number indicates the tertiary weapon’s **long range**. When attacking a target with a tertiary weapon beyond **normal range**, they have advantage on the saving throw. You can’t attack a target beyond the tertiary weapon’s **long range**.
+***Tertiary Weapons.***  The first number is the tertiary weapon's **normal range** in feet, and the second number indicates the tertiary weapon's **long range**. When attacking a target with a tertiary weapon beyond **normal range**, they have advantage on the saving throw. You can't attack a target beyond the tertiary weapon's **long range**.
 
 ***Quaternary Weapons.*** Quaternary weapons do not have a range. Instead, quaternary weapons travel in a straight line at a rate of 100 feet per round.
 
@@ -212,9 +212,9 @@ You can use a weapon that has the power property to make a ranged attack without
 
 Weapons with the power property come with a range in parentheses after the property. The range lists two numbers. The effect of these two numbers varies based on the weapon type.
 
-***Primary Weapons.*** The first number is the primary weapon’s **normal range** in feet, and the second number indicates the primary weapon’s **long range**. When attacking a target with a primary weapon beyond **normal range**, you have disadvantage on the attack roll. In a Large or larger ship, when attacking a target with a primary weapon beyond **normal range**, they have advantage on the saving throw. You can’t attack a target beyond the weapon’s **long range**. 
+***Primary Weapons.*** The first number is the primary weapon's **normal range** in feet, and the second number indicates the primary weapon's **long range**. When attacking a target with a primary weapon beyond **normal range**, you have disadvantage on the attack roll. In a Large or larger ship, when attacking a target with a primary weapon beyond **normal range**, they have advantage on the saving throw. You can't attack a target beyond the weapon's **long range**. 
 
-***Secondary Weapons.*** The first number is the secondary weapon’s **close range** in feet, and the second number indicates the secondary weapon’s **normal range**. When attacking a target within **close range**, you have disadvantage on the attack roll. When attacking a target beyond **close range**, but within **normal range**, you make the attack roll unaltered. In a Large or larger ship, when attacking a target within **close range**, they have advantage on the saving throw. When attacking a target beyond **close range**, but within **normal range**, they make the saving throw unaltered. You can’t attack a target beyond the secondary weapon’s **normal range**. 
+***Secondary Weapons.*** The first number is the secondary weapon's **close range** in feet, and the second number indicates the secondary weapon's **normal range**. When attacking a target within **close range**, you have disadvantage on the attack roll. When attacking a target beyond **close range**, but within **normal range**, you make the attack roll unaltered. In a Large or larger ship, when attacking a target within **close range**, they have advantage on the saving throw. When attacking a target beyond **close range**, but within **normal range**, they make the saving throw unaltered. You can't attack a target beyond the secondary weapon's **normal range**. 
 
 #### Reload
 A limited number of shots can be made with a weapon that has the reload property. A deployed crew member must then reload it. Reloading a weapon takes 1 minute per ammunition.
