@@ -15,5 +15,10 @@
         {
             return input.Replace(">", string.Empty).Replace("*", string.Empty);
         }
+
+        public static bool IsJustHtmlOrOtherWhitespace(this string input)
+        {
+            return string.IsNullOrWhiteSpace(input.RemoveHtmlWhitespace());
+        }
     }
 }
