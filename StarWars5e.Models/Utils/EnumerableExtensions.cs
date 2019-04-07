@@ -11,7 +11,7 @@ namespace StarWars5e.Models.Utils
             var cleanListOfStrings = source.ToList();
             if (!cleanListOfStrings.Any()) return cleanListOfStrings;
             var output = cleanListOfStrings.Where(s => !(s.StartsWith("<") && s.EndsWith(">")) && !s.StartsWith("\\"))
-                .Select(s => Regex.Replace(s, "<.*?>", string.Empty).Replace("�", string.Empty).RemoveHtmlWhitespace())
+                .Select(s => Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace())
                 .ToList();
 
             var badIndexes = new List<int>();

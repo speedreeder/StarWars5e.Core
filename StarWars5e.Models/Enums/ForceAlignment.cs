@@ -2,7 +2,8 @@
 {
     public enum ForceAlignment
     {
-        Neutral,
+        None,
+        Universal,
         Dark,
         Light
     }

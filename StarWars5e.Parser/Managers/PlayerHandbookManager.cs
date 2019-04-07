@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StarWars5e.Models;
 using StarWars5e.Models.Background;
+using StarWars5e.Models.Class;
 using StarWars5e.Models.Species;
 using StarWars5e.Parser.Parsers.PHB;
 using Wolnik.Azure.TableStorage.Repository;
@@ -14,6 +16,8 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookEquipmentProcessor _playerHandbookEquipmentProcessor;
         private readonly PlayerHandbookBackgroundsProcessor _playerHandbookBackgroundsProcessor;
         private readonly PlayerHandbookSpeciesProcessor _playerHandbookSpeciesProcessor;
+        private readonly PlayerHandbookClassProcessor _playerHandbookClassProcessor;
+        private readonly PlayerHandbookPowersProcessor _playerHandbookPowersProcessor;
         private readonly List<string> _phbFilesNames = new List<string>
         {
             "PHB.phb_01.txt", "PHB.phb_02.txt", "PHB.phb_03.txt", "PHB.phb_04.txt", "PHB.phb_05.txt", "PHB.phb_06.txt", "PHB.phb_07.txt",
@@ -26,6 +30,8 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
             _playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor();
+            _playerHandbookClassProcessor = new PlayerHandbookClassProcessor();
+            _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
         }
 
         public async Task Parse()
@@ -42,11 +48,31 @@ namespace StarWars5e.Parser.Managers
             //await _tableStorage.AddBatchAsync<Background>("backgrounds", backgrounds,
             //    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
-            var species =
-                await _playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
+            //var species =
+            //    await _playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
+            //        .ToList());
+            //await _tableStorage.AddBatchAsync<Species>("species", species,
+            //    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            //var classes =
+            //    await _playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+            //        .ToList());
+
+            //var archetypes = classes.SelectMany(s => s.Archetypes);
+
+            //await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
+            //    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            //await _tableStorage.AddBatchAsync<Class>("classes", classes,
+            //    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            var powers =
+                await _playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
                     .ToList());
-            await _tableStorage.AddBatchAsync<Species>("species", species,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            await _tableStorage.AddBatchAsync<Power>("powers", powers,
+                new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
+
         }
     }
 }

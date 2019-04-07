@@ -164,7 +164,6 @@ namespace StarWars5e.Parser.Parsers
             {
                 throw new Exception($"Failed while parsing {name}", e);
             }
-
         }
     }
 }

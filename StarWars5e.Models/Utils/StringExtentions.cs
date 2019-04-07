@@ -20,5 +20,12 @@
         {
             return string.IsNullOrWhiteSpace(input.RemoveHtmlWhitespace());
         }
+
+        public static string FormatKey(this string input)
+        {
+            input = input.Replace("\\", string.Empty).Replace("/", string.Empty);
+
+            return input;
+        }
     }
 }
