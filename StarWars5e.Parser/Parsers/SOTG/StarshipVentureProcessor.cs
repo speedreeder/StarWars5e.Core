@@ -13,15 +13,15 @@ namespace StarWars5e.Parser.Parsers.SOTG
         {
             var starshipVenture = new List<StarshipVenture>();
 
-            var venturesSectionStartingIndex = lines.FindIndex(f => f.Contains("## Ventures"));
-            var venturesSectionEndIndex = lines.FindIndex(venturesSectionStartingIndex, f => f.Contains("# Chapter 7"));
-            var venturesSectionLines = lines.Skip(venturesSectionStartingIndex).Take(venturesSectionEndIndex - venturesSectionStartingIndex).ToList();
+            //var venturesSectionStartingIndex = lines.FindIndex(f => f.Contains("## Ventures"));
+            //var venturesSectionEndIndex = lines.FindIndex(venturesSectionStartingIndex, f => f.Contains("# Chapter 7"));
+            //var venturesSectionLines = lines.Skip(venturesSectionStartingIndex).Take(venturesSectionEndIndex - venturesSectionStartingIndex).ToList();
 
-            var ventureRulesStartingIndex = venturesSectionLines.FindIndex(f => f.Contains("## Ventures"));
+            var ventureRulesStartingIndex = lines.FindIndex(f => f.Contains("## Ventures"));
             var ventureRulesEndIndex =
-                venturesSectionLines.FindIndex(ventureRulesStartingIndex, f => f.StartsWith("### "));
+                lines.FindIndex(ventureRulesStartingIndex, f => f.StartsWith("### "));
 
-            var venturesLines = venturesSectionLines.Skip(ventureRulesEndIndex).Take(venturesSectionEndIndex - ventureRulesEndIndex).ToList();
+            var venturesLines = lines.Skip(ventureRulesEndIndex).ToList();
 
             starshipVenture.AddRange(CreateVentures(venturesLines));
 

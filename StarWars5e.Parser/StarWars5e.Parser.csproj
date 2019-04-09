@@ -17,6 +17,7 @@
     <None Remove="Sources\ec_species.txt" />
     <None Remove="Sources\MM.md" />
     <None Remove="Sources\mm.txt" />
+    <None Remove="Sources\PHB\phb_00.txt" />
     <None Remove="Sources\PHB\phb_01.txt" />
     <None Remove="Sources\PHB\phb_02.txt" />
     <None Remove="Sources\PHB\phb_03.txt" />
@@ -51,6 +52,7 @@
     <EmbeddedResource Include="Sources\ec_equipment.txt" />
     <EmbeddedResource Include="Sources\ec_species.txt" />
     <EmbeddedResource Include="Sources\mm.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_00.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_01.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_02.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_03.txt" />

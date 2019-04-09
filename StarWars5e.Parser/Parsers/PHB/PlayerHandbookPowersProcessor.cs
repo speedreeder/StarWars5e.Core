@@ -72,7 +72,6 @@ namespace StarWars5e.Parser.Parsers.PHB
                     power.PowerTypeEnum = PowerType.Tech;
                 }
 
-
                 power.Prerequisite = powerLines.Find(f => f.Contains("**Prerequisite"))?.Split("**").ElementAtOrDefault(2)?.Trim();
                 power.Range = powerLines.Find(f => f.Contains("**Range"))?.Split("**").ElementAtOrDefault(2)?.Trim();
 

@@ -13,31 +13,27 @@ namespace StarWars5e.Parser.Parsers.SOTG
         {
             var modifications = new List<StarshipModification>();
 
-            var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Modifications");
-            var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Equipment");
-            var modificationLines = lines.Skip(chapter4StartIndex).Take(chapter5StartIndex - chapter4StartIndex).ToList();
-
-            var engineeringLinesStart = modificationLines.FindIndex(f => f.StartsWith("## Engineering Systems"));
-            var operationLinesStart = modificationLines.FindIndex(f =>
+            var engineeringLinesStart = lines.FindIndex(f => f.StartsWith("## Engineering Systems"));
+            var operationLinesStart = lines.FindIndex(f =>
                 f.StartsWith("## Operation Systems", StringComparison.InvariantCultureIgnoreCase));
-            var suiteLinesStart = modificationLines.FindIndex(f => f.StartsWith("## Suite Systems"));
-            var universalLinesStart = modificationLines.FindIndex(f => f.StartsWith("## Universal Systems"));
-            var weaponLinesStart = modificationLines.FindIndex(f => f.StartsWith("## Weapon Systems"));
+            var suiteLinesStart = lines.FindIndex(f => f.StartsWith("## Suite Systems"));
+            var universalLinesStart = lines.FindIndex(f => f.StartsWith("## Universal Systems"));
+            var weaponLinesStart = lines.FindIndex(f => f.StartsWith("## Weapon Systems"));
 
-            var engineeringSystemsLines = modificationLines.Skip(engineeringLinesStart)
+            var engineeringSystemsLines = lines.Skip(engineeringLinesStart)
                 .Take(operationLinesStart - engineeringLinesStart).ToList();
 
-            var operationSystemsLines = modificationLines.Skip(operationLinesStart)
+            var operationSystemsLines = lines.Skip(operationLinesStart)
                 .Take(suiteLinesStart - operationLinesStart).ToList();
 
-            var suiteSystemsLines = modificationLines.Skip(suiteLinesStart)
+            var suiteSystemsLines = lines.Skip(suiteLinesStart)
                 .Take(universalLinesStart - suiteLinesStart).ToList();
 
-            var universalSystemsLines = modificationLines.Skip(universalLinesStart)
+            var universalSystemsLines = lines.Skip(universalLinesStart)
                 .Take(weaponLinesStart - universalLinesStart).ToList();
 
-            var weaponSystemsLines = modificationLines.Skip(weaponLinesStart)
-                .Take(modificationLines.Count - weaponLinesStart).ToList();
+            var weaponSystemsLines = lines.Skip(weaponLinesStart)
+                .Take(lines.Count - weaponLinesStart).ToList();
 
             modifications.AddRange(CreateModifications(engineeringSystemsLines, StarshipModificationType.Engineering));
             modifications.AddRange(CreateModifications(operationSystemsLines, StarshipModificationType.Operation));

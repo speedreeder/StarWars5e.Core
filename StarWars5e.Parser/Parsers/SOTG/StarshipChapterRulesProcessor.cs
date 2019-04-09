@@ -1,17 +1,17 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StarWars5e.Models;
 using StarWars5e.Models.Enums;
-using StarWars5e.Models.Starship;
 using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers.SOTG
 {
-    public class StarshipChapterRulesProcessor : BaseProcessor<StarshipChapterRules>
+    public class StarshipChapterRulesProcessor : BaseProcessor<ChapterRules>
     {
-        public override Task<List<StarshipChapterRules>> FindBlocks(List<string> lines)
+        public override Task<List<ChapterRules>> FindBlocks(List<string> lines)
         {
-            var chapters = new List<StarshipChapterRules>();
+            var chapters = new List<ChapterRules>();
 
             var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
             var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: Step-By-Step Starships");
@@ -73,9 +73,9 @@ namespace StarWars5e.Parser.Parsers.SOTG
             return Task.FromResult(chapters);
         }
 
-        private static StarshipChapterRules CreateStarshipChapterRules(IEnumerable<string> chapterLines, int chapterNumber, string chapterName)
+        private static ChapterRules CreateStarshipChapterRules(IEnumerable<string> chapterLines, int chapterNumber, string chapterName)
         {
-            var chapter = new StarshipChapterRules
+            var chapter = new ChapterRules
             {
                 PartitionKey = ContentType.Base.ToString(),
                 RowKey = chapterNumber.ToString(),

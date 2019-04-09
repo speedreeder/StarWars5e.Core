@@ -13,8 +13,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
         public override Task<List<StarshipDeployment>> FindBlocks(List<string> lines)
         {
             var startingIndex = lines.FindIndex(f => f == "##### Deployments");
-            var endIndex = lines.FindIndex(startingIndex, f => f == "# Chapter 3: Starships");
-            var deploymentLines = lines.Skip(startingIndex).Take(endIndex - startingIndex).ToList();
+            var deploymentLines = lines.Skip(startingIndex).ToList();
 
             return Task.FromResult(CreateDeployments(deploymentLines));
         }

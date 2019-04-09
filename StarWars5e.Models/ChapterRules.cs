@@ -1,8 +1,6 @@
-﻿using Microsoft.WindowsAzure.Storage.Table;
-
-namespace StarWars5e.Models.Starship
+﻿namespace StarWars5e.Models
 {
-    public class StarshipChapterRules : BaseEntity
+    public class ChapterRules : BaseEntity
     {
         public string ChapterName { get; set; }
         public int ChapterNumber { get; set; }

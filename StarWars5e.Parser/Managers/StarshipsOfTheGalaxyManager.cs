@@ -1,5 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Newtonsoft.Json;
+using StarWars5e.Models;
 using StarWars5e.Models.Starship;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.SOTG;
@@ -10,19 +15,21 @@ namespace StarWars5e.Parser.Managers
     public class StarshipsOfTheGalaxyManager
     {
         private readonly ITableStorage _tableStorage;
+        private readonly CloudBlobContainer _cloudBlobContainer;
+
         private readonly IBaseProcessor<StarshipDeployment> _starshipDeploymentProcessor;
         private readonly IBaseProcessor<StarshipEquipment> _starshipEquipmentProcessor;
         private readonly IBaseProcessor<StarshipModification> _starshipModificationProcessor;
         private readonly IBaseProcessor<StarshipBaseSize> _starshipSizeProcessor;
         private readonly IBaseProcessor<StarshipVenture> _starshipVentureProcessor;
-        private readonly IBaseProcessor<StarshipChapterRules> _starshipChapterRulesProcessor;
-        private readonly List<string> _ecSpeciesFileNames = new List<string>
+        private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
+        private readonly List<string> _sotgFilesName = new List<string>
         {
-            "sotg_00.txt", "sotg_01.txt", "sotg_02.txt", "sotg_03.txt", "sotg_04.txt", "sotg_05.txt", "sotg_06.txt",
-            "sotg_07.txt", "sotg_08.txt", "sotg_09.txt", "sotg_aa.txt"
+            "SOTG.sotg_00.txt", "SOTG.sotg_01.txt", "SOTG.sotg_02.txt", "SOTG.sotg_03.txt", "SOTG.sotg_04.txt", "SOTG.sotg_05.txt", "SOTG.sotg_06.txt",
+            "SOTG.sotg_07.txt", "SOTG.sotg_08.txt", "SOTG.sotg_09.txt", "SOTG.sotg_aa.txt"
         };
 
-        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage)
+        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount)
         {
             _tableStorage = tableStorage;
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
@@ -31,31 +38,41 @@ namespace StarWars5e.Parser.Managers
             _starshipSizeProcessor = new StarshipSizeProcessor();
             _starshipVentureProcessor = new StarshipVentureProcessor();
             _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor();
+
+            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference("starships-rules");
         }
 
         public async Task Parse()
         {
-            var rules = await _starshipChapterRulesProcessor.Process(_ecSpeciesFileNames);
-            await _tableStorage.AddBatchAsync<StarshipChapterRules>("starshipRules", rules,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName);
+            await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+            foreach (var chapterRules in rules)
+            {
+                var json = JsonConvert.SerializeObject(chapterRules);
+                var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
 
-            var deployments = await _starshipDeploymentProcessor.Process(_ecSpeciesFileNames);
+                await blob.UploadTextAsync(json);
+            }
+
+            var deployments =
+                await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList());
             await _tableStorage.AddBatchAsync<StarshipDeployment>("starshipDeployments", deployments,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
-            var equipment = await _starshipEquipmentProcessor.Process(_ecSpeciesFileNames);
+            var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList());
             await _tableStorage.AddBatchAsync<StarshipEquipment>("starshipEquipment", equipment,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
-            var modifications = await _starshipModificationProcessor.Process(_ecSpeciesFileNames);
+            var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList());
             await _tableStorage.AddBatchAsync<StarshipModification>("starshipModifications", modifications,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
-            var sizes = await _starshipSizeProcessor.Process(_ecSpeciesFileNames);
+            var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList());
             await _tableStorage.AddBatchAsync<StarshipBaseSize>("starshipBaseSizes", sizes,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
-            var ventures = await _starshipVentureProcessor.Process(_ecSpeciesFileNames);
+            var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList());
             await _tableStorage.AddBatchAsync<StarshipVenture>("starshipVentures", ventures,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }
