@@ -23,6 +23,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: publish
+    publishWebProjects: False
 
 - task: PublishBuildArtifacts@1
   inputs:
