@@ -19,3 +19,7 @@ steps:
     command: build
     projects: '**/StarWars5e.Api.csproj'
     arguments: '--configuration $(buildConfiguration)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    ArtifactName: 'drop'
