@@ -1,9 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Blob;
 using StarWars5e.Parser.Managers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -15,6 +13,7 @@ namespace StarWars5e.Parser
         {
             var config = new ConfigurationBuilder()
                 .AddJsonFile("appSettings.json", true, true)
+                .AddUserSecrets<Program>()
                 .Build();
 
             var tableStorage = new AzureTableStorage(config["StorageAccountConnectionString"]);

@@ -3,80 +3,35 @@
 ## Changelog
 
 ### New Species
-- Zygerrian (3/29/2019)
-- Togorian (3/18/2019)
-- Umbaran (3/7/2019)
-- Falleen (1/22/2019)
-
-### Miscellaneous
-- Rishii can speak Galactic Basic. (1/21/2019)
-- Reduced the Talz's Hide feature down to 12 AC from 13 to bring it in line with similar features. (1/21/2019)
-
-### New Species
-- Draethos (1/16/2019)
-- Harch (1/14/2019)
-- Herglic (1/11/2019)
-
-<br>
-
-### 12/11/2018
-#### Miscellaneous
-- Adjusted the Four-Armed special trait so that they can only change their active arms once per round.
-- Adjusted the Dug's Powerful Build to be two sizes larger to give it equal mechanical weight.
-
-#### New Species
-- Codru-Ji
-- Selkath
-
-#### And, as always
-- Minor text fixes
-
-<br>
-
-### 11/13/2018
-
-#### New Species
-- Tusken
-
-#### And, as always
-- Minor text fixes
-
-<br>
-
-### 10/30/2018
-
-#### New Species
-- Voss
-
-#### And, as always
-- Minor text fixes
-
-<br>
-
-### 10/9/2018
-#### Miscellaneous
-- Corrected Miraluka's Force Sensitive feature to accurately represent the alignment of the force powers.
-- Correctly alphabetized some species. I know my alphabet, I swear.
-
-#### New Species
-- Felucian
-- Muun
-
-#### And, as always
-- Minor text fixes
+- Kubaz (**4/12/2019**)
+- Zygerrian (**3/29/2019**)
+- Togorian (**3/18/2019**)
+- Umbaran (**3/7/2019**)
+- Falleen (**1/22/2019**)
+- Draethos (**1/16/2019**)
+- Harch (**1/14/2019**)
+- Herglic (**1/11/2019**)
+- Codru-Ji (**12/11/2018**)
+- Selkath (**12/11/2018**)
+- Tusken (**11/13/2018**)
+- Voss (**10/30/2018**)
+- Felucian (**10/9/2018**)
+- Muun (**10/9/2018**)
+- Gran (**9/25/2018**)
+- Kushiban (**9/25/2018**)
+- Noghri (**9/25/2018**)
 
 \columnbreak
 
 <div style='margin-top:26px'></div>
 
-### 9/25/2018
-#### New Species
-- Gran
-- Kushiban
-- Noghri
-
-#### And, as always
-- Minor text fixes
+### Miscellaneous
+- Rishii can speak Galactic Basic. (**1/21/2019**)
+- Reduced the Talz's Hide feature down to 12 AC from 13 to bring it in line with similar features. (**1/21/2019**)
+- Adjusted the Four-Armed special trait so that they can only change their active arms once per round. (**12/11/2018**)
+- Adjusted the Dug's Powerful Build to be two sizes larger to give it equal mechanical weight. (**12/11/2018**)
+- Corrected Miraluka's Force Sensitive feature to accurately represent the alignment of the force powers. (**10/9/2018**)
+- Correctly alphabetized some species. I know my alphabet, I swear. (**10/9/2018**)
 
 \pagebreak
 
@@ -120,34 +75,35 @@
 |:--|--:|
 |	Karkarodon          |	33	|
 |	Killik	            |	34	|
-|	Kushiban        	|	35	|
-|	Kyuzo           	|	36	|
-|	Lannik          	|	37	|
-|	Lasat	            |	38	|
-|	Miraluka        	|	39	|
-|	Mirialan        	|	40	|
-|	Muun	            |	41	|
-|	Nautolan        	|	42	|
-|	Noghri          	|	43	|
-|	Ortolan         	|	44	|
-|	Quarren	            |	45	|
-|	Rattataki	        |	46	|
-|	Rishii	            |	47	|
-|	Selkath	            |	48	|
-|	Shistavanen	        |	49	|
-|	Squib	            |	50	|
-|	Sullustan	        |	51	|
-|	Talz            	|	52	|
-|	Togorian           	|	53	|
-|	Toydarian       	|	54	|
-|	Tusken	            |	55	|
-|	Ugnaught	        |	56	|
-|   Umbaran             |   57  |
-|	Verpine	            |	58	|
-|	Voss	            |	59	|
-|	Vurk            	|	60	|
-|	Weequay	            |	61	|
-|	Zygerrian           |	62	|
+|	Kubaz           	|	35	|
+|	Kushiban        	|	36	|
+|	Kyuzo           	|	37	|
+|	Lannik          	|	38	|
+|	Lasat	            |	39	|
+|	Miraluka        	|	40	|
+|	Mirialan        	|	41	|
+|	Muun	            |	42	|
+|	Nautolan        	|	43	|
+|	Noghri          	|	44	|
+|	Ortolan         	|	45	|
+|	Quarren	            |	46	|
+|	Rattataki	        |	47	|
+|	Rishii	            |	48	|
+|	Selkath	            |	49	|
+|	Shistavanen	        |	50	|
+|	Squib	            |	51	|
+|	Sullustan	        |	52	|
+|	Talz            	|	53	|
+|	Togorian           	|	54	|
+|	Toydarian       	|	55	|
+|	Tusken	            |	56	|
+|	Ugnaught	        |	57	|
+|   Umbaran             |   58  |
+|	Verpine	            |	59	|
+|	Voss	            |	60	|
+|	Vurk            	|	61	|
+|	Weequay	            |	62	|
+|	Zygerrian           |	63	|
 
 </div>
 
@@ -2595,6 +2551,83 @@ As a Killik, you have the following special traits.
 ***Languages.*** You can speak, read, and write Killik. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.
 
 <img src='https://www.gmbinder.com/images/ch35N8N.png' style='position:absolute;top:30px;right:20px;width:337px;z-index:1000'/>
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Kubaz
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Black, dark grey, or dark green|
+> |***Hair Color***|  |Black|
+> |***Eye Color***|  |Red|
+> |***Distinctions***|  |Prehensile snouts, protective eyewear|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'9"|+2d8"|
+> |***Weight***|  |105 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Kubindi|
+> |***Language***|  |Kubazian|
+
+<div style='margin-top:19px'></div>
+
+### Biology and Appearance
+Kubaz are distinctive for their short, prehensile facial snouts which were used for reaching insects within their hives. They have adapted to their sun-scorched, vegetation-deprived world by learning to survive off their world's native insect population. Filled with two rows of teeth for gnashing their food, the Kubaz trunk also functions as a highly sensitive nose.  Due to living on their homeworld of Kubindi—a planet which orbits a blue star—Kubaz are highly sensitive to red wavelengths; when traveling to planets with a red or yellow star, Kubaz are forced to don protective eyewear to avoid damaging their sensitive eyes.
+
+### Society and Culture
+The Kubazi society is based on a clan structure which<br> dwell in underground nests. Ruled by a queen, each<br> clan takes the name of their queen they are<br> descended from. Developing a non-verbal language of<br> hand gestures which indicated their intentions, Kubaz<br> are able to speak Galactic Basic, though with a strong<br> nasally accent.  When interacting with other species,<br> some Kubaz will share certain hand signals with non-<br>Kubaz in order to ease communications.  Obsessed<br> with tact and decorum, the Kubaz place a high<br> emphasis on the family unit and proper courtesies,<br> displaying truthfulness to a fault. Valuing art and<br> literature with such vigor as to sometimes practice<br> smuggling of great works, the Kubaz do not find such<br> pursuits to be wrong or unlawful.  Due to their diet on<br> Kubindi, the Kubaz have poor relations with sentient<br> insectile species. 
+
+### Names
+Kubaz names are usually dominated by harsher sounds, but some names lean more melodic. Surnames are clan-based.
+
+**Male Names.** Shaf, Rizor, Duldril, Kurn, Schnaldiz
+
+**Female Names.** Zhanro, Dizi, Tavo, Agoz, Nuzrem
+
+**Surnames.** Re, Eadzan, Hai, Khu'nar, Mairvuc, Va
+
+\columnbreak
+
+<div style='margin-top:365px'></div>
+
+### Kubaz Traits
+As a Kubaz, you have the following special traits.
+
+***Ability Score Increase.*** Your Dexterity score<br> increases by 2, and your Intelligence score increases by<br> 1.
+
+***Age.*** Kubaz reach adulthood in their early teens and live less than a century.
+
+***Alignment.*** Kubaz' courteous nature causes them to<br> tend toward lawful alignments, though there are<br> exceptions.
+
+***Size.*** Kubaz typically stand 5 to 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Art Obsession.*** Whenever you make an ability check<br> related to the acquisition or location of art or<br> valuables, you are considered proficient in the check. If<br> you would already be proficient, you instead have<br> expertise. 
+
+***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Deft Hand.*** You have proficiency in one of the following skills: Deception, Sleight of Hand, or Stealth.
+
+***Keen Smell.*** You have advantage on Wisdom (Perception) checks that rely on smell.
+
+***Slicer.*** You have proficiency with the Technology skill and the slicer's kit.
+
+***Sunlight Sensitivity.*** You wear protective eyewear, and if your goggles are removed while you are in an area of bright light, you have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Kubazian. Kubazian is comprised of a unique series of whirring, nasally syllables, causing Kubaz to have a high-pitched accent when speaking other languages. 
+
+<img src='https://www.gmbinder.com/images/iHDDETg.png' style='position:absolute;top:36px;right:90px;width:252px;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
