@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -27,10 +29,26 @@ namespace StarWars5e.Api
             {
                 c.SwaggerDoc("v1", new Info { Title = "StarWars5e.Api", Version = "v1" });
             });
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
 
             var tableStorage = new AzureTableStorage(Configuration["TableStorageConnectionString"]);
             services.AddSingleton<ITableStorage>(tableStorage);
             services.AddSingleton<IEquipmentManager, EquipmentManager>();
+            //services.AddAuthentication()
+            //    .AddGoogle(googleOptions =>
+            //    {
+            //        googleOptions.ClientId = Configuration["GoogleOAuthClientId"];
+            //        googleOptions.ClientSecret = Configuration["GoogleOAuthSecret"];
+            //    });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -50,8 +68,10 @@ namespace StarWars5e.Api
                 app.UseHsts();
             }
 
+            app.UseCors();
             app.UseHttpsRedirection();
             app.UseMvc();
+            //app.UseAuthentication();
         }
     }
 }

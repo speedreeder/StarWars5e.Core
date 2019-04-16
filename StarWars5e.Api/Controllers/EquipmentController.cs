@@ -20,6 +20,7 @@ namespace StarWars5e.Api.Controllers
             _tableStorage = tableStorage;
             _equipmentManager = equipmentManager;
         }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Equipment>>> Get()
         {
