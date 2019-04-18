@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Api.Managers;
 using Swashbuckle.AspNetCore.Swagger;
@@ -40,9 +41,15 @@ namespace StarWars5e.Api
                     });
             });
 
-            var tableStorage = new AzureTableStorage(Configuration["TableStorageConnectionString"]);
+            var tableStorage = new AzureTableStorage(Configuration["StorageAccountConnectionString"]);
             services.AddSingleton<ITableStorage>(tableStorage);
             services.AddSingleton<IEquipmentManager, EquipmentManager>();
+            services.AddSingleton<IChapterRuleManager, ChapterRuleManager>();
+
+            var cloudBlobClient = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"])
+                .CreateCloudBlobClient();
+            services.AddSingleton(cloudBlobClient);
+
             //services.AddAuthentication()
             //    .AddGoogle(googleOptions =>
             //    {
