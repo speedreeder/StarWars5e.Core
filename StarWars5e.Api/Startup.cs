@@ -46,9 +46,11 @@ namespace StarWars5e.Api
             services.AddSingleton<IEquipmentManager, EquipmentManager>();
             services.AddSingleton<IChapterRuleManager, ChapterRuleManager>();
 
-            var cloudBlobClient = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"])
-                .CreateCloudBlobClient();
+            var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
+            var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
+            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             services.AddSingleton(cloudBlobClient);
+            services.AddSingleton(cloudTableClient);
 
             //services.AddAuthentication()
             //    .AddGoogle(googleOptions =>

@@ -1,7 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Class;
+using StarWars5e.Models.Search;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
@@ -11,16 +14,27 @@ namespace StarWars5e.Api.Controllers
     public class ArchetypeController : ControllerBase
     {
         private readonly ITableStorage _tableStorage;
+        private readonly IArchetypeManager _archetypeManager;
 
-        public ArchetypeController(ITableStorage tableStorage)
+        public ArchetypeController(ITableStorage tableStorage, IArchetypeManager archetypeManager)
         {
             _tableStorage = tableStorage;
+            _archetypeManager = archetypeManager;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Archetype>>> Get()
         {
             var archetypes = await _tableStorage.GetAllAsync<Archetype>("archetypes");
+            return Ok(archetypes);
+        }
+
+        [HttpGet("/search")]
+        public async Task<ActionResult<List<Archetype>>> Get(ArchetypeSearch archetypeSearch)
+        {
+            var archetypes = await _archetypeManager.SearchArchetypes(archetypeSearch);
+            if (!archetypes.Any()) return NotFound();
+
             return Ok(archetypes);
         }
 
