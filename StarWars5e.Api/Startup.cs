@@ -44,6 +44,7 @@ namespace StarWars5e.Api
             var tableStorage = new AzureTableStorage(Configuration["StorageAccountConnectionString"]);
             services.AddSingleton<ITableStorage>(tableStorage);
             services.AddSingleton<IEquipmentManager, EquipmentManager>();
+            services.AddSingleton<IArchetypeManager, ArchetypeManager>();
             services.AddSingleton<IChapterRuleManager, ChapterRuleManager>();
 
             var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);

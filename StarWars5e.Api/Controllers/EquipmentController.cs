@@ -28,8 +28,8 @@ namespace StarWars5e.Api.Controllers
             return Ok(equipment);
         }
 
-        [HttpGet("/search")]
-        public async Task<ActionResult<Equipment>> Get(EquipmentSearch equipmentSearch)
+        [HttpGet("/search2")]
+        public async Task<ActionResult<Equipment>> Get([FromQuery] EquipmentSearch equipmentSearch)
         {
             var equipment = await _equipmentManager.SearchEquipment(equipmentSearch);
             if(!equipment.Any()) return NotFound();

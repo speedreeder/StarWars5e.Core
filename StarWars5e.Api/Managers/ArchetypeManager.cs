@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -17,27 +18,29 @@ namespace StarWars5e.Api.Managers
         {
             _tableStorage = tableStorage;
         }
-        public async Task<IEnumerable<Archetype>> SearchArchetypes(ArchetypeSearch archetypeSearch)
+        public async Task<PagedSearchResult<Archetype>> SearchArchetypes(ArchetypeSearch archetypeSearch)
         {
 
             var filter = "";
             if (!string.IsNullOrEmpty(archetypeSearch.Class))
             {
-                filter = $"{filter} and ClassName eq '${archetypeSearch.Class}'";
+                filter = $"ClassName eq '{archetypeSearch.Class}'";
             }
             if (!string.IsNullOrEmpty(archetypeSearch.Name))
             {
-                filter = $"{filter} and Name eq '${archetypeSearch.Name}'";
+                if (!string.IsNullOrEmpty(filter)) filter = $"{filter} and";
+                filter = $"{filter} Name eq '{archetypeSearch.Name}'";
             }
-            if (!archetypeSearch.ContentType.HasValue && archetypeSearch.ContentType.Value != ContentType.None)
+            if (archetypeSearch.ContentType.HasValue && archetypeSearch.ContentType != ContentType.None)
             {
-                filter = $"{filter} and ContentType eq '${archetypeSearch.ContentType.ToString()}'";
+                if (!string.IsNullOrEmpty(filter)) filter = $"{filter} and";
+                filter = $"{filter} ContentType eq '{archetypeSearch.ContentType.ToString()}'";
             }
 
             var query = new TableQuery<Archetype>().Where(filter);
             var archetypes = await _tableStorage.QueryAsync("archetypes", query);
-
-            return archetypes;
+            
+            return new PagedSearchResult<Archetype>(archetypes.ToList(), archetypeSearch.PageSize, archetypeSearch.CurrentPage); 
         }
     }
 }

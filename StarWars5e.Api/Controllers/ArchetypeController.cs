@@ -29,8 +29,8 @@ namespace StarWars5e.Api.Controllers
             return Ok(archetypes);
         }
 
-        [HttpGet("/search")]
-        public async Task<ActionResult<List<Archetype>>> Get(ArchetypeSearch archetypeSearch)
+        [HttpGet("/search1")]
+        public async Task<ActionResult<List<Archetype>>> Get([FromQuery] ArchetypeSearch archetypeSearch)
         {
             var archetypes = await _archetypeManager.SearchArchetypes(archetypeSearch);
             if (!archetypes.Any()) return NotFound();
