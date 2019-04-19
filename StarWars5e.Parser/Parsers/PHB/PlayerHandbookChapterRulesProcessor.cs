@@ -58,7 +58,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             var chapter6EndIndex = lines.FindIndex(chapter6StartIndex, f => f.StartsWith("## Feats"));
             chapters.Add(CreateChapterRules(
                 lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex).CleanListOfStrings(), 6,
-                "Classes"));
+                "Customization Options"));
 
             chapters.Add(CreateChapterRules(
                 lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex).CleanListOfStrings(), 7,

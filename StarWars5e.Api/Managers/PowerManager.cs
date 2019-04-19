@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -58,6 +59,46 @@ namespace StarWars5e.Api.Managers
 
             var query = new TableQuery<Power>().Where(filter);
             var powers = await _tableStorage.QueryAsync("powers", query);
+
+            switch (powerSearch.PowerSearchOrdering)
+            {
+                case PowerSearchOrdering.NameAscending:
+                    powers = powers.OrderBy(p => p.Name);
+                    break;
+                case PowerSearchOrdering.NameDescending:
+                    powers = powers.OrderByDescending(p => p.Name);
+                    break;
+                case PowerSearchOrdering.ContentTypeAscending:
+                    powers = powers.OrderBy(p => p.ContentType);
+                    break;
+                case PowerSearchOrdering.ContentTypeDescending:
+                    powers = powers.OrderByDescending(p => p.ContentType);
+                    break;
+                case PowerSearchOrdering.LevelAscending:
+                    powers = powers.OrderBy(p => p.Level);
+                    break;
+                case PowerSearchOrdering.LevelDescending:
+                    powers = powers.OrderByDescending(p => p.Level);
+                    break;
+                case PowerSearchOrdering.PowerTypeAscending:
+                    powers = powers.OrderBy(p => p.PowerType);
+                    break;
+                case PowerSearchOrdering.PowerTypeDescending:
+                    powers = powers.OrderByDescending(p => p.PowerType);
+                    break;
+                case PowerSearchOrdering.ForceAlignmentAscending:
+                    powers = powers.OrderBy(p => p.ForceAlignment);
+                    break;
+                case PowerSearchOrdering.ForceAlignmentDescending:
+                    powers = powers.OrderByDescending(p => p.ForceAlignment);
+                    break;
+                case PowerSearchOrdering.IsConcentrationAscending:
+                    powers = powers.OrderBy(p => p.Concentration);
+                    break;
+                case PowerSearchOrdering.IsConcentrationDescending:
+                    powers = powers.OrderByDescending(p => p.Concentration);
+                    break;
+            }
 
             return new PagedSearchResult<Power>(powers.ToList(), powerSearch.PageSize, powerSearch.CurrentPage);
         }

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -48,6 +49,40 @@ namespace StarWars5e.Api.Managers
 
             var query = new TableQuery<Equipment>().Where(filter);
             var equipment = await _tableStorage.QueryAsync("equipment", query);
+
+            switch (equipmentSearch.EquipmentSearchOrdering)
+            {
+                case EquipmentSearchOrdering.NameAscending:
+                    equipment = equipment.OrderBy(p => p.Name);
+                    break;
+                case EquipmentSearchOrdering.NameDescending:
+                    equipment = equipment.OrderByDescending(p => p.Name);
+                    break;
+                case EquipmentSearchOrdering.ContentTypeAscending:
+                    equipment = equipment.OrderBy(p => p.ContentType);
+                    break;
+                case EquipmentSearchOrdering.ContentTypeDescending:
+                    equipment = equipment.OrderByDescending(p => p.ContentType);
+                    break;
+                case EquipmentSearchOrdering.EquipmentCategoryAscending:
+                    equipment = equipment.OrderBy(p => p.EquipmentCategory);
+                    break;
+                case EquipmentSearchOrdering.EquipmentCategoryDescending:
+                    equipment = equipment.OrderByDescending(p => p.EquipmentCategory);
+                    break;
+                case EquipmentSearchOrdering.ArmorClassificationAscending:
+                    equipment = equipment.OrderBy(p => p.ArmorClassification);
+                    break;
+                case EquipmentSearchOrdering.ArmorClassificationDescending:
+                    equipment = equipment.OrderByDescending(p => p.ArmorClassification);
+                    break;
+                case EquipmentSearchOrdering.WeaponClassificationAscending:
+                    equipment = equipment.OrderBy(p => p.WeaponClassification);
+                    break;
+                case EquipmentSearchOrdering.WeaponClassificationDescending:
+                    equipment = equipment.OrderByDescending(p => p.WeaponClassification);
+                    break;
+            }
 
             return new PagedSearchResult<Equipment>(equipment.ToList(), equipmentSearch.PageSize, equipmentSearch.CurrentPage);
         }

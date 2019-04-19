@@ -21,7 +21,7 @@ namespace StarWars5e.Parser.Parsers
                 if (!lines[i].StartsWith("> ## ") && !lines[i].StartsWith(">## ")) continue;
                 
                 var speciesEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("> ## ") || f.StartsWith(">## "));
-                var speciesLines = lines.Skip(i).ToList();
+                var speciesLines = lines.Skip(i).CleanListOfStrings().ToList();
                 if (speciesEndIndex != -1)
                 {
                     speciesLines = lines.Skip(i).Take(speciesEndIndex - i).CleanListOfStrings().ToList();
@@ -49,7 +49,7 @@ namespace StarWars5e.Parser.Parsers
                 var descriptionStart = speciesLines.FindIndex(f => f.StartsWith("### "));
                 var traitsStart = speciesLines.FindIndex(f => f.StartsWith("### ") && f.Contains("Traits"));
                 species.FlavorText = string.Join("\r\n",
-                    speciesLines.Skip(descriptionStart).Take(traitsStart - descriptionStart).ToList());
+                    speciesLines.Skip(descriptionStart).Take(traitsStart - descriptionStart).CleanListOfStrings().ToList());
 
                 var traitLines = speciesLines.Skip(traitsStart).ToList().Where(t => t.StartsWith("***") || t.StartsWith("**"));
 

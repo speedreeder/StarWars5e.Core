@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -37,7 +38,29 @@ namespace StarWars5e.Api.Managers
 
             var query = new TableQuery<Archetype>().Where(filter);
             var archetypes = await _tableStorage.QueryAsync("archetypes", query);
-            
+
+            switch (archetypeSearch.ArchetypeSearchOrdering)
+            {
+                case ArchetypeSearchOrdering.NameAscending:
+                    archetypes = archetypes.OrderBy(p => p.Name);
+                    break;
+                case ArchetypeSearchOrdering.NameDescending:
+                    archetypes = archetypes.OrderByDescending(p => p.Name);
+                    break;
+                case ArchetypeSearchOrdering.ContentTypeAscending:
+                    archetypes = archetypes.OrderBy(p => p.ContentType);
+                    break;
+                case ArchetypeSearchOrdering.ContentTypeDescending:
+                    archetypes = archetypes.OrderByDescending(p => p.ContentType);
+                    break;
+                case ArchetypeSearchOrdering.ClassAscending:
+                    archetypes = archetypes.OrderBy(p => p.ClassName);
+                    break;
+                case ArchetypeSearchOrdering.ClassDescending:
+                    archetypes = archetypes.OrderByDescending(p => p.ClassName);
+                    break;
+            }
+
             return new PagedSearchResult<Archetype>(archetypes.ToList(), archetypeSearch.PageSize, archetypeSearch.CurrentPage); 
         }
     }

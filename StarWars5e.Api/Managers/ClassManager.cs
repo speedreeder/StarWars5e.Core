@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -33,6 +34,22 @@ namespace StarWars5e.Api.Managers
 
             var query = new TableQuery<Class>().Where(filter);
             var classes = await _tableStorage.QueryAsync("classes", query);
+
+            switch (classSearch.ClassSearchOrdering)
+            {
+                case ClassSearchOrdering.NameAscending:
+                    classes = classes.OrderBy(p => p.Name);
+                    break;
+                case ClassSearchOrdering.NameDescending:
+                    classes = classes.OrderByDescending(p => p.Name);
+                    break;
+                case ClassSearchOrdering.ContentTypeAscending:
+                    classes = classes.OrderBy(p => p.ContentType);
+                    break;
+                case ClassSearchOrdering.ContentTypeDescending:
+                    classes = classes.OrderByDescending(p => p.ContentType);
+                    break;
+            }
 
             return new PagedSearchResult<Class>(classes.ToList(), classSearch.PageSize, classSearch.CurrentPage);
         }
