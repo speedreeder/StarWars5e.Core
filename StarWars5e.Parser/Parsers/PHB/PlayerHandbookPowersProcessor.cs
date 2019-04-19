@@ -116,16 +116,6 @@ namespace StarWars5e.Parser.Parsers.PHB
 
                 var powerDescriptionStart = powerLines.FindLastIndex(f => f.StartsWith("- **"));
                 var descriptionLines = powerLines.Skip(powerDescriptionStart + 1);
-                //var higherLevelStart = powerLines.FindIndex(f => f.Contains("***Force Potency") || f.Contains("***Overcharge Tech"));
-
-                //if (higherLevelStart != -1)
-                //{
-                //    descriptionLines = powerLines.Skip(powerDescriptionStart + 1).Take(higherLevelStart - (powerDescriptionStart + 1));
-                //    power.Description = string.Join("\r\n", descriptionLines);
-
-                //    //var higherLevelLines = powerLines.Skip(higherLevelStart);
-                //    //power.Description = string.Join("\r\n", higherLevelLines);
-                //}
                 
                 power.Description = string.Join("\r\n", descriptionLines);
 
