@@ -30,7 +30,7 @@ namespace StarWars5e.Api
                         config.AddAzureKeyVault(
                             $"https://{builtConfig["KeyVaultName"]}.vault.azure.net/",
                             keyVaultClient,
-                            new DefaultKeyVaultSecretManager());
+                            new DefaultKeyVaultSecretManager());                       
                     }
                 })
                 .UseStartup<Startup>();

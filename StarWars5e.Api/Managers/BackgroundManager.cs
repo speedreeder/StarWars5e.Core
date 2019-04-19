@@ -2,23 +2,23 @@
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
-using StarWars5e.Models.Class;
+using StarWars5e.Models.Background;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Managers
 {
-    public class ClassManager : IClassManager
+    public class BackgroundManager : IBackgroundManager
     {
         private readonly ITableStorage _tableStorage;
 
-        public ClassManager(ITableStorage tableStorage)
+        public BackgroundManager(ITableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }
 
-        public async Task<PagedSearchResult<Class>> SearchClasses(ClassSearch classSearch)
+        public async Task<PagedSearchResult<Background>> SearchBackgrounds(BackgroundSearch classSearch)
         {
             var filter = "";
             if (!string.IsNullOrEmpty(classSearch.Name))
@@ -31,10 +31,10 @@ namespace StarWars5e.Api.Managers
                 filter = $"{filter} ContentType eq '{classSearch.ContentType.ToString()}'";
             }
 
-            var query = new TableQuery<Class>().Where(filter);
-            var classes = await _tableStorage.QueryAsync("classes", query);
+            var query = new TableQuery<Background>().Where(filter);
+            var backgrounds = await _tableStorage.QueryAsync("backgrounds", query);
 
-            return new PagedSearchResult<Class>(classes.ToList(), classSearch.PageSize, classSearch.CurrentPage);
+            return new PagedSearchResult<Background>(backgrounds.ToList(), classSearch.PageSize, classSearch.CurrentPage);
         }
     }
 }

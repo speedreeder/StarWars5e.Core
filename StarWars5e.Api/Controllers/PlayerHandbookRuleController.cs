@@ -6,7 +6,7 @@ using StarWars5e.Models;
 
 namespace StarWars5e.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/playerHandbookRule")]
     [ApiController]
     public class PlayerHandbookRuleController : ControllerBase
     {

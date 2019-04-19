@@ -2,20 +2,24 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.WindowsAzure.Storage.Table;
+using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Class;
+using StarWars5e.Models.Search;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/class")]
     [ApiController]
     public class ClassController : ControllerBase
     {
         private readonly ITableStorage _tableStorage;
+        private readonly IClassManager _classManager;
 
-        public ClassController(ITableStorage tableStorage)
+        public ClassController(ITableStorage tableStorage, IClassManager classManager)
         {
             _tableStorage = tableStorage;
+            _classManager = classManager;
         }
 
         [HttpGet]
@@ -23,6 +27,13 @@ namespace StarWars5e.Api.Controllers
         {
             var starWarsClasses = await _tableStorage.GetAllAsync<Class>("classes");
             return Ok(starWarsClasses);
+        }
+
+        [HttpGet("search")]
+        public async Task<ActionResult<List<PagedSearchResult<Class>>>> Get([FromQuery] ClassSearch classSearch)
+        {
+            var classes = await _classManager.SearchClasses(classSearch);
+            return Ok(classes);
         }
 
         [HttpPost]

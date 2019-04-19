@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Equipment;
+using StarWars5e.Models.Search;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/equipment")]
     [ApiController]
     public class EquipmentController : ControllerBase
     {
@@ -28,28 +29,31 @@ namespace StarWars5e.Api.Controllers
             return Ok(equipment);
         }
 
-        [HttpGet("/search2")]
+        [HttpGet("search")]
         public async Task<ActionResult<Equipment>> Get([FromQuery] EquipmentSearch equipmentSearch)
         {
             var equipment = await _equipmentManager.SearchEquipment(equipmentSearch);
-            if(!equipment.Any()) return NotFound();
 
             return Ok(equipment);
         }
 
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] Equipment equipment)
         {
+            await _tableStorage.AddOrUpdateAsync("equipment", equipment);
         }
 
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpDelete("{name}")]
+        public async Task Delete(string name)
         {
-        }
+            var query = new TableQuery<Equipment>();
+            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            var equipment = await _tableStorage.QueryAsync("equipment", query);
+            foreach (var equipmentPiece in equipment)
+            {
+                await _tableStorage.DeleteAsync("equipment", equipmentPiece);
+            }
         }
     }
 }

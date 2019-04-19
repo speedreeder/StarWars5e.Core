@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -20,7 +19,6 @@ namespace StarWars5e.Api.Managers
         }
         public async Task<PagedSearchResult<Archetype>> SearchArchetypes(ArchetypeSearch archetypeSearch)
         {
-
             var filter = "";
             if (!string.IsNullOrEmpty(archetypeSearch.Class))
             {

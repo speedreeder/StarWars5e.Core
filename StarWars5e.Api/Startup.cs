@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Reflection;
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Builder;
@@ -28,7 +30,9 @@ namespace StarWars5e.Api
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "StarWars5e.Api", Version = "v1" });
+                c.ResolveConflictingActions(apiDescriptions => apiDescriptions.FirstOrDefault());
+                c.DescribeAllEnumsAsStrings();
+                c.SwaggerDoc("v1", new Info {Title = "StarWars5e.Api", Version = "v1"});
             });
             services.AddCors(options =>
             {
@@ -43,9 +47,12 @@ namespace StarWars5e.Api
 
             var tableStorage = new AzureTableStorage(Configuration["StorageAccountConnectionString"]);
             services.AddSingleton<ITableStorage>(tableStorage);
-            services.AddSingleton<IEquipmentManager, EquipmentManager>();
-            services.AddSingleton<IArchetypeManager, ArchetypeManager>();
-            services.AddSingleton<IChapterRuleManager, ChapterRuleManager>();
+            services.Scan(scan => scan
+                .FromAssemblies(typeof(Program).GetTypeInfo().Assembly)
+                .AddClasses()
+                .AsImplementedInterfaces()
+                .WithSingletonLifetime()
+            );
 
             var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
             var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();

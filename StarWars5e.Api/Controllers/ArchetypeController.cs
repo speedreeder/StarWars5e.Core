@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Search;
@@ -9,7 +9,7 @@ using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/archetype")]
     [ApiController]
     public class ArchetypeController : ControllerBase
     {
@@ -29,28 +29,31 @@ namespace StarWars5e.Api.Controllers
             return Ok(archetypes);
         }
 
-        [HttpGet("/search1")]
-        public async Task<ActionResult<List<Archetype>>> Get([FromQuery] ArchetypeSearch archetypeSearch)
+        [HttpGet("search")]
+        public async Task<ActionResult<List<PagedSearchResult<Archetype>>>> Get([FromQuery] ArchetypeSearch archetypeSearch)
         {
             var archetypes = await _archetypeManager.SearchArchetypes(archetypeSearch);
-            if (!archetypes.Any()) return NotFound();
 
             return Ok(archetypes);
         }
 
         [HttpPost]
-        public void Post([FromBody] Archetype archetype)
+        public async Task Post([FromBody] Archetype archetype)
         {
-        }
-
-        [HttpPut("{name}")]
-        public void Put(string name, [FromBody] Archetype archetype)
-        {
+            await _tableStorage.AddOrUpdateAsync("archetypes", archetype);
         }
 
         [HttpDelete("{name}")]
-        public void Delete(string name)
+        public async Task Delete(string name)
         {
+            var query = new TableQuery<Archetype>();
+            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+
+            var archetypes = await _tableStorage.QueryAsync("archetypes", query);
+            foreach (var archetype in archetypes)
+            {
+                await _tableStorage.DeleteAsync("archetypes", archetype);
+            }
         }
     }
 }
