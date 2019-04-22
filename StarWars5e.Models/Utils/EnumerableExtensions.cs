@@ -10,7 +10,7 @@ namespace StarWars5e.Models.Utils
         {
             var cleanListOfStrings = source.ToList();
             if (!cleanListOfStrings.Any()) return cleanListOfStrings;
-            var output = cleanListOfStrings.Where(s => !(s.StartsWith("<") && s.EndsWith(">")) && !s.StartsWith("\\"))
+            var output = cleanListOfStrings.Where(s => !(s.StartsWith("<") && (s.EndsWith(">") || Regex.IsMatch(s, @"\s+$"))) && !s.StartsWith("\\"))
                 .Select(s => Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace())
                 .ToList();
 

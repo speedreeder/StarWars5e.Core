@@ -29,59 +29,98 @@ namespace StarWars5e.Parser.Parsers.PHB
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Conditions");
             var appendixBStartIndex = lines.FindIndex(f => f == "# Appendix B: Recommended Variant Rules");
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex).CleanListOfStrings(), 0,
+            var introLines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
+                .CleanListOfStrings().ToList();
+            introLines[2] = introLines[2].Insert(0, "T");
+            chapters.Add(CreateChapterRules(introLines
+                , 0,
                 "Introduction"));
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex).CleanListOfStrings(), 1,
+
+            var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter1Lines[2] = chapter1Lines[2].Insert(0, "Y");
+            chapters.Add(CreateChapterRules(chapter1Lines
+                , 1,
                 "Step-By-Step Characters"));
 
             var chapter2EndIndex = lines.FindIndex(chapter2StartIndex, f => f.StartsWith("___"));
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter2StartIndex).Take(chapter2EndIndex - chapter2StartIndex).CleanListOfStrings(), 2,
+            var chapter2Lines = lines.Skip(chapter2StartIndex).Take(chapter2EndIndex - chapter2StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter2Lines[2] = chapter2Lines[2].Insert(0, "A ");
+            chapters.Add(CreateChapterRules(chapter2Lines
+                , 2,
                 "Species"));
 
             var chapter3EndIndex = lines.FindIndex(chapter3StartIndex, f => f.StartsWith("##### Classes"));
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter3StartIndex).Take(chapter3EndIndex - chapter3StartIndex).CleanListOfStrings(), 3,
+            var chapter3Lines = lines.Skip(chapter3StartIndex).Take(chapter3EndIndex - chapter3StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter3Lines[2] = chapter3Lines[2].Insert(0, "A");
+            chapters.Add(CreateChapterRules(chapter3Lines
+                , 3,
                 "Classes"));
 
             var chapter4EndIndex = lines.FindIndex(chapter4StartIndex, f => f.StartsWith("## Agent"));
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter4StartIndex).Take(chapter4EndIndex - chapter4StartIndex).CleanListOfStrings(), 4,
+            var chapter4Lines = lines.Skip(chapter4StartIndex).Take(chapter4EndIndex - chapter4StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter4Lines[2] = chapter4Lines[2].Insert(0, "C");
+            chapters.Add(CreateChapterRules(chapter4Lines
+                , 4,
                 "Personality and Backgrounds"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex).CleanListOfStrings(), 5,
+            var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
+            chapters.Add(CreateChapterRules(chapter5Lines
+                , 5,
                 "Equipment"));
 
             var chapter6EndIndex = lines.FindIndex(chapter6StartIndex, f => f.StartsWith("## Feats"));
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex).CleanListOfStrings(), 6,
+            var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
+            chapters.Add(CreateChapterRules(chapter6Lines
+                , 6,
                 "Customization Options"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex).CleanListOfStrings(), 7,
+            var chapter7Lines = lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter7Lines[2] = chapter7Lines[2].Insert(0, "S");
+            chapters.Add(CreateChapterRules(chapter7Lines
+                , 7,
                 "Using Ability Scores"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter8StartIndex).Take(chapter9StartIndex - chapter8StartIndex).CleanListOfStrings(), 8,
+            var chapter8Lines = lines.Skip(chapter8StartIndex).Take(chapter9StartIndex - chapter8StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter8Lines[2] = chapter8Lines[2].Insert(0, "D");
+            chapters.Add(CreateChapterRules(chapter8Lines
+                , 8,
                 "Adventuring"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter9StartIndex).Take(chapter10StartIndex - chapter9StartIndex).CleanListOfStrings(), 9,
+            var chapter9Lines = lines.Skip(chapter9StartIndex).Take(chapter10StartIndex - chapter9StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter9Lines[2] = chapter9Lines[2].Insert(0, "T");
+            chapters.Add(CreateChapterRules(chapter9Lines
+                , 9,
                 "Combat"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(chapter10StartIndex).Take(chapter11StartIndex - chapter10StartIndex).CleanListOfStrings(), 10,
+            var chapter10Lines = lines.Skip(chapter10StartIndex).Take(chapter11StartIndex - chapter10StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter10Lines[2] = chapter10Lines[2].Insert(0, "M");
+            chapters.Add(CreateChapterRules(chapter10Lines
+               , 10,
                 "Force- and Tech-casting"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(appendixAStartIndex).Take(appendixBStartIndex - appendixAStartIndex).CleanListOfStrings(), 13,
+            var appendixALines = lines.Skip(appendixAStartIndex).Take(appendixBStartIndex - appendixAStartIndex)
+                .CleanListOfStrings().ToList();
+            appendixALines[2] = appendixALines[2].Insert(0, "C");
+            chapters.Add(CreateChapterRules(appendixALines
+                , 13,
                 "Appendix A: Conditions"));
 
-            chapters.Add(CreateChapterRules(
-                lines.Skip(appendixBStartIndex).CleanListOfStrings(), 14,
+            var appendixBLines = lines.Skip(appendixBStartIndex).CleanListOfStrings().ToList();
+            appendixBLines[2] = appendixBLines[2].Insert(0, "H");
+            chapters.Add(CreateChapterRules(appendixBLines
+                , 14,
                 "Appendix B: Recommended Variant Rules"));
 
             return Task.FromResult(chapters);

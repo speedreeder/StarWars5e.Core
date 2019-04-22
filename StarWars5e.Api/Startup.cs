@@ -46,7 +46,12 @@ namespace StarWars5e.Api
             });
 
             var tableStorage = new AzureTableStorage(Configuration["StorageAccountConnectionString"]);
+            var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
+            var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
+            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+
             services.AddSingleton<ITableStorage>(tableStorage);
+
             services.Scan(scan => scan
                 .FromAssemblies(typeof(Program).GetTypeInfo().Assembly)
                 .AddClasses()
@@ -54,9 +59,7 @@ namespace StarWars5e.Api
                 .WithSingletonLifetime()
             );
 
-            var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
-            var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
-            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+            
             services.AddSingleton(cloudBlobClient);
             services.AddSingleton(cloudTableClient);
 
