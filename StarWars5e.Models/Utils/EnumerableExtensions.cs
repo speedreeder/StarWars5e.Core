@@ -6,12 +6,16 @@ namespace StarWars5e.Models.Utils
 {
     public static class EnumerableExtensions
     {
-        public static IEnumerable<string> CleanListOfStrings(this IEnumerable<string> source)
+        public static IEnumerable<string> CleanListOfStrings(this IEnumerable<string> source, bool removeHtmlWhitespace = true)
         {
             var cleanListOfStrings = source.ToList();
             if (!cleanListOfStrings.Any()) return cleanListOfStrings;
-            var output = cleanListOfStrings.Where(s => !(s.StartsWith("<") && (s.EndsWith(">") || Regex.IsMatch(s, @"\s+$"))) && !s.StartsWith("\\"))
-                .Select(s => Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace())
+            var output = cleanListOfStrings.Where(s =>
+                    !(s.StartsWith("<") && (s.EndsWith(">") || Regex.IsMatch(s, @"\s+$"))) && !s.StartsWith("\\"))
+                .Select(s =>
+                    removeHtmlWhitespace
+                        ? Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace()
+                        : Regex.Replace(s, "<.*?>", string.Empty))
                 .ToList();
 
             var badIndexes = new List<int>();

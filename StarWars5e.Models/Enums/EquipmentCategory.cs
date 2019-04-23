@@ -22,6 +22,7 @@
         GamingSet,
         MusicalInstrument,
         Droid,
-        Clothing
+        Clothing,
+        Kit
     }
 }

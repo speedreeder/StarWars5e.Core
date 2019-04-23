@@ -4,7 +4,7 @@
     {
         public static bool HasLeadingHtmlWhitespace(this string input)
         {
-            return input.StartsWith("\t") || input.Trim().StartsWith("&emsp;") || input.Trim().StartsWith("&nbsp;");
+            return input.Trim().StartsWith("&emsp;") || input.Trim().StartsWith("&nbsp;");
         }
         public static string RemoveHtmlWhitespace(this string input)
         {

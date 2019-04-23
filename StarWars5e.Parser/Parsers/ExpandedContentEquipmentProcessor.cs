@@ -111,18 +111,17 @@ namespace StarWars5e.Parser.Parsers
 
             if (tableNameIsStartingCategory)
             {
-                var tableStart = lines.FindIndex(f => f.Contains(tableName));
+                var tableStart = lines.FindNthIndex(f => f.Contains(tableName), tableNameOccurence);
                 var tableEnd = lines.FindIndex(tableStart, f => f == string.Empty);
                 if (tableEnd == -1) tableEnd = lines.Count - 1;
-                tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings().ToList();
-                
+                tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings(false).ToList();   
             }
             else
             {
                 var tableStart = lines.FindNthIndex(f => f.Contains(tableName), tableNameOccurence);
                 var tableEnd = lines.FindIndex(tableStart + 3, f => f == string.Empty);
                 if (tableEnd == -1) tableEnd = lines.Count - 1;
-                tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
+                tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings(false).ToList();
             }
 
             var equipmentCategory = EquipmentCategory.Unknown;
@@ -148,6 +147,10 @@ namespace StarWars5e.Parser.Parsers
                             ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
                             : 0;
                         otherEquipment.EquipmentCategoryEnum = otherEquipmentTableLineSplit[1].HasLeadingHtmlWhitespace() ? equipmentCategory : EquipmentCategory.Unknown;
+                        if (otherEquipment.EquipmentCategoryEnum == EquipmentCategory.Unknown && otherEquipment.Name.Contains(" kit", StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            otherEquipment.EquipmentCategoryEnum = EquipmentCategory.Kit;
+                        }
 
                         var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+");
                         otherEquipment.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
@@ -330,10 +333,6 @@ namespace StarWars5e.Parser.Parsers
             if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Gaming\s*set\s*_", RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.GamingSet;
-            }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Musical\s*instrument\s*_", RegexOptions.IgnoreCase))
-            {
-                return EquipmentCategory.MusicalInstrument;
             }
             if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Musical\s*instrument\s*_", RegexOptions.IgnoreCase))
             {

@@ -26,7 +26,7 @@ namespace StarWars5e.Models.Utils
             var index = 0;
             for(var i = 1; i <= selection; i++)
             {
-                index = source.FindIndex(index, searchValue);
+                index = source.FindIndex(index + 1, searchValue);
                 if (index == -1) return index;
             }
 
