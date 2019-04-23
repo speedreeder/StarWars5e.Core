@@ -40,7 +40,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 chapter1Lines, 1,
                 "Step-By-Step Starships"));
 
-            var chapter2EndIndex = lines.FindIndex(chapter2StartIndex, f => f == "## Coordinator");
+            var chapter2EndIndex = lines.FindIndex(chapter2StartIndex, f => f == "##### Deployments");
             var chapter2Lines = lines.Skip(chapter2StartIndex).Take(chapter2EndIndex - chapter2StartIndex)
                 .CleanListOfStrings().ToList();
             chapter2Lines[2] = chapter2Lines[2].Insert(0, "A");

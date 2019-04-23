@@ -50,6 +50,8 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var deploymentFeatTableLines = deploymentLines.Skip(deploymentTableStart + 3)
                     .Take(deploymentTableEnd - (deploymentTableStart + 3)).ToList();
 
+                deployment.FeatureText = string.Join("\r\n", deploymentLines.Skip(deploymentTableStart).CleanListOfStrings());
+
                 foreach (var line in deploymentFeatTableLines)
                 {
                     var splitFeatTable = line.Split('|');
