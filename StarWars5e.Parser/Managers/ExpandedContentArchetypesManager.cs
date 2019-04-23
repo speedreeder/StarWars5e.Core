@@ -10,7 +10,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly ExpandedContentArchetypeProcessor _archetypeProcessor;
-        private readonly List<string> _ecBackgroundsFileName = new List<string> { "ec_archetypes.txt" };
+        private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_archetypes.txt" };
 
         public ExpandedContentArchetypesManager(ITableStorage tableStorage)
         {
@@ -20,7 +20,7 @@ namespace StarWars5e.Parser.Managers
 
         public async Task Parse()
         {
-            var archetypes = await _archetypeProcessor.Process(_ecBackgroundsFileName);
+            var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName);
             await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }

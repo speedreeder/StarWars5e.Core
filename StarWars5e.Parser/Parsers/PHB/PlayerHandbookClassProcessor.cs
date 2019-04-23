@@ -162,7 +162,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Berserker":
                     foreach (var archetypeName in BerserkerApproaches)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, BerserkerApproaches);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -170,7 +170,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Consular":
                     foreach (var archetypeName in ConsularTraditions)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, ConsularTraditions);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -178,7 +178,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Engineer":
                     foreach (var archetypeName in EngineerDisciplines)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, EngineerDisciplines);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -186,7 +186,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Fighter":
                     foreach (var archetypeName in FighterSpecialties)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, FighterSpecialties);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -194,7 +194,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Guardian":
                     foreach (var archetypeName in GuardianForms)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, GuardianForms);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -202,7 +202,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Monk":
                     foreach (var archetypeName in MonkOrders)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, MonkOrders);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -210,7 +210,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Operative":
                     foreach (var archetypeName in OperativePractices)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, OperativePractices);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -218,7 +218,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Scholar":
                     foreach (var archetypeName in ScholarPursuits)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, ScholarPursuits);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -226,7 +226,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Scout":
                     foreach (var archetypeName in ScoutTechniques)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, ScoutTechniques);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -234,7 +234,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 case "Sentinel":
                     foreach (var archetypeName in SentinelPaths)
                     {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName);
+                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, SentinelPaths);
 
                         archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
                     }
@@ -244,11 +244,11 @@ namespace StarWars5e.Parser.Parsers.PHB
             return archetypes;
         }
 
-        private static List<string> GetArchetypeLines(List<string> lines, string archetypeName)
+        private static List<string> GetArchetypeLines(List<string> lines, string archetypeName, IReadOnlyCollection<string> archetypeNames)
         {
             var archetypeStartLine = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
             var archetypeEndLine = lines.FindIndex(archetypeStartLine + 1,
-                f => BerserkerApproaches.Contains($"## {f}"));
+                f => archetypeNames.SingleOrDefault(a => f.Contains($"## {a}")) != null);
             var archetypesLines = lines.Skip(archetypeStartLine).ToList();
             if (archetypeEndLine != -1)
             {
