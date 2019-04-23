@@ -105,7 +105,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
             }
 
             var savingThrowsLine = shipLinesWithSize.Value.Find(s => s.Contains("Saving Throws:"));
-            starshipBaseSize.SavingThrowOptions = savingThrowsLine.Split(' ')
+            starshipBaseSize.SavingThrowOptions = savingThrowsLine.Replace(",", string.Empty).Split(' ')
                 .Where(s => SavingThrowOptions.Contains(s)).ToList();
 
             var startingEquipmentLine = shipLinesWithSize.Value.Find(s => s.Contains("**Starting Equipment:**"));

@@ -51,6 +51,9 @@ namespace StarWars5e.Parser.Parsers.SOTG
             var chapter3EndIndex = lines.FindIndex(chapter3StartIndex, f => f == "## Tiny Ships");
             var chapter3Lines = lines.Skip(chapter3StartIndex).Take(chapter3EndIndex - chapter3StartIndex)
                 .CleanListOfStrings().ToList();
+            var variantStart = lines.FindIndex(chapter3StartIndex, f => f == "## Variant: Space Stations");
+            var variantLines = lines.Skip(variantStart).Take(chapter4StartIndex - variantStart).CleanListOfStrings().ToList();
+            chapter3Lines.AddRange(variantLines);
             chapter3Lines[2] = chapter3Lines[2].Insert(0, "C");
             chapters.Add(CreateStarshipChapterRules(
                 chapter3Lines, 3,
