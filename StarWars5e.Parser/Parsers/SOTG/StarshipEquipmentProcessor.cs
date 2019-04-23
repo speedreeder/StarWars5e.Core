@@ -162,9 +162,10 @@ namespace StarWars5e.Parser.Parsers.SOTG
                     var rangeIndex = weaponColumns[7].IndexOf("range", StringComparison.InvariantCultureIgnoreCase);
                     if (rangeIndex != -1)
                     {
-                        var shortRangeMatch = Regex.Match(weaponColumns[7].Substring(rangeIndex), @"-?\d+");
-                        weapon.ShortRange = int.Parse(shortRangeMatch.Value);
-                        weapon.LongRange = int.Parse(shortRangeMatch.NextMatch().Value);
+                        var shortRangeMatch = Regex.Match(weaponColumns[7].Substring(rangeIndex),
+                            @"[0-9]+(,[0-9]+)*");
+                        weapon.ShortRange = int.Parse(shortRangeMatch.Value, NumberStyles.AllowThousands);
+                        weapon.LongRange = int.Parse(shortRangeMatch.NextMatch().Value, NumberStyles.AllowThousands);
                     }
 
                     weapons.Add(weapon);
