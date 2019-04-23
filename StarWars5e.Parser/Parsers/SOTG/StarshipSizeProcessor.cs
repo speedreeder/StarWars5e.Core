@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
+using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers.SOTG
 {
@@ -48,6 +49,10 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 PartitionKey = ContentType.Base.ToString(),
                 RowKey = shipLinesWithSize.Key
             };
+
+            starshipBaseSize.FullText = string.Join("\r\n", shipLinesWithSize.Value.Skip(1).CleanListOfStrings());
+            var flavorLinesEnd = shipLinesWithSize.Value.FindIndex(f => f.Equals("## Starship Features"));
+            starshipBaseSize.FlavorText = string.Join("\r\n", shipLinesWithSize.Value.Skip(1).Take(flavorLinesEnd - 1).CleanListOfStrings());
 
             var strengthNums = Regex.Matches(shipLinesWithSize.Value.Find(s => s.Contains("Strength at Tier 0")),
                 @"-?\d+");

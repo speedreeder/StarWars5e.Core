@@ -81,5 +81,7 @@ namespace StarWars5e.Models.Starship
             set => Features = JsonConvert.DeserializeObject<List<StarshipFeature>>(value);
 
         }
+        public string FlavorText { get; set; }
+        public string FullText { get; set; }
     }
 }
