@@ -253,27 +253,27 @@ namespace StarWars5e.Parser.Parsers
 
         private static WeaponClassification DetermineWeaponClassification(string weaponClassificationLine)
         {
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Blaster\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Blaster[s]?\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialBlaster;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Blaster\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Blaster[s]?\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleBlaster;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Lightweapons\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Lightweapon[s]?\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleLightweapon;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Lightweapons\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Lightweapon[s]?\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialLightweapon;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Vibroweapons\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Vibroweapon[s]?\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleVibroweapon;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Vibroweapons\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Vibroweapon[s]?\s*_", RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialVibroweapon;
             }
