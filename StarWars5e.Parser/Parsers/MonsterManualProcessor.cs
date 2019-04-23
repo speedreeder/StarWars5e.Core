@@ -82,7 +82,7 @@ namespace StarWars5e.Parser.Parsers
                 monster.SavingThrows =
                     monsterLines.Find(f => f.Contains("**Saving Throws**"))?.Split("**Saving Throws**")[1]
                         .Split(',').Select(s => s.Trim()).ToList();
-                monster.SavingThrows = monsterLines.Find(f => f.Contains("**Skills**"))?.Split("**Skills**")[1]
+                monster.Skills = monsterLines.Find(f => f.Contains("**Skills**"))?.Split("**Skills**")[1]
                     .Split(',')
                     .Select(s => s.Trim()).ToList();
 
