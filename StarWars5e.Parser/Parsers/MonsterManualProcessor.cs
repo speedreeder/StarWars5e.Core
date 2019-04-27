@@ -45,9 +45,16 @@ namespace StarWars5e.Parser.Parsers
                 };
 
                 var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).Split(',');
+
                 monster.SizeEnum =
-                    Enum.Parse<MonsterSize>(typeLine[0].RemoveMarkdownCharacters().Trim().Split(' ')[0], true);
-                monster.Types.Add(typeLine[0].Split(' ', 2)[1].Trim());
+                    Enum.Parse<MonsterSize>(typeLine[0].RemoveMarkdownCharacters().Trim().Split('*')[0].Split(' ')[0], true);
+
+                var parenIndex = typeLine[0].Split(' ', 2)[1].Trim().IndexOf('(');
+
+                monster.Types.Add(parenIndex != -1
+                    ? typeLine[0].Split(' ', 2)[1].Replace("*", string.Empty).Trim().Remove(parenIndex).Trim()
+                    : typeLine[0].Split(' ', 2)[1].Replace("*", string.Empty).Trim());
+
                 monster.Alignment = typeLine[1].Trim().RemoveMarkdownCharacters();
                 monster.ArmorClass = int.Parse(Regex
                     .Match(monsterLines.Find(f => f.Contains("**Armor Class**")), @"\d+").Value);
@@ -176,12 +183,18 @@ namespace StarWars5e.Parser.Parsers
                             behaviorType = DetermineBehaviorType(monsterLines[thirdTripleHash]);
                             monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
                         }
+                        else
+                        {
+                            traitLines = monsterLines.Skip(secondTripleHash).ToList();
+                            behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
+                            monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
+                        }
                     }
                     else
                     {
                         traitLines = monsterLines.Skip(firstTripleHash).ToList();
                         var result = Enumerable.Range(0, traitLines.Count)
-                            .Where(i => traitLines[i].StartsWith("> ***"))
+                            .Where(i => traitLines[i].StartsWith("> ***") || traitLines[i].StartsWith(">***"))
                             .ToList();
                         var behaviorType = DetermineBehaviorType(monsterLines[firstTripleHash]);
                         monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
@@ -207,6 +220,11 @@ namespace StarWars5e.Parser.Parsers
 
         private static MonsterBehaviorType DetermineBehaviorType(string behaviorTitleLine)
         {
+            if (behaviorTitleLine.Contains("Legendary"))
+            {
+                return MonsterBehaviorType.Legendary;
+            }
+
             if (behaviorTitleLine.Contains("Actions"))
             {
                 return MonsterBehaviorType.Action;
@@ -217,21 +235,27 @@ namespace StarWars5e.Parser.Parsers
                 return MonsterBehaviorType.Reaction;
             }
 
-            if (behaviorTitleLine.Contains("Legendary"))
-            {
-                return MonsterBehaviorType.Legendary;
-            }
-
             return MonsterBehaviorType.None;
         }
 
-        private static IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(List<string> behaviorLines, MonsterBehaviorType behaviorType)
+        private static IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(IReadOnlyList<string> behaviorLines, MonsterBehaviorType behaviorType)
         {
             var monsterBehaviors = new List<MonsterBehavior>();
 
-            var behaviorLinesIndexes = Enumerable.Range(0, behaviorLines.Count)
-                .Where(i => behaviorLines[i].StartsWith("> ***"))
-                .ToList();
+            List<int> behaviorLinesIndexes;
+            if (behaviorType == MonsterBehaviorType.Legendary)
+            {
+                behaviorLinesIndexes = Enumerable.Range(0, behaviorLines.Count)
+                    .Where(i => behaviorLines[i].StartsWith("> **") || behaviorLines[i].StartsWith(">**"))
+                    .ToList();
+            }
+            else
+            {
+                behaviorLinesIndexes = Enumerable.Range(0, behaviorLines.Count)
+                    .Where(i => behaviorLines[i].StartsWith("> ***") || behaviorLines[i].StartsWith(">***"))
+                    .ToList();
+            }
+ 
             for (var i = 0; i < behaviorLinesIndexes.Count; i++)
             {
                 List<string> singleBehaviorLines;
@@ -247,38 +271,62 @@ namespace StarWars5e.Parser.Parsers
 
                 if (behaviorType == MonsterBehaviorType.Legendary)
                 {
-                    var baseLine = singleBehaviorLines.First(b => b.StartsWith("> **"));
+                    var baseLine = singleBehaviorLines.First(b => b.StartsWith("> **") || b.StartsWith(">**"));
+                    var baseLineSplit = baseLine.Split(new[] {"**", "**"}, StringSplitOptions.None);
+                    var parenIndex = baseLineSplit[1].IndexOf('(');
+
+                    var name = baseLineSplit[1].Trim();
+                    string restrictions = null;
+                    if (parenIndex != -1)
+                    {
+                        name = baseLineSplit[1].Remove(parenIndex).Trim().Replace(".", string.Empty);
+
+                        var restrictionsSplit = baseLine.Split('(', ')');
+                        if (restrictionsSplit.ElementAtOrDefault(1) != null)
+                        {
+                            restrictions = restrictionsSplit[1].Trim();
+                        }
+                    }
 
                     var monsterBehavior = new MonsterBehavior
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
-                        Name = baseLine.Split(new[] { "**", "**" }, StringSplitOptions.None)[0].Trim(),
-                        Description = string.Join("\r\n", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() })
+                        Name = name,
+                        Description = string.Join("\r\n", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() }),
+                        Restrictions = restrictions
                     };
-                    var restrictionsSplit = monsterBehavior.Name.Split('(', ')');
-                    if (restrictionsSplit.ElementAtOrDefault(1) != null)
-                    {
-                        monsterBehavior.Restrictions = restrictionsSplit[1].Trim();
-                    }
+
+                    monsterBehaviors.Add(monsterBehavior);
                 }
                 else
                 {
-                    var baseLine = singleBehaviorLines.First(b => b.StartsWith("> **"));
+                    var baseLine = singleBehaviorLines.First(b => b.StartsWith("> **") || b.StartsWith(">**"));
                     var description = singleBehaviorLines.Skip(1).ToList();
                     description.Insert(0, baseLine.Split("***")[2].Trim());
 
+                    var baseLineSplit = baseLine.Split(new[] { "***", "***" }, StringSplitOptions.None);
+                    var parenIndex = baseLineSplit[1].IndexOf('(');
+
+                    var name = baseLineSplit[1].Trim().Replace(".", string.Empty);
+                    string restrictions = null;
+                    if (parenIndex != -1)
+                    {
+                        name = baseLineSplit[1].Remove(parenIndex).Trim();
+
+                        var restrictionsSplit = baseLine.Split('(', ')');
+                        if (restrictionsSplit.ElementAtOrDefault(1) != null)
+                        {
+                            restrictions = restrictionsSplit[1].Trim();
+                        }
+                    }
 
                     var monsterBehavior = new MonsterBehavior
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
-                        Name = baseLine.Split(new[] { "***", "***" }, StringSplitOptions.None)[1].Trim(),
-                        Description = string.Join("\r\n", description)
+                        Name = name,
+                        Description = string.Join("\r\n", description),
+                        Restrictions = restrictions
                     };
-                    var restrictionsSplit = monsterBehavior.Name.Split('(', ')');
-                    if (restrictionsSplit.ElementAtOrDefault(1) != null)
-                    {
-                        monsterBehavior.Restrictions = restrictionsSplit[1].Trim();
-                    }
 
                     if (Regex.IsMatch(baseLine.Split("***")[2].Trim(), @"\*.+\*"))
                     {
@@ -324,9 +372,7 @@ namespace StarWars5e.Parser.Parsers
                                         monsterBehavior.DamageTypeEnum = DamageType.Unknown;
                                     }
                                 }
-                                
                             }
-                            
                         }
                     }
 
