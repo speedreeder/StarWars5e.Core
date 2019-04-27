@@ -64,7 +64,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
             foreach (var armorLine in armorLines)
             {
                 var armorColumns = armorLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
-                var armor = new StarshipArmor
+                var armor = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Base.ToString(),
                     RowKey = armorColumns[1],
@@ -81,7 +81,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
             foreach (var shieldLine in shieldLines)
             {
                 var shieldColumns = shieldLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
-                var shield = new StarshipShield
+                var shield = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Base.ToString(),
                     RowKey = shieldColumns[1],
@@ -117,7 +117,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 foreach (var weaponLine in weaponLines)
                 {
                     var weaponColumns = weaponLine.Split('|');
-                    var weapon = new StarshipWeapon
+                    var weapon = new StarshipEquipment
                     {
                         PartitionKey = ContentType.Base.ToString(),
                         RowKey = weaponColumns[1].RemoveHtmlWhitespace().Trim(),
@@ -177,7 +177,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
 
         private static IEnumerable<StarshipEquipment> CreateAmmunition(IList<string> ammunitionTableLines)
         {
-            var ammunitionList = new List<StarshipAmmunition>();
+            var ammunitionList = new List<StarshipEquipment>();
 
             var categoryLineIndexes = ammunitionTableLines.Where(s => s.StartsWith("|_")).Select(ammunitionTableLines.IndexOf).ToList();
             foreach (var categoryLineIndex in categoryLineIndexes)
@@ -192,7 +192,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 foreach (var ammunitionLine in ammunitionLines)
                 {
                     var ammunitionColumns = ammunitionLine.Split('|');
-                    var ammunition = new StarshipAmmunition
+                    var ammunition = new StarshipEquipment
                     {
                         PartitionKey = ContentType.Base.ToString(),
                         RowKey = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
@@ -210,21 +210,21 @@ namespace StarWars5e.Parser.Parsers.SOTG
 
         private static IEnumerable<StarshipEquipment> CreateHyperdrives(IEnumerable<string> hyperDriveTableLines)
         {
-            var hyperdriveList = new List<StarshipHyperdrive>();
+            var hyperdriveList = new List<StarshipEquipment>();
     
             foreach (var hyperdriveLine in hyperDriveTableLines.Skip(2))
             {
                 var hyperdriveColumns = hyperdriveLine.Split('|');
                 var doubleArray = Regex.Split(hyperdriveColumns[1], @"[^0-9\.]+")
                     .Where(c => c != "." && c.Trim() != "").ToList();
-                var hyperdrive = new StarshipHyperdrive
+                var hyperdrive = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Base.ToString(),
                     RowKey = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Hyperdrive,
                     Name = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
                     Cost = int.Parse(hyperdriveColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands),
-                    Class = decimal.Parse(doubleArray[0])
+                    HyperDriveClass = doubleArray[0]
                 };
                 hyperdriveList.Add(hyperdrive);
             }
@@ -234,20 +234,20 @@ namespace StarWars5e.Parser.Parsers.SOTG
 
         private static IEnumerable<StarshipEquipment> CreateNavcomputers(IEnumerable<string> navcomputerTableLines)
         {
-            var navcomputerList = new List<StarshipNavcomputer>();
+            var navcomputerList = new List<StarshipEquipment>();
 
             foreach (var navcomputerLine in navcomputerTableLines.Skip(2))
             {
                 var navcomputerColumns = navcomputerLine.Split('|');
                 var navcomputerBonusMatch = Regex.Match(navcomputerColumns[1], @"\d+");
-                var navcomputer = new StarshipNavcomputer
+                var navcomputer = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Base.ToString(),
                     RowKey = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Navcomputer,
                     Name = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
                     Cost = int.Parse(navcomputerColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands),
-                    Bonus = navcomputerBonusMatch.Success ? int.Parse(navcomputerBonusMatch.Value) : 0
+                    NavcomputerBonus = navcomputerBonusMatch.Success ? int.Parse(navcomputerBonusMatch.Value) : 0
                 };
                 navcomputerList.Add(navcomputer);
             }
@@ -271,6 +271,5 @@ namespace StarWars5e.Parser.Parsers.SOTG
                     return StarshipWeaponCategory.None;
             }
         }
-
     }
 }
