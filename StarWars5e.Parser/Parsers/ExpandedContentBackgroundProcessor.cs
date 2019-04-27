@@ -51,10 +51,10 @@ namespace StarWars5e.Parser.Parsers
                     backgroundLines.Skip(nameIndex + 1)
                         .Take(backgroundLines.FindIndex(nameIndex, f => f.StartsWith('_')) - (nameIndex + 1)));
 
-                background.SkillProficiencies = backgroundLines.Find(f => f.Contains("**Skill Proficiencies"))?.Split("**")
+                background.SkillProficiencies = backgroundLines.Find(f => Regex.IsMatch(f, @"\*\*Skill Profic[i]?encies"))?.Split("**")
                     .Skip(2).FirstOrDefault()?.Trim().RemoveHtmlWhitespace();
                 background.ToolProficiencies = backgroundLines.Find(f => f.Contains("**Tool Proficiencies"))?.Split("**")
-                    .Skip(2).FirstOrDefault()?.Trim().RemoveHtmlWhitespace();
+                    .Skip(2).FirstOrDefault()?.Replace(":", string.Empty).Trim().RemoveHtmlWhitespace();
                 background.Languages = backgroundLines.Find(f => f.Contains("**Languages"))?.Split("**")
                     .Skip(2).FirstOrDefault()?.Trim().RemoveHtmlWhitespace();
                 background.Equipment = backgroundLines.Find(f => f.Contains("**Equipment"))?.Split("**")
@@ -116,7 +116,7 @@ namespace StarWars5e.Parser.Parsers
                 background.PersonalityTraitOptions = personalityTraitTableLines
                     .Select(f => new BackgroundOption
                     {
-                        Name = f.Split('|')[2].Trim(),
+                        Description = f.Split('|')[2].Trim(),
                         Roll = int.Parse(Regex.Match(f, @"\d").Value)
                     }).ToList();
 
@@ -128,7 +128,7 @@ namespace StarWars5e.Parser.Parsers
                 background.IdealOptions = idealTableLines
                     .Select(f => new BackgroundOption
                     {
-                        Name = f.Split('|')[1].Trim(),
+                        Name = f.Split('|')[2].Trim().Split("**")[1],
                         Roll = int.Parse(Regex.Match(f, @"\d").Value),
                         Description = f.Split("**")[2].TrimStart('.', ',').TrimEnd('|').Trim()
                     }).ToList();
@@ -141,7 +141,7 @@ namespace StarWars5e.Parser.Parsers
                 background.BondOptions = bondTableLines
                     .Select(f => new BackgroundOption
                     {
-                        Name = f.Split('|')[2].Trim(),
+                        Description = f.Split('|')[2].Trim(),
                         Roll = int.Parse(Regex.Match(f, @"\d").Value)
                     }).ToList();
 
@@ -153,7 +153,7 @@ namespace StarWars5e.Parser.Parsers
                 background.FlawOptions = flawTableLines
                     .Select(f => new BackgroundOption
                     {
-                        Name = f.Split('|')[2].Trim(),
+                        Description = f.Split('|')[2].Trim(),
                         Roll = int.Parse(Regex.Match(f, @"\d").Value)
                     }).ToList();
 
