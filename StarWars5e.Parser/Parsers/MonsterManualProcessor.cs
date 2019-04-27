@@ -100,8 +100,10 @@ namespace StarWars5e.Parser.Parsers
                     monster.DamageVulnerabilitiesParsed = damageVulnerabilitiesSplit
                         .Where(d => Enum.TryParse(d, true, out DamageType _))
                         .Select(s => Enum.Parse<DamageType>(s, true)).ToList();
-                    monster.DamageVulnerabilitiesOther = damageVulnerabilitiesSplit
-                        .Where(d => !Enum.TryParse(d, true, out DamageType _)).ToList();
+                    monster.DamageVulnerabilitiesOther = damageVulnerabilitiesSplit.Any(d => !Enum.TryParse(d, true, out DamageType _))
+                        ? damageVulnerabilitiesSplit
+                            .Where(d => !Enum.TryParse(d, true, out DamageType _)).ToList()
+                        : null;
                 }
 
                 var damageImmunitiesSplit = monsterLines.Find(f => f.Contains("**Damage Immunities**"))?
@@ -112,7 +114,10 @@ namespace StarWars5e.Parser.Parsers
                         .Where(d => Enum.TryParse(d, true, out DamageType _))
                         .Select(s => Enum.Parse<DamageType>(s, true)).ToList();
                     monster.DamageImmunitiesOther = damageImmunitiesSplit
-                        .Where(d => !Enum.TryParse(d, true, out DamageType _)).ToList();
+                        .Any(d => !Enum.TryParse(d, true, out DamageType _))
+                        ? damageImmunitiesSplit
+                            .Where(d => !Enum.TryParse(d, true, out DamageType _)).ToList()
+                        : null;
                 }
 
                 var damageResistancesSplit = monsterLines.Find(f => f.Contains("**Damage Resistances**"))?
@@ -123,7 +128,10 @@ namespace StarWars5e.Parser.Parsers
                         .Where(d => Enum.TryParse(d, true, out DamageType _))
                         .Select(s => Enum.Parse<DamageType>(s, true)).ToList();
                     monster.DamageResistancesOther = damageResistancesSplit
-                        .Where(d => !Enum.TryParse(d, true, out DamageType _)).ToList();
+                        .Any(d => !Enum.TryParse(d, true, out DamageType _))
+                        ? damageResistancesSplit
+                            .Where(d => !Enum.TryParse(d, true, out DamageType _)).ToList()
+                        : null;
                 }
 
                 var conditionImmunitiesSplit = monsterLines.Find(f => f.Contains("**Condition Immunities**"))?
@@ -134,7 +142,10 @@ namespace StarWars5e.Parser.Parsers
                         .Where(d => Enum.TryParse(d, true, out Condition _)).Select(s => Enum.Parse<Condition>(s, true))
                         .ToList();
                     monster.ConditionImmunitiesOther = conditionImmunitiesSplit
-                        .Where(d => !Enum.TryParse(d, true, out Condition _)).ToList();
+                        .Any(d => !Enum.TryParse(d, true, out Condition _))
+                        ? conditionImmunitiesSplit
+                            .Where(d => !Enum.TryParse(d, true, out Condition _)).ToList()
+                        : null;
                 }
 
                 monster.Senses = monsterLines.Find(f => f.Contains("**Senses**"))?
