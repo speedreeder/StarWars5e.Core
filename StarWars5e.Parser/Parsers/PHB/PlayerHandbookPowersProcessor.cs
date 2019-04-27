@@ -114,7 +114,8 @@ namespace StarWars5e.Parser.Parsers.PHB
                     power.CastingPeriodEnum = CastingPeriod.Hour;
                 }
 
-                var powerDescriptionStart = powerLines.FindLastIndex(f => f.StartsWith("- **"));
+                var powerDescriptionStart = powerLines.FindIndex(f => Regex.IsMatch(f, @"^\s$") || string.IsNullOrWhiteSpace(f));
+
                 var descriptionLines = powerLines.Skip(powerDescriptionStart + 1);
                 
                 power.Description = string.Join("\r\n", descriptionLines);
