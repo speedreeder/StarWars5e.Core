@@ -69,7 +69,7 @@ namespace StarWars5e.Parser.Parsers.PHB
 
                 var flavorTextEnd = classLines.FindIndex(f =>
                     Regex.IsMatch(f, $@"\#\#\#\s*Creating.*{starWarsClass.Name}"));
-                starWarsClass.FlavorText = string.Join("\r\n", classLines.Skip(1).Take(flavorTextEnd));
+                starWarsClass.FlavorText = string.Join("\r\n", classLines.Skip(1).Take(flavorTextEnd - 1));
 
                 var buildStart = classLines.FindIndex(flavorTextEnd, f => Regex.IsMatch(f, @"[#]+\s*Quick\s*Build"));
                 starWarsClass.CreatingText =
