@@ -10,11 +10,11 @@ namespace StarWars5e.Models.Class
         public string Text { get; set; }
         public string Text2 { get; set; }
         public string LeveledTableHeadersJson { get; set; }
-        public Dictionary<int, Dictionary<string, string>> LeveledTable { get; set; }
+        public Dictionary<int, List<KeyValuePair<string, string>>> LeveledTable { get; set; }
         public string LeveledTableJson
         {
             get => LeveledTable == null ? "" : JsonConvert.SerializeObject(LeveledTable);
-            set => LeveledTable = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<string, string>>>(value);
+            set => LeveledTable = JsonConvert.DeserializeObject<Dictionary<int, List<KeyValuePair<string, string>>>>(value);
         }
     }
 }

@@ -248,7 +248,7 @@ namespace StarWars5e.Parser.Parsers.PHB
         {
             var archetypeStartLine = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
             var archetypeEndLine = lines.FindIndex(archetypeStartLine + 1,
-                f => archetypeNames.SingleOrDefault(a => f.Contains($"## {a}")) != null);
+                f => archetypeNames.SingleOrDefault(a => f.StartsWith("## ") && f.Contains(a)) != null);
             var archetypesLines = lines.Skip(archetypeStartLine).ToList();
             if (archetypeEndLine != -1)
             {
@@ -279,33 +279,48 @@ namespace StarWars5e.Parser.Parsers.PHB
                     var archetypeTableEnd = archetypeLines.FindIndex(archetypeTableStart, f => f.Equals(string.Empty));
                     var archetypesTableLines = archetypeLines.Skip(archetypeTableStart).Take(archetypeTableEnd - archetypeTableStart).ToList();
 
-                    var archetypeTableHeaders = archetypesTableLines[0].Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
+                    var archetypeTableHeaders = archetypesTableLines[0].Split('|')
+                        .Select(s => s.RemoveHtmlWhitespace().Trim()).CleanListOfStrings().ToList()
+                        .Where(s => !s.Equals(string.Empty)).ToList();
 
-                    archetype.LeveledTable = new Dictionary<int, Dictionary<string, string>>();
-                    foreach (var classTableLine in archetypesTableLines.Skip(2))
+                    if (archetypeTableHeaders[0].Contains("Level", StringComparison.InvariantCultureIgnoreCase))
                     {
-                        archetype.LeveledTableHeadersJson =
-                            JsonConvert.SerializeObject(archetypeTableHeaders.Where(s => !s.Equals(string.Empty)).ToList());
-                        var levelChange = new Dictionary<string, string>();
-                        var archetypeTableLineSplit = classTableLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
-                        var level = int.Parse(Regex.Match(archetypeTableLineSplit[1].Trim(), @"\d+").Value);
-                        for (var i = 2; i < archetypeTableHeaders.Count; i++)
+                        archetype.LeveledTable = new Dictionary<int, List<KeyValuePair<string, string>>>();
+                        foreach (var classTableLine in archetypesTableLines.Skip(2))
                         {
-                            if (archetypeTableHeaders[i].Equals(string.Empty)) continue;
-                            levelChange.Add(archetypeTableHeaders[i], archetypeTableLineSplit[i]);
+                            archetype.LeveledTableHeadersJson =
+                                JsonConvert.SerializeObject(archetypeTableHeaders);
+                            var levelChange = new List<KeyValuePair<string, string>>();
+                            var archetypeTableLineSplit = classTableLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).Where(s => !s.Equals(string.Empty)).ToList();
+                            var level = int.Parse(Regex.Match(archetypeTableLineSplit[0].Trim(), @"\d+").Value);
+                            for (var i = 1; i < archetypeTableHeaders.Count; i++)
+                            {
+                                if (archetypeTableHeaders[i].Equals(string.Empty)) continue;
+                                levelChange.Add(new KeyValuePair<string, string>(archetypeTableHeaders[i], archetypeTableLineSplit[i]));
+                            }
+
+                            archetype.LeveledTable.Add(level, levelChange);
                         }
 
-                        archetype.LeveledTable.Add(level, levelChange);
+                        var archetypeText = string.Join("\r\n", archetypeLines.Skip(1).Take(archetypeTableStart - 1)
+                            .Concat(archetypeLines.Skip(archetypeTableEnd)).ToList().CleanListOfStrings());
+
+                        archetype.Text = archetypeText;
+                        if (archetypeText.Length > 30000)
+                        {
+                            archetype.Text = new string(archetypeText.Skip(1).Take(30000).ToArray());
+                            archetype.Text2 = new string(archetypeText.Skip(30000).ToArray());
+                        }
                     }
-
-                    var archetypeText = string.Join("\r\n",archetypeLines.Skip(1).Take(archetypeTableStart)
-                        .Concat(archetypeLines.Skip(archetypeTableEnd)).ToList().CleanListOfStrings());
-
-                    archetype.Text = archetypeText;
-                    if (archetypeText.Length > 30000)
+                    else
                     {
-                        archetype.Text = new string(archetypeText.Skip(1).Take(30000).ToArray());
-                        archetype.Text2 = new string(archetypeText.Skip(30000).ToArray());
+                        var archetypeText = string.Join("\r\n", archetypeLines.Skip(1).CleanListOfStrings());
+                        archetype.Text = archetypeText;
+                        if (archetypeText.Length > 30000)
+                        {
+                            archetype.Text = new string(archetypeText.Take(30000).ToArray());
+                            archetype.Text2 = new string(archetypeText.Skip(30000).ToArray());
+                        }
                     }
                 }
                 else

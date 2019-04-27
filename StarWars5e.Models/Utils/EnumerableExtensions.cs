@@ -16,6 +16,14 @@ namespace StarWars5e.Models.Utils
                     removeHtmlWhitespace
                         ? Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace()
                         : Regex.Replace(s, "<.*?>", string.Empty))
+                .Select(s =>
+                {
+                    if (Regex.IsMatch(s, @"\|\s*:--\s*\|"))
+                    {
+                        s = Regex.Replace(s, @"\s", "");
+                    }
+                    return s;
+                })
                 .ToList();
 
             var badIndexes = new List<int>();
