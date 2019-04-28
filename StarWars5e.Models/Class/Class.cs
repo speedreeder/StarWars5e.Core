@@ -76,21 +76,8 @@ namespace StarWars5e.Models.Class
         public string ArchetypeFlavorText { get; set; }
         public string ArchetypeFlavorName { get; set; }
 
-        //public void SetArchetypes(List<Archetype> archetypes)
-        //{
-        //    Archetypes = archetypes;
-        //    var jsonString = JsonConvert.SerializeObject(Archetypes);
-
-        //    ArchetypesJson = new string(jsonString.Take(30000).ToArray());
-        //    if (jsonString.Length <= 30000) return;
-            
-        //    ArchetypesJson2 = new string(jsonString.Skip(30000).ToArray());
-        //}
         [IgnoreProperty]
         public List<Archetype> Archetypes { get; set; }
 
-        //public string ArchetypesJson { get; set; }
-
-        //public string ArchetypesJson2 { get; set; }
     }
 }

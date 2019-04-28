@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
+using Attribute = StarWars5e.Models.Enums.Attribute;
 
 namespace StarWars5e.Parser.Parsers.PHB
 {
@@ -62,6 +64,40 @@ namespace StarWars5e.Parser.Parsers.PHB
                 else
                 {
                     feat.Text = string.Join("\r\n", featLines.Skip(1).ToList());
+                }
+
+                var attributes = Enum.GetNames(typeof(Attribute));
+                var attributeIncreaseIndex = featLines.FindIndex(f =>
+                    Regex.IsMatch(f, $@"[Ii]ncrease.*({string.Join("|", attributes)}).*score", RegexOptions.IgnoreCase));
+
+                if (attributeIncreaseIndex != -1)
+                {
+                    var attributeIncreaseLine = featLines[attributeIncreaseIndex];
+                    feat.AttributesIncreased = new List<string>();
+                    if (attributeIncreaseLine.Contains(Attribute.Strength.ToString()))
+                    {
+                        feat.AttributesIncreased.Add(Attribute.Strength.ToString());
+                    }
+                    if (attributeIncreaseLine.Contains(Attribute.Dexterity.ToString()))
+                    {
+                        feat.AttributesIncreased.Add(Attribute.Dexterity.ToString());
+                    }
+                    if (attributeIncreaseLine.Contains(Attribute.Constitution.ToString()))
+                    {
+                        feat.AttributesIncreased.Add(Attribute.Constitution.ToString());
+                    }
+                    if (attributeIncreaseLine.Contains(Attribute.Intelligence.ToString()))
+                    {
+                        feat.AttributesIncreased.Add(Attribute.Intelligence.ToString());
+                    }
+                    if (attributeIncreaseLine.Contains(Attribute.Wisdom.ToString()))
+                    {
+                        feat.AttributesIncreased.Add(Attribute.Wisdom.ToString());
+                    }
+                    if (attributeIncreaseLine.Contains(Attribute.Charisma.ToString()))
+                    {
+                        feat.AttributesIncreased.Add(Attribute.Charisma.ToString());
+                    }
                 }
 
                 return feat;
