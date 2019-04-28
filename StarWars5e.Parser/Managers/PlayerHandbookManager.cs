@@ -24,6 +24,7 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookClassProcessor _playerHandbookClassProcessor;
         private readonly PlayerHandbookPowersProcessor _playerHandbookPowersProcessor;
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
+        private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
         private readonly List<string> _phbFilesNames = new List<string>
         {
             "PHB.phb_00.txt", "PHB.phb_01.txt", "PHB.phb_02.txt", "PHB.phb_03.txt", "PHB.phb_04.txt", "PHB.phb_05.txt", "PHB.phb_06.txt", "PHB.phb_07.txt",
@@ -39,6 +40,7 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookClassProcessor = new PlayerHandbookClassProcessor();
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor();
+            _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("player-handbook-rules");
@@ -81,6 +83,12 @@ namespace StarWars5e.Parser.Managers
                     .ToList());
 
             await _tableStorage.AddBatchAsync<Power>("powers", powers,
+                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            var feats = await _playerHandbookFeatProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_06.txt"))
+                .ToList());
+
+            await _tableStorage.AddBatchAsync<Feat>("feats", feats,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             var rules =
