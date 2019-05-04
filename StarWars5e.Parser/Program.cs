@@ -31,6 +31,7 @@ namespace StarWars5e.Parser
             var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(serviceProvider.GetService<ITableStorage>());
+            var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
             var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>());
 
             await starshipManager.Parse();
@@ -39,6 +40,7 @@ namespace StarWars5e.Parser
             await extendedContentBackgroundManager.Parse();
             await extendedContentEquipmentManager.Parse();
             await extendedContentArchetypesManager.Parse();
+            await extendedContentVariantRulesManager.Parse();
             await playerHandbookManager.Parse();
         }
     }

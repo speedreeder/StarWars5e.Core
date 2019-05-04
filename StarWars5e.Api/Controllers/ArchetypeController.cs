@@ -37,23 +37,23 @@ namespace StarWars5e.Api.Controllers
             return Ok(archetypes);
         }
 
-        [HttpPost]
-        public async Task Post([FromBody] Archetype archetype)
-        {
-            await _tableStorage.AddOrUpdateAsync("archetypes", archetype);
-        }
+        //[HttpPost]
+        //public async Task Post([FromBody] Archetype archetype)
+        //{
+        //    await _tableStorage.AddOrUpdateAsync("archetypes", archetype);
+        //}
 
-        [HttpDelete("{name}")]
-        public async Task Delete(string name)
-        {
-            var query = new TableQuery<Archetype>();
-            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+        //[HttpDelete("{name}")]
+        //public async Task Delete(string name)
+        //{
+        //    var query = new TableQuery<Archetype>();
+        //    query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-            var archetypes = await _tableStorage.QueryAsync("archetypes", query);
-            foreach (var archetype in archetypes)
-            {
-                await _tableStorage.DeleteAsync("archetypes", archetype);
-            }
-        }
+        //    var archetypes = await _tableStorage.QueryAsync("archetypes", query);
+        //    foreach (var archetype in archetypes)
+        //    {
+        //        await _tableStorage.DeleteAsync("archetypes", archetype);
+        //    }
+        //}
     }
 }

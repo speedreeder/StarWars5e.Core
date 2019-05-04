@@ -36,23 +36,23 @@ namespace StarWars5e.Api.Controllers
             return Ok(classes);
         }
 
-        [HttpPost]
-        public async Task Post([FromBody] Class starWarsClass)
-        {
-            await _tableStorage.AddOrUpdateAsync("classes", starWarsClass);
-        }
+        //[HttpPost]
+        //public async Task Post([FromBody] Class starWarsClass)
+        //{
+        //    await _tableStorage.AddOrUpdateAsync("classes", starWarsClass);
+        //}
 
-        [HttpDelete("{name}")]
-        public async Task Delete(string name)
-        {
-            var query = new TableQuery<Class>();
-            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+        //[HttpDelete("{name}")]
+        //public async Task Delete(string name)
+        //{
+        //    var query = new TableQuery<Class>();
+        //    query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-            var starWarsClass = await _tableStorage.QueryAsync("classes", query);
-            foreach (var @class in starWarsClass)
-            {
-                await _tableStorage.DeleteAsync("classes", @class);
-            }
-        }
+        //    var starWarsClass = await _tableStorage.QueryAsync("classes", query);
+        //    foreach (var @class in starWarsClass)
+        //    {
+        //        await _tableStorage.DeleteAsync("classes", @class);
+        //    }
+        //}
     }
 }

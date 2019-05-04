@@ -16,6 +16,7 @@
     <None Remove="Sources\ec_equipment.txt" />
     <None Remove="Sources\EC_Species.md" />
     <None Remove="Sources\ec_species.txt" />
+    <None Remove="Sources\ec_variantrules.txt" />
     <None Remove="Sources\MM.md" />
     <None Remove="Sources\mm.txt" />
     <None Remove="Sources\PHB\phb_00.txt" />
@@ -93,6 +94,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StarWars5e.Models\StarWars5e.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sources\ec_variantrules.txt" />
   </ItemGroup>
 
   <ItemGroup>

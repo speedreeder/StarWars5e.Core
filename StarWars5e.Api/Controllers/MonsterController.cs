@@ -24,19 +24,19 @@ namespace StarWars5e.Api.Controllers
             return Ok(monsters);
         }
 
-        [HttpPost]
-        public void Post([FromBody] Monster monster)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody] Monster monster)
+        //{
+        //}
 
-        [HttpPut("{name}")]
-        public void Put(string name, [FromBody] Monster monster)
-        {
-        }
+        //[HttpPut("{name}")]
+        //public void Put(string name, [FromBody] Monster monster)
+        //{
+        //}
 
-        [HttpDelete("{name}")]
-        public void Delete(string name)
-        {
-        }
+        //[HttpDelete("{name}")]
+        //public void Delete(string name)
+        //{
+        //}
     }
 }

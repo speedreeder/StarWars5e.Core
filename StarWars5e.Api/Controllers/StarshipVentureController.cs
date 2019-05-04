@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using StarWars5e.Models.Class;
 using StarWars5e.Models.Starship;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -25,19 +24,19 @@ namespace StarWars5e.Api.Controllers
             return Ok(starshipVentures);
         }
 
-        [HttpPost]
-        public void Post([FromBody] Class starshipVenture)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody] Class starshipVenture)
+        //{
+        //}
 
-        [HttpPut("{name}")]
-        public void Put(string name, [FromBody] Class starshipVenture)
-        {
-        }
+        //[HttpPut("{name}")]
+        //public void Put(string name, [FromBody] Class starshipVenture)
+        //{
+        //}
 
-        [HttpDelete("{name}")]
-        public void Delete(string name)
-        {
-        }
+        //[HttpDelete("{name}")]
+        //public void Delete(string name)
+        //{
+        //}
     }
 }

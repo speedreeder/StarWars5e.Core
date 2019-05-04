@@ -37,23 +37,23 @@ namespace StarWars5e.Api.Controllers
             return Ok(powers);
         }
 
-        [HttpPost]
-        public async Task Post([FromBody] Power power)
-        {
-            await _tableStorage.AddOrUpdateAsync("powers", power);
-        }
+        //[HttpPost]
+        //public async Task Post([FromBody] Power power)
+        //{
+        //    await _tableStorage.AddOrUpdateAsync("powers", power);
+        //}
 
-        [HttpDelete("{name}")]
-        public async Task Delete(string name)
-        {
-            var query = new TableQuery<Power>();
-            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+        //[HttpDelete("{name}")]
+        //public async Task Delete(string name)
+        //{
+        //    var query = new TableQuery<Power>();
+        //    query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-            var powers = await _tableStorage.QueryAsync("powers", query);
-            foreach (var power in powers)
-            {
-                await _tableStorage.DeleteAsync("powers", power);
-            }
-        }
+        //    var powers = await _tableStorage.QueryAsync("powers", query);
+        //    foreach (var power in powers)
+        //    {
+        //        await _tableStorage.DeleteAsync("powers", power);
+        //    }
+        //}
     }
 }

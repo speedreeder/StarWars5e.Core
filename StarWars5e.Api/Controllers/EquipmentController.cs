@@ -37,23 +37,23 @@ namespace StarWars5e.Api.Controllers
             return Ok(equipment);
         }
 
-        [HttpPost]
-        public async Task Post([FromBody] Equipment equipment)
-        {
-            await _tableStorage.AddOrUpdateAsync("equipment", equipment);
-        }
+        //[HttpPost]
+        //public async Task Post([FromBody] Equipment equipment)
+        //{
+        //    await _tableStorage.AddOrUpdateAsync("equipment", equipment);
+        //}
 
-        [HttpDelete("{name}")]
-        public async Task Delete(string name)
-        {
-            var query = new TableQuery<Equipment>();
-            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+        //[HttpDelete("{name}")]
+        //public async Task Delete(string name)
+        //{
+        //    var query = new TableQuery<Equipment>();
+        //    query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-            var equipment = await _tableStorage.QueryAsync("equipment", query);
-            foreach (var equipmentPiece in equipment)
-            {
-                await _tableStorage.DeleteAsync("equipment", equipmentPiece);
-            }
-        }
+        //    var equipment = await _tableStorage.QueryAsync("equipment", query);
+        //    foreach (var equipmentPiece in equipment)
+        //    {
+        //        await _tableStorage.DeleteAsync("equipment", equipmentPiece);
+        //    }
+        //}
     }
 }

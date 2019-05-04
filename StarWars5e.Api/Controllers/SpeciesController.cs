@@ -37,23 +37,23 @@ namespace StarWars5e.Api.Controllers
             return Ok(species);
         }
 
-        [HttpPost]
-        public async Task Post([FromBody] Species species)
-        {
-            await _tableStorage.AddOrUpdateAsync("species", species);
-        }
+        //[HttpPost]
+        //public async Task Post([FromBody] Species species)
+        //{
+        //    await _tableStorage.AddOrUpdateAsync("species", species);
+        //}
 
-        [HttpDelete("{name}")]
-        public async Task Delete(string name)
-        {
-            var query = new TableQuery<Species>();
-            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+        //[HttpDelete("{name}")]
+        //public async Task Delete(string name)
+        //{
+        //    var query = new TableQuery<Species>();
+        //    query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-            var species = await _tableStorage.QueryAsync("species", query);
-            foreach (var oneSpecies in species)
-            {
-                await _tableStorage.DeleteAsync("species", oneSpecies);
-            }
-        }
+        //    var species = await _tableStorage.QueryAsync("species", query);
+        //    foreach (var oneSpecies in species)
+        //    {
+        //        await _tableStorage.DeleteAsync("species", oneSpecies);
+        //    }
+        //}
     }
 }

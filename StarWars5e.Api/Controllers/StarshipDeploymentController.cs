@@ -24,19 +24,19 @@ namespace StarWars5e.Api.Controllers
             return Ok(starshipDeployments);
         }
 
-        [HttpPost]
-        public void Post([FromBody] StarshipDeployment starshipDeployment)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody] StarshipDeployment starshipDeployment)
+        //{
+        //}
 
-        [HttpPut("{name}")]
-        public void Put(string name, [FromBody] StarshipDeployment starshipDeployment)
-        {
-        }
+        //[HttpPut("{name}")]
+        //public void Put(string name, [FromBody] StarshipDeployment starshipDeployment)
+        //{
+        //}
 
-        [HttpDelete("{name}")]
-        public void Delete(string name)
-        {
-        }
+        //[HttpDelete("{name}")]
+        //public void Delete(string name)
+        //{
+        //}
     }
 }

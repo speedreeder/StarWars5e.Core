@@ -36,23 +36,23 @@ namespace StarWars5e.Api.Controllers
             return Ok(backgrounds);
         }
 
-        [HttpPost]
-        public async Task Post([FromBody] Background background)
-        {
-            await _tableStorage.AddOrUpdateAsync("backgrounds", background);
-        }
+        //[HttpPost]
+        //public async Task Post([FromBody] Background background)
+        //{
+        //    await _tableStorage.AddOrUpdateAsync("backgrounds", background);
+        //}
 
-        [HttpDelete("{name}")]
-        public async Task Delete(string name)
-        {
-            var query = new TableQuery<Background>();
-            query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
+        //[HttpDelete("{name}")]
+        //public async Task Delete(string name)
+        //{
+        //    var query = new TableQuery<Background>();
+        //    query.Where(TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, name));
 
-            var backgrounds = await _tableStorage.QueryAsync("backgrounds", query);
-            foreach (var background in backgrounds)
-            {
-                await _tableStorage.DeleteAsync("backgrounds", background);
-            }
-        }
+        //    var backgrounds = await _tableStorage.QueryAsync("backgrounds", query);
+        //    foreach (var background in backgrounds)
+        //    {
+        //        await _tableStorage.DeleteAsync("backgrounds", background);
+        //    }
+        //}
     }
 }

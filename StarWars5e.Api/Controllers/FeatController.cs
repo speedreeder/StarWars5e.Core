@@ -24,14 +24,14 @@ namespace StarWars5e.Api.Controllers
             return Ok(feats);
         }
 
-        [HttpPost]
-        public void Post([FromBody] Feat feat)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody] Feat feat)
+        //{
+        //}
 
-        [HttpDelete("{name}")]
-        public void Delete(string name)
-        {
-        }
+        //[HttpDelete("{name}")]
+        //public void Delete(string name)
+        //{
+        //}
     }
 }
