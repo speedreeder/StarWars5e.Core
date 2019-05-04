@@ -28,12 +28,6 @@ namespace StarWars5e.Parser.Parsers
                 variantRules.Add(ParseVariantRules(variantLines, ContentType.ExpandedContent));
             }
 
-            variantRules.Add(new ChapterRules
-            {
-                ChapterName = "Intro",
-                ContentMarkdown = "These are various rules that change the game in interesting and significant ways. None are required in order to play, but some or all can be used to add a " +
-                                  "new flavor to your table. Click on any of them to learn more."
-            });
             return Task.FromResult(variantRules);
         }
 
