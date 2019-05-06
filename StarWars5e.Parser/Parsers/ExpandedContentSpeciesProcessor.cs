@@ -115,16 +115,16 @@ namespace StarWars5e.Parser.Parsers
                     var alternateSplit = attributeIncreaseTrait.Description.Split(".");
                     foreach (var alternate in alternateSplit.Take(alternateSplit.Length - 1))
                     {
-                        var abilitiesSplit = alternate.Split(",");
+                        var abilitiesSplit = alternate.Split(new []{ ", ", "and" }, StringSplitOptions.None);
                         var abilityIncreases = new List<AbilityIncrease>();
                         foreach (var abilitySplit in abilitiesSplit)
                         {
                             if(!ValidAttributeHints.Any(v => abilitySplit.Contains(v))) continue;
+                            var abilityIncrease = new AbilityIncrease();
 
                             if (abilitySplit.Contains(Attribute.Strength.ToString()))
                             {
-                                var abilityIncrease = new AbilityIncrease();
-                                abilityIncrease.Ability = Attribute.Strength.ToString();
+                                abilityIncrease.Abilities.Add(Attribute.Strength.ToString()); 
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Strength.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -132,13 +132,11 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
 
                             if (abilitySplit.Contains(Attribute.Dexterity.ToString()))
                             {
-                                var abilityIncrease = new AbilityIncrease();
-                                abilityIncrease.Ability = Attribute.Dexterity.ToString();
+                                abilityIncrease.Abilities.Add(Attribute.Dexterity.ToString());
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Dexterity.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -146,13 +144,11 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
 
                             if (abilitySplit.Contains(Attribute.Constitution.ToString()))
                             {
-                                var abilityIncrease = new AbilityIncrease();
-                                abilityIncrease.Ability = Attribute.Constitution.ToString();
+                                abilityIncrease.Abilities.Add(Attribute.Constitution.ToString());
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Constitution.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -160,13 +156,11 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
 
                             if (abilitySplit.Contains(Attribute.Intelligence.ToString()))
                             {
-                                var abilityIncrease = new AbilityIncrease();
-                                abilityIncrease.Ability = Attribute.Intelligence.ToString();
+                                abilityIncrease.Abilities.Add(Attribute.Intelligence.ToString());
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Intelligence.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -174,13 +168,11 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
 
                             if (abilitySplit.Contains(Attribute.Wisdom.ToString()))
                             {
-                                var abilityIncrease = new AbilityIncrease();
-                                abilityIncrease.Ability = Attribute.Wisdom.ToString();
+                                abilityIncrease.Abilities.Add(Attribute.Wisdom.ToString());
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Wisdom.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -188,13 +180,11 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
 
                             if (abilitySplit.Contains(Attribute.Charisma.ToString()))
                             {
-                                var abilityIncrease = new AbilityIncrease();
-                                abilityIncrease.Ability = Attribute.Charisma.ToString();
+                                abilityIncrease.Abilities.Add(Attribute.Charisma.ToString());
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Charisma.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -202,12 +192,10 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
 
                             if (abilitySplit.Contains("choice", StringComparison.InvariantCultureIgnoreCase))
                             {
-                                var abilityIncrease = new AbilityIncrease();
                                 var otherAmount = "";
                                 if (abilitySplit.Contains("one", StringComparison.InvariantCultureIgnoreCase))
                                 {
@@ -239,7 +227,7 @@ namespace StarWars5e.Parser.Parsers
                                     otherAmount = "six";
                                 }
 
-                                abilityIncrease.Ability = $"Any other {otherAmount}";
+                                abilityIncrease.Abilities.Add($"Any other {otherAmount}");
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Wisdom.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
@@ -247,8 +235,9 @@ namespace StarWars5e.Parser.Parsers
                                 var amountMatches = Regex.Matches(abilitySplit, @"\d+");
                                 var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
                                 abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
-                                abilityIncreases.Add(abilityIncrease);
                             }
+
+                            abilityIncreases.Add(abilityIncrease);
 
                             var abilityIncreasesWithoutAmounts =
                                 abilityIncreases.Where(a => !a.Amount.HasValue || a.Amount.Value == 0).ToList();
