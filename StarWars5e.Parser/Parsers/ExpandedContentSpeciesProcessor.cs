@@ -7,11 +7,18 @@ using StarWars5e.Models.Enums;
 using StarWars5e.Models.Monster;
 using StarWars5e.Models.Species;
 using StarWars5e.Models.Utils;
+using Attribute = StarWars5e.Models.Enums.Attribute;
 
 namespace StarWars5e.Parser.Parsers
 {
     public class ExpandedContentSpeciesProcessor : BaseProcessor<Species>
     {
+        private static readonly List<string> ValidAttributeHints = new List<string>
+        {
+            Attribute.Charisma.ToString(), Attribute.Constitution.ToString(), Attribute.Dexterity.ToString(),
+            Attribute.Intelligence.ToString(), Attribute.Strength.ToString(), Attribute.Wisdom.ToString(), "choice"
+        };
+
         public override Task<List<Species>> FindBlocks(List<string> lines)
         {
             var species = new List<Species>();
@@ -92,9 +99,166 @@ namespace StarWars5e.Parser.Parsers
 
                     if (!asterisks.Success) continue;
 
-                    trait.Name = traitLine.Split(asterisks.Value)[1].Trim();
+                    trait.Name = traitLine.Split(asterisks.Value)[1].Trim().Replace(".", string.Empty);
                     trait.Description = traitLine.Split(asterisks.Value)[2].Trim().RemoveHtmlWhitespace();
                     species.Traits.Add(trait);
+                }
+
+                var attributeIncreaseTrait = species.Traits.SingleOrDefault(t =>
+                    t.Name.Contains("Ability Score Increase", StringComparison.InvariantCultureIgnoreCase));
+                if (attributeIncreaseTrait != null)
+                {
+                    species.AbilitiesIncreased = new List<List<AbilityIncrease>>();
+                    var alternateSplit = attributeIncreaseTrait.Description.Split(".");
+                    foreach (var alternate in alternateSplit.Take(alternateSplit.Length - 1))
+                    {
+                        var abilitiesSplit = alternate.Split(",");
+                        var abilityIncreases = new List<AbilityIncrease>();
+                        foreach (var abilitySplit in abilitiesSplit)
+                        {
+                            if(!ValidAttributeHints.Any(v => abilitySplit.Contains(v))) continue;
+
+                            if (abilitySplit.Contains(Attribute.Strength.ToString()))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                abilityIncrease.Ability = Attribute.Strength.ToString();
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Strength.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            if (abilitySplit.Contains(Attribute.Dexterity.ToString()))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                abilityIncrease.Ability = Attribute.Dexterity.ToString();
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Dexterity.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            if (abilitySplit.Contains(Attribute.Constitution.ToString()))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                abilityIncrease.Ability = Attribute.Constitution.ToString();
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Constitution.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            if (abilitySplit.Contains(Attribute.Intelligence.ToString()))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                abilityIncrease.Ability = Attribute.Intelligence.ToString();
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Intelligence.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            if (abilitySplit.Contains(Attribute.Wisdom.ToString()))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                abilityIncrease.Ability = Attribute.Wisdom.ToString();
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Wisdom.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            if (abilitySplit.Contains(Attribute.Charisma.ToString()))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                abilityIncrease.Ability = Attribute.Charisma.ToString();
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Charisma.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            if (abilitySplit.Contains("choice", StringComparison.InvariantCultureIgnoreCase))
+                            {
+                                var abilityIncrease = new AbilityIncrease();
+                                var otherAmount = "";
+                                if (abilitySplit.Contains("one", StringComparison.InvariantCultureIgnoreCase))
+                                {
+                                    otherAmount = "one";
+                                }
+
+                                if (abilitySplit.Contains("two", StringComparison.InvariantCultureIgnoreCase))
+                                {
+                                    otherAmount = "two";
+                                }
+
+                                if (abilitySplit.Contains("three", StringComparison.InvariantCultureIgnoreCase))
+                                {
+                                    otherAmount = "three";
+                                }
+
+                                if (abilitySplit.Contains("four", StringComparison.InvariantCultureIgnoreCase))
+                                {
+                                    otherAmount = "four";
+                                }
+
+                                if (abilitySplit.Contains("five", StringComparison.InvariantCultureIgnoreCase))
+                                {
+                                    otherAmount = "five";
+                                }
+
+                                if (abilitySplit.Contains("six", StringComparison.InvariantCultureIgnoreCase))
+                                {
+                                    otherAmount = "six";
+                                }
+
+                                abilityIncrease.Ability = $"Any other {otherAmount}";
+
+                                var abilityIndex = abilitySplit.IndexOf(Attribute.Wisdom.ToString(),
+                                    StringComparison.InvariantCultureIgnoreCase);
+
+                                var amountMatches = Regex.Matches(abilitySplit, @"\d+");
+                                var amountMatch = amountMatches.FirstOrDefault(a => a.Index > abilityIndex);
+                                abilityIncrease.Amount = amountMatch != null ? int.Parse(amountMatch.Value) : 0;
+                                abilityIncreases.Add(abilityIncrease);
+                            }
+
+                            var abilityIncreasesWithoutAmounts =
+                                abilityIncreases.Where(a => !a.Amount.HasValue || a.Amount.Value == 0).ToList();
+                            var defaultAmount = abilityIncreases.LastOrDefault(a => a.Amount.HasValue && a.Amount.Value != 0)?.Amount;
+
+                            foreach (var abilityIncreasesWithoutAmount in abilityIncreasesWithoutAmounts)
+                            {
+                                abilityIncreasesWithoutAmount.Amount = defaultAmount ?? 0;
+                            }
+                        }
+
+                        species.AbilitiesIncreased.Add(abilityIncreases);
+                    }
                 }
 
                 return species;

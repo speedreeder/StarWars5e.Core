@@ -25,5 +25,11 @@ namespace StarWars5e.Models.Species
             get => Traits == null ? "" : JsonConvert.SerializeObject(Traits);
             set => Traits = JsonConvert.DeserializeObject<List<Trait>>(value);
         }
+        public List<List<AbilityIncrease>> AbilitiesIncreased { get; set; }
+        public string AbilitiesIncreasedJson
+        {
+            get => AbilitiesIncreased == null ? "" : JsonConvert.SerializeObject(AbilitiesIncreased);
+            set => AbilitiesIncreased = JsonConvert.DeserializeObject<List<List<AbilityIncrease>>>(value);
+        }
     }
 }
