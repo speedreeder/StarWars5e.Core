@@ -107,6 +107,40 @@ namespace StarWars5e.Parser.Parsers
                     species.Traits.Add(trait);
                 }
 
+                var sizeTrait = species.Traits.SingleOrDefault(t => t.Name == "Size");
+                if (sizeTrait != null)
+                {
+                    if (sizeTrait.Description.Contains(MonsterSize.Gargantuan.ToString()))
+                    {
+                        species.Size = MonsterSize.Gargantuan.ToString();
+                    }
+
+                    if (sizeTrait.Description.Contains(MonsterSize.Huge.ToString()))
+                    {
+                        species.Size = MonsterSize.Huge.ToString();
+                    }
+
+                    if (sizeTrait.Description.Contains(MonsterSize.Large.ToString()))
+                    {
+                        species.Size = MonsterSize.Large.ToString();
+                    }
+
+                    if (sizeTrait.Description.Contains(MonsterSize.Medium.ToString()))
+                    {
+                        species.Size = MonsterSize.Medium.ToString();
+                    }
+
+                    if (sizeTrait.Description.Contains(MonsterSize.Small.ToString()))
+                    {
+                        species.Size = MonsterSize.Small.ToString();
+                    }
+
+                    if (sizeTrait.Description.Contains(MonsterSize.Tiny.ToString()))
+                    {
+                        species.Size = MonsterSize.Tiny.ToString();
+                    }
+                }
+
                 var attributeIncreaseTrait = species.Traits.SingleOrDefault(t =>
                     t.Name.Contains("Ability Score Increase", StringComparison.InvariantCultureIgnoreCase));
                 if (attributeIncreaseTrait != null)

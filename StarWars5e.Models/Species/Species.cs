@@ -41,5 +41,6 @@ namespace StarWars5e.Models.Species
             get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
             set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
+        public string Size { get; set; }
     }
 }
