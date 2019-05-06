@@ -5,6 +5,10 @@ namespace StarWars5e.Models.Class
 {
     public class Archetype : BaseEntity
     {
+        public Archetype()
+        {
+            ImageUrls = new List<string>();
+        }
         public string Name { get; set; }
         public string ClassName { get; set; }
         public string Text { get; set; }
@@ -15,6 +19,12 @@ namespace StarWars5e.Models.Class
         {
             get => LeveledTable == null ? "" : JsonConvert.SerializeObject(LeveledTable);
             set => LeveledTable = JsonConvert.DeserializeObject<Dictionary<int, List<KeyValuePair<string, string>>>>(value);
+        }
+        public List<string> ImageUrls { get; set; }
+        public string ImageUrlsJson
+        {
+            get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
+            set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }

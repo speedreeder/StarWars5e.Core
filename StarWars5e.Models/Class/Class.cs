@@ -7,6 +7,10 @@ namespace StarWars5e.Models.Class
 {
     public class Class : BaseEntity
     {
+        public Class()
+        {
+            ImageUrls = new List<string>();
+        }
         public string Name { get; set; }
         public string Summary { get; set; }
         public string PrimaryAbility { get; set; }
@@ -79,5 +83,11 @@ namespace StarWars5e.Models.Class
         [IgnoreProperty]
         public List<Archetype> Archetypes { get; set; }
 
+        public List<string> ImageUrls { get; set; }
+        public string ImageUrlsJson
+        {
+            get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
+            set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
+        }
     }
 }

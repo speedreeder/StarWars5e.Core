@@ -56,6 +56,8 @@ namespace StarWars5e.Parser.Parsers.PHB
                 classes.Add(ParseClass(classLines, starWarsClass, ContentType.Base));
             }
 
+            MapImageUrls(classes);
+
             return Task.FromResult(classes);
         }
 
@@ -339,6 +341,52 @@ namespace StarWars5e.Parser.Parsers.PHB
             catch (Exception e)
             {
                 throw new Exception($"Failed while parsing {name}", e);
+            }
+        }
+
+        public static void MapImageUrls(IEnumerable<Class> classes)
+        {
+            foreach (var starWarsClass in classes)
+            {
+                switch (starWarsClass.Name)
+                {
+                    case "Berserker":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/berserker_01.png");
+                        break;
+                    case "Consular":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/consular_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/consular_02.png");
+                        break;
+                    case "Engineer":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/engineer_01.png");
+                        break;
+                    case "Fighter":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/fighter_01.png");
+                        break;
+                    case "Guardian":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/guardian_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/guardian_02.png");
+                        break;
+                    case "Monk":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/monk_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/monk_02.png");
+                        break;
+                    case "Operative":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/operative_01.png");
+                        break;
+                    case "Scholar":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scholar_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scholar_02.png");
+                        break;
+                    case "Scout":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scout_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scout_02.png");
+                        break;
+                    case "Sentinel":
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_02.png");
+                        break;
+                }
             }
         }
     }

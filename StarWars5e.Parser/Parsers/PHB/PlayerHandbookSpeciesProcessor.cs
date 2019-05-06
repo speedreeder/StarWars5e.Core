@@ -27,6 +27,8 @@ namespace StarWars5e.Parser.Parsers.PHB
                 species.Add(ExpandedContentSpeciesProcessor.ParseSpecies(speciesLines, ContentType.Base));
             }
 
+            ExpandedContentSpeciesProcessor.MapImageUrls(species);
+
             return Task.FromResult(species);
         }
     }

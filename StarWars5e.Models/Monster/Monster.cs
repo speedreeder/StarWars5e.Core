@@ -11,6 +11,7 @@ namespace StarWars5e.Models.Monster
         public Monster()
         {
             Types = new List<string>();
+            ImageUrls = new List<string>();
         }
         public string Name { get; set; }
         public MonsterSize SizeEnum { get; set; }
@@ -129,6 +130,12 @@ namespace StarWars5e.Models.Monster
         {
             get => Behaviors == null ? "" : JsonConvert.SerializeObject(Behaviors);
             set => Behaviors = JsonConvert.DeserializeObject<List<MonsterBehavior>>(value);
+        }
+        public List<string> ImageUrls { get; set; }
+        public string ImageUrlsJson
+        {
+            get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
+            set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }

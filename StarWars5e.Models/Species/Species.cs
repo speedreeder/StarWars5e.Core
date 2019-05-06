@@ -6,6 +6,10 @@ namespace StarWars5e.Models.Species
 {
     public class Species : BaseEntity
     {
+        public Species()
+        {
+            ImageUrls = new List<string>();
+        }
         public string Name { get; set; }
         public string SkinColorOptions { get; set; }
         public string HairColorOptions { get; set; }
@@ -30,6 +34,12 @@ namespace StarWars5e.Models.Species
         {
             get => AbilitiesIncreased == null ? "" : JsonConvert.SerializeObject(AbilitiesIncreased);
             set => AbilitiesIncreased = JsonConvert.DeserializeObject<List<List<AbilityIncrease>>>(value);
+        }
+        public List<string> ImageUrls { get; set; }
+        public string ImageUrlsJson
+        {
+            get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
+            set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }
