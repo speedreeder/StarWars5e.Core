@@ -227,7 +227,7 @@ namespace StarWars5e.Parser.Parsers
                                     otherAmount = "six";
                                 }
 
-                                abilityIncrease.Abilities.Add($"Any other {otherAmount}");
+                                abilityIncrease.Abilities.Add($"Any {otherAmount}");
 
                                 var abilityIndex = abilitySplit.IndexOf(Attribute.Wisdom.ToString(),
                                     StringComparison.InvariantCultureIgnoreCase);
