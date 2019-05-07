@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 .CleanListOfStrings().ToList();
             chapters.Add(CreateChapterRules(whatsDifferentLines
                 , -1,
-                "What's Different?"));
+                "Whats Different"));
 
             var introLines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
                 .CleanListOfStrings().ToList();
