@@ -13,6 +13,8 @@ namespace StarWars5e.Parser.Parsers.PHB
         {
             var chapters = new List<ChapterRules>();
 
+            var prefaceStartIndex = lines.FindIndex(f => f == "## Preface");
+            var whatsDifferentStartIndex = lines.FindIndex(f => f == "## What's Different?");
             var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
             var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: Step-By-Step Characters");
             var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Species");
@@ -28,6 +30,18 @@ namespace StarWars5e.Parser.Parsers.PHB
             var chapter12StartIndex = lines.FindIndex(f => f == "# Chapter 12: Tech Powers");
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Conditions");
             var appendixBStartIndex = lines.FindIndex(f => f == "# Appendix B: Recommended Variant Rules");
+
+            var prefaceLines = lines.Skip(prefaceStartIndex).Take(whatsDifferentStartIndex - prefaceStartIndex)
+                .CleanListOfStrings().ToList();
+            chapters.Add(CreateChapterRules(prefaceLines
+                , -2,
+                "Preface"));
+
+            var whatsDifferentLines = lines.Skip(whatsDifferentStartIndex).Take(chapter0StartIndex - whatsDifferentStartIndex)
+                .CleanListOfStrings().ToList();
+            chapters.Add(CreateChapterRules(whatsDifferentLines
+                , -1,
+                "What's Different?"));
 
             var introLines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
                 .CleanListOfStrings().ToList();
