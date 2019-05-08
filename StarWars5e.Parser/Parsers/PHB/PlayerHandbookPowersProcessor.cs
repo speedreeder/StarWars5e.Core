@@ -27,7 +27,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                     powerLines = lines.Skip(powerStartIndex).Take(powerEndIndex - powerStartIndex);
                 }
 
-                powers.Add(ParsePower(powerLines.CleanListOfStrings().ToList(), ContentType.Base));
+                powers.Add(ParsePower(powerLines.CleanListOfStrings().ToList(), ContentType.Core));
             }
 
             return Task.FromResult(powers);

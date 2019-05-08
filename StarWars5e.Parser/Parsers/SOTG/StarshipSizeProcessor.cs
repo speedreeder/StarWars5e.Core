@@ -46,7 +46,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
             var starshipBaseSize = new StarshipBaseSize
             {
                 Name = shipLinesWithSize.Key,
-                PartitionKey = ContentType.Base.ToString(),
+                PartitionKey = ContentType.Core.ToString(),
                 RowKey = shipLinesWithSize.Key
             };
 

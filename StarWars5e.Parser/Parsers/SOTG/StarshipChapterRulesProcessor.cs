@@ -114,7 +114,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
         {
             var chapter = new ChapterRules
             {
-                PartitionKey = ContentType.Base.ToString(),
+                PartitionKey = ContentType.Core.ToString(),
                 RowKey = chapterNumber.ToString(),
                 ChapterNumber = chapterNumber,
                 ChapterName = chapterName,

@@ -57,7 +57,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var modification = new StarshipModification
                 {
                     TypeEnum = type,
-                    PartitionKey = ContentType.Base.ToString(),
+                    PartitionKey = ContentType.Core.ToString(),
                     RowKey = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
                     Name = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
                     Prerequisites = modificationLines.Where(s => s.StartsWith("_prerequisite",

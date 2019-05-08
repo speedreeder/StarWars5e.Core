@@ -144,8 +144,8 @@ namespace StarWars5e.Parser.Parsers.PHB
         {
             var chapter = new ChapterRules
             {
-                PartitionKey = ContentType.Base.ToString(),
-                ContentTypeEnum = ContentType.Base,
+                PartitionKey = ContentType.Core.ToString(),
+                ContentTypeEnum = ContentType.Core,
                 RowKey = chapterNumber.ToString(),
                 ChapterNumber = chapterNumber,
                 ChapterName = chapterName,

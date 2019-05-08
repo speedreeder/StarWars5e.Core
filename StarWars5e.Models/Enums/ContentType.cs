@@ -3,7 +3,7 @@
     public enum ContentType
     {
         None,
-        Base,
+        Core,
         ExpandedContent,
         CommunityContent
     }

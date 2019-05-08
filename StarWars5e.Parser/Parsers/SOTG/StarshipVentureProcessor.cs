@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
 
                 var venture = new StarshipVenture
                 {
-                    PartitionKey = ContentType.Base.ToString(),
+                    PartitionKey = ContentType.Core.ToString(),
                     RowKey = ventureLines[i].Substring(ventureLines[i].IndexOf(' ') + 1).Trim(),
                     Name = ventureLines[i].Substring(ventureLines[i].IndexOf(' ') + 1).Trim(),
                     Prerequisites = currentVentureLines.Where(s => s.StartsWith("_prerequisite",

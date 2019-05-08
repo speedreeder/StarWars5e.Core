@@ -38,8 +38,8 @@ namespace StarWars5e.Parser.Parsers
             {
                 var monster = new Monster
                 {
-                    ContentTypeEnum = ContentType.Base,
-                    PartitionKey = ContentType.Base.ToString(),
+                    ContentTypeEnum = ContentType.Core,
+                    PartitionKey = ContentType.Core.ToString(),
                     RowKey = name,
                     Name = name
                 };

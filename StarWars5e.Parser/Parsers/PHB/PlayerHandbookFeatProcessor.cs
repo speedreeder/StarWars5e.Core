@@ -32,7 +32,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                     featLines = featsLines.Skip(featStartIndex).Take(featEndIndex - featStartIndex);
                 }
 
-                var feat = ParseFeat(featLines.ToList(), ContentType.Base);
+                var feat = ParseFeat(featLines.ToList(), ContentType.Core);
                 feats.Add(feat);
             }
 

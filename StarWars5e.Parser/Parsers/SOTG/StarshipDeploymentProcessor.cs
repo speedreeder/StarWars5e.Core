@@ -32,7 +32,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var deploymentTableColumns = deploymentTableLine.Split('|');
                 var deployment = new StarshipDeployment
                 {
-                    PartitionKey = ContentType.Base.ToString(),
+                    PartitionKey = ContentType.Core.ToString(),
                     RowKey = deploymentTableColumns[1],
                     Name = deploymentTableColumns[1],
                     Description = deploymentTableColumns[2].Trim()

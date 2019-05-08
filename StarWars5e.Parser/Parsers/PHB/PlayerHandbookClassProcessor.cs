@@ -53,7 +53,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                     classLines = lines.Skip(classLinesStart).Take(classLinesEnd - classLinesStart).ToList();
                 }
                 
-                classes.Add(ParseClass(classLines, starWarsClass, ContentType.Base));
+                classes.Add(ParseClass(classLines, starWarsClass, ContentType.Core));
             }
 
             MapImageUrls(classes);
