@@ -128,7 +128,7 @@ namespace StarWars5e.Parser.Parsers
                 background.IdealOptions = idealTableLines
                     .Select(f => new BackgroundOption
                     {
-                        Name = f.Split('|')[2].Trim().Split("**")[1],
+                        Name = f.Split('|')[2].Trim().Split("**")[1].TrimEnd('.'),
                         Roll = int.Parse(Regex.Match(f, @"\d").Value),
                         Description = f.Split("**")[2].TrimStart('.', ',').TrimEnd('|').Trim()
                     }).ToList();
