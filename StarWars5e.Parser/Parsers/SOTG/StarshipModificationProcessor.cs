@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
+using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Parsers.SOTG
 {
@@ -52,7 +53,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 if (!systemLines[i].StartsWith("### ")) continue;
 
                 var endIndex = systemLines.FindIndex(i + 1, x => x.StartsWith("### ", StringComparison.InvariantCultureIgnoreCase));
-                var modificationLines = systemLines.Skip(i).Take((endIndex == -1 ? systemLines.Count - 1 : endIndex) - i).ToList();
+                var modificationLines = systemLines.Skip(i).Take((endIndex == -1 ? systemLines.Count - 1 : endIndex) - i).ToList().CleanListOfStrings();
 
                 var modification = new StarshipModification
                 {
