@@ -24,17 +24,19 @@ namespace StarWars5e.Parser.Parsers
 
             foreach (var nameStartingLine in _nameStartingLines)
             {
-                weaponProperties.Add(ParseProperty(lines, nameStartingLine.Value, nameStartingLine.Key, _contentType));
+                var occurence = 1;
+                if (nameStartingLine.Key == "Strength") occurence = 2;
+                weaponProperties.Add(ParseProperty(lines, nameStartingLine.Value, nameStartingLine.Key, _contentType, occurence));
             }
             
             return Task.FromResult(weaponProperties);
         }
 
-        private static WeaponProperty ParseProperty(List<string> lines, string startLine, string name, ContentType contentType)
+        private static WeaponProperty ParseProperty(List<string> lines, string startLine, string name, ContentType contentType, int occurence)
         {
             try
             {
-                var weaponPropertyStart = lines.FindIndex(f => f.RemoveHtmlWhitespace().StartsWith(startLine));
+                var weaponPropertyStart = lines.FindNthIndex(f => f.RemoveHtmlWhitespace().StartsWith(startLine), occurence);
                 var weaponPropertyStartEnd =
                     lines.FindIndex(weaponPropertyStart, string.IsNullOrWhiteSpace);
                 var weaponPropertyLines = lines.Skip(weaponPropertyStart)
