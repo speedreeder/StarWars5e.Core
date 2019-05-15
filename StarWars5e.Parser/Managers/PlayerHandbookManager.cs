@@ -7,8 +7,10 @@ using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Background;
 using StarWars5e.Models.Class;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Species;
+using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.PHB;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -25,6 +27,8 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookPowersProcessor _playerHandbookPowersProcessor;
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
+        private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
+
 
         private readonly List<string> _phbFilesNames = new List<string>
         {
@@ -43,6 +47,28 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor();
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
+
+            var nameStartingLineProperties = new Dictionary<string, string>
+            {
+                {"Ammunition", "#### Ammunition"},
+                {"Burst", "#### Burst" },
+                {"Double", "#### Double" },
+                {"Finesse", "#### Finesse" },
+                {"Heavy", "#### Heavy" },
+                {"Hidden", "#### Hidden" },
+                {"Light", "#### Burst" },
+                {"Luminous", "#### Luminous" },
+                {"Range", "#### Range" },
+                {"Reach", "#### Reach" },
+                {"Reload", "#### Reload" },
+                {"Special", "#### Special" },
+                {"Strength", "#### Strength" },
+                {"Thrown", "#### Thrown" },
+                {"Two-Handed", "#### Two-Handed" },
+                {"Versatile", "#### Versatile" },
+            };
+
+            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, nameStartingLineProperties);
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("player-handbook-rules");
@@ -104,6 +130,11 @@ namespace StarWars5e.Parser.Managers
 
                 await blob.UploadTextAsync(json);
             }
+
+            var weaponProperties =
+                await _weaponPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList());
+            await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
+                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }
     }
 }

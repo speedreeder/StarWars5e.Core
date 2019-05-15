@@ -18,7 +18,18 @@ namespace StarWars5e.Parser.Parsers
             var tableOfContentsStart = lines.FindIndex(f => f.Contains("# Table of Contents"));
             var tableOfContentsEnd = lines.FindIndex(tableOfContentsStart + 1, f => f.StartsWith('#'));
             var tableLines = lines.Skip(tableOfContentsStart + 3).Take(tableOfContentsEnd - (tableOfContentsStart + 3))
-                .Where(f => Regex.IsMatch(f, @"^\|[a-zA-Z&]"));
+                .Where(f => Regex.IsMatch(f, @"^\|[a-zA-Z&]")).ToList();
+
+            var archetypeNames = tableLines.Select(t =>
+            {
+                t = t.Split('|')[1];
+                if (t.HasLeadingHtmlWhitespace())
+                {
+                    return t.Trim().RemoveHtmlWhitespace();
+                }
+
+                return null;
+            }).Where(t => t != null);
 
             var starWarsClass = "Berserker";
             foreach (var tableLine in tableLines)
@@ -32,7 +43,7 @@ namespace StarWars5e.Parser.Parsers
                     if (archetypeName == "Form IX: Trakata") archetypeName = "Form IX: Tr�kata";
                     var archetypeLinesStart = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
                     
-                    var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1, f => f.StartsWith("## "));
+                    var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1, f => f.StartsWith("## ") && archetypeNames.Contains(f.Split("## ")[1]));
                     var archetypeLines = lines.Skip(archetypeLinesStart);
                     if (archetypeLinesEnd != -1)
                     {

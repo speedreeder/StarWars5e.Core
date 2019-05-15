@@ -6,7 +6,7 @@
 
 <img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:78px;left:63px;width:35px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s soon as heroes get theirs hands on a starship, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;they want to modify it. The desire for faster hyperdrives, more weapons, better shields, and possibly even some space for smuggled goods generally comes before the first payment to a Hutt loan shark is due. Upgrading and modifying a starship gives players a sense of ownership that makes them more connected to a campaign, and it serves other useful purposes as well.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s soon as heroes get theirs hands on a starship, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; they want to modify it. The desire for faster hyperdrives, more weapons, better shields, and possibly even some space for smuggled goods generally comes before the first payment to a Hutt loan shark is due. Upgrading and modifying a starship gives players a sense of ownership that makes them more connected to a campaign, and it serves other useful purposes as well.
 
 Heroes who want to improve a starship have a built-in reason to take risks to earn credits (or other rewards, such as the use of the repair bay of a grateful military group). Although *Star Wars* focuses on on heroic action-adventure over the cobbling together of credits for tinkering with a ship, many characters are simply more motivated if they know there's a material reward on the line. Furthermore, a starship acts as a good base of operations, allowing heroes to have a place that seems like home even as they gallivant across the galaxy. Finally, as the heroes gain levels, a better-equipped ship prepares them for greater challenges.
 
@@ -108,6 +108,10 @@ If at any time you lose access to a modification's prerequisite, such as removal
 
 \columnbreak
 
+### Ability Score Maximums
+If a tier feature or modification would increase an ability score above its maximum without also increasing that maximum, you can instead allocate that additional ability score increase to another ability score.
+
+
 ### Changing Saving Throw Proficiency
 When a starship is created, a saving throw proficiency is chosen from a list available to the starship. Later on, however, players may want to change their starship's saving throw proficiency to another of the available options. Changing a saving throw proficiency requires time and credits as if installing a new universal modification.
 
@@ -116,28 +120,21 @@ Sometimes, characters might decide they want to remove a modification in favor o
 
 If replacing the modification at the same time as removal, the cost to remove is incurred, but the additional time to remove is not required.
 
+### Removing Tiers
+Sometimes, characters might decide they want to change a selection made for a starship tier feature. To do so, they must remove the tier from the ship, reducing the ship's tier by one. Doing so removes all features from the ship earned at the new tier, including Ability Score Improvements, additional Hit Dice, and additional modifications.
+
+Removing a starship tier requires have the cost it takes to upgrade to that tier, and takes half the time.
+
+If upgrading the ship to the tier again at the same time as removal, the cost to remove is incurred, but the additional time to remove is not required.
+
 ### Starship Tier Features
 If a modification is granted to your starship by a starship tier feature, such as the Role Specialization feature, that modification does not count against its total modifications, comes at no additional cost, and you can't voluntarily remove it. If your starship already has that modification, you may install an additional modification that is available to you.
 
 ### Modification Slots at  Tier 0
-At tier 0, each ship comes with a number of vacant modification slots, depending on their size:
-| Starship Size | Modification Slots |
-|:----:|:----:|
-| Tiny  | 2 |
-| Small  | 5 |
-| Medium  | 10 |
-| Large  | 15 |
-| Huge | 20 |
-| Gargantuan | 25 |
+At tier 0, each ship comes with a number of vacant modification slots, depending on their size, as shown in chapter 3.
 
 ### Stock Modifications
-Also at tier 0, each ship comes with the following modifications, at no additional cost, which do not count against its total modifications or suite systems.
-- **Tiny:** Droid Brain.
-- **Small:** One Fixed Hardpoint.
-- **Medium:** Hyperdrive Slot, and your choice of one Barracks, Living Quarters, or Luxury Quarters suite.
-- **Large:** Hyperdrive Slot, Navcomputer Slot, and your choice of two Barracks, Living Quarters, or Luxury Quarters suites.
-- **Huge:** Enhanced Scanner, Hyperdrive Slot, Navcomputer Slot, Escape Pod suite, and your choice of four Barracks, Living Quarters, or Luxury Quarters suites.
-- **Gargantuan:** Emergency Generator, Enhanced Communications, Enhanced Scanner, Hyperdrive Slot, Navcomputer Slot, Surge Protector, Docking Bay and Escape Pod suites, and your choice of eight Barracks, Living Quarters, or Luxury Quarters suites.
+Also at tier 0, each ship comes with a number of modifications, at no additional cost, which do not count against its total modifications or suite systems, depending on its size, as shown in chapter 3.
 
 <div class='footnote'>PART 1 | MODIFICATIONS</div>
 
@@ -854,7 +851,7 @@ _Prerequisite: Tertiary or Quaternary Weapon_<br>
 When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Dexterity modifier. The damage is of the same type dealt by the original attack.
 
 ### Fixed Hardpoint
-A fixed hardpoint is used to mount a primary, secondary, or tertiary weapon. A weapon mounted on a fixed hardpoint has a limited firing arc, as described in chapter 9. 
+A fixed hardpoint is used to mount a primary, secondary, tertiary, or quaternary weapon. A weapon mounted on a fixed hardpoint has a limited firing arc, as described in chapter 9. 
 
 ### Full Salvo Protocol
 _Prerequisite: Weapon Slave Array_<br>

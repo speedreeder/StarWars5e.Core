@@ -53,5 +53,10 @@ namespace StarWars5e.Models.Utils
 
             return output;
         }
+
+        public static IEnumerable<string> RemoveEmptyLines(this IEnumerable<string> source)
+        {
+            return source.Where(x => !string.IsNullOrEmpty(x));
+        }
     }
 }

@@ -520,7 +520,7 @@ Starting at 18th level, once per turn, when you reduce a hostile creature to 0 h
 
 \pagebreak
 
-## Artificer Modifications
+### Artificer Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
 #### Additonal Beam Port
@@ -553,7 +553,7 @@ Additionally, when you activate this conversion to alter the properties of your 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:23px'></div>
 
 #### Barrier 
 _Prerequisite: 5th level_<br>
@@ -704,7 +704,7 @@ Choose up to 10 creatures of your choice that you can see and that can hear your
 
 \pagebreak
 
-## Audiotech Modifications
+### Audiotech Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
 #### Advanced Battle Enhancement
@@ -734,7 +734,7 @@ While playing your Song of Disruption, as an action, you can choose a number of 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:23px'></div>
 
 #### Enthralling Performance
 _Prerequisite: 13th level_<br>
@@ -886,7 +886,7 @@ Starting at 18th level, when you deal acid or poison damage using a tech power o
 
 \pagebreak
 
-## Biochem Modifications
+### Biochem Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
 #### Biochemist's Amplifer
@@ -919,7 +919,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 \columnbreak
 
-<div style=margin-top:26px></div>
+<div style=margin-top:23px></div>
 
 #### Expanded Chemicals: Combustibles
 _Prerequisite: 5th level_<br>
@@ -1036,7 +1036,7 @@ Some modification effects require saving throws. When you use such an effect fro
 Lastly at 3rd level, when you miss with a tech attack roll, or a creature succeeds on a saving throw against a tech power you cast, you can expend one use of your Potent Aptitude to overwhelm them. Roll the die, and either add it to the attack roll or subtract it from their saving throw.
 
 ### Adaptable Applications
-Beginning at 6th level, when you cast a tech power, you can choose to deal additional damage or provide additional healing with that power. The additional damage or healing equals half your engineer level (rounded down).
+Beginning at 6th level, when you cast a tech power of 1st level or higher, you can choose to deal additional damage or provide additional healing with that power. The additional damage or healing equals half your engineer level (rounded down).
 
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a long rest.
 
@@ -1058,7 +1058,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 \pagebreak
 
-## Cybertech Modifications
+### Cybertech Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
 #### Advanced Biotic Amplifier
@@ -1096,7 +1096,7 @@ You gain a +1 bonus to your tech save DC. This bonus increases to +2 at 11th lev
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:23px'></div>
 
 #### Biotic Amplifier
 You integrate a biotic amplifier in your wristpad that increases the potency of your healing tech powers. While wielding this amplifier, when a creature regains hit points from a tech power you cast, you can grant them temporary hit points equal to the amount of tech points spent. This amount can't exceed the number of hit points restored.
@@ -1427,8 +1427,6 @@ Starting at 15th level, your enhanced ammunition is available whenever battle st
 At 18th level, your ammunition enhancements improve.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
-
-
 
 \pagebreak
 

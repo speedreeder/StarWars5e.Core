@@ -67,7 +67,6 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 chapter4Lines, 4,
                 "Modifications"));
 
-            
             var chapter5RulesLines =
                 GetChapter5Rules(lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex).ToList()).CleanListOfStrings().ToList();
             chapter5RulesLines[2] = chapter5RulesLines[2].Insert(0, "T");
@@ -95,11 +94,17 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 chapter8Lines, 8,
                 "Adventuring"));
 
-            var chapter9Lines = lines.Skip(chapter9StartIndex).Take(appendixAStartIndex - chapter9StartIndex).CleanListOfStrings().ToList();
+            var chapter9Lines = lines.Skip(chapter9StartIndex).Take(chapter10StartIndex - chapter9StartIndex).CleanListOfStrings().ToList();
             chapter9Lines[2] = chapter9Lines[2].Insert(0, "A");
             chapters.Add(CreateStarshipChapterRules(
                 chapter9Lines, 9,
                 "Combat"));
+
+            var chapter10Lines = lines.Skip(chapter10StartIndex).Take(appendixAStartIndex - chapter10StartIndex).CleanListOfStrings().ToList();
+            chapter10Lines[2] = chapter10Lines[2].Insert(0, "C");
+            chapters.Add(CreateStarshipChapterRules(
+                chapter10Lines, 10,
+                "Generating Encounters"));
 
             var appendixALines = lines.Skip(appendixAStartIndex).Take(lines.Count - appendixAStartIndex).CleanListOfStrings().ToList();
             appendixALines[2] = appendixALines[2].Insert(0, "C");

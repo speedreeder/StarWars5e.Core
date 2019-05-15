@@ -6,7 +6,7 @@
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he starship marketplace on the planet of Kuat <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps speed. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tote as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he starship marketplace on the planet of Kuat <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps speed. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tote as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.
 
 This chapter offers choices of certain equipment types, to be used in conjunction with the starship upgrades featured in Chapter 4. The listed prices are those appropriate to ships of a Small size; when outfitting a ship of any other size, you'll want to apply the starship size equipment cost, as shown in the Starship Size Equipment Cost table below, which differs slightly from a similar table found in Chapter 4.
 
@@ -24,8 +24,6 @@ It costs more to purchase a primary weapon for a capital ship than one for a sta
 | Gargantuan |&emsp;&emsp;x 500 |
 
 For instance, to purchase and install Deflection Armor on a Small size ship, it costs 3,100 credits. To purchase and install it on a Huge ship, however, it costs 155,000 (3,100 x 50).
-
-> For weapons, follow the Weapons by Size information. The math is the same, just simplified since weapons use two tables.
 
 ### Equipment Workforce
 Additionally, bigger ships require more people to install new equipment. For a Small ship, a single person can do everything necessary (though additionally staff will reduce the time taken), while a Medium or larger ship requires a more extensive workforce, as shown below in the Starship Size Equipment Workforce table below.
@@ -235,7 +233,7 @@ For instance, a Laser Cannon for a size Tiny ship deals 1d4 energy damage; for a
 #### Tertiary and Quaternary Weapons
 When scaling a tertiary or quaternary weapon to a size Tiny ship, reduce the damage die by one step and reduce the reload number by half. When scaling a tertiary or quaternary weapon to a size Medium ship, increase the damage die by one step and double the reload number. 
 
-For instance, a Cluster Missile Launcher for a size Tiny ship deals 2d8 energy damage and has a reload of 4; for a size Medium ship it deals 2d12 energy damage and has a reload of 16. Meanwhile, a Bomb Deployer for a size Tiny ship has a reload of 2, while a Bomblet costs deals 3d8 energy damage; for a size Medium ship the Bomb Deployer has a reload of 8, while a Bomblet deals 3d12 energy damage.
+For instance, a Cluster Missile Launcher for a size Tiny ship deals 2d8 energy damage and has a reload of 4; for a size Medium ship it deals 2d12 energy damage and has a reload of 16. Meanwhile, a Bomb Deployer for a size Tiny ship has a reload of 2, while a Bomblet deals 3d8 energy damage; for a size Medium ship the Bomb Deployer has a reload of 8, while a Bomblet deals 3d12 energy damage.
 
 ### Large to Gargantuan
 On the Ship Weapons (Huge) table, the shown values for appropriate for Huge size ships. When scaling these weapons to size Large or Gargantuan ships, there are steps that vary based on weapon type.
@@ -243,10 +241,10 @@ On the Ship Weapons (Huge) table, the shown values for appropriate for Huge size
 #### Primary and Secondary Weapons
 When scaling a primary or secondary weapon to a size Large ship, reduce the damage die by one step. When scaling a primary or secondary weapon to a size Gargantuan ship, increase the damage die by one step. 
 
-For instance, a Laser Battery for a size Large ship deals 2d4 energy damage; for a size Gargantuan ship it deals 2d8 energy damage. Meanwhile, a Heavy Slug Railgun for a size Large ship deals 4d6 kinetic damage; for a size Medium ship it deals 4d10 kinetic damage.
+For instance, a Laser Battery for a size Large ship deals 2d4 energy damage; for a size Gargantuan ship it deals 2d8 energy damage. Meanwhile, a Heavy Slug Railgun for a size Large ship deals 4d6 kinetic damage; for a size Gargantuan ship it deals 4d10 kinetic damage.
 
 #### Tertiary and Quaternary Weapons
-When scaling a tertiary or quaternary weapon to a size Large ship,  reduce the damage die by one step and reduce the reload number by half. When scaling a tertiary or quaternary weapon to a size Gargantuan ship, increase the damage die by one step and double the reload number. 
+When scaling a tertiary or quaternary weapon to a size Large ship, reduce the damage die by one step and reduce the reload number by half. When scaling a tertiary or quaternary weapon to a size Gargantuan ship, increase the damage die by one step and double the reload number. 
 
 For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy damage and has a reload of 32; for a size Gargantuan ship it deals 4d12 energy damage and has a reload of 128. Meanwhile, a Bomb Layer for a size Large ship has a reload of 16, while a Bomblet deals 6d8 energy damage; for a size Gargantuan ship the Bomb Deployer has a reload of 64, while a Bomblet deals 6d12 energy damage.
 
@@ -351,21 +349,21 @@ When a seismic charge detonates, each ship within 300 feet must make a Dexterity
 <div class='classTable'>
 
 ##### Ammunition
-|Name|Cost|
-|:---|:---:|
-|_Tertiary Weapons_||
-|&emsp;	Cluster missile 	|300 cr|
-|&emsp;	Concussion missile  |600 cr|
-|&emsp;	Ion missile         |700 cr|
-|&emsp;	Proton torpedo      |650 cr|
-|&emsp;	Rocket              |200 cr|
-|&emsp;	Thermite torpedo    |700 cr|
+|Name|Cost|Weight|
+|:---|:---:|--:|
+|_Tertiary Weapons_|||
+|&emsp;	Cluster missile 	|300 cr| 8 lb|
+|&emsp;	Concussion missile  |600 cr|16 lb|
+|&emsp;	Ion missile         |700 cr|18 lb|
+|&emsp;	Proton torpedo      |650 cr|17 lb|
+|&emsp;	Rocket              |200 cr| 6 lb|
+|&emsp;	Thermite torpedo    |700 cr|18 lb|
 |_Quaternary Weapons_||
-|&emsp;	Bomblets        	|620 cr |
-|&emsp;	EMP bomb        	|900 cr |
-|&emsp;	Proximity mine   	|650 cr |
-|&emsp;	Pulse bomb        	|700 cr |
-|&emsp;	Seismic charge   	|600 cr |
+|&emsp;	Bomblets        	|620 cr| 8 lb|
+|&emsp;	EMP bomb        	|900 cr|12 lb|
+|&emsp;	Proximity mine   	|650 cr| 9 lb|
+|&emsp;	Pulse bomb        	|700 cr|14 lb|
+|&emsp;	Seismic charge   	|600 cr|11 lb|
 
 </div>
 

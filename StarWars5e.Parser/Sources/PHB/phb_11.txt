@@ -1,4 +1,8 @@
 
+    width: 800px;
+  }
+  body {counter-reset: phb-page-numbers 191;}
+</style>
 
 # Chapter 11: Force Powers
 
@@ -18,15 +22,15 @@ ___
 - <div style="color:blue">Guidance</div>
 - <div style="color:red">Lightning Charge</div>
 - Mind Trick
-- <div style="color:red">Necrotic Charge*</div>
-- <div style="color:red">Psychic Charge*</div>
+- <div style="color:red">Necrotic Charge</div>
+- <div style="color:red">Psychic Charge</div>
 - Resistance
 - Saber Reflect
 - Saber Throw
 - Saber Ward
 - <div style="color:red">Shock</div>
 - <div style="color:red">Slow</div>
-- Sonic Charge*
+- Sonic Charge
 - <div style="color:blue">Spare the Dying</div>
 - <div style="color:blue">Turbulence</div>
 
@@ -38,15 +42,15 @@ ___
 - Burst of Speed
 - <div style="color:blue">Cloud Mind</div>
 - <div style="color:red">Curse</div>
-- <div style="color:red">Dark Side Tendrils*</div>
+- <div style="color:red">Dark Side Tendrils</div>
 - Disperse Force
 - <div style="color:red">Fear</div>
 - Force Body
 - Force Jump
-- Force Mask*
-- Force Throw*
+- Force Mask
+- Force Throw
 - <div style="color:blue">Heal</div>
-- <div style="color:blue">Heroism*</div>
+- <div style="color:blue">Heroism</div>
 - <div style="color:red">Hex</div>
 - <div style="color:red">Improved Feedback</div>
 - Phasestrike
@@ -69,8 +73,8 @@ ___
 - Battle Meditation
 - <div style="color:blue">Calm Emotions</div>
 - Coerce Mind
-- Danger Sense*
-- <div style="color:red">Dark Shear*</div>
+- Danger Sense
+- <div style="color:red">Dark Shear</div>
 - <div style="color:red">Darkness</div>
 - <div style="color:red">Drain Vitality</div>
 - <div style="color:blue">Force Barrier</div>
@@ -79,20 +83,20 @@ ___
 - Force Confusion
 - <div style="color:blue">Force Enlightenment</div>
 - Force Sight
-- <div style="color:red">Hallucination*</div>
+- <div style="color:red">Hallucination</div>
 - Locate Object
 - <div style="color:red">Mind Spike</div>
 - Phasewalk
 - Rescue
-- <div style="color:blue">Restoration*</div>
+- <div style="color:blue">Restoration</div>
 - <div style="color:blue">Stun</div>
 - <div style="color:blue">Stun Droid</div>
 
 #### 3rd-level
 ___
 - <div style="color:blue">Aura of Vigor</div>
-- <div style="color:blue">Beacon of Hope*</div>
-- <div style="color:red">Bestow Curse*</div>
+- <div style="color:blue">Beacon of Hope</div>
+- <div style="color:red">Bestow Curse</div>
 - <div style="color:red">Choke</div>
 - Convulsion
 - <div style="color:red">Force Lightning</div>
@@ -101,7 +105,7 @@ ___
 - Force Suppression
 - <div style="color:blue">Force Trance</div>
 - <div style="color:red">Horror</div>
-- <div style="color:red">Improved Dark Side Tendrils*</div>
+- <div style="color:red">Improved Dark Side Tendrils</div>
 
 \columnbreak
 
@@ -109,10 +113,10 @@ ___
 - Knight Speed
 - <div style="color:red">Plague</div>
 - <div style="color:blue">Plant Surge</div>
-- <div style="color:blue">Remove Curse*</div>
+- <div style="color:blue">Remove Curse</div>
 - Sever Force
 - <div style="color:blue">Share Life</div>
-- <div style="color:blue">Telekinetic Storm*</div>
+- <div style="color:blue">Telekinetic Storm</div>
 
 #### 4th-level
 ___
@@ -123,7 +127,7 @@ ___
 - Force Immunity
 - Freedom of Movement
 - <div style="color:blue">Grasping Vine</div>
-- <div style="color:red">Hysteria*</div>
+- <div style="color:red">Hysteria</div>
 - Improved Force Camouflage
 - Locate Creature
 - Mind Trap*
@@ -136,12 +140,12 @@ ___
 - Force Breach
 - <div style="color:red">Greater Feedback</div>
 - Improved Battle Meditation
-- <div style="color:blue">Improved Force Barrier*</div>
+- <div style="color:blue">Improved Force Barrier</div>
 - <div style="color:red">Improved Force Scream</div>
 - <div style="color:blue">Improved Heal</div>
 - Improved Phasestrike
 - Improved Phasewalk
-- <div style="color:blue">Improved Restoration*</div>
+- <div style="color:blue">Improved Restoration</div>
 - <div style="color:red">Insanity</div>
 - Mass Animation*
 - <div style="color:blue">Revitalize</div>
@@ -155,7 +159,7 @@ ___
 - <div style="color:red">Crush</div>
 - Eruption
 - <div style="color:red">Force Chain Lightning</div>
-- <div style="color:blue">Greater Heal*</div>
+- <div style="color:blue">Greater Heal</div>
 
 \columnbreak
 
@@ -167,7 +171,7 @@ ___
 - <div style="color:blue">Telekinetic Burst</div>
 - True Sight*
 - <div style="color:blue">Wall of Light</div>
-- <div style="color:red">Wrack*</div>
+- <div style="color:red">Wrack</div>
 
 #### 7th-level 
 ___
@@ -188,7 +192,7 @@ ___
 - Force Link
 - <div style="color:red">Maddening Darkness</div>
 - Master Force Immunity
-- <div style="color:blue">Master Force Barrier*</div>
+- <div style="color:blue">Master Force Barrier</div>
 - <div style="color:red">Master Force Scream</div>
 - Mind Blank
 - <div style="color:blue">Stasis Field</div>
@@ -200,7 +204,7 @@ ___
 - <div style="color:red">Kill</div>
 - Master Battle Meditation
 - <div style="color:blue">Master Heal</div>
-- <div style="color:red">Mass Hysteria*</div>
+- <div style="color:red">Mass Hysteria</div>
 - <div style="color:blue">Master Revitalize</div>
 - Precognition
 - <div style="color:red">Master Feedback</div>
@@ -670,7 +674,7 @@ ___
 
 You draw the life force from a creature you can see within range. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature to 0, you gain temporary hit points equal to half the damage dealt. This power has no effect on droids or constructs.
 
-***Force Potenecy.*** When you cast this power using a force slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
+***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
 
 #### Drain Vitality
 _2nd-level dark side power_
@@ -1079,7 +1083,7 @@ Choose one creature, object, or force effect within range. Any force power of 3r
 _At-will light side power_
 ___
 - **Casting Time:** 1 action
-- **Range:** 5 feet
+- **Range:** Varies
 - **Duration:** 1 round
 
 You imbue your weapon with the purifying light of the Force. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a glowing barrier of force energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 force damage, and the power ends.
@@ -1276,7 +1280,7 @@ ___
 - **Range:** Self (15-foot radius)
 - **Duration:** Concentration, up to 1 minute
 
-You exude an aura out to 10 feet that boosts the morale and overall battle prowess you and your allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to fight. 
+You exude an aura out to 15 feet that boosts the morale and overall battle prowess you and your allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to fight. 
 
 Whenever you or a friendly creature within your meditation makes an attack roll or a saving throw, they can roll a d6 and add the number rolled to the attack roll or saving throw. 
 
@@ -1481,7 +1485,7 @@ Choose a willing creature that you can see within range. Until the power ends, t
 _At-will dark side power_
 ___
 - **Casting Time:** 1 action
-- **Range:** 5 feet
+- **Range:** Varies
 - **Duration:** 1 round
 
 You imbue your weapon with debilitating force lightning. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and the lightning leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes lightning damage equal to your forcecasting ability modifier.
@@ -1625,7 +1629,7 @@ This power massively bolsters your allies with toughness and resolve. Creatures 
 _8th-level universal power_
 ___
 - **Prerequisite:** Improved Force Immunity
-- **Casting Time:** 1 acion
+- **Casting Time:** 1 action
 - **Range:** Self (10-foot-radius sphere)
 - **Duration:** Concentration, up to 1 hour
 
@@ -1755,7 +1759,7 @@ On a successful save, the creature realizes that you tried to use the Force to i
 _At-will dark side power_
 ___
 - **Casting Time:** 1 action
-- **Range:** 5 feet
+- **Range:** Varies
 - **Duration:** 1 round
 
 As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you can choose to deal up to 1d8 of necrotic damage, which you suffer as well. This damage can't be reduced or negated in any way. 
@@ -1840,7 +1844,7 @@ You lift three piles of debris or small objects from the ground and hurl them. E
 _At-will dark side power_
 ___
 - **Casting Time:** 1 action
-- **Range:** 5 feet
+- **Range:** Varies
 - **Duration:** 1 round
 
 As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and its mouth is covered by a violet veil until the start of your next turn. If the target willingly speaks before then, it immediately takes 1d8 psychic damage, and the power ends.
@@ -1916,7 +1920,7 @@ This power also neutralizes any poisons and cures diseases that affected the cre
 
 This power closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the power automatically fails.
 
-Coming back from the dead is an ordeal. The target takes a - 4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
+Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
 <div class='footnote'>PART 3 | FORCE POWERS</div>
 
@@ -2100,7 +2104,7 @@ Until the power ends, you have resistance to force damage. In addition, whenever
 #### Siphon Life
 _5th-level dark side power_
 ___
-- **Prerequisite:** Siphon Life
+- **Prerequisite:** Drain Life
 - **Casting Time:** 1 action
 - **Range:** 60 feet
 - **Duration:** Concentration, up to 1 minute
@@ -2148,7 +2152,7 @@ Choose up to five falling creatures within range. A falling creature's rate of d
 _At-will universal power_
 ___
 - **Casting Time:** 1 action
-- **Range:** 5 feet
+- **Range:** Varies
 - **Duration:** 1 round
 
 As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you begin to emanate a disturbing hum until the start of your next turn. If a hostile creature ends its turn within 5 feet of you, it takes 1d4 sonic damage.

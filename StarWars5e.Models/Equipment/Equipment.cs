@@ -61,6 +61,13 @@ namespace StarWars5e.Models.Equipment
             set => Properties = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
+        public Dictionary<string, string> PropertiesMap { get; set; }
+        public string PropertiesMapJson
+        {
+            get => PropertiesMap == null ? "" : JsonConvert.SerializeObject(PropertiesMap);
+            set => PropertiesMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(value);
+        }
+
         public List<Equipment> Modes { get; set; }
         public string ModesJson
         {
