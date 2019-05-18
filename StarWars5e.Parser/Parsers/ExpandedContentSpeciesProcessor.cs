@@ -356,7 +356,7 @@ namespace StarWars5e.Parser.Parsers
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass02_01.png");
                         break;
                     case "Dug":
-                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_dug.jpg");
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_dug.png");
                         break;
                     case "Duros":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_duros.png");

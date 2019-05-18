@@ -40,17 +40,17 @@ namespace StarWars5e.Parser.Parsers.SOTG
             var navcomputerTableEndIndex = lines.FindIndex(navcomputerTableStartIndex, string.IsNullOrWhiteSpace);
             var navcomputerTableLines = lines.Skip(navcomputerTableStartIndex).Take(navcomputerTableEndIndex - navcomputerTableStartIndex).ToList();
 
-            starshipEquipment.AddRange(CreateArmorAndShields(armorTableLines));
+            starshipEquipment.AddRange(CreateArmorAndShields(armorTableLines, lines));
             starshipEquipment.AddRange(CreateWeapons(smallWeaponTableLines, true));
             starshipEquipment.AddRange(CreateWeapons(hugeWeaponTableLines, false));
-            starshipEquipment.AddRange(CreateAmmunition(ammunitionTableLines));
+            starshipEquipment.AddRange(CreateAmmunition(ammunitionTableLines, lines));
             starshipEquipment.AddRange(CreateHyperdrives(hyperdriveTableLines));
             starshipEquipment.AddRange(CreateNavcomputers(navcomputerTableLines));
 
             return Task.FromResult(starshipEquipment);
         }
 
-        private static IEnumerable<StarshipEquipment> CreateArmorAndShields(List<string> armorTableLines)
+        private static IEnumerable<StarshipEquipment> CreateArmorAndShields(List<string> armorTableLines, List<string> allLines)
         {
             var armorAndShields = new List<StarshipEquipment>();
 
@@ -67,6 +67,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var armor = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Core.ToString(),
+                    ContentType = ContentType.Core.ToString(),
                     RowKey = armorColumns[1],
                     TypeEnum = StarshipEquipmentType.Armor,
                     Name = armorColumns[1],
@@ -74,6 +75,14 @@ namespace StarWars5e.Parser.Parsers.SOTG
                     ArmorClassBonus = int.TryParse(armorColumns[3], out var acBonus) ? acBonus : 0,
                     HitPointsPerHitDie = int.TryParse(armorColumns[4], out var hpPerHd) ? hpPerHd : 0
                 };
+
+                var armorDescriptionStart = allLines.FindIndex(f => f.Contains($"#### {armor.Name}", StringComparison.InvariantCultureIgnoreCase));
+                if (armorDescriptionStart != -1)
+                {
+                    var armorDescriptionEnd = allLines.FindIndex(armorDescriptionStart, string.IsNullOrWhiteSpace);
+                    armor.Description = string.Join("\r\n", allLines.Skip(armorDescriptionStart + 1)
+                        .Take(armorDescriptionEnd - (armorDescriptionStart + 1)).CleanListOfStrings());
+                }
 
                 armorAndShields.Add(armor);
             }
@@ -84,15 +93,22 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var shield = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Core.ToString(),
+                    ContentType = ContentType.Core.ToString(),
                     RowKey = shieldColumns[1],
                     TypeEnum = StarshipEquipmentType.Shield,
                     Name = shieldColumns[1],
-                    Cost = int.TryParse(shieldColumns[2].Replace(" cr", string.Empty), out var cost) ? cost : 0,
-                    CapacityMultiplier = decimal.TryParse(shieldColumns[5].Replace("x ", string.Empty), out var capacityMultiplier) ? capacityMultiplier : 0,
-                    RegenerationRateCoefficient = decimal.Parse(
-                        shieldColumns[6].Replace("x ", string.Empty)
-                    )
+                    Cost = int.TryParse(shieldColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands, null, out var cost) ? cost : 0,
+                    CapacityMultiplier = shieldColumns[5].Trim(),
+                    RegenerationRateCoefficient = shieldColumns[6].Trim()
                 };
+
+                var shieldDescriptionStart = allLines.FindIndex(f => f.Contains($"#### {shield.Name}", StringComparison.InvariantCultureIgnoreCase));
+                if (shieldDescriptionStart != -1)
+                {
+                    var shieldDescriptionEnd = allLines.FindIndex(shieldDescriptionStart, string.IsNullOrWhiteSpace);
+                    shield.Description = string.Join("\r\n", allLines.Skip(shieldDescriptionStart + 1)
+                        .Take(shieldDescriptionEnd - (shieldDescriptionStart + 1)).CleanListOfStrings());
+                }
 
                 armorAndShields.Add(shield);
             }
@@ -120,6 +136,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                     var weapon = new StarshipEquipment
                     {
                         PartitionKey = ContentType.Core.ToString(),
+                        ContentType = ContentType.Core.ToString(),
                         RowKey = weaponColumns[1].RemoveHtmlWhitespace().Trim(),
                         TypeEnum = StarshipEquipmentType.Weapon,
                         WeaponSizeEnum = isSmallWeapons ? StarshipWeaponSize.Small : StarshipWeaponSize.Huge,
@@ -175,7 +192,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
             return weapons;
         }
 
-        private static IEnumerable<StarshipEquipment> CreateAmmunition(IList<string> ammunitionTableLines)
+        private static IEnumerable<StarshipEquipment> CreateAmmunition(IList<string> ammunitionTableLines, List<string> allLines)
         {
             var ammunitionList = new List<StarshipEquipment>();
 
@@ -195,12 +212,22 @@ namespace StarWars5e.Parser.Parsers.SOTG
                     var ammunition = new StarshipEquipment
                     {
                         PartitionKey = ContentType.Core.ToString(),
+                        ContentType = ContentType.Core.ToString(),
                         RowKey = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
                         TypeEnum = StarshipEquipmentType.Ammunition,
                         StarshipWeaponCategoryEnum = weaponCategory,
                         Name = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
                         Cost = int.Parse(ammunitionColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands)
                     };
+
+                    var ammunitionDescriptionStart = allLines.FindIndex(f => f.Contains($"#### {ammunition.Name}", StringComparison.InvariantCultureIgnoreCase));
+                    if (ammunitionDescriptionStart != -1)
+                    {
+                        var ammunitionDescriptionEnd = allLines.FindIndex(ammunitionDescriptionStart, string.IsNullOrWhiteSpace);
+                        ammunition.Description = string.Join("\r\n", allLines.Skip(ammunitionDescriptionStart + 1)
+                            .Take(ammunitionDescriptionEnd - (ammunitionDescriptionStart + 1)).CleanListOfStrings());
+                    }
+
                     ammunitionList.Add(ammunition);
                 }
             }
@@ -220,6 +247,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var hyperdrive = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Core.ToString(),
+                    ContentType = ContentType.Core.ToString(),
                     RowKey = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Hyperdrive,
                     Name = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
@@ -243,6 +271,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 var navcomputer = new StarshipEquipment
                 {
                     PartitionKey = ContentType.Core.ToString(),
+                    ContentType = ContentType.Core.ToString(),
                     RowKey = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Navcomputer,
                     Name = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),

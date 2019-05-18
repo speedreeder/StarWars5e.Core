@@ -23,8 +23,8 @@ namespace StarWars5e.Models.Starship
         public int? HitPointsPerHitDie { get; set; }
         public string HyperDriveClass { get; set; }
         public int NavcomputerBonus { get; set; }
-        public decimal CapacityMultiplier { get; set; }
-        public decimal RegenerationRateCoefficient { get; set; }
+        public string CapacityMultiplier { get; set; }
+        public string RegenerationRateCoefficient { get; set; }
         public StarshipWeaponCategory WeaponCategoryEnum { get; set; }
         public string WeaponCategory
         {
@@ -52,5 +52,6 @@ namespace StarWars5e.Models.Starship
         public int LongRange { get; set; }
         public int Reload { get; set; }
         public string Properties { get; set; }
+        public string Description { get; set; }
     }
 }
