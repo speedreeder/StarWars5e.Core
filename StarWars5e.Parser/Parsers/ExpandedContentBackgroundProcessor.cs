@@ -108,7 +108,7 @@ namespace StarWars5e.Parser.Parsers
                         Roll = int.Parse(Regex.Match(f, @"\d").Value)
                     }).ToList();
 
-                var personalityTraitTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|.*Personality.*Trait.*\|"));
+                var personalityTraitTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|\s*Personality\s*Trait[s]?\s*\|"));
                 var personalityTraitTableDieType = Regex.Match(backgroundLines[personalityTraitTableLinesStart], @"\d+").Value;
                 var personalityTraitTableLinesEnd = backgroundLines.FindIndex(personalityTraitTableLinesStart, f => Regex.IsMatch(f, @"\|\s*" + $"{personalityTraitTableDieType}" + @"\s*\|"));
                 var personalityTraitTableLines = backgroundLines.Skip(personalityTraitTableLinesStart).Take(personalityTraitTableLinesEnd - personalityTraitTableLinesStart + 1)
@@ -120,7 +120,7 @@ namespace StarWars5e.Parser.Parsers
                         Roll = int.Parse(Regex.Match(f, @"\d").Value)
                     }).ToList();
 
-                var idealTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|.*Ideal.*\|"));
+                var idealTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|\s*Ideal[s]?\s*\|"));
                 var idealTableDieType = Regex.Match(backgroundLines[idealTableLinesStart], @"\d+").Value;
                 var idealTableLinesEnd = backgroundLines.FindIndex(idealTableLinesStart, f => Regex.IsMatch(f, @"\|\s*" + $"{idealTableDieType}" + @"\s*\|"));
                 var idealTableLines = backgroundLines.Skip(idealTableLinesStart).Take(idealTableLinesEnd - idealTableLinesStart + 1)
@@ -133,7 +133,7 @@ namespace StarWars5e.Parser.Parsers
                         Description = f.Split("**")[2].TrimStart('.', ',').TrimEnd('|').Trim()
                     }).ToList();
 
-                var bondTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|.*Bond.*\|"));
+                var bondTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|\s*Bond[s]?\s*\|"));
                 var bondTableDieType = Regex.Match(backgroundLines[bondTableLinesStart], @"\d+").Value;
                 var bondTableLinesEnd = backgroundLines.FindIndex(bondTableLinesStart, f => Regex.IsMatch(f, @"\|\s*" + $"{bondTableDieType}" + @"\s*\|"));
                 var bondTableLines = backgroundLines.Skip(bondTableLinesStart).Take(bondTableLinesEnd - bondTableLinesStart + 1)
@@ -145,7 +145,7 @@ namespace StarWars5e.Parser.Parsers
                         Roll = int.Parse(Regex.Match(f, @"\d").Value)
                     }).ToList();
 
-                var flawTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|.*Flaw.*\|"));
+                var flawTableLinesStart = backgroundLines.FindIndex(f => Regex.IsMatch(f, @"\|\s*Flaw[s]?\s*\|"));
                 var flawTableDieType = Regex.Match(backgroundLines[flawTableLinesStart], @"\d+").Value;
                 var flawTableLinesEnd = backgroundLines.FindIndex(flawTableLinesStart, f => Regex.IsMatch(f, @"\|\s*" + $"{flawTableDieType}" + @"\s*\|"));
                 var flawTableLines = backgroundLines.Skip(flawTableLinesStart).Take(flawTableLinesEnd - flawTableLinesStart + 1)
