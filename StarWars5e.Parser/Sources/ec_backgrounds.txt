@@ -2,18 +2,17 @@
 
 ## Changelog
 ### New Backgrounds
-- Dathomir Witch (1/21/2019)
+- (Un)retired Adventurer (**5/17/2019**)
+- Dathomir Witch (**1/21/2019**)
+- Clone Trooper (**10/9/2018**)
+- Crime Lord (**10/9/2018**)
 
-### 10/9/2018
-#### Miscellaneous
-- Formatting adjustments
+\columnbreak
 
-#### New Backgrounds
-- Clone Trooper
-- Crime Lord
+<div style='margin-top:26px'></div>
 
-#### And, as always
-- Minor text fixes
+### Miscellaneous
+- Formatting adjustments (**10/9/2018**)
 
 \pagebreak
 
@@ -42,7 +41,8 @@
 |Outlaw             |20|
 |Servant            |21|
 |Student            |22|
-|Urchin             |23|
+|(Un)retired Adventurer     |23|
+|Urchin             |24|
 
 </div>
 
@@ -72,7 +72,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|1|Animal Handler
+|1|Animal Handler|
 |2|Brawny|
 |3|Naturalist|
 |4|Survivalist|
@@ -1838,6 +1838,91 @@ Cloistered scholars are defined by their extensive studies, and their characteri
 
 \pagebreak
 
+## (Un)Retired Adventurer
+"I'm getting too old for this stuff."
+
+You spent your life as an adventurer, learning the use of many skills and basic survival techniques, including how to stay alive in a hostile area. You might have been part of a famous adventuring party or a less renowned one.
+
+When you choose this background, work with your GM to determine the details of your previous adventuring party, and what kind of experiences you had in your adventuring career. How famous was your previous adventuring party and how well known are you? What did you learn? What was your group's specialty?
+___
+- **Skill Proficiencies:** Choose two from Athletics, Insight, Lore, and Survival
+- **Tool Proficiencies**: One type of artisan's tools
+- **Languages:** One of your choice
+- **Equipment:** A grappling hook, one tool with which you are proficient, a memento of an unsuccessful expedition (map to a never found treasure, lock of hair from a fallen companion, or another trinket),  and a pouch containing your last 50 cr
+
+### Feature: Bridges Not Yet Burned
+Throughout your adventures you have established a multitude of contacts from all walks of life, but the intervening years have seen those relationships strained. You may use any feature of any other background, but once a particular feature is used, that feature can't be used again until one year has passed.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Brawny|
+|2|Empathic|
+|3|Loremaster|
+|4|Survivalist|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Crafter|
+|6|Linguist|
+|7|Athlete|
+|8|Observant|
+
+</div>
+
+#### Suggested Characteristics
+The trials and triumphs of retired adventurers have left an impact, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:----------|
+|1|I'm always polite and respectful.|
+|2|I'm haunted by memories of war. I can't get the images of violence out of my mind.|
+|3|I've lost too many friends, and I'm slow to make new ones.|
+|4|I'm full of inspiring and cautionary tales from my adventuring experience relevant to almost every combat situation.|
+|5|I can stare down a rancor without flinching.|
+|6|I enjoy being strong and like breaking things.|
+|7|I have a crude sense of humor. |
+|8|I face problems head-on. A simple, direct solution is the best path to success.|
+
+|d6|Ideal|
+|:---:|:----------|
+|1|**Greater Good**. Our lot is to lay down our lives in defense of others. (Light)|
+|2|**Responsibility**. I do what I must and obey just authority. (Lawful)|
+|3|**Independence**. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)|
+|4|**Might**. In life as in war, the stronger force wins. (Dark)|
+|5|**Live and Let Live**. Ideals aren't worth killing over or going to war for. (Neutral)|
+|6|**Nation**. My city, nation, or people are all that matter. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I would still lay down my life for the people I adventured with.|
+|2|Someone saved my life when they could have left me. To this day, I will never leave a friend behind.|
+|3|My honor is my life.|
+|4|I'll never forget the crushing defeat my party suffered or the enemies who dealt it.|
+|5|Those who fight beside me are those worth dying for.|
+|6|I fight for those who cannot fight for themselves.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|The monstrous enemy we faced in battle still leaves me quivering with fear.|
+|2|I have little respect for anyone who is not a proven adventurer.|
+|3|I made a terrible mistake in battle cost many lives— and I would do anything to keep that mistake secret.|
+|4|My hatred of my enemies is blind and unreasoning.|
+|5|I obey the law, even if the law causes misery.|
+|6|I'd rather eat my armor than admit when I'm wrong.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
 ## Urchin
 You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.
 
@@ -1917,3 +2002,5 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 |6|People who can't take care of themselves get what they deserve.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak

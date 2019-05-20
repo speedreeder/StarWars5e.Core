@@ -59,6 +59,7 @@ namespace StarWars5e.Models.Monster
             set => Skills = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
+        public List<string> DamageImmunities => DamageImmunitiesParsed.Select(d => d.ToString()).ToList();
         public List<DamageType> DamageImmunitiesParsed { get; set; }
         public string DamageImmunitiesParsedJson
         {
@@ -71,7 +72,8 @@ namespace StarWars5e.Models.Monster
             get => DamageImmunitiesOther == null ? "" : JsonConvert.SerializeObject(DamageImmunitiesOther);
             set => DamageImmunitiesOther = JsonConvert.DeserializeObject<List<string>>(value);
         }
-        
+
+        public List<string> DamageResistances => DamageResistancesParsed.Select(d => d.ToString()).ToList();
         public List<DamageType> DamageResistancesParsed { get; set; }
         public string DamageResistancesParsedJson
         {
@@ -84,6 +86,8 @@ namespace StarWars5e.Models.Monster
             get => DamageResistancesOther == null ? "" : JsonConvert.SerializeObject(DamageResistancesOther);
             set => DamageResistancesOther = JsonConvert.DeserializeObject<List<string>>(value);
         }
+
+        public List<string> DamageVulnerabilities => DamageVulnerabilitiesParsed.Select(d => d.ToString()).ToList();
 
         public List<DamageType> DamageVulnerabilitiesParsed { get; set; }
         public string DamageVulnerabilitiesParsedJson
@@ -98,6 +102,7 @@ namespace StarWars5e.Models.Monster
             set => DamageVulnerabilitiesOther = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
+        public List<string> ConditionImmunities => ConditionImmunitiesParsed.Select(d => d.ToString()).ToList();
         public List<Condition> ConditionImmunitiesParsed { get; set; }
         public string ConditionImmunitiesParsedJson
         {
