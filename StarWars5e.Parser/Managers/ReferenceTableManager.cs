@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using StarWars5e.Models;
-using StarWars5e.Models.Species;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -25,11 +24,12 @@ namespace StarWars5e.Parser.Managers
             _referenceTableProcessor = new ReferenceTableProcessor();
         }
 
-        public async Task Parse()
+        public async Task<List<ReferenceTable>> Parse()
         {
             var tables = await _referenceTableProcessor.Process(_referenceTableFileNames);
             await _tableStorage.AddBatchAsync<ReferenceTable>("referenceTables", tables,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            return tables;
         }
     }
 }

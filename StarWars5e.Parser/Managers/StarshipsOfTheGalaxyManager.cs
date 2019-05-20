@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
@@ -43,9 +44,22 @@ namespace StarWars5e.Parser.Managers
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("starships-rules");
         }
 
-        public async Task Parse()
+        public async Task Parse(List<ReferenceTable> referenceTables = null)
         {
             var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName);
+
+            if (referenceTables != null)
+            {
+                foreach (var chapterRule in rules)
+                {
+                    foreach (var referenceTable in referenceTables)
+                    {
+                        chapterRule.ContentMarkdown = Regex.Replace(chapterRule.ContentMarkdown,
+                            $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]", RegexOptions.IgnoreCase);
+                    }
+                }
+            }
+
             await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
             foreach (var chapterRules in rules)
             {
@@ -57,14 +71,70 @@ namespace StarWars5e.Parser.Managers
 
             var deployments =
                 await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList());
+
+            if (referenceTables != null)
+            {
+                foreach (var deployment in deployments)
+                {
+                    foreach (var referenceTable in referenceTables)
+                    {
+                        if (deployment.Features != null)
+                        {
+                            foreach (var deploymentFeature in deployment.Features)
+                            {
+                                if (deploymentFeature.Content != null)
+                                {
+                                    deploymentFeature.Content = Regex.Replace(deploymentFeature.Content,
+                                        $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]",
+                                        RegexOptions.IgnoreCase);
+                                }
+                            }   
+                        }
+                    }
+                }
+            }
+
             await _tableStorage.AddBatchAsync<StarshipDeployment>("starshipDeployments", deployments,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
+
             var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList());
+
+            if (referenceTables != null)
+            {
+                foreach (var starshipEquipment in equipment)
+                {
+                    if (starshipEquipment.Description != null)
+                    {
+                        foreach (var referenceTable in referenceTables)
+                        {
+                            starshipEquipment.Description = Regex.Replace(starshipEquipment.Description,
+                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]", RegexOptions.IgnoreCase);
+                        }
+                    }
+                }
+            }
+
             await _tableStorage.AddBatchAsync<StarshipEquipment>("starshipEquipment", equipment,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList());
+
+            if (referenceTables != null)
+            {
+                foreach (var modification in modifications)
+                {
+                    if (modification.Content != null)
+                    {
+                        foreach (var referenceTable in referenceTables)
+                        {
+                            modification.Content = Regex.Replace(modification.Content,
+                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]", RegexOptions.IgnoreCase);
+                        }
+                    }
+                }
+            }
+
             await _tableStorage.AddBatchAsync<StarshipModification>("starshipModifications", modifications,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
