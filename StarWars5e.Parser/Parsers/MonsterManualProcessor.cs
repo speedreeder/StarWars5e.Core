@@ -178,7 +178,7 @@ namespace StarWars5e.Parser.Parsers
                     if (secondTripleHash != -1)
                     {
                         traitLines = monsterLines.Skip(firstTripleHash).Take(secondTripleHash - firstTripleHash)
-                            .ToList();
+                            .CleanListOfStrings().ToList();
                         var behaviorType = DetermineBehaviorType(monsterLines[firstTripleHash]);
                         monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
 
@@ -186,24 +186,24 @@ namespace StarWars5e.Parser.Parsers
                         if (thirdTripleHash != -1)
                         {
                             traitLines = monsterLines.Skip(secondTripleHash).Take(thirdTripleHash - secondTripleHash)
-                                .ToList();
+                                .CleanListOfStrings().ToList();
                             behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
                             monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
 
-                            traitLines = monsterLines.Skip(thirdTripleHash).ToList();
+                            traitLines = monsterLines.Skip(thirdTripleHash).CleanListOfStrings().ToList();
                             behaviorType = DetermineBehaviorType(monsterLines[thirdTripleHash]);
                             monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
                         }
                         else
                         {
-                            traitLines = monsterLines.Skip(secondTripleHash).ToList();
+                            traitLines = monsterLines.Skip(secondTripleHash).CleanListOfStrings().ToList();
                             behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
                             monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
                         }
                     }
                     else
                     {
-                        traitLines = monsterLines.Skip(firstTripleHash).ToList();
+                        traitLines = monsterLines.Skip(firstTripleHash).CleanListOfStrings().ToList();
                         var result = Enumerable.Range(0, traitLines.Count)
                             .Where(i => traitLines[i].StartsWith("> ***") || traitLines[i].StartsWith(">***"))
                             .ToList();
@@ -286,11 +286,11 @@ namespace StarWars5e.Parser.Parsers
                     var baseLineSplit = baseLine.Split(new[] {"**", "**"}, StringSplitOptions.None);
                     var parenIndex = baseLineSplit[1].IndexOf('(');
 
-                    var name = baseLineSplit[1].Trim();
+                    var name = baseLineSplit[1].Trim().Replace(".", string.Empty);
                     string restrictions = null;
                     if (parenIndex != -1)
                     {
-                        name = baseLineSplit[1].Remove(parenIndex).Trim().Replace(".", string.Empty);
+                        name = baseLineSplit[1].Remove(parenIndex).Trim();
 
                         var restrictionsSplit = baseLine.Split('(', ')');
                         if (restrictionsSplit.ElementAtOrDefault(1) != null)
@@ -303,7 +303,7 @@ namespace StarWars5e.Parser.Parsers
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
                         Name = name,
-                        Description = string.Join("\r\n", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() }),
+                        Description = string.Join(" ", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() }).RemoveMarkdownCharacters(),
                         Restrictions = restrictions
                     };
 
@@ -335,7 +335,7 @@ namespace StarWars5e.Parser.Parsers
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
                         Name = name,
-                        Description = string.Join("\r\n", description),
+                        Description = string.Join(" ", description).RemoveMarkdownCharacters(),
                         Restrictions = restrictions
                     };
 
