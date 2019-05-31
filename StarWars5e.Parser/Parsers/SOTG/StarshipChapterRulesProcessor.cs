@@ -67,10 +67,12 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 chapter4Lines, 4,
                 "Modifications"));
 
-            var chapter5RulesLines =
-                GetChapter5Rules(lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex).ToList()).CleanListOfStrings().ToList();
-            chapter5RulesLines[2] = chapter5RulesLines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(chapter5RulesLines, 5, "Equipment"));
+            var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
+            chapters.Add(CreateStarshipChapterRules(
+                chapter5Lines, 6,
+                "Equipment"));
 
             var chapter6EndIndex = lines.FindIndex(lines.FindIndex(chapter6StartIndex, f => f == "## Ventures"), f => f.StartsWith("### "));
             var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex)
@@ -115,7 +117,8 @@ namespace StarWars5e.Parser.Parsers.SOTG
             return Task.FromResult(chapters);
         }
 
-        private static ChapterRules CreateStarshipChapterRules(IEnumerable<string> chapterLines, int chapterNumber, string chapterName)
+        private static ChapterRules CreateStarshipChapterRules(IEnumerable<string> chapterLines, int chapterNumber,
+            string chapterName, string joinString = "\r\n", bool shouldCleanMarkdown = false)
         {
             var chapter = new ChapterRules
             {
@@ -123,7 +126,9 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 RowKey = chapterNumber.ToString(),
                 ChapterNumber = chapterNumber,
                 ChapterName = chapterName,
-                ContentMarkdown = string.Join("\r\n", chapterLines)
+                ContentMarkdown = shouldCleanMarkdown
+                    ? string.Join("\r\n", chapterLines).RemoveMarkdownCharacters()
+                    : string.Join("\r\n", chapterLines)
             };
             return chapter;
         }

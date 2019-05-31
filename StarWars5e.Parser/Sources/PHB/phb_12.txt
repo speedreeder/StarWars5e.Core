@@ -7,61 +7,61 @@
 #### At-Will
 ___
 - Acid Splash
-- Acidic Strike*
+- Acidic Strike
 - Assess the Situation
-- Combustive Shot*
+- Combustive Shot
 - Cryogenic Burst
 - Electrical Burst
 - Electroshock
 - Encrypted Message
-- Illusory Strike*
+- Illusory Strike
 - Ion Blast
-- Ionic Strike*
+- Ionic Strike
 - Jet of Flame
 - Light
 - Mending
 - Minor Hologram
 - Mobile Lights
-- On/Off*
+- On/Off
 - Poison Spray
 - Rime Shot
-- Rime Strike*
-- Sonic Shot*
-- Sonic Strike*
+- Rime Strike
+- Sonic Shot
+- Sonic Strike
 - Storming Shot
-- Targeting Shot*
+- Targeting Shot
 - Temporary Boost
-- Venomous Strike*
+- Venomous Strike
 - Vortex Shot
 - Ward
-- Warding Shot*
+- Warding Shot
 
 #### 1st-level
 ___
 - Absorb Energy
 - Alarm
 - Analyze
-- Condense/Vaporize*
+- Condense/Vaporize
 - Cryogenic Blast
-- Decryption Program*
+- Decryption Program
 - Detect Enhancement
 - Element of Surprise
 - Energy Shield
 - Expeditious Retreat
 - Flame Sweep
-- Flash*
+- Flash
 - Gleaming Outline
 - Hologram
-- Holographic Disguise*
+- Holographic Disguise
 - Homing Rockets
 - Ionic Bond
 - Kolto Pack
 - Oil Slick
 - Overload
-- Poison Dart*
+- Poison Dart
 - Repair Droid
 - Ring of Fire
-- Smoke Cloud*
+- Smoke Cloud
 - Spot the Weakness
 - Stack the Deck
 - Tactical Barrier
@@ -70,14 +70,14 @@ ___
 - Tracer Bolt
 - Tracker Droid Interface
 - Tranquilizer
-- Translation Program*
+- Translation Program
 
 #### 2nd-level
 ___
 - Acid Dart
 - Charge Power Cell
 - Cryogenic Volley
-- Concealed Caltrops*
+- Concealed Caltrops
 - Darkvision
 - Detect Invisibility
 - Detect Traps
@@ -86,10 +86,10 @@ ___
 - Implant Message
 - Infiltrate
 - Lock
-- Magnetic Hold*
-- Magnetic Field*
+- Magnetic Hold
+- Magnetic Field
 - Mirror Image
-- Motivator Boost*
+- Motivator Boost
 - Overheat
 - Paralyze Humanoid
 - Pyrotechnics
@@ -100,7 +100,7 @@ ___
 - Smuggle
 - Toxin Purge
 - Translocate
-- Truth Serum*
+- Truth Serum
 
 #### 3rd-level 
 ___
@@ -109,14 +109,14 @@ ___
 - Diminish Tech
 - Enhance Weapon
 - Explosion
-- Fabricate Trap*
+- Fabricate Trap
 - Flaming Shots
 - Greater Hologram
 - Greater Light
 - Invisibility to Cameras
 - Kolto Cloud
 - Protection from Energy
-- Scramble Interface*
+- Scramble Interface
 - Sabotage Charges
 - Sending
 - Slow-release Medpac
@@ -129,10 +129,10 @@ ___
 - Cloaking Screen
 - Corrosive Sphere
 - Cryogenic Storm
-- Defibrillate*
+- Defibrillate
 - Elemental Accelerant
-- Holding Cell*
-- Illusory Terrain*
+- Holding Cell
+- Illusory Terrain
 - Kolto Reserve
 - Salvo
 - Scan Area*
@@ -142,13 +142,13 @@ ___
 #### 5th-level 
 ___
 - Cryogenic Spray
-- Friendly Fire*
-- Greater Analyze*
+- Friendly Fire
+- Greater Analyze
 - Group Hologram
 - Immolate
 - Mass Repair Droid
 - Mislead
-- Override Interface*
+- Override Interface
 - Paralyze Creature
 - Greater Translocate
 - Shutdown
@@ -156,7 +156,7 @@ ___
 
 #### 6th-level 
 ___
-- Carbon Fog*
+- Carbon Fog
 - Carbonite
 - Contingency
 - Disperse Energy
@@ -187,7 +187,7 @@ ___
 
 #### 9th-level
 ___
-- Carbonite Explosion*
+- Carbonite Explosion
 - Greater Explosion
 - Greater Salvo
 - Invulnerability
@@ -369,7 +369,7 @@ ___
 - **Range:** 250 feet
 - **Duration:** Instantaneous
 
-You generate an explosion of cryogenic energy in a 60-foot sphere centered on a point you can see within range. Each creature in the affected area must make a Constitution saving throw. On a failed save, the creature takes 8d6 + 20 cold damage and is restrained for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is restrained until the end of its next turn. 
+You generate an explosion of cryogenic energy in a 60-foot-radius sphere centered on a point you can see within range. Each creature in the affected area must make a Constitution saving throw. On a failed save, the creature takes 8d6 + 20 cold damage and is restrained for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is restrained until the end of its next turn. 
 
 As an action, a restrained creature can make a Strength check against your tech save DC, ending this effect on itself on a success.
 
@@ -842,7 +842,7 @@ ___
 - **Range:** Self
 - **Duration:** Concentration, up to 1 day
 
-This power calculates out the shortest, most direct physical route to a specific fixed location that you are familiar with on the same planet. If you name a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as “a Black Sun lair”), the power fails.
+This power calculates out the shortest, most direct physical route to a specific fixed location that you are familiar with on the same planet. If you name a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as "a Black Sun lair"), the power fails.
 
 For the duration, as long as you are on the same planet as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.
 
@@ -884,8 +884,6 @@ ___
 You channel tech power through a blaster weapon you are wielding. When a target takes damage from the chosen weapon, the target takes an extra 1d6 fire damage. The power ends when twelve shots have been fired.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, the number of shots you can take with this power increases by two for each slot level above 3rd.
-
-The target can also spend 5 feet of movement to automatically escape from restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.
 
 #### Flash
 _1st-level tech power_
@@ -1505,7 +1503,7 @@ ___
 
 You expel a burst of power. Each creature in a 15-foot cube originating from you must make a Dexterity saving throw. On a failed save, a creature takes 2d6 ion damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
 
 <div class='footnote'>PART 3 | TECH POWERS</div>
 
@@ -1520,7 +1518,7 @@ ___
 
 You choose one droid or construct you can see within range and attempt to remotely override its controls. The target must make an Intelligence saving throw. If the construct has the 'Piloted' trait, and has a pilot controlling it that is not incapacitated, it gains a bonus to the saving throw equal to the pilot's Intelligence modifier. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
 
-While the droid is charmed, you have a wireless link with it as long as the two of you are on the same planet. Via your tech focus, you can use this link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that creature,” “Move over there,” or “Fetch that object.” If the droid completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability. 
+While the droid is charmed, you have a wireless link with it as long as the two of you are on the same planet. Via your tech focus, you can use this link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Move over there," or "Fetch that object." If the droid completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability. 
 
 You can use your action to take total and precise control of the target. Until the end of your next turn, the droid takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. 
 
@@ -1756,7 +1754,7 @@ ___
 
 You create three ionic rays and hurl them at targets within range. You can hurl them at one target or several. Make a ranged tech attack for each ray. On a hit, the target takes 2d6 ion damage.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you create one additional ion for each slot level above 2nd.
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.
 
 #### Scramble Interface
 _3rd-level tech power_
@@ -1774,7 +1772,7 @@ Whenever the affected creature chooses another creature as a target, it must cho
 #### Scrambling Field
 _8th-level tech power_
 ___
-- **Casting Time:** 1 acion
+- **Casting Time:** 1 action
 - **Range:** Self (10-foot-radius sphere)
 - **Duration:** Concentration, up to 1 hour
 
@@ -1796,7 +1794,7 @@ An enhanced weapon's properties and powers are suppressed if it is used against 
 
 ***Creatures and Objects.*** A creature or object summoned or created by powers temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.
 
-***Tech Override/Sever Force.*** Powers and enhanced effects such as *tech override* have no effect on the sphere. Likewise, the spheres created by different scrambling field powers don't nullify each other.
+***Tech Override/Diminish Tech.*** Powers and enhanced effects such as *tech override* have no effect on the sphere. Likewise, the spheres created by different scrambling field powers don't nullify each other.
 
 <div class='footnote'>PART 3 | TECH POWERS</div>
 

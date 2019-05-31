@@ -3,6 +3,7 @@
 ## Changelog
 
 ### New Species
+- Zeltron (**5/24/2019**)
 - Givin (**4/19/2019**)
 - Kubaz (**4/12/2019**)
 - Zygerrian (**3/29/2019**)
@@ -27,6 +28,7 @@
 <div style='margin-top:26px'></div>
 
 ### Miscellaneous
+- Droid Vulnerabilities reworked for all three droid classes. (**5/24/2019**)
 - Rishii can speak Galactic Basic. (**1/21/2019**)
 - Reduced the Talz's Hide feature down to 12 AC from 13 to bring it in line with similar features. (**1/21/2019**)
 - Adjusted the Four-Armed special trait so that they can only change their active arms once per round. (**12/11/2018**)
@@ -53,9 +55,9 @@
 |	Codru-Ji        	|	12	|
 |	Devaronian	        |	13	|
 |	Draethos        	|	14	|
-|	Droid, Class Two	|	15	|
-|	Droid, Class Three	|	16	|
-|	Droid, Class Four	|	17	|
+|	Droid, Class II 	|	15	|
+|	Droid, Class III	|	16	|
+|	Droid, Class IV 	|	17	|
 |	Dug	                |	18	|
 |	Ewok	            |	19	|
 |	Falleen	            |	20	|
@@ -105,7 +107,8 @@
 |	Voss	            |	61	|
 |	Vurk            	|	62	|
 |	Weequay	            |	63	|
-|	Zygerrian           |	64	|
+|	Zeltron             |	64	|
+|	Zygerrian           |	65	|
 
 </div>
 
@@ -172,13 +175,13 @@ As an Aqualish, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Arms Dealers.*** Whenever you make an Charisma (Persuasion) check related to buying or selling weapons, you are considered to have expertise in the Persuasion skill.
+***Arms Dealers.*** Whenever you make a Charisma (Persuasion) check related to buying or selling weapons, you are considered to have expertise in the Persuasion skill.
 
 ***Aggressive.*** As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.
 
 ***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Menacing.*** You gain proficiency in the Intimidation skill.
+***Menacing.*** You have proficiency in the Intimidation skill.
 
 ***Swim.*** You have a swimming speed of 30 feet.
 
@@ -1018,7 +1021,7 @@ As a Draethos, you have the following special traits.
 \pagebreak
 
 ___
-> ## Droid, Class Two
+> ## Droid, Class II
 > ___
 > #### Visual Characteristics
 > ||||
@@ -1044,12 +1047,12 @@ ___
 <div style='margin-top:81px'></div>
 
 ### Appearance
-Class two droids are typically small, standing between two and four feet. Their form and color scheme vary based on tasks for which they are created, their affiliation, or quirks of their owner.
+Class II droids are typically small, standing between two and four feet. Their form and color scheme vary based on tasks for which they are created, their affiliation, or quirks of their owner.
 
 They are noteworthy for their distinct, function-oriented form.
 
 ### Utility
-Class two droids are programmed for engineering and other technical sciences. They differ from class one droids because they apply the science to real-life situations. Class two droids are rarely equipped with Basic vocabulators, instead communicating through Binary. There are five subcategories of class two droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class two<br> droids.
+Class II droids are programmed for engineering and other technical sciences. They differ from class one droids because they apply the science to real-life situations. Class II droids are rarely equipped with Basic vocabulators, instead communicating through Binary. There are five subcategories of class II droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class II<br> droids.
 
 ### Names
 Droids are typically called by their designation, given to them when they are created, or some affectation given to them by their owner. Often this affectation is a play on their designation.
@@ -1058,10 +1061,10 @@ Occasionally, noteworthy droids will earn monikers based on their accomplishment
 
 \columnbreak
 
-<div style='margin-top:153px'></div>
+<div style='margin-top:138px'></div>
 
-### Class Two Droid Traits
-As a class two droid, you have the following special traits.
+### Class II Droid Traits
+As a class II droid, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and one other ability score of your choice increase by 1.
 
@@ -1069,7 +1072,7 @@ As a class two droid, you have the following special traits.
 
 ***Alignment.*** Droids tend toward no particular alignment. The best and worst are found among them.
 
-***Size.*** Class two droids stand 2 to 4 feet tall and weigh about 70 lbs. Regardless of your position in that range, your size is Small.
+***Size.*** Class II droids stand 2 to 4 feet tall and weigh about 70 lbs. Regardless of your position in that range, your size is Small.
 
 ***Speed.*** Your base walking speed is 25 feet.
 
@@ -1079,7 +1082,7 @@ As a class two droid, you have the following special traits.
 
 ***Droid Resistances.*** You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
 
-***Droid Vulnerabilities.*** You are vulnerable to ion and lightning damage.
+***Droid Vulnerabilities.*** You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.
 
 ***Droid Systems.*** You do not need to eat or drink.
 
@@ -1097,18 +1100,16 @@ As a class two droid, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it.
 
+<img src='https://www.gmbinder.com/images/lMZ4tex.png' style='position:absolute;top:16px;right:85px;width:124px;z-index:1000' />
 
-
-<img src='https://www.gmbinder.com/images/lMZ4tex.png' style='position:absolute;top:16px;right:85px;width:134px;z-index:1000' />
-
-<img src='https://www.gmbinder.com/images/CufHu1B.png' style='position:absolute;top:29px;right:260px;width:114px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/CufHu1B.png' style='position:absolute;top:29px;right:260px;width:104px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
 \pagebreak
 
 ___
-> ## Droid, Class Three
+> ## Droid, Class III
 > ___
 > #### Visual Characteristics
 > ||||
@@ -1134,12 +1135,12 @@ ___
 <div style='margin-top:110px'></div>
 
 ### Appearance
-Class three droids are typically human-like in both shape and size, standing at around 6 feet. They are usually a polished metallic color, though this can vary based on tasks for which they are created, their affiliation, or quirks of their owner.
+Class III droids are typically human-like in both shape and size, standing at around 6 feet. They are usually a polished metallic color, though this can vary based on tasks for which they are created, their affiliation, or quirks of their owner.
 
 They are noteworthy for their slow, shuffling gait and typically overly talkative nature.
 
 ### Utility
-Class three droids are programmed to interact with humans. They are said to be the most advanced droids ever invented. Protocol, servant, tutor, and child care droids are all class three droids.
+Class III droids are programmed to interact with humans. They are said to be the most advanced droids ever invented. Protocol, servant, tutor, and child care droids are all class III droids.
 
 They are usually equipped with protocol chips which give them the cognitive functionality to engage socially.
 
@@ -1150,10 +1151,10 @@ Occasionally, noteworthy droids will earn monikers based on their accomplishment
 
 \columnbreak
 
-<div style='margin-top:289px'></div>
+<div style='margin-top:274px'></div>
 
-### Class Three Droid Traits
-As a class three droid, you have the following special traits.
+### Class III Droid Traits
+As a class III droid, you have the following special traits.
 
 ***Ability Score Increase.*** Your Charisma score increases by 2, and one other ability score of your choice increase by 1.
 
@@ -1161,7 +1162,7 @@ As a class three droid, you have the following special traits.
 
 ***Alignment.*** Droids tend toward no particular alignment. The best and worst are found among them.
 
-***Size.*** Class three droids stand around the height of humans and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.
+***Size.*** Class III droids stand around the height of humans and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.
 
 ***Speed.*** You have a slow, shuffling gait. Your base walking speed is 20 feet.
 
@@ -1171,7 +1172,7 @@ As a class three droid, you have the following special traits.
 
 ***Droid Resistances.*** You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
 
-***Droid Vulnerabilities.*** You are vulnerable to ion and lightning damage.
+***Droid Vulnerabilities.*** You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.
 
 ***Droid Systems.*** You do not need to eat or drink.
 
@@ -1185,16 +1186,16 @@ As a class three droid, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write all registered languages.
 
-<img src='https://www.gmbinder.com/images/Odqa22U.png' style='position:absolute;top:15px;right:9px;width:174px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/Odqa22U.png' style='position:absolute;top:15px;right:9px;width:166px;z-index:1000' />
 
-<img src='https://www.gmbinder.com/images/V02q0aa.png' style='position:absolute;top:24px;right:119px;width:313px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/V02q0aa.png' style='position:absolute;top:24px;right:123px;width:298px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
 \pagebreak
 
 ___
-> ## Droid, Class Four
+> ## Droid, Class IV
 > ___
 > #### Visual Characteristics
 > ||||
@@ -1220,10 +1221,10 @@ ___
 <div style='margin-top:81px'></div>
 
 ### Appearance
-Class four droids are typically human-like in both shape and size, though there are many advanced models (such as droidekas) that forgo this standardization. They are usually colored to match their affiliation, though personally owned class four droids might not be. Certain models of class four droids, such as the HK-series, are made to look like class three droids to disguise their martial nature.
+Class IV droids are typically human-like in both shape and size, though there are many advanced models (such as droidekas) that forgo this standardization. They are usually colored to match their affiliation, though personally owned class IV droids might not be. Certain models of class IV droids, such as the HK-series, are made to look like class III droids to disguise their martial nature.
 
 ### Utility
-Class four droids are programmed for military and security purposes. Such droids tend to perform tasks<br> of violence or combat might be expected. Almost all<br> class four droids carry weapons. Armed combat droids<br> are among the first droids ever created. Security,<br> gladiator, battle, and assassin droids are all class four<br> droids.
+Class IV droids are programmed for military and security purposes. Such droids tend to perform tasks<br> of violence or combat might be expected. Almost all<br> class IV droids carry weapons. Armed combat droids<br> are among the first droids ever created. Security,<br> gladiator, battle, and assassin droids are all class IV<br> droids.
 
 ### Names
 Droids are typically called by their designation, given to them when they are created, or some affectation given to them by their owner. Often this affectation is a play on their designation.
@@ -1232,10 +1233,10 @@ Occasionally, noteworthy droids will earn monikers based on their accomplishment
 
 \columnbreak
 
-<div style='margin-top:289px'></div>
+<div style='margin-top:274px'></div>
 
-### Class Four Droid Traits
-As a class four droid, you have the following special traits.
+### Class IV Droid Traits
+As a class IV droid, you have the following special traits.
 
 ***Ability Score Increase.*** Your Constitution score increases by 2, and one other ability score of your choice increase by 1.
 
@@ -1243,7 +1244,7 @@ As a class four droid, you have the following special traits.
 
 ***Alignment.*** Droids tend toward no particular alignment. The best and worst are found among them.
 
-***Size.*** Class four droids typically stand between 5 and 7 feet and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.
+***Size.*** Class IV droids typically stand between 5 and 7 feet and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
@@ -1253,25 +1254,25 @@ As a class four droid, you have the following special traits.
 
 ***Droid Resistances.*** You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
 
-***Droid Vulnerabilities.*** You are vulnerable to ion and lightning damage.
-
 ***Droid Systems.*** You do not need to eat or drink.
+
+***Droid Vulnerabilities.*** You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.
 
 ***Force Insensitive.*** While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes.
 
 ***Maintenance Mode.*** Rather than sleep, you enter an inactive state to perform routine maintenance for 4 hours each day. You have disadvantage on Wisdom (Perception) checks while performing maintenance.
 
-***Martial Protocol.*** You have proficiency with light and medium armor as well as two simple or martial weapons of your choice.
+***Martial Protocol.*** You have proficiency with light and medium armor as well as two simple or martial blasters or vibroweapons of your choice.
 
 ***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your hit dice to recover hit points. 
 
 ***Languages.*** You can speak, read, and write Galactic Basic and one language of your choice.
 
-<img src='https://www.gmbinder.com/images/bodo2nf.png' style='position:absolute;top:20px;right:237px;width:173px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/bodo2nf.png' style='position:absolute;top:20px;right:237px;width:165px;transform:scaleX(-1);z-index:1000' />
 
-<img src='https://www.gmbinder.com/images/KlA0JZ7.png' style='position:absolute;top:20px;right:30px;width:137px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/KlA0JZ7.png' style='position:absolute;top:20px;right:30px;width:131px;z-index:1000' />
 
-<img src='https://www.gmbinder.com/images/7ydbiHP.png' style='position:absolute;top:0px;right:153px;width:122px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/7ydbiHP.png' style='position:absolute;top:0px;right:137px;width:122px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -1340,7 +1341,7 @@ As a dug, you have the following special traits.
 
 ***Fury of the Small.*** When you damage a creature with an attack or a power and the creature's size is larger than yours, you can cause the attack or power to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.
 
-***Menacing.*** You gain proficiency in the Intimidation skill.
+***Menacing.*** You have proficiency in the Intimidation skill.
 
 ***Strong and Small.*** You have a climbing speed of 25 feet.
 
@@ -1719,7 +1720,7 @@ As a Gand, you have the following special traits.
 
 ***Lungless.*** Gand do not have lungs, and therefore do not need to breathe.
 
-***Regenerative.*** When you take damage, you can use your reaction and expend a hit die to regain health as long as the damage would not reduce your hit points to 0.
+***Regenerative.*** When you take damage, you can use your reaction and expend a Hit Die to regain health as long as the damage would not reduce your hit points to 0.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Gand. The Gand language does not use pronouns as Gand refer to themselves in the third person, so often Gand who speak Galactic Basic are difficult to understand.
 
@@ -2467,7 +2468,7 @@ As a Kaminoan, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Master Geneticists.*** You gain proficiency in the Medicine skill.
+***Master Geneticists.*** You have proficiency in the Medicine skill.
 
 ***Ultraviolet Sight.*** Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.
 
@@ -3818,7 +3819,7 @@ As a Shistavanen, you have the following special traits.
 
 ***Keen Hearing and Smell.*** You have advantage on Wisdom (Perception) checks that involve hearing or smell.
 
-***Regenerative.*** When you take damage, you can use your reaction and expend a hit die to regain health as long as the damage would not reduce your hit points to 0.
+***Regenerative.*** When you take damage, you can use your reaction and expend a Hit Die to regain health as long as the damage would not reduce your hit points to 0.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Shistavanen. The Shistavanen language is characterized by its barks and growls. 
 
@@ -4721,6 +4722,79 @@ As a Weequay, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Sriluurian. You can communicate with other Weequay without speaking through use of pheromones. Force attuned individuals can detect the communication but can't understand it.
 
 <img src='https://www.gmbinder.com/images/rULowc8.png' style='position:absolute;top:10px;right:45px;width:301px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Zeltron
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Light pink to deep crimson|
+> |***Hair Color***|  |Blue, brown, pink, or red|
+> |***Eye Color***|  |Hazel, silver, amber|
+> |***Distinctions***|  |Capable of producing powerful pheromones|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'8"|+2d10"|
+> |***Weight***|  |90 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Zeltros|
+> |***Language***|  |Galactic Basic|
+
+<div style='margin-top:50px'></div>
+
+### Biology and Appearance
+Zeltrons are one of the few near-Human races that differentiated from the baseline stock enough to be considered a new species of the Human genus, rather than simply a subspecies. They possess two biological traits of note. The first is that they all produce potent pheromones, similar to the Falleen species, which enhanced their attractiveness and likeability. The second is a limited telepathic ability, used to project emotions onto others, as well as allowing them to read and even feel the emotions of others; some Zeltrons have been hired by the Exchange for this ability. Because of their telepathic ability, positive emotions such as happiness, love and pleasure are very important to them, while negative ones such as anger, fear, or depression are shunned.
+
+### Society and Culture
+Zeltron culture is highly influenced by sexuality and the pursuit of pleasure in general. Most of their art and literature is devoted to the subject, producing some of the raciest pieces in the galaxy. Zeltrons are known to dress in wildly colorful or revealing attire. It's common to see Zeltrons wearing shockingly bright shades of neon colors in wildly designed bikinis, or nearly skin tight clothing of other sorts with bizarre color designs, patterns, and symbols. 
+
+### Names
+Zeltron names often have an air of mystique to them, to evoke sensuality. For a Zeltron, a beautiful face is nothing without an equally beautiful name. It's not uncommon for a Zeltron to forsake their familial surname in favor of a more attractive-sounding one.
+
+**Male Names.** Marruc, Bahb, Rahulh, Demagol 
+
+**Female Names.** Lyshaa, Dani, Vianna, Chantique 
+
+**Surnames.** D'Pow, Blue, Duare, Sapphire
+
+\columnbreak
+
+<div style='margin-top:426px'></div>
+
+### Zeltron Traits
+As a Zeltron, you have the following special traits.
+
+***Ability Score Increase.*** Your Charisma score<br> increases by 2, and your Constitution score increases<br> by 1.
+
+***Age.*** Zeltron reach adulthood in their late teens and live about 80 years.
+
+***Alignment.*** Zeltron are a deeply sensual, hedonistic species, causing them to tend toward chaotic balanced or dark side alignments, though there are exceptions.
+
+***Size.*** Zeltron tend to be slender and statuesque, typically standing between 5 and 6 feet tall and rarely weighing more than 150 lb. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Charismatic.*** You have proficiency with Deception or Persuasion (your choice). 
+
+***Enthralling Pheromones.*** You can use your pheromones to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs.
+
+***Natural Empathy.*** Zeltron's limited telepathy allow them to sense mood shifts in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.
+
+***Two Livered.*** Zeltron have two livers, which makes them adept at filtering toxins. You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).
+
+***Languages.*** You can speak, read, and write Galactic Basic and one language of your choice.
+
+<img src='https://www.gmbinder.com/images/vTd5mYO.png' style='position:absolute;top:-20px;right:0px;width:413.5px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

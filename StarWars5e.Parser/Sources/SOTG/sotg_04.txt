@@ -175,6 +175,10 @@ Your ship is equipped with an emergency generator to recharge shields. When your
 
 Once either feature has been used, the power backup can't be used again until the ship undergoes maintenance.
 
+### External Docking System
+_Prerequisite: Ship size Medium or larger_<br>
+Your ship is equipped with an airlock and couplers designed to attach and connect to another ship of at least one size category smaller. Over the course of 1 minute, a deployed mechanic can engage or disengage the external docking system. While a ship is coupled to your ship, the ships can share primary systems as appropriate, and creatures can transfer between ships readily. While a ship is coupled, your ship's flying speed is halved, it's turning speed is doubled, and it takes twice as long to travel in hyperspace.
+
 ### Feedback Shield
 Your ship's shield is enhanced to reflect damage to would-be attackers. As a reaction to the ship being hit with a primary or secondary weapon, a deployed mechanic can use their reaction to deal damage to the attacking ship. The damage depends on your ship's size: 1d4 for a Tiny ship, 1d6 for a Small ship, 1d8 for a Medium ship, 1d10 for a Large ship, 1d12 for a Huge ship, or 1d20 for a Gargantuan ship. The damage is of the same type dealt by the original attack.
 
@@ -491,7 +495,7 @@ This suite comes equipped with an integrated Mechanic's Kit and has space for al
 - **Huge:** A Huge docking bay can house a Large ship.
 - **Gargantuan:** A Gargantuan docking bay can house a Huge ship.
 
-Alternatively, this suite can house multiple ships of smaller size. A Huge unit takes up the space of 10 Large units, which in turn takes up the place of 10 Medium units, and so on. You can also replace a ship with a droid or construct of three size categories larger.
+Alternatively, this suite can house multiple ships of smaller size. A Huge unit takes up the space of 10 Large units, which in turn takes up the place of 10 Medium units, and so on. You can also replace a ship with a droid or construct of four size categories larger.
 
 ### Droid Storage
 This suite offers a single room featuring tightly-packed racks suitable for storing and housing a number of Medium droids equal to four times the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table.

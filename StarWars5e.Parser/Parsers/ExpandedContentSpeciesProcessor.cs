@@ -346,13 +346,13 @@ namespace StarWars5e.Parser.Parsers
                     case "Draethos":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_draethos.png");
                         break;
-                    case "Droid, Class Four":
+                    case "Droid, Class IV":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass04.png");
                         break;
-                    case "Droid, Class Three":
+                    case "Droid, Class III":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclas03_01.png");
                         break;
-                    case "Droid, Class Two":
+                    case "Droid, Class II":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass02_01.png");
                         break;
                     case "Dug":
@@ -528,6 +528,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Zabrak":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_zabrak.png");
+                        break;
+                    case "Zeltron":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_zeltron.png");
                         break;
                     case "Zygerrian":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_zygerrian.png");

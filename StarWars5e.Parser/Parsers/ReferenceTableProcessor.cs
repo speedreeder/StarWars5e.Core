@@ -49,19 +49,21 @@ namespace StarWars5e.Parser.Parsers
             referenceTables.Add(ParseTable(lines, "#### Starship Size Maintenance Time", "Starship Size Maintenance Time", ContentType.Core));
             referenceTables.Add(ParseTable(lines, "#### Size Categories", "Starship Size Categories", ContentType.Core));
             referenceTables.Add(ParseTable(lines, "#### System Damage", "System Damage", ContentType.Core));
+            referenceTables.Add(ParseTable(lines, "#### Starship Size Maximum Suites", "Starship Size Maximum Suites", ContentType.Core, 2));
+            referenceTables.Add(ParseTable(lines, "#### Starship Size Suite Capacity", "Starship Size Suite Capacity", ContentType.Core));
 
             return Task.FromResult(referenceTables);
         }
 
-        private static ReferenceTable ParseTable(List<string> lines, string startLine, string name, ContentType contentType)
+        private static ReferenceTable ParseTable(List<string> lines, string startLine, string name, ContentType contentType, int occurence = 1)
         {
             try
             {
-                var referenceTableStart = lines.FindIndex(f => f.RemoveHtmlWhitespace().StartsWith(startLine));
+                var referenceTableStart = lines.FindNthIndex(f => f.RemoveHtmlWhitespace().StartsWith(startLine), occurence);
                 var referenceTableEnd =
                     lines.FindIndex(referenceTableStart + 3, string.IsNullOrWhiteSpace);
                 var referenceTableLines = lines.Skip(referenceTableStart)
-                    .Take(referenceTableEnd - referenceTableStart).CleanListOfStrings()
+                    .Take(referenceTableEnd - referenceTableStart).Where(r => !r.StartsWith("#")).CleanListOfStrings()
                     .RemoveEmptyLines();
 
                 return new ReferenceTable(name, string.Join("\r\n", referenceTableLines), contentType);

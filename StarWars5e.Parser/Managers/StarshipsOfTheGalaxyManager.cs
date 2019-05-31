@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -55,7 +56,7 @@ namespace StarWars5e.Parser.Managers
                     foreach (var referenceTable in referenceTables)
                     {
                         chapterRule.ContentMarkdown = Regex.Replace(chapterRule.ContentMarkdown,
-                            $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]", RegexOptions.IgnoreCase);
+                            $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
                     }
                 }
             }
@@ -85,7 +86,7 @@ namespace StarWars5e.Parser.Managers
                                 if (deploymentFeature.Content != null)
                                 {
                                     deploymentFeature.Content = Regex.Replace(deploymentFeature.Content,
-                                        $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]",
+                                        $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})",
                                         RegexOptions.IgnoreCase);
                                 }
                             }   
@@ -109,7 +110,7 @@ namespace StarWars5e.Parser.Managers
                         foreach (var referenceTable in referenceTables)
                         {
                             starshipEquipment.Description = Regex.Replace(starshipEquipment.Description,
-                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]", RegexOptions.IgnoreCase);
+                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
                         }
                     }
                 }
@@ -129,7 +130,7 @@ namespace StarWars5e.Parser.Managers
                         foreach (var referenceTable in referenceTables)
                         {
                             modification.Content = Regex.Replace(modification.Content,
-                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}]", RegexOptions.IgnoreCase);
+                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
                         }
                     }
                 }
