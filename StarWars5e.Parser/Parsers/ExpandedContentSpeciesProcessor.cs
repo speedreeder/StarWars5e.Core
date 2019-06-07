@@ -526,6 +526,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Wookiee":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_wookiee.png");
                         break;
+                    case "Yevetha":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_yevetha.png");
+                        break;
                     case "Zabrak":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_zabrak.png");
                         break;
