@@ -21,7 +21,7 @@ namespace StarWars5e.Parser.Parsers
             {
                 if (!lines[i].StartsWith("> ## ")) continue;
 
-                var monsterEndIndex = lines.FindIndex(i, f => f == string.Empty);
+                var monsterEndIndex = lines.FindIndex(i, f => f == string.Empty || f == "___");
                 var monsterLines = lines.Skip(i).Take(monsterEndIndex - i).CleanListOfStrings().ToList();
 
 
