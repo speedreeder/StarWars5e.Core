@@ -43,7 +43,7 @@ namespace StarWars5e.Parser.Parsers
                     if (archetypeName == "Form IX: Trakata") archetypeName = "Form IX: Tr�kata";
                     var archetypeLinesStart = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
                     
-                    var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1, f => f.StartsWith("## ") && archetypeNames.Contains(f.Split("## ")[1]));
+                    var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1, f => f.StartsWith("## ") && archetypeNames.Contains(f.Trim().Split("## ")[1]));
                     var archetypeLines = lines.Skip(archetypeLinesStart);
                     if (archetypeLinesEnd != -1)
                     {
