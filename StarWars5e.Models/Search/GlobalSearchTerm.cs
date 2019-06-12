@@ -6,6 +6,8 @@ namespace StarWars5e.Models.Search
     {
         public string Name { get; set; }
         public GlobalSearchTermType GlobalSearchTermType { get; set; }
+        public string Path { get; set; }
+        public string FullName { get; set; }
 
     }
 }
