@@ -19,10 +19,12 @@ namespace StarWars5e.Parser
             var tableStorage = new AzureTableStorage(config["StorageAccountConnectionString"]);
             
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
+            var globalSearchTermRepository = new GlobalSearchTermRepository();
 
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ITableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
+                .AddSingleton(globalSearchTermRepository)
                 .BuildServiceProvider();
 
             var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>());
@@ -32,7 +34,7 @@ namespace StarWars5e.Parser
             var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
-            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>());
+            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), globalSearchTermRepository);
             var referenceTableManager = new ReferenceTableManager(serviceProvider.GetService<ITableStorage>());
 
             var referenceTables = await referenceTableManager.Parse();

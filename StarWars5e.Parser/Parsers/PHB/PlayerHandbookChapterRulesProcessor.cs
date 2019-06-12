@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -9,6 +10,12 @@ namespace StarWars5e.Parser.Parsers.PHB
 {
     public class PlayerHandbookChapterRulesProcessor : BaseProcessor<ChapterRules>
     {
+        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
+
+        public PlayerHandbookChapterRulesProcessor(GlobalSearchTermRepository globalSearchTermRepository)
+        {
+            _globalSearchTermRepository = globalSearchTermRepository;
+        }
         public override Task<List<ChapterRules>> FindBlocks(List<string> lines)
         {
             var chapters = new List<ChapterRules>();
@@ -140,8 +147,14 @@ namespace StarWars5e.Parser.Parsers.PHB
             return Task.FromResult(chapters);
         }
 
-        private static ChapterRules CreateChapterRules(IEnumerable<string> chapterLines, int chapterNumber, string chapterName)
+        private ChapterRules CreateChapterRules(List<string> chapterLines, int chapterNumber, string chapterName)
         {
+            foreach (var chapterLine in chapterLines.Where(c => Regex.IsMatch(c, @"^\s*[>#]\s*#")).ToList())
+            {
+                var searchTerm = _globalSearchTermRepository.ParseSearchTerm(chapterLine, GlobalSearchTermType.Rule, ContentType.Core, chapterName);
+                _globalSearchTermRepository.SearchTerms.Add(searchTerm);
+            }
+
             var chapter = new ChapterRules
             {
                 PartitionKey = ContentType.Core.ToString(),

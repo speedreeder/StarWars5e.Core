@@ -9,6 +9,7 @@ using StarWars5e.Models.Background;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
+using StarWars5e.Models.Search;
 using StarWars5e.Models.Species;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.PHB;
@@ -28,6 +29,7 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
+        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
 
         private readonly List<string> _phbFilesNames = new List<string>
@@ -37,15 +39,16 @@ namespace StarWars5e.Parser.Managers
             "PHB.phb_11.txt", "PHB.phb_12.txt", "PHB.phb_aa.txt", "PHB.phb_ab.txt"
         };
 
-        public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount)
+        public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
+            _globalSearchTermRepository = globalSearchTermRepository;
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
             _playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor();
             _playerHandbookClassProcessor = new PlayerHandbookClassProcessor();
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
-            _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor();
+            _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(_globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var nameStartingLineProperties = new Dictionary<string, string>
@@ -142,6 +145,14 @@ namespace StarWars5e.Parser.Managers
             }
 
             await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
+                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            var dupes = _globalSearchTermRepository.SearchTerms
+                .GroupBy(i => i.Name)
+                .Where(g => g.Count() > 1)
+                .Select(g => g.Key);
+
+            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms", _globalSearchTermRepository.SearchTerms,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }
     }

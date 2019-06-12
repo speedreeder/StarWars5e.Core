@@ -3,7 +3,8 @@
     public enum GlobalSearchTermType
     {
         None,
-        QuickReference,
+        Rule,
+        StarshipRule,
         VariantRule,
         Feat,
         Table,
