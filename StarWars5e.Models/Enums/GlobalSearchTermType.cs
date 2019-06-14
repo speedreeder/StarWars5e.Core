@@ -1,0 +1,35 @@
+﻿namespace StarWars5e.Models.Enums
+{
+    public enum GlobalSearchTermType
+    {
+        None,
+        Rule,
+        StarshipRule,
+        VariantRule,
+        Feat,
+        Table,
+        ClassFeature,
+        ShipSize,
+        EquipmentProperty,
+        Species,
+        AdventuringGear,
+        Weapon,
+        Shield,
+        Armor,
+        Class,
+        ForcePower,
+        TechPower,
+        Background,
+        Archetype,
+        StarshipSize,
+        Deployment,
+        StarshipEquipment,
+        StarshipFeature,
+        StarshipModification,
+        DeploymentFeature,
+        Venture,
+        Monster,
+        WeaponProperty,
+        Condition
+    }
+}

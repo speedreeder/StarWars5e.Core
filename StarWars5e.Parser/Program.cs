@@ -19,10 +19,12 @@ namespace StarWars5e.Parser
             var tableStorage = new AzureTableStorage(config["StorageAccountConnectionString"]);
             
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
+            var globalSearchTermRepository = new GlobalSearchTermRepository();
 
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ITableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
+                .AddSingleton(globalSearchTermRepository)
                 .BuildServiceProvider();
 
             var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>());
@@ -32,8 +34,9 @@ namespace StarWars5e.Parser
             var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
-            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>());
+            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), globalSearchTermRepository);
             var referenceTableManager = new ReferenceTableManager(serviceProvider.GetService<ITableStorage>());
+            var searchManager = new SearchManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
 
             var referenceTables = await referenceTableManager.Parse();
             await starshipManager.Parse(referenceTables);
@@ -44,6 +47,7 @@ namespace StarWars5e.Parser
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
             await playerHandbookManager.Parse();
+            await searchManager.Upload();
         }
     }
 }
