@@ -2,6 +2,7 @@
 
 ## Changelog
 ### New Archetypes
+- Scholar - Slicer Pursuit (**6/14/2019**)
 - Sentinel - Path of Communion (**5/31/2019**)
 - Engineer - Biochem Engineering (**5/10/2019**)
 - Scout - Bulwark Technique (**4/05/2019**)
@@ -112,18 +113,19 @@
 |&emsp;Chef Pursuit             |47|
 |&emsp;Explorer Pursuit         |49|
 |&emsp;Gambler Pursuit          |51|
-|&emsp;Zoologist Pursuit        |53|
+|&emsp;Slicer Pursuit           |53|
+|&emsp;Zoologist Pursuit        |55|
 |Scout||
-|&emsp;Bulwark Technique        |57|
-|&emsp;Inquisitor Technique     |58|
-|&emsp;Predator Technique       |59|
-|&emsp;Slayer Technique         |60|
+|&emsp;Bulwark Technique        |59|
+|&emsp;Inquisitor Technique     |60|
+|&emsp;Predator Technique       |61|
+|&emsp;Slayer Technique         |62|
 |Sentinel||
-|&emsp;Path of Communion        |61|
-|&emsp;Path of the Corsair      |62|
-|&emsp;Path of the Forceblade   |63|
-|&emsp;Path of Synthesis        |64|
-|&emsp;Path of Tenacity         |65|
+|&emsp;Path of Communion        |63|
+|&emsp;Path of the Corsair      |64|
+|&emsp;Path of the Forceblade   |65|
+|&emsp;Path of Synthesis        |66|
+|&emsp;Path of Tenacity         |67|
 
 </div>
 
@@ -1824,7 +1826,7 @@ ___
 <br>
 
 ### Flow-Walking
-Also at 3rd level, you can cast the Phasestrike force power without expending force points. When you reach 11th level, the damage bonus of the special attack made during Phasestrike increases to 2d8, and at 17th level it increases to 3d8.
+Also at 3rd level, you can cast the *phasestrike* force power without expending force points. When you reach 11th level, the damage bonus of the special attack made during *phasestrike* increases to 2d8, and at 17th level it increases to 3d8.
 
 \columnbreak
 
@@ -1856,7 +1858,7 @@ Also at 3rd level, you can cast the Phasestrike force power without expending fo
 
 </div>
 
-&emsp;You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+&emsp;You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain any expended uses when you finish a long rest.
 
 ### Focused Flurry
 At 6th level, when you use your action to cast an at-will force power, you can use your Martial Arts and Focus features.
@@ -1926,7 +1928,7 @@ At 6th level, when a hostile creatures moves to within 5 feet of you, you can us
 ### Absorb Damage
 Starting at 11th level, you learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a bonus action to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.
 
 ### Control the Field
 At 17th level, whenever you use your Instinctive Leap feature, you can leap your entire movement speed instead of only half. Additionally, when you<br> land, you can make an unarmed strike<br> with advantage against a creature<br> within 5 feet of you as part of the<br> same reaction. On a hit, this attack<br> deals an additional 2d6 force damage.
@@ -1934,8 +1936,6 @@ At 17th level, whenever you use your Instinctive Leap feature, you can leap your
 <img src='https://www.gmbinder.com/images/y7y9lEX.png' style='position:absolute;bottom:-34px;right:-330px;width:1090px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
-
-
 
 \pagebreak
 
@@ -1955,7 +1955,7 @@ At 6th level, as you channel the Force through you, you gain the following benef
 - When you hit a creature with a Whills weapon, that creature has disadvantage on opportunity attacks against you until the start of your next turn.
 
 ### One With the Force
-At 11th level, you learn how to enter a trance, preparing to unleash yourself upon your enemy. While in this trance, you can still talk and move. If you stay in the trance for at least one minute, when you roll initiative, you can make a ranged weapon attack on a number of creatures up to your Wisdom modifier (minimum of one) within 30 feet of you when you were in this trance.
+At 11th level, you learn how to enter a trance, preparing to unleash yourself upon your enemy. While in this trance, you can still talk and move. If you stay in the trance for at least one minute, when you roll initiative, you can make a ranged weapon attack on a number of creatures up to your Wisdom or Charisma modifier (your choice, a minimum of one) within 30 feet of you when you were in this trance.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
@@ -1964,7 +1964,7 @@ Once you've used this feature, you must complete a short or long rest before you
 <div style='margin-top:27px'></div>
 
 ### Guided Strikes
-At 17th level, your first ranged weapon attack and your first melee weapon attack each turn deal additional damage equal to your Wisdom modifier.
+At 17th level, your first ranged weapon attack and your first melee weapon attack each turn deal additional damage equal to your Wisdom or Charisma modifier (your choice, a minimum of +1).
 
 <img src='https://www.gmbinder.com/images/2yB0wp5.png' style='position:absolute;bottom:-14px;right:-75px;width:850px;z-index:1000' />
 
@@ -2524,6 +2524,158 @@ _Prerequisite: Gambler Pursuit, 7th level_<br>
 Whenever you roll a 7 on an ability check or saving throw, you can reroll the ability check or saving throw with advantage.
 
 <img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-45px;right:85px;width:280px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+## Slicer Pursuit
+Across the galaxy one can find numerous pseudonyms and false identities belonging to the hackers and cyber-infiltrators that call the world of electronics home. Those scholars who choose the Slicer Pursuit put their impressive intellectual prowess to work in the field of technology, to ends both benevolent and malicious.
+
+### Techcasting
+When you choose this pursuit at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
+
+#### Tech Powers Known
+You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Slicer Pursuit Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+
+#### Tech Points
+You have a number of tech points equal to half of your scholar level (rounded up), as shown in the Tech Points column of the Slicer Pursuit Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
+
+#### Max Power Level
+Many tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Slicer Pursuit Techcasting table.
+
+You may only cast tech powers at 4th-level once. You regain the ability to do so after a long rest.
+
+#### Techcasting Ability
+Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.
+
+___
+
+<div align="center">
+
+**Tech save DC** = 8 + your proficiency bonus +<br> your Intelligence modifier
+
+___
+
+**Tech attack modifier** = your proficiency bonus +<br> your Intelligence modifier
+
+</div>
+
+___
+
+#### Techcasting Focus
+You use a wristpad (found in chapter 5) as a techcasting focus for your tech powers.
+
+### Systems Hijack
+Also at 3rd level, when the target of your Critical Analysis is a droid or construct, or wearing or holding a techcasting focus, that creature is a viable target for any tech powers with you cast with a range of touch.
+
+Additionally, when the target of your Critical Analysis casts a tech power, you can use your reaction to identify the tech power being cast, and at what level.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Slicer Pursuit Techcasting
+| Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
+|:---:|:---:|:---:|:---:|
+|  3rd |  4 |  2 | 1st |
+|  4th |  4 |  2 | 1st |
+|  5th |  5 |  3 | 1st |
+|  6th |  5 |  3 | 1st |
+|  7th |  6 |  4 | 2nd |
+|  8th |  6 |  4 | 2nd |
+|  9th |  7 |  5 | 2nd |
+| 10th |  7 |  5 | 2nd |
+| 11th |  8 |  6 | 2nd |
+| 12th |  8 |  6 | 2nd |
+| 13th |  9 |  7 | 3rd |
+| 14th |  9 |  7 | 3rd |
+| 15th | 10 |  8 | 3rd |
+| 16th | 10 |  8 | 3rd |
+| 17th | 11 |  9 | 3rd |
+| 18th | 11 |  9 | 3rd |
+| 19th | 12 | 10 | 4th |
+| 20th | 12 | 10 | 4th |
+
+</div> 
+
+### Additional Maneuvers
+Lastly at 3rd level, you gain access to new maneuvers which reflect your understanding of tech casting. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
+
+#### Automatic Startup Sequence
+When a creature makes a saving throw against a tech power you cast, you may expend a superiority die, subtracting the number rolled from their total. You can use this maneuver before or after the creature makes saving throw, but before the GM determines whether or not the creature fails.
+
+#### Fast Access Programs
+When you cast a tech power of 1st-level or higher that has a casting time of 1 action, you can expend a superiority die to change the casting time to 1 bonus action for this casting.
+
+#### Firewall
+When you or an ally you can see within 60 feet make a saving throw against a tech power, you can use your reaction to expend a superiority die, adding the number rolled to the result of that saving throw.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+<div style='margin-top:23px'></div>
+
+#### Hacked Communications
+As an action, you may expend a superiority die, and choose any number of creatures that you can see within 60 feet of you that have commlinks, headcomms, or other such communications devices. Each creature must succeed on a Constitution saving throw or take sonic damage equal to the number rolled on the dice + your Intelligence modifier (minimum of one). Additionally, on a failed save, their communication devices are disabled until rebooted.
+
+#### Overcapacity Powers
+When you cast a tech power of 1st-level or higher, you may expend a superiority die to cast the power at a higher level, provided is does not exceed your Maximum Power Level. Roll the superiority die, and add it to the level at which you are casting the power. You can choose to cast it at this new power level or lower.
+
+#### Runtime Extension
+When a tech power you cast with a duration of 1 minute or longer reaches the end of its duration, you may expend a superiority die to extend the duration of the power a number of rounds equal to the number rolled on your superiority die.
+
+#### Subtle Execution
+When you cast a tech power, you may expend a superiority die to cast the power without any visual or auditory cues. Creatures have disadvantage on any Intelligence (Investigation) or Wisdom (Perception) checks made to determine if you were the caster.
+
+### Potent Programming
+Beginning at 6th level, when a creature succeeds on a saving throw against an at-will tech power you cast that deals damage, the creature takes half the power's damage, but suffers no additional effects of the power.
+
+### Redirect Error
+Starting at 9th level, when the target of your Critical Analysis feature casts a tech power that affects an area, you can use your reaction to cause that power to instead affect an area in a 10-foot-radius sphere centered on the caster. 
+
+Once you've used this feature, you must complete a long rest before you can use it again.
+
+### System Override
+Once you've reached 17th level, you know how to quickly activate anti-tech subroutines you have encoded into your wristpad. You can cast the *diminish tech* and *tech override* powers at 3rd level without expending tech points. If the target is the target of your Critical Analysis, you have advantage on the techcasting ability check for these powers.
+
+You can use this feature a number equal to half your Intelligence modifier (rounded down, a minimum of once). You regain all expended uses when you finish a long rest.
+
+\columnbreak
+
+### Discoveries (Slicer)
+When you select this pursuit, you gain access to new discoveries which reflect your understanding of tech casting. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
+
+#### Administrator's Log
+_Prerequisite: Slicer Pursuit_<br>
+If you spend at least 10 minutes working on a computer or terminal, you can get a full list of users who have accessed the machine within the past 24 hours. Over the course of a long rest, you may then form a facsimile of identification that would allow you to pass yourself off as that person when accessing machines.
+
+#### Backdoor Egress
+_Prerequisite: Slicer Pursuit_<br>
+When you cast a tech power that affects an area and requires a saving throw, and you are inside that power's area, you can use your reaction to move up to half your speed without provoking opportunity attacks. If you end this movement outside the area affected by the tech power, you do not have to make a saving throw to avoid its effects. 
+
+#### Intelligence Core Override
+_Prerequisite: 9th level, Slicer Pursuit_<br>
+You can cast the *override interface* tech power at 5th level without spending tech points. 
+
+Once you've used this feature, you must complete a long rest before you can use it again.
+
+#### Resource Appropriation
+_Prerequisite 11th level, Slicer Pursuit_<br>
+If you reduce the target of your Critical Analysis feature to 0 hit points, and it has tech point remaining, you may choose to gain any tech points it had remaining. Your current tech points cannot exceed your tech point maximum.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Skillful Casting
+_Prerequisite: Slicer Pursuit_<br>
+When you hit a creature with an at-will tech power that requires an attack roll, you may treat that attack roll as a weapon attack for the purpose of using maneuvers.
+
+#### Sleeper Program
+_Prerequisite: Slicer Pursuit_<br>
+Whenever you cast a tech power with a casting time of 1 action, you can choose to delay the power's activation up to a minute. When you do so, you cast the power as normal, but holds its energy for the duration of the delay. Holding onto the power's effect requires concentration. If your concentration is broken before the delay ends, the power dissipates without taking effect. You can use your reaction to activate the power at any time.
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses  when you finish a long rest.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 

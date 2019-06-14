@@ -28,6 +28,8 @@
         StarshipModification,
         DeploymentFeature,
         Venture,
-        Monster
+        Monster,
+        WeaponProperty,
+        Condition
     }
 }

@@ -146,14 +146,6 @@ namespace StarWars5e.Parser.Managers
 
             await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var dupes = _globalSearchTermRepository.SearchTerms
-                .GroupBy(i => i.Name)
-                .Where(g => g.Count() > 1)
-                .Select(g => g.Key);
-
-            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms", _globalSearchTermRepository.SearchTerms,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }
     }
 }
