@@ -25,6 +25,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
             var chapter9StartIndex = lines.FindIndex(f => f == "# Chapter 9: Combat");
             var chapter10StartIndex = lines.FindIndex(f => f == "# Chapter 10: Generating Encounters");
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Conditions");
+            var changelogStartIndex = lines.FindIndex(f => f == "## Changelog");
 
             var introLines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
                 .CleanListOfStrings().ToList();
@@ -113,6 +114,9 @@ namespace StarWars5e.Parser.Parsers.SOTG
             chapters.Add(CreateStarshipChapterRules(appendixALines
                 , 11,
                 "Appendix A: Conditions"));
+
+            var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
+            chapters.Add(CreateStarshipChapterRules(changelogLines, 99, "Changelog"));
 
             return Task.FromResult(chapters);
         }

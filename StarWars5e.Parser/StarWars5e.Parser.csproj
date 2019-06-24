@@ -35,6 +35,7 @@
     <None Remove="Sources\PHB\phb_12.txt" />
     <None Remove="Sources\PHB\phb_aa.txt" />
     <None Remove="Sources\PHB\phb_ab.txt" />
+    <None Remove="Sources\PHB\phb_changelog.txt" />
     <None Remove="Sources\sotg.md" />
     <None Remove="Sources\SOTG\sotg_00.txt" />
     <None Remove="Sources\SOTG\sotg_01.txt" />
@@ -48,6 +49,7 @@
     <None Remove="Sources\SOTG\sotg_09.txt" />
     <None Remove="Sources\SOTG\sotg_10.txt" />
     <None Remove="Sources\SOTG\sotg_aa.txt" />
+    <None Remove="Sources\SOTG\sotg_changelog.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -72,6 +74,7 @@
     <EmbeddedResource Include="Sources\PHB\phb_12.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_aa.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_ab.txt" />
+    <EmbeddedResource Include="Sources\PHB\phb_changelog.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -87,6 +90,7 @@
     <EmbeddedResource Include="Sources\SOTG\sotg_09.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_10.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_aa.txt" />
+    <EmbeddedResource Include="Sources\SOTG\sotg_changelog.txt" />
   </ItemGroup>
 
   <ItemGroup>

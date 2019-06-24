@@ -36,6 +36,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             var chapter12StartIndex = lines.FindIndex(f => f == "# Chapter 12: Tech Powers");
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Conditions");
             var appendixBStartIndex = lines.FindIndex(f => f == "# Appendix B: Recommended Variant Rules");
+            var changelogStartIndex = lines.FindIndex(f => f == "## Changelog");
 
             var prefaceLines = lines.Skip(prefaceStartIndex).Take(whatsDifferentStartIndex - prefaceStartIndex)
                 .CleanListOfStrings().ToList();
@@ -123,6 +124,9 @@ namespace StarWars5e.Parser.Parsers.PHB
             appendixBLines[2] = appendixBLines[2].Insert(0, "H");
             chapters.Add(CreateChapterRules(appendixBLines, 14, "Appendix B: Recommended Variant Rules",
                 SectionNames.PHBAppendixBVariantRulesSections, "variantRules"));
+
+            var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
+            chapters.Add(CreateChapterRules(changelogLines, 99, "Changelog"));
 
             return Task.FromResult(chapters);
         }
