@@ -2,14 +2,14 @@
 
 # Appendix B: Recommended Variant Rules
 
-<img src='https://www.gmbinder.com/images/FTqIxLt.png' style='position:absolute;top:78px;left:58px;width:34px' />
+<img src='https://www.gmbinder.com/images/FTqIxLt.png' style='position:absolute;top:90px;left:70px;width:34px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ouse/variant rules are optional additions to each <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; game that in some way enhance or alter game play. Generally, they are done to alleviate stress from the DM, to improve player engagement, or to help a player realize a character goal. This appendix includes a number of variant rule options, all of which I offer at my table.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ouse/variant rules are optional additions to GM<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; each game that in some way enhance or alter game play. Generally, they are done to alleviate stress from the GM, to improve player engagement, or to help a player realize a character goal. This appendix includes a number of variant rule options, all of which I offer at my table.
 
 I would encourage you to become familiar with the core content of this conversion before you decide if these house rules are right for you.
 
 ## Defense Rolls
-One of the first variant rules I added to my games was the Defense Rolls, published in the [Unearthed Arcana: Variant Rules](https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf). Essentially, instead of the DM making attack rolls against the players' static AC, the players make defense rolls against the DM's static attack save DC. Implementing this is easy.
+One of the first variant rules I added to my games was the Defense Rolls, published in the [Unearthed Arcana: Variant Rules](https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf). Essentially, instead of the GM making attack rolls against the players' static AC, the players make defense rolls against the GM's static attack save DC. Implementing this is easy.
 
 ### Calculating Defense Bonus (DB)
 Armor class is replaced with Defense Bonus. This bonus is calculated simply by players taking their AC and subtracting 10. If a player had an AC of 16, they would have a DB of +6.
@@ -18,7 +18,7 @@ Armor class is replaced with Defense Bonus. This bonus is calculated simply by p
 Attack bonuses you find on monster cards are similar converted to static values, called the attack save DC. To calculate this DC, simply take the listed attack bonus and add 12 to it. For instance, a B1 battle droid's blaster rifle attacks with a +4 modifier. Instead, that droid would have an attack save DC of 16.
 
 ### Making the Roll
-Instead of the DM making attack rolls, players make defense rolls by rolling a d20 and adding their Defense Bonus. If the roll meets or exceeds the attack save DC, the player successfully defends. If a character fails the the defense roll, the attack hits.
+Instead of the GM making attack rolls, players make defense rolls by rolling a d20 and adding their Defense Bonus. If the roll meets or exceeds the attack save DC, the player successfully defends. If a character fails the the defense roll, the attack hits.
 
 If the attacker would normally have advantage on the attack roll, you instead apply disadvantage to the defense roll, and vice versa if the attacker would have disadvantage.
 
@@ -34,7 +34,7 @@ While I use this rule, and will continue to do so, when my players encounter "bo
 I especially recommend this rule if you utilize the Space Combat optional rule set. Since the pilot on many larger ships doesn't operate the weapons, using this rule keeps them further engaged.
 
 ## Saving Throw Checks
-Also published in the [Unearthed Arcana: Variant Rules](https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf) was a rule for your players to roll when they use powers or abilities that call for a save DC. Instead of the DM making saving throws against the players' static save DCs, the players roll a saving throw check against the DM's defense save DC.
+Also published in the [Unearthed Arcana: Variant Rules](https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf) was a rule for your players to roll when they use powers or abilities that call for a save DC. Instead of the GM making saving throws against the players' static save DCs, the players roll a saving throw check against the GM's defense save DC.
 
 ### Calculating Saving Throw Check
 If players have their save throw DCs calculated, simply subtract 8 from that value. If your consular's force save DC is 15, your saving throw check modifier is +7.
@@ -43,12 +43,12 @@ If players have their save throw DCs calculated, simply subtract 8 from that val
 Monster cards also include potential saving throws, which can easily be converted to a defense save DC. Take the appropriate ability score modifier and add 14 to it. If the monster is proficient in the saving throw (indicated in the *saving throw* line on the monster card, if it exists), instead use that value. For instance, if a B1 battle droid is forced to make a Dexterity saving throw, its defense save DC would be 16 (14+2).
 
 ### Making the Roll
-Instead of the DM rolling saving throws for the monsters, players make saving throw checks by rolling a d20 and adding their saving throw check modifier. If the roll meets or exceeds the defense save DC, the creature fails the saving throw. If a character fails the the saving throw check, the creature successfully saves.
+Instead of the GM rolling saving throws for the monsters, players make saving throw checks by rolling a d20 and adding their saving throw check modifier. If the roll meets or exceeds the defense save DC, the creature fails the saving throw. If a character fails the the saving throw check, the creature successfully saves.
 
 If the defender would normally have advantage on the saving roll, you instead apply disadvantage to the saving throw check, and vice versa if the defender would have disadvantage.
 
 ### Why I Recommend This Rule
-For all the same reasons as defense rolls. Players enjoy it, and it makes it easier for me to DM. Again, I don't use this rule when players encounter bosses.
+For all the same reasons as defense rolls. Players enjoy it, and it makes it easier for me to GM. Again, I don't use this rule when players encounter bosses.
 
 <div class='footnote'>APPENDIX B | RECOMMENDED VARIANT RULES</div>
 
@@ -65,20 +65,28 @@ This is a wonderful simplification for new players. I, personally, love the alig
 ## ASI and a Feat
 This one is simple. At level 4, 8, 12, 16, and 19, when a player gets the opportunity to choose between adding 2 to their ability scores or a feat, I'm letting them add 1 to an ability score *and* choose a feat.
 
-Now, this is going to create more powerful players, which means you need to pit them against more powerful monsters. I, personally, love this rule because I know it helps experienced players realize the exact character they want and helps to differentiate<br> different characters of the same class. Then<br> again, I'm a *huge* proponent of feats in general.
+Now, this is going to create more powerful players, which means you need to pit them against more powerful monsters. I, personally, love this rule because I know it helps experienced players realize the exact character they want and helps to differentiate GM different characters of the same class. Then GM again, I'm a *huge* proponent of feats in general.
 
 ### Why I Recommend This Rule
-I love feats and I love powerful player characters, so<br> this rule works well for me. It's not for everyone.
+I love feats and I love powerful player characters, so GM this rule works well for me. It's not for everyone.
 
 ## Milestone Leveling
-I won't delve too far into this. The simplified version is that instead of receiving experience for every encounter and leveling up at odd times, the DM chooses when they level up. Additionally, there never has the potential to be an experience, and consequently level, disparity between players.
+I won't delve too far into this. The simplified version is that instead of receiving experience for every encounter and leveling up at odd times, the GM chooses when they level up. Additionally, there never has the potential to be an experience, and consequently level, disparity between players.
 
 ### Why I Recommend This Rule
-Milestone leveling eliminates unnecessary record-keeping, helps maintain narrative significance to leveling up, and streamlines the DM controlling the game.
+Milestone leveling eliminates unnecessary record-keeping, helps maintain narrative significance to leveling up, and streamlines the GM controlling the game.
 
 Additionally, if you utilize the Space Combat optional rule set, I urge you to use this. The nature of space combat is that there is no ship leveling up. Experience values relative to the amount required to level up will diminish drastically.
 
 \columnbreak
+
+## Unarmed Strikes and<br> Natural Weapons
+Many species come with higher unarmed strike damage, such as twi'lek or zabrak, or a natural weapon, such as chevin or karkarodons (found in the Expanded Content), representing their natural aptitude with unarmed combat. Counterintuitively, these features do not interact with other features that grant higher unarmed strike damage, such as monk's Martial Arts feature, or the Brawling fighting style. If a character chooses a species, class, or customization option combination that would both grant multiple, consider instead granting them a +1 bonus to their unarmed strike damage. For instance, at 1st level, a zabrak monk with a 16 in Dexterity would do 1d4+4 instead of 1d4+3 with their unarmed strikes. A character should only gain this bonus once.
+
+Additionally, consider allowing those species that have natural weapons to use those weapons in place of their unarmed strikes, as appropriate.
+
+### Why I Recommend This Rule
+I actually haven't had to use this rule at my table, since I haven't had a relevant species/class/feat combination, but it's something that had been brought to my attention as an issue with traditional 5e, and consequently translated to sw5e.
 
 ## Hunted
 In some eras of Star Wars history, forcecasters are a rarity, and are hunted across the galaxy by the likes of Inquisitors, or if they're unlucky, a Dark Lord of the Sith, in an attempt to crush any foreseen threats to their rule. Should you want your forcecasting players to experience this additional level of drama and suspense, here is an alternate rule to implement:
@@ -91,8 +99,6 @@ During each long rest, decrease each players pool of Disturbance points by an am
 
 ### Why I Recommend This Rule
 I actually run a campaign in the Old Republic era, so I don't use this rule. It *is* great, however, for those who run in more restricted eras.
-
-<img src='https://www.gmbinder.com/images/O22OtdK.png' style='position:absolute;bottom:-6px;right:0px;width:480px;z-index:1000;' />
 
 <div class='footnote'>APPENDIX B | RECOMMENDED VARIANT RULES</div>
 

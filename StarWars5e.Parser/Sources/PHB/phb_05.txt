@@ -4,7 +4,7 @@
 
 # Chapter 5: Equipment
 
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he marketplace of a large city teems with<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; buyers and sellers of many sorts: Jawas peddling refurbished wares (or trying to steal from careless travelers), Ugnauts selling various technology scrap, Twi'lek armstechs and Mirialan synthweavers. In the largest cities, almost anything imaginable is offered for sale, from exotic spices and luxurious clothing to speeders and spaceships.		
 
@@ -36,7 +36,7 @@ With ten credits, a character can buy a power cell, a stylus, or a glowrod. A sk
  
 A standard chit weighs about a third of an ounce, so fifty chits weigh a pound.	
 
-> The listed cost of lightweapons is equal to 5x their vibroweapon counterpart. If you use the **Variant: Starting Wealth** rule, you should consider letting players use the value of the vibroweapon counterpart as their purchase price.
+> The listed cost of lightweapons is equal to twice their vibroweapon counterpart. If you use the **Variant: Starting Wealth** rule, you should consider letting players use the value of the vibroweapon counterpart as their purchase price.
 >
 > Additionally, lightweapons are a scarce and restricted resource. Finding a buyer for a salvaged lightweapon is often difficult due to their clandestine nature.
 
@@ -55,7 +55,7 @@ These items retain their full value in the marketplace, and you can either trade
 #### Trade Goods
 In the Outer Rim, many people conduct transactions through barter. Like gems and art objects, trade goods—raw materials like bags of salt, livestock, and so on—retain their full value in the market and can be used as currency.
 
-<img src='https://vignette.wikia.nocookie.net/starwars/images/e/e6/Uprising_Icon_Currency_FactionNobleCourt_03.png/revision/latest?cb=20151004065115' style='position:absolute;bottom:12px;left:200px;width:230px' />
+<img src='https://vignette.wikia.nocookie.net/starwars/images/e/e6/Uprising_Icon_Currency_FactionNobleCourt_03.png/revision/latest?cb=20151004065115' style='position:absolute;bottom:18px;left:200px;width:230px' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>		
 
@@ -87,7 +87,7 @@ Heavier armor interferes with the wearer's ability to move quickly, stealthily, 
 #### Stealth
 If the Armor table shows "Disadvantage" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks.
 
-<img src='https://www.gmbinder.com/images/KulkaIH.png' style='position:absolute;bottom:-15px;right:-330px;width:1050px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/KulkaIH.png' style='position:absolute;bottom:14px;right:-330px;width:1030px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -144,7 +144,7 @@ Rather than an energy shield, heavy shields are physical composites of metal or 
 
 Small creatures have disadvantage on attack rolls while wielding a heavy shield. A heavy shield's size and bulk make it too large for a Small creature to use effectively.
 
-<img src='https://www.gmbinder.com/images/YBBiqaE.jpg' style='position:absolute;top:630px;right:395px;width:200px;mix-blend-mode:darken' />
+<img src='https://www.gmbinder.com/images/YBBiqaE.jpg' style='position:absolute;top:645px;right:400px;width:200px;mix-blend-mode:darken' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -192,7 +192,7 @@ The time it takes to don or doff armor depends on the armor's category.
 |Medium shield generator| 1 bonus action| 1 bonus action|
 |Heavy shield| 1 action | 1 action |
 
-<img src='https://www.gmbinder.com/images/yOuRSWV.png' style='position:absolute;bottom:0px;left:0;width:810px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/yOuRSWV.png' style='position:absolute;bottom:0px;left:-5px;width:860px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>		
 
@@ -211,7 +211,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). 
 
 #### Burst
-A weapon that has the burst property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must make a Dexterity saving throw (DC = 8 + your proficiency bonus (if proficient) + your Dexterity modifier + any bonuses to ranged weapon attack rolls) or take the weapon's normal damage. This consumes an amount of ammunition indicated by the burst number. 
+A weapon that has the burst property can make a normal single-target attack, or it can spray a 10-foot-cube area within range with shots. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks) or take the weapon's normal damage. This consumes an amount of ammunition indicated by the burst number. If the ranged weapon attack would have disadvantage, affected targets instead have advantage.
 
 #### Double
 A weapon with the double property functions as if you are wielding two separate weapons. A damage value in parentheses appears with the property—the damage when the weapon is used with two-weapon fighting. See the rules for two-weapon fighting in chapter 9.
@@ -323,8 +323,6 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 
 </div>	
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>
-
 \pagebreakNum
 
 <div class='classTable wide'>
@@ -333,19 +331,19 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&emsp;&nbsp;|&nbsp;Damage&emsp;|Weight&nbsp;&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 |	_Simple Lightweapons_	|||||||
-|&emsp;	Lightdagger			|  300 cr&nbsp;&nbsp;|1d4 energy		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (20/60)|
-|&emsp;	Lightsaber			|  500 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d8)|
-|&emsp;	Shotosaber			|1,250 cr&nbsp;&nbsp;|1d6 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
+|&emsp;	Lightdagger			|  100 cr&nbsp;&nbsp;|1d4 energy		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (20/60)|
+|&emsp;	Lightsaber			|  200 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d8)|
+|&emsp;	Shotosaber			|  500 cr&nbsp;&nbsp;|1d6 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
 |	_Martial Lightweapons_	|||||||
-|&emsp;	Doublesaber			|3,500 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous, two-handed|
-|&emsp;	Doubleshoto			|2,950 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous, two-handed|
-|&emsp;	Dual-phase lightsaber|  750 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
-|&emsp;	Greatsaber			|2,500 cr&nbsp;&nbsp;|2d6 energy		|3 lb&nbsp;&nbsp;|Heavy, luminous, two-handed|
-|&emsp;	Lightsaber pike		|1,000 cr&nbsp;&nbsp;|1d10 energy		|3 lb&nbsp;&nbsp;|Heavy, luminous, reach, two-handed|
-|&emsp;	Lightfoil			|1,250 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
-|&emsp;	Light ring			|1,250 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, special, thrown (range 30/90)	|
-|&emsp;	Saberspear			|1,500 cr&nbsp;&nbsp;|2d4 energy		|2 lb&nbsp;&nbsp;|Luminous|
-|&emsp;	Saberwhip			|1,750 cr&nbsp;&nbsp;|1d4 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
+|&emsp;	Doublesaber			|1,400 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous, two-handed|
+|&emsp;	Doubleshoto			|1,250 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous, two-handed|
+|&emsp;	Greatsaber			|1,000 cr&nbsp;&nbsp;|2d6 energy		|3 lb&nbsp;&nbsp;|Heavy, luminous, two-handed|
+|&emsp;	Lightsaber pike		|  400 cr&nbsp;&nbsp;|1d10 energy		|3 lb&nbsp;&nbsp;|Heavy, luminous, reach, two-handed|
+|&emsp;	Lightfoil			|  500 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
+|&emsp;	Light ring			|  500 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, special, thrown (range 30/90)	|
+|&emsp;	Martial lightsaber  |  300 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
+|&emsp;	Saberspear			|  450 cr&nbsp;&nbsp;|2d4 energy		|2 lb&nbsp;&nbsp;|Luminous|
+|&emsp;	Saberwhip			|  300 cr&nbsp;&nbsp;|1d4 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
 
 <div style='margin-top:61px'></div>
 
@@ -354,10 +352,10 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |:---|---:|:---|-:|:---|
 |	_Simple Vibroweapons_	|||||
 |&emsp;	Techaxe			    |   50 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light, thrown (range 20/60)	|
-|&emsp;	Vibroclub			|   75 cr&nbsp;&nbsp;|1d10 kinetic		|10 lb&nbsp;&nbsp;|Two-handed|
 |&emsp;	Vibrodagger			|   50 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, light, thrown (20/60)|
 |&emsp;	Vibrodart			|    5 cr&nbsp;&nbsp;|1d4 kinetic		|1/4 lb&nbsp;&nbsp;|Finesse, special, thrown (20/60)	|
-|&emsp;	Vibromace			|   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light	|
+|&emsp;	Vibroknuckler			|   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light	|
+|&emsp;	Vibromace			|   75 cr&nbsp;&nbsp;|1d10 kinetic		|10 lb&nbsp;&nbsp;|Two-handed|
 |&emsp;	Vibrostaff			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|4 lb&nbsp;&nbsp;|Versatile (2d4)|
 |&emsp;	Vibrospear			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Thrown (range 20/60), versatile (1d8)|
 |	_Martial Vibroweapons_	|||||
@@ -375,13 +373,11 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;	Vibropike			|  200 cr&nbsp;&nbsp;|1d10 kinetic		|6 lb&nbsp;&nbsp;|Heavy, reach, two-handed|
 |&emsp;	Vibrorapier			|  250 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Finesse|
 |&emsp;	Vibrosword			|  500 cr&nbsp;&nbsp;|2d6 kinetic		|6 lb&nbsp;&nbsp;|Heavy, two-handed|
-|&emsp;	Vibrowhip			|  120 cr&nbsp;&nbsp;|1d4 kinetic		|3 lb&nbsp;&nbsp;|Finesse, reach|
+|&emsp;	Vibrowhip			|  150 cr&nbsp;&nbsp;|1d4 kinetic		|3 lb&nbsp;&nbsp;|Finesse, reach|
 
 </div>	
 
-<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:330px;right:140px;width:550px;z-index:1000;' />
-
-<div class='footnote'>PART 1 | EQUIPMENT</div>
+<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:335px;right:140px;width:550px;z-index:1000;' />
 
 \pagebreakNum
 
@@ -433,24 +429,24 @@ Costs 670 credits. Includes<br> a backpack, chronometer,<br> respirator, datapad
 
 ### Ammunition
 #### Carbonite Canister
-A carbonite canister is an uncommon type of ammunition for the wrist launcher. When triggered, it produces a beam of carbonite energy in a 15 foot line. A single fuel canister holds enough fuel for three attacks. Each creature must make a Constitution saving throw (DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier) or take 1d6 cold damage and have its speed halved until the end of your next turn. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, the carbonite canister produces a beam of carbonite energy in a 15 foot line. A single fuel canister holds enough fuel for three attacks. Each creature must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier) or take 1d6 cold damage and have its speed halved until the end of your next turn. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Dart
-The most common type of ammunition for the wrist launcher. On a hit, the target takes 1d6 kinetic damage.
+This wrist launcher ammo deals 1d6 kinetic damage on a hit.
 
 #### Flame Projector Canister
-A flame projector canister is an uncommon type of ammunition for the wrist launcher. When triggered, it produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier) or take 2d6 fire damage.
+When triggered, the flame projector canister produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier) or take 2d6 fire damage.
 
 #### Missile, Fragmentation
-The missile is another common ammunition type for the wrist launcher. On a hit, the target takes 1d6 kinetic damage. Hit or miss, the missile then explodes. The target and each creature within 5 feet must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier), taking 1d6 kinetic damage on a failed save.
+This wrist launcher ammo deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier), taking 1d6 kinetic damage on a failed save.
 
 #### Power Cell
 Power cells energize blaster weapons and tools.
 
 #### Plasma Cell
-A plasma cell is a specialized power cell for use with blaster weapons. While loaded with a plasma cell, weapons deal fire damage instead of energy. Additionally, when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze. When a creature enters the fire or starts its turn there it must make a DC 12 Dexterity saving throw. On a failed save, the creature takes 1d6 fire damage. 
+A plasma cell is a specialized power cell for use with blaster weapons. The loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze. When a creature enters the fire or starts its turn there it must make a DC 12 Dexterity saving throw. On a failed save, the creature takes 1d6 fire damage. 
 
-<img src='https://www.gmbinder.com/images/yainsZs.png' style='position:absolute;top:480px;right:325px;width:430px;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/yainsZs.png' style='position:absolute;top:492px;right:332px;width:430px;transform:scaleX(-1)' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -527,9 +523,9 @@ A stylus pen is designed to write on both solid surfaces and touch screen interf
 #### Wristpad
 A wristpad is a harness with an integrated datapad and holoprojector interface that fits on the forearm and includes self-charging battery packs.
 
-<img src='https://www.gmbinder.com/images/U4cHqYD.png' style='position:absolute;top:720px;left:115px;width:300px' />
+<img src='https://www.gmbinder.com/images/U4cHqYD.png' style='position:absolute;top:730px;left:135px;width:300px' />
 
-<img src='https://www.gmbinder.com/images/NIczKet.png' style='position:absolute;top:580px;left:460px;width:255px' />
+<img src='https://www.gmbinder.com/images/NIczKet.png' style='position:absolute;top:590px;left:470px;width:255px' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -584,7 +580,7 @@ When you use your action to set it, this mine sets an imperceptible laser line e
 #### Thermal Detonator
 Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 fire and 2d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone. 
 
-<img src='https://www.gmbinder.com/images/m2QdjNv.png' style='position:absolute;top:618px;right:390px;width:165px' />
+<img src='https://www.gmbinder.com/images/m2QdjNv.png' style='position:absolute;top:630px;right:395px;width:165px' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -667,7 +663,7 @@ A repair kit included the basic tools needed to repair a droid after being damag
 |	Sack	|	1 cubic foot/30 pounds of gear	|
 |	Vial	|	4 ounces liquid	|
 
-<img src='https://www.gmbinder.com/images/GVHpzCM.png' style='position:absolute;bottom:420px;right:120px;width:230px;' />
+<img src='https://www.gmbinder.com/images/GVHpzCM.png' style='position:absolute;bottom:430px;right:120px;width:230px;' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -743,7 +739,7 @@ Restraining bolts are small, cylindrical devices that can be affixed to a droid 
 
 Installing a restraining bolt takes 1 minute. The droid must make a DC 12 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt. 
 
-<img src='https://www.gmbinder.com/images/Hpj5wBf.png' style='position:absolute;top:490px;right:400px;width:200px;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/Hpj5wBf.png' style='position:absolute;top:510px;right:410px;width:200px;transform:scaleX(-1)' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -794,16 +790,16 @@ Rocket boots are a form of rocket propulsion system affixed to a pair of boots i
 Stealth field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the power cell. This effect ends early if you make an attack or cast a force- or tech- power.
 
 #### Tracker Utility Vest
-A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1 lb each) without increasing their total encumbrance.
+A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1 lb each) without increasing<br> their total encumbrance.
 
 #### Tripod
-A tripod is a device used to<br> mount a two-handed<br> blaster weapon to<br> offer increased stability.<br> Over the course of 1 minute, you can<br> deploy or collapse the tripod.<br> While deployed, you ignore the<br> Strength requirement on ranged<br> weapons with the strength prop-<br>erty, and your speed is reduced <br>to 0.
+A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<br> increased stability. Over the course of 1<br> minute, you can deploy or collapse<br> the tripod. While deployed, you<br> ignore the Strength requirement on<br> ranged weapons with the strength<br> property, and your speed is<br> reduced to 0.
 
-<img src='https://www.gmbinder.com/images/cgGUzvl.png' style='position:absolute;top:329px;right:420px;width:340px;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/cgGUzvl.png' style='position:absolute;top:339px;right:420px;width:340px;transform:scaleX(-1)' />
 
-<img src='https://www.gmbinder.com/images/TW0FhNf.png' style='position:absolute;top:700px;right:358px;width:300px;' />
+<img src='https://www.gmbinder.com/images/TW0FhNf.png' style='position:absolute;top:715px;right:358px;width:300px;' />
 
-<img src='https://www.gmbinder.com/images/VVpqaIT.png' style='position:absolute;bottom:-12px;right:-12px;width:290px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/VVpqaIT.png' style='position:absolute;bottom:18px;right:-12px;width:280px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -904,6 +900,8 @@ A tripod is a device used to<br> mount a two-handed<br> blaster weapon to<br> of
 |	&emsp;Tripod                    |	 450 cr	|	16 lb		|
 
 </div>	
+
+<div class='footnote'>PART 1 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -1038,7 +1036,7 @@ A merchant may be chartered by an individual or a corporation to deliver goods t
 |  5,000 cr	||	Spice precious (1 lb)	|
 | 10,000 cr ||	Spice, illicit (1 lb)	|
 
-<img src='https://www.gmbinder.com/images/mZ7inBg.png' style='position:absolute;bottom:32px;right:-5px;width:430px' />
+<img src='https://www.gmbinder.com/images/mZ7inBg.png' style='position:absolute;bottom:32px;right:5px;width:430px' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -1118,7 +1116,7 @@ Vehicles are more common on civilized planets than animal mounts. Vehicles do no
 |   Landspeeder     |  10,000 cr    |   220 mph |
 |	Speederbike    	|	6,000 cr	|	300 mph	|	
 
-<img src='https://www.gmbinder.com/images/xMlAJr5.png' style='position:absolute;bottom:-130px;right:0px;width:550px;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/xMlAJr5.png' style='position:absolute;bottom:-130px;right:10px;width:550px;transform:scaleX(-1)' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 
@@ -1234,7 +1232,7 @@ Other hirelings provide more expert or dangerous services. Mercenary soldiers pa
 |	Tolls		                        |	1 cr	        |
 |   Interplanetary Travel               | 100 cr per day per person   |
 
-<img src='https://www.gmbinder.com/images/9zusebj.png' style='position:absolute;bottom:-7px;right:0px;width:430px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/9zusebj.png' style='position:absolute;bottom:21px;right:0px;width:430px;z-index:1000;' />
 
 <div class='footnote'>PART 1 | EQUIPMENT</div>
 

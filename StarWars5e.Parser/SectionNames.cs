@@ -8,7 +8,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterOneSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.Rule, null ),
                 ( "Level", GlobalSearchTermType.Rule, null),
                 ( "Hit Points and Hit Dice", GlobalSearchTermType.Rule, null),
                 ( "Proficiency Bonus", GlobalSearchTermType.Rule, null),
@@ -23,7 +22,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterTwoSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 2: Species", GlobalSearchTermType.Rule, null ),
                 ( "Choosing A Species", GlobalSearchTermType.Rule, null),
                 ( "Ability Score Increase", GlobalSearchTermType.Rule, null),
                 ( "Age", GlobalSearchTermType.Rule, null),
@@ -42,7 +40,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterFourSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 4: Personality And Backgrounds", GlobalSearchTermType.Rule, null),
                 ( "Name", GlobalSearchTermType.Rule, null),
                 ( "Sex", GlobalSearchTermType.Rule, null),
                 ( "Height And Weight", GlobalSearchTermType.Rule, null),
@@ -62,7 +59,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterFiveSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 5: Equipment", GlobalSearchTermType.Rule, null),
                 ( "Variant: Starting Wealth By Class", GlobalSearchTermType.Table, null),
                 ( "Wealth", GlobalSearchTermType.Rule, null),
                 ( "Currency", GlobalSearchTermType.Rule, null),
@@ -122,7 +118,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterSixSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 6: Customization Options", GlobalSearchTermType.Rule, null),
                 ( "Multiclassing", GlobalSearchTermType.Rule, null),
                 ( "Fighting Styles", GlobalSearchTermType.Rule, null)
             };
@@ -130,7 +125,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterSevenSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.Rule, null),
                 ( "Ability Scores And Modifiers", GlobalSearchTermType.Rule, null),
                 ( "Advantage and Disadvantage", GlobalSearchTermType.Rule, null),
                 ( "Proficiency Bonus", GlobalSearchTermType.Rule, null),
@@ -151,7 +145,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterEightSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 8: Adventuring", GlobalSearchTermType.Rule, null),
                 ( "Movement", GlobalSearchTermType.Rule, null),
                 ( "Speed", GlobalSearchTermType.Rule, null),
                 ( "Difficult Terrain", GlobalSearchTermType.Rule, null),
@@ -188,7 +181,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterNineSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 9: Combat", GlobalSearchTermType.Rule, null),
                 ( "The Order Of Combat", GlobalSearchTermType.Rule, null),
                 ( "Surprise", GlobalSearchTermType.Rule, null),
                 ( "Your Turn", GlobalSearchTermType.Rule, null),
@@ -251,7 +243,6 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterTenSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 10: Force- And Tech-Casting", GlobalSearchTermType.Rule, null),
                 ( "Power Level", GlobalSearchTermType.Rule, null),
                 ( "Known Powers", GlobalSearchTermType.Rule, null),
                 ( "Force and Tech Points", GlobalSearchTermType.Rule, null),
@@ -305,6 +296,109 @@ namespace StarWars5e.Parser
                 ( "ASI And a Feat", GlobalSearchTermType.VariantRule, null),
                 ( "Milestone Leveling", GlobalSearchTermType.VariantRule, null),
                 ( "Hunted", GlobalSearchTermType.VariantRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterOneSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Hunted", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterThreeSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Acquiring A Ship", GlobalSearchTermType.StarshipRule, null),
+                ( "Joining A Faction", GlobalSearchTermType.StarshipRule, null),
+                ( "Shipjacking", GlobalSearchTermType.StarshipRule, null),
+                ( "Purchasing", GlobalSearchTermType.StarshipRule, null),
+                ( "Building A Ship", GlobalSearchTermType.StarshipRule, null),
+                ( "Upgrading A Starship", GlobalSearchTermType.StarshipRule, null),
+                ( "Cost Modifiers", GlobalSearchTermType.StarshipRule, null),
+                ( "Upgrade Workforce", GlobalSearchTermType.StarshipRule, null),
+                ( "Upgrade Time", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterFourSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Modifying A Starship", GlobalSearchTermType.StarshipRule, null),
+                ( "Cost Modifiers", GlobalSearchTermType.StarshipRule, null),
+                ( "Modification Workforce", GlobalSearchTermType.StarshipRule, null),
+                ( "Purchasing", GlobalSearchTermType.StarshipRule, null),
+                ( "Building A Ship", GlobalSearchTermType.StarshipRule, null),
+                ( "Upgrading A Starship", GlobalSearchTermType.StarshipRule, null),
+                ( "Cost Modifiers", GlobalSearchTermType.StarshipRule, null),
+                ( "Upgrade Workforce", GlobalSearchTermType.StarshipRule, null),
+                ( "Modification Time", GlobalSearchTermType.StarshipRule, null),
+                ( "Modification Tier Requirements", GlobalSearchTermType.StarshipRule, null),
+                ( "Prerequisites", GlobalSearchTermType.StarshipRule, null),
+                ( "Changing Saving Throw Proficiency", GlobalSearchTermType.StarshipRule, null),
+                ( "Removing Modifications", GlobalSearchTermType.StarshipRule, null),
+                ( "Starship Tier Features", GlobalSearchTermType.StarshipRule, null),
+                ( "Modification Slots At Tier 0", GlobalSearchTermType.StarshipRule, null),
+                ( "Stock Modifications", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterFiveSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Cost Modifiers", GlobalSearchTermType.StarshipRule, null),
+                ( "Equipment Workforce", GlobalSearchTermType.StarshipRule, null),
+                ( "Installation Time", GlobalSearchTermType.StarshipRule, null),
+                ( "Cargo", GlobalSearchTermType.StarshipRule, null),
+                ( "Cargo Capacity", GlobalSearchTermType.StarshipRule, null),
+                ( "Armor And Shields", GlobalSearchTermType.StarshipRule, null),
+                ( "Armor", GlobalSearchTermType.StarshipRule, null),
+                ( "Armor Class", GlobalSearchTermType.StarshipRule, null),
+                ( "Shields", GlobalSearchTermType.StarshipRule, null),
+                ( "Weapons", GlobalSearchTermType.StarshipRule, null),
+                ( "Primary Weapons", GlobalSearchTermType.StarshipRule, null),
+                ( "Secondary Weapons", GlobalSearchTermType.StarshipRule, null),
+                ( "Tertiary Weapons", GlobalSearchTermType.StarshipRule, null),
+                ( "Quaternary Weapons", GlobalSearchTermType.StarshipRule, null),
+                ( "Attack Bonus", GlobalSearchTermType.StarshipRule, null),
+                ( "Ammunition", GlobalSearchTermType.StarshipRule, null),
+                ( "Attacks Per Round", GlobalSearchTermType.StarshipRule, null),
+                ( "Power", GlobalSearchTermType.StarshipRule, null),
+                ( "Reload", GlobalSearchTermType.StarshipRule, null),
+                ( "Weapons By Size", GlobalSearchTermType.StarshipRule, null),
+                ( "Tiny To Medium", GlobalSearchTermType.StarshipRule, null),
+                ( "Large To Gargantuan", GlobalSearchTermType.StarshipRule, null),
+                ( "Ammunition", GlobalSearchTermType.StarshipRule, "ammunition 2"),
+                ( "Tertiary Ammunition", GlobalSearchTermType.StarshipRule, null),
+                ( "Quaternary Ammunition", GlobalSearchTermType.StarshipRule, null),
+                ( "Hyperdrive", GlobalSearchTermType.StarshipRule, null),
+                ( "Navcomputer", GlobalSearchTermType.StarshipRule, null),
+                ( "Docking", GlobalSearchTermType.StarshipRule, null),
+                ( "Docking Fees", GlobalSearchTermType.StarshipRule, null),
+                ( "Long Term Storage", GlobalSearchTermType.StarshipRule, null),
+                ( "Refueling And Restocking", GlobalSearchTermType.StarshipRule, null),
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterSixSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Multispecializing", GlobalSearchTermType.StarshipRule, null),
+                ( "Gunning Styles", GlobalSearchTermType.StarshipRule, null),
+                ( "Gunning Masteries", GlobalSearchTermType.StarshipRule, null),
+                ( "Ventures", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterSevenSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Ability Scores And Modifiers", GlobalSearchTermType.StarshipRule, null),
+                ( "Advantage And Disadvantage", GlobalSearchTermType.StarshipRule, null),
+                ( "Proficiency Bonus", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Ability Checks", GlobalSearchTermType.StarshipRule, null),
+                ( "Contests", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
             };
     }
 }

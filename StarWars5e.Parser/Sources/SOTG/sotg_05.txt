@@ -4,9 +4,9 @@
 
 # Chapter 5: Equipment
 
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he starship marketplace on the planet of Kuat <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps speed. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tote as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he starship marketplace on the planet of Kuat <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps speed. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tout as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.
 
 This chapter offers choices of certain equipment types, to be used in conjunction with the starship upgrades featured in Chapter 4. The listed prices are those appropriate to ships of a Small size; when outfitting a ship of any other size, you'll want to apply the starship size equipment cost, as shown in the Starship Size Equipment Cost table below, which differs slightly from a similar table found in Chapter 4.
 
@@ -134,17 +134,15 @@ Quick-Charge Shields, opposite of Fortress Shields, offer a reduced capacity, bu
 |Name|Cost|Armor Class<br> Bonus|Hit Points<br>per Hit Die|&nbsp;&nbsp;&nbsp;Shield<br> &nbsp;Capacity|Shield Regeneration<br>&nbsp;&nbsp;&nbsp;Rate Coefficient|
 |:--|--:|:--:|:--:|:--|:--|
 |	_Armor_	    |||||||
-|&emsp;	Deflection Armor       |3,100 cr| — | — |&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
-|&emsp;	Lightweight Armor      |3,700 cr| +1| -1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
-|&emsp;	Reinforced Armor       |3,450 cr| -1| +1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—|
+|&emsp;	Deflection armor       |3,100 cr| — | — |&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
+|&emsp;	Lightweight armor      |3,700 cr| +1| -1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
+|&emsp;	Reinforced armor       |3,450 cr| -1| +1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—|
 |	_Shields_	|||||||
-|&emsp;	Directional Shield     |4,300 cr| — | — |&emsp;&nbsp;&nbsp;x 1|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 1|
-|&emsp;	Fortress Shield        |4,650 cr| — | — |&emsp;&nbsp;&nbsp;x 2|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 0.5|
-|&emsp;	Quick-Charge Shield    |4,900 cr| — | — |&emsp;&nbsp;&nbsp;x 0.5|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 2|
+|&emsp;	Directional shield     |4,300 cr| — | — |&emsp;&nbsp;&nbsp;x 1|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 1|
+|&emsp;	Fortress shield        |4,650 cr| — | — |&emsp;&nbsp;&nbsp;x 2|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 0.5|
+|&emsp;	Quick-Charge shield    |4,900 cr| — | — |&emsp;&nbsp;&nbsp;x 0.5|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 2|
 
 </div>
-
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -422,7 +420,7 @@ Some navcomputers offer a bonus when calculating astrogation, as indicated by a 
 ##### Navcomputer
 |Name|Cost|
 |:--|--:|
-|Basic Navcomputer    | 2,500 cr|
+|Basic navcomputer    | 2,500 cr|
 |Navcomputer +1       | 7,500 cr|
 |Navcomputer +2       |15,000 cr|
 |Navcomputer +3       |50,000 cr|

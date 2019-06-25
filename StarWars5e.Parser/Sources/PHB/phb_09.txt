@@ -2,7 +2,7 @@
 
 # Chapter 9: Combat
 
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he shriek of blaster fire flying overhead. The<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *clash* of a gamorrean's axe striking against a composite shield. The crackle of lightning emenating from a Sith lord's hands. The sharp tang of blood in the air, cutting through the stench of vile monsters. Roars of fury, shouts of triumph, cries of pain. Combat in D&D can be chaotic, deadly, and thrilling.
 
@@ -228,6 +228,7 @@ When you take the Hide action, you make a Dexterity (Stealth) check in an attemp
 
 \columnbreak
 
+<div style='margin-top:18px'></div>
 
 > #### Improvising an Action
 > Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in chapter 7 for inspiration as you improvise.
@@ -318,8 +319,6 @@ When you are **unarmed,** you can fight in melee by making an unarmed strike. Yo
 
 \pagebreakNum
 
-<div style='margin-top:23px'></div>
-
 #### Opportunity Attacks
 In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack. 
 
@@ -346,7 +345,7 @@ The target of your grapple must be no more than one size larger than you, and it
 
 \columnbreak
 
-### Shoving
+#### Shoving
 Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
 The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 5 feet away from you.
@@ -368,7 +367,7 @@ Injury and the risk of death are constant companions of those who explore the wo
 ### Hit Points
 Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more hit points are more difficult to kill. Those with fewer hit points are more fragile.
 
-A creature's current hit points (usually just called hit points) can be any number from the creature's hit point maximum down to 0. This number changes frequently as a creature takes damage or receives healing.
+A creature's current hit points (usually just called hit points) can be any number from the creature's hit point maximum down to 0. This number changes as a creature takes damage or receives healing.
 
 Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points.
 
@@ -405,7 +404,7 @@ The damage types follow, with examples to help a DM assign a damage type to a ne
 
 ***Force.*** Certain force powers that channel the pure energy of the Force deal force damage. 
 
-***Ion.*** Ion damage is a special damage type that is most effective against mechanical targets, such as droids, constructs, vehicles, or space ships.
+***Ion.*** Ion damage is a special damage type that is most effective against droids and constructs. 
 
 ***Kinetic.*** Kinetic damage encompasses all physical damage commonly dealt by vibroweapons.
 
@@ -532,7 +531,7 @@ A **ranged weapon attack** automatically misses a target beyond the weapon's nor
 
 Creatures and objects that are fully immersed in water have resistance to fire damage.
 
-<img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:1px;right:0px;width:450px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:10px;width:450px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>PART 2 | COMBAT</div>
 

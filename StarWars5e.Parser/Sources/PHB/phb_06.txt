@@ -2,7 +2,7 @@
 
 # Chapter 6: Customization Options
 
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:78px;left:63px;width:30px' />
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he combination of ability scores, species, class,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players who—with the DM's permission—want to go a step further.
 
@@ -58,9 +58,7 @@ Your proficiency bonus is always based on your total character level, as shown i
 
 \pagebreakNum
 
-<div style='margin-top:16px'></div>
-
-&emsp;If a class feature or feat allows you to forgo your proficiency bonus, you may only do so once.
+If a class feature or feat allows you to forgo your proficiency bonus, you may only do so once.
 
 ### Proficiencies
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multiclassing Proficiencies table.
@@ -187,8 +185,7 @@ You are skilled at fighting while minimally armored. While you are wearing no ar
 <div style='margin-top:27px'></div>
 
 #### Sentinel
-You are skilled at techniques that take advantage of every drop in any enemy's guard. While you are wielding a melee weapon with which you are proficient, you gain the following benefit:
-- As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make a number of opportunity attacks equal to your proficiency bonus without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.
+You are skilled at techniques that take advantage of every drop in any enemy's guard. While you are wielding a melee weapon with which you are proficient, you can use a bonus action to enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make a number of opportunity attacks equal to your proficiency bonus without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.
 
 #### Sharpshooting
 You are skilled with ranged weapons and can make shots that others find difficult. While you are wielding a ranged weapon with which you are proficient, gain a +2 bonus to attack rolls you make with ranged weapons.
@@ -395,7 +392,7 @@ You've practiced making your powers more difficult to avoid, learning techniques
 You have a knack for crafting; you work with greater efficiency and produce goods of higher quality. Select one type of artisan's tools. You gain the following benefits whilst using it:
 - Increase your Strength, Constitution, or Intelligence score by 1, to a maximum of 20.
 - You gain proficiency with the chosen tool. If you are already proficient with it, you instead gain expertise with it.
-- When you craft something with the tool you've selected, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you have expertise with them, the market value increases by 10 x your character level.
+- When you craft something with the tool you've selected, the total market value you can craft increases 50 cr per day. If you have expertise with them, the market value instead increases by 100 cr per day.
 - If you use the tool you've selected to practice a profession during downtime, you can support a lifestyle one higher than you would normally be able to.
 
 You can select this feat multiple times. Each time you do so, you must choose a different set of artisan's tools. 
@@ -421,7 +418,7 @@ You have extensive experience with explosives, gaining the following benefits:
 
 - You gain proficiency with the demolitions kit. If you are already proficient with it, you instead gain expertise with it.
 - Whenever you make an Intelligence (Demolitions Kit) check to disarm an explosive, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least one minute disarming it.
-- Over the course of a short rest, you can temporarily improve the potency of one grenade or mine. To use this benefit, you must have a demolitions kit, and the explosive must be within reach. The explosive's DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra damage equal to your Intelligence modifier of the same type it would normally deal. This effect lasts until the end of your next long rest.
+- Over the course of a short rest, you can temporarily improve the potency of one grenade or mine. To use this benefit, you must have a demolitions kit, and the explosive must be within reach.  If the poison is applied before the end of your next short or long rest, it's DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra damage equal to your Intelligence modifier of the same type it would normally deal. 
 
 ### Dual Focused Caster
 *Prerequisite: The ability to cast force or tech powers*<br>
@@ -571,7 +568,7 @@ You are adept at harnessing the useful properties of herbs and other plants. You
 - You can apply herbal remedies to help yourself or your allies recover from maladies. Over the course of a short rest, you can remove one poison or disease from a friendly creature within reach. You must have an herbalism kit and access to local herbs to use this benefit.
 
 ### Inspiring Leader
-*Prerequisite: Charisma 13 or higher*<br>
+*Prerequisite: Charisma 13*<br>
 You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.
 
 \columnbreak
@@ -718,7 +715,7 @@ You have studied the secrets of poisons and toxins, gaining the following benefi
 - Increase your Intelligence by 1, to a maximum of 20.
 - You gain proficiency with the poisoner's kit. If you are already proficient with it, you instead gain expertise with it.
 - As an action, you can identify one poison within 5 feet of you. You must see the poison for this benefit to work.
-- Over the course of a short rest, you can temporarily improve the potency of one dose of poison. To use this benefit, you must have a poisoner's kit, and the poison must be within reach. If the poison is applied within 1 hour after the short rest ends, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra poison damage equal to your Intelligence modifier.
+- Over the course of a short rest, you can temporarily improve the potency of one dose of poison. To use this benefit, you must have a poisoner's kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra poison damage equal to your Intelligence modifier.
 
 <div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
 
@@ -789,7 +786,7 @@ Choose one ability score. You gain the following benefits:
 You master the use of blaster carbine, blaster rifle, ion rifle, lightbow, sniper rifle, and slugthrower. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
 - You gain a +1 bonus to the weapon's attack rolls.
 - Whenever you have advantage on an attack roll and hit, and the lower of the two d20 rolls would also hit, you can attempt to snare the target. If the target is no more than one size larger than you (your size or smaller if your weapon has the *light* property), it must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or its movement speed is halved until the end of your next turn. 
-- When a creature you can see misses you with an attack roll, you can use your reaction to disengage and move up to half your speed. You must end this movement further away from the creature than you started. 
+- When a creature you can see misses you with an attack roll, you can use your reaction to Disengage and move up to half your speed. You must end this movement further away from the creature than you started. 
 
 ### Sentinel Mastery
 You've mastered techniques to take advantage of every drop in any enemy's guard; in tight spaces you are indomitable. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
@@ -826,7 +823,7 @@ You develop your conversational skill to better deceive others. You gain the fol
 - When you take the Attack action, you can replace one attack with an attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour.
 
 ### Skulker
-*Prerequisite: Dexterity 13 or higher*<br>
+*Prerequisite: Dexterity 13*<br>
 You are expert at slinking through shadows. You gain the following benefits:
 - You can try to hide when you are lightly obscured from the creature from which you are hiding.
 - When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.
@@ -929,7 +926,7 @@ You've mastered fighting with two weapons, becoming a flurry of motion. While yo
 
 ### Versatile Mastery
 You've mastered the art of using weapons in different ways, altering your attack patterns mid-swing. While you are wielding a melee weapon with the *versatile* property with which you are proficient and no other weapons, you gain the following benefits:
-- When you are the target of a melee weapon attack, you can immediately use your reaction to make a melee weapon attack against the target. On a hit, you impose disadvantage on the attack roll made against you.
+- When you are the target of a melee weapon attack, you can immediately use your reaction to make a melee weapon attack against the target with disadvantage. On a hit, you impose disadvantage on the attack roll made against you.
 - If you miss an attack while wielding a weapon in two hands, you can immediately make an attack roll against the same target using one hand. You can only make this attack once per turn.
 - If you miss an attack while wielding a weapon in one hand, you can immediately attempt to shove that creature up to 5 feet directly away from you. You can only make this attempt once per turn.
 

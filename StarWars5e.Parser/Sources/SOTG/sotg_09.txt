@@ -4,7 +4,7 @@
 
 # Chapter 9: Combat
 
-<img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:78px;left:63px;width:35px' />
+<img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:76px;width:35px' />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s the light freighter exits hyperspace, it finds<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; itself in the middle of a snubfighter skirmish. Immediately, the pilot begins evasive maneuvers while hollering for help. One crewmember hops into the copilot seat while two more run to opposite sides of the craft to man the gun batteries. Three of the snubfighters -- now identified as TIE fighters -- turn towards this new opponent and open fire, but the blasts dissipiate ineffectually on the freighter's shields. The freighter's two gunners, now in place, open fire on the assaulting craft. One takes the blasts directly to the cockpit and explodes in a blaze, while the other is hit on a solar panel and spins off out of control into the distance. The third attempts to pass overhead, but the copilot takes a shot from the freighter's slaved railgun and destroys the fighter in a single stroke.
 
@@ -21,6 +21,8 @@ The GM determines who might be surprised. If neither side tries to be stealthy, 
 If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
 
 \columnbreak
+
+<div style='margin-top:20px'></div>
 
 > ##### Combat Step By Step
 > **&emsp;1. Determine surprise.** The GM determines whether anyone involved in the combat encounter is surprised.
@@ -52,7 +54,7 @@ You can communicate however you are able, through brief utterances and gestures,
 You can also interact with one object or feature of the environment for free, during either your move or your action.
 
 #### Reactions
-Certain features allow you to take a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. 
+Certain features allow you to take a reaction. A reaction is an instant response to a trigger of some kind, which can occur any turn.
 
 When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.
 
@@ -128,7 +130,7 @@ Each ship takes up a different amount of space. The Size Categories table shows 
 |Gargantuan|25,000 ft. or larger|
 
 > #### Variant: Sizes on a Grid
-> If you play out combat using a square grid and miniatures or other tokens, consider scaling down the sizes of ships. A Tiny or Small ship should take up 1 quare, while a Medium ship takes up 2. A Large ship takes up 4 squares, a Huge 8, and a Gargantuan 16.
+> If you play out combat using a square grid and miniatures or other tokens, consider scaling down the sizes of ships. A Tiny or Small ship should take up 1 square, while a Medium ship takes up 2. A Large ship takes up 4 squares, a Huge 8, and a Gargantuan 16.
 
 #### Space
 A ship's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium ship isn't 100 feet wide, for example, but it does control a space that wide.
@@ -149,22 +151,22 @@ The most common action to take in combat is the Attack action. With this action,
 As normal, you can cast force or tech powers. You can not target a hostile creature with a power unless you are aware of their presence and location. Any deployed crew member take the Cast a Power action.
 
 ### Direct
-You can direct another creature within 5 feet of you, aiding them in the completion of a task. When you take the Direct action, the creature gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature within 5 feet of you in attacking another target. If your ally attacks the target before the start of your next turn, the first attack roll is made with advantage. Only a deployed coordinator can take the Direct action.
+When you take the Direct action, the creature gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature within 5 feet of you in attacking another target. If your ally attacks the target before the start of your next turn, the first attack roll is made with advantage. Only a deployed coordinator can take the Direct action.
 
 ### Evade
-When you take the Evade action, you make an Intelligence (Piloting) check contested by a target ship's Intelligence (Piloting) check. On a success, the first attack roll the target makes against you before the start of your next turn has disadvantage. On a failure, the first attack roll made by your ship against the target before the start of your next turn has disadvantage. Only a deployed pilot can take the Evade action.
+When you take the Evade action, you make an Intelligence (Piloting) check contested by a target's Intelligence (Piloting) check. On a success, the first attack roll the target makes against you before the start of your next turn has disadvantage. On a failure, the first attack roll made by your ship against the target before the start of your next turn has disadvantage. Only a deployed pilot can take the Evade action.
 
 ### Hide
 When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide your ship, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter. Only a deployed pilot can take the Hide action.
 
 ### Interfere
-You can attempt to interfere with another creature within 1,000 feet that is deployed on a ship, if you are aware of their presence and location, in the attempt of a task. When you take the Interfere action, you make an 
+You can attempt to interfere with another creature within 1,000 feet that is deployed on a ship, if you are aware of their presence and location, in the attempt of a task. When you take the Interfere action, you make an Intelligence (Technology) check contested by the
 
 \columnbreak
 
-<div style='margin-top:27px'></div>
+<div style='margin-top:29px'></div>
 
-Intelligence (Technology) check contested by the target's Intelligence (Technology) check. If you succeed, the subject has disadvantage on the next ability check or attack roll it makes before the start of your next turn. Only a deployed operator can take the Interfere action.
+target's Intelligence (Technology) check. If you succeed, the subject has disadvantage on the next ability check or attack roll it makes before the start of your next turn. Only a deployed operator can take the Interfere action.
 
 ### Patch
 You can attempt to patch up damage a ship has taken, using one of its Hit Dice. When you take the Patch action, you make an Intelligence (Mechanic's Kit) check (DC = 10 or half the ship's missing hit points, whichever number is higher). On a failure, you roll the Hit Die twice and take the lesser amount. On a success you roll the Hit Die normally. Only a deployed mechanic can take the Patch action.
@@ -221,12 +223,14 @@ Aiming a ranged attack is more difficult when a foe is next to you. When you mak
 ### Firing Arc
 Ships have a firing arc, which is determined by the hardpoint on which they are mounted. Fixed hardpoints offer a limited firing arc, while turret hardpoints have an unlimited firing arc.
 
+#### Limited Firing Arc
+Many weapons, such as forward- or rear-mounted laser cannons, can only fire in a single direction, indicated by a limited firing arc. These weapons can
+
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:29px'></div>
 
-#### Limited Firing Arc
-Many weapons, such as forward- or rear-mounted laser cannons, can only fire in a single direction, indicated by a limited firing arc. These weapons can only fire at targets within a cone, with the weapon's fixed hardpoint as the cone's point of origin. The cone's width at a given point along its length is equal to that points distance from the point of origin. 
+only fire at targets within a cone, with the weapon's fixed hardpoint as the cone's point of origin. The cone's width at a given point along its length is equal to that points distance from the point of origin. 
 
 #### Unlimited Firing Arc
 Weapons with an unlimited firing arc can fire at any target within range and line of sight.
@@ -315,7 +319,7 @@ When a ship is reduced to 0 hit points, it is either destroyed or disabled. If t
 Massive damage can destroy a ship instantly. When damage reduces a ship to 0 hit points and there is damage remaining, the ship explodes if the remaining damage equals or exceeds its hit point point maximum.
 
 #### Destruction Saving Throws
-Whenever you start your turn and your ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn't tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes and failures don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
+At the start of the pilot's turn, if the ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn't tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success has no effect by itself; on your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
 
 ***Rolling 1 or 20.*** When you make a destruction saving throw and roll a 1 on the d20, it counts as two failures, causing 2 levels of system damage. If you roll a 20 on the d20, your ship regains 1 hit point.
 

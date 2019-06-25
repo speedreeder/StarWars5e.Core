@@ -192,11 +192,11 @@ ___
 - Greater Salvo
 - Invulnerability
 - Kolto Waves
-- Preparedness
+- Predictive AI
 
 </div>
 
-<img src='https://www.gmbinder.com/images/JOgqCfl.png' style='position:absolute;bottom:-3px;right:0px;width:620px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/JOgqCfl.png' style='position:absolute;bottom:-3px;right:0px;width:820px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>PART 3 | TECH POWERS</div>
 
@@ -244,7 +244,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in a thick acidic slime until the start of your next turn. Until the start of your next turn, if the target succeeds in grappling or maintaining a grapple, the slime is pressed into its body, causing it to immediately take 1d8 acid damage. 
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in a thick acidic slime until the start of your next turn. Until the start of your next turn, if the target succeeds in grappling or maintaining a grapple, the slime is pressed into its body, causing it to immediately take 1d8 acid damage. 
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 acid damage to the target, and the damage the target takes for taking grappling or maintaining a grapple increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
 
@@ -285,9 +285,9 @@ ___
 
 This power attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as rancors, kath hounds, or twi'leks. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.
 
-***Antipathy.*** The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.
+***Antipathy.*** The power causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.
 
-***Sympathy.*** The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target. 
+***Sympathy.*** The power causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target. 
 
 If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.
 
@@ -384,7 +384,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 minute
 
-You empower and then load a power cell in your weapon. For the duration, when you make a ranged attack with the weapon, it consumes no ammunition, and as a bonus action on each of your turns you can use a make one attack with the weapon loaded with the power cell.
+You empower and then load a power cell in your weapon. For the duration, when you make a ranged attack with the weapon, it consumes no ammunition, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
 
@@ -404,7 +404,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it ignites in flame. At the start of your next turn, the creature takes fire damage equal to your techcasting ability modifier. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames, the effect ends. 
+As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it ignites in flame. At the start of your next turn, the creature takes fire damage equal to your techcasting ability modifier. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames, the effect ends. 
 
 This power's damage increases when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 fire damage to the target, and the damage at the start of your next turn increases to 1d4 + your tech casting ability modifier. Both damage rolls increase by 1d6 and 1d4, respectively, at 11th level and 17th level.
 
@@ -996,7 +996,7 @@ ___
 - **Range:** 120 feet
 - **Duration:** Instantaneous
 
-You launch four projectiles at points you can see within range. Each creature within a 20-foot radius sphere of each point must make a Dexterity saving throw. A creature takes 15d6 fire damage and 15d6 kinetic damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once. 
+You launch four projectiles at points you can see within range. Each creature within a 20-foot-radius sphere of each point must make a Dexterity saving throw. A creature takes 15d6 fire damage and 15d6 kinetic damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once. 
 
 The power damages objects in the area and ignites flammable objects that aren't being worn or carried.
 
@@ -1098,7 +1098,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you create an illusory duplicate of yourself in your space that only the target can see. The target has disadvantage on the next attack roll it makes against you before the start of your next turn.
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you create an illusory duplicate of yourself in your space that only the target can see. The target has disadvantage on the next attack roll it makes against you before the start of your next turn.
 
 This power creates multiple duplicates when you reach higher levels. At 5th level, you create a second illusory duplicate, and the target has disadvantage on the next two attacks it makes against you before the start of your next turn. The number of duplicates and attacks with disadvantage increases to three at 11th level and four at 17th level.
 
@@ -1220,7 +1220,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in an ionic discharge. If the target willingly takes a reaction before the start of your next turn, it immediately takes 1d6 ion damage, and the power ends. 
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in an ionic discharge. If the target willingly takes a reaction before the start of your next turn, it immediately takes 1d6 ion damage, and the power ends. 
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d6 ion damage to the target, and the damage the target takes for taking reactions increases to 2d6. Both damage rolls increase by 1d6 at 11th level and 17th level.
 
@@ -1322,7 +1322,7 @@ While affected by this power, the object is more difficult to break or force ope
 _2nd-level tech power_
 ___
 - **Casting Time:** 1 action
-- **Range:** Touch
+- **Range:** Self
 - **Duration:** Concentration, up to 1 hour
 
 You create a strong magnetic field around you in a 10-foot radius which moves with you, remaining centered on you. The field lasts for the power's duration.
@@ -1516,13 +1516,13 @@ ___
 - **Range:** 60 feet
 - **Duration:** Concentration, up to 1 minute
 
-You choose one droid or construct you can see within range and attempt to remotely override its controls. The target must make an Intelligence saving throw. If the construct has the 'Piloted' trait, and has a pilot controlling it that is not incapacitated, it gains a bonus to the saving throw equal to the pilot's Intelligence modifier. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
+You choose one droid or construct you can see within range and attempt to remotely override its controls. The target must make an Intelligence saving throw. If the construct has the 'Piloted' trait, and has a pilot controlling it that is not incapacitated, it gains a bonus to the saving throw equal to the pilot's Intelligence modifier. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. On a failed save, the creature is charmed by you for the duration.
 
 While the droid is charmed, you have a wireless link with it as long as the two of you are on the same planet. Via your tech focus, you can use this link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Move over there," or "Fetch that object." If the droid completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability. 
 
 You can use your action to take total and precise control of the target. Until the end of your next turn, the droid takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. 
 
-Each time the target takes damage, it makes a new Constitution saving throw against the power. If the saving throw succeeds, the power ends.
+Each time the target takes damage, it makes a new Intelligence saving throw against the power. If the saving throw succeeds, the power ends.
 
 ***Overcharge Tech.*** When you cast this power using a 6th-level tech slot, the duration is 10 minutes. When you use a 7th-level tech slot, the duration is 1 hour. When you use a tech slot of 8th level or higher, the duration is 8 hours.
 
@@ -1546,7 +1546,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Concentration, up to 1 minute
 
-You emit a paralyzing dart at a humanoid that you can see within range. TheThe target must succeed on a Constitution saving throw or be poisoned for the duration. While poisoned in this way, the target is paralyzed. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.
+You emit a paralyzing dart at a humanoid that you can see within range. The target must succeed on a Constitution saving throw or be poisoned for the duration. While poisoned in this way, the target is paralyzed. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.
 
@@ -1678,7 +1678,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round 
 
-As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and the creature's movement speed is halved until the end of its turn as the air around it turns frigid. 
+As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and the creature's movement speed is halved until the end of its turn as the air around it turns frigid. 
 
 This power deals additional damage when you reach higher levels. At 5th level the ranged attack deals an extra 1d6 cold damage. This damage increases by 1d6 again at 11th level and 17th level.
 
@@ -1689,7 +1689,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and its speed is reduced by 10 feet until the start of your next turn, as the cold energy seeps into its being. Additionally, if the target doesn't move at least 5 feet before the start of your next turn, it immediately takes 1d8 cold damage, and the power ends. 
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and its speed is reduced by 10 feet until the start of your next turn, as the cold energy seeps into its being. Additionally, if the target doesn't move at least 5 feet before the start of your next turn, it immediately takes 1d8 cold damage, and the power ends. 
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 cold damage to the target, and the damage the target takes for not moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level. 
 
@@ -1942,7 +1942,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a sonic barrier until the start of your next turn. If the target willingly moves before then, it immediately takes sonic damage equal to your techcasting modifier, becomes deafened until the start of your next turn, and the power ends.
+As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a sonic barrier until the start of your next turn. If the target willingly moves before then, it immediately takes sonic damage equal to your techcasting modifier, becomes deafened until the start of your next turn, and the power ends.
 
 This power's damage increases when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 sonic damage to the target, and the damage the target takes for moving increases to 1d6 + your techcasting ability modifier.  Both damage rolls increase by an additional 1d6 at 11th and 17th level.
 
@@ -1957,7 +1957,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you begin to emanate a disturbing hum. If a hostile creature ends its turn within 5 feet of you before the start of your next turn, it takes 1d4 sonic damage. 
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you begin to emanate a disturbing hum. If a hostile creature ends its turn within 5 feet of you before the start of your next turn, it takes 1d4 sonic damage. 
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 sonic damage to the target, and the secondary damage increases by 1d4. Both damage rolls increase by 1d8 and 1d4, respectively, at 11th level and 17th level.
 
@@ -1992,7 +1992,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As a part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects and gains the lightning rod debuff until the end of your next turn, as energy begins to course through them. When this power hits a target, if there is a creature within 30 feet who has the lightning rod debuff, then the energy discharges, creating an arc of lightning between them which removes the debuff and deals 1d6 lightning damage to each of them.
+As a part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects and gains the lightning rod debuff until the end of your next turn, as energy begins to course through them. When this power hits a target, if there is a creature within 30 feet who has the lightning rod debuff, then the energy discharges, creating an arc of lightning between them which removes the debuff and deals 1d6 lightning damage to each of them.
 
 The power's damage increases when you reach higher levels. At 5th level, the effects of both the ranged weapon attack and discharge deal an extra 1d6 lightning damage. Both damage rolls increase by an additional 1d6 at 11th and 17th level.
 
@@ -2079,7 +2079,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and a small target only visible to you marks it. The next attack roll you make against the creature before the end of your next turn can't suffer from disadvantage.
+As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and a small target only visible to you marks it. The next attack roll you make against the creature before the end of your next turn can't suffer from disadvantage.
 
 This power deals additional damage when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 damage. This damage increases by 1d6 again at 11th level and 17th level. The damage is the same type as the weapon's damage.
 
@@ -2229,7 +2229,7 @@ ___
 - **Range:** Varies
 - **Duration:** Instantaneous
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and if you were hidden from it, it takes an additional 1d4 poison damage. 
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and if you were hidden from it, it takes an additional 1d4 poison damage. 
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 poison damage to the target, and the damage the target takes when you are hidden from it increases to 2d4. Both damage rolls increase by 1d8 and 1d4, respectively, at 11th level and 17th level.
 
@@ -2242,7 +2242,7 @@ ___
 - **Range:** Varies 
 - **Duration:** Instantaneous  
 
-As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and each Large or smaller creature within 10 feet of the target must succeed on a Strength saving throw or be pulled to the nearest unoccupied space adjacent to the target. 
+As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and each Large or smaller creature within 10 feet of the target must succeed on a Strength saving throw or be pulled to the nearest unoccupied space adjacent to the target. 
 
 This power deals additional damage when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 damage. This damage increases by 1d6 again at 11th level and 17th level. The damage is the same type as the weapon's damage.
 
@@ -2262,7 +2262,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and a dim barrier surrounds it. The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6. 
+As part of the action used to cast this power, you must make a ranged attack with a weapon against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and a dim barrier surrounds it. The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6. 
 
 This power's damage reduction increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 

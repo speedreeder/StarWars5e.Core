@@ -207,7 +207,7 @@ ___
 
 </div>
 
-<img src='https://www.gmbinder.com/images/hBOGYMT.png' style='position:absolute;bottom:0px;right:0px;width:720px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/hBOGYMT.png' style='position:absolute;bottom:-10px;left:80px;width:880px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>PART 3 | FORCE POWERS</div>
 
@@ -1082,7 +1082,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-You imbue your weapon with the purifying light of the Force. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a glowing barrier of force energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 force damage, and the power ends.
+You imbue your weapon with the purifying light of the Force. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a glowing barrier of force energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 force damage, and the power ends.
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 force damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
 
@@ -1484,7 +1484,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-You imbue your weapon with debilitating force lightning. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and the lightning leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes lightning damage equal to your forcecasting ability modifier.
+You imbue your weapon with debilitating force lightning. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and the lightning leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes lightning damage equal to your forcecasting ability modifier.
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 lightning damage to the target, and the lightning damage to the second creature increases to 1d8 + your forcecasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.
 
@@ -1585,7 +1585,7 @@ ___
 - **Range:** Self (30-foot radius)
 - **Duration:** Concentration, up to 1 minute
 
-You exude an aura out to 15 feet that boosts the morale and overall battle prowess you and your allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to fight. 
+You exude an aura out to 30 feet that boosts the morale and overall battle prowess you and your allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to fight. 
 
 Whenever you or a friendly creature within your meditation makes an attack roll or a saving throw, they can roll a d8 and add the number rolled to the attack roll or saving throw. 
 
@@ -1758,7 +1758,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you can choose to deal up to 1d8 of necrotic damage, which you suffer as well. This damage can't be reduced or negated in any way. 
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you can choose to deal up to 1d8 of necrotic damage, which you suffer as well. This damage can't be reduced or negated in any way. 
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 necrotic damage to the target, and you can increase the secondary damage to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
 
@@ -1843,7 +1843,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and its mouth is covered by a violet veil until the start of your next turn. If the target willingly speaks before then, it immediately takes 1d8 psychic damage, and the power ends.
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and its mouth is covered by a violet veil until the start of your next turn. If the target willingly speaks before then, it immediately takes 1d8 psychic damage, and the power ends.
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 psychic damage to the target, and the damage the target takes for speaking increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
 
@@ -2151,7 +2151,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within the power's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you begin to emanate a disturbing hum until the start of your next turn. If a hostile creature ends its turn within 5 feet of you, it takes 1d4 sonic damage.
+As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon's reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you begin to emanate a disturbing hum until the start of your next turn. If a hostile creature ends its turn within 5 feet of you, it takes 1d4 sonic damage.
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 sonic damage to the target, and the secondary damage increases by 1d4. Both damage rolls increase by 1d8 and 1d4, respectively, at 11th level and 17th level.
 

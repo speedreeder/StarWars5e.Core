@@ -30,6 +30,11 @@
         Venture,
         Monster,
         WeaponProperty,
-        Condition
+        Condition,
+        HandbookChapter,
+        StarshipChapter,
+        MonsterManualChapter,
+        LootChapter,
+        StarshipWeaponProperty
     }
 }
