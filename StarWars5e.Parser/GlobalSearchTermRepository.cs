@@ -36,19 +36,21 @@ namespace StarWars5e.Parser
             {
                 key = path + "#" + pathOverride.ToKebabCase();
             }
-            
+
+            var nameWithOptionalSection = name;
             if (!string.IsNullOrWhiteSpace(section))
             {
-                name = $"{section} - {name}";
+                nameWithOptionalSection = $"{section} - {name}";
             }
             var searchTerm = new GlobalSearchTerm
             {
                 PartitionKey = contentType.ToString(),
                 RowKey = key.ToKebabCase(),
                 GlobalSearchTermTypeEnum = type,
-                Name = name,
-                FullName = $"{type.ToString().SplitPascalCase()}: {name}",
-                Path = key
+                Name = nameWithOptionalSection,
+                FullName = $"{type.ToString().SplitPascalCase()}: {nameWithOptionalSection}",
+                Path = key,
+                SearchText = name
             };
             return searchTerm;
         }

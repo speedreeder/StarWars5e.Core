@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using StarWars5e.Models;
@@ -131,8 +132,8 @@ namespace StarWars5e.Parser.Parsers.PHB
             return Task.FromResult(chapters);
         }
 
-        private ChapterRules CreateChapterRules(List<string> chapterLines, int chapterNumber, string chapterName,
-            List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> searchTerms = null, string path = null)
+        private ChapterRules CreateChapterRules(IEnumerable<string> chapterLines, int chapterNumber, string chapterName,
+            IReadOnlyCollection<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> searchTerms = null, string path = null)
         {
             if(searchTerms != null)
             {

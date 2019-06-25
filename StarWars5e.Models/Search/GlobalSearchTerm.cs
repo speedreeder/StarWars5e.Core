@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Azure.Search;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Models.Enums;
 
@@ -14,5 +15,8 @@ namespace StarWars5e.Models.Search
         }
         public string Path { get; set; }
         public string FullName { get; set; }
+
+        [IsSearchable]
+        public string SearchText { get; set; }
     }
 }

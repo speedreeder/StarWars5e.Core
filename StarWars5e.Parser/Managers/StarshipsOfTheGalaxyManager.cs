@@ -25,13 +25,14 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<StarshipBaseSize> _starshipSizeProcessor;
         private readonly IBaseProcessor<StarshipVenture> _starshipVentureProcessor;
         private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
+
         private readonly List<string> _sotgFilesName = new List<string>
         {
             "SOTG.sotg_00.txt", "SOTG.sotg_01.txt", "SOTG.sotg_02.txt", "SOTG.sotg_03.txt", "SOTG.sotg_04.txt", "SOTG.sotg_05.txt", "SOTG.sotg_06.txt",
             "SOTG.sotg_07.txt", "SOTG.sotg_08.txt", "SOTG.sotg_09.txt", "SOTG.sotg_10.txt", "SOTG.sotg_aa.txt", "SOTG.sotg_changelog.txt"
         };
 
-        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount)
+        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
@@ -39,7 +40,7 @@ namespace StarWars5e.Parser.Managers
             _starshipModificationProcessor = new StarshipModificationProcessor();
             _starshipSizeProcessor = new StarshipSizeProcessor();
             _starshipVentureProcessor = new StarshipVentureProcessor();
-            _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor();
+            _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor(globalSearchTermRepository);
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("starships-rules");

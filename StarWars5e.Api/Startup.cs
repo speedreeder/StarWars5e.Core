@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Search;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
@@ -49,6 +50,8 @@ namespace StarWars5e.Api
             var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
             var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+            var searchServiceClient = new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
+            var searchIndexClient = searchServiceClient.Indexes.GetClient("azuretable-index");
 
             services.AddSingleton<ITableStorage>(tableStorage);
 
@@ -62,6 +65,7 @@ namespace StarWars5e.Api
             
             services.AddSingleton(cloudBlobClient);
             services.AddSingleton(cloudTableClient);
+            services.AddSingleton(searchIndexClient);
 
             //services.AddAuthentication()
             //    .AddGoogle(googleOptions =>

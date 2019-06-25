@@ -27,7 +27,7 @@ namespace StarWars5e.Parser
                 .AddSingleton(globalSearchTermRepository)
                 .BuildServiceProvider();
 
-            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>());
+            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), globalSearchTermRepository);
             var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(serviceProvider.GetService<ITableStorage>());

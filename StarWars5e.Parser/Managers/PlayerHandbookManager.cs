@@ -29,7 +29,6 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
-        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
 
         private readonly List<string> _phbFilesNames = new List<string>
@@ -42,13 +41,12 @@ namespace StarWars5e.Parser.Managers
         public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
-            _globalSearchTermRepository = globalSearchTermRepository;
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
             _playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor();
             _playerHandbookClassProcessor = new PlayerHandbookClassProcessor();
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
-            _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(_globalSearchTermRepository);
+            _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var nameStartingLineProperties = new Dictionary<string, string>

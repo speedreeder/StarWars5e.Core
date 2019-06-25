@@ -35,6 +35,7 @@
         StarshipChapter,
         MonsterManualChapter,
         LootChapter,
-        StarshipWeaponProperty
+        StarshipWeaponProperty,
+        StarshipCondition
     }
 }

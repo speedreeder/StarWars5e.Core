@@ -298,10 +298,33 @@ namespace StarWars5e.Parser
                 ( "Hunted", GlobalSearchTermType.VariantRule, null)
             };
 
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterZeroSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Take To The Stars", GlobalSearchTermType.StarshipRule, null),
+                ( "Using This Book", GlobalSearchTermType.StarshipRule, null),
+                ( "Game Dice", GlobalSearchTermType.StarshipRule, null),
+                ( "The D20", GlobalSearchTermType.StarshipRule, null),
+                ( "Advantage And Disadvantage", GlobalSearchTermType.StarshipRule, null),
+                ( "Specific Beats General", GlobalSearchTermType.StarshipRule, null),
+                ( "Round Down", GlobalSearchTermType.StarshipRule, null),
+                ( "Tier", GlobalSearchTermType.StarshipRule, null)
+            };
+
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterOneSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Hunted", GlobalSearchTermType.StarshipRule, null)
+                ( "1. Choose A Deployment", GlobalSearchTermType.StarshipRule, null),
+                ( "2. Acquire A Starship", GlobalSearchTermType.StarshipRule, null),
+                ( "Tier", GlobalSearchTermType.StarshipRule, null),
+                ( "Hit Points And Hit Dice", GlobalSearchTermType.StarshipRule, null),
+                ( "3. Installing Modifications", GlobalSearchTermType.StarshipRule, null),
+                ( "4. Choose Equipment", GlobalSearchTermType.StarshipRule, null),
+                ( "Armor Class", GlobalSearchTermType.StarshipRule, null),
+                ( "Weapons", GlobalSearchTermType.StarshipRule, null),
+                ( "5. Come Together", GlobalSearchTermType.StarshipRule, null),
+                ( "Beyond The Basics", GlobalSearchTermType.StarshipRule, null),
+                ( "Feature And Hit Dice", GlobalSearchTermType.StarshipRule, null),
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterThreeSections { get; } =
@@ -393,12 +416,153 @@ namespace StarWars5e.Parser
                 ( "Expertise", GlobalSearchTermType.StarshipRule, null),
                 ( "Ability Checks", GlobalSearchTermType.StarshipRule, null),
                 ( "Contests", GlobalSearchTermType.StarshipRule, null),
-                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
-                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
-                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
-                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
-                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
-                ( "Expertise", GlobalSearchTermType.StarshipRule, null),
+                ( "Strength", GlobalSearchTermType.StarshipRule, null),
+                ( "Strength Checks", GlobalSearchTermType.StarshipRule, null),
+                ( "Strength Saving Throws", GlobalSearchTermType.StarshipRule, null),
+                ( "Flying Speed", GlobalSearchTermType.StarshipRule, null),
+                ( "Weapon Hardpoints", GlobalSearchTermType.StarshipRule, null),
+                ( "Dexterity", GlobalSearchTermType.StarshipRule, null),
+                ( "Dexterity Checks", GlobalSearchTermType.StarshipRule, null),
+                ( "Dexterity Saving Throws", GlobalSearchTermType.StarshipRule, null),
+                ( "Attack And Damage Rolls", GlobalSearchTermType.StarshipRule, null),
+                ( "Turning Speed", GlobalSearchTermType.StarshipRule, null),
+                ( "Constitution", GlobalSearchTermType.StarshipRule, null),
+                ( "Constitution Checks", GlobalSearchTermType.StarshipRule, null),
+                ( "Constitution Saving Throws", GlobalSearchTermType.StarshipRule, null),
+                ( "Hit Points", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterEightSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Ship Registration", GlobalSearchTermType.StarshipRule, null),
+                ( "Transponder Codes", GlobalSearchTermType.StarshipRule, null),
+                ( "Communications", GlobalSearchTermType.StarshipRule, null),
+                ( "Metosp (Message to Spacers)", GlobalSearchTermType.StarshipRule, null),
+                ( "Planetary Information Channels", GlobalSearchTermType.StarshipRule, null),
+                ( "Time", GlobalSearchTermType.StarshipRule, null),
+                ( "Movement and Travel", GlobalSearchTermType.StarshipRule, null),
+                ( "Travel In Realspace", GlobalSearchTermType.StarshipRule, null),
+                ( "Flying Speed", GlobalSearchTermType.StarshipRule, null),
+                ( "Turning Speed", GlobalSearchTermType.StarshipRule, null),
+                ( "Travel Pace", GlobalSearchTermType.StarshipRule, null),
+                ( "Difficult Terrain", GlobalSearchTermType.StarshipRule, null),
+                ( "Activity While Traveling", GlobalSearchTermType.StarshipRule, null),
+                ( "Deployment Order", GlobalSearchTermType.StarshipRule, null),
+                ( "Stealth", GlobalSearchTermType.StarshipRule, null),
+                ( "Noticing Threats", GlobalSearchTermType.StarshipRule, null),
+                ( "Other Activities", GlobalSearchTermType.StarshipRule, null),
+                ( "Travel In Hyperspace", GlobalSearchTermType.StarshipRule, null),
+                ( "Travel Pace", GlobalSearchTermType.StarshipRule, "travel pace 2"),
+                ( "Detecting Hyperspace Travel", GlobalSearchTermType.StarshipRule, null),
+                ( "Astrogation", GlobalSearchTermType.StarshipRule, null),
+                ( "Hyperspace Hazards", GlobalSearchTermType.StarshipRule, null),
+                ( "Landing Gear", GlobalSearchTermType.StarshipRule, null),
+                ( "Movement In Zero Gravity", GlobalSearchTermType.StarshipRule, null),
+                ( "Crew Capacity", GlobalSearchTermType.StarshipRule, null),
+                ( "Deployed", GlobalSearchTermType.StarshipRule, null),
+                ( "The Environment", GlobalSearchTermType.StarshipRule, null),
+                ( "Vision And Light", GlobalSearchTermType.StarshipRule, null),
+                ( "Blindsight", GlobalSearchTermType.StarshipRule, null),
+                ( "Truesight", GlobalSearchTermType.StarshipRule, null),
+                ( "Repairs And Maintenance", GlobalSearchTermType.StarshipRule, null),
+                ( "Repairs", GlobalSearchTermType.StarshipRule, null),
+                ( "Maintenance", GlobalSearchTermType.StarshipRule, null),
+                ( "Repairing the \"Used\" Condition", GlobalSearchTermType.StarshipRule, null),
+                ( "Primary System Failure", GlobalSearchTermType.StarshipRule, null),
+                ( "Repairing Primary Systems", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterNineSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "The Order Of Combat", GlobalSearchTermType.StarshipRule, null),
+                ( "Surprise", GlobalSearchTermType.StarshipRule, null),
+                ( "Your Role On Your Turn", GlobalSearchTermType.StarshipRule, null),
+                ( "Actions", GlobalSearchTermType.StarshipRule, null),
+                ( "Bonus Actions", GlobalSearchTermType.StarshipRule, null),
+                ( "Other Activity On Your Turn", GlobalSearchTermType.StarshipRule, null),
+                ( "Reactions", GlobalSearchTermType.StarshipRule, null),
+                ( "Movement And Position", GlobalSearchTermType.StarshipRule, null),
+                ( "Flying Speed", GlobalSearchTermType.StarshipRule, null),
+                ( "Turning Speed", GlobalSearchTermType.StarshipRule, null),
+                ( "Variant: Playing On A Grid", GlobalSearchTermType.StarshipRule, null),
+                ( "Breaking Up Your Move", GlobalSearchTermType.StarshipRule, null),
+                ( "Moving Between Attacks", GlobalSearchTermType.StarshipRule, null),
+                ( "Difficult Terrain", GlobalSearchTermType.StarshipRule, null),
+                ( "Moving Around Other Ships", GlobalSearchTermType.StarshipRule, null),
+                ( "Ship Size", GlobalSearchTermType.StarshipRule, null),
+                ( "Space", GlobalSearchTermType.StarshipRule, null),
+                ( "Actions In Combat", GlobalSearchTermType.StarshipRule, null),
+                ( "Attack", GlobalSearchTermType.StarshipRule, null),
+                ( "Cast A Power", GlobalSearchTermType.StarshipRule, null),
+                ( "Direct", GlobalSearchTermType.StarshipRule, null),
+                ( "Evade", GlobalSearchTermType.StarshipRule, null),
+                ( "Hide", GlobalSearchTermType.StarshipRule, null),
+                ( "Interfere", GlobalSearchTermType.StarshipRule, null),
+                ( "Patch", GlobalSearchTermType.StarshipRule, null),
+                ( "Ram", GlobalSearchTermType.StarshipRule, null),
+                ( "Ready", GlobalSearchTermType.StarshipRule, null),
+                ( "Search", GlobalSearchTermType.StarshipRule, null),
+                ( "Use An Object", GlobalSearchTermType.StarshipRule, null),
+                ( "Making An Attack", GlobalSearchTermType.StarshipRule, null),
+                ( "Attack Rolls", GlobalSearchTermType.StarshipRule, null),
+                ( "Rolling 1 Or 20", GlobalSearchTermType.StarshipRule, null),
+                ( "Range", GlobalSearchTermType.StarshipRule, null),
+                ( "Ranged Attacks In Close Combat", GlobalSearchTermType.StarshipRule, null),
+                ( "Firing Arc", GlobalSearchTermType.StarshipRule, null),
+                ( "Limited Firing Arc", GlobalSearchTermType.StarshipRule, null),
+                ( "Unlimited Firing Arc", GlobalSearchTermType.StarshipRule, null),
+                ( "Saving Throws", GlobalSearchTermType.StarshipRule, null),
+                ( "Damage Rolls", GlobalSearchTermType.StarshipRule, null),
+                ( "Critical Hits", GlobalSearchTermType.StarshipRule, null),
+                ( "Damage Types", GlobalSearchTermType.StarshipRule, null),
+                ( "Damage Resistance And Vulnerability", GlobalSearchTermType.StarshipRule, null),
+                ( "Cover", GlobalSearchTermType.StarshipRule, null),
+                ( "Damage And Repairs", GlobalSearchTermType.StarshipRule, null),
+                ( "Hit Points", GlobalSearchTermType.StarshipRule, null),
+                ( "Shield Points", GlobalSearchTermType.StarshipRule, null),
+                ( "Repairs", GlobalSearchTermType.StarshipRule, null),
+                ( "Dropping To 0 Hit Points", GlobalSearchTermType.StarshipRule, null),
+                ( "Describing The Effects Of Damage", GlobalSearchTermType.StarshipRule, null),
+                ( "Instantly Destroyed", GlobalSearchTermType.StarshipRule, null),
+                ( "Destruction Saving Throws", GlobalSearchTermType.StarshipRule, null),
+                ( "Stabilizing A Ship", GlobalSearchTermType.StarshipRule, null),
+                ( "Ships And Destruction", GlobalSearchTermType.StarshipRule, null),
+                ( "Disabling A Ship", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterTenSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Escort Missions", GlobalSearchTermType.StarshipRule, null),
+                ( "Blockade Run", GlobalSearchTermType.StarshipRule, null),
+                ( "Base Assault", GlobalSearchTermType.StarshipRule, null),
+                ( "Retrieval Mission", GlobalSearchTermType.StarshipRule, null),
+                ( "Build Interesting Battlefields", GlobalSearchTermType.StarshipRule, null),
+                ( "Asteroids, Debris, And Enclosed Terrain", GlobalSearchTermType.StarshipRule, null),
+                ( "Damaging Environment", GlobalSearchTermType.StarshipRule, null),
+                ( "Corrosive Gases", GlobalSearchTermType.StarshipRule, null),
+                ( "Dust Clouds", GlobalSearchTermType.StarshipRule, null),
+                ( "Ionic Discharges", GlobalSearchTermType.StarshipRule, null),
+                ( "Radiation", GlobalSearchTermType.StarshipRule, null),
+                ( "Create Exciting Scenarios With Complications", GlobalSearchTermType.StarshipRule, null),
+                ( "Creating An Encounter", GlobalSearchTermType.StarshipRule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGAppendixAConditionsSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Blinded", GlobalSearchTermType.StarshipCondition, null),
+                ( "Disabled", GlobalSearchTermType.StarshipCondition, null),
+                ( "Ionized", GlobalSearchTermType.StarshipCondition, null),
+                ( "Invisible", GlobalSearchTermType.StarshipCondition, null),
+                ( "Shocked", GlobalSearchTermType.StarshipCondition, null),
+                ( "Stalled", GlobalSearchTermType.StarshipCondition, null),
+                ( "Stunned", GlobalSearchTermType.StarshipCondition, null),
+                ( "System Damage", GlobalSearchTermType.StarshipCondition, null),
+                ( "Tractored", GlobalSearchTermType.StarshipCondition, null),
+                ( "Used", GlobalSearchTermType.StarshipCondition, null),
             };
     }
 }
