@@ -109,7 +109,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 chapter10Lines, 10,
                 "Generating Encounters"));
 
-            var appendixALines = lines.Skip(appendixAStartIndex).Take(lines.Count - appendixAStartIndex).CleanListOfStrings().ToList();
+            var appendixALines = lines.Skip(appendixAStartIndex).Take(changelogStartIndex - appendixAStartIndex).CleanListOfStrings().ToList();
             appendixALines[2] = appendixALines[2].Insert(0, "C");
             chapters.Add(CreateStarshipChapterRules(appendixALines
                 , 11,

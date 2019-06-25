@@ -120,7 +120,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             chapters.Add(CreateChapterRules(appendixALines, 13, "Appendix A: Conditions",
                 SectionNames.PHBAppendixAConditionsSections, "conditions"));
 
-            var appendixBLines = lines.Skip(appendixBStartIndex).CleanListOfStrings().ToList();
+            var appendixBLines = lines.Skip(appendixBStartIndex).Take(changelogStartIndex - appendixBStartIndex).CleanListOfStrings().ToList();
             appendixBLines[2] = appendixBLines[2].Insert(0, "H");
             chapters.Add(CreateChapterRules(appendixBLines, 14, "Appendix B: Recommended Variant Rules",
                 SectionNames.PHBAppendixBVariantRulesSections, "variantRules"));
