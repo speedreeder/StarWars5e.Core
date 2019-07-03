@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
@@ -9,7 +10,6 @@ using StarWars5e.Models.Background;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
-using StarWars5e.Models.Search;
 using StarWars5e.Models.Species;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.PHB;
@@ -29,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
-
+        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
         private readonly List<string> _phbFilesNames = new List<string>
         {
@@ -48,6 +48,7 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
+            _globalSearchTermRepository = globalSearchTermRepository;
 
             var nameStartingLineProperties = new Dictionary<string, string>
             {
@@ -77,73 +78,246 @@ namespace StarWars5e.Parser.Managers
 
         public async Task Parse()
         {
-            var equipment =
-                await _playerHandbookEquipmentProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt"))
-                    .ToList());
-            await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var backgrounds =
-                await _playerHandbookBackgroundsProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_04.txt"))
-                    .ToList());
-            await _tableStorage.AddBatchAsync<Background>("backgrounds", backgrounds,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var species =
-                await _playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
-                    .ToList());
-            await _tableStorage.AddBatchAsync<Species>("species", species,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var classes =
-                await _playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
-                    .ToList());
-
-            var archetypes = classes.SelectMany(s => s.Archetypes);
-
-            await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            await _tableStorage.AddBatchAsync<Class>("classes", classes,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var powers =
-                await _playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
-                    .ToList());
-
-            await _tableStorage.AddBatchAsync<Power>("powers", powers,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var feats = await _playerHandbookFeatProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_06.txt"))
-                .ToList());
-
-            await _tableStorage.AddBatchAsync<Feat>("feats", feats,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var rules =
-                await _playerHandbookChapterRulesProcessor.Process(_phbFilesNames);
-
-            await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
-            foreach (var chapterRules in rules)
+            try
             {
-                var json = JsonConvert.SerializeObject(chapterRules);
-                var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+                var equipment =
+                    await _playerHandbookEquipmentProcessor.Process(_phbFilesNames
+                        .Where(p => p.Equals("PHB.phb_05.txt")).ToList());
 
-                await blob.UploadTextAsync(json);
+                foreach (var equipment1 in equipment)
+                {
+                    switch (equipment1.EquipmentCategoryEnum)
+                    {
+                        case EquipmentCategory.Unknown:
+                        case EquipmentCategory.Ammunition:
+                        case EquipmentCategory.Explosive:
+                        case EquipmentCategory.Storage:
+                        case EquipmentCategory.AdventurePack:
+                        case EquipmentCategory.Communications:
+                        case EquipmentCategory.DataRecordingAndStorage:
+                        case EquipmentCategory.LifeSupport:
+                        case EquipmentCategory.Medical:
+                        case EquipmentCategory.WeaponOrArmorAccessory:
+                        case EquipmentCategory.Tool:
+                        case EquipmentCategory.Mount:
+                        case EquipmentCategory.Vehicle:
+                        case EquipmentCategory.TradeGood:
+                        case EquipmentCategory.Utility:
+                        case EquipmentCategory.GamingSet:
+                        case EquipmentCategory.MusicalInstrument:
+                        case EquipmentCategory.Droid:
+                        case EquipmentCategory.Clothing:
+                        case EquipmentCategory.Kit:
+                            var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
+                                GlobalSearchTermType.AdventuringGear, ContentType.Core,
+                                $"/reference/adventuringGear/?search={equipment1.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
+                            break;
+                        case EquipmentCategory.Weapon:
+                            var weaponSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
+                                GlobalSearchTermType.Weapon, ContentType.Core,
+                                $"/reference/weapons/?search={equipment1.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(weaponSearchTerm);
+                            break;
+                        case EquipmentCategory.Armor:
+                            var searchTermType = GlobalSearchTermType.Armor;
+                            if (equipment1.ArmorClassificationEnum == ArmorClassification.Shield)
+                            {
+                                searchTermType = GlobalSearchTermType.Shield;
+                            }
+
+                            var armorSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
+                                searchTermType, ContentType.Core,
+                                $"/reference/armor/?search={equipment1.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(armorSearchTerm);
+                            break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+                }
+
+                await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB equipment.");
             }
 
-            var weaponProperties =
-                await _weaponPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList());
-
-            var specialProperty = weaponProperties.SingleOrDefault(w => w.Name == "Special");
-            if (specialProperty != null)
+            try
             {
-                specialProperty.Content =
-                    "#### Special\r\nA weapon with the special property has unusual rules governing its use, explained in the weapon's description.";
+                var backgrounds =
+                    await _playerHandbookBackgroundsProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_04.txt"))
+                        .ToList());
+
+                foreach (var background in backgrounds)
+                {
+                    var backgroundSearchTerm = _globalSearchTermRepository.CreateSearchTerm(background.Name, GlobalSearchTermType.Background, ContentType.Core,
+                        $"/reference/backgrounds/{background.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Background>("backgrounds", backgrounds,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB backgrounds.");
             }
 
-            await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            try
+            {
+                var species =
+                    await _playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
+                        .ToList());
+
+                foreach (var specie in species)
+                {
+                    var specieSearchTerm = _globalSearchTermRepository.CreateSearchTerm(specie.Name, GlobalSearchTermType.Species, ContentType.Core,
+                        $"/reference/species/{specie.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Species>("species", species,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB species.");
+            }
+
+            try
+            {
+                var classes =
+                    await _playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+                        .ToList());
+
+                foreach (var swClass in classes)
+                {
+                    var classSearchTerm = _globalSearchTermRepository.CreateSearchTerm(swClass.Name, GlobalSearchTermType.Class, ContentType.Core,
+                        $"/handbook/classes/{swClass.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(classSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Class>("classes", classes,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                try
+                {
+                    var archetypes = classes.SelectMany(s => s.Archetypes).ToList();
+
+                    foreach (var archetype in archetypes)
+                    {
+                        var archetypeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(archetype.Name, GlobalSearchTermType.Archetype, ContentType.Core,
+                            $"/reference/archetypes/{archetype.Name}");
+                        _globalSearchTermRepository.SearchTerms.Add(archetypeSearchTerm);
+                    }
+
+                    await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
+                        new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                }
+                catch (StorageException e)
+                {
+                    Console.WriteLine("Failed to upload PHB archetypes.");
+                }
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB classes.");
+            }
+
+            try
+            {
+                var powers =
+                    await _playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
+                        .ToList());
+                
+                foreach (var power in powers)
+                {
+                    switch (power.PowerTypeEnum)
+                    {
+                        case PowerType.None:
+                            break;
+                        case PowerType.Force:
+                            var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(power.Name, GlobalSearchTermType.ForcePower, ContentType.Core,
+                                $"/reference/forcePowers/?search={power.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
+                            break;
+                        case PowerType.Tech:
+                            var techPowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(power.Name, GlobalSearchTermType.TechPower, ContentType.Core,
+                                $"/reference/techPowers/?search={power.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(techPowerSearchTerm);
+                            break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+                }
+
+                await _tableStorage.AddBatchAsync<Power>("powers", powers,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB powers.");
+            }
+
+            try
+            {
+                var feats = await _playerHandbookFeatProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_06.txt"))
+                    .ToList());
+
+                foreach (var feat in feats)
+                {
+                    var featSearchTerm = _globalSearchTermRepository.CreateSearchTerm(feat.Name, GlobalSearchTermType.Feat, ContentType.Core,
+                        $"/reference/feats/?search={feat.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Feat>("feats", feats,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB feats.");
+            }
+
+            try
+            {
+                var rules =
+                    await _playerHandbookChapterRulesProcessor.Process(_phbFilesNames);
+
+                await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+                foreach (var chapterRules in rules)
+                {
+                    var json = JsonConvert.SerializeObject(chapterRules);
+                    var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+
+                    await blob.UploadTextAsync(json);
+                }
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB rules.");
+            }
+
+            try
+            {
+                var weaponProperties =
+                    await _weaponPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList());
+
+                var specialProperty = weaponProperties.SingleOrDefault(w => w.Name == "Special");
+                if (specialProperty != null)
+                {
+                    specialProperty.Content =
+                        "#### Special\r\nA weapon with the special property has unusual rules governing its use, explained in the weapon's description.";
+                }
+
+                await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB weapon properties.");
+            }
         }
     }
 }

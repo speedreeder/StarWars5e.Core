@@ -9,27 +9,44 @@ namespace StarWars5e.Parser
     {
         public List<GlobalSearchTerm> SearchTerms { get; set; } = new List<GlobalSearchTerm>();
 
-        public GlobalSearchTerm ParseSearchTerm(string line, GlobalSearchTermType type, ContentType contentType, string section)
+        //public GlobalSearchTerm ParseSearchTerm(string line, GlobalSearchTermType type, ContentType contentType,
+        //    string section)
+        //{
+        //    var parsed = line.RemoveMarkdownCharacters().Replace("#", "").Trim();
+        //    var name = parsed;
+        //    if (!string.IsNullOrWhiteSpace(section))
+        //    {
+        //        name = $"{section} - {parsed}";
+        //    }
+
+        //    var searchTerm = new GlobalSearchTerm
+        //    {
+        //        PartitionKey = contentType.ToString(),
+        //        RowKey = name,
+        //        GlobalSearchTermTypeEnum = type,
+        //        FullName = $"{type.ToString().SplitPascalCase()}: {name}",
+        //        Path = parsed.ToKebabCase()
+        //    };
+        //    return searchTerm;
+        //}
+
+        public GlobalSearchTerm CreateSearchTerm(string name, GlobalSearchTermType type, ContentType contentType,
+            string path)
         {
-            var parsed = line.RemoveMarkdownCharacters().Replace("#", "").Trim();
-            var name = parsed;
-            if (!string.IsNullOrWhiteSpace(section))
-            {
-                name = $"{section} - {parsed}";
-            }
             var searchTerm = new GlobalSearchTerm
             {
                 PartitionKey = contentType.ToString(),
-                RowKey = name,
+                RowKey = path.ToKebabCase(),
                 GlobalSearchTermTypeEnum = type,
-                Name = name,
                 FullName = $"{type.ToString().SplitPascalCase()}: {name}",
-                Path = parsed.ToKebabCase()
+                Path = path,
+                SearchText = name
             };
             return searchTerm;
         }
 
-        public GlobalSearchTerm CreateSearchTermFromName(string name, GlobalSearchTermType type, ContentType contentType, string section, string path, string pathOverride)
+        public GlobalSearchTerm CreateSectionSearchTermFromName(string name, GlobalSearchTermType type,
+            ContentType contentType, string section, string path, string pathOverride)
         {
             var key = path + "#" + name.ToKebabCase();
             if (!string.IsNullOrWhiteSpace(pathOverride))
@@ -42,12 +59,12 @@ namespace StarWars5e.Parser
             {
                 nameWithOptionalSection = $"{section} - {name}";
             }
+
             var searchTerm = new GlobalSearchTerm
             {
                 PartitionKey = contentType.ToString(),
                 RowKey = key.ToKebabCase(),
                 GlobalSearchTermTypeEnum = type,
-                Name = nameWithOptionalSection,
                 FullName = $"{type.ToString().SplitPascalCase()}: {nameWithOptionalSection}",
                 Path = key,
                 SearchText = name

@@ -14,11 +14,19 @@ namespace StarWars5e.Parser.Parsers.PHB
         public override Task<List<Power>> FindBlocks(List<string> lines)
         {
             var powers = new List<Power>();
-            var powerStartLines = lines.Where(f => f.StartsWith("#### ") && !Regex.IsMatch(f, @"^\#\#\#\#\s+\d+") && !Regex.IsMatch(f, @"^\#\#\#\#\s+At-Will"));
+            var powerStartLines = lines.Where(f => f.StartsWith("#### ") && !Regex.IsMatch(f, @"^\#\#\#\#\s+\d+") && !Regex.IsMatch(f, @"^\#\#\#\#\s+At-Will")).ToList();
 
+            var stunIndex = 1;
             foreach (var powerLine in powerStartLines)
             {
+                var rowKeyOverride = "";
                 var powerStartIndex = lines.IndexOf(powerLine);
+                if (powerLine == "#### Stun" && stunIndex == 2)
+                {
+                    powerStartIndex = lines.FindNthIndex(f => f == powerLine, 2);
+                    rowKeyOverride = "Stun 2";
+                }
+                
                 var powerEndIndex = lines.FindIndex(powerStartIndex + 1, f => f.StartsWith("#### "));
                 var powerLines = lines.Skip(powerStartIndex);
 
@@ -27,13 +35,18 @@ namespace StarWars5e.Parser.Parsers.PHB
                     powerLines = lines.Skip(powerStartIndex).Take(powerEndIndex - powerStartIndex);
                 }
 
-                powers.Add(ParsePower(powerLines.CleanListOfStrings().ToList(), ContentType.Core));
+                powers.Add(ParsePower(powerLines.CleanListOfStrings().ToList(), ContentType.Core, rowKeyOverride));
+
+                if (powerLine == "#### Stun")
+                {
+                    stunIndex++;
+                }
             }
 
             return Task.FromResult(powers);
         }
 
-        public static Power ParsePower(List<string> powerLines, ContentType contentType)
+        public static Power ParsePower(List<string> powerLines, ContentType contentType, string rowKeyOverride)
         {
             var name = powerLines[0].Split("####")[1].Trim();
 
@@ -41,7 +54,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             {
                 var power = new Power
                 {
-                    RowKey = name.FormatKey(),
+                    RowKey = !string.IsNullOrWhiteSpace(rowKeyOverride) ? rowKeyOverride : name.FormatKey(),
                     Name = name,
                     PartitionKey = contentType.ToString(),
                     ContentTypeEnum = contentType

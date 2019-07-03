@@ -68,7 +68,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 .CleanListOfStrings().ToList();
             chapter4Lines[2] = chapter4Lines[2].Insert(0, "A");
             chapters.Add(CreateStarshipChapterRules(chapter4Lines, 4, "Modifications",
-                SectionNames.PHBChapterFourSections, "modifications"));
+                SectionNames.SOTGChapterFourSections, "modifications"));
 
             var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
                 .CleanListOfStrings().ToList();
@@ -126,8 +126,8 @@ namespace StarWars5e.Parser.Parsers.SOTG
             {
                 foreach (var globalSearchTermType in searchTerms)
                 {
-                    var searchTerm = _globalSearchTermRepository.CreateSearchTermFromName(globalSearchTermType.name,
-                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/handbook/{path}",
+                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(globalSearchTermType.name,
+                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/starships/{path}",
                         globalSearchTermType.pathOverride);
                     _globalSearchTermRepository.SearchTerms.Add(searchTerm);
                 }

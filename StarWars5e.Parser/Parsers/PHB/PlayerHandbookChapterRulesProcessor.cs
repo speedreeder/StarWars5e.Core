@@ -139,7 +139,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             {
                 foreach (var globalSearchTermType in searchTerms)
                 {
-                    var searchTerm = _globalSearchTermRepository.CreateSearchTermFromName(globalSearchTermType.name,
+                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(globalSearchTermType.name,
                         globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/handbook/{path}", globalSearchTermType.pathOverride);
                     _globalSearchTermRepository.SearchTerms.Add(searchTerm);
                 }

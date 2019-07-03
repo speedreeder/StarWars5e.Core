@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.Enums;
+// ReSharper disable InconsistentNaming
 
 namespace StarWars5e.Parser
 {
@@ -350,7 +351,6 @@ namespace StarWars5e.Parser
                 ( "Purchasing", GlobalSearchTermType.StarshipRule, null),
                 ( "Building A Ship", GlobalSearchTermType.StarshipRule, null),
                 ( "Upgrading A Starship", GlobalSearchTermType.StarshipRule, null),
-                ( "Cost Modifiers", GlobalSearchTermType.StarshipRule, null),
                 ( "Upgrade Workforce", GlobalSearchTermType.StarshipRule, null),
                 ( "Modification Time", GlobalSearchTermType.StarshipRule, null),
                 ( "Modification Tier Requirements", GlobalSearchTermType.StarshipRule, null),
@@ -379,11 +379,11 @@ namespace StarWars5e.Parser
                 ( "Secondary Weapons", GlobalSearchTermType.StarshipRule, null),
                 ( "Tertiary Weapons", GlobalSearchTermType.StarshipRule, null),
                 ( "Quaternary Weapons", GlobalSearchTermType.StarshipRule, null),
-                ( "Attack Bonus", GlobalSearchTermType.StarshipRule, null),
-                ( "Ammunition", GlobalSearchTermType.StarshipRule, null),
-                ( "Attacks Per Round", GlobalSearchTermType.StarshipRule, null),
-                ( "Power", GlobalSearchTermType.StarshipRule, null),
-                ( "Reload", GlobalSearchTermType.StarshipRule, null),
+                ( "Attack Bonus", GlobalSearchTermType.StarshipWeaponProperty, null),
+                ( "Ammunition", GlobalSearchTermType.StarshipWeaponProperty, null),
+                ( "Attacks Per Round", GlobalSearchTermType.StarshipWeaponProperty, null),
+                ( "Power", GlobalSearchTermType.StarshipWeaponProperty, null),
+                ( "Reload", GlobalSearchTermType.StarshipWeaponProperty, null),
                 ( "Weapons By Size", GlobalSearchTermType.StarshipRule, null),
                 ( "Tiny To Medium", GlobalSearchTermType.StarshipRule, null),
                 ( "Large To Gargantuan", GlobalSearchTermType.StarshipRule, null),

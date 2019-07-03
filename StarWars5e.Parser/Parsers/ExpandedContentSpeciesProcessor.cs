@@ -383,7 +383,7 @@ namespace StarWars5e.Parser.Parsers
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_givin.png");
                         break;
                     case "Gotal":
-                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_gotal.png");
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/specspecies_gotal.png");
                         break;
                     case "Gran":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_gran.png");

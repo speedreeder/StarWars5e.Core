@@ -7,6 +7,7 @@ using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Newtonsoft.Json;
 using StarWars5e.Models;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.SOTG;
@@ -25,6 +26,8 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<StarshipBaseSize> _starshipSizeProcessor;
         private readonly IBaseProcessor<StarshipVenture> _starshipVentureProcessor;
         private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
+        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
+
 
         private readonly List<string> _sotgFilesName = new List<string>
         {
@@ -35,6 +38,7 @@ namespace StarWars5e.Parser.Managers
         public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
+            _globalSearchTermRepository = globalSearchTermRepository;
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
             _starshipEquipmentProcessor = new StarshipEquipmentProcessor();
             _starshipModificationProcessor = new StarshipModificationProcessor();
@@ -48,105 +52,197 @@ namespace StarWars5e.Parser.Managers
 
         public async Task Parse(List<ReferenceTable> referenceTables = null)
         {
-            var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName);
-
-            if (referenceTables != null)
+            try
             {
-                foreach (var chapterRule in rules)
+                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName);
+
+                if (referenceTables != null)
                 {
-                    foreach (var referenceTable in referenceTables)
+                    foreach (var chapterRule in rules)
                     {
-                        chapterRule.ContentMarkdown = Regex.Replace(chapterRule.ContentMarkdown,
-                            $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
+                        foreach (var referenceTable in referenceTables)
+                        {
+                            chapterRule.ContentMarkdown = Regex.Replace(chapterRule.ContentMarkdown,
+                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
+                        }
                     }
                 }
+                await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+                foreach (var chapterRules in rules)
+                {
+                    var json = JsonConvert.SerializeObject(chapterRules);
+                    var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+
+                    await blob.UploadTextAsync(json);
+                }
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload SOTG rules.");
             }
 
-            await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
-            foreach (var chapterRules in rules)
+            try
             {
-                var json = JsonConvert.SerializeObject(chapterRules);
-                var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+                var deployments =
+                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList());
 
-                await blob.UploadTextAsync(json);
-            }
-
-            var deployments =
-                await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList());
-
-            if (referenceTables != null)
-            {
                 foreach (var deployment in deployments)
                 {
-                    foreach (var referenceTable in referenceTables)
+                    var deploymentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(deployment.Name, GlobalSearchTermType.Deployment, ContentType.Core,
+                        $"/starships/deployments/{deployment.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(deploymentSearchTerm);
+                }
+
+                if (referenceTables != null)
+                {
+                    foreach (var deployment in deployments)
                     {
-                        if (deployment.Features != null)
+                        foreach (var referenceTable in referenceTables)
                         {
-                            foreach (var deploymentFeature in deployment.Features)
+                            if (deployment.Features != null)
                             {
-                                if (deploymentFeature.Content != null)
+                                foreach (var deploymentFeature in deployment.Features)
                                 {
-                                    deploymentFeature.Content = Regex.Replace(deploymentFeature.Content,
-                                        $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})",
-                                        RegexOptions.IgnoreCase);
+                                    if (deploymentFeature.Content != null)
+                                    {
+                                        deploymentFeature.Content = Regex.Replace(deploymentFeature.Content,
+                                            $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})",
+                                            RegexOptions.IgnoreCase);
+                                    }
                                 }
-                            }   
+                            }
                         }
                     }
                 }
+
+                await _tableStorage.AddBatchAsync<StarshipDeployment>("starshipDeployments", deployments,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload SOTG deployments.");
             }
 
-            await _tableStorage.AddBatchAsync<StarshipDeployment>("starshipDeployments", deployments,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-
-            var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList());
-
-            if (referenceTables != null)
+            try
             {
+                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList());
+
+                if (referenceTables != null)
+                {
+                    foreach (var starshipEquipment in equipment)
+                    {
+                        if (starshipEquipment.Description != null)
+                        {
+                            foreach (var referenceTable in referenceTables)
+                            {
+                                starshipEquipment.Description = Regex.Replace(starshipEquipment.Description,
+                                    $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
+                            }
+                        }
+                    }
+                }
+
                 foreach (var starshipEquipment in equipment)
                 {
-                    if (starshipEquipment.Description != null)
+                    switch (starshipEquipment.TypeEnum)
                     {
-                        foreach (var referenceTable in referenceTables)
+                        case StarshipEquipmentType.Armor:
+                        case StarshipEquipmentType.Shield:
+                        case StarshipEquipmentType.Ammunition:
+                        case StarshipEquipmentType.Hyperdrive:
+                        case StarshipEquipmentType.Navcomputer:
+                            var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(starshipEquipment.Name, GlobalSearchTermType.StarshipEquipment, ContentType.Core,
+                                $"/reference/starshipEquipment?search={starshipEquipment.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
+                            break;
+                        case StarshipEquipmentType.Weapon:
+                            var weaponSearchTerm = _globalSearchTermRepository.CreateSearchTerm(starshipEquipment.Name, GlobalSearchTermType.StarshipWeapon, ContentType.Core,
+                                $"/reference/starshipWeapons?search={starshipEquipment.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(weaponSearchTerm);
+                            break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+                }
+
+                await _tableStorage.AddBatchAsync<StarshipEquipment>("starshipEquipment", equipment,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload SOTG equipment.");
+            }
+
+            try
+            {
+                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList());
+
+                if (referenceTables != null)
+                {
+                    foreach (var modification in modifications)
+                    {
+                        if (modification.Content != null)
                         {
-                            starshipEquipment.Description = Regex.Replace(starshipEquipment.Description,
-                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
+                            foreach (var referenceTable in referenceTables)
+                            {
+                                modification.Content = Regex.Replace(modification.Content,
+                                    $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
+                            }
                         }
                     }
                 }
-            }
 
-            await _tableStorage.AddBatchAsync<StarshipEquipment>("starshipEquipment", equipment,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
-            var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList());
-
-            if (referenceTables != null)
-            {
                 foreach (var modification in modifications)
                 {
-                    if (modification.Content != null)
-                    {
-                        foreach (var referenceTable in referenceTables)
-                        {
-                            modification.Content = Regex.Replace(modification.Content,
-                                $@"(?<!#\s*){referenceTable.Name}", $"[{referenceTable.Name}](#{Uri.EscapeUriString(referenceTable.Name)})", RegexOptions.IgnoreCase);
-                        }
-                    }
+                    var modificationSearchTerm = _globalSearchTermRepository.CreateSearchTerm(modification.Name, GlobalSearchTermType.StarshipModification, ContentType.Core,
+                        $"/reference/starshipModifications?search={modification.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(modificationSearchTerm);
                 }
+
+                await _tableStorage.AddBatchAsync<StarshipModification>("starshipModifications", modifications,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload SOTG modifications.");
             }
 
-            await _tableStorage.AddBatchAsync<StarshipModification>("starshipModifications", modifications,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            try
+            {
+                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList());
 
-            var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList());
-            await _tableStorage.AddBatchAsync<StarshipBaseSize>("starshipBaseSizes", sizes,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                foreach (var size in sizes)
+                {
+                    var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(size.Name, GlobalSearchTermType.StarshipSize, ContentType.Core,
+                        $"/starships/starshipSizes/{size.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
+                }
 
-            var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList());
-            await _tableStorage.AddBatchAsync<StarshipVenture>("starshipVentures", ventures,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                await _tableStorage.AddBatchAsync<StarshipBaseSize>("starshipBaseSizes", sizes,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload SOTG sizes.");
+            }
+            
+            try
+            {
+                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList());
+
+                foreach (var venture in ventures)
+                {
+                    var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(venture.Name, GlobalSearchTermType.Venture, ContentType.Core,
+                        $"/reference/ventures?search={venture.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
+                }
+                await _tableStorage.AddBatchAsync<StarshipVenture>("starshipVentures", ventures,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload SOTG ventures.");
+            }
         }
     }
 }

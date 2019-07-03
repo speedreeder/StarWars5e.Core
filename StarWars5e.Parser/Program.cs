@@ -1,4 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
@@ -47,7 +50,32 @@ namespace StarWars5e.Parser
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
             await playerHandbookManager.Parse();
-            await searchManager.Upload();
+
+            try
+            {
+                await searchManager.Upload();
+            }
+            catch (StorageException e)
+            {
+                var searchTerms = serviceProvider.GetService<GlobalSearchTermRepository>().SearchTerms;
+                var dupes = searchTerms
+                    .GroupBy(i => i.RowKey)
+                    .Where(g => g.Count() > 1)
+                    .Select(g => g.Key);
+
+                foreach (var dupe in dupes)
+                {
+                    Console.WriteLine($"Dupe: {dupe}");
+                }
+
+                var nonConformingNames = searchTerms.Where(s => Regex.IsMatch(s.RowKey, @"[\\]|[/]|[#]|[?] "));
+                foreach (var nonConformingName in nonConformingNames)
+                {
+                    Console.WriteLine($"Non-conforming: {nonConformingName}");
+                }
+
+                Console.WriteLine("Failed to upload search terms.");
+            }
         }
     }
 }

@@ -7,7 +7,6 @@ namespace StarWars5e.Models.Search
 {
     public class GlobalSearchTerm : TableEntity
     {
-        public string Name { get; set; }
         public GlobalSearchTermType GlobalSearchTermTypeEnum { get; set; }
         public string GlobalSearchTermType {
             get => GlobalSearchTermTypeEnum.ToString();
