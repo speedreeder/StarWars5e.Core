@@ -30,14 +30,14 @@ namespace StarWars5e.Parser
                 .AddSingleton(globalSearchTermRepository)
                 .BuildServiceProvider();
 
-            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), globalSearchTermRepository);
-            var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>());
+            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
             var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
-            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), globalSearchTermRepository);
+            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), serviceProvider.GetService<GlobalSearchTermRepository>());
             var referenceTableManager = new ReferenceTableManager(serviceProvider.GetService<ITableStorage>());
             var searchManager = new SearchManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
 

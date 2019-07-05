@@ -1,5 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.WindowsAzure.Storage;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Monster;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
@@ -11,18 +14,36 @@ namespace StarWars5e.Parser.Managers
         private readonly ITableStorage _tableStorage;
         private readonly IBaseProcessor<Monster> _monsterProcessor;
         private readonly List<string> _mmFileName = new List<string> { "mm.txt" };
+        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
-        public MonsterManualManager(ITableStorage tableStorage)
+        public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
+            _globalSearchTermRepository = globalSearchTermRepository;
             _monsterProcessor = new MonsterProcessor();
         }
 
         public async Task Parse()
         {
-            var monsters = await _monsterProcessor.Process(_mmFileName);
-            await _tableStorage.AddBatchAsync<Monster>("monsters", monsters,
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            try
+            {
+                var monsters = await _monsterProcessor.Process(_mmFileName);
+
+                foreach (var monster in monsters)
+                {
+                    var monsterSearchTerm = _globalSearchTermRepository.CreateSearchTerm(monster.Name,
+                        GlobalSearchTermType.Monster, ContentType.Core, $"/monsters/monsters/{monster.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(monsterSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Monster>("monsters", monsters,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB powers.");
+            }
+            
         }
     }
 }
