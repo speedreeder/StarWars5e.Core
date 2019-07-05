@@ -51,7 +51,7 @@ namespace StarWars5e.Api
             var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             var searchServiceClient = new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
-            var searchIndexClient = searchServiceClient.Indexes.GetClient("azuretable-index");
+            var searchIndexClient = searchServiceClient.Indexes.GetClient("searchterms-index");
 
             services.AddSingleton<ITableStorage>(tableStorage);
 

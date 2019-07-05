@@ -129,6 +129,13 @@ namespace StarWars5e.Parser.Parsers.PHB
             var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
             chapters.Add(CreateChapterRules(changelogLines, 99, "Changelog"));
 
+            foreach (var phbChapterName in SectionNames.PHBChapterNames)
+            {
+                var searchTerm = _globalSearchTermRepository.CreateSearchTerm(phbChapterName.name,
+                    phbChapterName.globalSearchTermType, ContentType.Core, phbChapterName.pathOverride);
+                _globalSearchTermRepository.SearchTerms.Add(searchTerm);
+            }
+
             return Task.FromResult(chapters);
         }
 

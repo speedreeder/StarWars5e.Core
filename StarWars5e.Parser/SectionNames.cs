@@ -6,6 +6,25 @@ namespace StarWars5e.Parser
 {
     public static class SectionNames
     {
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterNames { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Introduction", GlobalSearchTermType.HandbookChapter, "/handbook"),
+                ( "What's Different?", GlobalSearchTermType.HandbookChapter, "/handbook/whatsDifferent"),
+                ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.HandbookChapter, "/handbook/stepByStep"),
+                ( "Chapter 2: Species", GlobalSearchTermType.HandbookChapter, "/handbook/species"),
+                ( "Chapter 3: Classes", GlobalSearchTermType.HandbookChapter, "/handbook/classes"),
+                ( "Chapter 4: Backgrounds", GlobalSearchTermType.HandbookChapter, "/handbook/backgrounds"),
+                ( "Chapter 5: Equipment", GlobalSearchTermType.HandbookChapter, "/handbook/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.HandbookChapter, "/handbook/customization"),
+                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.HandbookChapter, "/handbook/abilityScores"),
+                ( "Chapter 8: Adventuring", GlobalSearchTermType.HandbookChapter, "/handbook/adventuring"),
+                ( "Chapter 9: Combat", GlobalSearchTermType.HandbookChapter, "/handbook/combat"),
+                ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/handbook/casting"),
+                ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/handbook/conditions"),
+                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/handbook/variantRules")
+            };
+
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterOneSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
@@ -35,7 +54,7 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterThreeSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Chapter 3: Classes", GlobalSearchTermType.Rule, null)
+                
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterFourSections { get; } =
