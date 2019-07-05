@@ -9,6 +9,7 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
+                ( "Player's Handbook", GlobalSearchTermType.Book, "/handbook"),
                 ( "Introduction", GlobalSearchTermType.HandbookChapter, "/handbook"),
                 ( "What's Different?", GlobalSearchTermType.HandbookChapter, "/handbook/whatsDifferent"),
                 ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.HandbookChapter, "/handbook/stepByStep"),
@@ -22,7 +23,61 @@ namespace StarWars5e.Parser
                 ( "Chapter 9: Combat", GlobalSearchTermType.HandbookChapter, "/handbook/combat"),
                 ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/handbook/casting"),
                 ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/handbook/conditions"),
-                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/handbook/variantRules")
+                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/handbook/variantRules"),
+                ( "Handbook Changelog", GlobalSearchTermType.Changelog, "/handbook/changelog")
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterNames { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Starships Of The Galaxy", GlobalSearchTermType.Book, "/starships"),
+                ( "Introduction", GlobalSearchTermType.StarshipChapter, "/starships"),
+                ( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/starships/stepByStep"),
+                ( "Chapter 2: Deployments", GlobalSearchTermType.StarshipChapter, "/starships/deployments"),
+                ( "Chapter 3: Starships", GlobalSearchTermType.StarshipChapter, "/starships/starshipSizes"),
+                ( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/starships/modifications"),
+                ( "Chapter 5: Equipment", GlobalSearchTermType.StarshipChapter, "/starships/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.StarshipChapter, "/starships/customization"),
+                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.StarshipChapter, "/starships/abilityScores"),
+                ( "Chapter 8: Adventuring", GlobalSearchTermType.StarshipChapter, "/starships/adventuring"),
+                ( "Chapter 9: Combat", GlobalSearchTermType.StarshipChapter, "/starships/combat"),
+                ( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/starships/generatingEncounters"),
+                ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/starships/conditions"),
+                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/starships/changelog")
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> MonsterChapterNames { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Monster Manual", GlobalSearchTermType.Book, "/monsters")
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> ReferenceNames { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Monsters", GlobalSearchTermType.Reference, "/monsters/monsters"),
+                ( "Species", GlobalSearchTermType.Reference, "/reference/species"),
+                ( "Archetypes", GlobalSearchTermType.Reference, "/reference/archetypes"),
+                ( "Backgrounds", GlobalSearchTermType.Reference, "/reference/backgrounds"),
+                ( "Armor", GlobalSearchTermType.Reference, "/reference/armor"),
+                ( "Adventuring Gear", GlobalSearchTermType.Reference, "/reference/adventuringGear"),
+                ( "Feats", GlobalSearchTermType.Reference, "/reference/feats"),
+                ( "Force Powers", GlobalSearchTermType.Reference, "/reference/forcePowers"),
+                ( "Tech Powers", GlobalSearchTermType.Reference, "/reference/techPowers"),
+                ( "Starship Modifications", GlobalSearchTermType.Reference, "/reference/starshipModifications"),
+                ( "Starship Equipment", GlobalSearchTermType.Reference, "/reference/starshipEquipment"),
+                ( "Starship Weapons", GlobalSearchTermType.Reference, "/reference/starshipWeapons"),
+                ( "Ventures", GlobalSearchTermType.Reference, "/reference/ventures"),
+                ( "Additional Variant Rules", GlobalSearchTermType.Reference, "/reference/additionalVariantRules"),
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> VariantRuleNames { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Destiny", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Destiny"),
+                ( "Force Alignment", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Force%20Alignment"),
+                ( "Starship Destiny", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Starship%20Destiny"),
+                ( "Weapon Sundering", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Weapon%20Sundering")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterOneSections { get; } =
@@ -52,10 +107,7 @@ namespace StarWars5e.Parser
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterThreeSections { get; } =
-            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
-            {
-                
-            };
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>();
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterFourSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>

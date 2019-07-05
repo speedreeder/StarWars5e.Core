@@ -26,6 +26,9 @@
         StarshipFeature,
         StarshipModification,
         DeploymentFeature,
+        ClassFeature,
+        SpeciesFeature,
+        BackgroundFeature,
         Venture,
         Monster,
         WeaponProperty,
@@ -35,6 +38,9 @@
         MonsterManualChapter,
         LootChapter,
         StarshipWeaponProperty,
-        StarshipCondition
+        StarshipCondition,
+        Changelog,
+        Book,
+        Reference
     }
 }

@@ -9,34 +9,13 @@ namespace StarWars5e.Parser
     {
         public List<GlobalSearchTerm> SearchTerms { get; set; } = new List<GlobalSearchTerm>();
 
-        //public GlobalSearchTerm ParseSearchTerm(string line, GlobalSearchTermType type, ContentType contentType,
-        //    string section)
-        //{
-        //    var parsed = line.RemoveMarkdownCharacters().Replace("#", "").Trim();
-        //    var name = parsed;
-        //    if (!string.IsNullOrWhiteSpace(section))
-        //    {
-        //        name = $"{section} - {parsed}";
-        //    }
-
-        //    var searchTerm = new GlobalSearchTerm
-        //    {
-        //        PartitionKey = contentType.ToString(),
-        //        RowKey = name,
-        //        GlobalSearchTermTypeEnum = type,
-        //        FullName = $"{type.ToString().SplitPascalCase()}: {name}",
-        //        Path = parsed.ToKebabCase()
-        //    };
-        //    return searchTerm;
-        //}
-
         public GlobalSearchTerm CreateSearchTerm(string name, GlobalSearchTermType type, ContentType contentType,
             string path)
         {
             var searchTerm = new GlobalSearchTerm
             {
                 PartitionKey = contentType.ToString(),
-                RowKey = path.ToKebabCase(),
+                RowKey = $"{path}-{name}".ToKebabCase(),
                 GlobalSearchTermTypeEnum = type,
                 FullName = $"{type.ToString().SplitPascalCase()}: {name}",
                 Path = path,

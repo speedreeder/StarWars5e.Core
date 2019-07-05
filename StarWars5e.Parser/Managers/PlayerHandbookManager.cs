@@ -318,6 +318,20 @@ namespace StarWars5e.Parser.Managers
             {
                 Console.WriteLine("Failed to upload PHB weapon properties.");
             }
+
+            foreach (var referenceName in SectionNames.ReferenceNames)
+            {
+                var referenceSearchTerm = _globalSearchTermRepository.CreateSearchTerm(referenceName.name, referenceName.globalSearchTermType, ContentType.Core,
+                    referenceName.pathOverride);
+                _globalSearchTermRepository.SearchTerms.Add(referenceSearchTerm);
+            }
+
+            foreach (var variantRuleName in SectionNames.VariantRuleNames)
+            {
+                var variantRuleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(variantRuleName.name, variantRuleName.globalSearchTermType, ContentType.Core,
+                    variantRuleName.pathOverride);
+                _globalSearchTermRepository.SearchTerms.Add(variantRuleSearchTerm);
+            }
         }
     }
 }

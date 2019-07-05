@@ -41,7 +41,14 @@ namespace StarWars5e.Parser.Managers
             }
             catch (StorageException e)
             {
-                Console.WriteLine("Failed to upload PHB powers.");
+                Console.WriteLine("Failed to upload monsters.");
+            }
+
+            foreach (var monsterChapterName in SectionNames.MonsterChapterNames)
+            {
+                var monsterChapterSearchTerm = _globalSearchTermRepository.CreateSearchTerm(monsterChapterName.name,
+                    monsterChapterName.globalSearchTermType, ContentType.Core, monsterChapterName.pathOverride);
+                _globalSearchTermRepository.SearchTerms.Add(monsterChapterSearchTerm);
             }
             
         }

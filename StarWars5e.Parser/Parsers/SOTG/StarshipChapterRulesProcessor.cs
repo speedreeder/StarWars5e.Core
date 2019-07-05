@@ -114,6 +114,13 @@ namespace StarWars5e.Parser.Parsers.SOTG
             var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
             chapters.Add(CreateStarshipChapterRules(changelogLines, 99, "Changelog"));
 
+            foreach (var sotgChapterName in SectionNames.SOTGChapterNames)
+            {
+                var searchTerm = _globalSearchTermRepository.CreateSearchTerm(sotgChapterName.name,
+                    sotgChapterName.globalSearchTermType, ContentType.Core, sotgChapterName.pathOverride);
+                _globalSearchTermRepository.SearchTerms.Add(searchTerm);
+            }
+
             return Task.FromResult(chapters);
         }
 
