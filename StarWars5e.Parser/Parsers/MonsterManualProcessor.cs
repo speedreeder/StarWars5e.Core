@@ -44,16 +44,16 @@ namespace StarWars5e.Parser.Parsers
                     Name = name
                 };
 
-                var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).Split(',');
+                var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',');
 
                 monster.SizeEnum =
-                    Enum.Parse<MonsterSize>(typeLine[0].RemoveMarkdownCharacters().Trim().Split('*')[0].Split(' ')[0], true);
+                    Enum.Parse<MonsterSize>(typeLine[0].RemoveMarkdownCharacters().Trim().Split(' ')[0], true);
 
                 var parenIndex = typeLine[0].Split(' ', 2)[1].Trim().IndexOf('(');
 
                 monster.Types.Add(parenIndex != -1
-                    ? typeLine[0].Split(' ', 2)[1].Replace("*", string.Empty).Trim().Remove(parenIndex).Trim()
-                    : typeLine[0].Split(' ', 2)[1].Replace("*", string.Empty).Trim());
+                    ? typeLine[0].Substring(typeLine[0].IndexOf('*') + 1).Split(' ', 2)[1].Replace("*", string.Empty).Trim().Remove(parenIndex-1).Trim()
+                    : typeLine[0].Substring(typeLine[0].IndexOf('*') + 1).Split(' ', 2)[1].Replace("*", string.Empty).Trim());
 
                 monster.Alignment = typeLine[1].Trim().RemoveMarkdownCharacters();
                 monster.ArmorClass = int.Parse(Regex
@@ -93,10 +93,16 @@ namespace StarWars5e.Parser.Parsers
                     .Split(',')
                     .Select(s => s.Trim()).ToList();
 
-                var damageVulnerabilitiesSplit = monsterLines.Find(f => f.Contains("**Damage Vulnerabilities**"))?
-                    .Split("**Damage Vulnerabilities**")[1].Split(',').Select(s => s.Trim()).ToList();
-                if (damageVulnerabilitiesSplit != null)
+                var damageVulnerabilitiesLine = monsterLines.Find(f => f.Contains("**Damage Vulnerabilities**",
+                    StringComparison.InvariantCultureIgnoreCase));
+
+                if (damageVulnerabilitiesLine != null)
                 {
+                    var damageVulnerabilitiesSplit =
+                        Regex.Split(damageVulnerabilitiesLine
+                                , @"\*\*Damage Vulnerabilities\*\*",
+                                RegexOptions.IgnoreCase)
+                            [1].Split(',').Select(s => s.Trim()).ToList();
                     monster.DamageVulnerabilitiesParsed = damageVulnerabilitiesSplit
                         .Where(d => Enum.TryParse(d, true, out DamageType _))
                         .Select(s => Enum.Parse<DamageType>(s, true)).ToList();
