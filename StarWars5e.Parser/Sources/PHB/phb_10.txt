@@ -1,12 +1,10 @@
-
-
 \pagebreak
 
 # Chapter 10: Force- and Tech-casting
 
 <img src='https://www.gmbinder.com/images/EOjZyxJ.png' style='position:absolute;top:90px;left:71px;width:39px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;agic exists in the worlds of *Star Wars* in the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; form of powers. This chapter provides the rules for casting these powers. There are two major sources of these power: the Force and technology. While multiple classes use the Force or technology to fuel their powers, there are only the two sources. Regardless, powers follow the rules here.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">agic exists in the worlds of *Star Wars* in the form of</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; powers. This chapter provides the rules for casting these powers. There are two major sources of these power: the Force and technology. While multiple classes use the Force or technology to fuel their powers, there are only the two sources. Regardless, powers follow the rules here.
 
 ## What is a Power?
 A power is a discrete effect, a single shaping of the energies of the Force or a result of a technological formula, that creates a desired effect. In casting a power, a character carefully constructs the desired effect using the source of their power, and then releases it, all in the span of seconds.
@@ -46,6 +44,8 @@ When a caster casts a power using at a higher level than the power's normal leve
 
 Many powers have more powerful effects when cast at a higher level, as indicated in the ***Force Potency*** and ***Overcharge Tech*** sections of the power's description
 
+##### Power Level Point Cost
+
 <div style='column-count:2'>
 
 | Power<br> Level | Point<br> Cost |
@@ -69,7 +69,7 @@ Many powers have more powerful effects when cast at a higher level, as indicated
 #### At-Will Powers
 An at-will power is one that can be cast without expending force or tech points. Repeated practice has fixed the power in the caster's mind. An at-will power's level is 0.
 
-<div class='footnote'>PART 3 | FORCE- AND TECH-CASTING</div>
+<div class='footnote'>CHAPTER 10 | FORCE- AND TECH-CASTING</div>
 
 \pagebreakNum
 
@@ -79,7 +79,7 @@ When a character casts any power, the same basic rules are followed, regardless 
 Each power description in chapters 11 and 12 begins with a block of information, including the power's name, level, alignment (for Force powers), prerequisites (if it has any), casting time, range, and duration. The rest of a power entry describes the power's effect.
 
 ### Power Alignments
-Most force powers are aligned with one of the opposing sides of the Force - light and dark - while many fall somewhere in the middle - universal. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). Additionally, certain archetypes and feats offer benefits to using powers of a specific alignment.
+Most force powers are aligned with one of the opposing sides of the Force—light and dark—while many fall somewhere in the middle—universal. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). Additionally, certain archetypes and feats offer benefits to using powers of a specific alignment.
 
 ### Prerequisites
 Certain force powers are built as more powerful version of previous powers. They require that you know the previous power before you can learn the new one, and you must retain knowledge of the previous power to be able to cast the new one. If you are learning two or more powers at the same time, you can learn a power at the same time that you learn its prerequisites. 
@@ -127,9 +127,9 @@ Normal activity, such as moving and attacking, doesn't interfere with concentrat
 - **Casting another power that requires concentration.** You lose concentration on a power if you cast another power that requires concentration. You can't concentrate on two powers at once.
 - **Taking damage.** Whenever you take damage while you are concentrating on a power, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as a blaster shot and a force power, you make a separate saving throw for each source of damage.
 - **Being incapacitated or killed.** You lose concentration on a power if you are incapacitated or if you die.
-The DM might also decide that certain environmental phenomena, such as turbulence on a ship or rocky terrain on a speeder, require you to succeed on a DC 10 Constitution saving throw to maintain concentration on a power.
+The GM might also decide that certain environmental phenomena, such as turbulence on a ship or rocky terrain on a speeder, require you to succeed on a DC 10 Constitution saving throw to maintain concentration on a power.
 
-<div class='footnote'>PART 3 | FORCE- AND TECH-CASTING</div>
+<div class='footnote'>CHAPTER 10 | FORCE- AND TECH-CASTING</div>
 
 \pagebreakNum
 
@@ -191,6 +191,12 @@ The effects of different powers add together while the durations of those powers
 
 For example, if two consulars cast *guidance* on the same target, that character gains the power's benefit only once; he or she doesn't get to roll two bonus dice.
 
-<div class='footnote'>PART 3 | FORCE- AND TECH-CASTING</div>
+<div class='footnote'>CHAPTER 10 | FORCE- AND TECH-CASTING</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum
+
+<style>
+  .phb#p5:after { display:none; }
+</style>
+
+<img src='https://cdn.discordapp.com/attachments/590617717761900555/593874554955497483/luke-force.jpg' class='cover-image' style="position:absolute; left:-350px; width:1860px;" />

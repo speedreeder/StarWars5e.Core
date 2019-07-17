@@ -1,12 +1,12 @@
-
+\pagebreak
 
 # Chapter 9: Combat
 
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:29px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he shriek of blaster fire flying overhead. The<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *clash* of a gamorrean's axe striking against a composite shield. The crackle of lightning emenating from a Sith lord's hands. The sharp tang of blood in the air, cutting through the stench of vile monsters. Roars of fury, shouts of triumph, cries of pain. Combat in D&D can be chaotic, deadly, and thrilling.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he shriek of blaster fire flying overhead. The *clash*</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of a gamorrean's axe striking against a composite shield. The crackle of lightning emenating from a Sith lord's hands. The sharp tang of blood in the air, cutting through the stench of vile monsters. Roars of fury, shouts of triumph, cries of pain. Combat in D&D can be chaotic, deadly, and thrilling.
 
-This chapter provides the rules you need for your characters and monsters to engage in combat, whether it is a brief skirmish or an extended conflict in a dungeon or on a field of battle. Throughout this chapter, the rules address you, the player or Dungeon Master. The Dungeon Master controls all the monsters and nonplayer characters involved in combat, and each other player controls an adventurer. "You" can also mean the character or monster that you control.
+This chapter provides the rules you need for your characters and monsters to engage in combat, whether it is a brief skirmish or an extended conflict in a dungeon or on a field of battle. Throughout this chapter, the rules address you, the player or Game Master. The Game Master controls all the monsters and nonplayer characters involved in combat, and each other player controls an adventurer. "You" can also mean the character or monster that you control.
 
 ## The Order of Combat
 A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and force- or tech-casting. The game organizes the chaos of combat into a cycle of rounds and turns. A **round** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **turn.** The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.
@@ -14,7 +14,7 @@ A typical combat encounter is a clash between two sides, a flurry of weapon swin
 ### Surprise
 A band of adventurers sneaks up on a Mandalorian camp, springing from cover to attack them. Kath hounds patrol down a hallway, leasher to their handler, unnoticed by the adventurers until the hound smells one of them. In these situations, one side of the battle gains surprise over the other.
 
-The DM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.
 
 If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
 
@@ -25,10 +25,12 @@ The most common actions you can take are described in the "Actions in Combat" se
 
 \columnbreak
 
+<br>
+
 > ##### Combat Step By Step
-> **&emsp;1. Determine surprise.** The DM determines whether anyone involved in the combat encounter is surprised.
+> **&emsp;1. Determine surprise.** The GM determines whether anyone involved in the combat encounter is surprised.
 > 
-> **2. Establish positions.** The DM decides where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the DM figures out where the adversaries are—how far away and in what direction.
+> **2. Establish positions.** The GM decides where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
 > 
 > **3. Roll initiative.** Everyone involved in the combat encounter rolls initiative, determining the order of combatants' turns.
 > 
@@ -54,7 +56,7 @@ You can communicate however you are able, through brief utterances and gestures,
 
 You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -62,7 +64,7 @@ You can also interact with one object or feature of the environment for free, du
 
 If you want to interact with a second object, you need to use your action. Some modified items and other special objects always require an action to use, as stated in their descriptions.
 
-The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
+The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
 
 > ##### Interacting with Objects Around You
 > Here are a few examples of the sorts of thing you can do in tandem with your movement and action:
@@ -129,7 +131,7 @@ You can **drop prone** without using any of your speed. **Standing up** takes mo
 
 To move while prone, you must **crawl** or use powers that teleport. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement.
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -188,17 +190,17 @@ A creature can squeeze through a space that is large enough for a creature one s
 >
 > ***Diagonals.*** When measuring range or moving diagonally, the first diagonal square counts as 5 feet, but the second diagonal square counts as 10 feet. This pattern of 5 feet and then 10 feet continues whenever you're counting diagonally, even if you move horizontally or vertically between different bits of diagonal movement. For instance, a character might move one square diagonally (5 feet), then three squares straight (15 feet), and then another square diagonally (10 feet) for a total movement of 30 feet.
 
-## Action in Combat
+## Actions in Combat
 When you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise. Many creatures have action options of their own in their stat blocks.
 
-When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
+When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
 ### Attack
 The most common action to take in combat is the Attack action, whether you are swinging a vibrosword, firing a blaster rifle, or brawling with your fists.
 
 With this action, you make one melee or ranged attack. See the "Making an Attack" section for the rules that govern attacks.
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -228,12 +230,12 @@ When you take the Hide action, you make a Dexterity (Stealth) check in an attemp
 
 \columnbreak
 
-<div style='margin-top:18px'></div>
+<br>
 
 > #### Improvising an Action
 > Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in chapter 7 for inspiration as you improvise.
 > 
-> When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
+> When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
 ### Ready
 Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction.
@@ -245,12 +247,12 @@ When the trigger occurs, you can either take your reaction right after the trigg
 When you ready a power, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a power must have a casting time of 1 action, and holding onto the power's effect requires concentration (explained in chapter 10). If your concentration is broken, the power dissipates without taking effect. For example, if you are concentrating on the *knight speed* power and ready *shock,* your *knight speed* power ends, and if you take damage before you release *shock* with your reaction, your concentration might be broken.
 
 ### Search
-When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.
+When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.
 
 ### Use an Object
 You normally interact with an object while doing something else, such as when you draw a vibrosword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn.
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -259,7 +261,7 @@ Whether you're striking with a melee weapon, firing a weapon at range, or making
 
 **1. Choose a target.** Pick a target within your attack's range: a creature, an object, or a location.
 
-**2. Determine modifiers.** The DM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
+**2. Determine modifiers.** The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
 
 **3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
 
@@ -289,35 +291,18 @@ Combatants often try to escape their foes' notice by hiding, casting the *force 
 
 <div style='margin-top:27px'></div>
 
-When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the DM typically just says that the attack missed, not whether you guessed the target's location correctly.
+When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly.
 
 When a creature can't see you, you have advantage on attack rolls against it.
 
 If you are hidden—both unseen and unheard—when you make an attack, you give away your location when the attack hits or misses.
 
-### Ranged Attacks
-When you make a ranged attack, you fire a blaster rifle or pistol, hurl a vibrodagger, or otherwise send projectiles to strike a foe at a distance. A creature might have a natural ranged weapon. Many powers also involve making a ranged attack.
-
-#### Range
-You can make ranged attacks only against targets within a specified range.
-
-If a ranged attack, such as one made with a power, has a single range, you can't attack a target beyond this range.
-
-Some ranged attacks, such as those made with a blaster rifle or assault cannon, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range.
-
-#### Ranged Attacks in Close combat
-Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.
-
-#### Melee Attacks
+### Melee Attacks
 Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a vibrosword, a lightsaber, or a vibrowhip. A typical monster makes a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. A few powers also involve making a melee attack.
 
 Most creatures have a 5-foot **reach** and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 5 feet, as noted in their descriptions.
 
 When you are **unarmed,** you can fight in melee by making an unarmed strike. You are proficient in your unarmed strikes and, unless otherwise indicated, they do 1 + your Strength modifier kinetic damage.
-
-<div class='footnote'>PART 2 | COMBAT</div>
-
-\pagebreakNum
 
 #### Opportunity Attacks
 In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack. 
@@ -326,13 +311,12 @@ You can make an opportunity attack when a hostile creature that you can see move
 
 You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy.
 
-#### Two-Weapon Fighting
-When you take the Attack action and attack with a light weapon that you're holding in one hand (or a double weapon), you can use a bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
-
-If a weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
-
 > #### Contests in Combat
-> Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The DM can use these contests as models for improvising others.
+> Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The GM can use these contests as models for improvising others.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
 
 #### Grappling
 When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
@@ -343,12 +327,26 @@ The target of your grapple must be no more than one size larger than you, and it
 
 ***Moving a Grappled Creature.*** When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
 
-\columnbreak
-
 #### Shoving
 Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
 The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 5 feet away from you.
+
+### Ranged Attacks
+When you make a ranged attack, you fire a blaster rifle or pistol, hurl a vibrodagger, or otherwise send projectiles to strike a foe at a distance. A creature might have a natural ranged weapon. Many powers also involve making a ranged attack.
+
+#### Range
+You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a power, has a single range, you can't attack a target beyond this range. Some ranged attacks, such as those made with a blaster rifle or assault cannon, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range.
+
+#### Ranged Attacks in Close combat
+Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.
+
+\columnbreak
+
+### Two-Weapon Fighting
+When you take the Attack action and attack with a light weapon that you're holding in one hand (or a double weapon), you can use a bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
+
+If a weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
 
 ## Cover
 Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.
@@ -371,7 +369,7 @@ A creature's current hit points (usually just called hit points) can be any numb
 
 Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points.
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -392,7 +390,7 @@ For example, if you score a critical hit with a vibrodagger, roll 2d4 for the da
 #### Damage Types
 Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
 
-The damage types follow, with examples to help a DM assign a damage type to a new effect.
+The damage types follow, with examples to help a GM assign a damage type to a new effect.
 
 ***Acid.*** Viles of corrosive liquid or the *acid splash* tech power deal acid damage.
 
@@ -438,9 +436,9 @@ A creature that has died can't regain hit points until a power such as *revitali
 When you drop to 0 hit points, you either die outright or fall unconscious, as explained in the following sections.
 
 > ##### Describing the Effects of Damage
-> Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you unconscious.
+> Game Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you unconscious.
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -453,15 +451,13 @@ For example, a consular with a maximum of 12 hit points currently has 6 hit poin
 If damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see appendix A). This unconsciousness ends if you regain any hit points.
 
 #### Death Saving Throws
-Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any ability score. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;number of both is reset to zero when you<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regain any hit points or become stable.
+Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any ability score. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any hit points or become stable.
 
-\columnbreak
-
-<div style='margin-top:16px'></div>
-
-&emsp;***Rolling 1 or 20.*** When you make a death saving throw and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point.
+***Rolling 1 or 20.*** When you make a death saving throw and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point.
 
 ***Damage at 0 Hit Points.*** If you take any damage while you have 0 hit points (for example, by catching fire because your limbs were all chopped off next to a pit of lava), you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death.
+
+\columnbreak
 
 #### Stabilizing a Creature
 The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.
@@ -471,16 +467,16 @@ You can use your action to administer first aid to an unconscious creature and a
 A **stable** creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours.
 
 #### Monsters and Death
-Most DMs have a monster die the instant it drops to 0 hit points, rather than having it fall unconscious and make death saving throws.
+Most GMs have a monster die the instant it drops to 0 hit points, rather than having it fall unconscious and make death saving throws.
 
-Mighty villains and special nonplayer characters are common exceptions; the DM might have them fall unconscious and follow the same rules as player characters.
+Mighty villains and special nonplayer characters are common exceptions; the GM might have them fall unconscious and follow the same rules as player characters.
 
 ### Knocking a Creature Out
-Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee weapon attack or blaster weapon that deals ion or energy damage, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls unconscious and is stable.
+Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee weapon attack or blaster weapon that deals ion or energy damage, the attacker can knock the creature out.<br> The attacker can make this choice the instant<br> the damage is dealt. The creature falls<br> unconscious and is<br> stable.
 
-<img src='https://www.gmbinder.com/images/4Kf8o4R.png' style='position:absolute;bottom:0px;left:0px;width:870px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/4Kf8o4R.png' style='position:absolute;bottom:0px;right:0px;width:910px;z-index:1000;' />
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
@@ -533,6 +529,12 @@ Creatures and objects that are fully immersed in water have resistance to fire d
 
 <img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:10px;width:450px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>PART 2 | COMBAT</div>
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum
+
+<style>
+  .phb#p11:after { display:none; }
+</style>
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/593986574891352084/sw-combat-scene.jpg' class='cover-image' style="position:absolute; left:0px; width:844px;" />

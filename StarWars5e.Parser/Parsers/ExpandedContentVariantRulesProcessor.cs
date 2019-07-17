@@ -53,9 +53,14 @@ namespace StarWars5e.Parser.Parsers
                 {
                     variantLines[2] = variantLines[2].Insert(0, "Y");
                 }
+                if (name == "Advanced Advantage and Flanking")
+                {
+                    variantLines[2] = variantLines[2].Insert(0, "T");
+                }
 
                 variantRule.ChapterName = name;
                 variantRule.ContentMarkdown = string.Join("\r\n", variantLines.Skip(1).ToList());
+                variantRule.ContentTypeEnum = contentType;
                 return variantRule;
             }
             catch (Exception e)

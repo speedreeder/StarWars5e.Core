@@ -37,7 +37,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             var chapter12StartIndex = lines.FindIndex(f => f == "# Chapter 12: Tech Powers");
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Conditions");
             var appendixBStartIndex = lines.FindIndex(f => f == "# Appendix B: Recommended Variant Rules");
-            var changelogStartIndex = lines.FindIndex(f => f == "## Changelog");
+            var changelogStartIndex = lines.FindIndex(f => f == "# Changelog");
 
             var prefaceLines = lines.Skip(prefaceStartIndex).Take(whatsDifferentStartIndex - prefaceStartIndex)
                 .CleanListOfStrings().ToList();

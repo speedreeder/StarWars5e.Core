@@ -1,15 +1,15 @@
-
+\pagebreak
 
 # Appendix B: Recommended Variant Rules
 
 <img src='https://www.gmbinder.com/images/FTqIxLt.png' style='position:absolute;top:90px;left:70px;width:34px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ouse/variant rules are optional additions to GM<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; each game that in some way enhance or alter game play. Generally, they are done to alleviate stress from the GM, to improve player engagement, or to help a player realize a character goal. This appendix includes a number of variant rule options, all of which I offer at my table.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">ouse/variant rules are optional additions to GM each</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; game that in some way enhance or alter game play. Generally, they are done to alleviate stress from the GM, to improve player engagement, or to help a player realize a character goal. This appendix includes a number of variant rule options, all of which I offer at my table.
 
 I would encourage you to become familiar with the core content of this conversion before you decide if these house rules are right for you.
 
 ## Defense Rolls
-One of the first variant rules I added to my games was the Defense Rolls, published in the [Unearthed Arcana: Variant Rules](https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf). Essentially, instead of the GM making attack rolls against the players' static AC, the players make defense rolls against the GM's static attack save DC. Implementing this is easy.
+One of the first variant rules I added to my games was the Defense Rolls, published in the Unearthed Arcana: Variant Rules. Essentially, instead of the GM making attack rolls against the players' static AC, the players make defense rolls against the GM's static attack save DC. Implementing this is easy.
 
 ### Calculating Defense Bonus (DB)
 Armor class is replaced with Defense Bonus. This bonus is calculated simply by players taking their AC and subtracting 10. If a player had an AC of 16, they would have a DB of +6.
@@ -29,12 +29,14 @@ Similarly, a 20 on the defense roll would automatically be a successful dodge, r
 ### Why I Recommend This Rule
 This is the first variant rule I implemented at my table, and it has thus far been universally loved. Keeping players engaged is very important at the table. Additionally, abilities that players have that allow them to know your attack rolls are simpler since the player rolls the dice in the open.
 
+\columnbreak
+
 While I use this rule, and will continue to do so, when my players encounter "boss"-type mobs, I roll attack rolls as normal.
 
 I especially recommend this rule if you utilize the Space Combat optional rule set. Since the pilot on many larger ships doesn't operate the weapons, using this rule keeps them further engaged.
 
 ## Saving Throw Checks
-Also published in the [Unearthed Arcana: Variant Rules](https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf) was a rule for your players to roll when they use powers or abilities that call for a save DC. Instead of the GM making saving throws against the players' static save DCs, the players roll a saving throw check against the GM's defense save DC.
+Also published in the Unearthed Arcana: Variant Rules was a rule for your players to roll when they use powers or abilities that call for a save DC. Instead of the GM making saving throws against the players' static save DCs, the players roll a saving throw check against the GM's defense save DC.
 
 ### Calculating Saving Throw Check
 If players have their save throw DCs calculated, simply subtract 8 from that value. If your consular's force save DC is 15, your saving throw check modifier is +7.

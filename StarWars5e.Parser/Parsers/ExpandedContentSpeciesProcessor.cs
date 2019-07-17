@@ -490,6 +490,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Talz":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_talz.png");
                         break;
+                    case "Thisspiasian":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_thisspiasian.png");
+                        break;
                     case "Togorian":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_togorian.png");
                         break;

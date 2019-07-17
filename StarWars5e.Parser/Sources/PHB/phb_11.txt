@@ -1,4 +1,4 @@
-
+\pagebreak
 
 # Chapter 11: Force Powers
 
@@ -52,6 +52,10 @@ ___
 - Phasestrike
 - <div style="color:blue">Project</div>
 - <div style="color:blue">Sanctuary</div>
+
+\columnbreak
+
+___
 - <div style="color:red">Sap Vitality</div>
 - Sense Emotion
 - Sense Force
@@ -59,8 +63,6 @@ ___
 - Tremor
 - <div style="color:blue">Valor</div>
 - <div style="color:red">Wound</div>
-
-\columnbreak
 
 #### 2nd-level
 ___
@@ -96,7 +98,7 @@ ___
 - <div style="color:red">Choke</div>
 - Convulsion
 - <div style="color:red">Force Lightning</div>
-- Force Repulse*
+- Force Repulse
 - <div style="color:red">Force Scream</div>
 - Force Suppression
 - <div style="color:blue">Force Trance</div>
@@ -126,7 +128,7 @@ ___
 - <div style="color:red">Hysteria</div>
 - Improved Force Camouflage
 - Locate Creature
-- Mind Trap*
+- Mind Trap
 - <div style="color:red">Shocking Shield</div>
 - <div style="color:red">Shroud of Darkness</div>
 
@@ -143,9 +145,13 @@ ___
 - Improved Phasewalk
 - <div style="color:blue">Improved Restoration</div>
 - <div style="color:red">Insanity</div>
-- Mass Animation*
+- Mass Animation
 - <div style="color:blue">Revitalize</div>
 - <div style="color:red">Siphon Life</div>
+
+\columnbreak
+
+___
 - <div style="color:blue">Skill Empowerment</div>
 - <div style="color:blue">Stasis</div>
 - Telekinesis
@@ -156,16 +162,12 @@ ___
 - Eruption
 - <div style="color:red">Force Chain Lightning</div>
 - <div style="color:blue">Greater Heal</div>
-
-\columnbreak
-
-___
 - Improved Force Immunity
 - Mass Coerce Mind
 - <div style="color:red">Rage</div>
 - <div style="color:red">Scourge</div>
 - <div style="color:blue">Telekinetic Burst</div>
-- True Sight*
+- True Sight
 - <div style="color:blue">Wall of Light</div>
 - <div style="color:red">Wrack</div>
 
@@ -207,9 +209,9 @@ ___
 
 </div>
 
-<img src='https://www.gmbinder.com/images/hBOGYMT.png' style='position:absolute;bottom:-10px;left:80px;width:880px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/hBOGYMT.png' style='position:absolute;bottom:-10px;right:110px;width:880px;z-index:1000;' />
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -222,7 +224,7 @@ ___
 
 Choose a target within range that isn't hostile toward you. The target must make a Wisdom saving throw. On a failed save, you have advantage on all Charisma checks directed at that target. 
 
-On a successful save, the creature realizes that you tried to use the Force to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it. This power has no effect on droids or constructs.
+On a successful save, the creature does not realize that you tried to use the Force to influence its mood, but it becomes immune to this power for one day. This power has no effect on droids or constructs.
 
 #### Affliction
 _2nd-level dark side power_
@@ -291,7 +293,7 @@ Whenever you or a friendly creature within your meditation makes an attack roll 
 
 Whenever a hostile creature starts enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d4 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -343,7 +345,7 @@ You touch a creature, and that creature must succeed on a Wisdom saving throw or
 
 <div style='margin-top:16px'></div>
 
-&emsp;A remove curse power ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.
+&emsp;A remove curse power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
 
 #### Breath Control
 _1st-level universal power_
@@ -378,7 +380,7 @@ You touch a creature. The target's speed increases by 10 feet until the power en
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -393,7 +395,7 @@ You attempt to suppress strong emotions in a group of people. Each humanoid in a
 - You can suppress any effect causing a target to be charmed or frightened. When this power ends, any suppressed effect resumes, provided that its duration has not expired in the meantime. 
 - You can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a power or if it witnesses any of its friends being harmed. 
 
-When the power ends, the creature becomes hostile again, unless the DM rules otherwise.
+When the power ends, the creature becomes hostile again, unless the GM rules otherwise.
 
 #### Choke
 _3rd-level dark side power_
@@ -457,7 +459,7 @@ Choose a point you can see on the ground within range. A fountain of churned ear
 
 ***Force Potency.*** When you cast this power using a force slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -494,7 +496,7 @@ ___
 - **Range:** Self
 - **Duration:** Instantaneous
 
-You put your faith in the Force, feeling out the future and seeing whether your actions will lead to fortune or ruin. The DM chooses from the following possible omens:
+You put your faith in the Force, feeling out the future and seeing whether your actions will lead to fortune or ruin. The GM chooses from the following possible omens:
 - **Peace**, for results which are not dangerous
 - **Danger**, for results which are dangerous but perhaps still worth the danger
 - **Ruin**, for results which are certain to end in death or tragedy
@@ -542,7 +544,7 @@ If the point you choose is on an object you are holding or one that isn't being 
 
 If this power's area overlaps with light created by a 2nd-level power or lower, this power and the light are dispelled.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -616,7 +618,7 @@ If the beast takes damage, it makes another Wisdom save. On a success, the power
 
 ***Force Potency.*** When you cast this power using a 5th-level force slot, the duration is up to 10 minutes. At a 6th-level slot, the duration is up to 1 hour. At a slot of 7th or higher, the duration is up to 8 hours.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -686,7 +688,7 @@ At the end of each of the target's turns, it can make a Constitution saving thro
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -704,13 +706,13 @@ The ground in the area becomes difficult terrain. Each creature on the ground th
 
 When you cast this power and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a Dexterity saving throw. On a failed save, the creature is knocked prone. 
 
-This power can have additional effects depending on the terrain in the area, as determined by the DM.
+This power can have additional effects depending on the terrain in the area, as determined by the GM.
 
-***Fissures.*** Fissures open throughout the power's area at the start of your next turn after you cast the power. A total of 1d6 such fissures open in locations chosen by the DM. Each is 1d10 x 10 feet deep, 10 feet wide, and extends from one edge of the power's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
+***Fissures.*** Fissures open throughout the power's area at the start of your next turn after you cast the power. A total of 1d6 such fissures open in locations chosen by the GM. Each is 1d10 x 10 feet deep, 10 feet wide, and extends from one edge of the power's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
 
 A fissure that opens beneath a structure causes it to automatically collapse (see below).
 
-***Structures.*** The tremor deals 50 kinetic damage to any structure in contact with the ground in the area when you cast the power and at the start of each of your turns until the power ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 kinetic damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried.
+***Structures.*** The tremor deals 50 kinetic damage to any structure in contact with the ground in the area when you cast the power and at the start of each of your turns until the power ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 kinetic damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The GM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried.
 
 #### Enfeeble
 _At-will dark side power_
@@ -761,7 +763,7 @@ You unleash a burst of psychic energy at a target within range. If the target ca
 
 This power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -848,7 +850,7 @@ The target can act normally on its turn if you choose no creature or if none are
 
 On your subsequent turns, you must use your action to maintain control over the target, or the power ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the power ends.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -948,7 +950,7 @@ ___
 
 You create a telepathic link between yourself and a willing creature with which you are familiar. Until the power ends, you and the target can instantaneously share words, images, sounds, and other sensory messages with one another through the link, and the target recognizes you as the creature it is communicating with. The power enables a creature with an Intelligence score of at least 1 to understand the meaning of your words and take in the scope of any sensory messages you send to it.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1024,7 +1026,7 @@ All small objects that are not worn or carried are also pushed 5 feet back.
 
 ***Force Potency.*** When you cast this power using a force slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1098,7 +1100,7 @@ Choose one or more creatures or objects within 60 feet that weigh up to 15 pound
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the maximum weight increases by 15 pounds and the damage increases by 1d8 for each slot level above 1st.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1180,7 +1182,7 @@ ___
 
 You touch one willing creature. Once before the power ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The power then ends.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1252,7 +1254,7 @@ You project a phantasmal image of a creature's worst fears. Each creature in a 3
 
 While frightened by this power, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the power ends for that creature.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1331,7 +1333,7 @@ ___
 
 A willing creature you touch becomes invisible until the power ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. 
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1423,7 +1425,7 @@ This power closes all mortal wounds and restores any missing body parts.
 
 Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest,  the penalty is reduced by 1 until it disappears.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1507,7 +1509,7 @@ ___
 
 Describe or name an object. You sense the direction to the object's location, as long as its within 1000 feet of you. If the object is in motion, you know the direction of its movement. The power can locate a specific object known to you, as long as you have seen it while within 30 feet of it. Alternatively, the power can locate the nearest object of a particular kind. This power can't locate an object if any thickness of lead blocks a direct path between you and the object.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1573,7 +1575,7 @@ ___
 
 Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, manifesting their worst nightmares as an implacable threat visible only to them. Each creature in a 30-foot-radius sphere is frightened for the duration of the power. At the end of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 5d10 psychic damage. On a successful save, the power ends for that creature. This power has no effect on droids or constructs.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1649,7 +1651,7 @@ An enhanced weapon's properties and powers are suppressed if it is used against 
 
 ***Tech Override/Sever Force.*** Powers and enhanced effects such as *sever force* have no effect on the sphere. Likewise, the spheres created by different scrambling field powers don't nullify each other.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1736,7 +1738,7 @@ You attempt to trap the mind of your target in a psychic cage. The target must m
 
 ***Force Potency.*** When you cast this power using a force slot of 6th level or higher, after 1 minute of concentration the power's duration becomes 24 hours and it no longer requires your concentration.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1749,7 +1751,7 @@ ___
 
 Choose a target within range that isn't hostile toward you. The target must make a Wisdom saving throw. On a failed save, the target has disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks. 
 
-On a successful save, the creature realizes that you tried to use the Force to influence its awareness and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it. This power has no effect on droids or constructs.
+On a successful save, the creature realizes that you tried to use the Force to influence its awareness and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the GM's discretion), depending on the nature of your interaction with it. This power has no effect on droids or constructs.
 
 #### Necrotic Charge
 _At-will dark side power_
@@ -1821,7 +1823,7 @@ ___
 
 Your mastery of the force gives you a limited ability to see into the immediate future. For the duration, you can't be surprised and you have advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against you for the duration.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1918,7 +1920,7 @@ This power closes all mortal wounds, but it doesn't restore missing body parts. 
 
 Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -1991,7 +1993,7 @@ Make a melee force attack against a creature you can reach. On a hit, the target
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -2069,7 +2071,7 @@ You hurl a bolt of lightning at a target within range, making a ranged power att
 
 This power's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -2155,7 +2157,7 @@ As part of the action used to cast this power, you must make a melee attack with
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 sonic damage to the target, and the secondary damage increases by 1d4. Both damage rolls increase by 1d8 and 1d4, respectively, at 11th level and 17th level.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -2230,7 +2232,7 @@ On subsequent rounds, you can use your action to attempt to maintain your teleki
 
 You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -2321,7 +2323,7 @@ You bless up to three creatures of your choice within range. Whenever a target m
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 \pagebreakNum
 
@@ -2374,6 +2376,6 @@ You wrack the body of a creature that you can see with a virulent, disease-like 
 
 ***Force Potency.*** If you cast this power using a force slot of 7th level or higher, the power deals an extra 2d6 damage for each slot level above 6th.
 
-<div class='footnote'>PART 3 | FORCE POWERS</div>
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
 <div class='pageNumber auto'></div>

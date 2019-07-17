@@ -1,12 +1,12 @@
-
+\pagebreak
 
 # Chapter 6: Customization Options
 
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:29px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he combination of ability scores, species, class,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players who—with the DM's permission—want to go a step further.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he combination of ability scores, species, class, and</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players who—with the GM's permission—want to go a step further.
 
-This chapter defines two optional sets of rules for customizing your character: multiclassing and feats. Multiclassing lets you combine classes together, and feats are special options you can choose instead of increasing your ability s cores as you gain levels. Your DM decides whether these options are available in a campaign.
+This chapter defines two optional sets of rules for customizing your character: multiclassing and feats. Multiclassing lets you combine classes together, and feats are special options you can choose instead of increasing your ability s cores as you gain levels. Your GM decides whether these options are available in a campaign.
 
 ## Multiclassing
 Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options.
@@ -29,7 +29,7 @@ As you advance in levels, you might primarily remain a member of your original c
 ### Prerequisites
 To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, a fighter who decides to multiclass into the consular class must have either Strength or Dexterity and Wisdom scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores.
 
-#### Multiclassing Prerequisites
+##### Multiclassing Prerequisites
 |Class|&nbsp;&nbsp;|Ability Score Minimum|
 |:--|:--:|:--|
 |Berserker||Strength 13|
@@ -54,7 +54,7 @@ You add together the Hit Dice granted by all your classes to form your pool of H
 ### Proficiency Bonus
 Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table in chapter 1, not your level in a particular class. For example, if you are a fighter 3/operative 2, you have the proficiency bonus of a 5th-level character, which is +3.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -63,8 +63,7 @@ If a class feature or feat allows you to forgo your proficiency bonus, you may o
 ### Proficiencies
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multiclassing Proficiencies table.
 
-### Multiclassing Proficiencies
-
+##### Multiclassing Proficiencies
 |Class|&nbsp;&nbsp;|Proficiencies Gained|
 |:--|:--:|:--|
 |Berserker||Light armor, all vibroweapons||
@@ -114,7 +113,7 @@ For example, if you are the aforementioned consular 5/sentinel 3, you count as a
 
 If you have both force- and tech-casting, you determine your max power levels separately, and they can only be used to cast force or tech powers, respectively.
 
-### Multiclass Max Power Level
+##### Multiclass Max Power Level
 <div style='column-count:2'>
 
 |Level|Slot<br> Level|
@@ -145,7 +144,7 @@ If you have both force- and tech-casting, you determine your max power levels se
 
 </div>
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -210,7 +209,7 @@ You are skilled at using weapons in different ways. While you are wielding a mel
 - You gain a +1 bonus to attack rolls while wielding a weapon in one hand.
 - You gain a +1 bonus to damage rolls while wielding a weapon in two hands.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -267,7 +266,7 @@ You have undergone extensive physical training to gain the following benefits:
 - Climbing doesn't halve your speed.
 - You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -326,7 +325,7 @@ You've mastered using your weight to your advantage, easily wrangling targets ar
 - Your speed isn't halved by carrying a grappled creature who is the same size category as you or smaller. 
 - When you take the Attack action and make an attack against a creature grappled by you, you can use a bonus action to make another attack against that creature.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -384,7 +383,7 @@ You've practiced making your powers more difficult to avoid, learning techniques
 - When a creature rolls a 1 on the d20 roll of a saving throw against a power you cast that deals damage, they instead take the highest number possible for the damage die.
 - You learn one at-will power that requires a saving throw. Your casting ability for this at-will power depends on the power list you chose from: Wisdom or Charisma (depending on power alignment) for force powers or Intelligence for tech powers.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -418,7 +417,7 @@ You have extensive experience with explosives, gaining the following benefits:
 
 - You gain proficiency with the demolitions kit. If you are already proficient with it, you instead gain expertise with it.
 - Whenever you make an Intelligence (Demolitions Kit) check to disarm an explosive, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least one minute disarming it.
-- Over the course of a short rest, you can temporarily improve the potency of one grenade or mine. To use this benefit, you must have a demolitions kit, and the explosive must be within reach.  If the explosive is detonated before the end of your next short or long rest, it's DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra damage equal to your Intelligence modifier of the same type it would normally deal. 
+- Over the course of a short rest, you can temporarily improve the potency of one grenade or mine. To use this benefit, you must have a demolitions kit, and the explosive must be within reach.  If the explosive is detonated before the end of your next short or long rest, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra damage equal to your Intelligence modifier of the same type it would normally deal. 
 
 ### Dual Focused Caster
 *Prerequisite: The ability to cast force or tech powers*<br>
@@ -432,7 +431,7 @@ Your mastery of fighting with a single melee weapon is unsurpassed; you make one
 - When you take the Attack action, you can decide to attack with haste at the expense of accuracy. Your melee weapon attacks are made without the aid of your proficiency bonus, but you use your reaction to make an additional melee weapon attack, also without your proficiency bonus. 
 - When a creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -471,7 +470,7 @@ You have a natural gift for performing and competing. Select one gaming set or m
 ### Equilibrium Mastery
 You've mastered the art of fighting while minimally armored, treating combat as an elegant dance. While you are wearing no armor and not wielding a medium or heavy shield, you gain the following benefits:
 - You gain a +1 bonus to damage rolls you make with unarmed strikes and weapon attacks.
-- When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You can choose to use this feature after the creature makes its attack roll, but before the DM determines whether the attack hits. 
+- When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You can choose to use this feature after the creature makes its attack roll, but before the GM determines whether the attack hits. 
 
 ### Fanatic
 Every blow that hits your enemies make you feel closer to victory, making you shake in excitement. You gain the following benefits:
@@ -490,7 +489,7 @@ You adopt a particular style of fighting as your specialty, gaining the followin
 
 You can select this feat multiple times. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -544,7 +543,7 @@ You are an able medic, allowing you to mend wounds quickly and get your allies b
 - When you use a medkit to stabilize a dying creature, that creature also regains 1 hit point.
 - As an action, you can spend one use of a medkit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points again in this way until it finishes a short or long rest.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -595,7 +594,7 @@ You have a mind that can track time, direction, and detail with uncanny precisio
 ### Lightly Armored
 You have trained to master the use of light armor, gaining the following benefits:
 - You gain proficiency with light armor. If you are already proficient with light armor, instead increase your Strength or Dexterity score by 1, to a maximum of 20.
-- Your speed increases by 5 feet.
+- While you are wearing light armor, your speed increases by 5 feet.
 
 ### Linguist
 You have studied languages and codes, gaining the following benefits:
@@ -603,7 +602,7 @@ You have studied languages and codes, gaining the following benefits:
 - You learn three languages of your choice.
 - You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use a power to decipher it.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -660,7 +659,7 @@ You are exceptionally speedy and agile. You gain the following benefits:
 - When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.
 - When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -668,7 +667,7 @@ You are exceptionally speedy and agile. You gain the following benefits:
 *Prerequisite: Proficiency with light armor*<br>
 You have trained to master the use of medium armor, gaining the following benefits: 
 - You gain proficiency with medium armor. If you are already proficient with medium armor, instead increase your Strength or Dexterity score by 1, to a maximum of 20.
-- You can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.
+- While you are wearing medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.
 - Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.
 
 ### Mounted Caster
@@ -717,7 +716,7 @@ You have studied the secrets of poisons and toxins, gaining the following benefi
 - As an action, you can identify one poison within 5 feet of you. You must see the poison for this benefit to work.
 - Over the course of a short rest, you can temporarily improve the potency of one dose of poison. To use this benefit, you must have a poisoner's kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra poison damage equal to your Intelligence modifier.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -764,7 +763,7 @@ Your nimble fingers and agility let you perform sleight of hand. You gain the fo
 ### Quick-Witted
 Great ideas come to you naturally, often when your life depends on it. You always have a plan, or at least parts of it. You gain the following benefits:
 - Increase your Intelligence score by 1, to a maximum of 20.
-- You can use your Intelligence modifier instead of your Dexterity modifier when making Iniative checks.
+- You can use your Intelligence modifier instead of your Dexterity modifier when making Initiative checks.
 - When you would make a Dexterity saving throw, you can instead make an Intelligence saving throw. You can use this feature a number of times equal to your Intelligence modifier. You regain all expended uses of this feature when you complete a long rest.
 
 ### Quick Caster
@@ -778,7 +777,7 @@ Choose one ability score. You gain the following benefits:
 - Increase the chosen ability score by 1, to a maximum of 20.
 - You gain proficiency in saving throws using the chosen ability.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -829,7 +828,7 @@ You are expert at slinking through shadows. You gain the following benefits:
 - When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.
 - Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -889,7 +888,7 @@ You become fearsome to others, gaining the following benefits:
 - You gain proficiency in the Intimidation skill. If you are already proficient in it, you instead gain expertise in it. 
 - When you take the Attack action, you can replace one attack with an attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If your check fails, the target can't be frightened by you in this way for 1 hour. 
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -941,6 +940,6 @@ You have practiced extensively with a variety of weapons, gaining the following 
 - You gain proficiency with all blasters, lightweapons, and vibroweapons. If you are already proficient with them, instead increase your Strength or Dexterity score by 1, to a maximum of 20.
 - Once per turn when you roll damage for a weapon attack using a weapon with which you are proficient, you can reroll the weapon's damage dice and use either total.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 <div class='pageNumber auto'></div>

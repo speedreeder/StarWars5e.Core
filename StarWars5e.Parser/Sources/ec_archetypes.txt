@@ -1,122 +1,62 @@
 
 
-## Changelog
-### New Archetypes
-- Scholar - Slicer Pursuit (**6/14/2019**)
-- Sentinel - Path of Communion (**5/31/2019**)
-- Engineer - Biochem Engineering (**5/10/2019**)
-- Scout - Bulwark Technique (**4/05/2019**)
-- Monk - Jal Shey Order (**3/15/2019**)
-- Consular - Way of Endurance (**3/8/2019**)
-- Scholar - Zoologist Pursuit (**1/10/2019**)
-- Scholar - Gambler Pursuit (**1/4/2019**)
-- Scholar - Chef Pursuit (**1/2/2019**)
-- Fighter - Demolitions Specialist (**12/11/2018**)
-- Monk - Aing-Tii Order (**12/11/2018**)
-- Sentinel - Path of the Corsair (**12/11/2018**)
-- Consular - Way of Negation (**11/13/2018**)
-- Engineer - Artificer Engineering (**11/13/2018**)
-- Engineer - Audiotech Engineering (**11/13/2018**)
-- Berserker - Ballistic Approach (**10/30/2018**)
-- Guardian - Form VIII: Sokan (**10/30/2018**)
-- Guardian - Form IX: Tràkata (**10/30/2018**)
-- Guardian - Form X: Jar'Kai (**10/30/2018**)
-- Scout - Predator Technique (**10/30/2018**)
-- Consular - Way of Manipulation (**10/9/2018**)
-- Engineer - Cybertech Engineering (**10/9/2018**)
-- Fighter - Enhancement Specialist (**10/9/2018**)
-- Operative - Beguiler Practice (**10/9/2018**)
-- Scout - Inquisitor Technique (**10/9/2018**)
-- Sentinel - Path of the Forceblade (**10/9/2018**)
-- Sentinel - Path of Synthesis (**10/9/2018**)
-- Guardian - Form V: Djem So (**9/25/2018**)
-- Guardian - Form VI: Niman (**9/25/2018**)
-- Operative - Disabling Practice (**9/25/2018**)
-- Scholar - Explorer Pursuit (**9/25/2018**)
-
-\columnbreak
-
-<div style=margin-top:26px></div>
-
-### Miscellaneous
-- Adept Fighter, Aing-Tii Monk, Beguiler Operative now gain an additional power at 19th level. (**5/14/2019**)
-- Scholar Explorer Pursuit tweaked. (**5/14/2019**)
-- Scholar Gambler Pursuit tweaked. (**5/14/2019**)
-- Scholar Zoologist Pursuit reworked with a completely new pet system. (**5/14/2019**)
-- Engineer Artificer reworked. (**5/14/2019**)
-- Engineer Audiotech had some clarifications added. (**5/14/2019**)
-- Engineer Cybertech reworked. (**5/14/2019**)
-- Consular Way of Corruption relabeled Way of Confluence and reworked. (**5/14/2019**)
-- Consular Way of Endurance featured corrected to grant unarmored defense using Constitution modifier. (**5/14/2019**)
-- Consular Way of the Seer reworked. (**5/14/2019**)
-- Consular Way of Telekinetics reworked. (**5/14/2019**)
-- Clarified that the Artificer Engineer's lightweapon must be unenhanced. (**12/11/2018**)
-- Renamed Order of the Whills to Whills Order to bring it in line with other Monastic Order naming conventions. (**12/11/2018**)
-- Clarified that the Predator Technique's On the Hunt should reference Predator's Resolve, not Tracker's Resolve. (**11/13/2018**)
-- Berserker's Cyclone Approach's Twisting Winds slightly changed. (**10/30/2018**)
-- Guardian's Form IV moved from the PHB to EC - Archetypes. (**10/30/2018**)
-- Clarified that Sentinel Callings gain a feature at 7th, not 6th level. (**10/30/2018**)
-- Clarified that Adept Specialist is a Fighter archetype. (**10/9/2018**)
-- Quickening Specialist relabeled Adept Specialist (**9/25/2018**)
-
-\pagebreak
-
 <div class='classTable wide' style='column-count:2'>
 
 # Table of Contents
 |||
 |:--|--:|
 |Berserker||
-|&emsp;Ballistic Approach       | 3|
-|&emsp;Bloodstorm Approach      | 4|
-|&emsp;Cyclone Approach         | 5|
-|&emsp;Frenzied Approach        | 6|
+|&emsp;Ballistic Approach       | 2|
+|&emsp;Bloodstorm Approach      | 3|
+|&emsp;Cyclone Approach         | 4|
+|&emsp;Frenzied Approach        | 5|
 |Consular||
-|&emsp;Way of Confluence        | 7|
-|&emsp;Way of Endurance         | 8|
-|&emsp;Way of Manipulation      | 9|
-|&emsp;Way of Negation          |10|
-|&emsp;Way of the Seer          |11|
-|&emsp;Way of Telekinetics      |12|
+|&emsp;Way of Confluence        | 6|
+|&emsp;Way of Endurance         | 7|
+|&emsp;Way of Manipulation      | 8|
+|&emsp;Way of Negation          | 9|
+|&emsp;Way of the Seer          |10|
+|&emsp;Way of Telekinetics      |11|
 |Engineer||
-|&emsp;Artificer Engineering    |13|
-|&emsp;Audiotech Engineering    |16|
-|&emsp;Biochem Engineering      |19|
-|&emsp;Cybertech Engineering    |22|
+|&emsp;Artificer Engineering    |12|
+|&emsp;Audiotech Engineering    |15|
+|&emsp;Biochem Engineering      |18|
+|&emsp;Cybertech Engineering    |21|
 |Fighter||
-|&emsp;Adept Specialist         |25|
-|&emsp;Demolitions Specialist   |27|
-|&emsp;Enhancement Specialist   |28|
-|&emsp;Mounted Specialist       |30|
+|&emsp;Adept Specialist         |24|
+|&emsp;Demolitions Specialist   |26|
+|&emsp;Enhancement Specialist   |27|
+|&emsp;Mounted Specialist       |29|
 |Guardian||
-|&emsp;Form IV: Ataru           |31|
-|&emsp;Form V: Djem So          |32|
-|&emsp;Form VI: Niman           |33|
-|&emsp;Form VII: Juyo           |34|
-|&emsp;Form VIII: Sokan         |35|
-|&emsp;Form IX: Trakata         |36|
-|&emsp;Form X: Jar'Kai          |37|
+|&emsp;Form IV: Ataru           |30|
+|&emsp;Form V: Djem So          |31|
+|&emsp;Form VI: Niman           |32|
+|&emsp;Form VII: Juyo           |33|
+|&emsp;Form VIII: Sokan         |34|
+|&emsp;Form IX: Trakata         |35|
+|&emsp;Form X: Jar'Kai          |36|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |38|
-|&emsp;Jal Shey Order           |39|
-|&emsp;Matukai Order            |40|
-|&emsp;Whills Order             |41|
+|&emsp;Aing-Tii Order           |37|
+|&emsp;Jal Shey Order           |38|
+|&emsp;Matukai Order            |39|
+|&emsp;Whills Order             |40|
 |Operative||
-|&emsp;Beguiler Practice        |42|
-|&emsp;Disabling Practice       |44|
-|&emsp;Ruffian Practice         |45|
-|&emsp;Sawbones Practice        |46|
+|&emsp;Beguiler Practice        |41|
+|&emsp;Disabling Practice       |43|
+|&emsp;Ruffian Practice         |44|
+|&emsp;Sawbones Practice        |45|
 |Scholar||
-|&emsp;Chef Pursuit             |47|
-|&emsp;Explorer Pursuit         |49|
-|&emsp;Gambler Pursuit          |51|
-|&emsp;Slicer Pursuit           |53|
-|&emsp;Zoologist Pursuit        |55|
+|&emsp;Chef Pursuit             |46|
+|&emsp;Explorer Pursuit         |48|
+|&emsp;Gambler Pursuit          |50|
+|&emsp;Slicer Pursuit           |52|
+|&emsp;Zoologist Pursuit        |54|
 |Scout||
-|&emsp;Bulwark Technique        |59|
+|&emsp;Bulwark Technique        |58|
+|&emsp;Illusionist Technique    |59|
 |&emsp;Inquisitor Technique     |60|
 |&emsp;Predator Technique       |61|
 |&emsp;Slayer Technique         |62|
@@ -163,7 +103,7 @@ At 14th level, when you use the *burst* feature of a blaster with which are you 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-
+\pagebreak
 
 \pagebreak
 
@@ -177,7 +117,7 @@ When you choose this approach at 3rd level, your throwing techniques have become
 Also at 3rd level, any weapon you throw can ricochet back to you at your command. When you make a thrown weapon attack, you may have the weapon fly back to your hand immediately after the attack.
 
 ### Throw Anything
-At 6th level, your strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a melee weapon that you have proficiency with, it gains the Thrown property (range 20/60).
+At 6th level, your strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a melee weapon that you have proficiency with, it gains the thrown property (range 20/60).
 
 ### Fling People
 Starting at 10th level, you learn to throw creatures as easily as you throw your weapons. When you successfully grapple a creature, you may<br> immediately throw the creature:
@@ -193,9 +133,9 @@ If the creature is an opponent, you throw the target into any unoccupied space w
 <div style='margin-top:27px'></div>
 
 ### Raging Whirlwind
-At 14th level, you can send your weapon spinning into a gravity-defying whirlwind of pain. Once per rage as an action, you may throw a weapon with the Thrown property to a point you choose within 60 feet. The weapon fills the air as a cyclone in a 10 foot radius sphere centered on that point. A creature takes damage equal to the thrown weapon's damage + your Strength modifier + your Rage Damage when it enter's the whirlwind's area for the first time on a turn or starts its turn there. This effect ends when you command the weapon to return to you as a free action or your rage ends.
+At 14th level, you can send your weapon spinning into a gravity-defying whirlwind of pain. Once per rage as an action, you may throw a weapon with the thrown property to a point you choose within 60 feet. The weapon fills the air as a cyclone in a 10 foot radius sphere centered on that point. A creature takes damage equal to the thrown weapon's damage + your Strength modifier + your Rage Damage when it enter's the whirlwind's area for the first time on a turn or starts its turn there. This effect ends when you command the weapon to return to you as a free action or your rage ends.
 
-<img src='https://www.gmbinder.com/images/ZG0fURq.png' style='position:absolute;bottom:-15px;right:-30px;width:530px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/ZG0fURq.png' style='position:absolute;bottom:15px;right:-20px;width:525px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
@@ -225,7 +165,7 @@ At 14th level, you can become a tornado of attacks. When you take the Attack act
 
 You can use this feature a number of times equal to your Strength modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
 
-<img src='https://www.gmbinder.com/images/N7AJIeU.png' style='position:absolute;bottom:-116px;right:-15px;width:840px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/N7AJIeU.png' style='position:absolute;bottom:-116px;right:-15px;width:835px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
@@ -302,12 +242,12 @@ Starting when you choose this tradition at 3rd level, the Force flowing through 
 Additionally, as an action, you can gain resistance to kinetic and energy damage for 1 minute. This effect lasts until you end it as a bonus action, you are incapacitated, or you don armor other than a shield. You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.
 
 ### Retaliation Strike
-At 6th level, you learn<br> to turn an opponent's<br> aggression back on them.<br> When you deal damage with<br> a force power or a melee weap-<br>on attack, if you took damage since<br> the start of your last turn, you deal<br> an extra 1d6 damage. The damage is<br> the same type as the power or weapon's<br> damage.
+At 6th level, you learn to turn<br> an opponent's aggression back<br> on them. When you deal damage<br> with a force power or a melee weapon<br> attack, if you took damage since the start<br> of your last turn, you deal an extra 1d6<br> damage. The damage is the same type as the<br> power or weapon's damage.
 
 This die increases when you reach certain<br> levels in this class: to 1d8 at 10th level, to 1d10<br> at 14th level, and to 1d12 at 18th level.
 
 ### Boundless Vitality
-Beginning at 10th level, when you take damage, you<br> can use your reaction and expend a force point to regain health equal to 1d8 + your Wisdom or Charisma modifier (your choice, minimum of one) as long as the damage would not reduce your hit points to 0. 
+Beginning at 10th level, when you take damage, you can use your reaction and expend a force point to regain health equal to 1d8 + your Wisdom or Charisma modifier (your choice, minimum of one) as long as the damage would not reduce your hit points to 0. 
 
 This die increases when you reach certain levels in this class: to 1d10 at 14th level, and to 1d12 at 18th level.
 
@@ -327,7 +267,7 @@ For each creature that fails this saving throw, a friendly creature within 30 fe
 
 You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/HNr2yz4.png' style='position:absolute;bottom:-30px;right:-20px;width:660px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/HNr2yz4.png' style='position:absolute;bottom:0px;right:-20px;width:660px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
@@ -405,7 +345,7 @@ At 14th level, when you use your Force Deflection feature, you can cause a rippl
 ### Tutaminis Mastery
 At 18th level, when you use a Force-Empowered Casting option, you can spend a power surge to use it without spending additional force points. 
 
-<img src='https://www.gmbinder.com/images/pq3knax.png' style='position:absolute;bottom:-95px;right:-50px;width:1000px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/pq3knax.png' style='position:absolute;bottom:-95px;right:-60px;width:1050px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
@@ -422,7 +362,7 @@ At 6th level, you can use your force abilities to read a creature's thoughts. Yo
 
 As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw against your universal force save DC. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest. If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about.) when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and use the *coerce mind* force power on the creature without expending force points. The target automatically fails its saving throw against the power. 
 
-You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain any expended uses when you finish a long rest.
+You can use this feature a number of times equal to your Wisdom or Charisma modifier (your<br> choice, a minimum of once). You regain<br> any expended uses when you finish a<br> long rest.
 
 \columnbreak
 
@@ -436,14 +376,16 @@ Beginning at 10th level, you can call up visions of the past that relate to an o
 ***Area Reading.*** As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.
 
 ### Shielded Thoughts
-At 14th level, your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic &emsp;damage to you, that creature takes the same &emsp;&emsp;&emsp;&emsp;&emsp;amount of damage that you do. 
+At 14th level, your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the &emsp;&emsp;&nbsp;same amount of damage that you do. 
 
 ### Clarity of Vision
-Starting at 18th level, the visions in your dreams<br> &emsp;&emsp;&emsp;&emsp;intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Force Visions feature, rather than two. 
+Starting at 18th level, the visions in your dreams<br> &emsp;&emsp;&emsp;intensify and paint a more accurate picture in<br> &emsp;&emsp;&emsp;your mind of what is to come. You roll three d20s for your Force Visions feature, rather than two. 
 
-<img src='https://www.gmbinder.com/images/gqzswlS.png' style='position:absolute;bottom:-120px;left:20px;width:660px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/gqzswlS.png' style='position:absolute;bottom:-120px;left:17px;width:660px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -477,9 +419,11 @@ Starting at 18th level, you can manipulate creatures of Gargantuan size or small
 
 Additionally, whenever a force power you cast pushes or pulls a creature, you can increase the distance of that push or pull by an additional 20 feet.
 
-<img src='https://www.gmbinder.com/images/sFrtG1P.png' style='position:absolute;bottom:0px;left:-60px;width:880px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/sFrtG1P.png' style='position:absolute;bottom:0px;left:-50px;width:900px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -642,6 +586,8 @@ You fine tune your disruptorsaber. When you activate this conversion to alter th
 You install a retractible chain in the hilt of your modified lightsaber. Your modified lightsaber gains the thrown property with a range of 20/60, and when you throw the weapon, it immediately returns to your hand.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -1023,6 +969,8 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 \pagebreak
 
+\pagebreak
+
 ## Cybertech Engineering
 Those engineers who choose the Cybertech Engineering discipline focus on the ability to craft reusable consumables and items that augment and complement their techcasting abilities.
 
@@ -1056,7 +1004,7 @@ Starting at 18th level, when you cast a tech power, you can choose to deal maxim
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
-<img src='https://www.gmbinder.com/images/rMiCs3H.png' style='position:absolute;bottom:-53px;right:-10px;width:460px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/rMiCs3H.png' style='position:absolute;bottom:-36px;right:-10px;width:460px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
@@ -1201,6 +1149,8 @@ While the hook is deployed, you can use your bonus action to activate the reel, 
 Once you've used this feature, you can't use it again until you recover and reinsert the hook as an action.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -1434,6 +1384,8 @@ At 18th level, your ammunition enhancements improve.
 
 \pagebreak
 
+\pagebreak
+
 ## Mounted Specialist
 Those fighters who choose to become Mounted Specialists excel at mounted combat. Mounted Specialists are most dangerous from the seat of a speeder or saddle of a varactyl, though they can hold their own from the ground. Their versatility often has them leading the charge or protecting the team.
 
@@ -1559,11 +1511,11 @@ At 20th level, your might overwhelms even the most implacable of foes. Your Stre
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:-10px;right:-215px;width:655px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:21px;right:-205px;width:635px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-
+\pagebreak
 
 \pagebreak
 
@@ -1604,11 +1556,11 @@ At 20th level, the Force flows in perfect concert with your weapon attacks. Your
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/O0yLCKg.png' style='position:absolute;bottom:-63px;right:-90px;width:610px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/O0yLCKg.png' style='position:absolute;bottom:-27px;right:-90px;width:590px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-
+\pagebreak
 
 \pagebreak
 
@@ -1622,12 +1574,12 @@ You gain proficiency in heavy armor.
 When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Two-Weapon Fighting, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 ### The Way of the Vornskr
-As a bonus action, you can take a savage stance, designating one creature you can see within 10 feet of you as your prey for 1 minute. You have advantage on attack rolls against the creature. If the target drops to 0 hit points, you can use a bonus action on a subsequent turn to mark a new creature.
+Also at 3rd level, as a bonus action, you can take a savage stance, designating one creature you can see within 10 feet of you as your prey for 1 minute. You have advantage on attack rolls against the creature. If the target drops to 0 hit points, you can use a bonus action on a subsequent turn to mark a new creature.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
 ### Channel the Force
-Also at 3rd level, you gain the following Channel the Force option.
+Lastly at 3rd level, you gain the following Channel<br> the Force option.
 
 #### Snap Aggression
 If you are surprised at the start of combat and<br> aren't incapacitated, you can expend a use of<br> your Channel the Force to act<br> normally on your<br> first turn.
@@ -1650,9 +1602,11 @@ At 20th level, you are a paragon of extraordinary martial prowess. Your Strength
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
-<img src='https://www.gmbinder.com/images/XSgalq5.png' style='position:absolute;bottom:-6px;right:-10px;width:835px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/XSgalq5.png' style='position:absolute;bottom:25px;right:5px;width:815px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -1671,10 +1625,10 @@ Also at 3rd level, as a bonus action, you can enter an unyielding stance for one
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
 ### Channel the Force
-Lastly at 3rd level, you gain the following Channel the Force option.
+Lastly at 3rd level, you gain the following<br> Channel the Force option.
 
 #### High Ground Defense
-When an opponent within 5 feet of you<br> makes a melee attack against you, you<br> can use your reaction and expend a use<br> of your Channel the Force to move to<br> another space within 5 feet of that<br> opponent without provoking opp-<br>ortunity attacks, imposing disadv-<br>antage on the roll. If the attack<br> misses, you can attempt to<br> shove the creature up to 10<br> feet away from you as a<br> part of that same<br> reaction.
+When an opponent within 5 feet of you<br> makes a melee attack against you, you<br> can use your reaction and expend a<br> use of your Channel the Force to<br> move to another space within 5<br> feet of that opponent without<br> provoking opportunity attacks,<br> imposing disadvantage on the<br> roll. If the attack misses, you<br> can attempt to shove the<br> creature up to<br> 10 feet away<br> from you as a<br> part of that same reaction.
 
 \columnbreak
 
@@ -1694,11 +1648,13 @@ At 20th level, you are an unrelenting force on the field of battle. Your Strengt
 - You ignore effects that would reduce your speed.
 - Once per turn, when you push a creature, you can move up to 10 feet as a part of this push without provoking opportunity attacks. If you end this movement within 5 feet of that creature, you can make one melee weapon attack (no action required).
 
-This effect ends early if you are incapacitated or<br> die. Once you've used this feature, you<br> can't use it again until you complete a long<br> rest.
+This effect ends early if you are incap-<br>acitated or die. Once you've used this feature,<br> you can't use it again until you complete<br> a long rest.
 
-<img src='https://www.gmbinder.com/images/dF0zRmv.png' style='position:absolute;bottom:-14px;right:-115px;width:800px;z-index:1000;'/>
+<img src='https://www.gmbinder.com/images/dF0zRmv.png' style='position:absolute;bottom:15px;right:-115px;width:800px;z-index:1000;'/>
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -1738,11 +1694,11 @@ At 20th level, your skill with a lightweapon is both mesmerizing and confounding
 
 This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/qOrHbRd.png' style='position:absolute;bottom:-17px;right:-10px;width:477px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/qOrHbRd.png' style='position:absolute;bottom:14px;right:-10px;width:467px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-
+\pagebreak
 
 \pagebreak
 
@@ -1783,7 +1739,7 @@ At 20th level, you are a whirlwind of strikes, eviscerating all who step within 
 
 This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/AWxckDM.png' style='position:absolute;bottom:-10px;right:0px;width:440px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/AWxckDM.png' style='position:absolute;bottom:20px;right:0px;width:430px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
@@ -1914,6 +1870,8 @@ At 17th level, you've gained the knowledge to temporarily inhibit a creature's f
 
 \pagebreak
 
+\pagebreak
+
 ## Matukai Order
 Monks of the Matukai Order center their philosophy around  a balance and harmony between the spiritual Force and the physical body, using exercise as a form of meditation. They channel the Force through their bodies, turning themselves into exceptional warriors.
 
@@ -1933,9 +1891,11 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 ### Control the Field
 At 17th level, whenever you use your Instinctive Leap feature, you can leap your entire movement speed instead of only half. Additionally, when you<br> land, you can make an unarmed strike<br> with advantage against a creature<br> within 5 feet of you as part of the<br> same reaction. On a hit, this attack<br> deals an additional 2d6 force damage.
 
-<img src='https://www.gmbinder.com/images/y7y9lEX.png' style='position:absolute;bottom:-34px;right:-330px;width:1090px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/y7y9lEX.png' style='position:absolute;bottom:-3px;right:-300px;width:1050px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -1966,7 +1926,7 @@ Once you've used this feature, you must complete a short or long rest before you
 ### Guided Strikes
 At 17th level, your first ranged weapon attack and your first melee weapon attack each turn deal additional damage equal to your Wisdom or Charisma modifier (your choice, a minimum of +1).
 
-<img src='https://www.gmbinder.com/images/2yB0wp5.png' style='position:absolute;bottom:-14px;right:-75px;width:850px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/2yB0wp5.png' style='position:absolute;bottom:16px;right:-60px;width:830px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
@@ -2070,6 +2030,8 @@ Once you've used this<br> feature, you must com-<br>plete a short or long<br> re
 
 \pagebreak
 
+\pagebreak
+
 ## Disabling Practice
 Those operatives who choose the Disabling Practice utilize a variety of pushes, pulls, weight shifts, and joint locks to immobilize their opponent. They use these techniques to manipulate their opponent, moving them across the battlefield before incapacitating them.
 
@@ -2096,12 +2058,12 @@ ___
 
 
 #### Constrict
-You attempt to choke the target into<br> unconsciousness. The target must make a<br> Constitution saving throw or be restrained<br> until the end of your following turn.  
+You attempt to choke the target into unconscious-<br>ness. The target must make a Constitution<br> saving throw or be restrained until the end<br> of your following turn.  
 
-If you maintain this technique for 1<br> minute, the target falls unconscious for<br> 1 hour. Droids and Constructs can not<br> be knocked unconscious in this way.
+If you maintain this technique for 1 minute,<br> the target falls unconscious for 1 hour.<br> Droids and constructs can not be knocked<br> unconscious in this way.
 
 #### Disarm
-You attempt to disarm a weapon or<br> other object the target is holding. The<br> target must make a Strength saving throw. On a failed save, it releases the object. If you have a free hand, you can catch the object. Otherwise, it lands at your feet.
+You attempt to disarm a weapon or other object<br> the target is holding. The target must make a Strength saving throw. On a failed save, it releases the object. If you have a free hand, you can catch the object. Otherwise, it lands at your feet.
 
 \columnbreak
 
@@ -2117,15 +2079,13 @@ Beginning at 9th level you learn to manipulate the body of a grappled target to 
 Starting at 13th level, you can use your surroundings to further punish the target of your grapple. When you roll a 1 or 2 on a Sneak Attack damage die for an unarmed attack you make against a creature grappled by you, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
 
 ### Neck Snap
-At 17th level, you learn how to immediately remove your grappled opponent from the fight. As an action, you can force a creature grappled by you to make a Constitution saving throw. On a failed save, if the creature has 100 hit points or fewer, it dies. If the target has more than 100 hit points, it immediately takes<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10d10 kinetic damage. This damage can't be<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reduced in any way.
+At 17th level, you learn how to immediately remove your grappled opponent from the fight. As an action, you can force a creature grappled by you to make a Constitution saving throw. On a failed save, if the creature has 100 hit points or fewer, it dies. If the target has more than 100 hit points, it immediately takes &emsp;&emsp;&emsp;10d10 kinetic damage. This damage can't be &emsp;&emsp;&emsp;&emsp;&emsp;reduced in any way.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once you've used this feature, you must<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;complete a short or long rest before you can<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use it &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;again.
+Once&emsp;&emsp; you've used this feature, you must<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;complete a short or long rest before you can&emsp;&emsp;&emsp; use it&emsp;&emsp; again.
 
-<img src='https://www.gmbinder.com/images/1R5mZA5.png' style='position:absolute;bottom:-10px;right:45px;width:515px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/1R5mZA5.png' style='position:absolute;bottom:23px;right:45px;width:480px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
-
-
 
 \pagebreak
 
@@ -2153,11 +2113,9 @@ Starting at 13th level, you can use a bonus action on your turn to gain advantag
 ### Master Duelist
 At 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.
 
-<img src='https://www.gmbinder.com/images/XmV9oK4.png' style='position:absolute;bottom:-16px;left:80px;width:1050px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/XmV9oK4.png' style='position:absolute;bottom:13px;left:85px;width:1030px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
-
-
 
 \pagebreak
 
@@ -2211,9 +2169,11 @@ At 17th level, you have advantage on death saving throws.
 
 Additionally, when you are stabilized, you regain 1 hit point. Once you've used this feature, you can't use it again until you finish a short or long rest.
 
-<img src='https://www.gmbinder.com/images/RVsg9S7.png' style='position:absolute;bottom:-16px;right:-80px;width:600px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/RVsg9S7.png' style='position:absolute;bottom:22px;right:-70px;width:590px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -2244,7 +2204,7 @@ At the end of a short or long rest you may expend a superiority die and choose a
 <div style='margin-top:26px'></div>
 
 #### Debilitants
-As a bonus action when preparing or touching food, you may expend a superiority die and add to it a subtle, but dangerous poison. Any creature that consumes this food must make a Constitution saving throw. On a failed save, their hit point maximum is reduced by an amount equal to twice the number rolled on your superiority die + your Intelligence modifier. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
+As a bonus action when preparing or touching food, you may expend a superiority die and add to it a subtle poison. Any creature that consumes this food must make a Constitution saving throw. On a failed save, their hit point maximum is reduced by an amount equal to twice the number rolled on your superiority die + your Intelligence modifier. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
 
 #### Energizers
 At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature has their walking speed increased by 10 until the end of their next short or long rest. This maneuver has no effect on droids or constructs.
@@ -2286,7 +2246,7 @@ Over the course of a long rest, you can expend rare culinary supplies worth 1,00
 - It makes Wisdom saving throws to avoid being frightened with advantage.
 - Its hit point maximum and current hit points increase by 2d10.
 
-These benefits last until the end<br> of the creature's<br> next long rest or<br> 24 hours have<br> passed. This feat-<br>ure has no effect on<br> droids or constructs.
+These benefits last until the end of<br> the creature's next&emsp;&emsp;&emsp; long rest or<br> 24 hours have&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; passed.<br> This feature has no<br> effect on droids or<br> constructs.
 
 \columnbreak
 
@@ -2323,7 +2283,7 @@ If you or any friendly creature that has consumed food made by you during their 
 _Prerequisite: Chef Pursuit_<br>
 Any food you prepare over a short or long rest carries with it an additional warming effect. Creatures that consume it are considered adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide, until the end of the creature's next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes cold damage before the end of their next short or long rest, they are considered resistant to the damage.
 
-<img src='https://www.gmbinder.com/images/2qofkgK.png' style='position:absolute;bottom:0px;left:150px;width:290px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/2qofkgK.png' style='position:absolute;bottom:0px;left:173px;width:285px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -2352,7 +2312,7 @@ You can use a bonus action to expend a superiority die. When you do so, a number
 #### No Escape
 Whenever you or a creature you can see makes an opportunity attack, you can expend a superiority die. If the attack hits, roll the superiority die and add the result to the damage roll. Additionally, the affected creature's movement speed becomes 0 until the start of its next turn.
 
-<img src='https://www.gmbinder.com/images/mBimHwq.png' style='position:absolute;bottom:-14px;right:-25px;width:675px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/mBimHwq.png' style='position:absolute;bottom:15px;right:-15px;width:655px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -2461,8 +2421,6 @@ When a creature hits you with an opportunity attack while within 5 feet of you, 
 
 \pagebreak
 
-<div style='margin-top:23px'></div>
-
 #### Pure Sabacc 
 When you score a critical hit with a weapon attack, you can expend a superiority die and roll it. On a roll of 4 or higher, you deal maximum damage on the weapon's damage roll, including the superiority die. On a roll of 3 or lower, you instead deal the minimum.
 
@@ -2523,7 +2481,7 @@ Whenever you roll a 4 or higher on your Risk Versus Reward feature, the target o
 _Prerequisite: Gambler Pursuit, 7th level_<br>
 Whenever you roll a 7 on an ability check or saving throw, you can reroll the ability check or saving throw with advantage.
 
-<img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-45px;right:85px;width:280px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-30px;right:85px;width:280px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -2640,7 +2598,7 @@ Once you've used this feature, you must complete a long rest before you can use 
 ### System Override
 Once you've reached 17th level, you know how to quickly activate anti-tech subroutines you have encoded into your wristpad. You can cast the *diminish tech* and *tech override* powers at 3rd level without expending tech points. If the target is the target of your Critical Analysis, you have advantage on the techcasting ability check for these powers.
 
-You can use this feature a number equal to half your Intelligence modifier (rounded down, a minimum of once). You regain all expended uses when you finish a long rest.
+You can use this feature a number of time equal to half your Intelligence modifier (rounded down, a minimum of once). You regain all expended uses when you finish a long rest.
 
 \columnbreak
 
@@ -2699,7 +2657,7 @@ Your beast gains a variety of benefits while it is bonded to you:
 - The beast obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your beast acts on its own.
 - Your beast's level equals your scholar level, and for each scholar level you gain after 3rd, your beast companion gains an additional hit die and increases its hit points accordingly.
 - Your beast has the proficiency bonus of a player character of the same level.
-- Whenever you gain the Ability Score Improvement class feature, your beast's abilities also improve. Your beast can increase one ability score of your choice by 2, or<br> it can increase two ability scores of your choice<br> by 1. As normal, your beast can't increase an<br> ability score above 20 using this feature<br> unless its description specifies otherwise.
+- Whenever you gain the Ability Score Improvement<br> class feature, your beast's abilities also improve.<br> Your beast can increase one ability score of<br> your choice by 2, or it can increase two<br> ability scores of your choice by 1. As<br> normal, your beast can't increase an<br> ability score above 20 using this feature<br> unless its description specifies<br> otherwise.
 
 \columnbreak
 
@@ -2719,7 +2677,7 @@ While your companion is moving, you can expend a superiority die and add 5 times
 #### Pin Down
 When your beast attempts to grapple or knock a creature prone, you can expend a superiority die to give it direction as long as it can see or hear you. Roll a superiority die and add it to<br> your beast's Strength<br> (Athletics) check.
 
-<img src='https://www.gmbinder.com/images/QHH9azh.png' style='position:absolute;bottom:0px;right:0px;width:530px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/QHH9azh.png' style='position:absolute;bottom:29px;right:30px;width:510px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -2908,13 +2866,13 @@ Your beast companion has advantage on Wisdom (Perception) checks that rely on sm
 #### Natural Camouflage
 When your beast companion attempts to hide, it can opt to not move on its turn. If it avoids moving, it is considered lightly obscured until it moves.
 
-#### Light Hide (bad name)
+#### Light Hide
 Your beast companion's armor class becomes 11 + it's Dexterity modifier.
 
-#### Medium Hide (bad name)
+#### Medium Hide
 Your beast companion's armor class becomes 13 + it's Dexterity modifier, to a maximum of +2.
 
-#### Heavy Hide (bad name)
+#### Heavy Hide
 Your beast companion's armor class becomes 14. 
 
 #### Powerful Build
@@ -2984,17 +2942,53 @@ You create an unstable energy maelstrom in a 5-foot cube at a point you can see 
 This feature’s damage increases by 1d4 when you reach 11th level (5d4) and 17th level (6d4).
 
 #### Projected Wave
-You create a wave of barrier energy in a 15-foot cone. Each creature within the cone must make a Dexterity saving throw. On a failed save, a creature takes 2d6 energy damage and is pushed back to the edge of the cone. On a success, they take half damage and aren't pushed.
+You create a wave of barrier energy in a 15-foot cone. Each creature within the cone must make a Dexterity saving throw. On a failed save, a creature takes 2d6 energy damage and is pushed back to the edge of the cone. On a success, they take half damage and<br> aren't pushed.
 
-This feature’s damage increases by 1d6 when<br> you reach 11th level (3d6) and 17th level<br> (4d6).
+This feature’s damage increases by 1d6<br> when you reach 11th level (3d6) and 17th<br> level (4d6).
 
 ### Regenerative Shielding
-Starting at 11th level, when a hostile<br> creature forces you to make a saving<br> throw and you succeed, your personal<br> barrier regains hit points equal to<br> your Intelligence modifier.
+Starting at 11th level, when a hostile<br> creature forces you to make a saving<br> throw and you succeed, your personal<br> barrier regains hit points equal<br> to your Intelligence modifier.
 
 ### Adaptive Barrier
-At 15th level, when your personal<br> barrier takes damage, you can have<br> it gain resistance to subsequent dam-<br>age of that type until the start of your<br> next turn (no action required). If it<br> takes damage of more than one<br> type simultaneously, you can<br> choose which type it gains<br> resistance to. Your barrier<br> can only have resistance to<br> one type of damage at a<br> time.
+At 15th level, when your personal<br> barrier takes damage, you can have it<br> gain resistance to subsequent damage<br> of that type until the start of your<br> next turn (no action required).<br> If it takes damage of more<br> than one type simultaneously,<br> you can choose which type it<br> gains resistance to. Your<br> barrier can only have<br> resistance to one type of<br> damage at a time.
 
-<img src='https://www.gmbinder.com/images/MKEbu4z.png' style='position:absolute;bottom:-11px;right:0px;width:270px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/MKEbu4z.png' style='position:absolute;bottom:19px;right:0px;width:270px;z-index:950;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+## Illusionist Technique
+Among the galaxy you may find the various infiltrators and agents who make ample use of holographic technology to get themselves in and out of danger. Followers of the Illusionist Technique make use of this holographic technology to give themselves an illusory edge in combat.
+
+### Holographic Decoy
+When you choose this technique at 3rd level, as an action, you can create a perfect illusion of yourself that lasts for 10 minutes, or until you lose your concentration (as if you were concentrating on a power). The decoy appears in an unoccupied space that you can see within 30 feet of you. The decoy is purely visual. If anything passes through it, it is revealed to be an illusion. For the duration, you can cast tech powers as though you were in the decoy's space. Both your decoy and the target of your tech power must be within your line of sight.
+
+You can use your bonus action to cause the decoy to move up to 30 feet. As your decoy changes location, you can alter its appearance so that its movements appear natural for the decoy. If your decoy is ever more than 120 feet away from you, it immediately disappears.
+
+Additionally, when both you and your decoy are within 5 feet of a creature that can see the decoy, but is not aware it is an illusion, you have advantage on attack rolls against that creature.
+
+A creature that uses its action to examine your decoy can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what<br> it is, the creature can see through the image.
+
+Once you've used this feature, you must<br> complete a short or long rest before you<br> &emsp;can use it again. 
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+### Mark of the Illusionist
+Also at 3rd level, the target of your Ranger's Quarry feature has disadvantage on all checks made to discern the nature of your illusions. Additionally, when the target of your Ranger's Quarry is reduced to 0 hit points, you can use your reaction to immediately cause an active illusion, or your Holographic Decoy, to take the form of the creature as long as the creature's dimensions fall within the power's capacity restrictions.
+
+### Charged Illusions
+Beginning at 7th level, when a creature discerns the nature of an illusion you have created using a tech power or class feature while within 5 feet of it, you can dispel the illusion (no action required) to have the creature take energy damage equal to 1d10 + half your scout level (rounded down). 
+
+### Quick Escape
+Starting at 11th level, whenever you take damage, you can use your reaction to swap places with an illusion of yourself that you have created using a tech power or class feature. The illusion must be within 60 feet of you, and you must be able to see it.
+
+### Improved Decoys
+At 15th level, you can create up to four duplicates of yourself, instead of one, when you use your Holographic Decoy feature. When you use your bonus action to move a decoy, you can move any number of them with the same bonus action.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/533034035631489065/HolographicDisguiseMatrix-SWENoB.png'   style='position:absolute; bottom:0px; right:20px; width:840px; z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
@@ -3034,9 +3028,11 @@ At 15th level, you can cast the *force suppression* and *sever force* force powe
 
 You can use this feature a number of times equal to 1 + your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/yz66qwn.png' style='position:absolute;bottom:-25px;right:-100px;width:630px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/yz66qwn.png' style='position:absolute;bottom:4px;right:-95px;width:620px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -3072,7 +3068,7 @@ Starting at 11th level, when you hit a creature with a weapon attack, and the cr
 ### On the Hunt
 At 15th level, when you use your Predator's Resolve feature, a number of friendly creatures you choose up to your Intelligence modifier that you can see within 30 feet of you also gain the benefits of the feature.
 
-<img src='https://www.gmbinder.com/images/TidlOHN.png' style='position:absolute;bottom:0px;left:-10px;width:650px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/TidlOHN.png' style='position:absolute;bottom:0px;left:-5px;width:650px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
@@ -3099,7 +3095,7 @@ Starting at 11th level, when you score a critical hit or reduce a creature to 0 
 ### Slayer's Counter
 At 15th level, if the target of your Ranger's<br> Quarry feature forces you to make a<br> saving throw, you can use your reaction<br> to make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, you automatically succeed on the saving throw, in addition to the attack's normal effects.
 
-<img src='https://www.gmbinder.com/images/XQCbhQJ.png' style='position:absolute;bottom:-10px;right:-200px;width:950px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/XQCbhQJ.png' style='position:absolute;bottom:20px;right:-197px;width:935px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
@@ -3179,9 +3175,11 @@ By 13th level, once per turn, when you deal damage with a Force-Empowered Detona
 ### Disorienting Detonations
 At 18th level, when a creature fails the saving throw against your Force-Empowered Detonators feature, you can spend 2 force points to subject it to the effects of one of the following force powers: *affliction, force blind/deafen, stun,* or *stun droid*. They automatically fail the saving throw for the selected power, but the effects only last until the end of your next turn.
 
-<img src='https://www.gmbinder.com/images/GSI1y6J.png' style='position:absolute;bottom:0px;right:0px;width:430px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/GSI1y6J.png' style='position:absolute;bottom:30px;right:25px;width:415px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -3216,9 +3214,11 @@ At 18th level, you've mastered controlling your forceblade with your mind, using
 
 Additionally, when you do so, you can use your Kinetic Combat feature.
 
-<img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:-20px;right:-45px;width:740px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:10px;right:-45px;width:720px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -3267,9 +3267,11 @@ When you reduce a hostile creature to 0 hit points with a tech power, you can re
 ### Reflective Shield
 At 18th level, when you use your Force-Empowered Tech features, a barrier for energy shimmers into existence, surrounding you until the end of your next turn. When you take damage, you can mitigate the incoming energy and potentially reflect it back at your attacker. You use your reaction to have resistance against the triggering damage, and if the<br> source of the damage is within 5<br> feet of you, they take half of<br> the total damage dealt<br> as ion.
 
-<img src='https://www.gmbinder.com/images/jSndBjr.png' style='position:absolute;bottom:-5px;right:40px;width:310px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/jSndBjr.png' style='position:absolute;bottom:24px;right:70px;width:295px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -3284,7 +3286,7 @@ Starting when you choose this tradition at 3rd level, you can use your reaction 
 
 <div style='margin-top:35px'></div>
 
-&emsp;If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon deflect it, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the weapon counts as a sentinel weapon for the attack. If *saber ward* is active, you have advantage on the attack roll.
+If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon deflect it, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the weapon counts as a sentinel weapon for the attack. If *saber ward* is active, you have advantage on the attack roll.
 
 ### Kinetic Bulwark
 At 7th level, you can extend your Kinetic Ward to a creature within 5 feet of you when they are hit by a melee weapon attack. If this damage is not reduced to 0, the warded creature takes any remaining damage. 
@@ -3303,7 +3305,7 @@ At 18th level, you can protect allies even further from you. When a creature wit
 
 You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/uUGZB8C.png' style='position:absolute;bottom:-3px;right:0px;width:840px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/uUGZB8C.png' style='position:absolute;bottom:27px;right:0px;width:813px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
