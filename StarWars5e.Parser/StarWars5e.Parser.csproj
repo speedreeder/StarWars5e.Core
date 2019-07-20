@@ -12,6 +12,7 @@
     <None Remove="Sources\ec_archetypes.txt" />
     <None Remove="Sources\EC_Backgrounds.md" />
     <None Remove="Sources\ec_backgrounds.txt" />
+    <None Remove="Sources\ec_customization_options.txt" />
     <None Remove="Sources\EC_Equipment.md" />
     <None Remove="Sources\ec_equipment.txt" />
     <None Remove="Sources\EC_Species.md" />
@@ -55,6 +56,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Sources\ec_archetypes.txt" />
     <EmbeddedResource Include="Sources\ec_backgrounds.txt" />
+    <EmbeddedResource Include="Sources\ec_customization_options.txt" />
     <EmbeddedResource Include="Sources\ec_equipment.txt" />
     <EmbeddedResource Include="Sources\ec_species.txt" />
     <EmbeddedResource Include="Sources\mm.txt" />

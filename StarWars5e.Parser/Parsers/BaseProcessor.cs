@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Parser.Parsers
 {

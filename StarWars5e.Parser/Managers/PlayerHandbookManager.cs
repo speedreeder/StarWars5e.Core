@@ -139,7 +139,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB equipment.");
             }
@@ -160,7 +160,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Background>("backgrounds", backgrounds,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB backgrounds.");
             }
@@ -181,7 +181,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Species>("species", species,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB species.");
             }
@@ -215,12 +215,12 @@ namespace StarWars5e.Parser.Managers
                     await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 }
-                catch (StorageException e)
+                catch (StorageException)
                 {
                     Console.WriteLine("Failed to upload PHB archetypes.");
                 }
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB classes.");
             }
@@ -255,7 +255,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Power>("powers", powers,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB powers.");
             }
@@ -275,7 +275,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Feat>("feats", feats,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB feats.");
             }
@@ -294,7 +294,7 @@ namespace StarWars5e.Parser.Managers
                     await blob.UploadTextAsync(json);
                 }
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB rules.");
             }
@@ -314,7 +314,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB weapon properties.");
             }

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Parser.Managers;
+using StarWars5e.Parser.Parsers.PHB;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser
@@ -30,16 +31,24 @@ namespace StarWars5e.Parser
                 .AddSingleton(globalSearchTermRepository)
                 .BuildServiceProvider();
 
-            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(),
+                serviceProvider.GetService<CloudStorageAccount>(),
+                serviceProvider.GetService<GlobalSearchTermRepository>());
             var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>());
+            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
             var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(serviceProvider.GetService<ITableStorage>());
             var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
-            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<CloudStorageAccount>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentCustomizationOptionsManager = new ExpandedContentCustomizationOptionsManager(
+                serviceProvider.GetService<ITableStorage>(),
+                serviceProvider.GetService<GlobalSearchTermRepository>());
+            var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(),
+                serviceProvider.GetService<CloudStorageAccount>(),
+                serviceProvider.GetService<GlobalSearchTermRepository>());
             var referenceTableManager = new ReferenceTableManager(serviceProvider.GetService<ITableStorage>());
             var searchManager = new SearchManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+
 
             var referenceTables = await referenceTableManager.Parse();
             await starshipManager.Parse(referenceTables);
@@ -49,13 +58,14 @@ namespace StarWars5e.Parser
             await extendedContentEquipmentManager.Parse();
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
+            await extendedContentCustomizationOptionsManager.Parse();
             await playerHandbookManager.Parse();
 
             try
             {
                 await searchManager.Upload();
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 var searchTerms = serviceProvider.GetService<GlobalSearchTermRepository>().SearchTerms;
                 var dupes = searchTerms

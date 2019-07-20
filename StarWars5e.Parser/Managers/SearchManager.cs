@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -22,7 +24,14 @@ namespace StarWars5e.Parser.Managers
             //    .Where(g => g.Count() > 1)
             //    .Select(g => g.Key);
 
-            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms", _globalSearchTermRepository.SearchTerms,
+            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
+                _globalSearchTermRepository.SearchTerms.Where(s =>
+                    s.PartitionKey == ContentType.ExpandedContent.ToString()),
+                new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
+
+            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
+                _globalSearchTermRepository.SearchTerms.Where(s =>
+                    s.PartitionKey == ContentType.Core.ToString()),
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
         }
     }
