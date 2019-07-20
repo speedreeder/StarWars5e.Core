@@ -39,7 +39,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Monster>("monsters", monsters,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload monsters.");
             }

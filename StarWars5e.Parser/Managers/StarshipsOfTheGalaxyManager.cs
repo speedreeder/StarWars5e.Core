@@ -76,7 +76,7 @@ namespace StarWars5e.Parser.Managers
                     await blob.UploadTextAsync(json);
                 }
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload SOTG rules.");
             }
@@ -118,7 +118,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipDeployment>("starshipDeployments", deployments,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload SOTG deployments.");
             }
@@ -168,7 +168,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipEquipment>("starshipEquipment", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload SOTG equipment.");
             }
@@ -202,7 +202,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipModification>("starshipModifications", modifications,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload SOTG modifications.");
             }
@@ -221,7 +221,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipBaseSize>("starshipBaseSizes", sizes,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload SOTG sizes.");
             }
@@ -239,7 +239,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipVenture>("starshipVentures", ventures,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException e)
+            catch (StorageException)
             {
                 Console.WriteLine("Failed to upload SOTG ventures.");
             }
