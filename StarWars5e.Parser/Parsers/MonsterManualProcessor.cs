@@ -69,6 +69,7 @@ namespace StarWars5e.Parser.Parsers
                 monster.HitPointRoll = monsterLines.Find(f => f.Contains("**Hit Points**")).Split('(', ')')[1];
                 monster.Speed = int.Parse(Regex
                     .Match(monsterLines.Find(f => f.Contains("**Speed**")), @"\d+").Value);
+                monster.Speeds = monsterLines.Find(f => f.Contains("**Speed**")).Split("**")[2].Trim();
 
                 var attributeLine =
                     monsterLines[monsterLines.FindIndex(f => f.Contains("|STR|DEX|CON|INT|WIS|CHA|")) + 2];

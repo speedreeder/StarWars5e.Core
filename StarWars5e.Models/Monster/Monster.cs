@@ -32,6 +32,7 @@ namespace StarWars5e.Models.Monster
         public int HitPoints { get; set; }
         public string HitPointRoll { get; set; }
         public int Speed { get; set; }
+        public string Speeds { get; set; }
         public int Strength { get; set; }
         public int StrengthModifier { get; set; }
         public int Dexterity { get; set; }
