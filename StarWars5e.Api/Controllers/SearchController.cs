@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Search;
@@ -7,6 +8,7 @@ using StarWars5e.Models.Search;
 namespace StarWars5e.Api.Controllers
 {
     [Route("api/search")]
+    [AllowAnonymous]
     [ApiController]
     public class SearchController : ControllerBase
     {

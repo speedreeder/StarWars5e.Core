@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StarWars5e.Models;
 using Wolnik.Azure.TableStorage.Repository;
@@ -18,6 +19,7 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<WeaponProperty>>> Get()
         {
             var weaponProperties = await _tableStorage.GetAllAsync<WeaponProperty>("weaponProperties");

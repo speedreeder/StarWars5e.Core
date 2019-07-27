@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -23,6 +24,7 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Power>>> Get()
         {
             var powers = await _tableStorage.GetAllAsync<Power>("powers");
@@ -30,6 +32,7 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet("search")]
+        [AllowAnonymous]
         public async Task<ActionResult<Power>> Get([FromQuery] PowerSearch powerSearch)
         {
             var powers = await _powerManager.SearchPowers(powerSearch);

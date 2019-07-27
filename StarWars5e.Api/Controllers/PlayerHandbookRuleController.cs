@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models;
@@ -7,6 +8,7 @@ using StarWars5e.Models;
 namespace StarWars5e.Api.Controllers
 {
     [Route("api/playerHandbookRule")]
+    [AllowAnonymous]
     [ApiController]
     public class PlayerHandbookRuleController : ControllerBase
     {

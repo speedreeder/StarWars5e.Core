@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
@@ -23,6 +24,7 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Species>>> Get()
         {
             var species = await _tableStorage.GetAllAsync<Species>("species");
@@ -30,6 +32,7 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet("search")]
+        [AllowAnonymous]
         public async Task<ActionResult<Species>> Get([FromQuery] SpeciesSearch speciesSearch)
         {
             var species = await _speciesManager.SearchSpecies(speciesSearch);
