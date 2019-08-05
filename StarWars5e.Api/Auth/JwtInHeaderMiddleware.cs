@@ -14,14 +14,18 @@ namespace StarWars5e.Api.Auth
 
         public async Task Invoke(HttpContext context)
         {
-            const string name = "sw5e_token";
+            const string name = "sw5e_accessToken";
             var cookie = context.Request.Cookies[name];
 
             if (cookie != null)
             {
                 if (!context.Request.Headers.ContainsKey("Authorization"))
                 {
-                    context.Request.Headers.Append("Authorization", "Bearer " + cookie);
+                    context.Request.Headers.Append("Authorization", $"Bearer {cookie}");
+                }
+                else
+                {
+                    context.Request.Headers["Authorization"] = $"Bearer {cookie}";
                 }
             }
 

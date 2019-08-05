@@ -67,18 +67,19 @@ namespace StarWars5e.Api
 
             services.Configure<JwtIssuerOptions>(options =>
             {
-                options.Issuer = "testIssuer";
-                options.Audience = "testAudience";
+                options.Issuer = "sw5e-issuer";
+                options.Audience = "sw5e-audience";
+                options.ValidFor = TimeSpan.FromMinutes(int.Parse(Configuration["JwtIssuerOptions:ValidForMinutes"]));
                 options.SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
             });
 
             var tokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuer = true,
-                ValidIssuer = "testIssuer",
+                ValidIssuer = "sw5e-issuer",
 
                 ValidateAudience = true,
-                ValidAudience = "testAudience",
+                ValidAudience = "sw5e-audience",
 
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = signingKey,
@@ -95,7 +96,7 @@ namespace StarWars5e.Api
 
             }).AddJwtBearer(configureOptions =>
             {
-                configureOptions.ClaimsIssuer = "testIssuer";
+                configureOptions.ClaimsIssuer = "sw5e-claims-issuer";
                 configureOptions.TokenValidationParameters = tokenValidationParameters;
                 configureOptions.SaveToken = true;
                 configureOptions.Events = new JwtBearerEvents
@@ -106,10 +107,12 @@ namespace StarWars5e.Api
                         {
                             context.Response.Headers.Add("Token-Expired", "true");
                         }
+
                         return Task.CompletedTask;
                     }
                 };
             });
+
 
             services.AddAuthorization(options =>
             {
@@ -149,21 +152,24 @@ namespace StarWars5e.Api
                     {
                         builder.AllowAnyHeader()
                             .AllowAnyMethod()
-                            .AllowCredentials();
+                            .AllowCredentials()
+                            .WithExposedHeaders("Token-Expired");
                     });
                 options.AddPolicy("development", builder =>
                 {
-                    builder.WithOrigins("http://localhost:8080")
+                    builder.WithOrigins("http://localhost:8080", "https://localhost:8080")
                         .AllowAnyMethod()
                         .AllowCredentials()
-                        .AllowAnyHeader();
+                        .AllowAnyHeader()
+                        .WithExposedHeaders("Token-Expired");
                 });
                 options.AddPolicy("production", builder =>
                 {
                     builder.WithOrigins("https://sw5e.com", "https://www.sw5e.com")
                         .AllowAnyMethod()
                         .AllowCredentials()
-                        .AllowAnyHeader();
+                        .AllowAnyHeader()
+                        .WithExposedHeaders("Token-Expired");
                 });
             });
 
@@ -186,13 +192,6 @@ namespace StarWars5e.Api
             services.AddSingleton(cloudBlobClient);
             services.AddSingleton(cloudTableClient);
             services.AddSingleton(searchIndexClient);
-
-            //services.AddAuthentication()
-            //    .AddGoogle(googleOptions =>
-            //    {
-            //        googleOptions.ClientId = Configuration["GoogleOAuthClientId"];
-            //        googleOptions.ClientSecret = Configuration["GoogleOAuthSecret"];
-            //    });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -218,27 +217,26 @@ namespace StarWars5e.Api
                 app.UseHttpsRedirection();
             }
 
-            app.UseExceptionHandler(
-                builder =>
-                {
-                    builder.Run(
-                        async context =>
-                        {
-                            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                            context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //app.UseExceptionHandler(
+            //    builder =>
+            //    {
+            //        builder.Run(
+            //            async context =>
+            //            {
+            //                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+            //                context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
 
-                            var error = context.Features.Get<IExceptionHandlerFeature>();
-                            if (error != null)
-                            {
-                                context.Response.AddApplicationError(error.Error.Message);
-                                await context.Response.WriteAsync(error.Error.Message).ConfigureAwait(false);
-                            }
-                        });
-                });
+            //                var error = context.Features.Get<IExceptionHandlerFeature>();
+            //                if (error != null)
+            //                {
+            //                    context.Response.AddApplicationError(error.Error.Message);
+            //                    await context.Response.WriteAsync(error.Error.Message).ConfigureAwait(false);
+            //                }
+            //            });
+            //    });
 
-            
-            app.UseAuthentication();
             app.UseMiddleware<JwtInHeaderMiddleware>();
+            app.UseAuthentication();
             app.UseMvc();
         }
     }

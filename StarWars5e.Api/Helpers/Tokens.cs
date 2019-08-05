@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
@@ -21,7 +20,6 @@ namespace StarWars5e.Api.Helpers
         {
             var response = new JwtResponse
             {
-                //id = identity.Claims.Single(c => c.Type == "id").Value,
                 AuthToken = await jwtFactory.GenerateEncodedToken(userName, identity),
                 ExpiresIn = (int)jwtOptions.ValidFor.TotalSeconds
             };

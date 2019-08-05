@@ -3,9 +3,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using StarWars5e.Api.Auth;
@@ -23,38 +25,49 @@ namespace StarWars5e.Api.Controllers
         private readonly JwtIssuerOptions _jwtIssuerOptions;
 
         public AuthController(IConfiguration configuration, UserManager<AppUser> userManager, JwtFactory jwtFactory,
-            JwtIssuerOptions jwtIssuerOptions)
+            IOptions<JwtIssuerOptions> jwtIssuerOptions)
         {
             _configuration = configuration;
             _userManager = userManager;
             _jwtFactory = jwtFactory;
-            _jwtIssuerOptions = jwtIssuerOptions;
+            _jwtIssuerOptions = jwtIssuerOptions.Value;
         }
 
-        [HttpPost]
-        public async Task<ActionResult<object>> Refresh(string token, string refreshToken)
+        [HttpGet("refresh")]
+        public async Task<ActionResult<object>> Refresh()
         {
-            var principal = GetPrincipalFromExpiredToken(token);
-            var username = principal.Identity.Name;
-            var localUser = await _userManager.FindByNameAsync(username);
-            var savedRefreshToken = localUser.RefreshToken; //retrieve the refresh token from a data store
-            if (savedRefreshToken != refreshToken)
-                throw new SecurityTokenException("Invalid refresh token.");
+            var token = Request.Cookies["sw5e_accessToken"];
+            var refreshToken = Request.Cookies["sw5e_refreshToken"];
 
-            var newJwtToken = await Tokens.GenerateJwtAsync(_jwtFactory.GenerateClaimsIdentity(localUser.UserName),
+            var principal = GetPrincipalFromExpiredToken(token);
+            var userId = principal.FindFirst(c => c.Type == Constants.Strings.JwtClaimIdentifiers.Id);
+            var localUser = await _userManager.FindByIdAsync(userId.Value);
+            var savedRefreshToken = localUser.RefreshToken;
+            if (savedRefreshToken != refreshToken)
+            {
+                throw new SecurityTokenException("Invalid refresh token.");
+            }
+
+            var newJwtToken = await Tokens.GenerateJwtAsync(_jwtFactory.GenerateClaimsIdentity(localUser.UserName, localUser.Id),
                 _jwtFactory, localUser.UserName, _jwtIssuerOptions,
                 new JsonSerializerSettings {Formatting = Formatting.Indented});
 
             var newRefreshToken = Tokens.GenerateRefreshToken();
             localUser.RefreshToken = newRefreshToken;
             await _userManager.UpdateAsync(localUser);
-            //DeleteRefreshToken(username, refreshToken);
-            //SaveRefreshToken(username, newRefreshToken);
 
-            return Ok(new
+            var cookieOptions = new CookieOptions
             {
-                token = newJwtToken,
-                refreshToken = newRefreshToken
+                HttpOnly = true,
+                SameSite = SameSiteMode.None
+            };
+            Response.Cookies.Append("sw5e_accessToken", newJwtToken.AuthToken, cookieOptions);
+            Response.Cookies.Append("sw5e_refreshToken", newRefreshToken, cookieOptions);
+
+            return Ok(new AuthReplyWithRefreshToken
+            {
+                UserName = localUser.UserName,
+                AccessTokenExpiration = newJwtToken.ExpiresIn
             });
         }
 
@@ -62,18 +75,21 @@ namespace StarWars5e.Api.Controllers
         {
             var tokenValidationParameters = new TokenValidationParameters
             {
-                ValidateAudience = false, //you might want to validate the audience and issuer depending on your use case
+                ValidateAudience = false,
                 ValidateIssuer = false,
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["TokenSigningKey"])),
-                ValidateLifetime = false //here we are saying that we don't care about the token's expiration date
+                ValidateLifetime = false
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out var securityToken);
-            var jwtSecurityToken = securityToken as JwtSecurityToken;
-            if (jwtSecurityToken == null || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
-                throw new SecurityTokenException("Invalid token.");
+            if (!(securityToken is JwtSecurityToken jwtSecurityToken) ||
+                !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256,
+                    StringComparison.InvariantCultureIgnoreCase))
+            {
+                throw new SecurityTokenException("Invalid refresh token.");
+            }
 
             return principal;
         }
