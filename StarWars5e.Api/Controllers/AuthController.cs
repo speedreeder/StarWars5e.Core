@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -34,7 +35,7 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet("refresh")]
-        public async Task<ActionResult<object>> Refresh()
+        public async Task<ActionResult<object>> RefreshAsync()
         {
             var token = Request.Cookies["sw5e_accessToken"];
             var refreshToken = Request.Cookies["sw5e_refreshToken"];
@@ -69,6 +70,21 @@ namespace StarWars5e.Api.Controllers
                 UserName = localUser.UserName,
                 AccessTokenExpiration = newJwtToken.ExpiresIn
             });
+        }
+
+        [HttpGet("logout")]
+        public async Task<ActionResult> LogoutAsync()
+        {
+            var token = Request.Cookies["sw5e_accessToken"];
+
+            var principal = GetPrincipalFromExpiredToken(token);
+            var userId = principal.FindFirst(c => c.Type == Constants.Strings.JwtClaimIdentifiers.Id);
+            var localUser = await _userManager.FindByIdAsync(userId.Value);
+
+            localUser.RefreshToken = null;
+            await _userManager.UpdateAsync(localUser);
+
+            return Ok();
         }
 
         private ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
