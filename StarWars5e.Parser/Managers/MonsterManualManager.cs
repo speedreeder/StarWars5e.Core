@@ -32,7 +32,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var monster in monsters)
                 {
                     var monsterSearchTerm = _globalSearchTermRepository.CreateSearchTerm(monster.Name,
-                        GlobalSearchTermType.Monster, ContentType.Core, $"/monsters/monsters/{monster.Name}");
+                        GlobalSearchTermType.Monster, ContentType.Core, $"/rules/monsters/monsters/{monster.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(monsterSearchTerm);
                 }
 

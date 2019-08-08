@@ -110,13 +110,13 @@ namespace StarWars5e.Parser.Managers
                         case EquipmentCategory.Kit:
                             var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
                                 GlobalSearchTermType.AdventuringGear, ContentType.Core,
-                                $"/reference/adventuringGear/?search={equipment1.Name}");
+                                $"/loot/adventuringGear/?search={equipment1.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
                             break;
                         case EquipmentCategory.Weapon:
                             var weaponSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
                                 GlobalSearchTermType.Weapon, ContentType.Core,
-                                $"/reference/weapons/?search={equipment1.Name}");
+                                $"/loot/weapons/?search={equipment1.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(weaponSearchTerm);
                             break;
                         case EquipmentCategory.Armor:
@@ -128,7 +128,7 @@ namespace StarWars5e.Parser.Managers
 
                             var armorSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
                                 searchTermType, ContentType.Core,
-                                $"/reference/armor/?search={equipment1.Name}");
+                                $"/loot/armor/?search={equipment1.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(armorSearchTerm);
                             break;
                         default:
@@ -153,7 +153,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var background in backgrounds)
                 {
                     var backgroundSearchTerm = _globalSearchTermRepository.CreateSearchTerm(background.Name, GlobalSearchTermType.Background, ContentType.Core,
-                        $"/reference/backgrounds/{background.Name}");
+                        $"/characters/backgrounds/{background.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
                 }
 
@@ -174,7 +174,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var specie in species)
                 {
                     var specieSearchTerm = _globalSearchTermRepository.CreateSearchTerm(specie.Name, GlobalSearchTermType.Species, ContentType.Core,
-                        $"/reference/species/{specie.Name}");
+                        $"/characters/species/{specie.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
                 }
 
@@ -195,7 +195,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var swClass in classes)
                 {
                     var classSearchTerm = _globalSearchTermRepository.CreateSearchTerm(swClass.Name, GlobalSearchTermType.Class, ContentType.Core,
-                        $"/handbook/classes/{swClass.Name}");
+                        $"/characters/classes/{swClass.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(classSearchTerm);
                 }
 
@@ -208,7 +208,7 @@ namespace StarWars5e.Parser.Managers
                     foreach (var archetype in archetypes)
                     {
                         var archetypeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(archetype.Name, GlobalSearchTermType.Archetype, ContentType.Core,
-                            $"/reference/archetypes/{archetype.Name}");
+                            $"/characters/archetypes/{archetype.Name}");
                         _globalSearchTermRepository.SearchTerms.Add(archetypeSearchTerm);
                     }
 
@@ -239,12 +239,12 @@ namespace StarWars5e.Parser.Managers
                             break;
                         case PowerType.Force:
                             var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(power.Name, GlobalSearchTermType.ForcePower, ContentType.Core,
-                                $"/reference/forcePowers/?search={power.Name}");
+                                $"/characters/forcePowers/?search={power.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                             break;
                         case PowerType.Tech:
                             var techPowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(power.Name, GlobalSearchTermType.TechPower, ContentType.Core,
-                                $"/reference/techPowers/?search={power.Name}");
+                                $"/characters/techPowers/?search={power.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(techPowerSearchTerm);
                             break;
                         default:
@@ -268,7 +268,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var feat in feats)
                 {
                     var featSearchTerm = _globalSearchTermRepository.CreateSearchTerm(feat.Name, GlobalSearchTermType.Feat, ContentType.Core,
-                        $"/reference/feats/?search={feat.Name}");
+                        $"/characters/feats/?search={feat.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);
                 }
 

@@ -9,75 +9,78 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Player's Handbook", GlobalSearchTermType.Book, "/handbook"),
-                ( "Introduction", GlobalSearchTermType.HandbookChapter, "/handbook"),
-                ( "What's Different?", GlobalSearchTermType.HandbookChapter, "/handbook/whatsDifferent"),
-                ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.HandbookChapter, "/handbook/stepByStep"),
-                ( "Chapter 2: Species", GlobalSearchTermType.HandbookChapter, "/handbook/species"),
-                ( "Chapter 3: Classes", GlobalSearchTermType.HandbookChapter, "/handbook/classes"),
-                ( "Chapter 4: Backgrounds", GlobalSearchTermType.HandbookChapter, "/handbook/backgrounds"),
-                ( "Chapter 5: Equipment", GlobalSearchTermType.HandbookChapter, "/handbook/equipment"),
-                ( "Chapter 6: Customization Options", GlobalSearchTermType.HandbookChapter, "/handbook/customization"),
-                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.HandbookChapter, "/handbook/abilityScores"),
-                ( "Chapter 8: Adventuring", GlobalSearchTermType.HandbookChapter, "/handbook/adventuring"),
-                ( "Chapter 9: Combat", GlobalSearchTermType.HandbookChapter, "/handbook/combat"),
-                ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/handbook/casting"),
-                ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/handbook/conditions"),
-                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/handbook/variantRules"),
-                ( "Handbook Changelog", GlobalSearchTermType.Changelog, "/handbook/changelog")
+                ( "Player's Handbook", GlobalSearchTermType.Book, "/rules/handbook"),
+                ( "Introduction", GlobalSearchTermType.HandbookChapter, "/rules/handbook"),
+                ( "What's Different?", GlobalSearchTermType.HandbookChapter, "/rules/handbook/whatsDifferent"),
+                ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.HandbookChapter, "/rules/handbook/stepByStep"),
+                ( "Chapter 2: Species", GlobalSearchTermType.HandbookChapter, "/rules/handbook/species"),
+                ( "Chapter 3: Classes", GlobalSearchTermType.HandbookChapter, "/rules/handbook/classes"),
+                ( "Chapter 4: Backgrounds", GlobalSearchTermType.HandbookChapter, "/rules/handbook/backgrounds"),
+                ( "Chapter 5: Equipment", GlobalSearchTermType.HandbookChapter, "/rules/handbook/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.HandbookChapter, "/rules/handbook/customization"),
+                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.HandbookChapter, "/rules/handbook/abilityScores"),
+                ( "Chapter 8: Adventuring", GlobalSearchTermType.HandbookChapter, "/rules/handbook/adventuring"),
+                ( "Chapter 9: Combat", GlobalSearchTermType.HandbookChapter, "/rules/handbook/combat"),
+                ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/rules/handbook/casting"),
+                ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/rules/handbook/conditions"),
+                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/rules/handbook/variantRules"),
+                ( "Handbook Changelog", GlobalSearchTermType.Changelog, "/rules/handbook/changelog")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Starships Of The Galaxy", GlobalSearchTermType.Book, "/starships"),
-                ( "Introduction", GlobalSearchTermType.StarshipChapter, "/starships"),
-                ( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/starships/stepByStep"),
-                ( "Chapter 2: Deployments", GlobalSearchTermType.StarshipChapter, "/starships/deployments"),
-                ( "Chapter 3: Starships", GlobalSearchTermType.StarshipChapter, "/starships/starshipSizes"),
-                ( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/starships/modifications"),
-                ( "Chapter 5: Equipment", GlobalSearchTermType.StarshipChapter, "/starships/equipment"),
-                ( "Chapter 6: Customization Options", GlobalSearchTermType.StarshipChapter, "/starships/customization"),
-                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.StarshipChapter, "/starships/abilityScores"),
-                ( "Chapter 8: Adventuring", GlobalSearchTermType.StarshipChapter, "/starships/adventuring"),
-                ( "Chapter 9: Combat", GlobalSearchTermType.StarshipChapter, "/starships/combat"),
-                ( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/starships/generatingEncounters"),
-                ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/starships/conditions"),
-                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/starships/changelog")
+                ( "Starships Of The Galaxy", GlobalSearchTermType.Book, "/rules/starships"),
+                ( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/starships"),
+                ( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/rules/starships/stepByStep"),
+                ( "Chapter 2: Deployments", GlobalSearchTermType.StarshipChapter, "/rules/starships/deployments"),
+                ( "Chapter 3: Starships", GlobalSearchTermType.StarshipChapter, "/rules/starships/starshipsizes"),
+                ( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/rules/starships/modifications"),
+                ( "Chapter 5: Equipment", GlobalSearchTermType.StarshipChapter, "/rules/starships/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.StarshipChapter, "/rules/starships/customization"),
+                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.StarshipChapter, "/rules/starships/abilityScores"),
+                ( "Chapter 8: Adventuring", GlobalSearchTermType.StarshipChapter, "/rules/starships/adventuring"),
+                ( "Chapter 9: Combat", GlobalSearchTermType.StarshipChapter, "/rules/starships/combat"),
+                ( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/rules/starships/generatingEncounters"),
+                ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/rules/starships/conditions"),
+                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/starships/changelog")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> MonsterChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Monster Manual", GlobalSearchTermType.Book, "/monsters")
+                ( "Monster Manual", GlobalSearchTermType.Book, "/rules/monsters")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> ReferenceNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Monsters", GlobalSearchTermType.Reference, "/monsters/monsters"),
-                ( "Species", GlobalSearchTermType.Reference, "/reference/species"),
-                ( "Archetypes", GlobalSearchTermType.Reference, "/reference/archetypes"),
-                ( "Backgrounds", GlobalSearchTermType.Reference, "/reference/backgrounds"),
-                ( "Armor", GlobalSearchTermType.Reference, "/reference/armor"),
+                ( "Monsters", GlobalSearchTermType.Reference, "/rules/monsters/monsters"),
+                ( "Classes", GlobalSearchTermType.Reference, "/characters/classes"),
+                ( "Species", GlobalSearchTermType.Reference, "/characters/species"),
+                ( "Archetypes", GlobalSearchTermType.Reference, "/characters/archetypes"),
+                ( "Backgrounds", GlobalSearchTermType.Reference, "/characters/backgrounds"),
+                ( "Armor", GlobalSearchTermType.Reference, "/loot/armor"),
+                ( "Weapons", GlobalSearchTermType.Reference, "/loot/weapons"),
                 ( "Adventuring Gear", GlobalSearchTermType.Reference, "/reference/adventuringGear"),
-                ( "Feats", GlobalSearchTermType.Reference, "/reference/feats"),
-                ( "Force Powers", GlobalSearchTermType.Reference, "/reference/forcePowers"),
-                ( "Tech Powers", GlobalSearchTermType.Reference, "/reference/techPowers"),
-                ( "Starship Modifications", GlobalSearchTermType.Reference, "/reference/starshipModifications"),
-                ( "Starship Equipment", GlobalSearchTermType.Reference, "/reference/starshipEquipment"),
-                ( "Starship Weapons", GlobalSearchTermType.Reference, "/reference/starshipWeapons"),
-                ( "Ventures", GlobalSearchTermType.Reference, "/reference/ventures"),
-                ( "Additional Variant Rules", GlobalSearchTermType.Reference, "/reference/additionalVariantRules"),
+                ( "Enhanced Items", GlobalSearchTermType.Reference, "/reference/enhancedItems"),
+                ( "Feats", GlobalSearchTermType.Reference, "/characters/feats"),
+                ( "Force Powers", GlobalSearchTermType.Reference, "/characters/forcePowers"),
+                ( "Tech Powers", GlobalSearchTermType.Reference, "/characters/techPowers"),
+                ( "Starship Modifications", GlobalSearchTermType.Reference, "/starships/modifications"),
+                ( "Starship Equipment", GlobalSearchTermType.Reference, "/starships/equipment"),
+                ( "Starship Weapons", GlobalSearchTermType.Reference, "/starships/weapons"),
+                ( "Ventures", GlobalSearchTermType.Reference, "/starships/ventures"),
+                ( "Additional Variant Rules", GlobalSearchTermType.Reference, "/characters/additionalVariantRules"),
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> VariantRuleNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Destiny", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Destiny"),
-                ( "Force Alignment", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Force%20Alignment"),
-                ( "Starship Destiny", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Starship%20Destiny"),
-                ( "Weapon Sundering", GlobalSearchTermType.VariantRule, "/reference/additionalVariantRules/Weapon%20Sundering")
+                ( "Destiny", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Destiny"),
+                ( "Force Alignment", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Force%20Alignment"),
+                ( "Starship Destiny", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Starship%20Destiny"),
+                ( "Weapon Sundering", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Weapon%20Sundering")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterOneSections { get; } =

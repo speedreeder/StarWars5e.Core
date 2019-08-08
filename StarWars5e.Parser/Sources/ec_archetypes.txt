@@ -22,50 +22,51 @@
 |&emsp;Audiotech Engineering    |15|
 |&emsp;Biochem Engineering      |18|
 |&emsp;Cybertech Engineering    |21|
+|&emsp;Experimental Engineering |23|
 |Fighter||
-|&emsp;Adept Specialist         |24|
-|&emsp;Demolitions Specialist   |26|
-|&emsp;Enhancement Specialist   |27|
-|&emsp;Mounted Specialist       |29|
+|&emsp;Adept Specialist         |26|
+|&emsp;Demolitions Specialist   |28|
+|&emsp;Enhancement Specialist   |29|
+|&emsp;Mounted Specialist       |31|
 |Guardian||
-|&emsp;Form IV: Ataru           |30|
-|&emsp;Form V: Djem So          |31|
-|&emsp;Form VI: Niman           |32|
-|&emsp;Form VII: Juyo           |33|
-|&emsp;Form VIII: Sokan         |34|
-|&emsp;Form IX: Trakata         |35|
-|&emsp;Form X: Jar'Kai          |36|
+|&emsp;Form IV: Ataru           |32|
+|&emsp;Form V: Djem So          |33|
+|&emsp;Form VI: Niman           |34|
+|&emsp;Form VII: Juyo           |35|
+|&emsp;Form VIII: Sokan         |36|
+|&emsp;Form IX: Trakata         |37|
+|&emsp;Form X: Jar'Kai          |38|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |37|
-|&emsp;Jal Shey Order           |38|
-|&emsp;Matukai Order            |39|
-|&emsp;Whills Order             |40|
+|&emsp;Aing-Tii Order           |39|
+|&emsp;Jal Shey Order           |40|
+|&emsp;Matukai Order            |41|
+|&emsp;Whills Order             |42|
 |Operative||
-|&emsp;Beguiler Practice        |41|
-|&emsp;Disabling Practice       |43|
-|&emsp;Ruffian Practice         |44|
-|&emsp;Sawbones Practice        |45|
+|&emsp;Beguiler Practice        |43|
+|&emsp;Disabling Practice       |45|
+|&emsp;Ruffian Practice         |46|
+|&emsp;Sawbones Practice        |47|
 |Scholar||
-|&emsp;Chef Pursuit             |46|
-|&emsp;Explorer Pursuit         |48|
-|&emsp;Gambler Pursuit          |50|
-|&emsp;Slicer Pursuit           |52|
-|&emsp;Zoologist Pursuit        |54|
+|&emsp;Chef Pursuit             |48|
+|&emsp;Explorer Pursuit         |50|
+|&emsp;Gambler Pursuit          |52|
+|&emsp;Slicer Pursuit           |54|
+|&emsp;Zoologist Pursuit        |56|
 |Scout||
-|&emsp;Bulwark Technique        |58|
-|&emsp;Illusionist Technique    |59|
-|&emsp;Inquisitor Technique     |60|
-|&emsp;Predator Technique       |61|
-|&emsp;Slayer Technique         |62|
+|&emsp;Bulwark Technique        |60|
+|&emsp;Illusionist Technique    |61|
+|&emsp;Inquisitor Technique     |62|
+|&emsp;Predator Technique       |63|
+|&emsp;Slayer Technique         |64|
 |Sentinel||
-|&emsp;Path of Communion        |63|
-|&emsp;Path of the Corsair      |64|
-|&emsp;Path of the Forceblade   |65|
-|&emsp;Path of Synthesis        |66|
-|&emsp;Path of Tenacity         |67|
+|&emsp;Path of Communion        |65|
+|&emsp;Path of the Corsair      |66|
+|&emsp;Path of the Forceblade   |67|
+|&emsp;Path of Synthesis        |68|
+|&emsp;Path of Tenacity         |69|
 
 </div>
 
@@ -94,7 +95,7 @@ Starting at 10th level, when you are hit with an attack by a creature within 30 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Brawn
 At 14th level, when you use the *burst* feature of a blaster with which are you proficient, you can apply your rage damage bonus to every target that takes damage. Additionally, when a creature fails the saving throw, it is knocked prone.
@@ -253,7 +254,7 @@ This die increases when you reach certain levels in this class: to 1d10 at 14th 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Unrelenting Resilience
 At 14th level, when you use your Boundless Vitality feature while concentrating on a force power, you can add the result of the roll to the Constitution saving throw made to maintain concentration.
@@ -270,6 +271,8 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 <img src='https://www.gmbinder.com/images/HNr2yz4.png' style='position:absolute;bottom:0px;right:-20px;width:660px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -296,7 +299,7 @@ At 6th level, when you cast a force power with a range of touch while Saber Stor
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Guarding Weapon
 Beginning at 10th level, you can direct your animated weapons to absorb damage while your Saber Storm is activate. When you take damage, you can use your reaction to expend one force slot to have your animated weapon intercept it, and reduce that damage to you by an amount equal to five times the force slot's level.
@@ -328,7 +331,7 @@ You can store a maximum number of power surges equal to your Wisdom or Charisma 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 &emsp;Once per turn, when you deal damage to a creature or object with a force power, you can spend one power surge to deal extra damage to that target. The extra damage is of the same type as the power's damage, and it equals half your consular level (rounded down).
 
@@ -348,6 +351,8 @@ At 18th level, when you use a Force-Empowered Casting option, you can spend a po
 <img src='https://www.gmbinder.com/images/pq3knax.png' style='position:absolute;bottom:-95px;right:-60px;width:1050px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
+
+\pagebreak
 
 \pagebreak
 
@@ -444,7 +449,7 @@ At 9th level, you can maintain two different modified lightsabers. The total mod
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Force Resonance
 Lastly at 3rd level, once per round, when you hit a creature with your modified lightsaber, you can expend one use of your Potent Aptitude to deal an extra 2d6 damage to that target. The damage is the same type as your modified lightsaber's damage.
@@ -617,7 +622,7 @@ You can initiate playing an enhanced<br> song twice. You regain all expended<br>
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Song of Battle
 When an ally within 60 feet of you that can hear you deals damage to a creature, you can use your reaction to expend one use of your Potent Aptitude, adding the result of the die to the damage dealt.
@@ -811,7 +816,7 @@ Your distributor emits a bolt of kolto. The target<br> gains 1d6 + your Intellig
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Noxious Mixture
 Your distributor emits a cloud of poison. The target must make a Constitution saving throw. On a failed save, a creature takes 1d6 + your Intelligence modifier poison damage. This mixture's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
@@ -997,7 +1002,7 @@ At 14th level, when you use your action to a cast a 1st-level or higher tech pow
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Perfected Purposing
 Starting at 18th level, when you cast a tech power, you can choose to deal maximum damage or provide maximum healing with that power.
@@ -1154,6 +1159,115 @@ Once you've used this feature, you can't use it again until you recover and rein
 
 \pagebreak
 
+## Experimental Engineering
+Those engineers who choose the Experimental Engineering discipline create and use untested combinations, resulting in powerful—and often unpredictable—effects.
+
+### Bonus Proficiencies
+When you choose this discipline at 3rd level, you gain proficiency in a set of tools of your choice. Additionally, when you engage in crafting with tinker's tools, the rate at which you craft doubles.
+
+### Modified Tinkercannon
+Also at 3rd level, you learn to enhance your tinker's tools with unproven science, modifying them into a backpack with a cannon. Over the course of a long rest, you can expend 500 cr worth of materials to modify your tinker's tools. You must have materials and tinker's tools in order to perform this modification.
+
+Whenever you cast a tech power of 1st level or higher while wielding your tinker's tools, you risk unexpected complications. Your GM can have you roll a d20. If you roll a 1, roll on the Experimental Engineering Surge table to create a random effect. 
+
+Additionally, your tinker's tools come equipped with 4 overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer class table. Each time you trigger an Experimental Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and your<br> maximum tech points is reduced by 1 until<br> you complete a long rest. You regain all<br> expended overrides when you complete<br> a long rest.
+
+### Unstable Volley
+Lastly at 3rd level, as a bonus<br> action you can expend one<br> use of your Potent Aptitude<br> to launch a volley of unstable<br> energy at a surface located with-<br>in 30 feet of you that you can<br> see. This energy adheres to<br> the surface for 1 minute, after<br> which it erupts. As a part of this<br> bonus action, or as a bonus<br> action on each of your turns,<br> you can cause the energy<br> to erupt early. Each<br> creature within 5 feet<br> of it must make a Dext-<br>erity saving throw<br> against your tech save<br> DC. A creature takes<br> 1d6 lightning damage on<br> a failed save, or half as<br> much on a successful one. 
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;This damage increases when you reach certain levels in this class, increasing to 2d6 at 5th level, 3d6 at 10th level, and 4d6 at 15th level.
+
+### Creative Destruction
+Beginning at 6th level, you can add your Intelligence modifier (a minimum of +1) to any damage you deal with tech powers and class features. If the tech power or class feature would damage multiple creatures, you can only deal this additional damage to one of them.
+
+If you choose to deal this additional damage, your GM can have you roll on the Experimental Engineering Surge table.
+
+### Experimental Overrides 
+At 14th level, you gain a modicum of control over your surges. Whenever you roll on the Experimental Engineering Surge table and use one of your overrides, you can choose either total.
+
+### Engineering Bombardment
+Starting at 18th level, the harmful energies of your tech powers and class features intensify. When you roll damage for a tech power or class feature and roll the highest number possible on any of the dice, you can roll it again and use both results. You can only use this ability once per tech power or class feature.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/605948299869945856/Trapgineer.png' style='position:absolute;bottom:0px;right:-10px;width:640px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
+
+<div class='classTable wide' style='column-count:2'>
+
+<div class='wide'>
+
+##### Experimental Engineering Surge
+
+</div>
+
+|d100|Result|
+|:--|:--|
+|&nbsp;01-<br>&nbsp;02|Roll on this table at the start of each of your turns for 1 minute, ignoring this result on subsequent rolls.	|
+|&nbsp;03-<br>&nbsp;04|For the next minute, you can see any invisible creature if you have line of sight to it.	|
+|&nbsp;05-<br>&nbsp;06|A DRK-1 tracker droid appears with 5 feet of you, then disappears 1 minute later.|
+|&nbsp;07-<br>&nbsp;08|You cast *explosion* at 3rd-level centered on yourself without expending tech points.|
+|&nbsp;09-<br>&nbsp;10|You cast *homing rockets* at 5th-level without expending tech points.|
+|&nbsp;11-<br>&nbsp;12|Roll a d10. Your height changes by a number of inches equal to the roll: if odd, you shrink; if even, you grow.	|
+|&nbsp;13-<br>&nbsp;14|You fall asleep standing for 1 minute or until you take damage.|
+|&nbsp;15-<br>&nbsp;16|For the next minute, you regain 5 hit points at the start of each of your turns|
+|&nbsp;17-<br>&nbsp;18|You grow a long beard made of feathers that remains until you sneeze.|
+|&nbsp;19-<br>&nbsp;20|You cast *oil slick* centered on yourself without expending tech points.|
+|&nbsp;21-<br>&nbsp;22|Creatures have disadvantage on the first saving throw they make against you in the next minute.|
+|&nbsp;23-<br>&nbsp;24|Your skin turns a vibrant shade of blue. Any effect that ends a curse ends this.|
+|&nbsp;25-<br>&nbsp;26|You grow an extra eye, granting advantage on Wisdom (Perception) checks that rely on sight for 1 minute.|
+|&nbsp;27-<br>&nbsp;28|For the next minute, all your tech powers with a casting time of 1 action have a casting time of 1 bonus action.|
+|&nbsp;29-<br>&nbsp;30|You teleport up to 60 feet to an unoccupied space of your choice that you can see.	|
+|&nbsp;31-<br>&nbsp;32|You take 2d10 lightning damage and are shocked for 1 minute.|
+|&nbsp;33-<br>&nbsp;34|Maximize the damage of the next damaging tech power you cast within the next minute.	|
+|&nbsp;35-<br>&nbsp;36|Roll a d10. Your age changes by a number of years equal to the roll: if odd, younger; if even, older.|
+|&nbsp;37-<br>&nbsp;38|You start running uncontrollably for 1 minute, moving your entire speed each turn.|
+|&nbsp;39-<br>&nbsp;40|You regain 2d10 hit points.|
+|&nbsp;41-<br>&nbsp;42|Each creature within 30 feet of you is subjected to the *gleaming outline* tech power for 1 minute.|
+|&nbsp;43-<br>&nbsp;44|For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns.	|
+|&nbsp;45-<br>&nbsp;46|You are blinded and deafened for 1 minute.|
+|&nbsp;47-<br>&nbsp;48|You have disadvantage on the first ability check, attack roll, or saving throw you make each turn for 1 minute.|
+|&nbsp;49-<br>&nbsp;50|You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth.	|
+
+|d100|Result|
+|:--|:--|
+|&nbsp;51-<br>&nbsp;52|A shimmering energy barrier grants you a +2 bonus to AC for 1 minute.|
+|&nbsp;53-<br>&nbsp;54|You are immune to being intoxicated by alcohol for the next 5d6 days.|
+|&nbsp;55-<br>&nbsp;56|Your hair falls out but grows back within 24 hours. If you don't have hair, you instead grow it for 24 hours.|
+|&nbsp;57-<br>&nbsp;58|For 1 minute, any flammable object not worn or carried you touch bursts into flame.|
+|&nbsp;59-<br>&nbsp;60|You regain tech points equal to your Intelligence modifier (minimum of one).|
+|&nbsp;61-<br>&nbsp;62|For the next minute, you shout whenever you speak.|
+|&nbsp;63-<br>&nbsp;64|You cast *smoke cloud* centered on yourself without expending tech points.|
+|&nbsp;65-<br>&nbsp;66|Up to three creatures you choose within 30 feet of you take 4d10 lightning damage.|
+|&nbsp;67-<br>&nbsp;68|You are frightened by the nearest creature until the end of your next turn.|
+|&nbsp;69-<br>&nbsp;70|Each creature within 30 feet of you becomes invisible for 1 minute, or until it attacks or casts a power.|
+|&nbsp;71-<br>&nbsp;72|You gain resistance to all damage for the next minute.|
+|&nbsp;73-<br>&nbsp;74|A random creature within 60 feet of you becomes poisoned for 1d4 hours.|
+|&nbsp;75-<br>&nbsp;76|You emit bright light in a 30-foot radius for 1 minute.|
+|&nbsp;77-<br>&nbsp;78|Each creature within 30 feet of you except you gains the benefits of *mirror image* for 1 minute.
+|&nbsp;79-<br>&nbsp;80|Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute.|
+|&nbsp;81-<br>&nbsp;82|You can take one additional action immediately.|
+|&nbsp;83-<br>&nbsp;84|Each creature within 30 feet of you takes 1d10 necrotic damage and you gain hit points equal to the damage.|
+|&nbsp;85-<br>&nbsp;86|You cast *mirror image* without expending tech points.|
+|&nbsp;87-<br>&nbsp;88|You are frozen in carbonite and paralyzed for 1 minute or until you take damage.|
+|&nbsp;89-<br>&nbsp;90|You turn invisible and can't make sound for 1 minute, or until you attack or cast a power.|
+|&nbsp;91-<br>&nbsp;92|If you die within the next minute, you immediately come back to life as if by the *defibrillate* power.|
+|&nbsp;93-<br>&nbsp;94|Your size increases by one size category for the next minute.|
+|&nbsp;95-<br>&nbsp;96|You and all creatures within 30 feet of you gain vulnerability to energy damage for the next minute.|
+|&nbsp;97-<br>&nbsp;98|You are surrounded by faint, ethereal music for the next minute.|
+|&nbsp;99-<br>&nbsp;100|You regain half your expended tech points.|
+
+</div>
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
+
 ## Adept Specialist
 Those fighters who choose to become Adept Specialists tap into a latent Force-sensitivity to augment their martial prowess, blending the two to accelerate their bodies and blows. An adept speeds across the battlefield, attacking opponents in a flurry of blows before dashing off again.
 
@@ -1173,7 +1287,7 @@ You may only cast force powers at 4th-level once. You regain the ability to do s
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Forcecasting Ability
 Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. In addition, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
@@ -1270,7 +1384,7 @@ At 10th level, when a creature within 5 feet of<br> you makes a melee attack aga
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Backup Plans
 Starting at 15th level, when you roll initiative and have no charges remaining, you can create 2 charges. Additionally, whenever you create a charge, you can change the damage type to acid, energy, fire, ion, lightning, or sonic.
@@ -1289,7 +1403,7 @@ Those fighters who choose to become Enhancement Specialists learn to apply their
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Studied Shooter
 When you choose this specialty at 3rd level, you learn specialized theory typical for practitioners of the enhancement trade. You gain proficiency in your choice of the Lore or Technology skills. Additionally, you learn your choice of the *encrypted message* or *minor image* tech power. Intelligence is your techcasting ability for these powers.  
@@ -1501,7 +1615,7 @@ Additionally, when you spend force points to use your Force-Empowered Strikes fe
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Master of Perseverance
 At 20th level, your might overwhelms even the most implacable of foes. Your Strength and Constitution scores increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
@@ -1546,7 +1660,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Master of Moderation
 At 20th level, the Force flows in perfect concert with your weapon attacks. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
@@ -1608,8 +1722,6 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 \pagebreak
 
-\pagebreak
-
 ## Form VIII: Sokan
 Form VIII, also known as Persistence Form, uses determined movements followed by swift strokes to keep their opponents' footing unsteady. Those guardians who focus on Persistence Form make use of thee terrain, trying to maneuver their opponents into vulnerable areas before dispatching them.
 
@@ -1632,7 +1744,7 @@ When an opponent within 5 feet of you<br> makes a melee attack against you, you<
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Unwavering Self
 Beginning at 7th level, if you fail a Strength, Dexterity, or Constitution saving throw, you can reroll the die. You must use the new roll.
@@ -1653,8 +1765,6 @@ This effect ends early if you are incap-<br>acitated or die. Once you've used th
 <img src='https://www.gmbinder.com/images/dF0zRmv.png' style='position:absolute;bottom:15px;right:-115px;width:800px;z-index:1000;'/>
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
-
-\pagebreak
 
 \pagebreak
 
@@ -1683,7 +1793,7 @@ Starting at 15th level, when a creature misses you with an attack, you gain temp
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Master of Deception
 At 20th level, your skill with a lightweapon is both mesmerizing and confounding. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
@@ -1729,7 +1839,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Master of Domination
 At 20th level, you are a whirlwind of strikes, eviscerating all who step within your reach. Your Strength and Dexterity scores increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
@@ -1786,7 +1896,7 @@ Also at 3rd level, you can cast the *phasestrike* force power without expending 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 <div class='classTable'>
 
@@ -1856,7 +1966,7 @@ Also at 6th level, your quick mind and study of your foe allows you to use their
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Mind of Mercury
 Starting at 11th level, you've honed your awareness and reflexes through mental aptitude and pattern recognition. Once per turn, if you've already used your reaction, you can spend 1 focus point to take an additional reaction. You can only take one reaction per turn.
@@ -1943,7 +2053,7 @@ You learn 4 force powers of your choice, and you learn more at higher levels, as
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Force Points
 You have a number of force points equal to your operative level, as shown in the Force Points column of the Beguiler Practice Forcecasting table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.
@@ -2201,7 +2311,7 @@ At the end of a short or long rest you may expend a superiority die and choose a
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Debilitants
 As a bonus action when preparing or touching food, you may expend a superiority die and add to it a subtle poison. Any creature that consumes this food must make a Constitution saving throw. On a failed save, their hit point maximum is reduced by an amount equal to twice the number rolled on your superiority die + your Intelligence modifier. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
@@ -2403,7 +2513,7 @@ When you make an attack roll, and the result is less than 20, you can expend a s
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Blind Luck
 When you fail an ability check, you can expend a superiority die. If the result of your ability check plus the superiority die is within a range equal to half your proficiency bonus (rounded down) above or below the check's DC, you pass the check instead. 
@@ -2661,7 +2771,7 @@ Your beast gains a variety of benefits while it is bonded to you:
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 - While your beast is the target of your Critical Analysis feature, it gains a bonus to ability checks, armor class, attack rolls, damage rolls, and saving throws equal to half your Intelligence modifier (rounded up).
 
@@ -2783,7 +2893,7 @@ ___
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Combat Traits
 The traits are presented in alphabetical order.
@@ -2931,7 +3041,7 @@ If your barrier's hit points are reduced to 0, any Projected Barrier features im
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Projected Sphere
 You create a protective spherical barrier barrier in a 5-foot-radius sphere a point you can see within 30 feet that lasts until the start of your next turn. Creatures within the barrier have three-quarters cover from attacks originating from outside the barrier. You can maintain the barrier by spending an additional barrier hit point at the start of each of your turns (no action required).
@@ -2974,7 +3084,7 @@ Once you've used this feature, you must<br> complete a short or long rest before
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Mark of the Illusionist
 Also at 3rd level, the target of your Ranger's Quarry feature has disadvantage on all checks made to discern the nature of your illusions. Additionally, when the target of your Ranger's Quarry is reduced to 0 hit points, you can use your reaction to immediately cause an active illusion, or your Holographic Decoy, to take the form of the creature as long as the creature's dimensions fall within the power's capacity restrictions.
@@ -3021,7 +3131,7 @@ Starting at 11th level, while the target of your Ranger's Quarry feature is with
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Inquisitor's Wrath
 At 15th level, you can cast the *force suppression* and *sever force* force powers at 3rd level against the target of your Ranger's Quarry without expending tech points. If they are within 30 feet of you, you have advantage on the forcecasting ability check for these powers.
@@ -3049,7 +3159,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Mark of the Predator
 Also at 3rd level, if the target of your Ranger's Quarry feature can see you, a number of friendly creatures you choose up to your Intelligence modifier have advantage on Dexterity (Stealth) checks made to hide from it.
@@ -3122,7 +3232,7 @@ You can only attune to one spirit at a time. If you attempt to attune to another
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 &emsp;Additionally, your spirit can briefly interact with the physical world. When you would make a melee attack, your spirit can deliver the attack as if it had made it. Your spirit must be within 100 feet of you, and it must use its reaction to deliver the attack. It uses your modifiers for the attack and damage rolls. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.
 
@@ -3167,7 +3277,7 @@ As a bonus action on each of your turns, you can throw one of your detonators at
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Energized Kinetics
 By 13th level, once per turn, when you deal damage with a Force-Empowered Detonator or your Double Strike feature, you can deal additional damage equal to your Kinetic Combat Damage Die. The damage type is force, lightning, necrotic, or psychic (your choice).
@@ -3204,7 +3314,7 @@ At 7th level, when you cast *saber throw*<br> while wielding your forceblade, yo
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Disruptive Throw
 By 13th level, when you are the target of a ranged attack, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage equal to your Kinetic Combat Damage Die and you impose disadvantage on the triggering attack roll.
@@ -3250,7 +3360,7 @@ As an action, you can send out a 30 foot cone of electromagnetically-charged ene
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 #### Techcasting Insight
 As an action, you can attempt to determine another creature's experience with techcasting. When you do so, you make an Intelligence (Technology) check contested by the target's Intelligence (Technology) check. If you succeed, you immediately learn the target's techcasting Max Power Level, as well as any tech powers currently affecting the target.
@@ -3298,7 +3408,7 @@ Additionally, if allies within 5 feet of you are gaining the benefit of your *sa
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
 
 ### Kinetic Bastion
 At 18th level, you can protect allies even further from you. When a creature within 30 feet of you is hit by a melee weapon attack, you can use your reaction to teleport to them and extend your Kinetic Ward. If this damage is not reduced to 0, the warded creature takes any remaining damage. 
