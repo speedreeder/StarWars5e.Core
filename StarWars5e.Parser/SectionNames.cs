@@ -45,6 +45,24 @@ namespace StarWars5e.Parser
                 ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/rules/starships/conditions"),
                 ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/starships/changelog")
             };
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterNames { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Wretched Hives", GlobalSearchTermType.Book, "/rules/hives"),
+                //( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/starships"),
+                //( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/rules/starships/stepByStep"),
+                ( "Downtime", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/downtime"),
+                ( "Factions and Membership", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/factions"),
+                //( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/rules/starships/modifications"),
+                ( "Chapter 5: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/enhancedItems"),
+                ( "Chapter 6: Modifiable Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/modifiableItems"),
+                ( "Chapter 7: Cybernetic Augmentations", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/cyberneticAugmentations"),
+                ( "Chapter 8: Droid Customizations", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/droidCustomizations"),
+                ( "Chapter 9: Tool Proficiencies", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/toolProficiencies"),
+                //( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/rules/starships/generatingEncounters"),
+                ( "Appendix A: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/enhancedItems"),
+                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/hives/changelog")
+            };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> MonsterChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
@@ -636,7 +654,121 @@ namespace StarWars5e.Parser
                 ( "Stunned", GlobalSearchTermType.StarshipCondition, null),
                 ( "System Damage", GlobalSearchTermType.StarshipCondition, null),
                 ( "Tractored", GlobalSearchTermType.StarshipCondition, null),
-                ( "Used", GlobalSearchTermType.StarshipCondition, null),
+                ( "Used", GlobalSearchTermType.StarshipCondition, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterTwoSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Rivals", GlobalSearchTermType.Rule, null),
+                ( "Bounty Hunting", GlobalSearchTermType.Rule, null),
+                ( "Buying Enhanced Items", GlobalSearchTermType.Rule, null),
+                ( "Carousing", GlobalSearchTermType.Rule, null),
+                ( "Crafting", GlobalSearchTermType.Rule, null),
+                ( "Reverse Engineering", GlobalSearchTermType.Rule, null),
+                ( "Crime", GlobalSearchTermType.Rule, null),
+                ( "Gambling", GlobalSearchTermType.Rule, null),
+                ( "Mercenary Contracting", GlobalSearchTermType.Rule, null),
+                ( "Pit Fighting", GlobalSearchTermType.Rule, null),
+                ( "Racing", GlobalSearchTermType.Rule, null),
+                ( "Research", GlobalSearchTermType.Rule, null),
+                ( "Selling Enhanced Items", GlobalSearchTermType.Rule, null),
+                ( "Work", GlobalSearchTermType.Rule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterThreeSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Joining a Faction", GlobalSearchTermType.Rule, null),
+                ( "Faction Ranks", GlobalSearchTermType.Rule, null),
+                ( "Membership in Multiple Factions", GlobalSearchTermType.Rule, null),
+                ( "Factions", GlobalSearchTermType.Rule, null),
+                ( "Generating a Faction", GlobalSearchTermType.Rule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterFiveSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Rarity", GlobalSearchTermType.Rule, null),
+                ( "Enhanced Item Rarity and Identification", GlobalSearchTermType.Rule, null),
+                ( "Identifying Enhanced Items", GlobalSearchTermType.Rule, null),
+                ( "Attunement", GlobalSearchTermType.Rule, null),
+                ( "Enhanced Item Categories", GlobalSearchTermType.Rule, null),
+                ( "Focuses", GlobalSearchTermType.Rule, null),
+                ( "Awarding Enhanced Items", GlobalSearchTermType.Rule, null),
+                ( "Minor Enhanced Items by Rarity", GlobalSearchTermType.Table, null),
+                ( "Major Enhanced Items by Rarity", GlobalSearchTermType.Table, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterSixSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Modifying Equipment", GlobalSearchTermType.Rule, null),
+                ( "Modification Slots by Rarity", GlobalSearchTermType.Table, null),
+                ( "Installation and Removal DC by Rarity", GlobalSearchTermType.Table, null),
+                ( "Available Modification Slots", GlobalSearchTermType.Rule, null),
+                ( "Removing Modifications", GlobalSearchTermType.Rule, null),
+                ( "Blasters", GlobalSearchTermType.Rule, null),
+                ( "Vibroweapons", GlobalSearchTermType.Rule, null),
+                ( "Lightweapons", GlobalSearchTermType.Rule, null),
+                ( "Forcecasting Color Crystal Modifier", GlobalSearchTermType.Table, null),
+                ( "Focus Generators", GlobalSearchTermType.Rule, null),
+                ( "Armor and Shields", GlobalSearchTermType.Rule, null),
+                ( "Augments", GlobalSearchTermType.Rule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterSevenSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Augmenting Creatures", GlobalSearchTermType.Rule, null),
+                ( "Creature Size Time Modifier", GlobalSearchTermType.Table, null),
+                ( "Cybernetic Augmentation Side Effects", GlobalSearchTermType.Table, null),
+                ( "Installing Augmentations", GlobalSearchTermType.Rule, null),
+                ( "Installation and Removal DC by Rarity", GlobalSearchTermType.Table, null),
+                ( "Removing Augmentations", GlobalSearchTermType.Rule, null),
+                ( "Enhancements", GlobalSearchTermType.Rule, null),
+                ( "Replacements", GlobalSearchTermType.Rule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterEightSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Customizing Droids", GlobalSearchTermType.Rule, null),
+                ( "Droid Size Time Modifier", GlobalSearchTermType.Table, null),
+                ( "Total Slots Upgrade Cost", GlobalSearchTermType.Table, null),
+                ( "Installation and Removal DC by Rarity", GlobalSearchTermType.Table, null),
+                ( "Removing Customizations", GlobalSearchTermType.Rule, null),
+                ( "Parts", GlobalSearchTermType.Rule, null),
+                ( "Protocols", GlobalSearchTermType.Rule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterNineSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Tool Descriptions", GlobalSearchTermType.Rule, null),
+                ( "Item Specific Tools", GlobalSearchTermType.Table, null),
+                ( "Armormech's Tools", GlobalSearchTermType.Rule, null),
+                ( "Armstech's Tools", GlobalSearchTermType.Rule, null),
+                ( "Artificer's Tools", GlobalSearchTermType.Rule, null),
+                ( "Biochemist's Kit", GlobalSearchTermType.Rule, null),
+                ( "Brewer's Tools", GlobalSearchTermType.Rule, null),
+                ( "Chef's Kit", GlobalSearchTermType.Rule, null),
+                ( "Cybertech's Tools", GlobalSearchTermType.Rule, null),
+                ( "Disguise Kit", GlobalSearchTermType.Rule, null),
+                ( "Forgery Kit", GlobalSearchTermType.Rule, null),
+                ( "Gaming Set", GlobalSearchTermType.Rule, null),
+                ( "Herbalism Kit", GlobalSearchTermType.Rule, null),
+                ( "Jeweler's Tools", GlobalSearchTermType.Rule, null),
+                ( "Mason's Tools", GlobalSearchTermType.Rule, null),
+                ( "Mechanic's Kit", GlobalSearchTermType.Rule, null),
+                ( "Musical Instruments", GlobalSearchTermType.Rule, null),
+                ( "Painter's Tools", GlobalSearchTermType.Rule, null),
+                ( "Poisoner's Kit", GlobalSearchTermType.Rule, null),
+                ( "Security Kit", GlobalSearchTermType.Rule, null),
+                ( "Slicer's Kit", GlobalSearchTermType.Rule, null),
+                ( "Surveyor's Tools", GlobalSearchTermType.Rule, null),
+                ( "Synthweaver's Tools", GlobalSearchTermType.Rule, null),
+                ( "Tinker's Tools", GlobalSearchTermType.Rule, null)
             };
     }
 }

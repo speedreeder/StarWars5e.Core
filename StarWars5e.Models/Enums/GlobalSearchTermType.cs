@@ -41,6 +41,8 @@
         StarshipCondition,
         Changelog,
         Book,
-        Reference
+        Reference,
+        WretchedHivesChapter,
+        EnhancedItem
     }
 }
