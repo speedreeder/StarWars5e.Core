@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Parser.Managers;
-using StarWars5e.Parser.Parsers.PHB;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser

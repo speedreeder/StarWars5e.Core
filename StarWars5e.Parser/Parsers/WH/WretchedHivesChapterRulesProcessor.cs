@@ -22,8 +22,8 @@ namespace StarWars5e.Parser.Parsers.WH
 
             //var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
             //var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: ");
-            var chapter2StartIndex = lines.FindIndex(f => f == "# Downtime");
-            var chapter3StartIndex = lines.FindIndex(f => f == "# Factions and Membership");
+            var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Entertainment and Downtime");
+            var chapter3StartIndex = lines.FindIndex(f => f == "# Chapter 3: Factions and Membership");
             //var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Modifications");
             var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Enhanced Items");
             var chapter6StartIndex = lines.FindIndex(f => f == "# Chapter 6: Modifiable Items");

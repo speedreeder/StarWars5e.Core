@@ -643,7 +643,7 @@ _Prerequisite: Blaster with the burst property_
 When you use the burst feature of this weapon, you can choose to include up to 2 additional creatures within 5 feet of any affected space to also be affected the burst, if they were not already.
 
 #### Aratech Sound Dampening Boots
-_<font style="color:green">Adventuring gear (boots) (requires attunement), premium</font>_
+_<font style="color:green">Adventuring gear (boots), premium (requires attunement)</font>_
 
 **Value:** 2,250 cr
 
@@ -1342,12 +1342,12 @@ This implant includes a small hidden blaster that is completely shielded and hid
 **Side Effect:** Reloading this weapon takes longer than usual. You can reload and re-conceal this weapon over one hour, which can be done during a short rest. This hidden compartment can only fit the specific blaster with which it is paired.
 
 #### High-Grade Cybernetic Arm
-_<font style="color:blue">Prototype cybernetic augmentation (replacement)</font>_
+_<font style="color:blue">Cybernetic augmentation (replacement), prototype</font>_
 _Prerequisite: Constitution 13_<br>
 
-This augmentation replaces an arm.
-
 **Value:** 10,000 cr
+
+This augmentation replaces an arm.
 
 _This arm replacement features enhanced strength._
 
@@ -2246,6 +2246,8 @@ When you take the Attack action and hit a creature with this weapon, you can rep
 
 #### Verpine Auto-Shielding Unit
 _<font style="color:purple">Shield (medium shield generator), advanced (requires attunement)</font>_
+
+**Value:** 60,000 cr
 
 _The pinnacle of Verpine scientists' shameless theft of ancient Arkanian energy shield designs._
 
