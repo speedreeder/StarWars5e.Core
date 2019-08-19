@@ -35,6 +35,11 @@ namespace StarWars5e.Models.Utils
             return input;
         }
 
+        public static string RemovePlaceholderCharacter(this string input)
+        {
+            return input.Replace("�", string.Empty);
+        }
+
         public static string ToKebabCase(this string value)
         {
             // Remove apostrophes

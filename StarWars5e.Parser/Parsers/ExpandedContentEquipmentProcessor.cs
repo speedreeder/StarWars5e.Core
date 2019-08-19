@@ -52,10 +52,12 @@ namespace StarWars5e.Parser.Parsers
                     try
                     {
                         weapon.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
-                        weapon.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace())
+                        weapon.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
+                            .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
-                        weapon.PropertiesMap = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace())
-                            .ToList().ToDictionary(s => WeaponPropertyConstant.WeaponProperties.FirstOrDefault(f => s.Contains(f, StringComparison.InvariantCultureIgnoreCase)) ?? "", s => s);
+                        weapon.PropertiesMap = weapon.Properties.ToDictionary(
+                            s => WeaponPropertyConstant.WeaponProperties.FirstOrDefault(f =>
+                                     s.Contains(f, StringComparison.InvariantCultureIgnoreCase)) ?? "", s => s);
 
                         var damageSplit = tableLineSplit[3].Replace("�", string.Empty).Trim().RemoveHtmlWhitespace().Split(' ');
                         var damageNumberMatches =
