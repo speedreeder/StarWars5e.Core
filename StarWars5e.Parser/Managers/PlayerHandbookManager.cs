@@ -58,7 +58,7 @@ namespace StarWars5e.Parser.Managers
                 {"Finesse", "#### Finesse" },
                 {"Heavy", "#### Heavy" },
                 {"Hidden", "#### Hidden" },
-                {"Light", "#### Burst" },
+                {"Light", "#### Light" },
                 {"Luminous", "#### Luminous" },
                 {"Range", "#### Range" },
                 {"Reach", "#### Reach" },
