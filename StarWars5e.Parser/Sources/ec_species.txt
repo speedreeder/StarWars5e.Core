@@ -21,59 +21,61 @@
 |	Droid, Class III	|	15	|
 |	Droid, Class IV 	|	16	|
 |	Dug	                |	17	|
-|	Ewok	            |	18	|
-|	Falleen	            |	19	|
-|	Felucian        	|	20	|
-|	Gamorrean       	|	21	|
-|	Gand            	|	22	|
-|	Geonosian       	|	23	|
-|	Givin	            |	24	|
-|	Gotal	            |	25	|
-|	Gran	            |	26	|
-|	Gungan	            |	27	|
-|	Harch	            |	28	|
-|	Herglic	            |	29	|
-|	Iktotchi	        |	30	|
-|	Ithorian	        |	31	|
-|	Kaleesh	            |	32	|
-|	Kaminoan        	|	33	|
-|	Karkarodon          |	34	|
+|	Echani	            |	18	|
+|	Ewok	            |	19	|
+|	Falleen	            |	20	|
+|	Felucian        	|	21	|
+|	Gamorrean       	|	22	|
+|	Gand            	|	23	|
+|	Geonosian       	|	24	|
+|	Givin	            |	25	|
+|	Gotal	            |	26	|
+|	Gran	            |	27	|
+|	Gungan	            |	28	|
+|	Half-Human          |	29	|
+|	Harch	            |	30	|
+|	Herglic	            |	31	|
+|	Iktotchi	        |	32	|
+|	Ithorian	        |	33	|
+|	Kaleesh	            |	34	|
+|	Kaminoan        	|	35	|
 
 |||
 |:--|--:|
-|	Killik	            |	35	|
-|	Kubaz           	|	36	|
-|	Kushiban        	|	37	|
-|	Kyuzo           	|	38	|
-|	Lannik          	|	39	|
-|	Lasat	            |	40	|
-|	Miraluka        	|	41	|
-|	Mirialan        	|	42	|
-|	Muun	            |	43	|
-|	Nautolan        	|	44	|
-|	Noghri          	|	45	|
-|	Ortolan         	|	46	|
-|	Quarren	            |	47	|
-|	Rattataki	        |	48	|
-|	Rishii	            |	49	|
-|	Selkath	            |	50	|
-|	Shistavanen	        |	51	|
-|	Squib	            |	52	|
-|	Sullustan	        |	53	|
-|	Talz            	|	54	|
-|	Thisspiasian       	|	55	|
-|	Togorian           	|	56	|
-|	Toydarian       	|	57	|
-|	Tusken	            |	58	|
-|	Ugnaught	        |	59	|
-|   Umbaran             |   60  |
-|	Verpine	            |	61	|
-|	Voss	            |	62	|
-|	Vurk            	|	63	|
-|	Weequay	            |	64	|
-|	Yevetha             |	65	|
-|	Zeltron             |	66	|
-|	Zygerrian           |	67	|
+|	Karkarodon          |	36	|
+|	Killik	            |	37	|
+|	Kubaz           	|	38	|
+|	Kushiban        	|	39	|
+|	Kyuzo           	|	40	|
+|	Lannik          	|	41	|
+|	Lasat	            |	42	|
+|	Miraluka        	|	43	|
+|	Mirialan        	|	44	|
+|	Muun	            |	45	|
+|	Nautolan        	|	46	|
+|	Noghri          	|	47	|
+|	Ortolan         	|	48	|
+|	Quarren	            |	49	|
+|	Rattataki	        |	50	|
+|	Rishii	            |	51	|
+|	Selkath	            |	52	|
+|	Shistavanen	        |	53	|
+|	Squib	            |	54	|
+|	Sullustan	        |	55	|
+|	Talz            	|	56	|
+|	Thisspiasian       	|	57	|
+|	Togorian           	|	58	|
+|	Toydarian       	|	59	|
+|	Tusken	            |	60	|
+|	Ugnaught	        |	61	|
+|   Umbaran             |   62  |
+|	Verpine	            |	63	|
+|	Voss	            |	64	|
+|	Vurk            	|	65	|
+|	Weequay	            |	66	|
+|	Yevetha             |	67	|
+|	Zeltron             |	68	|
+|	Zygerrian           |	69	|
 
 </div>
 
@@ -1083,7 +1085,7 @@ As a class II droid, you have the following special traits.
 
 ***Maintenance Mode.*** Rather than sleep, you enter an inactive state to perform routine maintenance for 4 hours each day. You have disadvantage on Wisdom (Perception) checks while performing maintenance.
 
-***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your hit dice to recover hit points. 
+***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points. 
 
 ***Retractible Arms.*** You have two retractible arms: one grasper and one manipulator. The manipulator arm can only wield weapons and shield generators with the *light* property.
 
@@ -1175,7 +1177,7 @@ As a class III droid, you have the following special traits.
 
 ***Maintenance Mode.*** Rather than sleep, you enter an inactive state to perform routine maintenance for 4 hours each day. You have disadvantage on Wisdom (Perception) checks while performing maintenance.
 
-***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your hit dice to recover hit points. 
+***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points. 
 
 ***Languages.*** You can speak, read, and write all registered languages.
 
@@ -1259,7 +1261,7 @@ As a class IV droid, you have the following special traits.
 
 ***Martial Protocol.*** You have proficiency with light and medium armor as well as two simple or martial blasters or vibroweapons of your choice.
 
-***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your hit dice to recover hit points. 
+***Rapid Reconstruction.*** You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points. 
 
 ***Languages.*** You can speak, read, and write Galactic Basic and one language of your choice.
 
@@ -1347,6 +1349,85 @@ As a dug, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Dug.
 
 <img src='https://www.gmbinder.com/images/EC4z4yc.jpg' style='position:absolute;top:42px;right:100px;width:283px;mix-blend-mode:darken' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+> ## Echani
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Pale tones|
+> |***Hair Color***|  |White|
+> |***Eye Color***|  |Silver|
+> |***Distinctions***|  |Fair skin, white hair and eyes, remarkable familial similarity.|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'1"|+1d10"|
+> |***Weight***|  |105 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Eshan|
+> |***Language***|  |Galactic Basic|
+
+<div style='margin-top:85px'></div>
+
+### Biology and Appearance
+Echani are characterized by their white skin, hair, and eyes, and their remarkable tendency to look very much alike one another to outside observers, particularly amongst family members. It is thought that their origins stem from Arkanian experimentation on the human genome, a hypothesis that could explain their physical conformity.
+
+### Society and Culture
+A matriarchal, caste-based society originating from the Inner Rim world of Eshan, the echani spread to encompass a confederacy of six worlds including Bengali and Thyrsus, known as the Six Sisters, governed by the all-female Echani Command. 
+	
+Echani generals are sometimes seen by others as having the ability to predict their opponent's next move. This is no biologicial trait inherent to the species, but rather stems from the fact that combat is so ingrained into every level of echani culture; the echani hold to the idea that combat is the truest form of communication, and to know someone fully, you must fight them. While their combat rituals require complete freedom of movement and unarmed martial arts, in warfare, they tend towards light armor and melee weapons, and are considered excellent craftsmen of such.
+
+### Names
+Echani names tend to lack hard consonants, but are otherwise as variable as human ones. Echani surnames are tied directly to their place in the caste system.
+
+**Male Names.** Caelian, Inarin, Losor, Uelis, Yusanis 
+
+**Female Names.** Astri, Brianna, Isena, Raskta, Senriel
+
+**Surnames.** Authal, Elysi, Fenni, Kinro, Lsu
+
+\columnbreak
+
+<div style='margin-top:340px'></div>
+
+### Echani Traits
+As an Echani, you have the following special traits.
+
+***Ability Score Increase.*** Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Echani reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Echani culture's emphasis on honor and combat cause them to tend towards lawful alignments, though there are exceptions.
+
+***Size.*** Echani stand between 5 and a half and 6 feet tall and weigh around 150 lbs, with little variation between them. Your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Allies of the Force.*** Whenever you make a Wisdom (Insight) check against someone you know to wield the Force, you are considered to have expertise in the Insight skill.
+
+***Unarmed Combatant.*** Your unarmed strikes deal 1d6 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+***Echani Art.*** If a humanoid you can see makes a melee weapon attack, you can use your reaction to make a Wisdom (Insight) check against the target's Charisma (Deception). On a success you learn one of the following traits about that creature: it's Strength, Dexterity or Constitution score; bonus to Strength, Dexterity or Constitution saving throws; armor class; or current hit points. On a failure, the target becomes immune to this feature for one day. You can use this ability a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses on a long rest.
+
+***Combative Culture.*** You have proficiency in Lore and Acrobatics.
+
+***Martial Upbringing.*** You have proficiency in light armor, and gain proficiency with two martial vibroweapons of your choice.
+
+***Languages.*** You can speak, read, and write Galactic Basic and one extra language of your choice.
+
+<img src='https://www.gmbinder.com/images/vJMdYRf.png' style='position:absolute; top:20px; right:-30px; width:400px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2109,6 +2190,146 @@ As a Gungan, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Gungan. When speaking Galactic Basic, you often have trouble with word tenses and infinitives; this usually has a comical effect.
 
 <img src='https://www.gmbinder.com/images/Z4hnjr8.png' style='position:absolute;top:16px;right:27px;width:380px;mix-blend-mode:darken' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+___
+> ## Half-Human
+> <div class='wide' style='column-count:4'>
+> 
+> |||
+> |:--:|:--:|
+> |Aqualish|Darkvision|
+> |Ardennian|Darkvision<br> Prehensile Tail|
+> |Barabel|Darkvision<br> Prehensile Tail|
+> |Besalisk|Powerful Build|
+> |Bith|Detail Oriented|
+> |Bothan|Naturally Stealth|
+> |Cathar|Feline Agility|
+> |Cerean|Keen Mind|
+> |Chadra-Fan|Second Heart|
+> |Chagrian|Darkvision|
+> |Chevin|Keen Hearing|
+> |Chiss|Darkvision|
+> |Codru-Ji|Keen Hearing|
+> |Devaronian|Two Livered|
+> |Draethos|Darkvision|
+> |Dug|Fury of the Small|
+> |Duros|Darkvision|
+> |Echani|Combative Culture|
+> |Ewok|Nimbleness|
+> |Falleen|Closed Mind|
+> 
+> |||
+> |:--:|:--:|
+> |Gamorrean|Savage Attacks|
+> |Gand|Lungless|
+> |Geonosian|Geonosian Weaponry|
+> |Givin|Vacuum Sealed|
+> |Gotal|Natural Empathy|
+> |Gran|Keen Sight|
+> |Gungan|Martial Proficiency|
+> |Harch|Venomous Fangs|
+> |Herglic|Toughness|
+> |Iktotchi|Precognition|
+> |Ithorian|Hold Breath|
+> |Jawa|Grovel, Cower,<br> and Beg|
+> |Kaleesh|Darkvision|
+> |Karkarodon|Aggressive|
+> |Kel Dor|Darkvision|
+> |Killik|Carapace|
+> |Kubaz|Darkvision|
+> |Kushiban|Grovel, Cower,<br> and Beg|
+> |Kyuzo|Darkvision|
+> 
+> |||
+> |:--:|:--:|
+> |Lannik|Force Attunement|
+> |Lasat|Powerful Build|
+> |Miraluka|Force Sight|
+> |Mirialan|Spiritual|
+> |Mon Calamari|Darkvision|
+> |Muun|Second Heart|
+> |Nautolan|Darkvision|
+> |Noghri|Keen Smell|
+> |Ortolan|Grovel, Cower,<br> and Beg|
+> |Quarren|Keen Hearing|
+> |Rattataki|Surprise Attack|
+> |Rishii|Keen Hearing<br> and Sight|
+> |Rodian|Darkvision|
+> |Selkath|Venomous Claws|
+> |Shistavanen|Darkvision<br> Forced March|
+> |Sith|Darkvision|
+> |Squib|Keen Smell|
+> 
+> |||
+> |:--:|:--:|
+> |Sullustan|Darkvision|
+> |Talz|Darkvision|
+> |Thisspiasian|Prehensile Tail|
+> |Togorian|Toughness|
+> |Togruta|Darkvision|
+> |Toydarian|Closed Mind|
+> |Trandoshan|Saving Face|
+> |Tusken|Aggressive|
+> |Twi'lek|Darkvision|
+> |Ugnaught|Darkvision<br> Bite|
+> |Umbaran|Darkvision|
+> |Verpine|Hardened Carapace|
+> |Voss|Darkvision|
+> |Vurk|Darkvision|
+> |Weequay|Darkvision|
+> |Wookiee|Darkvision|
+> |Yevetha|Aggressive|
+> |Zabrak|Darkvision|
+> |Zeltron|Two Livered|
+> |Zygerrian|Darkvision|
+> 
+> </div>
+
+<br>
+
+<div style='margin-top:51px'></div>
+
+### Biology and Appearance
+The appearance and biological features of half-humans vary drastically by each species, but tend to fall somewhere in the middle. A common side-effect of a species interbreeding with humans is the loss of darkvision and tails.
+
+### Society and Culture
+Half-humans are subjects of two separate cultures, but belong in neither. A half-human might be raised amongst humans or their other half, or might be fully ostracized, instead growing up in a remote, isolated place, removed from both species.
+
+> #### Traits
+> Half-humans gain the ***Defiant*** special trait from their human half. They also gain the special traits from their non-human half, except for those trait(s) mentioned in the Half-Human table above.
+
+### Names
+Half-human names might follow human conventions, or that of the other half. Often, they blend the two in some fashion, perhaps taking a human surname, with a special name.
+
+\columnbreak
+
+<br>
+
+<div style='margin-top:42px'></div>
+
+### Half-human Traits
+As a half-human, you have the following special traits.
+
+***Ability Score Increase.*** Half-humans gain the ability score increases of their non-human half, but they can choose any ability score for one of the options, instead of the given option. 
+
+***Age.*** Half-humans live around the average of the two species' lifespans.
+
+***Alignment.*** Half-humans tend towards their non-human half's alignment.
+
+***Size.*** Half-humans stand and weigh around the average of the two species' height and weight. Regardless of your position in that range, your size is the size of your non-human half.
+
+***Speed.*** Your base walking speed is that of your non-human half.
+
+***Defiant.*** Half-humans are known to be stubborn and often refuse to give up, even against the worst odds. You can add a d4 to a skill check or saving throw, after rolling but before you know the outcome. You must then finish a short or long rest before you can use this feature again.
+
+***Languages.*** You can speak, read, and write Galactic Basic, regardless of whether or not the non-human half can speak it, and the language(s) associated with your non-human half.
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

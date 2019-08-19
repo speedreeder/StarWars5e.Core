@@ -287,6 +287,19 @@ namespace StarWars5e.Parser.Parsers
                     }
                 }
 
+                if (name == "Half-Human")
+                {
+                    var tableLines = speciesLines.Where(c => Regex.IsMatch(c, @"^>\s*\|[A-Za-z]+")).ToList();
+
+                    foreach (var tableLine in tableLines)
+                    {
+                        var specie = tableLine.Split('|')[1].Trim();
+                        var traits = tableLine.Split('|')[2].Trim();
+
+                        species.HalfHumanTableEntries.Add(specie, traits);
+                    }
+                }
+
                 return species;
             }
             catch (Exception e)
@@ -360,6 +373,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Duros":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_duros.png");
+                        break;
+                    case "Echani":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_echani.png");
                         break;
                     case "Ewok":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_ewok.png");
