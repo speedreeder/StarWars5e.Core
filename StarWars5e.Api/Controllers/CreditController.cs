@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.IO;
+using System.Net.Mime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using StarWars5e.Models;
-using Wolnik.Azure.TableStorage.Repository;
+using Microsoft.WindowsAzure.Storage.Blob;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -10,18 +10,26 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class CreditController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly CloudBlobClient _cloudBlobClient;
 
-        public CreditController(ITableStorage tableStorage)
+        public CreditController(CloudBlobClient cloudBlobClient)
         {
-            _tableStorage = tableStorage;
+            _cloudBlobClient = cloudBlobClient;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<BaseEntity>>> Get()
+        public async Task<ActionResult<string>> Get()
         {
-            var credits = await _tableStorage.GetAllAsync<BaseEntity>("credits");
-            return Ok(credits);
+            var container = _cloudBlobClient.GetContainerReference("credits");
+            var blockBlob = container.GetBlockBlobReference("credits.txt");
+
+            var stream = new MemoryStream();
+            await blockBlob.DownloadToStreamAsync(stream);
+
+            stream.Seek(0, SeekOrigin.Begin);
+            var x = new StreamReader(stream).ReadToEnd();
+
+            return Ok(x);
         }
     }
 }

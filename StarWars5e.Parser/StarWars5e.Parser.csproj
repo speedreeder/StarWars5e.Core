@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Sources\Credits.txt" />
     <None Remove="Sources\EC_Archetypes.md" />
     <None Remove="Sources\ec_archetypes.txt" />
     <None Remove="Sources\EC_Backgrounds.md" />
@@ -18,6 +19,7 @@
     <None Remove="Sources\EC_Species.md" />
     <None Remove="Sources\ec_species.txt" />
     <None Remove="Sources\ec_variantrules.txt" />
+    <None Remove="Sources\FAQ.txt" />
     <None Remove="Sources\MM.md" />
     <None Remove="Sources\mm.txt" />
     <None Remove="Sources\PHB\phb_-1.txt" />
@@ -58,11 +60,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Sources\Credits.txt" />
     <EmbeddedResource Include="Sources\ec_archetypes.txt" />
     <EmbeddedResource Include="Sources\ec_backgrounds.txt" />
     <EmbeddedResource Include="Sources\ec_customization_options.txt" />
     <EmbeddedResource Include="Sources\ec_equipment.txt" />
     <EmbeddedResource Include="Sources\ec_species.txt" />
+    <EmbeddedResource Include="Sources\FAQ.txt" />
     <EmbeddedResource Include="Sources\mm.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_-1.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_00.txt" />

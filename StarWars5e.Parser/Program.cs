@@ -57,6 +57,7 @@ namespace StarWars5e.Parser
             var wretchedHivesManager = new WretchedHivesManager(serviceProvider.GetService<ITableStorage>(),
                 serviceProvider.GetService<CloudStorageAccount>(),
                 serviceProvider.GetService<GlobalSearchTermRepository>());
+            var creditsManager = new CreditsManager(serviceProvider.GetService<CloudStorageAccount>());
 
             var referenceTables = await referenceTableManager.Parse();
             await starshipManager.Parse(referenceTables);
@@ -69,6 +70,7 @@ namespace StarWars5e.Parser
             await extendedContentCustomizationOptionsManager.Parse();
             await wretchedHivesManager.Parse();
             await playerHandbookManager.Parse();
+            await creditsManager.Parse();
 
             try
             {
