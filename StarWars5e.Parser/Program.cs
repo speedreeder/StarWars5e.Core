@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Parser.Managers;
-using StarWars5e.Parser.Parsers.PHB;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser
@@ -34,12 +33,18 @@ namespace StarWars5e.Parser
             var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider.GetService<ITableStorage>(),
                 serviceProvider.GetService<CloudStorageAccount>(),
                 serviceProvider.GetService<GlobalSearchTermRepository>());
-            var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-            var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-            var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-            var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-            var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
+            var monsterManualManager = new MonsterManualManager(serviceProvider.GetService<ITableStorage>(),
+                serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(
+                serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(
+                serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(
+                serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(
+                serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentVariantRulesManager =
+                new ExpandedContentVariantRulesManager(serviceProvider.GetService<CloudStorageAccount>());
             var extendedContentCustomizationOptionsManager = new ExpandedContentCustomizationOptionsManager(
                 serviceProvider.GetService<ITableStorage>(),
                 serviceProvider.GetService<GlobalSearchTermRepository>());
@@ -47,8 +52,12 @@ namespace StarWars5e.Parser
                 serviceProvider.GetService<CloudStorageAccount>(),
                 serviceProvider.GetService<GlobalSearchTermRepository>());
             var referenceTableManager = new ReferenceTableManager(serviceProvider.GetService<ITableStorage>());
-            var searchManager = new SearchManager(serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
-
+            var searchManager = new SearchManager(serviceProvider.GetService<ITableStorage>(),
+                serviceProvider.GetService<GlobalSearchTermRepository>());
+            var wretchedHivesManager = new WretchedHivesManager(serviceProvider.GetService<ITableStorage>(),
+                serviceProvider.GetService<CloudStorageAccount>(),
+                serviceProvider.GetService<GlobalSearchTermRepository>());
+            var creditsManager = new CreditsManager(serviceProvider.GetService<CloudStorageAccount>());
 
             var referenceTables = await referenceTableManager.Parse();
             await starshipManager.Parse(referenceTables);
@@ -59,7 +68,9 @@ namespace StarWars5e.Parser
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
             await extendedContentCustomizationOptionsManager.Parse();
+            await wretchedHivesManager.Parse();
             await playerHandbookManager.Parse();
+            await creditsManager.Parse();
 
             try
             {

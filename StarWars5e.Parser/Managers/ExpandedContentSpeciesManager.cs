@@ -32,7 +32,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var specie in species)
                 {
                     var specieSearchTerm = _globalSearchTermRepository.CreateSearchTerm(specie.Name, GlobalSearchTermType.Species, ContentType.ExpandedContent,
-                        $"/reference/species/{specie.Name}");
+                        $"/characters/species/{specie.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
                 }
 

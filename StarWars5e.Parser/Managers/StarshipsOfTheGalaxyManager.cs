@@ -152,12 +152,12 @@ namespace StarWars5e.Parser.Managers
                         case StarshipEquipmentType.Hyperdrive:
                         case StarshipEquipmentType.Navcomputer:
                             var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(starshipEquipment.Name, GlobalSearchTermType.StarshipEquipment, ContentType.Core,
-                                $"/reference/starshipEquipment?search={starshipEquipment.Name}");
+                                $"/starships/equipment?search={starshipEquipment.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
                             break;
                         case StarshipEquipmentType.Weapon:
                             var weaponSearchTerm = _globalSearchTermRepository.CreateSearchTerm(starshipEquipment.Name, GlobalSearchTermType.StarshipWeapon, ContentType.Core,
-                                $"/reference/starshipWeapons?search={starshipEquipment.Name}");
+                                $"/starships/weapons?search={starshipEquipment.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(weaponSearchTerm);
                             break;
                         default:
@@ -195,7 +195,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var modification in modifications)
                 {
                     var modificationSearchTerm = _globalSearchTermRepository.CreateSearchTerm(modification.Name, GlobalSearchTermType.StarshipModification, ContentType.Core,
-                        $"/reference/starshipModifications?search={modification.Name}");
+                        $"/starships/modifications?search={modification.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(modificationSearchTerm);
                 }
 
@@ -214,7 +214,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var size in sizes)
                 {
                     var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(size.Name, GlobalSearchTermType.StarshipSize, ContentType.Core,
-                        $"/starships/starshipSizes/{size.Name}");
+                        $"/rules/starships/starshipSizes/{size.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
 
@@ -233,7 +233,7 @@ namespace StarWars5e.Parser.Managers
                 foreach (var venture in ventures)
                 {
                     var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(venture.Name, GlobalSearchTermType.Venture, ContentType.Core,
-                        $"/reference/ventures?search={venture.Name}");
+                        $"/starships/ventures?search={venture.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
                 await _tableStorage.AddBatchAsync<StarshipVenture>("starshipVentures", ventures,

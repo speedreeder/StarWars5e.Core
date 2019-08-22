@@ -18,6 +18,11 @@ namespace StarWars5e.Models.Utils
             return input.Replace(">", string.Empty).Replace("*", string.Empty);
         }
 
+        public static string RemoveUnderscores(this string input)
+        {
+            return input.Replace("_", string.Empty);
+        }
+
         public static bool IsJustHtmlOrOtherWhitespace(this string input)
         {
             return string.IsNullOrWhiteSpace(input.RemoveHtmlWhitespace());
@@ -28,6 +33,11 @@ namespace StarWars5e.Models.Utils
             input = input.Replace("\\", string.Empty).Replace("/", string.Empty);
 
             return input;
+        }
+
+        public static string RemovePlaceholderCharacter(this string input)
+        {
+            return input.Replace("�", string.Empty);
         }
 
         public static string ToKebabCase(this string value)

@@ -66,13 +66,13 @@ namespace StarWars5e.Parser.Managers
                         case EquipmentCategory.Kit:
                             var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment.Name,
                                 GlobalSearchTermType.AdventuringGear, ContentType.ExpandedContent,
-                                $"/reference/adventuringGear/?search={equipment.Name}");
+                                $"/loot/adventuringGear/?search={equipment.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
                             break;
                         case EquipmentCategory.Weapon:
                             var weaponSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment.Name,
                                 GlobalSearchTermType.Weapon, ContentType.ExpandedContent,
-                                $"/reference/weapons/?search={equipment.Name}");
+                                $"/loot/weapons/?search={equipment.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(weaponSearchTerm);
                             break;
                         case EquipmentCategory.Armor:
@@ -84,7 +84,7 @@ namespace StarWars5e.Parser.Managers
 
                             var armorSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment.Name,
                                 searchTermType, ContentType.ExpandedContent,
-                                $"/reference/armor/?search={equipment.Name}");
+                                $"/loot/armor/?search={equipment.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(armorSearchTerm);
                             break;
                         default:

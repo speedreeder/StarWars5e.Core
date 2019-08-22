@@ -9,6 +9,7 @@ namespace StarWars5e.Models.Species
         public Species()
         {
             ImageUrls = new List<string>();
+            HalfHumanTableEntries = new Dictionary<string, string>();
         }
         public string Name { get; set; }
         public string SkinColorOptions { get; set; }
@@ -42,5 +43,11 @@ namespace StarWars5e.Models.Species
             set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
         public string Size { get; set; }
+        public Dictionary<string,string> HalfHumanTableEntries { get; set; }
+        public string HalfHumanTableEntriesJson
+        {
+            get => HalfHumanTableEntries == null ? "" : JsonConvert.SerializeObject(HalfHumanTableEntries);
+            set => HalfHumanTableEntries = JsonConvert.DeserializeObject<Dictionary<string, string>>(value);
+        }
     }
 }

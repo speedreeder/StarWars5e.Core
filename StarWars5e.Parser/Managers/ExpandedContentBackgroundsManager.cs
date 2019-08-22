@@ -33,7 +33,7 @@ namespace StarWars5e.Parser.Managers
                 {
                     var backgroundSearchTerm = _globalSearchTermRepository.CreateSearchTerm(background.Name,
                         GlobalSearchTermType.Background, ContentType.ExpandedContent,
-                        $"/reference/backgrounds/{background.Name}");
+                        $"/characters/backgrounds/{background.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
                 }
 
