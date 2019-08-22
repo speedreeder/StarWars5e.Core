@@ -53,10 +53,6 @@
     <None Remove="Sources\SOTG\sotg_10.txt" />
     <None Remove="Sources\SOTG\sotg_aa.txt" />
     <None Remove="Sources\SOTG\sotg_changelog.txt" />
-    <None Remove="Sources\WH\wh_02.txt" />
-    <None Remove="Sources\WH\wh_03-04.txt" />
-    <None Remove="Sources\WH\wh_05-11.txt" />
-    <None Remove="Sources\WH\wh_aa.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -126,6 +122,11 @@
     <None Update="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Parsers\WH\" />
+    <Folder Include="Sources\WH\" />
   </ItemGroup>
 
 </Project>
