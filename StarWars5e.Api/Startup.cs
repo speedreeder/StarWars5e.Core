@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Net;
 using System.Reflection;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using ElCamino.AspNetCore.Identity.AzureTable.Model;
@@ -109,10 +110,16 @@ namespace StarWars5e.Api
                         }
 
                         return Task.CompletedTask;
-                    }
+                    },
+                    //OnTokenValidated = context =>
+                    //{
+                    //    var x = context.Principal.FindFirst("id");
+
+                    //    throw new SecurityTokenValidationException();
+                    //    return Task.CompletedTask;
+                    //}
                 };
             });
-
 
             services.AddAuthorization(options =>
             {

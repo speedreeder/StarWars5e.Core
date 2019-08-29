@@ -40,7 +40,7 @@ namespace StarWars5e.Api.Controllers
             var token = Request.Cookies["sw5e_accessToken"];
             var refreshToken = Request.Cookies["sw5e_refreshToken"];
 
-            var principal = GetPrincipalFromExpiredToken(token);
+            var principal = GetPrincipalFromToken(token);
             var userId = principal.FindFirst(c => c.Type == Constants.Strings.JwtClaimIdentifiers.Id);
             var localUser = await _userManager.FindByIdAsync(userId.Value);
             var savedRefreshToken = localUser.RefreshToken;
@@ -77,17 +77,20 @@ namespace StarWars5e.Api.Controllers
         {
             var token = Request.Cookies["sw5e_accessToken"];
 
-            var principal = GetPrincipalFromExpiredToken(token);
+            var principal = GetPrincipalFromToken(token);
             var userId = principal.FindFirst(c => c.Type == Constants.Strings.JwtClaimIdentifiers.Id);
             var localUser = await _userManager.FindByIdAsync(userId.Value);
 
             localUser.RefreshToken = null;
             await _userManager.UpdateAsync(localUser);
 
+            Response.Cookies.Delete("sw5e_accessToken");
+            Response.Cookies.Delete("sw5e_refreshToken");
+
             return Ok();
         }
 
-        private ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
+        private ClaimsPrincipal GetPrincipalFromToken(string token)
         {
             var tokenValidationParameters = new TokenValidationParameters
             {
