@@ -46,7 +46,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             return Task.FromResult(powers);
         }
 
-        public static Power ParsePower(List<string> powerLines, ContentType contentType, string rowKeyOverride)
+        public Power ParsePower(List<string> powerLines, ContentType contentType, string rowKeyOverride)
         {
             var name = powerLines[0].Split("####")[1].Trim();
 
