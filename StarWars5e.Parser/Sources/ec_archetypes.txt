@@ -27,46 +27,47 @@
 |&emsp;Adept Specialist         |26|
 |&emsp;Demolitions Specialist   |28|
 |&emsp;Enhancement Specialist   |29|
-|&emsp;Mounted Specialist       |31|
+|&emsp;Heavy Weapons Specialist |31|
+|&emsp;Mounted Specialist       |32|
 |Guardian||
-|&emsp;Form IV: Ataru           |32|
-|&emsp;Form V: Djem So          |33|
-|&emsp;Form VI: Niman           |34|
-|&emsp;Form VII: Juyo           |35|
-|&emsp;Form VIII: Sokan         |36|
-|&emsp;Form IX: Trakata         |37|
-|&emsp;Form X: Jar'Kai          |38|
+|&emsp;Form IV: Ataru           |33|
+|&emsp;Form V: Djem So          |34|
+|&emsp;Form VI: Niman           |35|
+|&emsp;Form VII: Juyo           |36|
+|&emsp;Form VIII: Sokan         |37|
+|&emsp;Form IX: Trakata         |38|
+|&emsp;Form X: Jar'Kai          |39|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |39|
-|&emsp;Jal Shey Order           |40|
-|&emsp;Matukai Order            |41|
-|&emsp;Whills Order             |42|
+|&emsp;Aing-Tii Order           |40|
+|&emsp;Jal Shey Order           |41|
+|&emsp;Matukai Order            |42|
+|&emsp;Whills Order             |43|
 |Operative||
-|&emsp;Beguiler Practice        |43|
-|&emsp;Disabling Practice       |45|
-|&emsp;Ruffian Practice         |46|
-|&emsp;Sawbones Practice        |47|
+|&emsp;Beguiler Practice        |44|
+|&emsp;Disabling Practice       |46|
+|&emsp;Ruffian Practice         |47|
+|&emsp;Sawbones Practice        |48|
 |Scholar||
-|&emsp;Chef Pursuit             |48|
-|&emsp;Explorer Pursuit         |50|
-|&emsp;Gambler Pursuit          |52|
-|&emsp;Slicer Pursuit           |54|
-|&emsp;Zoologist Pursuit        |56|
+|&emsp;Chef Pursuit             |49|
+|&emsp;Explorer Pursuit         |51|
+|&emsp;Gambler Pursuit          |53|
+|&emsp;Slicer Pursuit           |55|
+|&emsp;Zoologist Pursuit        |57|
 |Scout||
-|&emsp;Bulwark Technique        |60|
-|&emsp;Illusionist Technique    |61|
-|&emsp;Inquisitor Technique     |62|
-|&emsp;Predator Technique       |63|
-|&emsp;Slayer Technique         |64|
+|&emsp;Bulwark Technique        |61|
+|&emsp;Illusionist Technique    |62|
+|&emsp;Inquisitor Technique     |63|
+|&emsp;Predator Technique       |64|
+|&emsp;Slayer Technique         |65|
 |Sentinel||
-|&emsp;Path of Communion        |65|
-|&emsp;Path of the Corsair      |66|
-|&emsp;Path of the Forceblade   |67|
-|&emsp;Path of Synthesis        |68|
-|&emsp;Path of Tenacity         |69|
+|&emsp;Path of Communion        |66|
+|&emsp;Path of the Corsair      |67|
+|&emsp;Path of the Forceblade   |68|
+|&emsp;Path of Synthesis        |69|
+|&emsp;Path of Tenacity         |70|
 
 </div>
 
@@ -1192,7 +1193,7 @@ At 14th level, you gain a modicum of control over your surges. Whenever you roll
 ### Engineering Bombardment
 Starting at 18th level, the harmful energies of your tech powers and class features intensify. When you roll damage for a tech power or class feature and roll the highest number possible on any of the dice, you can roll it again and use both results. You can only use this ability once per tech power or class feature.
 
-<img src='https://cdn.discordapp.com/attachments/469499280994992128/605948299869945856/Trapgineer.png' style='position:absolute;bottom:0px;right:-10px;width:640px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/x1HwRx9.png' style='position:absolute;bottom:0px;right:-10px;width:640px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
@@ -1493,6 +1494,41 @@ Starting at 15th level, your enhanced ammunition is available whenever battle st
 
 ### Ammunition Upgrades
 At 18th level, your ammunition enhancements improve.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
+\pagebreak
+
+## Heavy Weapons Specialist
+Some manned instruments of war require their user to have superior physical prowess to overcome their weight and encumbrance. Those fighters who choose to become Heavy Weapons Specialists use their powerful bodies, and powerful armaments, to overwhelm their foes.
+
+### Rock Steady
+When you choose this specialty at 3rd level, you have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
+
+### My Little Friend Says Hello There
+Also at 3rd level, you know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the heavy or strength properties that doesn't already include that modifier.
+
+Additionally, if your size is Small, you no longer have disadvantage on attack rolls with heavy weapons due to being Small.
+
+### Maximum Output
+Beginning at 7th level, when you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks.<br> If you do so, you deal additional damage the<br> first time you hit with an attack roll before<br> the end of your next turn. For each attack<br> you forgo in this fashion, you deal extra<br> damage equal to 1d12 + half your<br> fighter level (rounded down). If you<br> miss with the first attack roll you<br> make before the end of your next<br> turn, you instead deal normal weapon<br> damage.
+
+### Straight Through
+At 10th level, when you score a critical<br> hit on your turn while wielding a<br> weapon with the heavy or<br> strength properties, you can<br> make one weapon attack<br> against a creature within 5<br> feet of the target using<br> your reaction.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Overwhelm
+Starting at 15th level, when you use your Second Wind while wielding a weapon with the heavy or strength properties, if you hit with the first attack roll you make before the end of your next turn, you treat the hit as a critical hit. If you miss with the first attack roll you make before the end of your next turn, you instead treat the miss as a hit.
+
+### Pure Performance
+At 18th level, attack rolls you make while wielding a weapon with the heavy or strength properties can't suffer from disadvantage.
+
+<img src='https://www.gmbinder.com/images/0MwwE14.png' style='position:absolute; bottom:0px; right:-24px; width:670px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 

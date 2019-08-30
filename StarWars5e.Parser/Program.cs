@@ -48,6 +48,8 @@ namespace StarWars5e.Parser
             var extendedContentCustomizationOptionsManager = new ExpandedContentCustomizationOptionsManager(
                 serviceProvider.GetService<ITableStorage>(),
                 serviceProvider.GetService<GlobalSearchTermRepository>());
+            var extendedContentForcePowersManager = new ExpandedContentForcePowersManager(
+                serviceProvider.GetService<ITableStorage>(), serviceProvider.GetService<GlobalSearchTermRepository>());
             var playerHandbookManager = new PlayerHandbookManager(serviceProvider.GetService<ITableStorage>(),
                 serviceProvider.GetService<CloudStorageAccount>(),
                 serviceProvider.GetService<GlobalSearchTermRepository>());
@@ -68,6 +70,7 @@ namespace StarWars5e.Parser
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
             await extendedContentCustomizationOptionsManager.Parse();
+            await extendedContentForcePowersManager.Parse();
             await wretchedHivesManager.Parse();
             await playerHandbookManager.Parse();
             await creditsManager.Parse();

@@ -52,8 +52,8 @@ namespace StarWars5e.Parser.Parsers.WH
                     var valueLine = enhancedItemLines.Find(f => f.StartsWith("**Value"));
                     if (valueLine != null)
                     {
-                        var costMatch = Regex.Matches(valueLine.RemoveMarkdownCharacters(), @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)(?!\S)");
-                        enhancedItem.ValueOptions = costMatch.Select(c => int.Parse(c.Value, NumberStyles.AllowThousands)).ToList();
+                        var costMatch = Regex.Matches(valueLine.RemoveMarkdownCharacters(), @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)x*(?!\S)*");
+                        enhancedItem.ValueOptions = costMatch.Select(c => c.Value).ToList();
                         enhancedItem.ValueText = valueLine.RemoveMarkdownCharacters().Split(':')[1].RemoveUnderscores();
                     }
 
@@ -138,21 +138,45 @@ namespace StarWars5e.Parser.Parsers.WH
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.AdventuringGear;
                         var typeSplitCheck = typeSplit.Split('(').ElementAtOrDefault(1) ?? "";
-                        if (typeSplitCheck.ToLower().Contains("belt"))
+                        if (typeSplitCheck.ToLower().Contains("body"))
                         {
-                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Belt;
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Body;
                         }
-                        else if (typeSplitCheck.ToLower().Contains("boots"))
+                        else if (typeSplitCheck.ToLower().Contains("Feet"))
                         {
-                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Boots;
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Feet;
                         }
-                        else if (typeSplitCheck.ToLower().Contains("gloves"))
+                        else if (typeSplitCheck.ToLower().Contains("Finger"))
                         {
-                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Gloves;
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Finger;
                         }
-                        else if (typeSplitCheck.ToLower().Contains("neck"))
+                        else if (typeSplitCheck.ToLower().Contains("Hands"))
+                        {
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Hands;
+                        }
+                        else if (typeSplitCheck.ToLower().Contains("Head"))
+                        {
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Head;
+                        }
+                        else if (typeSplitCheck.ToLower().Contains("Neck"))
                         {
                             enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Neck;
+                        }
+                        else if (typeSplitCheck.ToLower().Contains("Legs"))
+                        {
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Legs;
+                        }
+                        else if (typeSplitCheck.ToLower().Contains("Shoulders"))
+                        {
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Shoulders;
+                        }
+                        else if (typeSplitCheck.ToLower().Contains("Waist"))
+                        {
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Waist;
+                        }
+                        else if (typeSplitCheck.ToLower().Contains("Wrists"))
+                        {
+                            enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Wrists;
                         }
                         else
                         {
@@ -209,6 +233,10 @@ namespace StarWars5e.Parser.Parsers.WH
                         else if (typeSplit.Split('(')[1].ToLower().Contains("stimpac"))
                         {
                             enhancedItem.ConsumableTypeEnum = ConsumableType.Stimpacs;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("barrier"))
+                        {
+                            enhancedItem.ConsumableTypeEnum = ConsumableType.Barriers;
                         }
                         else
                         {

@@ -10,7 +10,7 @@ namespace StarWars5e.Models.EnhancedItems
         public EnhancedItem()
         {
             RarityOptionsEnum = new List<EnhancedItemRarity>();
-            ValueOptions = new List<int>();
+            ValueOptions = new List<string>();
         }
         public string Name { get; set; }
         public EnhancedItemType TypeEnum { get; set; }
@@ -50,11 +50,11 @@ namespace StarWars5e.Models.EnhancedItems
             }
         }
         public bool RequiresAttunement { get; set; }
-        public List<int> ValueOptions { get; set; }
+        public List<string> ValueOptions { get; set; }
         public string ValueOptionsJson
         {
             get => ValueOptions == null ? "" : JsonConvert.SerializeObject(ValueOptions);
-            set => ValueOptions = JsonConvert.DeserializeObject<List<int>>(value);
+            set => ValueOptions = JsonConvert.DeserializeObject<List<string>>(value);
         }
         public string ValueText { get; set; }
         public string Text { get; set; }

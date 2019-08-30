@@ -73,6 +73,8 @@ Consumables are sub-categorized by their type: adrenals, explosives, medpacs, an
 
 ***Ammunition.*** Ammunition is unique sources of power for weapons. 
 
+***Barriers.*** Barriers offer temporary protection, usually to a single damage type, and rarely last longer than a minute.
+
 ***Explosives.*** Explosives, such as cryo grenades or thermal detonators, are designed to cause an effect in a radius that varies depending on their nature. 
 
 ***Medpacs.*** Medpacs are used to restore hit points to creatures other than droids and constructs.
@@ -195,23 +197,23 @@ In the future, if you choose an item of a rarity that's not available in the cur
 Modifying an item requires three key components: a modifiable item chassis, a modification to install, and the appropriate tools. An item can only be modified by someone proficient with appropriate tools, as shown in the Item Specific Tools table on page \_\_\_.
 
 ### Modifiable Item Chassis
-Item chassis can come with as few as one modification slot, and as many as six. The number of vacant modification slots is determined by the chassis's rarity, as shown below in the Modification Slots by Rarity table.
+Every item chassis comes with at least four modification slots, increasing to six at higher rarities, as determined by the chassis's rarity, as shown below in the Modification Slots by Rarity table.
 
 ##### Modification Slots by Rarity
 |Rarity|Modification Slots|
 |:--:|:--:|
-|<font style="color:#4a5568">Standard</font>|1|
-|<font style="color:green">Premium</font>|2|
-|<font style="color:blue">Prototype</font>|3|
-|<font style="color:purple">Advanced</font>|4|
-|<font style="color:#dd6b20">Legendary</font>|5|
+|<font style="color:#4a5568">Standard</font>|4|
+|<font style="color:green">Premium</font>|4|
+|<font style="color:blue">Prototype</font>|5|
+|<font style="color:purple">Advanced</font>|5|
+|<font style="color:#dd6b20">Legendary</font>|6|
 |<font style="color:red">Artifact</font>|6|
 
-Additionally, what specific slots on a chassis can be modified varies for each individual item. Each item has 6 potential modification slots; four of those slots are unique to item type or category, while the final two slots are always augment slots. For instance, a lightweapon has six potential modifications: lens, crystal, power cell, stabilizer, and two augment slots. 
+Every modifiable item chassis shares the same four slots, determined by their type, as shown in the Available Modification Slots table below. Prototype and advanced modifiable item chassis also have one augment slot, in addition to the four base slots for their type, while legendary and artifact modifiable item chassis have two augment slots.
 
-When generating a modifiable item chassis, the GM should roll a d100 to determine each modification slot randomly (rerolling repeated modification slots), as shown below in the Available Modification Slots table. For instance, a premium modifiable lightweapon has two modification slots available. When determining these slots randomly, if the GM rolls a 23 and a 91, the modifiable lightweapon has the crystal and augment slots available.
+A modifiable item chassis can only include modifications of the same rarity or a lesser rarity. For instance, if you have a prototype modifiable item chassis, you can modify it with standard, premium,<br> and prototype<br> modifications.<br> However, the<br> item's nature<br> does not<br> allow it to support high rarity modifications.
 
-Alternatively, a GM can choose which slots are available.
+<br><br><br><br><br><br>
 
 ### Installing Modifications
 Installing a modification takes one hour and requires an ability check with the required tool, as shown in the Item Specific Tools table on page \_\_\_. The DC for the check is determined by the rarity of the modification being installed, as shown below in the Installation and Removal DC by Rarity table.
@@ -234,7 +236,7 @@ Removing a modification requires an ability check with the required tool, as sho
 On a success, the modification is removed and salvaged. On a failure, the modification is removed but destroyed.
 
 ### Modifications by Item Type
-The modifications available varies for each individual item type. For instance, a blaster has six potential modifications: targeting, barrel, energy core, matrix, and two augment slots. Augments are universal across all modifiable item, while targeting, barrel, energy core, and matrix are unique to blasters.
+The modifications available varies for each individual item type. For instance, a blaster always has four modification slots—targeting, barrel, energy core, and matrix—and up to two augment slots, determined by its rarity. Augments are universal across all modifiable<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;items, while targeting, barrel,<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;energy core, and matrix<br>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;are unique to blasters.
 
 <br><br><br><br><br><br><br><br><br>
 
@@ -242,18 +244,16 @@ The modifications available varies for each individual item type. For instance, 
 
 ##### Available Modification Slots
 
-|d100|Blaster|Vibroweapon|Lightweapon|Focus Generator|Wristpad|Armor|Shield|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1-20|Targeting|Grip|Lens|Emitter|Processor|Overlay|Overlay|
-|21-40|Barrel|Edge|Crystal|Conductor|Motherboard|Underlay|Underlay|
-|41-60|Energy Core|Vibrator Cell|Power Cell|Energy Channel|Dataport|Reinforcement|Reinforcement|
-|61-80|Matrix|Projector|Stabilizer|Cycler|Storage|Armoring|Shielding|
-|81-90|Augment 1|Augment 1|Augment 1|Augment 1|Augment 1|Augment 1|Augment 1|
-|91-100|Augment 2|Augment 2|Augment 2|Augment 2|Augment 2|Augment 2|Augment 2|
+|Blaster|Vibroweapon|Lightweapon|Focus Generator|Wristpad|Armor|Shield|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Targeting|Grip|Lens|Emitter|Processor|Overlay|Overlay|
+|Barrel|Edge|Crystal|Conductor|Motherboard|Underlay|Underlay|
+|Energy Core|Vibrator Cell|Power Cell|Energy Channel|Dataport|Reinforcement|Reinforcement|
+|Matrix|Projector|Stabilizer|Cycler|Storage|Armoring|Shielding|
 
 </div>
 
-<img src='https://cdn.discordapp.com/attachments/469499280994992128/579500785495179286/image0.png' style='position:absolute;bottom:195px;right:50px;width:350px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/aeyZesI.png' style='position:absolute;bottom:135px;right:150px;width:540px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 6 | MODIFIABLE ITEMS</div>
 
@@ -304,14 +304,14 @@ _<font style="color:purple">Item modification (matrix), advanced</font>_
 The normal range of this weapon increases by 30 feet, and the long range increases by 60 feet. 
 
 ### Sample Item
-When generating this sample blaster, I elected to create a prototype blaster rifle, which would have three modification slots. When determining those slots randomly, I rolled a 33, a 46, and a 49. I rerolled the 49, since it granted the same slot as the 46, and got a 73, ending up with the following weapon:
+When generating this sample blaster, I elected to create a prototype blaster rifle, which would have five modification slots. This weapon can only support modifications of standard, premium, and prototype rarity.
 
-#### Modifiable Blaster Rifle
+#### Improved Blaster Rifle
 _<font style="color:blue">Weapon (blaster rifle), prototype (requires attunement)</font>_
 
 **Value:** 20,000 cr
 
-This weapon has modification slots appropriate for barrel, energy core, and matrix modifications.
+This weapon has modification slots appropriate for targeting, barrel, energy core, and matrix modifications, as well as one augment slot.
 
 \columnbreak
 
@@ -359,14 +359,14 @@ _<font style="color:blue">Item modification (projector), prototype</font>_
 As a bonus action, you can activate a hidden handle extender in this weapon to give it the *reach* property. This effect lasts for as long as you continue holding it, or retract the extender as a bonus action, removing the *reach* property.
 
 ### Sample Item
-When generating this sample vibroweapon, I elected to create an advanced vibrosword, which would have four modification slots. When determining those slots randomly, I rolled a 12, a 45, a 73, and a 91, ending up with the following weapon:
+When generating this sample vibroweapon, I elected to create an advanced vibrosword, which would have five modification slots. This weapon can only support modifications of standard, premium, prototype, and advanced rarity.
 
-#### Modifiable Vibrosword
+#### Superior Vibrosword
 _<font style="color:purple">Weapon (vibrosword), advanced (requires attunement)</font>_
 
 **Value:** 78,000 cr
 
-This weapon has modification slots appropriate for grip, vibrator cell, projector, and one augment modifications.
+This weapon has modification slots appropriate for grip, edge, vibrator cell, and projector modifications, as well as one augment slot.
 
 <div class='footnote'>CHAPTER 6 | MODIFIABLE ITEMS</div>
 
@@ -416,14 +416,14 @@ _<font style="color:green">Item modification (stabilizer), premium</font>_
 When you take the Attack action and hit a creature with this weapon, you can repeat the attack against another creature within 5 feet, no action required. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Sample Item
-When generating this sample lightweapon, I elected to create a legendary greatsaber, which would have five modification slots. When determining those slots randomly, I rolled a 1, a 26, a 48, an 82, and a 99, ending up with the following weapon:
+When generating this sample lightweapon, I elected to create a legendary greatsaber, which would have six modification slots. This weapon can only support modifications of standard, premium, prototype, advanced, and legendary rarity.
 
-#### Modifiable Greatsaber
+#### Exceptional Greatsaber
 _<font style="color:#dd6b20">Weapon (greatsaber), legendary (requires attunement)</font>_
 
 **Value:** 480,000 cr
 
-This weapon has modification slots appropriate for lens, crystal, power cell, and two augment modifications.
+This weapon has modification slots appropriate for lens, crystal, power cell, and stabilizer modifications, as well as two augment slots.
 
 \columnbreak
 
@@ -523,14 +523,14 @@ _<font style="color:purple">Item modification (cycler), advanced</font>_
 When you cast a force power that affects an area in a radius or a cube, you can increase the radius from the point of origin or length of the cube by 10 feet. 
 
 ### Sample Item
-When generating this sample focus generator, I elected to create an artifact. Since an artifact has the maximum of six slots, I did not have to roll:
+When generating this sample focus generator, I elected to create an artifact, which would have six modification slots. This focus generator can support modifications of any rarity.
 
-#### Modifiable Focus Generator
+#### Master Focus Generator
 _<font style="color:red">Focus (force), artifact (requires attunement)</font>_
 
 **Value:** 770,000 cr
 
-This focus has modification slots appropriate for emitter, conductor, energy channel, cycler, and two augment modifications.
+This focus generator has modification slots appropriate for emitter, conductor, energy channel, and cycler modifications, as well as two augment slots.
 
 \columnbreak
 
@@ -578,14 +578,14 @@ _<font style="color:green">Item modification (storage), premium</font>_
 When you cast a tech power with this wristpad that gives you a bonus to AC or saving throws, you can increase that bonus by +1.
 
 ### Sample Item
-When generating this sample wristpad, I elected to create a standard, which would have one modification slot. When determining this slot randomly, I rolled a 100, ending up with the following focus:
+When generating this sample wristpad, I elected to create a standard, which would have four modification slots.
 
-#### Standard Wristpad
+#### Basic Wristpad
 _<font style="color:#4a5568">Focus (tech), standard (requires attunement)</font>_
 
 **Value:** 800 cr
 
-This focus has a modification slot appropriate for one augment modification.
+This wristpad has modification slots appropriate for processor, motherboard, dataport, and storage modifications. This wristpad can only support modifications of standard rarity.
 
 <div class='footnote'>CHAPTER 6 | MODIFIABLE ITEMS</div>
 
@@ -642,14 +642,14 @@ _<font style="color:blue">Item modification (shielding), prototype</font>_
 You gain a +1 bonus to AC against melee attacks.
 
 ### Sample Item
-When generating this sample armor, I elected to create a premium combat suit, which would have two modification slots. When determining those slots randomly, I rolled a 1 and an 84, ending up with the following armor:
+When generating this sample armor, I elected to create a premium combat suit, which would have four modification slots. This armor can only support modifications of standard and premium rarity.
 
-#### Modifiable Combat Suit
+#### Fine Combat Suit
 _<font style="color:green">Armor (combat suit), premium (requires attunement)</font>_
 
 **Value:** 4,200 cr
 
-This armor has modification slots appropriate for overlay and one augment modifications.
+This armor has modification slots appropriate for overlay, underlay, reinforcement, and armoring modifications.
 
 \columnbreak
 
@@ -708,7 +708,7 @@ _<font style="color:purple">Item modification (augment), advanced</font>_
 Your Wisdom score increases by 1, and your maximum for this score increases by 1.
 
 ### Installing Augments in Other Items
-Additionally, a character proficient in tinker's tools can install augments in other items. First, the character must spend one uninterrupted hour tinkering with the item, which can be done over a short rest, with their tinker's tools. The character must then make an ability check with tinker's tools. On a result of less than 20, the item gains no augment slots, and you must wait 24 hours before you can try again. On a result of 20 or higher, the item gains one vacant augment slot. On a result of 30 or higher, the item gains two augment slots. Adding augment slots to an item causes that item to require attunement, if it didn't already. An item can have no more than two augment slots at a time.
+Additionally, a character proficient in tinker's tools can install augments in items of prototype or higher rarity. First, the character must spend one uninterrupted hour tinkering with the item, which can be done over a short rest, with their tinker's tools. The character must then make an ability check with tinker's tools. On a result of less than 20, the item gains no augment slots, and you must wait 24 hours before you can try again. On a result of 20 or higher, the item gains one vacant augment slot. On a result of 30 or higher, the item gains two augment slots. Adding augment slots to an item causes that item to require attunement, if it didn't already. Prototype and advanced items can only support one augment slot, while legendary and artifact items can support up to two.
 
 <div class='footnote'>CHAPTER 6 | MODIFIABLE ITEMS</div>
 
@@ -1093,7 +1093,7 @@ A table at the end of each section lists activities that a tool can be used to p
 |Slicer's kit|Computers, software|
 |Surveyor's tools|Maps|
 |Synthweaver's tools|Clothing|
-|Tinker's tools|Augments, traps, trinkets|
+|Tinker's tools|Augments, barriers, trinkets|
 
 <div class='footnote'>CHAPTER 9 | TOOL PROFICIENCIES</div>
 
@@ -1692,7 +1692,7 @@ Assuming you have access to sufficient cloth and thread, you can create an outfi
 |Tailor an outfit|15|
 
 ### Tinker's Tools
-Tinker's tools include all of the necessary components to craft and repair augments, traps, and minor trinkets.
+Tinker's tools include all of the necessary components to craft and repair augments, barriers, and minor trinkets.
 
 #### Lore
 You can determine the age and origin of objects, even if you have only a few pieces remaining from the original.
@@ -1709,7 +1709,7 @@ With access to your tools, you can repair small items. For any object, you need 
 ##### Sample Activities
 |Activity|DC|
 |:--|:--:|
-|Temproarily repair a disabled device|10|
+|Temporarily repair a disabled device|10|
 |Repair an item in half the time|15|
 |Improvise an item using scraps|20|
 

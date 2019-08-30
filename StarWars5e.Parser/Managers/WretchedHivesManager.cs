@@ -25,10 +25,11 @@ namespace StarWars5e.Parser.Managers
 
         private readonly List<string> _whFilesName = new List<string>
         {
-            "WH.wh_02.txt", "WH.wh_03-04.txt", "WH.wh_05-11.txt", "WH.wh_aa.txt"
+            "WH.wh_01.txt", "WH.wh_02.txt", "WH.wh_03-04.txt", "WH.wh_05-11.txt", "WH.wh_aa.txt"
         };
 
-        public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository)
+        public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
+            GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;

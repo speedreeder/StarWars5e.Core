@@ -50,10 +50,10 @@ namespace StarWars5e.Parser
             {
                 ( "Wretched Hives", GlobalSearchTermType.Book, "/rules/hives"),
                 //( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/starships"),
-                //( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/rules/starships/stepByStep"),
+                ( "Chapter 1: Step-By-Step Factions", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/stepByStep"),
                 ( "Chapter 2: Entertainment and Downtime", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/downtime"),
                 ( "Chapter 3: Factions and Membership", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/factions"),
-                //( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/rules/starships/modifications"),
+                ( "Chapter 4: Using Ability Scores", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/abilityScores"),
                 ( "Chapter 5: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/enhancedItems"),
                 ( "Chapter 6: Modifiable Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/modifiableItems"),
                 ( "Chapter 7: Cybernetic Augmentations", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/cyberneticAugmentations"),
@@ -657,6 +657,12 @@ namespace StarWars5e.Parser
                 ( "Used", GlobalSearchTermType.StarshipCondition, null)
             };
 
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterOneSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Building the Mandalorians", GlobalSearchTermType.Rule, null),
+            };
+
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterTwoSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
@@ -683,17 +689,40 @@ namespace StarWars5e.Parser
                 ( "Faction Ranks", GlobalSearchTermType.Rule, null),
                 ( "Membership in Multiple Factions", GlobalSearchTermType.Rule, null),
                 ( "Factions", GlobalSearchTermType.Rule, null),
-                ( "Generating a Faction", GlobalSearchTermType.Rule, null)
+                ( "Generating a Faction", GlobalSearchTermType.Rule, null),
+                ( "Membership Ranks CR and Renown", GlobalSearchTermType.Table, null),
+                ( "Faction Benefits", GlobalSearchTermType.Table, null),
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterFourSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Strength", GlobalSearchTermType.Rule, null),
+                ( "Dexterity", GlobalSearchTermType.Rule, null),
+                ( "Constitution", GlobalSearchTermType.Rule, null),
+                ( "Intelligence", GlobalSearchTermType.Rule, null),
+                ( "Wisdom", GlobalSearchTermType.Rule, null),
+                ( "Charisma", GlobalSearchTermType.Rule, null)
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterFiveSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
                 ( "Rarity", GlobalSearchTermType.Rule, null),
-                ( "Enhanced Item Rarity and Identification", GlobalSearchTermType.Rule, null),
+                ( "Enhanced Item Rarity and Identification", GlobalSearchTermType.Table, null),
                 ( "Identifying Enhanced Items", GlobalSearchTermType.Rule, null),
                 ( "Attunement", GlobalSearchTermType.Rule, null),
+                ( "Cursed Items", GlobalSearchTermType.Rule, null),
                 ( "Enhanced Item Categories", GlobalSearchTermType.Rule, null),
+                ( "Adventuring Gear", GlobalSearchTermType.Rule, null),
+                ( "Armor", GlobalSearchTermType.Rule, null),
+                ( "Consumables", GlobalSearchTermType.Rule, null),
+                ( "Cybernetic Augmentations", GlobalSearchTermType.Rule, null),
+                ( "Droid Customizations", GlobalSearchTermType.Rule, null),
+                ( "Item Modifications", GlobalSearchTermType.Rule, null),
+                ( "Shields", GlobalSearchTermType.Rule, null),
+                ( "Valuables", GlobalSearchTermType.Rule, null),
+                ( "Weapons", GlobalSearchTermType.Rule, null),
                 ( "Focuses", GlobalSearchTermType.Rule, null),
                 ( "Awarding Enhanced Items", GlobalSearchTermType.Rule, null),
                 ( "Minor Enhanced Items by Rarity", GlobalSearchTermType.Table, null),
@@ -704,10 +733,13 @@ namespace StarWars5e.Parser
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
                 ( "Modifying Equipment", GlobalSearchTermType.Rule, null),
+                ( "Modifiable Item Chassis", GlobalSearchTermType.Rule, null),
+                ( "Installing Modifications", GlobalSearchTermType.Rule, null),
                 ( "Modification Slots by Rarity", GlobalSearchTermType.Table, null),
                 ( "Installation and Removal DC by Rarity", GlobalSearchTermType.Table, null),
-                ( "Available Modification Slots", GlobalSearchTermType.Rule, null),
+                ( "Available Modification Slots", GlobalSearchTermType.Table, null),
                 ( "Removing Modifications", GlobalSearchTermType.Rule, null),
+                ( "Modifications by Item Type", GlobalSearchTermType.Rule, null),
                 ( "Blasters", GlobalSearchTermType.Rule, null),
                 ( "Vibroweapons", GlobalSearchTermType.Rule, null),
                 ( "Lightweapons", GlobalSearchTermType.Rule, null),

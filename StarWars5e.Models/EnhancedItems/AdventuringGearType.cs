@@ -3,10 +3,16 @@
     public enum AdventuringGearType
     {
         None,
-        Belt,
-        Boots,
-        Gloves,
-        Neck,
-        Other
+        Body,
+        Feet,
+        Finger,
+        Hands,
+        Other,
+        Head,
+        Shoulders,
+        Waist,
+        Wrists,
+        Legs,
+        Neck
     }
 }

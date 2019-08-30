@@ -7,6 +7,7 @@
         Explosives,
         Poisons,
         Stimpacs,
-        Other
+        Other,
+        Barriers
     }
 }
