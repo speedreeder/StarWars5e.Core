@@ -8,32 +8,34 @@
 |Barbarian                  | 2|
 |City Watch                 | 3|
 |Clone Trooper              | 4|
-|Courtier                   | 5|
-|Crime Lord                 | 6|
-|Dathomir Witch             | 7|
-|Far Traveler               | 8|
-|Farmer                     | 9|
-|Folk Hero                  |10|
-|Gladiator                  |11|
-|Guild Adventurer           |12|
-|Guild Artisan              |13|
-|Guild Merchant             |14|
+|Companion                  | 5|
+|Courtier                   | 6|
+|Crime Lord                 | 7|
+|Dathomir Witch             | 8|
+|Far Traveler               | 9|
+|Farmer                     |10|
+|Folk Hero                  |11|
+|Gladiator                  |12|
+|Guild Adventurer           |13|
+|Guild Artisan              |14|
+|Guild Merchant             |15|
 
 |||
 |:--|--:|
-|Hermit                     |15|
-|Investigator               |16|
-|Jensaarai                  |17|
-|Lawyer                     |18|
-|Nomad                      |19|
-|Office Worker              |20|
-|Outlaw                     |21|
-|Pirate                     |22|
-|Racer                      |23|
-|Servant                    |24|
-|Student                    |25|
-|(Un)retired Adventurer     |26|
-|Urchin                     |27|
+|Hermit                     |16|
+|Investigator               |17|
+|Jensaarai                  |18|
+|Laborer                    |19|
+|Lawyer                     |20|
+|Nomad                      |21|
+|Office Worker              |22|
+|Outlaw                     |23|
+|Pirate                     |24|
+|Racer                      |25|
+|Servant                    |26|
+|Student                    |27|
+|(Un)retired Adventurer     |28|
+|Urchin                     |29|
 
 </div>
 
@@ -311,6 +313,89 @@ Clones are trained from birth to be the perfect soldier; over time, they also de
 |4|I judge others harshly, and myself even more severely.|
 |5|I am inflexible in my thinking.|
 |6|I can't tell a lie for the life of me.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
+## Companion
+You are experienced in the arts of companionship, and you provide these services for people who can afford to pay it. This may mean adult favors of the sensual variety, but it just as frequently means conversation, comfort, and company.
+___
+- **Skill Proficiencies:** Choose two from Acrobatics, Deception, Insight, and Performance
+- **Tool Proficiencies:** One instrument of your choice or a disguise kit
+- **Languages:** One of your choice
+- **Equipment:** A set of common clothes, an instrument or disguise kit, and a belt pouch containing 50 cr
+
+### Feature: Sordid Knowledge
+You have or can gain compromising information about people of importance. You may be able to leverage this information in order to acquire lodging, information, or even money.  You may also become a target for having this information. Your GM may rule that any particular individual is either above reproach or is too careful in covering their tracks to provide such leverage.  
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Acrobat|
+|2|Silver-Tongued|
+|3|Empathic|
+|4|Performer|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Entertaining Competitor|
+|6|Master of Disguise|
+|7|Linguist|
+|8|Force of Personality|
+
+</div>
+
+#### Suggested Characteristics
+You enjoy people and you enjoy your work and you enjoy the money it brings. There is no shame in your profession and it is often highly regulated and regimented by guilds or the local government. It requires outgoing and adventurous personalities to be a success, and often these traits lead them to adventures of a different sort.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|People are often hurt and damaged. I try to heal them and leave them stronger than when I meet them.|
+|2|I enjoy being in control and manipulating people. It's important that they like me so they do what I say.|
+|3|I'm not a laser-brain, although I don't open my mouth to prove people wrong. I let them discover the truth after I have what I want.|
+|4|I'm better than those who are more prim and proper, and I'm having more fun.|
+|5|I don't really care what happens, it's an easy way to get money for my habit.|
+|6|There are so many different kinds of people, and I want to meet them all.|
+|7|I never thought this was the life for me, perhaps some brave person will rescue me.|
+|8|I like what I do and I resent those who want to rescue me.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Sacred**. My body is a temple I am duty-bound to share. (Lawful)|
+|2|**Hedonism**. I fill my urges when and where I wish. (Chaotic)|
+|3|**Loving**. Everyone needs attention and love. (Light)|
+|4|**Exploitation**. I take pleasure in toying with people, and taking advantage of them. (Dark)|
+|5|**Consent**.  I respect other's desires and wishes. (Neutral)|
+|6|**Freedom**.  I want to have the independence to enjoy life. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I seek a relationship with the most powerful people in the land, desiring to be the power behind the throne.|
+|2|If I can only collect enough credits, I'll be able to pay off my debts and be free.|
+|3|I have a sick parent to whom I send all my money.|
+|4|My independence is the most important thing in my world.|
+|5|I bring happiness to the world one person at a time.|
+|6|I have a young child who is my world.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|I have an incurable disease I acquired from a client.|
+|2|I am addicted to recreational drugs that dull the pain I feel.|
+|3|I no longer practice my old profession, and I fear anyone discovering it.|
+|4|I am suspicious of anyone who tries to be nice to me. They only want me to sleep with them.|
+|5|Most people are naive children.|
+|6|I pretend to be tough, but am broken inside.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -1524,6 +1609,109 @@ Jensaarai are shaped by the unique capacity of their upbringing. Their study of 
 |4|I have a collection of lightsabers from fallen foes, and I love adding to it.|
 |5|The Jedi and Sith worship the Force as a religion. I do everything I can to remind them they're just worshipping a hammer.|
 |6|The minute you tell me that someone should not be crossed, I'm already crossing them.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
+## Laborer
+You are an experienced laborer and come from a humble social rank.  You work with your hands, and anything worth doing is worth doing well.  Your life is full of hard work and too little respect for your efforts, but you share a deep camaraderie with your fellow workers. 
+___
+- **Skill Proficiencies:** Choose two from Animal Handling, Athletics, Survival, and Technology
+- **Tool Proficiencies:** One type of gaming set and one set of tools
+- **Equipment:** A set of common clothes, a sturdy knife, a gaming set (one of your choice), and a belt pouch containing 100 cr
+
+#### Labor Specialty
+There are many kinds of manual laborors, skilled and unskilled. Choose your field or specialty or roll on the table below.
+
+<div style='column-count:2'>
+
+|d8|Specialty|
+|:---:|:----------:|
+|1|Construction|
+|2|Droid Repair|
+|3|Electrician|
+|4|Facilities Maintenance|
+
+|d8|Specialty|
+|:---:|:----------:|
+|5|Logistics/Shipping|
+|6|Manufacturing|
+|7|Mechanic|
+|8|Plumbing/HVAC|
+
+</div>
+
+### Feature: Working Class
+You have a contact that acts as your liaison to a union or guild. You know how to reach your contact at all times. Your contact can provide you with the means to requisition equipment used in manufacturing or shipping.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Animal Handler|
+|2|Brawny|
+|3|Survivalist|
+|4|Techie|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Entertaining Competitor|
+|6|Crafter|
+|7|Genius Mechanic|
+|8|Durable|
+
+</div>
+
+#### Suggested Characteristics
+Laborers run the gamut from independent operator and owners to lazy and incompetent employees.   
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I am quiet and reserved. I rarely raise my voice or object.|
+|2|I take pride in what my hands create or fix.|
+|3|I have little respect for people who call others to fix their problems.|
+|4|I am fiercely independent.|
+|5|I look down on book learning and take pride in my street-smarts.|
+|6|I may be quite calm and polite around those of higher power than I; but I'm harsh towards all my underlings, flexing the little power I have.|
+|7|I work to live.|
+|8|I live to work.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Prestige**. I hope to one day rise to the top of my field and command the respect of those who work for me. (Lawful)|
+|2|**Superiority**. Rules are meant to control the sheep.  I'm no sheep. (Chaotic)|
+|3|**Community**. It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)|
+|4|**Greed**. I will do whatever it takes to climb to the top. (Dark)|
+|5|**People**. I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)|
+|6|**Faith**.  I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I will someday get revenge on the corrupt boss who fired me.|
+|2|Everything I do is for the common people.|
+|3|I will do anything to protect my co-workers.|
+|4|No one must ever learn that I once stole from my employer.|
+|5|I’m guilty of a terrible crime. I hope I can redeem myself for it.|
+|6|I am committed to my group's goals over my own.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|I put too much trust in those who wield power within my employer's hierarchy.|
+|2|I am inflexible in my thinking.|
+|3|I like things more than people.|
+|4|I do anything I can to avoid real work.|
+|5|I am not an independent thinker.  I need detailed instructions and close supervision.|
+|6|I gossip about others to hide my inadequacies.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 

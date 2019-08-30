@@ -16,6 +16,7 @@
     <None Remove="Sources\ec_customization_options.txt" />
     <None Remove="Sources\EC_Equipment.md" />
     <None Remove="Sources\ec_equipment.txt" />
+    <None Remove="Sources\ec_force_powers.txt" />
     <None Remove="Sources\EC_Species.md" />
     <None Remove="Sources\ec_species.txt" />
     <None Remove="Sources\ec_variantrules.txt" />
@@ -53,6 +54,7 @@
     <None Remove="Sources\SOTG\sotg_10.txt" />
     <None Remove="Sources\SOTG\sotg_aa.txt" />
     <None Remove="Sources\SOTG\sotg_changelog.txt" />
+    <None Remove="Sources\WH\wh_01.txt" />
     <None Remove="Sources\WH\wh_02.txt" />
     <None Remove="Sources\WH\wh_03-04.txt" />
     <None Remove="Sources\WH\wh_05-11.txt" />
@@ -65,6 +67,7 @@
     <EmbeddedResource Include="Sources\ec_backgrounds.txt" />
     <EmbeddedResource Include="Sources\ec_customization_options.txt" />
     <EmbeddedResource Include="Sources\ec_equipment.txt" />
+    <EmbeddedResource Include="Sources\ec_force_powers.txt" />
     <EmbeddedResource Include="Sources\ec_species.txt" />
     <EmbeddedResource Include="Sources\FAQ.txt" />
     <EmbeddedResource Include="Sources\mm.txt" />
@@ -101,6 +104,7 @@
     <EmbeddedResource Include="Sources\SOTG\sotg_10.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_aa.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_changelog.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
     <EmbeddedResource Include="Sources\WH\wh_03-04.txt" />
     <EmbeddedResource Include="Sources\WH\wh_05-11.txt" />

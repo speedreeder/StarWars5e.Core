@@ -1,5 +1,7 @@
 
 
+\pagebreak
+
 <div class='classTable wide' style='column-count:2'>
 
 # Appendix A: Enhanced Items
@@ -9,7 +11,26 @@
 |	_Adventuring gear_	            |||
 |	&emsp;&emsp;<font style="color:green">Atmospheric Decanting Vessel</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:#dd6b20">Baragwin Stealth Unit</font> | <font style="color:#dd6b20">Legendary</font> |  |
-|	&emsp;_Belt_ 	                |||
+|	&emsp;_Body_ 	                |||
+|	&emsp;&emsp;<font style="color:green">Jedi Robe</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Jedi Knight's Robe</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Jedi Master's Robe</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;_Feet_ 	                |||
+|	&emsp;&emsp;<font style="color:#4a5568">Mag-lock Boots</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:green">Aratech Sound Dampening Boots</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Slipstream Kickers</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;_Finger_                  |||
+|	&emsp;_Hands_ 	                |||
+|	&emsp;&emsp;<font style="color:green">Reverse-Engineered Crushgaunts</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Mandalorian Shuk'orok</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;_Head_ 	                |||
+|	&emsp;&emsp;<font style="color:green">Mandalorian Helmet</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;_Legs_ 	                |||
+|	&emsp;_Neck_ 	                |||
+|	&emsp;&emsp;<font style="color:green">Taozin Amulet</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Beemon Cardio-Regulator</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;_Shoulders_               |||
+|	&emsp;_Waist_ 	                |||
 |	&emsp;&emsp;<font style="color:green">Aratech Echo Belt</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Defel Mimicker</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Strength Enhancer</font> | <font style="color:blue">Prototype</font> |  |
@@ -17,23 +38,7 @@
 |	&emsp;&emsp;<font style="color:#dd6b20">GNS Strength Enhancer Belt</font> | <font style="color:#dd6b20">Legendary</font> |  |
 |	&emsp;&emsp;<font style="color:#dd6b20">Sith Strength Belt</font> | <font style="color:#dd6b20">Legendary</font> |  |
 |	&emsp;&emsp;<font style="color:red">Dominator Belt</font> | <font style="color:red">Artifact</font> |  |
-|	&emsp;_Boots_ 	                |||
-|	&emsp;&emsp;<font style="color:#4a5568">Mag-lock Boots</font>  | <font style="color:#4a5568">Standard</font> |  |
-|	&emsp;&emsp;<font style="color:green">Aratech Sound Dampening Boots</font> | <font style="color:green">Premium</font> |  |
-|	&emsp;&emsp;<font style="color:purple">Slipstream Kickers</font> | <font style="color:purple">Advanced</font> |  |
-|	&emsp;_Gloves_ 	                |||
-|	&emsp;&emsp;<font style="color:green">Reverse-Engineered Crushgaunts</font> | <font style="color:green">Premium</font> |  |
-|	&emsp;_Neck_ 	                |||
-|	&emsp;&emsp;<font style="color:green">Taozin Amulet</font> | <font style="color:green">Premium</font> |  |
-|	&emsp;&emsp;<font style="color:blue">Beemon Cardio-Regulator</font> | <font style="color:blue">Prototype</font> |  |
-|	_Armor_	                        |||
-|	&emsp;&emsp;Armor <font style="color:green">+1,</font> <font style="color:blue">+2,</font> or <font style="color:purple">+3 | Varies |
-|	&emsp;&emsp;<font style="color:blue">Adapted Armor</font> | <font style="color:blue">Prototype</font> |  |
-|	&emsp;_Light_	                |||
-|	&emsp;_Medium_	                |||
-|	&emsp;_Heavy_	                |||
-|	&emsp;&emsp;<font style="color:green">Matrix Armor</font> | <font style="color:green">Premium</font> |  |
-|	&emsp;&emsp;<font style="color:#dd6b20">Reactive Ultrachrome Armor</font> | <font style="color:#dd6b20">Legendary</font> |  |
+|	&emsp;_Wrists_ 	                |||
 |	&emsp;&emsp;1 |  |
 |	&emsp;&emsp;2 |  |
 |	&emsp;&emsp;3 |  |
@@ -45,12 +50,18 @@
 |	&emsp;&emsp;9 |  |
 |	&emsp;&emsp;10 |  |
 |	&emsp;&emsp;11 |  |
-|	&emsp;&emsp;12 |  |
-|	&emsp;&emsp;13 |  |
-|	&emsp;&emsp;14 |  |
 
 |	Item	|	Rarity | Page |
 |	:--	|	:--:	| :--: |
+|	_Armor_	                        |||
+|	&emsp;&emsp;Armor <font style="color:green">+1,</font> <font style="color:blue">+2,</font> or <font style="color:purple">+3 | Varies |
+|	&emsp;&emsp;<font style="color:blue">Adapted Armor</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;_Light_	                |||
+|	&emsp;_Medium_	                |||
+|	&emsp;&emsp;<font style="color:blue">Mandalorian Beskar'gam</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;_Heavy_	                |||
+|	&emsp;&emsp;<font style="color:green">Matrix Armor</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:#dd6b20">Reactive Ultrachrome Armor</font> | <font style="color:#dd6b20">Legendary</font> |  |
 |	_Consumables_	                |||
 |	&emsp;_Adrenals_	            |||
 |	&emsp;&emsp;<font style="color:#4a5568">Alacrity Adrenal</font> | <font style="color:#4a5568">Standard</font> |  |
@@ -62,9 +73,8 @@
 |	&emsp;&emsp;<font style="color:blue">Improved Strength Adrenal</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:purple">Superior Battle Adrenal</font> | <font style="color:purple">Advanced</font> |  |
 |	&emsp;_Ammunition_	            |||
-|	&emsp;&emsp;<font style="color:green">Ammunition +1</font></font>  | <font style="color:green">Standard</font> |  |
-|	&emsp;&emsp;<font style="color:blue">Ammunition +2</font> | <font style="color:blue">Prototype</font> |  |
-|	&emsp;&emsp;<font style="color:purple">Ammunition +3</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;&emsp;Ammunition <font style="color:green">+1,</font> <font style="color:blue">+2,</font> or <font style="color:purple">+3 | Varies |
+|	&emsp;_Barriers_	            |||
 |	&emsp;_Explosives_	            |||
 |	&emsp;_Medpacs_ 	            |||
 |	&emsp;&emsp;<font style="color:green">Fine Medpac</font> | <font style="color:green">Premium</font> |  |
@@ -74,7 +84,7 @@
 |	&emsp;&emsp;<font style="color:green">Fine Poison</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Improved Poison</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:purple">Superior Poison</font> | <font style="color:purple">Advanced</font> |  |
-|	&emsp;_Stimpacs_	            |||
+|	&emsp;_Stimpacs_ 	            |||
 |	&emsp;&emsp;1 |  |
 |	&emsp;&emsp;2 |  |
 |	&emsp;&emsp;3 |  |
@@ -85,14 +95,6 @@
 |	&emsp;&emsp;8 |  |
 |	&emsp;&emsp;9 |  |
 |	&emsp;&emsp;10 |  |
-|	&emsp;&emsp;11 |  |
-|	&emsp;&emsp;12 |  |
-|	&emsp;&emsp;13 |  |
-|	&emsp;&emsp;14 |  |
-|	&emsp;&emsp;15 |  |
-|	&emsp;&emsp;16 |  |
-|	&emsp;&emsp;17 |  |
-|	&emsp;&emsp;18 |  |
 
 </div>
 
@@ -165,6 +167,7 @@
 |	&emsp;&emsp;Weapon <font style="color:green">+1,</font> <font style="color:blue">+2,</font> or <font style="color:purple">+3 | Varies |
 |	&emsp;_Blasters_                |||
 |	&emsp;_Lightweapons_            |||
+|	&emsp;&emsp;<font style="color:#dd6b20">Darksaber</font> | <font style="color:#dd6b20">Legendary</font> |  |
 |	&emsp;_Vibroweapons_            |||
 |	_Valuables_	                    |||
 |	&emsp;&emsp;1 |  |
@@ -192,7 +195,6 @@
 |	&emsp;&emsp;23 |  |
 |	&emsp;&emsp;24 |  |
 |	&emsp;&emsp;25 |  |
-|	&emsp;&emsp;26 |  |
 
 </div>	
 
@@ -403,9 +405,11 @@
 ## Enhanced Items Values
 Enhanced item values should fall within a range, as shown below in the Enhanced Item Value by Rarity table. Consumables and item modifications should be about half the value of a permanent item.
 
-Each item comes with a value. This is a suggested value; it might be higher or lower at any table, given the accessibility of enhanced items.
+Each item comes with a value. This is a suggested value; it might be higher or lower at any table, given the availability of enhanced items. 
 
-#### Enhanced Item Value by Rarity
+> Certain items, such as weapon +1, have a multiplier instead of a value. You multiply this by the item's base price to determine the enhanced item's value. Occasionally, this might end with a result that falls outside the range of values for that rarity. Nonetheless, it should retain that value and rarity.
+
+##### Enhanced Item Value by Rarity
 |Rarity|Value|
 |:--:|:--:|
 |Standard|up to 1,000 cr|
@@ -416,6 +420,7 @@ Each item comes with a value. This is a suggested value; it might be higher or l
 |<font style="color:red">Artifact</font>|at least 500,001 cr|
 
 ### Sample Enhanced Items
+The following items are examples of what you might find in your journeys.
 
 #### Ablative Plating Mark II
 _<font style="color:purple">Item modification (shielding), advanced</font>_
@@ -452,6 +457,10 @@ _<font style="color:#dd6b20">Item modification (motherboard), legendary</font>_
 
 When you cast a tech power through this wristpad, you can roll a d6 and add the result to the save DC (if any) for that power.
 
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
 #### AccuTronics Supreme Mark I
 _<font style="color:green">Item modification (motherboard), premium</font>_
 
@@ -465,8 +474,6 @@ _<font style="color:blue">Item modification (motherboard), prototype</font>_
 **Value:** 10,800 cr
 
 You gain a +2 bonus to the save DC of tech powers you cast through this wristpad.
-
-\columnbreak
 
 #### AccuTronics Supreme Mark III
 _<font style="color:purple">Item modification (motherboard), advanced</font>_
@@ -486,27 +493,6 @@ _This internal augmentation can be activated to project a distortion field that 
 As an action, you can activate this augmentation to cast the _infiltrate_ tech power targeting yourself. Intelligence is your tech casting ability for this power, and if you cast it using this augmentation, it does not require concentration. 
 
 **Side Effect:** While this augmentation is active, your speed is reduced by 10. Additionally, it fails to activate if you are submerged in water or other liquids.
-
-#### Adegan Cluster
-_<font style="color:purple">Item modification (crystal), advanced</font>_
-
-**Value:** 38,000 cr
-
-You gain a +3 bonus to damage rolls made with this weapon.
-
-#### Adegan Octohedron
-_<font style="color:blue">Item modification (crystal), prototype</font>_
-
-**Value:** 11,000 cr
-
-You gain a +2 bonus to damage rolls made with this weapon.
-
-#### Adegan Shard
-_<font style="color:green">Item modification (crystal), premium</font>_
-
-**Value:** 1,700 cr
-
-You gain a +1 bonus to damage rolls made with this weapon.
 
 #### Adapted Armor
 _<font style="color:blue">Armor (any), prototype (requires attunement)</font>_
@@ -538,9 +524,30 @@ You have resistance to one type of damage while you wear this armor. The DM choo
 
 </div>
 
+#### Adegan Cluster
+_<font style="color:purple">Item modification (crystal), advanced</font>_
+
+**Value:** 38,000 cr
+
+You gain a +3 bonus to damage rolls made with this weapon.
+
+#### Adegan Octohedron
+_<font style="color:blue">Item modification (crystal), prototype</font>_
+
+**Value:** 11,000 cr
+
+You gain a +2 bonus to damage rolls made with this weapon.
+
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
 \pagebreak
+
+#### Adegan Shard
+_<font style="color:green">Item modification (crystal), premium</font>_
+
+**Value:** 1,700 cr
+
+You gain a +1 bonus to damage rolls made with this weapon.
 
 #### Alacrity Adrenal
 _<font style="color:#4a5568">Consumable (adrenal), standard</font>_
@@ -554,7 +561,7 @@ You can administer an adrenal to yourself as a bonus action, or another creature
 #### Ammunition, +1, +2, or +3
 _Weapon (any ammunition), <font style="color:green">premium (+1)</font>, <font style="color:blue">prototype (+2)</font>, or <font style="color:purple">advanced (+3)</font>_
 
-**Value:** 500 cr (+1), 2,500 cr (+2), or 12,500 cr (+3) _(determined by rarity)_
+**Value:** 5x (+1), 15x cr (+2), or 50x (+3) _(determined by rarity)_
 
 _From power cells with bolt superconduction to darts refined to monomolecular edges, the wallop these units pack is worth dealing with their fragility._
 
@@ -602,6 +609,8 @@ _<font style="color:blue">Item modification (processor), prototype</font>_
 
 You gain a +2 bonus to the attack rolls of tech powers you cast through this wristpad.
 
+\columnbreak
+
 #### Arakyd Vector Mark III
 _<font style="color:purple">Item modification (processor), advanced</font>_
 
@@ -609,10 +618,8 @@ _<font style="color:purple">Item modification (processor), advanced</font>_
 
 You gain a +3 bonus to the attack rolls of tech powers you cast through this wristpad.
 
-\columnbreak
-
 #### Aratech Echo Belt
-_<font style="color:green">Adventuring gear (belt), premium (requires attunement)</font>_
+_<font style="color:green">Adventuring gear (waist), premium (requires attunement)</font>_
 
 **Value:** 3,300 cr
 
@@ -643,7 +650,7 @@ _Prerequisite: Blaster with the burst property_
 When you use the burst feature of this weapon, you can choose to include up to 2 additional creatures within 5 feet of any affected space to also be affected the burst, if they were not already.
 
 #### Aratech Sound Dampening Boots
-_<font style="color:green">Adventuring gear (boots), premium (requires attunement)</font>_
+_<font style="color:green">Adventuring gear (feet), premium (requires attunement)</font>_
 
 **Value:** 2,250 cr
 
@@ -670,7 +677,7 @@ You gain proficiency in all simple and martial weapons, all armor, and the Pilot
 #### Armor +1, +2, or +3
 _Armor (any), <font style="color:green">premium (+1)</font>, <font style="color:blue">prototype (+2)</font>, or <font style="color:purple">advanced (+3)</font>_
 
-**Value:** 4,000 cr (+1), 26,000 cr (+2), or 90,000 cr (+3) _(determined by rarity)_
+**Value:** 5x cr (+1), 30x (+2), or 100x (+3) _(determined by rarity)_
 
 _There are countless ways to increase the effectiveness of a stock armor design without resorting to one of the more drastic modifications._
 
@@ -900,7 +907,7 @@ Your Charisma score increases by 1, and your maximum for this score increases by
 **Side Effect:** One ability score (other than Charisma) that is chosen by the DM when this augmentation is installed decreases by 1.
 
 #### CNS Strength Enhancer
-_<font style="color:purple">Adventuring gear (belt), advanced (requires attunement)</font>_
+_<font style="color:purple">Adventuring gear (waist), advanced (requires attunement)</font>_
 
 **Value:** 70,000 cr 
 
@@ -1030,6 +1037,19 @@ Your Dexterity score increases by 1, and your maximum for this score increases b
 
 **Side Effect:** One ability score other than Dexterity (chosen by the GM) decreases by 1.
 
+\columnbreak
+
+#### Darksaber
+_<font style="color:#dd6b20">Weapon (lightsaber), legendary (requires attunement)</font>_
+
+**Value:** 480,000 cr
+
+_The Darksaber was an ancient and unique black-bladed lightsaber created by Tarre Vizsla, the first Mandalorian ever inducted into the Jedi Order. It features a distinctly Mandalorian hilt and an ominous black blade._
+
+You gain a +3 bonus to attack and damage rolls made with this enhanced lightsaber. In addition, the weapon ignores resistance to energy damage.
+
+When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to energy damage, doesn't have or need a head, has legendary actions or villain status, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d6 energy damage from the hit.
+
 #### Deadly Neutronium Edge
 _<font style="color:purple">Item modification (edge), advanced</font>_
 
@@ -1044,10 +1064,8 @@ _<font style="color:red">Item modification (edge), artifact</font>_
 
 When you hit with this weapon you deal an additional 1d10 acid, cold, fire, poison, or sonic damage (chosen by the GM when generating this item).
 
-\columnbreak
-
 #### Defel Mimicker
-_<font style="color:blue">Adventuring gear (belt), prototype (requires attunement)_</font>
+_<font style="color:blue">Adventuring gear (waist), prototype (requires attunement)_</font>
 
 **Value:** 19,000 cr
 
@@ -1062,8 +1080,12 @@ _<font style="color:blue">Item modification (power cell), prototype</font>_
 
 When you score a critical hit with this weapon you can roll one additional weapon damage die.
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+
+\pagebreak
+
 #### Dominator Belt
-_<font style="color:#dd6b20">Adventuring gear (belt), artifact (requires attunement)</font>_
+_<font style="color:#dd6b20">Adventuring gear (waist), artifact (requires attunement)</font>_
 
 **Value:** 650,000 cr 
 
@@ -1101,10 +1123,6 @@ _Originally used on starship hulls, durasteel is the most cost-effective way to 
 
 Your base AC becomes 21. 
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Duplexed Extender Channel
 _<font style="color:#4a5568">Item modification (energy channel), standard</font>_
 
@@ -1118,6 +1136,8 @@ _<font style="color:green">Item modification (reinforcement), premium</font>_
 **Value:** 1,200 cr
 
 You can use your reaction to reduce any falling damage you would take by half.
+
+\columnbreak
 
 #### Engineer Defensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
@@ -1179,8 +1199,6 @@ _Prerequisite: at least 1 level in fighter_
 
 When you use your Second Wind feature, you also gain temporary hit points equal to the amount of hit points you regain.
 
-\columnbreak
-
 #### Fighter Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in fighter_
@@ -1195,6 +1213,10 @@ _<font style="color:green">Item modification (augment), premium</font>_
 **Value:** 2,000 cr
 
 Your Charisma score increases by 1.
+
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+
+\pagebreak
 
 #### Fine Constitution Augment
 _<font style="color:green">Item modification (augment), premium</font>_
@@ -1261,16 +1283,14 @@ _<font style="color:green">Item modification (augment), premium</font>_
 
 Your Wisdom score increases by 1.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Forged Ferricite Channel Mark II
 _<font style="color:blue">Item modification (energy channel), prototype</font>_
 
 **Value:** 8,800 cr
 
 When you spend force points and deal damage with a force power cast through this focus generator, you deal additional damage equal to the number of force points spent.
+
+\columnbreak
 
 #### Forged Ferricite Channel Mark IV
 _<font style="color:#dd6b20">Item modification (energy channel), legendary</font>_
@@ -1280,7 +1300,7 @@ _<font style="color:#dd6b20">Item modification (energy channel), legendary</font
 When you spend force points and deal damage with a force power cast through this focus generator, you deal additional damage equal to twice the number of force points spent.
 
 #### GNS Strength Enhancer Belt
-_<font style="color:#dd6b20">Adventuring gear (belt), legendary (requires attunement)</font>_
+_<font style="color:#dd6b20">Adventuring gear (waist), legendary (requires attunement)</font>_
 
 **Value:** 200,000 cr 
 
@@ -1318,8 +1338,6 @@ You can activate or deactivate this augmentation as a bonus action. While this a
 
 **Side Effect:** While this augmentation is active, you have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks within 30 feet that rely on sight.
 
-\columnbreak
-
 #### Heavy Armor Integration Protocol
 _<font style="color:green">Droid customization (protocol), premium</font>_<br>
 _Prerequisite: Proficiency with light and medium armor_
@@ -1329,6 +1347,10 @@ _Prerequisite: Proficiency with light and medium armor_
 _This is gyro rebalancing and actuator tuning software designed to enable a droid to integrate and wield heavy armor._
 
 You gain proficiency in heavy armor. 
+
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+
+\pagebreak
 
 #### Hidden Arm Blaster
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_
@@ -1368,10 +1390,6 @@ _This mechanical leg replacement increases speed and jumping height._
 You gain advantage on Strength ability checks and Strength saving throws, you can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet, and your speed increases by 10 feet.  
 
 **Side Effect:** Your powerful legs have difficulty moving quietly. You have disadvantage on Dexterity (Stealth) checks that rely on moving silently.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### High Precision Conductor Mark II
 _<font style="color:#dd6b20">Item modification (conductor), legendary</font>_
@@ -1433,8 +1451,6 @@ _<font style="color:#dd6b20">Item modification (lens), legendary</font>_
 
 You gain a +2 bonus to attack rolls made with this weapon. Additionally, you gain a +2 bonus to attack rolls you make with force powers when using this weapon as your focus.
 
-\columnbreak
-
 #### Improved Stamina Adrenal
 _<font style="color:blue">Consumable (adrenal), prototype</font>_
 
@@ -1443,6 +1459,10 @@ _<font style="color:blue">Consumable (adrenal), prototype</font>_
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
 You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +4 bonus to its Constitution score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+
+\pagebreak
 
 #### Improved Strength Adrenal
 _<font style="color:blue">Consumable (adrenal), prototype</font>_
@@ -1486,10 +1506,6 @@ Your Constitution score increases by 1, and your maximum for this score increase
 
 **Side Effect:** One ability score other than Constitution (chosen by the GM) decreases by 1.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Infiltration Package
 _<font style="color:green">Cybernetic augmentation (replacement), premium</font>_
 
@@ -1502,6 +1518,8 @@ _This fully cybernetic hand replacement contains a hidden array of infiltration 
 This implant appears to be a standard cybernetic mechanical arm, but conceals a set of thieves' tools and a security kit. In addition, you can also use an action to cast _release_ at 1st level without expending tech points or use of a tech focus. Intelligence is your techcasting ability for this power.
 
 **Side Effect:** This hand can no longer wield items that weigh more than 7 lbs.
+
+\columnbreak
 
 #### Integrated Jetboosters Mark I
 _<font style="color:blue">Item modification (armoring), prototype</font>_<br>
@@ -1540,8 +1558,6 @@ _Prerequisite: Blaster that deals ion damage_
 
 This weapon ignores resistance to ion damage.
 
-\columnbreak
-
 #### Iridonian Grav-lev Arm
 _<font style="color:green">Cybernetic augmentation (replacement), premium</font>_<br>
 _Prerequisite: Constitution 13_<br>
@@ -1555,6 +1571,10 @@ _This cybernetic arm replacement increases a user's physical strength and can be
 Your unarmed strikes with this arm deal ion damage, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Additionally, you deal double damage to energy-based structures with your unarmed strikes.
 
 **Side Effect:** You can no longer wield weapons with electronic components, such as blasters, vibroweapons, or lightweapons. Additionally, if this hand interacts with a small electronic device, such as a datapad or commlink, it is immediately disabled.
+
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+
+\pagebreak
 
 #### Isometric Prism Emitter Mark I
 _<font style="color:green">Item modification (emitter), premium</font>_
@@ -1577,6 +1597,33 @@ _<font style="color:purple">Item modification (emitter), advanced</font>_
 
 You gain a +3 bonus to the attack rolls of force powers you cast through this focus generator.
 
+#### Jedi Knight's Robe
+_<font style="color:blue">Adventuring gear (body), prototype (requires attunement)</font>_
+
+**Value:** 22,500 cr
+
+_Members of the Order typically wear plain or unassuming garments, but this variant offers the additional protection needed by Jedi influencing important events._
+
+You gain a +1 bonus to AC and saving throws while you wear this robe.
+
+#### Jedi Master's Robe
+_<font style="color:purple">Adventuring gear (body), advanced (requires attunement)</font>_
+
+**Value:** 95,000 cr
+
+_Members of the Order typically wear plain or unassuming garments, but Jedi Masters also know the importance of adequate protection when great challenges must be surmounted._
+
+You gain a +2 bonus to AC and saving throws while you wear this robe.
+
+#### Jedi Robe
+_<font style="color:green">Adventuring gear (body), premium (requires attunement)</font>_
+
+**Value:** 4,800 cr
+
+_Members of the Jedi Order typically wear plain or unassuming garments, offering only a minor boost to defenses._
+
+You gain a +1 bonus to AC while you wear this robe.
+
 #### Kunda Cluster
 _<font style="color:red">Item modification (crystal), artifact</font>_
 
@@ -1590,6 +1637,8 @@ _<font style="color:green">Item modification (lens), premium</font>_
 **Value:** 2,400 cr
 
 You gain a +1 bonus to attack rolls made with this weapon.
+
+\columnbreak
 
 #### Lightweight Stabilizer Frame
 _<font style="color:#dd6b20">Item modification (stabilizer), legendary</font>_<br>
@@ -1606,18 +1655,55 @@ _<font style="color:#4a5568">Item modification (stabilizer), standard</font>_
 
 This weapon loses the *luminous* property, and gains the *hidden* property if it didn't have it already. 
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Mag-lock Boots
-_<font style="color:#4a5568">Adventuring gear (boots), standard</font>_
+_<font style="color:#4a5568">Adventuring gear (feet), standard</font>_
 
 **Value:** 1,000 cr
 
 While you wear these boots, you can activate or deactivate heir mag-locks as a bonus action. While the mag locks are engaged, you move at half speed, can walk on any solid metallic surface, ignore difficult terrain caused by metallic debris, and ignore the effects of gravity (or the lack thereof), allowing you to walk up vertical surfaces or even upside-down. 
 
 The battery in these boots lasts for a total of 1 hour and recharges at the end of a long rest.
+
+#### Mandalorian Beskar'gam
+_<font style="color:blue">Armor (powered battle armor), prototype (requires attunement)</font>_
+
+**Value:** 24,000 cr
+
+_This armor is forged from an incredibly rare material known as beskar, a highly durable metal._
+
+This armor comes equipped with 24 slots that can each hold a single item that weighs less than 2 lb. Additionally, it grants a +1 bonus to AC.
+
+While wearing and attuned to this armor and Mandalorian Helmet, you are able to survive and operate in zero gravity space and other dangerous conditions. Additionally, this armor now grants a +2 bonus to AC, instead of +1.
+
+While wearing and attuned to this armor, Mandalorian Helmet, and Mandalorian Shuk'orok, this armor now grants a +3 bonus to AC, instead of +2.
+
+#### Mandalorian Helmet
+_<font style="color:green">Adventuring gear (head), premium (requires attunement)</font>_
+
+**Value:** 4,200 cr
+
+_Featuring the iconic T-shaped visor of the Mandalorians, this helmet strikes fear into the hearts of the unwary._
+
+This helmet comes equipped with a headcomm and holorecorder. Additionally, while wearing this helmet, you have darkvision out to 60 feet. 
+
+While wearing and attuned to this helmet and Mandalorian Beskar'gam, you have advantage on Wisdom (Perception) checks that rely on sight within 60 feet.
+
+While wearing and attuned to this helmet, Mandalorian Beskar'gam, and Mandalorian Shuk'orok, you have advantage on Intelligence (Investigation) checks within 5 feet.
+
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+
+\pagebreak
+
+#### Mandalorian Shuk'orok
+_<font style="color:purple">Adventuring gear (hands), advanced (requires attunement)</font>_
+
+**Value:** 66,000 cr 
+
+While wearing these gloves, your Strength score changes to 21. If your Strength is already equal to or greater than 21, it has no effect on you.
+
+While wearing and attuned to these gloves and Mandalorian Beskar'gam, these gauntlets no longer count towards your maximum attunement.
+
+While wearing and attuned to these gloves, Mandalorian Beskar'gam, and Mandalorian Helmet, you have resistance to kinetic and energy damage from unenhanced sources.
 
 #### Master Charisma Augment
 _<font style="color:red">Item modification (augment), artifact</font>_
@@ -1871,14 +1957,14 @@ You have resistence to unenhanced damage while you wear this armor. Additionally
 #### Returning Weapon +1, +2, or +3
 _Weapon (any with the thrown property), <font style="color:green">premium (+1),</font> <font style="color:blue">prototype (+2),</font> or <font style="color:purple">advanced (+3)</font> (requires attunement)_
 
-**Value:** 4,800 cr (+1), 25,000 cr (+2), or 80,000 cr (+3) _(determined by rarity)_
+**Value:** 12x (+1), 70x (+2), or 250x (+3) _(determined by rarity)_
 
 _This weapon includes a micro-repulsorfield generator and a biotech signature homing device allowing it to quickly return to its thrower._
 
 You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity. Additionally, when you make a ranged weapon attack with this weapon, it automatically returns to your hand after the attack is complete, whether you hit or miss.
 
 #### Reverse-Engineered Crushgaunts
-_<font style="color:green">Adventuring gear (gloves), premium (requires attunement)</font>_
+_<font style="color:green">Adventuring gear (hands), premium (requires attunement)</font>_
 
 **Value:** 4,800 cr
 
@@ -1957,7 +2043,7 @@ Your Kinetic Combat Damage Die increases by one step (from a d4 to a d6, a d6 to
 #### Shield +1, +2, or +3
 _Shield (any), <font style="color:green">premium (+1)</font>, <font style="color:blue">prototype (+2)</font>, or <font style="color:purple">advanced (+3)</font>_
 
-**Value:** 3,000 cr (+1), 19,000 cr (+2), or 64,000 cr (+3) _(determined by rarity)_
+**Value:** 10x cr (+1), 60x (+2), or 200x cr (+3) _(determined by rarity)_
 
 _There are countless ways to increase the effectiveness of a stock shield design without resorting to one of the more drastic modifications._
 
@@ -1988,7 +2074,7 @@ _<font style="color:#dd6b20">Item modification (storage), legendary</font>_
 When you spend tech points to cast a tech power that restores hit points to a creature, the creature gains a number of temporary hit points equal to twice the number of tech points spent.
 
 #### Sith Strength Belt
-_<font style="color:#dd6b20">Adventuring gear (belt), legendary (requires attunement)</font>_
+_<font style="color:#dd6b20">Adventuring gear (waist), legendary (requires attunement)</font>_
 
 **Value:** 400,000 cr 
 
@@ -2011,7 +2097,7 @@ When you make an ability check using a skill you are proficient in, you can roll
 **Side Effect:** When you make an ability check using a skill you are not proficient in, you must roll a d4 and subtract the result from the total.
 
 #### Slipstream Kickers
-_<font style="color:purple">Adventuring gear (boots) (requires attunement), prototype</font>_
+_<font style="color:purple">Adventuring gear (feet) (requires attunement), prototype</font>_
 
 **Value:** 20,000 cr
 
@@ -2036,7 +2122,7 @@ _This is a highly pressurized liquid stimulant delivered through a tightly arran
 You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +2 bonus to its Strength score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 #### Strength Enhancer 
-_<font style="color:blue">Adventuring gear (belt), prototype (requires attunement)</font>_
+_<font style="color:blue">Adventuring gear (waist), prototype (requires attunement)</font>_
 
 **Value:** 25,000 cr 
 
@@ -2258,7 +2344,7 @@ While wearing this shield generator, you can speak its command word as a bonus a
 #### Weapon +1, +2, or +3
 _Weapon (any), <font style="color:green">premium (+1),</font> <font style="color:blue">prototype (+2),</font> or <font style="color:purple">advanced (+3)</font> (requires attunement)_
 
-**Value:** 3,500 cr (+1), 22,000 cr (+2), or 70,000 cr (+3) _(determined by rarity)_
+**Value:** 10x (+1), 60x (+2), or 200x (+3) _(determined by rarity)_
 
 _There are countless ways to increase the effectiveness of a stock weapon design without resorting to one of the more drastic modifications._
 

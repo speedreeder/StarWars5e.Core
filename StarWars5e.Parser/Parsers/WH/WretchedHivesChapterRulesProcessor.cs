@@ -21,10 +21,10 @@ namespace StarWars5e.Parser.Parsers.WH
             var chapters = new List<ChapterRules>();
 
             //var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
-            //var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: ");
+            var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: Step-By-Step Factions");
             var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Entertainment and Downtime");
             var chapter3StartIndex = lines.FindIndex(f => f == "# Chapter 3: Factions and Membership");
-            //var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Modifications");
+            var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Using Ability Scores");
             var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Enhanced Items");
             var chapter6StartIndex = lines.FindIndex(f => f == "# Chapter 6: Modifiable Items");
             var chapter7StartIndex = lines.FindIndex(f => f == "# Chapter 7: Cybernetic Augmentations");
@@ -35,10 +35,16 @@ namespace StarWars5e.Parser.Parsers.WH
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Enhanced Items");
             //var changelogStartIndex = lines.FindIndex(f => f == "## Changelog");
 
+            var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter1Lines[2] = chapter1Lines[2].Insert(0, "M");
+            chapters.Add(CreateWretchedHivesChapterRules(chapter1Lines, 1, "Step-By-Step Factions", SectionNames.WHChapterOneSections,
+                "stepByStep"));
+
             var chapter2Lines = lines.Skip(chapter2StartIndex).Take(chapter3StartIndex - chapter2StartIndex)
                 .CleanListOfStrings().ToList();
             chapter2Lines[2] = chapter2Lines[2].Insert(0, "A");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter2Lines, 2, "Downtime", SectionNames.WHChapterTwoSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter2Lines, 2, "Entertainment and Downtime", SectionNames.WHChapterTwoSections,
                 "downtime"));
 
             var chapter3Lines = lines.Skip(chapter3StartIndex).Take(chapter5StartIndex - chapter3StartIndex)
@@ -46,6 +52,12 @@ namespace StarWars5e.Parser.Parsers.WH
             chapter3Lines[2] = chapter3Lines[2].Insert(0, "A");
             chapters.Add(CreateWretchedHivesChapterRules(chapter3Lines, 3, "Factions and Membership", SectionNames.WHChapterThreeSections,
                 "factionsAndMembership"));
+
+            var chapter4Lines = lines.Skip(chapter4StartIndex).Take(chapter5StartIndex - chapter4StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter4Lines[2] = chapter4Lines[2].Insert(0, "S");
+            chapters.Add(CreateWretchedHivesChapterRules(chapter4Lines, 3, "Using Ability Scores", SectionNames.WHChapterFourSections,
+                "abilityScores"));
 
             var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
                 .CleanListOfStrings().ToList();

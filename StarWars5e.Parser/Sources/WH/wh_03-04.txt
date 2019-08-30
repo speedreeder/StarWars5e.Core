@@ -54,10 +54,10 @@ Rank 4 characters are trusted within the faction's leadership. They are looked u
 #### Rank 5: Leader
 Rank 5 characters are the leaders of their respective factions. Typically, a faction has one singular leader per headquarters, who delegates responsibilities to the faction's rank 4 and lower characters.
 
-A faction may have only one rank 5 character, or it may have a council. If the faction has a council, typically one stands above the rest.
+A faction can not have more rank 5 characters than its tier. If a faction has more than one rank 5 character, typically one stands above the rest.
 
 ### Rising through the Ranks
-When a character completes an endeavor, such as a downtime activity or mission, that aligns with the goals of their faction, they gain renown. As a character reaches certain thresholds of renown, they earn the opportunity to rise through the ranks of their faction, provided they meet any other requirements, as shown in the Faction Membership table on page \-\-\-.
+When a character completes an endeavor, such as a downtime activity or mission, that aligns with the goals of their faction, they gain renown. As a character reaches certain thresholds of renown, they earn the opportunity to rise through the ranks of their faction, provided they meet any other requirements, as shown in the Membership Ranks table on page \-\-\-.
 
 <div class='footnote'>CHAPTER 3 | FACTIONS AND MEMBERSHIP</div>
 
@@ -67,13 +67,13 @@ When a character completes an endeavor, such as a downtime activity or mission, 
 Faction can vary greatly in size and renown, from a lowly local adventurer's guild to a galaxy-spanning criminal organization. The nature of factions drastically differ as well, depending on the faction's intended focus. 
 
 ### Faction Tiers
-Factions vary in tier depending on their size. Smaller factions will typically hover around tier 1 or tier 2, while larger, galaxy-spanning factions might reach tier 4 or tier 5. Higher tiers require more active members, but grant greater benefits to them, as shown in the Factions table on page \-\-\-.
+Factions vary in tier depending on their size. Smaller factions will typically hover between tier 1 and tier 5, while larger, galaxy-spanning factions might reach tier 20. Higher tiers require more active members, but grant greater benefits to them, as shown in the Faction Benefits table on page \-\-\-.
 
 #### Proficiency Bonus
-Factions have their own proficiency bonus, which scales with their tier. This proficiency bonus affects actions that faction takes as a whole, or actions taken by members of appropriate rank, in the association scores in which the faction is proficient.
+Factions have their own proficiency bonus, which scales with their tier. This proficiency bonus affects actions that faction takes as a whole, or actions taken by members of appropriate rank, in the ability scores in which the faction is proficient.
 
-#### Association Scores 
-Association scores represent what a faction choose to focus on for its enterprises. Their are six associations: Might, Cunning, Resilience, Resources, Awareness, and Influence. Association scores are discussed at greater length in Chapter \-\-\-: Assocation Scores.
+#### Ability Scores 
+Ability scores represent what a faction choose to focus on for its enterprises. Their are six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Ability scores are discussed at greater length in Chapter 4: Using Ability Scores.
 
 ### Faction Traits
 Every faction is unique, not just in how they function, but also their goals, beliefs, and what kind of members they attract.
@@ -94,24 +94,31 @@ Members of a faction are often drawn to it because they share common traits with
 ### Headquarters
 Most factions have use of a headquarters. For smaller factions, it might be a simple building, or even a room. For larger factions, however, it might be a space ship, a space station, or even an entire moon or planet. A faction headquarters is required to recruit members to a faction.
 
+A faction can have any number of headquarters, provided it has the staff and funds to maintain them. However, every headquarters requires at least one 4th rank or higher member to administrate.
+
 #### Operating Costs
 Beyond the required costs for actually maintaining a headquarters, factions have costs directly associated with their functions. These fees might cover licensing fees, bribes, government contracts, etc. These fees amount to roughly 1,000 cr per headquarters per month.
 
 ### Recruiting
-In order for a faction to grow, it must recruit members. A smaller faction will have trouble recruiting skilled members, while larger factions don't. A faction can attract members of a maximum CR, determined by its tier.
+In order for a faction to grow, it must recruit members. While lower tier factions can thrive with only a few members, higher tier factions require constant effort by thousands or more members. Additionally, a smaller faction might have trouble recruiting skilled members, while larger factions probably don't. 
 
-|Faction<br> Tier|Maximum<br> Member CR|
-|:--:|:--:|
-|1|
-|2|
-|3|
-|4|
-|5|
+Each membership rank can only support members of a certain CR or higher, as shown in the Membership Ranks CR and Renown table below.
+
+##### Membership Ranks CR and Renown
+|Membership<br> Rank|Minimum<br> Member CR|Monthly Renown<br> Generation|
+|:--:|:--:|:--:|
+|1|1/8|1|
+|2|1/2|2|
+|3|1|3|
+|4|2|4|
+|5|5|5|
 
 Additionally, certain NPCs might also require a higher tier to join your faction. For instance, a skilled craftsman might not have a high CR, but might still require a faction to be a higher tier to merit joining.
 
 ### Renown
-Characters who act on behalf of their faction's interest earn renown, improving their own standing within their faction as well as their faction's overall effectiveness. In order for a faction to increase in tier, it must have a certain amount of renown earned on a monthly basis, as shown in the Factions table on page \-\-\-.
+Characters who act on behalf of their faction's interest earn renown, improving their own standing within their faction as well as their faction's overall effectiveness. In order for a faction to increase in tier, it must have a specific amount of renown, as shown in the Faction Benefits table on page \-\-\-. Additionally, once a faction reaches tier 6, it must have a certain amount of renown generated each month in order to progress to subsequent tiers.
+
+NPC faction members generate an amount of renown each month determined by their rank in the faction, as shown in the Membership Ranks CR and Renown table above.
 
 <div class='footnote'>CHAPTER 3 | FACTIONS AND MEMBERSHIP</div>
 
@@ -119,91 +126,91 @@ Characters who act on behalf of their faction's interest earn renown, improving 
 
 <div class='classTable wide'>
 
-##### Factions
-| Tier | Proficiency<br> Bonus | Features | Required<br> Renown | Other<br> Requirements|
-|:---:|:--:|:---|:--:|:--:|
-| 1st | +2 | Faction Improvements, Faction Training, Insignia  | 0 | — |
-| 2nd | +3 | Association Proficiency, Faction Activity, Enhanced Insignia | 50 | — |
-| 3rd | +4 | Association Expertise, Preferred Premium Item | 125 | 10,000 cr |
-| 4th | +5 | Association Advantage, Preferred Prototype Item | 250 | 50,000 cr |
-| 5th | +6 | Faction Mastery, Preferred Advanced Item | 500 | 250,000 cr |
+##### Faction Benefits
+| Tier | Proficiency<br> Bonus | Features | Required<br> Renown&nbsp; | Monthly Renown&emsp;<br> Generation&emsp;&emsp;&nbsp;|
+|:---:|:--:|:---|--:|--:|
+| 1st | +2 | Insignia, Faction Training                         |       0&emsp; | ï¿½&emsp;&emsp;&emsp;&emsp; |
+| 2nd | +2 | Association Proficiency, Faction Activity          |       5&emsp; | ï¿½&emsp;&emsp;&emsp;&emsp; |
+| 3rd | +2 | Enhanced Insignia                                  |      15&emsp; | ï¿½&emsp;&emsp;&emsp;&emsp; |
+| 4th | +2 | Ability Score Improvement                          |      30&emsp; | ï¿½&emsp;&emsp;&emsp;&emsp; |
+| 5th | +3 | Premium Item Stockpile                             |      50&emsp; | ï¿½&emsp;&emsp;&emsp;&emsp; |
+| 6th | +3 | Faction Training (2)                               |      75&emsp; | ï¿½&emsp;&emsp;&emsp;&emsp; |
+| 7th | +3 | Association Proficiency (2), Faction Activity (2)  |     100&emsp; |     10&emsp;&emsp;&emsp;&emsp; |
+| 8th | +3 | Ability Score Improvement                          |     150&emsp; |     15&emsp;&emsp;&emsp;&emsp; |
+| 9th | +4 | Prototype Item Stockpile                           |     200&emsp; |     20&emsp;&emsp;&emsp;&emsp; |
+|10th | +4 | Association Expertise                              |     250&emsp; |     25&emsp;&emsp;&emsp;&emsp; |
+|11th | +4 | Faction Training (3), Association Proficiency (3)  |     325&emsp; |     30&emsp;&emsp;&emsp;&emsp; |
+|12th | +4 | Ability Score Improvement                          |     400&emsp; |     40&emsp;&emsp;&emsp;&emsp; |
+|13th | +5 | Advanced Item Stockpile, Faction Activity (3)      |     500&emsp; |     50&emsp;&emsp;&emsp;&emsp; |
+|14th | +5 | Association Expertise (2), Association Advantage   |   1,000&emsp; |    100&emsp;&emsp;&emsp;&emsp; |
+|15th | +5 | Faction Training (4), Association Proficiency (4)  |   2,000&emsp; |    200&emsp;&emsp;&emsp;&emsp; |
+|16th | +5 | Ability Score Improvement                          |   5,000&emsp; |    500&emsp;&emsp;&emsp;&emsp; |
+|17th | +6 | Ability Score Mastery, Legendary                   |  10,000&emsp; |  1,000&emsp;&emsp;&emsp;&emsp; |
+|18th | +6 | Ability Score Mastery                              |  20,000&emsp; |  2,000&emsp;&emsp;&emsp;&emsp; |
+|19th | +6 | Ability Score Mastery                              |  50,000&emsp; |  5,000&emsp;&emsp;&emsp;&emsp; |
+|20th | +6 | Ability Score Mastery, Artifact                    | 100,000&emsp; | 10,000&emsp;&emsp;&emsp;&emsp; |
 
 </div>
 
-### Faction Improvements
-Beginning at 1st tier when you establish your faction, it gains the following benefits:
-
-#### Association Score Improvement
-You can increase one of your faction's association scores by 2. At 2nd, 3rd, 4th, and 5th tier, you can increase another of your faction's association scores by 2. As normal, you can't increase an association score above above 20 using this feature.
-
-#### Additional Headquarters
-Your faction can have up to 3 headquarters. This increases to 10 headquarters at 2nd tier, 25 headquarters at 3rd tier, 50 headquarters at 4th tier, and an unlimited number of headquarters at 5th tier.
+### Insignia
+Beginning at 1st tier when you establish your faction, your faction can choose an insignia. Faction members of 1st rank or higher can wear, carry, or otherwise bear your insignia in a fashion appropriate to your faction's operations. Your insignia will be one of the primary ways that members identify themselves as a member of your faction.
 
 ### Faction Training
 Also at 1st tier, your faction gains a favored language or tool. Choose a language, or one of the tool options on page \_\_\_ of the *Player's Handbook*. Alternatively, your faction can develop its own cant.
 
 When a 1st rank or higher faction member trains in the chosen language or tool using the Training downtime activity on page \_\_\_ of the *Player's Handbook*, the requisite time and credits are halved. 
 
-At 2nd, 3rd, 4th, and 5th tier, your faction can choose another language or tool.
-
-### Insignia
-Lastly at 1st tier, your faction can choose an insignia. Faction members of 1st rank or higher can wear, carry, or otherwise bear your insignia in a fashion appropriate to your faction's operations. 
+At 6th, 11th, and 15th tier, your faction can choose another language or tool.
 
 \columnbreak
 
 ### Association Proficiency
-At 2nd tier, your faction gains proficiency in one of association score of your choice. When a 2nd rank or higher faction member engages in an activity that uses the chosen association score, they add the faction's proficiency bonus to the d20 roll, in addition to the association score modifier.
+At 2nd tier, your faction gains proficiency in one of ability score of your choice. When your faction engages in an activity that uses the chosen ability score, they add the faction's proficiency bonus to the d20 roll, in addition to the ability score modifier.
 
-At 3rd, 4th, and 5th tier, your faction gains proficiency in another association score.
+At 7th, 11th, and 15th tier, your faction gains proficiency in another ability score.
 
 ### Faction Activity
-Also at 2nd tier, your association chooses a faction activity. When a 2nd rank or higher faction member engages in the chosen activity and rolls percentile dice, they can also make an association check and add it to the roll. The association check is determined by the specific activity. Additionally, when they make a d20 roll as a part of the chosen activity, they can use your faction's association modifier instead of their check modifier, if that number is greater.
+Also at 2nd tier, your faction chooses an activity from the options available in Chapter 2: Entertainment and Downtime. When a 2nd rank or higher faction member engages in the chosen activity and rolls percentile dice, they can also make a faction ability check and add it to the roll. The faction ability check is determined by the specific activity, as shown in Chapter 4: Using Ability Scores. Additionally, when they make a d20 roll as a part of the chosen activity, they can use your faction's ability modifier instead of their own modifier, if that number is greater.
 
-At 4th tier, your faction can choose another activity.
-
-### Empowered Insignia
-Lastly at 2nd tier, your faction's insignia gains an enhanced property. Choose an at-will force or tech power. If the bearer of the insignia is at least 2nd rank in the faction, they can cast the power while wielding their insignia. The force- or tech-casting ability varies based on the type of power chosen: Intelligence for tech powers, Wisdom for light side force powers, Charisma for dark side force powers, or Wisdom or Charisma for universal force powers (the faction member's choice).
+At 7th and 13th tier, your faction can choose another activity.
 
 <div class='footnote'>CHAPTER 3 | FACTIONS AND MEMBERSHIP</div>
 
 \pagebreak
 
-<div style='margin-top:28px'></div>
+### Enhanced Insignia
+Starting at 3rd tier, its insignia gains an enhanced property. Choose an at-will force or tech power. If the bearer of the insignia is at least 1st rank in the faction, they can cast the power while wielding their insignia. The force- or tech-casting ability varies based on the type of power chosen: Intelligence for tech powers, Wisdom for light side force powers, Charisma for dark side force powers, or Wisdom or Charisma for universal force powers (the faction member's choice).
+
+### Ability Score Improvement
+At 4th tier, you can increase one of your faction's ability scores by 2. At 8th, 12th, and 16th tier, you can increase another of your faction's ability scores by 2. As normal, you can't increase an ability score above above 20 using this feature.
+
+### Premium Item Stockpile 
+Once your faction has reached 5th tier, it gains access to a premium enhanced item of its choice. When a 2nd rank or higher faction member has spent 50 days of downtime furthering the faction's interests, they gain access to the chosen premium item and can purchase it at the item's full value. If the chosen item is a consumable, it takes half the requisite downtime. Once they've done so, they must spend another 50 days of downtime furthering your faction's interest before they can do so again. Provided that the item is undamaged, they can return it to your faction for a full refund.
+
+### Prototype Item Stockpile
+At 9th tier, your faction gains access to a prototype enhanced item of your choice. When a 3rd rank or higher faction member has spent 100 days of downtime furthering the faction's interests, they gain access to this prototype item and can purchase it at the item's full value. If the chosen item is a consumable, it takes half the requisite downtime. Provided that the item is undamaged, they can return it to your faction for a full refund.
 
 ### Association Expertise
-Starting at 3rd tier, your faction gains expertise in one association score in which it is proficient. 
+Beginning at 10th tier, your faction gains expertise in one ability score in which it is proficient. 
 
-At 5th tier, your faction gains expertise in another association score in which it is proficient.
-
-### Preferred Premium Item 
-Also at 3rd tier, your faction gains access to a premium enhanced item of your choice. When a 3rd rank or higher faction member has spent 50 days of downtime furthering the faction's interests, they gain access to this premium item and can purchase it at the item's full value. If the chosen item is a consumable, it takes half the requisite downtime. Once they've done so, they must spend another 50 days of downtime furthering your faction's interest before they can do so again. Provided that the item is undamaged, they can return it to your faction for a full refund.
-
-### Association Advantage
-At 4th tier, your faction gains advantage on checks with one association score of your choice.
-
-### Preferred Prototype Item 
-Also at 4th tier, your faction gains access to a prototype enhanced item of your choice. When a 4th rank or higher faction member has spent 100 days of downtime furthering the faction's interests, they gain access to this premium item and can purchase it at the item's full value. If the chosen item is a consumable, it takes half the requisite downtime. Provided that the item is undamaged, they can return it to your faction for a full refund.
-
-### Faction Mastery
-As of 5th tier, you can increase one of your faction's association scores by 4, or two of your faction's association scores by 2. Its maximum for the chosen score increases by 4, or the chosen scores by 2. 
-
-### Preferred Advanced Item 
-Also at 5th tier, your faction gains access to an advanced enhanced item of your choice. When a 5th rank or higher faction member has spent 200 days of downtime furthering the faction's interests, they gain access to this premium item and can purchase it at the item's full value. If the chosen item is a consumable, it takes half the requisite downtime. Provided that the item is undamaged, they can return it to your faction for a full refund.
+At 14th tier, your faction gains expertise in another ability score in which it is proficient.
 
 \columnbreak
 
-## Generating a Faction
-First, you want to determine what the primary goals and beliefs. What is your faction's intended function? What business will it be in? Are it's beliefs altruistic, benevolent, or more insidious?
+### Advanced Item Stockpile 
+At 13th tier, your faction gains access to an advanced enhanced item of its choice. When a 4th rank or higher faction member has spent 200 days of downtime furthering the faction's interests, they gain access to this advanced item and can purchase it at the item's full value. If the chosen item is a consumable, it takes half the requisite downtime. Provided that the item is undamaged, they can return it to your faction for a full refund.
 
-Second, in order to generate your faction, you must first have a headquarters. The form and function of your headquarters can vary based on what your faction's intended business practices are.
+### Association Advantage
+Starting at 14th tier, your faction gains advantage on checks with one ability score of your choice.
 
-Third, you want to assign the following values (14, 14, 14, 12, 10, 8) to your association scores:
-- **Might:** Measures the aggregate strength of your faction as it compares to other factions.
-- **Cunning:** Measures the ability of your faction to operate without being detected.
-- **Resilience:** Measures the hardiness of your faction as it compares to other factions.
-- **Influence:** Measures how much clout your faction has with persons of consequence.
-- **Awareness:** Measures how resilient your faction is to subterfuge.
-- **Wealth:** Measures the resources of your faction and how effectively they are wielded.
+### Ability Score Mastery
+At 17th tier, you can increase one of your faction's ability scores by 2. Its maximum for this score increases by 2. At 18th, 19th, and 20th tier, you can increase another of your faction's ability scores, and its maximum, by 2.
+
+### Legendary
+Also at 17th tier, your factions gains access to one legendary enhanced item of its choice. When a 5th rank or higher faction member has spent 500 days of downtime furthering the faction's interests, they gain access to this legendary item and can procure it at no cost.
+
+### Artifact
+As of 20th tier, your factions gains access to one artifact enhanced item of its choice. When a 5th rank or higher faction member has spent 1,000 days of downtime furthering the faction's interests, they gain access to this artifact item and can procure it at no cost. 
 
 <div class='footnote'>CHAPTER 3 | FACTIONS AND MEMBERSHIP</div>
 
@@ -211,14 +218,14 @@ Third, you want to assign the following values (14, 14, 14, 12, 10, 8) to your a
 
 <div class='classTable wide'>
 
-##### Faction Membership
+##### Membership Ranks
 | Rank | Features | Required<br> Renown | Other<br> Requirements |
 |:---:|:---|:--:|:--:|
-| 1st | Earn Renown, Faction Training, Insignia  | 0 | — |
-| 2nd | Apprenticeship, Faction Activity, Enhanced Insignia | 10 | — |
-| 3rd | Special Missions, Premium Item Procurement | 25 | 5th level |
-| 4th | Mentor, Prototype Item Procurement | 50 | 9th level, 3 special missions |
-| 5th | Faction Leader, Advanced Item Procurement | 100 | 13th level, 10 special missions |
+| 1st | Earn Renown, Faction Training, Insignia  | 0 | ï¿½ |
+| 2nd | Apprentice, Faction Activity, Premium Item Procurement, Special Missions| 10 | ï¿½ |
+| 3rd | Mentor, Prototype Item Procurement | 25 | 5th level, 1 special mission |
+| 4th | Advanced Item Procurement | 50 | 9th level, 3 special missions |
+| 5th | Faction Leader  | 100 | 13th level, 10 special missions |
 
 </div>
 
@@ -229,12 +236,12 @@ Beginning at 1st rank when you join a faction, you gain the ability to earn reno
 Also at 1st rank, you gain access to your faction's favored training. When you train in your faction's favored language or tool using the Training downtime activity on page ___ of the Player's Handbook, the requisite time and credits are halved.
 
 ### Insignia
-Lastly at 1st rank, you are given permission to wield the insignia of your faction, either openly or in secret.
+Lastly at 1st rank, you are given permission to wield the insignia of your faction, either openly or in secret. When your faction reaches 3rd tier, your insignia gains an enhanced property.
 
 ### Apprentice
-At 2nd rank, you gain the ability to be apprenticed to a 4th rank or higher member of your faction. Bonding with a mentor takes one workweek of downtime spent together furthering your faction's interests. At the end of the workweek, you and your mentor are bonded. You can only have one mentor at a time. You can break your bond with your current mentor at any time, no action required.
+At 2nd rank, you gain the ability to be apprenticed to a 3rd rank or higher member of your faction. Bonding with a mentor takes one workweek of downtime spent together furthering your faction's interests in your faction's favored activity. At the end of the workweek, you and your mentor are bonded. You can only have one mentor at a time. You can break your bond with your current mentor at any time, no action required.
 
-While traveling with or otherwise working with your mentor, you gain the following benefits.
+While traveling with or otherwise working with your mentor, you gain the following benefits:
 
 #### Language and Tool Training
 You can learn any language or tool proficiency that your mentor possesses in half the time, with no credit requirement.
@@ -246,28 +253,25 @@ You can learn any language or tool proficiency that your mentor possesses in hal
 #### Word of Advice
 While you can see and hear your mentor, you can gain advantage on one ability check, attack roll, or saving throw (no action required). You can wait until after you roll the d20 to use this feature, but you must decide before the GM says whether the roll succeeds or fails.
 
-You can use this feature a number of times equal to your faction's tier. You regain all expended uses when you spend at least one workweek of downtime with your mentor furthering your faction's interests.
+Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Faction Activity
-Also at 2nd rank, you gain benefits from your faction when you engage in your faction's favored activity. When you roll percentile dice as a part of the chosen activity, you can also make an association check and add it to the roll. The association check is determined by the specific activity, as shown in the \_\_\_ table on page \_\_\_. Additionally, when you make a d20 roll as a part of the chosen activity, you can use your faction's association modifier instead of your modifier, if that number is greater.
+Also at 2nd rank, you gain benefits from your faction when you engage in your faction's favored activity, provided your faction is at least 2nd tier. When you roll percentile dice as a part of the chosen activity, you can also make an ability check and add it to the roll. The ability check is determined by the specific activity, as shown in the \_\_\_ table on page \_\_\_. Additionally, when you make a d20 roll as a part of the chosen activity, you can use your faction's association modifier instead of your modifier, if that number is greater.
 
-### Empowered Insignia
-Lastly at 2nd rank, you gain access to the enhanced properties in your faction's insignia. You can cast a force or tech power, determined by your faction, while wielding your insignia. Your force- or tech-casting ability varies based on the type of power chosen: Intelligence for tech powers, Wisdom for light side force powers, Charisma for dark side force powers, or Wisdom or Charisma for universal force powers (your choice). 
+### Premium Item Procurement
+Additionally at 2nd rank, after spending at least 50 days of downtime furthering your faction's interests, you gain access to premium enhanced items, which you can purchase at the item's full value, provided your faction is at least 5th tier. You gain access to armor +1, shield +1, weapon +1, and one premium enhanced item chosen by your faction. You can only have one premium item procured in this fashion, but provided that the item is undamaged, you can return it to your faction for a full refund. If your faction's chosen item is a consumable, you can instead have an unlimited number of that item, but you must spend the requisite downtime for each one.
 
 <div class='footnote'>CHAPTER 3 | FACTIONS AND MEMBERSHIP</div>
 
 \pagebreak
 
 ### Special Missions
-Starting at 3rd rank, you gain the opportunity to undergo special missions on behalf of your faction. These missions, while more scarce, often yield greater renown, and potentially other rewards. Special missions are also required to progress past 3rd rank in a faction.
-
-### Premium Item Procurement
-Also at 3rd, after spending at least 50 days of downtime furthering your faction's interests, you gain access to premium enhanced items, which you can purchase at the item's full value. You gain access to armor +1, shield +1, weapon +1, and one premium enhanced item chosen by your faction. You can only have one premium item procured in this fashion, but provided that the item is undamaged, you can return it to your faction for a full refund. If your faction's chosen item is a consumable, you can instead have an unlimited number of that item, but you must spend the requisite downtime for each one.
+Lastly at 2nd rank, you gain the opportunity to undergo special missions on behalf of your faction. These missions, while more scarce, often yield greater renown, and potentially other rewards. Special missions are also required to progress past 2nd rank in a faction, as shown in the Membership Ranks table.
 
 ### Mentor
-At 4th rank, you gain the ability to take a 2nd or 3rd rank member of your faction as an apprentice. Bonding with an apprentice takes one workweek of downtime spent together furthering your faction's interests. At the end of the workweek, you and your apprentice are bonded. You can only have one apprentice at a time. You can break your bond with your current apprentice at any time, no action required.
+At 3rd rank, you gain the ability to take a 2nd or 3rd rank member of your faction as an apprentice. Bonding with an apprentice takes one workweek of downtime spent together furthering your faction's interests. At the end of the workweek, you and your apprentice are bonded. You can only have one apprentice at a time. You can break your bond with your current apprentice at any time, no action required.
 
-At 5th rank, you can have a 2nd, 3rd, or 4th rank member of your faction as an apprentice. Additionally, you can maintain three apprentices at a time, instead of one.
+And 4th rank, you can have a 2nd or 3rd rank member of your faction as an apprentice, and at 5th rank, you can have a 2nd, 3rd, or 4th rank member of your faction as an apprentice. Additionally, at 5th rank, you can maintain three apprentices at a time, instead of one.
 
 While traveling with or otherwise working with your apprentice, you gain the following benefits.
 
@@ -277,19 +281,287 @@ When you engage in a downtime activity with your apprentice and make your percen
 #### Inspiring Presence
 While your apprentice can see and hear you, you can gain advantage on one ability check, attack roll, or saving throw (no action required). You can wait until after you roll the d20 to use this feature, but you must decide before the GM says whether the roll succeeds or fails.
 
-You can use this feature a number of times equal to your faction's tier. You regain all expended uses when you spend at least one workweek of downtime with your apprentice furthering your faction's interests.
+Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 \columnbreak
 
 ### Prototype Item Procurement
-Also at 4th rank, after spending at least 100 days of downtime furthering your faction's interests, you gain access to prototype enhanced items, which you can purchase at the item's full value. You gain access to armor +2, shield +2, weapon +2, and one prototype enhanced item chosen by your faction. You can only have one prototype item procured in this fashion, but provided that the item is undamaged, you can return it to your faction for a full refund. If your faction's chosen item is a consumable, you can instead have an unlimited number of that item, but you must spend the requisite downtime for each one.
+Also at 3rd rank, after spending at least 100 days of downtime furthering your faction's interests, you gain access to prototype enhanced items, which you can purchase at the item's full value, provided your faction is at least 9th tier. You gain access to armor +2, shield +2, weapon +2, and one prototype enhanced item chosen by your faction. You can only have one prototype item procured in this fashion, but provided that the item is undamaged, you can return it to your faction for a full refund. If your faction's chosen item is a consumable, you can instead have an unlimited number of that item, but you must spend the requisite downtime for each one.
+
+### Advanced Item Procurement
+At 4th rank, after spending at least 200 days of downtime furthering your faction's interests, you gain access to advanced enhanced items, which you can purchase at the item's full value, provided your faction is at least 13th tier. You gain access to armor +3, shield +3, weapon +3, and one advanced enhanced item chosen by your faction. You can only have one advanced item procured in this fashion, but provided that the item is undamaged, you can return it to your faction for a full refund. If your faction's chosen item is a consumable, you can instead have an unlimited number of that item, but you must spend the requisite downtime for each one.
 
 ### Faction Leader
 As of 5th rank, at the end of a long rest, if a faction member of lower rank is within line of sight, you can grant them Inspiration, which lasts until the end of their next long rest. Once you've done so, you can't do so again until you complete a long rest.
 
-### Advanced Item Procurement
-Also at 5th rank, after spending at least 200 days of downtime furthering your faction's interests, you gain access to advanced enhanced items, which you can purchase at the item's full value. You gain access to armor +3, shield +3, weapon +3, and one advanced enhanced item chosen by your faction. You can only have one advanced item procured in this fashion, but provided that the item is undamaged, you can return it to your faction for a full refund. If your faction's chosen item is a consumable, you can instead have an unlimited number of that item, but you must spend the requisite downtime for each one.
-
 <div class='footnote'>CHAPTER 3 | FACTIONS AND MEMBERSHIP</div>
+
+\pagebreak
+
+# Chapter 4: Using Ability Scores
+
+<img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:90px;left:75px;width:38px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">ix abilities provide a quick description of</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every faction's collective physical and mental<br> characteristics:<br>
+
+___
+
+- **Strength**, measuring the faction membership's physical power
+- **Dexterity**, measuring the faction membership's agility
+- **Constitution**, measuring the faction membership's endurance
+- **Intelligence**, measuring the faction membership's reasoning and memory
+- **Wisdom**, measuring the faction membership's awareness and intuition
+- **Charisma**, measuring the faction membership's force of personality
+
+___
+
+Is a faction comprised of renowned gladiators of great might and fortitude? Or is it a coalition of craftsmen, working together to create the best products available? Force-wielders working together, for good or ill? Or maybe it's a guild of shrewd merchants, attempting to corner the market. Ability scores defined these qualitiesï¿½a faction's assets as well as weaknesses.
+
+Ability scores govern a faction's ability to benefit it's members, as well as wage inter-faction conflict. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
+
+This chapter focuses on how to use ability checks, covering how these checks benefit your faction's members and how they interact with other factions.
+
+## Ability Scores and Modifiers
+Each of a faction's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a faction's member's training and competence in activities related to that ability.
+
+A score of 10 or 11 is the normal average, but many factions are a cut above average in most abilities. A score of 18 is the highest that a faction usually reaches. Larger factions can have scores as high as 20, and galaxy-spanning factions can have scores as high as 30.
+
+Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
+
+To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).
+
+Because ability modifiers affect almost every ability check, ability modifiers come up in play more often than their associated scores.
+
+\columnbreak
+
+##### Ability Scores and Modifiers
+
+<div style='column-count:2'>
+
+|Score|Modifier|
+|:--:|:--:|
+|1|-5|
+|2-3|-4|
+|4-5|-3|
+|6-7|-2|
+|8-9|-1|
+|10-11|+0|
+|12-13|+1|
+|14-15|+2|
+
+|Score|Modifier|
+|:--:|:--:|
+|16-17|+3|
+|18-19|+4|
+|20-21|+5|
+|22-23|+6|
+|24-25|+7|
+|26-27|+8|
+|28-29|+9|
+|30|+10|
+
+</div>
+
+## Advantage and Disadvantage
+Sometimes a feature tells you that you have advantage or disadvantage on an ability check. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
+
+If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
+
+If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
+
+You usually gain advantage or disadvantage through the use of faction features. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
+
+<div class='footnote'>CHAPTER 4 | USING ABILITY SCORES</div>
+
+\pagebreak
+
+## Proficiency Bonus
+Factions have a proficiency bonus determined by tier, as detailed in chapter 1. The bonus is used in the rules on ability checks.
+
+Your faction's proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say your faction can add its proficiency bonus to a Wisdom ability check, you nevertheless add the bonus only once when you make the save.
+
+Occasionally, your faction's proficiency bonus might be multiplied or divided (doubled or halved. for example) before you apply it. If a circumstance suggests that your faction's proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
+
+By the same token, if a feature or effect allows you to multiply your faction's proficiency bonus when making an ability check that wouldn't normally benefit from its proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if your faction lacks proficiency in the Intelligence ability score, it gains no benefit from a feature that lets it double your proficiency bonus when it make Intelligence  checks.
+
+### Expertise
+Certain features, such as the Association Expertise feature, let your faction double its proficiency bonus with a given ability score, granting expertise in that ability score. As usual, you can only gain expertise in an ability score once.
+
+## Ability Checks
+An ability check represents a faction's ability to overcome a challenge. The GM calls for an ability check when a faction, or a faction member, attempts an action that has a chance of failure. When the outcome is uncertain, the dice determine the results.
+
+For every ability check, the GM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
+
+To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the faction, or faction member, overcomes the challenge at hand. Otherwise, it's a failure, which means the faction or faction member makes no progress toward the objective or makes progress combined with a setback determined by the GM.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Contests
+Sometimes one faction's or faction member's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as accepting a mission reward from a third party. This situation also applies when one of them is trying to prevent the other one from accomplishing a goalï¿½for example, when a faction is trying to usurp control or influence from another faction. In situations like these, the outcome is determined by a special form of ability check, called a contest.
+
+Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That faction or faction member either succeeds at the action or prevents the other one from succeeding.
+
+If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two faction members tie in a contest to accept a mission reward, neither character grabs it. In a contest between a faction trying to usurp control or influence from another faction, a tie means control or influence is not usurped.
+
+##### Ability Check DCs
+|Task Difficulty|	DC|
+|:--|:--:|
+|Very easy|	5|
+|Easy|	10|
+|Medium|	15|
+|Hard	|20|
+|Very hard	|25|
+|Nearly impossible|	30|
+
+### Passive Checks
+A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as a faction and its member's normal vigilance, or can be used when the GM wants to secretly determine whether a faction succeeds at something without rolling dice, such as noticing a spy.
+
+Here's how to determine a character's total for a passive check:
+
+10 + all modifiers that normally apply to the check. If the faction has advantage on the check, add 5. For disadvantage, subtract 5. The game refers to a passive check total as a score.
+
+For example. if a 1st-tier faction has a Wisdom of 15 and proficiency in Wisdom, it has a passive Wisdom score of 14.
+
+The rules on spying in the "Espionage" section below rely on passive checks.
+
+<div class='footnote'>CHAPTER 4 | USING ABILITY SCORES</div>
+
+\pagebreak
+
+### Working Together
+Sometimes two or more factions team up to attempt a task. The faction who's leading the effort, or the one with the highest ability modifier, can make an ability check with advantage, reflecting the help provided by the other faction. 
+
+A faction can only provide help if the task is one that he or she could attempt alone. For example, attempting to mass produce a type of blaster requires members with proficiency with armstech's tools, so a faction whose members lack that proficiency can't help another faction in that task. Moreover, a faction can help only when two or more factions working together would actually be productive.
+
+trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover. a character can help only when two or more individuals working together would actually be productive. Some tasks are no easier with help.
+
+## Using Each Ability
+Every task that a faction might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.
+
+Factions of 2nd tier and higher are more adept at performing certain downtime activities. When a faction member of 2nd rank or higher attempts the favored downtime activity and rolls percentile dice, they also get to make a faction ability check and add it to the roll, provided they are in an area where the faction has influence. Each downtime activity is tied to a specific ability score, as discussed in this section.
+
+#### Variant: Activities with Other Abilities
+Normally, your faction's favored activity only utilizes a specific ability score. Favoring the Crime downtime activity, for instance, usually applies a faction's Dexterity ability check. During resolution of an activity, however, a faction member might use utilize a different ability score during resolution. In such cases, the GM might allow you to roll a faction ability check utilizing a different ability score, or you might ask if you can use a different faction ability check. For example, if you are performing crime during downtime and using a security kit, your GM might call for a faction Intelligence check when rolling percentile dice, instead of Dexterity, even though Crime is normally associated with Dexterity.
+
+\columnbreak
+
+### Strength
+Strength measures the bodily power, athletic training, and the extent to which a faction's membership can exert raw physical force.
+
+#### Strength Activities
+Many activities focus on using a character's might and power. When a character performs one of the following downtime activities, and it's their faction's favored downtime activity, they can make a faction ability check:
+- Mercenary Contracting
+- Pit Fighting
+- Work
+- Other activities as deemed appropriate by the GM.
+
+#### Faction Checks
+Additionally, when two factions are in conflictï¿½either directly or indirectlyï¿½one faction can attempt the following actions:
+- 1 
+- 2
+- Other actions as deemed appropriate by the GM.
+
+The faction then makes a Strength check contested by the target faction's Constitution check. On a success, they achieve the attempted action. On a failure, they are instead rebuffed.
+
+### Dexterity 
+Dexterity measures the agility, reflexes, and balance of a faction's membership.
+
+#### Dexterity Activities
+Many activities capitalize on a character's nimbleness and stealth. When a character performs one of the following downtime activities, and it's their faction's favored downtime activity, they can make a faction ability check:
+- Crime
+- Work
+- Other activities as deemed appropriate by the GM.
+
+#### Faction Checks
+Additionally, when two factions are in conflictï¿½either directly or indirectlyï¿½one faction can attempt the following actions:
+- 1 
+- 2
+- Other actions as deemed appropriate by the GM.
+
+The faction then makes a Dexterity check contested by the target faction's Intelligence check. On a success, they achieve the attempted action. On a failure, they are instead rebuffed.
+
+<div class='footnote'>CHAPTER 4 | USING ABILITY SCORES</div>
+
+\pagebreak
+
+### Constitution
+Constitution measures the health, stamina, and vital force of a faction's membership.
+
+#### Constitution Activities
+Many activities focus on using a character's vitality and heartiness. When a character performs one of the following downtime activities, and it's their faction's favored downtime activity, they can make a faction ability check:
+
+- Work
+- Other activities as deemed appropriate by the GM.
+
+#### Faction Checks
+Additionally, when two factions are in conflictï¿½either directly or indirectlyï¿½one faction can attempt the following actions:
+- 1 
+- 2
+- Other actions as deemed appropriate by the GM.
+
+The faction then makes a Constitution check contested by the target faction's Strength check. On a success, they achieve the attempted action. On a failure, they are instead rebuffed.
+
+### Intelligence 
+Intelligence measures the mental acuity, accuracy of recall, and the ability of a faction's membership to reason.
+
+#### Intelligence Activities
+Many activities capitalize on a character's reasoning and memory. When a character performs one of the following downtime activities, and it's their faction's favored downtime activity, they can make a faction ability check:
+- Crafting
+- Gambling
+- Racing
+- Research
+- Work
+- Other activities as deemed appropriate by the GM.
+
+#### Faction Checks
+Additionally, when two factions are in conflictï¿½either directly or indirectlyï¿½one faction can attempt the following actions:
+- 1 
+- 2
+- Other actions as deemed appropriate by the GM.
+
+The faction then makes an Intelligence check contested by the target faction's Dexterity check. On a success, they achieve the attempted action. On a failure, they are instead rebuffed.
+
+\columnbreak
+
+### Wisdom
+Wisdom measures how attuned to the world, perceptive, and intuitive a faction's membership is.
+
+#### Wisdom Activities
+Many activities focus on using a character's intuition and awareness. When a character performs one of the following downtime activities, and it's their faction's favored downtime activity, they can make a faction ability check:
+- Bounty Hunting
+- Work
+- Other activities as deemed appropriate by the GM.
+
+#### Faction Checks
+Additionally, when two factions are in conflictï¿½either directly or indirectlyï¿½one faction can attempt the following actions:
+- 1 
+- 2
+- Other actions as deemed appropriate by the GM.
+
+The faction then makes a Wisdom check contested by the target faction's Charisma check. On a success, they achieve the attempted action. On a failure, they are instead rebuffed.
+
+### Charisma 
+Charisma measures the the ability to interact effectively with others, confidence, and eloquence of a faction's membership.
+
+#### Charisma Activities
+Many activities capitalize on a character's charm and presence. When a character performs one of the following downtime activities, and it's their faction's favored downtime activity, they can make a faction ability check:
+- Buying Enhanced Items
+- Carousing
+- Selling Enhanced Items
+- Work
+- Other activities as deemed appropriate by the GM.
+
+#### Faction Checks
+Additionally, when two factions are in conflictï¿½either directly or indirectlyï¿½one faction can attempt the following actions:
+- 1 
+- 2
+- Other actions as deemed appropriate by the GM.
+
+The faction then makes a Charisma check contested by the target faction's Wisdom check. On a success, they achieve the attempted action. On a failure, they are instead rebuffed.
+
+
+<div class='footnote'>CHAPTER 4 | USING ABILITY SCORES</div>
 
 \pagebreak
