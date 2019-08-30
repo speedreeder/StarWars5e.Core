@@ -33,7 +33,7 @@ namespace StarWars5e.Parser.Managers
                 {
                     var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(forcePower.Name,
                         GlobalSearchTermType.ForcePower, ContentType.ExpandedContent,
-                        $"/characters/forcePowers/{forcePower.Name}");
+                        $"/characters/forcePowers/?search={forcePower.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                 }
 
