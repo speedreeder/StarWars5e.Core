@@ -46,28 +46,29 @@
 |&emsp;Matukai Order            |42|
 |&emsp;Whills Order             |43|
 |Operative||
-|&emsp;Beguiler Practice        |44|
-|&emsp;Disabling Practice       |46|
-|&emsp;Ruffian Practice         |47|
-|&emsp;Sawbones Practice        |48|
+|&emsp;Acquisitions Practice    |44|
+|&emsp;Beguiler Practice        |45|
+|&emsp;Disabling Practice       |47|
+|&emsp;Ruffian Practice         |48|
+|&emsp;Sawbones Practice        |49|
 |Scholar||
-|&emsp;Chef Pursuit             |49|
-|&emsp;Explorer Pursuit         |51|
-|&emsp;Gambler Pursuit          |53|
-|&emsp;Slicer Pursuit           |55|
-|&emsp;Zoologist Pursuit        |57|
+|&emsp;Chef Pursuit             |50|
+|&emsp;Explorer Pursuit         |52|
+|&emsp;Gambler Pursuit          |54|
+|&emsp;Slicer Pursuit           |56|
+|&emsp;Zoologist Pursuit        |58|
 |Scout||
-|&emsp;Bulwark Technique        |61|
-|&emsp;Illusionist Technique    |62|
-|&emsp;Inquisitor Technique     |63|
-|&emsp;Predator Technique       |64|
-|&emsp;Slayer Technique         |65|
+|&emsp;Bulwark Technique        |62|
+|&emsp;Illusionist Technique    |63|
+|&emsp;Inquisitor Technique     |64|
+|&emsp;Predator Technique       |65|
+|&emsp;Slayer Technique         |66|
 |Sentinel||
-|&emsp;Path of Communion        |66|
-|&emsp;Path of the Corsair      |67|
-|&emsp;Path of the Forceblade   |68|
-|&emsp;Path of Synthesis        |69|
-|&emsp;Path of Tenacity         |70|
+|&emsp;Path of Communion        |67|
+|&emsp;Path of the Corsair      |68|
+|&emsp;Path of the Forceblade   |69|
+|&emsp;Path of Synthesis        |70|
+|&emsp;Path of Tenacity         |71|
 
 </div>
 
@@ -2075,6 +2076,51 @@ At 17th level, your first ranged weapon attack and your first melee weapon attac
 <img src='https://www.gmbinder.com/images/2yB0wp5.png' style='position:absolute;bottom:16px;right:-60px;width:830px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
+
+\pagebreak
+
+\pagebreak
+
+## Acquisitions Practice
+Many operatives are hired for the procurement of valuable artifacts, but only the true masters of the art can slip through the tightest security and make off with untold riches, whether they do it for a profit, or for sport. Those operatives who choose the Acquisitions Practice apply a mixture of stealth and impressive acrobatics to surpass any kind of defenses they are met with.
+
+### Fast Hands
+Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.
+
+### Aerial Agility
+At 3rd level, you gain the ability to move in flying leaps with incredible speed, precision, and power. Climbing no longer costs you extra movement.
+
+When you move, instead of using your walking speed, you may take two short movements by flying. Each movement is at half your speed, and you must end each one on a solid object, a surface, or on the ground. If you do not, you fall and your movement ends. If you Dash, your bonus movement is applied to your normal speed, not this movement. 
+
+You also gain proficiency in the Acrobatics skill.
+
+### Supreme Sneak
+Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.
+
+### Graceful Descent
+Also at 9th level, as long as you aren't incapacitated, you no longer take damage from falling less than 100 feet, and have resistance to falling damage.
+
+### Faux Credentials
+By 13th level, you ignore all class, species, and level requirements on the use of enhanced items.
+
+### Improved Aerial Agility
+Starting at 13th level, your Aerial Agility feature improves and you gain the following benefits:
+- When you move, you can instead take 3 short movements by flying.
+- Whenever you end your flying movement and you are within 5 feet of a climbable surface, you can grab onto that surface as though you were climbing upon it.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Thief's Reflexes
+When you reach 17th level, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
+
+Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your
+reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can add 3d6 extra weapon damage to the damage roll and the creature must make a Dexterity saving throw or be knocked prone.
+
+<img src='https://www.gmbinder.com/images/rBgHouo.png' style='position:absolute;bottom:26px;right:40px;width:360px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
 \pagebreak
 

@@ -314,6 +314,9 @@ namespace StarWars5e.Parser.Parsers
             {
                 switch (specie.Name)
                 {
+                    case "Aing-Tii":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_aing-tii.png");
+                        break;
                     case "Aqualish":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_aqualish.png");
                         break;
