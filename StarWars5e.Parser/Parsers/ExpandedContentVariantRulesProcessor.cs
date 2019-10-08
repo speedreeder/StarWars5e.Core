@@ -61,6 +61,10 @@ namespace StarWars5e.Parser.Parsers
                 {
                     variantLines[2] = variantLines[2].Insert(0, "T");
                 }
+                if (name == "Dismemberment")
+                {
+                    variantLines[2] = variantLines[2].Insert(0, "S");
+                }
 
                 variantRule.ChapterName = name;
                 variantRule.ContentMarkdown = string.Join("\r\n", variantLines.Skip(1).ToList());

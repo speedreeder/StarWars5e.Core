@@ -532,16 +532,16 @@ Firstly, Destiny Points are earned when you experience (and survive) key campaig
 
 Secondly, if a starship is your destiny, it is never completely destroyed. Even if it is blown up in battle or confiscated by Hutts before being crushed and melted, some small part of it survives. Perhaps you find the hyperspace core the whole starship was built around, or its ruined hull is found drifting as debris after that battle. Your starship can cease to be functional as easily as anyone else's, but a recognizable part of it always survives for you to rebuild (or retrofit to a similar starship). It can be as time consuming and difficult as getting a new starship would be (if not more so), but the result still qualifies as your destiny-linked starship.
 
-Finally, the options you can exercise by using a Destiny Point are slightly different, as detailed below. The following are possible only when you are acting as a crew member (pilot, gunner, mechanic, operator or commander) on the starship linked to your destiny:
+Finally, the options you can exercise by using a Destiny Point are slightly different, as detailed below. The following are possible only when you are acting as a crew member (pilot, gunner, mechanic, operator or coordinator) on the starship linked to your destiny:
 
 \columnbreak
 
-- Cause an attack rolled against your starship to suffer disadvantage, or gain advantage on a saving throw against an attack on your starship, even once the attack is resolved. (Pilot or commander only.)
-- Gain advantage on any pilot check. (Pilot only.)
-- Allow your starship to act out of turn, thus changing your position in the initiative order. (Pilot, operator or commander only.)
-- Gain advantage on an attack roll, or impose disadvantage on an enemy saving throw, against an attack from your ship's weapons. (Gunner or operator or commander only.)
-- Repair your starship, restoring hit points by rolling a number of its hit die equal to or less than your level. (Mechanic only.)
-- Immediately restore your starship's shields to full. (Mechanic or operator only.)
+- Cause an attack rolled against your starship to suffer disadvantage, or gain advantage on a saving throw against an attack on your starship, even once the attack is resolved. (Coordinator or pilot)
+- Gain advantage on any pilot check. (Pilot)
+- Allow your starship to act out of turn, thus changing your position in the initiative order. (Coordinator, operator, or pilot)
+- Gain advantage on an attack roll, or impose disadvantage on an enemy saving throw, against an attack from your ship's weapons. (Coordinator, gunner, or operator)
+- Repair your starship, restoring hit points by rolling a number of its hit die equal to or less than your level. (Mechanic)
+- Immediately restore your starship's shields to full. (Mechanic or operator)
 - Gain advantage on any skill check made to interact with the ship.
 - Immediately gain 2 tactical dice.
 
@@ -602,3 +602,33 @@ You have mastered rending your foes’ weapons, leaving them impotent and vulnerab
 - On your turn, when you score a critical hit with a Sundering attack or reduce a weapon to 0 hit points with one, you can make one melee weapon attack as a bonus action.
 
 <div class='footnote'>EXPANDED CONTENT | VARIANT RULES | WEAPON SUNDERING</div>
+
+\pagebreak
+
+# Dismemberment
+
+<img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:90px;left:75px;width:38px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome characters—and their players—take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
+
+When a character rolls a 20 on an attack roll with a weapon that is capable of removing a limb, such as a lightweapon or vibroweapon, have them roll an additional d20. If they roll a 20 on the second d20 roll, they successfully remove a limb from a creature, or potentially slay them outright.
+
+The character should then roll percentile dice and consult the Dismemberment table below.
+
+##### Dismemberment
+
+|d100|Result|
+|:--|:--|
+|&nbsp;01-<br>&nbsp;40|You remove a hand. If the creature has more than one hand, determine which hand you cut off randomly.|
+|&nbsp;41-<br>&nbsp;70|You remove both hands. If the creature has more than two hands, determine which hand you cut off randomly.|
+|&nbsp;71-<br>&nbsp;90|You remove a leg. The creature's speed is halved if it has at least one more leg. Otherwise, its speed is reduced to 0 and it is knocked prone.|
+|&nbsp;91-<br>&nbsp;98|You remove both legs. If the creature has more than two legs, its speed is halved. Otherwise, its speed is reduced to 0 and it is knocked prone.|
+|&nbsp;99-<br>&nbsp;100|You remove a head. The creature dies if it can't survive without the lost head.|
+
+If a creature is immune to the damage dealt by the weapon, it can not be dismembered by that weapon. If the creature is resistant to the damage dealt by that weapon, when you roll the second d20 to determine whether or not you remove a limb, you do so with disadvantage.
+
+If you roll a result on the Dismemberment table, and the creature lacks the chosen limb, you instead deal additional damage equal to the attack's governing ability score modifier. 
+
+<div class='footnote'>EXPANDED CONTENT | VARIANT RULES | DISMEMBERING</div>
+
+\pagebreak

@@ -10,64 +10,66 @@
 |&emsp;Bloodstorm Approach      | 3|
 |&emsp;Cyclone Approach         | 4|
 |&emsp;Frenzied Approach        | 5|
+|&emsp;Precision Approach       | 6|
 |Consular||
-|&emsp;Way of Confluence        | 6|
-|&emsp;Way of Endurance         | 7|
-|&emsp;Way of Manipulation      | 8|
-|&emsp;Way of Negation          | 9|
-|&emsp;Way of the Seer          |10|
-|&emsp;Way of Telekinetics      |11|
+|&emsp;Way of Confluence        | 7|
+|&emsp;Way of Endurance         | 8|
+|&emsp;Way of Manipulation      | 9|
+|&emsp;Way of Negation          |10|
+|&emsp;Way of the Seer          |11|
+|&emsp;Way of Telekinetics      |12|
 |Engineer||
-|&emsp;Artificer Engineering    |12|
-|&emsp;Audiotech Engineering    |15|
-|&emsp;Biochem Engineering      |18|
-|&emsp;Cybertech Engineering    |21|
-|&emsp;Experimental Engineering |23|
+|&emsp;Artificer Engineering    |13|
+|&emsp;Audiotech Engineering    |16|
+|&emsp;Biochem Engineering      |19|
+|&emsp;Cybertech Engineering    |22|
+|&emsp;Experimental Engineering |25|
 |Fighter||
-|&emsp;Adept Specialist         |26|
-|&emsp;Demolitions Specialist   |28|
-|&emsp;Enhancement Specialist   |29|
-|&emsp;Heavy Weapons Specialist |31|
-|&emsp;Mounted Specialist       |32|
+|&emsp;Adept Specialist         |27|
+|&emsp;Demolitions Specialist   |29|
+|&emsp;Enhancement Specialist   |30|
+|&emsp;Heavy Weapons Specialist |32|
+|&emsp;Mounted Specialist       |33|
 |Guardian||
-|&emsp;Form IV: Ataru           |33|
-|&emsp;Form V: Djem So          |34|
-|&emsp;Form VI: Niman           |35|
-|&emsp;Form VII: Juyo           |36|
-|&emsp;Form VIII: Sokan         |37|
-|&emsp;Form IX: Trakata         |38|
-|&emsp;Form X: Jar'Kai          |39|
+|&emsp;Form IV: Ataru           |34|
+|&emsp;Form V: Djem So          |35|
+|&emsp;Form VI: Niman           |36|
+|&emsp;Form VII: Juyo           |37|
+|&emsp;Form VIII: Sokan         |38|
+|&emsp;Form IX: Trakata         |39|
+|&emsp;Form X: Jar'Kai          |40|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |40|
-|&emsp;Jal Shey Order           |41|
-|&emsp;Matukai Order            |42|
-|&emsp;Whills Order             |43|
+|&emsp;Aing-Tii Order           |41|
+|&emsp;Jal Shey Order           |42|
+|&emsp;Matukai Order            |43|
+|&emsp;Whills Order             |44|
 |Operative||
-|&emsp;Beguiler Practice        |44|
-|&emsp;Disabling Practice       |46|
-|&emsp;Ruffian Practice         |47|
-|&emsp;Sawbones Practice        |48|
+|&emsp;Acquisitions Practice    |45|
+|&emsp;Beguiler Practice        |46|
+|&emsp;Disabling Practice       |48|
+|&emsp;Ruffian Practice         |49|
+|&emsp;Sawbones Practice        |50|
 |Scholar||
-|&emsp;Chef Pursuit             |49|
-|&emsp;Explorer Pursuit         |51|
-|&emsp;Gambler Pursuit          |53|
-|&emsp;Slicer Pursuit           |55|
-|&emsp;Zoologist Pursuit        |57|
+|&emsp;Chef Pursuit             |51|
+|&emsp;Explorer Pursuit         |53|
+|&emsp;Gambler Pursuit          |55|
+|&emsp;Slicer Pursuit           |57|
+|&emsp;Zoologist Pursuit        |59|
 |Scout||
-|&emsp;Bulwark Technique        |61|
-|&emsp;Illusionist Technique    |62|
-|&emsp;Inquisitor Technique     |63|
-|&emsp;Predator Technique       |64|
-|&emsp;Slayer Technique         |65|
+|&emsp;Bulwark Technique        |63|
+|&emsp;Illusionist Technique    |64|
+|&emsp;Inquisitor Technique     |65|
+|&emsp;Predator Technique       |66|
+|&emsp;Slayer Technique         |67|
 |Sentinel||
-|&emsp;Path of Communion        |66|
-|&emsp;Path of the Corsair      |67|
-|&emsp;Path of the Forceblade   |68|
-|&emsp;Path of Synthesis        |69|
-|&emsp;Path of Tenacity         |70|
+|&emsp;Path of Communion        |68|
+|&emsp;Path of the Corsair      |69|
+|&emsp;Path of the Forceblade   |70|
+|&emsp;Path of Synthesis        |71|
+|&emsp;Path of Tenacity         |72|
 
 </div>
 
@@ -110,7 +112,7 @@ At 14th level, when you use the *burst* feature of a blaster with which are you 
 \pagebreak
 
 ## Bloodstorm Approach
-For some Bloodstorm Approach is said to have originated from the ancient wookiee Hroufrasnooohn clan (which loosely translates to Bloodstorm in Galactic Basic), whose warriors performed gravity-defying feats with their flying vibroaxes through a combination of unorthodox techniques and a mystical belief in their own abilities. A berserker who follows this approach can hurl their devastating weapons at enemies with such power and skill that it completely blurs the line between melee and ranged combat.
+The Bloodstorm Approach is said to have originated from the ancient wookiee Hroufrasnooohn clan (which loosely translates to Bloodstorm in Galactic Basic), whose warriors performed gravity-defying feats with their flying vibroaxes through a combination of unorthodox techniques and a mystical belief in their own abilities. A berserker who follows this approach can hurl their devastating weapons at enemies with such power and skill that it completely blurs the line between melee and ranged combat.
 
 ### Furious Throw
 When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. You may count your thrown weapon attacks as if they were melee weapon attacks for the purposes of your class abilities and feats, such as your Berserker Rage and Reckless Attack abilities.
@@ -202,11 +204,39 @@ At 14th level, when you take damage from a creature that is within 5 feet of you
 
 \pagebreak
 
+\pagebreak
+
+## Precision Approach
+Some berserkers have learned to channel their rage into a method of increasing their focus and precision to supernatural levels. Those berserkers who choose the Precision Approach hone their rage to a fine point, becoming agile warriors who ruthlessly dispatch their foes.
+
+### Careful Steps
+When you choose this approach at 3rd level, you gain skills that represent your precise movement. You gain proficiency your choice of Acrobatics or Stealth.
+
+### Focused Rage
+Also at 3rd level, you hone your rage to a razor sharp focus. When you make a melee weapon attack using Dexterity, you add your rage damage to the damage roll. Additionally, you can use your Reckless Attack feature to give you advantage on melee weapon attacks using Dexterity during your turn.
+
+### Exact Awareness
+At 6th level, you gain proficiency in Dexterity saving throws.
+
+### Battle Anticipation
+Starting at 10th level, while raging, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage against effects that you can see, such as traps and powers, you instead take no damage if you succeed on a saving throw, and only half damage if you fail.
+
+Additionally, while raging, melee weapon attacks using Dexterity score a critical hit on a roll of 19 or 20.
+
+### Calm Within the Storm
+At 14th level, the precision with which you act during your rage causes you to become a storm of reactive lethality. When you use your Reckless Attack feature, you can make a number of opportunity attacks equal to your proficiency bonus without using your reaction, and when a creature within 5 feet of you misses you with an attack, you can use your reaction to make a melee weapon attack using Dexterity against that creature.
+
+<img src='https://www.gmbinder.com/images/WTnjBcN.png' style='position:absolute;bottom:-20px;right:-48px;width:550px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
+
+\pagebreak
+
 ## Way of Confluence
 The Force binds us, creating an intangible bridge connecting all living things. Those consulars who follow the Way of Confluence master this power, manipulating those connections to both sustain and torment.
  
 ### Manipulate Life Force
-Starting when you choose this tradition at 3rd level, when you reduce a hostile creature to 0 hit points with a force power, or restore hit points to a creature with 0 hit points with a foce power, you gain temporary hit points equal to half your consular level (rounded down) + your Wisdom or Charisma modifier (your choice, minimum of one).
+Starting when you choose this tradition at 3rd level, when you reduce a hostile creature to 0 hit points with a force power, or restore hit points to a creature with 0 hit points with a force power, you gain temporary hit points equal to half your consular level (rounded down) + your Wisdom or Charisma modifier (your choice, minimum of one).
 
 ### Empowered Connection
 At 6th level, while you have temporary hit points, you can add half your Wisdom or Charisma modifier (your choice, rounded up, minimum of one) to any damage or healing you do with force powers that doesn't already include that modifier. 
@@ -798,9 +828,9 @@ You can integrate a single weapon that weighs no more than 8 lb. into your instr
 Those engineers who choose the Biochem Engineering discipline focus on utilizing their vast knowledge of medicine and chemistry to supply allies with potent healing and enemies with debilitating poisons and acids.
 
 ### Bonus Proficiencies
-When you choose this discipline at 3rd level you gain proficiency in the Medicine skill, biochemist’s kits, and poisoner’s kits. additionally, when you engage in crafting with biochemist's kits and poisoner's kits, the rate at which you craft doubles.
+When you choose this discipline at 3rd level you gain proficiency in the Medicine skill, biochemist's kits, and poisoner's kits. additionally, when you engage in crafting with biochemist's kits and poisoner's kits, the rate at which you craft doubles.
 
-### Modified Biochemist’s Pack
+### Modified Biochemist's Pack
 Also at 3rd level, you learn to modify and combine your biochemist's kit and poisoner's kit, creating a mobile laboratory using your chemistry expertise. Over the course of a long rest, you can expend 500 cr worth of materials to create your modified biochemist's pack. You must have a biochemist's kit, a poisoner's kit, and materials in order to perform this modification.
 
 Your biochemist's pack requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified biochemist's pack has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
@@ -854,7 +884,7 @@ _Prerequisite: 5th level_<br>
 You gain a +1 bonus to your tech save DC. This bonus increases to +2 at 11th level and +3 at 17th level.
 
 #### Chemical Counteragents
-You may choose one type of damage that benefits from your Biochemist’s Touch and Potent Mixtures features. While wearing your modified biochemist's pack you have resistance to that type of damage.
+You may choose one type of damage that benefits from your Biochemist's Touch and Potent Mixtures features. While wearing your modified biochemist's pack you have resistance to that type of damage.
 
 You can select this modification multiple times. Each time you do so, you must choose a different damage type.
 
@@ -918,7 +948,7 @@ You upgrade your distributor, granting it the ability to create a volley. When y
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
 
 #### Injection Apparatus
-You install a wrist mounted injection apparatus into your modified biochemist’s pack. It is a simple vibroweapon with the finesse and light properties, and deals 1d4 kinetic damage on a hit. Your injection apparatus does not fill the hand slot, but you can't use it while the hand is full.
+You install a wrist mounted injection apparatus into your modified biochemist's pack. It is a simple vibroweapon with the finesse and light properties, and deals 1d4 kinetic damage on a hit. Your injection apparatus does not fill the hand slot, but you can't use it while the hand is full.
 
 When you hit with the weapon, you can activate your distributor to deploy one of your mixtures. If you do so, the target has disadvantage on the saving throw against your mixture.
 
@@ -926,11 +956,11 @@ When you hit with the weapon, you can activate your distributor to deploy one of
 You gain immunity to the poisoned and diseased conditions.
 
 #### Integrated EVA Functionality
-You make several additions to your modified biochemist’s pack, you are protected from hazardous conditions, as if wearing an EVA suit, for as long as you are wearing your modified biochemist’s pack.
+You make several additions to your modified biochemist's pack, you are protected from hazardous conditions, as if wearing an EVA suit, for as long as you are wearing your modified biochemist's pack.
 
 #### Kolto Aerosol
 _Prerequisite: 9th level_<br>
-You add a special dispersal system to your modified biochemist’s pack. This system slowly disperses small amounts of kolto in the air. If creatures spend the entirety of a long rest within 30 feet of you, they regain all expended Hit Dice, instead of only half. Additionally, they are cured of any poisons or diseases that are suffering from.
+You add a special dispersal system to your modified biochemist's pack. This system slowly disperses small amounts of kolto in the air. If creatures spend the entirety of a long rest within 30 feet of you, they regain all expended Hit Dice, instead of only half. Additionally, they are cured of any poisons or diseases that are suffering from.
 
 #### Long-Range Distribution System
 You upgrade your distributor, improving the range. When you use your action to activate your distributor, you can choose to increase the range to 60 feet.
@@ -951,7 +981,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 #### Persistent Chemicals
 _Prerequisite: 7th level_<br>
-Whenever you use your Biochemist’s Touch feature, you may select one creature that was damaged. At the start of each of that creature's turns, it must make a Constitution saving throw. On a failed save, it takes damage of the triggering type equal to your Intelligence modifier and has disadvantage on attack rolls until the start of its next turn. On a success, this feature ends, and the creature becomes immune to it for one day.
+Whenever you use your Biochemist's Touch feature, you may select one creature that was damaged. At the start of each of that creature's turns, it must make a Constitution saving throw. On a failed save, it takes damage of the triggering type equal to your Intelligence modifier and has disadvantage on attack rolls until the start of its next turn. On a success, this feature ends, and the creature becomes immune to it for one day.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
@@ -961,7 +991,7 @@ _Prerequisite: Luminous Gel_<br>
 Your luminous gel now automatically dispels illusions and can detect invisibility, as with truesight.
 
 #### Self-Injection Module
-You install a special kolto injector into your modified biochemist’s pack that can inject you with kolto in response to pain. When you take damage, you can use your reaction and expend a Hit Die to regain health as long as the damage would not reduce your hit points to 0.
+You install a special kolto injector into your modified biochemist's pack that can inject you with kolto in response to pain. When you take damage, you can use your reaction and expend a Hit Die to regain health as long as the damage would not reduce your hit points to 0.
 
 #### Smart Dispersal System
 When you activate your distributor, you can choose a number of creature equal to your Intelligence modifier. Those creature automatically succeed on their saving throws against your mixtures.
@@ -2078,6 +2108,51 @@ At 17th level, your first ranged weapon attack and your first melee weapon attac
 
 \pagebreak
 
+\pagebreak
+
+## Acquisitions Practice
+Many operatives are hired for the procurement of valuable artifacts, but only the true masters of the art can slip through the tightest security and make off with untold riches, whether they do it for a profit, or for sport. Those operatives who choose the Acquisitions Practice apply a mixture of stealth and impressive acrobatics to surpass any kind of defenses they are met with.
+
+### Fast Hands
+Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your demolitions kit or security kit to disarm a trap or open a lock, or take the Use an Object action.
+
+### Aerial Agility
+At 3rd level, you gain the ability to move in flying leaps with incredible speed, precision, and power. Climbing no longer costs you extra movement.
+
+When you move, instead of using your walking speed, you may take two short movements by flying. Each movement is at half your speed, and you must end each one on a solid object, a surface, or on the ground. If you do not, you fall and your movement ends. If you Dash, your bonus movement is applied to your normal speed, not this movement. 
+
+You also gain proficiency in the Acrobatics skill.
+
+### Supreme Sneak
+Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.
+
+### Graceful Descent
+Also at 9th level, as long as you aren't incapacitated, you no longer take damage from falling less than 100 feet, and have resistance to falling damage.
+
+### Faux Credentials
+By 13th level, you ignore all class, species, and level requirements on the use of enhanced items.
+
+### Improved Aerial Agility
+Starting at 13th level, your Aerial Agility feature improves and you gain the following benefits:
+- When you move, you can instead take 3 short movements by flying.
+- Whenever you end your flying movement and you are within 5 feet of a climbable surface, you can grab onto that surface as though you were climbing upon it.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Thief's Reflexes
+When you reach 17th level, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
+
+Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your
+reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can add 3d6 extra weapon damage to the damage roll and the creature must make a Dexterity saving throw or be knocked prone.
+
+<img src='https://www.gmbinder.com/images/rBgHouo.png' style='position:absolute;bottom:26px;right:40px;width:360px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
+
+\pagebreak
+
 ## Beguiler Practice
 Those operatives who choose the Beguiler Practice augment their natural wiles and charm with subtle utilization of the Force. They tap into these powers to cloud the minds of their foes, distracting and diverting before abruptly dispatching them.
 
@@ -3085,12 +3160,12 @@ You create a protective spherical barrier barrier in a 5-foot-radius sphere a po
 #### Projected Maelstrom
 You create an unstable energy maelstrom in a 5-foot cube at a point you can see within 30 feet that lasts until the start of your next turn. A creature takes 4d4 energy damage when it enters the area for the first time on a turn or starts its turn there. You can maintain the barrier by spending an additional barrier hit point at the start of each of your turns (no action required). 
 
-This feature’s damage increases by 1d4 when you reach 11th level (5d4) and 17th level (6d4).
+This feature's damage increases by 1d4 when you reach 11th level (5d4) and 17th level (6d4).
 
 #### Projected Wave
 You create a wave of barrier energy in a 15-foot cone. Each creature within the cone must make a Dexterity saving throw. On a failed save, a creature takes 2d6 energy damage and is pushed back to the edge of the cone. On a success, they take half damage and<br> aren't pushed.
 
-This feature’s damage increases by 1d6<br> when you reach 11th level (3d6) and 17th<br> level (4d6).
+This feature's damage increases by 1d6<br> when you reach 11th level (3d6) and 17th<br> level (4d6).
 
 ### Regenerative Shielding
 Starting at 11th level, when a hostile<br> creature forces you to make a saving<br> throw and you succeed, your personal<br> barrier regains hit points equal<br> to your Intelligence modifier.

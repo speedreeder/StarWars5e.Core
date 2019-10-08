@@ -5,81 +5,158 @@
 # Table of Contents
 |||
 |:--|--:|
-|	Aqualish        	|	2	|
-|	Ardennian       	|	3	|
-|	Barabel         	|	4	|
-|	Besalisk        	|	5	|
-|	Cathar          	|	6	|
-|	Cerean	            |	7	|
-|	Chadra-Fan      	|	8	|
-|	Chagrian    	    |	9	|
-|	Chevin	            |	10	|
-|	Codru-Ji        	|	11  |
-|	Devaronian	        |	12	|
-|	Draethos        	|	13	|
-|	Droid, Class II 	|	14	|
-|	Droid, Class III	|	15	|
-|	Droid, Class IV 	|	16	|
-|	Dug	                |	17	|
-|	Echani	            |	18	|
-|	Ewok	            |	19	|
-|	Falleen	            |	20	|
-|	Felucian        	|	21	|
-|	Gamorrean       	|	22	|
-|	Gand            	|	23	|
-|	Geonosian       	|	24	|
-|	Givin	            |	25	|
-|	Gotal	            |	26	|
-|	Gran	            |	27	|
-|	Gungan	            |	28	|
-|	Half-Human          |	29	|
-|	Harch	            |	30	|
-|	Herglic	            |	31	|
-|	Iktotchi	        |	32	|
-|	Ithorian	        |	33	|
-|	Kaleesh	            |	34	|
-|	Kaminoan        	|	35	|
+|	Aing-Tii        	|	2	|
+|	Aqualish        	|	3	|
+|	Ardennian       	|	4	|
+|	Barabel         	|	5	|
+|	Besalisk        	|	6	|
+|	Cathar          	|	7	|
+|	Cerean	            |	8	|
+|	Chadra-Fan      	|	9	|
+|	Chagrian    	    |	10	|
+|	Chevin	            |	11	|
+|	Codru-Ji        	|	12  |
+|	Devaronian	        |	13	|
+|	Draethos        	|	14	|
+|	Droid, Class II 	|	15	|
+|	Droid, Class III	|	16	|
+|	Droid, Class IV 	|	17	|
+|	Dug	                |	18	|
+|	Echani	            |	19	|
+|	Ewok	            |	20	|
+|	Falleen	            |	21	|
+|	Felucian        	|	22	|
+|	Gamorrean       	|	23	|
+|	Gand            	|	24	|
+|	Geonosian       	|	25	|
+|	Givin	            |	26	|
+|	Gotal	            |	27	|
+|	Gran	            |	28	|
+|	Gungan	            |	29	|
+|	Half-Human          |	30	|
+|	Harch	            |	31	|
+|	Herglic	            |	32	|
+|	Iktotchi	        |	33	|
+|	Ithorian	        |	34	|
+|	Kaleesh	            |	35	|
+|	Kaminoan        	|	36	|
 
 |||
 |:--|--:|
-|	Karkarodon          |	36	|
-|	Killik	            |	37	|
-|	Kubaz           	|	38	|
-|	Kushiban        	|	39	|
-|	Kyuzo           	|	40	|
-|	Lannik          	|	41	|
-|	Lasat	            |	42	|
-|	Miraluka        	|	43	|
-|	Mirialan        	|	44	|
-|	Muun	            |	45	|
-|	Nautolan        	|	46	|
-|	Noghri          	|	47	|
-|	Ortolan         	|	48	|
-|	Quarren	            |	49	|
-|	Rattataki	        |	50	|
-|	Rishii	            |	51	|
-|	Selkath	            |	52	|
-|	Shistavanen	        |	53	|
-|	Squib	            |	54	|
-|	Sullustan	        |	55	|
-|	Talz            	|	56	|
-|	Thisspiasian       	|	57	|
-|	Togorian           	|	58	|
-|	Toydarian       	|	59	|
-|	Tusken	            |	60	|
-|	Ugnaught	        |	61	|
-|   Umbaran             |   62  |
-|	Verpine	            |	63	|
-|	Voss	            |	64	|
-|	Vurk            	|	65	|
-|	Weequay	            |	66	|
-|	Yevetha             |	67	|
-|	Zeltron             |	68	|
-|	Zygerrian           |	69	|
+|	Karkarodon          |	37	|
+|	Killik	            |	38	|
+|	Kubaz           	|	39	|
+|	Kushiban        	|	40	|
+|	Kyuzo           	|	41	|
+|	Lannik          	|	42	|
+|	Lasat	            |	43	|
+|	Miraluka        	|	44	|
+|	Mirialan        	|	45	|
+|	Muun	            |	46	|
+|	Nautolan        	|	47	|
+|	Noghri          	|	48	|
+|	Ortolan         	|	49	|
+|	Quarren	            |	50	|
+|	Pau'an	            |	51	|
+|	Rattataki	        |	52	|
+|	Rishii	            |	53	|
+|	Selkath	            |	54	|
+|	Shistavanen	        |	55	|
+|	Squib	            |	56	|
+|	Sullustan	        |	57	|
+|	Talz            	|	58	|
+|	Thisspiasian       	|	59	|
+|	Togorian           	|	60	|
+|	Toydarian       	|	61	|
+|	Tusken	            |	62	|
+|	Ugnaught	        |	63	|
+|   Umbaran             |   64  |
+|	Verpine	            |	65	|
+|	Voss	            |	66	|
+|	Vurk            	|	67	|
+|	Weequay	            |	68	|
+|	Yevetha             |	69	|
+|	Zeltron             |	70	|
+|	Zygerrian           |	71	|
 
 </div>
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES | TABLE OF CONTENTS</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+> ## Aing-Tii
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |White|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Black|
+> |***Distinctions***|  |Force-sensitivity, unique technology, six green tongues|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'7"|+2d10"|
+> |***Weight***|  |145 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Aing-Tii homeworld in the Kathol Rift|
+> |***Language***|  |Non-verbal communication  via taste, smell, and touch|
+
+<div style='margin-top:26px'></div>
+
+### Biology and Appearance
+The aing-tii are a species of sentient, toothless mammals who stand on two clawed feet with two spindly arms, each with three large digits. Their bodies are covered in jointed white, bony plates covered in unique painted motifs. The aing-tii head is small and juts out perpendicularly from their chest, featuring two large eyes and six long, thin, green tongues extending from their mouths. They have a long, prehensile tail. The species is incapable of producing sound and conveys information via tasting, smelling and touching each other with their tongues.
+
+### Society and Culture
+The aing-tii are native to a planet whose location in the Kathol Rift is a closely guarded secret. Although in a dangerous area of space, the majority of Aing-Tii never leave their homeworld nor have any contact with the outside world. Those who do—commonly called aing-tii warrior monks—are often xenophobic and reclusive. The monks spend their entire lives performing errands for their gods, in the hope that they will receive "an answer" from them. The aing-tii hate slavery, and often attack slavers who roam the Kathol Outback.
+
+While the aing-tii are Force-sensitive, they avoid wielding the Force, which they see as sacred. The aing-tii believe that everything is somehow guided by the Force. They do not believe in the light or dark sides of the Force. Instead, they hold that there are many different aspects to the Force.
+
+### Names
+Aing-tii names are, in reality, non-verbal and only truly understandable via taste, smell, and touch.  The few aing-tii who have been known to the outside world have used translators to convey an auditory identifier. 
+
+**Male Names.** Ben'Sur, Looshen'Fel, Tadar'Ro
+
+**Female Names.** Kulan'Pa, Laman'So, Te'Nuriel 
+
+\columnbreak
+
+<div style='margin-top:491px'></div>
+
+### Aing-Tii Traits
+As an aing-tii, you have the following special traits.
+
+***Ability Score Increase.*** Your Wisdom score increases by 2, and your Constitution score increases by 1.
+
+***Age.*** Aing-tii reach adulthood in their late teens and live more than a century.
+
+***Alignment.*** Aing-tii's foreign nature causes them to be hard to understand. Most aing-tii tend toward neutral light side, though there are exceptions.
+
+***Size.*** Aing-tii typically stand 6 to 7 feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Armored Plates.*** You have thick armored plates. When you aren't wearing armor, your AC is 13 + your Dexterity modifier.
+
+***Force Attunement.*** Aing-tii have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on saving throws against force powers.
+
+***Force Sensitive.*** You know the *force push/pull* at-will force power. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
+
+***Prehensile Tail.*** You have supreme control over your tail and can use it to manipulate objects as well as your hands.
+
+***Languages.*** You can understand, read, and write Galactic Basic, and the non-verbal communication of the aing-tii. However, you cannot speak or make noise verbally.
+
+<img src='https://www.gmbinder.com/images/W8mBO4X.png' style='position:absolute;top:100px;right:20px;width:461px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
 \pagebreak
 
@@ -1089,7 +1166,7 @@ As a class II droid, you have the following special traits.
 
 ***Retractible Arms.*** You have two retractible arms: one grasper and one manipulator. The manipulator arm can only wield weapons and shield generators with the *light* property.
 
-***Skill Protocol.*** You have proficiency in two skill of your choice.
+***Skill Protocol.*** You have proficiency in two skills of your choice.
 
 ***Languages.*** You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it.
 
@@ -2204,6 +2281,7 @@ ___
 > 
 > |||
 > |:--:|:--:|
+> |Aing-Tii|Armored Plates|
 > |Aqualish|Darkvision|
 > |Ardennian|Darkvision<br> Prehensile Tail|
 > |Barabel|Darkvision<br> Prehensile Tail|
@@ -2223,10 +2301,10 @@ ___
 > |Duros|Darkvision|
 > |Echani|Combative Culture|
 > |Ewok|Nimbleness|
-> |Falleen|Closed Mind|
 > 
 > |||
 > |:--:|:--:|
+> |Falleen|Closed Mind|
 > |Gamorrean|Savage Attacks|
 > |Gand|Lungless|
 > |Geonosian|Geonosian Weaponry|
@@ -2245,10 +2323,10 @@ ___
 > |Killik|Carapace|
 > |Kubaz|Darkvision|
 > |Kushiban|Grovel, Cower,<br> and Beg|
-> |Kyuzo|Darkvision|
 > 
 > |||
 > |:--:|:--:|
+> |Kyuzo|Darkvision|
 > |Lannik|Force Attunement|
 > |Lasat|Powerful Build|
 > |Miraluka|Force Sight|
@@ -2259,16 +2337,17 @@ ___
 > |Noghri|Keen Smell|
 > |Ortolan|Grovel, Cower,<br> and Beg|
 > |Quarren|Keen Hearing|
+> |Pau'an|Darkvision|
 > |Rattataki|Surprise Attack|
 > |Rishii|Keen Hearing<br> and Sight|
 > |Rodian|Darkvision|
 > |Selkath|Venomous Claws|
 > |Shistavanen|Darkvision<br> Forced March|
 > |Sith|Darkvision|
-> |Squib|Keen Smell|
 > 
 > |||
 > |:--:|:--:|
+> |Squib|Keen Smell|
 > |Sullustan|Darkvision|
 > |Talz|Darkvision|
 > |Thisspiasian|Prehensile Tail|
@@ -2294,7 +2373,7 @@ ___
 
 <br>
 
-<div style='margin-top:51px'></div>
+<div style='margin-top:35px'></div>
 
 ### Biology and Appearance
 The appearance and biological features of half-humans vary drastically by each species, but tend to fall somewhere in the middle. A common side-effect of a species interbreeding with humans is the loss of darkvision and tails.
@@ -2312,7 +2391,7 @@ Half-human names might follow human conventions, or that of the other half. Ofte
 
 <br>
 
-<div style='margin-top:42px'></div>
+<div style='margin-top:26px'></div>
 
 ### Half-human Traits
 As a half-human, you have the following special traits.
@@ -3879,6 +3958,84 @@ You can use this feature a number of times equal to your Constitution modifier (
 ***Languages.*** You can speak, read, and write Galactic Basic and Quarrenese. The Quarrenese language is characterized by its garbled nature that evokes an image of speaking underwater.
 
 <img src='https://www.gmbinder.com/images/Yba4pV1.png' style='position:absolute;top:57px;right:67px;width:328px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+> ## Pau'an
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Gray or white|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Black or silver|
+> |***Distinctions***|  |Red eye sockets, pinstriped skin, long lifespan, jagged teeth|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'0"|+2d10"|
+> |***Weight***|  |120 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Utapau|
+> |***Language***|  |Utapese|
+
+<div style='margin-top:55px'></div>
+
+### Biology and Appearance
+Pau'ans have large, sunken black eyes in red eye sockets and jagged, fang-like teeth used for tearing into raw meat, as they are carnivores. The species has pale, wrinkled skin, due to the fact that they lived in the sinkholes of Utapau, giving them limited access to light. These traits cause some to view them as frightening. However, Pau'ans as a society are generally friendly, and are happy to welcome guests to their often overlooked world. Pau'ans have long lifespans, living up to 700 years, much longer than the Utai. This earned them the nickname of "Ancients".
+
+### Society and Culture
+Pau'ans fulfill most of the governmental and administrative duties on Utapau, as the utai do not desire such work, serving as laborers instead. Most pau'ans served as leaders early in their lives, often managing teams of Utai laborers. This gives them experience that will be used later in their lives. Pau'ans are kind leaders, and sympathetic to their subordinates. Each city on Utapau is controlled by a Master of Port Administration, a hereditary title reserved for pau'ans. These administrators are assisted by advisory councils for making important decisions about their city, and each administrator serves on the Utapauan Committee and oversees planetary governance. However, the committee rarely makes crucial decisions, as the cities are able to function on their own most of the time.
+
+### Names
+Pau'an names are fairly simple, and generally melodic. Surnames are familial. 
+
+**Male Names.** Kernul, Sivrol, Tar, Vizun, Yal, Zeolbud
+
+**Female Names.** Cas, Jevoh, Nesim, Sizil, Ten, Yofan
+
+**Surnames.** Gesat, Kluneln, Nom, Vley, Voy, Zet
+
+\columnbreak
+
+<div style='margin-top:415px'></div>
+
+### Pau'an Traits
+As a Pau'an, you have the following special traits.
+
+***Ability Score Increase.*** Your Wisdom score increases by 2, and your Constitution score increases by 1. 
+
+***Age.*** Pau'ans reach adulthood in their 30's and have been known to live up to 700 years old. 
+
+***Alignment.*** Pau'ans' commanding presence, yet friendly and kind nature, cause them to tend to be lawful light side, though there are exceptions.
+
+***Size.*** Pau'ans typically stand between 6 and 7 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Authoritative.*** You have proficiency in Persuasion or Intimidation (your choice). 
+
+***Cultured.*** You have proficiency in the Lore skill.
+
+***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Hypersensitive Hearing.*** Pau'ans possess incredibly receptive hearing, often to their detriment, so you wear special covers on your ears. Whenever you make a Wisdom (Perception) check involving hearing, you are considered to have expertise in the Perception skill, but if your hearing aids are removed, you have disadvantage on saving throws against effects that would deal sonic damage.
+
+***Vigilant.*** You can choose to have advantage on your next Initiative check. Once you use this trait, you can't use it again until you finish a short or long rest. 
+
+***Languages.*** You can speak, read, and write Galactic Basic and Utapese. Utapese is characterized by its rigid, yet melodic sound.
+
+<img src='https://www.gmbinder.com/images/rBn3F2L.png'
+style='position:absolute;top:25px;right:110px;width:212.5px;transform:scaleX(1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
