@@ -17,9 +17,9 @@ namespace StarWars5e.Parser.Parsers
         {
             var equipment = new List<Equipment>();
 
-            equipment.AddRange(await ParseWeapons(lines, "##### Blasters - Expanded", ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, "##### Blasters", ContentType.ExpandedContent));
             equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Ammunition_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", false, 1, ContentType.ExpandedContent));
 
             return equipment;
         }
@@ -29,8 +29,8 @@ namespace StarWars5e.Parser.Parsers
             var equipmentList = new List<Equipment>();
 
             var tableStart = lines.FindIndex(f => f.Contains(tableName));
-            var tableEnd = lines.FindIndex(tableStart + 3, f => f == string.Empty);
-            var tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
+            var tableEnd = lines.FindIndex(tableStart + 4, f => f == string.Empty);
+            var tableLines = lines.Skip(tableStart + 4).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
 
             var weaponClassification = WeaponClassification.Unknown;
             foreach (var tableLine in tableLines)

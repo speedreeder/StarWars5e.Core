@@ -15,27 +15,30 @@
 |Far Traveler               | 9|
 |Farmer                     |10|
 |Folk Hero                  |11|
-|Gladiator                  |12|
-|Guild Adventurer           |13|
-|Guild Artisan              |14|
-|Guild Merchant             |15|
+|Force Adept                |12|
+|Gladiator                  |13|
+|Guild Adventurer           |14|
+|Guild Artisan              |15|
+|Guild Merchant             |16|
 
 |||
 |:--|--:|
-|Hermit                     |16|
-|Investigator               |17|
-|Jensaarai                  |18|
-|Laborer                    |19|
-|Lawyer                     |20|
-|Nomad                      |21|
-|Office Worker              |22|
-|Outlaw                     |23|
-|Pirate                     |24|
-|Racer                      |25|
-|Servant                    |26|
-|Student                    |27|
-|(Un)retired Adventurer     |28|
-|Urchin                     |29|
+|Hermit                     |17|
+|Holonet Technician         |18|
+|Investigator               |19|
+|Jensaarai                  |20|
+|Laborer                    |21|
+|Lawyer                     |22|
+|Nomad                      |23|
+|Office Worker              |24|
+|Outlaw                     |25|
+|Pirate                     |26|
+|Racer                      |27|
+|Servant                    |28|
+|Student                    |29|
+|Teacher                    |30|
+|(Un)retired Adventurer     |31|
+|Urchin                     |32|
 
 </div>
 
@@ -1004,6 +1007,89 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 
 \pagebreak
 
+## Force Adept
+You are keenly attuned to the flow of the mysterious energy field known as the Force.  With proper training, you could learn to consciously sense and manipulate that energy further.  As it is, you may appear to have heightened senses, extremely quick reflexes, an intuitive understanding of others, or an uncanny ability to persuade people to your way of thinking. Your powers may have lain dormant for a long time, perhaps you felt something inside of you but never knew what it was. Perhaps your abilities were awoken by a strong encounter with another force-sensitive with the powers of the Force, or an object associated with the Force, such as a lightsaber.
+
+___
+- **Skill Proficiencies:** Choose two from Deception, Insight, Perception, and Persuasion
+- **Tool Proficiencies:** Two of your choice of artisan's tools, gaming sets, or musical instruments
+- **Equipment:** A set of common clothes, a sturdy knife, and a belt pouch containing 150 cr
+
+### Feature: Guided by the Force
+When you attempt to learn a piece of knowledge, you often instinctively know where or from whom you can obtain it. Usually, this information comes from a seemingly random person, book, or data file. Your GM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Silver-Tongued|
+|2|Empathic|
+|3|Perceptive|
+|4|Charming Persona|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Crafter|
+|6|Entertaining Competitor|
+|7|Force of Personality|
+|8|Force Sensitive|
+
+</div>
+
+#### Suggested Characteristics
+Force adepts can come from all walks of life and have varied life experiences.  Often, though, there is an underlying influence that the Force has on the personalities of Force Adepts, especially once they begin to be conscious of their connection to the Force. 
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I see omens in every event and action. The Force tries to speak to us, we just need to listen.|
+|2|I am always calm, no matter what the situation. I never raise my voice or let me emotions control me.|
+|3|The Force has chosen me for a greater purpose.  I am destined for greatness.|
+|4|I would rather make a new friend than a new enemy. We are all connected to each other.|
+|5|I've always been good at everything and things come to me naturally, but I am proud of my accomplishments.|
+|6|I don’t pay attention to the risks in a situation. The odds are always in my favor.|
+|7|The best way to get me to do something is to tell me I can’t do it.|
+|8|My emotions sometimes get the most of me, but they help me succeed.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Dilligence**. I seek to prove myself worthy of the Force by matching my actions against the Jedi teachings. (Lawful)|
+|2|**Change**. We must help bring about the changes the Force is constantly working in the world. (Chaotic)|
+|3|**Redemption**. There's a spark of good in everyone. (Light)|
+|4|**Power**. I will do whatever it takes to have power. (Dark)|
+|5|**Faith**. I trust that the Force will guide my actions; I have faith that if I work hard, things will go well. (Neutral)|
+|6|**Growth**. Self-improvement is an unending chore, but one that must be done. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I'm searching for instruction in the ways of the Force.|
+|2|I am fully dedicated to the will of the Force.  It leads and I follow.|
+|3|I must return a relic to the temple it was taken from.|
+|4|I will become the greatest user of the Force that ever lived.|
+|5|I’m guilty of a terrible crime. I hope I can redeem myself for it.|
+|6|Someone I loved died because of a mistake I made. That will never happen again.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|My faith in the Force sometimes leads me to blindly trust others that profess that same faith.|
+|2|The Jedi and Sith worship the Force as a religion. I think they are idiots for worshipping a hammer.|
+|3|I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.|
+|4|I have trouble trusting in my allies that don't share my connection to the Force.|
+|5|I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.|
+|6|Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
 ## Gladiator
 A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your A Champion Well Known feature, you can find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. 
 ___
@@ -1438,6 +1524,109 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 |4|I let my need to win arguments overshadow friendships and harmony.|
 |5|I'd risk too much to uncover a lost bit of knowledge.|
 |6|I like keeping secrets and won't share them with anyone.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
+## Holonet Technician
+You worked to keep the holonet up and running, whether being employed directly by an institution or indirectly by people across the galaxy. Your work has allowed you to uncover secrets most would never know existed. 
+___
+- **Skill Proficiencies:** Choose two from Insight, Investigation, Stealth, and Technology
+- **Tool Proficiencies:** Choose two from Mechanic's Kit, Security Kit, and Slicer's Kit
+- **Equipment:** A set of common clothes, an old transceiver antennae, two tools of your choice, and a belt pouch containing 50 cr
+
+#### Employment Type
+There are many people who service parts of the holonet, and many more who want to control the flow of information. Choose which best suits your character or roll on the table below.
+
+<div style='column-count:2'>
+
+|d8|Role|
+|:---:|:----------:|
+|1|Inter-world Government|
+|2|Inter-world Corporation|
+|3|World Government|
+|4|Crime Syndicate|
+
+|d8|Role|
+|:---:|:----------:|
+|5|Independent Contractor|
+|6|Broadcasting Service|
+|7|Small Corporation|
+|8|Darknet Broadcasting|
+
+</div>
+
+### Feature: Holonet Access
+You have the codes to a distributor station which gives you access to all information sent through it. This information comes in the form of useful (and sometimes sensitive) information on a topic you choose each day to tune into; this information isn't always reliable or interesting. Regardless of the quality of the information, it's relevance most likely pertains to your locale.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Empathic|
+|2|Investigator|
+|3|Stealthy|
+|4|Techie|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Genius Mechanic|
+|6|Bypasser|
+|7|Slicer|
+|8|Tech Dabbler|
+
+</div>
+
+#### Suggested Characteristics
+Holonets technicians vary from boring officer worker to criminal information broker.   
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I watch and record people secretly then review it later.|
+|2|I talk like I'm on a game show or am a holonet broadcaster at all times.|
+|3|I prefer to be left to my own devices.|
+|4|I like to record people dying and upload it to the holonet.|
+|5|There's no such thing as 'real news'.|
+|6|Information is a weapon that I've mastered.|
+|7|I am always interested in learning new things.|
+|8|I prefer interacting indirectly.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Duty**. It is my duty to keep all people in contact so that everything will continue working as intended. (Lawful)|
+|2|**Autonomy**. Information is meant to confuse and overwhelm. I choose to control my own mind by controlling what information I have access to. (Chaotic)|
+|3|**Happiness**. The more hope and joy I spread, the more laughs I bring; that is why I do what I do. (Light)|
+|4|**Popularity**. I want to become the most renown being in all the galaxy, and I'll destroy the competition. (Dark)|
+|5|**Knowledge**. I don't care who's ideology is right, I care who's ideology will let me learn and document information. (Neutral)|
+|6|**Self-Fulfillment**.  I'm just here for the fun of it, no matter what happens it'll make a great story one day. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I will do anything to free people from censorship.|
+|2|I can't let anyone know I work for a crime lord.|
+|3|I see truth in an ideology, and I must spread that ideal to all.|
+|4|I got a man killed by giving him a platform to speak, I can't let that happen again.|
+|5|I’m on the run from a government organization that I spread propaganda against and who's propaganda I destroy.|
+|6|I have a famous person's private logs, and I don't know what to do with them.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|I tend to think any broadcaster is a fraud immediately unless they prove otherwise.|
+|2|I tend to repeat the same mistake unless it is pointed out to me.|
+|3|I will ramble endlessly about a random holonet broadcast that I saw which I think was the best ever.|
+|4|I think everyone who works a normal job is a drone without the ability to think freely.|
+|5|I describe everything using references to obscure holonet recordings.|
+|6|I've become completely desensitized to violence and graphic imagery, to the point where I laugh in an off putting way whenever I see it.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -2445,6 +2634,91 @@ Cloistered scholars are defined by their extensive studies, and their characteri
 |4|I overlook obvious solutions in favor of complicated ones.|
 |5|I speak without really thinking through my words, invariably insulting others.|
 |6|I can't keep a secret to save my life, or anyone else's.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
+## Teacher
+You are an experienced teacher who knows how to best instruct others in an array of disciplines.  Although you have a vast amount of knowledge yourself, pedagogy is the most important tool in your toolbox because it allows the rest of your knowledge to spread most efficiently.
+
+___
+- **Skill Proficiencies:** Choose two from Lore, Nature, Performance, and Technology
+- **Tool Proficiencies:** One instrument or set of artisan's tools of your choice
+- **Languages:** One of your choice
+- **Equipment:** A set of common clothes, an instrument or set of tools with which you are proficient, a token from a former student, and a belt pouch containing 50 cr
+
+
+### Feature: Knowledge
+If you need information on something, you know if there is a book containing that information and where to find it. Further, when you hear a creature speaking or when you see language written down, you can identify exactly what language is being used even if you are not proficient in the language.  Finally, when you hear music, you know which instruments are being used in the performance, even if you are not proficient in their use. 
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Loremaster|
+|2|Naturalist|
+|3|Performer|
+|4|Techie|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Entertaining Competitor|
+|6|Crafter|
+|7|Linguist|
+|8|Feigned Confidence|
+
+</div>
+
+#### Suggested Characteristics
+As a teacher you are devoted to educating others, as well as learning new information for yourself. It is up to you whether you are preachy or wise, a bookworm or more kinesthetic, a note taker or visual learner.  In any case, you are most likely underappreciated.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|Books are my everything.|
+|2|Knowledge is the most important thing in the world.|
+|3|I have quotes for every occasion.|
+|4|My vocabulary is vast enough I sometimes use words that are larger than necessary.|
+|5|I love working with kids.|
+|6|Because I understand why people can make mistakes, I am also patient with them.|
+|7|Sometimes I start explaining things at a level much to basic for the audience.|
+|8|I reward hard work and good manners.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Teach**. I must spread what I have learned. (Lawful)|
+|2|**Insatiable**. When I find something new I must learn everything about it, no matter the cost. (Chaotic)|
+|3|**Discovery**. Every single piece of information is waiting to be discovered. (Light)|
+|4|**Greed**. Every piece of knowledge will be mine. (Dark)|
+|5|**People**. I will teach anybody anything. (Neutral)|
+|6|**Power**. Knowledge is power. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I was picked on while growing up for being a bookworm.|
+|2|The world is such an open place, I feel like there is still so much to learn. I want to compile knowledge from different places.|
+|3|I like reading books and writing, but I'm no poet yet. It is just a hobby I want to share with others, looking for exotic inspirations.|
+|4|I will become the power behind the throne by controlling the information the throne receives.|
+|5|Children are our future, and I will mold them.|
+|6|I can't teach what I don't know. I will teach everything.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|Someone showing bad manners does not exist to me. I will never talk to or acknowledge that person.|
+|2|I overemphasize the importance of discipline.|
+|3|I invest so much time into planning that I can't bring myself to deviate from the plan, even when it is needed.|
+|4|I look down on uneducated adults.|
+|5|I'd give up my companions for a piece of secret information.|
+|6|I can't stand not reading at least one page of a book a day.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 

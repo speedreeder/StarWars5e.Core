@@ -489,11 +489,11 @@ This suite creates a separate command center designed to give a comprehensive vi
 ### Docking Bay
 _Prerequisite: Ship size Large or larger_<br>
 This suite comes equipped with an integrated mechanic's kit and has space for all of the necessary equipment to launch, receive, repair, rearm, and house another starship. The size it can house varies depending on the ship's size.
-- **Large:** A Large docking bay can house a Medium ship.
-- **Huge:** A Huge docking bay can house a Large ship.
-- **Gargantuan:** A Gargantuan docking bay can house a Huge ship.
+- **Large:** A Large docking bay can house two Medium ships.
+- **Huge:** A Huge docking bay can house one Large ship.
+- **Gargantuan:** A Gargantuan docking bay can house one Huge ship.
 
-Alternatively, this suite can house multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of two Small ships, which in turn takes up the space of two Tiny units. You can also replace a ship with a droid or construct of four size categories larger.
+Alternatively, this suite can house multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger.
 
 ### Droid Storage
 This suite offers a single room featuring tightly-packed racks suitable for storing and housing a number of Medium droids equal to four times the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table.

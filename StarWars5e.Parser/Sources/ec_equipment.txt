@@ -2,7 +2,8 @@
 
 <div class='classTable wide'>
 
-##### Blasters - Expanded
+##### Blasters
+
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;Cost&emsp;|&nbsp;Damage&emsp;&emsp;|Weight&nbsp;&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 | _Simple Blasters_|||||
@@ -23,7 +24,7 @@
 | &emsp;&emsp;Antiarmor           | —&emsp;&emsp;&nbsp; | &emsp;&emsp;&nbsp;&nbsp;— | —&emsp;&nbsp; | Ammunition (range 60/240), reload 1, special |
 | &emsp;&emsp;Blaster            | —&emsp;&emsp;&nbsp; | 1d8 energy | —&emsp;&nbsp; | Ammunition (range 80/320), reload 12 |
 | &emsp;&emsp;Sniper              | —&emsp;&emsp;&nbsp; | 1d12 energy | —&emsp;&nbsp; | Ammunition (range 120/480), reload 4 |
-| &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| 4d6 kinetic | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, strength 15, special,<br> two-handed |
+| &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| — | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, strength 15, special,<br> two-handed |
 | &emsp;Sonic pistol 		|   650 cr&nbsp;&nbsp;| 1d6 sonic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 16 |
 | &emsp;Sonic rifle 		|   800 cr&nbsp;&nbsp;| 1d8 sonic | 10 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 12, two-handed |
 | &emsp;Subrepeater 		| 1,200 cr&nbsp;&nbsp;| 1d6 energy | 4 lb&nbsp;&nbsp; | Ammunition (range 30/120), auto, burst 8, light, reload 16 |
@@ -43,8 +44,8 @@ When a creature is reduced to 0 hit points by a weapon with the disintegrate pro
 ### Special Weapons
 Weapons with special rules are described to below.
 
-#### E-Web
-Rather than traditional power cells, the E-Web uses specialized power generator that allow it to fire continuously for 10 minutes. Replacing a battery pack takes an action.
+#### E-Web Blaster
+Rather than traditional power cells, the E-Web Blaster uses specialized power generator that allow it to fire continuously for 10 minutes. Replacing a battery pack takes an action.
 
 The E-Web requires the use of a tripod, which is included in the price. Over the course of 1 minute, you can
 deploy or collapse the E-web on the tripod. While deployed, your speed is reduced to 0.
@@ -70,6 +71,8 @@ Rather than traditional power cells, the rocket launcher fires specialized proje
 #### Vapor Projector
 The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. The DC for this saving throw is 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
 
+\pagebreakNum
+
 <div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
@@ -81,8 +84,14 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 |	&emsp;Rocket, fragmentation	    |	 400 cr	|	2 lb		|
 |	&emsp;Rocket, ion             	|	 475 cr	|	2 lb		|
 |	&emsp;Rocket, plasma          	|	 535 cr	|	2 lb		|
+|	_Utilities_	|		|	
+|	&emsp;Gravity generator     	|	 500 cr	|	3 lb		|
+|	_Weapon and Armor Accessories_	|		|			|
+|	&emsp;Shock gloves	            |	 500 cr	|	1 lb		|
 
 </div>
+
+## Adventuring Gear
 
 ### Ammunition
 
@@ -103,23 +112,6 @@ The ion rocket is a specialized ammunition type for the rocket launcher. On a hi
 
 #### Rocket, Plasma
 The plasma rocket is a specialized ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 2d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
-
-<div class='footnote'>EXPANDED CONTENT | EQUIPMENT</div>
-
-\pagebreakNum
-
-<div class='classTable'>
-
-|	Item	|	Cost	|	Weight		|
-|	:--	|	--:	|	:--:		|
-|	_Utilities_	|		|	
-|	&emsp;Gravity generator     	|	 500 cr	|	3 lb		|
-|	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Shock gloves	            |	 500 cr	|	1 lb		|
-
-</div>
-
-## Equipment
 
 ### Utilities
 
