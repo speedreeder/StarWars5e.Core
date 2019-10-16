@@ -53,7 +53,7 @@ namespace StarWars5e.Parser.Parsers
                 {
                     variantLines[2] = variantLines[2].Insert(0, "Y");
                 }
-                if (name == "Advanced Advantage and Flanking")
+                if (name == "Advanced Advantage")
                 {
                     variantLines[2] = variantLines[2].Insert(0, "T");
                 }
