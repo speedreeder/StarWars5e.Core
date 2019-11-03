@@ -27,7 +27,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                     rowKeyOverride = "Stun 2";
                 }
                 
-                var powerEndIndex = lines.FindIndex(powerStartIndex + 1, f => f.StartsWith("#### "));
+                var powerEndIndex = lines.FindIndex(powerStartIndex + 1, f => f.StartsWith("#### ") || f.StartsWith("# "));
                 var powerLines = lines.Skip(powerStartIndex);
 
                 if (powerEndIndex != -1)

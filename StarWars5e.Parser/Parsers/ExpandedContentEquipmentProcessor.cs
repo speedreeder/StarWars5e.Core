@@ -28,9 +28,11 @@ namespace StarWars5e.Parser.Parsers
         {
             var equipmentList = new List<Equipment>();
 
-            var tableStart = lines.FindIndex(f => f.Contains(tableName));
-            var tableEnd = lines.FindIndex(tableStart + 4, f => f == string.Empty);
-            var tableLines = lines.Skip(tableStart + 4).Take(tableEnd - (tableStart + 3)).CleanListOfStrings().ToList();
+            var tableNameIndex = lines.FindIndex(f => f.Contains(tableName));
+
+            var tableStart = lines.FindIndex(tableNameIndex, f => Regex.IsMatch(f, @"^\|.*_\w*"));
+            var tableEnd = lines.FindIndex(tableStart + 1, f => f == string.Empty);
+            var tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings().ToList();
 
             var weaponClassification = WeaponClassification.Unknown;
             foreach (var tableLine in tableLines)
