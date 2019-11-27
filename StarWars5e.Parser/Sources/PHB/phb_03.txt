@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 3: Classes
 
@@ -940,19 +940,19 @@ When you choose this discipline at 3rd level, you gain proficiency in armormech'
 ### Modified Armor
 Also at 3rd level, you learn to modify one unenhanced suit of armor or shield utilizing your armormech knowledge. Over the course of a long rest, you can expend materials equal to half the cost of the armor in order to modify it. You must have the armor, materials, and armormech's tools in order to perform this modification.
 
-Your modified armor requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified armor has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your modified armor is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified armor has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
 At 9th level, you can maintain both a modified suit of armor and shield. The total modification slots are split across the two items.
 
 ### Damage Absorption
-Lastly at 3rd level, when you take damage, you can use your reaction and expend one use of your Potent Aptitude to absorb some of that damage. When you do so, the damage you take from the attack is reduced<br> by the amount rolled on the die + your<br> Intelligence modifier (minimum of one).
+Lastly at 3rd level, when you take damage, you can use your reaction and expend one use of your Potent Aptitude to absorb some of that damage. When you<br> do so, the damage you take from the attack is<br> reduced by the amount rolled on the die + your Intelligence modifier (minimum of one).
 
 ### Armormech's Celerity
 Beginning at 6th level, when you take the Attack action, you can make one weapon attack as a bonus action.
 
-You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a<br> long rest.
+You can use this feature a number of times equal<br> to your Intelligence modifier (a minimum of once).<br> You regain all expended uses when you<br> complete a long rest.
 
 \columnbreak
 
@@ -1125,7 +1125,7 @@ When you choose this discipline at 3rd level, you gain proficiency in armstech's
 ### Modified Weaponry
 Also at 3rd level, you learn to modify one unenhanced weapon with which you are proficient utilizing your armstech experience. Over the course of a long rest, you can expend materials equal to half the cost of a weapon in order to modify it. You must have the weapon, materials, and armstech's tools in order to perform this modification.
 
-Your modified weapon requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified weapon has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your modified weapon is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified weapon has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -1382,7 +1382,7 @@ Once your droid uses this feature, it must finish a short or long rest before it
 #### Charisma Chip
 _Prerequisite: Class Three Droid_<br>
 You install a charisma chip in your droid granting the following benefit:
-- When an ally your droid can see makes attack roll, ability check, or saving throw, your droid can use its reaction to give them advantage on the roll. Once your droid uses this ability, it can't use it again until it finishes a short or long rest.
+- When an ally your droid can see makes an ability check, attack roll, or saving throw, your droid can use its reaction to give them advantage on the roll. Once your droid uses this ability, it can't use it again until it finishes a short or long rest.
 You install the newest social interaction chip to your droid. Your droid has advantage on Charisma (Performance) checks.
 
 #### Celerity Augment
@@ -2120,8 +2120,8 @@ ___
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* a martial lightweapon or vibroweapon and a light or medium shield or *(b)* two martial lightweaponss or vibroweapons
-- *(a)* combat suit and light shield or *(b)* light battle armor
+- *(a)* a lightweapon or vibroweapon and a light or medium shield or *(b)* two lightweapons or vibroweapons
+- *(a)* combat suit and a light shield or *(b)* light battle armor
 - *(a)* a priest's pack or *(b)* an explorer's pack
 
 #### Variant: Starting Wealth 
@@ -2529,7 +2529,7 @@ At 1st level, your practice of martial arts gives you mastery of combat styles t
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
 - You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
 - You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
-- When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
+- When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a vibrostaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
 
 ### Focus
 Starting at 2nd level, your training allows you to harness the mystic energy of focus. Your access to this energy is represented by a number of focus points. Your monk level determines the number of points you have, as shown in the Focus Points column of the Monk table.
@@ -2685,7 +2685,7 @@ When you gain the Extra Attack feature, this special attack can be used for any 
 When you reduce a creature to 0 hit points with this attack, you gain temporary hit points equal to your Wisdom or Charisma modifier + your monk level (your choice, minimum of one).
 
 ### Dark Magick
-At 6th level, when you take this action, each<br> creature within 30 feet of you that can see you<br> must succeed<br> on a Wisdom<br> saving throw<br> against your focus<br> save DC or be charmed<br> or frightened (your choice)<br> of you until the end of your<br> next turn. 
+At 6th level, you can use your action to force<br> each creature within 30 feet of you that can<br> see you to make<br> a Wisdom<br> saving throw<br> against your focus<br> save DC or be charmed<br> or frightened (your choice)<br> of you until the end of your<br> next turn. 
 
 \columnbreak
 
@@ -3781,7 +3781,7 @@ Though a scout might make a living as a bounty hunter, a guide, or a tracker, a 
 <img src='https://www.gmbinder.com/images/8Nj1Jxq.png' style='position:absolute;top:22px;right:10px;width:386px;z-index:1000' />
 
 ### Creating a Scout
-As you create your scout character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, tracking together until you mastered the scout's ways? Did you leave your apprenticeship, or was your mentor slain—perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of mercenaries. 
+As you create your scout character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, tracking together until you mastered the scout's ways? Did you leave your apprenticeship, or was your mentor slain—perhaps by some kind of bestial monstrosity on which you've sworn revenge? Or perhaps you learned your skills as part of a band of mercenaries. 
 
 What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work, or a significant change?
 
@@ -3971,7 +3971,7 @@ At 20th level, you become an unparalleled hunter. Your Strength or Dexterity sco
 Additionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
 
 ## Scout Techniques
-Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Those scouts who adopt the same<br> &emsp;&emsp;&emsp;&emsp;&emsp;technique tend to share a camaraderie with<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;eachother.
+Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Those scouts who adopt the same<br> &emsp;&emsp;&emsp;&emsp;&emsp;technique tend to share a camaraderie with<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;each other.
 
 <img src='https://www.gmbinder.com/images/s3Jkq04.png' style='position:absolute;bottom:0px;left:0px;width:840px;z-index:1000;' />
 
@@ -4070,7 +4070,7 @@ Beginning at 7th level, attack rolls made against you on your turn are made with
 | 7th| d8|3|3|
 | 8th| d8|3|3|
 | 9th| d8|3|3|
-|10th|d10|3|3|
+|10th| d8|3|3|
 |11th|d10|3|4|
 |12th|d10|3|4|
 |13th|d10|3|4|
@@ -4105,7 +4105,7 @@ Some scouts seek to master weapons to better protect civilization from the terro
 When you choose this technique at 3rd level, you gain one of the following features of your choice. 
 
 #### Colossus Slayer
-Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn. 
+Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn, and this damage is the same type as the weapon's damage. 
 
 #### Giant Killer
 When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature. 
@@ -4264,7 +4264,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple vibroweapons, simple lightweapons, chakram, doublesaber, doublesword, hidden blade, lightfoil, light ring, saberwhip, vibrorapier, vibrowhip
+- **Weapons:** Simple vibroweapons, simple lightweapons, chakram, doubleblade, doublesaber, doubleshoto, doublesword, hidden blade, lightfoil, light ring, saberwhip, vibrorapier, vibrowhip
 - **Tools:** Your choice of demolitions kit, security kit, or slicer's kit
 ___
 - **Saving Throws:** Dexterity, Charisma

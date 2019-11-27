@@ -66,9 +66,10 @@ namespace StarWars5e.Parser.Parsers.PHB
                     feat.Text = string.Join("\r\n", featLines.Skip(1).ToList());
                 }
 
-                var attributes = Enum.GetNames(typeof(Attribute));
+                var attributesChoices = Enum.GetNames(typeof(Attribute)).ToList();
+                attributesChoices.Add("ability");
                 var attributeIncreaseIndex = featLines.FindIndex(f =>
-                    Regex.IsMatch(f, $@"[Ii]ncrease.*({string.Join("|", attributes)}).*score", RegexOptions.IgnoreCase));
+                    Regex.IsMatch(f, $@"[Ii]ncrease.*({string.Join("|", attributesChoices)}).*score", RegexOptions.IgnoreCase));
 
                 if (attributeIncreaseIndex != -1)
                 {
@@ -97,6 +98,10 @@ namespace StarWars5e.Parser.Parsers.PHB
                     if (attributeIncreaseLine.Contains(Attribute.Charisma.ToString()))
                     {
                         feat.AttributesIncreased.Add(Attribute.Charisma.ToString());
+                    }
+                    if (attributeIncreaseLine.Contains("your choice"))
+                    {
+                        feat.AttributesIncreased.Add("Any");
                     }
                 }
 

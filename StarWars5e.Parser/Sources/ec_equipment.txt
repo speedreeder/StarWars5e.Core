@@ -4,31 +4,35 @@
 
 ##### Blasters
 
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;Cost&emsp;|&nbsp;Damage&emsp;&emsp;|Weight&nbsp;&nbsp;|Properties| 
+|Name|Cost|Damage|Weight|Properties| 
 |:---|---:|:---|-:|:---|
 | _Simple Blasters_|||||
-| &emsp;Ion carbine			|   300 cr&nbsp;&nbsp;| 1d4 ion | 8 lb&nbsp;&nbsp; | Ammunition (range 60/240), reload 16, two-handed |
-| &emsp;Light repeater		| 1,900 cr&nbsp;&nbsp;| 1d8 energy | 12 lb&nbsp;&nbsp; | Ammunition (range 80), auto, burst 4, reload 12, two-handed |
-| &emsp;Needler			    |   275 cr&nbsp;&nbsp;| 1d4 kinetic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 20, special |
-| &emsp;Slugpistol          |   100 cr&nbsp;&nbsp;| 1d6 kinetic | 3 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 12 |
+| Ion carbine			|   300 cr| 1d4 ion | 8 lb | Ammunition (range 60/240), reload 16, two-handed |
+| Light repeater		| 1,900 cr| 1d8 energy | 12 lb | Ammunition (range 80), auto, burst 4, reload 12, two-handed |
+| Needler			    |   275 cr| 1d4 kinetic | 2 lb | Ammunition (range 40/160), reload 20, special |
+| Slugpistol          |   100 cr| 1d6 kinetic | 3 lb | Ammunition (range 40/160), reload 12 |
 | _Martial Blasters_|||||
-| &emsp;Blaster cannon      | 3,000 cr&nbsp;&nbsp;| 1d12 energy | 36 lb&nbsp;&nbsp; | Ammunition (range 100/400), auto, burst 2, reload 4, strength 15,<br> two-handed |
-| &emsp;Disruptor pistol    | 6,000 cr&nbsp;&nbsp;| 1d8 acid | 6 lb&nbsp;&nbsp; | Ammunition (range 40/160), disintegrate, reload 1 |
-| &emsp;Disruptor rifle     | 7,000 cr&nbsp;&nbsp;| 1d10 acid | 12 lb&nbsp;&nbsp; | Ammunition (range 100/400), disintegrate, reload 1, two-handed |
-| &emsp;E-web blaster   | 9,800 cr&nbsp;&nbsp;| 1d12 energy | 76 lb&nbsp;&nbsp; | Ammunition (range 100), auto, burst, special |
-| &emsp;Grenade launcher    |   800 cr&nbsp;&nbsp;| &emsp;&emsp;&nbsp;&nbsp;— | 10 lb&nbsp;&nbsp; | Ammunition (range 80/320), reload 1, strength 13, special, two-handed |
-| &emsp;Heavy repeater      | 6,400 cr&nbsp;&nbsp;| 1d10 energy | 12 lb&nbsp;&nbsp; | Ammunition (range 60/240), auto, burst 2, reload 8, strength 15,<br> two-handed |
-| &emsp;Heavy shotgun      |   400 cr&nbsp;&nbsp;| 2d4 kinetic | 16 lb&nbsp;&nbsp; | Ammunition (range 30/120), burst 2, reload 12, strength 13,<br> two-handed |
-| &emsp;Incinerator sniper   | 5,600 cr&nbsp;&nbsp;| 1d8 fire | 10 lb&nbsp;&nbsp; | Ammunition (range 150/600), disintegrate, reload 4, strength 13,<br> two-handed |
-| &emsp;IWS          | 7,200 cr&nbsp;&nbsp;| &emsp;&emsp;&nbsp;&nbsp;— | 12 lb&nbsp;&nbsp; | Special, strength 13, two-handed |
-| &emsp;&emsp;Antiarmor           | —&emsp;&emsp;&nbsp; | &emsp;&emsp;&nbsp;&nbsp;— | —&emsp;&nbsp; | Ammunition (range 60/240), reload 1, special |
-| &emsp;&emsp;Blaster            | —&emsp;&emsp;&nbsp; | 1d8 energy | —&emsp;&nbsp; | Ammunition (range 80/320), reload 12 |
-| &emsp;&emsp;Sniper              | —&emsp;&emsp;&nbsp; | 1d12 energy | —&emsp;&nbsp; | Ammunition (range 120/480), reload 4 |
-| &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| — | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, strength 15, special,<br> two-handed |
-| &emsp;Sonic pistol 		|   650 cr&nbsp;&nbsp;| 1d6 sonic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 16 |
-| &emsp;Sonic rifle 		|   800 cr&nbsp;&nbsp;| 1d8 sonic | 10 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 12, two-handed |
-| &emsp;Subrepeater 		| 1,200 cr&nbsp;&nbsp;| 1d6 energy | 4 lb&nbsp;&nbsp; | Ammunition (range 30/120), auto, burst 8, light, reload 16 |
-| &emsp;Vapor projector      | 1,600 cr&nbsp;&nbsp;| &emsp;&emsp;&nbsp;&nbsp;— | 14 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 13, two-handed |
+| Blaster cannon      | 3,000 cr| 1d12 energy | 36 lb | Ammunition (range 100/400), auto, burst 2, reload 4, strength 15,<br> two-handed |
+| Disruptor pistol    | 6,000 cr| 1d8 acid | 6 lb | Ammunition (range 40/160), disintegrate, reload 1 |
+| Disruptor rifle     | 7,000 cr| 1d10 acid | 12 lb | Ammunition (range 100/400), disintegrate, reload 1, two-handed |
+| E-web blaster   | 9,800 cr| 1d12 energy | 76 lb | Ammunition (range 100), auto, burst, special |
+| Grenade launcher    |   800 cr| — | 10 lb | Ammunition (range 80/320), reload 1, strength 13, special, two-handed |
+| Heavy repeater      | 6,400 cr| 1d10 energy | 12 lb | Ammunition (range 60/240), auto, burst 2, reload 8, strength 15,<br> two-handed |
+| Heavy shotgun      |   400 cr| 2d4 kinetic | 16 lb | Ammunition (range 30/120), burst 2, reload 12, strength 13,<br> two-handed |
+| Incinerator sniper   | 5,600 cr| 1d8 fire | 10 lb | Ammunition (range 150/600), disintegrate, reload 4, strength 13,<br> two-handed |
+| IWS          | 7,200 cr| — | 12 lb | Special, strength 13, two-handed |
+| Antiarmor           | — | — | — | Ammunition (range 60/240), reload 1, special |
+| Blaster            | — | 1d8 energy | — | Ammunition (range 80/320), reload 12 |
+| Sniper              | — | 1d12 energy | — | Ammunition (range 120/480), reload 4 |
+| Rocket launcher     | 2,400 cr| — | 20 lb | Ammunition (range 100/400), reload 1, strength 15, special,<br> two-handed |
+| Sonic pistol 		|   650 cr| 1d6 sonic | 2 lb | Ammunition (range 40/160), reload 16 |
+| Sonic rifle 		|   800 cr| 1d8 sonic | 10 lb | Ammunition (range 100/400), reload 12, two-handed |
+| Subrepeater 		| 1,200 cr| 1d6 energy | 4 lb | Ammunition (range 30/120), auto, burst 8, light, reload 16 |
+| Vapor projector      | 1,600 cr| — | 14 lb | Ammunition (range special), reload 5, special, strength 13, two-handed |
+| _Martial Vibroweapons_|||||
+|Electrobaton|650 cr|1d4 kinetic|3 lb|Finesse, light, shocking|
+|Electrostaff|1,100 cr|1d6 kinetic|6 lb|Double (1d6 kinetic), finesse, shocking, two-handed|
+|Electrohammer|1,400 cr|1d10 kinetic|8 lb|Heavy, shocking, two-handed|
 
 </div>
 
@@ -37,6 +41,9 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 #### Auto
 Automatic weapons can only fire in burst mode.
+
+#### Shocking
+When you hit a creature with a weapon with the shocking property, it must make a DC 13 Constitution saving throw. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
 
 #### Disintegrate
 When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a DC 12 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
@@ -78,16 +85,16 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	:--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Power generator           |  1,250 cr	|	5 lb		|
-|	&emsp;Projector tank, carbonite	|	 675 cr	|	3 lb		|
-|	&emsp;Projector tank, flame    	|	 550 cr	|	3 lb		|
-|	&emsp;Rocket, fragmentation	    |	 400 cr	|	2 lb		|
-|	&emsp;Rocket, ion             	|	 475 cr	|	2 lb		|
-|	&emsp;Rocket, plasma          	|	 535 cr	|	2 lb		|
+|	Power generator           |  1,250 cr	|	5 lb		|
+|	Projector tank, carbonite	|	 675 cr	|	3 lb		|
+|	Projector tank, flame    	|	 550 cr	|	3 lb		|
+|	Rocket, fragmentation	    |	 400 cr	|	2 lb		|
+|	Rocket, ion             	|	 475 cr	|	2 lb		|
+|	Rocket, plasma          	|	 535 cr	|	2 lb		|
 |	_Utilities_	|		|	
-|	&emsp;Gravity generator     	|	 500 cr	|	3 lb		|
+|	Gravity generator     	|	 500 cr	|	3 lb		|
 |	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Shock gloves	            |	 500 cr	|	1 lb		|
+|	Shock gloves	            |	 500 cr	|	1 lb		|
 
 </div>
 

@@ -1,4 +1,70 @@
 
+# Class-Specific Feats
+
+### Relentless Pursuer
+_Prerequisite: at least 3 levels in berserker_<br>
+You've harnessed a new level of persistence, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- When a creature ends its turn within 15 feet of you, you can use your reaction to move up to half your speed to a space closer to the creature. This movement doesn't provoke opportunity attacks.
+
+### Meditative Mindfulness
+_Prerequisite: at least 3 levels in consular_<br>
+You've delved to new depths during your meditation, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- When you complete a long rest, you can choose one of the force powers you know and replace it with another force power, as long as that power is not of a higher level than your Max Power Level. 
+
+### Expert Potency
+_Prerequisite: at least 3 levels in engineer_<br>
+You've obtained new ways to assist your allies, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- When a creature has a Potent Aptitude die from you and casts a power, they can roll the die and add the number rolled to one damage or healing roll of the power. If the power would damage or heal multiple targets, this bonus only applies to one of them. The Potent Aptitude die is then lost.
+
+### Adaptive Training
+_Prerequisite: at least 3 levels in fighter_<br>
+You've developed a new fluidity to your training and practice, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- Whenever you complete a long rest, you can replace a fighting style you know with another style available. You can't take a Fighting Style option more than once, even if you later get to choose again.
+
+### Serene Resolve
+_Prerequisite: at least 3 levels in guardian_<br>
+You've learned to adapt the Force in new ways, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- As a bonus action, you can expend a use of your Channel the Force to regain 2 force points.
+
+\columnbreak
+
+### Focused Vitality
+_Prerequisite: at least 3 levels in monk_<br>
+You've learned to harness you focus to restore yourself, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- As an action, you can spend 2 focus points and a roll a Martial Arts die. You regain a number of hit points equal to the amount rolled + your Wisdom or Charisma modifier (your choice, a minimum of one).
+
+### Precision Applications
+_Prerequisite: at least 3 levels in operative_<br>
+You've honed your skills to fine edge, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You can use the bonus action granted by your Cunning Action to carefully aim your next attack. You gain advantage on your next attack roll before the end of your current turn. You can't use this feature if you have moved during this turn, and using this feature reduces your speed to 0 until the end of your current turn.
+
+### Versatile Design
+_Prerequisite: at least 3 levels in scholar_<br>
+You've learned to approach problems from new angles, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- When you complete a long rest, you can choose one of the maneuvers you know and replace it with another one.
+
+### Tireless Outrider
+_Prerequisite: at least 3 levels in scout_<br>
+You've pushed yourself past the limits of your endurance, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- As an action, you can reduce your exhaustion level by 1 and give yourself a number of temporary hit points equal to 1d10 + your Intelligence modifier. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Kinetic Stoicism 
+_Prerequisite: at least 3 levels in sentinel_<br>
+You've developed a preternatural focus, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- When you miss with your Kinetic Combat attack, you can spend 1 force point to reroll the die. You must use the new roll.
+
+\pagebreak
+
 ### Titan's Power
 _Prerequisite: Strength 20, character level 12_
 ___
@@ -65,4 +131,11 @@ Despite being short of stature, your size has no impact on your strength and vir
 *Prerequisite: The ability to cast force powers*<br>
 You've learned to utilize your gift with the Force in a specific, unique way. You gain the following benefits
 - Increase your Wisdom or Charisma score by 1, to a maximum of 20. 
-- Choose a skill in which you are proficient. When you make an ability check with the chosen skill, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
+- Choose a skill or tool in which you are proficient. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
+
+You can select this feat multiple times. Each time you do so, you must choose a different skill or tool.
+
+### Cyborg
+You've experimented with cybernetic augmentations, granting the following benefits: 
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- Choose one cybernetic augmentation of standard rarity. That augmentation is installed and doesn't count against the maximum cybernetic augmentations you can support, but it does count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table in *Wretched Hives*.

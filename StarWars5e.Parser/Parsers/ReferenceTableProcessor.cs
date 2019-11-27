@@ -51,6 +51,7 @@ namespace StarWars5e.Parser.Parsers
             referenceTables.Add(ParseTable(lines, "#### System Damage", "System Damage", ContentType.Core));
             referenceTables.Add(ParseTable(lines, "#### Starship Size Maximum Suites", "Starship Size Maximum Suites", ContentType.Core, 2));
             referenceTables.Add(ParseTable(lines, "#### Starship Size Suite Capacity", "Starship Size Suite Capacity", ContentType.Core));
+            referenceTables.Add(ParseTable(lines, "#### Cybernetic Augmentation Side Effects", "Cybernetic Augmentation Side Effects", ContentType.Core));
 
             return Task.FromResult(referenceTables);
         }

@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 6: Customization Options
 
@@ -73,9 +73,9 @@ When you gain a level in a class other than your first, you gain only some of th
 |Guardian||Light armor, medium armor, all lightweapons, all vibroweapons|
 |Operative||Light armor, one skill from the class's skill list, one tool from the class's tool list|
 |Monk||Simple vibroweapons, techblades|
-|Scout||Light armor, medium armor, all blasters, all kinetic weapons, one skill from the class's skill list|
-|Scholar||light armor, one skill from the class's skill list|
-|Sentinel||light armor, simple lightweapons, simple vibroweapons|
+|Scout||Light armor, medium armor, all blasters, all vibroweapons, one skill from the class's skill list|
+|Scholar||Light armor, one skill from the class's skill list|
+|Sentinel||Light armor, simple lightweapons, simple vibroweapons|
 
 ## Class Features
 When you gain a new level in a class, you get its features for that level. A few features, however, have additional rules when you're multiclassing: Extra Attack, Superiority Die, Unarmored Defense, and Force- or Tech-casting.
@@ -291,7 +291,7 @@ You have studied the secrets of chemistry and are an expert in its practice, gai
 - Over the course of a short or long rest, you can temporarily improve the potency of one medpac. To use this benefit, you must have a biochemist's kit with you, and the medpac must be within reach. If the medpac is consumed before the end of your next short or long rest, when a creature uses this medpac, they take the maximum instead of rolling.
 
 ### Blade Mastery
-You master the doubleblade, doublesaber, doubleshoto, doublesword, dual-phase lightsaber, hidden blade, lightdagger, lightfoil, lightsaber, shotosaber, techblade, vibroblade, vibrodagger, and vibrorapier. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
+You master the doubleblade, doublesaber, doubleshoto, doublesword, hidden blade, lightdagger, lightfoil, lightsaber, martial lightsaber, shotosaber, techblade, vibroblade, vibrodagger, and vibrorapier. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
 - You gain a +1 bonus to the weapon's attack rolls.
 - As a bonus action, you can take a parrying stance. Until the start of your next turn, you have a +1 bonus to AC unless you are disarmed.
 - When you make an opportunity attack with the weapon, you have advantage on the attack roll.
@@ -397,7 +397,7 @@ You have a knack for crafting; you work with greater efficiency and produce good
 You can select this feat multiple times. Each time you do so, you must choose a different set of artisan's tools. 
 
 ### Crushing Weapon Mastery
-You master the electrostaff, greatsaber, techaxe, vibroaxe, vibroclub, vibromace, and vibrosword. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
+You master the electrostaff, greatsaber, techaxe, vibroaxe, vibroknuckler, vibromace, and vibrosword. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
 - You gain a +1 bonus to the weapon's attack rolls.
 - Whenever you have advantage on an attack roll and hit, and the lower of the two d20 rolls would also hit, you can attempt to knock the target prone. If the target is no more than one size larger than you (your size or smaller if your weapon has the *light* property), make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability). If you win the contest, the target is knocked prone.
 - You can ready your weapon to deliver a punishing blow against a foe that tries to advance on you. When you take the Ready action on your turn and make a melee attack as your reaction, you have advantage on your attack roll. 

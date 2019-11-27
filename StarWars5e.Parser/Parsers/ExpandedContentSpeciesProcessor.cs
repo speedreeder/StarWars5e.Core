@@ -399,7 +399,7 @@ namespace StarWars5e.Parser.Parsers
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_givin.png");
                         break;
                     case "Gotal":
-                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/specspecies_gotal.png");
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_gotal.png");
                         break;
                     case "Gran":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_gran.png");
@@ -470,6 +470,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Nautolan":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_nautolan.jpg");
                         break;
+                    case "Neimoidian":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_neimoidian.jpg");
+                        break;
                     case "Noghri":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_noghri.png");
                         break;
@@ -502,6 +505,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Squib":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_squib.png");
+                        break;
+                    case "Ssi-Ruu":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_ssi-ruu.jpg");
                         break;
                     case "Sullustan":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_sullustan.png");

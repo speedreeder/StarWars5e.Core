@@ -62,14 +62,15 @@
 |&emsp;Bulwark Technique        |63|
 |&emsp;Illusionist Technique    |64|
 |&emsp;Inquisitor Technique     |65|
-|&emsp;Predator Technique       |66|
-|&emsp;Slayer Technique         |67|
+|&emsp;Mastermind Technique     |66|
+|&emsp;Predator Technique       |67|
+|&emsp;Slayer Technique         |68|
 |Sentinel||
-|&emsp;Path of Communion        |68|
-|&emsp;Path of the Corsair      |69|
-|&emsp;Path of the Forceblade   |70|
-|&emsp;Path of Synthesis        |71|
-|&emsp;Path of Tenacity         |72|
+|&emsp;Path of Communion        |69|
+|&emsp;Path of the Corsair      |70|
+|&emsp;Path of the Forceblade   |71|
+|&emsp;Path of Synthesis        |72|
+|&emsp;Path of Tenacity         |73|
 
 </div>
 
@@ -1925,7 +1926,7 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 Monks of the Aing-Tii Order blend an attunement to the Force with their supreme focus to become a blur of motion in the heat of battle.
 
 ### Forcecasting
-When you choose this Order at 3rd level, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.
+When you choose this order at 3rd level, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.
 
 #### Force Powers Known
 You learn 4 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the Aing-Tii Order Forcecasting table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.
@@ -3250,6 +3251,46 @@ At 15th level, you can cast the *force suppression* and *sever force* force powe
 You can use this feature a number of times equal to 1 + your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
 <img src='https://www.gmbinder.com/images/yz66qwn.png' style='position:absolute;bottom:4px;right:-95px;width:620px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+\pagebreak
+
+## Mastermind Technique
+Preparation, preparation, preparation. Some scouts are serious students of battle and any creatures they might encounter. Followers of the Mastermind Technique focus on being prepared for any eventuality, and using their breadth of knowledge to gain insights into their enemies.
+
+### Instinctive Combatant
+When you choose this technique at 3rd level, you have learned to use your wits to help you survive. While you are wearing light or medium armor, you can use your Intelligence modifier instead of your Dexterity modifier when determining your AC. 
+
+### Mark of the Meticulous
+Also at 3rd level, you can use Intelligence instead of Dexterity for the attack and damage rolls made with weapons with the finesse property or blaster weapons against the target of your Ranger's Quarry.
+
+Additionally, once per round, when you hit the target of your Ranger's Quarry with a tech attack, or it fails a saving throw against a tech power you cast that deals damage, you can deal additional damage equal to your Ranger's Quarry damage die of the same type as the tech power's damage.
+
+### Adaptive Techie
+Beginning at 7th level, when you complete a long rest, you can choose up to a number of tech powers you know equal to half your Intelligence modifier (rounded down) and replace them with another tech power, as long as that power is not of a higher level than your Max Power Level.
+
+### Emergency Planning
+Starting at 11th level, you've learned to formulate and execute a plan. As an action, you can choose up to six creatures (including yourself) that you can see within 60 feet of you. For each creature, choose one of the following: ability check, attack roll, or saving throw. Each creature gains an Emergency Planning die, which is a d8.
+
+Once within the next 10 minutes, each creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw, as determined when you use this feature. The creature can wait until after it rolls the d20 before deciding to use the Emergency Planning die, but must decide before the GM says whether the roll succeeds or fails. Once the Emergency Planning die is rolled, it is lost.
+
+A creature can have only one Emergency Planning die at a time.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+Your Emergency Planning die changes when you reach certain levels in this class. to 1d10 at 13th level, and to 1d12 at 17th level.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Exploit Weakness
+At 15th level, your training has taught you to find and exploit weaknesses in your prey. As a bonus action, you can impose disadvantage on the next saving throw the target of your Ranger's Quarry makes against an effect you control before the end of your next turn. Once you've done so, you must complete a short or long rest before you can do so again.
+
+<img src='https://i.pinimg.com/originals/b5/a3/17/b5a3173239edf5257ed24e07c4b6e65e.jpg' style='position:absolute;bottom:4px;right:20px;width:420px;z-index:950;transform:scaleX(-1); mix-blend-mode:darken' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 

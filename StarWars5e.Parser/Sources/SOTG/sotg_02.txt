@@ -33,7 +33,15 @@ A character can fill multiple roles simultaneously, provided it can reach the ap
 
 </div>
 
+<style>
+  .phb#p2:after { display:none; }
+</style>
+
 <img src='https://www.gmbinder.com/images/OLqIigd.png' style='position:absolute;bottom:0px;left:0px;width:840px;z-index:1000' />
+
+\pagebreak
+
+<div class='cover-header' style="font-family:SerifGothicStd-Black; font-size:28px; color:#222; text-shadow:none; margin-top:250px;">ART PAGE</div>
 
 \pagebreak
 
@@ -80,7 +88,7 @@ While you have an uplifting directive number, when an ally makes an ability chec
 
 <img src='https://www.gmbinder.com/images/yJ7rp4o.png' style='position:absolute;bottom:5px;left:60px;width:323px;z-index:1000' />
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -88,7 +96,7 @@ While you have an uplifting directive number, when an ally makes an ability chec
 Also at 2nd rank, while aboard your ship, if you are surprised at the start of combat and aren't incapacitated, you and a creature who can see or hear you may act normally on their first turn.
 
 ### Versatile Coordinator
-Starting at 3rd rank, when you would expend an Inspiring Display die, you can instead use a d4. You can only use this feature once per round.
+Starting at 3rd rank, when you would expend an Inspiring Display die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
 ### Commanding Presence
 Also at 3rd rank, you learn a new way to use your Inspiring Display. While aboard your ship, when a creature that can see or hear you fails an ability check, attack roll, or saving throw, you can use use your reaction and expend a use of your Inspiring Display to aid that creature provided it did not already have or use an Inspiring Display die this turn. The creature can then roll the die and add it to the result.
@@ -111,7 +119,7 @@ Also at 5th rank, as a bonus action, you can extend a rallying cry to those that
 
 Once you've used this feature, you can't use it again until you finish a short or long rest.
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -176,7 +184,7 @@ When you hit a ship with a ship attack, you can expend one gambit die to cripple
 
 <img src='https://www.gmbinder.com/images/JTxSRRC.png' style='position:absolute;bottom:8px;left:-10px;width:465px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -209,10 +217,10 @@ When you make a ship attack roll against a ship, you can expend one gambit die t
 At 2nd rank, you adopt a particular style of gunning as your specialty. Choose one of the Gunning Style options, detailed in Chapter 6. You can't take a Gunning Style option more than once, even if you later get to choose again.
 
 ### Improved Critical
-Also at 2nd rank, your primary and secondary ship attacks score a critical hit on a roll of 19 or 20, and when a ship rolls a 1 on a saving throw against a tertiary weapon, they take damage as if suffering a critical hit.
+Also at 2nd rank, your primary and secondary ship attacks score a critical hit on a roll of 19 or 20, and when a ship rolls a 1 on a saving throw against a tertiary or quaternary weapon, they take damage as if suffering a critical hit.
 
 ### Versatile Gunner
-Starting at 3rd rank, when you would expend a Gambit die, you can instead use a d4. You can only use this feature once per round.
+Starting at 3rd rank, when you would expend a gambit die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
 ### Brutal Critical
 Also at 3rd rank, you can roll the weapon damage dice one additional time when determining the extra damage for a critical hit with a ship weapon.
@@ -233,7 +241,7 @@ Also at 5th rank, when you hit a ship with a ship attack, you can deal maximum d
 
 Once you've used this feature, you can't use it again until you finish a short or long rest.
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -279,7 +287,7 @@ At 2nd rank, when you take the Patch action or conduct ship repairs, you have ad
 
 <img src='https://www.gmbinder.com/images/wsfIqqe.png' style='position:absolute;bottom:-30px;left:20px;width:430px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -289,7 +297,7 @@ Also at 2nd rank, when installing new equipment or upgrades, you count as two me
 Additionally, when your ship's shields are fully depleted, you can use your reaction to immediately restore a number of shield points equal to your Intelligence modifier. Once you've used this feature, you must finish a long rest before you can use it again.
 
 ### Versatile Mechanic
-Starting at 3rd rank, when you would expend a System Boost die, you can instead use a d4. You can only use this feature once per round.
+Starting at 3rd rank, when you would expend a System Boost die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
 ### Reroute Power
 Also at 3rd rank, as an action on each of your turns, you can reroute power between your ship's engines, shields, and weapons through use of the ship's capacitor. A capacitor can be toggled to neutral, where all three aspects function normally, or can divert power to a specific system. 
@@ -307,7 +315,7 @@ When diverting power to a system, power to the other systems is halved:
 \columnbreak
 
 ### Rapid Repairman
-At 4th rank, when you take the Patch action, you can choose to forgo your proficiency bonus. If you succeed on the check, you can expend 2 Hit Die, instead of one. For each Hit Die spent in this way, roll the die and add the ship's Constitution modifier to it.
+At 4th rank, when you take the Patch action, you can choose to forgo your proficiency bonus. If you succeed on the check, you can expend 2 Hit Dice, instead of one. For each Hit Die spent in this way, roll the die and add the ship's Constitution modifier to it.
 
 ### Last Resort
 Also at 4th rank, when your ship makes a Destruction saving throw while you are deployed as a mechanic, it adds your Intelligence modifier to the roll (minimum of +1). Additionally, when you roll a ship's Hit Die to regain hit points, the minimum number of hit points you can regain from the roll equals twice your Intelligence modifier (minimum of 2).
@@ -315,14 +323,14 @@ Also at 4th rank, when your ship makes a Destruction saving throw while you are 
 ### Paragon Mechanic
 As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your System Boost feature when you finish a short or long rest.
 
-Additionally, when you would make a Mechanic's Kit check while deployed as a mechanic, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+Additionally, when you would make an Intelligence (Mechanic's Kit) check while deployed as a mechanic, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Supreme Boost
 As of 5th rank, you learn to how grant massive brief boost to your ship's system. As a bonus action, you can use your System Boost feature on the engines, shields, and weapons simultaneously, without expending any uses of your System Boost feature. Additionally, instead of rolling your System Boost die, you take the maximum.
 
 Once you've used this feature, you must finish a short or long rest before you can use it again.
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -354,9 +362,9 @@ Operators share their love of a challenge; to overcome the obstacle that few oth
 Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
 
 ### System Disruption
-Also at 1st rank, as a bonus action, you can choose a ship that you can see within 1,000 feet and target its systems for disruption, as long as you understand how they function. For the next minute, or until you disrupt another target, you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it.
+Also at 1st rank, as a bonus action while deployed as an operator, you can choose a ship that you can see within 1,000 feet and target its systems for disruption, as long as you understand how they function. For the next minute, or until you disrupt another target, you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it.
 
-Additionally, when the ship makes an ability check, attack roll, or damage roll, you can use your reaction to disrupt the ship's functions. Roll a System Disruption die, which is a d4, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 2nd, 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
+Additionally, when the ship makes an ability check, attack roll, or saving throw, you can use your reaction to disrupt the ship's functions. Roll a System Disruption die, which is a d4, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 2nd, 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
 
 Your System Disruption die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
 
@@ -368,12 +376,12 @@ Also at 2nd rank, the first time the target of your System Disruption takes dama
 
 <img src='https://www.gmbinder.com/images/vviMrnU.png' style='position:absolute;bottom:20px;left:60px;width:300px;z-index:1000' />
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
 ### Versatile Operator
-Starting at 3rd rank, when you would expend a System Disruption die, you can instead use a d4. You can only use this feature once per round.
+Starting at 3rd rank, when you would expend a System Disruption die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
 ### Threat Assessment
 Also at 3rd rank, as a bonus action, you can learn certain information about the capabilities of the target of your System Disruption. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to two of the following characteristics of your choice:
@@ -405,7 +413,7 @@ The ship's pilot makes another Constitution saving throw at the end of its turns
 
 Once you've use this feature, you must finish a short or long rest before you can use it again.
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -460,7 +468,7 @@ When you fail a Strength, Dexterity, or Constitution saving throw, you can expen
 
 <img src='https://www.gmbinder.com/images/vmwsYtZ.png' style='position:absolute;bottom:4px;left:-110px;width:672px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -493,7 +501,7 @@ At 2nd rank, when you use take the Evade action, you have advantage on the Pilot
 Also at 2nd rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.
 
 ### Versatile Pilot
-Starting at 3rd rank, when you would expend a Tactical die, you can instead use a d4. You can only use this feature once per round.
+Starting at 3rd rank, when you would expend a Tactical die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
 ### Cunning Avoidance
 Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make an Intelligence (Piloting) check, and instead use that value for your AC or saving throw.
@@ -514,6 +522,6 @@ Also at 5th rank, you are a master at the helm. As a bonus action, you can harne
 
 Once you've used this feature, you can't use it again until you finish a short or long rest.
 
-<div class='footnote'>PART 1 | DEPLOYMENTS</div>
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

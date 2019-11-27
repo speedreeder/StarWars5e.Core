@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 9: Combat
 
@@ -385,7 +385,7 @@ If a power or other effect deals damage to **more than one target** at the same 
 #### Critical Hits
 When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
 
-For example, if you score a critical hit with a vibrodagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well.
+For example, if you score a critical hit with a vibrodagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. If the attack involves other damage dice, such as from the operative's Sneak Attack feature, you roll those dice twice as well.
 
 #### Damage Types
 Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
@@ -534,7 +534,9 @@ Creatures and objects that are fully immersed in water have resistance to fire d
 \pagebreakNum
 
 <style>
-  .phb#p11:after { display:none; }
+  .phb#p25:after { display:none; }
 </style>
 
 <img src='https://cdn.discordapp.com/attachments/469499280994992128/593986574891352084/sw-combat-scene.jpg' class='cover-image' style="position:absolute; left:0px; width:844px;" />
+
+\pagebreakNum

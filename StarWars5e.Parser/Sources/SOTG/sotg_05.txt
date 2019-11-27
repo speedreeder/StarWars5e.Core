@@ -1,7 +1,5 @@
 
 
-\pagebreak
-
 # Chapter 5: Equipment
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
@@ -75,7 +73,7 @@ Each ship comes with a capacity for a certain amount of cargo, depending on its 
 |Huge|10,000 tons&emsp;&emsp;&emsp;&emsp;|
 |Gargantuan|200,000 tons&emsp;&emsp;&emsp;&emsp;|
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -116,7 +114,7 @@ Some ships (like TIE Fighters) lack shields, though most ships have them. Shield
 
 ***Shield Capacity.*** The capacity of shields is calculated by multiplying the ship's hit points by the shield capacity. For instance, if a ship has 50 hit points, then it would have 50 shield points with a Directional Shield, but only 25 with a Quick-Charge Shield.
 
-***Shield Regeneration Rate.*** Shield regeneration rate is represented by a value, and the shields regenerate by that amount at the start of the pilot's turn. The shield regeneration rate is calculated by multiplying the maximum value of the ship's Hit Die by the shield regeneration rate coefficient. For instance, a Small ship regenerates 6 shield points at the start of the pilot's turn with a Direction Shield, but only 3 shield points with a Fortress Shield (6 x 50%).
+***Shield Regeneration Rate.*** Shield regeneration rate is represented by a value, and the shields regenerate by that amount at the start of the pilot's turn. The shield regeneration rate is calculated by multiplying the maximum value of the ship's Hit Die by the shield regeneration rate coefficient. For instance, a Small ship regenerates 6 shield points at the start of the pilot's turn with a Direction Shield, but only 3 shield points with a Fortress Shield (6 x 0.5).
 
 ***Shield Depletion.*** In the event that shield points are reduced to 0, they no longer regenerate until your ship undergoes maintenance.
 
@@ -199,7 +197,7 @@ If a tertiary or quaternary weapon has an attack bonus, they add the bonus (or s
 #### Attacks Per Round
 The rate at which weapons fire varies based on weapon. The "Attacks per Round" column shows how many ship attacks a deployed gunner can make with the chosen weapon when they take the Attack action.
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -246,7 +244,7 @@ When scaling a tertiary or quaternary weapon to a size Large ship, reduce the da
 
 For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy damage and has a reload of 32; for a size Gargantuan ship it deals 4d12 energy damage and has a reload of 128. Meanwhile, a Bomb Layer for a size Large ship has a reload of 16, while a Bomblet deals 6d8 energy damage; for a size Gargantuan ship the Bomb Deployer has a reload of 64, while a Bomblet deals 6d12 energy damage.
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -280,7 +278,7 @@ For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy dam
 
 </div>
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -314,7 +312,7 @@ For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy dam
 
 </div>
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -365,7 +363,7 @@ When a seismic charge detonates, each ship within 300 feet must make a Dexterity
 
 </div>
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -427,7 +425,7 @@ Some navcomputers offer a bonus when calculating astrogation, as indicated by a 
 
 </div>
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>		
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
 
 \pagebreakNum
 
@@ -494,6 +492,6 @@ Ships store food and beverage in terms of "portions", the quantity of which vari
 |Huge| 9,600,000 portions|
 |Gargantuan| 576,000,000 portions|
 
-<div class='footnote'>PART 1 | EQUIPMENT</div>
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

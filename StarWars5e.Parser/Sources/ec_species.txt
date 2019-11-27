@@ -15,69 +15,72 @@
 |	Chadra-Fan      	|	9	|
 |	Chagrian    	    |	10	|
 |	Chevin	            |	11	|
-|	Codru-Ji        	|	12  |
-|	Devaronian	        |	13	|
-|	Draethos        	|	14	|
-|	Droid, Class II 	|	15	|
-|	Droid, Class III	|	16	|
-|	Droid, Class IV 	|	17	|
-|	Dug	                |	18	|
-|	Echani	            |	19	|
-|	Ewok	            |	20	|
-|	Falleen	            |	21	|
-|	Felucian        	|	22	|
-|	Gamorrean       	|	23	|
-|	Gand            	|	24	|
-|	Geonosian       	|	25	|
-|	Givin	            |	26	|
-|	Gotal	            |	27	|
-|	Gran	            |	28	|
-|	Gungan	            |	29	|
-|	Half-Human          |	30	|
-|	Harch	            |	31	|
-|	Herglic	            |	32	|
-|	Iktotchi	        |	33	|
-|	Ithorian	        |	34	|
-|	Kaleesh	            |	35	|
-|	Kaminoan        	|	36	|
+|	Clawdite        	|	12  |
+|	Codru-Ji        	|	13  |
+|	Devaronian	        |	14	|
+|	Draethos        	|	15	|
+|	Droid, Class II 	|	16	|
+|	Droid, Class III	|	17	|
+|	Droid, Class IV 	|	18	|
+|	Dug	                |	19	|
+|	Echani	            |	20	|
+|	Ewok	            |	21	|
+|	Falleen	            |	22	|
+|	Felucian        	|	23	|
+|	Gamorrean       	|	24	|
+|	Gand            	|	25	|
+|	Geonosian       	|	26	|
+|	Givin	            |	27	|
+|	Gotal	            |	28	|
+|	Gran	            |	29	|
+|	Gungan	            |	30	|
+|	Half-Human          |	31	|
+|	Harch	            |	33	|
+|	Herglic	            |	34	|
+|	Iktotchi	        |	35	|
+|	Ithorian	        |	36	|
+|	Kaleesh	            |	37	|
+|	Kaminoan        	|	38	|
+|	Karkarodon          |	39	|
 
 |||
 |:--|--:|
-|	Karkarodon          |	37	|
-|	Killik	            |	38	|
-|	Kubaz           	|	39	|
-|	Kushiban        	|	40	|
-|	Kyuzo           	|	41	|
-|	Lannik          	|	42	|
-|	Lasat	            |	43	|
-|	Miraluka        	|	44	|
-|	Mirialan        	|	45	|
-|	Muun	            |	46	|
-|	Nautolan        	|	47	|
-|	Noghri          	|	48	|
-|	Ortolan         	|	49	|
-|	Quarren	            |	50	|
-|	Pau'an	            |	51	|
-|	Rattataki	        |	52	|
-|	Rishii	            |	53	|
-|	Selkath	            |	54	|
-|	Shistavanen	        |	55	|
-|	Squib	            |	56	|
-|	Sullustan	        |	57	|
-|	Talz            	|	58	|
-|	Thisspiasian       	|	59	|
-|	Togorian           	|	60	|
-|	Toydarian       	|	61	|
-|	Tusken	            |	62	|
-|	Ugnaught	        |	63	|
-|   Umbaran             |   64  |
-|	Verpine	            |	65	|
-|	Voss	            |	66	|
-|	Vurk            	|	67	|
-|	Weequay	            |	68	|
-|	Yevetha             |	69	|
-|	Zeltron             |	70	|
-|	Zygerrian           |	71	|
+|	Killik	            |	40	|
+|	Kubaz           	|	41	|
+|	Kushiban        	|	42	|
+|	Kyuzo           	|	43	|
+|	Lannik          	|	44	|
+|	Lasat	            |	45	|
+|	Miraluka        	|	46	|
+|	Mirialan        	|	47	|
+|	Muun	            |	48	|
+|	Nautolan        	|	49	|
+|	Neimoidian      	|	50	|
+|	Noghri          	|	51	|
+|	Ortolan         	|	52	|
+|	Quarren	            |	53	|
+|	Pau'an	            |	54	|
+|	Rattataki	        |	55	|
+|	Rishii	            |	56	|
+|	Selkath	            |	57	|
+|	Shistavanen	        |	58	|
+|	Squib	            |	59	|
+|	Ssi-Ruu	            |	60	|
+|	Sullustan	        |	61	|
+|	Talz            	|	62	|
+|	Thisspiasian       	|	63	|
+|	Togorian           	|	64	|
+|	Toydarian       	|	65	|
+|	Tusken	            |	66	|
+|	Ugnaught	        |	67	|
+|   Umbaran             |   68  |
+|	Verpine	            |	69	|
+|	Voss	            |	70	|
+|	Vurk            	|	71	|
+|	Weequay	            |	72	|
+|	Yevetha             |	73	|
+|	Zeltron             |	74	|
+|	Zygerrian           |	75	|
 
 </div>
 
@@ -856,6 +859,85 @@ As a Chevin, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Chevin. The Chevin language is characterized by grunts and low-pitched rumblings. Chevin typically have deep voices, even when speaking Basic.
 
 <img src='https://www.gmbinder.com/images/WWwwMgv.png' style='position:absolute;top:54px;right:17px;width:425px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+> ## Clawdite
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Green to yellow|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Yellow, gold, or blue|
+> |***Distinctions***|  |Shapechanging capabilities|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'11"|+2d8"|
+> |***Weight***|  |95 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Zolan|
+> |***Language***|  |Clawdite|
+
+<div style='margin-top:38px'></div>
+
+### Biology and Appearance
+In their natural form, clawdites resemble reptilian humanoids, having evolved from reptomammals. They have sunken cheeks with a narrow nose, a small mouth, large eyes with slit-like pupils, and a thin line that runs down their foreheads, creasing their nose. Clawdites possess an extremely rare ability to change their appearance. They can change the color and texture of their skin and eyes, and even grow hair, to mimic other species, though they cannot add significant physical mass to their bodies. 
+
+### Society and Culture
+By nature, clawdites are quiet and solitary beings, often shunning the company of others unless it benefits them. Due to their nature as shapeshifters, they are often mistrusted by strangers. Consequently, they view the galaxy pragmatically, and are often harsh realists.
+
+Not all clawdites use their shapeshifting abilities due to the pain the transformation causes. These clawdites are often inclined to remain on their homeworld of Zolan, avoiding the company of other species.
+
+On Zolan, clawdites are feared and shunned by the zolanders, who are a deeply religious people, believing that clawdites are impure and sinful. Zolanders force clawdites to live in slums scattered across the planet.
+
+Those clawdites who leave their homeworld tend to gravitate toward professions that celebrate their shapeshifting, such as smuggling, bounty hunting, or espionage.
+
+### Names
+Clawdite names often have a rolling or hissing quality to them. Surnames are familial, though clawdites rarely use them.
+
+**Male Names.** Nuri, Pol, Renneyn, Rosat, Turman
+
+**Female Names.** Bargu, Cato, Murna, Sora, Zam
+
+**Surnames.** Durra, Noviee, Parasitti, Virten, Wesell
+
+\columnbreak
+
+<div style='margin-top:326px'></div>
+
+### Clawdite
+As a clawdite, you have the following special traits.
+
+***Ability Score Increase.*** Your Charisma score increases by 2, and one other ability score of your choice increase by 1.
+
+***Age.*** Clawdites reach adulthood in their early teens and live less than a century.
+
+***Alignment.*** Clawdites' pragmatism cause them to tend towards neutral balanced, though there are exceptions.
+
+***Size.*** Clawdites typically stand 5 to 7 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Changeling Instincts.*** You gain proficiency with two of the following skills of your choice: Deception, Intimidation, Insight, and Persuasion
+
+***Shapechanger.*** As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another species, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.
+
+***Unsettling Visage.*** When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you. Once you use this trait, you can’t use it again until you finish a short or long rest.
+
+***Languages.*** You can speak, read, and write Galactic Basic, Clawdite, and one more language of your choice. Clawdite is characterized by its rolling sounds paired with hissing sibilants.
+
+<img src='https://vignette.wikia.nocookie.net/starwars/images/3/37/ClawditeNEGAS.jpg/revision/latest?cb=20090709061818' style='position:absolute;top:28px;right:140px;width:180px;z-index:1000;mix-blend-mode:darken' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2277,7 +2359,7 @@ As a Gungan, you have the following special traits.
 ___
 ___
 > ## Half-Human
-> <div class='wide' style='column-count:4'>
+> <div class='wide' style='column-count:3'>
 > 
 > |||
 > |:--:|:--:|
@@ -2294,6 +2376,7 @@ ___
 > |Chagrian|Darkvision|
 > |Chevin|Keen Hearing|
 > |Chiss|Darkvision|
+> |Clawdite|Unsettling Visage|
 > |Codru-Ji|Keen Hearing|
 > |Devaronian|Two Livered|
 > |Draethos|Darkvision|
@@ -2301,9 +2384,6 @@ ___
 > |Duros|Darkvision|
 > |Echani|Combative Culture|
 > |Ewok|Nimbleness|
-> 
-> |||
-> |:--:|:--:|
 > |Falleen|Closed Mind|
 > |Gamorrean|Savage Attacks|
 > |Gand|Lungless|
@@ -2311,21 +2391,22 @@ ___
 > |Givin|Vacuum Sealed|
 > |Gotal|Natural Empathy|
 > |Gran|Keen Sight|
+> 
+> |||
+> |:--:|:--:|
 > |Gungan|Martial Proficiency|
 > |Harch|Venomous Fangs|
 > |Herglic|Toughness|
 > |Iktotchi|Precognition|
 > |Ithorian|Hold Breath|
-> |Jawa|Grovel, Cower,<br> and Beg|
+> |Jawa|Grovel, Cower, and Beg|
 > |Kaleesh|Darkvision|
+> |Kaminoan|Geneticist<br> Ultraviolet Sight|
 > |Karkarodon|Aggressive|
 > |Kel Dor|Darkvision|
 > |Killik|Carapace|
 > |Kubaz|Darkvision|
-> |Kushiban|Grovel, Cower,<br> and Beg|
-> 
-> |||
-> |:--:|:--:|
+> |Kushiban|Grovel, Cower, and Beg|
 > |Kyuzo|Darkvision|
 > |Lannik|Force Attunement|
 > |Lasat|Powerful Build|
@@ -2334,19 +2415,21 @@ ___
 > |Mon Calamari|Darkvision|
 > |Muun|Second Heart|
 > |Nautolan|Darkvision|
+> |Neimoidian|Darkvision|
 > |Noghri|Keen Smell|
-> |Ortolan|Grovel, Cower,<br> and Beg|
+> |Ortolan|Grovel, Cower, and Beg|
 > |Quarren|Keen Hearing|
 > |Pau'an|Darkvision|
 > |Rattataki|Surprise Attack|
-> |Rishii|Keen Hearing<br> and Sight|
-> |Rodian|Darkvision|
-> |Selkath|Venomous Claws|
-> |Shistavanen|Darkvision<br> Forced March|
-> |Sith|Darkvision|
+> |Rishii|Keen Hearing and Sight|
 > 
 > |||
 > |:--:|:--:|
+> |Rodian|Darkvision|
+> |Selkath|Venomous Claws|
+> |Shistavanen|Darkvision<br> Forced March|
+> |Ssi Ruu|Keen Smell<br> Sunlight Sensitivity<br> Tooth and Nail|
+> |Sith|Darkvision|
 > |Squib|Keen Smell|
 > |Sullustan|Darkvision|
 > |Talz|Darkvision|
@@ -2371,9 +2454,13 @@ ___
 > 
 > </div>
 
-<br>
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
-<div style='margin-top:35px'></div>
+\pagebreak
+
+\pagebreak
+
+<div style='margin-top:505px'></div>
 
 ### Biology and Appearance
 The appearance and biological features of half-humans vary drastically by each species, but tend to fall somewhere in the middle. A common side-effect of a species interbreeding with humans is the loss of darkvision and tails.
@@ -2389,16 +2476,16 @@ Half-human names might follow human conventions, or that of the other half. Ofte
 
 \columnbreak
 
-<br>
-
-<div style='margin-top:26px'></div>
+<div style='margin-top:505px'></div>
 
 ### Half-human Traits
 As a half-human, you have the following special traits.
 
 ***Ability Score Increase.*** Half-humans gain the ability score increases of their non-human half, but they can choose any ability score for one of the options, instead of the given option. 
 
-***Age.*** Half-humans live around the average of the two species' lifespans.
+> A species can not increase the same ability score twice during character creation using this feature.
+
+&emsp;***Age.*** Half-humans live around the average of the two species' lifespans.
 
 ***Alignment.*** Half-humans tend towards their non-human half's alignment.
 
@@ -2409,6 +2496,8 @@ As a half-human, you have the following special traits.
 ***Defiant.*** Half-humans are known to be stubborn and often refuse to give up, even against the worst odds. You can add a d4 to a skill check or saving throw, after rolling but before you know the outcome. You must then finish a short or long rest before you can use this feature again.
 
 ***Languages.*** You can speak, read, and write Galactic Basic, regardless of whether or not the non-human half can speak it, and the language(s) associated with your non-human half.
+
+<img src='https://www.gmbinder.com/images/onwG74Q.png' style='position:absolute;top:35px;right:150px;width:565px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2851,7 +2940,7 @@ Kaminoan names typically are composed by around two syllables and a brief surnam
 
 \columnbreak
 
-<div style='margin-top:486px'></div>
+<div style='margin-top:536px'></div>
 
 ### Kaminoan Traits
 As a Kaminoan, you have the following special traits.
@@ -2866,17 +2955,17 @@ As a Kaminoan, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Master Geneticists.*** You have proficiency in the Medicine skill.
-
-***Ultraviolet Sight.*** Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.
+***Geneticist.*** You have proficiency in the Medicine skill.
 
 ***Long-Limbed.*** When you make a melee attack on your turn, your reach for it is 5 feet greater than normal. 
 
-***Tech Dabbler.*** You know the *temporary boost* at-will tech power. When you reach 3rd level, you can cast the *kolto pack* tech power once per day. When you reach 5th level, you can also cast the *toxin purge* tech power once per day. Intelligence is your techcasting ability for these powers. You do not require use of a wristpad for these powers.
+***Tech Dabbler.*** You know the *temporary boost* at-will tech power. Intelligence is your techcasting ability for this power. You do not require use of a wristpad for this powers.
 
-***Languages.*** You can speak, read, and write Galactic Basic and Kaminoan. Kaminoan has a sound like flowing water to it.
+***Ultraviolet Sight.*** Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.
 
-<img src='https://www.gmbinder.com/images/LmLMqTY.png' style='position:absolute;top:29px;right:147px;width:207px;transform:scaleX(-1);z-index:1000' />
+***Languages.*** You can speak, read, and write Galactic Basic and Kaminoan. Kaminoan is characterized by its flowing water-like sound.
+
+<img src='https://www.gmbinder.com/images/LmLMqTY.png' style='position:absolute;top:29px;right:137px;width:227px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -3725,6 +3814,81 @@ As a Nautolan, you have the following special traits.
 \pagebreak
 
 ___
+> ## Neimoidian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Green-gray|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Dark red or pink|
+> |***Distinctions***|  |Horizontal pupils, noseless|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'1"|+2d10"|
+> |***Weight***|  |90 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Neimoidia|
+> |***Language***|  |Pak Pak|
+
+<div style='margin-top:69px'></div>
+
+### Biology and Appearance
+Neimoidians are distant genetic relatives of the duros and retain many similarities to them, including basic form, noseless faces, and green-blue skin (though neimoidians tend to be grayer). Their eyes also have pupils that split horizontally, and they are distinguished by small lumps on their foreheads and down-turned mouths. Instead of noses, they have olfactory glands underneath their eyes. These genetic differences are attributed to the distinct features of their homeworld, Neimoidia, including its gravity, which is markedly heavier than duro.
+
+### Society and Culture
+Neimoidians spend their formative years as puny grubs in the communal hives of Neimoidia, until the age of seven standard years. They are knowingly neglected by being given limited amounts of food. This way, the weaker individuals are weeded out, while the most acquisitive grubs hoard more food than they can eat by themselves. Neimoidian education ensures the survival of the greediest. Neimoidians place tremendous value on wealth and material possessions, and would go to great lengths to gain money and power. This has resulted in a stereotype of neimoidians being greedy and cowardly. While not all neimoidians are easily intimidated, many prefer to avoid direct combat.
+
+### Names
+Neimoidian names are usually short and easy to pronounce, to make them more memorable to other species that approach them as consumers. Their surnames are familial.
+
+**Male Names.** Lok, Gap, Krinit, Mar, Nute
+
+**Female Names.** Bu, Fia, Feza, Vissi
+
+**Surnames.** Dod, How, Kethe, Preelli, Tuuk 
+
+\columnbreak
+
+<div style='margin-top:476px'></div>
+
+### Neimoidian Traits
+As a neimoidian, you have the following special traits.
+
+***Ability Score Increase.*** Your Charisma score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Neimoidians reach adulthood in their 20s and live about 150 years.
+
+***Alignment.*** Neimoidians' greedy nature causes them to tend toward the dark side, though there are exceptions.
+
+***Size.*** Neimoidians typically stand around 6 feet tall and generally weigh about 135 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Darkvision.*** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Grovel, Cower, and Beg.*** As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.
+
+***Smooth Talker.*** You have proficiency in Deception and Persuasion.
+
+***Wealthy.*** During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Pak Pak. Pak Pak is often considered an elegant-sounding language by those who hear it. It consists of husky sighs and guttural ululations.
+
+<img src='https://www.gmbinder.com/images/krJ6D9A.jpg' style='position:absolute;top:40px;right:90px;width:300px;mix-blend-mode:darken' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
 > ## Noghri
 > ___
 > #### Visual Characteristics
@@ -4336,6 +4500,85 @@ As a Shistavanen, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Shistavanen. The Shistavanen language is characterized by its barks and growls. 
 
 <img src='https://www.gmbinder.com/images/4yZRTuQ.png' style='position:absolute;top:52px;right:92px;width:287.5px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+> ## Ssi-Ruu 
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Brown, red, or tan scales|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Solid black|
+> |***Distinctions***|  |Reptilian, tails, scent-tongues|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'7"|+2d12"|
+> |***Weight***|  |200 lb.|x(2d6) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Lwhekk|
+> |***Language***|  |Ssi-ruuvi|
+
+<div style='margin-top:55px'></div>
+
+### Biology and Appearance
+Ssi-ruuk are a predatory, warm-blooded saurian species gifted with ferocious strength, remarkable speed, and sharp fangs and claws, traits that serve them well in the volcanic jungles of their homeworld of Lwhekk. Their muscular forms combined with their powerful tails make them very agile hunters, and their colorfully-scaled hides have been proven to be resistant even to blaster bolts. From their nostrils, two scent-tongues protrude that grant them enhanced olfactory senses, compensating for the poor vision afforded them by their dark, three-lidded eyes. No Ssi-ruu has ever been known to be Force-sensitive.
+
+### Society and Culture
+The citizens of the Ssi-ruuvi Imperium follow a rigid caste system in which their station in society is determined by the color of the scales they are born with. Among these, the brown-scaled outcasts are regarded as the lowest of the low, and have no place in the Imperium beyond menial labor or death at birth. Deeply xenophobic and religious, the Ssi-ruuk view the rest of the galaxy as populated by lesser beings whose worlds rightfully belong to the Imperium. Despite their fierce nature, most ssi-ruuk are afraid of dying on a world unconsecrated by their priest caste, as they believe their souls would be doomed, so they harvest and "entech" the life-energy of other species to power droids that fight for them. The entechment process is torturous and painful to its victims, and is the main power source of Ssi-ruuvi technology.
+
+### Names
+Ssi-ruuvi names are difficult to pronounce and gender neutral. Many ssi-ruuk adopt nicknames to make the lives of their associates easier. Ssi-ruuk do not have surnames.
+
+**Names.** Firwirrung, Ivpikkis, Sh'tk'ith, Th'twirirl, Yifaii
+
+\columnbreak
+
+<div style='margin-top:324px'></div>
+
+### Ssi-Ruu Traits
+As a ssi-ruu, you have the following special traits.
+
+***Ability Score Increase.*** Your Strength score increases by 2, and your Dexterity score increases by 1.
+
+***Age.*** Ssi-ruuk reach adulthood in their early teens and live to between 100 and 120 years.
+
+***Alignment.*** Ssi-ruuk's cultural drive to enslave and entech others cause them to tend toward the dark side, though there are exceptions.
+
+***Size.*** Ssi-ruuk typically stand between 6 or 7 feet tall and weigh over 300 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 35 feet.
+
+***Type.*** Your creature type is both beast and humanoid.
+
+***Force Insensitive.*** While Ssi-ruuk can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes.
+
+***Hunter.*** You are proficient in Survival.
+
+***Keen Smell.*** You have advantage on Wisdom (Perception) checks that rely on smell.
+
+***Natural Empathy.*** Ssi-ruuk have scent-tongues that let them read the emotions of individuals. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.
+
+***Sunlight Sensitivity.*** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+
+***Thick Skin.*** You have tough, scaly skin and prefer not to wear clothes. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. 
+
+***Tooth and Nail.*** Your fangs and claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Ssi-ruuvi. Ssi-ruuvi is a language of musical whistles, honks and clicks, and is nigh impossible for humans and similar species to speak.
+
+<img src='https://www.gmbinder.com/images/etWeg0L.jpg' style='position:absolute;top:-100px;right:50px;width:330px;mix-blend-mode:darken;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 7: Using Ability Scores
 
@@ -12,7 +12,7 @@ ___
 - **Dexterity**, measuring agility
 - **Constitution**, measuring endurance
 - **Intelligence**, measuring reasoning and memory
-- **Wisdom**, measuring perception and insight
+- **Wisdom**, measuring awareness and intuition
 - **Charisma**, measuring force of personality
 
 ___
@@ -26,7 +26,7 @@ This chapter focuses on how to use ability checks and saving throws, covering th
 ## Ability Scores and Modifiers
 Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.
 
-A score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and divine beings can have scores as high as 30.
+A score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and villains can have scores as high as 30.
 
 Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
 
@@ -69,7 +69,7 @@ Sometimes a special ability or power tells you that you have advantage or disadv
 
 If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
 
-If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or Vice versa. In such a situation, you have neither advantage nor disadvantage.
+If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
 
 When you have advantage or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.
 
@@ -148,19 +148,19 @@ For example, if a character attempts to climb up a dangerous cliff. the Dungeon 
 
 <div style='margin-top:23px'></div>
 
-#### Variant: Skills with Different Abilities
-Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations. though. your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. 
+#### Variant: Skills with Other Abilities
+Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. 
 
-So if you're proficient in Athletics, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength (Athletics) check. Similarly. when your trandoshan berserker uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma.
+So if you're proficient in Athletics, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength (Athletics) check. Similarly, when your trandoshan berserker uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma.
 
 ### Passive Checks
-A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something Without rolling dice, such as noticing a hidden monster.
+A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
 
 Here's how to determine a character's total for a passive check:
 
 10 + all modifiers that normally apply to the check. If the character has advantage on the check, add 5. For disadvantage, subtract 5. The game refers to a passive check total as a score.
 
-For example. if a 1st-level character has a Wisdom of 15 and proficiency in Perception. he or she has a passive Wisdom (Perception) score of 14.
+For example. if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14.
 
 The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration rules in chapter 8.
 
@@ -173,14 +173,14 @@ The rules on hiding in the "Dexterity" section below rely on passive checks, as 
 ### Working Together
 Sometimes two or more characters team up to attempt a task. The character who's leading the effort, or the one with the highest ability modifier, can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action (see chapter 9).
 
-A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover. a character can help only when two or more individuals working together would actually be productive. Some tasks. such as threading a needle. are no easier with help.
+A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with security kits, so a character who lacks that proficiency can't help another character in that task. Moreover. a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.
 
 #### Group Checks
-When a number of individuals are trying to accomplish something as a group. the GM might ask for a group ability check. In such a situation. the characters who are skilled at a particular task help cover those who aren't. 
+When a number of individuals are trying to accomplish something as a group, the GM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't. 
 
-To make a group ability check. everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.
+To make a group ability check,  everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.
 
-Group checks don't come up very often. and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp. the GM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand. sinkholes. and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise. the group stumbles into one of these hazards.
+Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
 
 ## Using Each Ability
 Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.
@@ -189,18 +189,18 @@ Every task that a character or monster might attempt in the game is covered by o
 Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
 
 #### Strength Checks
-A Strength check can model any attempt to lift. push. pull, or break something. to force your body through a space. or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks.
+A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks.
 
 ***Athletics.*** Your Strength (Athletics) check covers difficult situations you encounter while Climbing. jumping. or swimming. Examples include the following activities:
 
-- You attempt to climb a sheer or slippery cliff. avoid hazards while scaling a wall. or cling to a surface while something is trying to knock you off.
-- You try tojump an unusually long distance or pull off a stunt midjump.
+- You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+- You try to jump an unusually long distance or pull off a stunt midjump.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
-- You struggle to swim or stay afloat in treacherous currents. storm-tossed waves. or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
+- You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
 
 ***Other Strength Checks.*** The GM might also call for a Strength check when you try to accomplish tasks like the following:
 
@@ -426,4 +426,4 @@ The result of a successful or failed saving throw is also detailed in the effect
 
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

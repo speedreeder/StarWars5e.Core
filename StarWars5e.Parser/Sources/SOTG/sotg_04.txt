@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 4: Modifications
 
@@ -274,8 +274,7 @@ _Prerequisite: Stealth Mode_<br>
 This system improves the stealth mode function on your ship. While active, your ship no longer has disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on scanners, and no longer has to roll on the Hyperspace Mishaps table before entering hyperspace while stealth mode is active.
 
 ### Backup Hyperdrive
-_Prerequisite: Tier 2_<br>
-_Prerequisite: Hyperdrive_<br>
+_Prerequisite: Hyperdrive Slot_<br>
 This modification adds a backup hyperdrive slot on your ship and includes a class 15 hyperdrive. A deployed operator can switch to or from the backup hyperdrive as an action.
 
 ### Cloaking Device
@@ -306,10 +305,8 @@ This modification augments the native communications on your ship. Deployed oper
 This system augments the native radar scanner on your ship. While deployed at the scanner, operators gain blindsight out to 1,000 feet.
 
 ### Gravity Well Projector
-_Prerequisite: Ship size Huge or larger_<br>
-Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field. A deployed operator can activate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. While active, ships within the gravity well projector's firing arc can't activate their hyperdrives.
-
-The gravity well projector lasts for 1 minute. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+_Prerequisite: Ship size Large or larger_<br>
+Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field. A deployed operator can activate or deactivate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. While active, this ship and ships of the same size or smaller within the gravity well projector's firing arc can't activate their hyperdrives.
 
 ### Hyperdrive Quick-Start
 _Prerequisite: Tier 2_<br>
@@ -573,7 +570,7 @@ This suite comes with a number of separate unique chambers equal to one-fourth t
 \pagebreakNum
 
 ### Mess Hall
-This suite comes with a combined kitchen and dining area, complete with a chef's kit, that can accommodate a number of civilians, crew members, or troopers equal to twice the twice the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table. While utilizing this tool, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
+This suite comes with a combined kitchen and dining area, complete with a chef's kit, that can accommodate a number of civilians, crew members, or troopers equal to twice the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table. While utilizing this tool, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
 Additionally, when a creature completes a long rest involving this suite, they regain two additional Hit Dice and have advantage on Constitution saving throws against disease for the next 24 hours.
 
@@ -805,7 +802,7 @@ You overhaul your ship's thruster to make it more adaptive. Your ship gains prof
 
 ### Secondary Crew Slot
 _Prerequisite: Ship size Small_<br>
-You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 2. Your ship's flying speed is reduced by 50 feet.
+You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 2. 
 
 \columnbreak
 
@@ -819,7 +816,7 @@ You augment your ship's preventative measures in order to mitigate damage to its
 ### Tertiary Crew Slot
 _Prerequisite: Tier 2_<br>
 _Prerequisite: Secondary Crew Slot_<br>
-You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 3. Your ship's turning speed increases by 50 feet.
+You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 3.
 
 <div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
@@ -838,7 +835,7 @@ If the damaged ship is larger than your ship, it has advantage on the saving thr
 
 ### Direct Controller
 _Prerequisite: Primary or Secondary Weapon_<br>
-The deployed gunner can use their Dexterity modifier instead of the ship's for the attack and damage rolls of the chosen weapon.
+The deployed gunner can use their Dexterity modifier instead of the ship's for the attack rolls of the chosen weapon.
 
 \columnbreak
 
@@ -850,7 +847,7 @@ The reload value of the chosen weapon increases by half.
 
 ### Explosive Payload
 _Prerequisite: Tertiary or Quaternary Weapon_<br>
-When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Dexterity modifier. The damage is of the same type dealt by the original attack.
+When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Strength modifier. The damage is of the same type dealt by the original attack.
 
 ### Fixed Hardpoint
 A fixed hardpoint is used to mount a primary, secondary, tertiary, or quaternary weapon. A weapon mounted on a fixed hardpoint has a limited firing arc, as described in chapter 9. 
@@ -913,4 +910,4 @@ A weapon slave array is attached to a hardpoint and used to fire the weapon from
 
 <div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum
