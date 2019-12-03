@@ -109,6 +109,19 @@ namespace StarWars5e.Parser.Parsers.PHB
                     .Split("**").ElementAtOrDefault(2)?.Trim();
                 starWarsClass.HitPointsAtHigherLevels = classLines.Find(f => f.Contains("**Hit Points at Higher Level"))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
+
+                if (starWarsClass.HitPointsAtFirstLevel != null)
+                {
+                    starWarsClass.HitPointsAtFirstLevelNumber =
+                        int.Parse(Regex.Match(starWarsClass.HitPointsAtFirstLevel, @"\d+").Value);
+                }
+
+                if (starWarsClass.HitPointsAtHigherLevels != null)
+                {
+                    starWarsClass.HitPointsAtHigherLevelsNumber =
+                        int.Parse(Regex.Match(starWarsClass.HitPointsAtHigherLevels.Split('(')[1], @"\d+").Value);
+                }
+
                 starWarsClass.ArmorProficiencies = classLines.Find(f => f.Contains("**Armor:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
                 starWarsClass.WeaponProficiencies = classLines.Find(f => f.Contains("**Weapons:**"))

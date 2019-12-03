@@ -35,6 +35,8 @@ namespace StarWars5e.Models.Class
 
         public string HitPointsAtFirstLevel { get; set; }
         public string HitPointsAtHigherLevels { get; set; }
+        public int HitPointsAtFirstLevelNumber { get; set; }
+        public int HitPointsAtHigherLevelsNumber { get; set; }
 
         public List<string> ArmorProficiencies { get; set; }
         public string ArmorProficienciesJson
