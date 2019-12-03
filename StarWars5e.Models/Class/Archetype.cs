@@ -26,5 +26,6 @@ namespace StarWars5e.Models.Class
             get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
             set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
+        public double CasterRatio { get; set; }
     }
 }

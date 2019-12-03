@@ -22,6 +22,7 @@ namespace StarWars5e.Parser.Parsers.PHB
         private static readonly List<string> ScholarPursuits = new List<string> { "Physician Pursuit", "Politician Pursuit", "Tactician Pursuit" };
         private static readonly List<string> ScoutTechniques = new List<string> { "Deadeye Technique", "Hunter Technique", "Stalker Technique" };
         private static readonly List<string> SentinelPaths = new List<string> { "Path of Aggression", "Path of Focus", "Path of Shadows" };
+
         public override Task<List<Class>> FindBlocks(List<string> lines)
         {
             var classes = new List<Class>();
@@ -57,6 +58,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             }
 
             MapImageUrls(classes);
+            MapCasterRatioAndType(classes);
 
             return Task.FromResult(classes);
         }
@@ -398,6 +400,48 @@ namespace StarWars5e.Parser.Parsers.PHB
                     case "Sentinel":
                         starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_01.png");
                         starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_02.png");
+                        break;
+                }
+            }
+        }
+
+        public static void MapCasterRatioAndType(IEnumerable<Class> classes)
+        {
+            foreach (var starWarsClass in classes)
+            {
+                switch (starWarsClass.Name)
+                {
+                    case "Berserker":
+                        break;
+                    case "Consular":
+                        starWarsClass.CasterRatio = 1;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
+                        break;
+                    case "Engineer":
+                        starWarsClass.CasterRatio = 1;
+                        starWarsClass.CasterTypeEnum = PowerType.Tech;
+                        break;
+                    case "Fighter":
+                        break;
+                    case "Guardian":
+                        starWarsClass.CasterRatio = .5;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
+                        break;
+                    case "Monk":
+                        starWarsClass.CasterRatio = .3333333333333333;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
+                        break;
+                    case "Operative":
+                        break;
+                    case "Scholar":
+                        break;
+                    case "Scout":
+                        starWarsClass.CasterRatio = .5;
+                        starWarsClass.CasterTypeEnum = PowerType.Tech;
+                        break;
+                    case "Sentinel":
+                        starWarsClass.CasterRatio = .6666666666666666;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
                         break;
                 }
             }

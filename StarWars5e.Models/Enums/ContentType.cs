@@ -5,6 +5,7 @@
         None,
         Core,
         ExpandedContent,
-        CommunityContent
+        CommunityContent,
+        Lookup
     }
 }
