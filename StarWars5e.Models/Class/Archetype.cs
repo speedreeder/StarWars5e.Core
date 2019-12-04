@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Class
 {
@@ -27,5 +29,11 @@ namespace StarWars5e.Models.Class
             set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
         }
         public double CasterRatio { get; set; }
+        public PowerType CasterTypeEnum { get; set; }
+        public string CasterType
+        {
+            get => CasterTypeEnum.ToString();
+            set => CasterTypeEnum = Enum.Parse<PowerType>(value);
+        }
     }
 }

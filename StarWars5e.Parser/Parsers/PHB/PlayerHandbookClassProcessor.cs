@@ -23,6 +23,15 @@ namespace StarWars5e.Parser.Parsers.PHB
         private static readonly List<string> ScoutTechniques = new List<string> { "Deadeye Technique", "Hunter Technique", "Stalker Technique" };
         private static readonly List<string> SentinelPaths = new List<string> { "Path of Aggression", "Path of Focus", "Path of Shadows" };
 
+        private static readonly List<(string ArchetypeName, double CasterRatio, PowerType CasterType)>
+            ArchetypeCasterMap = new List<(string ArchetypeName, double CasterRatio, PowerType CasterType)>
+            {
+                ("Marauder Approach", .3333333333333333, PowerType.Force),
+                ("Adept Specialist", .3333333333333333, PowerType.Force),
+                ("Aing-Tii Order", .3333333333333333, PowerType.Force),
+                ("Beguiler Practice", .3333333333333333, PowerType.Force)
+            };
+
         public override Task<List<Class>> FindBlocks(List<string> lines)
         {
             var classes = new List<Class>();
@@ -59,6 +68,7 @@ namespace StarWars5e.Parser.Parsers.PHB
 
             MapImageUrls(classes);
             MapCasterRatioAndType(classes);
+            MapMultiClassProficiencies(classes);
 
             return Task.FromResult(classes);
         }
@@ -351,6 +361,13 @@ namespace StarWars5e.Parser.Parsers.PHB
                     }
                 }
 
+                var casterRatio = ArchetypeCasterMap.FirstOrDefault(c => c.ArchetypeName == name);
+                if (casterRatio != default((string ArchetypeName, double CasterRatio, PowerType casterType)))
+                {
+                    archetype.CasterRatio = casterRatio.CasterRatio;
+                    archetype.CasterTypeEnum = casterRatio.CasterType;
+                }
+
                 return archetype;
             }
             catch (Exception e)
@@ -400,6 +417,59 @@ namespace StarWars5e.Parser.Parsers.PHB
                     case "Sentinel":
                         starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_01.png");
                         starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_02.png");
+                        break;
+                }
+            }
+        }
+
+        public static void MapMultiClassProficiencies(IEnumerable<Class> classes)
+        {
+            foreach (var starWarsClass in classes)
+            {
+                switch (starWarsClass.Name)
+                {
+                    case "Berserker":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Consular":
+                        starWarsClass.MultiClassProficiencies.Add("Simple lightweapons");
+                        break;
+                    case "Engineer":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        break;
+                    case "Fighter":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("medium armor");
+                        starWarsClass.MultiClassProficiencies.Add("all blasters");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Guardian":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("medium armor");
+                        starWarsClass.MultiClassProficiencies.Add("all lightweapons");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Monk":
+                        starWarsClass.MultiClassProficiencies.Add("Simple vibroweapons");
+                        starWarsClass.MultiClassProficiencies.Add("techblades");
+                        break;
+                    case "Operative":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        break;
+                    case "Scholar":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        break;
+                    case "Scout":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("medium armor");
+                        starWarsClass.MultiClassProficiencies.Add("all blasters");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Sentinel":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("simple lightweapons");
+                        starWarsClass.MultiClassProficiencies.Add("simple vibroweapons");
                         break;
                 }
             }

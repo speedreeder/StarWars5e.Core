@@ -11,6 +11,7 @@ namespace StarWars5e.Models.Class
         public Class()
         {
             ImageUrls = new List<string>();
+            MultiClassProficiencies = new List<string>();
         }
         public string Name { get; set; }
         public string Summary { get; set; }
@@ -99,6 +100,12 @@ namespace StarWars5e.Models.Class
         {
             get => CasterTypeEnum.ToString();
             set => CasterTypeEnum = Enum.Parse<PowerType>(value);
+        }
+        public List<string> MultiClassProficiencies { get; set; }
+        public string MultiClassProficienciesJson
+        {
+            get => MultiClassProficiencies == null ? "" : JsonConvert.SerializeObject(MultiClassProficiencies);
+            set => MultiClassProficiencies = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }
