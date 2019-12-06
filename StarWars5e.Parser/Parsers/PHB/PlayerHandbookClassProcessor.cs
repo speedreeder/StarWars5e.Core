@@ -29,7 +29,9 @@ namespace StarWars5e.Parser.Parsers.PHB
                 ("Marauder Approach", .3333333333333333, PowerType.Force),
                 ("Adept Specialist", .3333333333333333, PowerType.Force),
                 ("Aing-Tii Order", .3333333333333333, PowerType.Force),
-                ("Beguiler Practice", .3333333333333333, PowerType.Force)
+                ("Beguiler Practice", .3333333333333333, PowerType.Force),
+                ("Shield Specialist", .3333333333333333, PowerType.Tech),
+                ("Saboteur Practice", .3333333333333333, PowerType.Tech)
             };
 
         public override Task<List<Class>> FindBlocks(List<string> lines)
@@ -498,8 +500,6 @@ namespace StarWars5e.Parser.Parsers.PHB
                         starWarsClass.CasterTypeEnum = PowerType.Force;
                         break;
                     case "Monk":
-                        starWarsClass.CasterRatio = .3333333333333333;
-                        starWarsClass.CasterTypeEnum = PowerType.Force;
                         break;
                     case "Operative":
                         break;
