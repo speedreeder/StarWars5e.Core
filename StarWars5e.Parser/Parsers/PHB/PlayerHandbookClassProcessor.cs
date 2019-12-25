@@ -138,12 +138,40 @@ namespace StarWars5e.Parser.Parsers.PHB
 
                 starWarsClass.ArmorProficiencies = classLines.Find(f => f.Contains("**Armor:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
+
+
                 starWarsClass.WeaponProficiencies = classLines.Find(f => f.Contains("**Weapons:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
+
+
                 starWarsClass.ToolProficiencies = classLines.Find(f => f.Contains("**Tools:**"))
-                    .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
+                    .Split("**").ElementAtOrDefault(2)?.Split(new [] {",", "and"}, StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToList();
+
+                if (starWarsClass.ToolProficiencies != null)
+                {
+                    starWarsClass.ToolProficienciesList = starWarsClass.ToolProficiencies.Select(t =>
+                    {
+                        t = t.Replace("Your choice of ", "");
+                        return t.RemoveWords(new [] {"or"});
+                    }).ToList();
+                }
+
                 starWarsClass.SkillChoices = classLines.Find(f => f.Contains("**Skills:**"))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
+
+                if (starWarsClass.SkillChoices != null)
+                {
+                    starWarsClass.SkillChoicesList = starWarsClass.SkillChoices.Split("from ")[1]
+                        .Split(",")
+                        .Select(c =>
+                        {
+                            c = c.RemoveWords(new []{"and"});
+                            return c.Trim();
+                        })
+                        .ToList();
+
+                    starWarsClass.NumSkillChoices = Regex.Match(starWarsClass.SkillChoices, @"one|two|three|four|five|six|seven|eight|nine").Value.ToInteger();
+                }
 
                 var equipmentLinesStart = classLines.FindIndex(f => f.Equals("#### Equipment"));
                 var equipmentLinesEnd = classLines.FindIndex(equipmentLinesStart + 1, f => f.StartsWith("#"));

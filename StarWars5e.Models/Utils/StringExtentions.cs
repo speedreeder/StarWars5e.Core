@@ -1,4 +1,7 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace StarWars5e.Models.Utils
 {
@@ -68,6 +71,33 @@ namespace StarWars5e.Models.Utils
                 "([A-Z])",
                 " $1",
                 RegexOptions.Compiled).Trim();
+        }
+
+        public static int ToInteger(this string value)
+        {
+            var wordsAndNumbers = new Dictionary<string, int>
+            {
+                {"one", 1},
+                {"two", 2},
+                {"three", 3},
+                {"four", 4},
+                {"five", 5},
+                {"six", 6},
+                {"seven", 7},
+                {"eight", 8},
+                {"nice", 9},
+                {"ten", 10}
+            };
+
+            return wordsAndNumbers[value];
+        }
+
+        public static string RemoveWords(this string stringToClean, string[] wordsToRemove)
+        {
+            // Define how to tokenize the input string, i.e. space only or punctuations also
+            return string.Join(" ", stringToClean
+                .Split(new[] { ' ', ',', '.', '?', '!' }, StringSplitOptions.RemoveEmptyEntries)
+                .Except(wordsToRemove));
         }
     }
 }

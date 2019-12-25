@@ -60,6 +60,12 @@ namespace StarWars5e.Models.Class
             get => ToolProficiencies == null ? "" : JsonConvert.SerializeObject(ToolProficiencies);
             set => ToolProficiencies = JsonConvert.DeserializeObject<List<string>>(value);
         }
+        public List<string> ToolProficienciesList { get; set; }
+        public string ToolProficienciesListJson
+        {
+            get => ToolProficienciesList == null ? "" : JsonConvert.SerializeObject(ToolProficienciesList);
+            set => ToolProficienciesList = JsonConvert.DeserializeObject<List<string>>(value);
+        }
 
         public List<string> SavingThrows { get; set; }
         public string SavingThrowsJson
@@ -69,6 +75,13 @@ namespace StarWars5e.Models.Class
         }
 
         public string SkillChoices { get; set; }
+        public int NumSkillChoices { get; set; }
+        public List<string> SkillChoicesList { get; set; }
+        public string SkillChoicesListJson
+        {
+            get => SkillChoicesList == null ? "" : JsonConvert.SerializeObject(SkillChoicesList);
+            set => SkillChoicesList = JsonConvert.DeserializeObject<List<string>>(value);
+        }
 
         public List<string> EquipmentLines { get; set; }
         public string EquipmentLinesJson
