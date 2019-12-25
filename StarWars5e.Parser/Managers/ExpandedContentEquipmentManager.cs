@@ -28,7 +28,9 @@ namespace StarWars5e.Parser.Managers
             var nameStartingLineProperties = new Dictionary<string, string>
             {
                 {"Auto", "#### Auto"},
-                {"Disintegrate", "#### Disintegrate" }
+                {"Disintegrate", "#### Disintegrate" },
+                {"Defensive", "#### Defensive"},
+                {"Shocking", "#### Shocking"}
             };
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, nameStartingLineProperties);

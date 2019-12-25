@@ -17,22 +17,39 @@ namespace StarWars5e.Parser.Parsers
         {
             var equipment = new List<Equipment>();
 
-            equipment.AddRange(await ParseWeapons(lines, "##### Blasters", ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, "_Simple Blasters_", true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Ammunition_", true, 1, ContentType.ExpandedContent));
             //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", false, 1, ContentType.ExpandedContent));
 
             return equipment;
         }
 
-        public Task<List<Equipment>> ParseWeapons(List<string> lines, string tableName, ContentType contentType)
+        public Task<List<Equipment>> ParseWeapons(List<string> lines, string tableName, bool tableNameIsStartingCategory, int tableNameOccurence, ContentType contentType)
         {
             var equipmentList = new List<Equipment>();
+            List<string> tableLines;
 
-            var tableNameIndex = lines.FindIndex(f => f.Contains(tableName));
 
-            var tableStart = lines.FindIndex(tableNameIndex, f => Regex.IsMatch(f, @"^\|.*_\w*"));
-            var tableEnd = lines.FindIndex(tableStart + 1, f => f == string.Empty);
-            var tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings().ToList();
+            if (tableNameIsStartingCategory)
+            {
+                var tableStart = lines.FindNthIndex(f => f.Contains(tableName), tableNameOccurence);
+                var tableEnd = lines.FindIndex(tableStart, f => f == string.Empty);
+                if (tableEnd == -1) tableEnd = lines.Count - 1;
+                tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings(false).ToList();
+            }
+            else
+            {
+                var tableStart = lines.FindNthIndex(f => f.Contains(tableName), tableNameOccurence);
+                var tableEnd = lines.FindIndex(tableStart + 3, f => f == string.Empty);
+                if (tableEnd == -1) tableEnd = lines.Count - 1;
+                tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings(false).ToList();
+            }
+
+            //var tableNameIndex = lines.FindIndex(f => f.Contains(tableName));
+
+            //var tableStart = lines.FindIndex(tableNameIndex, f => Regex.IsMatch(f, @"^\|.*_\w*"));
+            //var tableEnd = lines.FindIndex(tableStart + 1, f => f == string.Empty);
+            //var tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings().ToList();
 
             var weaponClassification = WeaponClassification.Unknown;
             foreach (var tableLine in tableLines)
@@ -79,8 +96,7 @@ namespace StarWars5e.Parser.Parsers
 
                             var weaponDescriptionStartLine =
                                 lines.FindIndex(f => Regex.IsMatch(f, $@"####\s+{weapon.Name}", RegexOptions.IgnoreCase) ||
-                                                     (weapon.Name.Equals("IWS", StringComparison.InvariantCultureIgnoreCase) && Regex.IsMatch(f, @"####\s+Interchangeable\s+Weapons\s+System", RegexOptions.IgnoreCase)) ||
-                                                     (weapon.Name.Equals("E-web blaster", StringComparison.InvariantCultureIgnoreCase) && Regex.IsMatch(f, @"####\s+E-Web", RegexOptions.IgnoreCase)));
+                                                     weapon.Name.Equals("IWS", StringComparison.InvariantCultureIgnoreCase) && Regex.IsMatch(f, @"####\s+Interchangeable\s+Weapons\s+System", RegexOptions.IgnoreCase));
                             if (weaponDescriptionStartLine != -1)
                             {
                                 var weaponDescriptionEndLine = lines.FindIndex(weaponDescriptionStartLine + 1, f => f.StartsWith("#") || f.StartsWith('|'));
@@ -153,7 +169,11 @@ namespace StarWars5e.Parser.Parsers
                         otherEquipment.Cost = costMatch.Success
                             ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
                             : 0;
-                        otherEquipment.EquipmentCategoryEnum = otherEquipmentTableLineSplit[1].HasLeadingHtmlWhitespace() ? equipmentCategory : EquipmentCategory.Unknown;
+                        otherEquipment.EquipmentCategoryEnum =
+                            otherEquipmentTableLineSplit[1].HasLeadingHtmlWhitespace() ||
+                            otherEquipmentTableLineSplit[1].HasLeadingWhitespace()
+                                ? equipmentCategory
+                                : EquipmentCategory.Unknown;
                         if (otherEquipment.EquipmentCategoryEnum == EquipmentCategory.Unknown && otherEquipment.Name.Contains(" kit", StringComparison.InvariantCultureIgnoreCase))
                         {
                             otherEquipment.EquipmentCategoryEnum = EquipmentCategory.Kit;
@@ -170,10 +190,18 @@ namespace StarWars5e.Parser.Parsers
                             var otherEquipmentDescriptionEndLine = lines.FindIndex(
                                 otherEquipmentDescriptionStartLine + 1,
                                 f => f.StartsWith("#") || f.StartsWith('|'));
-                            otherEquipment.Description = string.Join("\r\n",
-                                lines.Skip(otherEquipmentDescriptionStartLine + 1)
-                                    .Take(otherEquipmentDescriptionEndLine -
-                                          (otherEquipmentDescriptionStartLine + 1)).CleanListOfStrings());
+                            if (otherEquipmentDescriptionEndLine != -1)
+                            {
+                                otherEquipment.Description = string.Join("\r\n",
+                                    lines.Skip(otherEquipmentDescriptionStartLine + 1)
+                                        .Take(otherEquipmentDescriptionEndLine -
+                                              (otherEquipmentDescriptionStartLine + 1)).CleanListOfStrings());
+                            }
+                            else
+                            {
+                                otherEquipment.Description = string.Join("\r\n",
+                                    lines.Skip(otherEquipmentDescriptionStartLine + 1).CleanListOfStrings());
+                            }
                         }
 
                         equipmentList.Add(otherEquipment);

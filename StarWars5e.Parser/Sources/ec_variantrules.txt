@@ -1,5 +1,37 @@
 
 
+<div class='wide'>
+
+# Overlapping Features
+
+</div>
+
+Many species have features that make them better in certain martial ways: special traits like natural armor, armor and weapon proficiencies, or unarmed strikes and natural weapons. Counterintuitively, when those species choose certain classes, those features become obsolete instead of enhancing their class choice.
+
+If you players choose such a species/class combination, consider using this variant rule.
+
+### Armor Proficiencies
+Many species come with specific armor proficiencies suited to their species' culture, such as chiss or draethos, or natural unarmored defense, such as aing-tii or wookie. If a player chooses a species and class combination that would grant the same armor proficiencies, or a species with natural armor and a class with unarmored defense, consider instead granting them a bonus depending on the type of armor, as shown below:
+___
+- **Unarmored Defense:** +1 bonus to AC while not wearing armor or wielding a shield.
+- **Light Armor:** +1 bonus to Dexterity saving throws while wearing light armor.
+- **Medium Armor:** +1 bonus to Constitution saving throws while wearing medium armor.
+- **Heavy Armor:** -1 kinetic and energy damage taken from unenhanced weapons while wearing heavy armor.
+
+For instance, at 1st level, a draethos operative with a 16 in Dexterity would have +6 to Dexterity saving throws instead of +5 while wearing light armor. A character should only gain each bonus once.
+
+\columnbreak
+
+### Weapon Proficiencies
+Many species come with specific weapon proficiencies suited to their species' culture, such as chiss or tuskens. If a player chooses a species and class combination that would grant the same weapon proficiencies, consider instead granting them a +1 bonus to attack rolls with the chosen weapon. For instance, at 1st level, a chiss scout with a 16 in Dexterity would have a +6 to attack rolls instead of a +5 when attacking with a blaster pistol or sniper rifle. A character should only gain this bonus once, and this bonus does not apply if the species offers a choice of weapons, such as human or echani.
+
+### Unarmed Strikes/Natural Weapons
+Many species come with higher unarmed strike damage, such as twi'lek or zabrak, or a natural weapon, such as chevin or karkarodons, representing their natural aptitude with unarmed combat. If a player chooses a species, class, or customization option combination that would both grant an increased unarmed strike, consider instead granting them a +1 bonus to their unarmed strike damage. For instance, at 1st level, a zabrak monk with a 16 in Dexterity would do 1d4+4 instead of 1d4+3 with their unarmed strikes. A character should only gain this bonus once.
+
+Additionally, consider allowing those species that have natural weapons to use those weapons in place of their unarmed strikes, as appropriate.
+
+\pagebreak
+
 # Lightsaber Forms
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
@@ -630,6 +662,14 @@ The character should then roll percentile dice and consult the Dismemberment tab
 If a creature is immune to the damage dealt by the weapon, it can not be dismembered by that weapon. If the creature is resistant to the damage dealt by that weapon, when you roll the second d20 to determine whether or not you remove a limb, you do so with disadvantage.
 
 If you roll a result on the Dismemberment table, and the creature lacks the chosen limb, you instead deal additional damage equal to the attack's governing ability score modifier. 
+
+\columnbreak
+
+> ##### More Common Dismemberment
+> You can readily increase the potential for this rule through a number of house corrections. As it stands, not account for advantage/disadvantage, you have a 1/400 (or .25%) chance to trigger a dismemberment when you make an attack roll. This increases to 39/8,000 with advantage (or .4875%), almost doubling the potential. You can increase it even more by changing the initial trigger to any critical hit, instead of just a natural 20, or increasing the range on the additional d20 from beyond just a natural 20, or both.
+>
+> Increasing the potential to scale with features that increase critical hit range.
+
 
 <div class='footnote'>EXPANDED CONTENT | VARIANT RULES | DISMEMBERING</div>
 

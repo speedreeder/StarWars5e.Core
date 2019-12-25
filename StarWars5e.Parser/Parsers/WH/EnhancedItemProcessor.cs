@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -52,8 +51,8 @@ namespace StarWars5e.Parser.Parsers.WH
                     var valueLine = enhancedItemLines.Find(f => f.StartsWith("**Value"));
                     if (valueLine != null)
                     {
-                        var costMatch = Regex.Matches(valueLine.RemoveMarkdownCharacters(), @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)x*(?!\S)*");
-                        enhancedItem.ValueOptions = costMatch.Select(c => c.Value).ToList();
+                        //var costMatch = Regex.Matches(valueLine.RemoveMarkdownCharacters(), @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)x*(?!\S)*");
+                        //enhancedItem.ValueOptions = costMatch.Select(c => c.Value).ToList();
                         enhancedItem.ValueText = valueLine.RemoveMarkdownCharacters().Split(':')[1].RemoveUnderscores();
                     }
 

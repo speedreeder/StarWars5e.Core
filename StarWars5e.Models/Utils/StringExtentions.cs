@@ -11,6 +11,12 @@ namespace StarWars5e.Models.Utils
         {
             return input.Trim().StartsWith("&emsp;") || input.Trim().StartsWith("&nbsp;");
         }
+
+        public static bool HasLeadingWhitespace(this string input)
+        {
+            return Regex.IsMatch(input, @"^\s+");
+        }
+
         public static string RemoveHtmlWhitespace(this string input)
         {
             return input.Replace("&emsp;", string.Empty).Replace("&nbsp;", string.Empty);

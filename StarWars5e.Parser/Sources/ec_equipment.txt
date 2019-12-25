@@ -2,8 +2,6 @@
 
 <div class='classTable wide'>
 
-##### Blasters
-
 |Name|Cost|Damage|Weight|Properties| 
 |:---|---:|:---|-:|:---|
 | _Simple Blasters_|||||
@@ -15,7 +13,7 @@
 | Blaster cannon      | 3,000 cr| 1d12 energy | 36 lb | Ammunition (range 100/400), auto, burst 2, reload 4, strength 15,<br> two-handed |
 | Disruptor pistol    | 6,000 cr| 1d8 acid | 6 lb | Ammunition (range 40/160), disintegrate, reload 1 |
 | Disruptor rifle     | 7,000 cr| 1d10 acid | 12 lb | Ammunition (range 100/400), disintegrate, reload 1, two-handed |
-| E-web blaster   | 9,800 cr| 1d12 energy | 76 lb | Ammunition (range 100), auto, burst, special |
+| E-web blaster   | 9,800 cr| 1d12 energy | 76 lb | Ammunition (range 100/400), auto, burst, special |
 | Grenade launcher    |   800 cr| — | 10 lb | Ammunition (range 80/320), reload 1, strength 13, special, two-handed |
 | Heavy repeater      | 6,400 cr| 1d10 energy | 12 lb | Ammunition (range 60/240), auto, burst 2, reload 8, strength 15,<br> two-handed |
 | Heavy shotgun      |   400 cr| 2d4 kinetic | 16 lb | Ammunition (range 30/120), burst 2, reload 12, strength 13,<br> two-handed |
@@ -29,12 +27,20 @@
 | Sonic rifle 		|   800 cr| 1d8 sonic | 10 lb | Ammunition (range 100/400), reload 12, two-handed |
 | Subrepeater 		| 1,200 cr| 1d6 energy | 4 lb | Ammunition (range 30/120), auto, burst 8, light, reload 16 |
 | Vapor projector      | 1,600 cr| — | 14 lb | Ammunition (range special), reload 5, special, strength 13, two-handed |
+| _Martial Lightweapons_|||||
+|Guard shoto|1,350 cr|1d4 energy|3 lb|Defensive, finesse, light, luminous|
 | _Martial Vibroweapons_|||||
+|Bo-rifle          | 2,300 cr| — | 7 lb| Special, two-handed |
+|Rifle           | — | 1d6 energy | — | Ammunition (range 100/400), reload 6 |
+|Staff   | — | 1d6 kinetic | — | Double (1d6 kinetic), shocking |
 |Electrobaton|650 cr|1d4 kinetic|3 lb|Finesse, light, shocking|
 |Electrostaff|1,100 cr|1d6 kinetic|6 lb|Double (1d6 kinetic), finesse, shocking, two-handed|
-|Electrohammer|1,400 cr|1d10 kinetic|8 lb|Heavy, shocking, two-handed|
+|Electrohammer|1,400 cr|1d10 kinetic|14 lb|Heavy, shocking, two-handed|
+|Vibroshield|700 cr|1d6 kinetic|7 lb|Defensive, special|
 
 </div>
+
+\pagebreak
 
 ## Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons table.
@@ -42,14 +48,24 @@ Many weapons have special properties related to their use, as shown in the Weapo
 #### Auto
 Automatic weapons can only fire in burst mode.
 
-#### Shocking
-When you hit a creature with a weapon with the shocking property, it must make a DC 13 Constitution saving throw. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
+#### Defensive
+Once per round per weapon, before you make a melee weapon attack with a weapon with the defensive property, you can choose to take a -1 penalty on the attack roll. If you do so, you gain a +1 bonus to AC until the start of your next turn.
 
 #### Disintegrate
-When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a DC 12 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+
+#### Shocking
+When you hit a creature with a weapon with the shocking property, you can force it to make a DC 13 Constitution saving throw. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
 
 ### Special Weapons
 Weapons with special rules are described to below.
+
+#### Bo-Rifle
+The bo-rifle is a lasat weapon most commonly carried by the Honor Guard of Lasan, which has the unique property of functioning as both a rifle and a staff. As a bonus action, you can switch between each mode, detailed below. 
+
+***Rifle.*** While in this mode, the weapon uses traditional power cells.
+
+***Staff.*** While in this mode, the weapon gains the shocking property.
 
 #### E-Web Blaster
 Rather than traditional power cells, the E-Web Blaster uses specialized power generator that allow it to fire continuously for 10 minutes. Replacing a battery pack takes an action.
@@ -76,7 +92,10 @@ The needler includes a specialized compartment for poison. One dose of poison, w
 Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets.
 
 #### Vapor Projector
-The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. The DC for this saving throw is 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
+The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required).
+
+#### Vibroshield
+A vibroshield does not fill the hand slot, but you can’t use a vibroshield while the hand is full. Additionally, you have advantage on Strength saving throws to avoid being disarmed.
 
 \pagebreakNum
 
@@ -85,13 +104,23 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	:--:		|
 |	_Ammunition_	|		|			|
-|	Power generator           |  1,250 cr	|	5 lb		|
+|	Cryo cell              	    |	 275 cr	|	1 lb	    |
+|	Disruptor cell         	    |	 425 cr	|	1 lb	    |
+|	Flux Collimator             |    180 cr	|	1 lb		|
+|	Missile, ion	            |	 140 cr	|	1/2 lb		|
+|	Missile, plasma	            |	 160 cr	|	1/2 lb		|
+|	Oscillation Calibrator      |    170 cr	|	1 lb		|
+|	Power generator             |  1,250 cr	|	5 lb		|
+|	Projector canister, corrosive    	|	 450 cr	|	2 lb		|
 |	Projector tank, carbonite	|	 675 cr	|	3 lb		|
-|	Projector tank, flame    	|	 550 cr	|	3 lb		|
-|	Rocket, fragmentation	    |	 400 cr	|	2 lb		|
+|	Projector tank, corrosive  	|	 625 cr	|	3 lb		|
+|	Projector tank, flame    	|	 650 cr	|	3 lb		|
+|	Rocket, fragmentation	    |	 350 cr	|	2 lb		|
 |	Rocket, ion             	|	 475 cr	|	2 lb		|
 |	Rocket, plasma          	|	 535 cr	|	2 lb		|
 |	_Utilities_	|		|	
+|	Basic computer spike     	|	 145 cr	|	1/2 lb		|
+|	Basic security spike     	|	 150 cr	|	1/2 lb		|
 |	Gravity generator     	|	 500 cr	|	3 lb		|
 |	_Weapon and Armor Accessories_	|		|			|
 |	Shock gloves	            |	 500 cr	|	1 lb		|
@@ -99,28 +128,59 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 </div>
 
 ## Adventuring Gear
+This section describes items that have special rules or require further explanation.
 
 ### Ammunition
+
+#### Cryo Cell
+A cryo cell is a specialized power cell for use with blaster weapons. The loaded weapon deals cold damage instead of energy, and when you hit with a shot the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 cold damage has its speed reduced by 5 feet until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+
+#### Disruptor Cell
+A disruptor cell is a specialized power cell for use with blaster weapons. The loaded weapon deals acid damage instead of energy, and when you hit with a shot the creature must make a DC 13 Constitution saving throw, taking 1d6 acid damage on a failed save or half as much on a succesful one. Additionally, when you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. If the loaded weapon has the disintegrate property, this saving throw is in addition to the disintegrate saving throw.
+
+#### Flux Collimator
+As an action, you can apply this collimator to one lightweapon with 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
+
+#### Missile, Ion
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 13 Dexterity saving throw, taking 1d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
+
+#### Missile, Plasma
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
+#### Oscillation Calibrator
+As an action, you can apply this calibrator to one vibroweapon with 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Power Generator
 Power generators energize the E-web blaster.
 
-#### Projector Tank, Flame
-A flame projector tank is a type of ammunition for the vapor projector. When triggered, it produces a burst of flame in a 15 foot cone. Each creature must make a Dexterity saving throw or take 3d6 fire damage.
+#### Projector Canister, Corrosive
+When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
-####  Projector Tank, Carbonite
-A carbonite projector tank is a type of ammunition for the vapor projector. When triggered, it produces a beam of carbonite energy in a 15 foot cone. Each creature must make a Constitution saving throw or take 2d6 cold damage and have its speed halved until the end of your next turn. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+#### Projector Tank, Carbonite
+When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 2d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+
+#### Projector Tank, Corrosive
+When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 2d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
+
+#### Projector Tank, Flame
+When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Rocket, Fragmentation
-The fragmentation rocket is the most common ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes. The target and each creature within 10 feet must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 3d6 kinetic damage on a failed save, or half as much on a succesful one.
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d6 kinetic damage on a failed save or half as much on a successful one.
 
 #### Rocket, Ion
-The ion rocket is a specialized ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes. The target and each creature within 10 feet must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 3d4 ion damage on a failed save, or half as much on a succesful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Plasma
-The plasma rocket is a specialized ammunition type for the rocket launcher. On a hit, the target takes 3d6 kinetic damage. Hit or miss, the rocket then explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 2d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 ### Utilities
+
+#### Basic Computer Spike
+When you make an Intelligence (slicer's kit) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
+
+#### Basic Security Spike
+When you make an Intelligence (security kit) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Gravity Generator
 Gravity generators are special devices typically worn on belts that function as a portable, personal artificial gravity source. Activating or deactivating the belt requires a bonus action and, while active, you are able to move as if in a standard gravitational pull. The generator lasts for 10 minutes and can be recharged by a power source or replacing the power cell.
