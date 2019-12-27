@@ -174,10 +174,6 @@ namespace StarWars5e.Parser.Parsers
                             otherEquipmentTableLineSplit[1].HasLeadingWhitespace()
                                 ? equipmentCategory
                                 : EquipmentCategory.Unknown;
-                        if (otherEquipment.EquipmentCategoryEnum == EquipmentCategory.Unknown && otherEquipment.Name.Contains(" kit", StringComparison.InvariantCultureIgnoreCase))
-                        {
-                            otherEquipment.EquipmentCategoryEnum = EquipmentCategory.Kit;
-                        }
 
                         var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+");
                         otherEquipment.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
@@ -372,6 +368,10 @@ namespace StarWars5e.Parser.Parsers
             if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Musical\s*instrument\s*_", RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.MusicalInstrument;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Specialist's\s*kit\s*_", RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Kit;
             }
 
             return EquipmentCategory.Unknown;

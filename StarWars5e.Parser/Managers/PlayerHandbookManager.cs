@@ -56,6 +56,7 @@ namespace StarWars5e.Parser.Managers
                 {"Burst", "#### Burst" },
                 {"Double", "#### Double" },
                 {"Finesse", "#### Finesse" },
+                {"Fixed", "#### Fixed" },
                 {"Heavy", "#### Heavy" },
                 {"Hidden", "#### Hidden" },
                 {"Light", "#### Light" },
@@ -63,11 +64,12 @@ namespace StarWars5e.Parser.Managers
                 {"Range", "#### Range" },
                 {"Reach", "#### Reach" },
                 {"Reload", "#### Reload" },
+                {"Returning", "#### Returning" },
                 {"Special", "#### Special" },
                 {"Strength", "#### Strength" },
                 {"Thrown", "#### Thrown" },
                 {"Two-Handed", "#### Two-Handed" },
-                {"Versatile", "#### Versatile" },
+                {"Versatile", "#### Versatile" }
             };
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, nameStartingLineProperties);

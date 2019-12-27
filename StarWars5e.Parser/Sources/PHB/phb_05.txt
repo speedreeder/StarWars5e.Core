@@ -132,13 +132,13 @@ Heavy durasteel armor is virtually the heaviest armor acquirable during the Gala
 Shields come in varying weights, sizes, and materials. A light shield generator is generally pretty small, affixing to the forearm or belt. A medium shield generator is generally larger and fills the hand. A heavy shield is larger and made of strong composites. You can benefit from only one shield at a time.
 
 #### Light Shield Generator
-A light shield generator is generally affixed to the forearm or belt. While a light shield does not fill the hand slot, you gain no benefit from it while the hand is full. You gain no benefit from a light shield while wielding a weapon with the *heavy* property.
+A light shield generator is generally affixed to the forearm or belt. While a light shield does not fill the hand slot, you gain no benefit from it while the hand is full. You gain no benefit from a light shield while wielding a weapon with the heavy property.
 
 #### Medium Shield Generator
 A personal shield generator was a defensive technology that projected a field of energy that protected the user from blaster fire, the elements, or other hazards. Most were designed to be held much like a traditional physical shield. The medium shield generator is used in conjunction with any one-handed weapon.
 
 #### Heavy Shield
-Rather than an energy shield, heavy shields are physical composites of metal or plastic. They are much larger and more cumbersome, but they offer more protection than their smaller counterparts. Its cumbersome size, however, makes it unwieldy, and requires the use of a one-handed weapon with the *light* property in the other hand.
+Rather than an energy shield, heavy shields are physical composites of metal or plastic. They are much larger and more cumbersome, but they offer more protection than their smaller counterparts. Its cumbersome size, however, makes it unwieldy, and requires the use of a one-handed weapon with the light property in the other hand.
 
 Small creatures have disadvantage on attack rolls while wielding a heavy shield. A heavy shield's size and bulk make it too large for a Small creature to use effectively.
 
@@ -202,11 +202,22 @@ Your class grants proficiency in certain weapons, reflecting both the class's fo
 ### Weapon Proficiency
 Your species, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial. Most people can use simple weapons, which are commonly seen in the hands of the unspecialized, with proficiency. Martial weapons, including vibroswords vibrolances, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
 
+### Improvised Weapons
+Sometimes characters don't have their weapons and have to attack with whatever is close at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead jawa.
+
+In many cases, an improvised weapon is similar to an actual weapon and can be treated as such. At the GM's discretion, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
+
+An object that bears no resemblance to a weapon deals 1d4 kinetic damage. If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet.
+
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
 #### Ammunition
-You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). 
+You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. 
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
 
 #### Burst
 A weapon that has the burst property can make a normal single-target attack, or it can spray a 10-foot-cube area within range with shots. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks) or take the weapon's normal damage. This consumes an amount of ammunition indicated by the burst number. If the ranged weapon attack would have disadvantage, affected targets instead have advantage.
@@ -214,12 +225,11 @@ A weapon that has the burst property can make a normal single-target attack, or 
 #### Double
 A weapon with the double property functions as if you are wielding two separate weapons. A damage value in parentheses appears with the property—the damage when the weapon is used with two-weapon fighting. See the rules for two-weapon fighting in chapter 9.
 
-\columnbreak
-
-<div style='margin-top:26px'></div>
-
 #### Finesse
 When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+#### Fixed
+A weapon with the fixed property does not fill the hand slot, but you can’t use the weapon while the hand is full. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.
 
 #### Heavy
 Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.
@@ -239,18 +249,6 @@ A weapon that can be used to make a ranged attack has a range shown in parenthes
 #### Reach
 This weapon adds 5 feet to your reach when you attack with it.
 
-#### Reload
-A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice). You must have one free hand to reload.
-
-#### Special
-A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
-
-#### Strength
-A weapon with this special property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst property, you must meet the Strength requirement to use this feature.
-
-#### Thrown
-If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. 
-
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
@@ -263,34 +261,36 @@ If a weapon has the thrown property, you can throw the weapon to make a ranged a
 
 \pagebreak
 
-<div style='margin-top:-2px'></div>
+<div style='margin-top:-5px'></div>
+
+#### Reload
+A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice). You must have one free hand to reload.
+
+#### Returning 
+When you throw a weapon with the returning property, it automatically returns to your hand after the attack is complete, whether you hit or miss.
+
+#### Special
+A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
+
+#### Strength
+A weapon with this special property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst property, you must meet the Strength requirement to use this feature.
+
+#### Thrown
+If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. 
 
 #### Two-Handed
 This weapon requires two hands to use.
 
+<br>
+
 #### Versatile
 This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.	
 
-### Improvised Weapons
-Sometimes characters don't have their weapons and have to attack with whatever is close at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead jawa.
-
-In many cases, an improvised weapon is similar to an actual weapon and can be treated as such. At the GM's discretion, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
-
-An object that bears no resemblance to a weapon deals 1d4 kinetic damage. If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet.
-
 ### Special Weapons
-Weapons with special rules are described to the right.
-
-#### Chakram/Light Ring
-When you throw a chakram or light ring, you can choose to have it return immediately to your hand. You must have one free hand to catch it.
+Weapons with special rules are described below.
 
 #### Net
-A Large or smaller creature hit by an net is restrained until it is freed. An net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 kinetic or energy damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-
-#### Hidden Blade
-A hidden blade does not fill the hand slot, but you can't use a hidden blade while the hand is full. Additionally, you have advantage on Strength saving throws to avoid being disarmed.
+A Large or smaller creature hit by an net is restrained until it is freed. An net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 kinetic or energy damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. While a creature is restrained by a net, you can make no further attacks with it.
 
 #### Vibrodart
 Due to their diminutive size, vibrodarts make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage.
@@ -300,8 +300,6 @@ You have disadvantage when you use a vibrolance to attack a target within 5 feet
 
 #### Wrist Launcher
 Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters. 
-
-<div style='margin-top:-10px'></div>
 
 <div class='classTable wide'>
 
@@ -323,7 +321,6 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;	Heavy pistol		|  300 cr&nbsp;&nbsp;|1d8 energy		| 4 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 12, strength 13|
 |&emsp;	Ion blaster			|  200 cr&nbsp;&nbsp;|1d4 ion			| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
 |&emsp;	Ion rifle			|  400 cr&nbsp;&nbsp;|1d6 ion			|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
-|&emsp;	Lightbow            |  400 cr&nbsp;&nbsp;|2d6 energy       |16 lb&nbsp;&nbsp;  |Ammunition (range 60/240), reload 4, strength 13, two-handed| 
 |&emsp;	Slugthrower 		|  350 cr&nbsp;&nbsp;|1d8 kinetic		|14 lb&nbsp;&nbsp;	|Ammunition (range 100/400), burst 6, reload 12, two-handed|
 |&emsp;	Sniper rifle		|  750 cr&nbsp;&nbsp;|1d12 energy		|12 lb&nbsp;&nbsp;	|Ammunition (range 150/600), reload 4, strength 13, two-handed|
 
@@ -346,12 +343,12 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;	Greatsaber			|1,000 cr&nbsp;&nbsp;|2d6 energy		|3 lb&nbsp;&nbsp;|Heavy, luminous, two-handed|
 |&emsp;	Lightsaber pike		|  400 cr&nbsp;&nbsp;|1d10 energy		|3 lb&nbsp;&nbsp;|Heavy, luminous, reach, two-handed|
 |&emsp;	Lightfoil			|  500 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
-|&emsp;	Light ring			|  500 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, special, thrown (range 30/90)	|
+|&emsp;	Light ring			|  500 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, returning, thrown (range 30/90)	|
 |&emsp;	Martial lightsaber  |  300 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
 |&emsp;	Saberspear			|  450 cr&nbsp;&nbsp;|2d4 energy		|2 lb&nbsp;&nbsp;|Luminous|
 |&emsp;	Saberwhip			|  300 cr&nbsp;&nbsp;|1d4 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
 
-<div style='margin-top:61px'></div>
+<div style='margin-top:53px'></div>
 
 ##### Vibroweapons
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&emsp;&nbsp;|&nbsp;Damage&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
@@ -360,15 +357,15 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;	Techaxe			    |   50 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light, thrown (range 20/60)	|
 |&emsp;	Vibrodagger			|   50 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, light, thrown (20/60)|
 |&emsp;	Vibrodart			|    5 cr&nbsp;&nbsp;|1d4 kinetic		|1/4 lb&nbsp;&nbsp;|Finesse, special, thrown (20/60)	|
-|&emsp;	Vibroknuckler			|   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light	|
+|&emsp;	Vibroknuckler		|   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light	|
 |&emsp;	Vibromace			|   75 cr&nbsp;&nbsp;|1d10 kinetic		|10 lb&nbsp;&nbsp;|Two-handed|
 |&emsp;	Vibrostaff			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|4 lb&nbsp;&nbsp;|Versatile (2d4)|
 |&emsp;	Vibrospear			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Thrown (range 20/60), versatile (1d8)|
 |	_Martial Vibroweapons_	|||||
-|&emsp;	Chakram				|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, special, thrown (range 30/90)	|
+|&emsp;	Chakram				|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, returning, thrown (range 30/90)	|
 |&emsp;	Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light, two-handed |
 |&emsp;	Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse, two-handed |
-|&emsp;	Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, special	|
+|&emsp;	Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
 |&emsp;	Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, special, thrown (range 15)|
 |&emsp;	Techblade			|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, light|
 |&emsp;	Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic), two-handed	|
@@ -383,7 +380,7 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 
 </div>	
 
-<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:335px;right:140px;width:550px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:337px;right:140px;width:550px;z-index:1000;' />
 
 \pagebreakNum
 
@@ -409,13 +406,17 @@ Costs 420 credits. Includes a backpack, a bedroll, two costumes, two glowrods, 5
 Costs 250 credits. Includes a backpack, a bedroll, a blanket, a mess kit, two glowrods, a commlink, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it.
 
 #### Priest's Pack
-Costs 275 credits. Includes a backpack, a blanket, two glowrods, a datapad, a medkit, 5 days of field rations, and a canteen.
+Costs 275 credits. Includes a<br> backpack, a blanket, two glowrods,<br> a datapad, a medkit, 5 days of field<br> rations, and a canteen.
 
 #### Scholar's Pack
-Costs 290 credits. Includes<br> a backpack, a datapad,<br> 5 datacards, a stylus, a<br> holorecorder, 5 days of<br> field rations, and a canteen.
+Costs 290 credits. Includes a<br> backpack, a datapad, 5 datacards,<br> a stylus, a holorecorder, 5 days<br> of field rations, and a canteen.
 
 #### Technologist's Pack
-Costs 670 credits. Includes<br> a backpack, chronometer,<br> respirator, datapad,<br> holocomm, commlink,<br> bedroll, canteen, and 5<br> days of field rations.
+Costs 670 credits. Includes a<br> backpack, chronometer, respirator,<br> datapad, holocomm, commlink, bedroll, canteen, and 5 days of field rations.
+
+### Ammunition
+#### Dart
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit.
 
 \columnbreak
 
@@ -424,35 +425,31 @@ Costs 670 credits. Includes<br> a backpack, chronometer,<br> respirator, datapad
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Carbonite canister    	|	 150 cr	|	2 lb		|
 |	&emsp;Dart                  	|	  50 cr	|	—		    |
-|	&emsp;Flame projector canister	|	 350 cr	|	2 lb		|
 |	&emsp;Missile, fragmentation	|	 100 cr	|	1/2 lb		|
-|	&emsp;Power cell            	|	  10 cr	|	1 lb		|
 |	&emsp;Plasma cell              	|	 200 cr	|	1 lb	    |
+|	&emsp;Power cell            	|	  10 cr	|	1 lb		|
+|	&emsp;Projector canister, carbonite    	|	 150 cr	|	2 lb		|
+|	&emsp;Projector canister, flame	|	 350 cr	|	2 lb		|
 
 </div>	
 
-### Ammunition
-#### Carbonite Canister
-When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line. A single fuel canister holds enough fuel for three attacks. Each creature must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier) or take 1d6 cold damage and have its speed halved until the end of your next turn. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
-
-#### Dart
-This wrist launcher ammunition deals 1d6 kinetic damage on a hit.
-
-#### Flame Projector Canister
-When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier) or take 2d6 fire damage.
-
 #### Missile, Fragmentation
-This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier), taking 1d6 kinetic damage on a failed save.
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 13 Dexterity saving throw, taking 1d6 kinetic damage on a failed save or half as much on a successful one.
+
+#### Plasma Cell
+A plasma cell is a specialized power cell for use with blaster weapons. The loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Power Cell
 Power cells energize blaster weapons and tools.
 
-#### Plasma Cell
-A plasma cell is a specialized power cell for use with blaster weapons. The loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze. When a creature enters the fire or starts its turn there it must make a DC 12 Dexterity saving throw. On a failed save, the creature takes 1d6 fire damage. 
+#### Projector Canister, Carbonite
+When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 1d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
-<img src='https://www.gmbinder.com/images/yainsZs.png' style='position:absolute;top:492px;right:332px;width:430px;transform:scaleX(-1)' />
+#### Projector Canister, Flame
+When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
+
+<img src='https://www.gmbinder.com/images/yainsZs.png' style='position:absolute;top:467px;right:355px;width:320px;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -541,18 +538,18 @@ A wristpad is a harness with an integrated datapad and holoprojector interface t
 #### Breaching Charge
 A device used to blow holes in larger constructs, a breaching charge creates a devastating explosion. Installing a breaching charge takes 1 minute. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator.
 
-Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep. Additionally, each creature within 20 feet of the charge must make a DC 15 Dexterity saving throw. A creature takes 3d6 fire damage and 3d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.
+Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep. Additionally, each creature within 20 feet of the charge must make a DC 13 Dexterity saving throw. A creature takes 3d6 fire damage and 3d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.
 
 #### Grenade, Electrostun
 Electrostun grenades are usually used when the object of a mission is to detain, capture, or subdue rather than kill. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 13 Dexterity saving throw. A creature takes 1d6 lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is stunned until the end of its next turn. 
 
 #### Grenade, Fragmentation
-Frag grenades are cheap, low-damage grenades used mainly by military personnel, mercenaries, bounty hunters, and adventurers. Grenades can be set to detonate on impact or set with a timer that lasts several seconds before detonating.  Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 12 Dexterity saving throw. A creature takes 2d6 kinetic damage on a failed save, or<br> half as much as on a successful one.
+Frag grenades are cheap, low-damage grenades used mainly by military personnel, mercenaries, bounty hunters, and adventurers. Grenades can be set to detonate on impact or set with a timer that lasts several seconds before detonating.  Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 13 Dexterity saving throw. A creature takes 2d6 kinetic damage on a failed save, or<br> half as much as on a successful one.
 
 #### Grenade, Gas
-Gas grenades are primarily used<br> to flush enemies out of cover and<br> other protected areas, though<br> there are of course other uses.<br> Grenades have a range equal to<br> 30 feet + your Strength modifier x 5.<br> As an action, you can throw a grenade at<br> a point you can see within range. The grenade explodes in a 15ft radius sphere of yellow-green fog centered on a point you choose within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
+Gas grenades are primarily used<br> to flush enemies out of cover and<br> other protected areas, though<br> there are of course other uses.<br> Grenades have a range equal to<br> 30 feet + your Strength modifier x 5.<br> As an action, you can throw a grenade at<br> a point you can see within range. The grenade explodes in a 15-foot-radius sphere of yellow-green fog centered on a point you choose within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
 
-When a creature enters the fog's area for the first time on a turn or starts its turn there, that creature must make a DC 13 Constitution saving throw. The creature takes 1d8 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are uneffected.
+When a creature enters the fog's area for the first time on a turn or starts its turn there, that creature must make a DC 13 Constitution saving throw. The creature takes 1d8 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
 
 \columnbreak
 
@@ -563,7 +560,7 @@ When a creature enters the fog's area for the first time on a turn or starts its
 |	_Explosives_	|		|			|
 |	&emsp;Breaching charge	        |	 750 cr	|	4 lb		|
 |	&emsp;Grenade, electrostun	    |	 250 cr	|	1 lb		|
-|	&emsp;Grenade, frag         	|	 100 cr	|	1 lb		|
+|	&emsp;Grenade, fragmentation         	|	 100 cr	|	1 lb		|
 |	&emsp;Grenade, gas           	|	 300 cr	|	1 lb		|
 |	&emsp;Grenade, ion	            |	 250 cr	|	1 lb		|
 |	&emsp;Mine, fragmentation   	|	 500 cr	|	2 lb		|
@@ -575,7 +572,7 @@ When a creature enters the fog's area for the first time on a turn or starts its
 <div style='margin-top:42px'></div>
 
 #### Grenade, Ion
-Ion grenades are hand-held explosive devices that release a blast of ion energy. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 12 Dexterity saving throw. A creature takes 2d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
+Ion grenades are hand-held explosive devices that release a blast of ion energy. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 13 Dexterity saving throw. A creature takes 2d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
 
 #### Mine, Fragmentation
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d6 kinetic damage, or half as much on a successful one.	
@@ -584,7 +581,7 @@ When you use your action to set it, this mine sets an imperceptible laser line e
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Thermal Detonator
-Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 fire and 2d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone. 
+Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 13 Dexterity saving throw. A creature takes 2d6 fire and 2d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone. 
 
 <img src='https://www.gmbinder.com/images/m2QdjNv.png' style='position:absolute;top:630px;right:395px;width:165px' />
 
@@ -610,7 +607,7 @@ A respirator, or breath mask, is a portable device that allowed an oxygen-breath
 An antidote kit contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour. It confers no benefit to droids or constructs.
 
 #### Basic Poison (One Dose) 
-You can use the poison in this vial to coat one vibroweapon or one wrist launcher dart. Applying the poison takes an action. A creature hit by the poisoned weapon must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
+You can use the poison in this vial to coat one vibroweapon or one wrist launcher dart. Applying the poison takes an action. A creature hit by the poisoned weapon must make a DC 13 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Emergency Battery
 All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the kit to stabilize a droid that has 0 hit points, without needing to make an Intelligence (Technology) check.
@@ -677,7 +674,7 @@ A repair kit included the basic tools needed to repair a droid after being damag
 
 ### Utilities
 #### Binders
-These durasteel restraints can bind a Small or Medium creature. Escaping the binders requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of binders comes with one key. Without the key, a creature proficient with security kit can pick the binders' lock with a successful DC 15 Dexterity check. Binders have 15 hit points.
+These durasteel restraints can bind a Small or Medium creature. Escaping the binders requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of binders comes with one key. Without the key, a creature proficient with security kits can pick the binders' lock with a successful DC 15 Dexterity check. Binders have 15 hit points.
 
 #### Chronometer
 A chronometer is a device that measures and keeps linear time.
@@ -743,7 +740,7 @@ You can use a portable ram to break down doors. When doing so, you gain a +4 bon
 #### Restraining Bolt
 Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a restraining bolt restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit. 
 
-Installing a restraining bolt takes 1 minute. The droid must make a DC 12 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt. 
+Installing a restraining bolt takes 1 minute. The droid must make a DC 13 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt. 
 
 <img src='https://www.gmbinder.com/images/Hpj5wBf.png' style='position:absolute;top:510px;right:410px;width:200px;transform:scaleX(-1)' />
 
@@ -759,7 +756,7 @@ A bandolier is worn across the chest. It has 12 slots that can each hold a singl
 A bipod is a device mounted to a two-handed blaster weapon to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on ranged weapons with the strength property while you are prone, and your speed is reduced to 0.
 
 #### Friction-Grip Gear
-A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal to half your<br> walking<br> speed.
+A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking<br> speed.<br><br>
 
 <div style='margin-top:233px'></div>
 
@@ -816,12 +813,12 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Carbonite canister    	|	 150 cr	|	2 lb		|
 |	&emsp;Dart                  	|	  50 cr	|	—		    |
-|	&emsp;Flame projector canister	|	 350 cr	|	2 lb		|
 |	&emsp;Missile, fragmentation	|	 100 cr	|	1/2 lb		|
-|	&emsp;Power cell            	|	  10 cr	|	1 lb		|
 |	&emsp;Plasma cell              	|	 200 cr	|	1 lb	    |
+|	&emsp;Power cell            	|	  10 cr	|	1 lb		|
+|	&emsp;Projector canister, carbonite    	|	 150 cr	|	2 lb		|
+|	&emsp;Projector canister, flame	|	 350 cr	|	2 lb		|
 |	_Clothing_	|		|			|
 |	&emsp;Clothes, common       	|	   5 cr	|	3 lb		|
 |	&emsp;Clothes, costume      	|	  50 cr	|	4 lb		|
@@ -847,7 +844,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	_Explosives_	|		|			|
 |	&emsp;Breaching charge	        |	 750 cr	|	4 lb		|
 |	&emsp;Grenade, electrostun	    |	 250 cr	|	1 lb		|
-|	&emsp;Grenade, frag         	|	 100 cr	|	1 lb		|
+|	&emsp;Grenade, fragmentation    |	 100 cr	|	1 lb		|
 |	&emsp;Grenade, gas           	|	 300 cr	|	1 lb		|
 |	&emsp;Grenade, ion	            |	 250 cr	|	1 lb		|
 |	&emsp;Mine, fragmentation   	|	 500 cr	|	2 lb		|
@@ -939,9 +936,6 @@ This small box contains a variety of papers and parchments, pens and inks, seals
 #### Gaming Set
 This item encompasses a wide range of game pieces, including dice and/or decks of cards. A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.
 
-#### Herbalism Kit
-This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create *antitoxins*.
-
 #### Mechanic's Kit
 This kit contains all of the commonly required tools to make repairs on constructs, such as ships, speeders, and turrets. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to perform repairs or install ship upgrades.
 
@@ -982,18 +976,11 @@ Slicers used specialized computers and scramble keys, many built by the slicers 
 |	&emsp;	Surveyor's tools			|	500 cr	|	6 lb	|
 |	&emsp;	Synthweaver's tools			|	250 cr	|	2 lb	|
 |	&emsp;	Tinker's tools				|	500 cr	|  10 lb	|
-|	Biochemist's kit		                    	|	500 cr	|	8 lb	|
-|	Chef's kit                       				|	 70 cr	|	8 lb	|
-|	Demolitions kit									|	400 cr	|	4 lb	|
-|	Disguise kit									|	250 cr	|	3 lb	|
-|	Forgery kit										|	150 cr	|	5 lb	|
 |	_Gaming set_		|		|		|
 |	&emsp;	Chance cubes				|	  1 cr	|	  — 	|
 |	&emsp;	Holochess set				|	300 cr	|	8 lb	|
 |	&emsp;	Pazaak deck					|	100 cr	|	  —		|
 |	&emsp;	Sabaac deck     			|	150 cr	|	  —		|
-|	Herbalism kit									|	 50 cr	|	3 lb	|
-|	Mechanic's kit									|	650 cr	|  25 lb	|
 |	_Musical instrument_		|		|		|
 |	&emsp;	Bagpipes					|	300 cr	|	6 lb	|
 |	&emsp;	Bandfill					|	300 cr	|	2 lb	|
@@ -1005,9 +992,16 @@ Slicers used specialized computers and scramble keys, many built by the slicers 
 |	&emsp;	Pan flute					|	120 cr	|	2 lb	|
 |	&emsp;	Shawm						|	 20 cr	|	1 lb	|
 |	&emsp;	Viol						|	300 cr	|	1 lb	|
-|	Poisoner's kit									|	500 cr	|	2 lb	|
-|	Security kit									|	650 cr	|	3 lb	|
-|	Slicer's kit									|	800 cr	|	6 lb	|
+|	_Specialist's kit_		|		|		|
+|	&emsp;Biochemist's kit		                    	|	500 cr	|	8 lb	|
+|	&emsp;Chef's kit                       				|	 70 cr	|	8 lb	|
+|	&emsp;Demolitions kit									|	400 cr	|	4 lb	|
+|	&emsp;Disguise kit									|	250 cr	|	3 lb	|
+|	&emsp;Forgery kit										|	150 cr	|	5 lb	|
+|	&emsp;Mechanic's kit									|	650 cr	|  25 lb	|
+|	&emsp;Poisoner's kit									|	500 cr	|	2 lb	|
+|	&emsp;Security kit									|	650 cr	|	3 lb	|
+|	&emsp;Slicer's kit									|	800 cr	|	6 lb	|
 
 \columnbreak
 
@@ -1245,4 +1239,4 @@ Other hirelings provide more expert or dangerous services. Mercenary soldiers pa
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

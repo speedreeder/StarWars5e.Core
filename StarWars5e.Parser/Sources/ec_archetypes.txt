@@ -30,47 +30,48 @@
 |&emsp;Enhancement Specialist   |30|
 |&emsp;Heavy Weapons Specialist |32|
 |&emsp;Mounted Specialist       |33|
+|&emsp;Praetorian Specialist     |34|
 |Guardian||
-|&emsp;Form IV: Ataru           |34|
-|&emsp;Form V: Djem So          |35|
-|&emsp;Form VI: Niman           |36|
-|&emsp;Form VII: Juyo           |37|
-|&emsp;Form VIII: Sokan         |38|
-|&emsp;Form IX: Trakata         |39|
-|&emsp;Form X: Jar'Kai          |40|
+|&emsp;Form IV: Ataru           |35|
+|&emsp;Form V: Djem So          |36|
+|&emsp;Form VI: Niman           |37|
+|&emsp;Form VII: Juyo           |38|
+|&emsp;Form VIII: Sokan         |39|
+|&emsp;Form IX: Trakata         |40|
+|&emsp;Form X: Jar'Kai          |41|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |41|
-|&emsp;Jal Shey Order           |42|
-|&emsp;Matukai Order            |43|
-|&emsp;Whills Order             |44|
+|&emsp;Aing-Tii Order           |42|
+|&emsp;Jal Shey Order           |43|
+|&emsp;Matukai Order            |44|
+|&emsp;Whills Order             |45|
 |Operative||
-|&emsp;Acquisitions Practice    |45|
-|&emsp;Beguiler Practice        |46|
-|&emsp;Disabling Practice       |48|
-|&emsp;Ruffian Practice         |49|
-|&emsp;Sawbones Practice        |50|
+|&emsp;Acquisitions Practice    |47|
+|&emsp;Beguiler Practice        |48|
+|&emsp;Disabling Practice       |49|
+|&emsp;Ruffian Practice         |50|
+|&emsp;Sawbones Practice        |51|
 |Scholar||
-|&emsp;Chef Pursuit             |51|
-|&emsp;Explorer Pursuit         |53|
-|&emsp;Gambler Pursuit          |55|
-|&emsp;Slicer Pursuit           |57|
-|&emsp;Zoologist Pursuit        |59|
+|&emsp;Chef Pursuit             |52|
+|&emsp;Explorer Pursuit         |54|
+|&emsp;Gambler Pursuit          |56|
+|&emsp;Slicer Pursuit           |58|
+|&emsp;Zoologist Pursuit        |60|
 |Scout||
-|&emsp;Bulwark Technique        |63|
-|&emsp;Illusionist Technique    |64|
-|&emsp;Inquisitor Technique     |65|
-|&emsp;Mastermind Technique     |66|
-|&emsp;Predator Technique       |67|
-|&emsp;Slayer Technique         |68|
+|&emsp;Bulwark Technique        |64|
+|&emsp;Illusionist Technique    |65|
+|&emsp;Inquisitor Technique     |66|
+|&emsp;Mastermind Technique     |67|
+|&emsp;Predator Technique       |68|
+|&emsp;Slayer Technique         |69|
 |Sentinel||
-|&emsp;Path of Communion        |69|
-|&emsp;Path of the Corsair      |70|
-|&emsp;Path of the Forceblade   |71|
-|&emsp;Path of Synthesis        |72|
-|&emsp;Path of Tenacity         |73|
+|&emsp;Path of Communion        |70|
+|&emsp;Path of the Corsair      |71|
+|&emsp;Path of the Forceblade   |72|
+|&emsp;Path of Synthesis        |73|
+|&emsp;Path of Tenacity         |74|
 
 </div>
 
@@ -179,7 +180,7 @@ You can use this feature a number of times equal to your Strength modifier (a mi
 \pagebreak
 
 ## Frenzied Approach
-For some berserkers, rage is a means to an end—that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+For some berserkers, rage is a means to an endï¿½that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 ### Frenzy
 When you choose this approach at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (as described in appendix A).
@@ -1192,7 +1193,7 @@ Once you've used this feature, you can't use it again until you recover and rein
 \pagebreak
 
 ## Experimental Engineering
-Those engineers who choose the Experimental Engineering discipline create and use untested combinations, resulting in powerful—and often unpredictable—effects.
+Those engineers who choose the Experimental Engineering discipline create and use untested combinations, resulting in powerfulï¿½and often unpredictableï¿½effects.
 
 ### Bonus Proficiencies
 When you choose this discipline at 3rd level, you gain proficiency in a set of tools of your choice. Additionally, when you engage in crafting with tinker's tools, the rate at which you craft doubles.
@@ -1609,6 +1610,43 @@ At 18th level, you respond to danger with extraordinary vigilance. In combat, yo
 
 \pagebreak
 
+## Praetorian Specialist
+Those fighters who choose to become Praetorian Specialists seek perfection of both body and mind. These warriors master the art of warfare, and are often sought as bodyguards for the galaxy's elite. They are engines of destruction and resilience, able to fight on to their last breath.
+
+### Bonus Proficiency
+When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Insight, Lore, Performance, or Persuasion. Alternatively, you learn one language of your choice.
+
+### Fighting Spirit
+Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on all weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of hit points increases when you reach certain levels in this class, increasing to 10 at<br> 10th level and 15 at 15th level.
+
+You can use this feature three times.<br> You regain all expended uses when you<br> finish a long rest.
+
+### Resilient Retainer
+Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.
+
+Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
+
+### Tireless Spirit
+Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.
+
+### Rapid Strike
+Starting at 15th level, you learn to trade accuracy for swift strikes. If you take the Attack action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can do so no more than once per turn.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Strength Before Death
+Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points.
+
+Once you've used this feature, you can't use it again until you finish a long rest.
+
+<img src='https://www.gmbinder.com/images/wItcKn0.png' style='position:absolute;bottom:28px;right:20px;width:520px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
 ## Form IV: Ataru
 Form IV, also know as Aggression Form, is a kinetically active form that relies on speed, acrobatics, and power. Those guardians who focus on Ataru Form utilize high energy tactics to confuse and distract their opponents, quickly moving about the battlefield.
 
@@ -1835,8 +1873,8 @@ This effect ends early if you are incap-<br>acitated or die. Once you've used th
 
 \pagebreak
 
-## Form IX: Tràkata
-Form IX, also known as Deception Form, capitalizes on a lightweapon's ability to quickly be toggled on and off. Those guardians who focus on Tràkata Form perform dazzling tricks with their lightweapon, confusing their opponents before dispatching them.
+## Form IX: Trï¿½kata
+Form IX, also known as Deception Form, capitalizes on a lightweapon's ability to quickly be toggled on and off. Those guardians who focus on Trï¿½kata Form perform dazzling tricks with their lightweapon, confusing their opponents before dispatching them.
 
 ### Fighting Style
 When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Dueling, Two-Weapon Fighting, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.

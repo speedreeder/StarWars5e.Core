@@ -39,7 +39,7 @@ namespace StarWars5e.Parser.Parsers
         {
             try
             {
-                var weaponPropertyStart = lines.FindNthIndex(f => f.RemoveHtmlWhitespace().Equals(startLine, StringComparison.InvariantCultureIgnoreCase), occurence);
+                var weaponPropertyStart = lines.FindNthIndex(f => f.RemoveHtmlWhitespace().StartsWith(startLine, StringComparison.InvariantCultureIgnoreCase), occurence);
                 var weaponPropertyStartEnd =
                     lines.FindIndex(weaponPropertyStart, string.IsNullOrWhiteSpace);
                 var weaponPropertyLines = lines.Skip(weaponPropertyStart)
