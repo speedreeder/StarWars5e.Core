@@ -294,7 +294,7 @@ At 14th level, when you use your Boundless Vitality feature while concentrating 
 Additionally, when you are reduced to 0 hit points but not killed outright while Upheld by the Force is active, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
 
 ### The Force Unleashed
-Starting at 18th level, as an action, you can choose a point within 60 feet. Each creature of your choice within 30 feet of that point must make a Constitution saving throw against your universal force save DC. On a failed save, a creature takes 5d10 force damage and suffers 1 level of exhaustion. On a successful save, a creature takes half damage does not suffer exhaustion.
+Starting at 18th level, as an action, you can choose a point within 60 feet. Each creature of your choice within 30 feet of that point must make a Constitution saving throw against your universal force save DC. On a failed save, a creature takes 5d10 force damage and suffers 1 level of exhaustion. On a successful save, a creature takes half damage and does not suffer exhaustion.
 
 For each creature that fails this saving throw, a friendly creature within 30 feet of them can regain hit points equal to the amount of damage dealt. A friendly creature can only gain this benefit once per turn.
 
@@ -473,7 +473,7 @@ When you choose this discipline at 3rd level you gain proficiency in artificer's
 ### Modified Lightsaber
 Also at 3rd level, you learn to modify an unenhanced lightsaber utilizing your artificer knowledge. Over the course of a long rest, you can expend materials equal to half the cost of the lightsaber in order to modify it. You must have the lightsaber, materials, and artificer's tools in order to perform this modification.
 
-Your modified lightsaber requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified lightsaber has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your modified lightsaber is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified lightsaber has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -637,7 +637,7 @@ When you choose this discipline at 3rd level, you gain proficiency in three musi
 ### Modified Instrument
 Also at 3rd level, you learn to modify an instrument utilizing your audiotech knowledge. Over the course of a long rest, you can expend 500 cr worth of materials to modify a single instrument. You must have the instrument, materials, and tinker's tools in order to perform this modification.
 
-Your modified instrument requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified instrument has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your modified instrument is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified instrument has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -834,7 +834,7 @@ When you choose this discipline at 3rd level you gain proficiency in the Medicin
 ### Modified Biochemist's Pack
 Also at 3rd level, you learn to modify and combine your biochemist's kit and poisoner's kit, creating a mobile laboratory using your chemistry expertise. Over the course of a long rest, you can expend 500 cr worth of materials to create your modified biochemist's pack. You must have a biochemist's kit, a poisoner's kit, and materials in order to perform this modification.
 
-Your biochemist's pack requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified biochemist's pack has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your biochemist's pack is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified biochemist's pack has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -1341,7 +1341,7 @@ ___
 ### Growing Momentum
 Also at 3rd level, you can cast the *burst of speed* force power targeting yourself at 1st-level without expending force points. At 10th level, when you do so, your speed increases by an additional 10 feet. At 18th level, when you do so, your speed increases by an additional 10 feet.
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain any expended uses when you finish a long rest.
 
 <img src='https://www.gmbinder.com/images/RUmDcAB.png' style='position:absolute;bottom:0px;right:0px;width:620px;z-index:1000;' />
 
@@ -1381,7 +1381,7 @@ Beginning at 7th level, your constant blur of motion and attacks becomes an unen
 </div>
 
 ### Focused Breathing
-At 10th level, you learn to recover some of your expended power quickly. When you use your Second Wind you also regain a number of force points equal to your Wisdom modifier (a minimum of one). 
+At 10th level, you learn to recover some of your expended power quickly. When you use your Second Wind you also regain a number of force points equal to your Wisdom or Charisma modifier (your choice, a minimum of one). 
 
 ### Unstoppable Force
 Starting at 15th level, you learn to completely ignore many of the most devastating impediments of combat. You can expend a use of Indomitable to gain the effect of the *freedom of movement* force power until the end of your next turn. 
@@ -1790,7 +1790,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 \pagebreak
 
 ## Form VIII: Sokan
-Form VIII, also known as Persistence Form, uses determined movements followed by swift strokes to keep their opponents' footing unsteady. Those guardians who focus on Persistence Form make use of thee terrain, trying to maneuver their opponents into vulnerable areas before dispatching them.
+Form VIII, also known as Persistence Form, uses determined movements followed by swift strokes to keep their opponents' footing unsteady. Those guardians who focus on Persistence Form make use of the terrain, trying to maneuver their opponents into vulnerable areas before dispatching them.
 
 ### Bonus Proficiencies
 You gain proficiency in heavy armor.
@@ -2911,7 +2911,7 @@ When your beast attempts to grapple or knock a creature prone, you can expend a 
 As an action, you can expend a superiority die to improve your beast's defense. Roll the die and add it to your beast's AC until the beginning of your next turn.
 
 #### Sic 'Em
-As an action, you can expend a superiority die to command your beast to save a nearby enemy. Your beast 
+As an action, you can command your beast to savage a nearby enemy. Your beast can use its reaction to immediately move up to 10 feet and make one attack, adding the superiority dice to the damage roll on a hit.
 
 #### Spine-Chilling Howls
 As an action, you can expend one superiority die to command your beast to frighten another creature. The target must then succeed on a Wisdom saving throw against your Maneuver save DC or become frightened of both you and your beast for 1 minute.
@@ -3064,7 +3064,7 @@ Your beast companion can take the Disengage action as a bonus action.
 
 #### Force Adept
 _Prerequisite: Force Sensitive_<br>
-Your beast companion knows one 2nd-level force power of your choice, and once per long rest it can cast it at 1st-level without expending force points. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment).
+Your beast companion knows one 2nd-level force power of your choice, and once per long rest it can cast it at 2nd-level without expending force points. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment).
 
 #### Force Resistance
 Your beast companion has advantage on saving throws against force powers.
@@ -3452,7 +3452,7 @@ Some few master their weapon in ways that differ from their peers. Those sentine
 Starting when you choose this calling at 3rd level, you learn the *saber throw* force power. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use your Kinetic Combat feature when you cast it as your action. Finally, once per turn, when you hit a creature within 30 feet of you with the *saber throw* force power, you can spend 1 force point to teleport to an unoccupied space within 5 feet of the creature.
 
 ### Forceblade Bond
-Starting when you choose this tradition at 3rd level, you learn how to bond with a lightweapon or vibroweapon through the Force, making it part of you.
+Also at 3rd level, you learn how to bond with a lightweapon or vibroweapon through the Force, making it part of you.
 
 You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond, gaining the following benefits:
 - You can't be disarmed of that weapon unless you are incapacitated. 
@@ -3488,7 +3488,7 @@ Additionally, when you do so, you can use your Kinetic Combat feature.
 There is power in diversity unknown to those of narrow mind. Those sentinels who follow the Path of Synthesis blend their intricate mastery of the Force with their understanding of technology, creating unique effects to overcome their obstacles.
 
 ### Techcasting Secrets
-When you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel class table. You still require the aid of a wristpad for these powers.
+Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel class table. You still require the aid of a wristpad for these powers.
 
 At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 19th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power.
 
@@ -3500,15 +3500,15 @@ Additionally, when you make an Intelligence (Technology) check, or a check with 
 Finally, when you deal damage with a tech power or Kinetic Combat attack, you can choose to substitute the damage dealt as ion.
 
 ### Force-Empowered Tech
-At 7th level, you learn to fully blend your technological aptitude with your use of the Force. You have three such effects: Forced Override, Intuitive Interface, and Ion Charge. When you use your Force-Empowered Tech, you choose which effect to create.
+At 7th level, you learn to fully blend your technological aptitude with your use of the Force. You have three such effects: Disruption Pulse, Force Override, and Techcasting Insight. When you use your Force-Empowered Tech, you choose which effect to create.
 
 You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
 
-#### Forced Override
-When you cast a tech power that requires a saving throw, you can impose disadvantage on the save (no action required).
-
 #### Disruption Pulse
 As an action, you can send out a 30 foot cone of electromagnetically-charged energy to overload enemy weapons. Each creature within the cone that is wearing or carrying a weapon with electric components must make an Intelligence saving throw. If the weapon is being worn, this save is made with disadvantage. On a failed save, the first attack they attempt to make with that weapon has disadvantage. A creature with multiple weapons must make a separate save for each weapon.
+
+#### Forced Override
+When you cast a tech power that requires a saving throw, you can impose disadvantage on the save (no action required).
 
 \columnbreak
 
@@ -3544,7 +3544,7 @@ The tenacious are ever mindful that the Force ebbs and flows, and uses this know
 Starting when you choose this calling at 3rd level, you learn the *saber ward* force power. Additionally, you can use your Kinetic Combat feature when you cast it as your action. Finally, when you cast it, you can spend 2 force points to extend the benefits to creatures of your choice within 5 feet of you while the power is active. The creatures immediately lose this benefit if they move more than 5 feet away from you.
 
 ### Kinetic Ward
-Starting when you choose this tradition at 3rd level, you can use your reaction to deflect a strike when you are hit by a melee weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your sentinel level.
+Also at 3rd level, you can use your reaction to deflect a strike when you are hit by a melee weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your sentinel level.
 
 <div style='margin-top:35px'></div>
 
