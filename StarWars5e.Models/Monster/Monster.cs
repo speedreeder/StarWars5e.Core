@@ -14,6 +14,7 @@ namespace StarWars5e.Models.Monster
             ImageUrls = new List<string>();
         }
         public string Name { get; set; }
+        public string FlavorText { get; set; }
         public MonsterSize SizeEnum { get; set; }
         public string Size
         {
