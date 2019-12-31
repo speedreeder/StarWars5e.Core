@@ -62,6 +62,15 @@ namespace StarWars5e.ParserTests.MonsterManual
             Assert.IsNotEmpty(monsterResult.ConditionImmunities);
             Assert.AreEqual("[\"Charmed\",\"Frightened\",\"Paralyzed\",\"Petrified\",\"Prone\",\"Restrained\",\"Stunned\"]"
                 , monsterResult.ConditionImmunitiesParsedJson);
+            Assert.IsEmpty(monsterResult.DamageResistances);
+            Assert.AreEqual("", monsterResult.DamageResistancesParsedJson);
+        }
+
+        public async Task ParsedSampleFile_AssertBehaviors()
+        {
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse)).First();
+
+
         }
     }
 }
