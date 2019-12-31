@@ -24,6 +24,7 @@
     <None Remove="Sources\FAQ.txt" />
     <None Remove="Sources\MM.md" />
     <None Remove="Sources\mm.txt" />
+    <None Remove="Sources\mm_sample.txt" />
     <None Remove="Sources\PHB\phb_-1.txt" />
     <None Remove="Sources\PHB\phb_00.txt" />
     <None Remove="Sources\PHB\phb_01.txt" />
@@ -73,6 +74,9 @@
     <EmbeddedResource Include="Sources\ec_species.txt" />
     <EmbeddedResource Include="Sources\FAQ.txt" />
     <EmbeddedResource Include="Sources\mm.txt" />
+    <EmbeddedResource Include="Sources\mm_sample.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sources\PHB\phb_-1.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_00.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_01.txt" />
