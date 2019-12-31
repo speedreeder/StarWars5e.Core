@@ -12,13 +12,26 @@ namespace StarWars5e.Parser.Parsers
 {
     public class MonsterProcessor : BaseProcessor<Monster>
     {
-
+        private Dictionary<string, string> _monsterFlavorTextDictionary 
+            = new Dictionary<string, string>();
         public override Task<List<Monster>> FindBlocks(List<string> lines)
         {
             var monsters = new List<Monster>();
 
             for (var i = 0; i < lines.Count; i++)
             {
+                if(lines[i].StartsWith("## ") || lines[i].StartsWith("### "))
+                {
+                    var flavorTextEndIndex = lines.FindIndex(i, f => f == "___" || f.StartsWith("### "));
+                    var flavorTextLines = lines.Skip(i)
+                        .Take(flavorTextEndIndex - i)
+                        .CleanListOfStrings()
+                        .ToList();
+
+                    if(flavorTextLines.Any())
+                        ParseFlavorText(flavorTextLines);
+                }
+
                 if (!lines[i].StartsWith("> ## ")) continue;
 
                 var monsterEndIndex = lines.FindIndex(i, f => f == string.Empty || f == "___");
@@ -31,9 +44,26 @@ namespace StarWars5e.Parser.Parsers
             return Task.FromResult(monsters);
         }
 
-        private static Monster ParseMonster(List<string> monsterLines)
+        private void ParseFlavorText(List<string> flavorTextLines)
+        {
+            var correspondingName = flavorTextLines.Find(f => f.StartsWith("### ") || f.StartsWith("## "))
+                                    ?.RemoveHashtagCharacters()
+                                    ?.Trim();
+
+            var textLines = flavorTextLines?.Select(x => x.Contains("<") || x.Contains(">") ? "" : x)
+                        ?.Skip(1);
+
+            var text = textLines.Any() ? textLines.Aggregate((x, y) => x + y) : null;
+
+            if(text != null)
+                _monsterFlavorTextDictionary[correspondingName] = text;
+        }
+
+        private Monster ParseMonster(List<string> monsterLines)
         {
             var name = monsterLines.Find(f => f.StartsWith("> ## ")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
+            var flavorTextKey = _monsterFlavorTextDictionary.Keys.FirstOrDefault(x => MatchOnNameVariations(x, name));
+            
             try
             {
                 var monster = new Monster
@@ -41,7 +71,8 @@ namespace StarWars5e.Parser.Parsers
                     ContentTypeEnum = ContentType.Core,
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = name,
-                    Name = name
+                    Name = name,
+                    FlavorText = flavorTextKey != null ? _monsterFlavorTextDictionary[flavorTextKey] : "",
                 };
 
                 var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',');
@@ -159,7 +190,7 @@ namespace StarWars5e.Parser.Parsers
                     .Split("**Senses**")[1].Split(',').Select(s => s.Trim()).ToList();
                 monster.Languages = monsterLines.Find(f => f.Contains("**Languages**"))?
                     .Split("**Languages**")[1].Split(new[] {",", "and"}, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(s => s.Trim()).ToList();
+                    .Select(s => s.Trim()).ToList() ?? new List<string> { "—" };
 
                 var challengeLine = monsterLines.Find(f => f.Contains("**Challenge**"));
                 var challengeRatingSplit = challengeLine
@@ -254,6 +285,28 @@ namespace StarWars5e.Parser.Parsers
             }
 
             return MonsterBehaviorType.None;
+        }
+
+        private bool MatchOnNameVariations(string textToMatch, string input)
+        {
+            input = input.Replace(",", string.Empty);
+
+            if (textToMatch.Contains(input))
+            {
+                return true;
+            }
+
+            if (input.Contains(textToMatch))
+            {
+                return true;
+            }
+
+            if(input.Contains(textToMatch.Replace("s", string.Empty)) || input.Contains(textToMatch.Replace("ies", string.Empty)))
+            {
+                return true;
+            }
+
+            return false;
         }
 
         private static IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(IReadOnlyList<string> behaviorLines, MonsterBehaviorType behaviorType)
