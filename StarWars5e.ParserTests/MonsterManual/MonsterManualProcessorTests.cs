@@ -5,12 +5,14 @@ using StarWars5e.Parser.Parsers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace StarWars5e.ParserTests.MonsterManual
 {
     [TestFixture]
+    //most of the tests are hardcoded just to test parsing algorithms with the 
+    //apparent standard markdown patterns in the monster text.
+    //modify mm_sample.txt with caution.
     public class MonsterManualProcessorTests : BaseTestSetup
     {
         private IBaseProcessor<Monster> _monsterProcessor;
@@ -66,11 +68,25 @@ namespace StarWars5e.ParserTests.MonsterManual
             Assert.AreEqual("", monsterResult.DamageResistancesParsedJson);
         }
 
+        [Test]
         public async Task ParsedSampleFile_AssertBehaviors()
         {
             var monsterResult = (await _monsterProcessor.Process(_filesToParse)).First();
 
+            var traitBehavior = monsterResult.Behaviors.FirstOrDefault(x => x.MonsterBehaviorTypeEnum == MonsterBehaviorType.Trait);
+            
+            Assert.NotNull(traitBehavior);
+            Assert.IsNotEmpty(traitBehavior.Description);
 
+            var actionBehavior = monsterResult.Behaviors.FirstOrDefault(x => x.MonsterBehaviorTypeEnum == MonsterBehaviorType.Action);
+
+            Assert.AreEqual(AttackType.MeleeWeapon, actionBehavior.AttackTypeEnum);
+            Assert.AreEqual("Bite", actionBehavior.Name);
+            Assert.AreEqual(9, actionBehavior.AttackBonus);
+            Assert.AreEqual("reach 5 ft.", actionBehavior.Range);
+            Assert.AreEqual("one target.", actionBehavior.NumberOfTargets);
+            Assert.AreEqual(DamageType.Kinetic, actionBehavior.DamageTypeEnum);
+            Assert.AreEqual("4d8+6", actionBehavior.DamageRoll);
         }
     }
 }
