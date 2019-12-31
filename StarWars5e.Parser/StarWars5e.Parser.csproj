@@ -24,7 +24,6 @@
     <None Remove="Sources\FAQ.txt" />
     <None Remove="Sources\MM.md" />
     <None Remove="Sources\mm.txt" />
-    <None Remove="Sources\mm_sample.txt" />
     <None Remove="Sources\PHB\phb_-1.txt" />
     <None Remove="Sources\PHB\phb_00.txt" />
     <None Remove="Sources\PHB\phb_01.txt" />
@@ -56,6 +55,8 @@
     <None Remove="Sources\SOTG\sotg_10.txt" />
     <None Remove="Sources\SOTG\sotg_aa.txt" />
     <None Remove="Sources\SOTG\sotg_changelog.txt" />
+    <None Remove="Sources\TestData\mm_sample.txt" />
+    <None Remove="Sources\TestData\new_mm_content.txt" />
     <None Remove="Sources\WH\wh_01.txt" />
     <None Remove="Sources\WH\wh_02.txt" />
     <None Remove="Sources\WH\wh_03-04.txt" />
@@ -74,9 +75,6 @@
     <EmbeddedResource Include="Sources\ec_species.txt" />
     <EmbeddedResource Include="Sources\FAQ.txt" />
     <EmbeddedResource Include="Sources\mm.txt" />
-    <EmbeddedResource Include="Sources\mm_sample.txt">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="Sources\PHB\phb_-1.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_00.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_01.txt" />
@@ -110,6 +108,10 @@
     <EmbeddedResource Include="Sources\SOTG\sotg_10.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_aa.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_changelog.txt" />
+    <EmbeddedResource Include="Sources\TestData\mm_sample.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sources\TestData\new_mm_content.txt" />
     <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
     <EmbeddedResource Include="Sources\WH\wh_03-04.txt" />
