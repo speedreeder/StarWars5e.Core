@@ -120,6 +120,7 @@ namespace StarWars5e.ParserTests.MonsterManual
 
         [TestCase("TestData.mm_sample.txt")]
         [TestCase("TestData.new_mm_content.txt")]
+        [TestCase("TestData.SNV_Content_sample.txt")]
         public async Task GenericParse_AssertValues(string fileName)
         {
             _filesToParse = new List<string> { fileName };
@@ -128,31 +129,41 @@ namespace StarWars5e.ParserTests.MonsterManual
 
             foreach(var monster in monsterResult)
             {
-                Assert.IsNotEmpty(monster.Name);
-                Assert.IsNotEmpty(monster.Size);
-                Assert.IsNotEmpty(monster.Alignment);
-                Assert.Greater(monster.HitPoints, -1);
-                Assert.Greater(monster.Speed, -1);
-                Assert.Greater(monster.ArmorClass, 0);
-                Assert.IsNotEmpty(monster.ArmorType);
-                Assert.Greater(monster.Strength, -1);
-                Assert.IsNotNull(monster.StrengthModifier);
-                Assert.Greater(monster.Dexterity, -1);
-                Assert.IsNotNull(monster.DexterityModifier);
-                Assert.Greater(monster.Constitution, -1);
-                Assert.IsNotNull(monster.ConstitutionModifier);
-                Assert.Greater(monster.Intelligence, -1);
-                Assert.IsNotNull(monster.IntelligenceModifier);
-                Assert.Greater(monster.Wisdom, -1);
-                Assert.IsNotNull(monster.WisdomModifier);
-                Assert.Greater(monster.Charisma, -1);
-                Assert.IsNotNull(monster.CharismaModifier);
-                Assert.IsNotNull(monster.Languages);
-                Assert.IsNotEmpty(monster.Languages);
-                Assert.IsNotEmpty(monster.ChallengeRating);
-                Assert.IsNotEmpty(monster.Senses);
-                Assert.IsNotNull(monster.Behaviors);
-                Assert.IsNotEmpty(monster.FlavorText);
+                try
+                {
+
+                    Assert.IsNotEmpty(monster.Name);
+                    Assert.IsNotEmpty(monster.Size);
+                    Assert.IsNotEmpty(monster.Alignment);
+                    Assert.Greater(monster.HitPoints, -1);
+                    Assert.Greater(monster.Speed, -1);
+                    Assert.Greater(monster.ArmorClass, 0);
+                    Assert.IsNotEmpty(monster.ArmorType);
+                    Assert.Greater(monster.Strength, -1);
+                    Assert.IsNotNull(monster.StrengthModifier);
+                    Assert.Greater(monster.Dexterity, -1);
+                    Assert.IsNotNull(monster.DexterityModifier);
+                    Assert.Greater(monster.Constitution, -1);
+                    Assert.IsNotNull(monster.ConstitutionModifier);
+                    Assert.Greater(monster.Intelligence, -1);
+                    Assert.IsNotNull(monster.IntelligenceModifier);
+                    Assert.Greater(monster.Wisdom, -1);
+                    Assert.IsNotNull(monster.WisdomModifier);
+                    Assert.Greater(monster.Charisma, -1);
+                    Assert.IsNotNull(monster.CharismaModifier);
+                    Assert.IsNotNull(monster.Languages);
+                    Assert.IsNotEmpty(monster.Languages);
+                    Assert.IsNotEmpty(monster.ChallengeRating);
+                    Assert.IsNotEmpty(monster.Senses);
+                    Assert.IsNotNull(monster.Behaviors);
+                    //var flavorOrSectionText = monster.FlavorText != string.Empty || monster.SectionText != string.Empty;
+                    //Assert.IsTrue(flavorOrSectionText);
+                }
+                catch(AssertionException e)
+                {
+                    new JsonSerializer().Serialize(TestContext.Out, monster);
+                    throw e;
+                }
             }
         }
 
