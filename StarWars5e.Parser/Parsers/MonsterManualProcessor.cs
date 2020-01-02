@@ -12,10 +12,8 @@ namespace StarWars5e.Parser.Parsers
 {
     public class MonsterProcessor : BaseProcessor<Monster>
     {
-        private Dictionary<string, string> _monsterFlavorTextDictionary 
-            = new Dictionary<string, string>();
-
         private string _lastSectionText = null;
+        private string _lastCreatureText = null;
 
         public override Task<List<Monster>> FindBlocks(List<string> lines)
         {
@@ -30,8 +28,6 @@ namespace StarWars5e.Parser.Parsers
                         .Take(flavorTextEndIndex - i)
                         .CleanListOfStrings()
                         .ToList();
-
-                    var isSectionText = lines[i].StartsWith("## ");
 
                     if(flavorTextLines.Any())
                         ParseFlavorText(flavorTextLines);
@@ -70,7 +66,7 @@ namespace StarWars5e.Parser.Parsers
                 }
                 else
                 {
-                    _monsterFlavorTextDictionary.Add(key, text );
+                    _lastCreatureText = text;
                 }
             }
         }
@@ -78,7 +74,6 @@ namespace StarWars5e.Parser.Parsers
         private Monster ParseMonster(List<string> monsterLines)
         {
             var name = monsterLines.Find(f => f.StartsWith("> ## ")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
-            var flavorTextKey = _monsterFlavorTextDictionary.Keys.FirstOrDefault(x => MatchOnNameVariations(x, name));
 
             try
             {
@@ -88,9 +83,11 @@ namespace StarWars5e.Parser.Parsers
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = name,
                     Name = name,
-                    FlavorText = flavorTextKey != null ? _monsterFlavorTextDictionary[flavorTextKey] : "",
-                    SectionText = _lastSectionText,
+                    FlavorText = _lastCreatureText ?? "",
+                    SectionText = _lastSectionText ?? "",
                 };
+
+                _lastCreatureText = null;
 
                 var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',', '.');
 
