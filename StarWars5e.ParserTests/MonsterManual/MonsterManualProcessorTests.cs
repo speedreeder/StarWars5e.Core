@@ -131,7 +131,6 @@ namespace StarWars5e.ParserTests.MonsterManual
             {
                 try
                 {
-
                     Assert.IsNotEmpty(monster.Name);
                     Assert.IsNotEmpty(monster.Size);
                     Assert.IsNotEmpty(monster.Alignment);
@@ -156,8 +155,9 @@ namespace StarWars5e.ParserTests.MonsterManual
                     Assert.IsNotEmpty(monster.ChallengeRating);
                     Assert.IsNotEmpty(monster.Senses);
                     Assert.IsNotNull(monster.Behaviors);
-                    //var flavorOrSectionText = monster.FlavorText != string.Empty || monster.SectionText != string.Empty;
-                    //Assert.IsTrue(flavorOrSectionText);
+                    var hasFlavorOrSectionText = monster.FlavorText != string.Empty || monster.SectionText != string.Empty;
+                    if(!hasFlavorOrSectionText)
+                        Assert.Warn($"{monster.Name} missing flavor text and section flavor text");
                 }
                 catch(AssertionException e)
                 {
