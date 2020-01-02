@@ -8,11 +8,6 @@ namespace StarWars5e.Models.Monster
 {
     public class Monster : BaseEntity
     {
-        public Monster()
-        {
-            Types = new List<string>();
-            ImageUrls = new List<string>();
-        }
         public string Name { get; set; }
         public string FlavorText { get; set; }
         public string SectionText { get; set; }
@@ -22,7 +17,7 @@ namespace StarWars5e.Models.Monster
             get => SizeEnum.ToString();
             set => SizeEnum = Enum.Parse<MonsterSize>(value);
         }
-        public List<string> Types { get; set; }
+        public List<string> Types { get; set; } = new List<string>();
         public string TypesJson
         {
             get => Types == null ? "" : JsonConvert.SerializeObject(Types);
@@ -143,7 +138,7 @@ namespace StarWars5e.Models.Monster
             get => Behaviors == null ? "" : JsonConvert.SerializeObject(Behaviors);
             set => Behaviors = JsonConvert.DeserializeObject<List<MonsterBehavior>>(value);
         }
-        public List<string> ImageUrls { get; set; }
+        public List<string> ImageUrls { get; set; } = new List<string>();
         public string ImageUrlsJson
         {
             get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
