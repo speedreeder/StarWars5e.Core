@@ -15,8 +15,7 @@ namespace StarWars5e.Parser.Parsers
         private Dictionary<string, string> _monsterFlavorTextDictionary 
             = new Dictionary<string, string>();
 
-        private Dictionary<string, string> _sectionTextDictionary 
-            = new Dictionary<string, string>();
+        private string _lastSectionText = null;
 
         public override Task<List<Monster>> FindBlocks(List<string> lines)
         {
@@ -32,7 +31,7 @@ namespace StarWars5e.Parser.Parsers
                         .CleanListOfStrings()
                         .ToList();
 
-                    var isSectionText = lines[flavorTextEndIndex].StartsWith("### ");
+                    var isSectionText = lines[i].StartsWith("## ");
 
                     if(flavorTextLines.Any())
                         ParseFlavorText(flavorTextLines);
@@ -52,28 +51,11 @@ namespace StarWars5e.Parser.Parsers
 
         private void ParseFlavorText(List<string> flavorTextLines)
         {
-            var isSectionText = flavorTextLines.Last().StartsWith("### ");
+            var isSectionText = flavorTextLines.First().StartsWith("## ");
 
-            var lookupKeys = new List<string>();
-
-            if (isSectionText)
-            {
-                lookupKeys = flavorTextLines.Find(f => f.StartsWith("### ") || f.StartsWith("## "))
-                                    ?.RemoveHashtagCharacters()
-                                    ?.Trim()
-                                    ?.Split(" ")
-                                    ?.ToList();
-            }
-            else
-            {
-                var key = flavorTextLines.Find(f => f.StartsWith("### ") || f.StartsWith("## "))
-                                    ?.RemoveHashtagCharacters()
-                                    ?.Trim();
-
-                lookupKeys.Add(key);
-            }
-
-            
+            var key = flavorTextLines.Find(f => f.StartsWith("### ") || f.StartsWith("## "))
+                                ?.RemoveHashtagCharacters()
+                                ?.Trim();
 
             var textLines = flavorTextLines?.Select(x => x.Contains("<") || x.Contains(">") ? "" : x)
                         ?.Skip(1);
@@ -82,16 +64,13 @@ namespace StarWars5e.Parser.Parsers
 
             if(text != null)
             {
-                foreach(var name in lookupKeys)
+                if(isSectionText)
                 {
-                    if(isSectionText)
-                    {
-                        _sectionTextDictionary.Add(name, text);
-                    }
-                    else
-                    {
-                        _monsterFlavorTextDictionary.Add(name, text);
-                    }
+                    _lastSectionText = text;
+                }
+                else
+                {
+                    _monsterFlavorTextDictionary.Add(key, text );
                 }
             }
         }
@@ -100,7 +79,6 @@ namespace StarWars5e.Parser.Parsers
         {
             var name = monsterLines.Find(f => f.StartsWith("> ## ")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
             var flavorTextKey = _monsterFlavorTextDictionary.Keys.FirstOrDefault(x => MatchOnNameVariations(x, name));
-            var sectionTextKey = _sectionTextDictionary.Keys.FirstOrDefault(x => MatchOnNameVariations(x, name));
 
             try
             {
@@ -111,7 +89,7 @@ namespace StarWars5e.Parser.Parsers
                     RowKey = name,
                     Name = name,
                     FlavorText = flavorTextKey != null ? _monsterFlavorTextDictionary[flavorTextKey] : "",
-                    SectionText = sectionTextKey != null ? _sectionTextDictionary[sectionTextKey] : "",
+                    SectionText = _lastSectionText,
                 };
 
                 var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',', '.');

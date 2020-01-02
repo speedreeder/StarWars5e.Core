@@ -95,8 +95,8 @@ namespace StarWars5e.ParserTests.MonsterManual
         {
             var monsterResult = (await _monsterProcessor.Process(_filesToParse)).First();
 
-            Assert.IsNotEmpty(monsterResult.FlavorText);
-            Assert.AreEqual("Acklays are amphibious reptillian crustaceans with six deadly claws and razor-sharp teeth native to the planet Vendaxa. They are often used as execution beasts or fodder for gladiatorial arenas.", monsterResult.FlavorText);
+            Assert.IsNotEmpty(monsterResult.SectionText);
+            Assert.AreEqual("Acklays are amphibious reptillian crustaceans with six deadly claws and razor-sharp teeth native to the planet Vendaxa. They are often used as execution beasts or fodder for gladiatorial arenas.", monsterResult.SectionText);
 
             new JsonSerializer().Serialize(TestContext.Out, monsterResult);
         }
