@@ -114,26 +114,15 @@ namespace StarWars5e.Parser.Parsers
                     SectionText = sectionTextKey != null ? _sectionTextDictionary[sectionTextKey] : "",
                 };
 
-                var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',');
+                var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',', '.');
 
                 monster.SizeEnum =
                     Enum.Parse<MonsterSize>(typeLine[0].RemoveMarkdownCharacters().Trim().Split(' ')[0], true);
 
-                var parenIndex = typeLine[0].Split(' ', 2)[1].Trim().IndexOf('(');
+                //removes parenthesis, if needed
+                typeLine[0] = Regex.Replace(typeLine[0], @"(\(+(\w* *)*\)+)", "");
 
-                monster.Types.Add(parenIndex != -1
-                    ? typeLine.SafeAccess(0)
-                    .Substring(typeLine
-                        .SafeAccess(0)
-                        .IndexOf('*') + 1)
-                    .Split(' ', 2)
-                    .SafeAccess(1)
-                    .Replace("*", string.Empty)
-                    .Trim()
-                    .Remove(parenIndex-1)
-                    .Trim()
-
-                    : typeLine.SafeAccess(0)
+                monster.Types.Add(typeLine.SafeAccess(0)
                     .Substring(typeLine
                         .SafeAccess(0)
                         .IndexOf('*') + 1)
@@ -153,7 +142,8 @@ namespace StarWars5e.Parser.Parsers
 
                 monster.HitPoints = int.Parse(Regex
                     .Match(monsterLines.Find(f => f.Contains("**Hit Points**")), @"\d+").Value);
-                monster.HitPointRoll = monsterLines.Find(f => f.Contains("**Hit Points**")).Split('(', ')')[1];
+                monster.HitPointRoll = monsterLines.Find(f => f.Contains("**Hit Points**")).Split('(', ')')
+                    .SafeAccess(1) ?? "";
                 monster.Speed = int.Parse(Regex
                     .Match(monsterLines.Find(f => f.Contains("**Speed**")), @"\d+").Value);
                 monster.Speeds = monsterLines.Find(f => f.Contains("**Speed**")).Split("**")[2].Trim();
@@ -253,8 +243,9 @@ namespace StarWars5e.Parser.Parsers
                     .Substring(challengeLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase)).Split(' ');
                 //var challengeRatingNumbers = Regex.Matches(monsterLines.Find(f => f.Contains("**Challenge**")), @"[0-9]+(,[0-9]+)*");
                 monster.ChallengeRating = challengeRatingSplit[1];
-                monster.ExperiencePoints = int.Parse(Regex.Match(challengeRatingSplit[2], @"[0-9]+(,[0-9]+)*").Value,
-                    NumberStyles.AllowThousands);
+                var didParseXP = int.TryParse(Regex.Match(challengeRatingSplit.SafeAccess(2) ?? "", @"[0-9]+(,[0-9]+)*").Value,
+                    NumberStyles.AllowThousands, null,  out var parsedXP);
+                monster.ExperiencePoints = didParseXP ? parsedXP : 0;
 
                 monster.Behaviors = new List<MonsterBehavior>();
                 var lastUnderScoreLine = monsterLines.FindLastIndex(f => f.Contains("___")) + 1;
@@ -477,8 +468,9 @@ namespace StarWars5e.Parser.Parsers
                             var hitSplit = Regex.Split(baseLine.Split("***")[2].Trim(), @"\*Hit[:]*\*|Hit:");
                             var hitCommaSplit = hitSplit.SafeAccess(0)?.Split(',')?.ToList() ?? new List<string>();
                             var hitSpaceSplit = hitSplit.SafeAccess(1)?.Split(' ')?.ToList() ?? new List<string>();
-                            monsterBehavior.AttackBonus = int.Parse(Regex.Match(attackSplit[0], @"-?\d+").Value);
-                            monsterBehavior.Range = attackSplit[1].Trim();
+                            var didParseAttBonus = int.TryParse(Regex.Match(attackSplit[0], @"-?\d+").Value, out var parsedAttBonus);
+                            monsterBehavior.AttackBonus = didParseAttBonus ? parsedAttBonus : 0;
+                            monsterBehavior.Range = attackSplit.ToArray().SafeAccess(1)?.Trim() ?? "";
                             monsterBehavior.NumberOfTargets = hitCommaSplit.ToArray().SafeAccess(2)?.Trim();
 
                             if (Regex.IsMatch(hitSplit.SafeAccess(1)?.Trim() ?? string.Empty, @"^\d+.*\(.*\)"))
