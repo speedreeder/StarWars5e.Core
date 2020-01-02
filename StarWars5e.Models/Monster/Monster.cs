@@ -15,6 +15,7 @@ namespace StarWars5e.Models.Monster
         }
         public string Name { get; set; }
         public string FlavorText { get; set; }
+        public string SectionText { get; set; }
         public MonsterSize SizeEnum { get; set; }
         public string Size
         {

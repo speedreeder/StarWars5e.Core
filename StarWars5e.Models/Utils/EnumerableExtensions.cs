@@ -59,5 +59,16 @@ namespace StarWars5e.Models.Utils
         {
             return source.Where(x => !string.IsNullOrEmpty(x));
         }
+
+        public static T SafeAccess<T>(this T[] tArray, int index)
+            where T : class
+        {
+            if((tArray.Length - 1) < index || index < 0)
+            {
+                return null;
+            }
+
+            return tArray[index];
+        }
     }
 }
