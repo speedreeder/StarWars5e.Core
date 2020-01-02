@@ -7,17 +7,17 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'windows-latest'
 
 variables:
   buildConfiguration: 'Release'
 
 steps:
 - task: DotNetCoreCLI@2
-  displayName: Build StarWars5e.Api
+  displayName: Build StarWars5e.Parser
   inputs:
     command: build
-    projects: '**/StarWars5e.Api.csproj'
+    projects: '**/StarWars5e.Parser.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
