@@ -8,6 +8,7 @@
         Medium,
         Large,
         Huge,
-        Gargantuan
+        Gargantuan,
+        Garagantuan, //TODO: compensates for spelling error in rulebook. Remove when fixed
     }
 }
