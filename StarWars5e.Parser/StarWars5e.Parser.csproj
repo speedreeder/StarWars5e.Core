@@ -57,6 +57,7 @@
     <None Remove="Sources\SOTG\sotg_changelog.txt" />
     <None Remove="Sources\TestData\mm_sample.txt" />
     <None Remove="Sources\TestData\new_mm_content.txt" />
+    <None Remove="Sources\TestData\SNV_Content_sample.txt" />
     <None Remove="Sources\WH\wh_01.txt" />
     <None Remove="Sources\WH\wh_02.txt" />
     <None Remove="Sources\WH\wh_03-04.txt" />
@@ -112,6 +113,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Sources\TestData\new_mm_content.txt" />
+    <EmbeddedResource Include="Sources\TestData\SNV_Content_sample.txt" />
     <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
     <EmbeddedResource Include="Sources\WH\wh_03-04.txt" />

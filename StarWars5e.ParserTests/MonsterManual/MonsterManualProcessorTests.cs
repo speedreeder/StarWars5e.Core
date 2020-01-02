@@ -101,10 +101,11 @@ namespace StarWars5e.ParserTests.MonsterManual
             new JsonSerializer().Serialize(TestContext.Out, monsterResult);
         }
 
-        [Test]
-        public async Task ParsedNewFormat_AssertFlavorTextParsed()
+        [TestCase("TestData.mm_sample.txt")]
+        [TestCase("TestData.SNV_Content_sample.txt")]
+        public async Task ParsedNewFormat_AssertFlavorTextParsed(string fileName)
         {
-            _filesToParse = new List<string> { "new_mm_content.txt" };
+            _filesToParse = new List<string> { fileName };
 
             var monsterResult = (await _monsterProcessor.Process(_filesToParse));
 
@@ -151,6 +152,7 @@ namespace StarWars5e.ParserTests.MonsterManual
                 Assert.IsNotEmpty(monster.ChallengeRating);
                 Assert.IsNotEmpty(monster.Senses);
                 Assert.IsNotNull(monster.Behaviors);
+                Assert.IsNotEmpty(monster.FlavorText);
             }
         }
 
