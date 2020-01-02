@@ -127,44 +127,56 @@ namespace StarWars5e.ParserTests.MonsterManual
 
             var monsterResult = (await _monsterProcessor.Process(_filesToParse));
 
-            foreach(var monster in monsterResult)
+            Assert.Multiple(() =>
             {
-                try
+                foreach(var monster in monsterResult)
                 {
-                    Assert.IsNotEmpty(monster.Name);
-                    Assert.IsNotEmpty(monster.Size);
-                    Assert.IsNotEmpty(monster.Alignment);
-                    Assert.Greater(monster.HitPoints, -1);
-                    Assert.Greater(monster.Speed, -1);
-                    Assert.Greater(monster.ArmorClass, 0);
-                    Assert.IsNotEmpty(monster.ArmorType);
-                    Assert.Greater(monster.Strength, -1);
-                    Assert.IsNotNull(monster.StrengthModifier);
-                    Assert.Greater(monster.Dexterity, -1);
-                    Assert.IsNotNull(monster.DexterityModifier);
-                    Assert.Greater(monster.Constitution, -1);
-                    Assert.IsNotNull(monster.ConstitutionModifier);
-                    Assert.Greater(monster.Intelligence, -1);
-                    Assert.IsNotNull(monster.IntelligenceModifier);
-                    Assert.Greater(monster.Wisdom, -1);
-                    Assert.IsNotNull(monster.WisdomModifier);
-                    Assert.Greater(monster.Charisma, -1);
-                    Assert.IsNotNull(monster.CharismaModifier);
-                    Assert.IsNotNull(monster.Languages);
-                    Assert.IsNotEmpty(monster.Languages);
-                    Assert.IsNotEmpty(monster.ChallengeRating);
-                    Assert.IsNotEmpty(monster.Senses);
-                    Assert.IsNotNull(monster.Behaviors);
-                    var hasFlavorOrSectionText = monster.FlavorText != string.Empty || monster.SectionText != string.Empty;
-                    if(!hasFlavorOrSectionText)
-                        Assert.Warn($"{monster.Name} missing flavor text and section flavor text");
+                    try
+                    {
+                        var doesNotHaveFlavorText = monster.FlavorText == null || monster.FlavorText == string.Empty;
+                        var doesNotHaveSectionText = monster.SectionText == null || monster.SectionText == string.Empty;
+
+                        if (doesNotHaveFlavorText)
+                            Assert.Warn($"{monster.Name} missing flavor text");
+
+                        if (doesNotHaveSectionText)
+                            Assert.Warn($"{monster.Name} missing section text");
+
+                        Assert.IsNotEmpty(monster.Name);
+                        Assert.IsNotEmpty(monster.Size);
+                        Assert.IsNotEmpty(monster.Alignment);
+                        Assert.Greater(monster.HitPoints, -1);
+                        Assert.Greater(monster.Speed, -1);
+                        Assert.Greater(monster.ArmorClass, 0);
+                        Assert.IsNotEmpty(monster.ArmorType);
+                        Assert.Greater(monster.Strength, -1);
+                        Assert.IsNotNull(monster.StrengthModifier);
+                        Assert.Greater(monster.Dexterity, -1);
+                        Assert.IsNotNull(monster.DexterityModifier);
+                        Assert.Greater(monster.Constitution, -1);
+                        Assert.IsNotNull(monster.ConstitutionModifier);
+                        Assert.Greater(monster.Intelligence, -1);
+                        Assert.IsNotNull(monster.IntelligenceModifier);
+                        Assert.Greater(monster.Wisdom, -1);
+                        Assert.IsNotNull(monster.WisdomModifier);
+                        Assert.Greater(monster.Charisma, -1);
+                        Assert.IsNotNull(monster.CharismaModifier);
+                        Assert.IsNotNull(monster.Languages);
+                        Assert.IsNotEmpty(monster.Languages);
+                        Assert.IsNotEmpty(monster.ChallengeRating);
+                        Assert.IsNotNull(monster.Senses, $"Expected senses to not be null on {monster.Name}");
+                        Assert.IsNotNull(monster.Behaviors);
+
+                    }
+                    catch(AssertionException e)
+                    {
+                        new JsonSerializer().Serialize(TestContext.Out, monster);
+                        throw e;
+                    }
                 }
-                catch(AssertionException e)
-                {
-                    new JsonSerializer().Serialize(TestContext.Out, monster);
-                    throw e;
-                }
-            }
+            });
+
+            Assert.Pass(); //this is dumb that nunit requires this be put here.
         }
 
         [TestCase("TestData.mm_sample.txt")]
