@@ -1,4 +1,4 @@
-\pagebreakNum
+
 
 <img src="https://www.gmbinder.com/images/MC1QTFG.png" style="position:absolute; left:18px; top:75px; width:48px;" />
 <img src="https://www.gmbinder.com/images/JA2xrqp.png" style="position:absolute; left:18px; top:120px; width:48px;" />
@@ -111,7 +111,7 @@ ___
 <img src="https://www.gmbinder.com/images/MC1QTFG.png" style="position:absolute; left:18px; top:75px; width:48px;" />
 <img src="https://www.gmbinder.com/images/JA2xrqp.png" style="position:absolute; left:18px; top:120px; width:48px;" />
 
-### Abeloth's Lair
+### Manifestation of Abeloth's Lair
 Abeloth's home planet is located in the Maw.  Abeloth holds complete control over the planet's flora and fauna. The planet is notable for having numerous physical locations that corresponded to metaphysical locations in the realm known as beyond shadows. The planet was inhabited by the Ones until the Son and Daughter imprisoned Abeloth on the world.
 
 #### Lair Actions
@@ -170,7 +170,7 @@ ___
 >
 > ***Tentacles.*** *Melee Weapon Attack:* +17 to hit, reach 5 ft., one target. *Hit:* 28 (3d12+9) kinetic damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest.  If the target's hit point maximum is reduced to 0, they die and their essence is absorbed into Abeloth.
 >
-> ***Will.***  Abeloth turns her will upon one creature she can see within 120 feet.  That target must make a DC 23 Wisdome saving throw.  Unless the target is incapacitated, it can avert it's attention to automatically succeed on the save.  If the target does so, it can't see Abeloth until the start of its next turn.  If the target again focuses on Abeloth in the meantime, it must immediately make the save.
+> ***Will.***  Abeloth turns her will upon one creature she can see within 120 feet.  That target must make a DC 23 Wisdom saving throw.  Unless the target is incapacitated, it can avert it's attention to automatically succeed on the save.  If the target does so, it can't see Abeloth until the start of its next turn.  If the target again focuses on Abeloth in the meantime, it must immediately make the save.
 >
 >If the target fails the save, the target suffers one of the following effects of Abeloth's choice or at random:
 >
@@ -597,7 +597,7 @@ ___
 > ___
 > - **Armor Class** 15 (natural armor)
 > - **Hit Points** 38 (7d8+7)
-> - **Speed** 20ft., climb 20ft.
+> - **Speed** 20 ft., climb 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1303,7 +1303,7 @@ ___
 > - **Damage Vulnerabilities** ion
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** truesight 120ft., passive Perception 14
+> - **Senses** truesight 120 ft., passive Perception 14
 > - **Languages** Binary, Galactic Basic
 > - **Challenge** 2 (450 XP)
 > ___
@@ -1316,7 +1316,7 @@ ___
 >
 > ***Burst.*** The spider droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking 9 (1d12+3) energy damage on a failed save, or half as much on a successful one.
 >
-> ***Claw.*** *Melee Weapon Attack.* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d5+2) kinetic damage.
+> ***Claw.*** *Melee Weapon Attack.* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) kinetic damage.
 >
 > ***Self-Destruct.*** When the spider droid is reduced to half of its hit point maximum and is within 20 feet of a hostile creature, it attempts to self-destruct. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one.
 
@@ -1348,7 +1348,7 @@ ___
 > ___
 > - **Armor Class** 16 (armor plating)
 > - **Hit Points** 58 (9d8 + 18)
-> - **Speed** 30ft., climb 30 ft.
+> - **Speed** 30 ft., climb 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1357,7 +1357,7 @@ ___
 > - **Saving Throws** Dex + 6
 > - **Skills** Perception +3, Stealth +6, Intimidate +1
 > - **Damage Vulnerabilities** ion
-> - **Damage Resistances** necrotic, poison, psychic; energy from melee weapon attacks
+> - **Damage Resistances** necrotic, poison, psychic; energy from melee weapons
 > - **Condition Immunities** poisoned, disease
 > - **Senses** darkvision 60 ft., passive Perception 13
 > - **Languages** Binary, Galactic Basic
@@ -1681,7 +1681,7 @@ ___
 >___
 > - **Saving Throws** Con +9, Int +10, Wis +9
 > - **Skills** Lore +10, Perception +9, Insight +14, Deception +8, Persuasion +8
-> - **Damage Resistance** psyvhic
+> - **Damage Resistance** psychic
 > - **Damage Immunities** poison
 > - **Condition Immunities** poisoned
 > - **Senses** blindsight 120 ft., passive Perception 18
@@ -1746,16 +1746,16 @@ ___
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 21 (6d4 + 6)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|6 (-2)|14 (+2)|13 (+1)|12 (+1)|11 (+0)|10 (+0)|
 >___
 > - **Skills** Perception +2, Stealth +4
-> - **Damage Vulnerabilities** Cold
-> - **Damage Resistances** Energy and Kinetic from unenhanced weapons
-> - **Condition Immunities** Blinded
+> - **Damage Vulnerabilities** cold
+> - **Damage Resistances** energy and kinetic from unenhanced weapons
+> - **Condition Immunities** blinded
 > - **Senses** Blindsight 60 ft. (blind beyond this radius, passive Perception 12
 > - **Languages** Geonosian (understands but can't speak)
 > - **Challenge** 2 (450 XP)
@@ -1821,7 +1821,7 @@ ___
 > ___
 > ***Liquid Courage (Recharge 5-6).*** As a bonus action, the cantina brawl imbibes nearby alcohol to gain access to a hidden reservoir of audacity and grit.  The cantina brawl gains 7 (2d6) temporary hp for 1 minute.
 >
-> ***Swarm.*** The cantina brawl can occupy another creature's space and vice versa, and the cantina brawl can move through any opening large enough for a medium humanoid.  Except for Liquid COurage, the cantina brawl can't regain hp or gain temporary hp.
+> ***Swarm.*** The cantina brawl can occupy another creature's space and vice versa, and the cantina brawl can move through any opening large enough for a medium humanoid.  Except for Liquid Courage, the cantina brawl can't regain hp or gain temporary hp.
 > 
 > ### Actions
 > ***Multiattack.*** The cantina brawl makes two melee attacks or two darts attacks.
@@ -2312,7 +2312,7 @@ On initiative count 20 (losing initiative ties, the dianoga can take a lair acti
 - The area within 120 ft. of the lair (if not separated from the lair by walls) is filled with a odorous mist, lightly obscuring the area.  The mist can be cleared away, for example, by a light wind, if the lair is not enclosed.
 - The area surrounding the lair is permeated by the stench of death and decay.  If a creature spends as least 1 hour within 500 ft. of the lair (if not separated from the lair by walls), the creature must succeed a DC 12 Constitution saving throw or become poisoned.  A short rest in clean air will remove this poisoned condition.
 - Molds and fungi do not grow on surfaces within 500 ft. of the lair, even where they would normally find purchase.
-- There are no obviously organic surfaces or creatures within 120ft. of the lair.
+- There are no obviously organic surfaces or creatures within 120 ft. of the lair.
 
 If the Dianoga dies, these effects fade over the course of 1d10 days.
 
@@ -2630,7 +2630,7 @@ ___
 > - **Damage Vulnerabilities** ion
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** darkvision 120ft., passive Perception 10
+> - **Senses** darkvision 120 ft., passive Perception 10
 > - **Languages** Binary, Galactic Basic
 > - **Challenge** 14 (15,000 XP)
 > ___
@@ -2678,7 +2678,7 @@ ___
 > - **Damage Vulnerabilities** ion
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
-> - **Senses** darkvision 120ft., passive Perception 10
+> - **Senses** darkvision 120 ft., passive Perception 10
 > - **Languages** Binary, Galactic Basic
 > - **Challenge** 8 (3,900 XP)
 > ___
@@ -2701,6 +2701,120 @@ ___
 <img src='https://vignette.wikia.nocookie.net/starwars/images/7/73/Tank_droid_TCW.png/revision/latest/scale-to-width-down/2000?cb=20170703051940' style='position:absolute;top:140px;right:10px;width:490px;transform:scalex(1);filter:brightness(100%)contrast(100%)saturate(100%);z-index:1000' />
 
 <div class='footnote'>DROID TANKS</div>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Emperor's Hand
+
+An Emperor's Hand, or Hand of the Emperor, is a Force-sensitive operative recruited, trained, and employed by Emperor Palpatine to perform missions that are impossible, secret, or both. 
+
+***Use.*** During his reign, Palpatine uses the Emperor's Hands to kill enemies where his more obvious tools, like Darth Vader or the Imperial Navy would be ineffective, too public, or inappropriate. Common targets include rogue governors, traitorous commanders, rebellious leaders, or other internal or external concerns.  The Hands are considered the best assassins of their day.
+
+***Selection.*** Often targeted at infancy, potential Emperor's Hands are tracked with keen interest by Palpatine until they reach maturity and impress him. Some begin as thieves, some as warriors, some as assassins, some as entertainers, but each manages to demonstrate their resourcefulness, skills and loyalty without incurring his wrath.
+
+***Training.*** After selection, an Emperor's Hand goes through comprehensive training in varied combat techniques, intelligence gathering and assassination. Each Hand operates independently and is often under the false impression that he or she is the only Emperor's Hand. During training, Palpatine cultivates the Hand's latent Force abilities, but avoids providing Jedi or Sith training. Thus, Hands who do not have any Force training prior to their training are not expressly dark side users. The most important of their abilities is a direct telepathic connection to Palpatine that allows them to communicate across the galaxy.
+
+> *"Though I was seen at court, very few thought I was more than a bauble kept about to add something to the cityscape. What my master wished done was what I did. No questions. No regrets. Total devotion to duty. Those who guessed I was more to the Emperor learned to fear that I might be turned on them someday."*
+>
+>?Mara Jade
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+***Operations.*** Once given the title of Emperor's Hand, the agent is granted almost unlimited access and authority to accomplish their missions. Without naming themselves as physical manifestations of the Emperor's will, Emperor's Hands can take command of military units, starships or weapons as necessary. To preserve their effectiveness, only the highest echelons of the Imperial command structure are aware of the Hands' existence. The methodology varies by agent and mission, with styles ranging from silent sniper strikes to destructive rampages. Regardless of their method, each Hand operates as a ghost; striking and vanishing, which elevates them to near mythic levels amongst those who dare cross the Emperor.
+
+***Psychology.*** Unaware, unconvinced, or unconcerned of the Emperor's malicious intentions, the Hands perform their missions out of sheer loyalty to Palpatine. They view their killing as a way of defending the citizens of the Empire from its most dangerous enemies, although in many cases their targets are political enemies, rather than rogue commanders or governors. Many, if not all, of the Hands are under the impression that they alone hold their particular position, and thus believed their relationship with the Emperor to be a special one. As a result of their extreme loyalty, and mental connection established through the Force, many Hands would be deeply affected by his death.
+
+<br>
+
+> *"I was his hand, Skywalker. That's how I was known to his inner court: as the Emperor's Hand. I served him all over the galaxy, doing jobs the Imperial Fleet and stormtroopers couldn't handle. That was my one great talent, you see ? I could hear his call from anywhere in the Empire, and report back to him the same way. I exposed traitors for him, brought down his enemies, helped him keep the kind of control over the mindless bureaucracies that he needed. I had prestige, and power, and respect."*
+>
+> ?Mara Jade
+
+<div class='footnote'>EMPEROR'S HAND</div>
+
+<img src='https://pm1.narvii.com/6380/bed07050cbd04db19bba5157a0cb54dca8f77ed0_hq.jpg' style='position:absolute;top:0px;left:0px;width:840px;transform:scalex(-1);filter:brightness(100%)contrast(100%)saturate(100%)drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> *"Who were my targets? You name 'em. Ambitious planetary governors, greedy crime lords, disloyal officers. Did I believe they were threats to the general public? Most of them. Did I ever feel sorry for them? Emotions were never part of the job.*
+>
+> ?Mara Jade Skywalker, in a recording to Tionne Solusar
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Emperor's Hand
+> *Medium human, unaligned*
+> ___
+> - **Armor Class** 19 (heavy combat suit and medium shield generator) or 21 (knight speed)
+> - **Hit Points** 238 (28d8 + 112)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)| 20 (+5)|18 (+4)|14 (+2)| 18 (+4)| 18 (+4)|
+>___
+> - **Saving Throws** Dex +10, Con +9, Int +7
+> - **Skills** Acrobatics +10, Athletics +6, Deception +9, Insight +9, Perception +9, Sleight of Hand +10, Stealth +10
+> - **Senses** passive Perception 19
+> - **Challenge** 16 (15,000 XP)
+> ___
+> ***Assassinate.*** During her first turn, the Emperor's Hand has advantage on attack rolls against any creature that hasn't taken a turn.  Any hit the Emperor's Hand scores against a surprised creature is a critical hit.
+>
+> ***Cunning Action.***  On each of her turns, she can use a bonus action to take the Dash, Disengage, or Hide action.
+>
+> ***Legendary Resistance (3/day).*** If the Emperor's Hand fails a saving throw, it can choose to succeed instead.
+>
+> ***Sneak Attack (1/turn).*** The Emperor's Hand deals an extra 17 (5d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Emperor's Hand that isn't incapacitated and the Emperor's Hand doesn't have disadvantage on the attack roll.
+>
+>  ***Tech Casting.***  The Emperor's Hand is a 5th level tech caster (tech save DC 15, +7 to hit with power attacks, 22 tech points).  The Emperor's Hand knows the following powers.
+>
+>At Will: *light, poison spray, venomous strike*
+>
+>1st Level: *alarm, holographic disguise, poison dart, tranquilizer*
+>
+>2nd Level: *darkvision, infiltrate, paralyze humanoid, smuggle, truth serum*
+>
+>3rd Level: *invisibility to cameras, tech override*
+>
+>  ***forcecasting.***  The Emperor's Hand is a 5th level force caster (force save DC 17, +9 to hit with power attacks, 24 force points).  The Emperor's Hand knows the following powers:
+>
+>At Will: *affect mind, force disarm, mind trick*
+>
+>1st Level: *breath control, force body, force jump, sense emotion, slow descent*
+>
+>2nd Level: *coerce mind, dark shear, force confusion*
+>
+>3rd Level: *knight speed, force repulse*
+> ### Actions
+> ***Multiattack.*** The Emperor's Hand makes three melee weapon attacks or three ranged weapon attacks. 
+>
+> ***Lightfoil.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) energy damage.
+>
+> ***Heavy Pistol.*** *Ranged Weapon Attack:* +10 to hit, range 40/160 ft., one target. *Hit:* 9 (1d8 + 5) energy damage.
+>___
+>### Reactions
+> ***Uncanny Dodge.*** The Emperor's Hand halves the damage that she takes from an attack that hits her.  The Emperor's Hand must be able to see the attacker.
+>___
+> ### Legendary Actions
+>Emperor's Hand can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Emperor's Hand regains spent legendary actions at the start of its turn.
+>
+> **Move.** Emperor's Hand can move up to its speed without provoking opportunity attacks.
+>
+> **Casting.** Emperor's Hand can cast an at-will power.
+>
+> **Lightfoil.** Emperor's Hand makes one lightfoil attack.
+
+<img src='https://static.comicvine.com/uploads/original/11118/111184078/4923122-3579178020-27970.jpg' style='position:absolute;top:0px;left:0px;width:840px;transform:scalex(-1);filter:brightness(100%)contrast(100%)saturate(100%)drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div class='footnote'>EMPEROR'S HAND</div>
 
 \pagebreakNum
 
@@ -3338,10 +3452,10 @@ ___
 ___
 ___
 > ## Trooper, Squad 
->*Gargantuan swarm of medium humanoids, any alignment*
+>*Gargantuan swarm of Medium humanoids, any alignment*
 > ___
 > - **Armor Class** 15 (light battle armor)
-> - **Hit Points** 156 (24d8 + 48)
+> - **Hit Points** 175 (13d20+26)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -3772,7 +3886,7 @@ The All Terrain Armored Transport is an imposing, heavily armored, quadrupedal c
 ___
 ___
 > ## AT-AT
->*Garagantuan construct, unaligned*
+>*Gargantuan construct, unaligned*
 > ___
 > - **Armor Class** 20 (armor plating) 
 > - **Hit Points**  330 (20d20 + 120)
@@ -3960,7 +4074,7 @@ The All Terrain Tactical Enforcer (AT-TE), is an all terrain assault walker deve
 ___
 ___
 > ## AT-TE
->*Garagantuan construct, unaligned*
+>*Gargantuan construct, unaligned*
 > ___
 > - **Armor Class** 18 (armor plating) 
 > - **Hit Points**  248 (16d20 + 80)
@@ -4035,7 +4149,7 @@ ___
 > ___
 > - **Armor Class** 19
 > - **Hit Points** 168(16d12+64)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -4065,7 +4179,7 @@ ___
 >
 > **Ram** Any creature within the AAT's movement path must make a DC 17 Dexterity saving throw, taking 26 (4d12) kinetic damage on a failed save and is knocked prone, or half as much damage on a successful one.
 >
-> **Rocket Launchers (6/day Reload 1 turn)** Ranged weapon range 100/400 DC 14 launches a barrage of rockets at a target and any creature within 10ft. Taking 6d6 kinetic damage on a failed save and half as much on a successful one
+> **Rocket Launchers (6/day Reload 1 turn)** Ranged weapon range 100/400 DC 14 launches a barrage of rockets at a target and any creature within 10 ft. Taking 6d6 kinetic damage on a failed save and half as much on a successful one
 >
 > **Gunner** can make two attacks using the medium repeating blasters 
 >
@@ -4534,11 +4648,11 @@ ___
 
 ___
 > ## Gizka Swarm
->*Medium swarm of tiny beasts, unaligned*
+>*Medium swarm of Tiny beasts, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 22 (5d8)
-> - **Speed** 20ft.
+> - **Speed** 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -4713,7 +4827,7 @@ ___
 > ___
 > - **Armor Class** 14
 > - **Hit Points** 157 (15d10+75)
-> - **Speed** 40ft.
+> - **Speed** 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -4877,7 +4991,7 @@ ___
 
 ___
 > ## Hawk-bat Swarm
->*Large swarm of small beasts, unaligned*
+>*Large swarm of Small beasts, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 44 (8d10)
@@ -4931,7 +5045,7 @@ ___
 > ___
 > - **Armor Class** 18 (natural armor)
 > - **Hit Points** 125 (15d10+45)
-> - **Speed** 30ft. swim 40ft.
+> - **Speed** 30 ft. swim 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -4961,6 +5075,382 @@ ___
 <img src='https://www.gmbinder.com/images/2SfxWgh.png' style='position:absolute;bottom:27px;right:18px;width:810px;transform:scaleX(-1)' />
 
 <div class='footnote'>HSSISS</div>
+
+\pagebreakNum
+
+<img src="https://www.gmbinder.com/images/YPBripi.png" style="position:absolute; left:18px; top:75px; width:48px;" />
+<img src="https://www.gmbinder.com/images/JA2xrqp.png" style="position:absolute; left:18px; top:120px; width:48px;" />
+
+## Hutts
+Hutts are a large slug-like sentient species native to the planet Nal Hutta. They are well known as galactic gangsters whose Grand Hutt Council controlls the Hutt Clan crime syndicate. 
+
+***Biology & Appearance.*** Hutts have large mouths, stubby arms, and three lungs. They are tough and muscular with thick leathery skin, which is wrinkled and slimy.  Their tails are supported by a skeletal spine. Despite their legendary adult size, Hutts start out as tiny Huttlets less than half a meter in height.
+
+Their homeworld of Nal Hutta has a hot atmosphere and is frequently streaked by greasy rains, creating a fetid sauna in which Hutts are most comfortable. Hutts can live for centuries—Jabba was 604 when he was killed—and can grow to enormous sizes.
+
+Some Hutts suffer from a genetic defect that causes their skin to be bereft of pigment and prone to cracking.
+
+***Culture.*** Most Hutts are crime lords who live opulent lives overseeing criminal underworld activities like smuggling, slavery, gambling and bounty hunting in Hutt Space. They are typically obese, with the muscular Nar Shaddaa kingpin Grakkus being an exception.
+
+The Hutt Clan is divided into families known as kajidics: Jabba's family was the Desilijic kajidic. Hutts bandage and bury their dead. 
+
+Classical architectural Hutt style can be seen on the planet Mataou. It is characterized by terraced buildings with sloping gates, and white and red colors.
+
+Clothing is optional for Hutts, and some use live Sha'rellian toops as hairpieces. Hutts like to eat gorgs, slime pods and Klatooine paddy frogs, and are known to smoke hookah pipes.
+
+Boonta Hestilic Shad'ruu was a Hutt<br> who ascended to godhood. To<br> celebrate the deity's ascension,<br> the celebration of Boonta Eve<br> was created. 
+
+\columnbreak
+
+<br>
+
+___
+> ## Hutt Wrestler
+> *Large humanoid (hutt), unaligned*
+> ___
+> - **Armor Class** 11 (hide)
+> - **Hit Points** 126 (12d10 + 60)
+> - **Speed** 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|8 (-1)|20 (+5)|14 (+2)|10 (+0)|10 (+0)|
+>___
+> - **Skills** Intimidate +8
+> - **Saving Throws** Str +8, Con +8
+> - **Damage Resistances** acid, poison
+> - **Condition Immunities** charmed, prone
+> - **Senses** passive Perception 10
+> - **Languages** Huttese, Galactic Basic
+> - **Challenge** 8 (3,900 XP)
+> ___
+>
+> ***Physicality.*** The Hutt uses his strength score for Intimidation checks.
+>
+> ### Actions
+> ***Multiattack.*** The Hutt makes two slam attacks.
+>
+> ***Slam.*** *Melee Weapon Attack* +8 to hit, reach 5 ft., one target. *Hit* 9 (1d8 + 5) kinetic damage, and the target must succeed on a Dexterity saving throw (DC 16) or become grappled.
+>
+> ***Tail.*** *Melee Weapon Attack* +8 to hit, reach 10 ft., one target. *Hit* 14 (2d8 + 5) kinetic damage, and the target is knocked prone.
+>
+> ***Crush.*** The Hutt can crush an opponent grappled by the Hutt.  A grappled creature must make a Strength saving throw (DC 16).  On a failure, the creature takes 14 (2d8 + 5) kinetic damage and becomes restrained.  A creature who is restrained by the Hutt has disadvantage on this saving throw.
+
+<img src='https://vignette.wikia.nocookie.net/starwars/images/f/f3/Grakkus_lets_himself_go.png/revision/latest?cb=20190105014342' style='position:absolute;bottom:0px;left:0px;width:640px;transform:scalex(1);filter:brightness(100%)contrast(100%)saturate(100%);z-index:1000' />
+
+\pagebreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Hutt Crime Lord
+> *Large humanoid (hutt), unaligned*
+> ___
+> - **Armor Class** 14 (hide, survival instinct)
+> - **Hit Points** 128 (14d10 + 60)
+> - **Speed** 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|15 (+2)|8 (-1)|17 (+3)|18 (+4)|15 (+2)|18 (+4)|
+>___
+> - **Skills** Deception +8, Insight +6, Intimidate +12, Perception +6, Persuasion +8
+> - **Saving Throws** Con +7, Int +8, Cha +8
+> - **Damage Resistances** acid, poison
+> - **Condition Immunities** charmed, prone
+> - **Senses** passive Perception 16
+> - **Languages** Huttese, Galactic Basic
+> - **Challenge** 10 (5,900 XP)
+> ___
+> ***Dominating Presence (1/rest).*** As a bonus action, Hutt Crime Lord can call out to a humanoid who can understand it that is charmed by it or frightened of it to direct their next action. The target must succeed on a Wisdom saving throw (DC 16). On a failed save, until the end of Hutt Crime Lord's next turn, the creature takes only the actions Hutt Crime Lord chooses, and doesn’t do anything that it doesn’t allow it to do.
+>
+>During this time Hutt Crime Lord can use its reaction to force the creature to use the creature's reaction.
+>
+> ***Innate Tech Casting.***  The Hutt's innate tech casting ability is intelligence (tech save DC 16). It can innately cast the following powers:
+>
+> At will: *assess the situation*<br>
+> 3/day: *absorb energy, element of surprise, fabricate trap, oil slick, smuggle, spot the weakness, stack the deck, tactical barrier* <br>
+> 1/day: *kolto cloud, tactical advantage*
+>
+> ***Reassemble (1/rest).*** Hutt Crime Lord may use a bonus action to call its allies towards it. It chooses a number of creatures that it can see within 60 feet of it equal to its Intelligence modifier (minimum of one). They can use their reaction to immediately move directly towards Hutt Crime Lord up to their movement speed. This movement does not provoke opportunity attacks.
+>
+> ***Survival Instinct.*** Hutt Crime Lord and all allies within 10 feet of it gain a bonus to their AC equal to half its Intelligence modifier (rounded down, included in Armor Class).
+>
+> ***Tyrant's Ferocity.*** Hutt Crime Lord has advantage on any attack against a creature that is charmed by it or frightened of it. 
+>
+> ***Legendary Resistance (3/Day).*** When Hutt Crime Lord fails a saving throw, it can choose to succeed instead.
+> ### Actions
+> ***Multiattack.*** The Hutt makes two slam attacks or two hold-out blaster attacks.
+>
+> ***Hold-Out Blaster.*** *Ranged Weapon Attack* +3 to hit, range 30/120, one target. *Hit* 1 (1d4 - 1) energy damage
+>
+> ***Slam.*** *Melee Weapon Attack* +6 to hit, reach 5 ft., one target. *Hit* 6 (1d8 + 2) kinetic damage, and the target must succeed on a Dexterity saving throw (DC 16) or become grappled.
+>
+> ***Tail.*** *Melee Weapon Attack* +6 to hit, reach 10 ft., one target. *Hit* 11 (2d8 + 2) kinetic damage, and the target is knocked prone.
+>___
+> ### Reactions
+> ***Call the Guards.*** When a creature attacks Hutt Crime Lord, it commands a willing ally within 5 feet of that creature to use their reaction to intercede. The creature is then forced to make an attack on the ally instead. If the attack misses, the ally can immediately make a weapon attack with advantage against that creature as a part of that same reaction.
+>___
+> ### Legendary Actions
+>Hutt Crime Lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Hutt Crime Lord regains spent legendary actions at the start of his turn.
+>
+> ***Overwhelming Presence.*** Hutt Crime Lord can make a Charisma (Persuasion) or Charisma (Intimidation) skill check to attempt to charm or frighten a humanoid creature who can see or hear it within 60 feet. The target makes a contested Wisdom (Insight) check. If the Hutt's check succeeds, the target is charmed by it if it used Persuasion, or frightened of it if it used Intimidation, until the end of its next turn.
+>
+> ***Tech Casting (2 legendary actions).*** Hutt Crime Lord can cast an innate tech power.
+>
+> ***Hold-out.*** Hutt Crime Lord makes one hold-out blaster attack.
+>
+> ***Tail.*** Hutt Crime Lord makes one tail attack.
+
+<img src='https://www.gmbinder.com/images/vH7sOe9.jpg' style='position:absolute;top:0px;left:0px;width:840px;transform:scalex(1);filter:brightness(100%)contrast(100%)saturate(100%)drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div class='footnote'>HUTTS</div>
+
+\pagebreakNum
+
+<img src="https://www.gmbinder.com/images/YB2KHy4.png" style="position:absolute; left:18px; top:75px; width:48px;" />
+<img src="https://www.gmbinder.com/images/JA2xrqp.png" style="position:absolute; left:18px; top:120px; width:48px;" />
+
+<div class='wide'>
+
+## Imperial Guardians
+
+</div>
+
+<div class='wide'>
+
+The Galactic Empire, also known as the Old Empire, the First Galactic Empire, Palpatine's New Order, the Imperium or simply the Empire, is the galactic government established by Supreme Chancellor Palpatine to replace the Galactic Republic in 19 BBY and bring Sith rule to the galaxy.  The government personnel of this new Empire are protected by some of its most highly trained warriors. 
+
+</div>
+
+### Imperial Senate Guard
+The Imperial Senate Guard is an elite unit of soldiers in the Galactic Empire. Stemming from the original Senate Guard of the Galactic Republic, the Imperial Senate Guard inherited the duty to protect senators and to accompany them as they traveled the galaxy. However, their true purpose is to ensure that the Imperial Senate remains loyal to Emperor Palpatine, the architect of the New Order. The Imperial Senate Guard's armor is blue-colored, and they are trained solely in melee combat, being equipped with cortosis staffs and personal energy shields that are powerful enough to deflect lightsaber attacks.
+
+___
+> ## Imperial Senate Guard
+> *Medium humanoid (human), lawful dark*
+> ___
+> - **Armor Class** 17 (battle armor and personal shield)
+> - **Hit Points** 49 (9d8 + 9)
+> - **Speed** 30.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|15 (+2)|13 (+1)|14 (+2)|13 (+1)|13 (+1)|10 (0)|
+>___
+> - **Damage Resistances** Energy from melee weapons
+> - **Skills** Perception +3, Insight +3
+> - **Senses** passive Perception 13
+> - **Languages** Galactic Basic
+> - **Challenge** 3 (700 XP)
+> ___
+> ***Choreography of Belligerence.*** The Imperial Senate Guard has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.
+> ### Actions
+> ***Multiattack.*** The Imperial Senate Guard makes two attacks.
+>
+> ***Cortosis Staff.*** *Melee Weapon Attack:* +4 to hit, reach 5ft., one target. *Hit* 5 (1d6 + 2) kinetic damage.
+
+<br>
+
+> *"We are an Empire ruled by the majority! An Empire ruled by a new Constitution! An Empire of laws, not of politicians! An Empire devoted to the preservation of a just society. Of a safe and secure society! We are an Empire that will stand for ten thousand years!"*
+>
+> ?Palpatine
+
+\columnbreak
+
+### Imperial Senate Sentinel
+A subdivision of the Senate Guard, the Senate Sentinels were charged with protecting the Jedi Temple on Coruscant from looters and were specially trained to kill Jedi. Their armor and robes were gray and white, and they wield powerful force pikes that can effectively block a Jedi's lightsaber. They have robotic voices and are thought to be cyborgs.
+
+___
+> ## Imperial Guard Sentinel
+> *Medium humanoid (human), lawful dark*
+> ___
+> - **Armor Class** 17 (powered durasteel armor)
+> - **Hit Points** 84 (13d8 + 26)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|17 (+3)|10 (0)|17 (+3)|10 (0)|16 (+3)|9 (+0)|
+>___
+> - **Damage Resistances** Energy from melee weapons
+> - **Skills** Perception +6, Insight +6
+> - **Senses** passive Perception 15
+> - **Languages** Galactic Basic
+> - **Challenge** 6 (2,300 XP)
+> ___
+> ***Choreography of Belligerence.*** The Imperial Senate Sentinel has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+> ***Force Pike.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit* 8 (1d10 + 3) kinetic damage plus 6 (2d6) lightning damage. On a hit, the target must then succeed on a Constitution Saving Throw (DC 14) or become stunned.
+
+<img src='https://vignette.wikia.nocookie.net/starwars/images/b/b0/Senate-Guard-helmet-SWCT.png/revision/latest?cb=20170603041457' style='position:absolute;bottom:-5px;right:120px;width:200px; z-index:1000' />
+
+<div class='footnote'>IMPERIAL GUARDIANS</div>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class='wide'>
+
+### Imperial Guard Champion
+  
+</div>
+
+<div class='wide'>
+
+Imperial Guard Champions, also known as Sovereign Protectors, are the most elite cadre of guardsmen in Imperial service.
+  
+Only the best of the elite Emperor's Royal Guard are specially chosen to become Sovereign Protectors. They endure years of selection procedures and training aimed at achieving perfection in soldiering. Extreme standards are set for combat fitness, stamina, strength, dexterity, mental acuity, reaction time, loyalty and intelligence. Their combat training includes the use of heavy blaster pistols and the deadly double vibroblade. They also have access to Emperor's Royal Guard TIE/IN starfighters, and are often sent on extremely vital missions.
+  
+</div>
+
+<br>
+
+___
+___
+> ## Imperial Guard Champion
+> *Medium humanoid (human), lawful dark*
+> ___
+> - **Armor Class** 18 (heavy durasteel armor)
+> - **Hit Points** 180 (24d8 + 72)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|19 (+4)| 12 (+1)|13 (+1)|11 (0)|16 (+3)|19 (+4)|
+>___
+> - **Saving Throws** Con +5, Int +4, Wis +7
+> - **Condition Immunities** Frightened
+> - **Skills** Intimidation +8, Perception +7
+> - **Senses** passive Perception 117
+> - **Languages** Galactic Basic
+> - **Challenge** 11 (7,200 XP)
+> ___
+> ***Forcecasting.*** The Royal Guard Champion's innate forcecasting ability is Wisdom (force save DC 16, +8 to hit with force powers). It can innately cast the following Force Powers:
+> 
+> At will: *enfeeble*
+>
+> 2/day each: *battle meditation, fear, battle precognition*
+>
+> ***Choreography of Belligerence.*** The Royal Guard Champion has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ***Rally the Troops.*** As a bonus action, the Imperial Royal Guard Champion can magically end the charmed and frightened conditions on itself and each creature of its choice that it can see within 30 feet of it. 
+>
+> ### Actions
+> ***Blaster Pistol.*** *Ranged Weapon Attack:* +5 to hit, range 40/160, one target. *Hit:* 4 (1d6 + 1) energy damage.
+>
+> ***Doublesword.*** *Melee Weapon Attack:* +9 to hit, reach 5ft., one target. *Hit* 13 (2d8 + 4) kinetic energy.
+>
+> ### Reactions
+> ***Parry.*** The Royal Guard Champion adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard Champion must see the attacker and be wielding a melee weapon.
+
+<img src='https://www.gmbinder.com/images/ScAEOM7.png' style='position:absolute;top:0px;right:0px;width:840px;filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div class='footnote'>IMPERIAL GUARDIANS</div>
+
+\pagebreakNum
+
+<img src="https://www.gmbinder.com/images/YB2KHy4.png" style="position:absolute; left:18px; top:75px; width:48px;" />
+<img src="https://www.gmbinder.com/images/JA2xrqp.png" style="position:absolute; left:18px; top:120px; width:48px;" />
+
+### Imperial Royal Guard
+The Emperor's Royal Guard, also known as the Imperial Royal Guard, the Imperial Guard or the Red Guard, is an elite unit whose members serve as personal bodyguards to the Galactic Emperor. Fully clad in crimson robes and face-concealing helmets, the Emperor's guards are a silent, imposing, and deadly force armed with force pikes. In addition to strict requirements of size, strength, intelligence, and loyalty, only the most skilled soldiers in the Imperial Military qualify for duty in the Royal Guard. The Imperial Royal Guard is also occasionally assigned to provide protection to members of the Imperial Ruling Council and even Lord Vader himself.
+
+<br>
+
+___
+> ## Imperial Royal Guard
+> *Medium humanoid (human), lawful dark*
+> ___
+> - **Armor Class** 17 (powered battle armor)
+> - **Hit Points** 91 (14d8 + 28)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|14 (+2)|16 (+3)|10 (0)|17 (+3)|9 (-1)|
+>___
+> - **Saving Throws** Dex +6, Con +7, Wis, +7
+> - **Skills** Athletics +8, Perception +7, Insight +7
+> - **Senses** passive Perception 17
+> - **Languages** Glactic Basic
+> - **Challenge** 9 (5,000 XP)
+> ___
+> ***Choreography of Belligerence.*** The Imperial Royal Guard has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+> ***Multiattack.*** The Imperial Royal Guard makes two attacks.
+>
+> ***Vibroblade.*** *Melee Weapon Attack:* +8 to hit, hit, reach 5ft., one target. Hit: 8 (1d8 + 4) kinetic damage.
+>
+> ***Force Pike.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit* 9 (1d10 + 4) kinetic damage plus 12 (4d6) lightning damage. On a hit, the target must then succeed on a Constitution Saving Throw (DC 17) or become stunned.
+> ___
+> ### Reactions
+> ***Parry.*** The Royal Gard adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard must see the attacker and bewielding a melee weapon.
+
+<br><br><br><div style='margin-top:458px'></div>
+
+<img src='https://i.pinimg.com/originals/fd/45/84/fd45845bd0d59f52091f23a2b90009d4.png' style='position:absolute;bottom:22px;right:-20px;width:500px;height:1000px;transform:scaleX(-1)' />
+
+<div class='footnote'>IMPERIAL GUARDIANS</div>
+
+\pagebreakNum
+
+<img src="https://www.gmbinder.com/images/YB2KHy4.png" style="position:absolute; right:18px; top:75px; width:48px;" />
+<img src="https://www.gmbinder.com/images/JA2xrqp.png" style="position:absolute; right:18px; top:120px; width:48px;" />
+
+<br>
+
+\columnbreak
+
+### Imperial Shadow Guard
+The Emperor's Shadow Guard is an organization of elite, Force-sensitive soldiers.  Many suspect that they are former Jedi that have been captured, tortured, and brainwashed by Palpatine. They have been trained by Darth Vader. They were silent and enigmatic warriors that received orders directly from Emperor Palpatine himself and are often sent to eliminate suspected Jedi and other Force users.  The Shadow Guards command a great level of respect within the Empire's ranks and often lead quartets of Imperial Stormtroopers into battle against the Emperor's most hated foes. Shadow Guard members are often guarded by their own detail made up of Imperial Navy Commandos or stormtroopers, or in certain cases, members of the standard Royal Guard,
+
+<br>
+
+___
+
+> ## Imperial Shadow Guard
+> *Medium humanoid (human), lawful dark*
+> ___
+> - **Armor Class** 17 (powered battle armor)
+> - **Hit Points** 118 (15d8 + 45)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|19 (+4)|18 (+4)|12 (+1)|10 (0)|19 (+4)|11 (0)|
+>___
+> - **Saving Throws** Dex +8, Con +5, Wis +8
+> - **Skills** Athletics +9, Perception +8, Insight +8
+> - **Senses** passive Perception 18
+> - **Languages** Glactic Basic
+> - **Challenge** 10 (5,900 XP)
+> ___
+>
+> ***Devotion***. The Imperial Shadow Guard has advantage on saving throws against being charmed or frightened.
+>
+> ***Forcecasting.*** The Imperial Shadow Guard's innate forcecasting ability is Wisdom (force save DC 16, +8 to hit with force powers). It can innately cast the following Force Powers:
+> 
+> At will: *force pull/push*
+>
+> 3/day each: *affliction, hex, saber reflect, wound, sap vitality*
+>
+> 1/day each: *master speed, force lighting, choke*
+> ___
+> ### Actions
+> ***Multiattack.*** The Imperial Shadow Guard makes two attacks.
+>
+> ***Blaster Pistol.*** *Ranged Weapon Attack:* +8 to hit, range 40/160, one target. Hit: 7 (1d6 + 4) energy damage.
+>
+> ***Lightsaber Pike.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit* 10 (1d10 + 5) energy damage.
+
+<img src='https://www.gmbinder.com/images/HATtC4s.png' style='position:absolute;bottom:28px;left:-40px;width:500px;transform:scaleX(-1)' />
+
+<div class='footnote'>IMPERIAL GUARDIANS</div>
 
 \pagebreakNum
 
@@ -5336,7 +5826,7 @@ ___
 > - **Challenge** 3 (700 XP)
 > ___
 >
->***Jedi Hunter.*** The trooper has advantage on Wisdome (survival) checks to track humanoids that can cast force powers and on Intelligence (lore) checks to recall information about Jedi and the Force.
+>***Jedi Hunter.*** The trooper has advantage on Wisdom (Survival) checks to track humanoids that can cast force powers and on Intelligence (Lore) checks to recall information about Jedi and the Force.
 >
 > ***Force Combat Training.*** The trooper has advantage on saving throws against Force powers.
 >
@@ -5588,7 +6078,7 @@ ___
 >
 > ***Blaster Cannon.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 6 (1d10+1) energy damage.
 >
-> ***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 10ft., one target. *Hit:* 8 (1d10+3) kinetic damage.
+> ***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 8 (1d10+3) kinetic damage.
 
 <img src='https://vignette.wikia.nocookie.net/starwars/images/2/2e/Junk_Droid.jpg/revision/latest?cb=20081112204038' style='position:absolute;top:10px;right:0px;filter:brightness(120%);transform:scaleX(1);width:368px;mix-blend-mode:multiply'>
 
@@ -5624,7 +6114,7 @@ ___
 > ___
 > - **Armor Class** 14 (heavy combat suit)
 > - **Hit Points** 22 (4d8 + 4)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -5643,7 +6133,7 @@ ___
 > ### Actions
 > ***Multiattack.*** The Kolkpravis Warrior makes two meelee attacks with its Shoni Spear or two ranged attack with its slugthrower.
 > 
-> ***Lig Sword.*** *Melee Weapon Attack:* 34 to hit, reach 5ft, one target. *Hit* 5 (1d8 + 1) kinetic damage.
+> ***Lig Sword.*** *Melee Weapon Attack:* +4 to hit, reach 5ft, one target. *Hit* 5 (1d8 + 1) kinetic damage.
 > 
 > ***Shoni Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5ft. or range 20/60, one target. *Hit* 4 (1d6 + 1) kinetic damage.
 > 
@@ -5659,7 +6149,7 @@ ___
 > ___
 > - **Armor Class** 16 (battle armor)
 > - **Hit Points** 55 (10d8 + 15)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -5680,7 +6170,7 @@ ___
 > 
 > ***Lig Sword.*** *Melee Weapon Attack:* +5 to hit, reach 5ft, one target. *Hit* 6 (1d8 + 3) kinetic damage.
 > 
-> ***Greater Shoni Spear..*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 10ft., one target. *Hit* 8 (1d10 + 3) kinetic damage.
+> ***Greater Shoni Spear..*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit* 8 (1d10 + 3) kinetic damage.
 > 
 > ***Outland Rifle.*** *Ranged Weapon Attack:* +4 to hit, range 30/120, one target. *Hit* 5 (1d6 + 2) kinetic damage.
 > 
@@ -5703,7 +6193,7 @@ ___
 > ___
 > - **Armor Class** 15 (light battle armor)
 > - **Hit Points** 49 (9d8 + 9)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -5723,7 +6213,7 @@ ___
 > 
 > ***Lig Sword.*** *Melee Weapon Attack:* +5 to hit, reach 5ft, one target. *Hit* 6 (1d8 + 2) kinetic damage.
 > 
-> ***Greater Shoni Spear.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 10ft., one target. *Hit* 8 (1d10 + 3) kinetic damage.
+> ***Greater Shoni Spear.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit* 8 (1d10 + 3) kinetic damage.
 > 
 > ***Outland Rifle.*** *Ranged Weapon Attack:* +4 to hit, range 30/120, one target. *Hit* 5 (1d6 + 2) kinetic damage.
 > 
@@ -5739,7 +6229,7 @@ ___
 > ___
 > - **Armor Class** 17 (powered battle armor)
 > - **Hit Points** 72 (11d8 + 28)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -5781,7 +6271,7 @@ ___
 > ___
 > - **Armor Class** 18 (powered battle armor)
 > - **Hit Points** 82 (11d8 + 38)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -5829,7 +6319,7 @@ ___
 > ___
 > - **Armor Class** 18 (powered battle armor)
 > - **Hit Points** 113 (15d8 + 53)
-> - **Speed** 30ft.
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -6085,14 +6575,14 @@ ___
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 4 (1d6+1)
-> - **Speed** 30ft. climb 30ft.
+> - **Speed** 30 ft. climb 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|5 (-3)| 14 (+2)| 12 (+1)| 1 (-5)| 12 (+1)| 2 (-4)|
 >___
 > - **Skills** Perception +3
-> - **Senses** blindsight 30ft. passive Perception 11
+> - **Senses** blindsight 30 ft. passive Perception 11
 > - **Challenge** 1/4 ( XP)
 > ___
 >
@@ -6280,7 +6770,7 @@ ___
 > ___
 > - **Armor Class** 18 (natural armor)
 > - **Hit Points** 168 (16d10+80)
-> - **Speed** 40 ft. burrow 80ft.
+> - **Speed** 40 ft. burrow 80 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -6289,7 +6779,7 @@ ___
 > - **Saving Throws** Dex +4, Con +9
 > - **Skill** Perception +8, Stealth +4
 > - **Senses** darkvision 120ft, passive perception 18
-> - **Challenge** 9 ( XP)
+> - **Challenge** 9 (5,000 XP)
 > ___
 > ### Actions
 > ***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
@@ -6851,7 +7341,7 @@ ___
 >*Small beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 6 (1d12)
+> - **Hit Points** 7 (2d6)
 > - **Speed** 5 ft., fly 40ft
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -7191,7 +7681,7 @@ ___
 
 ___
 > ## Pelko Bug Swarm
->*Large swarm of tiny beasts, unaligned*
+>*Large swarm of Tiny beasts, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 63  (6d10+33)
@@ -7380,7 +7870,7 @@ ___
 >*Large tree, unaligned*
 > ___
 > - **Armor Class** 12
-> - **Hit Points** 172(15d12 + 80)
+> - **Hit Points** 164 (16d10+80)
 > - **Speed** 10 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -7391,7 +7881,7 @@ ___
 > - **Damage Vulnerabilities** fire
 > - **Condition Immunities** blinded, deafened, frightened, exhaustion
 > - **Senses** blindsight 90 ft., passive Perception 8
-> - **Languages** Basic, any one other of your choice
+> - **Languages** Galactic basic and one other
 > - **Challenge** 7 (2,900 XP)
 > ___
 > 
@@ -7971,12 +8461,12 @@ ___
 >*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
-> - **Hit Points** 75 (10d8+30)
+> - **Hit Points** 95 (10d8+50)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+5)|11 (+0)|16 (+5)|4 (-3)|9 (-1)|6 (-2)|
+>|19 (+4)|11 (+0)|20 (+5)|4 (-3)|9 (-1)|6 (-2)|
 >___
 > - **Senses** darkvision 120 ft., passive Perception 9
 > - **Languages** —
@@ -7985,9 +8475,9 @@ ___
 > ### Actions
 > ***Multiattack.***  The rancor makes two attacks: one with its claws, and one with its bite.
 >
-> ***Claw.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit* 7 (1d6+4) kinetic damage.
+> ***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit* 7 (1d6+4) kinetic damage.
 >
-> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit* 9 (1d10+4) kinetic damage.
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit* 9 (1d10+4) kinetic damage.
 
 <img src='https://www.gmbinder.com/images/NWTxbTv.jpg' style='position:absolute; top:20px; right:-40px; width:550px;mix-blend-mode:darken;filter:brightness(100%)contrast(100%) grayscale(0%)hue-rotate(0deg) opacity(100%)saturate(100%)sepia(0%);transform:scaleX(-1);'/>
 
@@ -8290,7 +8780,7 @@ ___
 >*Small droid, unaligned*
 > ___
 > - **Armor Class** 10
-> - **Hit Points** 9 (2d8)
+> - **Hit Points** 7 (2d6)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -8497,7 +8987,7 @@ ___
 >*Gargantuan plant, unaligned*
 > ___
 > - **Armor Class** 18 (natural armor)
-> - **Hit Points** 464 (32d12 + 256)
+> - **Hit Points** 464 (32d20 + 256)
 > - **Speed** 0 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -8982,7 +9472,7 @@ ___
 > - **Damage Resistances** necrotic, poison, psychic
 > - **Condition Immunities** poison, disease
 > - **Senses** darkvision 60 ft., passive Perception 13
-> - **Languages** Galactic Basic, Binary, and two others
+> - **Languages** Galactic basic, binary, and two others
 > - **Challenge** 2 (450 XP)
 > ___
 > ***Circuitry.*** The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.
@@ -9085,7 +9575,7 @@ ___
 >*Large aberration, chaotic dark*
 > ___
 > - **Armor Class** 16 (natural armor)
-> - **Hit Points** 173 (10d20+73)
+> - **Hit Points** 190 (20d10+80)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -9696,7 +10186,7 @@ ___
 >*Large aberration, lawful dark*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 52  (7d8+21)
+> - **Hit Points** 59  (7d10+21)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -10025,7 +10515,7 @@ ___
 > - **Languages** Tusken
 > - **Challenge** 4 (1,100 XP)
 > ___
-> ***Agressive*** As a bonus action, the cheiftain can move up to its speed toward a hostile creature that it can see.
+> ***Aggressive*** As a bonus action, the cheiftain can move up to its speed toward a hostile creature that it can see.
 > ### Actions
 > ***Multiattack.*** The chieftain makes two gaffi stick attacks.
 >
@@ -10070,7 +10560,7 @@ ___
 > - **Languages** Tusken
 > - **Challenge** 2 (450 XP)
 > ___
-> ***Agressive*** As a bonus action, the tusken can move up to its speed toward a hostile creature that it can see.
+> ***Aggressive*** As a bonus action, the tusken can move up to its speed toward a hostile creature that it can see.
 > ### Actions
 > ***Multiattack.*** The tusken makes two gaffi stick attacks.
 >
@@ -10095,7 +10585,7 @@ ___
 > - **Languages** Tusken
 > - **Challenge** 1/2 (100 XP)
 > ___
-> ***Agressive*** As a bonus action, the tusken can move up to its speed toward a hostile creature that it can see.
+> ***Aggressive*** As a bonus action, the tusken can move up to its speed toward a hostile creature that it can see.
 > ### Actions
 > ***Gaffi Stick*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit* 7 (1d10+2) kinetic damage.
 >
@@ -10252,16 +10742,16 @@ ___
 >*Large beast, chaotic balanced*
 > ___
 > - **Armor Class** 17
-> - **Hit Points** 180
-> - **Speed** 50 ft. Climbing 30ft
+> - **Hit Points** 170 (20d10+60)
+> - **Speed** 50 ft., climb 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|20 (+5)|16 (+3)|16 (+3)|10 (0)|18 (+4)|7 (-2)|
 >___
 > - **Skills** Perception +12, Stealth +11 Atheletics +9 
-> - **Damage Resistances** Poison, Acid Energy
-> - **Condition Immunities** Poisoned
+> - **Damage Resistances** acid, energy, poison
+> - **Condition Immunities** poisoned
 > - **Senses** darkvision 60 ft., passive Perception 20
 > - **Languages** Yuuzhan Vong
 > - **Challenge** 15
@@ -10759,7 +11249,7 @@ ___
 >*Large beast, unaligned*
 > ___
 > - **Armor Class** 16 (natural armor)
-> - **Hit Points** 63 (6d10+33)
+> - **Hit Points** 68 (8d10+24)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -10883,7 +11373,7 @@ ___
 
 ___
 > ## Ysalamiri Swarm
->*Medium swarm of tiny beasts, unaligned*
+>*Medium swarm of Tiny beasts, unaligned*
 > ___
 > - **Armor Class** 10 
 > - **Hit Points** 28 (8d6)
@@ -10900,7 +11390,7 @@ ___
 > ___
 > ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Small ysalamiri. The swarm can't regain hit points or gain temporary hit points.
 >
-> ***Force Nullify.*** The Swarm of Ysalamiri create a 1080 ft. radius bubble that neutralizes the presence of the force, or a 80 ft. radius bubble if the swarm has half its hit points or fewer.
+> ***Force Nullify.*** The swarm creates a 1080 foot radius bubble that neutralizes the presence of the force, or a 80 foot radius bubble if the swarm has half its hit points or fewer.
 >
 > ### Actions
 > ***Bites.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target in the swarm's space. *Hit:* 5 (2d4) kinetic damage, or 2 (1d4) kinetic damage if the swarm has half of its hit points or fewer.
@@ -11173,7 +11663,8 @@ ___
 \columnbreak
 
 ### Hive Rat
-Hive rats were enormous, nearly hairless, rapacious rodents who inhabited the sewers and lowest levels of Coruscant. The mutant rat species was often believed to be the result of ecosystem damage and exposure to sewage, pollution, and reactor radiatio
+Hive rats were enormous, nearly hairless, rapacious rodents who inhabited the sewers and lowest levels of Coruscant. The mutant rat species was often believed to be the result of ecosystem damage and exposure to sewage, pollution, and reactor radiation.
+
 ___
 > ## Hive Rat
 >*Medium beast, unaligned*
@@ -11686,7 +12177,7 @@ ___
 \columnbreak
 
 ### Stintaril
-Stintarils are a speedy, nomadic species of rodent native to Yavin 4, dweling in the jungle canopy.  They have sharp teeth and a knobby hairless tail used for balance. These rodents attack in swarms.
+Stintarils are a speedy, nomadic species of rodent native to Yavin 4, dwelling in the jungle canopy.  They have sharp teeth and a knobby hairless tail used for balance. These rodents attack in swarms.
 ___
 > ## Stintaril
 >*Tiny beast, unaligned*
@@ -11711,7 +12202,7 @@ ___
 
 ___
 > ## Stintaril Swarm
->*Medium swarm of tiny beasts, unaligned*
+>*Medium swarm of Tiny beasts, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 24 (7d8 - 7)
