@@ -384,7 +384,7 @@ namespace StarWars5e.Parser.Parsers
                     var monsterBehavior = new MonsterBehavior
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
-                        Name = name,
+                        Name = name.RemoveMarkdownCharacters(),
                         Description = string.Join(" ", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() }).RemoveMarkdownCharacters(),
                         Restrictions = restrictions
                     };

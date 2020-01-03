@@ -102,25 +102,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         }
 
         [TestCase("TestData.mm_sample.txt")]
-        [TestCase("TestData.SNV_Content_sample.txt")]
-        public async Task ParsedNewFormat_AssertFlavorTextParsed(string fileName)
-        {
-            _filesToParse = new List<string> { fileName };
-
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse));
-
-            foreach (var monster in monsterResult)
-            {
-                Assert.NotNull(monster.FlavorText, $"{monster.Name} failed to have flavor text.");
-                //Assert.IsNotEmpty(monster.FlavorText, $"{monster.Name} failed to have flavor text.");
-
-                new JsonSerializer().Serialize(TestContext.Out, monster);
-            }
-        }
-
-        [TestCase("TestData.mm_sample.txt")]
-        [TestCase("TestData.new_mm_content.txt")]
-        [TestCase("TestData.SNV_Content_sample.txt")]
+        [TestCase("SNV_Content.txt")]
         public async Task GenericParse_AssertValues(string fileName)
         {
             _filesToParse = new List<string> { fileName };
@@ -180,7 +162,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         }
 
         [TestCase("TestData.mm_sample.txt")]
-        [TestCase("TestData.new_mm_content.txt")]
+        [TestCase("SNV_Content.txt")]
         public async Task ParsedGeneric_AssertBehaviors(string fileName)
         {
             _filesToParse = new List<string> { fileName };
@@ -188,25 +170,64 @@ namespace StarWars5e.ParserTests.MonsterManual
 
             foreach(var monster in monsterResult)
             {
-
-                Assert.NotNull(monster.Behaviors);
-                Assert.IsNotEmpty(monster.Behaviors);
-
-                foreach(var action in monster.Behaviors)
+                try
                 {
-                    new JsonSerializer().Serialize(TestContext.Out, action);
+                    Assert.NotNull(monster.Behaviors);
+                    Assert.IsNotEmpty(monster.Behaviors);
 
-                    Assert.NotNull(action.AttackBonus);
-                    Assert.NotNull(action.AttackType);
-                    Assert.NotNull(action.AttackTypeEnum);
-                    Assert.NotNull(action.DamageTypeEnum);
-                    Assert.IsNotNull(action.DamageType);
+                    foreach (var action in monster.Behaviors)
+                    {
+                        Assert.NotNull(action.AttackBonus);
+                        Assert.NotNull(action.AttackType);
+                        Assert.NotNull(action.AttackTypeEnum);
+                        Assert.NotNull(action.DamageTypeEnum);
+                        Assert.IsNotNull(action.DamageType);
 
-                    Assert.IsNotEmpty(action.Damage);
-                    Assert.IsNotEmpty(action.DamageRoll);
-                    Assert.IsNotEmpty(action.Description);
+                        Assert.IsNotEmpty(action.Damage);
+                        Assert.IsNotEmpty(action.DamageRoll);
+                        Assert.IsNotEmpty(action.Description);
+                    }
+                } catch(AssertionException e)
+                {
+                    new JsonSerializer().Serialize(TestContext.Out, monster);
+                    throw e;
+                }
+
+                Assert.Pass();
+            }
+        }
+
+        [TestCase("SNV_Content.txt")]
+        public async Task ParsedGeneric_AssertLegendaryActions(string fileName)
+        {
+            _filesToParse = new List<string> { fileName };
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse));
+
+            var monsterBehaviors = monsterResult
+                .Where(x => x.Behaviors.Any())
+                .SelectMany(x => x.Behaviors);
+
+            var legendaryActions = monsterBehaviors.Where(x => x.MonsterBehaviorTypeEnum == MonsterBehaviorType.Legendary);
+
+            try
+            {
+                foreach (var lAction in legendaryActions)
+                {
+                    Assert.IsNotNull(lAction.Name);
+                    Assert.IsNotEmpty(lAction.Name);
+                    Assert.IsFalse(lAction.Name.Contains('*'));
+
+                    Assert.IsNotNull(lAction.Description);
+                    Assert.IsNotEmpty(lAction.Description);
                 }
             }
+            catch(AssertionException e)
+            {
+                new JsonSerializer().Serialize(TestContext.Out, legendaryActions);
+                throw e;
+            }
+
+            Assert.Pass();
         }
     }
 }

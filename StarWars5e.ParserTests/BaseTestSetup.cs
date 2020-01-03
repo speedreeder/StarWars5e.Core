@@ -1,5 +1,4 @@
 using NUnit.Framework;
-using System.Reflection;
 
 namespace StarWars5e.ParserTests
 {
