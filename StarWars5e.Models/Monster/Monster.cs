@@ -8,19 +8,16 @@ namespace StarWars5e.Models.Monster
 {
     public class Monster : BaseEntity
     {
-        public Monster()
-        {
-            Types = new List<string>();
-            ImageUrls = new List<string>();
-        }
         public string Name { get; set; }
+        public string FlavorText { get; set; }
+        public string SectionText { get; set; }
         public MonsterSize SizeEnum { get; set; }
         public string Size
         {
             get => SizeEnum.ToString();
             set => SizeEnum = Enum.Parse<MonsterSize>(value);
         }
-        public List<string> Types { get; set; }
+        public List<string> Types { get; set; } = new List<string>();
         public string TypesJson
         {
             get => Types == null ? "" : JsonConvert.SerializeObject(Types);
@@ -60,11 +57,12 @@ namespace StarWars5e.Models.Monster
             set => Skills = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
-        public List<string> DamageImmunities => DamageImmunitiesParsed.Select(d => d.ToString()).ToList();
+        public List<string> DamageImmunities => DamageImmunitiesParsed?.Select(d => d.ToString())?.ToList()
+            ?? new List<string>();
         public List<DamageType> DamageImmunitiesParsed { get; set; }
         public string DamageImmunitiesParsedJson
         {
-            get => DamageImmunitiesParsed == null ? "" : JsonConvert.SerializeObject(DamageImmunitiesParsed.Select(d => d.ToString()));
+            get => DamageImmunitiesParsed == null ? "" : JsonConvert.SerializeObject(DamageImmunities);
             set => DamageImmunitiesParsed = string.IsNullOrWhiteSpace(value) ? new List<DamageType>() : JsonConvert.DeserializeObject<List<DamageType>>(value).ToList();
         }
         public List<string> DamageImmunitiesOther { get; set; }
@@ -74,7 +72,8 @@ namespace StarWars5e.Models.Monster
             set => DamageImmunitiesOther = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
-        public List<string> DamageResistances => DamageResistancesParsed.Select(d => d.ToString()).ToList();
+        public List<string> DamageResistances => DamageResistancesParsed?.Select(d => d.ToString())?.ToList()
+            ?? new List<string>();
         public List<DamageType> DamageResistancesParsed { get; set; }
         public string DamageResistancesParsedJson
         {
@@ -88,14 +87,15 @@ namespace StarWars5e.Models.Monster
             set => DamageResistancesOther = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
-        public List<string> DamageVulnerabilities => DamageVulnerabilitiesParsed.Select(d => d.ToString()).ToList();
+        public List<string> DamageVulnerabilities => DamageVulnerabilitiesParsed?.Select(d => d.ToString())?.ToList()
+            ?? new List<string>();
 
         public List<DamageType> DamageVulnerabilitiesParsed { get; set; }
         public string DamageVulnerabilitiesParsedJson
         {
-            get => DamageVulnerabilitiesParsed == null ? "" : JsonConvert.SerializeObject(DamageVulnerabilitiesParsed.Select(d => d.ToString()));
+            get => DamageVulnerabilitiesParsed == null ? "" : JsonConvert.SerializeObject(DamageVulnerabilities);
             set => DamageVulnerabilitiesParsed = string.IsNullOrWhiteSpace(value) ? new List<DamageType>() : JsonConvert.DeserializeObject<List<DamageType>>(value).ToList();
-    }
+        }
         public List<string> DamageVulnerabilitiesOther { get; set; }
         public string DamageVulnerabilitiesOtherJson
         {
@@ -103,11 +103,12 @@ namespace StarWars5e.Models.Monster
             set => DamageVulnerabilitiesOther = JsonConvert.DeserializeObject<List<string>>(value);
         }
 
-        public List<string> ConditionImmunities => ConditionImmunitiesParsed.Select(d => d.ToString()).ToList();
+        public List<string> ConditionImmunities => ConditionImmunitiesParsed?.Select(d => d.ToString())?.ToList() 
+            ?? new List<string>();
         public List<Condition> ConditionImmunitiesParsed { get; set; }
         public string ConditionImmunitiesParsedJson
         {
-            get => ConditionImmunitiesParsed == null ? "" : JsonConvert.SerializeObject(ConditionImmunitiesParsed.Select(d => d.ToString()));
+            get => ConditionImmunitiesParsed == null ? "" : JsonConvert.SerializeObject(ConditionImmunities);
             set => ConditionImmunitiesParsed = string.IsNullOrWhiteSpace(value) ? new List<Condition>() : JsonConvert.DeserializeObject<List<Condition>>(value).ToList();
     }
         public List<string> ConditionImmunitiesOther { get; set; }
@@ -137,7 +138,7 @@ namespace StarWars5e.Models.Monster
             get => Behaviors == null ? "" : JsonConvert.SerializeObject(Behaviors);
             set => Behaviors = JsonConvert.DeserializeObject<List<MonsterBehavior>>(value);
         }
-        public List<string> ImageUrls { get; set; }
+        public List<string> ImageUrls { get; set; } = new List<string>();
         public string ImageUrlsJson
         {
             get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);

@@ -25,7 +25,7 @@ namespace StarWars5e.Parser.Parsers
 
                 foreach (var location in locations)
                 {
-                    using (var stream = Assembly.GetEntryAssembly()
+                    using (var stream = Assembly.GetExecutingAssembly()
                         .GetManifestResourceStream($"StarWars5e.Parser.Sources.{location}"))
                     {
                         using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <LangVersion>latest</LangVersion>
     <UserSecretsId>4df08120-adf0-4bc3-8a82-a21a9bf62f25</UserSecretsId>
   </PropertyGroup>
@@ -41,6 +41,7 @@
     <None Remove="Sources\PHB\phb_aa.txt" />
     <None Remove="Sources\PHB\phb_ab.txt" />
     <None Remove="Sources\PHB\phb_changelog.txt" />
+    <None Remove="Sources\SNV_Content.txt" />
     <None Remove="Sources\sotg.md" />
     <None Remove="Sources\SOTG\sotg_00.txt" />
     <None Remove="Sources\SOTG\sotg_01.txt" />
@@ -90,6 +91,7 @@
     <EmbeddedResource Include="Sources\PHB\phb_aa.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_ab.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_changelog.txt" />
+    <EmbeddedResource Include="Sources\SNV_Content.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -106,6 +108,11 @@
     <EmbeddedResource Include="Sources\SOTG\sotg_10.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_aa.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_changelog.txt" />
+    <EmbeddedResource Include="Sources\TestData\mm_sample.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sources\TestData\new_mm_content.txt" />
+    <EmbeddedResource Include="Sources\TestData\SNV_Content_sample.txt" />
     <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
     <EmbeddedResource Include="Sources\WH\wh_03-04.txt" />
@@ -132,6 +139,10 @@
     <None Update="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sources\TestData\" />
   </ItemGroup>
 
 </Project>

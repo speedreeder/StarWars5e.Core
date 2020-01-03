@@ -13,7 +13,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly IBaseProcessor<Monster> _monsterProcessor;
-        private readonly List<string> _mmFileName = new List<string> { "mm.txt" };
+        private readonly List<string> _mmFileName = new List<string> { "SNV_Content.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
         public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)

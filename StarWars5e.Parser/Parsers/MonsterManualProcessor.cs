@@ -12,6 +12,8 @@ namespace StarWars5e.Parser.Parsers
 {
     public class MonsterProcessor : BaseProcessor<Monster>
     {
+        private string _lastSectionText = null;
+        private string _lastCreatureText = null;
 
         public override Task<List<Monster>> FindBlocks(List<string> lines)
         {
@@ -19,6 +21,18 @@ namespace StarWars5e.Parser.Parsers
 
             for (var i = 0; i < lines.Count; i++)
             {
+                if(lines[i].StartsWith("## ") || lines[i].StartsWith("### "))
+                {
+                    var flavorTextEndIndex = lines.FindIndex(i, f => f == "___" || f.StartsWith("### "));
+                    var flavorTextLines = lines.Skip(i)
+                        .Take(flavorTextEndIndex - i)
+                        .CleanListOfStrings()
+                        .ToList();
+
+                    if(flavorTextLines.Any())
+                        ParseFlavorText(flavorTextLines);
+                }
+
                 if (!lines[i].StartsWith("> ## ")) continue;
 
                 var monsterEndIndex = lines.FindIndex(i, f => f == string.Empty || f == "___");
@@ -31,9 +45,36 @@ namespace StarWars5e.Parser.Parsers
             return Task.FromResult(monsters);
         }
 
-        private static Monster ParseMonster(List<string> monsterLines)
+        private void ParseFlavorText(List<string> flavorTextLines)
+        {
+            var isSectionText = flavorTextLines.First().StartsWith("## ");
+
+            var key = flavorTextLines.Find(f => f.StartsWith("### ") || f.StartsWith("## "))
+                                ?.RemoveHashtagCharacters()
+                                ?.Trim();
+
+            var textLines = flavorTextLines?.Select(x => x.Contains("<") || x.Contains(">") ? "" : x)
+                        ?.Skip(1);
+
+            var text = textLines.Any() ? textLines.Aggregate((x, y) => x + y) : null;
+
+            if(text != null)
+            {
+                if(isSectionText)
+                {
+                    _lastSectionText = text;
+                }
+                else
+                {
+                    _lastCreatureText = text;
+                }
+            }
+        }
+
+        private Monster ParseMonster(List<string> monsterLines)
         {
             var name = monsterLines.Find(f => f.StartsWith("> ## ")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
+
             try
             {
                 var monster = new Monster
@@ -41,19 +82,29 @@ namespace StarWars5e.Parser.Parsers
                     ContentTypeEnum = ContentType.Core,
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = name,
-                    Name = name
+                    Name = name,
+                    FlavorText = _lastCreatureText ?? "",
+                    SectionText = _lastSectionText ?? "",
                 };
 
-                var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',');
+                _lastCreatureText = null;
+
+                var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',', '.');
 
                 monster.SizeEnum =
                     Enum.Parse<MonsterSize>(typeLine[0].RemoveMarkdownCharacters().Trim().Split(' ')[0], true);
 
-                var parenIndex = typeLine[0].Split(' ', 2)[1].Trim().IndexOf('(');
+                //removes parenthesis, if needed
+                typeLine[0] = Regex.Replace(typeLine[0], @"(\(+(\w* *)*\)+)", "");
 
-                monster.Types.Add(parenIndex != -1
-                    ? typeLine[0].Substring(typeLine[0].IndexOf('*') + 1).Split(' ', 2)[1].Replace("*", string.Empty).Trim().Remove(parenIndex-1).Trim()
-                    : typeLine[0].Substring(typeLine[0].IndexOf('*') + 1).Split(' ', 2)[1].Replace("*", string.Empty).Trim());
+                monster.Types.Add(typeLine.SafeAccess(0)
+                    .Substring(typeLine
+                        .SafeAccess(0)
+                        .IndexOf('*') + 1)
+                    .Split(' ', 2)
+                    .SafeAccess(1)
+                    .Replace("*", string.Empty)
+                    .Trim());
 
                 monster.Alignment = typeLine[1].Trim().RemoveMarkdownCharacters();
                 monster.ArmorClass = int.Parse(Regex
@@ -66,7 +117,8 @@ namespace StarWars5e.Parser.Parsers
 
                 monster.HitPoints = int.Parse(Regex
                     .Match(monsterLines.Find(f => f.Contains("**Hit Points**")), @"\d+").Value);
-                monster.HitPointRoll = monsterLines.Find(f => f.Contains("**Hit Points**")).Split('(', ')')[1];
+                monster.HitPointRoll = monsterLines.Find(f => f.Contains("**Hit Points**")).Split('(', ')')
+                    .SafeAccess(1) ?? "";
                 monster.Speed = int.Parse(Regex
                     .Match(monsterLines.Find(f => f.Contains("**Speed**")), @"\d+").Value);
                 monster.Speeds = monsterLines.Find(f => f.Contains("**Speed**")).Split("**")[2].Trim();
@@ -159,15 +211,16 @@ namespace StarWars5e.Parser.Parsers
                     .Split("**Senses**")[1].Split(',').Select(s => s.Trim()).ToList();
                 monster.Languages = monsterLines.Find(f => f.Contains("**Languages**"))?
                     .Split("**Languages**")[1].Split(new[] {",", "and"}, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(s => s.Trim()).ToList();
+                    .Select(s => s.Trim()).ToList() ?? new List<string> { "—" };
 
                 var challengeLine = monsterLines.Find(f => f.Contains("**Challenge**"));
                 var challengeRatingSplit = challengeLine
                     .Substring(challengeLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase)).Split(' ');
                 //var challengeRatingNumbers = Regex.Matches(monsterLines.Find(f => f.Contains("**Challenge**")), @"[0-9]+(,[0-9]+)*");
                 monster.ChallengeRating = challengeRatingSplit[1];
-                monster.ExperiencePoints = int.Parse(Regex.Match(challengeRatingSplit[2], @"[0-9]+(,[0-9]+)*").Value,
-                    NumberStyles.AllowThousands);
+                var didParseXP = int.TryParse(Regex.Match(challengeRatingSplit.SafeAccess(2) ?? "", @"[0-9]+(,[0-9]+)*").Value,
+                    NumberStyles.AllowThousands, null,  out var parsedXP);
+                monster.ExperiencePoints = didParseXP ? parsedXP : 0;
 
                 monster.Behaviors = new List<MonsterBehavior>();
                 var lastUnderScoreLine = monsterLines.FindLastIndex(f => f.Contains("___")) + 1;
@@ -232,7 +285,7 @@ namespace StarWars5e.Parser.Parsers
             }
             catch (Exception e)
             {
-                throw new Exception($"Failed while parsing {name}", e);
+                throw new Exception($"Failed while parsing {name} with lines of {monsterLines.Count}", e);
             }
         }
 
@@ -254,6 +307,28 @@ namespace StarWars5e.Parser.Parsers
             }
 
             return MonsterBehaviorType.None;
+        }
+
+        private bool MatchOnNameVariations(string textToMatch, string input)
+        {
+            input = input.Replace(",", string.Empty);
+
+            if (textToMatch.Contains(input))
+            {
+                return true;
+            }
+
+            if (input.Contains(textToMatch))
+            {
+                return true;
+            }
+
+            if(input.Contains(textToMatch.Replace("s", string.Empty)) || input.Contains(textToMatch.Replace("ies", string.Empty)))
+            {
+                return true;
+            }
+
+            return false;
         }
 
         private static IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(IReadOnlyList<string> behaviorLines, MonsterBehaviorType behaviorType)
@@ -366,16 +441,17 @@ namespace StarWars5e.Parser.Parsers
 
                             var attackSplit = baseLine.Split("***")[2].Trim().Split(',').Select(s => s.Trim()).ToList();
                             var hitSplit = Regex.Split(baseLine.Split("***")[2].Trim(), @"\*Hit[:]*\*|Hit:");
-                            var hitCommaSplit = hitSplit[0].Split(',').ToList();
-                            var hitSpaceSplit = hitSplit[1].Split(' ').ToList();
-                            monsterBehavior.AttackBonus = int.Parse(Regex.Match(attackSplit[0], @"-?\d+").Value);
-                            monsterBehavior.Range = attackSplit[1].Trim();
-                            monsterBehavior.NumberOfTargets = hitCommaSplit[2].Trim();
+                            var hitCommaSplit = hitSplit.SafeAccess(0)?.Split(',')?.ToList() ?? new List<string>();
+                            var hitSpaceSplit = hitSplit.SafeAccess(1)?.Split(' ')?.ToList() ?? new List<string>();
+                            var didParseAttBonus = int.TryParse(Regex.Match(attackSplit[0], @"-?\d+").Value, out var parsedAttBonus);
+                            monsterBehavior.AttackBonus = didParseAttBonus ? parsedAttBonus : 0;
+                            monsterBehavior.Range = attackSplit.ToArray().SafeAccess(1)?.Trim() ?? "";
+                            monsterBehavior.NumberOfTargets = hitCommaSplit.ToArray().SafeAccess(2)?.Trim();
 
-                            if (Regex.IsMatch(hitSplit[1].Trim(), @"^\d+.*\(.*\)"))
+                            if (Regex.IsMatch(hitSplit.SafeAccess(1)?.Trim() ?? string.Empty, @"^\d+.*\(.*\)"))
                             {
-                                monsterBehavior.Damage = Regex.Match(hitSplit[1], @"-?\d+").Value.Trim();
-                                monsterBehavior.DamageRoll = hitSplit[1].Split('(', ')').ElementAtOrDefault(1)?.Trim();
+                                monsterBehavior.Damage = Regex.Match(hitSplit.SafeAccess(1) ?? string.Empty, @"-?\d+").Value.Trim();
+                                monsterBehavior.DamageRoll = hitSplit.SafeAccess(1)?.Split('(', ')').ElementAtOrDefault(1)?.Trim();
                                 if (hitSpaceSplit.FindIndex(f =>
                                         f.Contains("damage", StringComparison.InvariantCultureIgnoreCase)) != -1)
                                 {

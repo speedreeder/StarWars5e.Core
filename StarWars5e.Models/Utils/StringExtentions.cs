@@ -32,6 +32,11 @@ namespace StarWars5e.Models.Utils
             return input.Replace("_", string.Empty);
         }
 
+        public static string RemoveHashtagCharacters(this string input)
+        {
+            return input.Replace("#", string.Empty);
+        }
+
         public static bool IsJustHtmlOrOtherWhitespace(this string input)
         {
             return string.IsNullOrWhiteSpace(input.RemoveHtmlWhitespace());
