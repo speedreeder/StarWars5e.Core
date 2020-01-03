@@ -320,6 +320,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Ardennian":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_ardennian.png");
                         break;
+                    case "Balosar":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_balosar.png");
+                        break;
                     case "Barabel":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_barabel.png");
                         break;
