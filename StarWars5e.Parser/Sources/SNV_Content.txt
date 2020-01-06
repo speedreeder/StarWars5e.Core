@@ -338,7 +338,7 @@ ___
 > ***Pack Tactics.*** The anooba has advantage on an attack roll against a creature if at least one of the anooba allies is within 5 ft. of the creature and the ally isn't incapacitated.
 > ___
 > ### Actions
-> ***Bite.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+> ***Bite.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: (2d6 + 3) kinetic damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
 
 <img src='https://www.gmbinder.com/images/zc7ymlS.png' style='position:absolute;bottom:-100px;right:50px;width:740px;z-index:1000' />
 
@@ -2639,7 +2639,7 @@ ___
 > ### Actions
 > ***Multiattack.*** The droid tank makes two medium laser cannon attacks.
 >
-> ***Crushing Stride.*** The droid tank moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the droid tank enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed 5 feet to the nearest space out of the droid tank's path . On a failed save, the creature falls prone and takes 28 (8d6) bludgeoning damage. If the droid tank remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the droid tank. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the droid tank and is no longer restrained. 
+> ***Crushing Stride.*** The droid tank moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the droid tank enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed 5 feet to the nearest space out of the droid tank's path . On a failed save, the creature falls prone and takes 28 (8d6) kinetic damage. If the droid tank remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the droid tank. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the droid tank and is no longer restrained. 
 >
 > ***Medium Laser Cannon.*** *Ranged Weapon Attack* +9 to hit, 100/400, one target. Hit 20 (3d10 + 4) energy damage.
 >
@@ -2862,7 +2862,7 @@ ___
 > ### Actions
 > ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) kinetic damage.
 >
-> ***Web (Recharge 5-6).*** *Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one creature. *Hit:* The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).
+> ***Web (Recharge 5-6).*** *Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one creature. *Hit:* The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to kinetic, poison, and psychic damage).
 
 > #### GM Note: Glitterstim
 > Giving the user a brief, pleasurable, telepathic boost and heightened mental state, glitterstim is a valuable and potent variety of the drug family "spice" that is mined on Kessel and is tightly controlled by the Galactic Empire.
@@ -3285,7 +3285,7 @@ ___
 >***Pack Tactics.*** The flutterplume has advantage on an attack roll against a creature if at least one of the flutterplume's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 >
 > ### Actions
-> ***Beak.*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: (1d4) piercing damage
+> ***Beak.*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: (1d4) kinetic damage
 
 <img src='https://www.gmbinder.com/images/fPFLWDS.png' style='position:absolute;top:40px;right:-50px;;width:700px;filter:brightness(100%)contrast(100%)saturate(100%);z-index:1000' />
 
@@ -3355,7 +3355,7 @@ ___
 >
 >***Lightning Strike (Costs 2 Actions).*** The eye can cause a bolt of lightning to strike a point anywhere under its storm.  Each creature within 5 feet of that point must make a DC 20 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much sonic damage on a successful one.
 >
->***Screaming Gale (Costs 3 Actions).*** The eye releases a blast of thunder and wind in a line that is 1 mile long and 20 ft. wide.  Objects in that area take 22 (4d10) sonic damage.  Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 (4d10) sonic damage and be flung up to 60 ft. in a direction away from the line.  If a thown target collides with immovable object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 ft. it was thrown before impact.  If the target would collide with another creature instead, that other creature must succeed on a DC19 Dexterity saving throw or take the same damage and be knocked prone.
+>***Screaming Gale (Costs 3 Actions).*** The eye releases a blast of thunder and wind in a line that is 1 mile long and 20 ft. wide.  Objects in that area take 22 (4d10) sonic damage.  Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 (4d10) sonic damage and be flung up to 60 ft. in a direction away from the line.  If a thown target collides with immovable object, such as a wall or floor, the target takes 3 (1d6) kinetic damage for every 10 ft. it was thrown before impact.  If the target would collide with another creature instead, that other creature must succeed on a DC19 Dexterity saving throw or take the same damage and be knocked prone.
 
 <img src='https://www.gmbinder.com/images/BAICNvu.jpg' style='position:absolute;top:485px;left:0px;transform:scaleX(1);width:900px;filter:brightness(100%)contrast(100%)saturate(100%)drop-shadow(0 0 10px rgba(13, 153, 204, 0.7)' />
 
@@ -3479,7 +3479,7 @@ ___
 >
 > ***Blaster Rifle.*** *Ranged Weapon Attack:* +5 to hit, range 100/400 ft., one target. *Hit:* 7 (1d8+3) energy damage.
 >
-> ***Massed Fire.*** The squad fires *en masse* at a point within 150 ft. Each creature of the squad's choice in a 10-foot-radius sphere centered on that point must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 36 (8d8) piercing damage, or 18 (4d8) piercing damage if the squad has half its hit points or fewer. On a successful save, it takes half as much damage.
+> ***Massed Fire.*** The squad fires *en masse* at a point within 150 ft. Each creature of the squad's choice in a 10-foot-radius sphere centered on that point must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 36 (8d8) kinetic damage, or 18 (4d8) kinetic damage if the squad has half its hit points or fewer. On a successful save, it takes half as much damage.
 
 <img src='https://www.gmbinder.com/images/YiSqlxw.png' style='position:absolute;top:410px;left:100px;width:280px;' />
 
@@ -3987,7 +3987,7 @@ ___
 >
 > ***Repeating Blaster Cannon.*** *Ranged Weapon Attack:* +5 to hit, range 60/240 ft., one target. *Hit:* 10 (2d6+3) energy damage.
 >
-> ***Mortar Launcher.*** The construct launches a mortar at a point it can see within 100 feet. Each creature in a 20-foot radius centered on that point must make a Dexterity saving throw. A target takes 14 (4d6) damage on a failed save, or half as much on a succesful one.
+> ***Mortar Launcher.*** The construct launches a mortar at a point it can see within 100 feet. Each creature in a 20-foot radius centered on that point must make a DC 13 Dexterity saving throw. A target takes 14 (4d6) damage on a failed save, or half as much on a succesful one.
 > ### Reactions
 > ***Redirect.*** If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage.
 
@@ -6590,7 +6590,7 @@ ___
 >
 > ### Actions
 >
-> ***Bite.*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+> ***Bite.*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) kinetic damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
 
 <img src='https://www.gmbinder.com/images/APgrDYi.png' style='position:absolute;bottom:60px;right:-50px;width:900px' />
 
@@ -7888,7 +7888,7 @@ ___
 > ### Actions
 > ***Multiattack.*** The vesuvague tree may make two *constrict* attacks per turn.
 >
-> ***Constrict.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit* 11 (1d8 + 5) bludgeoning damage, and a Large or smaller target is grappled (escape DC 16).
+> ***Constrict.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit* 11 (1d8 + 5) kinetic damage, and a Large or smaller target is grappled (escape DC 16).
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
@@ -8917,11 +8917,11 @@ ___
 > ### Actions
 > ***Multiattack.*** The monster uses its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. It can use its Swallow instead of its bite.
 >
-> ***Bite.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage. If the target is a creature it is grappled (escape DC 20). Until the grapple ends, the target is restrained, and the monster can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) kinetic damage. If the target is a creature it is grappled (escape DC 20). Until the grapple ends, the target is restrained, and the monster can't bite another target.
 >
->***Claw.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 17 (2d6 + 10) slashing damage.
+>***Claw.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 17 (2d6 + 10) kinetic damage.
 >
->***Tail.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage.
+>***Tail.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 19 (2d8 + 10) kinetic damage.
 >
 >***Frightful Presence.*** Each creature of the monster's choice within 120 feet of the monster and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effects ends for it, the creature is immune to the monster's Frightful Presence for 24 hours.
 >
@@ -11267,7 +11267,7 @@ ___
 >
 > ***Multiattack.*** The Wraid makes two attacks, once with its ram and one with its claws.
 >
-> ***Ram.*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 11 (3d6 + 3) bludgeoning damage.
+> ***Ram.*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 11 (3d6 + 3) kinetic damage.
 >
 > ***Claws.*** Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 7 (2d4+3) kinetic damage. 
 
@@ -11324,7 +11324,7 @@ ___
 > ### Actions
 > ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) kinetic damage, and the target must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
 >
-> ***Web (Recharge 5-6).*** *Ranged Weapon Attack:* +6 to hit, range 30/60 ft., one creature. *Hit:* The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).
+> ***Web (Recharge 5-6).*** *Ranged Weapon Attack:* +6 to hit, range 30/60 ft., one creature. *Hit:* The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to kinetic, poison, and psychic damage).
 
 <img src='https://vignette.wikia.nocookie.net/starwars/images/d/dc/Wyyyschokk-spider-SW-JFO.png/revision/latest?cb=20190608200302' style='position:absolute;top:-10px;left:0px;width:840px;transform:scalex(1);filter:brightness(130%)contrast(95%)saturate(100%)drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
 
@@ -11720,7 +11720,7 @@ ___
 > - **Languages** —
 > - **Challenge** 2 (450 XP)
 > ___
-> ***Charge.*** If the hrumph moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
+> ***Charge.*** If the hrumph moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) kinetic damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
 >
 > ### Actions
 > ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) kinetic damage.
