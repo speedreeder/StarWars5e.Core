@@ -132,7 +132,7 @@ namespace StarWars5e.Models.Monster
         }
         public string ChallengeRating { get; set; }
         public int ExperiencePoints { get; set; }
-        public List<MonsterBehavior> Behaviors { get; set; }
+        public List<MonsterBehavior> Behaviors { get; set; } = new List<MonsterBehavior>();
         public string BehaviorsJson
         {
             get => Behaviors == null ? "" : JsonConvert.SerializeObject(Behaviors);

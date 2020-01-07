@@ -21,9 +21,15 @@ namespace StarWars5e.Parser.Parsers
 
             for (var i = 0; i < lines.Count; i++)
             {
-                if(lines[i].StartsWith("## ") || lines[i].StartsWith("### "))
+                var canBeSectionText = lines[i].StartsWith("## ");
+                var canBeFlavorText = lines[i].StartsWith("### ");
+
+                if (canBeSectionText || canBeFlavorText)
                 {
-                    var flavorTextEndIndex = lines.FindIndex(i, f => f == "___" || f.StartsWith("### "));
+                    var flavorTextEndIndex = canBeSectionText 
+                        ? lines.FindIndex(i, f => f == "___" || f.StartsWith("### ")) 
+                        : lines.FindIndex(i, f => f == "___");
+
                     var flavorTextLines = lines.Skip(i)
                         .Take(flavorTextEndIndex - i)
                         .CleanListOfStrings()
@@ -47,6 +53,7 @@ namespace StarWars5e.Parser.Parsers
 
         private void ParseFlavorText(List<string> flavorTextLines)
         {
+            _lastCreatureText = null;
             var isSectionText = flavorTextLines.First().StartsWith("## ");
 
             var key = flavorTextLines.Find(f => f.StartsWith("### ") || f.StartsWith("## "))
@@ -86,8 +93,6 @@ namespace StarWars5e.Parser.Parsers
                     FlavorText = _lastCreatureText ?? "",
                     SectionText = _lastSectionText ?? "",
                 };
-
-                _lastCreatureText = null;
 
                 var typeLine = monsterLines.Find(f => f.StartsWith(">*") || f.StartsWith("> *")).RemoveMarkdownCharacters().Trim().Split(',', '.');
 
@@ -222,70 +227,75 @@ namespace StarWars5e.Parser.Parsers
                     NumberStyles.AllowThousands, null,  out var parsedXP);
                 monster.ExperiencePoints = didParseXP ? parsedXP : 0;
 
-                monster.Behaviors = new List<MonsterBehavior>();
-                var lastUnderScoreLine = monsterLines.FindLastIndex(f => f.Contains("___")) + 1;
-                var firstTripleHash = monsterLines.FindIndex(f => f.StartsWith("> ###"));
-
-                if (firstTripleHash != -1)
-                {
-                    var traitLines = monsterLines.Skip(lastUnderScoreLine).Take(firstTripleHash - lastUnderScoreLine).CleanListOfStrings().ToList();
-                    if (traitLines.Any())
-                    {
-                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, MonsterBehaviorType.Trait));
-                    }
-
-                    var secondTripleHash = monsterLines.FindIndex(firstTripleHash + 1, f => f.StartsWith("> ###"));
-                    if (secondTripleHash != -1)
-                    {
-                        traitLines = monsterLines.Skip(firstTripleHash).Take(secondTripleHash - firstTripleHash)
-                            .CleanListOfStrings().ToList();
-                        var behaviorType = DetermineBehaviorType(monsterLines[firstTripleHash]);
-                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
-
-                        var thirdTripleHash = monsterLines.FindIndex(secondTripleHash + 1, f => f.StartsWith("> ###"));
-                        if (thirdTripleHash != -1)
-                        {
-                            traitLines = monsterLines.Skip(secondTripleHash).Take(thirdTripleHash - secondTripleHash)
-                                .CleanListOfStrings().ToList();
-                            behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
-                            monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
-
-                            traitLines = monsterLines.Skip(thirdTripleHash).CleanListOfStrings().ToList();
-                            behaviorType = DetermineBehaviorType(monsterLines[thirdTripleHash]);
-                            monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
-                        }
-                        else
-                        {
-                            traitLines = monsterLines.Skip(secondTripleHash).CleanListOfStrings().ToList();
-                            behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
-                            monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
-                        }
-                    }
-                    else
-                    {
-                        traitLines = monsterLines.Skip(firstTripleHash).CleanListOfStrings().ToList();
-                        var result = Enumerable.Range(0, traitLines.Count)
-                            .Where(i => traitLines[i].StartsWith("> ***") || traitLines[i].StartsWith(">***"))
-                            .ToList();
-                        var behaviorType = DetermineBehaviorType(monsterLines[firstTripleHash]);
-                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
-                    }
-                }
-                else
-                {
-                    var traitLines = monsterLines.Skip(lastUnderScoreLine).ToList();
-
-                    if (traitLines.Any())
-                    {
-                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, MonsterBehaviorType.Trait));
-                    }
-                }
+                ParseBehaviorLines(monster, monsterLines);
 
                 return monster;
             }
             catch (Exception e)
             {
-                throw new Exception($"Failed while parsing {name} with lines of {monsterLines.Count}", e);
+                throw new Exception($"Failed while parsing {name}", e);
+            }
+        }
+
+        private void ParseBehaviorLines(Monster monster, List<string> monsterLines)
+        {
+            var firstTripleHashIndex = monsterLines.FindIndex(f => f.StartsWith("> ###"));
+            var lineAfterLastUnderscoreIndex = monsterLines.Select((line, index) => new { line, index })
+                .Last(s => s.line.Contains("___") && s.index < firstTripleHashIndex).index + 1;
+
+            if (firstTripleHashIndex != -1)
+            {
+                var traitLines = monsterLines.Skip(lineAfterLastUnderscoreIndex).Take(firstTripleHashIndex - lineAfterLastUnderscoreIndex).CleanListOfStrings().ToList();
+                if (traitLines.Any())
+                {
+                    monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, MonsterBehaviorType.Trait));
+                }
+
+                var secondTripleHash = monsterLines.FindIndex(firstTripleHashIndex + 1, f => f.StartsWith("> ###"));
+                if (secondTripleHash != -1)
+                {
+                    traitLines = monsterLines.Skip(firstTripleHashIndex).Take(secondTripleHash - firstTripleHashIndex)
+                        .CleanListOfStrings().ToList();
+                    var behaviorType = DetermineBehaviorType(monsterLines[firstTripleHashIndex]);
+                    monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
+
+                    var thirdTripleHash = monsterLines.FindIndex(secondTripleHash + 1, f => f.StartsWith("> ###"));
+                    if (thirdTripleHash != -1)
+                    {
+                        traitLines = monsterLines.Skip(secondTripleHash).Take(thirdTripleHash - secondTripleHash)
+                            .CleanListOfStrings().ToList();
+                        behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
+                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
+
+                        traitLines = monsterLines.Skip(thirdTripleHash).CleanListOfStrings().ToList();
+                        behaviorType = DetermineBehaviorType(monsterLines[thirdTripleHash]);
+                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
+                    }
+                    else
+                    {
+                        traitLines = monsterLines.Skip(secondTripleHash).CleanListOfStrings().ToList();
+                        behaviorType = DetermineBehaviorType(monsterLines[secondTripleHash]);
+                        monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
+                    }
+                }
+                else
+                {
+                    traitLines = monsterLines.Skip(firstTripleHashIndex).CleanListOfStrings().ToList();
+                    var result = Enumerable.Range(0, traitLines.Count)
+                        .Where(i => traitLines[i].StartsWith("> ***") || traitLines[i].StartsWith(">***"))
+                        .ToList();
+                    var behaviorType = DetermineBehaviorType(monsterLines[firstTripleHashIndex]);
+                    monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, behaviorType));
+                }
+            }
+            else
+            {
+                var traitLines = monsterLines.Skip(lineAfterLastUnderscoreIndex).ToList();
+
+                if (traitLines.Any())
+                {
+                    monster.Behaviors.AddRange(GetMonsterBehaviorsFromLines(traitLines, MonsterBehaviorType.Trait));
+                }
             }
         }
 
@@ -307,28 +317,6 @@ namespace StarWars5e.Parser.Parsers
             }
 
             return MonsterBehaviorType.None;
-        }
-
-        private bool MatchOnNameVariations(string textToMatch, string input)
-        {
-            input = input.Replace(",", string.Empty);
-
-            if (textToMatch.Contains(input))
-            {
-                return true;
-            }
-
-            if (input.Contains(textToMatch))
-            {
-                return true;
-            }
-
-            if(input.Contains(textToMatch.Replace("s", string.Empty)) || input.Contains(textToMatch.Replace("ies", string.Empty)))
-            {
-                return true;
-            }
-
-            return false;
         }
 
         private static IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(IReadOnlyList<string> behaviorLines, MonsterBehaviorType behaviorType)
