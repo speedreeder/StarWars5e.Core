@@ -1677,7 +1677,7 @@ ___
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|-8 (-1)|18 (+4)|20 (+5)|18 (+4)|17 (+3)|
+>|16 (+3)|8 (-1)|18 (+4)|20 (+5)|18 (+4)|17 (+3)|
 >___
 > - **Saving Throws** Con +9, Int +10, Wis +9
 > - **Skills** Lore +10, Perception +9, Insight +14, Deception +8, Persuasion +8
@@ -4160,32 +4160,34 @@ ___
 > - **Damage Resistances** psychic
 > - **Damage Immunities** poison, necrotic
 > - **Condition Immunities** poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed
+> - **Senses** passive perception 12
+> - **Languages** —
 > - **Challenge** 13 (10,000)
 > ___
-> **Circuitry**. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.
+> ***Circuitry***. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.
 >
-> **Operated** by a Pilot & Gunner roll a separate initiative for both 
+> ***Operated*** by a Pilot & Gunner roll a separate initiative for both 
 >
-> **Piloted**. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. Pilot Controls movement, Ram action, & Rocket launchers 
+> ***Piloted***. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. Pilot Controls movement, Ram action, & Rocket launchers 
 >
->**Gunner**. The construct requires an active gunner to operate the vehicles weaponry. Gunner controls Plasma Cannon & Medium Repeating Blasters
+> ***Gunner***. The construct requires an active gunner to operate the vehicles weaponry. Gunner controls Plasma Cannon & Medium Repeating Blasters
 >
-> **Freedom of Movement**. The AAT ignores difficult terrain and can pass through occupied hostile spaces
+> ***Freedom of Movement***. The AAT ignores difficult terrain and can pass through occupied hostile spaces
 >
-> **Vulnerable Interior**. The AAT's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.
+> ***Vulnerable Interior***. The AAT's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.
 >
 > ### Actions
-> **Pilot** of the AAT can use the Ram action and make 1 attack utilizing the Rocket Launcher
+> ***Pilot*** of the AAT can use the Ram action and make 1 attack utilizing the Rocket Launcher
 >
-> **Ram** Any creature within the AAT's movement path must make a DC 17 Dexterity saving throw, taking 26 (4d12) kinetic damage on a failed save and is knocked prone, or half as much damage on a successful one.
+> ***Ram*** Any creature within the AAT's movement path must make a DC 17 Dexterity saving throw, taking 26 (4d12) kinetic damage on a failed save and is knocked prone, or half as much damage on a successful one.
 >
-> **Rocket Launchers (6/day Reload 1 turn)** Ranged weapon range 100/400 DC 14 launches a barrage of rockets at a target and any creature within 10 ft. Taking 6d6 kinetic damage on a failed save and half as much on a successful one
+> ***Rocket Launchers (6/day Reload 1 turn)*** Ranged weapon range 100/400 DC 14 launches a barrage of rockets at a target and any creature within 10 ft. Taking 6d6 kinetic damage on a failed save and half as much on a successful one
 >
-> **Gunner** can make two attacks using the medium repeating blasters 
+> ***Gunner*** can make two attacks using the medium repeating blasters 
 >
-> **Medium Repeating Blasters**. Ranged Weapon Attack: +10 to hit, range 120/240 ft., one target. Hit: 25 (4d10+6) energy damage.
+> ***Medium Repeating Blasters***. Ranged Weapon Attack: +10 to hit, range 120/240 ft., one target. Hit: 25 (4d10+6) energy damage.
 >
-> **Plasma Cannon (Recharge 5-6)**. The AAT launches a plasma shell 150/300 ft range target must be at least 15 ft away from the AAT.  Blast has a 15ft Radius. Each creature in that area must make a DC 18 Dexterity saving throw, taking 52 (8d12) fire damage on a failed save, or half as much damage on a successful one. (If shot is over 150ft targets have advantage on dex save)
+> ***Plasma Cannon (Recharge 5-6)***. The AAT launches a plasma shell 150/300 ft range target must be at least 15 ft away from the AAT.  Blast has a 15 foot radius. Each creature in that area must make a DC 18 Dexterity saving throw, taking 52 (8d12) fire damage on a failed save, or half as much damage on a successful one. 
 
 <img src='https://www.gmbinder.com/images/VYbYjuG.jpg' style='position:absolute;bottom:-5px;right:180px;transform:scaleX(-1);;width:440px;z-index:1000;mix-blend-mode:multiply' />
 
@@ -4524,7 +4526,6 @@ ___
 > - **Languages** Gamorrese, Galactic Basic (understands but can't speak)
 > - **Challenge** 2 (450 XP)
 > ___
-> ### Traits
 > ***Reckless.*** At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
 >
 > ***Brutal Critical.*** When the guards scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
