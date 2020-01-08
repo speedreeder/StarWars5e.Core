@@ -475,7 +475,6 @@ ___
 > ***Blaster Rifle.*** *Ranged Weapon Attack:* +9 to hit, range 100/400 ft., one target. *Hit:* 9 (1d8+5) energy damage.
 >
 > ***Stock Strike.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4 (1d4+2) kinetic damage.
-> ___
 >
 > ### Reactions
 > ***Reactive Shield (1/day).*** Until the start of its next turn, the assassin droid has a +5 bonus to AC. This includes the triggering attack.
@@ -662,6 +661,7 @@ ___
 > ***Leg Slash.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) kinetic damage.
 >
 > ***Deploy Probe Killers.*** This droid swarm appears in any space within 5 ft. of the assassin droid.
+>
 > ### Reactions
 > ***Second Chance.*** When the droid reaches zero hit points, it may immediately take the deploy probe killers action.
 
@@ -961,6 +961,7 @@ ___
 > ***Blaster Pistol.*** *Ranged Weapon Attack:* +5 to hit, range 40/160 ft., one target. *Hit:* 6 (1d6+3) energy damage.
 >
 > ***Stock Strike.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) kinetic damage.
+>
 > ### Reactions
 > ***Redirect Attack.*** When a creature the battle droid can see targets it with an attack, the battle droid chooses another battle droid within 5 feet of it. The two battle droids swap places, and the chosen battle droid becomes the target instead.
 
@@ -1224,7 +1225,7 @@ ___
 > ***Blaster Cannons.*** *Ranged Weapon Attack:* +7 to hit, range 100/400, one target. *Hit:* 11 (2d6+4) energy damage.
 >
 > ***Blaster Volley.*** The destroyer droid sprays a 10-foot-cube area within normal range of its blaster cannons with shots. Each creature in the area must make a DC 15 Dexterity saving throw, taking normal weapon damage on a failed save.
-> ___
+> 
 > ### Reactions
 > ***Deflector Shield.*** The destroyer droid adds 3 to its AC against one attack that would hit it. To do so, the destroyer droid must see the attacker.
 
@@ -1262,7 +1263,7 @@ ___
 > ***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6+4) kinetic damage and the target is grappled.
 >
 > ***Rend.*** The destroyer droid tears apart a grappled opponent. A grappled creature must make a DC 15 Strength saving throw.  On a failure, the creature takes 18 (4d6+4) kinetic damage and is stunned until the end of the destroyer droids' next turn.  On a success, the creature takes normal weapon damage.
-> ___
+> 
 > ### Reactions
 > ***Deflector Shield.*** The destroyer droid adds 2 to its AC against one attack that would hit it. To do so, the destroyer droid must see the attacker.
 
@@ -1378,7 +1379,7 @@ ___
 > ***Electrostaff.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (2d4+4) kinetic damage.
 >
 > ***Blaster Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 40/160 ft., one target. *Hit:* 7 (1d6+4) energy damage.
-> ___
+> 
 > ### Reactions
 >***Parry.*** The droid adds 3 to its AC against one melee attack that would hit it. To do so, the droid must see the attacker and be wielding a melee weapon.
 
@@ -2522,7 +2523,7 @@ ___
 > ***Concussion Missile (4/maintenance).*** *Ranged Weapon Attack:* +2 to hit, range 100/200, one target. *Hit:* 16 (3d10) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 10), taking 16 (3d10) energy damage on a failed save, or half as much on a successful one.
 >
 > ***Proton Torpedo (4/maintenance).*** *Ranged Weapon Attack:* +2 to hit, range 300/600, one target. *Hit:* 11 (2d10) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 10), taking 11 (2d10) energy damage on a failed save, or half as much on a successful one.
-> ___
+> 
 > ### Reactions
 > ***Deflector Shield.*** The bomber adds 3 to its AC against one attack that would hit it. To do so, the bomber must see the attacker.
 
@@ -2579,7 +2580,7 @@ ___
 > ***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 10 (2d6+3) kinetic damage.
 >
 >  ***Proton Torpedo (2/maintenance).*** *Ranged Weapon Attack:* +3 to hit, range 300/600, one target. *Hit:* 9 (2d8) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 11), taking 9 (2d8) energy damage on a failed save, or half as much on a successful one.
->___
+>
 > ### Reactions
 > ***Deflector Shield.*** The starfighter adds 3 to its AC against one attack that would hit it. To do so, the starfighter must see the attacker.
 
@@ -2786,23 +2787,23 @@ ___
 >
 >  ***forcecasting.***  The Emperor's Hand is a 5th level force caster (force save DC 17, +9 to hit with power attacks, 24 force points).  The Emperor's Hand knows the following powers:
 >
->At Will: *affect mind, force disarm, mind trick*
+> At Will: *affect mind, force disarm, mind trick*
 >
->1st Level: *breath control, force body, force jump, sense emotion, slow descent*
+> 1st Level: *breath control, force body, force jump, sense emotion, slow descent*
 >
->2nd Level: *coerce mind, dark shear, force confusion*
+> 2nd Level: *coerce mind, dark shear, force confusion*
 >
->3rd Level: *knight speed, force repulse*
+> 3rd Level: *knight speed, force repulse*
 > ### Actions
 > ***Multiattack.*** The Emperor's Hand makes three melee weapon attacks or three ranged weapon attacks. 
 >
 > ***Lightfoil.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) energy damage.
 >
 > ***Heavy Pistol.*** *Ranged Weapon Attack:* +10 to hit, range 40/160 ft., one target. *Hit:* 9 (1d8 + 5) energy damage.
->___
->### Reactions
+>
+> ### Reactions
 > ***Uncanny Dodge.*** The Emperor's Hand halves the damage that she takes from an attack that hits her.  The Emperor's Hand must be able to see the attacker.
->___
+> ___
 > ### Legendary Actions
 >Emperor's Hand can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Emperor's Hand regains spent legendary actions at the start of its turn.
 >
@@ -3438,6 +3439,7 @@ ___
 > - **Challenge** 4 (1,100 XP)
 > ___
 > ***Brave.*** The captain has advantage on saving throws against being frightened.
+>
 > ### Actions
 > ***Multiattack.*** The captain makes two blaster rifle attacks and throws a fragmentation grenade, if available.
 >
@@ -3446,7 +3448,8 @@ ___
 > ***Frag Grenade (3/Day).*** The captain throws a grenade, choosing a point within 40 ft. Each creature within 10 feet must make a DC 12 Dexterity saving throw. A creature takes 2d6 kinetic damage on a failed save, or half as much as on a successful one.
 >
 > ***Stock Strike.*** *Melee Weapon Attack:* +4 to hit, reach 5ft., one target. *Hit:* 4 (1d4+2) kinetic damage. 
-> ### REACTIONS
+>
+> ### Reactions
 >***Leadership (Recharges after Short or Long Rest).*** The Trooper Captain can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Trooper Captain. A creature can benefit from only one Leadership die at a time.
 
 ___
@@ -3987,7 +3990,8 @@ ___
 >
 > ***Repeating Blaster Cannon.*** *Ranged Weapon Attack:* +5 to hit, range 60/240 ft., one target. *Hit:* 10 (2d6+3) energy damage.
 >
-> ***Mortar Launcher.*** The construct launches a mortar at a point it can see within 100 feet. Each creature in a 20-foot radius centered on that point must make a DC 13 Dexterity saving throw. A target takes 14 (4d6) damage on a failed save, or half as much on a succesful one.
+> ***Mortar Launcher.*** The construct launches a mortar at a point it can see within 100 feet. Each creature in a 20-foot radius centered on that point must make a DC 13 Dexterity saving throw. A target takes 14 (4d6) damage on a failed save, or half as much on a successful one.
+>
 > ### Reactions
 > ***Redirect.*** If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage.
 
@@ -4290,13 +4294,11 @@ ___
 > ***Aura of Command*** Friendly creatures that it can see and hear the officer within 30 feet of it add a +1 bonus to their attack and damage rolls. This effect ends if the officer is incapacitated.
 >
 > ### Actions
->
 > ***Blaster Carbine.*** *Ranged Weapon Attack:* +3 to hit, range 60/240 ft., one target. *Hit:* 4 (1d6 + 1) energy damage.
 >
 > ***Command Ally.*** The junior officer targets one ally within 30 feet of it. If the target can hear the officer, the target can make one weapon attack as a reaction and gains advantage on the attack roll.
 >
 > ### Reactions
->
 > ***Human Shield*** When the officer is targeted by a ranged attack while an ally is within 5 ft of it, the officer can use its reaction to cause that ally to be targeted by the attack instead.
 
 <br>
@@ -4381,7 +4383,6 @@ ___
 > ***Superior Aura of Command*** Friendly creatures that it can see and hear the officer within 30 feet of it add a +2 bonus to their attack and damage rolls. This effect ends if the officer is incapacitated.
 >
 > ### Actions
->
 > ***Blaster Carbine.*** Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.
 >
 > ***Call to Attack.*** Up to three allies within 120 feet of this officer that can hear it can each use their reaction to make one weapon attack.
@@ -4389,7 +4390,6 @@ ___
 > ***Rally Allies.*** The officer targets up to three allies within 120 feet that can hear it and are currently suffering from a fear or charm effect. The fear or charm effect is removed.
 >
 > ### Reactions
->
 > ***Human Shield*** When the officer is targeted by a ranged attack while an ally is within 5 ft of it, the officer can use its reaction to cause that ally to be targeted by the attack instead.
 
 <img src='https://i.kinja-img.com/gawker-media/image/upload/s--nfuR2_sG--/c_scale,f_auto,fl_progressive,q_80,w_800/noerre6b6ukxck8zgmbc.png' style='position:absolute;top:0px;left:0px;transform:scaleX(1);width:840px;filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
@@ -4434,13 +4434,13 @@ ___
 >
 >***Leadership (1/rest).*** For 1 minute, the Grand Admiral can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Grand Admiral. A creature can benefit from only one Leadership die at a time. This effect ends if the Grand Admiral is incapacitated.
 >
->***Legendary Resistance (3/day).*** If the Grand Admiral fails a saving throw, it can choose to succeed instead.
+> ***Legendary Resistance (3/day).*** If the Grand Admiral fails a saving throw, it can choose to succeed instead.
 >
 > ***Sidearm Mastery.*** The Grand Admiral's ranged weapon attacks ignore half cover against targets within 15 feet of the Grand Admiral.  The Grand Admiral gains a +3 bonus to attack rolls made with a pistol. 
 >
->***Targeted Analysis.*** The Grand Admiral's attack rolls cannot suffer from disadvantage.
+> ***Targeted Analysis.*** The Grand Admiral's attack rolls cannot suffer from disadvantage.
 >
->***Tech Resistance.*** The Grand Admiral has advantage on saving throws against tech powers.
+> ***Tech Resistance.*** The Grand Admiral has advantage on saving throws against tech powers.
 >
 > ### Actions
 > ***Multiattack.*** The Grand Admiral makes three melee weapon attacks or three ranged weapon attacks. 
@@ -4451,11 +4451,11 @@ ___
 >
 > ***Unarmed Strike.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 14 (1d4 + 2d6 + 5) kinetic damage.
 >
->***All-Out Attack (1/rest).*** The Grand Admiral chooses a number of allies up to its Intelligence modifier (8) within 60 feet who can see or hear it. The chosen allies may then immediately use their reaction to make one weapon attack against a target of the Grand Admiral's choice. It may choose the target for each attack separately.
->___
->### Reactions
->***Calculated Timing.*** The Grand Admiral can focus a target down with the help with an ally. Once per round, whenever a creature is attacked by someone other than the Grand Admiral, the Grand Admiral can use its reaction to make one weapon attack against them.
->___
+> ***All-Out Attack (1/rest).*** The Grand Admiral chooses a number of allies up to its Intelligence modifier (8) within 60 feet who can see or hear it. The chosen allies may then immediately use their reaction to make one weapon attack against a target of the Grand Admiral's choice. It may choose the target for each attack separately.
+> 
+> ### Reactions
+> ***Calculated Timing.*** The Grand Admiral can focus a target down with the help with an ally. Once per round, whenever a creature is attacked by someone other than the Grand Admiral, the Grand Admiral can use its reaction to make one weapon attack against them.
+> ___
 > ### Legendary Actions
 >The Grand Admiral can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Grand Admiral regains spent legendary actions at the start of its turn.
 >
@@ -5189,12 +5189,12 @@ ___
 > ***Slam.*** *Melee Weapon Attack* +6 to hit, reach 5 ft., one target. *Hit* 6 (1d8 + 2) kinetic damage, and the target must succeed on a Dexterity saving throw (DC 16) or become grappled.
 >
 > ***Tail.*** *Melee Weapon Attack* +6 to hit, reach 10 ft., one target. *Hit* 11 (2d8 + 2) kinetic damage, and the target is knocked prone.
->___
+>
 > ### Reactions
 > ***Call the Guards.*** When a creature attacks Hutt Crime Lord, it commands a willing ally within 5 feet of that creature to use their reaction to intercede. The creature is then forced to make an attack on the ally instead. If the attack misses, the ally can immediately make a weapon attack with advantage against that creature as a part of that same reaction.
->___
+>
 > ### Legendary Actions
->Hutt Crime Lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Hutt Crime Lord regains spent legendary actions at the start of his turn.
+> Hutt Crime Lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Hutt Crime Lord regains spent legendary actions at the start of his turn.
 >
 > ***Overwhelming Presence.*** Hutt Crime Lord can make a Charisma (Persuasion) or Charisma (Intimidation) skill check to attempt to charm or frighten a humanoid creature who can see or hear it within 60 feet. The target makes a contested Wisdom (Insight) check. If the Hutt's check succeeds, the target is charmed by it if it used Persuasion, or frightened of it if it used Intimidation, until the end of its next turn.
 >
@@ -5388,7 +5388,7 @@ ___
 > ***Vibroblade.*** *Melee Weapon Attack:* +8 to hit, hit, reach 5ft., one target. Hit: 8 (1d8 + 4) kinetic damage.
 >
 > ***Force Pike.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit* 9 (1d10 + 4) kinetic damage plus 12 (4d6) lightning damage. On a hit, the target must then succeed on a Constitution Saving Throw (DC 17) or become stunned.
-> ___
+> 
 > ### Reactions
 > ***Parry.*** The Royal Gard adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard must see the attacker and bewielding a melee weapon.
 
@@ -6300,7 +6300,7 @@ ___
 > ***Outland Rifle.*** *Ranged Weapon Attack:* +6 to hit, range 30/120, one target. *Hit* 5 (1d6 + 3) kinetic damage
 >
 > ***Leadership (Recharges after a Short or Long Rest).*** For 1 minute, the Khan can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Khan. A creature can benefit from only one Leadership die at a time. This effect ends if the Khan is incapacitated.
-> ___
+> 
 > ### Reactions
 > ***Parry.*** The Khan adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard must see the attacker and bewielding a melee weapon.
 
@@ -6346,7 +6346,7 @@ ___
 > ***Blade of Pain*** *Melee Weapon Attack:* +9 to hit, reach 5ft. or range 20/60, one target. *Hit* 13 (1d8 + 5 plus 1d8) kinetic damage plus 20 (4d10) lightining damage.
 >
 > ***Leadership (Recharges after a Short or Long Rest).*** For 1 minute, the Khan can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Khan. A creature can benefit from only one Leadership die at a time. This effect ends if the Khan is incapacitated.
-> ___
+> 
 > ### Reactions
 > ***Parry.*** The Khan adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard must see the attacker and bewielding a melee weapon.
 
@@ -6420,9 +6420,9 @@ ___
 >
 >***Frightful Presence.*** Choose any number of characters within 80'. Each of those characters who fails a Wisdom saving throw (DC 14) becomes frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Cyborg Khagan's Frightful Presence for the next 24 hours.
 >
->***Whirling Advance.*** Whirling his blades, Cyborg Khagan advances with a shield of sparks and light. Choose a character within 30' to make a Dexterity Save (DC 19). On a fail, the target is pushed 10 feet, Cyborg Khagan moves into their current square ignoring opportunity attacks, and he has Advantage on his next attack against them this combat. On a success, Cyborg Khagan moves into a square adjacent to the target and Opportunity Attacks against Cyborg Khagan have Disadvantage during that move.
+> ***Whirling Advance.*** Whirling his blades, Cyborg Khagan advances with a shield of sparks and light. Choose a creature within 30 feet to make a DC 19 Dexterity saving throw. On a fail, the target is pushed 10 feet, Cyborg Khagan moves into their current square ignoring opportunity attacks, and he has advantage on his next attack against them this combat. On a success, Cyborg Khagan moves into a square adjacent to the target and opportunity attacks against Cyborg Khagan have disadvantage during that move.
 >
->### Reactions
+> ### Reactions
 > ***Parry.*** When Cyborg Khagan is attacked and hit by an adjacent character while he is holding one or more Lightsabers, he may use his reaction to reduce the damage taken by 1d10+15. If the damage is reduced to 0, he may use this reaction to make a Lightsaber attack against the attacker.
 
 <div class='footnote'>KALEESH</div>
@@ -7158,9 +7158,9 @@ ___
 > ***Techblade.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) kinetic damage.
 >
 > ***Holdout Blaster.*** *Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:* 6 (1d4 + 4) kinetic damage.
->___
->### Reactions
->***Uncanny Dodge.*** The Mistryl halves the damage that she takes from an attack that hits her.  The Mistryl must be able to see the attacker.
+>
+> ### Reactions
+> ***Uncanny Dodge.*** The Mistryl halves the damage that she takes from an attack that hits her.  The Mistryl must be able to see the attacker.
 
 \columnbreak
 
@@ -7193,24 +7193,24 @@ ___
 >
 >***Sneak Attack (1/turn).*** The Mistryl deals an extra 17 (5d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Mistryl that isn't incapacitated and the Mistryl doesn't have disadvantage on the attack roll.
 >
->  ***Tech Casting.***  The Mistryl is a 5th level tech caster (tech save DC 13, +5 to hit with power attacks, 22 tech points).  The Mistryl knows the following powers.
+> ***Tech Casting.***  The Mistryl is a 5th level tech caster (tech save DC 13, +5 to hit with power attacks, 22 tech points).  The Mistryl knows the following powers.
 >
->At Will: *encrypted message, light, poison spray*
+> At Will: *encrypted message, light, poison spray*
 >
->1st Level: *alarm, decryption program, holographic disguise*
+> 1st Level: *alarm, decryption program, holographic disguise*
 >
->2nd Level: *concealed caltrops, infiltrate, paralyze humanoid*
+> 2nd Level: *concealed caltrops, infiltrate, paralyze humanoid*
 >
->3rd Level: *invisibility to cameras, tactical advantage*
+> 3rd Level: *invisibility to cameras, tactical advantage*
 > ### Actions
 > ***Multiattack.*** The Mistryl makes two melee weapon attacks or two ranged weapon attacks. 
 >
 > ***Techblade.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) kinetic damage, and the target must make a DC 14 Constitution saving throw.  On a failure, the target takes 24 (7d6) poison damage and is poisoned for 1 minute.  On a success, the target takes half damage and isn't poisoned.
 >
 > ***Holdout Blaster.*** *Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:* 6 (1d4 + 4) energy damage.
->___
->### Reactions
->***Uncanny Dodge.*** The Mistryl halves the damage that she takes from an attack that hits her.  The Mistryl must be able to see the attacker.
+> 
+> ### Reactions
+> ***Uncanny Dodge.*** The Mistryl halves the damage that she takes from an attack that hits her.  The Mistryl must be able to see the attacker.
 
 <img src='https://www.gmbinder.com/images/QE1TiV8.png' style='position:absolute; top:0px; left:130px; width:250px; transform:scaleX(1)'/>
 
@@ -9147,7 +9147,7 @@ ___
 > ***Stunning Tentacle.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 11 (3d4 +4) kinetic damage and the target must succeed on a Constitution save (DC 17) or be stunned until the end of its next turn.
 >
 > ***Slicing Tentacle.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 18 (3d8 +5) kinetic damage.
->___
+>
 > ### Reactions
 > ***Deflector Shield.*** The JK-13 Security Droid adds 3 to its AC against one attack that would hit it. To do so, the droid must see the attacker.
 
@@ -9959,7 +9959,6 @@ ___
 >
 > ***Leadership (Recharges after a Short or Long Rest).*** For 1 minute, the trandoshan can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the trandoshan. A creature can benefit from only one Leadership die at a time. This effect ends if the warlord is incapacitated.
 >
-> ___
 > ### Reactions
 > ***Parry.*** The trandoshan adds 3 to its AC against one melee attack that would hit it. To do so, the trandoshan must see the attacker and be wielding a melee weapon.
 
@@ -10087,7 +10086,7 @@ ___
 > ***Slugthrower.*** *Ranged Weapon Attack:* +6 to hit, range 100/400., one target. *Hit:* 7 (1d8 + 3) kinetic damage.
 >
 > ***Burst.*** The trandoshan sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 14 Dexterity saving throw, taking 7 (1d8 + 3) kinetic damage on a failed save, or half as much on a successful one.
-> ___
+> 
 > ### Reactions
 > ***Parry.*** The trandoshan adds 3 to his AC against one melee attack that would hit him. To do so, the trandoshan must see the attacker and be wielding a melee weapon.
 

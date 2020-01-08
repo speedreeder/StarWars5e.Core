@@ -467,6 +467,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Mon Calamari":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_moncalamari.png");
                         break;
+                    case "Mustafarian":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_mustafarian.png");
+                        break;
                     case "Muun":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_muun.png");
                         break;

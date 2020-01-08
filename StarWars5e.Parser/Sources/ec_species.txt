@@ -54,34 +54,35 @@
 |	Lasat	            |	46	|
 |	Miraluka        	|	47	|
 |	Mirialan        	|	48	|
-|	Muun	            |	49	|
-|	Nautolan        	|	50	|
-|	Neimoidian      	|	51	|
-|	Noghri          	|	52	|
-|	Ortolan         	|	53	|
-|	Quarren	            |	54	|
-|	Pau'an	            |	55	|
-|	Rattataki	        |	56	|
-|	Rishii	            |	57	|
-|	Selkath	            |	58	|
-|	Shistavanen	        |	59	|
-|	Squib	            |	60	|
-|	Ssi-Ruu	            |	61	|
-|	Sullustan	        |	62	|
-|	Talz            	|	63	|
-|	Thisspiasian       	|	64	|
-|	Togorian           	|	65	|
-|	Toydarian       	|	66	|
-|	Tusken	            |	67	|
-|	Ugnaught	        |	68	|
-|   Umbaran             |   69  |
-|	Verpine	            |	70	|
-|	Voss	            |	71	|
-|	Vurk            	|	72	|
-|	Weequay	            |	73	|
-|	Yevetha             |	74	|
-|	Zeltron             |	75	|
-|	Zygerrian           |	76	|
+|	Mustafarian         |	49	|
+|	Muun	            |	50	|
+|	Nautolan        	|	51	|
+|	Neimoidian      	|	52	|
+|	Noghri          	|	53	|
+|	Ortolan         	|	54	|
+|	Quarren	            |	55	|
+|	Pau'an	            |	56	|
+|	Rattataki	        |	57	|
+|	Rishii	            |	58	|
+|	Selkath	            |	59	|
+|	Shistavanen	        |	60	|
+|	Squib	            |	61	|
+|	Ssi-Ruu	            |	62	|
+|	Sullustan	        |	63	|
+|	Talz            	|	64	|
+|	Thisspiasian       	|	65	|
+|	Togorian           	|	66	|
+|	Toydarian       	|	67	|
+|	Tusken	            |	68	|
+|	Ugnaught	        |	69	|
+|   Umbaran             |   70  |
+|	Verpine	            |	71	|
+|	Voss	            |	72	|
+|	Vurk            	|	73	|
+|	Weequay	            |	74	|
+|	Yevetha             |	75	|
+|	Zeltron             |	76	|
+|	Zygerrian           |	77	|
 
 </div>
 
@@ -2444,7 +2445,6 @@ ___
 > |Aing-Tii|Armored Plates|
 > |Aqualish|Darkvision|
 > |Ardennian|Darkvision<br> Prehensile Tail|
-> |Balosar|Keen Hearing|
 > |Barabel|Darkvision<br> Prehensile Tail|
 > |Besalisk|Powerful Build|
 > |Bith|Detail Oriented|
@@ -2469,10 +2469,10 @@ ___
 > |Geonosian|Geonosian Weaponry|
 > |Givin|Vacuum Sealed|
 > |Gotal|Natural Empathy|
+> |Gran|Keen Sight|
 > 
 > |||
 > |:--:|:--:|
-> |Gran|Keen Sight|
 > |Gungan|Martial Proficiency|
 > |Harch|Venomous Fangs|
 > |Herglic|Toughness|
@@ -2492,6 +2492,7 @@ ___
 > |Miraluka|Force Sight|
 > |Mirialan|Spiritual|
 > |Mon Calamari|Darkvision|
+> |Mustafarian|Darkvision<br> Hide|
 > |Muun|Second Heart|
 > |Nautolan|Darkvision|
 > |Neimoidian|Darkvision|
@@ -2500,10 +2501,10 @@ ___
 > |Quarren|Keen Hearing|
 > |Pau'an|Darkvision|
 > |Rattataki|Surprise Attack|
-> |Rishii|Keen Hearing and Sight|
 > 
 > |||
 > |:--:|:--:|
+> |Rishii|Keen Hearing and Sight|
 > |Rodian|Darkvision|
 > |Selkath|Venomous Claws|
 > |Shistavanen|Darkvision<br> Forced March|
@@ -3733,6 +3734,83 @@ As a Mirialan, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Mirialan.
 
 <img src='https://www.gmbinder.com/images/HsbcT51.png' style='position:absolute;top:57px;right:122px;width:238px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
+> ## Mustafarian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Gray|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Black|
+> |***Distinctions***|  |Extremophiles|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'8"|+2d12"|
+> |***Weight***|  |100 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Mustafar|
+> |***Language***|  |Mustafarian|
+
+<div style='margin-top:129px'></div>
+
+### Biology and Appearance
+Mustafarians are an insectoid species of sentients native to the volcanic planet of Mustafar. They are divided into two subspecies: the lanky northern mustafarians, and the stocky southern mustafarians. The southern mustafarians were notable for their greater strength, making them more suited to manual labor. Both subspecies shared many traits, particularly their hardened exoskeletons and leathery skin, which acclimated them to the extreme heat of their volcanic environment.
+
+### Society and Culture
+Mustafarians evolved from arthropods living in the slightly cooler hollows within dormant volcanoes on the surface of Mustafar. As a result of such close living, mustafarian culture is isolationist by nature, though they tolerate trade with other systems. Mustafar hosts scarce minerals and rare metals, making mustafarians an invaluable trade partner.
+
+Native mustafarians rarely take sides when galactic conflicts rage, instead preferring to keep to themselves and control their own planet. They are daunting enemies when provoked, however.
+
+### Names
+Mustafarian names are often inspired by displays of competency or bravery, such as recovering large quantities of rare minerals, or successfully taming a lava flea. Their surnames are familial.
+
+**Male Names.** Aumstrogh, Chivos, Ikt, Ulon
+
+**Female Names.** Altoa, Hailith, Saonji, Yura
+
+**Surnames.** Fal'co, Glost, Mensix, Nek'dem
+
+\columnbreak
+
+<div style='margin-top:416px'></div>
+
+### Mustafarian Traits
+As a mustafarian, you have the following special traits.
+
+***Ability Score Increase.*** Your Constitution score increases by 2, and your Strength or Dexterity score increases by 1.
+
+***Age.*** Mustafarians reach adulthood in their late teens and live about 80 years.
+
+***Alignment.*** Mustafarians are usually judicious and value good work above all else, causing them to be lawful balanced, though there are exceptions.
+
+***Size.*** Mustafarians stand between 5 and 7 feet tall and weigh around 165 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet. Your speed is not reduced by heavy armor.
+
+***Darkvision.*** As an originally cave-dwelling species, your eyes are adapted to the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Hide.*** You have a thick hide. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. 
+
+***Lava Dweller.*** Your body is well accustomed to extreme heat, giving you resistance to fire damage. dditionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.
+
+***Refinery Specialist.*** You have proficiency in your choice of constructor's tools, scavenging kit, or surveyor's tools. Additionally, whenever you make an Intelligence (Nature) check to identify a metal or mineral, you are considered to have expertise in the Nature skill.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Mustafarian. Mustafarian consists of choppy clicks and emphatic groans.
+
+<img src='https://i.ibb.co/dLqfZS0/Mustafarian-NEGAS-removebg-preview.png' style='position:absolute;top:25px;right:50px;width:312px' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
