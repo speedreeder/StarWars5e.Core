@@ -14,10 +14,10 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
-  displayName: Build StarWars5e.Core
+  displayName: Build StarWars5e.Api
   inputs:
     command: build
-    projects: '**/*.csproj'
+    projects: '**/StarWars5e.Api.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
