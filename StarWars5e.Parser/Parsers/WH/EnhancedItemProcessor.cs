@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
@@ -301,10 +300,6 @@ namespace StarWars5e.Parser.Parsers.WH
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Augment;
                         }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("barrel"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Barrel;
-                        }
                         else if (typeSplit.Split('(')[1].ToLower().Contains("conductor"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Conductor;
@@ -333,10 +328,6 @@ namespace StarWars5e.Parser.Parsers.WH
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyChannel;
                         }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("energy core"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyCore;
-                        }
                         else if (typeSplit.Split('(')[1].ToLower().Contains("grip"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Grip;
@@ -344,10 +335,6 @@ namespace StarWars5e.Parser.Parsers.WH
                         else if (typeSplit.Split('(')[1].ToLower().Contains("lens"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Lens;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("matrix"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Matrix;
                         }
                         else if (typeSplit.Split('(')[1].ToLower().Contains("motherboard"))
                         {
@@ -385,10 +372,6 @@ namespace StarWars5e.Parser.Parsers.WH
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Storage;
                         }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("targeting"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Targeting;
-                        }
                         else if (typeSplit.Split('(')[1].ToLower().Contains("underlay"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Underlay;
@@ -400,6 +383,26 @@ namespace StarWars5e.Parser.Parsers.WH
                         else
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Other;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains("blaster modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.BlasterModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("barrel"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Barrel;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("targeting"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Targeting;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("matrix"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Matrix;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("energy core"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyCore;
                         }
                     }
                     else if (typeSplit.ToLower().Contains("shield"))
@@ -490,6 +493,18 @@ namespace StarWars5e.Parser.Parsers.WH
                         {
                             enhancedItem.ValuableTypeEnum = ValuableType.Other;
                         }
+                    }
+                    else if (typeSplit.ToLower().Contains("ship armor"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.ShipArmor;
+                    }
+                    else if (typeSplit.ToLower().Contains("ship shield"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.ShipShield;
+                    }
+                    else if (typeSplit.ToLower().Contains("ship weapon"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.ShipWeapon;
                     }
                     enhancedItems.Add(enhancedItem);
                 }

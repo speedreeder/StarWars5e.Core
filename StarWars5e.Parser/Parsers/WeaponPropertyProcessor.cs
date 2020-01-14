@@ -29,6 +29,10 @@ namespace StarWars5e.Parser.Parsers
                 {
                     occurence = 2;
                 }
+                if (nameStartingLine.Key == "Heavy")
+                {
+                    occurence = 4;
+                }
                 weaponProperties.Add(ParseProperty(lines, nameStartingLine.Value, nameStartingLine.Key, _contentType, occurence));
             }
             

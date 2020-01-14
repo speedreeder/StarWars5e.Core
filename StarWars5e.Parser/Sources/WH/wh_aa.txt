@@ -409,6 +409,7 @@
 |	&emsp;&emsp;<font style="color:red">Master Weapon Chassis</font> | <font style="color:red">Artifact</font> |  |
 |	&emsp;_Blasters_                |||
 |	&emsp;&emsp;<font style="color:green">Flashy</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:green">Shotgun Axe</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:green">Sparkles</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Torchy</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;_Lightweapons_            |||
@@ -424,7 +425,6 @@
 |	&emsp;&emsp;6 |  |
 |	&emsp;&emsp;7 |  |
 |	&emsp;&emsp;8 |  |
-|	&emsp;&emsp;9 |  |
 
 </div>	
 
@@ -438,52 +438,52 @@
 
 |	Item	|	Rarity | Page |
 |	:--	|	:--:	| :--: |
-|	_Item modifications (blasters)_  |||
+|	_Blaster modifications_  |||
 |	&emsp;_Targeting_               |||
-|	&emsp;&emsp;<font style="color:#4a5568">Accuracy Scope Mark I</font>  | <font style="color:#4a5568">Standard</font> |  |
-|	&emsp;&emsp;<font style="color:green">Accuracy Scope Mark II</font> | <font style="color:green">Premium</font> |  |
-|	&emsp;&emsp;<font style="color:blue">Accuracy Scope Mark III</font> | <font style="color:blue">Prototype</font> |  |
-|	&emsp;&emsp;<font style="color:purple">Accuracy Scope Mark IV</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;&emsp;<font style="color:#4a5568">Accuracy Focus Mark I</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:green">Accuracy Focus Mark II</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Accuracy Focus Mark III</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Precision Focus</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Accuracy Focus Mark IV</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Deadly Precision Focus</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;&emsp;<font style="color:#dd6b20">Lethal Precision Focus</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;&emsp;<font style="color:#dd6b20">Multispectral Optics Mark IV</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;&emsp;<font style="color:red">Devastating Precision Focus</font> | <font style="color:red">Artifact</font> |
 |	&emsp;_Barrel_	                |||
-|	&emsp;&emsp;<font style="color:#4a5568">Amplifying Barrel Mark I</font>  | <font style="color:#4a5568">Standard</font> |  |
-|	&emsp;&emsp;<font style="color:green">Amplifying Barrel Mark II</font> | <font style="color:green">Premium</font> |  |
-|	&emsp;&emsp;<font style="color:blue">Amplifying Barrel Mark III</font> | <font style="color:blue">Prototype</font> |  |
-|	&emsp;&emsp;<font style="color:purple">Amplifying Barrel Mark IV</font> | <font style="color:purple">Advanced</font> |  |
-|	&emsp;&emsp;<font style="color:#dd6b20">Quantum Splitter Mark II</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;&emsp;<font style="color:#4a5568">Basic Amplifying Barrel</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:green">Fine Amplifying Barrel</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Improved Amplifying Barrel</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Quantum Splitter Mark I</font> | <font style="color:blue">Prototype</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Quantum Splitter Mark II</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;&emsp;<font style="color:purple">Superior Amplifying Barrel</font> | <font style="color:purple">Advanced</font> |  |
+|	&emsp;&emsp;<font style="color:#dd6b20">Quantum Splitter Mark III</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;&emsp;<font style="color:red">Quantum Splitter Mark IV</font> | <font style="color:red">Artifact</font> |
 |	&emsp;_Energy core_             |||
+|	&emsp;&emsp;<font style="color:#4a5568">Celerity Matrix</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:#4a5568">Corellian Crippler Matrix</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:#4a5568">Maser Core</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:#4a5568">Siege Weapon</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:green">Burst Core</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:green">Dire Core</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:green">Ion Amplifying Chamber</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:green">Keen Core</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:green">Piercing Core</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Rylith Power Cell</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:purple">Czerka Attenuating Pulsator</font> | <font style="color:purple">Advanced</font> |  |
 |	&emsp;&emsp;<font style="color:#dd6b20">Aratech Recycler Core Mark II</font> | <font style="color:#dd6b20">Legendary</font> |
-|	&emsp;_Matrix_	                |||
-|	&emsp;&emsp;<font style="color:#4a5568">Corellian Crippler Matrix</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:red">Devastating Penetrating Core</font> | <font style="color:red">Artifact</font> |
+|	&emsp;_Attachment_	                |||
+|	&emsp;&emsp;<font style="color:#4a5568">Expanded Magazine</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:#4a5568">Silencer</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:#4a5568">Wrist Mount</font>  | <font style="color:#4a5568">Standard</font> |  |
+|	&emsp;&emsp;<font style="color:green">Bayonet</font> | <font style="color:green">Premium</font> |  |
 |	&emsp;&emsp;<font style="color:green">Precision Chamber Mark I</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:green">Recoil Dampener</font> | <font style="color:green">Premium</font> |  |
+|	&emsp;&emsp;<font style="color:blue">Harpoon Reel</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Precision Chamber Mark II</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:purple">Precision Chamber Mark III</font> | <font style="color:purple">Advanced</font> |  |
-|	&emsp;&emsp;1 |  |
-|	&emsp;&emsp;2 |  |
-|	&emsp;&emsp;3 |  |
-|	&emsp;&emsp;4 |  |
-|	&emsp;&emsp;5 |  |
-|	&emsp;&emsp;6 |  |
-|	&emsp;&emsp;7 |  |
-|	&emsp;&emsp;8 |  |
-|	&emsp;&emsp;9 |  |
-|	&emsp;&emsp;10 |  |
-|	&emsp;&emsp;11 |  |
-|	&emsp;&emsp;12 |  |
-|	&emsp;&emsp;13 |  |
-|	&emsp;&emsp;14 |  |
-|	&emsp;&emsp;15 |  |
-|	&emsp;&emsp;16 |  |
-|	&emsp;&emsp;17 |  |
-|	&emsp;&emsp;18 |  |
-|	&emsp;&emsp;19 |  |
-|	&emsp;&emsp;20 |  |
-|	&emsp;&emsp;21 |  |
-|	&emsp;&emsp;22 |  |
-|	&emsp;&emsp;23 |  |
+|	&emsp;&emsp;<font style="color:#dd6b20">Lethal Assassination Scope</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;&emsp;<font style="color:red">Devastating Vicious Scope</font> | <font style="color:red">Artifact</font> |
 
 |	Item	|	Rarity | Page |
 |	:--	|	:--:	| :--: |
@@ -887,54 +887,56 @@ The following items are examples of what you might find in your journeys.
 #### Ablative Plating Mark II
 _<font style="color:purple">Item modification (shielding), advanced</font>_
 
-**Value:** 43,000 cr
-
 You gain a +2 bonus to AC against ranged attacks.
+
+#### Accuracy Focus Mark I
+_<font style="color:#4a5568">Blaster modification (targeting), standard</font>_
+
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon.
+
+#### Accuracy Focus Mark II
+_<font style="color:green">Blaster modification (targeting), premium</font>_
+
+You gain a +1 bonus to attack rolls made with this weapon.
+
+#### Accuracy Focus Mark III
+_<font style="color:blue">Blaster modification (targeting), prototype</font>_
+
+You gain a +2 bonus to attack rolls made with this weapon.
+
+#### Accuracy Focus Mark IV
+_<font style="color:purple">Blaster modification (targeting), advanced</font>_
+
+You gain a +3 bonus to attack rolls made with this weapon.
 
 #### AccuTronics Horizon 256ZIDOPS
 _<font style="color:#dd6b20">Item modification (motherboard), legendary</font>_
 
-**Value:** 208,000 cr
-
 When you cast a tech power through this wristpad, you can roll a d6 and add the result to the save DC (if any) for that power.
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
 
 #### AccuTronics Supreme Mark II
 _<font style="color:green">Item modification (motherboard), premium</font>_
-
-**Value:** 1,900 cr
 
 You gain a +1 bonus to the tech save dc of tech powers you cast through this wristpad.
 
 #### AccuTronics Supreme Mark I
 _<font style="color:#4a5568">Item modification (motherboard), standard</font>_
 
-**Value:** 1,900 cr
-
 You gain a +1 bonus to the tech save dc and a -1 penalty to the tech attack rolls of tech powers you cast through this wristpad.
 
 #### AccuTronics Supreme Mark III
 _<font style="color:blue">Item modification (motherboard), prototype</font>_
-
-**Value:** 10,800 cr
 
 You gain a +2 bonus to the tech save dc of tech powers you cast through this wristpad.
 
 #### AccuTronics Supreme Mark IV
 _<font style="color:purple">Item modification (motherboard), advanced</font>_
 
-**Value:** 42,700 cr
-
 You gain a +3 bonus to the tech save dc of tech powers you cast through this wristpad.
 
 #### Active Camouflage Core
 _<font style="color:purple">Cybernetic augmentation (enhancement), advanced</font>_<br>
 _Prerequisite: Constitution 13_<br>
-
-**Value:** 40,000 cr
 
 _This internal augmentation can be activated to project a distortion field that bends visual light._
 
@@ -944,8 +946,6 @@ As an action, you can activate this augmentation to cast the _infiltrate_ tech p
 
 #### Adapted Armor
 _<font style="color:blue">Armor (any), prototype (requires attunement)</font>_
-
-**Value:** 24,000 cr
 
 _Those foolhardy enough to not treat a hostile planet as worthy a foe as the ones carrying blasters don't often live long enough to boast about it._
 
@@ -975,78 +975,52 @@ You have resistance to one type of damage while you wear this armor. The DM choo
 #### Adegan Cluster
 _<font style="color:purple">Item modification (crystal), advanced</font>_
 
-**Value:** 38,000 cr
-
 You gain a +3 bonus to damage rolls made with this weapon.
 
 #### Adegan Octohedron
 _<font style="color:blue">Item modification (crystal), prototype</font>_
 
-**Value:** 11,000 cr
-
 You gain a +2 bonus to damage rolls made with this weapon.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### Adegan Shard
 _<font style="color:green">Item modification (crystal), premium</font>_
-
-**Value:** 1,700 cr
 
 You gain a +1 bonus to damage rolls made with this weapon.
 
 #### Adegan Shardling
 _<font style="color:#4a5568">Item modification (crystal), standard</font>_
 
-**Value:** 380 cr
-
 You gain a +1 bonus to damage rolls and a -1 penalty to attack rolls made with this weapon.
 
 #### Alacrity Adrenal
 _<font style="color:#4a5568">Consumable (adrenal), standard</font>_
 
-**Value:** 150 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +2 bonus to its Dexterity score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +2 bonus to its Dexterity score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 #### Arakyd Vector Mark I
 _<font style="color:#4a5568">Item modification (processor), standard</font>_
-
-**Value:** 470 cr
 
 You gain a +1 bonus to the tech attack rolls and -1 penalty to the tech save DCs of tech powers you cast through this wristpad.
 
 #### Arakyd Vector Mark II
 _<font style="color:green">Item modification (processor), premium</font>_
 
-**Value:** 2,350 cr
-
 You gain a +1 bonus to the tech attack rolls for tech powers you cast through this wristpad.
 
 #### Arakyd Vector Mark III
 _<font style="color:blue">Item modification (processor), prototype</font>_
 
-**Value:** 12,100 cr
-
 You gain a +2 bonus to the tech attack rolls for tech powers you cast through this wristpad.
-
-\columnbreak
 
 #### Arakyd Vector Mark IV
 _<font style="color:purple">Item modification (processor), advanced</font>_
-
-**Value:** 47,500 cr
 
 You gain a +3 bonus to the tech attack rolls for tech powers you cast through this wristpad.
 
 #### Aratech Echo Belt
 _<font style="color:green">Adventuring gear (waist), premium (requires attunement)</font>_
-
-**Value:** 3,300 cr
 
 _The success of this high-end stealth field generator emboldened Aratech to branch out into other hardware._
 
@@ -1055,21 +1029,23 @@ While you wear this belt with its field on, Wisdom (Perception) checks made to s
 #### Aratech Oscillator Mark III
 _<font style="color:#dd6b20">Item modification (vibrator cell), legendary</font>_
 
-**Value:** 138,000 cr
-
 When you score a critical hit with this weapon you can roll three additional weapon damage dice. 
 
 #### Aratech Oscillator Mark IV
 _<font style="color:red">Item modification (vibrator cell), artifact</font>_
 
-**Value:** 321,500 cr
+When you score a critical hit with this weapon you can roll four additional weapon damage dice.
 
-When you score a critical hit with this weapon you can roll four additional weapon damage dice. 
+#### Aratech Recycler Core Mark II
+_<font style="color:#dd6b20">Blaster modification (energy core), legendary</font>_<br>
+_Prerequisite: Blaster with the burst property_
+
+When you use the burst feature of this weapon, you can choose to include up to 2 additional creatures within 5 feet of any affected space to also be affected the burst, if they were not already.
+
+Once per turn, when you deal damage with this weapon, your walking speed increases by 10 feet until the start of your next turn, and the damaged creature can't make opportunity attacks against you for the rest of your turn. 
 
 #### Aratech Sound Dampening Boots
 _<font style="color:green">Adventuring gear (feet), premium (requires attunement)</font>_
-
-**Value:** 2,250 cr
 
 _Before their repulsorcraft hit it big, Aratech honed its edge in the stealth field generator market._
 
@@ -1083,8 +1059,6 @@ While you wear these boots, your steps make no sound, regardless of the surface 
 _<font style="color:blue">Cybernetic augmentation (enhancement), prototype</font>_<br>
 _Prerequisite: Intelligence 13_
 
-**Value:** 12,000 cr
-
 _This small and unassuming electronic module installed in the parietal lobe contains a massive library of information pertaining to weapons, armor, droids, and every other defense system known to the galaxy at large. Even rare or obscure pieces of technology are described here, offering a unique perspective on the universe - if you can handle it._
 
 You gain proficiency in all simple and martial weapons, all armor, and the Piloting skill. Additionally, when you make an Intelligence check to recall or discern information about a weapon, piece of armor, or a military vehicle that this library contains information on, you are considered proficient in the check. 
@@ -1093,8 +1067,6 @@ You gain proficiency in all simple and martial weapons, all armor, and the Pilot
 
 #### Atmospheric Decanting Vessel
 _<font style="color:green">Adventuring gear, premium_</font>
-
-**Value:** 4,300 cr
 
 _Most liquids one might desire curiously only involve a handful of elements. This device collects a reservoir of them to recreate a selection of such liquids on demand._
 
@@ -1122,13 +1094,9 @@ Once the jug starts producing a liquid, it can't produce a different one, or mor
 
 </div>
 
-\columnbreak
-
 #### Automated Adrenal Package
 _<font style="color:purple">Cybernetic augmentation (enhancement), advanced</font>_
 _Prerequisite: Constitution 15_<br>
-
-**Value:** 36,000 cr
 
 _This clear plasti-polymer implant has an appearance vaguely resembling a multi-limbed cephalopod, and must be carefully installed by a master cybertech. It attaches by wrapping around the medulla, and produces a variety of combat adrenals for its user's consumption. It also performs blood-cleansing work to reduce the liver damage (for species that have a liver) caused by long-term adrenal use._
 
@@ -1142,32 +1110,20 @@ Once on your turn, you can activate this implant to gain the effects of an adren
 #### Ballistic Polymer
 _<font style="color:blue">Item modification (reinforcement), prototype</font>_
 
-**Value:** 6,700 cr
-
 While you have temporary hit points, kinetic and energy damage you take is reduced by an amount equal to your proficiency bonus. 
 
 #### Bansche Advanced 2ZBc
 _<font style="color:blue">Item modification (dataport), prototype</font>_
-
-**Value:** 9,000 cr
 
 When you spend tech points and deal damage with a tech power cast through this wristpad, you deal additional damage equal to the number of tech points spent.
 
 #### Bansche Purifier MENAD Pro Mark I
 _<font style="color:green">Item modification (storage), premium</font>_
 
-**Value:** 1,600 cr
-
 When you cast a tech power with this wristpad that gives you a bonus to AC or saving throws, you can increase that bonus by +1.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### Baragwin Stealth Unit
 _<font style="color:#dd6b20">Adventuring gear, legendary (requires attunement)</font>_
-
-**Value:** 325,000 cr
 
 _Those Baragwin who sought to turn their telepathic empathy into an asset for bounty hunting needed something special to overcome the drawbacks of their lumbering frames._
 
@@ -1175,25 +1131,24 @@ While wearing this belt, you can turn on its stealth field to cause yourself to 
 
 Deduct the time you are invisible, in increments of 1 minute, from the belt's maximum duration of 2 hours. After 2 hours of use, the belt ceases to function. For every uninterrupted period of 12 hours the belt goes unused, it regains 1 hour of use.
 
+#### Basic Amplifying Barrel
+_<font style="color:#4a5568">Blaster modification (barrel), standard</font>_
+
+You gain a +1 bonus to damage rolls and a -1 penalty to attack rolls made with this weapon.
+
 #### Basic Armor Chassis
 _<font style="color:#4a5568">Armor (any), standard (requires attunement)</font>_
-
-**Value:** 1.5x cr
 
 This modifiable armor chassis comes with vacant modification slots for overlay, underlay, reinforcement, and armoring modifications. It can house modifications of standard rarity.
 
 #### Basic Ballistic Weave
 _<font style="color:#4a5568">Item modification (weave), standard</font>_
 
-**Value:** 480 cr
-
 You gain a +1 bonus to AC and a -1 penalty to Strength and Constitution, Dexterity and Intelligence, or Wisdom and Charisma saving throws (chosen by the GM) while wearing this article of clothing.
 
 #### Basic Charisma Enhancement
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_<br>
 _Prerequisite: Charisma 11_
-
-**Value:** 750 cr
 
 Your Charisma score increases by 1, to a maximum of 20.
 
@@ -1202,15 +1157,11 @@ Your Charisma score increases by 1, to a maximum of 20.
 #### Basic Cloak Chassis
 _<font style="color:#4a5568">Adventuring gear (shoulders), standard (requires attunement)</font>_
 
-**Value:** 460 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications. It can house modifications of standard rarity.
 
 #### Basic Constitution Enhancement
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_<br>
 _Prerequisite: Constitution 11_
-
-**Value:** 750 cr
 
 Your Constitution score increases by 1, to a maximum of 20.
 
@@ -1219,14 +1170,10 @@ Your Constitution score increases by 1, to a maximum of 20.
 #### Basic Contoured Grip
 _<font style="color:#4a5568">Item modification (grip), standard</font>_
 
-**Value:** 425 cr
-
 You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon.
 
 #### Basic Datacron
 _<font style="color:#4a5568">Relic (datacron), standard</font>_
-
-**Value:** 4,000 cr
 
 _Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._
 
@@ -1236,8 +1183,6 @@ This datacron contains a single at-will tech power. After tinkering with the dat
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_<br>
 _Prerequisite: Dexterity 11_
 
-**Value:** 750 cr
-
 Your Dexterity score increases by 1, to a maximum of 20.
 
 **Side Effect:** One ability score other than Dexterity (chosen by the GM) decreases by 1.
@@ -1245,21 +1190,15 @@ Your Dexterity score increases by 1, to a maximum of 20.
 #### Basic Focus Generator Chassis
 _<font style="color:#4a5568">Focus (force), standard (requires attunement)</font>_
 
-**Value:** 810 cr
-
 This modifiable focus generator chassis comes with vacant modification slots for emitter, conductor, energy channel, and cycler modifications. It can house modifications of standard rarity.
 
 #### Basic Fortitude Inlay
 _<font style="color:#4a5568">Item modification (inlay), standard</font>_
 
-**Value:** 460 cr
-
 You gain a +1 bonus to Strength and Constitution saving throws and a -1 AC penalty to while wearing this article of clothing.
 
 #### Basic Holocron
 _<font style="color:#4a5568">Relic (holocron), standard</font>_
-
-**Value:** 4,000 cr
 
 _Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._
 
@@ -1269,8 +1208,6 @@ This holocron contains a single at-will force power. After meditating with the h
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_<br>
 _Prerequisite: Intelligence 11_
 
-**Value:** 750 cr
-
 Your Intelligence score increases by 1, to a maximum of 20.
 
 **Side Effect:** One ability score other than Intelligence (chosen by the GM) decreases by 1.
@@ -1278,36 +1215,26 @@ Your Intelligence score increases by 1, to a maximum of 20.
 #### Basic Neutronium Edge
 _<font style="color:#4a5568">Item modification (edge), standard</font>_
 
-**Value:** 375 cr
-
 You gain a +1 bonus to damage rolls and a -1 penalty to attack rolls made with this weapon.
 
 #### Basic Pants Chassis
 _<font style="color:#4a5568">Adventuring gear (legs), standard (requires attunement)</font>_
-
-**Value:** 470 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications. It can house modifications of standard rarity.
 
 #### Basic Reflex Inlay
 _<font style="color:#4a5568">Item modification (inlay), standard</font>_
 
-**Value:** 470 cr
-
 You gain a +1 bonus to Dexterity and Intelligence saving throws and a -1 AC penalty to while wearing this article of clothing.
 
 #### Basic Shield Chassis
 _<font style="color:#4a5568">Shield (any), standard (requires attunement)</font>_
-
-**Value:** 2x cr
 
 This modifiable shield chassis comes with vacant modification slots for overlay, underlay, reinforcement, and shielding modifications. It can house modifications of standard rarity.
 
 #### Basic Strength Enhancement
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_<br>
 _Prerequisite: Strength 11_
-
-**Value:** 750 cr
 
 Your Strength score increases by 1, to a maximum of 20.
 
@@ -1316,36 +1243,26 @@ Your Strength score increases by 1, to a maximum of 20.
 #### Basic T-Cycle Reinforcer
 _<font style="color:#4a5568">Item modification (cycler), standard</font>_
 
-**Value:** 280 cr
-
 When you cast a force power that pushes or pulls a creature, you can increase the distance pushed or pulled by 5 feet.
 
 #### Basic Tunic Chassis
 _<font style="color:#4a5568">Adventuring gear (body), standard (requires attunement)</font>_
-
-**Value:** 480 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications. It can house modifications of standard rarity.
 
 #### Basic Weapon Chassis
 _<font style="color:#4a5568">Weapon (any), standard (requires attunement)</font>_
 
-**Value:** 2x cr
-
 This modifiable weapon chassis comes with vacant modification slots determined by its type. It can house modifications of standard rarity.
 
 #### Basic Will Inlay
 _<font style="color:#4a5568">Item modification (inlay), standard</font>_
-
-**Value:** 475 cr
 
 You gain a +1 bonus to Wisdom and Charisma saving throws and a -1 AC penalty to while wearing this article of clothing.
 
 #### Basic Wisdom Enhancement
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_<br>
 _Prerequisite: Wisdom 11_
-
-**Value:** 750 cr
 
 Your Wisdom score increases by 1, to a maximum of 20.
 
@@ -1354,23 +1271,22 @@ Your Wisdom score increases by 1, to a maximum of 20.
 #### Basic Wristpad Chassis
 _<font style="color:#4a5568">Focus (tech), standard (requires attunement)</font>_
 
-**Value:** 900 cr
-
 This modifiable wristpad chassis comes with vacant modification slots for processor, motherboard, dataport, and storage modifications. It can house modifications of standard rarity.
 
 #### Battle Adrenal
 _<font style="color:green">Consumable (adrenal), premium</font>_
 
-**Value:** 600 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +1 bonus to attack and damage rolls with weapons. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time.
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +1 bonus to attack and damage rolls with weapons. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time.
+
+#### Bayonet
+_<font style="color:green">Blaster modification (attachment), premium</font>_
+
+You affix a short blade to the barrel of this weapon, allowing you to make a melee weapon attack with it. The blade is a melee weapon with the finesse property that you are proficient with, and deals 1d6 kinetic damage.
 
 #### Beemon Cardio-Regulator
 _<font style="color:blue">Adventuring gear (neck), prototype (requires attunement)_</font>
-
-**Value:** 13,800 cr
 
 _Demand for Beemon Laboratories' implants streches even to those too sickly to use them without assistance from another of their fine products._
 
@@ -1380,15 +1296,11 @@ Your Constitution score is 19 while you wear this choker. It has no effect on yo
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in berserker_
 
-**Value:** 10,000 cr
-
 Once per round, when you use your Reckless Attack feature and hit a target, you can reduce the first kinetic or energy damage you take from the target before the start of your next turn by half.
 
 #### Berserker Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in berserker_
-
-**Value:** 10,000 cr
 
 Your Rage damage bonus increases by 1, and when you score a critical hit, you can roll one additional weapon damage die and add the result to the total.
 
@@ -1397,15 +1309,11 @@ Your Rage damage bonus increases by 1, and when you score a critical hit, you ca
 #### Bioenhancement Matrix Mark II
 _<font style="color:purple">Item modification (reinforcement), advanced</font>_
 
-**Value:** 38,000 cr
-
 Your hit point maximum increases by an amount equal to twice your level, and it increases by 2 every time you gain a level.
 
 #### Blaster Integration
 _<font style="color:#4a5568">Droid customization (part), standard</font>_<br>
 _Prerequisite: Class II droid_<br>
-
-**Value:** 700 cr
 
 _Simple software package includes a basic suite of targeting and firing protocols that allow a Class II droid to integrate a modern blaster._
 
@@ -1414,35 +1322,25 @@ You can now integrate a single simple or martial blaster into your droid chassis
 #### Bonded Plates Mark I
 _<font style="color:#4a5568">Item modification (overlay), standard</font>_
 
-**Value:** 420 cr
-
 You gain a +1 bonus to AC and a -1 penalty to Strength and Constitution, Dexterity and Intelligence, or Wisdom and Charisma saving throws (chosen by the GM) while wearing this armor or wielding this shield.
 
 #### Bonded Plates Mark II
 _<font style="color:green">Item modification (overlay), premium</font>_
-
-**Value:** 2,200 cr
 
 You gain a +1 bonus to AC while wearing this armor or wielding this shield.
 
 #### Bonded Plates Mark III
 _<font style="color:blue">Item modification (overlay), prototype</font>_
 
-**Value:** 8,000 cr
-
 You gain a +2 bonus to AC while wearing this armor or wielding this shield.
 
 #### Bonded Plates Mark IV
 _<font style="color:purple">Item modification (overlay), advanced</font>_
 
-**Value:** 36,000 cr
-
 You gain a +3 bonus to AC while wearing this armor or wielding this shield.
 
 #### Brawny Arm Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 1,000 cr
 
 This augmentation replaces an arm.
 
@@ -1455,16 +1353,12 @@ When you make an ability check, attack roll, or saving throw using Strength usin
 #### Breaching Charge (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
 
-**Value:** 3,750 cr
-
 A device used to blow holes in larger constructs, a breaching charge creates a devastating explosion. Installing a breaching charge takes 1 minute. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator.
 
 Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep, or a 5-foot cube of enhanced material. Additionally, each creature within 20 feet of the charge must make a DC 15 Dexterity saving throw. A creature takes 6d6 fire damage and 6d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.
 
 #### Breaching Charge (Deadly)
 _<font style="color:purple">Consumable (explosive), advanced</font>_
-
-**Value:** 37,500 cr
 
 A device used to blow holes in larger constructs, a breaching charge creates a devastating explosion. Installing a breaching charge takes 1 minute. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator.
 
@@ -1473,8 +1367,6 @@ Once detonated, the breaching charge destroys an unenhanced section of wall up t
 #### Breaching Charge (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
 
-**Value:** 11,250 cr
-
 A device used to blow holes in larger constructs, a breaching charge creates a devastating explosion. Installing a breaching charge takes 1 minute. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator.
 
 Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep, or a 5-foot cube of enhanced material. Additionally, each creature within 20 feet of the charge must make a DC 17 Dexterity saving throw. A creature takes 9d6 fire damage and 9d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.
@@ -1482,35 +1374,30 @@ Once detonated, the breaching charge destroys an unenhanced section of wall up t
 #### Broadened Inlay Conductor Mark I
 _<font style="color:#4a5568">Item modification (conductor), standard</font>_
 
-**Value:** 440 cr
-
 You gain a +1 bonus to the force save dc and a -1 penalty to the force attack rolls of force powers you cast through this focus generator.
 
 #### Broadened Inlay Conductor Mark II
 _<font style="color:green">Item modification (conductor), premium</font>_
-
-**Value:** 2,200 cr
 
 You gain a +1 bonus to the force save dc of force powers you cast through this focus generator.
 
 #### Broadened Inlay Conductor Mark III
 _<font style="color:blue">Item modification (conductor), prototype</font>_
 
-**Value:** 10,900 cr
-
 You gain a +2 bonus to the force save dc of force powers you cast through this focus generator.
 
 #### Broadened Inlay Conductor Mark IV
 _<font style="color:purple">Item modification (conductor), advanced</font>_
 
-**Value:** 36,000 cr
-
 You gain a +3 bonus to the force save dc of force powers you cast through this focus generator.
+
+#### Burst Core
+_<font style="color:green">Blaster modification (energy core), premium</font>_<br>
+
+This weapon gains the burst property, with a burst number equal to its reload number.
 
 #### Byrothsis Adept Cell
 _<font style="color:purple">Item modification (power cell), advanced</font>_
-
-**Value:** 26,500 cr
 
 When this weapon is levitated by the Force to deal damage through a class feature or force power you use, it deals additional damage equal to one of its weapon damage dice.
 
@@ -1521,14 +1408,10 @@ When this weapon is levitated by the Force to deal damage through a class featur
 #### Byrothsis Master Cell
 _<font style="color:red">Item modification (power cell), artifact</font>_
 
-**Value:** 300,000 cr
-
 When this weapon is levitated by the Force to deal damage through a class feature or force power you use, it deals additional damage equal to two of its weapon damage dice.
 
 #### Celerity Leg Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 1,000 cr
 
 This augmentation replaces both legs.
 
@@ -1542,8 +1425,6 @@ Your Dexterity score becomes 13. If your Dexterity score is already equal to or 
 _<font style="color:#dd6b20">Cybernetic augmentation (enhancement), legendary</font>_<br>
 _Prerequisite: Charisma 15_
 
-**Value:** 150,000 cr
-
 _This implant drastically increases your force of personality._ 
 
 Your Charisma score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Charisma saving throws.
@@ -1553,8 +1434,6 @@ Your Charisma score increases by 1, and your maximum for this score increases by
 #### CNS Strength Enhancer
 _<font style="color:purple">Adventuring gear (waist), advanced (requires attunement)</font>_
 
-**Value:** 70,000 cr 
-
 _This belt further increases a users physical power with pneumaticized assistance joists and a repulsorfield microgenerator._
 
 While wearing this belt, your Strength score becomes 23. If your Strength is already equal to or greater than 23, it has no effect on you.
@@ -1563,15 +1442,11 @@ While wearing this belt, your Strength score becomes 23. If your Strength is alr
 _<font style="color:#4a5568">Item modification (projector), standard</font>_<br>
 _Prerequisite: Vibroweapon without the_ hidden _property_
 
-**Value:** 250 cr
-
 As a bonus action you can collapse this weapon into a small, pocket-sized handle, granting it the *hidden* property. It loses this property when you make an attack with it, or extend it as a bonus action.
 
 #### Combat Projector 
 _<font style="color:green">Droid customization (part), premium</font>_<br>
 _Prerequisite: Class IV droid_
-
-**Value:** 1,900 cr
 
 _This little nozzle and fuel tank package are frequently located on a combat droid's wrist or abdomen, and can be configured to project flaming ionized gas or molton carbonite._
 
@@ -1583,48 +1458,43 @@ You have a small integrated projector in which you can load a flame projector ca
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in consular_
 
-**Value:** 10,000 cr
-
 When you roll initiative and have no uses of your Force Shield left, you regain one use.
 
 #### Consular Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in consular_
 
-**Value:** 10,000 cr
-
 You learn the Improved Power Force-Empowered Casting option, and  when you use it you can reroll a number of damage dice equal to your Wisdom + Charisma modifiers (a minimum of two). If you already know the Improved Power Force-Empowered Casting option, you can instead choose another option.
+
+#### Corellian Crippler Matrix
+_<font style="color:#4a5568">Blaster modification (energy core), standard</font>_
+
+Once per round, when you hit a creature with a ranged attack using this weapon, its speed is reduced by 5 feet until the end of its next turn. 
 
 #### Cortosis Microweave 
 _<font style="color:blue">Item modification (shielding), prototype</font>_
 
-**Value:** 10,000 cr
-
 You gain a +1 bonus to AC against melee attacks.
+
+#### Czerka Attenuating Pulsator
+_<font style="color:purple">Blaster modification (energy core), advanced</font>_<br>
+_Prerequisite: The ability to cast tech powers_
+
+When you score a critical hit or reduce a creature to 0 hit points with a ranged attack using this weapon, you can regain a number of tech points equal to your Intelligence modifier (a minimum of one, no action required).  Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 #### Czerka Banshee Elite Mark III
 _<font style="color:red">Item modification (processor), artifact</font>_
-
-**Value:** 385,000 cr
 
 When you cast a tech power through this wristpad, you can roll a d8 and add the result to the attack roll.
 
 #### Czerka Elite Pro Mark V
 _<font style="color:#dd6b20">Item modification (dataport), legendary</font>_
 
-**Value:** 197,500 cr
-
 When you cast a tech power with this wristpad and at least one creature fails its saving throw to resist its effects, you gain a d12 that you can roll and add to the damage or healing of a tech power you cast. This die lasts for 1 minute, and you can only have one at a time.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### Czerka Variable Claw-Hand Multitool
 _<font style="color:blue">Cybernetic augmentation (replacement), prototype</font>_<br>
 _Prerequisite: Intelligence 13_<br>
-
-**Value:** 7,500 cr
 
 This augmentation replaces a hand.
 
@@ -1651,8 +1521,6 @@ For items that have charges such as the repair kit, you regain all expended char
 _<font style="color:#dd6b20">Cybernetic augmentation (enhancement), legendary</font>_<br>
 _Prerequisite: Dexterity 15_
 
-**Value:** 150,000 cr
-
 _This implant drastically increases your fine motor skills and reaction times._ 
 
 Your Dexterity score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Dexterity saving throws.
@@ -1664,8 +1532,6 @@ Your Dexterity score increases by 1, and your maximum for this score increases b
 #### Darksaber
 _<font style="color:#dd6b20">Weapon (lightsaber), legendary (requires attunement)</font>_
 
-**Value:** 480,000 cr
-
 _The Darksaber was an ancient and unique black-bladed lightsaber created by Tarre Vizsla, the first Mandalorian ever inducted into the Jedi Order. It features a distinctly Mandalorian hilt and an ominous black blade._
 
 You gain a +3 bonus to attack and damage rolls made with this enhanced lightsaber. Additionally, the weapon ignores resistance to energy damage.
@@ -1675,42 +1541,35 @@ When you attack a creature that has at least one head with this weapon and roll 
 #### Dart (Average)
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 250 cr
-
 You have a +1 bonus to attack and damage rolls made with this wrist launcher dart, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the dart has been fired, it no longer gives a bonus.
 
 #### Dart (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 2,500 cr
 
 You have a +3 bonus to attack and damage rolls made with this wrist launcher dart, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the dart has been fired, it no longer gives a bonus.
 
 #### Dart (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 750 cr
-
 You have a +2 bonus to attack and damage rolls made with this wrist launcher dart, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the dart has been fired, it no longer gives a bonus.
 
 #### Deadly Neutronium Edge
 _<font style="color:purple">Item modification (edge), advanced</font>_
-
-**Value:** 28,000 cr
 
 You gain a +3 bonus to damage rolls made with this weapon.
 
 #### Deadly Ostrine Edge
 _<font style="color:red">Item modification (edge), artifact</font>_
 
-**Value:** 310,000 cr
-
 When you hit with this weapon you deal an additional 1d10 acid, cold, fire, poison, or sonic damage (chosen by the GM when generating this item).
+
+#### Deadly Precision Focus
+_<font style="color:purple">Blaster modification (targeting), advanced</font>_
+
+When you make an attack roll with this weapon, you can roll a d6 and add the result to the total.
 
 #### Defel Mimicker
 _<font style="color:blue">Adventuring gear (waist), prototype (requires attunement)_</font>
-
-**Value:** 19,000 cr
 
 _The only visible trace of this stealth field generator's user is a vague shadow, much like the Defel themselves._
 
@@ -1718,8 +1577,6 @@ While you wear this belt, it casts a shadow that makes you appear to be standing
 
 #### Detachable Eye
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 930 cr
 
 This augmentation replaces an eye.
 
@@ -1732,8 +1589,6 @@ As an action, you can remove or replace this eye. While removed, the eye sprouts
 #### Detachable Hand
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
 
-**Value:** 890 cr
-
 This augmentation replaces a hand.
 
 _This unique hand replacement is a favored option for those looking into places they aren't welcome._
@@ -1742,21 +1597,33 @@ As an action, you can attach or detach this hand. While detached, the hand has a
 
 **Side Effect:** This hand can no longer wield items that weigh more than 5 lbs.
 
+#### Devastating Penetrating Core
+_<font style="color:red">Blaster modification (energy core), artifact</font>_<br>
+
+This weapon gains the keen 1 and piercing 2 properties. If it already has either of these properties, that properties value increases by 1.
+
+#### Devastating Precision Focus
+_<font style="color:red">Blaster modification (targeting), artifact</font>_
+
+When you make an attack roll with this weapon, you can roll a d10 and add the result to the total.
+
+#### Devastating Vicious Scope
+_<font style="color:red">Blaster modification (attachment), artifact</font>_
+
+This weapon gains the vicious 3 property. If the weapon already has the vicious property, its vicious number increases by 3.
+
 #### Diatium Cell
 _<font style="color:blue">Item modification (power cell), prototype</font>_
 
-**Value:** 8,000 cr
-
 When you score a critical hit with this weapon you can roll one additional weapon damage die.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+#### Dire Core
+_<font style="color:green">Blaster modification (energy core), premium</font>_
 
-\pagebreak
+This weapon gains the dire 1 property. If the weapon already has the dire property, its dire number increases by 1.
 
 #### Dominator Belt
 _<font style="color:#dd6b20">Adventuring gear (waist), artifact (requires attunement)</font>_
-
-**Value:** 650,000 cr 
 
 _While only barely adhering to the most technical definition of a belt, this harness-like rig of pneumaticized limb actuators supplies enormous strength to every limb of its wearer's body, monstrously increasing their physical power._
 
@@ -1766,8 +1633,6 @@ While wearing this belt, your Strength score becomes 29. If your Strength is alr
 _<font style="color:blue">Droid customization (part), prototype</font>_</br>
 _Prerequisite: proficiency with heavy armor_
 
-**Value:** 7,500 cr
-
 _Originally used on starship hulls, durasteel is the most cost-effective way to prevent the destruction of your droids._
 
 Your base AC becomes 19. 
@@ -1775,8 +1640,6 @@ Your base AC becomes 19.
 #### Droid Dura Plating Mark II
 _<font style="color:purple">Droid customization (part), advanced</font>_</br>
 _Prerequisite: proficiency with heavy armor_
-
-**Value:** 40,000 cr
 
 _Originally used on starship hulls, durasteel is the most cost-effective way to prevent the destruction of your droids._
 
@@ -1786,8 +1649,6 @@ Your base AC becomes 20.
 _<font style="color:#dd6b20">Droid customization (part), legendary</font>_</br>
 _Prerequisite: proficiency with heavy armor_
 
-**Value:** 200,000 cr
-
 _Originally used on starship hulls, durasteel is the most cost-effective way to prevent the destruction of your droids._
 
 Your base AC becomes 21. 
@@ -1795,24 +1656,16 @@ Your base AC becomes 21.
 #### Duplexed Extender Channel
 _<font style="color:#4a5568">Item modification (energy channel), standard</font>_
 
-**Value:** 300 cr
-
 When you cast a force power through this focus generator that has a range of 5 feet or greater, you can increase the range of that force power by 10 feet. 
 
 #### Emergency Landing Braces
 _<font style="color:green">Item modification (reinforcement), premium</font>_
 
-**Value:** 1,200 cr
-
 You can use your reaction to reduce any falling damage you would take by half.
-
-\columnbreak
 
 #### Engineer Defensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in engineer_
-
-**Value:** 10,000 cr
 
 This item becomes a valid target of the Infuse Item feature if it wasn't already, granting a bonus appropriate to the item's type.
 
@@ -1820,57 +1673,41 @@ This item becomes a valid target of the Infuse Item feature if it wasn't already
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in engineer_
 
-**Value:** 10,000 cr
-
 When you use your Potent Aptitude feature, you can target a second creature within 60 feet of you who can hear you and grant them a Potent Aptitude die as well. 
 
 #### Enhanced Reconstructor
 _<font style="color:#4a5568">Droid customization (part), standard</font>_<br>
 _Prerequisite: Class IV droid_
 
-**Value:** 800 cr
-
 When you roll a Hit Die to recover hit points, you add your Intelligence modifier to the roll (minimum of +1).
 
 #### Enhancement Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
-
-**Value:** 42,500 cr
 
 You gain a +1 bonus to attack and damage rolls with weapons.
 
 #### Environmental Barrier
 _<font style="color:#4a5568">Consumable (barrier), standard</font>_
 
-**Value:** 300 cr
-
 A shimmering barrier springs into resistance around you that lasts 8 hours. The barrier has 10 hit points. Whenever you take damage (one of acid, cold, fire, force, lightning, necrotic, poison, psychic, or sonic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
 #### Exceptional Armor Chassis
 _<font style="color:#dd6b20">Armor (any), legendary (requires attunement)</font>_
-
-**Value:** 200x cr
 
 This modifiable armor chassis comes with vacant modification slots for overlay, underlay, reinforcement, and armoring modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Cloak Chassis
 _<font style="color:#dd6b20">Adventuring gear (shoulders), legendary (requires attunement)</font>_
 
-**Value:** 187,600 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Constitution Augment
 _<font style="color:#dd6b20">Item modification (augment), legendary</font>_
 
-**Value:** 225,000 cr
-
 Your Constitution score increases by 2, and your maximum for this score increases by 1.
 
 #### Exceptional Datacron
 _<font style="color:#dd6b20">Relic (datacron), legendary</font>_
-
-**Value:** 481,800 cr
 
 _Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._
 
@@ -1879,21 +1716,15 @@ This datacron contains a single 7th-level tech power, or multiple powers of 1st-
 #### Exceptional Environmental Barrier 
 _<font style="color:#dd6b20">Consumable (barrier), legendary</font>_
 
-**Value:** 125,000 cr
-
 A shimmering barrier springs into resistance around you that lasts 8 hours. The barrier has 100 hit points. Whenever you take damage (one of acid, cold, fire, force, lightning, necrotic, poison, psychic, or sonic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
 #### Exceptional Focus Generator Chassis
 _<font style="color:#dd6b20">Focus (force), legendary (requires attunement)</font>_
 
-**Value:** 189,000 cr
-
 This modifiable focus generator chassis comes with vacant modification slots for emitter, conductor, energy channel, and cycler modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Holocron
 _<font style="color:#dd6b20">Relic (holocron), legendary</font>_
-
-**Value:** 438,000
 
 _Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._
 
@@ -1902,77 +1733,60 @@ This holocron contains a single 7th-level force power, or multiple powers of 1st
 #### Exceptional Intelligence Augment
 _<font style="color:#dd6b20">Item modification (augment), legendary</font>_
 
-**Value:** 225,000 cr
-
 Your Intelligence score increases by 2, and your maximum for this score increases by 1.
 
 #### Exceptional Mental Inlay
 _<font style="color:#dd6b20">Item modification (inlay), legendary</font>_
-
-**Value:** 183,400 cr
 
 You gain a +3 bonus to Intelligence, Wisdom, and Charisma saving throws while wearing this article of clothing.
 
 #### Exceptional Nagai Grip
 _<font style="color:#dd6b20">Item modification (grip), legendary</font>_
 
-**Value:** 75,000 cr
-
 When you have advantage on an attack roll you make with this weapon, get the same result on both dice rolls, and hit, you deal three additional weapon dice worth of damage.
 
 #### Exceptional Pants Chassis
 _<font style="color:#dd6b20">Adventuring gear (legs), legendary (requires attunement)</font>_
-
-**Value:** 196,300 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Shield Chassis
 _<font style="color:#dd6b20">Shield (any), legendary (requires attunement)</font>_
 
-**Value:** 300x cr
-
 This modifiable shield chassis comes with vacant modification slots for overlay, underlay, reinforcement, and shielding modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Strength Augment
 _<font style="color:#dd6b20">Item modification (augment), legendary</font>_
-
-**Value:** 225,000 cr
 
 Your Strength score increases by 2, and your maximum for this score increases by 1.
 
 #### Exceptional Tunic Chassis
 _<font style="color:#dd6b20">Adventuring gear (body), legendary (requires attunement)</font>_
 
-**Value:** 194,700 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Versatile Inlay
 _<font style="color:#dd6b20">Item modification (inlay), legendary</font>_
-
-**Value:** 187,400 cr
 
 You gain a +2 bonus to saving throws while wearing this article of clothing.
 
 #### Exceptional Weapon Chassis
 _<font style="color:#dd6b20">Weapon (any), legendary (requires attunement)</font>_
 
-**Value:** 400x cr
-
 This modifiable weapon chassis comes with vacant modification slots determined by its type, as well as two augment slots. It can house modifications of legendary rarity or lower.
 
 #### Exceptional Wristpad Chassis
 _<font style="color:#dd6b20">Focus (tech), legendary (requires attunement)</font>_
 
-**Value:** 210,000 cr
-
 This modifiable wristpad chassis comes with vacant modification slots for processor, motherboard, dataport, and storage modifications, as well as two augment slots. It can house modifications of legendary rarity or lower.
+
+#### Expanded Magazine
+_<font style="color:#4a5568">Blaster modification (attachment), standard</font>_
+
+Your modified weapon can hold two power cells at a time, allowing you to expend both before a reload is required. You can only reload one power cell at a time. Whenever you make a ranged weapon attack with your modified weapon, you can choose which power cell you're firing (no action required).
 
 #### Facial Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 250 cr
 
 This augmentation replaces an eye or face.
 
@@ -1982,15 +1796,11 @@ _This cybernetic augmentation is a commonly seen replacement for irrevocably dam
 _<font style="color:#dd6b20">Item modification (projector), legendary</font>_<br>
 _Prerequisite: Vibroweapon with the_ two-handed _property_
 
-**Value:** 135,000 cr
-
 This weapon loses the *two-handed* property.
 
 #### Fighter Defensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in fighter_
-
-**Value:** 10,000 cr
 
 When you use your Second Wind feature, you also gain temporary hit points equal to the amount of hit points you regain.
 
@@ -1998,74 +1808,55 @@ When you use your Second Wind feature, you also gain temporary hit points equal 
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in fighter_
 
-**Value:** 10,000 cr
-
 You gain two additional superiority dice.
+
+#### Fine Amplifying Barrel 
+_<font style="color:green">Blaster modification (barrel), premium</font>_
+
+You gain a +1 bonus to damage rolls made with this weapon.
 
 #### Fine Armor
 _<font style="color:green">Armor (any), premium</font>_
-
-**Value:** 5x cr
 
 You have a +1 bonus to AC while wearing this armor.
 
 #### Fine Armor Chassis
 _<font style="color:green">Armor (any), premium (requires attunement)</font>_
 
-**Value:** 3x cr
-
 This modifiable armor chassis comes with vacant modification slots for overlay, underlay, reinforcement, and armoring modifications. It can house modifications of premium rarity or lower.
 
 #### Fine Ballistic Weave
 _<font style="color:green">Item modification (overlay), premium</font>_
-
-**Value:** 2,400 cr
 
 You gain a +1 bonus to AC while wearing this article of clothing.
 
 #### Fine Charisma Augment
 _<font style="color:green">Item modification (augment), premium</font>_
 
-**Value:** 2,000 cr
-
 Your Charisma score increases by 1.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### Fine Cloak Chassis
 _<font style="color:green">Adventuring gear (shoulders), premium (requires attunement)</font>_
-
-**Value:** 2,270 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications. It can house modifications of premium rarity or lower.
 
 #### Fine Computer Spike
 _<font style="color:green">Consumable (technology), premium</font>_
 
-**Value:** 725 cr
-
 When you make an Intelligence (slicer's kit) check, you can use the spike (no action required) to gain advantage on the check. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Fine Constitution Augment
 _<font style="color:green">Item modification (augment), premium</font>_
-
-**Value:** 2,000 cr
 
 Your Constitution score increases by 1.
 
 #### Fine Contoured Grip
 _<font style="color:green">Item modification (grip), premium</font>_
 
-**Value:** 2,200 cr
-
 You gain a +1 bonus to attack rolls made with this weapon.
 
 #### Fine Datacron
 _<font style="color:green">Relic (datacron), premium</font>_
-
-**Value:** 10,300 cr
 
 _Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._
 
@@ -2074,42 +1865,30 @@ This datacron contains a single 1st-level tech power. After tinkering with the d
 #### Fine Dexterity Augment
 _<font style="color:green">Item modification (augment), premium</font>_
 
-**Value:** 2,000 cr
-
 Your Dexterity score increases by 1.
 
 #### Fine Duplexed Extender Channel
 _<font style="color:green">Item modification (energy channel), premium</font>_
-
-**Value:** 1,750 cr
 
 When you cast a force power through this focus generator that has a range of 5 feet or greater, you can increase the range of that force power by 20 feet. 
 
 #### Fine Focus Generator
 _<font style="color:green">Focus (focus), premium (requires attunement)</font>_
 
-**Value:** 4,050 cr
-
 You gain a +1 bonus to the force attack rolls for force powers you cast through this focus generator.
 
 #### Fine Focus Generator Chassis
 _<font style="color:green">Focus (force), premium (requires attunement)</font>_
-
-**Value:** 2,700 cr
 
 This modifiable focus generator chassis comes with vacant modification slots for emitter, conductor, energy channel, and cycler modifications. It can house modifications of premium rarity or lower. 
 
 #### Fine Fortitude Inlay
 _<font style="color:green">Item modification (inlay), premium</font>_
 
-**Value:** 2,300 cr
-
 You gain a +1 bonus to Strength and Constitution saving throws while wearing this article of clothing.
 
 #### Fine Holocron
 _<font style="color:green">Relic (holocron), premium</font>_
-
-**Value:** 9,400 cr
 
 _Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._
 
@@ -2118,14 +1897,10 @@ This holocron contains a single 1st-level force power. After meditating with the
 #### Fine Intelligence Augment
 _<font style="color:green">Item modification (augment), premium</font>_
 
-**Value:** 2,000 cr
-
 Your Intelligence score increases by 1.
 
 #### Fine Medpac
 _<font style="color:green">Consumable (medpac), premium</font>_
-
-**Value:** 700 cr
 
 _This  is a quick-acting syringe filled with a concentrated dose of kolto._
 
@@ -2134,35 +1909,25 @@ As an action, you can use this medpac to restore 4d4+4 hit points to a creature 
 #### Fine Neutronium Edge
 _<font style="color:green">Item modification (edge), premium</font>_
 
-**Value:** 1,500 cr
-
 You gain a +1 bonus to damage rolls made with this weapon.
 
 #### Fine Pants Chassis
 _<font style="color:green">Adventuring gear (legs), premium (requires attunement)</font>_
-
-**Value:** 2,310 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications. It can house modifications of premium rarity or lower.
 
 #### Fine Poison (One Dose) 
 _<font style="color:green">Consumable (poison), premium</font>_
 
-**Value:** 1,200 cr
-
 You can use the poison in this vial to coat one kinetic weapon or one wrist launcher dart. Applying the poison takes an action. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw or take 2d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Fine Reflex Inlay
 _<font style="color:green">Item modification (inlay), premium</font>_
 
-**Value:** 2,350 cr
-
 You gain a +1 bonus to Dexterity and Intelligence saving throws while wearing this article of clothing.
 
 #### Fine Returning Weapon
 _<font style="color:green">Weapon (any with the thrown property), premium (requires attunement)</font>_
-
-**Value:** 12x cr
 
 _This weapon includes a micro-repulsorfield generator and a biotech signature homing device allowing it to quickly return to its thrower._
 
@@ -2171,84 +1936,60 @@ You have a +1 bonus to attack and damage rolls made with this enhanced weapon. A
 #### Fine Security Spike
 _<font style="color:green">Consumable (technology), premium</font>_
 
-**Value:** 750 cr
-
 When you make an Intelligence (security kit) check, you can use the spike (no action required) to gain advantage on the check. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Fine Shield
 _<font style="color:green">Shield (any), premium</font>_
-
-**Value:** 7x cr
 
 You have a +1 bonus to AC while wielding this shield.
 
 #### Fine Shield Chassis
 _<font style="color:green">Shield (any), premium (requires attunement)</font>_
 
-**Value:** 4x cr
-
 This modifiable shield chassis comes with vacant modification slots for overlay, underlay, reinforcement, and shielding modifications. It can house modifications of premium rarity or lower.
 
 #### Fine Strength Augment
 _<font style="color:green">Item modification (augment), premium</font>_
-
-**Value:** 2,000 cr
 
 Your Strength score increases by 1.
 
 #### Fine Tunic Chassis
 _<font style="color:green">Adventuring gear (body), premium (requires attunement)</font>_
 
-**Value:** 2,430 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications. It can house modifications of premium rarity or lower.
 
 #### Fine Weapon
 _<font style="color:green">Weapon (any), premium</font>_
-
-**Value:** 10x cr
 
 You have a +1 bonus to attack and damage rolls made with this enhanced weapon.
 
 #### Fine Weapon Chassis
 _<font style="color:green">Weapon (any), premium (requires attunement)</font>_
 
-**Value:** 5x cr
-
 This modifiable weapon chassis comes with vacant modification slots determined by its type. It can house modifications of premium rarity or lower.
 
 #### Fine Will Inlay
 _<font style="color:green">Item modification (inlay), premium</font>_
-
-**Value:** 2,425 cr
 
 You gain a +1 bonus to Wisdom and Charisma saving throws while wearing this article of clothing.
 
 #### Fine Wisdom Augment
 _<font style="color:green">Item modification (augment), premium</font>_
 
-**Value:** 2,000 cr
-
 Your Wisdom score increases by 1.
 
 #### Fine Wristpad
 _<font style="color:green">Focus (tech), premium (requires attunement)</font>_
-
-**Value:** 4,500 cr
 
 You gain a +1 bonus to the tech attack rolls for tech powers you cast through this wristpad.
 
 #### Fine Wristpad Chassis
 _<font style="color:green">Focus (tech), premium (requires attunement)</font>_
 
-**Value:** 3,000 cr
-
 This modifiable wristpad chassis comes with vacant modification slots for processor, motherboard, dataport, and storage modifications. It can house modifications of premium rarity or lower.
 
 #### Flashy
 _<font style="color:green">Weapon (heavy pistol), premium</font>_
-
-**Value:** 2,750 cr
 
 _Flashy is an SSK heavy pistol owned by the mercenary Corso Riggs during the Galactic Cold War._
 
@@ -2257,107 +1998,75 @@ The first time you hit a creature with a ranged weapon attack from this weapon e
 #### Flux Collimator (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 900 cr
-
 As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Flux Collimator (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 9,000 cr
 
 As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +3 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Flux Collimator (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 2,700 cr
-
 As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +2 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Forged Ferricite Channel Mark II
 _<font style="color:blue">Item modification (energy channel), prototype</font>_
 
-**Value:** 8,800 cr
-
 When you spend force points and deal damage with a force power cast through this focus generator, you deal additional damage equal to the number of force points spent.
-
-\columnbreak
 
 #### Forged Ferricite Channel Mark IV
 _<font style="color:#dd6b20">Item modification (energy channel), legendary</font>_
-
-**Value:** 196,000 cr
 
 When you spend force points and deal damage with a force power cast through this focus generator, you deal additional damage equal to twice the number of force points spent.
 
 #### Fortitude Underlay Mark I
 _<font style="color:#4a5568">Item modification (underlay), standard</font>_
 
-**Value:** 400 cr
-
 You gain a +1 bonus to Strength and Constitution saving throws and a -1 AC penalty to while wearing this armor or wielding this shield.
 
 #### Fortitude Underlay Mark II
 _<font style="color:green">Item modification (underlay), premium</font>_
-
-**Value:** 2,100 cr
 
 You gain a +1 bonus to Strength and Constitution saving throws while wearing this armor or wielding this shield.
 
 #### Fortitude Underlay Mark III
 _<font style="color:blue">Item modification (underlay), prototype</font>_
 
-**Value:** 8,350 cr
-
 You gain a +2 bonus to Strength and Constitution saving throws while wearing this armor or wielding this shield.
 
 #### Fortitude Underlay Mark IV
 _<font style="color:purple">Item modification (underlay), advanced</font>_
-
-**Value:** 31,600 cr
 
 You gain a +3 bonus to Strength and Constitution saving throws while wearing this armor or wielding this shield.
 
 #### Fragmentation Grenade (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
 
-**Value:** 500 cr
-
 Frag grenades are cheap, low-damage grenades used mainly by military personnel, mercenaries, bounty hunters, and adventurers. Grenades can be set to detonate on impact or set with a timer that lasts several seconds before detonating.  Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 15 Dexterity saving throw. A creature takes 4d6 kinetic damage on a failed save, or half as much as on a successful one.
 
 #### Fragmentation Grenade (Deadly)
 _<font style="color:purple">Consumable (explosive), advanced</font>_
-
-**Value:** 5,000 cr
 
 Frag grenades are cheap, low-damage grenades used mainly by military personnel, mercenaries, bounty hunters, and adventurers. Grenades can be set to detonate on impact or set with a timer that lasts several seconds before detonating.  Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 19 Dexterity saving throw. A creature takes 8d6 kinetic damage on a failed save, or half as much as on a successful one.
 
 #### Fragmentation Grenade (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
 
-**Value:** 1,500 cr
-
 Frag grenades are cheap, low-damage grenades used mainly by military personnel, mercenaries, bounty hunters, and adventurers. Grenades can be set to detonate on impact or set with a timer that lasts several seconds before detonating.  Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 17 Dexterity saving throw. A creature takes 6d6 kinetic damage on a failed save, or half as much as on a successful one.
 
 #### Fragmentation Mine (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
-
-**Value:** 2,500 cr
 
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 6d6 kinetic damage, or half as much on a successful one.	
 
 #### Fragmentation Mine (Deadly)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
 
-**Value:** 25,000 cr
-
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 19 Dexterity saving throw. On a failed save, a creature takes 12d6 kinetic damage, or half as much on a successful one.	
 
 #### Fragmentation Mine (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
-
-**Value:** 7,500 cr
 
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 9d6 kinetic damage, or half as much on a successful one.	
 
@@ -2365,14 +2074,10 @@ When you use your action to set it, this mine sets an imperceptible laser line e
 _<font style="color:#4a5568">Droid customization (part), standard</font>_<br>
 _Prerequisite: Class III droid_
 
-**Value:** 800 cr
-
 You are no longer bound by a slow, restrictive gate. Your speed increases by 10 feet.
 
 #### GNS Strength Enhancer
 _<font style="color:#dd6b20">Adventuring gear (waist), legendary (requires attunement)</font>_
-
-**Value:** 200,000 cr 
 
 _This large belt greatly increases a users physical power with an array of repulsorfield microgenerators and a pair of reactive-lift actuators that increase raw force and lift-capacity without any loss of speed or fine motor skills._
 
@@ -2382,22 +2087,16 @@ While wearing this belt, your Strength score becomes 25. If your Strength is alr
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in guardian_
 
-**Value:** 10,000 cr
-
 The radius of your Guardian Auras increases by 10 feet.
 
 #### Guardian Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in guardian_
 
-**Value:** 10,000 cr
-
 The damage die for your Force-Empowered Strikes and Improved Force-Empowered Strikes features increases to a d10.
 
 #### Hardy Torso Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 1,000 cr
 
 This augmentation replaces your torso.
 
@@ -2407,11 +2106,20 @@ Your Constitution score becomes 13. If your Constitution score is already equal 
 
 **Side Effect:** When you roll a 1 a Constitution saving throw to avoid exhaustion, you suffer 2 levels of exhaustion, instead of just 1.
 
+#### Harpoon Reel
+_<font style="color:blue">Blaster modification (attachment), prototype</font>_
+
+You install a secondary firemode that launches a harpoon attached to a tightly coiled cord. With this harpoon, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d6 kinetic damage. This attack can target a surface, object, or creature.
+
+A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.
+
+While connected in this manner, you can use your bonus action to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).
+
+Once you've used this feature, you can't use it again until you recover and reinsert the harpoon as an action.
+
 #### Hawkeye Ocular Package
 _<font style="color:green">Cybernetic augmentation (replacement), premium</font>_
 _Prerequisite: Intelligence 13_<br>
-
-**Value:** 1,700 cr
 
 This augmentation replaces your eyes.
 
@@ -2425,8 +2133,6 @@ You can activate or deactivate this augmentation as a bonus action. While this a
 _<font style="color:green">Droid customization (protocol), premium</font>_<br>
 _Prerequisite: Proficiency with medium armor_
 
-**Value:** 2,800 cr
-
 _This is gyro rebalancing and actuator tuning software designed to enable a droid to integrate and wield heavy armor._
 
 You gain proficiency with heavy armor. 
@@ -2439,14 +2145,10 @@ You gain proficiency with heavy armor.
 _<font style="color:green">Item modification (stabilizer), premium</font>_<br>
 _Prerequisite: Lightweapon with the double property_
 
-**Value:** 750 cr
-
 As a bonus action, you can activate the attachment. While active, you have a 30-foot flying speed, and whenever you take damage you must make a concentration check as if concentrating on a power. On a failure, you immediately fall to the ground.
 
 #### Hewey
 _<font style="color:purple">Weapon (vibroblade), advanced</font>_
-
-**Value:** 62,200 cr
 
 _Hewey is an N-30 battle blade owned by the mercenary Corso Riggs during the Galactic Cold War._
 
@@ -2457,8 +2159,6 @@ This weapon has 6 charges and regains 1d6 charges when you complete a long rest.
 #### Hidden Compartment Blaster
 _<font style="color:#4a5568">Cybernetic augmentation (enhancement), standard</font>_
 
-**Value:** 775 cr
-
 _This augmentation hides a weapon in its wearer's forearm that is almost completely undetectable by modern sensors._
 
 This implant includes a small hidden blaster that is completely shielded and hidden from unenhanced investigation. You cannot use this hidden blaster until it is revealed. As a bonus action, you can reveal this weapon and make a single ranged weapon attack with it. You have proficiency with this weapon for this attack. It deals 1d4 energy damage on a hit, has a range of 20/60, and the light and reload 4 properties.
@@ -2468,8 +2168,6 @@ This implant includes a small hidden blaster that is completely shielded and hid
 #### High-Grade Cybernetic Arm
 _<font style="color:blue">Cybernetic augmentation (replacement), prototype</font>_<br>
 _Prerequisite: Constitution 13_<br>
-
-**Value:** 10,000 cr
 
 This augmentation replaces an arm.
 
@@ -2483,8 +2181,6 @@ When you hit with a melee weapon attack using Strength with a weapon wielded by 
 _<font style="color:blue">Cybernetic augmentation (replacement), prototype</font>_<br>
 _Prerequisite: Constitution 13_
 
-**Value:** 10,000 cr
-
 This augmentation replaces both legs.
 
 _This mechanical leg replacement increases speed and jumping height._
@@ -2496,72 +2192,57 @@ You gain advantage on Strength ability checks and Strength saving throws, you ca
 #### High Precision Conductor Mark II
 _<font style="color:#dd6b20">Item modification (conductor), legendary</font>_
 
-**Value:** 216,000 cr
-
 When you cast a force power through this focus generator, you can roll a d6 and add the result to the save DC (if any) for that power.
 
 #### Horizontal Exojets
 _<font style="color:green">Item modification (armoring), premium</font>_
-
-**Value:** 1,600 cr
 
 Whenever you take the Dodge or Dash actions, your walking speed increases by 10 feet until the end of your turn.
 
 #### Improved Alacrity Adrenal
 _<font style="color:blue">Consumable (adrenal), prototype</font>_
 
-**Value:** 2,500 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +4 bonus to its Dexerity score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +4 bonus to its Dexerity score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+
+#### Improved Amplifying Barrel 
+_<font style="color:blue">Blaster modification (barrel), prototype</font>_
+
+You gain a +2 bonus to damage rolls made with this weapon.
 
 #### Improved Armor
 _<font style="color:blue">Armor (any), prototype</font>_
-
-**Value:** 30x cr
 
 You have a +2 bonus to AC while wearing this armor.
 
 #### Improved Armor Chassis
 _<font style="color:blue">Armor (any), prototype (requires attunement)</font>_
 
-**Value:** 15x cr
-
 This modifiable armor chassis comes with vacant modification slots for overlay, underlay, reinforcement, and armoring modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Ballistic Weave
 _<font style="color:blue">Item modification (overlay), prototype</font>_
-
-**Value:** 9,650 cr
 
 You gain a +2 bonus to AC while wearing this article of clothing.
 
 #### Improved Cloak Chassis
 _<font style="color:blue">Adventuring gear (shoulders), prototype (requires attunement)</font>_
 
-**Value:** 11,240 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Computer Spike
 _<font style="color:blue">Consumable (technology), prototype</font>_
-
-**Value:** 2,175 cr
 
 When you make an Intelligence (slicer's kit) check, you can use the spike (no action required) to gain advantage on the check, and then you can reroll one of the dice once. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Improved Contoured Grip
 _<font style="color:blue">Item modification (grip), prototype</font>_
 
-**Value:** 12,250 cr
-
 You gain a +2 bonus to attack rolls made with this weapon.
 
 #### Improved Datacron
 _<font style="color:blue">Relic (datacron), prototype</font>_
-
-**Value:** 21,700 cr
 
 _Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._
 
@@ -2570,35 +2251,25 @@ This datacron contains a single 3rd-level tech power, or multiple powers of 1st-
 #### Improved Environmental Barrier
 _<font style="color:blue">Consumable (barrier), prototype</font>_
 
-**Value:** 10,000 cr
-
 A shimmering barrier springs into resistance around you that lasts 8 hours. The barrier has 30 hit points. Whenever you take damage (one of acid, cold, fire, force, lightning, necrotic, poison, psychic, or sonic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
 #### Improved Focus Generator
 _<font style="color:blue">Focus (focus), prototype (requires attunement)</font>_
-
-**Value:** 20,250 cr
 
 You gain a +2 bonus to the force attack rolls for force powers you cast through this focus generator.
 
 #### Improved Focus Generator Chassis
 _<font style="color:blue">Focus (force), prototype (requires attunement)</font>_
 
-**Value:** 13,500 cr
-
 This modifiable focus generator chassis comes with vacant modification slots for emitter, conductor, energy channel, and cycler modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Fortitude Inlay
 _<font style="color:blue">Item modification (inlay), prototype</font>_
 
-**Value:** 8,650 cr
-
 You gain a +2 bonus to Strength and Constitution saving throws while wearing this article of clothing.
 
 #### Improved Holocron
 _<font style="color:blue">Relic (holocron), prototype</font>_
-
-**Value:** 19,800 cr
 
 _Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._
 
@@ -2607,8 +2278,6 @@ This holocron contains a single 3rd-level force power, or multiple powers of 1st
 #### Improved Medpac
 _<font style="color:blue">Consumable (medpac), prototype</font>_
 
-**Value:** 3,800 cr
-
 _This  is a quick-acting syringe filled with a concentrated dose of kolto._
 
 As an action, you can use this medpac to restore 8d4+8 hit points to a creature within 5 feet.
@@ -2616,42 +2285,30 @@ As an action, you can use this medpac to restore 8d4+8 hit points to a creature 
 #### Improved Mental Inlay
 _<font style="color:blue">Item modification (inlay), prototype</font>_
 
-**Value:** 8,550 cr
-
 You gain a +1 bonus to Intelligence, Wisdom, and Charisma saving throws while wearing this article of clothing.
 
 #### Improved Pants Chassis
 _<font style="color:blue">Adventuring gear (legs), prototype (requires attunement)</font>_
-
-**Value:** 13,440 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Phobium Echoer
 _<font style="color:blue">Item modification (cycler), prototype</font>_
 
-**Value:** 9,700 cr
-
 When you cast a force power that affects an area in a radius or a cube, you can increase the radius or length of the cube by 5 feet.
 
 #### Improved Poison (One Dose) 
 _<font style="color:blue">Consumable (poison), prototype</font>_
-
-**Value:** 11,000 cr
 
 You can use the poison in this vial to coat one kinetic weapon or one wrist launcher dart. Applying the poison takes an action. A creature hit by the poisoned weapon must make a DC 15 Constitution saving throw or take 4d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Improved Reflex Inlay
 _<font style="color:blue">Item modification (inlay), prototype</font>_
 
-**Value:** 8,840 cr
-
 You gain a +2 bonus to Dexterity and Intelligence saving throws while wearing this article of clothing.
 
 #### Improved Returning Weapon
 _<font style="color:blue">Weapon (any with the thrown property), prototype (requires attunement)</font>_
-
-**Value:** 70x cr
 
 _This weapon includes a micro-repulsorfield generator and a biotech signature homing device allowing it to quickly return to its thrower._
 
@@ -2660,39 +2317,29 @@ You have a +2 bonus to attack and damage rolls made with this enhanced weapon. A
 #### Improved Security Spike
 _<font style="color:blue">Consumable (technology), prototype</font>_
 
-**Value:** 2,250 cr
-
 When you make an Intelligence (security kit) check, you can use the spike (no action required) to gain advantage on the check, and then you can reroll one of the dice once. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Improved Shield
 _<font style="color:blue">Shield (any), prototype</font>_
-
-**Value:** 45x cr
 
 You have a +2 bonus to AC while wielding this shield.
 
 #### Improved Shield Chassis
 _<font style="color:blue">Shield (any), prototype (requires attunement)</font>_
 
-**Value:** 22x cr
-
 This modifiable shield chassis comes with vacant modification slots for overlay, underlay, reinforcement, and shielding modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Sigil Lens
 _<font style="color:#dd6b20">Item modification (lens), legendary</font>_
-
-**Value:** 220,000 cr
 
 You gain a +2 bonus to attack rolls made with this weapon. Additionally, you gain a +2 bonus to attack rolls you make with force powers when using this weapon as your focus.
 
 #### Improved Stamina Adrenal
 _<font style="color:blue">Consumable (adrenal), prototype</font>_
 
-**Value:** 2,500 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +4 bonus to its Constitution score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +4 bonus to its Constitution score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
@@ -2701,80 +2348,58 @@ You can administer an adrenal to yourself as a bonus action, or another creature
 #### Improved Strength Adrenal
 _<font style="color:blue">Consumable (adrenal), prototype</font>_
 
-**Value:** 2,500 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +4 bonus to its Strength score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +4 bonus to its Strength score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 #### Improved Strength Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_
-
-**Value:** 12,000 cr
 
 Your Strength score increases by 2.
 
 #### Improved T-Cycle Reinforcer
 _<font style="color:green">Item modification (cycler), premium</font>_
 
-**Value:** 1,760 cr
-
 When you cast a force power that pushes or pulls a creature, you can increase the distance pushed or pulled by 10 feet.
 
 #### Improved Telgorn Jolt Stabilizer
 _<font style="color:purple">Item modification (stabilizer), advanced</font>_
-
-**Value:** 14,000 cr
 
 When you cast a force power or use a class feature that requires a melee weapon attack, you can spend 1 force point to change the weapon's damage type to lightning and deal an additional 1d8 lightning damage.
 
 #### Improved Tunic Chassis
 _<font style="color:blue">Adventuring gear (body), prototype (requires attunement)</font>_
 
-**Value:** 12,110 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Weapon
 _<font style="color:blue">Weapon (any), prototype</font>_
-
-**Value:** 60x cr
 
 You have a +2 bonus to attack and damage rolls made with this enhanced weapon.
 
 #### Improved Weapon Chassis
 _<font style="color:blue">Weapon (any), prototype (requires attunement)</font>_
 
-**Value:** 30x cr
-
 This modifiable weapon chassis comes with vacant modification slots determined by its type, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Improved Will Inlay
 _<font style="color:blue">Item modification (inlay), prototype</font>_
-
-**Value:** 8,910 cr
 
 You gain a +2 bonus to Wisdom and Charisma saving throws while wearing this article of clothing.
 
 #### Improved Wristpad
 _<font style="color:blue">Focus (tech), prototype (requires attunement)</font>_
 
-**Value:** 22,500 cr
-
 You gain a +2 bonus to the tech attack rolls for tech powers you cast through this wristpad.
 
 #### Improved Wristpad Chassis
 _<font style="color:blue">Focus (tech), prototype (requires attunement)</font>_
-
-**Value:** 15,000 cr
 
 This modifiable wristpad chassis comes with vacant modification slots for processor, motherboard, dataport, and storage modifications, as well as one augment slot. It can house modifications of prototype rarity or lower.
 
 #### Indomitable Fortress Package
 _<font style="color:#dd6b20">Cybernetic augmentation (enhancement), legendary</font>_<br>
 _Prerequisite: Constitution 15_
-
-**Value:** 150,000 cr
 
 _This implant drastically increases your endurance._ 
 
@@ -2784,8 +2409,6 @@ Your Constitution score increases by 1, and your maximum for this score increase
 
 #### Infiltration Package
 _<font style="color:green">Cybernetic augmentation (replacement), premium</font>_
-
-**Value:** 1350 cr
 
 This augmentation replaces a hand.
 
@@ -2798,27 +2421,19 @@ This implant appears to be a standard cybernetic mechanical arm, but conceals a 
 #### Inquisitor Saber 
 _<font style="color:blue">Weapon (any lightweapon with the double property), prototype (requires attunement)</font>_
 
-**Value:** 22,500 cr
-
 _These lightweapons, favored by the Jedi hunters known as Inquisitors, has the unique ability to rapidly spin, granting its wielder a limited flying ability._
 
 You have a +1 bonus to attack and damage rolls made with this enhanced weapon.
 
 As a bonus action, you cause the lightsaber to rapidly spin. When you do so, you lose the +1 bonus to attack and damage rolls made with the weapon, but you gain a +1 bonus to AC and Dexterity saving throws. Additionally, while spinning, you have a 30-foot flying speed. While flying, if you take damage, you must make a concentration check as if concentrating on a power. On a failure, you immediately fall to the ground.
 
-\columnbreak
-
 #### Integrated Jetboosters Mark I
 _<font style="color:blue">Item modification (armoring), prototype</font>_<br>
-
-**Value:** 7,700 cr
 
 Your armor gets a jetpack built in. Activating or deactivating the jetpack requires a bonus action and, while active, you have a flying speed of 30 feet. The jetpack last for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells.
 
 #### Integrated Subdermal Armor
 _<font style="color:green">Cybernetic augmentation (enhancement), premium</font>_<br>
-
-**Value:** 1750 cr
 
 _This implant reinforces your skin with an ablative woven alloy, making you difficult to damage._ 
 
@@ -2829,8 +2444,6 @@ When you aren't wearing armor, your AC becomes 13 + your Dexterity modifier.
 #### Integrated Subdermal Armor Mark II
 _<font style="color:blue">Prototype cybernetic augmentation (enhancement), prototype</font>_<br>
 
-**Value:** 15,000 cr
-
 _This implant reinforces your skin with an high-strength cortosis reinforcement, making you very difficult to damage._ 
 
 When you aren't wearing armor, your AC becomes 14 + your Dexterity modifier. 
@@ -2840,49 +2453,35 @@ When you aren't wearing armor, your AC becomes 14 + your Dexterity modifier.
 #### Interface Protocol
 _<font style="color:#4a5568">Droid customization (protocol), standard</font>_
 
-**Value:** 400 cr
-
 You become a valid target for the *tracker droid interface* tech power.
 
 #### Interfaced Assistance Protocol
 _<font style="color:#4a5568">Droid customization (protocol), standard</font>_
-
-**Value:** 500 cr
 
 While you are interfaced via the *tracker droid interface* tech power, whenever your handler has advantage on an ability check or attack roll granted by you taking the Help action, they can reroll one of the dice once.
 
 #### Interfaced Crafting Protocol
 _<font style="color:#4a5568">Droid customization (protocol), standard</font>_
 
-**Value:** 500 cr
-
 While you are interfaced via the *tracker droid interface* tech power, whenever your handler makes an ability check using tools with which the you are also proficient, they have advantage on the check. If they already have advantage, they can instead reroll one of the dice once.
 
 #### Interfaced Distraction Protocol
 _<font style="color:#4a5568">Droid customization (protocol), standard</font>_
-
-**Value:** 500 cr
 
 While you are interfaced via the *tracker droid interface* tech power, when you are within 5 feet of a target, your handler does not provoke opportunity attacks when moving out of that creature's reach.
 
 #### Interfaced Healing Protocol
 _<font style="color:#4a5568">Droid customization (protocol), standard</font>_
 
-**Value:** 500 cr
-
 While you are interfaced via the *tracker droid interface* tech power, when your handler restores hit points to a creature that is within 5 feet of you, they can roll the dice twice and take either total.
 
 #### Interfaced Tracking Protocol
 _<font style="color:#4a5568">Droid customization (protocol), standard</font>_
 
-**Value:** 500 cr
-
 While you are interfaced via the *tracker droid interface* tech power, when your handler makes a Wisdom (Survival) check to track a target, and you are also tracking that target, your handler gains advantage on the check. If they already have advantage, they can instead reroll one of the dice once.
 
 #### Intuitive Facial Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 1,000 cr
 
 This augmentation replaces your face.
 
@@ -2892,11 +2491,15 @@ Your Intelligence score becomes 13. If your Intelligence score is already equal 
 
 **Side Effect:** When you roll a 1 an Intelligence saving throw, the implant stutters, causing any ability checks in which you are proficient you make before the start of your next turn to not include your proficiency bonus.
 
+#### Ion Amplifying Chamber
+_<font style="color:green">Blaster modification (energy core), premium</font>_<br>
+_Prerequisite: Blaster that deals ion damage_
+
+This weapon ignores resistance to ion damage.
+
 #### Iridonian Grav-lev Arm
 _<font style="color:green">Cybernetic augmentation (replacement), premium</font>_<br>
 _Prerequisite: Constitution 13_<br>
-
-**Value:** 2,000 cr
 
 This augmentation replaces an arm.
 
@@ -2906,42 +2509,28 @@ Your unarmed strikes with this arm deal ion damage, and you count as one size la
 
 **Side Effect:** You can no longer wield weapons with electronic components, such as blasters, vibroweapons, or lightweapons. Additionally, if this hand interacts with a small electronic device, such as a datapad or commlink, it is immediately disabled.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Isometric Prism Emitter Mark I
 _<font style="color:#4a5568">Item modification (emitter), standard</font>_
-
-**Value:** 410 cr
 
 You gain a +1 bonus to the force attack rolls and -1 penalty to the force save DCs of force powers you cast through this focus generator.
 
 #### Isometric Prism Emitter Mark II
 _<font style="color:green">Item modification (emitter), premium</font>_
 
-**Value:** 2,400 cr
-
 You gain a +1 bonus to the force attack rolls of force powers you cast through this focus generator.
 
 #### Isometric Prism Emitter Mark III
 _<font style="color:blue">Item modification (emitter), prototype</font>_
-
-**Value:** 11,500 cr
 
 You gain a +2 bonus to the force attack rolls of force powers you cast through this focus generator.
 
 #### Isometric Prism Emitter Mark IV
 _<font style="color:purple">Item modification (emitter), advanced</font>_
 
-**Value:** 43,000 cr
-
 You gain a +3 bonus to the force attack rolls of force powers you cast through this focus generator.
 
 #### Jedi Knight's Robe
 _<font style="color:blue">Adventuring gear (body), prototype (requires attunement)</font>_
-
-**Value:** 22,500 cr
 
 _Members of the Order typically wear plain or unassuming garments, but this variant offers the additional protection needed by Jedi influencing important events._
 
@@ -2950,8 +2539,6 @@ You gain a +2 bonus to saving throws while you wear this robe.
 #### Jedi Master's Robe
 _<font style="color:purple">Adventuring gear (body), advanced (requires attunement)</font>_
 
-**Value:** 95,000 cr
-
 _Members of the Order typically wear plain or unassuming garments, but Jedi Masters also know the importance of adequate protection when great challenges must be surmounted._
 
 You gain a +3 bonus to saving throws while you wear this robe.
@@ -2959,16 +2546,12 @@ You gain a +3 bonus to saving throws while you wear this robe.
 #### Jedi Padawan's Robe
 _<font style="color:green">Adventuring gear (body), premium (requires attunement)</font>_
 
-**Value:** 4,800 cr
-
 _Members of the Jedi Order typically wear plain or unassuming garments, offering only a minor boost to defenses._
 
 You gain a +1 bonus to saving throws while you wear this robe.
 
 #### Jensaarai Armor
 _<font style="color:blue">Armor (battle armor), prototype (requires attunement)</font>_
-
-**Value:** 22,200 cr
 
 _At the height of their training, Jensaarai craft and bond with their own armor. While each set of armor is unique to its bearer, they share similar traits._
 
@@ -2979,8 +2562,6 @@ While wearing this armor, you are considered proficient regardless of whether or
 #### Jensaarai Cloak
 _<font style="color:green">Adventuring gear (shoulders), premium (requires attunement)</font>_
 
-**Value:** 2,900 cr
-
 _Most Jensaari wear a gray cloak that subtly adapts to their surroundings._
 
 While wearing this cloak with its hood up, you can try to hide when you are lightly obscured from the creature from which you are hiding. Pulling the hood up or down requires a bonus action.
@@ -2990,35 +2571,42 @@ While wearing this cloak with its hood up, you can try to hide when you are ligh
 #### Jensaarai Headgear
 _<font style="color:purple">Adventuring gear (head), advanced (requires attunement)</font>_
 
-**Value:** 74,300 cr 
-
 _Most Jensaarai craft a mask or helmet bearing the visage of an animal that best personifies their desires or goals._
 
 While you are wearing this headgear, kinetic and energy damage that you take from unenhanced weapons is reduced by an amount equal to your proficiency bonus.
 
 ***Jensaarai Regalia.*** While wearing and attuned to this armor and Jensaarai Armor, this headgear no longer count towards your maximum attunement. While wearing and attuned to this headgear, Jensaarai Armor, and Jensaarai Cloak, fire, cold, and force damage you take is reduced by an amount equal to your proficiency bonus.
 
+#### Keen Core
+_<font style="color:green">Blaster modification (energy core), premium</font>_
+
+This weapon gains the keen 1 property. If the weapon already has the keen property, its keen number increases by 1.
+
 #### Kunda Cluster
 _<font style="color:red">Item modification (crystal), artifact</font>_
-
-**Value:** 290,000 cr
 
 When you cast a force power that requires a saving throw, you can roll a d8 and add the result to your save DC for that power while using this weapon as your focus.
 
 \columnbreak
 
+#### Lethal Assassination Scope
+_<font style="color:#dd6b20">Blaster modification (attachment), legendary</font>_
+
+This weapon gains the silent and vicious 2 properties. If the weapon already has the vicious property, its vicious number increases by 2.
+
+#### Lethal Precision Focus
+_<font style="color:#dd6b20">Blaster modification (targeting), legendary</font>_
+
+When you make an attack roll with this weapon, you can roll a d8 and add the result to the total.
+
 #### Lightweight Stabilizer Frame
 _<font style="color:#dd6b20">Item modification (stabilizer), legendary</font>_<br>
 _Prerequisite: Lightweapon with the_ two-handed _property_<br>
-
-**Value:** 112,000 cr
 
 This weapon loses the two-handed property. 
 
 #### Limb Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 400 cr
 
 This augmentation replaces a hand, foot, arm, or leg.
 
@@ -3027,14 +2615,10 @@ _This cybernetic augmentation is a commonly seen replacement for lost limbs._
 #### Luminophillic Stabilizer
 _<font style="color:#4a5568">Item modification (stabilizer), standard</font>_
 
-**Value:** 300 cr
-
 This weapon loses the *luminous* property, and gains the *hidden* property if it didn't have it already. 
 
 #### Mag-lock Boots
 _<font style="color:#4a5568">Adventuring gear (feet), standard</font>_
-
-**Value:** 1,000 cr
 
 While you wear these boots, you can activate or deactivate heir mag-locks as a bonus action. While the mag locks are engaged, you move at half speed, can walk on any solid metallic surface, ignore difficult terrain caused by metallic debris, and ignore the effects of gravity (or the lack thereof), allowing you to walk up vertical surfaces or even upside-down. 
 
@@ -3042,8 +2626,6 @@ The battery in these boots lasts for a total of 1 hour and recharges at the end 
 
 #### Magnetic Arm Enhancement
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 1,000 cr
 
 This augmentation replaces a hand.
 
@@ -3056,8 +2638,6 @@ Unarmed strikes with this hand have the reach property.
 #### Mandalorian Beskar'gam
 _<font style="color:blue">Armor (any), prototype (requires attunement)</font>_
 
-**Value:** 40x cr
-
 _This armor is forged from an incredibly rare material known as beskar, a highly durable metal._
 
 This armor comes equipped with 24 slots that can each hold a single item that weighs less than 2 lb. Additionally, it grants a +1 bonus to AC.
@@ -3067,22 +2647,14 @@ This armor comes equipped with 24 slots that can each hold a single item that we
 #### Mandalorian Helmet
 _<font style="color:green">Adventuring gear (head), premium (requires attunement)</font>_
 
-**Value:** 4,200 cr
-
 _Featuring the iconic T-shaped visor of the Mandalorians, this helmet strikes fear into the hearts of the unwary._
 
 This helmet comes equipped with a headcomm and holorecorder. Additionally, while wearing this helmet, you have darkvision out to 60 feet. 
 
 ***Mandalorian Vestments.*** While wearing and attuned to this helmet and Mandalorian Beskar'gam, you have advantage on Wisdom (Perception) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, Mandalorian Beskar'gam, and Mandalorian Shuk'orok, you have advantage on Intelligence (Investigation) checks within 5 feet.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Mandalorian Shuk'orok
 _<font style="color:purple">Adventuring gear (hands), advanced (requires attunement)</font>_
-
-**Value:** 66,000 cr 
 
 While wearing these gloves, your Strength score becomes 21. If your Strength is already equal to or greater than 21, it has no effect on you.
 
@@ -3092,35 +2664,30 @@ While wearing these gloves, your Strength score becomes 21. If your Strength is 
 _<font style="color:#4a5568">Droid customization (part), standard</font>_<br>
 _Prerequisite: Class II droid_
 
-**Value:** 800 cr
+Your manipulator arm can now wield items as normal, instead of only weapons and shield generators with the light property.
 
-Your manipulator arm can now wield items as normal, instead of only weapons and shield generators with the *light* property.
+#### Maser Core
+_<font style="color:#4a5568">Blaster modification (energy core), standard</font>_
+
+When a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk's Deflect Missiles or the *saber reflect* force power, they must roll the reduction dice twice and take the lesser total.
 
 #### Master Armor Chassis
 _<font style="color:red">Armor (any), artifact (requires attunement)</font>_
-
-**Value:** 750x cr
 
 This modifiable armor chassis comes with vacant modification slots for overlay, underlay, reinforcement, and armoring modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Charisma Augment
 _<font style="color:red">Item modification (augment), artifact</font>_
 
-**Value:** 335,000 cr
-
 Your Charisma score increases by 2, and your maximum for this score increases by 2.
 
 #### Master Cloak Chassis
 _<font style="color:red">Adventuring gear (shoulders), artifact (requires attunement)</font>_
 
-**Value:** 278,200 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Datacron
 _<font style="color:red">Relic (datacron), artifact</font>_
-
-**Value:** 840,000 cr
 
 _Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._
 
@@ -3129,14 +2696,10 @@ This datacron contains a single 9th-level tech power, or multiple powers of 1st-
 #### Master Focus Generator Chassis
 _<font style="color:red">Focus (force), artifact (requires attunement)</font>_
 
-**Value:** 702,000x cr
-
 This modifiable focus generator chassis comes with vacant modification slots for emitter, conductor, energy channel, and cycler modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Holocron
 _<font style="color:red">Relic (holocron), artifact</font>_
-
-**Value:** 764,000
 
 _Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._
 
@@ -3145,70 +2708,50 @@ This holocron contains a single 9th-level force power, or multiple powers of 1st
 #### Master Intelligence Augment
 _<font style="color:red">Item modification (augment), artifact</font>_
 
-**Value:** 335,000 cr
-
 Your Intelligence score increases by 2, and your maximum for this score increases by 2.
 
 #### Master Pants Chassis
 _<font style="color:red">Adventuring gear (legs), artifact (requires attunement)</font>_
-
-**Value:** 285,200 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Physical Barrier 
 _<font style="color:red">Consumable (barrier), artifact</font>_
 
-**Value:** 260,000 cr 
-
 A shimmering barrier springs into resistance around you that lasts 8 hours. The barrier has 100 hit points. Whenever you take damage (one of energy, ion, or kinetic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
 #### Master Shield Chassis
 _<font style="color:red">Shield (any), artifact (requires attunement)</font>_
-
-**Value:** 1,150x cr
 
 This modifiable shield chassis comes with vacant modification slots for overlay, underlay, reinforcement, and shielding modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Strength Augment
 _<font style="color:red">Item modification (augment), artifact</font>_
 
-**Value:** 335,000 cr
-
 Your Strength score increases by 2, and your maximum for this score increases by 2.
 
 #### Master Tunic Chassis
 _<font style="color:red">Adventuring gear (body), artifact (requires attunement)</font>_
-
-**Value:** 283,100 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Versatile Inlay
 _<font style="color:red">Item modification (inlay), artifact</font>_
 
-**Value:** 292,100 cr
-
 You gain a +3 bonus to saving throws while wearing this article of clothing.
 
 #### Master Weapon Chassis
 _<font style="color:red">Weapon (any), artifact (requires attunement)</font>_
-
-**Value:** 1,500x cr
 
 This modifiable weapon chassis comes with vacant modification slots determined by its type, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Master Wristpad Chassis
 _<font style="color:red">Focus (tech), artifact (requires attunement)</font>_
 
-**Value:** 780,000x cr
-
 This modifiable wristpad chassis comes with vacant modification slots for processor, motherboard, dataport, and storage modifications, as well as two augment slots. It can house modifications of artifact rarity or lower.
 
 #### Matrix Armor
 _<font style="color:green">Armor (any heavy), premium</font>_
-
-**Value:** 4,750 cr
 
 _This suit of armor has had its protective durasteel components replaced by equivalents made of matrix, a purple metal used to reinforce starships._
 
@@ -3216,8 +2759,6 @@ While wearing this suit of armor, any critical hit against you becomes a normal 
 
 #### Mechanic
 _<font style="color:#4a5568">Droid customization (part), standard</font>_
-
-**Value:** 900 cr
 
 _This part equips the droid with a series of machine repair tools._
 
@@ -3229,8 +2770,6 @@ You can use each feature once. You regain all expended uses when you complete a 
 
 #### Medic
 _<font style="color:#4a5568">Droid customization (part), standard</font>_
-
-**Value:** 1,000 cr
 
 _This part equips the droid with a compact medical kit._
 
@@ -3244,15 +2783,11 @@ This medical kit has no effect on droids or constructs. You can use each feature
 #### MerenData Excelcior 
 _<font style="color:#4a5568">Item modification (dataport), standard</font>_
 
-**Value:** 170 cr
-
 When you deal cold damage to a creature with a tech power cast through this wristpad, the creature's speed is reduced by 5 feet.
 
 #### Microphasic Hypervisor
 _<font style="color:blue">Cybernetic augmentation (replacement), prototype</font>_<br>
 _Prerequisite: Constitution 13_
-
-**Value:** 16,000 cr
 
 This augmentation replaces your eyes.
 
@@ -3262,13 +2797,9 @@ You can activate or deactivate this implant as a bonus action. While active, you
 
 **Side Effect:** While active, you have disadvantage on Wisdom (Perception) checks beyond 30 feet.
 
-\columnbreak
-
 #### Mighty Athlete Package
 _<font style="color:#dd6b20">Cybernetic augmentation (enhancement), legendary</font>_<br>
 _Prerequisite: Strength 15_
-
-**Value:** 150,000 cr
 
 _This implant drastically increases your physical capacities._ 
 
@@ -3279,15 +2810,11 @@ Your Strength score increases by 1, and your maximum for this score increases by
 #### Moderate Neutronium Edge
 _<font style="color:blue">Item modification (edge), prototype</font>_
 
-**Value:** 11,000 cr
-
 You gain a +2 bonus to damage rolls made with this weapon.
 
 #### Monk Defensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in monk_
-
-**Value:** 10,000 cr
 
 Your maximum focus points increases by an amount equal to your Wisdom or Charisma modifier (your choice, a minimum of one).
 
@@ -3295,33 +2822,26 @@ Your maximum focus points increases by an amount equal to your Wisdom or Charism
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in monk_
 
-**Value:** 10,000 cr
-
 Your Martial Arts Damage Die increases by one step (from a d4 to a d6, a d6 to a d8, a d8 to a d10, or a d10 to a d12). Additionally, when you roll a 1 on the damage roll for an unarmed strike or monk weapon, you can reroll the die. You must use the new roll. 
 
 #### Monomolecular Honing Cell
 _<font style="color:green">Item modification (vibrator cell), premium</font>_
-
-**Value:** 1,900 cr
 
 This weapon ignores resistance to kinetic damage.
 
 #### Monomolecular Honing Cell Mark II
 _<font style="color:purple">Item modification (vibrator cell), advanced</font>_
 
-**Value:** 42,000 cr
-
 This weapon ignores resistance to kinetic damage, and treats immunity as resistance.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+#### Multispectral Optics Mark IV
+_<font style="color:#dd6b20">Blaster modification (targeting), legendary</font>_
 
-\pagebreak
+While looking through this weapon's scope, you have truesight out to a distance equal to the long range of this weapon and you can see creatures that are lightly or heavily obscured. Additionally, when you make an attack roll with this weapon, you can roll a d4 and add the result to the total.
 
 #### Nighthawk Ocular Implant
 _<font style="color:green">Premium cybernetic augmentation (replacement), premium</font>_<br>
 _Prerequisite: Intelligence 13_<br>
-
-**Value:** 3,600 cr
 
 This augmentation replaces your eyes.
 
@@ -3333,22 +2853,16 @@ You can activate or deactivate this implant as a bonus action. While active, you
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in operative_
 
-**Value:** 10,000 cr
-
 When you use your Bad Feeling feature, you have resistance to all damage until the end of your first turn.
 
 #### Operative Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in operative_
 
-**Value:** 10,000 cr
-
 Your Sneak Attack damage die increases from a d6 to a d8.
 
 #### Optimized Actuators Mark I
 _<font style="color:#4a5568">Item modification (armoring), standard</font>_<br>
-
-**Value:** 325 cr
 
 Your movement speed increases by 5 feet.
 
@@ -3356,14 +2870,10 @@ Your movement speed increases by 5 feet.
 _<font style="color:green">Item modification (augment), premium</font>_<br>
 _Prerequisite: An item with the_ strength _property_
 
-**Value:** 1,500 cr
-
-The Strength requirement for this item is removed. 
+The strength requirement for this item is removed. 
 
 #### Orbalisk Armor
 _<font style="color:blue">Armor (heavy durasteel), prototype</font>_
-
-**Value:** —
 
 _This armor is comprised of a series of small parasitic creatures called orbalisks. Over time, orbalisks reproduce until they cover the entirety of their host._
 
@@ -3374,49 +2884,35 @@ This armor has no weight and does affect encumbrance. While wearing it, you are 
 #### Oscillation Calibrator (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 850 cr
-
 As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +1 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Oscillation Calibrator (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 8,500 cr
 
 As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +3 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Oscillation Calibrator (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 2,550 cr
-
 As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +2 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
 
 #### Ossus Dueling Lens
 _<font style="color:blue">Item modification (lens), prototype</font>_
-
-**Value:** 12,500 cr
 
 You gain a +2 bonus to attack rolls made with this weapon.
 
 #### Ossus Fighting Lens
 _<font style="color:green">Item modification (lens), premium</font>_
 
-**Value:** 2,400 cr
-
 You gain a +1 bonus to attack rolls made with this weapon.
 
 #### Ossus Training Lens
 _<font style="color:#4a5568">Item modification (lens), standard</font>_
 
-**Value:** 425 cr
-
 You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon.
 
 #### Ossus Mastery Lens
 _<font style="color:purple">Item modification (lens), advanced</font>_
-
-**Value:** 44,000 cr
 
 You gain a +3 bonus to attack rolls made with this weapon.
 
@@ -3426,8 +2922,6 @@ You gain a +3 bonus to attack rolls made with this weapon.
 _<font style="color:green">Droid customization (protocol), premium</font>_<br>
 _Prerequisite: Class II droid_
 
-**Value:** 1,000 cr
-
 _This power and performance package creates a nested set of rules for operating light shield generators while other combat operations are at peak capacity, allowing a Class IV droid to wade through combat with both shields and heavy weapons._
 
 You can now integrate a single light shield generator into your droid chassis. Over the course of a short or long rest, you can insert and integrate this light shield generator into your frame. You can activate or deactivate this light shield generator as a bonus action. While it is active, you can wield it and benefit from its bonus to AC even if your hands are full. All other rules and conditions apply as if you were wearing this light shield generator normally. While it is active, you cannot benefit from any other shields. 
@@ -3435,75 +2929,96 @@ You can now integrate a single light shield generator into your droid chassis. O
 #### Pacnorval Chem Integrator
 _<font style="color:green">Item modification (projector), premium</font>_
 
-**Value:** 1,200 cr
-
 You can apply poisons to this weapon as a bonus action, instead of an action.
 
 #### Physical Barrier 
 _<font style="color:green">Consumable (barrier), premium</font>_
-
-**Value:** 750 cr
 
 A shimmering barrier springs into resistance around you that lasts 8 hours. The barrier has 10 hit points. Whenever you take damage (one of energy, ion, or kinetic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
 #### Physical Underlay Mark I
 _<font style="color:blue">Item modification (underlay), prototype</font>_
 
-**Value:** 8,300 cr
-
 You gain a +1 bonus to Strength, Dexterity, and Constitution saving throws while wearing this armor or wielding this shield.
 
 #### Physical Underlay Mark II
 _<font style="color:purple">Item modification (underlay), advanced</font>_
-
-**Value:** 36,200 cr
 
 You gain a +2 bonus to Strength, Dexterity, and Constitution saving throws while wearing this armor or wielding this shield.
 
 #### Physical Underlay Mark III
 _<font style="color:#dd6b20">Item modification (underlay), legendary</font>_
 
-**Value:** 177,000 cr
-
 You gain a +3 bonus to Strength, Dexterity, and Constitution saving throws while wearing this armor or wielding this shield.
+
+#### Piercing Core
+_<font style="color:green">Blaster modification (energy core), premium</font>_
+
+This weapon gains the piercing 1 property. If the weapon already has the piercing property, its piercing number increases by 1.
 
 #### Pinnacle Energy Shielding
 _<font style="color:red">Item modification (overlay), artifact</font>_
-
-**Value:** 279,000 cr
 
 You gain resistance to kinetic, energy, ion, and lightning damage.
 
 #### Power Cell (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 100 cr
-
 You have a +1 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus.
 
 #### Power Cell (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 2,500 cr
 
 You have a +3 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus.
 
 #### Power Cell (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 500 cr
-
 You have a +3 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+#### Precision Focus
+_<font style="color:blue">Blaster modification (targeting), prototype</font>_
 
-\pagebreak
+When you make an attack roll with this weapon, you can roll a d4 and add the result to the total.
+
+#### Precision Chamber Mark I
+_<font style="color:green">Blaster modification (attachment), premium</font>_
+
+The normal range of this weapon increases by 10 feet, and the long range increases by 20 feet. 
+
+#### Precision Chamber Mark II
+_<font style="color:blue">Blaster modification (attachment), prototype</font>_
+
+The normal range of this weapon increases by 20 feet, and the long range increases by 40 feet. 
+
+#### Precision Chamber Mark III
+_<font style="color:purple">Blaster modification (attachment), advanced</font>_
+
+The normal range of this weapon increases by 30 feet, and the long range increases by 60 feet.
+
+#### Quantum Splitter Mark I
+_<font style="color:blue">Blaster modification (barrel), prototype</font>_
+
+When you deal damage with this weapon, you can roll a d4 and add the result to the total.
+
+#### Quantum Splitter Mark II
+_<font style="color:purple">Blaster modification (barrel), advanced</font>_
+
+When you deal damage with this weapon, you can roll a d6 and add the result to the total.
+
+#### Quantum Splitter Mark III
+_<font style="color:#dd6b20">Blaster modification (barrel), legendary</font>_
+
+When you deal damage with this weapon, you can roll a d8 and add the result to the total.
+
+#### Quantum Splitter Mark IV
+_<font style="color:red">Blaster modification (targeting), artifact</font>_
+
+When you deal damage with this weapon, you can roll a d10 and add the result to the total.
 
 #### Quick Savant Package
 _<font style="color:#dd6b20">Cybernetic augmentation (enhancement), legendary</font>_<br>
 _Prerequisite: Intelligence 15_
-
-**Value:** 150,000 cr
 
 _This implant drastically increases your mental capacities._ 
 
@@ -3514,55 +3029,50 @@ Your Intelligence score increases by 1, and your maximum for this score increase
 #### Reactive Ultrachrome Armor
 _<font style="color:#dd6b20">Armor (heavy durasteel armor), legendary (requires attunement)</font>_
 
-**Value:** 270,000 cr
-
 _Made with just enough ultrachrome to give you an edge while still keeping things interesting, these suits of armor can discharge an integrated power cell to catalyze this metal normally used in starship hulls into a more resilient state._
 
 You have resistence to unenhanced damage while you wear this armor. Additionally, you can use an action to make yourself immune to unenhanced damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn.
 
+#### Recoil Dampener
+_<font style="color:green">Blaster modification (attachment), premium</font>_<br>
+_Prerequisite: Blaster with the strength property_
+
+You install a recoil dampener in your modified blaster, removing the strength property from it.
+
 #### Reflex Underlay Mark I
 _<font style="color:#4a5568">Item modification (underlay), standard</font>_
-
-**Value:** 410 cr
 
 You gain a +1 bonus to Dexterity and Intelligence saving throws and a -1 AC penalty to while wearing this armor or wielding this shield.
 
 #### Reflex Underlay Mark II
 _<font style="color:green">Item modification (underlay), premium</font>_
 
-**Value:** 2,150 cr
-
 You gain a +1 bonus to Dexterity and Intelligence saving throws while wearing this armor or wielding this shield.
 
 #### Reflex Underlay Mark III
 _<font style="color:blue">Item modification (underlay), prototype</font>_
-
-**Value:** 8,520 cr
 
 You gain a +2 bonus to Dexterity and Intelligence saving throws while wearing this armor or wielding this shield.
 
 #### Reflex Underlay Mark IV
 _<font style="color:purple">Item modification (underlay), advanced</font>_
 
-**Value:** 33,140 cr
-
 You gain a +3 bonus to Dexterity and Intelligence saving throws while wearing this armor or wielding this shield.
 
 #### Reverse-Engineered Crushgaunts
 _<font style="color:green">Adventuring gear (hands), premium (requires attunement)</font>_
 
-**Value:** 4,800 cr
-
 _Though the knowledge to forge a pair of true_ shuk'orok _is a closely-guarded Mandalorian secret, the effects of these gloves are desirable enough to spawn numerous imitators._
 
 Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.
 
-\columnbreak
+#### Rylith Power Cell
+_<font style="color:blue">Blaster modification (energy core), prototype</font>_
+
+When you take the Attack action and hit a target with a ranged attack with this weapon, you can repeat the attack against another creature up to 15 feet from the target in a direct line from you (no action required). Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 #### RZ-3 Extender Frame
 _<font style="color:blue">Item modification (projector), prototype</font>_
-
-**Value:** 9,250 cr
 
 As a bonus action, you can activate a hidden handle extender in this weapon to give it the *reach* property. This effect lasts for as long as you continue holding it, or retract the extender as a bonus action, removing the *reach* property.
 
@@ -3570,15 +3080,11 @@ As a bonus action, you can activate a hidden handle extender in this weapon to g
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in scholar_
 
-**Value:** 10,000 cr
-
 You learn an additional discovery, which does not count against your maximum Discoveries. When you complete a long rest, you can change this discovery for a different option available to you.
 
 #### Scholar Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in scholar_
-
-**Value:** 10,000 cr
 
 You gain two additional superiority dice.
 
@@ -3586,15 +3092,11 @@ You gain two additional superiority dice.
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in scout_
 
-**Value:** 10,000 cr
-
 On your first turn in combat, creatures that have not yet acted have disadvantage on attack rolls against you until the start of your next turn.
 
 #### Scout Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in scout_
-
-**Value:** 10,000 cr
 
 You can apply the additional damage from your Ranger's Quarry feature to two hits per round, instead of one. 
 
@@ -3602,26 +3104,16 @@ You can apply the additional damage from your Ranger's Quarry feature to two hit
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 2 levels in sentinel_
 
-**Value:** 10,000 cr
-
 You gain an additional manifestation use of your Sentinel Ideals.
 
 #### Sentinel Offensive Augment
 _<font style="color:blue">Item modification (augment), prototype</font>_<br>
 _Prerequisite: at least 1 level in berserker_
 
-**Value:** 10,000 cr
-
 Your Kinetic Combat Damage Die increases by one step (from a d4 to a d6, a d6 to a d8, a d8 to a d10, or a d10 to a d12). Additionally, when you roll a Kinetic Combat Damage Die, you can roll it twice and use either total.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### Sentry
 _<font style="color:#4a5568">Droid customization (part), standard</font>_
-
-**Value:** 675 cr
 
 _This part equips a droid with a small rotating sensory dish._
 
@@ -3631,30 +3123,41 @@ You learn the *alarm* tech power. You can cast it once, without the use of a wri
 _<font style="color:green">Droid customization (part), premium</font>_<br>
 _Prerequisite: Class II droid_
 
-**Value:** 7,600 cr
-
 _This small robotic appendage has a fork-like prod from that can release a substantial electrical discharge._
 
-You have a small integrated droid shock arm with which you can make unarmed strikes. You have proficiency in this shock arm, which is a melee weapon with the _reach_ property and deals 1d6 lightning damage on a hit. You can use your choice of Strength or Intelligence for the attack and damage rolls. You must use the same modifier for both rolls. 
+You have a small integrated droid shock arm with which you can make unarmed strikes. You have proficiency in this shock arm, which is a melee weapon with the _reach_ property and deals 1d6 lightning damage on a hit. You can use your choice of Strength or Intelligence for the attack and damage rolls. You must use the same modifier for both rolls.
+
+#### Shotgun Axe
+<font style="color:green">Weapon (shotgun), premium</font>
+
+*"Oh you want clever? Come a little closer, I'll get real clever."*
+
+You have a +1 to damage rolls made with this shotgun. Additionally, this shotgun has an axe attachment, allowing you to make a melee weapon attack with it. The axe is a melee weapon that you are proficient with, and deals 1d8 kinetic damage.
+
+Additionally, when you use this shotgun as an improvised weapon, you are considered proficient in it, and it deals 1d8 kinetic damage on a hit.
+
+#### Siege Weapon
+_<font style="color:#4a5568">Blaster modification (energy core), standard</font>_
+
+You modify this weapon to be more effective against barriers. The weapon deals double damage against structures.
 
 #### Sienar Starfire X-Force Mark I
 _<font style="color:blue">Item modification (storage), prototype</font>_
-
-**Value:** 11,200 cr
 
 When you spend tech points to cast a tech power that restores hit points to a creature, the creature gains a number of temporary hit points equal to the number of tech points spent.
 
 #### Sienar Starfire X-Force Mark II
 _<font style="color:#dd6b20">Item modification (storage), legendary</font>_
 
-**Value:** 168,000 cr
-
 When you spend tech points to cast a tech power that restores hit points to a creature, the creature gains a number of temporary hit points equal to twice the number of tech points spent.
+
+#### Silencer
+_<font style="color:#4a5568">Blaster modification (attachment), standard</font>_
+
+This weapon gains the silent property.
 
 #### Sith Acolyte's Robe
 _<font style="color:green">Adventuring gear (body), premium (requires attunement)</font>_
-
-**Value:** 4,875 cr
 
 _Designed for those who relish personal combat, and know that power comes to those who take it, these robes augment offensive capabilities with no hindrance to movement._
 
@@ -3663,16 +3166,12 @@ You gain a +1 bonus to damage rolls with weapons and force powers while you wear
 #### Sith Lord's Robe
 _<font style="color:purple">Adventuring gear (body), advanced (requires attunement)</font>_
 
-**Value:** 97,200 cr
-
 _Designed for those who relish personal combat, and know that power comes to those who take it, these robes masterfully augment offensive capabilities with no hindrance to movement._
 
 You gain a +3 bonus to damage rolls with weapons and force powers while you wear this robe.
 
 #### Sith Strength Belt
 _<font style="color:#dd6b20">Adventuring gear (waist), legendary (requires attunement)</font>_
-
-**Value:** 400,000 cr 
 
 _Worn on the legs, waist and lower back, this belt massively increases a users physical power with a set of heavy durasteel actuators alongside an synaptic monitoring system that reacts to its users motion with optimized power responses._
 
@@ -3681,19 +3180,13 @@ While wearing this belt, your Strength score becomes 27. If your Strength is alr
 #### Sith Warrior's Robe
 _<font style="color:blue">Adventuring gear (body), prototype (requires attunement)</font>_
 
-**Value:** 23,100 cr
-
 _Designed for those who relish personal combat, and know that power comes to those who take it, these robes greatly augment offensive capabilities with no hindrance to movement._
 
 You gain a +2 bonus to damage rolls with weapons and force powers while you wear this robe.
 
-\columnbreak
-
 #### Skills Enhancement Package
 _<font style="color:purple">Cybernetic augmentation (enhancement), advanced</font>_<br>
 _Prerequisite: Intelligence or Charisma 15_
-
-**Value:** 50,000 cr
 
 _This implant includes a library of situational information that it injects directly into your consciousness._ 
 
@@ -3704,14 +3197,10 @@ When you make an ability check using a skill you are proficient in, you can roll
 #### Slipstream Kickers
 _<font style="color:purple">Adventuring gear (feet) (requires attunement), prototype</font>_
 
-**Value:** 20,000 cr
-
 While you wear these boots, you can use a bonus action to activate or deactivate their overdrive mode. If you do, you gain the effect of the _tactical advantage_ tech power for 1 minute. Once you've used this feature, you must complete a long rest before you can use it again.
 
 #### Sparkles 
 _<font style="color:green">Weapon (light pistol), premium</font>_
-
-**Value:** 3,650 cr
 
 _Sparkles is a BlasTech CS-14 light pistol owned by the mercenary Corso Riggs during the Galactic Cold War._
 
@@ -3720,110 +3209,83 @@ When you roll a 20 on an attack roll with this weapon, or hit a creature that ha
 #### Stamina Adrenal
 _<font style="color:#4a5568">Consumable (adrenal), standard</font>_
 
-**Value:** 150 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +2 bonus to its Constitution score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +2 bonus to its Constitution score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 #### Strength Adrenal
 _<font style="color:#4a5568">Consumable (adrenal), standard</font>_
 
-**Value:** 150 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +2 bonus to its Strength score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +2 bonus to its Strength score. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 #### Strength Enhancer 
 _<font style="color:blue">Adventuring gear (waist), prototype (requires attunement)</font>_
-
-**Value:** 25,000 cr 
 
 _This belt increases a users physical power with pneumaticized assistance joists that provide support and leverage in a minimal form-factor._
 
 While wearing this belt, your Strength score becomes 21. If your Strength is already equal to or greater than 21, it has no effect on you.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
+#### Superior Amplifying Barrel
+_<font style="color:purple">Blaster modification (barrel), advanced</font>_
 
-\pagebreak
+You gain a +3 bonus to damage rolls made with this weapon.
 
 #### Superior Armor
 _<font style="color:purple">Armor (any), advanced</font>_
-
-**Value:** 100x cr
 
 You have a +3 bonus to AC while wearing this armor.
 
 #### Superior Armor Chassis
 _<font style="color:purple">Armor (any), advanced (requires attunement)</font>_
 
-**Value:** 50x cr
-
 This modifiable armor chassis comes with vacant modification slots for overlay, underlay, reinforcement, and armoring modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Ballistic Weave
 _<font style="color:purple">Item modification (overlay), advanced</font>_
-
-**Value:** 41,200 cr
 
 You gain a +3 bonus to AC while wearing this article of clothing.
 
 #### Superior Battle Adrenal
 _<font style="color:purple">Consumable (adrenal), advanced</font>_
 
-**Value:** 12,500 cr
-
 _This is a highly pressurized liquid stimulant delivered through a tightly arranged array of microsyringes._
 
-You can administer an adrenal to yourself as a bonus action, or another creature as an action. When you administer this adrenal, the target gains a +2 bonus to attack and damage rolls with weapons. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
+As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +2 bonus to attack and damage rolls with weapons. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
 #### Superior Charisma Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
-
-**Value:** 47,500 cr
 
 Your Charisma score increases by 1, and your maximum for this score increases by 1.
 
 #### Superior Cloak Chassis
 _<font style="color:purple">Adventuring gear (shoulders), advanced (requires attunement)</font>_
 
-**Value:** 44,300 cr
-
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Computer Spike
 _<font style="color:purple">Consumable (technology), advanced</font>_
-
-**Value:** 7,250 cr
 
 When you make an Intelligence (slicer's kit) check, you can use the spike (no action required) to gain advantage on the check, and then you can reroll both of the dice once. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Superior Constitution Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
 
-**Value:** 47,500 cr
-
 Your Constitution score increases by 1, and your maximum for this score increases by 1.
 
 #### Superior Contoured Grip
 _<font style="color:purple">Item modification (grip), advanced</font>_
-
-**Value:** 37,500 cr
 
 You gain a +3 bonus to attack rolls made with this weapon.
 
 #### Superior Cortosis Microweave 
 _<font style="color:#dd6b20">Item modification (shielding), legendary</font>_
 
-**Value:** 238,000 cr
-
 You gain a +3 bonus to AC against melee attacks.
 
 #### Superior Datacron
 _<font style="color:purple">Relic (datacron), advanced</font>_
-
-**Value:** 86,350 cr
 
 _Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._
 
@@ -3832,42 +3294,30 @@ This datacron contains a single 5th-level tech power, or multiple powers of 1st-
 #### Superior Dexterity Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
 
-**Value:** 47,500 cr
-
 Your Dexterity score increases by 1, and your maximum for this score increases by 1.
 
 #### Superior Diatium Cell
 _<font style="color:#dd6b20">Item modification (power cell), legendary</font>_
-
-**Value:** 165,000 cr
 
 When you score a critical hit with this weapon you can roll three additional weapon damage dice.
 
 #### Superior Focus Generator
 _<font style="color:purple">Focus (focus), advanced (requires attunement)</font>_
 
-**Value:** 72,900 cr
-
 You gain a +3 bonus to the force attack rolls for force powers you cast through this focus generator.
 
 #### Superior Focus Generator Chassis
 _<font style="color:purple">Focus (force), advanced (requires attunement)</font>_
-
-**Value:** 48,600 cr
 
 This modifiable focus generator chassis comes with vacant modification slots for emitter, conductor, energy channel, and cycler modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Fortitude Inlay
 _<font style="color:purple">Item modification (inlay), advanced</font>_
 
-**Value:** 33,400 cr
-
 You gain a +3 bonus to Strength and Constitution saving throws while wearing this article of clothing.
 
 #### Superior Holocron
 _<font style="color:purple">Relic (holocron), advanced</font>_
-
-**Value:** 78,500 cr
 
 _Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._
 
@@ -3876,14 +3326,10 @@ This holocron contains a single 5th-level force power, or multiple powers of 1st
 #### Superior Intelligence Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
 
-**Value:** 47,500 cr
-
 Your Intelligence score increases by 1, and your maximum for this score increases by 1.
 
 #### Superior Medpac
 _<font style="color:purple">Consumable (medpac), advanced</font>_
-
-**Value:** 17,000 cr
 
 _This  is a quick-acting syringe filled with a concentrated dose of kolto._
 
@@ -3892,51 +3338,35 @@ As an action, you can use this medpac to restore 10d4+20 hit points to a creatur
 #### Superior Mental Inlay
 _<font style="color:purple">Item modification (inlay), advanced</font>_
 
-**Value:** 41,200 cr
-
 You gain a +2 bonus to Intelligence, Wisdom, and Charisma saving throws while wearing this article of clothing.
-
-\columnbreak
 
 #### Superior Pants Chassis
 _<font style="color:purple">Adventuring gear (legs), advanced (requires attunement)</font>_
-
-**Value:** 47,300 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Phobium Echoer
 _<font style="color:purple">Item modification (cycler), advanced</font>_
 
-**Value:** 26,000 cr
-
 When you cast a force power that affects an area in a radius or a cube, you can increase the radius or length of the cube by 10 feet. 
 
 #### Superior Physical Barrier 
 _<font style="color:purple">Consumable (barrier), advanced</font>_
-
-**Value:** 22,500 cr
 
 A shimmering barrier springs into resistance around you that lasts 8 hours. The barrier has 30 hit points. Whenever you take damage (one of energy, ion, or kinetic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
 #### Superior Poison (One Dose) 
 _<font style="color:purple">Consumable (poison), advanced</font>_
 
-**Value:** 42,000 cr
-
 You can use the poison in this vial to coat one kinetic weapon or one wrist launcher dart. Applying the poison takes an action. A creature hit by the poisoned weapon must make a DC 16 Constitution saving throw or take 8d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Superior Reflex Inlay
 _<font style="color:purple">Item modification (inlay), advanced</font>_
 
-**Value:** 37,320 cr
-
 You gain a +3 bonus to Dexterity and Intelligence saving throws while wearing this article of clothing.
 
 #### Superior Returning Weapon
 _<font style="color:purple">Weapon (any with the thrown property), advanced (requires attunement)</font>_
-
-**Value:** 250x cr
 
 _This weapon includes a micro-repulsorfield generator and a biotech signature homing device allowing it to quickly return to its thrower._
 
@@ -3945,102 +3375,70 @@ You have a +3 bonus to attack and damage rolls made with this enhanced weapon. A
 #### Superior Security Spike
 _<font style="color:purple">Consumable (technology), advanced</font>_
 
-**Value:** 7,500 cr
-
 When you make an Intelligence (security kit) check, you can use the spike (no action required) to gain advantage on the check, and then you can reroll both of the dice once. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 #### Superior Shield
 _<font style="color:purple">Shield (any), advanced</font>_
-
-**Value:** 150x cr
 
 You have a +3 bonus to AC while wielding this shield.
 
 #### Superior Shield Chassis
 _<font style="color:purple">Shield (any), advanced (requires attunement)</font>_
 
-**Value:** 75x cr
-
 This modifiable shield chassis comes with vacant modification slots for overlay, underlay, reinforcement, and shielding modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Strength Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
-
-**Value:** 47,500 cr
 
 Your Strength score increases by 1, and your maximum for this score increases by 1.
 
 #### Superior Tethered Anchor Emitter
 _<font style="color:red">Item modification (emitter), artifact</font>_
 
-**Value:** 390,000 cr
-
 When you cast a force power through this focus generator, you can roll a d8 and add the result to the attack roll (if any) for that power.
 
 #### Superior Tunic Chassis
 _<font style="color:purple">Adventuring gear (body), advanced (requires attunement)</font>_
-
-**Value:** 46,800 cr
 
 This modifiable clothing chassis comes with vacant modification slots for weave, inlay, stitching, and pattern modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Versatile Inlay
 _<font style="color:purple">Item modification (inlay), advanced</font>_
 
-**Value:** 39,250 cr
-
 You gain a +1 bonus to saving throws while wearing this article of clothing.
 
 #### Superior Weapon
 _<font style="color:purple">Weapon (any), advanced</font>_
-
-**Value:** 200x cr
 
 You have a +3 bonus to attack and damage rolls made with this enhanced weapon.
 
 #### Superior Weapon Chassis
 _<font style="color:purple">Weapon (any), advanced (requires attunement)</font>_
 
-**Value:** 100x cr
-
 This modifiable weapon chassis comes with vacant modification slots determined by its type, as well as one augment slot. It can house modifications of advanced rarity or lower.
 
 #### Superior Will Inlay
 _<font style="color:purple">Item modification (inlay), advanced</font>_
-
-**Value:** 38,100 cr
 
 You gain a +3 bonus to Wisdom and Charisma saving throws while wearing this article of clothing.
 
 #### Superior Wisdom Augment
 _<font style="color:purple">Item modification (augment), advanced</font>_
 
-**Value:** 47,500 cr
-
 Your Wisdom score increases by 1, and your maximum for this score increases by 1.
 
 #### Superior Wristpad
 _<font style="color:purple">Focus (tech), advanced (requires attunement)</font>_
-
-**Value:** 81,000 cr
 
 You gain a +3 bonus to the tech attack rolls for tech powers you cast through this wristpad.
 
 #### Superior Wristpad Chassis
 _<font style="color:purple">Focus (tech), advanced (requires attunement)</font>_
 
-**Value:** 54,000 cr
-
 This modifiable wristpad chassis comes with vacant modification slots for processor, motherboard, dataport, and storage modifications, as well as one augment slot. It can house modifications of advanced rarity or lower.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
 
 #### Surveillance Implant
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 1,000 cr
 
 This augmentation replaces your face.
 
@@ -4054,8 +3452,6 @@ This implant includes a headcomm with a scrambler that automatically encodes mes
 _<font style="color:green">Cybernetic augmentation (replacement), premium</font>_<br>
 _Prerequisite: Intelligence 13_
 
-**Value:** 4,700 cr
-
 This augmentation replaces your eyes and face.
 
 _Frequently used by scouts and corporate espionage specialists, this imposing implant covers nearly the entire left half of the face, and includes a series of tools for long-term survival in hostile conditions._ 
@@ -4067,13 +3463,9 @@ This implant contains several tools for long-term survival and reconnaissance. A
 
 **Side Effect:** This complex interface causes significant interference with other communication devices, rendering them impossible to use. While this implant is installed, you can not use any portable device used for communication or jamming, such as a commlink or holotrace device.
 
-\columnbreak
-
 #### Survival and Surveillance Implant Mark II
 _<font style="color:blue">Cybernetic augmentation (replacement), prototype</font>_<br>
 _Prerequisite: Intelligence 15_
-
-**Value:** 17,000 cr 
 
 This augmentation replaces your eyes and face.
 
@@ -4086,14 +3478,8 @@ This implant contains several improved tools for long-term survival and reconnai
 
 **Side Effect:** This complex interface causes significant interference with other communication devices, rendering them impossible to use. While this implant is installed, you can not use any portable device used for communication or jamming, such as a commlink or holotrace device.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak
-
 #### Taozin Amulet
 _<font style="color:green">Adventuring gear (neck), premium (requires attunement)</font>_
-
-**Value:** 2,700 cr
 
 _Made from the skin of a taozin, this amulet blurs and clouds Force senses so their wearers can not easily be detected by another Force-sensitive._
 
@@ -4102,35 +3488,25 @@ While wearing this amulet, you are hidden from detection through the Force. You 
 #### Thermal Detonator (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
 
-**Value:** 3,750 cr
-
 Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 15 Dexterity saving throw. A creature takes 4d6 fire and 4d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone. 
 
 #### Thermal Detonator (Deadly)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
-
-**Value:** 37,500 cr
 
 Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 19 Dexterity saving throw. A creature takes 8d6 fire and 8d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone.
 
 #### Thermal Detonator (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
 
-**Value:** 11,250 cr
-
 Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 17 Dexterity saving throw. A creature takes 6d6 fire and 6d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone.
 
 #### Tool Integration
 _<font style="color:#4a5568">Droid customization (part), standard</font>_
 
-**Value:** 1,000 cr
-
 One tool of your choice in which you are proficient is integrated into your chassis.
 
 #### Torchy
 _<font style="color:blue">Weapon (blaster pistol), prototype</font>_
-
-**Value:** 19,500 cr
 
 _Torchy is a BlasTech ALT-25 blaster pistol owned by the mercenary Corso Riggs during the Galactic Cold War._
 
@@ -4138,8 +3514,6 @@ You gain a +1 bonus to attack and damage rolls with this enhanced weapon, and wh
 
 #### Torso Prosthesis
 _<font style="color:#4a5568">Cybernetic augmentation (replacement), standard</font>_
-
-**Value:** 700 cr
 
 This augmentation replaces your torso.
 
@@ -4149,8 +3523,6 @@ _This cybernetic augmentation is a commonly seen replacement for heavily damage 
 _<font style="color:blue">Droid customization (protocol), prototype</font>_<br>
 _Prerequisite: Class III droid_
 
-**Value:** 11,750 cr
-
 _This software and sensor upgrade gives you a something of a knack for dealing with humanoids and other species that would otherwise find themselves disturbed by the artificiality of human-cyborg relations. Some droids are even programmed to use this suite to analyze and maximize the effect of this discord._
 
 You gain a special pool of d6s that you can use to affect your negotiations with humanoids. When you make a damage roll, contested ability check, or roll dice to restore hit points to a creature, you can roll one of these d6s and add the result to your total for that creature. The creature must be a humanoid or beast, and must be able to hear and understand you to be affected by this die. You have a number of d6s equal to your proficiency bonus, and regain all expended dice at the end of a long rest.
@@ -4158,14 +3530,10 @@ You gain a special pool of d6s that you can use to affect your negotiations with
 #### Ventilation Stabilizer
 _<font style="color:green">Item modification (stabilizer), premium</font>_
 
-**Value:** 2,200 cr
-
 When you take the Attack action and hit a creature with this weapon, you can repeat the attack against another creature within 5 feet, no action required. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 #### Verpine Auto-Shielding Unit
 _<font style="color:purple">Shield (medium shield generator), advanced (requires attunement)</font>_
-
-**Value:** 60,000 cr
 
 _The pinnacle of Verpine scientists' shameless theft of ancient Arkanian energy shield designs._
 
@@ -4174,51 +3542,35 @@ While wearing this shield generator, you can speak its command word as a bonus a
 #### Versatile Underlay Mark I
 _<font style="color:purple">Item modification (underlay), advanced</font>_
 
-**Value:** 34,400 cr
-
 You gain a +1 bonus to saving throws while wearing this armor or wielding this shield.
 
 #### Versatile Underlay Mark II
 _<font style="color:#dd6b20">Item modification (underlay), legendary</font>_
-
-**Value:** 167,000 cr
 
 You gain a +2 bonus to saving throws while wearing this armor or wielding this shield.
 
 #### Versatile Underlay Mark III
 _<font style="color:red">Item modification (underlay), artifact</font>_
 
-**Value:** 270,000 cr
-
 You gain a +3 bonus to saving throws while wearing this armor or wielding this shield.
-
-\columnbreak
 
 #### Will Underlay Mark I
 _<font style="color:#4a5568">Item modification (underlay), standard</font>_
-
-**Value:** 420 cr
 
 You gain a +1 bonus to Wisdom and Charisma saving throws and a -1 AC penalty to while wearing this armor or wielding this shield.
 
 #### Will Underlay Mark II
 _<font style="color:green">Item modification (underlay), premium</font>_
 
-**Value:** 2,175 cr
-
 You gain a +1 bonus to Wisdom and Charisma saving throws while wearing this armor or wielding this shield.
 
 #### Will Underlay Mark III
 _<font style="color:blue">Item modification (underlay), prototype</font>_
 
-**Value:** 8,660 cr
-
 You gain a +2 bonus to Wisdom and Charisma saving throws while wearing this armor or wielding this shield.
 
 #### Will Underlay Mark IV
 _<font style="color:purple">Item modification (underlay), advanced</font>_
-
-**Value:** 33,900 cr
 
 You gain a +3 bonus to Wisdom and Charisma saving throws while wearing this armor or wielding this shield.
 
@@ -4226,18 +3578,19 @@ You gain a +3 bonus to Wisdom and Charisma saving throws while wearing this armo
 _<font style="color:#dd6b20">Cybernetic augmentation (enhancement), legendary</font>_<br>
 _Prerequisite: Wisdom 15_
 
-**Value:** 150,000 cr
-
 _This implant drastically increases your aural awareness._ 
 
 Your Wisdom score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Wisdom saving throws.
 
 **Side Effect:** One ability score other than Wisdom (chosen by the GM) decreases by 1.
 
+#### Wrist Mount
+_<font style="color:#4a5568">Blaster modification (attachment), standard</font>_
+
+This weapon gains the fixed property.
+
 #### Wrist-Mounted Grappling Hook
 _<font style="color:#4a5568">Adventuring gear (wrist), standard</font>_
-
-**Value:** 700 cr
 
 You craft a wrist-mounted grappling hook weapon attached to a tightly coiled cord. With this grappler, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.
 
@@ -4246,7 +3599,3 @@ A creature struck by this attack is impaled by the hook. As an action, a creatur
 While the hook is deployed, you can use your bonus action to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).
 
 Once you've used this feature, you can’t use it again until you recover and reinsert the hook as an action.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
-
-\pagebreak

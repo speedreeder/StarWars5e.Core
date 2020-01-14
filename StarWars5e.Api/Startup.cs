@@ -1,18 +1,14 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Reflection;
-using AutoMapper;
-using Microsoft.AspNetCore.Authentication.Google;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Search;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using Microsoft.WindowsAzure.Storage;
-using StarWars5e.Api.Interfaces;
-using StarWars5e.Api.Managers;
-using Swashbuckle.AspNetCore.Swagger;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api
@@ -28,12 +24,17 @@ namespace StarWars5e.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddApplicationInsightsTelemetry();
+
+            services.AddControllers().AddJsonOptions(opts =>
+            {
+                opts.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+            }).AddNewtonsoftJson();
+
             services.AddSwaggerGen(c =>
             {
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.FirstOrDefault());
-                c.DescribeAllEnumsAsStrings();
-                c.SwaggerDoc("v1", new Info {Title = "StarWars5e.Api", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "StarWars5e.Api", Version = "v1"});
             });
             services.AddCors(options =>
             {
@@ -75,7 +76,7 @@ namespace StarWars5e.Api
             //    });
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -94,7 +95,12 @@ namespace StarWars5e.Api
 
             app.UseCors();
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
             //app.UseAuthentication();
         }
     }

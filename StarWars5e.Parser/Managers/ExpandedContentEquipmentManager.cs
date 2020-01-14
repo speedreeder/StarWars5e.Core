@@ -28,8 +28,9 @@ namespace StarWars5e.Parser.Managers
             var nameStartingLineProperties = new Dictionary<string, string>
             {
                 {"Auto", "#### Auto"},
-                {"Disintegrate", "#### Disintegrate" },
                 {"Defensive", "#### Defensive"},
+                {"Disguised", "#### Disguised"},
+                {"Disintegrate", "#### Disintegrate" },
                 {"Shocking", "#### Shocking"}
             };
 

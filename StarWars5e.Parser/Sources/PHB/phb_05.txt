@@ -425,29 +425,29 @@ This wrist launcher ammunition deals 1d6 kinetic damage on a hit.
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Dart                  	|	  50 cr	|	—		    |
+|	&emsp;Dart                  	|	   5 cr	|	—		    |
 |	&emsp;Missile, fragmentation	|	 100 cr	|	1/2 lb		|
-|	&emsp;Plasma cell              	|	 200 cr	|	1 lb	    |
 |	&emsp;Power cell            	|	  10 cr	|	1 lb		|
 |	&emsp;Projector canister, carbonite    	|	 150 cr	|	2 lb		|
 |	&emsp;Projector canister, flame	|	 350 cr	|	2 lb		|
+|	&emsp;Slug cartridge            |	   2 cr	|	—		|
 
 </div>	
 
 #### Missile, Fragmentation
 This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 13 Dexterity saving throw, taking 1d6 kinetic damage on a failed save or half as much on a successful one.
 
-#### Plasma Cell
-A plasma cell is a specialized power cell for use with blaster weapons. The loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
-
 #### Power Cell
-Power cells energize blaster weapons and tools.
+Power cells fuel blaster weapons that deal energy or ion damage. Additionally, power cells are used to energize certain tools.
 
 #### Projector Canister, Carbonite
 When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 1d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Flame
 When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
+
+#### Slug Cartridge
+Slug cartridges are ammunition for blaster weapons that deal kinetic damage. When you use reload a weapon that uses cartridges, you can reload any number of cartridges up to the weapon's reload number as a part of the same action.
 
 <img src='https://www.gmbinder.com/images/yainsZs.png' style='position:absolute;top:467px;right:355px;width:320px;transform:scaleX(-1)' />
 
@@ -478,7 +478,7 @@ A pocket scrambler is a simple add-on to any commlink that automatically encodes
 #### Code Cylinder
 Code cylinders are security devices in the shape of short cylinders that contain coded information about their bearers and grant them access to secure areas.
 
-#### Datacards
+#### Datacard
 A datacard or data disk is a flat, hand-held device used in conjunction with a datapad to store information.
 
 #### Datacron   
@@ -502,7 +502,7 @@ A datapad is a<br> small electronic<br> device used for the<br> input, storage a
 |	&emsp;Pocket scrambler	        |	 800 cr	|	1 lb		|
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Code cylinder	            |	 500 cr	|	1/2 lb		|
-|	&emsp;Datacards (5)	        |	  25 cr	|	—		|
+|	&emsp;Datacard	                |	   5 cr	|	—		|
 |	&emsp;Datacron              	|  4,000 cr	|	2 lb		|
 |	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
 |	&emsp;Holocron              	|  4,000 cr	|	2 lb		|
@@ -813,12 +813,12 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Dart                  	|	  50 cr	|	—		    |
+|	&emsp;Dart                  	|	   5 cr	|	—		    |
 |	&emsp;Missile, fragmentation	|	 100 cr	|	1/2 lb		|
-|	&emsp;Plasma cell              	|	 200 cr	|	1 lb	    |
 |	&emsp;Power cell            	|	  10 cr	|	1 lb		|
 |	&emsp;Projector canister, carbonite    	|	 150 cr	|	2 lb		|
 |	&emsp;Projector canister, flame	|	 350 cr	|	2 lb		|
+|	&emsp;Slug cartridge            |	   2 cr	|	—		|
 |	_Clothing_	|		|			|
 |	&emsp;Clothes, common       	|	   5 cr	|	3 lb		|
 |	&emsp;Clothes, costume      	|	  50 cr	|	4 lb		|
@@ -834,7 +834,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	&emsp;Pocket scrambler	        |	 800 cr	|	1 lb		|
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Code cylinder	            |	 500 cr	|	1/2 lb		|
-|	&emsp;Datacards (5) 	        |	  25 cr	|	—		|
+|	&emsp;Datacard   	            |	   5 cr	|	—		|
 |	&emsp;Datacron              	|  4,000 cr	|	2 lb		|
 |	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
 |	&emsp;Holocron              	|  4,000 cr	|	2 lb		|

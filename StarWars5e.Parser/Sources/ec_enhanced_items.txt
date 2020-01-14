@@ -1,4 +1,5 @@
 
+
 <div class='wide' style='column-count:3'>
 
 ||
@@ -20,9 +21,6 @@
 |Grenade, Ion (Average)|
 |Grenade, Ion (Major)|
 |Grenade, Ion (Deadly)|
-
-||
-|:--|
 |Projector Canister, Flame (Average)|
 |Projector Canister, Flame (Major)|
 |Projector Canister, Flame (Deadly)|
@@ -32,6 +30,9 @@
 |Projector Canister, Corrosive (Average)|
 |Projector Canister, Corrosive (Major)|
 |Projector Canister, Corrosive (Deadly)|
+
+||
+|:--|
 |Cryo Cell (Average)|
 |Cryo Cell (Major)|
 |Cryo Cell (Deadly)|
@@ -53,9 +54,6 @@
 |Projector Tank, Corrosive (Average)|
 |Projector Tank, Corrosive (Major)|
 |Projector Tank, Corrosive (Deadly)|
-
-||
-|:--|
 |Rocket, Fragmentation (Average)|
 |Rocket, Fragmentation (Major)|
 |Rocket, Fragmentation (Deadly)|
@@ -65,6 +63,9 @@
 |Rocket, Plasma (Average)|
 |Rocket, Plasma (Major)|
 |Rocket, Plasma (Deadly)|
+
+||
+|:--|
 |Missile, Fragmentation (Average)|
 |Missile, Fragmentation (Major)|
 |Missile, Fragmentation (Deadly)|
@@ -74,6 +75,33 @@
 |Missile, Plasma (Average)|
 |Missile, Plasma (Major)|
 |Missile, Plasma (Deadly)|
+|Fine Ship Armor|
+|Improved Ship Armor|
+|Superior Ship Armor|
+|Fine Ship Shield|
+|Improved Ship Shield|
+|Superior Ship Shield|
+|Fine Ship Weapon|
+|Improved Ship Weapon|
+|Superior Ship Weapon|
+
+</div>
+
+\pagebreak
+
+
+<div class='wide' style='column-count:3'>
+
+||
+|:--|
+|Superior Burst Core|
+|Champion Burst Core|
+
+||
+|:--|
+
+||
+|:--|
 
 </div>
 
@@ -82,16 +110,12 @@
 #### J-19 Bo-Rifle
 _<font style="color:green">Weapon (bo-rifle), premium</font>_
 
-**Value:** 4,900 cr
-
 *This more recent and less artfully designed model of bo-rifle comes with a bayonet attached to the top edge.*
 
 You have a +1 bonus to attack and damage rolls with this enhanced weapon. Additionally, while it is in staff mode, the save DC for its shocking property increases to 14.
 
 #### AB-75 Bo-Rifle
 _<font style="color:blue">Weapon (bo-rifle), prototype</font>_
-
-**Value:** 22,800 cr
 
 *This version of the bo-rifle was exclusive to high-ranking members of the Honor Guard of Lasan.*
 
@@ -100,8 +124,6 @@ You have a +2 bonus to attack and damage rolls with this enhanced weapon. Additi
 #### Fine Restraining Bolt
 _<font style="color:green">Adventuring gear, premium</font>_
 
-**Value:** 1,750 cr
- 
 Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a restraining bolt restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.
 
 Installing a restraining bolt takes 1 minute. The droid must make a DC 15 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt.
@@ -109,8 +131,6 @@ Installing a restraining bolt takes 1 minute. The droid must make a DC 15 Consti
 #### Improved Restraining Bolt
 _<font style="color:blue">Adventuring gear, prototype</font>_
 
-**Value:** 5,250 cr
- 
 Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a restraining bolt restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.
 
 Installing a restraining bolt takes 1 minute. The droid must make a DC 15 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt.
@@ -120,8 +140,6 @@ Installing a restraining bolt takes 1 minute. The droid must make a DC 15 Consti
 #### Superior Restraining Bolt
 _<font style="color:purple">Adventuring gear, advanced</font>_
 
-**Value:** 17,500 cr
- 
 Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a restraining bolt restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.
 
 Installing a restraining bolt takes 1 minute. The droid must make a DC 17 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt.
@@ -129,16 +147,12 @@ Installing a restraining bolt takes 1 minute. The droid must make a DC 17 Consti
 #### Grenade, Gas (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
 
-**Value:** 1,500 cr
-
 Gas grenades are primarily used to flush enemies out of cover and other protected areas, though there are of course other uses. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. The grenade explodes in a 15-foot-radius sphere of yellow-green fog centered on a point you choose within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
 
 When a creature enters the fog's area for the first time on a turn or starts its turn there, that creature must make a DC 15 Constitution saving throw. The creature takes 2d8 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
 
 #### Grenade, Gas (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
-
-**Value:** 4,500 cr
 
 Gas grenades are primarily used to flush enemies out of cover and other protected areas, though there are of course other uses. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. The grenade explodes in a 15-foot-radius sphere of yellow-green fog centered on a point you choose within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
 
@@ -149,8 +163,6 @@ When a creature enters the fog's area for the first time on a turn or starts its
 #### Grenade, Gas (Deadly)
 _<font style="color:purple">Consumable (explosive), advanced</font>_
 
-**Value:** 15,000 cr
-
 Gas grenades are primarily used to flush enemies out of cover and other protected areas, though there are of course other uses. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. The grenade explodes in a 15-foot-radius sphere of yellow-green fog centered on a point you choose within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
 
 When a creature enters the fog's area for the first time on a turn or starts its turn there, that creature must make a DC 19 Constitution saving throw. The creature takes 6d8 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
@@ -158,21 +170,15 @@ When a creature enters the fog's area for the first time on a turn or starts its
 #### Mine, Plasma (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
 
-**Value:** 2,750 cr
-
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 4d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Mine, Plasma (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
 
-**Value:** 8,250 cr
-
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 6d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Mine, Plasma (Deadly)
 _<font style="color:purple">Consumable (explosive), advanced</font>_
-
-**Value:** 27,500 cr
 
 When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, coating the area in a 15-foot radius around it in fire that burns for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 19 Dexterity saving throw. On a failed save, the creature takes 8d6 fire damage, or half as much on a successful one. A construct makes this save with disadvantage.
 
@@ -181,28 +187,20 @@ When you use your action to set it, this mine sets an imperceptible laser line e
 #### Grenade, Electrostun (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
 
-**Value:** 1,250 cr
-
 Electrostun grenades are usually used when the object of a mission is to detain, capture, or subdue rather than kill. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 15 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is stunned until the end of its next turn. 
 
 #### Grenade, Electrostun (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
-
-**Value:** 3,750 cr
 
 Electrostun grenades are usually used when the object of a mission is to detain, capture, or subdue rather than kill. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 17 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is stunned until the end of its next turn. 
 
 #### Grenade, Electrostun (Deadly)
 _<font style="color:purple">Consumable (explosive), advanced</font>_
 
-**Value:** 12,500 cr
-
 Electrostun grenades are usually used when the object of a mission is to detain, capture, or subdue rather than kill. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 19 Dexterity saving throw. A creature takes 4d6 lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is stunned until the end of its next turn. 
 
 #### Grenade, Ion (Average)
 _<font style="color:green">Consumable (explosive), premium</font>_
-
-**Value:** 1,250 cr
 
 Ion grenades are hand-held explosive devices that release a blast of ion energy. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 15 Dexterity saving throw. A creature takes 4d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
 
@@ -211,35 +209,25 @@ Ion grenades are hand-held explosive devices that release a blast of ion energy.
 #### Grenade, Ion (Major)
 _<font style="color:blue">Consumable (explosive), prototype</font>_
 
-**Value:** 3,750 cr
-
 Ion grenades are hand-held explosive devices that release a blast of ion energy. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 17 Dexterity saving throw. A creature takes 6d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
 
 #### Grenade, Ion (Deadly)
 _<font style="color:purple">Consumable (explosive), advanced</font>_
-
-**Value:** 12,500 cr
 
 Ion grenades are hand-held explosive devices that release a blast of ion energy. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 19 Dexterity saving throw. A creature takes 8d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
 
 #### Projector Canister, Flame (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 1,750 cr
-
 When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 #### Projector Canister, Flame (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 5,250 cr
-
 When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 3d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 #### Projector Canister, Flame (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 17,500 cr
 
 When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
@@ -248,28 +236,20 @@ When triggered, this wrist launcher ammunition produces a burst of flame in a 15
 #### Projector Canister, Carbonite (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 750 cr
-
 When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Carbonite (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
-
-**Value:** 2,250 cr
 
 When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 3d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Carbonite (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 7,500 cr
-
 When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d6 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Corrosive (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 2,250 cr
 
 When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
@@ -278,21 +258,15 @@ When triggered, this wrist launcher ammunition produces a spray of acid in a 15 
 #### Projector Canister, Corrosive (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 6,750 cr
-
 When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 3d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
 #### Projector Canister, Corrosive (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 22,500 cr
-
 When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 4d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
 #### Cryo Cell (Average)
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 1,375 cr
 
 A cryo cell is a specialized power cell for use with blaster weapons. You have a +1 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of energy, and when you hit with a shot the creature must make a DC 15 Constitution saving throw. On a failed save, the creature takes 1d4 cold damage has its speed reduced by 5 feet until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
@@ -301,21 +275,15 @@ A cryo cell is a specialized power cell for use with blaster weapons. You have a
 #### Cryo Cell (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 4,125 cr
-
 A cryo cell is a specialized power cell for use with blaster weapons. You have a +2 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of energy, and when you hit with a shot the creature must make a DC 17 Constitution saving throw. On a failed save, the creature takes 1d4 cold damage has its speed reduced by 5 feet until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Cryo Cell (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 13,750 cr
-
 A cryo cell is a specialized power cell for use with blaster weapons. You have a +3 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of energy, and when you hit with a shot the creature must make a DC 19 Constitution saving throw. On a failed save, the creature takes 1d4 cold damage has its speed reduced by 5 feet until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Disruptor Cell (Average)
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 2,125 cr
 
 A disruptor cell is a specialized power cell for use with blaster weapons. You have a +1 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals acid damage instead of energy, deals an additional 1d6 acid damage on a hit, and its reload number is reduced by half. If this would reduce the weapon's reload number to less than 1, it becomes 1. Additionally, when you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. If the loaded weapon has the disintegrate property, this saving throw is in addition to the disintegrate saving throw.
 
@@ -324,21 +292,15 @@ A disruptor cell is a specialized power cell for use with blaster weapons. You h
 #### Disruptor Cell (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 6,375 cr
-
 A disruptor cell is a specialized power cell for use with blaster weapons. You have a +2 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals acid damage instead of energy, deals an additional 1d6 acid damage on a hit, and its reload number is reduced by half. If this would reduce the weapon's reload number to less than 1, it becomes 1. Additionally, when you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. If the loaded weapon has the disintegrate property, this saving throw is in addition to the disintegrate saving throw.
 
 #### Disruptor Cell (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 21,250 cr
-
 A disruptor cell is a specialized power cell for use with blaster weapons. You have a +3 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals acid damage instead of energy, deals an additional 1d6 acid damage on a hit, and its reload number is reduced by half. If this would reduce the weapon's reload number to less than 1, it becomes 1. Additionally, when you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. If the loaded weapon has the disintegrate property, this saving throw is in addition to the disintegrate saving throw.
 
 #### Plasma Cell (Average)
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 1,000 cr
 
 A plasma cell is a specialized power cell for use with blaster weapons. You have a +1 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
@@ -347,35 +309,25 @@ A plasma cell is a specialized power cell for use with blaster weapons. You have
 #### Plasma Cell (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 3,000 cr
-
 A plasma cell is a specialized power cell for use with blaster weapons. You have a +2 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Plasma Cell (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 10,000 cr
 
 A plasma cell is a specialized power cell for use with blaster weapons. You have a +3 bonus to attack and damage rolls made with this power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of energy, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 19 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Power Generator (Average)
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 6,250 cr
-
 Power generators energize the E-web blaster. You have a +1 bonus to attack and damage rolls made with this power generator. This bonus is in addition to any bonuses granted by the weapon. Once the power generator is depleted, it no longer gives a bonus.
 
 #### Power Generator (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 18,750 cr
-
 Power generators energize the E-web blaster. You have a +2 bonus to attack and damage rolls made with this power generator. This bonus is in addition to any bonuses granted by the weapon. Once the power generator is depleted, it no longer gives a bonus.
 
 #### Power Generator (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 62,500 cr
 
 Power generators energize the E-web blaster. You have a +3 bonus to attack and damage rolls made with this power generator. This bonus is in addition to any bonuses granted by the weapon. Once the power generator is depleted, it no longer gives a bonus.
 
@@ -384,35 +336,25 @@ Power generators energize the E-web blaster. You have a +3 bonus to attack and d
 #### Projector Tank, Flame (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 3,250 cr
-
 When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Flame (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
-
-**Value:** 9,750 cr
 
 When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 6d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Flame (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 32,500 cr
-
 When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 8d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Carbonite (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 3,125 cr
-
 When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Tank, Carbonite (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
-
-**Value:** 9,375 cr
 
 When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 6d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
@@ -421,21 +363,15 @@ When triggered, this vapor projector ammunition produces a beam of carbonite ene
 #### Projector Tank, Carbonite (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 31,250 cr
-
 When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Tank, Corrosive (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 3,375 cr
-
 When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
 
 #### Projector Tank, Corrosive (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
-
-**Value:** 10,125 cr
 
 When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 6d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
 
@@ -444,28 +380,20 @@ When triggered, this vapor projector ammunition produces a spray of acid in a 15
 #### Projector Tank, Corrosive (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 33,750 cr
-
 When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
 
 #### Rocket, Fragmentation (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 1,750 cr
 
 You have a +1 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 15 Dexterity saving throw, taking 4d6 kinetic damage on a failed save or half as much on a successful one.
 
 #### Rocket, Fragmentation (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 5,250 cr
-
 You have a +2 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 17 Dexterity saving throw, taking 6d6 kinetic damage on a failed save or half as much on a successful one.
 
 #### Rocket, Fragmentation (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 17,500 cr
 
 You have a +3 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 19 Dexterity saving throw, taking 8d6 kinetic damage on a failed save or half as much on a successful one.
 
@@ -474,28 +402,20 @@ You have a +3 bonus to attack rolls made with this rocket launcher ammunition, w
 #### Rocket, Ion (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 2,375 cr
-
 You have a +1 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 15 Dexterity saving throw, taking 4d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Ion (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
-
-**Value:** 7,125 cr
 
 You have a +2 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 17 Dexterity saving throw, taking 6d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Ion (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 23,750 cr
-
 You have a +3 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 19 Dexterity saving throw, taking 8d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Plasma (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 2,675 cr
 
 You have a +1 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 4d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
@@ -504,35 +424,25 @@ You have a +1 bonus to attack rolls made with this rocket launcher ammunition, w
 #### Rocket, Plasma (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 8,025 cr
-
 You have a +2 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 6d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Rocket, Plasma (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 26,750 cr
 
 You have a +3 bonus to attack rolls made with this rocket launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 19 Dexterity saving throw. On a failed save, the creature takes 8d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Missile, Fragmentation (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 500 cr
-
 You have a +1 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 15 Dexterity saving throw, taking 2d6 kinetic damage on a failed save or half as much on a successful one.
 
 #### Missile, Fragmentation (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 1,500 cr
-
 You have a +2 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 17 Dexterity saving throw, taking 3d6 kinetic damage on a failed save or half as much on a successful one.
 
 #### Missile, Fragmentation (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
-
-**Value:** 5,000 cr
 
 You have a +3 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 19 Dexterity saving throw, taking 4d6 kinetic damage on a failed save or half as much on a successful one.
 
@@ -541,28 +451,20 @@ You have a +3 bonus to attack rolls made with this wrist launcher ammunition, wh
 #### Missile, Ion (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
 
-**Value:** 700 cr
-
 You have a +1 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 15 Dexterity saving throw, taking 2d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Missile, Ion (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
-
-**Value:** 2,100 cr
 
 You have a +2 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 17 Dexterity saving throw, taking 3d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Missile, Ion (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 7,000 cr
-
 You have a +3 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 19 Dexterity saving throw, taking 4d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Missile, Plasma (Average) 
 _<font style="color:green">Consumable (ammunition), premium</font>_
-
-**Value:** 800 cr
 
 You have a +1 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
@@ -571,13 +473,66 @@ You have a +1 bonus to attack rolls made with this wrist launcher ammunition, wh
 #### Missile, Plasma (Major)
 _<font style="color:blue">Consumable (ammunition), prototype</font>_
 
-**Value:** 2,400 cr
-
 You have a +2 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
 #### Missile, Plasma (Deadly)
 _<font style="color:purple">Consumable (ammunition), advanced</font>_
 
-**Value:** 8,000 cr
-
 You have a +3 bonus to attack rolls made with this wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 19 Dexterity saving throw. On a failed save, the creature takes 4d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
+#### Fine Ship Armor
+_<font style="color:green">Ship armor (any), premium</font>_
+
+Your ship has a +1 bonus to AC while this armor is installed. 
+
+#### Improved Ship Armor
+_<font style="color:blue">Ship armor (any), prototype</font>_
+
+Your ship has a +2 bonus to AC while this armor is installed. 
+
+#### Superior Ship Armor
+_<font style="color:purple">Ship armor (any), advanced</font>_
+
+Your ship has a +3 bonus to AC while this armor is installed. 
+
+#### Fine Ship Shield
+_<font style="color:green">Ship shield (any), premium</font>_
+
+Your ship has a +1 bonus to Strength, Dexterity, and Constitution saving throws while this shield is installed. 
+
+#### Improved Ship Shield
+_<font style="color:blue">Ship shield (any), prototype</font>_
+
+Your ship has a +2 bonus to Strength, Dexterity, and Constitution saving throws while this shield is installed. 
+
+#### Superior Ship Shield
+_<font style="color:purple">Ship shield (any), advanced</font>_
+
+Your ship has a +3 bonus to Strength, Dexterity, and Constitution saving throws while this shield is installed. 
+
+\columnbreak
+
+#### Fine Ship Weapon
+_<font style="color:green">Ship weapon (any), premium</font>_
+
+Your ship has a +1 bonus to attack and damage rolls made with this enhanced ship weapon.
+
+#### Improved Ship Weapon
+_<font style="color:blue">Ship weapon (any), prototype</font>_
+
+Your ship has a +2 bonus to attack and damage rolls made with this enhanced ship weapon.
+
+#### Superior Ship Weapon
+_<font style="color:purple">Ship weapon (any), advanced</font>_
+
+Your ship has a +3 bonus to attack and damage rolls made with this enhanced ship weapon.
+
+#### Superior Burst Core
+_<font style="color:purple">Blaster modification (energy core), advanced</font>_<br>
+
+This weapon gains the burst property, with a burst number equal to one-half its reload number (rounded up). If the weapon already has the burst property, the burst number is reduced to one-fourth its reload number (rounded up).
+
+#### Champion Burst Core
+_<font style="color:red">Blaster modification (energy core), artifact</font>_<br>
+
+This weapon gains the burst property, with a burst number equal to one-fourth its reload number (rounded up). If the weapon already has the burst property, the burst number is reduced to one-eighth its reload number (rounded up).

@@ -30,7 +30,7 @@
 |&emsp;Enhancement Specialist   |30|
 |&emsp;Heavy Weapons Specialist |32|
 |&emsp;Mounted Specialist       |33|
-|&emsp;Praetorian Specialist     |34|
+|&emsp;Praetorian Specialist    |34|
 |Guardian||
 |&emsp;Form IV: Ataru           |35|
 |&emsp;Form V: Djem So          |36|
@@ -44,34 +44,35 @@
 |:--|--:|
 |Monk||
 |&emsp;Aing-Tii Order           |42|
-|&emsp;Jal Shey Order           |43|
-|&emsp;Matukai Order            |44|
-|&emsp;Whills Order             |45|
+|&emsp;Crimson Order            |43|
+|&emsp;Jal Shey Order           |44|
+|&emsp;Matukai Order            |45|
+|&emsp;Whills Order             |46|
 |Operative||
 |&emsp;Acquisitions Practice    |47|
 |&emsp;Beguiler Practice        |48|
-|&emsp;Disabling Practice       |49|
-|&emsp;Ruffian Practice         |50|
-|&emsp;Sawbones Practice        |51|
+|&emsp;Disabling Practice       |50|
+|&emsp;Ruffian Practice         |51|
+|&emsp;Sawbones Practice        |52|
 |Scholar||
-|&emsp;Chef Pursuit             |52|
-|&emsp;Explorer Pursuit         |54|
-|&emsp;Gambler Pursuit          |56|
-|&emsp;Slicer Pursuit           |58|
-|&emsp;Zoologist Pursuit        |60|
+|&emsp;Chef Pursuit             |53|
+|&emsp;Explorer Pursuit         |55|
+|&emsp;Gambler Pursuit          |57|
+|&emsp;Slicer Pursuit           |59|
+|&emsp;Zoologist Pursuit        |61|
 |Scout||
-|&emsp;Bulwark Technique        |64|
-|&emsp;Illusionist Technique    |65|
-|&emsp;Inquisitor Technique     |66|
-|&emsp;Mastermind Technique     |67|
-|&emsp;Predator Technique       |68|
-|&emsp;Slayer Technique         |69|
+|&emsp;Bulwark Technique        |65|
+|&emsp;Illusionist Technique    |66|
+|&emsp;Inquisitor Technique     |67|
+|&emsp;Mastermind Technique     |68|
+|&emsp;Predator Technique       |69|
+|&emsp;Slayer Technique         |70|
 |Sentinel||
-|&emsp;Path of Communion        |70|
-|&emsp;Path of the Corsair      |71|
-|&emsp;Path of the Forceblade   |72|
-|&emsp;Path of Synthesis        |73|
-|&emsp;Path of Tenacity         |74|
+|&emsp;Path of Communion        |71|
+|&emsp;Path of the Corsair      |72|
+|&emsp;Path of the Forceblade   |73|
+|&emsp;Path of Synthesis        |74|
+|&emsp;Path of Tenacity         |75|
 
 </div>
 
@@ -180,7 +181,7 @@ You can use this feature a number of times equal to your Strength modifier (a mi
 \pagebreak
 
 ## Frenzied Approach
-For some berserkers, rage is a means to an endï¿½that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+For some berserkers, rage is a means to an end—that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 ### Frenzy
 When you choose this approach at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (as described in appendix A).
@@ -1193,7 +1194,7 @@ Once you've used this feature, you can't use it again until you recover and rein
 \pagebreak
 
 ## Experimental Engineering
-Those engineers who choose the Experimental Engineering discipline create and use untested combinations, resulting in powerfulï¿½and often unpredictableï¿½effects.
+Those engineers who choose the Experimental Engineering discipline create and use untested combinations, resulting in powerful—and often unpredictable—effects.
 
 ### Bonus Proficiencies
 When you choose this discipline at 3rd level, you gain proficiency in a set of tools of your choice. Additionally, when you engage in crafting with tinker's tools, the rate at which you craft doubles.
@@ -1873,8 +1874,8 @@ This effect ends early if you are incap-<br>acitated or die. Once you've used th
 
 \pagebreak
 
-## Form IX: Trï¿½kata
-Form IX, also known as Deception Form, capitalizes on a lightweapon's ability to quickly be toggled on and off. Those guardians who focus on Trï¿½kata Form perform dazzling tricks with their lightweapon, confusing their opponents before dispatching them.
+## Form IX: Tràkata
+Form IX, also known as Deception Form, capitalizes on a lightweapon's ability to quickly be toggled on and off. Those guardians who focus on Tràkata Form perform dazzling tricks with their lightweapon, confusing their opponents before dispatching them.
 
 ### Fighting Style
 When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Dueling, Two-Weapon Fighting, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -2041,6 +2042,44 @@ If you attack at least two different creatures with the action, you can make one
 
 ### Iridescent Strikes
 Starting at 17th level, when you use your action to cast a force power, you can spend 2 focus points to teleport to a space within 5 feet of a creature affected by the power and make two unarmed attacks against that creature as a bonus action.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
+
+\pagebreak
+
+## Crimson Order
+Monks of the Crimson Order are unyielding in their resolve. They pledge themselves to a singular entity or belief, and uphold their service with solemnity and diligence. 
+
+### Crimson Armaments
+Beginning when you choose this order at 3rd level, you've learned to perform your martial arts while armored. You gain proficiency in all armor, and you can now gain the benefits of your Martial Arts and Unarmored Movement features while wearing armor but not wielding a shield.
+
+Additionally, you've learned to adapt to new weaponry. Over the course of an hour, which can be performed during a short rest, you can perform a kata with one weapon that lacks the heavy property. You gain proficiency in that weapon if you do not already have proficiency, and it becomes a monk weapon for you. You can only adapt to one weapon at a time, and if you attempt to adapt to another weapon you immediately lose your proficiency with the chosen weapon.
+
+### Divert Strike
+Also at 3rd level, you can use your reaction to divert an attack when you or a friendly creature within 5 feet of you are hit by a melee weapon attack. When you do so, the damage taken by the attack is reduced by 1d10 + your Dexterity modifier + your monk level.
+
+### Crimson Squall
+At 6th level, you've learned to enhance your kata.<br> As a bonus action while wielding a monk weapon,<br> you can expend 1 focus to cause the area<br> within 5 feet of you to become difficult terrain<br> for 1 minute. This area travels with you, and<br> creatures within the area can not make<br> opportunity attacks.
+
+At 11th level, the range of this area increases to<br> 15 feet, and at 17th level, the range of this<br> area increases to 30 feet.
+
+### Vigilant Sentinel
+Starting at 11th level,<br> when you attempt<br> to perceive your<br> surroundings<br> on your turn,<br> you can opt<br> to not move on that turn. If you avoid moving, you<br> gain a +10 bonus to your Wisdom (Perception) checks<br> until the start of your next turn. You lose this benefit<br> if you move or fall prone, either voluntarily or because<br> of some external effect.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Sovereign Protector
+At 17th level, your mastery of focus has allowed you to unlock your fullest potential in combat, tapping into a degree of the force. As a bonus action, you can gain the following effects for 1 minute.
+- Your speed is doubled.
+- Your AC increases by 2.
+- You have advantage on Dexterity saving throws.
+- You gain an additional action of each of your turns. This action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+
+This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
+
+<img src='https://www.gmbinder.com/images/5JR9GaI.png' style='position:absolute;bottom:4px;right:-40px;width:750px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 

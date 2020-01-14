@@ -12,6 +12,10 @@
         ItemModification,
         Shield,
         Weapon,
-        Valuable
+        Valuable,
+        ShipArmor,
+        ShipShield,
+        ShipWeapon,
+        BlasterModification
     }
 }
