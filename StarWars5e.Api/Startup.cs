@@ -92,16 +92,18 @@ namespace StarWars5e.Api
             {
                 app.UseHsts();
             }
-
-            app.UseCors();
             app.UseHttpsRedirection();
+
             app.UseRouting();
+
+            // must come after UseRouting
+            app.UseCors();
+            //app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-            //app.UseAuthentication();
         }
     }
 }
