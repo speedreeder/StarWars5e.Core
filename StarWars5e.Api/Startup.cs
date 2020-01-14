@@ -63,7 +63,6 @@ namespace StarWars5e.Api
                 .WithSingletonLifetime()
             );
 
-            
             services.AddSingleton(cloudBlobClient);
             services.AddSingleton(cloudTableClient);
             services.AddSingleton(searchIndexClient);
@@ -81,6 +80,7 @@ namespace StarWars5e.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
                 app.UseSwagger();
 
                 app.UseSwaggerUI(c =>
@@ -92,6 +92,7 @@ namespace StarWars5e.Api
             {
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

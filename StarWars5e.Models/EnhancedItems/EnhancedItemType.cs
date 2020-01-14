@@ -16,6 +16,12 @@
         ShipArmor,
         ShipShield,
         ShipWeapon,
-        BlasterModification
+        BlasterModification,
+        ClothingModification,
+        WristpadModification,
+        ArmorModification,
+        VibroweaponModification,
+        LightweaponModification,
+        FocusGeneratorModification
     }
 }

@@ -29,6 +29,8 @@
         Targeting,
         Underlay,
         VibratorCell,
-        Other
+        Other,
+        Weave,
+        Inlay
     }
 }

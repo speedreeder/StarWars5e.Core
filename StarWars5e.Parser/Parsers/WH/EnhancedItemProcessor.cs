@@ -292,71 +292,15 @@ namespace StarWars5e.Parser.Parsers.WH
                     else if (typeSplit.ToLower().Contains("item modification"))
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
-                        if (typeSplit.Split('(')[1].ToLower().Contains("armoring"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Armoring;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("augment"))
+                        if (typeSplit.Split('(')[1].ToLower().Contains("augment"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Augment;
                         }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("conductor"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Conductor;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("crystal"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Crystal;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("cycler"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Cycler;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("dataport"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Dataport;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("edge"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Edge;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("emitter"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Emitter;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("energy channel"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyChannel;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("grip"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Grip;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("lens"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Lens;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("motherboard"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Motherboard;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("overlay"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Overlay;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("power cell"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.PowerCell;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("processor"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Processor;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("projector"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Projector;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("reinforcement"))
+                    }
+                    else if (typeSplit.ToLower().Contains("armor modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.ArmorModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("reinforcement"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Reinforcement;
                         }
@@ -364,25 +308,109 @@ namespace StarWars5e.Parser.Parsers.WH
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Shielding;
                         }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("stabilizer"))
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("overlay"))
                         {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Stabilizer;
-                        }
-                        else if (typeSplit.Split('(')[1].ToLower().Contains("storage"))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Storage;
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Overlay;
                         }
                         else if (typeSplit.Split('(')[1].ToLower().Contains("underlay"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Underlay;
                         }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("armoring"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Armoring;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains("wristpad modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.WristpadModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("dataport"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Dataport;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("storage"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Storage;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("motherboard"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Motherboard;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("processor"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Processor;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains("focus generator modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.FocusGeneratorModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("cycler"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Cycler;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("emitter"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Emitter;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("conductor"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Conductor;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("energy channel"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyChannel;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains("lightweapon modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.LightweaponModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("lens"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Lens;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("stabilizer"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Stabilizer;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("crystal"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Crystal;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("power cell"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.PowerCell;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains("vibroweapon modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.VibroweaponModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("edge"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Edge;
+                        }
                         else if (typeSplit.Split('(')[1].ToLower().Contains("vibrator cell"))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.VibratorCell;
                         }
-                        else
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("projector"))
                         {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Other;
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Projector;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("grip"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Grip;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains("clothing modification"))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.ClothingModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains("inlay"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Inlay;
+                        }
+                        else if (typeSplit.Split('(')[1].ToLower().Contains("weave"))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Weave;
                         }
                     }
                     else if (typeSplit.ToLower().Contains("blaster modification"))
