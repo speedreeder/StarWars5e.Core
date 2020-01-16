@@ -183,6 +183,23 @@ In the future, if you choose an item of a rarity that's not available in the cur
 
 </div>
 
+
+
+## Enhanced Items Values
+Enhanced item values should fall within a range, as shown below in the Enhanced Item Value by Rarity table. Consumables and item modifications should be about half the value of a permanent item.
+
+Some items have a base price that is higher than the range under which their rarity falls. For instance, heavy durasteel armor, which is a standard rarity item, has a value of 15,000 cr. Higher rarities should be more expensive than that, even if they don't fall within the appropriate range for that rarity.
+
+##### Enhanced Item Value by Rarity
+|Rarity|Value|
+|:--:|:--:|
+|Standard|up to 1,000 cr|
+|<font style="color:green">Premium</font>|1,001 to 5,000 cr|
+|<font style="color:blue">Prototype</font>|5,001 to 25,000 cr|
+|<font style="color:purple">Advanced</font>|25,001 - 100,000 cr|
+|<font style="color:#dd6b20">Legendary</font>|100,001 - 500,000 cr|
+|<font style="color:red">Artifact</font>|at least 500,001 cr|
+
 <div class='footnote'>CHAPTER 5 | ENHANCED ITEMS</div>
 
 \pagebreak
