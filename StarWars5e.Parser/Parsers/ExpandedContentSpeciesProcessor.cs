@@ -362,6 +362,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Draethos":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_draethos.png");
                         break;
+                    case "Droid, Class I":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass01.png");
+                        break;
                     case "Droid, Class IV":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass04.png");
                         break;
@@ -370,6 +373,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Droid, Class II":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass02_01.png");
+                        break;
+                    case "Droid, Class V":
+                        specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_droidclass05.png");
                         break;
                     case "Dug":
                         specie.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/species/species_dug.png");
