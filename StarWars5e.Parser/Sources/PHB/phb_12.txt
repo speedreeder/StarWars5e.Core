@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 12: Tech Powers
 
@@ -79,7 +79,7 @@ ___
 #### 2nd-level
 ___
 - Acid Dart
-- Charge Power Cell
+- Capacity Boost
 - Cryogenic Volley
 - Concealed Caltrops
 - Darkvision
@@ -346,6 +346,17 @@ This power can't be dispelled.
 
 \pagebreakNum
 
+#### Capacity Boost
+_2nd-level tech power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Duration:** Concentration, up to 1 minute
+
+You empower a blaster weapon you are holding. For the duration, you can reload the weapon as a free action once per turn, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell. 
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
+
 #### Carbon Fog
 _6th-level tech power_
 ___
@@ -370,6 +381,8 @@ If the creature is physically broken while frozen in carbonite, it suffers from 
 
 If you maintain your concentration on this power for the entire possible duration, the creature is frozen in carbonite until the effect is removed.
 
+\columnbreak
+
 #### Carbonite Explosion
 _9th-level tech power_
 ___
@@ -382,19 +395,6 @@ You generate an explosion of cryogenic energy in a 60-foot-radius sphere centere
 As an action, a restrained creature can make a Strength check against your tech save DC, ending this effect on itself on a success.
 
 A creature reduced to 0 hit points by this power dies instantly, as its body shatters into frozen chunks.
-
-\columnbreak
-
-#### Charge Power Cell
-_2nd-level tech power_
-___
-- **Casting Time:** 1 bonus action
-- **Range:** Touch
-- **Duration:** Concentration, up to 1 minute
-
-You empower and then load a power cell in your weapon. For the duration, when you make a ranged attack with the weapon, it consumes no ammunition, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell. When this power ends, the power cell is expended.
-
-***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
 
 #### Cloaking Screen
 _4th-level tech power_
@@ -2276,4 +2276,4 @@ This power's damage reduction increases by 1d6 when you reach 5th level (2d6), 1
 
 <div class='footnote'>CHAPTER 12 | TECH POWERS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

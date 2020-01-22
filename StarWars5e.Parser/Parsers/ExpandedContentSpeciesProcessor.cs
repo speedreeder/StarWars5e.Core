@@ -449,6 +449,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Killik":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_killik.png");
                         break;
+                    case "Klatooinian":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_klatooinian.png");
+                        break;
                     case "Kubaz":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kubaz.png");
                         break;

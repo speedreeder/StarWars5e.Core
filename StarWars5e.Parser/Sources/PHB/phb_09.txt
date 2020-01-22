@@ -394,7 +394,7 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ***Acid.*** Viles of corrosive liquid or the *acid splash* tech power deal acid damage.
 
-***Cold.*** The chill energy of carbonite and cryogenisis deal cold damage.
+***Cold.*** The chill energy of carbonite and cryogenesis deal cold damage.
 
 ***Energy.*** Energy damage is the damage dealt by blaster weapons, lightweapons, and other powers or abilities.
 
@@ -431,6 +431,9 @@ Unless it results in death, damage isn't permanent. Even death is reversible thr
 When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a consular grants an operative 8 hit points of healing. If the operative has 14 current hit points and has a hit point maximum of 20, the operative regains 6 hit points from the consular, not 8.
 
 A creature that has died can't regain hit points until a power such as *revitalize* has restored it to life.
+
+#### Hit Dice
+Resting (explained in chapter 8), as well as certain special traits such as the trandoshan's Regenerative, consume Hit Dice to restore hit points. Whenever a creature rolls a Hit Die to restore hit points, they add their Constitution modifier to the roll.
 
 ### Dropping to 0 Hit Points
 When you drop to 0 hit points, you either die outright or fall unconscious, as explained in the following sections.

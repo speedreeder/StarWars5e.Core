@@ -47,15 +47,7 @@ namespace StarWars5e.Parser.Parsers.WH
                         PartitionKey = contentType.ToString()
                     };
 
-                    var valueLine = enhancedItemLines.Find(f => f.StartsWith("**Value"));
-                    if (valueLine != null)
-                    {
-                        //var costMatch = Regex.Matches(valueLine.RemoveMarkdownCharacters(), @"(?<!\S)(\d*\.?\d+|\d{1,3}(,\d{3})*(\.\d+)?)x*(?!\S)*");
-                        //enhancedItem.ValueOptions = costMatch.Select(c => c.Value).ToList();
-                        enhancedItem.ValueText = valueLine.RemoveMarkdownCharacters().Split(':')[1].RemoveUnderscores();
-                    }
-
-                    var prerequisiteLine = enhancedItemLines.Find(f => f.StartsWith("_Prerequisite"));
+                    var prerequisiteLine = enhancedItemLines.Find(f => f.StartsWith("_**Prerequisite"));
                     if (prerequisiteLine != null)
                     {
                         enhancedItem.HasPrerequisite = true;
@@ -63,14 +55,7 @@ namespace StarWars5e.Parser.Parsers.WH
                             .RemoveUnderscores();
                     }
 
-                    if(valueLine != null)
-                    {
-                        var valueLineIndex = enhancedItemLines.FindIndex(f => f == valueLine);
-                        enhancedItem.Text = string.Join("\r\n",
-                            enhancedItemLines.Skip(valueLineIndex + 1).Select(s => s.RemoveUnderscores())
-                                .CleanListOfStrings());
-                    }
-                    else if (prerequisiteLine != null)
+                    if (prerequisiteLine != null)
                     {
                         var prerequisiteLineIndex = enhancedItemLines.FindIndex(f => f == prerequisiteLine);
                         enhancedItem.Text = string.Join("\r\n",
@@ -83,7 +68,7 @@ namespace StarWars5e.Parser.Parsers.WH
                             enhancedItemLines.Skip(2).Select(s => s.RemoveUnderscores()).CleanListOfStrings());
                     }
 
-                    if (enhancedItemLines[1].ToLower().Contains("attunement"))
+                    if (enhancedItemLines.Any(f => f.StartsWith("_**Requires attunement")))
                     {
                         enhancedItem.RequiresAttunement = true;
                     }
@@ -93,11 +78,6 @@ namespace StarWars5e.Parser.Parsers.WH
 
                     if (raritySplit != null)
                     {
-                        if (enhancedItem.RequiresAttunement)
-                        {
-                            raritySplit = raritySplit.Replace("(requires attunement)", string.Empty);
-                        }
-                        
                         enhancedItem.RarityText = raritySplit.Trim();
                         if (raritySplit.ToLower().Contains("standard"))
                         {

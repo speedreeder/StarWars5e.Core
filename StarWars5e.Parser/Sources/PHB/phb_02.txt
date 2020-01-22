@@ -382,7 +382,7 @@ Humans are the most populace species in the Galaxy, and thus their names vary dr
 
 \columnbreak
 
-<div style='margin-top:517px'></div>
+<div style='margin-top:462px'></div>
 
 ### Human Traits
 As a human, you have the following special traits.
@@ -397,13 +397,13 @@ As a human, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Defiant.*** Humans are known to be stubborn and often refuse to give up, even against the worst odds. You can add a d4 to a skill check or saving throw, after rolling but before you know the outcome. You must then finish a short or long rest before you can use this feature again.
+***Defiant.*** Humans are known to be stubborn and often refuse to give up, even against the worst odds. When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ***Proficiency.*** You gain proficiency in one skill, one tool, and one weapon of your choice.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: trandoshan curses, twi'lek musical expressions, chiss military phrases, and so on.
 
-<img src='https://www.gmbinder.com/images/aomfxPF.png' style='position:absolute;top:56px;right:50px;width:353px;' />
+<img src='https://www.gmbinder.com/images/aomfxPF.png' style='position:absolute;top:56px;right:70px;width:317px;' />
 
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
@@ -920,7 +920,7 @@ As a trandoshan, you have the following special traits.
 
 ***Hold Breath.*** You can hold your breath for up to 15 minutes at a time.
 
-***Regenerative.*** When you take damage, you can use your reaction and expend a hit die to regain health as long as the damage would not reduce your hit points to 0.
+***Regenerative.*** When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.
 
 ***Saving Face.*** Trandoshans are careful not to show weakness in front of their allies, for fear of losing<br> status. If you miss with an attack roll or fail an ability<br> check or a saving throw, you can gain a bonus to the<br> roll equal to the number of allies you can see within 30<br> feet of you (maximum bonus of +5). Once you use this<br> trait, you can't use it again until you finish a short or<br> long rest.
 
@@ -1151,4 +1151,4 @@ As a zabrak, you have the following special traits.
 
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

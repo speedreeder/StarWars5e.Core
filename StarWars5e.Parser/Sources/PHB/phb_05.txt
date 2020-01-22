@@ -120,7 +120,7 @@ Powered battle armor is a type of armored suit that boosted the abilities of its
 Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk. Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but it also doesn't penalize you if your Dexterity modifier is negative.
 
 #### Durasteel Armor
-Durasteel armor is an armor that reduced weight, but restricts movement. The armor is commony used by mercenaries, bounty hunters, soldiers, and civilians that live in dangerous areas.
+Durasteel armor is an armor that reduced weight, but restricts movement. The armor is commonly used by mercenaries, bounty hunters, soldiers, and civilians that live in dangerous areas.
 
 #### Powered Durasteel Armor
 Powered durasteel armor uses the base durasteel armor, with the benefit of micro-hydraulics that boost the efficacy of the operator. It offers better protection, but increased weight.
@@ -290,7 +290,7 @@ This weapon can be used with one or two hands. A damage value in parentheses app
 Weapons with special rules are described below.
 
 #### Net
-A Large or smaller creature hit by an net is restrained until it is freed. An net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 kinetic or energy damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. While a creature is restrained by a net, you can make no further attacks with it.
+A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. The net has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the net frees the creature without harming it and immediately ends the net's effects. While a creature is restrained by a net, you can make no further attacks with it.
 
 #### Vibrodart
 Due to their diminutive size, vibrodarts make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage.
@@ -313,7 +313,7 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;	Hold-out 			|  250 cr&nbsp;&nbsp;|1d4 energy		| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), hidden, light, reload 6|
 |&emsp;	Scattergun			|  200 cr&nbsp;&nbsp;|1d6 kinetic		| 3 lb&nbsp;&nbsp;	|Ammunition (range 20/80), burst 2, reload 2|
 |&emsp;	Shotgun 			|  350 cr&nbsp;&nbsp;|2d4 kinetic		|12 lb&nbsp;&nbsp;	|Ammunition (range 30/120), burst 2, reload 4, strength 13, two-handed|
-|&emsp;	Wrist launcher		|  450 cr&nbsp;&nbsp;|—				| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/60), reload 1, special	|
+|&emsp;	Wrist launcher		|  450 cr&nbsp;&nbsp;|—				| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/60), fixed, reload 1, special	|
 |	_Martial Blasters_	|||||
 |&emsp; Assault cannon		|  500 cr&nbsp;&nbsp;|1d10 energy		|24 lb&nbsp;&nbsp;	|Ammunition (range 80/320), burst 4, reload 8, strength 15, two-handed|
 |&emsp;	Blaster pistol		|  200 cr&nbsp;&nbsp;|1d6 energy		| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
@@ -447,7 +447,7 @@ When triggered, this wrist launcher ammunition produces a beam of carbonite ener
 When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 #### Slug Cartridge
-Slug cartridges are ammunition for blaster weapons that deal kinetic damage. When you use reload a weapon that uses cartridges, you can reload any number of cartridges up to the weapon's reload number as a part of the same action.
+Slug cartridges are ammunition for blaster weapons that deal kinetic damage. When you reload a weapon that uses cartridges, you can reload any number of cartridges up to the weapon's reload number as a part of the same action.
 
 <img src='https://www.gmbinder.com/images/yainsZs.png' style='position:absolute;top:467px;right:355px;width:320px;transform:scaleX(-1)' />
 
@@ -503,9 +503,9 @@ A datapad is a<br> small electronic<br> device used for the<br> input, storage a
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Code cylinder	            |	 500 cr	|	1/2 lb		|
 |	&emsp;Datacard	                |	   5 cr	|	—		|
-|	&emsp;Datacron              	|  4,000 cr	|	2 lb		|
+|	&emsp;Datacron              	|  1,000 cr	|	2 lb		|
 |	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
-|	&emsp;Holocron              	|  4,000 cr	|	2 lb		|
+|	&emsp;Holocron              	|  1,000 cr	|	2 lb		|
 |	&emsp;Holorecorder              |	 100 cr	|	1 lb		|
 |	&emsp;Stylus pen                |	  10 cr	|	1/2 lb		|
 |	&emsp;Wristpad              	|	 600 cr	|	2 lb		|
@@ -606,8 +606,8 @@ A respirator, or breath mask, is a portable device that allowed an oxygen-breath
 #### Antidote Kit 
 An antidote kit contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour. It confers no benefit to droids or constructs.
 
-#### Basic Poison (One Dose) 
-You can use the poison in this vial to coat one vibroweapon or one wrist launcher dart. Applying the poison takes an action. A creature hit by the poisoned weapon must make a DC 13 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
+#### Basic Poison
+As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 13 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Emergency Battery
 All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the kit to stabilize a droid that has 0 hit points, without needing to make an Intelligence (Technology) check.
@@ -631,7 +631,7 @@ A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As 
 |	&emsp;Respirator	            |	 200 cr	|	1 lb	 	|
 |	_Medical_	|		|			|
 |	&emsp;Antidote kit	            |	 600 cr	|	4 lb		|
-|	&emsp;Basic poison (one dose) 	|    500 cr	|	1 lb		|
+|	&emsp;Basic poison           	|    125 cr	|	1 lb		|
 |	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
 |	&emsp;Medkit	                |	  50 cr	|	3 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
@@ -835,9 +835,9 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Code cylinder	            |	 500 cr	|	1/2 lb		|
 |	&emsp;Datacard   	            |	   5 cr	|	—		|
-|	&emsp;Datacron              	|  4,000 cr	|	2 lb		|
+|	&emsp;Datacron              	|  1,000 cr	|	2 lb		|
 |	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
-|	&emsp;Holocron              	|  4,000 cr	|	2 lb		|
+|	&emsp;Holocron              	|  1,000 cr	|	2 lb		|
 |	&emsp;Holorecorder              |	 100 cr	|	1 lb		|
 |	&emsp;Stylus pen                |	  10 cr	|	1/2 lb		|
 |	&emsp;Wristpad              	|	 600 cr	|	2 lb		|
@@ -860,7 +860,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |:--|--:|--:|
 |	_Medical_	|		|			|
 |	&emsp;Antidote kit	            |	 600 cr	|	4 lb		|
-|	&emsp;Basic poison (one dose) 	|    500 cr	|	1 lb		|
+|	&emsp;Basic poison           	|    125 cr	|	1 lb		|
 |	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
 |	&emsp;Medkit	                |	  50 cr	|	3 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
@@ -909,7 +909,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 \pagebreakNum
 
 ## Tools
-A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools, when lets you add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. 
+A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools, which lets you add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. 
 
 #### Artisan's Tools
 These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
