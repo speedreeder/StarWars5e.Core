@@ -11,5 +11,11 @@ namespace StarWars5e.Models
             get => ContentTypeEnum.ToString();
             set => ContentTypeEnum = Enum.Parse<ContentType>(value);
         }
+        public ContentSource ContentSourceEnum { get; set; }
+        public string ContentSource
+        {
+            get => ContentSourceEnum.ToString();
+            set => ContentSourceEnum = Enum.Parse<ContentSource>(value);
+        }
     }
 }

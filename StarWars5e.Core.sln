@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28306.52
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Models", "StarWars5e.Models\StarWars5e.Models.csproj", "{0ADC6A0E-ABD2-47F8-9772-D64BB1B3EAEC}"
 EndProject
@@ -12,7 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Parser", "StarWa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F2308C5A-F131-43D4-B3BB-7190BB65A63E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars5e.Api", "StarWars5e.Api\StarWars5e.Api.csproj", "{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars5e.Api", "StarWars5e.Api\StarWars5e.Api.csproj", "{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars5e.ParserTests", "StarWars5e.ParserTests\StarWars5e.ParserTests.csproj", "{437CA684-768B-4912-A30A-9ED425AD3D21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437CA684-768B-4912-A30A-9ED425AD3D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437CA684-768B-4912-A30A-9ED425AD3D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437CA684-768B-4912-A30A-9ED425AD3D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437CA684-768B-4912-A30A-9ED425AD3D21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{0ADC6A0E-ABD2-47F8-9772-D64BB1B3EAEC} = {442411A4-4D96-4C12-9619-BFD466471C2C}
 		{3973ED00-33E1-4D8B-99A0-DD1B23F495CD} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
 		{EE7603C5-FE24-4BD4-9FFE-77FF0ABDC084} = {F2308C5A-F131-43D4-B3BB-7190BB65A63E}
+		{437CA684-768B-4912-A30A-9ED425AD3D21} = {7CEB7EB7-EE66-4FB0-8833-3904A674059D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F9930B0-064C-4475-8720-B3D0C35F59F7}

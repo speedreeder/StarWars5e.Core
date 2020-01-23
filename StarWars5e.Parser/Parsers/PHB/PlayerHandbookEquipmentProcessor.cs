@@ -18,9 +18,9 @@ namespace StarWars5e.Parser.Parsers.PHB
         {
             var equipmentList = new List<Equipment>();
 
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Blasters", ContentType.Core));
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Vibroweapons", ContentType.Core));
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Lightweapons", ContentType.Core));
+            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Blasters", false, 1, ContentType.Core));
+            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Vibroweapons", false, 1, ContentType.Core));
+            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Lightweapons", false, 1, ContentType.Core));
 
             equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseArmor(lines, "##### Armor", ContentType.Core));
 

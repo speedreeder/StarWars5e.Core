@@ -29,6 +29,10 @@ namespace StarWars5e.Parser.Parsers
                 {
                     occurence = 2;
                 }
+                if (nameStartingLine.Key == "Heavy")
+                {
+                    occurence = 4;
+                }
                 weaponProperties.Add(ParseProperty(lines, nameStartingLine.Value, nameStartingLine.Key, _contentType, occurence));
             }
             
@@ -39,7 +43,7 @@ namespace StarWars5e.Parser.Parsers
         {
             try
             {
-                var weaponPropertyStart = lines.FindNthIndex(f => f.RemoveHtmlWhitespace().Equals(startLine, StringComparison.InvariantCultureIgnoreCase), occurence);
+                var weaponPropertyStart = lines.FindNthIndex(f => f.RemoveHtmlWhitespace().StartsWith(startLine, StringComparison.InvariantCultureIgnoreCase), occurence);
                 var weaponPropertyStartEnd =
                     lines.FindIndex(weaponPropertyStart, string.IsNullOrWhiteSpace);
                 var weaponPropertyLines = lines.Skip(weaponPropertyStart)

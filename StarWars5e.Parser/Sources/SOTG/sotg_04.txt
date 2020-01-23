@@ -1,7 +1,5 @@
 
 
-\pagebreak
-
 # Chapter 4: Modifications
 
 <img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:76px;width:35px' />
@@ -62,7 +60,7 @@ Additionally, bigger ships require more people to perform modifications. For a S
 | Huge | 100 |
 | Gargantuan | 1,000 |
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -136,14 +134,14 @@ At tier 0, each ship comes with a number of vacant modification slots, depending
 ### Stock Modifications
 Also at tier 0, each ship comes with a number of modifications, at no additional cost, which do not count against its total modifications or suite systems, depending on its size, as shown in chapter 3.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
 ## Engineering Systems
 These modifications offer unique functionality to the ship. Each engineering system can be chosen multiple times.
 
-Certain engineering systems mention a deployed mechanic's proficiency bonus. In order to add your proficiency bonus to these features, you must be proficient in Mechanic's Kits.
+Certain engineering systems mention a deployed mechanic's proficiency bonus. In order to add your proficiency bonus to these features, you must be proficient in mechanic's kits.
 
 ### Alternative Fuel Converter
 Your ship is equipped with an alternative fuel converter which allows the conversion of materials to a potential fuel source. Over the course of 10 minutes, a deployed mechanic can make an Intelligence (Mechanic's Kit) check (DC  = 10 or half the number of days since the ship's last refueling, whichever number is higher). On a success, the ship recovers one day's worth of fuel.
@@ -184,7 +182,7 @@ Your ship's shield is enhanced to reflect damage to would-be attackers. As a rea
 
 Once this feature has been used, it can't be used again until the start of the deployed mechanic's next turn.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -229,7 +227,7 @@ Your ship is equipped with a back up battery, which can give it renewed energy. 
 
 Once either feature has been used, the power backup can't be used again until the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -261,7 +259,7 @@ _Prerequisite: Tier 4_<br>
 _Prerequisite: Boarding Harpoon_<br>
 Your ship's harpoon has been modified, allowing it to conduct bursts of energy into the harpooned ship. When a deployed pilot takes the Ram action, the target has disadvantage on the saving throw. Additionally, a harpooned ship has disadvantage on the Strength saving throw to remove the harpoon. Finally, as an action on each of their turns, a deployed mechanic can deal pulse damage to a harpooned ship. The damage is equal to one of your ship's Hit Dice + your ship's Strength modifier.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -276,8 +274,7 @@ _Prerequisite: Stealth Mode_<br>
 This system improves the stealth mode function on your ship. While active, your ship no longer has disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on scanners, and no longer has to roll on the Hyperspace Mishaps table before entering hyperspace while stealth mode is active.
 
 ### Backup Hyperdrive
-_Prerequisite: Tier 2_<br>
-_Prerequisite: Hyperdrive_<br>
+_Prerequisite: Hyperdrive Slot_<br>
 This modification adds a backup hyperdrive slot on your ship and includes a class 15 hyperdrive. A deployed operator can switch to or from the backup hyperdrive as an action.
 
 ### Cloaking Device
@@ -308,10 +305,8 @@ This modification augments the native communications on your ship. Deployed oper
 This system augments the native radar scanner on your ship. While deployed at the scanner, operators gain blindsight out to 1,000 feet.
 
 ### Gravity Well Projector
-_Prerequisite: Ship size Huge or larger_<br>
-Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field. A deployed operator can activate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. While active, ships within the gravity well projector's firing arc can't activate their hyperdrives.
-
-The gravity well projector lasts for 1 minute. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+_Prerequisite: Ship size Large or larger_<br>
+Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field. A deployed operator can activate or deactivate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. While active, this ship and ships of the same size or smaller within the gravity well projector's firing arc can't activate their hyperdrives.
 
 ### Hyperdrive Quick-Start
 _Prerequisite: Tier 2_<br>
@@ -320,7 +315,7 @@ This modification improves the hyperdrive on your ship, reducing the time requir
 
 Additionally, you can quick start the hyperdrive. As an action, a deployed operator can quick-start the hyperdrive. A quick-started hyperdrive engages faster than normal, and completes booting up at the start of the operator's next turn. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -379,7 +374,7 @@ This modification adds a navcomputer slot on your ship and includes a basic navc
 _Prerequisite: Tier 2_<br>
 This modification implements a secondary transponder code into your ship's sublight engines. This transponder code can differ from your primary transponder code in terms of ship's owner, designation, make and model, any registered modifications, and the ship's ownership history. A deployed operator can switch the ship's transponder code as an action. A creature can determine this transponder code is a fake by making an Intelligence (Technology) check (DC = 8 + your deployed operator's bonus to Technology checks). On a success, they determine that your transponder code is a fake.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -417,12 +412,12 @@ You can end the tractor beam at any time (no action required).
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
 ## Suite Systems
-Suite systems add additional functionality to the ship in the form of bays, stations and designated areas, offering increased utility to civilians, crew members, and troopers. Each suite system can be chosen multiple times. All suite systems require a ship of size Medium or larger. In addition to their modification slot cost, ships are limited to the number of suite systems they can have, depending on the ship's size, as shown below in the Starship Size Maximum Suites table.
+Suite systems add additional functionality to the ship in the form of bays, stations and designated areas, offering increased utility to civilians, crew members, and troopers. Each suite system can be chosen no more than ten times. All suite systems require a ship of size Medium or larger. In addition to their modification slot cost, ships are limited to the number of suite systems they can have, depending on the ship's size, as shown below in the Starship Size Maximum Suites table.
 
 #### Starship Size Maximum Suites
 | Starship Size | Suite Capacity |
@@ -480,7 +475,7 @@ On a roll of 1, the casino loses twice as much, and on a roll of 20 it makes twi
 
 These amounts include the wages of the employees.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -490,17 +485,17 @@ This suite creates a separate command center designed to give a comprehensive vi
 
 ### Docking Bay
 _Prerequisite: Ship size Large or larger_<br>
-This suite comes equipped with an integrated Mechanic's Kit and has space for all of the necessary equipment to launch, receive, repair, rearm, and house another starship. The size it can house varies depending on the ship's size.
-- **Large:** A Large docking bay can house a Medium ship.
-- **Huge:** A Huge docking bay can house a Large ship.
-- **Gargantuan:** A Gargantuan docking bay can house a Huge ship.
+This suite comes equipped with an integrated mechanic's kit and has space for all of the necessary equipment to launch, receive, repair, rearm, and house another starship. The size it can house varies depending on the ship's size.
+- **Large:** A Large docking bay can house two Medium ships.
+- **Huge:** A Huge docking bay can house one Large ship.
+- **Gargantuan:** A Gargantuan docking bay can house one Huge ship.
 
-Alternatively, this suite can house multiple ships of smaller size. A Huge unit takes up the space of 10 Large units, which in turn takes up the place of 10 Medium units, and so on. You can also replace a ship with a droid or construct of four size categories larger.
+Alternatively, this suite can house multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger.
 
 ### Droid Storage
 This suite offers a single room featuring tightly-packed racks suitable for storing and housing a number of Medium droids equal to four times the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table.
 
-Alternatively, this suite can house droids of other sizes. A Huge droid takes up the space of 10 Large droids, which in turn takes up the place of 10 Medium droids, and so on.
+Alternatively, this suite can house droids of other sizes. A Huge droid takes up the space of two Large droids, which in turn takes up the place of two Medium droids, and so on.
 
 \columnbreak
 
@@ -516,7 +511,7 @@ This suite includes a security post and a number of individual holding cells, as
 ### Interrogation Chamber
 This suite includes all of the necessary implements and apparatuses necessary to interrogate, or even torture, a number of prisoners equal to half the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table. When interrogating a prisoner, the interrogator has advantage on Charisma (Intimidation) and Charisma (Persuasion) checks. If they spend at least an hour interrogating a prisoner, the prisoner has disadvantage on Charisma (Deception) checks.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -539,43 +534,43 @@ Additionally, while utilizing any of these tools, you gain a benefit based on wh
 This suite features separate rooms to house a number of civilians, crew members, or troopers, determined by the ship's size, as well as communal refresher stations (one for every four rooms). Each room comes fully furnished. When a creature completes a long rest involving this suite, their exhaustion level is reduced by 2, instead of only 1.
 
 ### Luxury Quarters
-This suit features separate rooms, which come fully furnished, with its own refresher station. When a creature completes a long rest involving this suite, they regain all spent hit dice, instead of only half of them, and their exhaustion level is reduced by 2, instead of only 1. This suite features a number of private quarters equal to half the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table.
+This suit features separate rooms, which come fully furnished, with its own refresher station. When a creature completes a long rest involving this suite, they regain all spent Hit Dice, instead of only half of them, and their exhaustion level is reduced by 2, instead of only 1. This suite features a number of private quarters equal to half the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
 ### Mechanic's Shop
-This suite comes with all of the proper equipment to house droids and small constructs, complete with an integrated demolitions kit and Mechanic's Kit. While utilizing either of these tools, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
+This suite comes with all of the proper equipment to house droids and small constructs, complete with integrated astrotech's tools, a demolitions kit, and a mechanic's kit. While utilizing either of these tools, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
 Additionally, while utilizing any of these tools, you gain a benefit based on which tools you are using. 
 - **Demolitions kit:** Over the course of a long rest, you can temporarily improve the potency of one grenade or mine. If the chosen explosive is used before the end of your next long rest, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra damage equal to your Intelligence modifier. The damage is of the same type dealt by the chosen explosive.
 - **Mechanic's Kit:** Whenever you make an Intelligence (Mechanic's Kit) check to make a repair, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least ten minutes repairing it.
 
 Lastly, this suite can house droids and constructs, depending on the ship's size:
-- **Medium:** A Medium mechanic's shop can house one Large droid or construct.
-- **Large:** A Large mechanic's shop can house one Huge droid or construct.
-- **Huge:** A Huge mechanic's shop can house one Gargantuan droid or construct.
-- **Gargantuan:** A Gargantuan mechanic's shop can house four Gargantuan droids or constructs.
+- **Medium:** A Medium mechanic's shop can house one Huge droid or construct.
+- **Large:** A Large mechanic's shop can house one Gargantuan droid or construct.
+- **Huge:** A Huge mechanic's shop can house 10 Gargantuan droids or constructs.
+- **Gargantuan:** A Gargantuan mechanic's shop can house 100 Gargantuan droids or constructs.
 
-Alternatively, you this suite can house multiple droids or constructs of smaller size. A Gargantuan unit takes up the space of 10 Huge units, which in turn takes up the place of 10 Large units, and so on.
+Alternatively, this suite can house droids of other sizes. A Gargantuan droid takes up the space of two Huge droids, which in turn takes up the place of two Large droids, and so on.
 
 \columnbreak
 
 ### Medbay
-This suite comes with first aid supplies and bacta tanks to support a number of civilians, crew members, or troopers, determined by the ship's size. For every one hour spent in a bacta tank, a creature's exhaustion level is reduced by 1, and it can roll a hit die to recovery hit points without expending the die.
+This suite comes with first aid supplies and bacta tanks to support a number of civilians, crew members, or troopers, determined by the ship's size. For every one hour spent in a bacta tank, a creature's exhaustion level is reduced by 1, and it can roll a Hit Die to recovery hit points without expending the die.
 
 Additionally, if a creature has been dead for less than 12 hours before being put in a bacta tank. It can be revitalized over a 24-hour period. At the end of the 24 hours, the creature recovers all hit points, all mortal wounds close, and any missing body parts are restored. The revitalized creature takes a -4 penalty to all ability checks, attack rolls, and saving throws. Every time the creature finishes a long rest, the penalty is reduced by 1 until it disappears. This feature has no effect on droids or constructs. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
 
 ### Meditation Chamber
 This suite comes with a number of separate unique chambers equal to one-fourth the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table. When a forcecaster completes a long rest involving this suite, they gain temporary force points equal to their force power maximum power level + their Wisdom or Charisma modifier (their choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next long rest.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
 ### Mess Hall
-This suite comes with a combined kitchen and dining area, complete with a chef's kit, that can accommodate a number of civilians, crew members, or troopers equal to twice the twice the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table. While utilizing this tool, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
+This suite comes with a combined kitchen and dining area, complete with a chef's kit, that can accommodate a number of civilians, crew members, or troopers equal to twice the ship's suite capacity by size, as shown in the Starship Size Suite Capacity table. While utilizing this tool, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
 Additionally, when a creature completes a long rest involving this suite, they regain two additional Hit Dice and have advantage on Constitution saving throws against disease for the next 24 hours.
 
@@ -602,7 +597,7 @@ This suite offers a single room, equipped with both a key and a code lock, that 
 ### Storage Compartment
 This suite increases the cargo capacity on your ship by its base cargo capacity, as shown in the Starship Size Cargo Capacity on page 55.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -622,7 +617,7 @@ This suite offers a crafting station with each set of artisan's tools integrated
 
 Additionally, while crafting at a crafting station, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your proficiency bonus to checks you make with them, the market value increases by 10 x your character level.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -667,12 +662,12 @@ The reinforced doors can be bypassed with a DC 20 Intelligence (Security Kit) ch
 ### Artifact Central Computer
 _Prerequisite: Tier 5_<br>
 _Prerequisite: Legendary Central Computer_<br>
-You ship's central computer has reached their maximum potential. Your artificial intelligence's Intelligence score increases to 22, and its proficiency bonus increases to 6. Additionally, it gains expertise in your choice of Mechanic's Kits, Piloting, or Technology.
+You ship's central computer has reached their maximum potential. Your artificial intelligence's Intelligence score increases to 22, and its proficiency bonus increases to 6. Additionally, it gains expertise in your choice of mechanic's kits, Piloting, or Technology.
 
 ### Artifact Droid Brain
 _Prerequisite: Tier 5_<br>
 _Prerequisite: Legendary Droid Brain_<br>
-Your ship's droid brain has reached its maximum potential. Your droid brain's Intelligence score increases to 22, and its proficiency bonus increases to 6. Additionally, it gains expertise in your choice of Mechanic's Kits, Piloting, or Technology.
+Your ship's droid brain has reached its maximum potential. Your droid brain's Intelligence score increases to 22, and its proficiency bonus increases to 6. Additionally, it gains expertise in your choice of mechanic's kits, Piloting, or Technology.
 
 ### Artifact Hull
 _Prerequisite: Tier 5_<br>
@@ -697,7 +692,7 @@ You install a central computer, complete with artificial intelligence, in your s
 _Prerequisite: Ship size Medium or smaller_<br>
 You install a droid brain that can singularly control your starship. Your starship's maximum and minimum crew requirement become 0, and your starship can not benefit from features that would increase or decrease it's crew capacity. The droid brain controls all aspects of the ship, instead. The droid brain has an Intelligence score of 12, a proficiency bonus of +2, and proficiency in Piloting and ship weapons. In combat, the droid brain rolls its own initiative, to which it gains no bonus.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -738,12 +733,12 @@ You massively improve your ship's thruster. Your ship's Dexterity score increase
 ### Premium Central Computer
 _Prerequisite: Tier 1_<br>
 _Prerequisite: Central Computer_<br>
-You improve your ship's central computer. Your artificial intelligence's Intelligence score increases to 14. Additionally, your artificial intelligence gains proficiency in Mechanic's Kits, and it can now act as a deployed mechanic.
+You improve your ship's central computer. Your artificial intelligence's Intelligence score increases to 14. Additionally, your artificial intelligence gains proficiency in mechanic's kits, and it can now act as a deployed mechanic.
 
 ### Premium Droid Brain
 _Prerequisite: Tier 1_<br>
 _Prerequisite: Droid Brain_<br>
-You improve your ship's droid brain. Your droid brain's Intelligence score increases to 14, and it gains proficiency in Technology and Mechanic's Kits. Additionally, if your ship is Small or Medium, the number of actions it can take each turn increases:
+You improve your ship's droid brain. Your droid brain's Intelligence score increases to 14, and it gains proficiency in Technology and mechanic's kits. Additionally, if your ship is Small or Medium, the number of actions it can take each turn increases:
 - **Small:** A Small ship can take a number of actions equal to half its proficiency bonus (rounded up).
 - **Medium:** A Medium ship can take a number of actions equal to its proficiency bonus.
 
@@ -769,7 +764,7 @@ _Prerequisite: Tier 2_<br>
 _Prerequisite: Premium Droid Brain_<br>
 You further improve your ship's droid brain. Your droid brain's Intelligence score increases to 16, and its proficiency bonus increases to 3. Additionally, your ship's droid brain gains a +5 bonus to initiative.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -807,7 +802,7 @@ You overhaul your ship's thruster to make it more adaptive. Your ship gains prof
 
 ### Secondary Crew Slot
 _Prerequisite: Ship size Small_<br>
-You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 2. Your ship's flying speed is reduced by 50 feet.
+You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 2. 
 
 \columnbreak
 
@@ -821,9 +816,9 @@ You augment your ship's preventative measures in order to mitigate damage to its
 ### Tertiary Crew Slot
 _Prerequisite: Tier 2_<br>
 _Prerequisite: Secondary Crew Slot_<br>
-You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 3. Your ship's turning speed increases by 50 feet.
+You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by 1, to 3.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -840,7 +835,7 @@ If the damaged ship is larger than your ship, it has advantage on the saving thr
 
 ### Direct Controller
 _Prerequisite: Primary or Secondary Weapon_<br>
-The deployed gunner can use their Dexterity modifier instead of the ship's for the attack and damage rolls of the chosen weapon.
+The deployed gunner can use their Dexterity modifier instead of the ship's for the attack rolls of the chosen weapon.
 
 \columnbreak
 
@@ -852,7 +847,7 @@ The reload value of the chosen weapon increases by half.
 
 ### Explosive Payload
 _Prerequisite: Tertiary or Quaternary Weapon_<br>
-When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Dexterity modifier. The damage is of the same type dealt by the original attack.
+When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Strength modifier. The damage is of the same type dealt by the original attack.
 
 ### Fixed Hardpoint
 A fixed hardpoint is used to mount a primary, secondary, tertiary, or quaternary weapon. A weapon mounted on a fixed hardpoint has a limited firing arc, as described in chapter 9. 
@@ -861,7 +856,7 @@ A fixed hardpoint is used to mount a primary, secondary, tertiary, or quaternary
 _Prerequisite: Weapon Slave Array_<br>
 Primary and secondary ship attack rolls are no longer made at disadvantage, and tertiary weapon saving throws are no longer made with advantage, when slaved weapons are fired from the cockpit.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -887,7 +882,7 @@ A point defense system is a array of dozens or hundreds of small arms which are 
 
 If a ship is in the area of more than one point defense system, it is affected only once.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
 
@@ -913,6 +908,6 @@ The Turret Hardpoint is a modification to a Fixed Hardpoint that grants an impro
 _Prerequisite: Ship size Medium or larger_<br>
 A weapon slave array is attached to a hardpoint and used to fire the weapon from the cockpit rather than the gunner station. Primary and secondary ship attack rolls are made at disadvantage, and tertiary weapon saving throws are made with advantage, when slaved weapons are fired from the cockpit.
 
-<div class='footnote'>PART 1 | MODIFICATIONS</div>
+<div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

@@ -22,6 +22,18 @@ namespace StarWars5e.Parser.Parsers.PHB
         private static readonly List<string> ScholarPursuits = new List<string> { "Physician Pursuit", "Politician Pursuit", "Tactician Pursuit" };
         private static readonly List<string> ScoutTechniques = new List<string> { "Deadeye Technique", "Hunter Technique", "Stalker Technique" };
         private static readonly List<string> SentinelPaths = new List<string> { "Path of Aggression", "Path of Focus", "Path of Shadows" };
+
+        private static readonly List<(string ArchetypeName, double CasterRatio, PowerType CasterType)>
+            ArchetypeCasterMap = new List<(string ArchetypeName, double CasterRatio, PowerType CasterType)>
+            {
+                ("Marauder Approach", .3333333333333333, PowerType.Force),
+                ("Adept Specialist", .3333333333333333, PowerType.Force),
+                ("Aing-Tii Order", .3333333333333333, PowerType.Force),
+                ("Beguiler Practice", .3333333333333333, PowerType.Force),
+                ("Shield Specialist", .3333333333333333, PowerType.Tech),
+                ("Saboteur Practice", .3333333333333333, PowerType.Tech)
+            };
+
         public override Task<List<Class>> FindBlocks(List<string> lines)
         {
             var classes = new List<Class>();
@@ -57,6 +69,8 @@ namespace StarWars5e.Parser.Parsers.PHB
             }
 
             MapImageUrls(classes);
+            MapCasterRatioAndType(classes);
+            MapMultiClassProficiencies(classes);
 
             return Task.FromResult(classes);
         }
@@ -109,14 +123,55 @@ namespace StarWars5e.Parser.Parsers.PHB
                     .Split("**").ElementAtOrDefault(2)?.Trim();
                 starWarsClass.HitPointsAtHigherLevels = classLines.Find(f => f.Contains("**Hit Points at Higher Level"))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
+
+                if (starWarsClass.HitPointsAtFirstLevel != null)
+                {
+                    starWarsClass.HitPointsAtFirstLevelNumber =
+                        int.Parse(Regex.Match(starWarsClass.HitPointsAtFirstLevel, @"\d+").Value);
+                }
+
+                if (starWarsClass.HitPointsAtHigherLevels != null)
+                {
+                    starWarsClass.HitPointsAtHigherLevelsNumber =
+                        int.Parse(Regex.Match(starWarsClass.HitPointsAtHigherLevels.Split('(')[1], @"\d+").Value);
+                }
+
                 starWarsClass.ArmorProficiencies = classLines.Find(f => f.Contains("**Armor:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
+
+
                 starWarsClass.WeaponProficiencies = classLines.Find(f => f.Contains("**Weapons:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
+
+
                 starWarsClass.ToolProficiencies = classLines.Find(f => f.Contains("**Tools:**"))
-                    .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
+                    .Split("**").ElementAtOrDefault(2)?.Split(new [] {",", "and"}, StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToList();
+
+                if (starWarsClass.ToolProficiencies != null)
+                {
+                    starWarsClass.ToolProficienciesList = starWarsClass.ToolProficiencies.Select(t =>
+                    {
+                        t = t.Replace("Your choice of ", "");
+                        return t.RemoveWords(new [] {"or"});
+                    }).ToList();
+                }
+
                 starWarsClass.SkillChoices = classLines.Find(f => f.Contains("**Skills:**"))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
+
+                if (starWarsClass.SkillChoices != null)
+                {
+                    starWarsClass.SkillChoicesList = starWarsClass.SkillChoices.Split("from ")[1]
+                        .Split(",")
+                        .Select(c =>
+                        {
+                            c = c.RemoveWords(new []{"and"});
+                            return c.Trim();
+                        })
+                        .ToList();
+
+                    starWarsClass.NumSkillChoices = Regex.Match(starWarsClass.SkillChoices, @"one|two|three|four|five|six|seven|eight|nine").Value.ToInteger();
+                }
 
                 var equipmentLinesStart = classLines.FindIndex(f => f.Equals("#### Equipment"));
                 var equipmentLinesEnd = classLines.FindIndex(equipmentLinesStart + 1, f => f.StartsWith("#"));
@@ -336,6 +391,13 @@ namespace StarWars5e.Parser.Parsers.PHB
                     }
                 }
 
+                var casterRatio = ArchetypeCasterMap.FirstOrDefault(c => c.ArchetypeName == name);
+                if (casterRatio != default((string ArchetypeName, double CasterRatio, PowerType casterType)))
+                {
+                    archetype.CasterRatio = casterRatio.CasterRatio;
+                    archetype.CasterTypeEnum = casterRatio.CasterType;
+                }
+
                 return archetype;
             }
             catch (Exception e)
@@ -351,40 +413,133 @@ namespace StarWars5e.Parser.Parsers.PHB
                 switch (starWarsClass.Name)
                 {
                     case "Berserker":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/berserker_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/berserker_01.png");
                         break;
                     case "Consular":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/consular_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/consular_02.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_02.png");
                         break;
                     case "Engineer":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/engineer_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/engineer_01.png");
                         break;
                     case "Fighter":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/fighter_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/fighter_01.png");
                         break;
                     case "Guardian":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/guardian_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/guardian_02.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/guardian_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/guardian_02.png");
                         break;
                     case "Monk":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/monk_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/monk_02.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/monk_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/monk_02.png");
                         break;
                     case "Operative":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/operative_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/operative_01.png");
                         break;
                     case "Scholar":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scholar_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scholar_02.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scholar_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scholar_02.png");
                         break;
                     case "Scout":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scout_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/scout_02.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_02.png");
                         break;
                     case "Sentinel":
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5e.blob.core.windows.net/site-images/classes/sentinel_02.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/sentinel_01.png");
+                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/sentinel_02.png");
+                        break;
+                }
+            }
+        }
+
+        public static void MapMultiClassProficiencies(IEnumerable<Class> classes)
+        {
+            foreach (var starWarsClass in classes)
+            {
+                switch (starWarsClass.Name)
+                {
+                    case "Berserker":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Consular":
+                        starWarsClass.MultiClassProficiencies.Add("Simple lightweapons");
+                        break;
+                    case "Engineer":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        break;
+                    case "Fighter":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("medium armor");
+                        starWarsClass.MultiClassProficiencies.Add("all blasters");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Guardian":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("medium armor");
+                        starWarsClass.MultiClassProficiencies.Add("all lightweapons");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Monk":
+                        starWarsClass.MultiClassProficiencies.Add("Simple vibroweapons");
+                        starWarsClass.MultiClassProficiencies.Add("techblades");
+                        break;
+                    case "Operative":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        break;
+                    case "Scholar":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        break;
+                    case "Scout":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("medium armor");
+                        starWarsClass.MultiClassProficiencies.Add("all blasters");
+                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
+                        break;
+                    case "Sentinel":
+                        starWarsClass.MultiClassProficiencies.Add("Light armor");
+                        starWarsClass.MultiClassProficiencies.Add("simple lightweapons");
+                        starWarsClass.MultiClassProficiencies.Add("simple vibroweapons");
+                        break;
+                }
+            }
+        }
+
+        public static void MapCasterRatioAndType(IEnumerable<Class> classes)
+        {
+            foreach (var starWarsClass in classes)
+            {
+                switch (starWarsClass.Name)
+                {
+                    case "Berserker":
+                        break;
+                    case "Consular":
+                        starWarsClass.CasterRatio = 1;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
+                        break;
+                    case "Engineer":
+                        starWarsClass.CasterRatio = 1;
+                        starWarsClass.CasterTypeEnum = PowerType.Tech;
+                        break;
+                    case "Fighter":
+                        break;
+                    case "Guardian":
+                        starWarsClass.CasterRatio = .5;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
+                        break;
+                    case "Monk":
+                        break;
+                    case "Operative":
+                        break;
+                    case "Scholar":
+                        break;
+                    case "Scout":
+                        starWarsClass.CasterRatio = .5;
+                        starWarsClass.CasterTypeEnum = PowerType.Tech;
+                        break;
+                    case "Sentinel":
+                        starWarsClass.CasterRatio = .6666666666666666;
+                        starWarsClass.CasterTypeEnum = PowerType.Force;
                         break;
                 }
             }

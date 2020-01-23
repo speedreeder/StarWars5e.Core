@@ -4,7 +4,6 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Parser.Parsers
 {
@@ -26,7 +25,7 @@ namespace StarWars5e.Parser.Parsers
 
                 foreach (var location in locations)
                 {
-                    using (var stream = Assembly.GetEntryAssembly()
+                    using (var stream = Assembly.GetExecutingAssembly()
                         .GetManifestResourceStream($"StarWars5e.Parser.Sources.{location}"))
                     {
                         using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))

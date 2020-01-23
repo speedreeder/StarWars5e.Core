@@ -135,12 +135,6 @@ namespace StarWars5e.Api.Managers
                 case EnhancedItemSearchOrdering.RarityOptionsDescending:
                     enhancedItems = enhancedItems.OrderByDescending(p => p.RarityOptions.LastOrDefault());
                     break;
-                case EnhancedItemSearchOrdering.ValueOptionsAscending:
-                    enhancedItems = enhancedItems.OrderBy(p => p.ValueOptions.FirstOrDefault());
-                    break;
-                case EnhancedItemSearchOrdering.ValueOptionsDescending:
-                    enhancedItems = enhancedItems.OrderByDescending(p => p.ValueOptions.LastOrDefault());
-                    break;
                 case EnhancedItemSearchOrdering.TypeAscending:
                     enhancedItems = enhancedItems.OrderBy(p => p.Type);
                     break;

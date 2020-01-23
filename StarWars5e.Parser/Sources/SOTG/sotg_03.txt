@@ -1,7 +1,5 @@
 
 
-\pagebreak
-
 # Chapter 3: Starships
 
 <img src='https://www.gmbinder.com/images/4mYR4C0.png' style='position:absolute;top:90px;left:75px;width:30px' />
@@ -76,14 +74,14 @@ For instance, to build a Small ship, with a workforce of 5, would take 20 days. 
 
 It is assumed that each member of the workforce works 8 hours per day.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
 ## Upgrading a Starship
 Once the party has acquired a ship, they can upgrade it over time. Upgrading a ship is a matter of workforce, time, and skill. This assumes the starship you are upgrading is otherwise fully functional (has no missing hit points or damaged systems), the requisite resources and tools are freely available, and you are docked at a spaceport or shipyard. Under less optimal conditions the time, money and skill required could be increased by as much as 100%, and the GM may decide that an upgrade is impossible in these circumstances.
 
-As players sink credits into their starship, they eventually hit certain thresholds that improve the tier of the starship. Achieving higher tiers requires scarcer materials, restricted schematics, and master craftsmen; consequently, it costs more credits As a player increases the tier of their starship, they unlock additional Hit Dice, additional modification slots, and unique size-specific features. The number of credits a party must invest in their ship varies based on the tier they are trying to obtain, as show below in the Base Upgrade Cost by Tier table.
+In addition to the cost of modifications and equipment, players can invest credits into their starships, eventually hitting certain thresholds that improve the tier of the ship.  Achieving higher tiers requires scarcer materials, restricted schematics, and master craftsmen; consequently, it costs more credits As a player increases the tier of their starship, they unlock additional Hit Dice, additional modification slots, and unique size-specific features. The number of credits a party must invest in their ship varies based on the tier they are trying to obtain, as show below in the Base Upgrade Cost by Tier table.
 
 #### Base Upgrade Cost by Tier
 | Starship Tier | Cost in Credits |
@@ -150,7 +148,7 @@ It is assumed that each member of the workforce works 8 hours per day.
 ### Starship Tier Features
 Once players have upgraded a ship to tier 1 or higher, they unlock additional features, determined by the ship's size. 
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -217,7 +215,7 @@ Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier 
 #### Additional Modifications
 Your ship gains 1 additional modification slot. It gains 1 additional modification slot at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -298,7 +296,7 @@ Your ship's Astromech Synergy die changes when it reaches certain tiers. The die
 
 This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -309,7 +307,10 @@ At 2nd tier, you adopt a particular style of design for your ship. Choose from t
 Your ship gains a +1 bonus to damage rolls with ship weapons.
 
 #### Interceptor
-You ship's flying speed increase by 50 feet.
+Your ship's flying speed increases by 50 feet.
+
+#### Shuttle
+Your ship gains one suite system of your choice, which does not count against its total modifications. Your Starship Size Suite Capacity is 2. If the capacity of a suite would be less than 1, it is 1 for you.
 
 #### Strike Fighter
 Your ship gains a +1 bonus to the attack rolls and save DCs of its ship weapons.
@@ -336,7 +337,10 @@ At 4th tier, you master a particular style of design for your ship. Choose from 
 Starships two or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.
 
 #### Interceptor
-Your ships turning speed decreases by 50 feet. If this would decrease your ship's turning speed to 0, instead your ship's flying speed increases by 50 feet.
+Your ship's turning speed decreases by 50 feet. If this would decrease your ship's turning speed to 0, instead your ship's flying speed increases by 50 feet.
+
+#### Shuttle
+Your ship gains one suite system of your choice, which does not count against its total modifications. Your Starship Size Suite Capacity is 2. If the capacity of a suite would be less than 1, it is 1 for you.
 
 #### Strike Fighter
 Your ship's shield regeneration rate is doubled.
@@ -354,7 +358,7 @@ Also at 5th tier, when your ship, or a deployed crew member, makes an ability ch
 
 Once this feature has been used, it can't be used again until the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -432,7 +436,7 @@ Your ship's Evasive Maneuvers die changes when it reaches certain tiers. The die
 
 This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -444,6 +448,9 @@ Your ship gains the Storage Compartment modification, which does not count again
 
 #### Gunboat
 Your ship gains a Fixed Hardpoint modification, which does not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+
+#### Navigator
+Your ship gains the Navcomputer Slot modification, which does not count against its total modifications. Additionally, if a deployed operator fails an astrogation check, they can roll twice on the Hyperspace Mishaps table and choose either total.
 
 #### Yacht
 Your ship gains the Recreation modification, which does not count against its total modifications or suite systems. Additionally, while hosting guests on your ship, they have disadvantage on Intelligence and Wisdom checks.
@@ -470,11 +477,14 @@ When your ship fails a Strength or Dexterity saving throw, a deployed crew membe
 #### Gunboat
 Once per round, a deployed gunner can roll the weapon damage dice one additional time when determining the extra damage for a critical hit with a ship attack.
 
+#### Navigator
+Your ship has resistance to damage from environmental effects, and advantage on saving throws to resist the effects of environmental effects.
+
 #### Yacht
 You have advantage Charisma checks made against those who can see your ship.
 
 ### Adaptive Armor
-Also at 4th tier, when your ship is hit with an attack roll, a deployed pilot can add the ship's Constitution modifier to the roll to attempt to turn that hit into a miss.
+Also at 4th tier, when your ship is hit with an attack roll, a deployed pilot can add the ship's Constitution modifier to AC, potentially causing the attack to miss.
 
 This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes maintenance.
 
@@ -486,7 +496,7 @@ Also at 5th tier, as an action, a deployed crew member can give the ship resista
 
 This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -564,7 +574,7 @@ Your ship's Blockade Runner die changes when it reaches certain tiers. The die b
 
 This feature can be used a number of times equal to<br> 3 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -577,11 +587,14 @@ Your ship gains a Luxury Quarters suite, which does not count against its total 
 #### Corvette
 Your ship gains a Fixed Hardpoint modification, which does not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
 
+#### Explorer
+Your ship gains the Enhanced Scanner modification, which does not count against its total modifications. Additionally, the range of its scanners is increased by 1,000 feet.
+
 #### Picket Ship
 Your ship gains a Point Defense System, which does not count against its total modifications. Additionally, the damage of your point defense systems increases to 2d8, from 2d6.
 
 ### Concentrated Fire
-Also at 2nd tier, once per turn, when a deployed gunner makes an attack roll against a ship of size Large or larger that was hit by an attack from an allied ship of size Large or larger since the end of the target ship's last turn, they have advantage on the attack roll. If the deployed gunner already had advantage on the attack roll, they can instead reroll one of the dice once.
+Also at 2nd tier, once per turn, when a ship of size Larger or larger makes a saving throw to avoid this ship's weapons, and it failed a saving throw to avoid an allied ship of size Large or larger's weapons since the end of its last turn, it has disadvantage on the saving throw. If it already had disadvantage, it must instead reroll one of the dice once (your choice).
 
 ### Versatile Frigate
 Starting at 3rd tier, when a deployed crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A deployed crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
@@ -604,6 +617,9 @@ Your ship has advantage on saving throws to avoid being rammed or tractored.
 #### Corvette
 Your ship's flying speed increases by 50 feet. 
 
+#### Explorer
+Your ship can detect ships moving through hyperspace with its scanners, and it ignores environmental effects that would impact its scanners.
+
 #### Picket Ship
 The range of your point defense systems increases by 100 feet. Additionally, Large or smaller ships have disadvantage on saving throws against your point defense systems.
 
@@ -618,7 +634,7 @@ Also at 5th tier, once on each deployed gunners' turn, they can add the ship's S
 
 \columnbreak
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -696,7 +712,7 @@ Your ship's Damage Control die changes when it reaches certain tiers. The die be
 
 This feature can be used a number of times equal to<br> 4 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -708,6 +724,9 @@ Your ship gains two Fixed Hardpoint modifications, which do not count against it
 
 #### Carrier
 Your ship gains two Docking Bay suites, which do not count against its total modifications or suite systems. Additionally, the capacity of your docking bays are doubled.
+
+#### Colonizer
+Your ship gains two Barracks suites, which do not count against its total modifications or suite systems. Additionally, saving throws against poison and disease on your ship are made with advantage.
 
 #### Interdictor 
 Your ship gains the Tractor Beam and Gravity Well Projector modifications, which do not count against its total modifications. Additionally, ships of Large size or smaller have disadvantage on saving throws against your tractor beams.
@@ -736,6 +755,9 @@ When a deployed gunner rolls a 1 or 2 on the on a damage die for a primary or se
 #### Carrier
 When ships are deployed from your carrier, they have advantage on the first ability check, attack roll, or saving throw they make before the end of their next maintenance. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes maintenance.
 
+#### Colonizer
+Your ship's fuel capacity, as shown in the Starship Size Fuel Capacity table, doubles. Additionally, while traveling in realspace, your ship consumes half the amount of fuel.
+
 #### Interdictor
 Ships of Huge size or smaller have disadvantage on the saving throws against your tractor beams. If they already have disadvantage, you can instead force them to reroll one of the dice once.
 
@@ -750,7 +772,7 @@ Also at 5th tier, a deployed coordinator can, as a bonus action, delegate a plan
 
 Once this feature has been used, it can't be used again until the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -828,7 +850,7 @@ Your ship's Superior Firepower die changes when it reaches certain tiers. The di
 
 This feature can be used a number of times equal to<br> 5 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
@@ -836,10 +858,13 @@ This feature can be used a number of times equal to<br> 5 x your ship's tier. Al
 At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.
 
 #### Blockade Ship 
-Your ship gains the Emergency Generator and Power Backup modifications, which do not count against its total modifications. Additionally, your ships shields extend further around it. Whenever a friendly ship would take damage while within 250 feet of your ship, if the source of that damage is more than 250 feet away from your ship and your ship's shields are active, they instead take that damage. If the damage reduces your shield to 0, the protected ship takes any remaining damage.
+Your ship gains the Emergency Generator and Power Backup modifications, which do not count against its total modifications. Additionally, your ships shields extend further around it. Whenever a friendly ship would take damage while within 500 feet of your ship, if the source of that damage is more than 500 feet away from your ship and your ship's shields are active, your ship's shields instead take that damage. If the damage reduces your ship's shields to 0, the protected ship takes any remaining damage.
 
 #### Command Ship
-Your ship gains the Command Center suite and Scanner modifications, which do not count against its total modifications or suite systems. Additionally, when a coordinator deployed in a command center takes the Direct action, the target of the Direct action can reroll one of the dice once.
+Your ship gains the Command Center suite and Tractor Beam modifications, which do not count against its total modifications or suite systems. Additionally, when a coordinator deployed in a command center takes the Direct action, the target of the Direct action can reroll one of the dice once.
+
+#### Researcher 
+Your ship gains the Laboratory and Workshop modifications, which do not count against its total modifications or suite systems. Additionally, Intelligence (Lore) checks on your ship are made with advantage.
 
 #### Warship
 Your ship gains two Fixed Hardpoint modifications, which do not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
@@ -865,12 +890,15 @@ Once this feature has been used, it can't be used again until the ship undergoes
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
 
 #### Blockade Ship
-The protective radius of your ship's shields increases to 500 feet, and your shield regeneration rate doubles.
+Your ship's shield regeneration rate doubles.
 
 #### Command Ship
 A deployed coordinator can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying speed, and up to five deployed crew members on that ship can use their reaction to immediately take an action.
 
 Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+
+#### Researcher 
+When you use your ship's Superweapon, you can alter its functionality. Instead of dealing damage, ships who fail a saving throw are blinded, shocked, and shocked for 1 minute. Ships who succeed on the saving throw suffer these effects until the start of the deployed operator's next turn, instead.
 
 #### Warship
 When a deployed gunner on your ship rolls the maximum on a damage die for a ship weapon, they can roll an additional die.
@@ -881,16 +909,16 @@ Also at 4th tier, the capacity for all of your suites is doubled. Additionally, 
 ### Paragon Dreadnought
 As of 5th tier, your starship is a the best in its class. Two of your ship's Strength, Dexterity, or Constitution score (your choice) increase by 4, and the other ability score increases by 2. Its maximum for the chosen scores increases by 4, and for the other ability score by 2.
 
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
+
 ### Devastator
 Also at 5th tier, as an action, a deployed crew member can give the ship the following benefits for 1 minute:
 - Your ship has resistance to all damage.
 - Your ship's ship attacks score a critical hit on a roll of 19 or 20 on the d20.
 
 This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
-
-<div class='footnote'>PART 1 | STARSHIPS</div>
-
-\pagebreakNum
 
 ## Variant: Space Stations
 Players may decide they want to invest in a space station. Only size categories Large and larger are appropriate for space stations. If players elect to own a space station instead of—or in addition to—a starship, use the following rules. 
@@ -939,6 +967,6 @@ At 4th tier, you master a particular style of design for your ship. Choose from 
 #### Space Station (All Sizes)
 When a deployed crew member on your station is targeted by the Interfere action, they have advantage on the Intelligence (Technology) check made to contest it. If they already have advantage, they can instead reroll one of the dice once.
 
-<div class='footnote'>PART 1 | STARSHIPS</div>
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

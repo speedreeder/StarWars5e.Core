@@ -2,7 +2,7 @@
 
 namespace StarWars5e.Api.Auth
 {
-    public class AppUser : IdentityUserV2
+    public class AppUser : IdentityUser
     {
         public long FacebookId { get; set; }
         public string GoogleId { get; set; }

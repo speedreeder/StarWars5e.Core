@@ -31,6 +31,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var background in backgrounds)
                 {
+                    background.ContentSourceEnum = ContentSource.EC;
+
                     var backgroundSearchTerm = _globalSearchTermRepository.CreateSearchTerm(background.Name,
                         GlobalSearchTermType.Background, ContentType.ExpandedContent,
                         $"/characters/backgrounds/{background.Name}");

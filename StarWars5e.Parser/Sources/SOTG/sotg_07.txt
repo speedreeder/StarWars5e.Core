@@ -1,9 +1,10 @@
 
+
 # Chapter 7: Using Ability Scores
 
 <img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:90px;left:75px;width:38px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix abilities provide a quick description of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every ship's, and her crew's, physical and mental<br> characteristics:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">ix abilities provide a quick description of</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; every ship's, and her crew's, physical and mental<br> characteristics:<br>
 
 ___
 
@@ -11,7 +12,7 @@ ___
 - **Dexterity**, measuring the maneuverability of the ship's thrusters
 - **Constitution**, measuring the durability of the ship's hull
 - **Intelligence**, measuring the crew's reasoning and memory 
-- **Wisdom**, measuring the crew's perception and insight
+- **Wisdom**, measuring the crew's awareness and intuition
 - **Charisma**, measuring the crew's force of personality
 
 ___
@@ -34,6 +35,8 @@ To determine an ability modifier without consulting the table, subtract 10 from 
 Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
 
 \columnbreak
+
+##### Ability Scores and Modifiers
 
 <div style='column-count:2'>
 
@@ -68,9 +71,9 @@ If multiple situations affect a roll and each one grants advantage or imposes di
 
 If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
 
-When you have advantage or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a l and a 13, the iktotchi could use the Precognition trait to reroll the 1.
+When you have advantage or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.
 
-You usually gain advantage or disadvantage through the use of special abilities, actions, or powers. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
+You usually gain advantage or disadvantage through the use of special abilities, actions, or powers. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
@@ -91,11 +94,11 @@ In general, you don't multiply your proficiency bonus for attack rolls or saving
 Certain features, such as the Expertise class feature or Ace Pilot feat, let you double your proficiency bonus with a given skill or tool proficiency, granting expertise in that skill or tool. As usual, you can only gain expertise in a skill or tool once.
 
 ## Ability Checks
-An ability check ship's ability to overcome a challenge. The DM calls for an ability check when a ship, or a crew member, attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
+An ability check represents a ship's ability to overcome a challenge. The GM calls for an ability check when a ship, or a crew member, attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
 
-For every ability check, the DM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
+For every ability check, the GM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
 
-To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crew member, overcomes the challenge at hand. Otherwise, it's a failure, which means the ship or crew member makes no progress toward the objective or makes progress combined with a setback determined by the DM.
+To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crew member, overcomes the challenge at hand. Otherwise, it's a failure, which means the ship or crew member makes no progress toward the objective or makes progress combined with a setback determined by the GM.
 
 When making an ability check that involves Strength, Dexterity, or Constitution, you use the ship's score instead of your own, as dictated by logic.
 
@@ -228,4 +231,6 @@ If your ship's Constitution modifier changes, its hit point maximum changes as w
 
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum
+
+\pagebreak

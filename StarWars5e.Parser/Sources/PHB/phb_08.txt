@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 8: Adventuring
 
@@ -275,7 +275,7 @@ Adventurers can take short rests in the midst of an adventuring day and a long r
 ### Short Rest
 A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.
 
-A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a long rest, as explained below.
+A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. Whenever a character spends a Hit Die to regain hit points, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a long rest, as explained below.
 
 ### Long Rest
 A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting powers, or similar adventuring activity—the characters must begin the rest again to gain any benefit from it.
@@ -347,4 +347,4 @@ The training lasts for 250 days and costs 10 cr per day. After you spend the req
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

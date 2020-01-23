@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <LangVersion>latest</LangVersion>
     <UserSecretsId>4df08120-adf0-4bc3-8a82-a21a9bf62f25</UserSecretsId>
   </PropertyGroup>
@@ -14,6 +14,7 @@
     <None Remove="Sources\EC_Backgrounds.md" />
     <None Remove="Sources\ec_backgrounds.txt" />
     <None Remove="Sources\ec_customization_options.txt" />
+    <None Remove="Sources\ec_enhanced_items.txt" />
     <None Remove="Sources\EC_Equipment.md" />
     <None Remove="Sources\ec_equipment.txt" />
     <None Remove="Sources\ec_force_powers.txt" />
@@ -40,6 +41,7 @@
     <None Remove="Sources\PHB\phb_aa.txt" />
     <None Remove="Sources\PHB\phb_ab.txt" />
     <None Remove="Sources\PHB\phb_changelog.txt" />
+    <None Remove="Sources\SNV_Content.txt" />
     <None Remove="Sources\sotg.md" />
     <None Remove="Sources\SOTG\sotg_00.txt" />
     <None Remove="Sources\SOTG\sotg_01.txt" />
@@ -66,6 +68,7 @@
     <EmbeddedResource Include="Sources\ec_archetypes.txt" />
     <EmbeddedResource Include="Sources\ec_backgrounds.txt" />
     <EmbeddedResource Include="Sources\ec_customization_options.txt" />
+    <EmbeddedResource Include="Sources\ec_enhanced_items.txt" />
     <EmbeddedResource Include="Sources\ec_equipment.txt" />
     <EmbeddedResource Include="Sources\ec_force_powers.txt" />
     <EmbeddedResource Include="Sources\ec_species.txt" />
@@ -88,6 +91,7 @@
     <EmbeddedResource Include="Sources\PHB\phb_aa.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_ab.txt" />
     <EmbeddedResource Include="Sources\PHB\phb_changelog.txt" />
+    <EmbeddedResource Include="Sources\SNV_Content.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -104,6 +108,10 @@
     <EmbeddedResource Include="Sources\SOTG\sotg_10.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_aa.txt" />
     <EmbeddedResource Include="Sources\SOTG\sotg_changelog.txt" />
+    <EmbeddedResource Include="Sources\TestData\mm_sample.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sources\TestData\new_mm_content.txt" />
     <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
     <EmbeddedResource Include="Sources\WH\wh_03-04.txt" />
@@ -113,9 +121,9 @@
 
   <ItemGroup>
     <PackageReference Include="Azure.TableStorage.Repository" Version="2.0.0.10" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -133,8 +141,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Parsers\WH\" />
-    <Folder Include="Sources\WH\" />
+    <Folder Include="Sources\TestData\" />
   </ItemGroup>
 
 </Project>

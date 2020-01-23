@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 using StarWars5e.Models.Enums;
@@ -10,6 +11,7 @@ namespace StarWars5e.Models.Class
         public Class()
         {
             ImageUrls = new List<string>();
+            MultiClassProficiencies = new List<string>();
         }
         public string Name { get; set; }
         public string Summary { get; set; }
@@ -35,6 +37,8 @@ namespace StarWars5e.Models.Class
 
         public string HitPointsAtFirstLevel { get; set; }
         public string HitPointsAtHigherLevels { get; set; }
+        public int HitPointsAtFirstLevelNumber { get; set; }
+        public int HitPointsAtHigherLevelsNumber { get; set; }
 
         public List<string> ArmorProficiencies { get; set; }
         public string ArmorProficienciesJson
@@ -56,6 +60,12 @@ namespace StarWars5e.Models.Class
             get => ToolProficiencies == null ? "" : JsonConvert.SerializeObject(ToolProficiencies);
             set => ToolProficiencies = JsonConvert.DeserializeObject<List<string>>(value);
         }
+        public List<string> ToolProficienciesList { get; set; }
+        public string ToolProficienciesListJson
+        {
+            get => ToolProficienciesList == null ? "" : JsonConvert.SerializeObject(ToolProficienciesList);
+            set => ToolProficienciesList = JsonConvert.DeserializeObject<List<string>>(value);
+        }
 
         public List<string> SavingThrows { get; set; }
         public string SavingThrowsJson
@@ -65,6 +75,13 @@ namespace StarWars5e.Models.Class
         }
 
         public string SkillChoices { get; set; }
+        public int NumSkillChoices { get; set; }
+        public List<string> SkillChoicesList { get; set; }
+        public string SkillChoicesListJson
+        {
+            get => SkillChoicesList == null ? "" : JsonConvert.SerializeObject(SkillChoicesList);
+            set => SkillChoicesList = JsonConvert.DeserializeObject<List<string>>(value);
+        }
 
         public List<string> EquipmentLines { get; set; }
         public string EquipmentLinesJson
@@ -88,6 +105,20 @@ namespace StarWars5e.Models.Class
         {
             get => ImageUrls == null ? "" : JsonConvert.SerializeObject(ImageUrls);
             set => ImageUrls = JsonConvert.DeserializeObject<List<string>>(value);
+        }
+
+        public double CasterRatio { get; set; }
+        public PowerType CasterTypeEnum { get; set; }
+        public string CasterType
+        {
+            get => CasterTypeEnum.ToString();
+            set => CasterTypeEnum = Enum.Parse<PowerType>(value);
+        }
+        public List<string> MultiClassProficiencies { get; set; }
+        public string MultiClassProficienciesJson
+        {
+            get => MultiClassProficiencies == null ? "" : JsonConvert.SerializeObject(MultiClassProficiencies);
+            set => MultiClassProficiencies = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }

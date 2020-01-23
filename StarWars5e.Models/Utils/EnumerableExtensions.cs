@@ -11,7 +11,8 @@ namespace StarWars5e.Models.Utils
             var cleanListOfStrings = source.ToList();
             if (!cleanListOfStrings.Any()) return cleanListOfStrings;
             var output = cleanListOfStrings.Where(s =>
-                    !(s.StartsWith("<") && (Regex.IsMatch(s, @">\s*$") || Regex.IsMatch(s, @"^\s+$"))) && !s.StartsWith("\\"))
+                    !(s.StartsWith("<") && (Regex.IsMatch(s, @">\s*$") 
+                    || Regex.IsMatch(s, @"^\s+$"))) && !s.StartsWith("\\") && !Regex.IsMatch(s, @"^\s*\."))
                 .Select(s =>
                     removeHtmlWhitespace
                         ? Regex.Replace(s, "<.*?>", string.Empty).RemoveHtmlWhitespace()
@@ -57,6 +58,17 @@ namespace StarWars5e.Models.Utils
         public static IEnumerable<string> RemoveEmptyLines(this IEnumerable<string> source)
         {
             return source.Where(x => !string.IsNullOrEmpty(x));
+        }
+
+        public static T SafeAccess<T>(this T[] tArray, int index)
+            where T : class
+        {
+            if((tArray.Length - 1) < index || index < 0)
+            {
+                return null;
+            }
+
+            return tArray[index];
         }
     }
 }

@@ -12,6 +12,16 @@
         ItemModification,
         Shield,
         Weapon,
-        Valuable
+        Valuable,
+        ShipArmor,
+        ShipShield,
+        ShipWeapon,
+        BlasterModification,
+        ClothingModification,
+        WristpadModification,
+        ArmorModification,
+        VibroweaponModification,
+        LightweaponModification,
+        FocusGeneratorModification
     }
 }

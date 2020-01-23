@@ -28,7 +28,10 @@ namespace StarWars5e.Parser.Managers
             var nameStartingLineProperties = new Dictionary<string, string>
             {
                 {"Auto", "#### Auto"},
-                {"Disintegrate", "#### Disintegrate" }
+                {"Defensive", "#### Defensive"},
+                {"Disguised", "#### Disguised"},
+                {"Disintegrate", "#### Disintegrate" },
+                {"Shocking", "#### Shocking"}
             };
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, nameStartingLineProperties);
@@ -42,6 +45,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var equipment in equipments)
                 {
+                    equipment.ContentSourceEnum = ContentSource.EC;
+
                     switch (equipment.EquipmentCategoryEnum)
                     {
                         case EquipmentCategory.Unknown:

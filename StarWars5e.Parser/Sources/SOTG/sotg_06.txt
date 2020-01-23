@@ -44,7 +44,7 @@ If a deployment feature or venture allows you to forgo your proficiency bonus, y
 #### Expertise
 If you have expertise in a skill as well as a feature that lets you forgo your proficiency bonus, you can only forgo your proficiency bonus once. For instance, if you are a 5th-level, 4th-rank pilot with an 18 in Intelligence and expertise in Piloting, you add 10 to your Piloting checks (4 + 2 x 3). If you use the 4th-rank pilot feature "That's a Good Trick" to forgo your proficiency bonus, you instead add 7 for the Piloting check as a part of that Evade action (4 + 2 x 3 - 3).
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -74,7 +74,7 @@ You are the master of railguns. While you are firing a secondary weapon, before 
 #### Payload Mastery
 You are the master of missiles, rockets, and other ship-board explosive weapons. While you are firing a tertiary or quaternary weapon, you can choose to reduce the DC by an amount equal to your proficiency bonus. If you do, and the target fails the saving throw, they take additional damage equal to twice your proficiency bonus.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -90,7 +90,7 @@ _Prerequisite: at least 1 level in scholar_<br>
 When an ally makes an ability check or attack roll affected by your Direct action, and they are also the target of your Critical Analysis class feature, they can also roll a d6 and add it to the ability check or attack roll.
 
 ### Calculating Gunner
-When you make an attack roll with a secondary ship weapon while on a Medium or smaller ship, you can use your Intelligence modifier, instead of the ship's Dexterity modifier, for the attack and damage rolls.
+When you make an attack roll with a secondary ship weapon while on a Medium or smaller ship, you can use your Intelligence modifier, instead of the ship's Dexterity modifier, for the attack rolls.
 
 ### Counterslicer
 When you are the target of the Interfere action and are forced to make an Intelligence (Technology) check, if you succeed on the contest, you have advantage on the next Intelligence (Technology) check you make as the result of being targeted by the Interfere action before the end of your next turn.
@@ -127,7 +127,7 @@ Once per turn, while deployed as a gunner, when you miss with a ship attack, or 
 _Prerequisite: at least 2 levels in guardian_<br>
 Once per turn, while deployed as a gunner, when you deal damage with a ship weapon, you can spend 1 force point to deal an additional 1d8 damage to the target. The damage is the same type as the weapon's damage.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -175,7 +175,7 @@ Ship weapons becomes valid targets for your Infuse Item class feature.
 
 ### Intuitive Gunner
 _Prerequisite: The ability to cast force powers_<br>
-When you set the save DC for a tertiary ship weapon while on a Medium or smaller ship, you can use your Wisdom or Charisma modifier (your choice), instead of the ship's Dexterity modifier, for the attack and damage rolls. 
+When you determine the save DC for a tertiary ship weapon while on a Medium or smaller ship, you can use your Wisdom or Charisma modifier (your choice), instead of the ship's Dexterity modifier, for the attack rolls. 
 
 ### Keen Eye
 _Prerequisite: Rank 4_<br>
@@ -190,7 +190,7 @@ When you take the Search action and succeed on a Wisdom (Perception) or Intellig
 
 Once you've targeted a ship with this feature, you can't target it again until you complete a long rest.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
@@ -219,7 +219,7 @@ When you make an Intelligence (Piloting) check while deployed as a pilot, you ca
 \columnbreak
 
 ### Precision Gunner
-When you make an attack roll with a primary ship weapon while on a Medium or smaller ship, you can use your Dexterity modifier, instead of the ship's, for the attack and damage rolls.
+When you make an attack roll with a primary ship weapon while on a Medium or smaller ship, you can use your Dexterity modifier, instead of the ship's, for the attack rolls.
 
 ### Reckless Ramming
 _Prerequisite: at least 2 levels in berserker_<br>
@@ -239,15 +239,15 @@ Once per turn, when you roll a gambit die, you can roll the die twice and take e
 
 ### Resourceful Boost
 _Prerequisite: at least 1 rank in mechanic_<br>
-When you use your System Boost feature, you can roll the die twice and take either number.
+When you use your System Boost feature, you can roll the die twice and take either result.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
 
 ### Resourceful Disruption
 _Prerequisite: at least 1 rank in operator_<br>
-When you roll a System Disruption die, you can roll the die twice and take either number.
+When you roll a System Disruption die, you can roll the die twice and take either result.
 
 ### Resourceful Tactics
 _Prerequisite: at least 1 rank in pilot_<br>
@@ -265,7 +265,7 @@ Once per turn, you can deal an extra 1d6 damage to one ship you hit with a ship 
 
 ### Spacecasting
 _Prerequisite: The ability to cast force or tech powers_<br>
-While casting a force or tech power while aboard your ship, the range increases by a multiple of 10. You can not target a hostile creature with a power unless you are aware of their presence and location.
+While casting a force or tech power while aboard your ship, the range increases tenfold. You can not target a hostile creature with a power unless you are aware of their presence and location.
 
 \columnbreak
 
@@ -277,7 +277,7 @@ While deployed, parts of your Skilled Explorer class feature extend to your ship
 - Your ship can move stealthily at a normal pace.
 
 ### Storming Gunner
-When you make an attack roll with a primary ship weapon while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Dexterity modifier, for the attack and damage rolls.
+When you make an attack roll with a primary ship weapon while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Strength modifier, for the damage rolls.
 
 ### Strong Alone, Stronger Together
 _Prerequisite: at least 3 ranks in coordinator_<br>
@@ -294,6 +294,6 @@ When you take the Evade action, you can target two ships within 100 feet of each
 ### Training Coordinator
 When an ally makes an ability check or attack roll affected by your Direct action, they can add their proficiency bonus to the ability check or attack roll if they do not already do so.
 
-<div class='footnote'>PART 1 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

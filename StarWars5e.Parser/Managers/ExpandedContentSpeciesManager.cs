@@ -31,6 +31,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var specie in species)
                 {
+                    specie.ContentSourceEnum = ContentSource.EC;
+
                     var specieSearchTerm = _globalSearchTermRepository.CreateSearchTerm(specie.Name, GlobalSearchTermType.Species, ContentType.ExpandedContent,
                         $"/characters/species/{specie.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);

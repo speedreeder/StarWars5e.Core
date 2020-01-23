@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Linq;
-using System.Net;
 using System.Reflection;
-using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using ElCamino.AspNetCore.Identity.AzureTable.Model;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -17,13 +13,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Search;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Auth;
-using StarWars5e.Api.Extensions;
 using StarWars5e.Api.Helpers;
-using Swashbuckle.AspNetCore.Swagger;
 using Wolnik.Azure.TableStorage.Repository;
 using IdentityRole = ElCamino.AspNetCore.Identity.AzureTable.Model.IdentityRole;
 
@@ -40,22 +36,26 @@ namespace StarWars5e.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<FacebookAuthSettings>(facebookAuthSettings => {
+            services.Configure<FacebookAuthSettings>(facebookAuthSettings =>
+            {
                 facebookAuthSettings.AppId = Configuration["FacebookAuthSettings:AppId"];
                 facebookAuthSettings.AppSecret = Configuration["FacebookAuthSettings:AppSecret"];
                 facebookAuthSettings.RedirectUri = Configuration["FacebookAuthSettings:RedirectUri"];
             });
-            services.Configure<GoogleAuthSettings>(googleAuthSettings => {
+            services.Configure<GoogleAuthSettings>(googleAuthSettings =>
+            {
                 googleAuthSettings.ClientId = Configuration["GoogleAuthSettings:ClientId"];
                 googleAuthSettings.ClientSecret = Configuration["GoogleAuthSettings:ClientSecret"];
                 googleAuthSettings.RedirectUri = Configuration["GoogleAuthSettings:RedirectUri"];
             });
-            services.Configure<RedditAuthSettings>(redditAuthSettings => {
+            services.Configure<RedditAuthSettings>(redditAuthSettings =>
+            {
                 redditAuthSettings.ClientId = Configuration["RedditAuthSettings:ClientId"];
                 redditAuthSettings.ClientSecret = Configuration["RedditAuthSettings:ClientSecret"];
                 redditAuthSettings.RedirectUri = Configuration["RedditAuthSettings:RedirectUri"];
             });
-            services.Configure<DiscordAuthSettings>(discordAuthSettings => {
+            services.Configure<DiscordAuthSettings>(discordAuthSettings =>
+            {
                 discordAuthSettings.ClientId = Configuration["DiscordAuthSettings:ClientId"];
                 discordAuthSettings.ClientSecret = Configuration["DiscordAuthSettings:ClientSecret"];
                 discordAuthSettings.RedirectUri = Configuration["DiscordAuthSettings:RedirectUri"];
@@ -123,15 +123,14 @@ namespace StarWars5e.Api
 
             services.AddAuthorization(options =>
             {
-                options.AddPolicy("ApiUser", policy => policy.RequireClaim(Constants.Strings.JwtClaimIdentifiers.Rol, Constants.Strings.JwtClaims.ApiAccess));
+                options.AddPolicy("ApiUser",
+                    policy => policy.RequireClaim(Constants.Strings.JwtClaimIdentifiers.Rol,
+                        Constants.Strings.JwtClaims.ApiAccess));
             });
 
-            services.AddIdentityCore<AppUser>(options =>
-                {
-                    options.User.RequireUniqueEmail = true;
-                })
+            services.AddIdentityCore<AppUser>(options => { options.User.RequireUniqueEmail = true; })
                 .AddRoles<IdentityRole>()
-                .AddAzureTableStoresV2<ApplicationDbContext>(() =>
+                .AddAzureTableStores<ApplicationDbContext>(() =>
                 {
                     var idConfig = new IdentityConfiguration
                     {
@@ -143,14 +142,13 @@ namespace StarWars5e.Api
                     return idConfig;
                 })
                 .AddDefaultTokenProviders();
-                //.CreateAzureTablesIfNotExists<ApplicationDbContext>();
+            //.CreateAzureTablesIfNotExists<ApplicationDbContext>();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc();
             services.AddSwaggerGen(c =>
             {
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.FirstOrDefault());
-                c.DescribeAllEnumsAsStrings();
-                c.SwaggerDoc("v1", new Info {Title = "StarWars5e.Api", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "StarWars5e.Api", Version = "v1"});
             });
             services.AddCors(options =>
             {
@@ -184,7 +182,8 @@ namespace StarWars5e.Api
             var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
             var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            var searchServiceClient = new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
+            var searchServiceClient =
+                new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
             var searchIndexClient = searchServiceClient.Indexes.GetClient("searchterms-index");
 
             services.AddSingleton<ITableStorage>(tableStorage);
@@ -201,29 +200,36 @@ namespace StarWars5e.Api
             services.AddSingleton(searchIndexClient);
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            
             //app.UseMiddleware<OptionsMiddleware>();
             if (env.IsDevelopment())
             {
                 app.UseCors("development");
                 app.UseDeveloperExceptionPage();
+
                 app.UseSwagger();
 
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "StarWars5e.Api v1");
-                });
+                app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "StarWars5e.Api v1"); });
             }
             else
             {
                 app.UseCors("production");
                 app.UseHsts();
-                
+
                 app.UseHttpsRedirection();
             }
 
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            // must come after UseRouting
+            app.UseCors();
+            app.UseMiddleware<JwtInHeaderMiddleware>();
+            app.UseAuthentication();
+
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             //app.UseExceptionHandler(
             //    builder =>
             //    {
@@ -241,10 +247,6 @@ namespace StarWars5e.Api
             //                }
             //            });
             //    });
-
-            app.UseMiddleware<JwtInHeaderMiddleware>();
-            app.UseAuthentication();
-            app.UseMvc();
         }
     }
 }

@@ -1,3 +1,37 @@
+
+
+<div class='wide'>
+
+# Overlapping Features
+
+</div>
+
+Many species have features that make them better in certain martial ways: special traits like natural armor, armor and weapon proficiencies, or unarmed strikes and natural weapons. Counterintuitively, when those species choose certain classes, those features become obsolete instead of enhancing their class choice.
+
+If you players choose such a species/class combination, consider using this variant rule.
+
+### Armor Proficiencies
+Many species come with specific armor proficiencies suited to their species' culture, such as chiss or draethos, or natural unarmored defense, such as aing-tii or wookie. If a player chooses a species and class combination that would grant the same armor proficiencies, or a species with natural armor and a class with unarmored defense, consider instead granting them a bonus depending on the type of armor, as shown below:
+___
+- **Unarmored Defense:** +1 bonus to AC while not wearing armor or wielding a shield.
+- **Light Armor:** +1 bonus to Dexterity saving throws while wearing light armor.
+- **Medium Armor:** +1 bonus to Constitution saving throws while wearing medium armor.
+- **Heavy Armor:** -1 kinetic and energy damage taken from unenhanced weapons while wearing heavy armor.
+
+For instance, at 1st level, a draethos operative with a 16 in Dexterity would have +6 to Dexterity saving throws instead of +5 while wearing light armor. A character should only gain each bonus once.
+
+\columnbreak
+
+### Weapon Proficiencies
+Many species come with specific weapon proficiencies suited to their species' culture, such as chiss or tuskens. If a player chooses a species and class combination that would grant the same weapon proficiencies, consider instead granting them a +1 bonus to attack rolls with the chosen weapon. For instance, at 1st level, a chiss scout with a 16 in Dexterity would have a +6 to attack rolls instead of a +5 when attacking with a blaster pistol or sniper rifle. A character should only gain this bonus once, and this bonus does not apply if the species offers a choice of weapons, such as human or echani.
+
+### Unarmed Strikes/Natural Weapons
+Many species come with higher unarmed strike damage, such as twi'lek or zabrak, or a natural weapon, such as chevin or karkarodons, representing their natural aptitude with unarmed combat. If a player chooses a species, class, or customization option combination that would both grant an increased unarmed strike, consider instead granting them a +1 bonus to their unarmed strike damage. For instance, at 1st level, a zabrak monk with a 16 in Dexterity would do 1d4+4 instead of 1d4+3 with their unarmed strikes. A character should only gain this bonus once.
+
+Additionally, consider allowing those species that have natural weapons to use those weapons in place of their unarmed strikes, as appropriate.
+
+\pagebreak
+
 # Lightsaber Forms
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
@@ -53,7 +87,7 @@ As a part of the bonus action to adopt this form, if you took the Attack action,
 
 \pagebreak
 
-# Advanced Advantage and Flanking
+# Advanced Advantage
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
@@ -70,9 +104,9 @@ Each source of advantage or disadvantage must be unique. For instance, if you ar
 ### Passive Checks
 When determining your total for a passive check with this variant rule, if you have superadvantage on a check, add 8. For superdisadvantage, subtract 8. If you have hyperadvantage on a check, add 10, and if you have hyperdisadvantage, subtract 10.
 
-\columnbreak
+\pagebreak
 
-## Flanking
+# Flanking
 When multiple creatures within 5 feet of another creature engage it in combat, that creature may become flanked. This variant rule offers mechanical boons to flanking that work alongside Advanced Advantage, but can be used completely separately.
 
 A target who is **half flanked** suffers a -2 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A target is half flanked if it is at least half surrounded, either to a side, above, or below.
@@ -532,16 +566,16 @@ Firstly, Destiny Points are earned when you experience (and survive) key campaig
 
 Secondly, if a starship is your destiny, it is never completely destroyed. Even if it is blown up in battle or confiscated by Hutts before being crushed and melted, some small part of it survives. Perhaps you find the hyperspace core the whole starship was built around, or its ruined hull is found drifting as debris after that battle. Your starship can cease to be functional as easily as anyone else's, but a recognizable part of it always survives for you to rebuild (or retrofit to a similar starship). It can be as time consuming and difficult as getting a new starship would be (if not more so), but the result still qualifies as your destiny-linked starship.
 
-Finally, the options you can exercise by using a Destiny Point are slightly different, as detailed below. The following are possible only when you are acting as a crew member (pilot, gunner, mechanic, operator or commander) on the starship linked to your destiny:
+Finally, the options you can exercise by using a Destiny Point are slightly different, as detailed below. The following are possible only when you are acting as a crew member (pilot, gunner, mechanic, operator or coordinator) on the starship linked to your destiny:
 
 \columnbreak
 
-- Cause an attack rolled against your starship to suffer disadvantage, or gain advantage on a saving throw against an attack on your starship, even once the attack is resolved. (Pilot or commander only.)
-- Gain advantage on any pilot check. (Pilot only.)
-- Allow your starship to act out of turn, thus changing your position in the initiative order. (Pilot, operator or commander only.)
-- Gain advantage on an attack roll, or impose disadvantage on an enemy saving throw, against an attack from your ship's weapons. (Gunner or operator or commander only.)
-- Repair your starship, restoring hit points by rolling a number of its hit die equal to or less than your level. (Mechanic only.)
-- Immediately restore your starship's shields to full. (Mechanic or operator only.)
+- Cause an attack rolled against your starship to suffer disadvantage, or gain advantage on a saving throw against an attack on your starship, even once the attack is resolved. (Coordinator or pilot)
+- Gain advantage on any pilot check. (Pilot)
+- Allow your starship to act out of turn, thus changing your position in the initiative order. (Coordinator, operator, or pilot)
+- Gain advantage on an attack roll, or impose disadvantage on an enemy saving throw, against an attack from your ship's weapons. (Coordinator, gunner, or operator)
+- Repair your starship, restoring hit points by rolling a number of its hit die equal to or less than your level. (Mechanic)
+- Immediately restore your starship's shields to full. (Mechanic or operator)
 - Gain advantage on any skill check made to interact with the ship.
 - Immediately gain 2 tactical dice.
 
@@ -602,3 +636,41 @@ You have mastered rending your foes’ weapons, leaving them impotent and vulnerab
 - On your turn, when you score a critical hit with a Sundering attack or reduce a weapon to 0 hit points with one, you can make one melee weapon attack as a bonus action.
 
 <div class='footnote'>EXPANDED CONTENT | VARIANT RULES | WEAPON SUNDERING</div>
+
+\pagebreak
+
+# Dismemberment
+
+<img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:90px;left:75px;width:38px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome characters—and their players—take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
+
+When a character rolls a 20 on an attack roll with a weapon that is capable of removing a limb, such as a lightweapon or vibroweapon, have them roll an additional d20. If they roll a 20 on the second d20 roll, they successfully remove a limb from a creature, or potentially slay them outright.
+
+The character should then roll percentile dice and consult the Dismemberment table below.
+
+##### Dismemberment
+
+|d100|Result|
+|:--|:--|
+|&nbsp;01-<br>&nbsp;40|You remove a hand. If the creature has more than one hand, determine which hand you cut off randomly.|
+|&nbsp;41-<br>&nbsp;70|You remove both hands. If the creature has more than two hands, determine which hand you cut off randomly.|
+|&nbsp;71-<br>&nbsp;90|You remove a leg. The creature's speed is halved if it has at least one more leg. Otherwise, its speed is reduced to 0 and it is knocked prone.|
+|&nbsp;91-<br>&nbsp;98|You remove both legs. If the creature has more than two legs, its speed is halved. Otherwise, its speed is reduced to 0 and it is knocked prone.|
+|&nbsp;99-<br>&nbsp;100|You remove a head. The creature dies if it can't survive without the lost head.|
+
+If a creature is immune to the damage dealt by the weapon, it can not be dismembered by that weapon. If the creature is resistant to the damage dealt by that weapon, when you roll the second d20 to determine whether or not you remove a limb, you do so with disadvantage.
+
+If you roll a result on the Dismemberment table, and the creature lacks the chosen limb, you instead deal additional damage equal to the attack's governing ability score modifier. 
+
+\columnbreak
+
+> ##### More Common Dismemberment
+> You can readily increase the potential for this rule through a number of house corrections. As it stands, not account for advantage/disadvantage, you have a 1/400 (or .25%) chance to trigger a dismemberment when you make an attack roll. This increases to 39/8,000 with advantage (or .4875%), almost doubling the potential. You can increase it even more by changing the initial trigger to any critical hit, instead of just a natural 20, or increasing the range on the additional d20 from beyond just a natural 20, or both.
+>
+> Increasing the potential to scale with features that increase critical hit range.
+
+
+<div class='footnote'>EXPANDED CONTENT | VARIANT RULES | DISMEMBERING</div>
+
+\pagebreak

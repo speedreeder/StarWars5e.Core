@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 12: Tech Powers
 
@@ -79,7 +79,7 @@ ___
 #### 2nd-level
 ___
 - Acid Dart
-- Charge Power Cell
+- Capacity Boost
 - Cryogenic Volley
 - Concealed Caltrops
 - Darkvision
@@ -346,6 +346,17 @@ This power can't be dispelled.
 
 \pagebreakNum
 
+#### Capacity Boost
+_2nd-level tech power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Duration:** Concentration, up to 1 minute
+
+You empower a blaster weapon you are holding. For the duration, you can reload the weapon as a free action once per turn, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell. 
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
+
 #### Carbon Fog
 _6th-level tech power_
 ___
@@ -353,7 +364,7 @@ ___
 - **Range:** 120 feet
 - **Duration:** Concentration, up to 1 minute
 
-You create a cloud of icy fog in a 20-foot-radius sphere centered on a point you can see. The sphere extends around corners, and its area is heavily obscured. The fog is semi-solid, and its area is considered difficult terrain. Each creature that enters the power's area for the first time on a turn or starts its turn there takes 4d6 cold damage and has its speed is reduced by 10 feet until the end of its turn. The fog lasts for the duration of the power or until it's dispersed by a wind of moderate or greater speed (at least 10 mph).
+You create a cloud of icy fog in a 20-foot-radius sphere centered on a point you can see. The sphere extends around corners, and its area is heavily obscured. The fog is semi-solid, and its area is considered difficult terrain. Each creature that enters the power's area for the first time on a turn or starts its turn there takes 4d6 cold damage and has its speed reduced by 10 feet until the end of its turn. The fog lasts for the duration of the power or until it's dispersed by a wind of moderate or greater speed (at least 10 mph).
 
 #### Carbonite
 _6th-level tech power_
@@ -370,6 +381,8 @@ If the creature is physically broken while frozen in carbonite, it suffers from 
 
 If you maintain your concentration on this power for the entire possible duration, the creature is frozen in carbonite until the effect is removed.
 
+\columnbreak
+
 #### Carbonite Explosion
 _9th-level tech power_
 ___
@@ -382,19 +395,6 @@ You generate an explosion of cryogenic energy in a 60-foot-radius sphere centere
 As an action, a restrained creature can make a Strength check against your tech save DC, ending this effect on itself on a success.
 
 A creature reduced to 0 hit points by this power dies instantly, as its body shatters into frozen chunks.
-
-\columnbreak
-
-#### Charge Power Cell
-_2nd-level tech power_
-___
-- **Casting Time:** 1 bonus action
-- **Range:** Touch
-- **Duration:** Concentration, up to 1 minute
-
-You empower and then load a power cell in your weapon. For the duration, when you make a ranged attack with the weapon, it consumes no ammunition, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell.
-
-***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
 
 #### Cloaking Screen
 _4th-level tech power_
@@ -424,7 +424,7 @@ This power's damage increases when you reach higher levels. At 5th level, the ra
 _2nd-level tech power_
 ___
 - **Casting Time:** 1 action
-- **Range:** Touch
+- **Range:** 150 feet
 - **Duration:** Concentration, up to 1 hour
 
 You scatter a large number of caltrops across ground in a 20-foot radius centered on a point within range. These caltrops pierce deep into the feet and boots of anyone who walks upon them. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 kinetic damage for every 5 feet it travels.
@@ -1256,7 +1256,7 @@ ___
 
 As you expel kolto, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your techcasting ability modifier. This power has no effect on droids or constructs.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the healing increases by 1d4 for each slot level above 2nd.
+***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.
 
 #### Kolto Infusion
 _6th-level tech power_
@@ -1910,7 +1910,7 @@ ___
 - **Range:** 120 feet
 - **Duration:** Concentration, up to 1 minute
 
-You emits an EMP, shutting down all electronic devices, with the exception of your tech focus, that are not held by or under the direct control of a creature. If it is, the creature must succeed on an Intelligence saving throw to stop the device from being shut down. While the power is active, no electronic device in range can be started or restarted.
+You emit an electromagnetic pulse, shutting down all electronic devices, with the exception of your tech focus, that are not held by or under the direct control of a creature. If it is, the creature must succeed on an Intelligence saving throw to stop the device from being shut down. While the power is active, no electronic device in range can be started or restarted.
 
 #### Slow-Release Medpac
 _3rd-level tech power_
@@ -2276,4 +2276,4 @@ This power's damage reduction increases by 1d6 when you reach 5th level (2d6), 1
 
 <div class='footnote'>CHAPTER 12 | TECH POWERS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum

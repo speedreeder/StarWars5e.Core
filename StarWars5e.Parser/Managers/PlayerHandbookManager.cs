@@ -56,6 +56,7 @@ namespace StarWars5e.Parser.Managers
                 {"Burst", "#### Burst" },
                 {"Double", "#### Double" },
                 {"Finesse", "#### Finesse" },
+                {"Fixed", "#### Fixed" },
                 {"Heavy", "#### Heavy" },
                 {"Hidden", "#### Hidden" },
                 {"Light", "#### Light" },
@@ -63,11 +64,12 @@ namespace StarWars5e.Parser.Managers
                 {"Range", "#### Range" },
                 {"Reach", "#### Reach" },
                 {"Reload", "#### Reload" },
+                {"Returning", "#### Returning" },
                 {"Special", "#### Special" },
                 {"Strength", "#### Strength" },
                 {"Thrown", "#### Thrown" },
                 {"Two-Handed", "#### Two-Handed" },
-                {"Versatile", "#### Versatile" },
+                {"Versatile", "#### Versatile" }
             };
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, nameStartingLineProperties);
@@ -86,6 +88,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var equipment1 in equipment)
                 {
+                    equipment1.ContentSourceEnum = ContentSource.PHB;
+
                     switch (equipment1.EquipmentCategoryEnum)
                     {
                         case EquipmentCategory.Unknown:
@@ -152,6 +156,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var background in backgrounds)
                 {
+                    background.ContentSourceEnum = ContentSource.PHB;
+
                     var backgroundSearchTerm = _globalSearchTermRepository.CreateSearchTerm(background.Name, GlobalSearchTermType.Background, ContentType.Core,
                         $"/characters/backgrounds/{background.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
@@ -173,6 +179,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var specie in species)
                 {
+                    specie.ContentSourceEnum = ContentSource.PHB;
+
                     var specieSearchTerm = _globalSearchTermRepository.CreateSearchTerm(specie.Name, GlobalSearchTermType.Species, ContentType.Core,
                         $"/characters/species/{specie.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
@@ -194,6 +202,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var swClass in classes)
                 {
+                    swClass.ContentSourceEnum = ContentSource.PHB;
+
                     var classSearchTerm = _globalSearchTermRepository.CreateSearchTerm(swClass.Name, GlobalSearchTermType.Class, ContentType.Core,
                         $"/characters/classes/{swClass.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(classSearchTerm);
@@ -207,6 +217,8 @@ namespace StarWars5e.Parser.Managers
 
                     foreach (var archetype in archetypes)
                     {
+                        archetype.ContentSourceEnum = ContentSource.PHB;
+
                         var archetypeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(archetype.Name, GlobalSearchTermType.Archetype, ContentType.Core,
                             $"/characters/archetypes/{archetype.Name}");
                         _globalSearchTermRepository.SearchTerms.Add(archetypeSearchTerm);
@@ -233,6 +245,8 @@ namespace StarWars5e.Parser.Managers
                 
                 foreach (var power in powers)
                 {
+                    power.ContentSourceEnum = ContentSource.PHB;
+
                     switch (power.PowerTypeEnum)
                     {
                         case PowerType.None:
@@ -267,6 +281,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var feat in feats)
                 {
+                    feat.ContentSourceEnum = ContentSource.PHB;
+
                     var featSearchTerm = _globalSearchTermRepository.CreateSearchTerm(feat.Name, GlobalSearchTermType.Feat, ContentType.Core,
                         $"/characters/feats/?search={feat.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);

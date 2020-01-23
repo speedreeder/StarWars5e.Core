@@ -88,6 +88,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var deployment in deployments)
                 {
+                    deployment.ContentSourceEnum = ContentSource.SotG;
+
                     var deploymentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(deployment.Name, GlobalSearchTermType.Deployment, ContentType.Core,
                         $"/starships/deployments/{deployment.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(deploymentSearchTerm);
@@ -144,6 +146,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var starshipEquipment in equipment)
                 {
+                    starshipEquipment.ContentSourceEnum = ContentSource.SotG;
+
                     switch (starshipEquipment.TypeEnum)
                     {
                         case StarshipEquipmentType.Armor:
@@ -194,6 +198,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var modification in modifications)
                 {
+                    modification.ContentSourceEnum = ContentSource.SotG;
+
                     var modificationSearchTerm = _globalSearchTermRepository.CreateSearchTerm(modification.Name, GlobalSearchTermType.StarshipModification, ContentType.Core,
                         $"/starships/modifications?search={modification.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(modificationSearchTerm);
@@ -213,6 +219,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var size in sizes)
                 {
+                    size.ContentSourceEnum = ContentSource.SotG;
+
                     var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(size.Name, GlobalSearchTermType.StarshipSize, ContentType.Core,
                         $"/rules/starships/starshipSizes/{size.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
@@ -232,6 +240,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var venture in ventures)
                 {
+                    venture.ContentSourceEnum = ContentSource.SotG;
+
                     var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(venture.Name, GlobalSearchTermType.Venture, ContentType.Core,
                         $"/starships/ventures?search={venture.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);

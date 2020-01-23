@@ -1,4 +1,4 @@
-\pagebreak
+
 
 # Chapter 11: Force Powers
 
@@ -44,7 +44,6 @@ ___
 - Force Body
 - Force Jump
 - Force Mask
-- Force Throw
 - <div style="color:blue">Heal</div>
 - <div style="color:blue">Heroism</div>
 - <div style="color:red">Hex</div>
@@ -52,11 +51,11 @@ ___
 - Phasestrike
 - <div style="color:blue">Project</div>
 - <div style="color:blue">Sanctuary</div>
+- <div style="color:red">Sap Vitality</div>
 
 \columnbreak
 
 ___
-- <div style="color:red">Sap Vitality</div>
 - Sense Emotion
 - Sense Force
 - Slow Descent
@@ -80,6 +79,7 @@ ___
 - Force Camouflage
 - Force Confusion
 - <div style="color:blue">Force Enlightenment</div>
+- Force Throw
 - Force Sight
 - <div style="color:red">Hallucination</div>
 - Locate Object
@@ -238,7 +238,7 @@ Choose a creature that you can see within range. That creature must make a Const
 
 If the creature attempts to cast a power with a casting time of 1 action, roll a d20. On an 11 or higher, the power doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the power. If it can't, the power is wasted.	
 
-The creatures makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends.
+The creatures makes another Constitution saving throw at the end of its turn. On a successful save, the effect ends.
 
 #### Animate Weapon
 _2nd-level universal power_
@@ -911,7 +911,7 @@ ___
 - **Range:** Self
 - **Duration:** Instantaneous
 
-Using the force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see.
+Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see.
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, your jump distance increases by 5 feet for each slot level above 1st.
 
@@ -1005,13 +1005,11 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
-You gain the minor ability to move or manipulate creatures and objects with the Force. When you cast this power, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below.
+You gain the minor ability to move or manipulate creatures and objects with the Force. You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial. Alternatively, you can push or pull a creature or object you can see. 
 
-***Creature.*** You use the Force to push or pull on on a target. Make a ranged force attack against the target. If the attack hits, the creature takes 1d6 force damage, and if the creature is Large or smaller, it must make a Strength saving throw. On a failed save, you push or pull the creature up to 10 feet further or closer to you. This damage increases to 2d6 at level 5, 3d6 at level 11, and 4d6 at level 17.
+You use the Force to move a Medium or smaller creature or object not being worn or carried within range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 20 feet, a Small creature or object can be moved up to 10 feet, and a Medium creature or object can be moved up to 5 feet. If at the end of this movement the creature or object strikes another creature or object, they both take 1d4 kinetic damage.
 
-***Object.*** You move an object that isn't being worn or carried and weighs up to 10 lbs up to 30 feet in any direction, but not beyond the range of this power.
-
-You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.
+This power improves when you reach higher levels. At 5th level, you can move a Tiny creature or object up to 30 feet, a Small creature or object up to 20 feet, a Medium creature or object up to 10 feet, and the power's damage increases to 2d4 kinetic damage. At 11th level, you can move a Small creature or object up to 30 feet, a Medium creature up to 20 feet, and the power's damage increases to 3d4 kinetic damage. At 17th level, you can move a Medium creature to up 30 feet, and the power's damage increases to 4d4 kinetic damage.
 
 #### Force Repulse
 _3rd-level universal power_
@@ -1088,17 +1086,17 @@ You imbue your weapon with the purifying light of the Force. As part of the acti
 
 This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 force damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
 
-#### Force Throw
-_1st-level universal power_
+#### Force Throw 
+_2nd-level universal power_
 ___
 - **Prerequisite:** Force Push/Pull
 - **Casting Time:** 1 action
-- **Range:** 60 feet
+- **Range:** 90 feet
 - **Duration:** Instantaneous
 
-Choose one or more creatures or objects within 60 feet that weigh up to 15 pounds. The object immediately moves 60 feet in a direction of your choice. If the object ends this movement in the air, it immediately falls to the ground. If the object collides with anything during its travel, both the object and the target take 3d8 kinetic damage. If the target is a creature, it must make a Dexterity saving throw. On a failed save, it takes 3d8 kinetic damage, or half as much on a successful one.
+You use the Force to move a Large or smaller creature or object not being worn or carried within range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 90 feet, a Small creature or object can be moved up to 60 feet, a Medium creature or object can be moved up to 30 feet, and a Large creature or object can be moved up to 10 feet. If at the end of this movement the creature or object strikes another creature or object, they both take 2d8 force damage.
 
-***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the maximum weight increases by 15 pounds and the damage increases by 1d8 for each slot level above 1st.
+***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the range you can throw a creature or object increases by 10 feet, to a maximum of 90 feet, and the power's damage increases by 1d8.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -1533,7 +1531,7 @@ ___
 - **Range:** 120 feet
 - **Duration:** Concentration, up to 1 minute
 
-You snag several objects using the force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is was a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.
+You snag several objects using the Force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is was a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.
 
 As a bonus action, you can mentally direct any object controlled by this power. If you control multiple objects, you can command any or all of them at the same time. You decide what action the object will take and where it will move. The objects act at the end of your turn. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and kinetic damage determined by its size.
 
@@ -1800,7 +1798,7 @@ An affected target's speed is halved, it takes a -2 penalty to AC and Dexterity 
 
 If the creature attempts to cast a power with a casting time of 1 action, roll a d20. On an 11 or higher, the power doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the power. If it can't, the power is wasted.	
 
-A creature affected by this power makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.
+A creature affected by this power makes another Constitution saving throw at the end of its turn. On a successful save, the effect ends for it.
 
 #### Plant Surge
 _3rd-level light side power_
@@ -1821,7 +1819,7 @@ ___
 - **Range:** Self
 - **Duration:** 8 hours 
 
-Your mastery of the force gives you a limited ability to see into the immediate future. For the duration, you can't be surprised and you have advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against you for the duration.
+Your mastery of the Force gives you a limited ability to see into the immediate future. For the duration, you can't be surprised and you have advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against you for the duration.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -2212,7 +2210,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Concentration, up to 1 minute 
 
-Choose a droid that you can see within range. The target must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, the droid takes energy damage equal to your forcecasting ability modifier. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target.
+Choose a droid that you can see within range. The target must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, the droid takes energy damage equal to your forcecasting ability modifier. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.
 
 #### Telekinesis
 _5th-level universal power_
@@ -2258,7 +2256,7 @@ ___
 - **Range:** Self (15-foot radius)
 - **Duration:** Concentration, up to 1 minute
 
-You stir the force around you, creating a turbulent field of telekinetic energy that buffets enemies around you. The field extends out to a distance of 15 feet around you for the duration.
+You stir the Force around you, creating a turbulent field of telekinetic energy that buffets enemies around you. The field extends out to a distance of 15 feet around you for the duration.
 
 When you cast this power, you can designate any number of creatures you can see to be unaffected by it. An affected creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 3d8 force damage. On a successful save, the creature takes half as much damage.
 
@@ -2286,7 +2284,7 @@ ___
 - **Range:** 10 feet
 - **Duration:** Instantaneous
 
-You cause a tremor in the ground within range. Each creature other than you in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes 1d6 kinetic damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.
+You cause a tremor in the ground within range. Each creature other than you in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes 1d6 kinetic damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
 
@@ -2378,4 +2376,4 @@ You wrack the body of a creature that you can see with a virulent, disease-like 
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
-<div class='pageNumber auto'></div>
+\pagebreakNum
