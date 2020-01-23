@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -52,6 +53,8 @@ namespace StarWars5e.Api.Controllers
 
             var user = await _userManager.FindByEmailAsync(userInfo.Email);
 
+            var time = DateTime.UtcNow;
+
             if (user == null)
             {
                 var appUser = new AppUser
@@ -61,12 +64,25 @@ namespace StarWars5e.Api.Controllers
                     FacebookId = userInfo.Id,
                     Email = userInfo.Email,
                     UserName = userInfo.Email,
-                    MostRecentAuthType = "facebook"
+                    MostRecentAuthType = "facebook",
+                    RegistrationDateUtc = time,
+                    LastLoginTimeUtc = time
                 };
 
                 var result = await _userManager.CreateAsync(appUser);
 
                 if (!result.Succeeded) return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
+            }
+            else
+            {
+                user.FacebookId = userInfo.Id;
+                user.MostRecentAuthType = "facebook";
+                user.LastLoginTimeUtc = time;
+
+                var result = await _userManager.UpdateAsync(user);
+
+                if (!result.Succeeded)
+                    return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
             }
 
             var localUser = await _userManager.FindByNameAsync(userInfo.Email);
@@ -116,11 +132,12 @@ namespace StarWars5e.Api.Controllers
             Client.DefaultRequestHeaders.Authorization =
                 new AuthenticationHeaderValue("Bearer", $"{userFacebookAccessToken.AccessToken}");
             var userInfoResponse = await Client.GetStringAsync(
-                $"https://www.googleapis.com/userinfo/v2/me");
+                "https://www.googleapis.com/userinfo/v2/me");
             var userInfo = JsonConvert.DeserializeObject<GoogleUserData>(userInfoResponse);
 
-            var user = await _userManager.FindByNameAsync(userInfo.Email);
+            var user = await _userManager.FindByEmailAsync(userInfo.Email);
 
+            var time = DateTime.UtcNow;
             if (user == null)
             {
                 var appUser = new AppUser
@@ -130,12 +147,25 @@ namespace StarWars5e.Api.Controllers
                     GoogleId = userInfo.Id,
                     Email = userInfo.Email,
                     UserName = userInfo.Email,
-                    MostRecentAuthType = "google"
+                    MostRecentAuthType = "google",
+                    RegistrationDateUtc = time,
+                    LastLoginTimeUtc = time
                 };
 
                 var result = await _userManager.CreateAsync(appUser);
 
                 if (!result.Succeeded) return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
+            }
+            else
+            {
+                user.GoogleId = userInfo.Id;
+                user.MostRecentAuthType = "google";
+                user.LastLoginTimeUtc = time;
+
+                var result = await _userManager.UpdateAsync(user);
+
+                if (!result.Succeeded)
+                    return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
             }
 
             var localUser = await _userManager.FindByNameAsync(userInfo.Email);
@@ -193,7 +223,9 @@ namespace StarWars5e.Api.Controllers
                 "https://discordapp.com/api/users/@me");
             var userInfo = JsonConvert.DeserializeObject<DiscordUserData>(userInfoResponse);
 
-            var user = await _userManager.FindByNameAsync(userInfo.Email);
+            var user = await _userManager.FindByEmailAsync(userInfo.Email);
+
+            var time = DateTime.UtcNow;
 
             if (user == null)
             {
@@ -202,10 +234,22 @@ namespace StarWars5e.Api.Controllers
                     DiscordId = userInfo.Id,
                     Email = userInfo.Email,
                     UserName = userInfo.Email,
-                    MostRecentAuthType = "discord"
+                    MostRecentAuthType = "discord",
+                    RegistrationDateUtc = time,
+                    LastLoginTimeUtc = time
                 };
 
                 var result = await _userManager.CreateAsync(appUser);
+
+                if (!result.Succeeded) return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
+            }
+            else
+            {
+                user.DiscordId = userInfo.Id;
+                user.MostRecentAuthType = "discord";
+                user.LastLoginTimeUtc = time;
+
+                var result = await _userManager.UpdateAsync(user);
 
                 if (!result.Succeeded) return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
             }

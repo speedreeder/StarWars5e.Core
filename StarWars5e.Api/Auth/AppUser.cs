@@ -1,4 +1,5 @@
-﻿using ElCamino.AspNetCore.Identity.AzureTable.Model;
+﻿using System;
+using ElCamino.AspNetCore.Identity.AzureTable.Model;
 
 namespace StarWars5e.Api.Auth
 {
@@ -11,5 +12,7 @@ namespace StarWars5e.Api.Auth
         public string LastName { get; set; }
         public string RefreshToken { get; set; }
         public string MostRecentAuthType { get; set; }
-    }
+        public DateTime? LastLoginTimeUtc { get; set; }
+        public DateTime? RegistrationDateUtc { get; set; }
+    } 
 }

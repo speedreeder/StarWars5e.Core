@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Cosmos.Table;
 using Microsoft.Azure.Search;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,10 +17,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Auth;
 using StarWars5e.Api.Helpers;
 using Wolnik.Azure.TableStorage.Repository;
+using CloudStorageAccount = Microsoft.WindowsAzure.Storage.CloudStorageAccount;
 using IdentityRole = ElCamino.AspNetCore.Identity.AzureTable.Model.IdentityRole;
 
 namespace StarWars5e.Api
@@ -128,23 +128,39 @@ namespace StarWars5e.Api
                         Constants.Strings.JwtClaims.ApiAccess));
             });
 
-            services.AddIdentityCore<AppUser>(options => { options.User.RequireUniqueEmail = true; })
+            //services.AddIdentityCore<AppUser>(options => { options.User.RequireUniqueEmail = true; })
+            //    .AddRoles<IdentityRole>()
+            //    .AddAzureTableStores<ApplicationDbContext>(() =>
+            //    {
+            //        var idConfig = new IdentityConfiguration
+            //        {
+            //            TablePrefix = Configuration["IdentityAzureTable:IdentityConfiguration:TablePrefix"],
+            //            StorageConnectionString = Configuration["StorageAccountConnectionString"],
+            //            //LocationMode = Configuration.GetSection("IdentityAzureTable:IdentityConfiguration:LocationMode")
+            //            //    .Value
+            //        };
+            //        return idConfig;
+            //    })
+            //    .AddDefaultTokenProviders();
+            //.CreateAzureTablesIfNotExists<ApplicationDbContext>();
+
+            services.AddDefaultIdentity<AppUser>(options => { options.User.RequireUniqueEmail = true; })
                 .AddRoles<IdentityRole>()
                 .AddAzureTableStores<ApplicationDbContext>(() =>
                 {
-                    var idConfig = new IdentityConfiguration
+                    var idconfig = new IdentityConfiguration
                     {
                         TablePrefix = Configuration["IdentityAzureTable:IdentityConfiguration:TablePrefix"],
-                        StorageConnectionString = Configuration["StorageAccountConnectionString"],
-                        //LocationMode = Configuration.GetSection("IdentityAzureTable:IdentityConfiguration:LocationMode")
-                        //    .Value
+                        StorageConnectionString = Configuration["StorageAccountConnectionString"]
+                        //LocationMode = Configuration.GetSection("IdentityAzureTable:IdentityConfiguration:LocationMode").Value
                     };
-                    return idConfig;
-                })
-                .AddDefaultTokenProviders();
-            //.CreateAzureTablesIfNotExists<ApplicationDbContext>();
 
-            services.AddMvc();
+                    return idconfig;
+                })
+                .AddDefaultTokenProviders()
+                .CreateAzureTablesIfNotExists<ApplicationDbContext>();
+
+            services.AddMvc().AddNewtonsoftJson();
             services.AddSwaggerGen(c =>
             {
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.FirstOrDefault());
@@ -179,12 +195,14 @@ namespace StarWars5e.Api
             });
 
             var tableStorage = new AzureTableStorage(Configuration["StorageAccountConnectionString"]);
-            var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
-            var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
-            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
+            var cloudStorageAccount = Microsoft.Azure.Cosmos.Table.CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
+            var cloudStorageAccount1 = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
+            var cloudTableClient = cloudStorageAccount1.CreateCloudTableClient();
+            var cloudBlobClient = cloudStorageAccount1.CreateCloudBlobClient();
             var searchServiceClient =
                 new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
             var searchIndexClient = searchServiceClient.Indexes.GetClient("searchterms-index");
+            var cosmosTableClient = cloudStorageAccount.CreateCloudTableClient();
 
             services.AddSingleton<ITableStorage>(tableStorage);
 
@@ -198,6 +216,7 @@ namespace StarWars5e.Api
             services.AddSingleton(cloudBlobClient);
             services.AddSingleton(cloudTableClient);
             services.AddSingleton(searchIndexClient);
+            services.AddSingleton(cosmosTableClient);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -228,6 +247,7 @@ namespace StarWars5e.Api
             app.UseCors();
             app.UseMiddleware<JwtInHeaderMiddleware>();
             app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             //app.UseExceptionHandler(
