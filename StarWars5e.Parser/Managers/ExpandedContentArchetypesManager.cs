@@ -33,6 +33,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var archetype in archetypes)
                 {
+                    archetype.ContentSourceEnum = ContentSource.EC;
+
                     var archetypeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(archetype.Name,
                         GlobalSearchTermType.Archetype, ContentType.ExpandedContent,
                         $"/characters/archetypes/{archetype.Name}");

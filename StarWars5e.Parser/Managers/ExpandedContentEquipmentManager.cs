@@ -45,6 +45,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var equipment in equipments)
                 {
+                    equipment.ContentSourceEnum = ContentSource.EC;
+
                     switch (equipment.EquipmentCategoryEnum)
                     {
                         case EquipmentCategory.Unknown:

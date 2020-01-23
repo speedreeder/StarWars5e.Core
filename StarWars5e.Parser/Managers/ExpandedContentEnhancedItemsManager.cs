@@ -31,6 +31,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var enhancedItem in enhancedItems)
                 {
+                    enhancedItem.ContentSourceEnum = ContentSource.EC;
+
                     var enhancedItemSearchTerm = _globalSearchTermRepository.CreateSearchTerm(enhancedItem.Name, GlobalSearchTermType.EnhancedItem, ContentType.ExpandedContent,
                         $"/loot/enhancedItems?search={enhancedItem.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(enhancedItemSearchTerm);

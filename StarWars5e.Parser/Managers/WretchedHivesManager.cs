@@ -8,7 +8,6 @@ using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
-using StarWars5e.Models.Starship;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.WH;
 using Wolnik.Azure.TableStorage.Repository;
@@ -66,6 +65,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var enhancedItem in enhancedItems)
                 {
+                    enhancedItem.ContentSourceEnum = ContentSource.WH;
+
                     var enhancedItemSearchTerm = _globalSearchTermRepository.CreateSearchTerm(enhancedItem.Name, GlobalSearchTermType.EnhancedItem, ContentType.Core,
                         $"/loot/enhancedItems?search={enhancedItem.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(enhancedItemSearchTerm);

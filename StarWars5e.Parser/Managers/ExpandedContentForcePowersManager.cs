@@ -31,6 +31,8 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var forcePower in forcePowers)
                 {
+                    forcePower.ContentSourceEnum = ContentSource.EC;
+
                     var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(forcePower.Name,
                         GlobalSearchTermType.ForcePower, ContentType.ExpandedContent,
                         $"/characters/forcePowers/?search={forcePower.Name}");
