@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using ElCamino.AspNetCore.Identity.AzureTable.Model;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -36,6 +37,8 @@ namespace StarWars5e.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplicationInsightsTelemetry();
+
             services.Configure<FacebookAuthSettings>(facebookAuthSettings =>
             {
                 facebookAuthSettings.AppId = Configuration["FacebookAuthSettings:AppId"];
@@ -128,22 +131,6 @@ namespace StarWars5e.Api
                         Constants.Strings.JwtClaims.ApiAccess));
             });
 
-            //services.AddIdentityCore<AppUser>(options => { options.User.RequireUniqueEmail = true; })
-            //    .AddRoles<IdentityRole>()
-            //    .AddAzureTableStores<ApplicationDbContext>(() =>
-            //    {
-            //        var idConfig = new IdentityConfiguration
-            //        {
-            //            TablePrefix = Configuration["IdentityAzureTable:IdentityConfiguration:TablePrefix"],
-            //            StorageConnectionString = Configuration["StorageAccountConnectionString"],
-            //            //LocationMode = Configuration.GetSection("IdentityAzureTable:IdentityConfiguration:LocationMode")
-            //            //    .Value
-            //        };
-            //        return idConfig;
-            //    })
-            //    .AddDefaultTokenProviders();
-            //.CreateAzureTablesIfNotExists<ApplicationDbContext>();
-
             services.AddDefaultIdentity<AppUser>(options => { options.User.RequireUniqueEmail = true; })
                 .AddRoles<IdentityRole>()
                 .AddAzureTableStores<ApplicationDbContext>(() =>
@@ -160,7 +147,10 @@ namespace StarWars5e.Api
                 .AddDefaultTokenProviders()
                 .CreateAzureTablesIfNotExists<ApplicationDbContext>();
 
-            services.AddMvc().AddNewtonsoftJson();
+            services.AddMvc().AddJsonOptions(opts =>
+            {
+                opts.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+            }).AddNewtonsoftJson();
             services.AddSwaggerGen(c =>
             {
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.FirstOrDefault());
