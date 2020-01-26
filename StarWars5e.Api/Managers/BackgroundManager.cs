@@ -1,20 +1,19 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Background;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Managers
 {
     public class BackgroundManager : IBackgroundManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
 
-        public BackgroundManager(ITableStorage tableStorage)
+        public BackgroundManager(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }

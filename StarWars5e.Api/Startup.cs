@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Microsoft.WindowsAzure.Storage;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Api.Storage;
 
 namespace StarWars5e.Api
 {
@@ -54,11 +54,12 @@ namespace StarWars5e.Api
             var searchServiceClient = new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
             var searchIndexClient = searchServiceClient.Indexes.GetClient("searchterms-index");
 
-            services.AddSingleton<ITableStorage>(tableStorage);
+            //services.AddSingleton<IAzureTableStorage>(_ => tableStorage);
+            services.AddSingleton<IAzureTableStorage>(tableStorage);
 
             services.Scan(scan => scan
                 .FromAssemblies(typeof(Program).GetTypeInfo().Assembly)
-                .AddClasses()
+                .AddClasses(true)
                 .AsImplementedInterfaces()
                 .WithSingletonLifetime()
             );

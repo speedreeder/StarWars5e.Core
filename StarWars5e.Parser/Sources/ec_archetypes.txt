@@ -16,8 +16,8 @@
 |&emsp;Way of Endurance         | 8|
 |&emsp;Way of Manipulation      | 9|
 |&emsp;Way of Negation          |10|
-|&emsp;Way of the Seer          |11|
-|&emsp;Way of Telekinetics      |12|
+|&emsp;Way of Telekinetics      |11|
+|&emsp;Way of the Seer          |12|
 |Engineer||
 |&emsp;Artificer Engineering    |13|
 |&emsp;Audiotech Engineering    |16|
@@ -54,25 +54,26 @@
 |&emsp;Disabling Practice       |50|
 |&emsp;Ruffian Practice         |51|
 |&emsp;Sawbones Practice        |52|
+|&emsp;Sharpshooter Practice    |53|
 |Scholar||
-|&emsp;Chef Pursuit             |53|
-|&emsp;Explorer Pursuit         |55|
-|&emsp;Gambler Pursuit          |57|
-|&emsp;Slicer Pursuit           |59|
-|&emsp;Zoologist Pursuit        |61|
+|&emsp;Chef Pursuit             |54|
+|&emsp;Explorer Pursuit         |56|
+|&emsp;Gambler Pursuit          |58|
+|&emsp;Slicer Pursuit           |60|
+|&emsp;Zoologist Pursuit        |62|
 |Scout||
-|&emsp;Bulwark Technique        |65|
-|&emsp;Illusionist Technique    |66|
-|&emsp;Inquisitor Technique     |67|
-|&emsp;Mastermind Technique     |68|
-|&emsp;Predator Technique       |69|
-|&emsp;Slayer Technique         |70|
+|&emsp;Bulwark Technique        |66|
+|&emsp;Illusionist Technique    |67|
+|&emsp;Inquisitor Technique     |68|
+|&emsp;Mastermind Technique     |69|
+|&emsp;Predator Technique       |70|
+|&emsp;Slayer Technique         |71|
 |Sentinel||
-|&emsp;Path of Communion        |71|
-|&emsp;Path of the Corsair      |72|
-|&emsp;Path of the Forceblade   |73|
-|&emsp;Path of Synthesis        |74|
-|&emsp;Path of Tenacity         |75|
+|&emsp;Path of Communion        |72|
+|&emsp;Path of the Corsair      |73|
+|&emsp;Path of the Forceblade   |74|
+|&emsp;Path of Synthesis        |75|
+|&emsp;Path of Tenacity         |76|
 
 </div>
 
@@ -390,6 +391,44 @@ At 18th level, when you use a Force-Empowered Casting option, you can spend a po
 
 \pagebreak
 
+## Way of Telekinetics
+The consular knows how to manipulate the essence of the surrounding elements with the power of the Force. Those consulars who follow the Way of Telekinetics create torrential gusts of telekinetic energy, forming a potent combination that can pummel even the toughest adversaries into submission.
+
+### Staggering Stratagem
+When you choose this tradition at 3rd level, your potency with the telekinetic power of the Force heightens. You can manipulate creatures of Large size or smaller with your force powers and Way of Telekinetics features. Additionally, once per turn, when you deal force or kinetic damage to a Large or smaller creature with a force power or class feature, you can choose to either push it up to 10 feet away from you or pull it up to 10 feet closer to you.
+
+### Mighty Blast
+At 6th level, your force powers batter and blast your enemies with the strength of a hurricane. When you cast a force power of 1st level or higher that deals force or kinetic damage, one creature of your choice damaged by that power must make a Strength saving throw against your universal force save DC or be knocked prone. 
+
+This feature can affect additional creatures when you reach higher levels: two creatures at 11th<br> level and three creatures at 17th level.
+
+### Size Matters Not
+Beginning at 10th level, you can<br> manipulate creatures of Huge size or<br> smaller with your force powers and<br> Way of Telekinetics features.
+
+\columnbreak
+
+<div style='margin-top:27px'></div>
+
+&emsp;Additionally, when you use your action to cast a force power, you can use a bonus action to fly up to 10 feet without provoking opportunity attacks.
+
+### Repulsing Wave
+At 14th level, when you are dealt damage by a creature within 5 feet of you, you can use your reaction to deal force damage to the creature equal to your consular level + your Wisdom or Charisma modifier (your choice, minimum of +1). If the attacker is Huge or smaller, it must also make a Strength saving throw against your universal force save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.
+
+You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
+
+### My Ally is the Force
+Starting at 18th level, you can manipulate creatures of Gargantuan size or smaller with your force powers and Way of Telekinetics features.
+
+Additionally, whenever a force power you cast pushes or pulls a creature, you can increase the distance of that push or pull by an additional 20 feet.
+
+<img src='https://www.gmbinder.com/images/sFrtG1P.png' style='position:absolute;bottom:0px;left:-50px;width:942px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
+
+\pagebreak
+
+\pagebreak
+
 ## Way of the Seer
 The Force guides us in innumerable ways, often manifesting as visions. Those consulars who follow the Way of Seer attempt to harness these visions in an attempt to work towards the best possible future, as they see it.
 
@@ -421,44 +460,6 @@ At 14th level, your thoughts can't be read by telepathy or other means unless yo
 Starting at 18th level, the visions in your dreams<br> &emsp;&emsp;&emsp;intensify and paint a more accurate picture in<br> &emsp;&emsp;&emsp;your mind of what is to come. You roll three d20s for your Force Visions feature, rather than two. 
 
 <img src='https://www.gmbinder.com/images/gqzswlS.png' style='position:absolute;bottom:-120px;left:17px;width:660px;z-index:1000;' />
-
-<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
-
-\pagebreak
-
-\pagebreak
-
-## Way of Telekinetics
-The consular knows how to manipulate the essence of the surrounding elements with the power of the Force. Those consulars who follow the Way of Telekinetics create torrential gusts of telekinetic energy, forming a potent combination that can pummel even the toughest adversaries into submission.
-
-### Staggering Stratagem
-When you choose this tradition at 3rd level, your potency with the telekinetic power of the Force heightens. You can manipulate creatures of Large size or smaller with your force powers and Way of Telekinetics features. Additionally, once per turn, when you deal force or kinetic damage to a Large or smaller creature with a force power or class feature, you can choose to either push it up to 10 feet away from you or pull it up to 10 feet closer to you.
-
-### Mighty Blast
-At 6th level, your force powers batter and blast your enemies with the strength of a hurricane. When you cast a force power of 1st level or higher that deals force damage, one creature of your choice damaged by that power must make a Strength saving throw against your universal force save DC or be knocked prone. 
-
-This feature can affect additional creatures when you reach higher levels: two creatures at 11th level and three creatures at 17th level.
-
-### Size Matters Not
-Beginning at 10th level, you can<br> manipulate creatures of Huge size or<br> smaller with your force powers and<br> Way of Telekinetics features.
-
-\columnbreak
-
-<div style='margin-top:27px'></div>
-
-&emsp;Additionally, when you use your action to cast a force power, you can use a bonus action to leap up to 10 feet without provoking opportunity attacks.
-
-### Repulsing Wave
-At 14th level, when you are dealt damage by a creature within 5 feet of you, you can use your reaction to deal force damage to the creature equal to your consular level + your Wisdom or Charisma modifier (your choice, minimum of +1). If the attacker is Huge or smaller, it must also make a Strength saving throw against your universal force save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.
-
-You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
-
-### My Ally is the Force
-Starting at 18th level, you can manipulate creatures of Gargantuan size or smaller with your force powers and Way of Telekinetics features.
-
-Additionally, whenever a force power you cast pushes or pulls a creature, you can increase the distance of that push or pull by an additional 20 feet.
-
-<img src='https://www.gmbinder.com/images/sFrtG1P.png' style='position:absolute;bottom:0px;left:-50px;width:906px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
@@ -2349,7 +2350,7 @@ ___
 
 <div align="center">
 
-**Grapple Technique save DC** = 8 + your proficiency bonus + your Strength modifier.
+**Grapple Technique save DC** = 8 + your proficiency bonus +<br> your Strength modifier.
 
 </div>
 
@@ -2469,6 +2470,61 @@ At 17th level, you have advantage on death saving throws.
 Additionally, when you are stabilized, you regain 1 hit point. Once you've used this feature, you can't use it again until you finish a short or long rest.
 
 <img src='https://www.gmbinder.com/images/RVsg9S7.png' style='position:absolute;bottom:22px;right:-70px;width:590px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
+
+\pagebreak
+
+## Sharpshooter Practice
+Those operatives who choose the Sharpshooter Practice are bringers of death. Striking from a safe distance, the Sharpshooter uses precision shooting to control the battlefield and bring targets down quickly.
+
+### Assume the Position
+Beginning at 3rd level, you don't need advantage on your attack roll to use your Sneak Attack if your target is greater than 30 feet from you and no enemies are within 5 feet of you. In addition, standing up from prone now only costs 5 feet of movement.
+
+Additionally, you gain proficiency with two martial blasters of your choice.
+
+### Place Shot
+Also at 3rd level, you perfect the art of placing distant shots for maximum effectiveness in debilitating and controlling your enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a placed shot. 
+
+Some of your placed shots require your target to make a saving throw to resist the placed shot's effects. The saving throw DC is calculated as follows: 
+
+___
+
+<div align="center">
+
+**Placed Shot save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
+
+</div>
+
+___
+
+#### Disarming Shot
+You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it's holding. The object lands at its feet.
+
+#### Penetrating Shot
+You attempt to damage another target with the same attack. Choose a second target within 15 feet of and directly behind your initial target. If the original attack roll would hit the second target, it takes two dice worth of Sneak Attack damage.
+
+The damage is of the same type dealt by the original attack.
+
+#### Suppressive Shot
+You attempt to pin the target to its location. The<br> target must succeed on a Wisdom saving throw<br> or be frightened of you until the end of its<br> next turn.
+
+### Head Shot
+At 9th level, you are at your<br> deadliest when your enemies<br> are unaware of the danger<br> they are in. You have advantage on attack rolls<br> against any creature that hasn't taken a turn in<br> combat yet. 
+
+Additionally, any hit you score against a<br> creature that is surprised is a critical hit.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Distracting Shot
+Starting at 13th level, you are able to defend your compatriots from afar. When a friendly creature you can see within your weapon's normal range is the target of a ranged attack, or forced to make a saving throw, and the source of the effect is within your weapon's normal range, you can use your reaction to make a ranged weapon attack against the source. On a hit, instead of dealing damage, the target of your attack has disadvantage on the attack roll against your ally, or your ally has advantage on the saving throw to resist the effect.
+
+### Double Tap
+At 17th level, you've learned to capitalize when you have the advantage. When you take the Attack action and make an attack with advantage, you can choose to forgo the advantage. If you do, you can make an additional attack against the target or another creature within 5 feet of it (no<br> action required).<br> Both attacks can<br> benefit from your <br>Sneak Attack<br> damage, instead of<br> only one.
+
+<img src='https://www.gmbinder.com/images/PdcqYka.png' style='position:absolute;bottom:7px;right:50px;width:544px;transform:scalex(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 

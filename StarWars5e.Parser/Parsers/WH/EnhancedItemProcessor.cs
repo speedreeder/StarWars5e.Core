@@ -59,13 +59,12 @@ namespace StarWars5e.Parser.Parsers.WH
                     {
                         var prerequisiteLineIndex = enhancedItemLines.FindIndex(f => f == prerequisiteLine);
                         enhancedItem.Text = string.Join("\r\n",
-                            enhancedItemLines.Skip(prerequisiteLineIndex + 1).Select(s => s.RemoveUnderscores())
-                                .CleanListOfStrings());
+                            enhancedItemLines.Skip(prerequisiteLineIndex + 1).CleanListOfStrings());
                     }
                     else
                     {
                         enhancedItem.Text = string.Join("\r\n",
-                            enhancedItemLines.Skip(2).Select(s => s.RemoveUnderscores()).CleanListOfStrings());
+                            enhancedItemLines.Skip(2).CleanListOfStrings());
                     }
 
                     if (enhancedItemLines.Any(f => f.StartsWith("_**Requires attunement")))

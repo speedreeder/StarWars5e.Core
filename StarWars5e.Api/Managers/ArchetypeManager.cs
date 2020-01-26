@@ -2,18 +2,18 @@
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Managers
 {
     public class ArchetypeManager : IArchetypeManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
 
-        public ArchetypeManager(ITableStorage tableStorage)
+        public ArchetypeManager(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }

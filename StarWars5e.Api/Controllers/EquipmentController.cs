@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Search;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -13,10 +12,10 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class EquipmentController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly IEquipmentManager _equipmentManager;
 
-        public EquipmentController(ITableStorage tableStorage, IEquipmentManager equipmentManager)
+        public EquipmentController(IAzureTableStorage tableStorage, IEquipmentManager equipmentManager)
         {
             _tableStorage = tableStorage;
             _equipmentManager = equipmentManager;

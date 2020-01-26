@@ -3,18 +3,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Managers
 {
     public class EnhancedItemManager : IEnhancedItemManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
 
-        public EnhancedItemManager(ITableStorage tableStorage)
+        public EnhancedItemManager(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }

@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Search;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -13,10 +13,10 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class ArchetypeController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly IArchetypeManager _archetypeManager;
 
-        public ArchetypeController(ITableStorage tableStorage, IArchetypeManager archetypeManager)
+        public ArchetypeController(IAzureTableStorage tableStorage, IArchetypeManager archetypeManager)
         {
             _tableStorage = tableStorage;
             _archetypeManager = archetypeManager;
