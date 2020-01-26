@@ -54,7 +54,6 @@ namespace StarWars5e.Api
             var searchServiceClient = new SearchServiceClient("sw5esearch", new SearchCredentials(Configuration["SearchKey"]));
             var searchIndexClient = searchServiceClient.Indexes.GetClient("searchterms-index");
 
-            //services.AddSingleton<IAzureTableStorage>(_ => tableStorage);
             services.AddSingleton<IAzureTableStorage>(tableStorage);
 
             services.Scan(scan => scan
@@ -67,13 +66,6 @@ namespace StarWars5e.Api
             services.AddSingleton(cloudBlobClient);
             services.AddSingleton(cloudTableClient);
             services.AddSingleton(searchIndexClient);
-
-            //services.AddAuthentication()
-            //    .AddGoogle(googleOptions =>
-            //    {
-            //        googleOptions.ClientId = Configuration["GoogleOAuthClientId"];
-            //        googleOptions.ClientSecret = Configuration["GoogleOAuthSecret"];
-            //    });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
