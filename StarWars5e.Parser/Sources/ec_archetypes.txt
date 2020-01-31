@@ -10,70 +10,71 @@
 |&emsp;Bloodstorm Approach      | 3|
 |&emsp;Cyclone Approach         | 4|
 |&emsp;Frenzied Approach        | 5|
-|&emsp;Precision Approach       | 6|
+|&emsp;Juggernaut Approach      | 6|
+|&emsp;Precision Approach       | 7|
 |Consular||
-|&emsp;Way of Confluence        | 7|
-|&emsp;Way of Endurance         | 8|
-|&emsp;Way of Manipulation      | 9|
-|&emsp;Way of Negation          |10|
-|&emsp;Way of Telekinetics      |11|
-|&emsp;Way of the Seer          |12|
+|&emsp;Way of Confluence        | 8|
+|&emsp;Way of Endurance         | 9|
+|&emsp;Way of Manipulation      |10|
+|&emsp;Way of Negation          |11|
+|&emsp;Way of Telekinetics      |12|
+|&emsp;Way of the Seer          |13|
 |Engineer||
-|&emsp;Artificer Engineering    |13|
-|&emsp;Audiotech Engineering    |16|
-|&emsp;Biochem Engineering      |19|
-|&emsp;Cybertech Engineering    |22|
-|&emsp;Experimental Engineering |25|
+|&emsp;Artificer Engineering    |14|
+|&emsp;Audiotech Engineering    |17|
+|&emsp;Biochem Engineering      |20|
+|&emsp;Cybertech Engineering    |23|
+|&emsp;Experimental Engineering |26|
 |Fighter||
-|&emsp;Adept Specialist         |27|
-|&emsp;Demolitions Specialist   |29|
-|&emsp;Enhancement Specialist   |30|
-|&emsp;Heavy Weapons Specialist |32|
-|&emsp;Mounted Specialist       |33|
-|&emsp;Praetorian Specialist    |34|
+|&emsp;Adept Specialist         |28|
+|&emsp;Demolitions Specialist   |30|
+|&emsp;Enhancement Specialist   |31|
+|&emsp;Heavy Weapons Specialist |33|
+|&emsp;Mounted Specialist       |34|
+|&emsp;Praetorian Specialist    |35|
 |Guardian||
-|&emsp;Form IV: Ataru           |35|
-|&emsp;Form V: Djem So          |36|
-|&emsp;Form VI: Niman           |37|
-|&emsp;Form VII: Juyo           |38|
-|&emsp;Form VIII: Sokan         |39|
-|&emsp;Form IX: Trakata         |40|
-|&emsp;Form X: Jar'Kai          |41|
+|&emsp;Form IV: Ataru           |36|
+|&emsp;Form V: Djem So          |37|
+|&emsp;Form VI: Niman           |38|
+|&emsp;Form VII: Juyo           |39|
+|&emsp;Form VIII: Sokan         |40|
+|&emsp;Form IX: Trakata         |41|
+|&emsp;Form X: Jar'Kai          |42|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |42|
-|&emsp;Crimson Order            |43|
-|&emsp;Jal Shey Order           |44|
-|&emsp;Matukai Order            |45|
-|&emsp;Whills Order             |46|
+|&emsp;Aing-Tii Order           |43|
+|&emsp;Crimson Order            |44|
+|&emsp;Jal Shey Order           |45|
+|&emsp;Matukai Order            |46|
+|&emsp;Whills Order             |47|
 |Operative||
-|&emsp;Acquisitions Practice    |47|
-|&emsp;Beguiler Practice        |48|
-|&emsp;Disabling Practice       |50|
-|&emsp;Ruffian Practice         |51|
-|&emsp;Sawbones Practice        |52|
-|&emsp;Sharpshooter Practice    |53|
+|&emsp;Acquisitions Practice    |48|
+|&emsp;Beguiler Practice        |49|
+|&emsp;Disabling Practice       |51|
+|&emsp;Ruffian Practice         |52|
+|&emsp;Sawbones Practice        |53|
+|&emsp;Sharpshooter Practice    |54|
 |Scholar||
-|&emsp;Chef Pursuit             |54|
-|&emsp;Explorer Pursuit         |56|
-|&emsp;Gambler Pursuit          |58|
-|&emsp;Slicer Pursuit           |60|
-|&emsp;Zoologist Pursuit        |62|
+|&emsp;Chef Pursuit             |55|
+|&emsp;Explorer Pursuit         |57|
+|&emsp;Gambler Pursuit          |59|
+|&emsp;Slicer Pursuit           |61|
+|&emsp;Zoologist Pursuit        |63|
 |Scout||
-|&emsp;Bulwark Technique        |66|
-|&emsp;Illusionist Technique    |67|
-|&emsp;Inquisitor Technique     |68|
-|&emsp;Mastermind Technique     |69|
-|&emsp;Predator Technique       |70|
-|&emsp;Slayer Technique         |71|
+|&emsp;Bulwark Technique        |67|
+|&emsp;Illusionist Technique    |68|
+|&emsp;Inquisitor Technique     |69|
+|&emsp;Mastermind Technique     |70|
+|&emsp;Predator Technique       |71|
+|&emsp;Slayer Technique         |72|
 |Sentinel||
-|&emsp;Path of Communion        |72|
-|&emsp;Path of the Corsair      |73|
-|&emsp;Path of the Forceblade   |74|
-|&emsp;Path of Synthesis        |75|
-|&emsp;Path of Tenacity         |76|
+|&emsp;Path of Communion        |73|
+|&emsp;Path of the Corsair      |74|
+|&emsp;Path of the Forceblade   |75|
+|&emsp;Path of Synthesis        |76|
+|&emsp;Path of Tenacity         |77|
 
 </div>
 
@@ -203,6 +204,42 @@ If the creature succeeds on its saving throw, you can't use this feature on that
 At 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.
 
 <img src='https://www.gmbinder.com/images/zfue4ei.png' style='position:absolute;bottom:-15px;right:-165px;width:890px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
+
+\pagebreak
+
+\pagebreak
+
+## Juggernaut Approach
+Certain berserkers find that the strongest offense is a good defense. Berserkers of the Juggernaut Approach wear the heaviest of armor not because they fear injury, but to strike fear in their hapless attackers.
+
+### Armored Brute
+When you choose this approach at 3rd level, you've learned to fight in the heaviest of armors, using your weight to your advantage. You gain proficiency in heavy armor, and you can gain the benefits of your Rage feature while wearing heavy armor. 
+
+When you reach 5th level, you can gain the benefits of your Fast Movement feature while wearing heavy armor.
+
+### Unstoppable Force
+Also at 3rd level, your momentum makes you nigh unstoppable. While raging, you can move through a hostile creature's space regardless of that creature's size. When you do so, you must make a Strength (Athletics) check contested by the target's Strength (Athletics) check. If you move at least 10 feet before moving through a hostile creature's space, and that creature is your size or smaller, they have disadvantage on the check. If you succeed, you don't treat the movement as difficult terrain, the creature is pushed 5 feet in a direction of your choice, and you don't provoke opportunity attacks from that creature until the end of your turn.
+
+### Raging Bulwark
+At 6th level, your imposing form acts as a shield for your allies. When a friendly creature you can see is<br> the target of a ranged attack, or forced to make a Dexterity saving throw, and you can see the source<br> of the effect, you can use your reaction to move up to half your speed towards the friendly creature. You must end this move closer to the ally than you started. If you end this movement between your ally and the source of the effect, you provide cover for the attack.
+
+Additionally, you provide three-quarters cover, instead of half-cover, to creatures your size, and you provide full cover to creatures smaller than you.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Overwhelming Cleave
+Starting at 10th level, when you successfully push a creature into a surface or another creature while raging, the pushed creature takes kinetic damage equal to your Rage Damage. Additionally, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
+
+### Relentless Assault
+At 14th level, you're able to charge in unerring bursts. As an action, you can charge up to twice your speed in a straight line without provoking opportunity attacks. Each creature within 5 feet of your path must make a Strength or Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier, the target chooses the ability they use use). On a failed save, a creature takes damage equal to your Strength modifier + your Rage Bonus and is pushed back 5 feet in a direction of your choice. Creatures smaller than you make this save with disadvantage. When you end this movement, if a creature is within 5 feet of you, you can make one melee weapon attack (no action required). On a hit, the creature takes additional damage equal to your berserker level.
+
+Once you've used this feature, you must complete<br> a short or long rest before you can use it again.
+
+<img src='https://www.gmbinder.com/images/TRHOCmr.png' style='position:absolute;bottom:-50px;right:8px;width:545px;transform:scaleX(-1);z-index:1000'/>
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
@@ -3233,16 +3270,16 @@ Your beast companion's armor class becomes 14.
 #### Powerful Build
 Your beast companion counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
 
-#### Size Large
+#### Size: Large
 _Prerequisite: Size Medium_<br>
-Your beast companion's size is Large. Its hit points increase by an amount equal to twice its level, its Hit Die becomes a d10, its natural weapon damage die becomes a d10, and it's walking speed increases to 35.
+Your beast companion's size is Large. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d10, its natural weapon damage die becomes a d10, and it's walking speed increases to 35.
 
-#### Size Medium
+#### Size: Medium
 _Prerequisite: Size Small_<br>
-Your beast companion's size is Medium. Its hit points increase by an amount equal to twice its level, its Hit Die becomes a d8, its natural weapon damage die becomes a d8, and its walking speed increases to 30.
+Your beast companion's size is Medium. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d8, its natural weapon damage die becomes a d8, and its walking speed increases to 30.
 
-#### Size Small
-Your beast companion's size is Small. Its hit points increase by an amount equal to twice its level, its Hit Die becomes a d6, its natural weapon damage die becomes a d6, and it's walking speed increases to 25.
+#### Size: Small
+Your beast companion's size is Small. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d6, its natural weapon damage die becomes a d6, and it's walking speed increases to 25.
 
 #### Sturdy-Legged
 Your beast companion's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start, and it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
