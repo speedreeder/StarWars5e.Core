@@ -8,20 +8,20 @@ namespace StarWars5e.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ReferenceTableController : ControllerBase
+    public class ArmorPropertyController : ControllerBase
     {
         private readonly IAzureTableStorage _tableStorage;
 
-        public ReferenceTableController(IAzureTableStorage tableStorage)
+        public ArmorPropertyController(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ReferenceTable>>> Get()
+        public async Task<ActionResult<IEnumerable<ArmorProperty>>> Get()
         {
-            var referenceTables = await _tableStorage.GetAllAsync<ReferenceTable>("referenceTables");
-            return Ok(referenceTables);
+            var armorProperties = await _tableStorage.GetAllAsync<ArmorProperty>("armorProperties");
+            return Ok(armorProperties);
         }
     }
 }

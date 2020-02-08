@@ -29,6 +29,7 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
+        private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
         private readonly List<string> _phbFilesNames = new List<string>
@@ -50,29 +51,37 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
             _globalSearchTermRepository = globalSearchTermRepository;
 
-            var nameStartingLineProperties = new Dictionary<string, string>
+            var weaponProperties = new List<(string name, string startLine, int occurence)>
             {
-                {"Ammunition", "#### Ammunition"},
-                {"Burst", "#### Burst" },
-                {"Double", "#### Double" },
-                {"Finesse", "#### Finesse" },
-                {"Fixed", "#### Fixed" },
-                {"Heavy", "#### Heavy" },
-                {"Hidden", "#### Hidden" },
-                {"Light", "#### Light" },
-                {"Luminous", "#### Luminous" },
-                {"Range", "#### Range" },
-                {"Reach", "#### Reach" },
-                {"Reload", "#### Reload" },
-                {"Returning", "#### Returning" },
-                {"Special", "#### Special" },
-                {"Strength", "#### Strength" },
-                {"Thrown", "#### Thrown" },
-                {"Two-Handed", "#### Two-Handed" },
-                {"Versatile", "#### Versatile" }
+                ("Ammunition", "#### Ammunition", 1),
+                ("Burst", "#### Burst", 1),
+                ("Double", "#### Double", 1),
+                ("Finesse", "#### Finesse", 1),
+                ("Fixed", "#### Fixed", 1),
+                ("Heavy", "#### Heavy", 3 ),
+                ("Hidden", "#### Hidden", 1),
+                ("Light", "#### Light", 1),
+                ("Luminous", "#### Luminous", 1),
+                ("Range", "#### Range", 1),
+                ("Reach", "#### Reach", 1),
+                ("Reload", "#### Reload", 1),
+                ("Returning", "#### Returning", 1),
+                ("Special", "#### Special", 1),
+                ("Strength", "#### Strength", 2 ),
+                ("Thrown", "#### Thrown", 1),
+                ("Two-Handed", "#### Two-Handed", 1),
+                ("Versatile", "#### Versatile", 1)
             };
 
-            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, nameStartingLineProperties);
+            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, weaponProperties);
+
+            var armorProperties = new List<(string name, string startLine, int occurence)>
+            {
+                ("Bulky", "#### Bulky", 1),
+                ("Strength", "#### Strength", 1)
+            };
+
+            _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, armorProperties);
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("player-handbook-rules");
@@ -328,6 +337,19 @@ namespace StarWars5e.Parser.Managers
                 }
 
                 await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload PHB weapon properties.");
+            }
+
+            try
+            {
+                var armorProperties =
+                    await _armorPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList());
+
+                await _tableStorage.AddBatchAsync<ArmorProperty>("armorProperties", armorProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

@@ -25,13 +25,13 @@ namespace StarWars5e.Parser.Managers
             _globalSearchTermRepository = globalSearchTermRepository;
             _equipmentProcessor = new ExpandedContentEquipmentProcessor();
 
-            var nameStartingLineProperties = new Dictionary<string, string>
+            var nameStartingLineProperties = new List<(string name, string startLine, int occurence)>
             {
-                {"Auto", "#### Auto"},
-                {"Defensive", "#### Defensive"},
-                {"Disguised", "#### Disguised"},
-                {"Disintegrate", "#### Disintegrate" },
-                {"Shocking", "#### Shocking"}
+                ("Auto", "#### Auto", 1),
+                ("Defensive", "#### Defensive", 1),
+                ("Disguised", "#### Disguised", 1),
+                ("Disintegrate", "#### Disintegrate", 1),
+                ("Shocking", "#### Shocking", 1)
             };
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, nameStartingLineProperties);

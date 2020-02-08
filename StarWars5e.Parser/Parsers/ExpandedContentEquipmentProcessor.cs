@@ -257,14 +257,21 @@ namespace StarWars5e.Parser.Parsers
                             ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
                             : 0;
 
-                        var weightMatch = Regex.Match(tableLineSplit[7], @"\d+");
+                        var weightMatch = Regex.Match(tableLineSplit[4], @"\d+");
                         armor.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
+                        armor.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
+                            .Where(p => !string.IsNullOrWhiteSpace(p))
+                            .ToList();
+                        armor.PropertiesMap = armor.Properties.ToDictionary(
+                            s => ArmorPropertyConstant.ArmorProperties.FirstOrDefault(f =>
+                                     s.Contains(f, StringComparison.InvariantCultureIgnoreCase)) ?? "", s => s);
+
                         equipmentList.Add(armor);
 
-                        armor.AC = tableLineSplit[4].Trim().RemoveHtmlWhitespace();
-                        armor.StrengthRequirement = tableLineSplit[5].Trim().RemoveHtmlWhitespace();
-                        armor.StealthDisadvantage = tableLineSplit[6].Trim().RemoveHtmlWhitespace()
-                            .Equals("Disadvantage", StringComparison.InvariantCultureIgnoreCase);
+                        armor.AC = tableLineSplit[3].Trim().RemoveHtmlWhitespace();
+                        armor.StrengthRequirement = Regex.Match(tableLineSplit[5].Trim().RemoveHtmlWhitespace(), @"[,]*\s+?:([sS]trength\s+\d)").Value;
+                        armor.StealthDisadvantage = tableLineSplit[5].Trim().RemoveHtmlWhitespace()
+                            .Contains("Bulky", StringComparison.InvariantCultureIgnoreCase);
 
                         var armorDescriptionStartLine =
                             lines.FindIndex(f =>

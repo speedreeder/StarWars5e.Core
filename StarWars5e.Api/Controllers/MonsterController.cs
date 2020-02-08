@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Monster;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -10,9 +10,9 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class MonsterController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
 
-        public MonsterController(ITableStorage tableStorage)
+        public MonsterController(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }

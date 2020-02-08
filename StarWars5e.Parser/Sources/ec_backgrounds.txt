@@ -12,14 +12,14 @@
 |Courtier                   | 6|
 |Crime Lord                 | 7|
 |Dathomir Witch             | 8|
-|Far Traveler               | 9|
-|Farmer                     |10|
-|Folk Hero                  |11|
-|Force Adept                |12|
-|Gladiator                  |13|
-|Guild Adventurer           |14|
-|Guild Artisan              |15|
-|Guild Merchant             |16|
+|Faction Adventurer         | 9|
+|Faction Artisan            |10|
+|Faction Merchant           |11|
+|Far Traveler               |12|
+|Farmer                     |13|
+|Folk Hero                  |14|
+|Force Adept                |15|
+|Gladiator                  |16|
 
 |||
 |:--|--:|
@@ -77,7 +77,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Crafter|
 |7|Athlete|
 |8|Weapon Expert|
@@ -348,7 +348,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Master of Disguise|
 |7|Linguist|
 |8|Force of Personality|
@@ -534,11 +534,11 @@ As a further embodiment of the experience and training of your background, you c
 |1|Silver-Tongued|
 |2|Empathic|
 |3|Threatening|
-|4|Charming Persona|
+|4|Charmer|
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Linguist|
 |7|Inspiring Leader|
 |8|Observant|
@@ -601,7 +601,7 @@ You are a part of one of the many Force-sensitive clans on Dathomir. You and you
 
 ___
 - **Skill Proficiencies:** Choose two from Acrobatics, Animal Handling, Lore, or Nature
-- **Tool Proficiencies:** Herbalism kit
+- **Tool Proficiencies:** Bioanalysis kit
 - **Languages:** One of your choice
 - **Equipment:** A copy of your clan's book of laws, a set of traveler's clothes, and a pouch containing 150 cr
 
@@ -643,7 +643,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Herbalist|
+|5|Bioanalyst|
 |6|Linguist|
 |7|Force Sensitive|
 |8|Force of Personality|
@@ -701,6 +701,269 @@ Dathomir Witches are shaped by their training. They study their book of laws and
 
 \pagebreak
 
+## Faction Adventurer
+Adventuring is nothing new to you. Due to the circumstances of how you were raised, you have been involved with wandering heroes for most of your life. Maybe you were part of an adventuring band previously, but split with them after a disagreement or tragedy. Or, perhaps you worked around heroes in a lesser role for most of your young life, and you are now ready to graduate to the front lines.
+___
+- **Skill Proficiencies:** Choose two from Athletics, Investigation, Nature, and Survival
+- **Tool Proficiencies:** Your choice demolitions kit, security kit, or slicer's kit
+- **Languages:** One of your choice
+- **Equipment:** 50 feet of rope, a small knife, a trophy, a set of traveler's clothes, and a belt pouch containing 100 cr. 
+
+#### Adventuring Origin
+You have either been adventuring or assisting other in adventuring since a very young age. Perhaps your parents were famous adventurers, or a group of adventurers found and raised you as their own. Perhaps you were trained to be a professional monster hunter, or maybe another guild member saved your life so you swore loyalty to them. Work with your GM to determine the nature of your adventuring.
+
+### Feature: Guild Membership
+You are an established and respected member of an adventurer's guild, allowing you to rely on certain benefits that membership provides. If you are in a town with a headquarters for your adventurer's guild and you are in good standing with the guild, you will be allowed to look at the job postings and find adventuring work to earn money. 
+
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild's good graces.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Brawny|
+|2|Investigator|
+|3|Naturalist|
+|4|Survivalist|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Demolitionist|
+|6|Bypasser|
+|7|Slicer|
+|8|Linguist|
+
+</div>
+
+#### Suggested Characteristics
+Adventurers are well adjusted to life on the road. They are often comfortable doing dangerous things like dungeoneering and fighting and can stay level-headed in the face of danger, but they may not be so well adapted to other parts of life.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+| d8    | Personality Trait |
+|:----:|:-------------|
+| 1 | I can't bring myself to ignore a cry for help. |
+| 2 | I hold onto every mildly interesting item I find, in case it comes in handy someday. |
+| 3 | After all the weirdness I've seen on my travels, nothing can surprise me. |
+| 4 | I spit and laugh in the face of danger. |
+| 5 | Giving up is never an option for me. |
+| 6 | I feel more at home in monster-infested dungeons than in civilized society. |
+| 7 | I fill silence with wacky stories about my past misadventures, which may or may not be exaggerated. |
+| 8 | My sense of humor is as dark and grim as the dungeons I explore. |
+
+| d6    | Ideal |
+|:----:|:-------------|
+| 1 | **Adventure.** All I want is to travel the world and see amazing things. (Any) |
+| 2 | **Heroism.** I am dedicated to helping people in need. (Light) |
+| 3 | **Order.** I use my power to save the world from the forces of destruction and chaos. (Lawful) |
+| 4 | **Excitement.** An ordinary life is boring, I'd rather travel around and find trouble. (Chaotic) |
+| 5 | **Power.** The more powerful enemies I defeat, the stronger I become. (Neutral) |
+| 6 | **Aspiration.** I want to go down in history as a brave, powerful hero. (Any) |
+
+| d6    | Bond |
+|:----:|:-------------|
+| 1 | I carry with me a strange artifact that I found in a dungeon, but I don't know what it's for. |
+| 2 | My adventuring party means the world to me. |
+| 3 | I have sworn to hunt down the monster or villain who killed my former adventuring party. |
+| 4 | I adventure in order to bring honor (or money) to my family. |
+| 5 | There is a faraway place I've always wanted to visit, and I won't stop until I make it there. |
+| 6 | All I want is to make the ones who trained me in the way of adventuring proud. |
+
+| d6    | Flaw |
+|:----:|:-------------|
+| 1 | I default to solving problems with violence even when it's unwise or immoral. |
+| 2 | I expect to be lavished with praise whenever I do my job, and I get mad when no one acknowledges me.  |
+| 3 | All members of "Dark" species must be Dark, so I will never trust them. |
+| 4 | Waiting around makes me antsy. I'd rather do something stupid than do nothing at all. |
+| 5 | My habit of looting dungeons makes me swipe things I shouldn't. |
+| 6 | A monstrous enemy I faced in the past still leaves me quivering with fear. |
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
+## Faction Artisan
+You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
+___
+- **Skill Proficiencies:** Choose two from Athletics, Insight, Persuasion, and Technology
+- **Tool Proficiencies:** One type of artisan's tools, biochemist's kit, or chef's kit
+- **Languages:** One of your choice
+- **Equipment:** A set of tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 150 cr
+
+#### Faction Business
+Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your GM to determine the nature of your guild.
+
+### Feature: Guild Membership
+As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
+
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild's good graces.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Brawny|
+|2|Empathic|
+|3|Charmer|
+|4|Techie|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Crafter|
+|6|Linguist|
+|7|Biochemist|
+|8|Gourmand|
+
+</div>
+
+#### Suggested Characteristics
+Guild artisans are among the most ordinary people in the world—until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:----------|
+|1|I believe that anything worth doing is worth doing right. I can't help it— I'm a perfectionist.|
+|2|I'm a snob who looks down on those who can't appreciate fine art.|
+|3|I always want to know how things work and what makes people tick.|
+|4|I'm full of witty aphorisms and have a proverb for every occasion.|
+|5|I'm rude to people who lack my commitment to hard work and fair play.|
+|6|I like to talk at length about my profession.|
+|7|I don't part with my money easily and will haggle tirelessly to get the best deal possible.|
+|8|I believe I'm well known for my work, and I'm always taken aback when people haven't heard of me.|
+
+|d6|Ideal|
+|:---:|:----------|
+|1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
+|2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
+|3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
+|4|**Greed.** I'm only in it for the money. (Dark)|
+|5|**People.** I'm committed to the people I care about, not to ideals. (Neutral)|
+|6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|The workshop where I learned my trade is the most important place in the world to me.|
+|2|I created a great work for someone, and then found them unworthy of it; I now search for someone worthy.|
+|3|I owe my guild a great debt for forging me into the person I am today.|
+|4|I pursue wealth to secure someone's love.|
+|5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
+|6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|I'll do anything to get my hands on something rare or priceless.|
+|2|I'm quick to assume that someone is trying to cheat me.|
+|3|No one must ever learn that I once stole money from guild coffers.|
+|4|I'm never satisfied with what I have— I always want more.|
+|5|I would kill to acquire a noble title.|
+|6|I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
+## Faction Merchant
+Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others. Your guild might be a large merchant consortium (or family) with interests across the galaxy. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.
+___
+- **Skill Proficiencies:** Choose two from Deception, Insight, Performance, and Persuasion
+- **Languages:** Two of your choice
+- **Equipment:** A letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 150 cr
+
+#### Faction Business
+Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your GM to determine the nature of your guild.
+
+### Feature: Guild Membership
+As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
+
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild's good graces.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Silver-Tongued|
+|2|Empathic|
+|3|Performer|
+|4|Charmer|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Linguist|
+|6|Inspiring Leader|
+|7|Gourmand|
+|8|Practiced|
+
+</div>
+
+#### Suggested Characteristics
+Guild merchants are among the most ordinary people in the world—until they abscond to take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I believe that anything worth doing is worth doing right. I can't help it— I'm a perfectionist.|
+|2|I'm a snob who looks down on those who can't appreciate fine art.|
+|3|I always want to know how things work and what makes people tick.|
+|4|I'm full of witty aphorisms and have a proverb for every occasion.|
+|5|I'm rude to people who lack my commitment to hard work and fair play.|
+|6|I like to talk at length about my profession.|
+|7|I don't part with my money easily and will haggle tirelessly to get the best deal possible.|
+|8|I believe I'm well known for my work, and I'm always taken aback when people haven't heard of me.|
+
+|d6|Ideal|
+|:---:|:----------|
+|1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
+|2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
+|3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
+|4|**Greed.** I'm only in it for the money. (Dark)|
+|5|**People.** I'm committed to the people I care about, not to ideals. (Neutral)|
+|6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|The workshop where I learned my trade is the most important place in the world to me.|
+|2|I commissioned a great work for someone unworthy of it; I now search for someone worthy.|
+|3|I owe my guild a great debt for forging me into the person I am today.|
+|4|I pursue wealth to secure someone's love.|
+|5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
+|6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|I'll do anything to get my hands on something rare or priceless.|
+|2|I'm quick to assume that someone is trying to cheat me.|
+|3|No one must ever learn that I once stole money from guild coffers.|
+|4|I'm never satisfied with what I have— I always want more.|
+|5|I would kill to acquire a noble title.|
+|6|I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+\pagebreak
+
 ## Far Traveler
 Almost all of the common people and other folk that one might encounter throughout the galaxy have one thing in common: they live  their lives without traveling more than a few miles from where they were born.
 
@@ -747,11 +1010,11 @@ As a further embodiment of the experience and training of your background, you c
 |1|Empathic|
 |2|Investigator|
 |3|Perceptive|
-|4|Charming Persona|
+|4|Charmer|
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Linguist|
 |7|Athlete|
 |8|Practiced|
@@ -811,7 +1074,7 @@ The distance you've traveled manifests itself in the way you speak and carry you
 You are an experienced farmer, cultivating and harvesting nature for the provision of others. You have spent a lot of time surviving outside population centers, but know how to sell your product either directly or to merchants, legal or otherwise.  Because you deal with commodities, either as input or as produce, you know how to get things done and how to live on razor-thin margins. You have survived up to this point by working long, hard, and smart.
 ___
 - **Skill Proficiencies:** Choose two from Animal Handling, Nature, Persuasion, and Technology
-- **Tool Proficiencies:** One instrument and one type of artisan's tools or herbalist's kit
+- **Tool Proficiencies:** One instrument and one type of artisan's tools or bioanalysis kit
 - **Equipment:** A rough instrument you are proficient with, a set of tools (one of your choice), a sturdy knife, a set of common clothes, and a belt pouch containing 50 cr
 
 #### Farming Specialty
@@ -847,14 +1110,14 @@ As a further embodiment of the experience and training of your background, you c
 |:--:|:--:|
 |1|Animal Handler|
 |2|Naturalist|
-|3|Charming Persona|
+|3|Charmer|
 |4|Techie|
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Crafter|
-|7|Herbalist|
+|7|Bioanalyst|
 |8|Haggler|
 
 </div>
@@ -1028,12 +1291,12 @@ As a further embodiment of the experience and training of your background, you c
 |1|Silver-Tongued|
 |2|Empathic|
 |3|Perceptive|
-|4|Charming Persona|
+|4|Charmer|
 
 |d8|Feat|
 |:--:|:--:|
 |5|Crafter|
-|6|Entertaining Competitor|
+|6|Entertainer|
 |7|Force of Personality|
 |8|Force Sensitive|
 
@@ -1115,7 +1378,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Linguist|
 |7|Durable|
 |8|Martial Adept|
@@ -1173,276 +1436,13 @@ Successful entertainers have to be able to capture and hold an audience's attent
 
 \pagebreak
 
-## Guild Adventurer
-Adventuring is nothing new to you. Due to the circumstances of how you were raised, you have been involved with wandering heroes for most of your life. Maybe you were part of an adventuring band previously, but split with them after a disagreement or tragedy. Or, perhaps you worked around heroes in a lesser role for most of your young life, and you are now ready to graduate to the front lines.
-___
-- **Skill Proficiencies:** Choose two from Athletics, Investigation, Nature, and Survival
-- **Tool Proficiencies:** Your choice demolitions kit, security kit, or slicer's kit
-- **Languages:** One of your choice
-- **Equipment:** 50 feet of rope, a small knife, a trophy, a set of traveler's clothes, and a belt pouch containing 100 cr. 
-
-#### Adventuring Origin
-You have either been adventuring or assisting other in adventuring since a very young age. Perhaps your parents were famous adventurers, or a group of adventurers found and raised you as their own. Perhaps you were trained to be a professional monster hunter, or maybe another guild member saved your life so you swore loyalty to them. Work with your GM to determine the nature of your adventuring.
-
-### Feature: Guild Membership
-You are an established and respected member of an adventurer's guild, allowing you to rely on certain benefits that membership provides. If you are in a town with a headquarters for your adventurer's guild and you are in good standing with the guild, you will be allowed to look at the job postings and find adventuring work to earn money. 
-
-Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild's good graces.
-
-### Background Feat
-As a further embodiment of the experience and training of your background, you can choose from the following feats:
-
-<div style='column-count:2'>
-
-|d8|Feat|
-|:--:|:--:|
-|1|Brawny|
-|2|Investigator|
-|3|Naturalist|
-|4|Survivalist|
-
-|d8|Feat|
-|:--:|:--:|
-|5|Demolitionist|
-|6|Bypasser|
-|7|Slicer|
-|8|Linguist|
-
-</div>
-
-#### Suggested Characteristics
-Adventurers are well adjusted to life on the road. They are often comfortable doing dangerous things like dungeoneering and fighting and can stay level-headed in the face of danger, but they may not be so well adapted to other parts of life.
-
-\columnbreak
-
-<div style='margin-top:26px'></div>
-
-| d8    | Personality Trait |
-|:----:|:-------------|
-| 1 | I can't bring myself to ignore a cry for help. |
-| 2 | I hold onto every mildly interesting item I find, in case it comes in handy someday. |
-| 3 | After all the weirdness I've seen on my travels, nothing can surprise me. |
-| 4 | I spit and laugh in the face of danger. |
-| 5 | Giving up is never an option for me. |
-| 6 | I feel more at home in monster-infested dungeons than in civilized society. |
-| 7 | I fill silence with wacky stories about my past misadventures, which may or may not be exaggerated. |
-| 8 | My sense of humor is as dark and grim as the dungeons I explore. |
-
-| d6    | Ideal |
-|:----:|:-------------|
-| 1 | **Adventure.** All I want is to travel the world and see amazing things. (Any) |
-| 2 | **Heroism.** I am dedicated to helping people in need. (Light) |
-| 3 | **Order.** I use my power to save the world from the forces of destruction and chaos. (Lawful) |
-| 4 | **Excitement.** An ordinary life is boring, I'd rather travel around and find trouble. (Chaotic) |
-| 5 | **Power.** The more powerful enemies I defeat, the stronger I become. (Neutral) |
-| 6 | **Aspiration.** I want to go down in history as a brave, powerful hero. (Any) |
-
-| d6    | Bond |
-|:----:|:-------------|
-| 1 | I carry with me a strange artifact that I found in a dungeon, but I don't know what it's for. |
-| 2 | My adventuring party means the world to me. |
-| 3 | I have sworn to hunt down the monster or villain who killed my former adventuring party. |
-| 4 | I adventure in order to bring honor (or money) to my family. |
-| 5 | There is a faraway place I've always wanted to visit, and I won't stop until I make it there. |
-| 6 | All I want is to make the ones who trained me in the way of adventuring proud. |
-
-| d6    | Flaw |
-|:----:|:-------------|
-| 1 | I default to solving problems with violence even when it's unwise or immoral. |
-| 2 | I expect to be lavished with praise whenever I do my job, and I get mad when no one acknowledges me.  |
-| 3 | All members of "Dark" species must be Dark, so I will never trust them. |
-| 4 | Waiting around makes me antsy. I'd rather do something stupid than do nothing at all. |
-| 5 | My habit of looting dungeons makes me swipe things I shouldn't. |
-| 6 | A monstrous enemy I faced in the past still leaves me quivering with fear. |
-
-<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
-
-\pagebreak
-
-\pagebreak
-
-## Guild Artisan
-You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
-___
-- **Skill Proficiencies:** Choose two from Athletics, Insight, Persuasion, and Technology
-- **Tool Proficiencies:** One type of artisan's tools, biochemist's kit, or chef's kit
-- **Languages:** One of your choice
-- **Equipment:** A set of tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 150 cr
-
-#### Guild Business
-Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your GM to determine the nature of your guild.
-
-### Feature: Guild Membership
-As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
-
-Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild's good graces.
-
-### Background Feat
-As a further embodiment of the experience and training of your background, you can choose from the following feats:
-
-<div style='column-count:2'>
-
-|d8|Feat|
-|:--:|:--:|
-|1|Brawny|
-|2|Empathic|
-|3|Charming Persona|
-|4|Techie|
-
-|d8|Feat|
-|:--:|:--:|
-|5|Crafter|
-|6|Linguist|
-|7|Biochemist|
-|8|Gourmand|
-
-</div>
-
-#### Suggested Characteristics
-Guild artisans are among the most ordinary people in the world—until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.
-
-\columnbreak
-
-<div style='margin-top:26px'></div>
-
-|d8|Personality Trait|
-|:---:|:----------|
-|1|I believe that anything worth doing is worth doing right. I can't help it— I'm a perfectionist.|
-|2|I'm a snob who looks down on those who can't appreciate fine art.|
-|3|I always want to know how things work and what makes people tick.|
-|4|I'm full of witty aphorisms and have a proverb for every occasion.|
-|5|I'm rude to people who lack my commitment to hard work and fair play.|
-|6|I like to talk at length about my profession.|
-|7|I don't part with my money easily and will haggle tirelessly to get the best deal possible.|
-|8|I believe I'm well known for my work, and I'm always taken aback when people haven't heard of me.|
-
-|d6|Ideal|
-|:---:|:----------|
-|1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
-|2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
-|3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
-|4|**Greed.** I'm only in it for the money. (Dark)|
-|5|**People.** I'm committed to the people I care about, not to ideals. (Neutral)|
-|6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
-
-|d6|Bond|
-|:---:|:----------|
-|1|The workshop where I learned my trade is the most important place in the world to me.|
-|2|I created a great work for someone, and then found them unworthy of it; I now search for someone worthy.|
-|3|I owe my guild a great debt for forging me into the person I am today.|
-|4|I pursue wealth to secure someone's love.|
-|5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
-|6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
-
-|d6|Flaw|
-|:---:|:----------|
-|1|I'll do anything to get my hands on something rare or priceless.|
-|2|I'm quick to assume that someone is trying to cheat me.|
-|3|No one must ever learn that I once stole money from guild coffers.|
-|4|I'm never satisfied with what I have— I always want more.|
-|5|I would kill to acquire a noble title.|
-|6|I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.|
-
-<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
-
-\pagebreak
-
-\pagebreak
-
-## Guild Merchant
-Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others. Your guild might be a large merchant consortium (or family) with interests across the galaxy. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.
-___
-- **Skill Proficiencies:** Choose two from Deception, Insight, Performance, and Persuasion
-- **Languages:** Two of your choice
-- **Equipment:** A letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 150 cr
-
-#### Guild Business
-Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your GM to determine the nature of your guild.
-
-### Feature: Guild Membership
-As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
-
-Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. You must pay dues of 50 cr per month to the guild. Your dues must be current to remain in the guild's good graces.
-
-### Background Feat
-As a further embodiment of the experience and training of your background, you can choose from the following feats:
-
-<div style='column-count:2'>
-
-|d8|Feat|
-|:--:|:--:|
-|1|Silver-Tongued|
-|2|Empathic|
-|3|Performer|
-|4|Charming Persona|
-
-|d8|Feat|
-|:--:|:--:|
-|5|Linguist|
-|6|Inspiring Leader|
-|7|Gourmand|
-|8|Practiced|
-
-</div>
-
-#### Suggested Characteristics
-Guild merchants are among the most ordinary people in the world—until they abscond to take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.
-
-\columnbreak
-
-<div style='margin-top:26px'></div>
-
-|d8|Personality Trait|
-|:---:|:---------|
-|1|I believe that anything worth doing is worth doing right. I can't help it— I'm a perfectionist.|
-|2|I'm a snob who looks down on those who can't appreciate fine art.|
-|3|I always want to know how things work and what makes people tick.|
-|4|I'm full of witty aphorisms and have a proverb for every occasion.|
-|5|I'm rude to people who lack my commitment to hard work and fair play.|
-|6|I like to talk at length about my profession.|
-|7|I don't part with my money easily and will haggle tirelessly to get the best deal possible.|
-|8|I believe I'm well known for my work, and I'm always taken aback when people haven't heard of me.|
-
-|d6|Ideal|
-|:---:|:----------|
-|1|**Community.** It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)|
-|2|**Generosity.** My talents were given to me so that I could use them to benefit the world. (Light)|
-|3|**Freedom.** Everyone should be free to pursue his or her own livelihood. (Chaotic)|
-|4|**Greed.** I'm only in it for the money. (Dark)|
-|5|**People.** I'm committed to the people I care about, not to ideals. (Neutral)|
-|6|**Aspiration.** I work hard to be the best there is at my craft. (Any)|
-
-|d6|Bond|
-|:---:|:----------|
-|1|The workshop where I learned my trade is the most important place in the world to me.|
-|2|I commissioned a great work for someone unworthy of it; I now search for someone worthy.|
-|3|I owe my guild a great debt for forging me into the person I am today.|
-|4|I pursue wealth to secure someone's love.|
-|5|One day I will return to my guild and prove that I am the greatest artisan of them all.|
-|6|I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.|
-
-|d6|Flaw|
-|:---:|:----------|
-|1|I'll do anything to get my hands on something rare or priceless.|
-|2|I'm quick to assume that someone is trying to cheat me.|
-|3|No one must ever learn that I once stole money from guild coffers.|
-|4|I'm never satisfied with what I have— I always want more.|
-|5|I would kill to acquire a noble title.|
-|6|I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.|
-
-<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
-
-\pagebreak
-
-\pagebreak
-
 ## Hermit
 You lived in seclusion—either in a community or alone—for a formative part of your life. In your time apart from society, you found quiet, solitude, and perhaps some of the answers you were looking for.
 ___
 - **Skill Proficiencies:** Choose two from Animal Handling, Lore, Medicine, and Nature
-- **Tool Proficiencies:** Herbalism kit
+- **Tool Proficiencies:** Bioanalysis kit
 - **Languages:** One of your choice
-- **Equipment:** A diary of your experiences, a winter blanket, a set of common clothes, an herbalism kit, and 50 cr
+- **Equipment:** A diary of your experiences, a winter blanket, a set of common clothes, a bioanalysis kit, and 50 cr
 
 #### Life of Seclusion
 What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your GM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion.
@@ -1473,7 +1473,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Herbalist|
+|5|Bioanalyst|
 |6|Alert|
 |7|Dungeon Delver|
 |8|Healer|
@@ -1850,7 +1850,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Crafter|
 |7|Genius Mechanic|
 |8|Durable|
@@ -1934,7 +1934,7 @@ As a further embodiment of the experience and training of your background, you c
 |1|Empathic|
 |2|Investigator|
 |3|Performer|
-|4|Charming Persona|
+|4|Charmer|
 
 |d8|Feat|
 |:--:|:--:|
@@ -2021,7 +2021,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Linguist|
 |7|Gourmand|
 |8|Dungeon Delver|
@@ -2125,7 +2125,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Linguist|
 |7|Feigned Confidence|
 |8|Snappy Interjection|
@@ -2227,7 +2227,7 @@ As a further embodiment of the experience and training of your background, you c
 |5|Master of Disguise|
 |6|Linguist|
 |7|Observant|
-|8|Entertaining Competitor|
+|8|Entertainer|
 
 </div>
 
@@ -2299,14 +2299,14 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|1|Athlete|
+|1|Brawny|
 |2|Silver-Tongued|
 |3|Threatening|
 |4|Ace Pilot|
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Demolitionist|
 |7|Bypasser|
 |8|Slicer|
@@ -2410,7 +2410,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Genius Mechanic|
 |7|Linguist|
 |8|Observant|
@@ -2491,7 +2491,7 @@ As a further embodiment of the experience and training of your background, you c
 |1|Empathic|
 |2|Loremaster|
 |3|Performer|
-|4|Charming Persona|
+|4|Charmer|
 
 |d8|Feat|
 |:--:|:--:|
@@ -2668,7 +2668,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Entertaining Competitor|
+|5|Entertainer|
 |6|Crafter|
 |7|Linguist|
 |8|Feigned Confidence|

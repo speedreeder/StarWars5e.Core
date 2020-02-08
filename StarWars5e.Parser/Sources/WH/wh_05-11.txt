@@ -1050,10 +1050,7 @@ A droid can have a number of protocol customizations up to the maximum allowed b
 \pagebreak
 
 # Chapter 9: Tool Proficiencies
-
-<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:29px' />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">ool proficiencies are a useful way to highlight a</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;character's background and talents. At the game table, though, the use of tools sometimes overlaps with the use of skills, and it can be unclear how to use them together in certain situations. This section offers various ways that tools can be used in the game.
+Tool proficiencies are a useful way to highlight a character's background and talents. At the game table, though, the use of tools sometimes overlaps with the use of skills, and it can be unclear how to use them together in certain situations. This section offers various ways that tools can be used in the game.
 
 To make tool proficiencies more attractive choices for the characters, you can use the methods outlined below.
 
@@ -1063,7 +1060,7 @@ If the use of a tool and the use of a skill both apply to a check, and a charact
 #### Added Benefit
 Additionally, consider giving characters who have both a relevant skill and a relevant tool proficiency an added benefit on a successful check. This benefit might be in the form of more detailed information or could simulate the effect of a different sort of successful check. For example, a character proficient with mason's tools makes a successful Wisdom (Perception) check to find a secret door in a wall. Not only does the character notice the door's presence, but you decide that the tool proficiency entitles the character to an automatic success on an Intelligence (Investigation) check to determine how to open the door.
 
-## Tool Descriptions
+### Tool Descriptions
 The following sections go into detail about the tools presented in the *Player's Handbook*, offering advice on how to use them in a campaign.
 
 The first paragraph in each description gives details on what a set of tools is made up of. A character who is proficient with a tool knows how to use all of its component parts.
@@ -1074,6 +1071,8 @@ Every tool potentially provides advantage on a check when used in conjunction wi
 With respect to skills, the system is mildly abstract in terms of what a tool proficiency represents; essentially, it assumes that a character who has proficiency with a tool also has learned about facets of the trade or profession that are not necessarily associated with the use of the tool.
 
 \columnbreak
+
+<div style='margin-top:28px'></div>
 
 Additionally, you can consider giving a character extra information or an added benefit on a skill check. The text provides some examples and ideas when this opportunity is relevant.
 
@@ -1089,25 +1088,25 @@ A table at the end of each section lists activities that a tool can be used to p
 |Armormech's tools|Armor, shields|
 |Armstech's tools|Blasters, vibroweapons|
 |Artificer's tools|Focus generators, holocrons, lightweapons|
+|Artist's tools|Artwork, sculptures|
 |Astrotech's tools|Droid customizations, droids|
 |Biochemist's kit|Adrenals, medpacs, stimpacs|
 |Biotech's tools|Cybernetic augmentations|
-|Brewer's tools|Alcohol, drugs|
-|Carpenter's tools|Wood structures|
+|Brewer's tools|Alcohol|
 |Chef's kit|Food|
 |Cobbler's tools|Boots|
+|Constructor's tools|Buildings and structures|
 |Cybertech's tools|Datacrons, gadgets, wristpads|
 |Demolitions kit|Explosives|
 |Disguise kit|Disguises|
 |Forgery kit|Falsified documents|
-|Herbalism kit|Antitoxins|
+|Bioanalysis kit|Antitoxins|
 |Jeweler's tools|Jewelry|
-|Mason's tools|Stone and metal structures|
 |Mechanic's kit|Vehicle components, vehicles|
-|Painter's tools|Artwork, sculptures|
 |Poisoner's kit|Poisons|
 |Security kit|Containers, locks|
 |Slicer's kit|Computers, software|
+|Spicer's tools|Drugs|
 |Surveyor's tools|Maps|
 |Synthweaver's tools|Clothing|
 |Tinker's tools|Augments, barriers, trinkets|
@@ -1272,27 +1271,6 @@ Your knowledge of brewing enables you to purify water that would otherwise be un
 |Identify alcohol|15|
 |Ignore effects of alcohol|20|
 
-### Carpenter's Tools
-Carpenter's tools include all of the necessary components to build wooden furnitures and structures.
-
-#### Lore
-This tool proficiency aids you in identifying the use and the origin of wooden buildings and other large wooden objects.
-
-#### Investigation/Perception
-You gain additional insight when inspecting areas within wooden structures, because you know tricks of construction that can conceal areas from discovery.
-
-#### Fortify
-With 1 minute of work and raw materials, you can make a door or window harder to force open. Increase the DC needed to open it by 5.
-
-#### Temporary Shelter
-As part of a long rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses 1d3 days after being assembled.
-
-##### Sample Activities
-|Activity|DC|
-|:--|:--:|
-|Design a complex wooden structure|15|
-|Pry apart a door|20|
-
 <div class='footnote'>CHAPTER 9 | TOOL PROFICIENCIES</div>
 
 \pagebreak
@@ -1339,6 +1317,33 @@ With 8 hours of work, you can add a hidden compartment to a pair of boots. The c
 |:--|:--:|
 |Determine a boot's age and origin|10|
 |Find a hidden compartment in a boot heel|15|
+
+### Constructor's Tools
+Constructor's tools include all of the necessary components to build furnitures and structures.
+
+#### Lore
+This tool proficiency aids you in identifying the use and the origin of buildings and structures.
+
+#### Investigation/Perception
+You gain additional insight when inspecting areas within structures, because you know tricks of construction that can conceal areas from discovery.
+
+#### Fortify
+With 1 minute of work and raw materials, you can make a door or window harder to force open. Increase the DC needed to open it by 5.
+
+#### Siege
+Your knowledge of masonry allows you to spot weak points in brick walls. You deal double damage to such structures with your weapon attacks.
+
+#### Temporary Shelter
+As part of a long rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses 1d3 days after being assembled.
+
+##### Sample Activities
+|Activity|DC|
+|:--|:--:|
+|:--|:--:|
+|Chisel a small hole in a wall|10|
+|Design a complex structure|15|
+|Find a weak point in a wall|15|
+|Pry apart a door|20|
 
 \columnbreak
 
@@ -1462,8 +1467,8 @@ Sleight of Hand is a useful skill for cheating at a game, as it allows you to sw
 
 \pagebreak
 
-### Herbalism Kit
-An herbalism kit includes all of the necessary components to harvest and store plants, as well as identify their uses.
+### Bioanalysis Kit
+A bioanalysis kit includes all of the necessary components to harvest and store plants, as well as identify their uses.
 
 #### Lore
 Your knowledge of the nature and uses of herbs can add insight to your magical studies that deal with plants and your attempts to identify potions.
@@ -1472,10 +1477,10 @@ Your knowledge of the nature and uses of herbs can add insight to your magical s
 When you inspect an area overgrown with plants, your proficiency can help you pick out details and clues that others might miss.
 
 #### Medicine
-Your mastery of herbalism improves your ability to treat illnesses and wounds by augmenting your methods of care with medicinal plants.
+Your mastery of bioanalysis improves your ability to treat illnesses and wounds by augmenting your methods of care with medicinal plants.
 
 #### Nature and Survival
-When you travel in the wild, your skill in herbalism makes it easier to identify plants and spot sources of food that others might overlook. 
+When you travel in the wild, your skill in bioanalysis makes it easier to identify plants and spot sources of food that others might overlook. 
 
 #### Identify Plants
 You can identify most plants with a quick inspection of their appearance and smell.
@@ -1508,27 +1513,6 @@ You can identify gems and determine their value at a glance.
 |Determine a gem's history|20|
 
 \columnbreak
-
-### Mason's Tools
-Mason's tools include all of the necessary components to build structures from stone and metal.
-
-#### Lore
-Your expertise aids you in identifying a stone building's date of construction and purpose, along with insight into who might have built it.
-
-#### Investigation
-You gain additional insight when inspecting areas within stone structures.
-
-#### Perception
-You can spot irregularities in stone walls or floors, making it easier to find trap doors and secret passages.
-
-#### Siege
-Your knowledge of masonry allows you to spot weak points in brick walls. You deal double damage to such structures with your weapon attacks.
-
-##### Sample Activities
-|Activity|DC|
-|:--|:--:|
-|Chisel a small hole in a wall|10|
-|Find a weak point in a wall|15|
 
 ### Mechanic's Kit
 Mechanic's kits contain all of the necessary components repair and install vehicle and ship components.
@@ -1574,11 +1558,11 @@ As part of a long rest, you can compose a new tune and lyrics for your instrumen
 |Subtly manipulate the emotions of your audience|15|
 |Improvise a tune|20|
 
-### Painter's Tools
-Painter's tools include all of the necessary components to paint and store art.
+### Artist's tools
+Artist's tools include all of the necessary components to create and store art.
 
 #### Lore
-Your expertise aids you in uncovering lore of any sort that is attached to a work of art, such as the magical properties of a painting or the origins of a strange mural found in a dungeon.
+Your expertise aids you in uncovering lore of any sort that is attached to a work of art, such as the mystical properties of a painting or the origins of a strange mural found in a dungeon.
 
 #### Investigation, Perception
 When you inspect a painting or a similar work of visual art, your knowledge of the practices behind creating it can grant you additional insight.
@@ -1660,6 +1644,9 @@ Your knowledge of common digital security types makes it easier for you to ident
 |:--|:--:|
 |Identify a hidden security routine|15|
 |Reprogram a security routine|20|
+
+### Spicer's Tools
+Spicer's tools include all of the necessary components to 
 
 ### Surveyor's Tools
 Surveyor's tools include all of the necessary components to draw and store maps.

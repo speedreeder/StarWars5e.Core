@@ -2,11 +2,10 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.WindowsAzure.Storage.Table;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Search;
 using StarWars5e.Models.Species;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -14,10 +13,10 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class SpeciesController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly ISpeciesManager _speciesManager;
 
-        public SpeciesController(ITableStorage tableStorage, ISpeciesManager speciesManager)
+        public SpeciesController(IAzureTableStorage tableStorage, ISpeciesManager speciesManager)
         {
             _tableStorage = tableStorage;
             _speciesManager = speciesManager;

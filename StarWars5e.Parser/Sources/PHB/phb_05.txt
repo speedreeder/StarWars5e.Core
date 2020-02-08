@@ -79,11 +79,11 @@ If you have proficiency in armor, you have proficiency in the appropriate shield
 #### Armor Class (AC)
 Armor protects its wearer from attacks. The armor (and shield generator) you wear determines your base Armor Class.
 
-#### Strength
-Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. If the Armor table shows "Str 13" or "Str 15" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
+#### Bulky
+You have disadvantage on Dexterity (Stealth) checks while wearing armor with the bulky property.
 
-#### Stealth
-If the Armor table shows "Disadvantage" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks.
+#### Strength
+Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. While wearing armor with the strength property, your speed is reduced by 10 unless you meet the strength requirement. 
 
 <img src='https://www.gmbinder.com/images/KulkaIH.png' style='position:absolute;bottom:14px;right:-330px;width:1030px;transform:scaleX(-1);z-index:1000;' />
 
@@ -99,34 +99,34 @@ Combat suits are seen all over the galaxy, and can be found for sale by almost a
 
 The suit itself offers decent protection from most types of attacks while maintaining maximum flexibility and minimum weight. However this armor is only recommended for light skirmishes.
 
-#### Heavy Combat Suit
-The heavy combat suit is a type of armor that offers more protection than the basic model of combat suit. The heavy combat suit is heavier overall than other combat suits, and not quite as flexible, but many consider the trade-offs worthwhile. It is a good source of defense from physical attacks and light blaster fire.
+#### Fiber Armor
+Fiber armor is a type of armor that offers more protection than the lighter combat suit. Fiber armor is heavier overall than combat suits, and not quite as flexible, but many consider the trade-offs worthwhile. It is a good source of defense from physical attacks and light blaster fire.
 
 ### Medium Armor
 Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
 
-#### Light Battle Armor
-Providing solid protection for a minimal cost, light battle armor is considered excellent protection for entrenched troops or guards. However, this protection comes at a cost of mobility, limiting its uses by rapidly advancing infantry. Still, it provides more mobility than full battle armor.
+#### Mesh armor
+Providing solid protection for a minimal cost, mesh armor is considered excellent protection for entrenched troops or guards. However, this protection comes at a cost of mobility, limiting its uses by rapidly advancing infantry. Still, it provides more mobility than battle armor.
 
-#### Battle Armor
-Battle armor was constructed<br> from a mesh of metal or<br> composite plates and a<br> padded jumpsuit. Variants<br> of the armor included less<br> plates and more padding for<br> a lighter, though less protect-<br>ive armor, and heavier plating<br> with molded pieces to fit the<br> wearer. Though the armor was<br> available unmodified, most users<br> personalized their armor.
+#### Weave Armor
+Weave armor was constructed<br> from a mesh of metal or<br> composite plates and a<br> padded jumpsuit. Variants<br> of the armor included less<br> plates and more padding for<br> a lighter, though less protect-<br>ive armor, and heavier plating<br> with molded pieces to fit the<br> wearer. Though the armor was<br> available unmodified, most users<br> personalized their armor.
 
-#### Powered Battle Armor
-Powered battle armor is a type of armored suit that boosted the abilities of its wearer while offering good protection against most types of weapons. The micro-hydraulics of this type of powered armor provide the operator with both protection and strength enhancement. This type of armor is rarely seen outside of professional mercenaries' and soldiers' use.
+#### Composite Armor
+Composite armor is a type of armored suit that offers a good balance of mobility and protection against most types of weapons. The micro-hydraulics of this type of powered armor provide the operator with protection, but are more bulky than mesh or weave armors. This type of armor is rarely seen outside of professional mercenaries' and soldiers' use.
 
 \columnbreak
 
 ### Heavy Armor
 Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk. Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but it also doesn't penalize you if your Dexterity modifier is negative.
 
-#### Durasteel Armor
-Durasteel armor is an armor that reduced weight, but restricts movement. The armor is commonly used by mercenaries, bounty hunters, soldiers, and civilians that live in dangerous areas.
+#### Battle Armor
+Battle armor is an armor that reduced weight, but restricts movement. The armor is commonly used by mercenaries, bounty hunters, soldiers, and civilians that live in dangerous areas.
 
-#### Powered Durasteel Armor
-Powered durasteel armor uses the base durasteel armor, with the benefit of micro-hydraulics that boost the efficacy of the operator. It offers better protection, but increased weight.
+#### Assault Armor
+Assault armor improved on battle armor, with the benefit of micro-hydraulics that boost the efficacy of the operator. It offers better protection, but increased weight.
 
-#### Heavy Durasteel Armor
-Heavy durasteel armor is virtually the heaviest armor acquirable during the Galactic War. It is ideal for extreme combat situations that involved direct damage and also offers a very good level of protection in sacrifice of dexterity. Some consider it claustrophobic but that was the trade-off for safety.
+#### Heavy Exoskeleton
+Heavy exoskeletons are virtually the heaviest armor acquirable during the Galactic War. It is ideal for extreme combat situations that involved direct damage and also offers a very good level of protection in sacrifice of dexterity. Some consider it claustrophobic but that was the trade-off for safety.
 
 ### Shield Generators
 Shields come in varying weights, sizes, and materials. A light shield generator is generally pretty small, affixing to the forearm or belt. A medium shield generator is generally larger and fills the hand. A heavy shield is larger and made of strong composites. You can benefit from only one shield at a time.
@@ -150,26 +150,26 @@ Small creatures have disadvantage on attack rolls while wielding a heavy shield.
 
 <div class='classTable wide'>
 
-##### Armor
-|Armor								|Cost	|&emsp;|	Armor (AC)|Strength|Stealth|Weight|
-|:--|--:|:--|:--|:--:|:--:|--:|
+##### Armor and Shields
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
+|:---|---:|:---|-:|:---|
 |_Light Armor_	||||||
-|&emsp;Combat suit				|	 100 cr||	11 + Dex modifier|—|—|10 lb|
-|&emsp;Heavy combat suit		|	 450 cr||	12 + Dex modifier|—|—|13 lb|
+|&emsp;Combat suit      		|	 100 cr&emsp;&nbsp;|	11 + Dex modifier|10 lb&nbsp;&nbsp;|—|
+|&emsp;Fiber armor		        |	 450 cr&emsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|—|
 |_Medium Armor_	||||||
-|&emsp;	Light battle armor		|	 500 cr||	13 + Dex modifier (max 2)|—|—|20 lb|
-|&emsp;	Battle armor			|  1,000 cr||	14 + Dex modifier (max 2)|—|—|20 lb|
-|&emsp;	Powered battle armor	|  2,500 cr||	15 + Dex modifier (max 2)|—|	Disadvantage|45 lb|
+|&emsp;	Mesh armor		        |	 500 cr&emsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|—|
+|&emsp;	Weave armor			    |  1,000 cr&emsp;&nbsp;|	14 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|—|
+|&emsp;	Composite armor	        |  2,500 cr&emsp;&nbsp;|	15 + Dex modifier (max 2)|45 lb&nbsp;&nbsp;|Bulky|
 |_Heavy Armor_	||||||
-|&emsp;	Durasteel armor			|    750 cr||	16	|Str 13	|Disadvantage|55 lb|
-|&emsp;	Powered durasteel armor	|  2,000 cr||	17	|Str 15	|Disadvantage|60 lb|
-|&emsp;	Heavy durasteel armor	| 15,000 cr||	18	|Str 15	|Disadvantage|65 lb|
+|&emsp;	Battle armor			|    750 cr&emsp;&nbsp;|	16	|55 lb&nbsp;&nbsp;|Bulky, strength 13|
+|&emsp;	Assault armor	        |  2,000 cr&emsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, strength 15|
+|&emsp;	Heavy exoskeleton   	| 15,000 cr&emsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, strength 15|
 |_Shield_		||||||
-|&emsp;	Light shield generator	|     50 cr||	+1	|—|—|7 lb|
-|&emsp;	Medium shield generator	|	 100 cr||	+2	|—|—|14 lb|
-|&emsp;	Heavy shield			|	 500 cr||	+3	|Str 17|Disadvantage|28 lb|
+|&emsp;	Light shield generator	|     50 cr&emsp;&nbsp;|	+1	|7 lb&nbsp;&nbsp;|—|
+|&emsp;	Medium shield generator	|	 100 cr&emsp;&nbsp;|	+2	|14 lb&nbsp;&nbsp;|—|
+|&emsp;	Heavy shield			|	 500 cr&emsp;&nbsp;|	+3	|28 lb&nbsp;&nbsp;|Bulky, strength 17|
 
-</div>
+</div>	
 
 ### Getting Into and Out of Armor
 The time it takes to don or doff armor depends on the armor's category.
@@ -261,8 +261,6 @@ This weapon adds 5 feet to your reach when you attack with it.
 
 \pagebreak
 
-<div style='margin-top:-5px'></div>
-
 #### Reload
 A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice). You must have one free hand to reload.
 
@@ -281,7 +279,7 @@ If a weapon has the thrown property, you can throw the weapon to make a ranged a
 #### Two-Handed
 This weapon requires two hands to use.
 
-<br>
+\columnbreak
 
 #### Versatile
 This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.	
@@ -301,10 +299,10 @@ You have disadvantage when you use a vibrolance to attack a target within 5 feet
 #### Wrist Launcher
 Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters. 
 
-<div class='classTable wide'>
+<div class='classTable wide' style='position:absolute;bottom:30px;left:75px;width:687px'>
 
 ##### Blasters
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&emsp;&nbsp;|&nbsp;Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 |	_Simple Blasters_	|||||
 |&emsp;	Blaster carbine		|  300 cr&nbsp;&nbsp;|1d6 energy		| 8 lb&nbsp;&nbsp;	|Ammunition (range 60/240), reload 16, two-handed |
@@ -326,12 +324,14 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 
 </div>	
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
 \pagebreakNum
 
-<div class='classTable wide'>
+<div class='classTable wide' style='position:absolute;bottom:30px;left:75px;width:687px'>
 
 ##### Lightweapons
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&emsp;&nbsp;|&nbsp;Damage&emsp;|Weight&nbsp;&nbsp;|Properties| 
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
 |:---|---:|:---|-:|:---|
 |	_Simple Lightweapons_	|||||||
 |&emsp;	Lightdagger			|  100 cr&nbsp;&nbsp;|1d4 energy		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (20/60)|
@@ -351,7 +351,7 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 <div style='margin-top:53px'></div>
 
 ##### Vibroweapons
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&emsp;&nbsp;|&nbsp;Damage&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
 |:---|---:|:---|-:|:---|
 |	_Simple Vibroweapons_	|||||
 |&emsp;	Techaxe			    |   50 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light, thrown (range 20/60)	|
@@ -380,7 +380,9 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 
 </div>	
 
-<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:337px;right:140px;width:550px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:357px;right:140px;width:550px;z-index:1000;' />
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -406,7 +408,7 @@ Costs 420 credits. Includes a backpack, a bedroll, two costumes, two glowrods, 5
 Costs 250 credits. Includes a backpack, a bedroll, a blanket, a mess kit, two glowrods, a commlink, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it.
 
 #### Priest's Pack
-Costs 275 credits. Includes a<br> backpack, a blanket, two glowrods,<br> a datapad, a medkit, 5 days of field<br> rations, and a canteen.
+Costs 275 credits. Includes a<br> backpack, a blanket, two glowrods,<br> a datapad, a traumakit, 5 days of<br> field rations, and a canteen.
 
 #### Scholar's Pack
 Costs 290 credits. Includes a<br> backpack, a datapad, 5 datacards,<br> a stylus, a holorecorder, 5 days<br> of field rations, and a canteen.
@@ -603,8 +605,8 @@ Flight suits, or jumpsuits, are a type of outfit worn by pilots. They are worn i
 A respirator, or breath mask, is a portable device that allowed an oxygen-breather to survive in low-oxygen atmospheres. Although not suitable for use in outer-space, these hands-free masks were essential equipment for deep-space travel that might require activity outside of a starship.
 
 ### Medical Supplies
-#### Antidote Kit 
-An antidote kit contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour. It confers no benefit to droids or constructs.
+#### Antitoxkit 
+An antitoxkit contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour. It confers no benefit to droids or constructs.
 
 #### Basic Poison
 As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 13 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
@@ -612,8 +614,8 @@ As an action, you can use the poison in this vial to coat one vibroweapon, one s
 #### Emergency Battery
 All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the kit to stabilize a droid that has 0 hit points, without needing to make an Intelligence (Technology) check.
 
-#### Medkit
-A common medkit can be stocked with bacta packs, and contains spray-bandages, bone stabilizers, antiseptics, and other essentials for the treatment of wounds. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. A medkit can be used to stabilize 5 times before it must be restocked at its original cost.
+#### Traumakit
+A common traumakit can be stocked with bacta packs, and contains spray-bandages, bone stabilizers, antiseptics, and other essentials for the treatment of wounds. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. A traumakit can be used to stabilize 5 times before it must be restocked at its original cost.
 
 #### Medpac
 A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As an action, you can use this medpac to restore 2d4+2 hit points to a creature within 5 feet.
@@ -630,10 +632,10 @@ A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As 
 |	&emsp;Flight suit           	|  1,000 cr	|	5 lb		|
 |	&emsp;Respirator	            |	 200 cr	|	1 lb	 	|
 |	_Medical_	|		|			|
-|	&emsp;Antidote kit	            |	 600 cr	|	4 lb		|
+|	&emsp;Antitoxkit	            |	 600 cr	|	4 lb		|
 |	&emsp;Basic poison           	|    125 cr	|	1 lb		|
 |	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
-|	&emsp;Medkit	                |	  50 cr	|	3 lb		|
+|	&emsp;Traumakit	                |	  50 cr	|	3 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
 |   &emsp;Repair kit                |	 750 cr	|	3 lb		|
 |	_Storage_	|		|			|
@@ -808,7 +810,13 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 
 \pagebreakNum
 
-<div class='classTable wide' style='column-count:2'>
+<div class='classTable wide' style='position:absolute;bottom:30px;left:75px;width:687px;column-count:2'>
+
+<div class='wide'>
+
+##### Adventuring Gear
+
+</div>
 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
@@ -859,10 +867,10 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |Item|Cost|Weight|
 |:--|--:|--:|
 |	_Medical_	|		|			|
-|	&emsp;Antidote kit	            |	 600 cr	|	4 lb		|
+|	&emsp;Antitoxkit	            |	 600 cr	|	4 lb		|
 |	&emsp;Basic poison           	|    125 cr	|	1 lb		|
 |	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
-|	&emsp;Medkit	                |	  50 cr	|	3 lb		|
+|	&emsp;Traumakit	                |	  50 cr	|	3 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
 |   &emsp;Repair kit                |	 750 cr	|	3 lb		|
 |	_Storage_	|		|			|
@@ -964,15 +972,13 @@ Slicers used specialized computers and scramble keys, many built by the slicers 
 |	&emsp;	Armormech's tools			|	200 cr	|	8 lb	|
 |	&emsp;	Armstech's tools			|	250 cr	|	9 lb	|
 |	&emsp;	Artificer's tools			|	300 cr	|	5 lb	|
-|	&emsp;	Artist's tools			|	100 cr	|	5 lb	|
+|	&emsp;	Artist's tools			    |	100 cr	|	5 lb	|
 |	&emsp;	Astrotech's tools			|	400 cr	|  12 lb	|
 |	&emsp;	Biotech's tools     		|	450 cr	|	6 lb	|
-|	&emsp;	Brewer's tools			|	200 cr	|	9 lb	|
 |	&emsp;	Cobbler's tools				|	 50 cr	|	5 lb	|
 |	&emsp;	Constructor's tools			|	 100 cr	|	7 lb	|
 |	&emsp;	Cybertech's tools			|	500 cr	|  10 lb	|
 |	&emsp;	Jeweler's tools		    	|	250 cr	|  2 lb	|
-|	&emsp;	Spicer's tools			    |	700 cr	|	4 lb	|
 |	&emsp;	Surveyor's tools			|	500 cr	|	6 lb	|
 |	&emsp;	Synthweaver's tools			|	250 cr	|	2 lb	|
 |	&emsp;	Tinker's tools				|	500 cr	|  10 lb	|
@@ -993,15 +999,15 @@ Slicers used specialized computers and scramble keys, many built by the slicers 
 |	&emsp;	Shawm						|	 20 cr	|	1 lb	|
 |	&emsp;	Viol						|	300 cr	|	1 lb	|
 |	_Specialist's kit_		|		|		|
-|	&emsp;Biochemist's kit		                    	|	500 cr	|	8 lb	|
-|	&emsp;Chef's kit                       				|	 70 cr	|	8 lb	|
-|	&emsp;Demolitions kit									|	400 cr	|	4 lb	|
-|	&emsp;Disguise kit									|	250 cr	|	3 lb	|
-|	&emsp;Forgery kit										|	150 cr	|	5 lb	|
-|	&emsp;Mechanic's kit									|	650 cr	|  25 lb	|
-|	&emsp;Poisoner's kit									|	500 cr	|	2 lb	|
-|	&emsp;Security kit									|	650 cr	|	3 lb	|
-|	&emsp;Slicer's kit									|	800 cr	|	6 lb	|
+|	&emsp;Biochemist's kit		        |	500 cr	|	8 lb	|
+|	&emsp;Chef's kit                    |	 70 cr	|	8 lb	|
+|	&emsp;Demolitions kit				|	400 cr	|	4 lb	|
+|	&emsp;Disguise kit					|	250 cr	|	3 lb	|
+|	&emsp;Forgery kit					|	150 cr	|	5 lb	|
+|	&emsp;Mechanic's kit				|	650 cr	|  25 lb	|
+|	&emsp;Poisoner's kit				|	500 cr	|	2 lb	|
+|	&emsp;Security kit					|	650 cr	|	3 lb	|
+|	&emsp;Slicer's kit					|	800 cr	|	6 lb	|
 
 \columnbreak
 

@@ -11,29 +11,21 @@ namespace StarWars5e.Parser.Parsers
     public class WeaponPropertyProcessor : BaseProcessor<WeaponProperty>
     {
         private readonly ContentType _contentType;
-        private readonly Dictionary<string, string> _nameStartingLines;
+        private readonly List<(string name, string startLine, int occurence)> _nameStartingLines;
 
-        public WeaponPropertyProcessor(ContentType contentType, Dictionary<string, string> nameStartingLines)
+        public WeaponPropertyProcessor(ContentType contentType, List<(string name, string startLine, int occurence)> nameStartingLines)
         {
             _contentType = contentType;
             _nameStartingLines = nameStartingLines;
         }
+
         public override Task<List<WeaponProperty>> FindBlocks(List<string> lines)
         {
             var weaponProperties = new List<WeaponProperty>();
 
             foreach (var nameStartingLine in _nameStartingLines)
             {
-                var occurence = 1;
-                if (nameStartingLine.Key == "Strength")
-                {
-                    occurence = 2;
-                }
-                if (nameStartingLine.Key == "Heavy")
-                {
-                    occurence = 4;
-                }
-                weaponProperties.Add(ParseProperty(lines, nameStartingLine.Value, nameStartingLine.Key, _contentType, occurence));
+                weaponProperties.Add(ParseProperty(lines, nameStartingLine.startLine, nameStartingLine.name, _contentType, nameStartingLine.occurence));
             }
             
             return Task.FromResult(weaponProperties);

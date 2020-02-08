@@ -22,7 +22,7 @@ namespace StarWars5e.Parser.Parsers.PHB
             equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Vibroweapons", false, 1, ContentType.Core));
             equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines, "##### Lightweapons", false, 1, ContentType.Core));
 
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseArmor(lines, "##### Armor", ContentType.Core));
+            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseArmor(lines, "##### Armor and Shields", ContentType.Core));
 
             equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseOtherEquipment(lines, "_Artisan's tools_", true, 1, ContentType.Core));
             equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseOtherEquipment(lines, "_Ammunition_", true, 2, ContentType.Core));

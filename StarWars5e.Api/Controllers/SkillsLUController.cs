@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Lookup;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -10,8 +10,8 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class SkillsLUController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
-        public SkillsLUController(ITableStorage tableStorage)
+        private readonly IAzureTableStorage _tableStorage;
+        public SkillsLUController(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }

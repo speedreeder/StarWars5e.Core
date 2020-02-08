@@ -2,8 +2,8 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using StarWars5e.Api.Storage;
 using StarWars5e.Models.Starship;
-using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -11,9 +11,9 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class StarshipBaseSizeController : ControllerBase
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
 
-        public StarshipBaseSizeController(ITableStorage tableStorage)
+        public StarshipBaseSizeController(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }

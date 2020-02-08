@@ -359,6 +359,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Codru-Ji":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_codru-ji.png");
                         break;
+                    case "Defel":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_defel.png");
+                        break;
                     case "Devaronian":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_devaronian.png");
                         break;
@@ -496,6 +499,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Ortolan":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ortolan.png");
+                        break;
+                    case "Pa'lowick":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pa\'lowick.png");
                         break;
                     case "Pau'an":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pau\'an.png");
