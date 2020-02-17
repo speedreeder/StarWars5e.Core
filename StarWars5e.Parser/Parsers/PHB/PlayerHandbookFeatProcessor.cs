@@ -53,7 +53,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 };
 
                 var prerequisiteIndex =
-                    featLines.FindIndex(f => f.StartsWith("*Prerequisite") || f.StartsWith("_Prerequisite"));
+                    featLines.FindIndex(f => f.StartsWith("*Prerequisite") || f.StartsWith("_Prerequisite") || f.StartsWith("_**Prerequisite") || f.StartsWith("_*Prerequisite"));
 
                 if (prerequisiteIndex != -1)
                 {

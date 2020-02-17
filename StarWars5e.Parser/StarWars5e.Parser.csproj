@@ -59,7 +59,13 @@
     <None Remove="Sources\WH\wh_01.txt" />
     <None Remove="Sources\WH\wh_02.txt" />
     <None Remove="Sources\WH\wh_03-04.txt" />
+    <None Remove="Sources\WH\wh_03.txt" />
+    <None Remove="Sources\WH\wh_04.txt" />
     <None Remove="Sources\WH\wh_05-11.txt" />
+    <None Remove="Sources\WH\wh_05.txt" />
+    <None Remove="Sources\WH\wh_06.txt" />
+    <None Remove="Sources\WH\wh_07.txt" />
+    <None Remove="Sources\WH\wh_08.txt" />
     <None Remove="Sources\WH\wh_aa.txt" />
   </ItemGroup>
 
@@ -114,8 +120,12 @@
     <EmbeddedResource Include="Sources\TestData\new_mm_content.txt" />
     <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
-    <EmbeddedResource Include="Sources\WH\wh_03-04.txt" />
-    <EmbeddedResource Include="Sources\WH\wh_05-11.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_03.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_04.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_05.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_06.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_07.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_08.txt" />
     <EmbeddedResource Include="Sources\WH\wh_aa.txt" />
   </ItemGroup>
 

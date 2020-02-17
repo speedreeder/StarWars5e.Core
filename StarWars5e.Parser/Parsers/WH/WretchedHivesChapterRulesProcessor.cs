@@ -25,15 +25,11 @@ namespace StarWars5e.Parser.Parsers.WH
             var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Entertainment and Downtime");
             var chapter3StartIndex = lines.FindIndex(f => f == "# Chapter 3: Factions and Membership");
             var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Using Ability Scores");
-            var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Enhanced Items");
-            var chapter6StartIndex = lines.FindIndex(f => f == "# Chapter 6: Modifiable Items");
-            var chapter7StartIndex = lines.FindIndex(f => f == "# Chapter 7: Cybernetic Augmentations");
-            var chapter8StartIndex = lines.FindIndex(f => f == "# Chapter 8: Droid Customizations");
-            var chapter9StartIndex = lines.FindIndex(f => f == "# Chapter 9: Tool Proficiencies");
-            //var chapter10StartIndex = lines.FindIndex(f => f == "# Chapter 10: ");
-            //var chapter11StartIndex = lines.FindIndex(f => f == "# Chapter 11: ");
+            var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Equipment");
+            var chapter6StartIndex = lines.FindIndex(f => f == "# Chapter 6: Customization Options");
+            var chapter7StartIndex = lines.FindIndex(f => f == "# Chapter 7: Enhanced Items");
+            var chapter8StartIndex = lines.FindIndex(f => f == "# Chapter 8: Tool Proficiencies");
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Enhanced Items");
-            //var changelogStartIndex = lines.FindIndex(f => f == "## Changelog");
 
             var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
                 .CleanListOfStrings().ToList();
@@ -62,31 +58,25 @@ namespace StarWars5e.Parser.Parsers.WH
             var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
                 .CleanListOfStrings().ToList();
             chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter5Lines, 5, "Enhanced Items", SectionNames.WHChapterFiveSections,
-                "enhancedItems"));
+            chapters.Add(CreateWretchedHivesChapterRules(chapter5Lines, 5, "Equipment", SectionNames.WHChapterFiveSections,
+                "equipment"));
 
             var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter7StartIndex - chapter6StartIndex)
                 .CleanListOfStrings().ToList();
             chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter6Lines, 6, "Modifiable Items", SectionNames.WHChapterSixSections,
-                "modifiableItems"));
+            chapters.Add(CreateWretchedHivesChapterRules(chapter6Lines, 6, "Customization Options", SectionNames.WHChapterSixSections,
+                "customizationOptions"));
 
             var chapter7Lines = lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex)
                 .CleanListOfStrings().ToList();
             chapter7Lines[2] = chapter7Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter7Lines, 7, "Cybernetic Augmentations", SectionNames.WHChapterSevenSections,
-                "cyberneticAugmentations"));
+            chapters.Add(CreateWretchedHivesChapterRules(chapter7Lines, 7, "Enhanced Items", SectionNames.WHChapterSevenSections,
+                "enhancedItems"));
 
-            var chapter8Lines = lines.Skip(chapter8StartIndex).Take(chapter9StartIndex - chapter8StartIndex)
+            var chapter8Lines = lines.Skip(chapter8StartIndex).Take(appendixAStartIndex - chapter8StartIndex)
                 .CleanListOfStrings().ToList();
             chapter8Lines[2] = chapter8Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter8Lines, 8, "Droid Customizations", SectionNames.WHChapterEightSections,
-                "droidCustomizations"));
-
-            var chapter9Lines = lines.Skip(chapter9StartIndex).Take(appendixAStartIndex - chapter9StartIndex)
-                .CleanListOfStrings().ToList();
-            chapter9Lines[2] = chapter9Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter9Lines, 9, "Tool Proficiencies", SectionNames.WHChapterNineSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter8Lines, 8, "Tool Proficiencies", SectionNames.WHChapterEightSections,
                 "toolProficiencies"));
 
             foreach (var whChapterName in SectionNames.WHChapterNames)

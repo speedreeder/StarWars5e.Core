@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
-using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Parsers;
@@ -105,17 +104,17 @@ namespace StarWars5e.Parser.Managers
                 Console.WriteLine("Failed to upload EC equipment.");
             }
 
-            try
-            {
-                var weaponProperties = await _weaponPropertyProcessor.Process(_ecEquipmentFileName);
+            //try
+            //{
+            //    var weaponProperties = await _weaponPropertyProcessor.Process(_ecEquipmentFileName);
 
-                await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
-                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-            }
-            catch (StorageException)
-            {
-                Console.WriteLine("Failed to upload EC weapon properties.");
-            }
+            //    await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
+            //        new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            //}
+            //catch (StorageException)
+            //{
+            //    Console.WriteLine("Failed to upload EC weapon properties.");
+            //}
         }
     }
 }

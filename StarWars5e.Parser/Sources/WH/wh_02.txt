@@ -1,7 +1,5 @@
 
 
-\pagebreak
-
 # Chapter 2: Entertainment and Downtime
 
 <img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:75px;width:35px' />
@@ -127,10 +125,10 @@ One of the galaxy's oldest professions, bounty hunting is a lucrative—but danger
 Bounty hunting requires one workweek and at least 500 cr spent on materials, bribes, gifts, and other expenses. Spending more money increases your chance of successfully collecting your bounty, as shown in Resolution.
 
 ### Resolution
-After one workeek, the character makes a Wisdom (Survival) check, with a +1 bonus per 500 cr spent beyond the initial 500 cr, up to a maximum bonus of +5. The character then consults the Bounty Hunting Roll Modifier table below.
+After one workweek, the character makes a Wisdom (Survival) check, with a +1 bonus per 500 cr spent beyond the initial 500 cr, up to a maximum bonus of +5. The character then consults the Bounty Hunting Roll Modifier table below.
 
 ##### Bounty Hunting Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -258,7 +256,7 @@ A character with an appropriate background, such as noble, can easily mingle wit
 After a workweek of carousing, a character stands to make contacts within the selected social class. The character makes a Charisma (Persuasion) check, and consults the Carousing Roll Modifier table below:
 
 ##### Carousing Roll Modifier
-|Persuasion<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -320,7 +318,7 @@ Carousing covers fine food, strong drink, and socializing. A character can attem
 
 A character with an appropriate background, such as noble, can easily mingle with the upper class, but other characters can only do so if you judge that character has made sufficient contacts. Alternatively, a character might use a disguise kit to pass as a noble visiting from a distant city.
 
-> If the player elects to disguise themselves, they must make Charisma (Deception) checks instead of Charisma (Persuasion) checks during Resolution.
+> If the player elects to disguise themselves, they must make Charisma (Deception) or Charisma (disguise kit) checks instead of Charisma (Persuasion) checks during Resolution.
 
 #### Resolution
 The character then makes five DC 20 Charisma (Persuasion) checks. Once you've resolved all five checks, consult the Carousing Results (Uptime) table below.
@@ -395,7 +393,7 @@ Multiple characters can combine their efforts. Divide the time needed to create 
 #### Crafting Enhanced Items
 Creating an enhanced item requires more than just time, effort, and materials. It is a long-term process that involves one or more adventures to track down rare materials and the knowledge needed to create the item. To start with, a character needs a blueprint for an enhanced item in order to create it. The blueprint is like a recipe; it lists the materials needed and steps required to make an item.
 
-An item invariably requires an exotic material to complete it. This material can range from a specific resource found only in the swamps of Dagobah, or the pearl of a krayt dragon. Finding the material should take place as part of an adventure.
+An item invariably requires a rare material to complete it. This material can range from a specific resource found only in the swamps of Dagobah, or the pearl of a krayt dragon. Finding the material should take place as part of an adventure.
 
 The Enhanced Item Ingredients table below suggests the challenge rating of a creature the character needs to face to acquire the materials for an item. Note that facing a creature does not necessarily mean that the characters must collect items from its corpse. Rather, the creature might guard a location or a resource that character needs access to.
 
@@ -421,7 +419,7 @@ The Enhanced Item Ingredients table below suggests the challenge rating of a cre
 After collecting all the necessary resources and spending the requisite amount of time, a character potentially crafts the item(s). For each item being crafted, the character makes an Intelligence check with the appropriate artisan's tools, and consults the Crafting Roll Modifier table below. If multiple craftsmen worked on the item, use the ability scores and relevant proficiencies for the most skilled amongst them.
 
 ##### Crafting Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -490,11 +488,11 @@ Throughout their adventures, characters might discover blueprints that teach the
 ##### Blueprint Learning DC by Rarity
 |Rarity|Blueprint Learning DC|
 |:--:|:--:|
-|Standard|5|
-|<font style="color:green">Premium</font>|10|
-|<font style="color:blue">Prototype</font>|15|
-|<font style="color:purple">Advanced</font>|20|
-|<font style="color:orange">Legendary</font>|25|
+|Standard|10|
+|<font style="color:green">Premium</font>|14|
+|<font style="color:blue">Prototype</font>|18|
+|<font style="color:purple">Advanced</font>|22|
+|<font style="color:orange">Legendary</font>|26|
 |<font style="color:red">Artifact</font>|30|
 
 On a success, the blueprint is learned. On a failure, the blueprint is not learned, and you must wait 24 hours before you can try again.
@@ -505,11 +503,11 @@ Many tools have the option to reverse engineer a crafted item to learn how to ma
 ##### Reverse Engineer DC by Rarity
 |Rarity|Reverse Engineer DC|
 |:--:|:--:|
-|Standard|10|
-|<font style="color:green">Premium</font>|15|
-|<font style="color:blue">Prototype</font>|20|
-|<font style="color:purple">Advanced</font>|25|
-|<font style="color:orange">Legendary</font>|30|
+|Standard|15|
+|<font style="color:green">Premium</font>|19|
+|<font style="color:blue">Prototype</font>|23|
+|<font style="color:purple">Advanced</font>|27|
+|<font style="color:orange">Legendary</font>|31|
 |<font style="color:red">Artifact</font>|35|
 
 On a success, the item is broken down to half of its raw materials (any rare components are destroyed), and the blueprint for the item is learned. On a failure, the item is destroyed with no recoverable components, and the blueprint is not learned.
@@ -525,10 +523,10 @@ Sometimes it pays to be bad. This activity gives a character the chance to make 
 A character must spend one workweek and at least 250 cr gathering information on potential targets before committing the intended crime.
 
 ### Resolution
-The character must make at least one, but up to three checks, and then consult the Crime Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Dexterity (Sleight of Hand), Dexterity (Stealth), Intelligence (security kit), or Intelligence (slicer's kit), as appropriate to the crime they attempt. Each check can only be made once.
+The character must make at least one, but up to three checks, and then consult the Crime Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Dexterity (Sleight of Hand), Dexterity (Stealth), Intelligence (security kit), or Intelligence (slicer's kit) check, as appropriate to the crime they attempt. Each check can only be made once.
 
 ##### Crime Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -549,11 +547,11 @@ Once the player has determined their crime roll modifier, they then roll percent
 ##### Crime Results
 |&nbsp;&nbsp;d100&nbsp;&nbsp;|Result|
 |:--:|:--|
-|40 or<br> lower  |The robbery fails, but the character escapes.|
-|41-<br>70        |Character earns 500 cr, robbery of a struggling merchant.|
-|71-<br>100       |Character earns 1,000 cr, robbery of a prosperous figure.|
-|101-<br>110      |Character earns 2,500 cr, robbery of a noble.|
-|111 or<br> higher|Character earns 10,000 cr, robbery of one of the richest figures in town.|
+|40 or<br> lower  |The robbery fails, but you escape.|
+|41-<br>70        |You earn 500 cr by robbing a struggling merchant.|
+|71-<br>100       |You earn 1,000 cr by robbing a prosperous figure.|
+|101-<br>110      |You earn 2,500 cr by robbing a noble.|
+|111 or<br> higher|You earn 10,000 cr by robbing one of the richest figures in town.|
 
 ### Complications
 A life of crime is filled with complications. A character committing a crime has a 10 percent chance of triggering a complication. They have an additional 10 percent chance of triggering a complication for each check made during Resolution beyond the first.
@@ -579,6 +577,75 @@ While crime is a very fun and engaging activity for a character to participate i
 
 \pagebreak
 
+## Espionage
+The galaxy is a vast place with many secrets to be uncovered. Between missions, many adventurers may want to spend their downtime engaging in espionage, uncovering the galaxies secrets.
+
+### Resources
+Espionage requires one workweek finding leads, bribing guards, and infiltrating clandestine locations. A character can attempt to spy on lower-, middle-, or upper-class people. Spying on lower-, middle-, or upper-class costs 100, 500, or 2,500 cr for the workweek, respectively.
+
+### Resolution
+The character must make at least one, but up to three checks, and then consult the Espionage Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Charisma (Deception), Dexterity (Stealth), or Intelligence (slicer's kit) check. Each check can only be made once.
+
+##### Espionage Roll Modifier
+|Ability <br>Check DC|d100 Roll<br> Modifier|
+|:--:|:--:|
+|10|+5|
+|15|+10|
+|20|+15|
+|25|+20|
+|30|+25|
+
+> The **d100 Roll Modifier** is added to the percentile dice rolled for the Espionage Results table, which is discussed below.
+
+For instance, if the character makes a Dexterity (Stealth) check, and the result is 21, they can elect to keep that check, resulting in +15 crime roll modifier. If the character makes an Intelligence (slicer's kit) check, and the result is a 3, however, they can choose to then make a Charisma (Deception) check. If the result of that check is a 17, and the character elects to keep it, they receive a +5 crime roll modifier, since the DC for each tier increased by 5 after the first check. If the character elects to make three checks, with the results being 4, 7, and 13, however, they fail to meet a DC, since the DC for each tier increased by 5 for each subsequent check. In this instance, since they failed to meet a DC, they are caught and jailed.
+
+Once the player has determined their espionage roll modifier, they then roll percentile dice and consult the Espionage Results table below.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+##### Espionage Results
+|&nbsp;&nbsp;d100&nbsp;&nbsp;|Result|
+|:--:|:--|
+|40 or<br> lower  |You fail to find any useful information with which to blackmail, and your face is clearly identified.|
+|41-<br>70        |You find no useful information.|
+|71-<br>100       |You find information with which to blackmail one person.|
+|101-<br>110      |You find information with which to blackmail two people.|
+|111 or<br> higher|You find information with which to blackmail three people.|
+
+___
+
+Blackmail is information that can be used to coerce an activity from an NPC. Blackmail can come in a variety of forms, and the value of the blackmail varies depending on how important the subject of the information is and to whom it has value.
+
+Lower-class blackmail includes the secrets of criminals, laborers, mercenaries, guardsmen; anyone you might find a cheap cantina.
+
+Middle-class blackmail includes the secrets of faction members, town officials, merchants, and people who frequent well-kept establishments.
+
+Upper-class blackmail covers the secrets of the nobles and elite.
+
+### Complications
+Espionage is fraught with peril. A character who engages in espionage has a 10 percent chance of triggering a complication. They have an additional 10 percent chance of triggering a complication for each check made during Resolution beyond the first.
+
+> This is a great opportunity to create a rival to the party, or involve a previous rival.
+
+##### Espionage Complications
+|d8|Complication|
+|:--:|:--|
+|1|A bounty equal to the credits spent is offered for information about your crime.|
+|2|An unknown person contacts you, threatening to reveal your activities if you don't render a service.|
+|3|Your victim asks one of your adventuring companions to solve the crime.|
+|4|Someone who knows of your activities has been arrested on an unrelated matter.|
+|5|Your victim calls in a favor from a guard, doubling the efforts to solve the case.|
+|6|You blackmailed someone under the protection of a local crime lord, who now wants revenge.|
+
+### Uptime
+While spying is a very fun and engaging activity for a character to participate in, it is better executed using the three pillars of adventuring. The GM can determine that complications arise, as appropriate.
+
+<div class='footnote'>CHAPTER 2 | ENTERTAINMENT AND DOWNTIME</div>
+
+\pagebreak
+
 ## Gambling
 Games of chance are a great way to make a fortune, and a better way to lose one.
 
@@ -589,7 +656,7 @@ This activity requires one workweek of effort, plus a stake of at least 100 cr t
 The character must make at least one, but up to three checks, and then consult the Gambling Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Charisma (Deception), Intelligence check with the appropriate gaming set, or Wisdom (Insight) check. If the character is not proficient in the gaming set, they can not make a Charisma (Deception) or Wisdom (Insight) check. Each check can only be made once.
 
 ##### Gambling Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -704,7 +771,7 @@ Working as a mercenary requires one week of downtime, as well as 100 credits to 
 The character must make at least one, but up to three ability checks as appropriate to the contract they take. The GM might call for a Charisma (Intimidation) check if the character as working as an enforcer, a Strength (Athletics) check if working as a guard, or an Intelligence (Investigation) check if the character is working as a detective. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. 
 
 ##### Mercenary Contracting Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -760,10 +827,10 @@ Pit fighting includes boxing, wrestling, and other nonlethal forms of combat in 
 Engaging in this activity requires one workweek of effort from a character.
 
 ### Resolution
-The character must make at least one, but up to three checks, and then consult the Pit Fighting Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Dexterity (Acrobatics) or Strength (Athletics) check. Alternatively, the character can instead make an attack roll using one of the character's weapons. Check check can only be made once.
+The character must make at least one, but up to three checks, and then consult the Pit Fighting Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Dexterity (Acrobatics) or Strength (Athletics) check. Alternatively, the character can instead make an attack roll using one of the character's weapons. Each check can only be made once.
 
 ##### Pit Fighting Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -822,7 +889,7 @@ This activity requires one workweek of effort and a 250 cr entry fee. If the cha
 The character must make at least one, but up to three checks, and then consult the Racing Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make an Intelligence (mechanic's kit), Intelligence (Piloting), or Intelligence (Technology) check. If the character is not proficient in Piloting, they can not make an Intelligence (mechanic's kit) or Intelligence (Technology) check. Each check can only be made once.
 
 ##### Racing Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -936,7 +1003,7 @@ Typically, a character needs access to a library or some other academic institut
 The character declares the focus of the research—a specific person, place, or thing. After one workweek, the character makes an Intelligence (Lore) check, with a +1 bonus per 1,000 cr spent beyond the initial 500 cr, up to a maximum bonus of +5. The character then consults the Research Roll Modifier table below.
 
 ##### Research Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|
@@ -1062,6 +1129,81 @@ The GM can determine whether or not selling enhanced items can be performed duri
 
 \pagebreak
 
+## Training
+Given enough time, money, and the services of an instructor, a character can learn a language, pick up proficiency with a tool or kit, gain proficiency or even expertise in a skill, or possibly even earn a feat.
+
+### Resources
+Receiving training requires you first find a teacher who is willing and capable of teaching you. It then takes a varying amount of time and credits, depending on what you're training in. Costs are paid at the beginning of each workweek.
+
+#### Language or Weapon
+Learning a new language or training in a new weapon takes 10 workweeks and costs 250 cr per workweek. During resolution, training in a language calls for an Intelligence check, while a weapon requires an attack roll with that weapon. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
+
+#### Tool Proficiency
+Learning to use a new tool takes 10 workweeks and costs the value of the tool in cr per workweek. During resolution, training in a new tool calls for an ability check appropriate to that tool, as determined by the GM. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
+
+#### Tool Expertise
+Gaining expertise in a tool in which you are proficient takes 20 workweeks and costs the value of the tool in cr per workweek. During resolution, gaining expertise in a tool in which you are proficient requires an ability check with that tool.
+
+#### Skill Proficiency
+Learning a new skill takes 20 workweeks and costs at least 500 cr per workweek. During resolution, training in a new skill calls for an ability check with that skill's governing ability score. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
+
+#### Skill Expertise
+Gaining expertise in a skill in which you are proficient takes 30 workweeks and costs at least 1,000 cr per workweek. During resolution, gaining expertise in a skill in which you are proficient requires an ability check with that skill.
+
+#### Feat
+Learning a new feat takes 40 workweeks and costs at least 2,000 cr per workweek. During resolution, training in a new feat calls for an ability check appropriate to that feat, as determined by the GM. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
+
+### Resolution
+At the end of each workweek, a character makes an ability check depending on their training, and then consults the Training Roll Modifier table.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+##### Training Roll Modifier
+|Ability <br>Check DC|d100 Roll<br> Modifier|
+|:--:|:--:|
+|10|+5|
+|15|+10|
+|20|+15|
+|25|+20|
+|30|+25|
+
+> The **d100 Roll Modifier** is added to the percentile dice rolled for the Training Results table, which is discussed below.
+
+Once the player has determined their training roll modifier, they then roll percentile dice and consult the Training Results table below.
+
+##### Training Results
+|&nbsp;&nbsp;d100&nbsp;&nbsp;|Result|
+|:--:|:--|
+|40 or<br> lower  |Your training falters, advancing only half a workweek towards completion.|
+|41-<br>70        |Your training is adequate, advancing one workweek towards completion.|
+|71-<br>100       |Your training has a breakthrough, advancing two workweeks towards completion.|
+|101-<br>110      |Your training is excellent, advancing three workweeks towards completion.|
+|111 or<br> higher|Your training is masterful, advancing four workweeks towards completion.|
+
+### Complications
+Complications that arise while training typically involve the teacher. For every five workweeks spent in training, or for each failure during resolution, a character has a 10 percent chance of a complication. Examples of which are on the Training Complications table.
+
+> This is a great opportunity to create a rival to the party, or involve a previous rival.
+
+##### Training Complications
+|d6|Complication|
+|:--:|:--|
+|1|Your earn the ire of another of the teacher's students.|
+|2|Your teacher instructs you in rare, archaic methods, which draw comments from others.|
+|3|Your teacher is a spy sent to learn your plans.|
+|4|Your teacher is a wanted criminal.|
+|5|Your teacher is a cruel taskmaster.|
+|6|Your teacher asks for help dealing with a threat.|
+
+### Uptime
+Due to the required time involved in training, it is best suited to downtime.
+
+<div class='footnote'>CHAPTER 2 | ENTERTAINMENT AND DOWNTIME</div>
+
+\pagebreak
+
 ## Work
 When all else fails, an adventurer can turn to an honest trade to earn a living.
 
@@ -1072,7 +1214,7 @@ Taking on a job requires one workweek of work.
 The character must make an ability check as appropriate to the job they are trying to perform. The GM might call for a Strength (Athletics) check if the character is working with their hands, an Intelligence check with a set of tools if the character is working as a tradesman, a Charisma (Performance) check if the character is working in a speaking capacity, a Charisma check with a musical instrument if the character is performing in a venue, or any other check the GM deems appropriate. Once the character has made their chosen check, they should consult the Work Roll Modifier table below.
 
 ##### Work Roll Modifier
-|Ability<br>Check DC|d100 Roll<br> Modifier|
+|Ability <br>Check DC|d100 Roll<br> Modifier|
 |:--:|:--:|
 |10|+5|
 |15|+10|

@@ -18,17 +18,17 @@ namespace StarWars5e.Parser.Parsers
             var equipment = new List<Equipment>();
 
             equipment.AddRange(await ParseWeapons(lines, "##### Blasters", false, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Ammunition_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseWeapons(lines, "##### Lightweapons", false, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseWeapons(lines, "##### Vibroweapons", false, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Communications_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Data Recording and Storage_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Ammunition_", true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, "_Martial Lightweapons_", true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, "_Martial Vibroweapons_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Communications_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Data Recording and Storage_", true, 1, ContentType.ExpandedContent));
             //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Explosives_", true, 1, ContentType.ExpandedContent));
             //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Life Support_", true, 1, ContentType.ExpandedContent));
             //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Medical_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Storage_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Weapon and Armor Accessories_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Storage_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", true, 1, ContentType.ExpandedContent));
+            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Weapon and Armor Accessories_", true, 1, ContentType.ExpandedContent));
 
             return equipment;
         }

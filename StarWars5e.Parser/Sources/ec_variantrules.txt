@@ -2,6 +2,91 @@
 
 <div class='wide'>
 
+# Combination Weapons
+
+</div>
+
+Some weapons—specifically lightweapons—can be used in a variety of ways. For instance, the iconic scenes with Darth Maul using his doublesaber, but with only one blade extended. Or more recently with Cal Kestis in Jedi: Fallen Order, where you could adjust from doublesaber fighting to single saber fighting, or vice versa, on the fly. If you want the option to combine weapons in this fashion, consider the following variant rule.
+
+### Weapon Combination
+Combining weapons requires three key components: the two weapons you want to combine, and the appropriate tools. Two weapons can only be combined by someone proficient with appropriate tools, as shown in the Item Specific Tools table in Wretched Hives.
+
+#### Valid Targets
+Only unenhanced weapons of the same type can be combined, and you can't combine weapons that already have multiple modes, such as the IWS or bo-rifle. For instance, a lightweapon can only be combined with another lightweapon, while a vibroweapon can only be combined with another vibroweapon.
+
+#### Combining Weapons
+You can only combine a number of weapons up to your proficiency bonus. Combining weapons takes one hour and requires an ability check with the appropriate tools, as shown in the Item Specific Tools table in Wretched Hives. The DC for the check is determined by the number of weapons being combined, as shown below in the Combination/Separation DC by Weapons table.
+
+##### Combination/Separation DC by Weapons
+|Weapons|Combination/Separation DC|
+|:--:|:--:|
+|2|10|
+|3|15|
+|4|20|
+|5|25|
+|6|30|
+
+On a success, the weapons are correctly combined. On a failure, the weapons are not combined, and you must wait 24 hours before you can try again.
+
+#### Separating Weapons
+Separating weapons requires an ability check with the appropriate tool, as shown in the Item Specific Tools table. The DC for the check is determined by the total number of combined weapons before separating, as shown above in the Combination/Separation DC by Weapons table.
+
+On a success, the weapons are correctly separated. On a failure, the weapons are not separated, you must wait 24 hours before you can try again, and you must roll a d20. If you roll a 1 on the d20, one currently combined weapon is destroyed. The GM should determine which weapon is destroyed randomly.
+
+\columnbreak
+
+### Combined Weapons
+Once you've combined two weapons, you can readily switch between each weapon by using your object interaction on your turn. The combined weapon's weight is equal to the total weight of each individual part, and each weapon uses the appropriate damage and properties as shown in its statistics in the Weapons table.
+ 
+For instance, a 3rd-level character decides they want to combine a greatsaber and a doublesaber. They have both weapons available, as well as a set of artificer's tools. After spending one hour, they make an ability check with the tools, resulting in a 17. The weapons are successfully combined, and using their object interaction each turn, the character can switch from a greatsaber to a doublesaber, or back again.
+
+When the character reaches 5th level, they decide they want to add a lightwhip to the mix. They obtain a lightwhip, and attempt to combine it with their current weapon over the course of an hour with their artificer's tools. At the end of the hour, however, they only roll an 8 on the check, failing to combine the third weapon. They must wait until tomorrow to try again.
+
+#### Blasters
+Rather than combining multiple blasters, you can instead integrate a wrist launcher attachment to the weapon, as long as the weapon lacks the fixed property. This attachment can fire all wrist launcher ammunition with a range of 20/40, or it can fire grenades with a range of 40/80. This attachment has a reload value of 2, it can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). Each ammunition must be reloaded separately.
+
+When you would attempt to combine an additional weapon, you can instead attempt to increase this attachment's reload property by making an ability check with the appropriate tool and consulting the Combination/Separation DC by Weapons table.
+
+\pagebreak
+
+<div class='wide'>
+
+# Dueling
+
+</div>
+
+Dueling, be it with lightsabers or blasters, is an iconic experience in the Star Wars narrative. When you want to engage in a more narrative form of dueling, rather than traditional combat, consider the following rules.
+
+### Opponents
+Most often, dueling is an event suited only to two people. It might be a fight to the death, a fight for honor, or simply a fight to see who is better. Alternatively, it might simply be a sparring session. These rules are intended to potentially encompass all of these possibilities, but only for a traditional one versus one encounter.
+
+### Actions
+There are three major actions a dueling character can take: Attack, Defend, or Feint. During each round of dueling, each involved party must decide which of these three actions they will take.
+
+#### Attack
+The most common action, a character can choose to attack. When a character chooses to attack, they have advantage on the attack roll during resolution if the opponent takes the Feint action, and disadvantage on the roll if the character takes the Defend action.
+
+#### Defend
+The second action a character can take is is to defend. When a character chooses to defend, they have advantage on the attack roll during resolution if the opponent takes the Attack action, and disadvantage on the roll if the character takes the Feint action.
+
+#### Feint
+The third action a character can take is to feint. When a character chooses to feint, they have advantage on the attack roll during resolution if the opponent takes the Defend action, and disadvantage if the character takes the Attack action.
+
+\columnbreak
+
+### Resolution
+Once each party has chosen their action, they should each make an attack roll, with advantage or disadvantage as appropriate. The winner of the contest strikes a blow or scores a point, as appropriate.
+
+#### Ties
+Generally, ties should either award a point to both parties—or no points to either party—at the discretion of the GM.
+
+### Strikes
+How many strikes a character can take varies based on the lethality of the contest. You might grant each party a potential three strikes if sparring, or you might give them each strikes equal to their Constitution modifier in a lethal contest, or even strikes equal to their proficiency bonus in a fight for honor. 
+
+\pagebreak
+
+<div class='wide'>
+
 # Overlapping Features
 
 </div>
@@ -87,7 +172,7 @@ As a part of the bonus action to adopt this form, if you took the Attack action,
 
 \pagebreak
 
-# Advanced Advantage
+# Compound Advantage
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
@@ -106,8 +191,15 @@ When determining your total for a passive check with this variant rule, if you h
 
 \pagebreak
 
+<div class='wide'>
+
 # Flanking
+
+</div>
+
 When multiple creatures within 5 feet of another creature engage it in combat, that creature may become flanked. This variant rule offers mechanical boons to flanking that work alongside Advanced Advantage, but can be used completely separately.
+
+A target who is **one-quarter flanked** suffers a -1 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A target is one-quarter flanked if it is at least one-fourth surrounded, either to a side, above, or below.
 
 A target who is **half flanked** suffers a -2 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A target is half flanked if it is at least half surrounded, either to a side, above, or below.
 
@@ -117,9 +209,9 @@ A target who is **three-quarters flanked** suffers a -5 penalty to AC and Dexter
 
 A creature who has a reach of greater than 5 feet gains the benefit of flanking against a creature while within melee range, but does not contribute towards flanking unless they are within 5 feet of the target.
 
-***Flanking on Squares.*** On a square grid, a Small or Medium creature takes up one square, and has eight squares surrounding it within 5 feet. When four or five of those squares are occupied by hostile creatures, that creature is considered half flanked by those creatures. If six or more of those squares are occupied by hostile creatures, that creature is instead considered three-quarters flanked.
+***Flanking on Squares.*** On a square grid, a Small or Medium creature takes up one square, and has eight squares surrounding it within 5 feet. When two or three of those squares are occupied by hostile creatures, that creature is considered one-quarter flanked by those creatures. When four or five of those squares are occupied by hostile creatures, that creature is considered half flanked by those creatures. If six or more of those squares are occupied by hostile creatures, that creature is instead considered three-quarters flanked.
 
-***Flanking on Hexes.*** On a hex grid, a Small or Medium creature takes up one hex, and has six hexes surrounding it within 5 feet. When three or four of those squares are occupied by hostile creatures, that creature is considered half flanked by those creatures. If five or six of those hexes are occupied by hostile creatures, that creature is instead considered three-quarters flanked.
+***Flanking on Hexes.*** On a hex grid, a Small or Medium creature takes up one hex, and has six hexes surrounding it within 5 feet. When two of those squares are occupied by hostile creatures, that creature is considered one-quarter flanked by those creatures. When three or four of those squares are occupied by hostile creatures, that creature is considered half flanked by those creatures. If five or six of those hexes are occupied by hostile creatures, that creature is instead considered three-quarters flanked.
 
 > Alternatively, you can run the simpler ruleset for flanking found in the DMG, that offers advantage instead of flat bonuses. That ruleset works alongside Advanced Advantage as well.
 
@@ -498,7 +590,7 @@ You gain a permanent +1 destiny bonus to saving throws.
 ### Education
 Your destiny is to train or educate another being or group of beings in some way. In some cases, this could mean taking a young Padawan learner and molding them into an eventual Jedi Master, or it could mean training fresh-faced Rebel Alliance recruits and molding them into a crack team of SpecForce operatives. Characters with this destiny are not merely teachers providing mundane training. The education that this destiny demands must be of great importance to the galaxy, and should lay the groundwork for the beneficiaries of your tutelage to go on to fulfil destinies of their own. Only when the training is complete can this destiny be fulfilled, and the process should take months or years to complete.
 
-Examples of this destiny include Obi-Wan Kenobi's training of Anakin Skywalker, Yoda's training of Luke Skywalkerm, or Grand Admiral Thrawn's training of Captain Pellaeon.
+Examples of this destiny include Obi-Wan Kenobi's training of Anakin Skywalker, Yoda's training of Luke Skywalker, or Grand Admiral Thrawn's training of Captain Pellaeon.
 
 \columnbreak
 
@@ -667,10 +759,113 @@ If you roll a result on the Dismemberment table, and the creature lacks the chos
 
 > ##### More Common Dismemberment
 > You can readily increase the potential for this rule through a number of house corrections. As it stands, not account for advantage/disadvantage, you have a 1/400 (or .25%) chance to trigger a dismemberment when you make an attack roll. This increases to 39/8,000 with advantage (or .4875%), almost doubling the potential. You can increase it even more by changing the initial trigger to any critical hit, instead of just a natural 20, or increasing the range on the additional d20 from beyond just a natural 20, or both.
->
-> Increasing the potential to scale with features that increase critical hit range.
 
 
 <div class='footnote'>EXPANDED CONTENT | VARIANT RULES | DISMEMBERING</div>
+
+\pagebreak
+
+<div class='wide'>
+
+# Defense Rolls
+
+</div> 
+
+One of the first variant rules I added to my games was the Defense Rolls, published in the Unearthed Arcana: Variant Rules. Essentially, instead of the GM making attack rolls against the players' static AC, the players make defense rolls against the GM's static attack save DC. Implementing this is easy.
+
+### Calculating Defense Bonus (DB)
+Armor class is replaced with Defense Bonus. This bonus is calculated simply by players taking their AC and subtracting 10. If a player had an AC of 16, they would have a DB of +6.
+
+### Calculating Attack Save DC
+Attack bonuses you find on monster cards are similar converted to static values, called the attack save DC. To calculate this DC, simply take the listed attack bonus and add 12 to it. For instance, a B1 battle droid's blaster rifle attacks with a +4 modifier. Instead, that droid would have an attack save DC of 16.
+
+### Making the Roll
+Instead of the GM making attack rolls, players make defense rolls by rolling a d20 and adding their Defense Bonus. If the roll meets or exceeds the attack save DC, the player successfully defends. If a character fails the the defense roll, the attack hits.
+
+If the attacker would normally have advantage on the attack roll, you instead apply disadvantage to the defense roll, and vice versa if the attacker would have disadvantage.
+
+If the defense roll comes up a 1 on the d20, then the attack is a critical hit. If the attacker would normally score a critical hit on a roll of 19 or 20, then the attack is a critical hit on a 1 or 2, and so forth for broader critical ranges.
+
+Similarly, a 20 on the defense roll would automatically be a successful dodge, regardless of the attack save DC.
+
+\pagebreak
+<div class='wide'>
+
+# Saving Throw Checks
+
+</div>
+
+Also published in the Unearthed Arcana: Variant Rules was a rule for your players to roll when they use powers or abilities that call for a save DC. Instead of the GM making saving throws against the players' static save DCs, the players roll a saving throw check against the GM's defense save DC.
+
+### Calculating Saving Throw Check
+If players have their save throw DCs calculated, simply subtract 8 from that value. If your consular's force save DC is 15, your saving throw check modifier is +7.
+
+### Calculating Defense Save DC
+Monster cards also include potential saving throws, which can easily be converted to a defense save DC. Take the appropriate ability score modifier and add 14 to it. If the monster is proficient in the saving throw (indicated in the *saving throw* line on the monster card, if it exists), instead use that value. For instance, if a B1 battle droid is forced to make a Dexterity saving throw, its defense save DC would be 16 (14+2).
+
+### Making the Roll
+Instead of the GM rolling saving throws for the monsters, players make saving throw checks by rolling a d20 and adding their saving throw check modifier. If the roll meets or exceeds the defense save DC, the creature fails the saving throw. If a character fails the the saving throw check, the creature successfully saves.
+
+If the defender would normally have advantage on the saving roll, you instead apply disadvantage to the saving throw check, and vice versa if the defender would have disadvantage.
+
+\pagebreak
+
+<div class='wide'>
+
+# Simplified Forcecasting
+
+</div>
+
+The current version of the SW5e PHB has the player using different ability scores depending on the alignment of the powers they are trying to cast: Wisdom for light side, Charisma for dark side, player's choice for universal.
+
+For new players, this might be too complicated. Consider letting them instead choose between using Wisdom and Charisma as their forcecasting ability.
+
+\pagebreak
+
+<div class='wide'>
+
+# ASI and a Feat
+
+</div>
+
+This one is simple. At level 4, 8, 12, 16, and 19, when a player gets the opportunity to choose between adding 2 to their ability scores or a feat, I'm letting them add 1 to an ability score *and* choose a feat.
+
+Now, this is going to create more powerful players, which means you need to pit them against more powerful monsters. I, personally, love this rule because I know it helps experienced players realize the exact character they want and helps to differentiate GM different characters of the same class. Then GM again, I'm a *huge* proponent of feats in general.
+
+\pagebreak
+
+<div class='wide'>
+
+# Milestone Leveling
+
+</div>
+
+I won't delve too far into this. The simplified version is that instead of receiving experience for every encounter and leveling up at odd times, the GM chooses when they level up. Additionally, there never has the potential to be an experience, and consequently level, disparity between players.
+
+\pagebreak
+
+<div class='wide'>
+
+# Bonus Action Consumables
+
+</div>
+
+Most consumables require an action to use, which makes sense when applying them to others. However, a common adjustment in 5e (which is even more logical in SW5e), is to allow administering such consumables to yourself as a bonus action, instead. This only applies to consumables that confer a positive benefit, such as a repair kit or medpac.
+
+\pagebreak
+
+<div class='wide'>
+
+# Hunted
+
+</div>
+
+In some eras of Star Wars history, forcecasters are a rarity, and are hunted across the galaxy by the likes of Inquisitors, or if they're unlucky, a Dark Lord of the Sith, in an attempt to crush any foreseen threats to their rule. Should you want your forcecasting players to experience this additional level of drama and suspense, here is an alternate rule to implement:
+
+Whenever a player casts a force power, others in the Galaxy may detect their presence through ripples in the Force. Each player has a pool of Disturbance Points. This pool of Disturbance Points increases every time a force power is cast by a number of points equal to the level of the force power used (at-will powers are treated as Level 0). 
+
+After each combat, roll a percentile dice for each player that used a force power. If you roll a number equal to or lower than the players Disturbance Pool, they are detected by Jedi Hunters of your determination, who begin to hunt the player they detected.
+
+During each long rest, decrease each player's pool of Disturbance Points by an amount equal to their level.
 
 \pagebreak

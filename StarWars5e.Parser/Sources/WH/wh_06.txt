@@ -1,0 +1,206 @@
+
+
+# Chapter 6: Customization Options
+
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:29px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he combination of ability scores, species, class, and</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players who—with the GM's permission—want to go a step further.
+
+This chapter defines two optional sets of rules for customizing your character: multiclassing and feats. Multiclassing lets you combine classes together, and feats are special options you can choose instead of increasing your ability s cores as you gain levels. Your GM decides whether these options are available in a campaign.
+
+#### Class Weapon Proficiencies
+Certain classes—berserker, consular, engineer, fighter, guardian, and scout—have proficiency in all of a type of weapon. For instance, fighters are proficient in all blasters and all vibroweapons. Consequently, fighters have proficiency in all blasters and vibroweapons present in Chapter 5. Other classes—monks, operatives, scholars, and sentinels—have proficiency in a certain set of weapons. For each of these classes, they gain proficiency in only certain weapons, as shown below in the Weapon Proficiencies by Class table:
+
+\columnbreak
+
+##### Weapon Proficiencies by Class
+|Class|Weapon Proficiencies|
+|:--|:--|
+|Berserker|All vibroweapons, simple blasters|
+|Consular|Simple lightweapons, simple vibroweapons|
+|Engineer|Simple blasters, simple vibroweapons|
+|Fighter|All blasters, all vibroweapons|
+|Guardian|All lightweapons, all vibroweapons|
+|Monk|Simple blasters, simple vibroweapons, bolas|
+|Operative|Simple vibroweapons, simple blasters, bolas, electrobaton, incinerator pistol, riot baton, riot shocker, sonic pistol, vibroknife, wristblade|
+|Scholar|Simple blasters, simple vibroweapons, electrobaton, incinerator pistol, sonic pistol, vibroknife|
+|Scout|All blasters, all vibroweapons|
+|Sentinel|Simple vibroweapons, simple lightweapons, bolas, chained dagger, chained lightdagger, electrobaton, electrostaff, guard shoto, lightfist, riot baton, riot shocker, vibroshield, vibroknife, vibrotonfa, war hat, wristblade|
+
+#### Weapons by Mastery Feat
+Many of these weapons are appropriate options for weapon mastery feats. You can see which weapon is governed by which feat below.
+
+<div class='wide' style='position:absolute;bottom:60px;left:75px;width:687px;column-count:3'>
+
+|Weapon|Mastery feat|
+|:--|:--|
+|	ARC caster	|	Heavy Weapons	|
+|	Blaster cannon	|	Heavy Weapons	|
+|	Bo-rifle	|	Trip Weapon	|
+|	Bolas	|	Trip Weapon	|
+|	Bolt-thrower	|	Rifle	|
+|	Canesaber	|	Blade	|
+|	Carbine rifle	|	Rifle	|
+|	Chained dagger	|	Trip Weapon	|
+|	Chained lightdagger	|	Trip Weapon	|
+|	Claymore saber	|	Crushing Weapon	|
+|	Crossguard saber	|	Blade	|
+|	Cycler rifle	|	Heavy Weapons	|
+|	Disruptor pistol	|	Sidearm	|
+|	Disruptor rifle	|	Rifle	|
+|	Dual-phase saber	|	Blade	|
+|	Electrobaton	|	Trip Weapon	|
+|	Electrohammer	|	Crushing Weapon	|
+|	Electroprod	|	Blade	|
+|	Electrostaff	|	Trip Weapon	|
+|	Electrovoulge	|	Polearm	|
+|	Energy bow	|	Rifle	|
+|	Grenade launcher	|	Heavy Weapons	|
+
+|Weapon|Mastery feat|
+|:--|:--|
+|	Guard shoto	|	Blade	|
+|	Handwraps	|	Blade	|
+|	Heavy bowcaster	|	Heavy Weapons	|
+|	Heavy repeater	|	Rifle	|
+|	Heavy shotgun	|	Heavy Weapons	|
+|	Heavy slugpistol	|	Sidearm	|
+|	Incinerator pistol	|	Sidearm	|
+|	Incinerator sniper	|	Rifle	|
+|	Ion carbine	|	Rifle	|
+|	IWS	|	Heavy Weapons	|
+|	Light repeater	|	Rifle	|
+|	Lightaxe	|	Crushing Weapon	|
+|	Lightbow	|	Rifle	|
+|	Lightfist	|	Blade	|
+|	Lightglaive	|	Polearm	|
+|	Hunting rifle	|	Rifle	|
+|	Mancatcher	|	Trip Weapon	|
+|	Needler	|	Sidearm	|
+|	Nightstinger rifle	|	Rifle	|
+|	Railgun	|	Rifle	|
+|	Retrosaber	|	Blade	|
+|	Revolver	|	Sidearm	|
+|	Riot baton	|	Trip Weapon	|
+
+|Weapon|Mastery feat|
+|:--|:--|
+|	Riot shocker	|	Trip Weapon	|
+|	Rocket launcher	|	Heavy Weapons	|
+|	Rotary cannon	|	Heavy Weapons	|
+|	Sith saber	|	Crushing Weapon	|
+|	Slugpistol	|	Sidearm	|
+|	Sonic pistol	|	Sidearm	|
+|	Sonic rifle	|	Rifle	|
+|	Subrepeater	|	Sidearm	|
+|	Tranquilizer rifle	|	Rifle	|
+|	Vapor projector	|	Heavy Weapons	|
+|	Vibroclaw	|	Blade	|
+|	Vibroclaymore	|	Crushing Weapon	|
+|	Vibrocutter	|	Crushing Weapon	|
+|	Vibrohammer	|	Crushing Weapon	|
+|	Vibroknife	|	Blade	|
+|	Vibroshield	|	Blade	|
+|	Vibrotonfa	|	Blade	|
+|	War hat	|	Trip Weapon	|
+|	Warsword	|	Crushing Weapon	|
+|	Wristblade	|	Blade	|
+|	Wristblaster	|	Sidearm	|
+|	Wristsaber	|	Blade	|
+
+</div>
+
+
+\pagebreakNum
+
+## Feats
+A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
+
+You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
+
+The feats presented in this chapter should be considered valid options for background feats.
+
+### Savage Shorty
+*Prerequisite: Strength 13, size Small*<br>
+Despite being short of stature, your size has no impact on your strength and virility. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20.
+- Your speed increases by 5 feet.
+- You lose the Undersized special trait.
+
+### Force Guidance
+*Prerequisite: The ability to cast force powers*<br>
+You've learned to utilize your gift with the Force in a specific, unique way. You gain the following benefits
+- Increase your Wisdom or Charisma score by 1, to a maximum of 20. 
+- Choose a skill or tool in which you are proficient. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
+
+You can select this feat multiple times. Each time you do so, you must choose a different skill or tool.
+
+### Augmented Cyborg
+You've experimented with cybernetic augmentations, granting the following benefits: 
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- Choose one cybernetic augmentation of standard rarity from Appendix A. That augmentation is installed and doesn't count against the maximum cybernetic augmentations you can support, but it does count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table in Chapter 7.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Shard Modification
+_**Prerequisite:** Class I, II, III, IV, or V Droid_<br>
+You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You lose the Force-Insensitive special trait.
+- You can cast the *sense force* force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
+
+### Customized Droid
+_**Prerequisite:** Class I, II, III, IV, or V Droid_<br>
+You've been customized beyond other droids of the same model, granting the following benefits: 
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- Choose one droid customization of standard rarity from Appendix A. That customization is installed and doesn't count against the maximum droid customizations you can support, but it does count towards your maximum parts as shown in the Droid Size Maximum Parts table in Chapter 7.
+
+\pagebreakNum
+
+### Archaeologist
+You are experienced with collecting and classifying gems and relics. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency with the archaeologist kit. If you are already proficient with it, you instead gain expertise with it.
+- As an action, you can touch a relic within 5 feet of you and determine whether the item holds any enhanced properties.
+- You can accurately determine the value of gems you can see and feel. You must have an archaeologist kit to use this benefit.
+
+### Scavenger
+You are skilled at removing and recognizing metals and ores. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency with the scavenging kit. If you are already proficient with it, you instead gain expertise with it.
+- You can determine the approximate use of an ore or metal you can touch and see. You must have a scavenging kit to use this benefit.
+- Over the course of a short rest, you can hone the edge of a vibroweapon. To use this benefit, you must have a scavenging kit, and the vibroweapon must be within reach. The first time a character deals damage with the vibroweapon before the end of your next short or long rest, and it deals extra damage equal to your Intelligence modifier of the same type it would normally deal.
+
+### Bioanalyst
+You are adept at harvesting and harnessing the useful properties of herbs and other plants. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency with the bioanalysis kit. If you are already proficient with it, you instead gain expertise with it.
+- As an action, you can inspect a plant within 5 feet of you and determine whether it is edible or poisonous, provided that you can see and smell it.
+- You can apply herbal remedies to help yourself or your allies recover from maladies. Over the course of a short rest, you can remove one poison or disease from a friendly creature within reach. You must have a bioanalysis kit and access to local herbs to use this benefit.
+
+\columnbreak
+
+### Wildcatter
+You are accomplished with producing and refining ammunitions. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency with the munitions kit. If you are already proficient with it, you instead gain expertise with it.
+- 
+- Over the course of a short rest, you can increase the potency of one specialized power cell or slug cartridge within reach. To use this benefit, you must have a munition's kit, and the ammunition must be within reach. If you do so, the first time you fire the ammunition before the end of your next short or long rest, if it hits, you deal additional damage equal to your Intelligence modifier.
+
+### Dealer
+You are competent with the creation and use if illicit substances. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency with the spicer's kit. If you are already proficient with it, you instead gain expertise with it.
+- As an action, you can inspect a substance within 5 feet of you and determine what properties it will grant, provided that you can interact with it.
+- Over the course of a short rest, you can hone or reduce the addictive properties of a substance within reach. To use this benefit, you must have a spicer's kit, and the substance must be within reach. If a character consumes the substance before the end of your next short or long rest, they have advantage or disadvantage (your choice) on the Constitution saving throw made to avoid addiction.
+
+### Brewmaster
+You are talented at brewing and imbibing impairing beverages. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency with the brewer's kit. If you are already proficient with it, you instead gain expertise with it.
+- 
+- Over the course of a short rest, you can improve the potency of an alcoholic beverage within reach. To use this benefit, you must have a brewer's kit, and the beverage must be within reach. 
+
+\pagebreakNum

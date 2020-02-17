@@ -53,28 +53,29 @@
 |&emsp;Acquisitions Practice    |48|
 |&emsp;Beguiler Practice        |49|
 |&emsp;Disabling Practice       |51|
-|&emsp;Ruffian Practice         |52|
-|&emsp;Sawbones Practice        |53|
-|&emsp;Sharpshooter Practice    |54|
+|&emsp;Performance Practice     |52|
+|&emsp;Ruffian Practice         |53|
+|&emsp;Sawbones Practice        |54|
+|&emsp;Sharpshooter Practice    |55|
 |Scholar||
-|&emsp;Chef Pursuit             |55|
-|&emsp;Explorer Pursuit         |57|
-|&emsp;Gambler Pursuit          |59|
-|&emsp;Slicer Pursuit           |61|
-|&emsp;Zoologist Pursuit        |63|
+|&emsp;Chef Pursuit             |56|
+|&emsp;Explorer Pursuit         |58|
+|&emsp;Gambler Pursuit          |60|
+|&emsp;Slicer Pursuit           |62|
+|&emsp;Zoologist Pursuit        |64|
 |Scout||
-|&emsp;Bulwark Technique        |67|
-|&emsp;Illusionist Technique    |68|
-|&emsp;Inquisitor Technique     |69|
-|&emsp;Mastermind Technique     |70|
-|&emsp;Predator Technique       |71|
-|&emsp;Slayer Technique         |72|
+|&emsp;Bulwark Technique        |68|
+|&emsp;Illusionist Technique    |69|
+|&emsp;Inquisitor Technique     |70|
+|&emsp;Mastermind Technique     |71|
+|&emsp;Predator Technique       |72|
+|&emsp;Slayer Technique         |73|
 |Sentinel||
-|&emsp;Path of Communion        |73|
-|&emsp;Path of the Corsair      |74|
-|&emsp;Path of the Forceblade   |75|
-|&emsp;Path of Synthesis        |76|
-|&emsp;Path of Tenacity         |77|
+|&emsp;Path of Communion        |74|
+|&emsp;Path of the Corsair      |75|
+|&emsp;Path of the Forceblade   |76|
+|&emsp;Path of Synthesis        |77|
+|&emsp;Path of Tenacity         |78|
 
 </div>
 
@@ -93,7 +94,7 @@ When you choose this approach at 3rd level, you've learned to use ranged weapons
 ### Explosive
 Also at 3rd level, while raging, you gain the following benefits:
 - When you roll a 1 or 2 on a damage die for an attack made with a blaster weapon, you can reroll the die<br> and must use the new roll, even if the new roll is<br> a 1 or a 2.
-- You add your rage damage to damage rolls<br> from ranged weapon attacks while within 30<br> feet of your target. You may only apply your<br> rage damage to one target when you use the<br> *burst* feature.
+- You add your rage damage to damage rolls<br> from ranged weapon attacks while within 30<br> feet of your target. You may only apply your<br> rage damage to one target when you use the<br> burst property.
 
 ### Rampage
 At 6th level, while raging, when you deal<br> damage with a blaster with which you are<br> proficient while within 30 feet of your<br> target, you can use a bonus action to move<br> up to half your speed towards your target. You<br> must end this movement closer to your target than you started. If you end this movement within 5 feet of your target, you can make one melee weapon attack with your blaster as a part of this bonus action.
@@ -106,7 +107,7 @@ Starting at 10th level, when you are hit with an attack by a creature within 30 
 <div style='margin-top:28px'></div>
 
 ### Brawn
-At 14th level, when you use the *burst* feature of a blaster with which are you proficient, you can apply your rage damage bonus to every target that takes damage. Additionally, when a creature fails the saving throw, it is knocked prone.
+At 14th level, when you use the burst property of a blaster with which are you proficient, you can apply your rage damage bonus to every target that takes damage. Additionally, when a creature fails the saving throw against your burst property, it is knocked prone.
 
 <img src='https://www.gmbinder.com/images/ahaCpxp.png' style='position:absolute;bottom:-16px;right:-48px;width:600px;z-index:1000;' />
 
@@ -357,7 +358,7 @@ When you choose this tradition at 3rd level, you learn to deftly control your we
 Your weapon moves with you, and while Saber Storm is active and you have a weapon animated, on each of your turns you can use an action to move a weapon up to 10 feet and repeat the attack against a creature within 5 feet of it. The weapon then returns to your side. Your Saber Storm ends early if you are incapacitated. At any time, you can end this feature and return the animated weapon to your hand.
 
 Additionally, while your Saber Storm is active, and at least one animated weapon is within 5 feet of you, you gain the following benefits:
-- You gain a bonus to your AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1).
+- You gain a bonus to your AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1) if it doesn't already include that modifier.
 - You gain a bonus to any Constitution saving throw you make to maintain your concentration on a power. The bonus equals your Wisdom or Charisma modifier (your choice, minimum of +l).
 
 This feature can animate more than one weapon when you reach higher levels: two weapons at<br> 5th level, three weapons at 11th level, and four<br> weapons at 17th level. When you use your<br> action to attack with your weapons, you<br> can direct them at the same target or<br> at different ones. Make a separate<br> attack roll for each weapon.
@@ -529,7 +530,7 @@ Lastly at 3rd level, once per round, when you hit a creature with your modified 
 The damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.
 
 ### Kyber Knowledge
-Beginning at 6th level, you're study of kyber crystals has awakened a latent force sensitivity. Choose two force powers of 1st level. The chose powers count as tech powers for you, but are not included in the number in the Powers Known column of the engineer class table.
+Beginning at 6th level, your study of kyber crystals has awakened a latent force sensitivity. Choose two force powers of 1st level. The chose powers count as tech powers for you, but are not included in the number in the Powers Known column of the engineer class table.
 
 At 10th level, you learn two additional force powers of 1st or 2nd level. At 14th level, you learn two force powers of 1st-3rd level, and at 18th level, you learn two force powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of the same level.
 
@@ -1158,9 +1159,9 @@ You can use this amplifier a number of times equal to your Intelligence modifier
 \pagebreak
 
 #### Imaging Amplifier
-You craft a booster for your illusionary tech powers. While wielding this amplifier, when a creature attempts an Intelligence (Investigation) check against a tech power you cast to discern the illusion for what it is, it has disadvantage on the roll.
+You integrate a booster in your wristpad that enhances your illusionary tech powers. While wielding this amplifier, when a creature attempts an Intelligence (Investigation) check against a tech power you cast to discern the illusion for what it is, you can force the creature to have disadvantage on the roll (no action required). Alternatively, when you cast the *mirror image* tech power, you create a fourth duplicate. While you have four duplicates, you must roll a 5 or higher on the d20 roll to change an attack's target to a duplicate.
 
-Additionally, when you cast the *mirror image* tech power, you create a fourth duplicate. While you have four duplicates, you must roll a 5 or higher on the d20 roll to change an attack's target to a duplicate.
+You can use this amplifier a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
 
 #### Jet Boots
 _Prerequisite: 7th level_<br>
@@ -1576,18 +1577,16 @@ At 18th level, your ammunition enhancements improve.
 Some manned instruments of war require their user to have superior physical prowess to overcome their weight and encumbrance. Those fighters who choose to become Heavy Weapons Specialists use their powerful bodies, and powerful armaments, to overwhelm their foes.
 
 ### Rock Steady
-When you choose this specialty at 3rd level, you have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
+When you choose this specialty at 3rd level, you have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the dexterity or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
 
 ### My Little Friend Says Hello There
-Also at 3rd level, you know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the heavy or strength properties that doesn't already include that modifier.
-
-Additionally, if your size is Small, you no longer have disadvantage on attack rolls with heavy weapons due to being Small.
+Also at 3rd level, you know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the dexterity or strength properties that doesn't already include that modifier.
 
 ### Maximum Output
-Beginning at 7th level, when you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks.<br> If you do so, you deal additional damage the<br> first time you hit with an attack roll before<br> the end of your next turn. For each attack<br> you forgo in this fashion, you deal extra<br> damage equal to 1d12 + half your<br> fighter level (rounded down). If you<br> miss with the first attack roll you<br> make before the end of your next<br> turn, you instead deal normal weapon<br> damage.
+Beginning at 7th level, when you take the Attack action while wielding a weapon with the dexterity or strength properties, you can forgo one or more attacks.<br> If you do so, you deal additional damage the<br> first time you hit with an attack roll before<br> the end of your next turn. For each attack<br> you forgo in this fashion, you deal extra<br> damage equal to 1d12 + half your<br> fighter level (rounded down). If you<br> miss with the first attack roll you<br> make before the end of your next<br> turn, you instead deal normal weapon<br> damage.
 
 ### Straight Through
-At 10th level, when you score a critical<br> hit on your turn while wielding a<br> weapon with the heavy or<br> strength properties, you can<br> make one weapon attack<br> against a creature within 5<br> feet of the target using<br> your reaction.
+At 10th level, when you score a critical<br> hit on your turn while wielding a<br> weapon with the dexterity or<br> strength properties, you can<br> make one weapon attack<br> against a creature within 5<br> feet of the target using<br> your reaction.
 
 \columnbreak
 
@@ -1626,9 +1625,9 @@ In addition, if a creature marked by you deals damage to anyone other than you, 
 Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ### Warding Maneuver
-Beginning at 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll ld8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attacks damage.
+Beginning at 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll ld8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
 
-You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.
+You can use this feature a number of times equal to your Constitution modifier (a minimum of once), and you regain all expended uses of it when you finish a long rest.
 
 \columnbreak
 
@@ -1733,7 +1732,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 Form V, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+You gain proficiency in dexterity armor.
 
 ### Fighting Style
 When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Sentinel, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -1977,7 +1976,7 @@ Once per turn, when you miss with a melee weapon attack, you can expend a use of
 Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Channel the Force, to a maximum of your Wisdom or Charisma modifier (your choice, minimum of one). 
 
 ### Rising Whirlwind
-Starting at 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw. A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding two melee weapons, or a weapon with the *double* property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save.
+Starting at 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw. A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding two melee weapons, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn't already include that modifier.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
@@ -2091,7 +2090,7 @@ Monks of the Crimson Order are unyielding in their resolve. They pledge themselv
 ### Crimson Armaments
 Beginning when you choose this order at 3rd level, you've learned to perform your martial arts while armored. You gain proficiency in all armor, and you can now gain the benefits of your Martial Arts and Unarmored Movement features while wearing armor but not wielding a shield.
 
-Additionally, you've learned to adapt to new weaponry. Over the course of an hour, which can be performed during a short rest, you can perform a kata with one weapon that lacks the heavy property. You gain proficiency in that weapon if you do not already have proficiency, and it becomes a monk weapon for you. You can only adapt to one weapon at a time, and if you attempt to adapt to another weapon you immediately lose your proficiency with the chosen weapon.
+Additionally, you've learned to adapt to new weaponry. Over the course of an hour, which can be performed during a short rest, you can perform a kata with a weapon of your choice. You gain proficiency in that weapon if you do not already have proficiency, and it becomes a monk weapon for you. You can only adapt to one weapon at a time, and if you attempt to adapt to another weapon you immediately lose your proficiency with the chosen weapon.
 
 ### Divert Strike
 Also at 3rd level, you can use your reaction to divert an attack when you or a friendly creature within 5 feet of you are hit by a melee weapon attack. When you do so, the damage taken by the attack is reduced by 1d10 + your Dexterity modifier + your monk level.
@@ -2195,7 +2194,7 @@ At 17th level, whenever you use your Instinctive Leap feature, you can leap your
 Monks of the Whills Order hold the secrets of the Force sacred, and dedicate their lives to defending ancient  knowledge of the Force and its artifacts. They master the use of ranged weapons, often crafting their own weapons in respectful admiration of the Jedi tradition of crafting lightweapons.
 
 ### Flurry of Light
-At 3rd level, you gain proficiency in blaster pistole, blaster rifle, ion blaster, ion rifle, and the lightbow, which are your Whills weapons and are monk weapons for you. When you are wielding a Whills weapon, you gain the following benefits:
+At 3rd level, you gain proficiency in blaster pistols, blaster rifle, ion blaster, ion rifle, and the lightbow, which are your Whills weapons and are monk weapons for you. When you are wielding a Whills weapon, you gain the following benefits:
 - Your Whills weapons count as melee weapons for you, and when you make a melee weapon attack with them, you deal kinetic damage equal to your Martial Arts Damage Die.
 - When you take the Attack action on your turn<br> and attack with a Whills weapon,<br> you can<br> make<br> one<br> additional attack with that weapon as a bonus action, or you can spend 1 focus point to make two attacks with that weapon as a bonus action. You roll a d4 in place of the normal damage of your Whills weapon when attacking as a bonus action. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
 - When you would make a ranged weapon attack with a Whills weapon, you can instead reload the weapon.
@@ -2229,41 +2228,53 @@ At 17th level, your first ranged weapon attack and your first melee weapon attac
 ## Acquisitions Practice
 Many operatives are hired for the procurement of valuable artifacts, but only the true masters of the art can slip through the tightest security and make off with untold riches, whether they do it for a profit, or for sport. Those operatives who choose the Acquisitions Practice apply a mixture of stealth and impressive acrobatics to surpass any kind of defenses they are met with.
 
-### Fast Hands
-Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your demolitions kit or security kit to disarm a trap or open a lock, or take the Use an Object action.
+### Fast and Agile
+When you use choose this practice at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your demolitions kit or security kit to disarm a trap or open a lock, or take the Use an Object action.
 
-### Aerial Agility
-At 3rd level, you gain the ability to move in flying leaps with incredible speed, precision, and power. Climbing no longer costs you extra movement.
+Additionally, climbing no longer costs you extra movement, and you gain the ability to move in flying leaps with incredible speed, precision, and power. When you move, instead of using your walking speed, you may take two short movements by flying. Each movement is at half your speed, and you must end each one on a solid object, a surface, or on the ground. If you do not, you fall and your movement ends. If you Dash, your bonus movement is applied to your normal speed, not this movement. 
 
-When you move, instead of using your walking speed, you may take two short movements by flying. Each movement is at half your speed, and you must end each one on a solid object, a surface, or on the ground. If you do not, you fall and your movement ends. If you Dash, your bonus movement is applied to your normal speed, not this movement. 
+### Deft Hands
+Also at 3rd level, you learn a number of techniques to distract and confuse your opponents. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to perform a deft hand maneuver.
 
-You also gain proficiency in the Acrobatics skill.
+Some of your aerial maneuvers require your target to make a saving throw to resist the deft hand maneuver's effects. The saving throw DC is as follows:
+
+___
+
+<div align='center'>
+
+**Deft Hands save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
+
+</div>
+
+___
+
+#### Hinder
+You attempt to distract your target in order to hinder their movement. The target must make a Constitution saving throw. On a failed save, its movement speed is reduced by half and it makes the first Dexterity saving throw before the end of its next turn with disadvantage.
+
+#### Pilfer
+You attempt to pick your target's pockets. The target must make a Wisdom saving throw. On a failed save, you have advantage on the first Dexterity (Sleight of Hand) check you make against the target before the end of your next turn.
+
+#### Tumble
+You attempt to nimbly roll away. You immediately move 10 feet in a direction of your choice, and the target must make a Dexterity saving throw. On a failed save, this movement does not provoke opportunity attacks from the creature.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
 
 ### Supreme Sneak
-Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.
-
-### Graceful Descent
-Also at 9th level, as long as you aren't incapacitated, you no longer take damage from falling less than 100 feet, and have resistance to falling damage.
-
-### Faux Credentials
-By 13th level, you ignore all class, species, and level requirements on the use of enhanced items.
+Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn. Additionally, as long as you aren't incapacitated, you no longer take damage from falling less than 100 feet, and have resistance to falling damage.
 
 ### Improved Aerial Agility
 Starting at 13th level, your Aerial Agility feature improves and you gain the following benefits:
 - When you move, you can instead take 3 short movements by flying.
 - Whenever you end your flying movement and you are within 5 feet of a climbable surface, you can grab onto that surface as though you were climbing upon it.
 
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
 ### Thief's Reflexes
 When you reach 17th level, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
 
-Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your
-reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can add 3d6 extra weapon damage to the damage roll and the creature must make a Dexterity saving throw or be knocked prone.
+Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your reaction to make one weapon attack against that<br> creature. If the attack is a<br> Sneak Attack, you can deal<br> three additional weapon<br> dice worth of damage and<br> the creature must make a<br> Dexterity saving throw<br> or be knocked prone.
 
-<img src='https://www.gmbinder.com/images/rBgHouo.png' style='position:absolute;bottom:26px;right:40px;width:360px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/rBgHouo.png' style='position:absolute;bottom:26px;right:40px;width:268px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
@@ -2421,6 +2432,61 @@ At 17th level, you learn how to immediately remove your grappled opponent from t
 Once&emsp;&emsp; you've used this feature, you must<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;complete a short or long rest before you can&emsp;&emsp;&emsp; use it&emsp;&emsp; again.
 
 <img src='https://www.gmbinder.com/images/1R5mZA5.png' style='position:absolute;bottom:23px;right:45px;width:480px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
+
+\pagebreak
+
+## Performance Practice
+Some operatives choose to master finesse and timing through performance art. Those operatives who choose the Performance Practice become skilled performers who prove especially deadly in close combat, able to find the rhythm of an attacker's strikes as easily as any song.
+
+### Artful Dancer
+When you choose this practice at 3rd level, your training with music and dancing grants you certain benefits. You gain proficiency in the Performance skill and one musical instrument of your choice.
+
+Additionally, while you are you are not wearing armor or wielding a medium or heavy shield, you can add half your Charisma modifier (rounded up) to your AC as long as it doesn't already include that modifier.
+
+### Dazzling Steps
+Also at 3rd level, you learn to conduct impressive displays of grace and speed in combat. While you aren't wearing medium or heavy armor or wielding a medium or heavy shield, and you take the Attack action on your turn and attack with a weapon with either the light or finesse properties, your walking speed increases by 10 feet until the end of the turn, and if you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to make the attack a dazzling step.
+
+Some of your dazzling steps require your target to make a saving throw to resist the dazzling step's effects. The saving throw DC is calculated as follows:
+
+___
+
+<div align="center">
+
+**Dazzling Step save DC** = 8 + your proficiency bonus + <br>your Charisma modifier
+
+</div>
+
+___
+
+#### Defensive Step
+You defend yourself from further attack. Roll two Sneak Attack dice. You gain temporary hit points that last until the start of your next turn equal to the amount rolled.
+
+#### Mobile Step
+You twist and twirl around the target. The target must make a Strength saving throw. A Huge or larger creature automatically succeeds. On a failed save, it is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.
+
+#### Offensive Step
+Choose another creature that you can see<br> within your reach. The creature must make a<br> Dexterity saving throw. On a failed save, roll<br> two Sneak Attack dice. The creature takes<br> damage equal to the amount rolled. This<br> damage is of the same as your weapon's<br> damage.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Flexible Body
+Beginning at 9th level, you are able to use your acrobatic talent to gain the upper hand in combat. You can use the bonus action granted by your Cunning Action to shove a creature. When you do so, you can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check. 
+
+Additionally, you now ignore difficult terrain, you can move through space occupied by hostile creatures, and you can squeeze through smaller spaces without expending extra movement.
+
+### Dance of Death
+Starting at 13th level, you can use your action to make a weapon attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. You can choose to deal Sneak Attack damage to each creature you hit, but you can only roll half your number of Sneak Attack dice (rounded up) per creature.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Master of Dance
+At 17th level, your confidence when putting on a show has extended into combat. You add your Charisma modifier to initiative checks. Additionally, any creature who fails a saving throw against your Dazzling Step save DC has disadvantage on the first attack roll they make against you<br> each turn until the<br> end of your next<br> turn.
+
+<img src='https://i.ibb.co/nnh6s3n/final-twilek.png' style='position:absolute;bottom:-19px;right:45px;width:498px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
@@ -3718,7 +3784,7 @@ Also at 3rd level, you can use your reaction to deflect a strike when you are hi
 
 <div style='margin-top:35px'></div>
 
-If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon deflect it, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the weapon counts as a sentinel weapon for the attack. If *saber ward* is active, you have advantage on the attack roll.
+If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon deflect it, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and if the attack hits it uses your Kinetic Combat die for its damage roll. If *saber ward* is active, you have advantage on the attack roll.
 
 ### Kinetic Bulwark
 At 7th level, you can extend your Kinetic Ward to a creature within 5 feet of you when they are hit by a melee weapon attack. If this damage is not reduced to 0, the warded creature takes any remaining damage. 

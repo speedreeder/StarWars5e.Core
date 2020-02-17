@@ -81,6 +81,12 @@
 |Shocking Cartridge (Average)|
 |Shocking Cartridge (Major)|
 |Shocking Cartridge (Deadly)|
+|Grenade, Flash (Average)|
+|Grenade, Flash (Major)|
+|Grenade, Flash (Deadly)|
+|Mine, Flash (Average)|
+|Mine, Flash (Major)|
+|Mine, Flash (Deadly)|
 
 ||
 |:--|
@@ -103,25 +109,12 @@
 |Superior Bolas|
 |Exceptional Bolas|
 |Champion Bolas|
+|Fine Snare|
+|Improved Snare|
+|Superior Snare|
+|Exceptional Snare|
+|Champion Snare|
 
-
-</div>
-
-\pagebreak
-
-
-<div class='wide' style='column-count:3'>
-
-||
-|:--|
-|Superior Burst Core|
-|Champion Burst Core|
-
-||
-|:--|
-
-||
-|:--|
 
 </div>
 
@@ -221,43 +214,43 @@ Ion grenades are hand-held explosive devices that release a blast of ion energy.
 
 #### Projector Canister, Flame (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
+When triggered, this wrist launcher ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 #### Projector Canister, Flame (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 3d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
+When triggered, this wrist launcher ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 3d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 #### Projector Canister, Flame (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this wrist launcher ammunition produces a burst of flame in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
+When triggered, this wrist launcher ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 \columnbreak
 
 #### Projector Canister, Carbonite (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Carbonite (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 3d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 3d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Carbonite (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d6 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d6 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Canister, Corrosive (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
+When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
 \pagebreak
 
 #### Projector Canister, Corrosive (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 3d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
+When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 3d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
 #### Projector Canister, Corrosive (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this wrist launcher ammunition produces a spray of acid in a 15 foot line or cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 4d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
+When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 4d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
 #### Cryo Cell (Average)
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
@@ -317,43 +310,43 @@ Power generators energize the rotary cannon. You have a +3 bonus to attack and d
 
 #### Projector Tank, Flame (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Flame (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 6d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 6d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Flame (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this vapor projector ammunition produces a burst of flame in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 8d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 8d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Carbonite (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, this vapor projector ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Tank, Carbonite (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 6d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, this vapor projector ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 6d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 \columnbreak
 
 #### Projector Tank, Carbonite (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this vapor projector ammunition produces a beam of carbonite energy in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+When triggered, this vapor projector ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
 
 #### Projector Tank, Corrosive (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
+When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
 
 #### Projector Tank, Corrosive (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 6d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
+When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Constitution saving throw. On a failed save, a creature takes 6d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
 
 \pagebreak
 
 #### Projector Tank, Corrosive (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this vapor projector ammunition produces a spray of acid in a 15 foot line or cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
+When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Constitution saving throw. On a failed save, a creature takes 8d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust.
 
 #### Rocket, Fragmentation (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
@@ -477,6 +470,34 @@ You have a +3 bonus to attack and damage rolls made with this shocking cartridge
 
 \pagebreak
 
+#### Grenade, Flash (Average)
+_**Consumable** (explosive), <font style="color:green">**premium**</font>_<br>
+Flash grenades are hand-held explosive devices that release a blinding flash. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 15 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+
+#### Grenade, Flash (Major)
+_**Consumable** (explosive), <font style="color:blue">**prototype**</font>_<br>
+Flash grenades are hand-held explosive devices that release a blinding flash. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 17 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+
+#### Grenade, Flash (Deadly)
+_**Consumable** (explosive), <font style="color:purple">**advanced**</font>_<br>
+Flash grenades are hand-held explosive devices that release a blinding flash. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 19 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+
+\columnbreak
+
+#### Mine, Flash (Average)
+_**Consumable** (explosive), <font style="color:green">**premium**</font>_<br>
+When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 15 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+
+#### Mine, Flash (Major)
+_**Consumable** (explosive), <font style="color:blue">**prototype**</font>_<br>
+When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 17 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+
+#### Mine, Flash (Deadly)
+_**Consumable** (explosive), <font style="color:purple">**advanced**</font>_<br>
+When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 19 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+
+\pagebreak
+
 #### Fine Ship Armor
 _**Ship armor** (any), <font style="color:green">**premium**</font>_<br>
 Your ship has a +1 bonus to AC while this armor is installed. 
@@ -569,12 +590,2173 @@ A Large or smaller creature hit by a bolas is restrained until it is freed. A bo
 
 Due to their unwieldy nature, bolas make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage.
 
+#### Fine Snare
+_**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 14 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 10 hit points, immunity to all damage not dealt by melee weapons, and resistance to damage dealt by unenhanced melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects. 
+
+#### Improved Snare
+_**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 15 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 20 hit points, immunity to all damage not dealt by melee weapons, and resistance to damage dealt by unenhanced melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects. 
+
 \pagebreak
 
-#### Superior Burst Core
-_**Blaster modification** (energy core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the burst property, with a burst number equal to one-half its reload number (rounded up). If the weapon already has the burst property, the burst number is reduced to one-fourth its reload number (rounded up).
+#### Superior Snare
+_**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 16 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 30 hit points, immunity to all damage not dealt by melee weapons, and resistance to damage dealt by unenhanced melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects. 
+
+#### Exceptional Snare
+_**Consumable** (ammunition), <font style="color:#dd6b20">**legendary**</font>_<br>
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 17 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 40 hit points, immunity to all damage not dealt by melee weapons, and resistance to damage dealt by unenhanced melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects. 
+
+#### Champion Snare
+_**Consumable** (ammunition), <font style="color:red">**artifact**</font>_<br>
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 18 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 50 hit points, immunity to all damage not dealt by melee weapons, and resistance to damage dealt by unenhanced melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects. 
+
+\pagebreak
+
 
 #### Champion Burst Core
-_**Blaster modification** (energy core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the burst property, with a burst number equal to one-fourth its reload number (rounded up). If the weapon already has the burst property, the burst number is reduced to one-eighth its reload number (rounded up).
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the burst property, with a burst number equal to one-fourth its reload number (rounded up). If it already has the burst property, the burst number is reduced to one-eighth its reload number (rounded up), to a minimum of 2.
+
+#### Fine Recoil Dampener
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+_**Prerequisite:** Strength property_<br>
+This weapon's strength number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the strength number is 13 or lower, this modification removes the strength property from it entirely.
+
+#### Improved Recoil Dampener
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+_**Prerequisite:** Strength property_<br>
+This weapon's strength number is reduced by three steps (from 19 to 13 or 17 to 11). If the strength number is 15 or lower, this modification removes the strength property from it entirely.
+
+#### Superior Recoil Dampener
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+_**Prerequisite:** Strength property_<br>
+This weapon's strength number is reduced by four steps (from 19 to 11). If the strength number is 17 or lower, this modification removes the strength property from it entirely.
+
+#### Exceptional Recoil Dampener
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+_**Prerequisite:** Strength property_<br>
+This weapon loses the strength property.
+
+#### Rapid Core
+_**Blaster modification** (core), <font style="color:green">**premium**</font>_<br>
+This weapon gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+
+#### Superior Rapid Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the rapid property, with a rapid number equal to one-fourth its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-eighth its reload number (rounded up), to a minimum of 2.
+
+#### Champion Rapid Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the rapid property, with a rapid number equal to one-eighth its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-sixteenth its reload number (rounded up), to a minimum of 2.
+
+#### Wrist Mount Attachment
+_**Blaster modification** (attachment), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the fixed property.
+
+\columnbreak
+
+#### Wrist Mount Hilt
+_**Lightweapon modification** (hilt), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the fixed property.
+
+#### Wrist Mount Guard
+_**Vibroweapon modification** (guard), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the fixed property.
+
+#### Assassination Scope
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the silent and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Penetrating Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Deadly Ostrine Edge
+_**Vibroweapon modification** (edge), <font style="color:purple">**advanced**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d4 acid, cold, fire, poison, or sonic damage (chosen by the GM when generating this item).
+
+#### Lethal Ostrine Edge
+_**Vibroweapon modification** (edge), <font style="color:#dd6b20">**legendary**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d6 acid, cold, fire, poison, or sonic damage (chosen by the GM when generating this item).
+
+#### Basic Nagai Edge
+_**Vibroweapon modification** (edge), <font style="color:#4a5568">**standard**</font>_<br>
+When you have advantage on an attack roll you make with this weapon, get the same result on both dice rolls, and hit, you deal one additional weapon die worth of damage.
+
+#### Improved Nagai Edge
+_**Vibroweapon modification** (edge), <font style="color:blue">**prototype**</font>_<br>
+When you have advantage on an attack roll you make with this weapon, get the same result on both dice rolls, and hit, you deal two additional weapon dice worth of damage.
+
+#### Aratech Oscillator Mark II
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+When you score a critical hit with this weapon, you deal two additional weapon dice worth of damage.
+
+#### Compensation Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon's dexterity number is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the dexterity number is 11, this modification removes the dexterity property from it entirely.
+
+#### Fine Compensation Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon's dexterity number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the dexterity number is 13 or lower, this modification removes the dexterity property from it entirely.
+
+\pagebreak
+
+#### Improved Compensation Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:blue">**prototype**</font>_<br>
+This weapon's dexterity number is reduced by three steps (from 19 to 13 or 17 to 11). If the dexterity number is 15 or lower, this modification removes the dexterity property from it entirely.
+
+#### Superior Compensation Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon's dexterity number is reduced by four steps (from 19 to 11). If the dexterity number is 17 or lower, this modification removes the dexterity property from it entirely.
+
+#### Exceptional Compensation Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon loses the dexterity property.
+
+#### Crippling Agrinium Grip Mark I
+_**Vibroweapon modification** (grip), <font style="color:green">**premium**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Crippling Agrinium Grip Mark II
+_**Vibroweapon modification** (grip), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Crippling Agrinium Grip Mark III
+_**Vibroweapon modification** (grip), <font style="color:purple">**advanced**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Crippling Agrinium Grip Mark IV
+_**Vibroweapon modification** (grip), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Disarming Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the disarming property.
+
+#### Finesse Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the finesse property.
+
+#### Dextrous Dueling Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the dexterity number is 11, this modification removes the dexterity property from it entirely.
+
+#### Dextrous Mastery Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the dexterity number is 13 or lower, this modification removes the dexterity property from it entirely.
+
+\columnbreak
+
+#### Dextrous Supremacy Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by three steps (from 19 to 13 or 17 to 11). If the dexterity number is 15 or lower, this modification removes the dexterity property from it entirely.
+
+#### Dextrous Ascendancy Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by four steps (from 19 to 11). If the dexterity number is 17 or lower, this modification removes the dexterity property from it entirely.
+
+#### Improved Telgorn Jolt Stabilizer
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+When you cast a force power or use a class feature that requires a melee weapon attack, you can spend 1 force point to change the weapon's damage type to lightning and deal an additional 1d8 lightning damage.
+
+#### Ventilation Stabilizer
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+When you take the Attack action and hit a creature with this weapon, you can repeat the attack against another creature within 5 feet, no action required. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Helisaber Attachment
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+_**Prerequisite:** Double property_<br>
+As a bonus action, you can activate the attachment. While active, you have a 30-foot flying speed, and whenever you take damage you must make a concentration check as if concentrating on a power. On a failure, you immediately fall to the ground.
+
+#### Master Sigil Lens
+_**Lightweapon modification** (lens), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, you gain a +2 bonus to attack rolls you make with force powers when using this weapon as your focus.
+
+#### Journeyman Sigil Lens
+_**Lightweapon modification** (lens), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, you gain a +1 bonus to attack rolls you make with force powers when using this weapon as your focus.
+
+#### Byrothsis Adept Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+When this weapon is levitated by the Force to deal damage through a class feature or force power you use, it deals additional damage equal to one of its weapon damage dice.
+
+\pagebreak
+
+#### Byrothsis Master Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+When this weapon is levitated by the Force to deal damage through a class feature or force power you use, it deals additional damage equal to two of its weapon damage dice.
+
+#### Ghostfire Crystal
+_**Lightweapon modification** (crystal), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon loses the luminous property, if it has it. Additionally, you gain a +2 bonus to damage rolls made with this weapon, when you attack a creature with it, the creature can't take reactions until the end of the current turn.
+
+*These crystals are so transparent that they are nigh invisible. The blade formed by this form of kyber makes no noise, is dim and may form illusory images as it is used.*
+
+#### Champion Diatium Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+When you score a critical hit with this weapon, you deal two additional weapon dice worth of damage.
+
+#### Superior Diatium Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+When you score a critical hit with this weapon, you deal four additional weapon dice worth of damage.
+
+#### Exceptional Disabling Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and disarming properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Stabilizer Training Cell
+_**Lightweapon modification** (cell), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon's dexterity number is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the dexterity number is 11, this modification removes the dexterity property from it entirely.
+
+#### Stabilizer Fighting Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon's dexterity number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the dexterity number is 13 or lower, this modification removes the dexterity property from it entirely.
+
+#### Stabilizer Dueling Cell
+_**Lightweapon modification** (cell), <font style="color:blue">**prototype**</font>_<br>
+This weapon's dexterity number is reduced by three steps (from 19 to 13 or 17 to 11). If the dexterity number is 15 or lower, this modification removes the dexterity property from it entirely.
+
+#### Stabilizer Mastery Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon's dexterity number is reduced by four steps (from 19 to 11). If the dexterity number is 17 or lower, this modification removes the dexterity property from it entirely.
+
+#### Stabilizer Supremacy Cell
+_**Lightweapon modification** (cell), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon loses the dexterity property.
+
+\columnbreak
+
+#### Disarming Cell
+_**Lightweapon modification** (cell), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the disarming property.
+
+#### Finesse Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the finesse property.
+
+#### Dextrous Dueling Cell
+_**Lightweapon modification** (cell), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the dexterity number is 11, this modification removes the dexterity property from it entirely.
+
+#### Dextrous Mastery Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the dexterity number is 13 or lower, this modification removes the dexterity property from it entirely.
+
+#### Dextrous Supremacy Cell
+_**Lightweapon modification** (cell), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by three steps (from 19 to 13 or 17 to 11). If the dexterity number is 15 or lower, this modification removes the dexterity property from it entirely.
+
+#### Dextrous Ascendancy Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the finesse property, and its dexterity number is reduced by four steps (from 19 to 11). If the dexterity number is 17 or lower, this modification removes the dexterity property from it entirely.
+This weapon gains the disarming property.
+
+#### Apprentice Crippling Beam Lens
+_**Lightweapon modification** (lens), <font style="color:green">**premium**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Journeyman Crippling Beam Lens
+_**Lightweapon modification** (lens), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Adept Crippling Beam Lens
+_**Lightweapon modification** (lens), <font style="color:purple">**advanced**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Master Crippling Beam Lens
+_**Lightweapon modification** (lens), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the disarming property.
+
+#### Hilt Blaster
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+You convert this weapon's hilt into a small blaster. The blaster is a ranged weapon with the range 20/60 and reload 6 properties that you are proficient with, and deals 1d4 energy damage.
+
+\pagebreak
+
+#### Confounding Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the disguised and hidden properties.
+
+#### Confounding Attachment
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the disguised and hidden properties.
+
+#### Ablative Plating Mark I
+_**Armor modification** (overlay), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to AC against melee attacks and a -1 penalty to AC against ranged attacks while wearing this armor or wielding this shield. Additionally, it gains the charging 1 property. If it already has the charging property, its charging number increases by 1, to a maximum of 3.
+
+#### Ablative Plating Mark II
+_**Armor modification** (overlay), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to AC against melee attacks while wearing this armor or wielding this shield. Additionally, it gains the charging 1 property. If it already has the charging property, its charging number increases by 1, to a maximum of 3.
+
+#### Impervious Lining Mark I
+_**Armor modification** (underlay), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to AC against ranged attacks and a -1 penalty to AC against melee attacks while wearing this armor or wielding this shield. Additionally, it gains the absorptive 1 property. If it already has the absorptive property, its absorptive number increases by 1, to a maximum of 3.
+
+#### Impervious Lining Mark II
+_**Armor modification** (underlay), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to AC against melee attacks while wearing this armor or wielding this shield. Additionally, it gains the absorptive 1 property. If it already has the absorptive property, its absorptive number increases by 1, to a maximum of 3.
+
+#### Fine Powered Armoring
+_**Armor modification** (armoring), <font style="color:green">**premium**</font>_<br>
+This armor gains the powered 1 property. If it already has the powered property, its powered number increases by 1, to a maximum of 3.
+
+#### Hydraulic Equalizer Mark I
+_**Armor modification** (reinforcement), <font style="color:#4a5568">**standard**</font>_<br>
+This armor or shield's strength number is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, this modification removes the strength property from it entirely.
+
+#### Hydraulic Equalizer Mark II
+_**Armor modification** (reinforcement), <font style="color:green">**premium**</font>_<br>
+This armor or shield's strength number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the strength number is 13 or lower, this modification removes the strength property from it entirely.
+
+\columnbreak
+
+#### Hydraulic Equalizer Mark III
+_**Armor modification** (reinforcement), <font style="color:blue">**prototype**</font>_<br>
+This armor or shield's strength number is reduced by three steps (from 19 to 13 or 17 to 11). If the strength number is 15 or lower, this modification removes the strength property from it entirely.
+
+#### Hydraulic Equalizer Mark IV
+_**Armor modification** (reinforcement), <font style="color:purple">**advanced**</font>_<br>
+This armor or shield's strength number is reduced by four steps (from 19 to 11). If the strength number is 17 or lower, this modification removes the strength property from it entirely.
+
+#### Hydraulic Equalizer Mark V
+_**Armor modification** (reinforcement), <font style="color:#dd6b20">**legendary**</font>_<br>
+This armor or shield loses the strength property.
+
+#### Enhancement Ascendancy Augment
+_**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack and damage rolls with weapons.
+
+#### Champion Constitution Augment
+_**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
+Your Constitution score increases by 2, and your maximum for this score increases by 2.
+
+#### Champion Dexterity Augment
+_**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
+Your Dexterity score increases by 2, and your maximum for this score increases by 2.
+
+#### Champion Wisdom Augment
+_**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
+Your Wisdom score increases by 2, and your maximum for this score increases by 2.
+
+#### Improved Charisma Augment
+_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
+Your Charisma score increases by 1, and your maximum for this score increases by 1. One ability score other than Charisma (chosen by the GM) decreases by 1.
+
+#### Improved Constitution Augment
+_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
+Your Constitution score increases by 1, and your maximum for this score increases by 1. One ability score other than Constitution (chosen by the GM) decreases by 1.
+
+#### Improved Dexterity Augment
+_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
+Your Dexterity score increases by 1, and your maximum for this score increases by 1. One ability score other than Dexterity (chosen by the GM) decreases by 1.
+
+#### Improved Intelligence Augment
+_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
+Your Intelligence score increases by 1, and your maximum for this score increases by 1. One ability score other than Intelligence (chosen by the GM) decreases by 1.
+
+\pagebreak
+
+#### Improved Strength Augment
+_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
+Your Strength score increases by 1, and your maximum for this score increases by 1. One ability score other than Strength (chosen by the GM) decreases by 1.
+
+#### Improved Wisdom Augment
+_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
+Your Wisdom score increases by 1, and your maximum for this score increases by 1. One ability score other than Wisdom (chosen by the GM) decreases by 1.
+
+#### Fine Charisma Augment
+_**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
+Your Charisma score increases by 1. One ability score other than Charisma (chosen by the GM) decreases by 1.
+
+#### Fine Charisma Augment
+_**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
+Your Constitution score increases by 1. One ability score other than Constitution (chosen by the GM) decreases by 1.
+
+#### Fine Charisma Augment
+_**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
+Your Dexterity score increases by 1. One ability score other than Dexterity (chosen by the GM) decreases by 1.
+
+#### Fine Charisma Augment
+_**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
+Your Intelligence score increases by 1. One ability score other than Intelligence (chosen by the GM) decreases by 1.
+
+#### Fine Charisma Augment
+_**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
+Your Strength score increases by 1. One ability score other than Strength (chosen by the GM) decreases by 1.
+
+#### Fine Charisma Augment
+_**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
+Your Wisdom score increases by 1. One ability score other than Wisdom (chosen by the GM) decreases by 1.
+
+#### Deadly Keen Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Devastating Keen Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 3 property. If it already has the keen property, its keen number increases to 3.
+
+#### Deadly Keen Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Devastating Keen Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 3 property. If it already has the keen property, its keen number increases to 3.
+
+\columnbreak
+
+#### Keen Fighting Attachment
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Keen Mastery Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Keen Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 3 property. If it already has the keen property, its keen number increases to 3.
+
+#### Keen Fighting Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Keen Mastery Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Keen Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 3 property. If it already has the keen property, its keen number increases to 3.
+
+#### Keen Fighting Guard
+_**Vibroweapon modification** (guard), <font style="color:green">**premium**</font>_<br>
+This weapon gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Keen Mastery Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Keen Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 3 property. If it already has the keen property, its keen number increases to 3.
+
+#### Champion Penetrating Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Penetrating Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Penetrating Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Penetrating Attachment Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Penetrating Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Penetrating Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Penetrating Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Penetrating Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Penetrating Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Penetrating Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Penetrating Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Devastating Penetrating Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Penetrating Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Penetrating Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Penetrating Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Penetrating Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Vicious Scope
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Deadly Vicious Scope
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Vicious Fighting Core
+_**Blaster modification** (core), <font style="color:green">**premium**</font>_<br>
+This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Vicious Mastery Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Vicious Ascendancy Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
+
+#### Vicious Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Deadly Vicious Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Devastating Vicious Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
+
+#### Vicious Fighting Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Vicious Mastery Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Vicious Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
+
+#### Vicious Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Deadly Vicious Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Devastating Vicious Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
+
+#### Vicious Fighting Guard
+_**Vibroweapon modification** (guard), <font style="color:green">**premium**</font>_<br>
+This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Vicious Mastery Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+\columnbreak
+
+#### Vicious Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
+
+#### Compensating Attachment
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon loses the two-handed property.
+
+#### Cruel Focus
+_**Blaster modification** (targeting), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Deadly Cruel Focus
+_**Blaster modification** (targeting), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Lethal Cruel Focus
+_**Blaster modification** (targeting), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Devastating Cruel Focus
+_**Blaster modification** (targeting), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Journeyman Rubat Lens
+_**Lightweapon modification** (lens), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Adept Rubat Lens
+_**Lightweapon modification** (lens), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Master Rubat Lens
+_**Lightweapon modification** (lens), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Ancient Rubat Lens
+_**Lightweapon modification** (lens), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Cruel Grip
+_**Vibroweapon modification** (grip), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Deadly Cruel Grip
+_**Vibroweapon modification** (grip), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Lethal Cruel Grip
+_**Vibroweapon modification** (grip), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Devastating Cruel Grip
+_**Vibroweapon modification** (grip), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Journeyman Artusian Lens
+_**Lightweapon modification** (lens), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Adept Artusian Lens
+_**Lightweapon modification** (lens), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Master Artusian Lens
+_**Lightweapon modification** (lens), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Ancient Artusian Lens
+_**Lightweapon modification** (lens), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Parrying Grip
+_**Vibroweapon modification** (grip), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Deadly Parrying Grip
+_**Vibroweapon modification** (grip), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Lethal Parrying Grip
+_**Vibroweapon modification** (grip), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Devastating Parrying Grip
+_**Vibroweapon modification** (grip), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Biting Focus
+_**Blaster modification** (targeting), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Deadly Biting Focus
+_**Blaster modification** (targeting), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Lethal Biting Focus
+_**Blaster modification** (targeting), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Devastating Biting Focus
+_**Blaster modification** (targeting), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Journeyman Pontite Lens
+_**Lightweapon modification** (lens), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Adept Pontite Lens
+_**Lightweapon modification** (lens), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Master Pontite Lens
+_**Lightweapon modification** (lens), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Ancient Pontite Lens
+_**Lightweapon modification** (lens), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Biting Grip
+_**Vibroweapon modification** (grip), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Deadly Biting Grip
+_**Vibroweapon modification** (grip), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Lethal Biting Grip
+_**Vibroweapon modification** (grip), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Devastating Biting Grip
+_**Vibroweapon modification** (grip), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Barbed Focus
+_**Blaster modification** (targeting), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Deadly Barbed Focus
+_**Blaster modification** (targeting), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Lethal Barbed Focus
+_**Blaster modification** (targeting), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Devastating Barbed Focus
+_**Blaster modification** (targeting), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Journeyman Vibration Lens
+_**Lightweapon modification** (lens), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Adept Vibration Lens
+_**Lightweapon modification** (lens), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Master Vibration Lens
+_**Lightweapon modification** (lens), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Ancient Vibration Lens
+_**Lightweapon modification** (lens), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Barbed Grip
+_**Vibroweapon modification** (grip), <font style="color:blue">**prototype**</font>_<br>
+You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Deadly Barbed Grip
+_**Vibroweapon modification** (grip), <font style="color:purple">**advanced**</font>_<br>
+You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Lethal Barbed Grip
+_**Vibroweapon modification** (grip), <font style="color:#dd6b20">**legendary**</font>_<br>
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Devastating Barbed Grip
+_**Vibroweapon modification** (grip), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Goring Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Goring Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Goring Attachment Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Goring Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Goring Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Goring Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Goring Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Goring Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Goring Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Goring Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Devastating Goring Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Goring Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Goring Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Goring Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Goring Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Goring Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Goring Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Goring Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Deadly Piercing Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Devastating Piercing Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 3 property. If it already has the piercing property, its piercing number increases to 3.
+
+\pagebreak
+
+#### Piercing Fighting Scope
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Piercing Mastery Scope
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Piercing Ascendancy Scope
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 3 property. If it already has the piercing property, its piercing number increases to 3.
+
+#### Piercing Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Deadly Piercing Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Devastating Piercing Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 3 property. If it already has the piercing property, its piercing number increases to 3.
+
+#### Piercing Fighting Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Piercing Mastery Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Piercing Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 3 property. If it already has the piercing property, its piercing number increases to 3.
+
+#### Piercing Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Deadly Piercing Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+\columnbreak
+
+#### Devastating Piercing Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 3 property. If it already has the piercing property, its piercing number increases to 3.
+
+#### Piercing Fighting Guard
+_**Vibroweapon modification** (guard), <font style="color:green">**premium**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Piercing Mastery Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Piercing Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 3 property. If it already has the piercing property, its piercing number increases to 3.
+
+#### Deadly Dire Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Devastating Dire Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3.
+
+#### Dire Fighting Scope
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Dire Mastery Scope
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Dire Ascendancy Scope
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3.
+
+#### Dire Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Deadly Dire Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Devastating Dire Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3.
+
+\pagebreak
+
+#### Dire Fighting Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Dire Mastery Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Dire Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3.
+
+#### Dire Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Deadly Dire Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Devastating Dire Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3.
+
+#### Dire Fighting Guard
+_**Vibroweapon modification** (guard), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Dire Mastery Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Dire Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3.
+
+#### Splitter Attachment
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Splitter Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+\columnbreak
+
+#### Splitter Attachment Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Splitter Core
+_**Blaster modification** (core), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Splitter Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Splitter Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rending Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Rending Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Rending Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rending Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Rending Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Rending Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\pagebreak
+
+#### Rending Guard
+_**Vibroweapon modification** (guard), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Rending Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Rending Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rending Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Rending Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Rending Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Disabling Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and disarming properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Exceptional Disabling Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and disarming properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Precision Chamber Mark I
+_**Blaster modification** (attachment), <font style="color:#4a5568">**standard**</font>_<br>
+The normal range of this weapon increases by 10 feet, and the long range increases by 20 feet. 
+
+#### Precision Chamber Mark V
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+The normal range of this weapon increases by 50 feet, and the long range increases by 100 feet.
+
+#### Precision Chamber Mark VI
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+The normal range of this weapon increases by 60 feet, and the long range increases by 120 feet.
+
+\columnbreak
+
+#### Fine Expanded Magazine
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+You can reload this weapon twice without using an action. You can't use this feature again until you reload the weapon with an action.
+
+#### Improved Expanded Magazine
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+You can reload this weapon three times without using an action. You can't use this feature again until you reload the weapon with an action.
+
+#### Superior Expanded Magazine
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+You can reload this weapon four times without using an action. You can't use this feature again until you reload the weapon with an action.
+
+#### Exceptional Expanded Magazine
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+You can reload this weapon five times without using an action. You can't use this feature again until you reload the weapon with an action.
+
+#### Champion Expanded Magazine
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+You can reload this weapon six times without using an action. You can't use this feature again until you reload the weapon with an action.
+
+#### Pulsator Attachment
+_**Blaster modification** (attachment), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Pulsator Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Pulsator Attachment Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Pulsator Core
+_**Blaster modification** (core), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Pulsator Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+\pagebreak
+
+#### Champion Pulsator Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Mullinine Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Mullinine Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Mullinine Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Mullinine Hilt
+_**Lightweapon modification** (hilt), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Mullinine Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Mullinine Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Mullinine Guard
+_**Vibroweapon modification** (guard), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Mullinine Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Mullinine Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\columnbreak
+
+#### Mullinine Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Mullinine Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Mullinine Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rylith Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Rylith Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Rylith Attachment Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rylith Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Rylith Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Rylith Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rylith Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Devastating Rylith Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Rylith Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rylith Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Rylith Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Rylith Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rylith Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Rylith Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Rylith Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Rylith Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Rylith Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+\columnbreak
+
+#### Champion Rylith Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Regular Ostrine Crystal
+_**Lightweapon modification** (crystal), <font style="color:purple">**advanced**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d4 force, lightning, necrotic, poison, psychic, or sonic damage (chosen by the GM when generating this item).
+
+#### Flawless Ostrine Crystal
+_**Lightweapon modification** (crystal), <font style="color:#dd6b20">**legendary**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d6 force, lightning, necrotic, poison, psychic, or sonic damage (chosen by the GM when generating this item).
+
+#### Perfect Ostrine Crystal
+_**Lightweapon modification** (crystal), <font style="color:red">**artifact**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d8 force, lightning, necrotic, poison, psychic, or sonic damage (chosen by the GM when generating this item).
+
+#### Ostrine Splitter Mark I
+_**Blaster modification** (barrel), <font style="color:purple">**advanced**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d4 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item).
+
+#### Ostrine Splitter Mark II
+_**Blaster modification** (barrel), <font style="color:#dd6b20">**legendary**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d6 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item).
+
+#### Ostrine Splitter Mark III
+_**Blaster modification** (barrel), <font style="color:red">**artifact**</font>_<br>
+When you deal damage with this weapon, you deal an additional 1d8 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item).
+
+#### Nemesis Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and dire 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Nemesis Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and dire 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Nemesis Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and dire 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\pagebreak
+
+#### Nemesis Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and dire 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Nemesis Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and dire 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Nemesis Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and dire 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Nemesis Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and dire 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Nemesis Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and dire 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Nemesis Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and dire 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Nemesis Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and dire 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Nemesis Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and dire 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Nemesis Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and dire 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\columnbreak
+
+#### Judgment Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Judgment Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Judgment Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Judgment Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Judgment Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Judgment Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Judgment Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Judgment Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Judgment Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\pagebreak
+
+#### Judgment Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Judgment Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and keen 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Judgment Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and keen 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Retribution Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Retribution Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Retribution Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Retribution Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Retribution Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Retribution Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\columnbreak
+
+#### Retribution Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Retribution Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Retribution Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Retribution Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Retribution Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and piercing 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Retribution Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and piercing 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Vengeance Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Vengeance Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Vengeance Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\pagebreak
+
+#### Vengeance Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Vengeance Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Vengeance Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Vengeance Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Vengeance Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Vengeance Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Vengeance Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Vengeance Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Vengeance Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+\columnbreak
+
+#### Defensive Cell
+_**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
+This weapon gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Superior Defensive Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 2 property. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Champion Defensive Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 3 property. If it already has the defensive property, its defensive number increases to 3.
+
+#### Defensive Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:green">**premium**</font>_<br>
+This weapon gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Superior Defensive Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the defensive 2 property. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Champion Defensive Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 3 property. If it already has the defensive property, its defensive number increases to 3.
+
+#### Savage Attachment
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Savage Ascendancy Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Savage Attachment Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Savage Core
+_**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Devastating Savage Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Savage Core
+_**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Savage Cell
+_**Lightweapon modification** (cell), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Savage Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Savage Cell
+_**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Savage Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Savage Ascendancy Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Savage Hilt Mark II
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Savage Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Savage Ascendancy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Savage Guard Mark II
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Savage Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+
+#### Devastating Savage Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 and vicious 2 properties. If it already has either of these properties, that property's value increases by 1 or 2, respectively, to a maximum of 3.
+
+#### Champion Savage Oscillator
+_**Vibroweapon modification** (oscillator), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 2 and vicious 1 properties. If it already has either of these properties, that property's value increases by 2 or 1, respectively, to a maximum of 3.
+
+#### Basic Returning Weapon Hilt
+_**Lightweapon modification** (hilt), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the returning and thrown (10/30) properties. If it already has the thrown property, the range increases by 5/15.
+
+#### Improved Returning Weapon Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the returning and thrown (30/90) properties. If it already has the thrown property, the range increases by 15/45.
+
+#### Superior Returning Weapon Hilt
+_**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the returning and thrown (40/120) properties. If it already has the thrown property, the range increases by 20/60.
+
+#### Exceptional Returning Weapon Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the returning and thrown (50/150) properties. If it already has the thrown property, the range increases by 25/75.
+
+#### Champion Returning Weapon Hilt
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the returning and thrown (60/180) properties. If it already has the thrown property, the range increases by 30/90.
+
+\pagebreak
+
+#### Basic Returning Weapon Guard
+_**Vibroweapon modification** (guard), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the returning and thrown (10/30) properties. If it already has the thrown property, the range increases by 5/15.
+
+#### Improved Returning Weapon Guard
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the returning and thrown (30/90) properties. If it already has the thrown property, the range increases by 15/45.
+
+#### Superior Returning Weapon Guard
+_**Vibroweapon modification** (guard), <font style="color:purple">**advanced**</font>_<br>
+This weapon gains the returning and thrown (40/120) properties. If it already has the thrown property, the range increases by 20/60.
+
+#### Exceptional Returning Weapon Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the returning and thrown (50/150) properties. If it already has the thrown property, the range increases by 25/75.
+
+#### Champion Returning Weapon Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the returning and thrown (60/180) properties. If it already has the thrown property, the range increases by 30/90.
+
+#### Dire Compensating Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Keen Compensating Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Piercing Compensating Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Vicious Compensating Attachment
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon loses the two-handed property. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Defensive Lightweight Stabilizer Frame
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+\columnbreak
+
+#### Dire Lightweight Stabilizer Frame
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Keen Lightweight Stabilizer Frame
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Piercing Lightweight Stabilizer Frame
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Vicious Lightweight Stabilizer Frame
+_**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
+This weapon loses the two-handed property. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Defensive Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Dire Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Keen Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Piercing Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3. Additionally, it loses the two-handed property.
+
+#### Vicious Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:red">**artifact**</font>_<br>
+This weapon loses the two-handed property. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Collapsible Stock
+_**Blaster modification** (attachment), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the hidden property.
+
+#### Disguised Stock
+_**Blaster modification** (attachment), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the disguised property.
+
+#### Disguised Guard
+_**Vibroweapon modification** (guard), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the disguised property.
+
+#### Disguised Hilt
+_**Lightweapon modification** (hilt), <font style="color:#4a5568">**standard**</font>_<br>
+This weapon gains the disguised property.
+
+#### Collapsible Dire Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and hidden properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Dire Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and hidden properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Collapsible Keen Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Keen Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Collapsible Piercing Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Piercing Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Collapsible Vicious Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Vicious Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+\columnbreak
+
+#### Collapsible Defensive Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and hidden properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Defensive Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and hidden properties. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Collapsible Dire Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and hidden properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Dire Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and hidden properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Collapsible Keen Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Keen Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Collapsible Piercing Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Piercing Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Collapsible Vicious Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Vicious Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Collapsible Defensive Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and hidden properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Exceptional Collapsible Defensive Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and hidden properties. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Collapsible Dire Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and hidden properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Dire Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and hidden properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Collapsible Keen Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Keen Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Collapsible Piercing Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Piercing Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Collapsible Vicious Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the hidden and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Collapsible Vicious Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Fixed Dire Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and fixed properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Dire Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and fixed properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+\columnbreak
+
+#### Fixed Keen Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Keen Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Fixed Piercing Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Piercing Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Fixed Vicious Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Vicious Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Fixed Defensive Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and fixed properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Defensive Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and fixed properties. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Fixed Dire Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and fixed properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Dire Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and fixed properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Fixed Keen Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+\pagebreak
+
+#### Exceptional Fixed Keen Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Fixed Piercing Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Piercing Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Fixed Vicious Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Vicious Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Fixed Defensive Guard
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and fixed properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Defensive Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and fixed properties. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Fixed Dire Guard
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and fixed properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Dire Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and fixed properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Exceptional Fixed Keen Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Fixed Piercing Guard
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Exceptional Fixed Piercing Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Fixed Vicious Guard
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the fixed and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Fixed Vicious Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Disguised Dire Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and disguised properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Dire Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and disguised properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Disguised Keen Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Keen Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Disguised Piercing Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Piercing Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Disguised Vicious Stock
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Vicious Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+\pagebreak
+
+#### Disguised Defensive Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and disguised properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Defensive Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and disguised properties. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Disguised Dire Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and disguised properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Dire Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and disguised properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Disguised Keen Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Keen Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Disguised Piercing Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Piercing Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Disguised Vicious Hilt
+_**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Vicious Hilt
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Disguised Defensive Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the defensive 1 and disguised properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
+
+\columnbreak
+
+#### Exceptional Disguised Defensive Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the defensive 2 and disguised properties. If it already has the defensive property, its defensive number increases by 2, to a maximum of 3.
+
+#### Disguised Dire Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and disguised properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Dire Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and disguised properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Disguised Keen Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and keen 1 properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Keen Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and keen 2 properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Disguised Piercing Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Piercing Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and piercing 2 properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Disguised Vicious Frame
+_**Vibroweapon modification** (guard), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the disguised and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+
+#### Exceptional Disguised Vicious Frame
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+
+#### Compensating Disguised Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised property. Additionally, it loses the two-handed property.
+
+#### Compensating Wrist Mount Attachment
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed property. Additionally, it loses the two-handed property.
+
+#### Compensating Collapsible Stock
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden property. Additionally, it loses the two-handed property.
+
+\pagebreak
+
+#### Precision Compensator Mark I
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon's range increases by 10/40. Additionally, it loses the two-handed property.
+
+#### Precision Compensator Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon's range increases by 20/80. Additionally, it loses the two-handed property.
+
+#### Compensating Expanded Magazine Mark I
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+You can reload this weapon once without using an action. You can't use this feature again until you reload the weapon with an action. Additionally, it loses the two-handed property.
+
+#### Compensating Expanded Magazine Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+You can reload this weapon twice without using an action. You can't use this feature again until you reload the weapon with an action. Additionally, it loses the two-handed property.
+
+#### Compensating Recoil Dampener Mark I
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon's strength number is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, this modification removes the strength property from it entirely. Additionally, it loses the two-handed property.
+
+#### Compensating Recoil Dampener Mark II
+_**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
+This weapon's strength number is reduced by two steps (from 19 to 15, 17 to 13, or 15 to 11). If the strength number is 13 or lower, this modification removes the strength property from it entirely. Additionally, it loses the two-handed property.
+
+#### Disguised Lightweight Stabilizer Frame
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised property. Additionally, it loses the two-handed property.
+
+#### Lightweight Stabilizer Wrist Mount
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed property. Additionally, it loses the two-handed property.
+
+#### Collapsible Lightweight Stabilizer 
+_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden property. Additionally, it loses the two-handed property.
+
+#### Disguised Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the disguised property. Additionally, it loses the two-handed property.
+
+#### Fiber-Alloy Wrist Mount 
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the fixed property. Additionally, it loses the two-handed property.
+
+\columnbreak
+
+#### Collapsible Fiber-Alloy Guard
+_**Vibroweapon modification** (guard), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the hidden property. Additionally, it loses the two-handed property.
+
+#### Predatory Scope
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the dire 1 and silent properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+
+#### Lethal Predatory Scope
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the dire 2 and silent properties. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+
+#### Slaying Scope
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the keen 1 and silent properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+
+#### Lethal Slaying Scope
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the keen 2 and silent properties. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+
+#### Puncturing Scope
+_**Blaster modification** (attachment), <font style="color:blue">**prototype**</font>_<br>
+This weapon gains the piercing 1 and silent properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+
+#### Lethal Puncturing Scope
+_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+This weapon gains the piercing 2 and silent properties. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+
+#### Fine Magnetized Shield
+_**Armor modification** (shielding), <font style="color:green">**premium**</font>_<br>
+This shield gains the magnetic 14 property.
+
+#### Improved Magnetized Shield
+_**Armor modification** (shielding), <font style="color:blue">**prototype**</font>_<br>
+This shield gains the magnetic 15 property.
+
+#### Superior Magnetized Shield
+_**Armor modification** (shielding), <font style="color:purple">**advanced**</font>_<br>
+This shield gains the magnetic 16 property.
+
+#### Exceptional Magnetized Shield
+_**Armor modification** (shielding), <font style="color:#dd6b20">**legendary**</font>_<br>
+This shield gains the magnetic 17 property.
+
+#### Champion Magnetized Shield
+_**Armor modification** (shielding), <font style="color:red">**artifact**</font>_<br>
+This shield gains the magnetic 18 property.
+
+\pagebreak
