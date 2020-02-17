@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.WH;
 using Wolnik.Azure.TableStorage.Repository;
@@ -23,7 +24,7 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<EnhancedItem> _enhancedItemProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
-        private readonly ExpandedContentEquipmentProcessor _expandedContentEquipmentProcessor;
+        private readonly WretchedHivesEquipmentProcessor _wretchedHivesEquipmentProcessor;
 
 
         private readonly List<string> _whFilesName = new List<string>
@@ -33,11 +34,11 @@ namespace StarWars5e.Parser.Managers
         };
 
         public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, ExpandedContentEquipmentProcessor expandedContentEquipmentProcessor)
+            GlobalSearchTermRepository globalSearchTermRepository)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _expandedContentEquipmentProcessor = expandedContentEquipmentProcessor;
+            _wretchedHivesEquipmentProcessor = new WretchedHivesEquipmentProcessor();
             _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(globalSearchTermRepository);
             _enhancedItemProcessor = new EnhancedItemProcessor();
 
@@ -128,6 +129,73 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload WH enhanced items.");
+            }
+
+            try
+            {
+                var equipment =
+                    await _wretchedHivesEquipmentProcessor.Process(new List<string>{ "WH.wh_05.txt" });
+
+                foreach (var equipment1 in equipment)
+                {
+                    equipment1.ContentSourceEnum = ContentSource.WH;
+
+                    switch (equipment1.EquipmentCategoryEnum)
+                    {
+                        case EquipmentCategory.Unknown:
+                        case EquipmentCategory.Ammunition:
+                        case EquipmentCategory.Explosive:
+                        case EquipmentCategory.Storage:
+                        case EquipmentCategory.AdventurePack:
+                        case EquipmentCategory.Communications:
+                        case EquipmentCategory.DataRecordingAndStorage:
+                        case EquipmentCategory.LifeSupport:
+                        case EquipmentCategory.Medical:
+                        case EquipmentCategory.WeaponOrArmorAccessory:
+                        case EquipmentCategory.Tool:
+                        case EquipmentCategory.Mount:
+                        case EquipmentCategory.Vehicle:
+                        case EquipmentCategory.TradeGood:
+                        case EquipmentCategory.Utility:
+                        case EquipmentCategory.GamingSet:
+                        case EquipmentCategory.MusicalInstrument:
+                        case EquipmentCategory.Droid:
+                        case EquipmentCategory.Clothing:
+                        case EquipmentCategory.Kit:
+                            var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
+                                GlobalSearchTermType.AdventuringGear, ContentType.Core,
+                                $"/loot/adventuringGear/?search={equipment1.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
+                            break;
+                        case EquipmentCategory.Weapon:
+                            var weaponSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
+                                GlobalSearchTermType.Weapon, ContentType.Core,
+                                $"/loot/weapons/?search={equipment1.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(weaponSearchTerm);
+                            break;
+                        case EquipmentCategory.Armor:
+                            var searchTermType = GlobalSearchTermType.Armor;
+                            if (equipment1.ArmorClassificationEnum == ArmorClassification.Shield)
+                            {
+                                searchTermType = GlobalSearchTermType.Shield;
+                            }
+
+                            var armorSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
+                                searchTermType, ContentType.Core,
+                                $"/loot/armor/?search={equipment1.Name}");
+                            _globalSearchTermRepository.SearchTerms.Add(armorSearchTerm);
+                            break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+                }
+
+                await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload WH equipment.");
             }
 
             try
