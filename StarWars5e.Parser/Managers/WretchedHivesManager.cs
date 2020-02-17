@@ -84,7 +84,15 @@ namespace StarWars5e.Parser.Managers
                 ("Lightweight", "#### Lightweight", 1),
                 ("Magnetic", "#### Magnetic", 1),
                 ("Obscured", "#### Obscured", 1),
-                ("Powered", "#### Powered", 1)
+                ("Powered", "#### Powered", 1),
+                ("Regulated", "#### Regulated", 1),
+                ("Reinforced", "#### Reinforced", 1),
+                ("Responsive", "#### Responsive", 1),
+                ("Rigid", "#### Rigid", 1),
+                ("Silent", "#### Silent", 1),
+                ("Spiked", "#### Spiked", 1),
+                ("Steadfast", "#### Steadfast", 1),
+                ("Versatile", "#### Versatile", 1)
             };
 
             _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, armorProperties);
