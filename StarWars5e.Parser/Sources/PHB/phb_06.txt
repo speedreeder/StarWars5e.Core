@@ -17,7 +17,7 @@ As you advance in levels, you might primarily remain a member of your original c
 
 ><br>
 >
->#### Multiclassing Example
+> #### Multiclassing Example
 > 
 >Drew is playing a 4th-level fighter. When his character earns enough experience points to reach 5th level, Drew decides that his character will multiclass instead of continuing to progress as a fighter. Drew's fighter has been spending a lot of time with Rickey's scout, and has even been doing some jobs on the side for the Bounty Broker's Association as a bounty hunter. Drew decides that his character will multiclass into the operative class, and thus his character becomes a 4th-level fighter and 1st-level operative (written as fighter 4/operative 1).
 > 
@@ -38,7 +38,7 @@ To qualify for a new class, you must meet the ability score prerequisites for bo
 |Fighter||Strength or Dexterity 13|
 |Guardian||Constitution 13, Wisdom or Charisma 13|
 |Operative||Dexterity 13|
-|Monk||Dexterity 13 and Wisdom 13|
+|Monk||Dexterity 13, Wisdom or Charisma 13|
 |Scholar||Intelligence 13|
 |Sentinel||Dexterity 13, Wisdom or Charisma 13|
 |Scout||Strength or Dexterity 13, Intelligence 13|
@@ -49,7 +49,7 @@ The experience point cost to gain a level is always based on your total characte
 ### Hit Points and Hit Dice
 You gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.
 
-You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the fighter and the sentinel have a d10, so if you are a sentinel 5/fighter 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, keep track of them separately. If you are a fighter 5/operative 5, for example, you have five d10 Hit Dice and five d8 Hit Dice.
+You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the fighter and the guardian have a d10, so if you are a fighter 5/guardian 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, keep track of them separately. If you are a fighter 5/operative 5, for example, you have five d10 Hit Dice and five d8 Hit Dice.
 
 ### Proficiency Bonus
 Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table in chapter 1, not your level in a particular class. For example, if you are a fighter 3/operative 2, you have the proficiency bonus of a 5th-level character, which is +3.
@@ -69,7 +69,7 @@ When you gain a level in a class other than your first, you gain only some of th
 |Berserker||Light armor, all vibroweapons||
 |Consular||Simple lightweapons|
 |Fighter||Light armor, medium armor, all blasters, all vibroweapons|
-|Engineer||Light armor, one skill from the class's skill list|
+|Engineer||Light armor, one skill from the class's skill list, one tool from the class's tool list|
 |Guardian||Light armor, medium armor, all lightweapons, all vibroweapons|
 |Operative||Light armor, one skill from the class's skill list, one tool from the class's tool list|
 |Monk||Simple vibroweapons, techblades|
@@ -190,7 +190,7 @@ You are skilled at techniques that take advantage of every drop in any enemy's g
 You are skilled with blaster weapons and can make shots that others find difficult. While you are wielding a blaster weapon with which you are proficient, gain a +2 bonus to ranged weapon attacks.
 
 #### Shielding
-You are skilled at using your shield to defend your allies as well as yourself. While you are wielding a medium or heavy shield with which you are proficient, you gain the following benefits:
+You are skilled at using your shield to defend your allies as well as yourself. While you are wielding a shield with which you are proficient, you gain the following benefits:
 - When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.
 - If you are wielding a heavy shield, you are no longer required to wield a weapon with the light property in the other hand.
 
@@ -762,7 +762,7 @@ Your nimble fingers and agility let you perform sleight of hand. You gain the fo
 ### Quick-Witted
 Great ideas come to you naturally, often when your life depends on it. You always have a plan, or at least parts of it. You gain the following benefits:
 - Increase your Intelligence score by 1, to a maximum of 20.
-- You can use your Intelligence modifier instead of your Dexterity modifier when making Initiative checks.
+- You can use your Intelligence modifier instead of your Dexterity modifier when making initiative checks.
 - When you would make a Dexterity saving throw, you can instead make an Intelligence saving throw. You can use this feature a number of times equal to your Intelligence modifier. You regain all expended uses of this feature when you complete a long rest.
 
 ### Quick Caster
@@ -798,7 +798,7 @@ You have mastered blaster weapons and can easily make shots that others find imp
 - Before you make an attack with a blaster weapon that you are proficient with, you can choose to forgo your proficiency bonus. If the attack hits, you add double your proficiency bonus to the attack's damage.
 
 ### Shielding Mastery
-You've mastered using a shield to defend your allies as well as yourself, and you understand that shields are not just for protection but also for offense. While you are wielding a medium or heavy shield with which you are proficient, you gain the following benefits:
+You've mastered using a shield to defend your allies as well as yourself, and you understand that shields are not just for protection but also for offense. While you are wielding a shield with which you are proficient, you gain the following benefits:
 - If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.
 - If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a power or other harmful effect.
 

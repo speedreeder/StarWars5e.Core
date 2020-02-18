@@ -106,7 +106,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -214,7 +214,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -322,7 +322,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -430,7 +430,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -538,7 +538,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -646,7 +646,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -754,7 +754,7 @@
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide' style='column-count:2'>
 
@@ -829,7 +829,6 @@
 |	&emsp;&emsp;<font style="color:blue">Figher Offensive Augment</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Guardian Defensive Augment</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Guardian Offensive Augment</font> | <font style="color:blue">Prototype</font> |  |
-|	&emsp;&emsp;<font style="color:blue">Improved Strength Augment</font> | <font style="color:blue">Prototype</font> |  |  |
 |	&emsp;&emsp;<font style="color:blue">Monk Defensive Augment</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Monk Offensive Augment</font> | <font style="color:blue">Prototype</font> |  |
 |	&emsp;&emsp;<font style="color:blue">Operative Defensive Augment</font> | <font style="color:blue">Prototype</font> |  |
@@ -857,19 +856,20 @@
 |	&emsp;&emsp;<font style="color:red">Champion Charisma Augment</font> | <font style="color:red">Artifact</font> |  |
 |	&emsp;&emsp;<font style="color:red">Champion Intelligence Augment</font> | <font style="color:red">Artifact</font> |  |
 |	&emsp;&emsp;<font style="color:red">Champion Strength Augment</font> | <font style="color:red">Artifact</font> |  |
+|	&emsp;&emsp;<font style="color:red">Enhancement Ascendancy Augment</font> | <font style="color:red">Artifact</font> |  |
 
 </div>	
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Ablative Plating Mark III
-_**Armor modification** (underlay), <font style="color:#dd6b20">**legendary**</font>_<br>
+_**Armor modification** (overlay), <font style="color:#dd6b20">**legendary**</font>_<br>
 You gain a +2 bonus to AC against melee attacks while wearing this armor or wielding this shield. Additionally, it gains the charging 1 property. If it already has the charging property, its charging number increases by 1, to a maximum of 3.
 
 #### Ablative Plating Mark IV
-_**Armor modification** (underlay), <font style="color:red">**artifact**</font>_<br>
+_**Armor modification** (overlay), <font style="color:red">**artifact**</font>_<br>
 You gain a +3 bonus to AC against melee attacks while wearing this armor or wielding this shield. Additionally, it gains the charging 1 property. If it already has the charging property, its charging number increases by 1, to a maximum of 3.
 
 #### Accuracy Focus Mark I
@@ -969,7 +969,7 @@ You gain a +3 bonus to the force attack rolls of force powers you cast through t
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Advanced Blueprint
 _**Relic**, <font style="color:purple">**advanced**</font>_<br>
@@ -1045,7 +1045,7 @@ When you score a critical hit with this weapon, you deal one additional weapon d
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Aratech Oscillator Mark III
 _**Vibroweapon modification** (oscillator), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -1122,7 +1122,7 @@ Once the jug starts producing a liquid, it can't produce a different one, or mor
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Automated Adrenal Package
 _**Cybernetic augmentation** (enhancement), <font style="color:purple">**advanced**</font>_<br>
@@ -1207,7 +1207,7 @@ Your Dexterity score increases by 1, to a maximum of 20.
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Basic Focus Generator Chassis
 _**Focus** (force), <font style="color:#4a5568">**standard**</font>_<br>
@@ -1300,7 +1300,7 @@ _Demand for Beemon Laboratories' implants streches even to those too sickly to u
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Berserker Defensive Augment
 _**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
@@ -1364,7 +1364,7 @@ You gain a +3 bonus to AC against melee attacks while wearing this armor or wiel
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Boots of Bounding
 _**Adventuring gear** (feet), <font style="color:green">**premium**</font>_<br>
@@ -1428,7 +1428,7 @@ This weapon gains the burst property, with a burst number equal to its reload nu
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Cape of the Orator
 _**Adventuring gear** (shoulders), <font style="color:green">**premium**</font>_<br>
@@ -1512,7 +1512,7 @@ A shimmering barrier springs into resistance around you that lasts 8 hours. The 
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Champion Powered Armoring
 _**Armor modification** (armoring), <font style="color:red">**artifact**</font>_<br>
@@ -1606,7 +1606,7 @@ This weapon gains the hidden property.
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Collapsible Suit
 _**Armor modification** (armoring), <font style="color:green">**premium**</font>_<br>
@@ -1690,7 +1690,7 @@ When you cast a tech power with this wristpad and at least one creature fails it
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Czerka Variable Claw-Hand Multitool
 _**Cybernetic augmentation** (replacement), <font style="color:blue">**prototype**</font>_<br>
@@ -1772,7 +1772,7 @@ You gain a +1 bonus to attack rolls made with this weapon. Additionally, it gain
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Defel Mimicker
 _**Adventuring gear** (waist), prototype_</font><br>
@@ -1858,7 +1858,7 @@ _While only barely adhering to the most technical definition of a belt, this har
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Droid Dura Plating Mark I
 _**Droid customization** (part), <font style="color:blue">**prototype**</font>_<br>
@@ -1908,11 +1908,15 @@ _**Droid customization** (protocol), <font style="color:green">**premium**</font
 _**Prerequisite:** Class IV droid_</font><br>
 Whenever you roll a Hit Die to recover hit points, you add your Intelligence modifier to the roll (minimum of +1).
 
+#### Enhancement Ascendancy Augment
+_**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
+You gain a +3 bonus to attack and damage rolls with weapons.
+
+\columnbreak
+
 #### Enhancement Mastery Augment
 _**Item modification** (augment), <font style="color:purple">**advanced**</font>_<br>
 You gain a +1 bonus to attack and damage rolls with weapons.
-
-\columnbreak
 
 #### Enhancement Supremacy Augment
 _**Item modification** (augment), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -1954,7 +1958,7 @@ When you score a critical hit with this weapon, you deal three additional weapon
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Exceptional Environmental Barrier 
 _**Consumable** (barrier), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -2038,7 +2042,7 @@ This modifiable wristpad chassis comes with vacant modification slots for proces
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Expanded Magazine
 _**Blaster modification** (attachment), <font style="color:#4a5568">**standard**</font>_<br>
@@ -2142,7 +2146,7 @@ This modifiable clothing chassis comes with vacant modification slots for weave,
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Fine Poison 
 _**Consumable** (poison), <font style="color:green">**premium**</font>_<br>
@@ -2237,7 +2241,7 @@ You affix a targeted light to this weapon. As a bonus action, you can toggle the
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Flashlight Guard
 _**Vibroweapon modification** (guard), <font style="color:#4a5568">**standard**</font>_<br>
@@ -2325,7 +2329,7 @@ _These metallic gauntlets are decorated with ornate, sweeping symbols, and are e
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### GNS Strength Enhancer
 _**Adventuring gear** (waist), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -2386,7 +2390,7 @@ The damage die for your Force-Empowered Strikes and Improved Force-Empowered Str
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Hardy Torso Prosthesis
 _**Cybernetic augmentation** (replacement), <font style="color:#4a5568">**standard**</font>_<br>
@@ -2453,7 +2457,7 @@ _This augmentation hides a weapon in its wearer's forearm that is almost complet
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### High-Grade Cybernetic Arm
 _**Cybernetic augmentation** (replacement), <font style="color:blue">**prototype**</font>_<br>
@@ -2538,7 +2542,7 @@ You gain a +2 bonus to the force attack rolls for force powers you cast through 
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Improved Focus Generator Chassis
 _**Focus** (force), <font style="color:blue">**prototype**</font>_<br>
@@ -2613,13 +2617,9 @@ As an action, you can administer this adrenal to a creature within 5 feet. When 
 _**Consumable** (adrenal), <font style="color:blue">**prototype**</font>_<br>
 As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +4 bonus to its Strength score, and its maximum for this score increases by 2. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time. 
 
-#### Improved Strength Augment
-_**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
-Your Strength score increases by 2.
-
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Improved T-Cycle Reinforcer
 _**Focus generator modification** (cycler), <font style="color:green">**premium**</font>_<br>
@@ -2706,7 +2706,7 @@ _This implant reinforces your skin with an ablative woven alloy, making you diff
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Integrated Subdermal Armor Mark II
 _**Cybernetic augmentation** (enhancement), <font style="color:blue">**prototype**</font>_<br>
@@ -2790,7 +2790,7 @@ _Members of the Order typically wear plain or unassuming garments, but Jedi Mast
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Jedi Padawan's Robe
 _**Adventuring gear** (body), <font style="color:green">**premium**</font>_<br>
@@ -2866,7 +2866,7 @@ This weapon gains the keen 1 property. If it already has the keen property, its 
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Leg Reinforcements
 _**Droid customization** (part), <font style="color:#4a5568">**standard**</font>_<br>
@@ -2945,7 +2945,7 @@ _This armor is forged from an incredibly rare material known as beskar, a highly
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Mandalorian Helmet
 _**Adventuring gear** (head), <font style="color:green">**premium**</font>_<br>
@@ -3014,7 +3014,7 @@ _Datacrons are encrypted storage devices that contain an interactive projection,
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Mark V Datacron
 _**Relic** (datacron), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -3088,7 +3088,7 @@ _This augmentation is a large, boxy eye replacement that covers both eyes with d
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Mighty Athlete Package
 _**Cybernetic augmentation** (enhancement), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -3167,7 +3167,7 @@ You can activate or deactivate this implant as a bonus action. While active, you
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Novice Holocron
 _**Relic** (holocron), <font style="color:#4a5568">**standard**</font>_<br>
@@ -3244,7 +3244,7 @@ You can apply poisons to this weapon as a bonus action, instead of an action.
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Pauldron of Retribution
 _**Adventuring gear** (shoulders), <font style="color:green">**premium**</font>_<br>
@@ -3317,7 +3317,7 @@ You gain a +1 bonus to attack rolls and a -1 penalty to damage rolls made with t
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Premium Blueprint
 _**Relic**, <font style="color:green">**premium**</font>_<br>
@@ -3405,7 +3405,7 @@ This shield gains the responsive 3 property. If it already has the responsive pr
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Reverse-Engineered Crushgaunts
 _**Adventuring gear** (hands), <font style="color:green">**premium**</font>_<br>
@@ -3497,7 +3497,7 @@ _This small robotic appendage has a fork-like prod from that can release a subst
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Shocking Oscillator
 _**Vibroweapon modification** (oscillator), <font style="color:blue">**prototype**</font>_<br>
@@ -3586,7 +3586,7 @@ You have a +3 bonus to attack and damage rolls made with this slug cartridge. Th
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Slug Cartridge (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
@@ -3671,7 +3671,7 @@ You gain a +3 bonus to attack rolls made with this weapon.
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Superior Crossguard Hilt
 _**Lightweapon modification** (hilt), <font style="color:purple">**advanced**</font>_<br>
@@ -3760,7 +3760,7 @@ You have a +3 bonus to AC while wielding this shield.
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Superior Shield Chassis
 _**Shield** (any), <font style="color:purple">**advanced**</font>_<br>
@@ -3844,7 +3844,7 @@ _Frequently used by scouts and corporate espionage specialists, this imposing im
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Survival and Surveillance Implant Mk II
 _**Cybernetic augmentation** (replacement), <font style="color:blue">**prototype**</font>_<br>
@@ -3894,7 +3894,7 @@ _Torchy is a BlasTech ALT-25 blaster pistol owned by the mercenary Corso Riggs d
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Uncanniness Motivator
 _**Droid customization** (protocol), <font style="color:green">**premium**</font>_<br>
@@ -3960,7 +3960,7 @@ This weapon gains the fixed property.
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Wrist-Mounted Grappling Hook
 _**Adventuring gear** (wrist), <font style="color:#4a5568">**standard**</font>_<br>
@@ -3974,4 +3974,4 @@ Once you've used this feature, you can’t use it again until you recover and rein
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS</div>
 
-\pagebreak
+\pagebreakNum

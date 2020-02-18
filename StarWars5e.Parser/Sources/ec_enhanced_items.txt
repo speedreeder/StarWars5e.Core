@@ -310,15 +310,15 @@ Power generators energize the rotary cannon. You have a +3 bonus to attack and d
 
 #### Projector Tank, Flame (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
-When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that arenï¿½t being worn or carried.
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 15 Dexterity saving throw, taking 4d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Flame (Major)
 _**Consumable** (ammunition), <font style="color:blue">**prototype**</font>_<br>
-When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 6d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that arenï¿½t being worn or carried.
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 17 Dexterity saving throw, taking 6d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Flame (Deadly)
 _**Consumable** (ammunition), <font style="color:purple">**advanced**</font>_<br>
-When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 8d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that arenï¿½t being worn or carried.
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 19 Dexterity saving throw, taking 8d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
 
 #### Projector Tank, Carbonite (Average) 
 _**Consumable** (ammunition), <font style="color:green">**premium**</font>_<br>
@@ -675,11 +675,11 @@ This weapon gains the keen 1 and piercing 1 properties. If it already has either
 
 #### Deadly Ostrine Edge
 _**Vibroweapon modification** (edge), <font style="color:purple">**advanced**</font>_<br>
-When you deal damage with this weapon, you deal an additional 1d4 acid, cold, fire, poison, or sonic damage (chosen by the GM when generating this item).
+When you deal damage with this weapon, you deal an additional 1d4 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item).
 
 #### Lethal Ostrine Edge
 _**Vibroweapon modification** (edge), <font style="color:#dd6b20">**legendary**</font>_<br>
-When you deal damage with this weapon, you deal an additional 1d6 acid, cold, fire, poison, or sonic damage (chosen by the GM when generating this item).
+When you deal damage with this weapon, you deal an additional 1d6 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item).
 
 #### Basic Nagai Edge
 _**Vibroweapon modification** (edge), <font style="color:#4a5568">**standard**</font>_<br>
@@ -802,8 +802,8 @@ When you score a critical hit with this weapon, you deal two additional weapon d
 _**Lightweapon modification** (cell), <font style="color:red">**artifact**</font>_<br>
 When you score a critical hit with this weapon, you deal four additional weapon dice worth of damage.
 
-#### Exceptional Disabling Hilt
-_**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
+#### Exceptional Disabling Cell
+_**Lightweapon modification** (cell), <font style="color:#dd6b20">**legendary**</font>_<br>
 This weapon gains the defensive 2 and disarming properties. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3.
 
 #### Stabilizer Training Cell
@@ -925,10 +925,6 @@ This armor or shield's strength number is reduced by four steps (from 19 to 11).
 _**Armor modification** (reinforcement), <font style="color:#dd6b20">**legendary**</font>_<br>
 This armor or shield loses the strength property.
 
-#### Enhancement Ascendancy Augment
-_**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
-You gain a +3 bonus to attack and damage rolls with weapons.
-
 #### Champion Constitution Augment
 _**Item modification** (augment), <font style="color:red">**artifact**</font>_<br>
 Your Constitution score increases by 2, and your maximum for this score increases by 2.
@@ -967,27 +963,27 @@ Your Strength score increases by 1, and your maximum for this score increases by
 _**Item modification** (augment), <font style="color:blue">**prototype**</font>_<br>
 Your Wisdom score increases by 1, and your maximum for this score increases by 1. One ability score other than Wisdom (chosen by the GM) decreases by 1.
 
-#### Fine Charisma Augment
+#### Basic Charisma Augment
 _**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
 Your Charisma score increases by 1. One ability score other than Charisma (chosen by the GM) decreases by 1.
 
-#### Fine Constitution Augment
+#### Basic Constitution Augment
 _**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
 Your Constitution score increases by 1. One ability score other than Constitution (chosen by the GM) decreases by 1.
 
-#### Fine Dexterity Augment
+#### Basic Dexterity Augment
 _**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
 Your Dexterity score increases by 1. One ability score other than Dexterity (chosen by the GM) decreases by 1.
 
-#### Fine Intelligence Augment
+#### Basic Intelligence Augment
 _**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
 Your Intelligence score increases by 1. One ability score other than Intelligence (chosen by the GM) decreases by 1.
 
-#### Fine Strength Augment
+#### Basic Strength Augment
 _**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
 Your Strength score increases by 1. One ability score other than Strength (chosen by the GM) decreases by 1.
 
-#### Fine Wisdom Augment
+#### Basic Wisdom Augment
 _**Item modification** (augment), <font style="color:#4a5568">**standard**</font>_<br>
 Your Wisdom score increases by 1. One ability score other than Wisdom (chosen by the GM) decreases by 1.
 
@@ -1133,6 +1129,8 @@ This weapon gains the vicious 2 property. If it already has the vicious property
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
 This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
 
+\pagebreak
+
 #### Vicious Cell
 _**Lightweapon modification** (cell), <font style="color:green">**premium**</font>_<br>
 This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
@@ -1184,7 +1182,7 @@ _**Vibroweapon modification** (guard), <font style="color:red">**artifact**</fon
 This weapon gains the vicious 3 property. If it already has the vicious property, its vicious number increases to 3.
 
 #### Compensating Attachment
-_**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
+_**Blaster modification** (attachment), <font style="color:purple">**advanced**</font>_<br>
 This weapon loses the two-handed property.
 
 #### Cruel Focus
@@ -1675,15 +1673,15 @@ This weapon gains the defensive 2 and disarming properties. If it already has th
 
 #### Precision Chamber Mark I
 _**Blaster modification** (attachment), <font style="color:#4a5568">**standard**</font>_<br>
-The normal range of this weapon increases by 10 feet, and the long range increases by 20 feet. 
+This weapon's range increases by 10/40.
 
 #### Precision Chamber Mark V
 _**Blaster modification** (attachment), <font style="color:#dd6b20">**legendary**</font>_<br>
-The normal range of this weapon increases by 50 feet, and the long range increases by 100 feet.
+This weapon's range increases by 50/200.
 
 #### Precision Chamber Mark VI
 _**Blaster modification** (attachment), <font style="color:red">**artifact**</font>_<br>
-The normal range of this weapon increases by 60 feet, and the long range increases by 120 feet.
+This weapon's range increases by 60/240.
 
 \columnbreak
 

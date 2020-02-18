@@ -49,12 +49,12 @@ You can take only one bonus action on your turn, so you must choose which bonus 
 
 You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action.
 
-#### Other Activity on Your Turn
-Your turn can include a variety of flourishes that require neither your action nor your move.
-
-You can communicate however you are able, through brief utterances and gestures, as you take your turn.
-
+#### Object Interaction
 You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.
+
+If you want to interact with a second object, you need to use your action. Some enhanced items and other special objects always require an action to use, as stated in their descriptions.
+
+The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
@@ -62,9 +62,10 @@ You can also interact with one object or feature of the environment for free, du
 
 <div style='margin-top:23px'></div>
 
-If you want to interact with a second object, you need to use your action. Some modified items and other special objects always require an action to use, as stated in their descriptions.
+#### Other Activity on Your Turn
+Lastly, your turn can include a variety of flourishes that require neither your action nor your move.
 
-The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
+You can communicate however you are able, through brief utterances and gestures, as you take your turn.
 
 > ##### Interacting with Objects Around You
 > Here are a few examples of the sorts of thing you can do in tandem with your movement and action:
@@ -353,7 +354,9 @@ Walls, trees, creatures, and other obstacles can provide cover during combat, ma
 
 There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.
 
-A target with **half cover** has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.
+A target with **one-quarter cover** has a +1 bonus to AC and Dexterity saving throws. A target has one-quarter cover if an obstacle blocks at least one-fourth of its body, such as a thin pillar.
+
+A target with **half cover** has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body, such as a low wall, a large piece of furniture, or another creature.
 
 A target with **three-quarters cover** has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.
 

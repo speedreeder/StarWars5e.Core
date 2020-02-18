@@ -10,7 +10,7 @@ Class is the primary definition of what your character can do. It's more than a 
 
 Your class gives you a variety of special features, such as a fighter's mastery of weapons and armor, and an engineer's powers. At low levels, your class gives you only two or three features, but as you advance in level you gain more and your existing features often improve. Each class entry in this chapter includes a table summarizing the benefits you gain at every level, and a detailed explanation of each one.
 
-<br><br>
+\columnbreak
 
 Adventurers sometimes advance in more than one class. An operative might switch direction in life and become an engineer. A berserker might discover latent force sensitivity and dabble in the guardian class while continuing to advance as a berserker. Sith purebloods are known to combine martial mastery with force training and advance as fighters and consulars simultaneously. Optional rules for combining classes in this way, called multiclassing, appear in chapter 6.
 
@@ -22,9 +22,7 @@ Adventurers sometimes advance in more than one class. An operative might switch 
 
 Choose from the following class options:
 
-<br><br><br>
-
-<div class='classTable wide'>
+<div class='classTable wide' style='position:absolute;bottom:200px;left:75px;width:687px'>
 
 ##### Classes
 |Class|Description|Hit<br> Die|Primary<br> Ability|Saving Throw<br> Proficiencies|
@@ -36,7 +34,7 @@ Choose from the following class options:
 |Guardian|Force-wielder specializing in melee combat|d10|Strength|Constitution & Charisma|
 |Monk|Unarmed combatant who uses focus to fuel abilities|d8|Dexterity|Strength & Dexterity|
 |Operative|Controller who focuses on stealth and techniques|d8|Dexterity|Dexterity & Intelligence|
-|Scholar|Academic who uses wits and allies to control the battlefield|d8|Intelligence|Dexterity & Intelligence|
+|Scholar|Academic who uses wits and allies to control the battlefield|d8|Intelligence|Wisdom & Intelligence|
 |Scout|Versatile combatant who blends tech powers with weapons|d10|Dexterity|Strength & Dexterity|
 |Sentinel|Force-wielder who blends melee combat with the Force|d8|Dexterity|Dexterity & Charisma|
 </div>
@@ -154,7 +152,7 @@ ___
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
-- *(a)* a martial vibroweapon and a light or medium shield generator or *(b)* two martial vibroweapons
+- *(a)* a martial vibroweapon and a light or medium physical shield or *(b)* two martial vibroweapons
 - *(a)* two techaxes or *(b)* two vibrospears
 - An explorer's pack
 
@@ -511,7 +509,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** None
-- **Weapons:** Simple vibroweapons, simple lightweapons
+- **Weapons:** Simple lightweapons, simple vibroweapons
 - **Tools:** None
 ___
 - **Saving Throws:** Wisdom, Charisma
@@ -793,7 +791,7 @@ You can make an engineer quickly by following these<br> suggestions. First, make
 |	Level	|	Proficiency<br> Bonus   | Features	|   Tech Powers<br> Known	|	Tech<br> Points	| Max Power<br> Level| Modification<br> Slots|
 |:--:|:--:|:--|:--:|:--:|:--:|:--:|
 |	 1	|	+2	|	Techcasting, Potent Aptitude (d6)			|	 6	|	  2	|	1st	| — |
-|	 2	|	+2	|	Infuse Item, Tool Expertise				|	 7	|	  4	|	1st	| — |
+|	 2	|	+2	|	Infuse Item, Tool Expertise				    |	 7	|	  4	|	1st	| — |
 |	 3	|	+2	|	Engineering Discipline                      |	 9	|	  6	|	2nd	| 4 |
 |	 4	|	+2	|	Ability Score Improvement					|	10	|	  8	|	2nd	| 4 |
 |	 5	|	+3	|	Potent Aptitude	(d8), Quick Thinking    	|	11	|	 10	|	3rd	| 5 |
@@ -944,15 +942,15 @@ Your modified armor is enhanced, requires attunement, can only be used by you, a
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
-At 9th level, you can maintain both a modified suit of armor and shield. The total modification slots are split across the two items.
+At 9th level, you can maintain both a modified suit of armor and shield. Each modified item has modification slots as shown in the Modification Slots column of the engineer class table.
 
 ### Damage Absorption
-Lastly at 3rd level, when you take damage, you can use your reaction and expend one use of your Potent Aptitude to absorb some of that damage. When you<br> do so, the damage you take from the attack is<br> reduced by the amount rolled on the die + your Intelligence modifier (minimum of one).
+Lastly at 3rd level, when you take damage, you can use your reaction and expend one use of your Potent Aptitude to absorb some of that damage. When<br> you do so, the damage you take from the attack is reduced by the amount rolled on the die + your Intelligence modifier (minimum of one).
 
 ### Armormech's Celerity
 Beginning at 6th level, when you take the Attack action, you can make one weapon attack as a bonus action.
 
-You can use this feature a number of times equal<br> to your Intelligence modifier (a minimum of once).<br> You regain all expended uses when you<br> complete a long rest.
+You can use this feature a number of times<br> equal to your Intelligence modifier (a<br> minimum of once). You regain all<br> expended uses when you<br> complete a long rest.
 
 \columnbreak
 
@@ -974,8 +972,8 @@ Starting at 18th level, your suit is like a second skin. Whenever you make an ab
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
 #### Absorption Shield
-_**Prerequisite:** Light Shield Generator_<br>
-You modify your light shield generator to block incoming damage. As a bonus action you can activate this ability and gain temporary hit points equal to 1d4 + Intelligence modifier. These hit points last for one hour.
+_**Prerequisite:** Physical Shield_<br>
+You modify your physical shield to block incoming damage. As a bonus action you can activate this ability and gain temporary hit points equal to 1d4 + Intelligence modifier, which last for one hour.
 
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.
 
@@ -992,27 +990,25 @@ _**Prerequisite:** 11th level, Armor_<br>
 _**Prerequisite:** Prototype Power Fist_<br>
 You further modify your modified armor's gauntlet with increased reinforcement and weight. Your modified armor's unarmed strike deals 1d8 kinetic damage. Additionally, your unarmed strikes score a critical hit on a roll of 19 or 20.
 
-#### Armorweave Underlay
-_**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to saving throws. This bonus increases to +2 at 11th level and +3 at 17th level.
-
 #### Artificially Intelligent
 _**Prerequisite:** 7th level, Armor_<br>
 You install an artificial intelligence into your modified armor. While wearing your modified armor, when you make an ability check, your armor's artificial intelligence can take the Help action.
 
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a long rest.
 
+#### Bonded Plates
+_**Prerequisite:** 5th level_<br>
+You gain a +1 bonus to AC against melee attacks. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+#### Collapsible Suit
+_**Prerequisite:** 5th level, Armor_<br>
+Your modified armor can collapse into a case for easy storage. When transformed this way the armor is indistinguishable from a normal case and weighs 1/3
+
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
-#### Collapsible Suit
-_**Prerequisite:** 5th level, Light Armor_<br>
-Your modified armor can collapse into a case for easy storage. When transformed this way the armor is indistinguishable from a normal case and weighs 1/3 its normal weight. As an action you can don or doff the armor, allowing it to transform as needed.
-
-#### Dampening Overlay
-_**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to AC. This bonus increases to +2 at 11th level and +3 at 17th level.
+its normal weight. As an action you can don or doff the armor, allowing it to transform as needed.
 
 #### Darkvision Visor
 _**Prerequisite:** Armor_<br>
@@ -1023,8 +1019,8 @@ _**Prerequisite:** Armor_<br>
 When you are reduced to 0 hit points while wearing your modified armor but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
 
 #### Electroshock Shield
-_**Prerequisite:** Heavy Shield_<br>
-You install electroshockers in your shield. Whenever an enemy misses you with a melee attack, you can use your reaction to do 1d4 + your Intelligence modifier lightning damage to the attacker.
+_**Prerequisite:** Shield Generator_<br>
+You install electroshockers in your shield generator. Whenever an enemy misses you with a melee attack, you can use your reaction to do 1d4 + your Intelligence modifier lightning damage to the attacker.
 
 #### Flight
 _**Prerequisite:** 9th level, Armor_<br>
@@ -1040,23 +1036,27 @@ While the harpoon is deployed, you can use your bonus action to activate the ree
 
 Once you've used this feature, you can't use it again until you recover and reinsert the harpoon as an action.
 
+#### Heavy Suit
+_**Prerequisite:** 5th level, Armor_<br>
+You enhance your suit, making it difficult to move. As a bonus action, you can anchor your feet to the ground. While anchored, your speed is 0, you have advantage on Strength checks and Strength saving throws, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. 
+
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
 \pagebreakNum
 
-#### Heavy Suit
-_**Prerequisite:** 5th level, Heavy Armor_<br>
-You enhance your suit, making it difficult to move. As a bonus action, you can anchor your feet to the ground. While anchored, your speed is 0, you have advantage on Strength checks and Strength saving throws, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. 
-
 #### Infiltration Suit
-_**Prerequisite:** Light or Medium Armor_<br>
+_**Prerequisite:** Armor_<br>
 You install a cloaking device in your modified armor. This device has 2 charges. As an action you can use 1 charge to cast _infiltrate_ targeting yourself.
 
 The cloaking device regains all expended charges after a long rest.
 
+#### Magnetized Shield
+_**Prerequisite:** Physical Shield_<br>
+You modify your physical shield such that when a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength check against your tech save DC. On a failed save, the creature's weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed. 
+
 #### Overload Shield
-_**Prerequisite:** Light or Medium Shield Generator_<br>
-You modify your shield generator to overload. As an action you can overload your shield generator. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength saving throw (their choice) against your tech save DC. On a failed save, they are pushed back 5 feet and knocked prone.
+_**Prerequisite:** Shield Generator_<br>
+You modify your shield generator to overload. As an action you can overload your shield. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength saving throw (their choice) against your tech save DC. On a failed save, they are pushed back 5 feet and knocked prone.
 
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.
 
@@ -1072,6 +1072,10 @@ _**Prerequisite:** Power Fist_<br>
 You further modify your modified armor gauntlet with increased reinforcement and weight. Your modified armor's unarmed strike deals 1d6 kinetic damage and has the following property.
 
 If you or your target move at least 10 feet in a straight line immediately before making an unarmed attack, the first unarmed attack you make deals additional damage equal to your Intelligence modifier.
+
+#### Reinforced Underlay
+_**Prerequisite:** 5th level_<br>
+You gain a +1 bonus to AC against ranged attacks. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Resistance
 _**Prerequisite:** Armor_<br>
@@ -1095,21 +1099,21 @@ Your artificial intelligence has learned to control the suit without you being i
 While your armor is acting independently, it uses your ability scores, saving throws, and skills, and it has hit points equal to your engineer level. If reduced to 0 hit points, it falls directly to the ground, and it can not be equipped again until you finish a long rest.
 
 #### Shield Amplifier
-_**Prerequisite:** Medium Shield Generator_<br>
-You modify your medium shield generator to project outward. As a bonus action you can amplify your medium shield generator until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your shield's bonus.
+_**Prerequisite:** Shield Generator_<br>
+You modify your shield generator to project outward. As a bonus action you can amplify your shield until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your shield's bonus.
 
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.
 
-#### Shield Cover
-_**Prerequisite:** Heavy Shield_<br>
-You modify your heavy shield to be used as a portable source of cover. As a bonus action you can anchor your heavy shield to the ground. While anchored, your heavy shield provides three-quarters cover, but can not be moved. You can unanchor using a bonus action.
+#### Shield Anchor
+_**Prerequisite:** Physical Shield_<br>
+You modify your shield to be used as a portable source of cover. As an action, you can anchor or recover the shield. While anchored, you gain no benefit from a shield, and it does not require the use of a hand. Instead, while anchored, a light shield provides one-quarter cover, a medium shield provides half cover, and a large shield provides three-quarters cover.
 
 #### Tech Blast
 _**Prerequisite:** Armor_<br>
 You modify your modified armor gauntlet to allow you to make a ranged tech attack. The weapon fires blasts of energy which deal 1d8 + your Intelligence modifier energy damage with a range of 30 feet. When you would make a ranged weapon attack, you can use this ranged tech attack in place of it.
 
-#### Weapon Integration
-_**Prerequisite:** Medium or Heavy Armor_<br>
+#### Weapon Integration Armoring
+_**Prerequisite:** Armor_<br>
 You can integrate a single weapon that weighs no more than 8 lb. into your armor. While integrated, that weapon gains the hidden property. Additionally, you have advantage on Strength saving throws to avoid being disarmed.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
@@ -1129,7 +1133,7 @@ Your modified weapon is enhanced, requires attunement, can only be used by you, 
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
-At 9th level, you can maintain two modified weapons. The total modification slots are split across the two weapons.
+At 9th level, you can maintain two modified weapons. Each modified weapon has modification slots as shown in the Modification Slots column of the engineer class table.
 
 ### Close Call
 Lastly at 3rd level, when you make an attack roll with your modified weapon and miss, you can expend one use of your Potent Aptitude to attempt to turn that miss into a hit. Roll the die and add it to the attack roll. 
@@ -1160,13 +1164,13 @@ Starting at 18th level, when you use your Targeting Matrix feature, and the tech
 ### Armstech Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
-#### Accuracy Scope
+#### Accuracy Focus
 _**Prerequisite:** 5th level, Blaster_<br>
-You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 11th level and +3 at 17th level.
+You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Amplifying Barrel
 _**Prerequisite:** 5th level, Blaster_<br>
-You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 11th level and +3 at 17th level.
+You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Bayonet
 _**Prerequisite:** Blaster_<br>
@@ -1180,20 +1184,20 @@ Your weapon gains the burst property, with a burst number equal to its reload nu
 _**Prerequisite:** 7th level_<br>
 You pack extra power into your modified weapon. Once per turn, when you hit with the weapon, you can deal an additional 1d6 damage. If you do so, the weapon makes a loud boom which can be heard 100 feet away. If you are hidden, Intelligence (Investigation) and Wisdom (Perception) checks made to locate you that rely on sound have advantage.
 
-#### Celerity Matrix
+#### Celerity Oscillator
 Once per turn, when you deal damage with your modified weapon, your walking speed increases by 10 feet until the start of your next turn, and the damaged creature can't make opportunity attacks against you for the rest of your turn.
 
-#### Collapsible Hilt
+#### Collapsible Frame
 _**Prerequisite:** Vibroweapon_<br>
 You install an expandable hilt on your modified weapon. Your modified weapon gains the reach property.
 
 #### Contoured Grip 
 _**Prerequisite:** 5th level, Vibroweapon_<br>
-You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 11th level and +3 at 17th level.
+You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Expanded Magazine
 _**Prerequisite:** Blaster_<br>
-Your modified weapon can hold two power cells at a time, allowing you to expend both before a reload is required. You can only reload one power cell at a time. Whenever you make a ranged weapon attack with your modified weapon, you can choose which power cell you're firing (no action required).
+Your modified weapon can be more efficiently reloaded. You can reload your modified weapon once without using an action. You can't use this feature again until you reload the weapon with an action.
 
 \columnbreak
 
@@ -1202,7 +1206,7 @@ Your modified weapon can hold two power cells at a time, allowing you to expend 
 #### Flashlight
 You affix a targeted light to your weapon. As a bonus action, you can toggle the light on or off. While on, your weapon sheds bright light in a 60-foot cone.
 
-#### Grappling Harpoon
+#### Harpoon Reel
 You install a secondary firemode that launches a harpoon attached to a tightly coiled cord. With this harpoon, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d6 kinetic damage. This attack can target a surface, object, or creature.
 
 A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.
@@ -1218,19 +1222,19 @@ You modify your weapon to carry a charge. Over the course of a short rest, you c
 #### Improved Burst Core
 _**Prerequisite:** 9th level_<br>
 _**Prerequisite:** Burst Core_<br>
-Your weapon gains the burst property, with a burst number equal to its reload number.
+Your weapon's burst number is reduced to half its reload number.
 
 #### Integrated Magazine
 _**Prerequisite:** Expanded Magazine_<br>
-Your modified weapon can hold three power cells at a time, and you can replace all three power cells with the same action.
+Your modified weapon can be more efficiently reloaded. You can reload your modified weapon twice without using an action. You can't use this feature again until you reload the weapon with an action.
 
-#### Jagged Edge
+#### Jagged Oscillator
 _**Prerequisite:** Vibroweapon_<br>
 When you critically hit with the weapon, you deal an additional 1d8 kinetic damage.
 
-#### Keen Edge
-_**Prerequisite:** 11th level_<br>
-_**Prerequisite:** Jagged Edge_<br>
+#### Keen Oscillator
+_**Prerequisite:** 5th level_<br>
+_**Prerequisite:** Jagged Oscillator_<br>
 Your weapon now scores a critical hit on a roll of 19 or 20.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
@@ -1239,7 +1243,7 @@ Your weapon now scores a critical hit on a roll of 19 or 20.
 
 #### Neutronium Edge
 _**Prerequisite:** 5th level, Vibroweapon_<br>
-You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 11th level and +3 at 17th level.
+You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Overcharge Weapon
 _**Prerequisite:** 11th level_<br>
@@ -1256,7 +1260,7 @@ Once you've used this feature, you must complete a long rest before you can use 
 _**Prerequisite:** Blaster with the strength property_<br>
 You install a recoil dampener in your modified blaster, removing the strength property from it.
 
-#### Returning Weapon
+#### Returning Weapon Guard
 _**Prerequisite:** Vibroweapon_<br>
 You install a retractible chain in your modified vibroweapon. If the weapon does not already have the thrown property, it gains it with a range of 20/60. Additionally, it gains the returning property.
 
@@ -1278,7 +1282,7 @@ After hitting a creature with the harpoon fire mode, you can use the connection 
 
 Once you've used this feature, you can't use it again until you recover the harpoon.
 
-#### Shocking Strike
+#### Shocking Oscillator
 _**Prerequisite:** 9th level, Vibroweapon_<br>
 When you hit with the weapon, you can create an electronic burst. Each creature in a 15-foot cone centered on the creature you hit must make a Dexterity saving throw against your tech save DC, taking 1d8 lightning damage on a failed save or half as much on a successful one.
 
@@ -1288,7 +1292,7 @@ Once you've used this feature, you must complete a long rest before you can use 
 _**Prerequisite:** 9th level, Blaster_<br>
 You modify your modified blaster weapon for quick shots. You can use your reaction to take a opportunity attack with your modified weapon if an enemy comes within 10 feet of you. You have disadvantage on this attack. 
 
-#### Staggering Strike
+#### Staggering Oscillator
 _**Prerequisite:** Vibroweapon_<br>
 When you hit with the weapon, you can force the target to make a Strength saving throw. On a failed save, the creature is pushed back 10 feet and knocked prone.
 
@@ -1305,8 +1309,8 @@ _**Prerequisite:** 11th level_<br>
 _**Prerequisite:** Flashlight_<br>
 When toggled on, your flashlight now automatically dispels illusions and can detect invisibility, as with truesight.
 
-#### Venomous Weapon
-_**Prerequisite:** 7th level, Vibroweapon_<br>
+#### Venomous Oscillator
+_**Prerequisite:** 9th level, Vibroweapon_<br>
 As a bonus action, you can coat your weapon in a thin layer of poison for 1 minute. The next time you hit with the weapon, the creature must make a Constitution saving throw against your tech save DC. On a failed save, a creature takes 1d10 poison damage and becomes poisoned for 1 minute.
 
 Once you've used this feature, you must complete a long rest before you can use it again.
@@ -1569,7 +1573,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor plating
-- **Weapons:** All simple blasters, All simple vibroweapons
+- **Weapons:** Simple blasters, simple vibroweapons
 - **Tools:** None
 ___
 - **Languages:** Class I droids can speak, read, and write Galactic Basic and one language of your choice. They can understand spoken and written Binary, but can not speak it
@@ -1630,7 +1634,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple blasters, Simple vibroweapons
+- **Weapons:** Simple blasters, simple vibroweapons
 - **Tools:** None
 ___
 - **Languages:** Class III droids can speak and understand all registered languages
@@ -1686,7 +1690,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor, medium armor
-- **Weapons:** Simple blasters, All vibroweapons
+- **Weapons:** All vibroweapons, simple blasters
 - **Tools:** One set of artisan's tools
 ___
 - **Languages:** Class V droids can speak, read, and write Binary. They can understand spoken and written Galactic Basic and one language of your choice, but can not speak it
@@ -1789,7 +1793,7 @@ ___
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 - *(a)* mesh armor or *(b)* combat suit, blaster rifle, and two power cells
-- *(a)* a martial vibroweapon and a light or medium shield generator or *(b)* two martial vibroweapons
+- *(a)* a martial vibroweapon and a light or medium physical shield or *(b)* two martial vibroweapons
 - *(a)* a hold-out and a power cell or *(b)* two vibrodaggers
 - *(a)* a dungeoneer's pack or *(b)* an explorer's pack
 
@@ -2605,7 +2609,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom or Charisma modifier (your choice).
 
 ### Martial Arts
-At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are chakrams, techblades, and any simple vibroweapons that don't have the two-handed or heavy property.
+At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are chakrams, techblades, and any simple vibroweapons that don't have the two-handed property.
 
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
 - You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
@@ -2720,7 +2724,7 @@ Monks of the Echani Order train relentlessly both with and without their weapons
 Beginning when you choose this order at 3rd level, your special martial arts training leads you to master the use of certain weapons. You gain the following benefits.
 
 #### Echani Weapons
-Choose two types of weapons to be your Echani weapons: one vibroweapon and one blaster. Each of these weapons can be any simple or martial weapon that lacks the heavy and special properties. You gain proficiency with these weapons if you don't already have it. Weapons of the chosen types are monk weapons for you. Many of this tradition's features work only with your Echani weapons. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon to be an Echani weapon for you, following the criteria above.
+Choose two types of weapons to be your Echani weapons: one vibroweapon and one blaster. Each of these weapons can be any simple or martial weapon that lacks the special property. You gain proficiency with these weapons if you don't already have it. Weapons of the chosen types are monk weapons for you. Many of this tradition's features work only with your Echani weapons. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon to be an Echani weapon for you, following the criteria above.
 
 #### Agile Parry
 If you make an unarmed strike as part of the Attack action on your turn and are holding a Echani weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't incapacitated.
@@ -2803,7 +2807,7 @@ Once you've used this feature, you must<br> complete a long rest before you can 
 <div style='margin-top:27px'></div>
 
 ### Tranquility
-Starting at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a *sanctuary* force power that lasts until the start of your next long rest (the power can end early as normal). The saving throw DC for the power equals 8 + your proficiency bonus + your Wisdom modifier.
+Starting at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a *sanctuary* force power that lasts until the start of your next long rest (the power can end early as normal). The saving throw DC for the power equals your focus save DC.
 
 ### Quivering Palm
 At 17th level, you gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 focus points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same planet. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.
@@ -2891,7 +2895,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple vibroweapons, simple blasters, blaster pistol, vibrorapier, techblade, hidden blade
+- **Weapons:** Simple blasters, simple vibroweapons, blaster pistol, hidden blade, techblade, vibrorapier
 - **Tools:** Your choice of demolitions kit, disguise kit, forgery kit, poisoner's kit, security kit, or slicer's kit
 ___
 - **Saving Throws:** Dexterity, Intelligence
@@ -3244,7 +3248,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple vibroweapons, techblades, simple blasters
+- **Weapons:** Simple blasters, simple vibroweapons, techblades
 - **Tools:** Any one
 ___
 - **Saving Throws:** Wisdom, Intelligence
@@ -3408,7 +3412,7 @@ You my choose this discovery multiple times.
 #### Clever Applications
 You gain proficiency with improvised weapons, and they gain the finesse property for you. Additionally, when you make an attack with an improvised weapon, it deals 1d6 damage.
 
-You can your Sage Advice feature to give friendly creatures improvised weapon proficiency if they don't already have it, following the same rules of that feature as if it were a skill or tool. The friendly creatures retain this proficiency for the entire duration instead.
+You can use your Sage Advice feature to give friendly creatures improvised weapon proficiency if they don't already have it, following the same rules of that feature as if it were a skill or tool. The friendly creatures retain this proficiency for the entire duration instead.
 
 #### Mental Prowess
 When you make a Strength (Athletics) or Dexterity (Acrobatics) check to grapple a creature or break out of a grapple, net, and other restraining equipment, you can use your Intelligence modifier instead of Strength or Dexterity. 
@@ -3928,7 +3932,7 @@ ___
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background.
 - *(a)* mesh armor or *(b)* combat suit, blaster carbine, and two power cells
-- *(a)* a simple vibroweapon and a light or medium shield generator or *(b)* two simple vibroweapons
+- *(a)* a simple vibroweapon and a light or medium physical shield or *(b)* two simple vibroweapons
 - *(a)* a hold-out and a power cell or *(b)* two vibrodaggers
 - *(a)* a dungeoneer's pack or *(b)* an explorer's pack
 - A wristpad
@@ -4360,7 +4364,7 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* two simple lightweapons or vibroweapons or *(b)* one martial lightweapon or vibroweapon with which you are proficient
 - *(a)* a dungeoneer's pack or *(b)* an explorer's pack
 - *(a)* a demolitions kit, *(b)* a security kit, or *(c)* a slicer's kit
-- a combat suit and a light shield generator
+- a combat suit and a light physical shield
 
 #### Variant: Starting Wealth 
 In lieu of the equipment granted by your class and background, you can elect to purchase your starting gear. If you do so, you receive no equipment from your class and background, and instead roll for your starting wealth using the criteria below:

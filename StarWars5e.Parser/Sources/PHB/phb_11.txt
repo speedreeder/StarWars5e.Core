@@ -861,7 +861,7 @@ ___
 - **Range:** 30 feet
 - **Duration:** Instantaneous
 
-You select a weapon being worn or carried by a Large or smaller creature within range. The creature must make a Strength or Dexterity saving throw (the creature chooses the ability to use). If the item is being worn, this save is made with disadvantage. On a failed save, the creature takes 1d4 force damage and the item is pulled directly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
+You select a weapon or object being worn or carried by a Large or smaller creature within range. The creature must make a Strength or Dexterity saving throw (the creature chooses the ability to use). If the item is being worn, this save is made with disadvantage. On a failed save, the creature takes 1d4 force damage and the item is pulled directly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
 
 This power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
@@ -2226,9 +2226,11 @@ You gain the ability to move or manipulate creatures and objects with the Force.
 
 On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.
 
-***Object.*** You move an object that isn't being worn or carried and weighs up to 1,000 lbs up to 30 feet in any direction, but not beyond the range of this power.
+***Object.*** You move an object that isn't being worn or carried and weighs up to 2,500 lbs up to 30 feet in any direction, but not beyond the range of this power.
 
 You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.
+
+***Force Potency.*** When you cast this power using a force slot of 6th level or higher, the maximum object weight increases by 2,500 lbs for every slot level above 5th.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 

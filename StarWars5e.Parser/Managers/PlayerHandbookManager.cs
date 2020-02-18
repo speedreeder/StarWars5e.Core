@@ -55,6 +55,7 @@ namespace StarWars5e.Parser.Managers
             {
                 ("Ammunition", "#### Ammunition", 1),
                 ("Burst", "#### Burst", 1),
+                ("Dexterity", "#### Dexterity", 1),
                 ("Double", "#### Double", 1),
                 ("Finesse", "#### Finesse", 1),
                 ("Fixed", "#### Fixed", 1),
@@ -78,6 +79,7 @@ namespace StarWars5e.Parser.Managers
             var armorProperties = new List<(string name, string startLine, int occurence)>
             {
                 ("Bulky", "#### Bulky", 1),
+                ("Obtrusive", "#### Obtrusive", 1),
                 ("Strength", "#### Strength", 1)
             };
 

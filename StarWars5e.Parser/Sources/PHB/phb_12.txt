@@ -353,7 +353,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 minute
 
-You empower a blaster weapon you are holding. For the duration, you can reload the weapon as a free action once per turn, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell. 
+You empower a blaster weapon you are holding. For the duration, you can reload the weapon once per turn without using an action, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell. 
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
 
@@ -1291,7 +1291,7 @@ ___
 - **Range:** Touch
 - **Duration:** 8 hours
 
-You touch a creature and grant it a small reserve of kolto. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the power ends. If the power is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the powers ends.
+You touch a creature and grant it a small reserve of kolto. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the power ends. If the power is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the powers ends. This power has no effect on droids or constructs.
 
 #### Kolto Waves
 _9th-level tech power_

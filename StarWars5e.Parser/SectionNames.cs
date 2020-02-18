@@ -660,7 +660,13 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterOneSections { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Building the Mandalorians", GlobalSearchTermType.Rule, null),
+                ( "Building the Mandalorians", GlobalSearchTermType.Rule, null)
+            };
+
+        public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterZeroSections { get; } =
+            new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( "Introduction", GlobalSearchTermType.Rule, null)
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterTwoSections { get; } =

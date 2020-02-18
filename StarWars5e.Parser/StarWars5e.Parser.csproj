@@ -56,6 +56,7 @@
     <None Remove="Sources\SOTG\sotg_10.txt" />
     <None Remove="Sources\SOTG\sotg_aa.txt" />
     <None Remove="Sources\SOTG\sotg_changelog.txt" />
+    <None Remove="Sources\WH\wh_00.txt" />
     <None Remove="Sources\WH\wh_01.txt" />
     <None Remove="Sources\WH\wh_02.txt" />
     <None Remove="Sources\WH\wh_03-04.txt" />
@@ -67,6 +68,7 @@
     <None Remove="Sources\WH\wh_07.txt" />
     <None Remove="Sources\WH\wh_08.txt" />
     <None Remove="Sources\WH\wh_aa.txt" />
+    <None Remove="Sources\WH\wh_changelog.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -118,6 +120,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Sources\TestData\new_mm_content.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_00.txt" />
     <EmbeddedResource Include="Sources\WH\wh_01.txt" />
     <EmbeddedResource Include="Sources\WH\wh_02.txt" />
     <EmbeddedResource Include="Sources\WH\wh_03.txt" />
@@ -127,6 +130,7 @@
     <EmbeddedResource Include="Sources\WH\wh_07.txt" />
     <EmbeddedResource Include="Sources\WH\wh_08.txt" />
     <EmbeddedResource Include="Sources\WH\wh_aa.txt" />
+    <EmbeddedResource Include="Sources\WH\wh_changelog.txt" />
   </ItemGroup>
 
   <ItemGroup>

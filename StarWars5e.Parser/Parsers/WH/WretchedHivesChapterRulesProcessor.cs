@@ -20,7 +20,7 @@ namespace StarWars5e.Parser.Parsers.WH
         {
             var chapters = new List<ChapterRules>();
 
-            //var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
+            var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
             var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: Step-By-Step Factions");
             var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Entertainment and Downtime");
             var chapter3StartIndex = lines.FindIndex(f => f == "# Chapter 3: Factions and Membership");
@@ -30,6 +30,13 @@ namespace StarWars5e.Parser.Parsers.WH
             var chapter7StartIndex = lines.FindIndex(f => f == "# Chapter 7: Enhanced Items");
             var chapter8StartIndex = lines.FindIndex(f => f == "# Chapter 8: Tool Proficiencies");
             var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Enhanced Items");
+            var changelogStartIndex = lines.FindIndex(f => f == "# Changelog");
+
+            var chapter0Lines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
+                .CleanListOfStrings().ToList();
+            chapter0Lines[2] = chapter0Lines[2].Insert(0, "T");
+            chapters.Add(CreateWretchedHivesChapterRules(chapter0Lines, 1, "Introduction", SectionNames.WHChapterZeroSections,
+                "introduction"));
 
             var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
                 .CleanListOfStrings().ToList();
@@ -78,6 +85,9 @@ namespace StarWars5e.Parser.Parsers.WH
             chapter8Lines[2] = chapter8Lines[2].Insert(0, "T");
             chapters.Add(CreateWretchedHivesChapterRules(chapter8Lines, 8, "Tool Proficiencies", SectionNames.WHChapterEightSections,
                 "toolProficiencies"));
+
+            var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
+            chapters.Add(CreateWretchedHivesChapterRules(changelogLines, 99, "Changelog"));
 
             foreach (var whChapterName in SectionNames.WHChapterNames)
             {

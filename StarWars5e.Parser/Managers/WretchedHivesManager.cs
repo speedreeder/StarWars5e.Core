@@ -26,11 +26,10 @@ namespace StarWars5e.Parser.Managers
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly WretchedHivesEquipmentProcessor _wretchedHivesEquipmentProcessor;
 
-
         private readonly List<string> _whFilesName = new List<string>
         {
-            "WH.wh_01.txt", "WH.wh_02.txt", "WH.wh_03.txt", "WH.wh_04.txt", "WH.wh_05.txt", "WH.wh_06.txt",
-            "WH.wh_07.txt", "WH.wh_08.txt", "WH.wh_aa.txt"
+            "WH.wh_00.txt", "WH.wh_01.txt", "WH.wh_02.txt", "WH.wh_03.txt", "WH.wh_04.txt", "WH.wh_05.txt", "WH.wh_06.txt",
+            "WH.wh_07.txt", "WH.wh_08.txt", "WH.wh_aa.txt", "WH.wh_changelog.txt"
         };
 
         public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
