@@ -61,7 +61,7 @@ namespace StarWars5e.Parser.Managers
                 ("Fixed", "#### Fixed", 1),
                 ("Heavy", "#### Heavy", 3 ),
                 ("Hidden", "#### Hidden", 1),
-                ("Light", "#### Light", 1),
+                ("Light", "#### Light", 2),
                 ("Luminous", "#### Luminous", 1),
                 ("Range", "#### Range", 1),
                 ("Reach", "#### Reach", 1),

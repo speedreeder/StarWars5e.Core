@@ -58,7 +58,7 @@ namespace StarWars5e.Parser.Managers
                 ("Piercing", "#### Piercing", 1),
                 ("Rapid", "#### Rapid", 1),
                 ("Shocking", "#### Shocking", 1),
-                ("Silent", "#### Silent", 1),
+                ("Silent", "#### Silent", 2),
                 ("Vicious", "#### Vicious", 1)
             };
 
