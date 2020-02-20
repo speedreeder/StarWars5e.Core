@@ -10,6 +10,7 @@ using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Parsers.PHB;
 using StarWars5e.Parser.Parsers.WH;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -25,6 +26,7 @@ namespace StarWars5e.Parser.Managers
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly WretchedHivesEquipmentProcessor _wretchedHivesEquipmentProcessor;
+        private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
 
         private readonly List<string> _whFilesName = new List<string>
         {
@@ -40,6 +42,7 @@ namespace StarWars5e.Parser.Managers
             _wretchedHivesEquipmentProcessor = new WretchedHivesEquipmentProcessor();
             _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(globalSearchTermRepository);
             _enhancedItemProcessor = new EnhancedItemProcessor();
+            _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("wretched-hives-rules");
@@ -228,6 +231,27 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload WH weapon properties.");
+            }
+
+            try
+            {
+                var feats = await _playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" });
+
+                foreach (var feat in feats)
+                {
+                    feat.ContentSourceEnum = ContentSource.PHB;
+
+                    var featSearchTerm = _globalSearchTermRepository.CreateSearchTerm(feat.Name, GlobalSearchTermType.Feat, ContentType.Core,
+                        $"/characters/feats/?search={feat.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Feat>("feats", feats,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload PHB feats.");
             }
         }
     }
