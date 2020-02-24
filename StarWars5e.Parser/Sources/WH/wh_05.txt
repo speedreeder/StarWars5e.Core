@@ -203,30 +203,6 @@ While wearing armor with the powered property, you gain a bonus to damage rolls 
 
 \pagebreakNum
 
-<div class='classTable wide'>
-
-##### Armor and Shields
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Armor|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
-|:---|---:|:---|-:|:---|
-|_Light Armor_	||||||
-|&emsp;Durafiber combat suit    |  1,100 cr&nbsp;&nbsp;|	10 + Dex modifier|10 lb&nbsp;&nbsp;|Agile 1|
-|&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13 lb&nbsp;&nbsp;|Silent|
-|&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
-|_Medium Armor_	||||||
-|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|Insulated 1, strength 11|
-|&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25 lb&nbsp;&nbsp;|Regulated, strength 11|
-|&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
-|_Heavy Armor_	||||||
-|&emsp;Duranium battle armor	|  6,750 cr&nbsp;&nbsp;|	16	|55 lb&nbsp;&nbsp;|Bulky, cumbersome, reactive 1, strength 13|
-|&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
-|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
-|_Shield_		||||||
-|&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6 lb&nbsp;&nbsp;|Spiked (1d4)|
-|&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
-|&emsp;Quadanium heavy shield	|  2,000 cr&nbsp;&nbsp;|	+3	|36 lb&nbsp;&nbsp;|Charging 1, cumbersome, obtrusive, strength 15|
-
-</div>	
-
 #### Reactive
 When you are wearing armor with the reactive property and a creature hits you with an attack roll, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number.
 
@@ -255,6 +231,30 @@ While wearing armor or wielding a shield with the steadfast property, you have a
 
 #### Versatile
 A shield with the versatile property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number.
+
+<div class='classTable wide'>
+
+##### Armor and Shields
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Armor|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
+|:---|---:|:---|-:|:---|
+|_Light Armor_	||||||
+|&emsp;Durafiber combat suit    |  1,100 cr&nbsp;&nbsp;|	10 + Dex modifier|10 lb&nbsp;&nbsp;|Agile 1|
+|&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13 lb&nbsp;&nbsp;|Silent|
+|&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
+|_Medium Armor_	||||||
+|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|Insulated 1, strength 11|
+|&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25 lb&nbsp;&nbsp;|Regulated, strength 11|
+|&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
+|_Heavy Armor_	||||||
+|&emsp;Duranium battle armor	|  6,750 cr&nbsp;&nbsp;|	16	|55 lb&nbsp;&nbsp;|Bulky, cumbersome, reactive 1, strength 13|
+|&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
+|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
+|_Shield_		||||||
+|&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6 lb&nbsp;&nbsp;|Spiked (1d4)|
+|&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
+|&emsp;Quadanium heavy shield	|  2,000 cr&nbsp;&nbsp;|	+3	|36 lb&nbsp;&nbsp;|Charging 1, cumbersome, obtrusive, strength 15|
+
+</div>	
 
 \pagebreakNum
 
@@ -542,9 +542,13 @@ This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally,
 This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Plasma
-This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
-\columnbreak
+#### Shocking Cartridge
+A shocking cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
+
+#### Snare
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 13 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects.
 
 <div class='classTable'>
 
@@ -572,14 +576,6 @@ This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally,
 |	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
 
 </div>
-
-DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
-
-#### Shocking Cartridge
-A shocking cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
-
-#### Snare
-When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 13 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects.
 
 \pagebreakNum
 

@@ -2,6 +2,115 @@
 
 <div class='wide'>
 
+# Force-Bond
+
+</div>
+
+When two Force-sensitive individuals spend time together, they can develop a powerful connection through the Force. While bonded in such a fashion, the two individuals gain a series of boons, depending on the strength of their bond. However, if the bond is unwilling, the individuals risk corruption by the dark side of the Force.
+
+### Developing a Bond
+When one creature wants to develop a bond with another, they must spend 1 hour meditating, which can be done during a short rest,  while within 30 feet of a target that they can see. At the end of this meditation, the target must make a Charisma saving throw. The DC of this saving throw is equal to the initiator's universal force save DC, and the target of this feature can choose to fail this save. On a failure, the two creature's develop a Force-bond.
+
+#### Valid Targets
+Only sentient creatures who can cast force powers of 1st-level or higher can develop a Force-bond, and a creature can only be bonded in such a way to one other creature a time.
+
+\columnbreak
+
+### Strengthening a Bond
+In order to strengthen their bond, bond-mates must remain with a certain distance of each other, as shown below in the Bond Distance and DC by Tier table. They must spend one week times the tier they are trying to achieve. For instance, to progress from 1st to 2nd tier takes two weeks, while progressing from 2nd to 3rd takes an additional three weeks. This time does not have to be continuous; bond-mates can spend three days together, two days apart, and then four more days together to achieve 2nd tier.
+
+##### Bond Distance and DC by Tier
+
+<div style='column-count:2'>
+
+|&emsp;Tier|DC|Bond Distance|
+|:--:|:--:|--:|
+|&emsp;1st|13|10 feet&emsp;|
+|&emsp;2nd|14|30 feet&emsp;|
+|&emsp;3rd|15|300 feet&emsp;|
+|&emsp;4th|16|1 mile&emsp;|
+|&emsp;5th|17|10 miles&emsp;|
+
+|&emsp;Tier|DC|Bond Distance|
+|:--:|:--:|--:|
+|&emsp;6th|19|100 miles&emsp;|
+|&emsp;7th|20|1,000 miles&emsp;|
+|&emsp;8th|21|10,000 miles&emsp;|
+|&emsp;9th|22|100,000 miles&emsp;|
+|&emsp;10th|23|Limitless&emsp;|
+
+</div>
+
+### Bond Features
+At each tier, bond-mates unlock a certain feature. In order to benefit from these features, bond-mates must be within 10 feet of eachother. This distance changes as their bond strengthens, as shown above in the Bond Distance and DC by Tier table.
+
+For instance, at 1st tier, the bond-mates must be within 10 feet of each other to benefit from their bond's features. At 2nd tier, however, they must only be within 30 feet of each other.
+
+#### 1st Tier
+Both bond-mates always know precisely where their bond-mate is in relation to them, regardless of whether or not they can see or hear them.
+
+#### 2nd Tier
+Both bond-mates can speak with each other as if they were standing within 5 feet, provided they share a language. At 6th tier, this communication becomes telepathic.
+
+#### 3rd Tier 
+Both bond-mates are constantly under the effects of the *sense emotions* force power, but they are only able<br> &emsp;to read each other's emotions. This does not require<br> &emsp;&emsp;&nbsp;concentration for either bond-mate, and this<br> &emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;feature can not be interrupted while both<br> &emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;bond-mates are conscious.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/680023195058700311/Picture2.png' style='position:absolute;bottom:0px;left:-70px;width:900px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT &emsp;&emsp;&emspl;| VARIANT RULES</div>
+
+\pagebreak
+
+#### 4th Tier
+As an action on each of their turns, bond-mates can pass items to each other. When a bond-mate uses their action in such a way, the other bond-mate must use their reaction to take the item.
+
+#### 5th Tier
+Whenever a bond-mate makes an ability check or attack roll with advantage due to the other bond-mate taking the Help action, they can reroll one of the dice once.
+
+#### 6th Tier
+When a bond-mate casts a force power, they can cast it as if they are standing within 5 feet of their bond-mate. If the power requires a target, and that target is not their bond-mate, they must be aware of the target's presence and location in order to target them with this power.
+
+#### 7th Tier
+When a bond-mate casts a power of 1st-level or that targets only themself, they can also target their bond-mate. 
+
+#### 8th Tier
+Whenever a bond-mate is reduced to 0 hit points, but not killed outright, the other bond-mate can use their reaction to cause them to drop to 1 hit point instead. 
+
+Once this feature has been used, neither bond-mate can use it again until they both complete a long rest.
+
+#### 9th Tier
+On their turn, one bond-mate can use their<br> action to give their bond-mate an additional<br> turn. If they do so, the targeted bond-mate<br> immediately takes an additional turn after<br> the current bond-mate's turn. 
+
+Once this feature has been used,<br> neither bond-mate can use it again<br> until they both complete a long<br> rest.
+
+\columnbreak
+
+#### 10th Tier
+Whenever a bond-mate takes damage, the other bond-mate can use their reaction to grant them resistance to the damage. If they do so, both bond-mates take the same amount of damage. Alternatively, when a bond-mate has hit points restored, they can use their reaction to halve the amount of hit points. If they do so, the other bond-mate regains the same number of hit points. These features can be used a number of times equal to the bond-mate's combined Wisdom or Charisma modifiers (their choice, a minimum of once). All expended uses are regained when both bond-mates complete a long rest.
+
+### Breaking a Bond
+Sometimes, creatures might want to end their Force-bond, whether the bond was created unbeknownst to them or they no longer wish to share the bond. To do so, one of the creatures must spend 10 minutes meditating on the bond, and then make a Charisma saving throw. The DC of this saving throw varies, depending on the tier of the bond, as shown above in the Bond Distance and DC by Tier table. On a success, the bond's tier is reduced by 1. If the bond's tier is 1, it is broken. On a failure, the bond's tier is not reduced, and you can't try again for 24 hours.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/680023193331040267/Picture1.png' style='position:absolute;bottom:0px;left:35px;width:900px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | VARIANT RULES</div>
+
+\pagebreak
+
+<div class='wide'>
+
+# Crueler Criticals
+
+</div>
+
+Normally, when you score a critical hit, you roll the damage dice twice and add your modifier once. For instance, if you are wielding a weapon that deals 1d8 kinetic damage and is governed by Strength, on a critical hit you deal 2d8 + your Strength modifier kinetic damage. Sometimes, poor rolls lead to you doing *less* damage on a critical hit than a normal hit. For instance, you might roll two 1's on your 2d8, which with your +3 Strength modifier is only 5 damage. This feels lackluster.
+
+With this rule, instead of rolling the damage dice twice, you instead maximize the damage once and then roll the second die. So, using the above example, instead of rolling 2d8 and adding your Strength modifier, you instead roll 1d8, add 8 for the maximum die roll, and then add your Strength modifier. This will make critical hits feel more impactful.
+
+\pagebreak
+
+<div class='wide'>
+
 # Combination Weapons
 
 </div>
@@ -46,6 +155,8 @@ When the character reaches 5th level, they decide they want to add a lightwhip t
 Rather than combining multiple blasters, you can instead integrate a wrist launcher attachment to the weapon, as long as the weapon lacks the fixed property. This attachment can fire all wrist launcher ammunition with a range of 20/40, or it can fire grenades with a range of 40/80. This attachment has a reload value of 2, it can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). Each ammunition must be reloaded separately.
 
 When you would attempt to combine an additional weapon, you can instead attempt to increase this attachment's reload property by making an ability check with the appropriate tool and consulting the Combination/Separation DC by Weapons table.
+
+<img src='https://www.gmbinder.com/images/AJKkPC3.png' style='position:absolute;bottom:0px;right:-100px;width:690px;z-index:1000' />
 
 \pagebreak
 

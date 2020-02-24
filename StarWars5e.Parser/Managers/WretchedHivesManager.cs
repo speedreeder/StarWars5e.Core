@@ -239,7 +239,7 @@ namespace StarWars5e.Parser.Managers
 
                 foreach (var feat in feats)
                 {
-                    feat.ContentSourceEnum = ContentSource.PHB;
+                    feat.ContentSourceEnum = ContentSource.WH;
 
                     var featSearchTerm = _globalSearchTermRepository.CreateSearchTerm(feat.Name, GlobalSearchTermType.Feat, ContentType.Core,
                         $"/characters/feats/?search={feat.Name}");
