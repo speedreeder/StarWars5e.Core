@@ -437,6 +437,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Jawa":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_jawa.png");
                         break;
+                    case "Kage":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kage.png");
+                        break;
                     case "Kaleesh":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kaleesh.png");
                         break;

@@ -47,35 +47,37 @@
 |&emsp;Aing-Tii Order           |43|
 |&emsp;Crimson Order            |44|
 |&emsp;Jal Shey Order           |45|
-|&emsp;Matukai Order            |46|
-|&emsp;Whills Order             |47|
+|&emsp;Kage Order               |46|
+|&emsp;Matukai Order            |47|
+|&emsp;Whills Order             |48|
 |Operative||
-|&emsp;Acquisitions Practice    |48|
-|&emsp;Beguiler Practice        |49|
-|&emsp;Disabling Practice       |51|
-|&emsp;Performance Practice     |52|
-|&emsp;Ruffian Practice         |53|
-|&emsp;Sawbones Practice        |54|
-|&emsp;Sharpshooter Practice    |55|
+|&emsp;Acquisitions Practice    |49|
+|&emsp;Beguiler Practice        |50|
+|&emsp;Disabling Practice       |52|
+|&emsp;Performance Practice     |53|
+|&emsp;Ruffian Practice         |54|
+|&emsp;Sawbones Practice        |55|
+|&emsp;Sharpshooter Practice    |56|
 |Scholar||
-|&emsp;Chef Pursuit             |56|
-|&emsp;Explorer Pursuit         |58|
-|&emsp;Gambler Pursuit          |60|
-|&emsp;Slicer Pursuit           |62|
-|&emsp;Zoologist Pursuit        |64|
+|&emsp;Chef Pursuit             |57|
+|&emsp;Explorer Pursuit         |59|
+|&emsp;Gambler Pursuit          |61|
+|&emsp;Geneticist Pursuit       |63|
+|&emsp;Slicer Pursuit           |65|
+|&emsp;Zoologist Pursuit        |67|
 |Scout||
-|&emsp;Bulwark Technique        |68|
-|&emsp;Illusionist Technique    |69|
-|&emsp;Inquisitor Technique     |70|
-|&emsp;Mastermind Technique     |71|
-|&emsp;Predator Technique       |72|
-|&emsp;Slayer Technique         |73|
+|&emsp;Bulwark Technique        |71|
+|&emsp;Illusionist Technique    |72|
+|&emsp;Inquisitor Technique     |73|
+|&emsp;Mastermind Technique     |74|
+|&emsp;Predator Technique       |75|
+|&emsp;Slayer Technique         |76|
 |Sentinel||
-|&emsp;Path of Communion        |74|
-|&emsp;Path of the Corsair      |75|
-|&emsp;Path of the Forceblade   |76|
-|&emsp;Path of Synthesis        |77|
-|&emsp;Path of Tenacity         |78|
+|&emsp;Path of Communion        |77|
+|&emsp;Path of the Corsair      |78|
+|&emsp;Path of the Forceblade   |79|
+|&emsp;Path of Synthesis        |80|
+|&emsp;Path of Tenacity         |81|
 
 </div>
 
@@ -509,7 +511,7 @@ Starting at 18th level, the visions in your dreams<br> &emsp;&emsp;&emsp;intensi
 Those engineers who choose the Artificer Engineering discipline focus on building and modifying lightsabers, while tapping into the latent presence of the Force in these lightsaber crystals.
 
 ### Bonus Proficiencies
-When you choose this discipline at 3rd level you gain proficiency in artificer's tools, and with the lightsaber simple lightweapon. Additionally, when you engage in crafting with artificer's tools, the rate at which you craft doubles.
+When you choose this discipline at 3rd level, you gain proficiency in artificer's tools, and with the lightsaber simple lightweapon. Additionally, when you engage in crafting with artificer's tools, the rate at which you craft doubles.
 
 ### Modified Lightsaber
 Also at 3rd level, you learn to modify an unenhanced lightsaber utilizing your artificer knowledge. Over the course of a long rest, you can expend materials equal to half the cost of the lightsaber in order to modify it. You must have the lightsaber, materials, and artificer's tools in order to perform this modification.
@@ -1577,16 +1579,16 @@ At 18th level, your ammunition enhancements improve.
 Some manned instruments of war require their user to have superior physical prowess to overcome their weight and encumbrance. Those fighters who choose to become Heavy Weapons Specialists use their powerful bodies, and powerful armaments, to overwhelm their foes.
 
 ### Rock Steady
-When you choose this specialty at 3rd level, you have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the dexterity or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
+When you choose this specialty at 3rd level, you have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
 
 ### My Little Friend Says Hello There
-Also at 3rd level, you know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the dexterity or strength properties that doesn't already include that modifier.
+Also at 3rd level, you know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the heavy or strength properties that doesn't already include that modifier.
 
 ### Maximum Output
-Beginning at 7th level, when you take the Attack action while wielding a weapon with the dexterity or strength properties, you can forgo one or more attacks.<br> If you do so, you deal additional damage the<br> first time you hit with an attack roll before<br> the end of your next turn. For each attack<br> you forgo in this fashion, you deal extra<br> damage equal to 1d12 + half your<br> fighter level (rounded down). If you<br> miss with the first attack roll you<br> make before the end of your next<br> turn, you instead deal normal weapon<br> damage.
+Beginning at 7th level, when you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks.<br> If you do so, you deal additional damage the<br> first time you hit with an attack roll before<br> the end of your next turn. For each attack<br> you forgo in this fashion, you deal extra<br> damage equal to 1d12 + half your<br> fighter level (rounded down). If you<br> miss with the first attack roll you<br> make before the end of your next<br> turn, you instead deal normal weapon<br> damage.
 
 ### Straight Through
-At 10th level, when you score a critical<br> hit on your turn while wielding a<br> weapon with the dexterity or<br> strength properties, you can<br> make one weapon attack<br> against a creature within 5<br> feet of the target using<br> your reaction.
+At 10th level, when you score a critical<br> hit on your turn while wielding a<br> weapon with the heavy or<br> strength properties, you can<br> make one weapon attack<br> against a creature within 5<br> feet of the target using<br> your reaction.
 
 \columnbreak
 
@@ -1732,7 +1734,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 Form V, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.
 
 ### Bonus Proficiencies
-You gain proficiency in dexterity armor.
+You gain proficiency in heavy armor.
 
 ### Fighting Style
 When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Sentinel, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -1794,7 +1796,7 @@ Lastly at 3rd level, you gain the following Channel the Force option.
 When you deal damage with an at-will force power, you can expend a use of your Channel the Force and expend force points to deal additional damage to the target. The extra damage is 2d8 for a 1st-level force slot, plus 1d8 for each slot level higher than 1st, to a maximum of 5d8. The damage is the same type as the power's damage. 
 
 ### Enlightenment
-Starting at 7th level, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any saving throw you make that doesn't already include that modifier. 
+Starting at 7th level, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to any saving throw you make that doesn't already include that modifier. 
 
 ### Redirect
 Starting at 15th level, when you would be affected by a force power that requires a Dexterity saving throw or attack roll and would effect only you, you may redirect that power to another target within 30 feet. If the power required an attack roll, make an appropriate attack roll against the new target. If it required a Dexterity saving throw, the new target must make a Dexterity saving throw against your force save DC.
@@ -1976,7 +1978,7 @@ Once per turn, when you miss with a melee weapon attack, you can expend a use of
 Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Channel the Force, to a maximum of your Wisdom or Charisma modifier (your choice, minimum of one). 
 
 ### Rising Whirlwind
-Starting at 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw. A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding two melee weapons, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn't already include that modifier.
+Starting at 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw. A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding two light- or vibro-weapons, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn't already include that modifier.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
@@ -2160,6 +2162,38 @@ At 17th level, you've gained the knowledge to temporarily inhibit a creature's f
 <div class='footnote'>EXPANDENT CONTENT | ARCHETYPES | MONK</div>
 
 \pagebreak
+
+\pagebreak
+
+## Kage Order
+Monks of the Kage Order, known as Kage warriors, have mastered fighting in darkness, using that which others fear as a weapon against them. Kage warriors learn tricks to create darkness where none exists, and learn to fight using their intuition rather than relying on sight.
+
+### Intuitive Sight
+Beginning when you choose this order at 3rd level, you can no longer have disadvantage on attack rolls against targets within 10 feet of you due to not being able to see them. Additionally, you have advantage on Dexterity (Stealth) checks that rely on sound.
+
+### Conjure Darkness
+Also at 3rd level, you learn to create a number of small explosive devices that create darkness. Over the course of a short or long rest, you can create a number of devices equal to your Wisdom or Charisma modifier (your choice). Your devices can only be used by you, and they lose their potency at the end of your next short or long rest.
+
+Once per turn, when you would make a weapon attack or unarmed strike, you can instead throw one of your devices. Your devices have a range equal to 30 feet + your Strength modifier x 5. You can throw a device at a point you can see within range. The devices create a pocket of darkness in a 10-foot radius sphere centered on that point. The darkness spreads around corners. It lasts for 1 minute or until an enhanced source of brigiht light dispells it.
+
+### Disruptive Shock
+At 6th level, once per turn, when you hit a<br> creature with a melee weapon attack when<br> you have advantage, or it fails a saving<br> throw against an effect that you control,<br> you can choose to roll a Martial Arts die and<br> deal additional psychic damage equal to the<br> amount rolled. 
+
+You can use this feature a number of times<br> equal to your Wisdom or Charisma modifier<br> (your choice, a minimum of once). You regain any expended uses when you finish a<br>short or long rest.
+
+### One With Darkness
+Starting at 11th level, you<br> have learned to become<br> one with the shadows.<br> When you are in an<br> area of dim light<br> or darkness, you<br> can use your<br> action to<br> become<br> invis-<br>ible. You<br> remain invisible until you make an<br> attack, cast a power, or are in an area of bright light.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Opportunist
+At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.
+
+<img src='https://vignette.wikia.nocookie.net/starwars/images/0/08/KageWarriors-SWE.png/revision/latest?cb=20160912040951' style='position:absolute;bottom:18px;right:0px;width:736px;z-index:1000' />
+
+<div class='footnote'>EXPANDENT CONTENT | ARCHETYPES | MONK</div>
 
 \pagebreak
 
@@ -2940,6 +2974,114 @@ _Prerequisite: Gambler Pursuit, 7th level_<br>
 Whenever you roll a 7 on an ability check or saving throw, you can reroll the ability check or saving throw with advantage.
 
 <img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-30px;right:85px;width:280px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+## Geneticist Pursuit
+Throughout the galaxy there exists scientists who focus on unraveling the mysteries contained within the bodies of the divese sentients of the galaxy. Those scholars who choose the Geneticist Pursuit put their knowledge into practice, splicing their own genetic material to become superior beings... or monsters.
+
+### Genesplicer's Methods
+When you choose this pursuit at 3rd level, you gain proficiency with geneticist's kit and your choice of Medicine or Survival skills. 
+### Mutagenic Analysis
+Also at 3rd level, while you are the target of your Critical Analysis feature, you can add half your Intelligence modifier (rounded down, minimum of one) to any saving throw you make that doesn't already include that modifier. 
+
+### Additional Maneuvers
+Lastly at 3rd level, you gain access to new maneuvers which reflect the changes your body has undergone. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
+
+#### Acid Burst
+When you take the Attack action on your turn, you can replace one of your attacks with a sudden and violent expulsion of acidic fluid. You expend a superiority die, and cause all creatures within a 15-foot cone to make a Dexterity saving throw. On a failed save, they take damage equal to the number rolled on your superiority die plus your Intelligence modifier.
+
+#### Charging Attack
+If you move at least 10 feet towards your target before successfully hitting them with a melee attack, you may expend a superiority die, causing the target to take additional damage equal to the result, and forcing it<br> to make a Strength saving throw. On a failed save <br>the creature is knocked prone.
+
+#### Electrical Discharge
+When you succeed on a check to initiate or<br> maintain a grapple, you can expend a<br> superiority die. The creature takes lightning<br> damage equal to the amount rolled on the die.
+
+#### Rampage
+When you reduce a creature to 0 hit points, you<br> can use your bonus action to expend a superiority<br> die and move up to half your speed. If you end this<br> movement within 5 feet of a creature, you can<br> make a single melee attack against that<br> creature, adding the result of the<br> superiority die to the attack roll.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+#### Unrelenting Grasp
+When you hit a creature within 5 feet of you with an opportunity attack, you may expend a superiority die. The creature takes additional damage equal to your superiority die, and you may attempt to grapple the target as part of the same reaction.
+
+#### Venomous Slash
+When you hit a creature with a melee attack, you may expend a superiority die to force it to make a Constitution saving throw. On a failed save, it takes poison damage equal to the result of the die and is poisoned until the start of your next turn.
+
+### Mutagenic Transformation
+Beginning at 6th level, when you target yourself with your Critical Analysis feature, you can choose to undergo a mutagenic transformation. Your form shifts, exaggerating and strengthening your geneticist discoveries for 1 hour. You gain the following benefits:
+- You can attack twice, instead of once, whenever you take the Attack action on your turn.
+- Your Strength score becomes equal to your Intelligence score.
+- You gain a bonus to your AC equal to half your Intelligence modifier (rounded down, minimum of +1) if it doesn't already include that modifier.
+
+You can end this effect early on your turn as a bonus action. This effect ends early if you are incapacitated or die. You can use this feature twice. You regain all expended uses of it when you finish a long rest.
+
+### Geneticist's Resilience
+Starting at 9th level, your genetic alterations make you immune to poison and disease. Additionally, you have resistance to poison<br> damage.
+
+<img src='https://www.gmbinder.com/images/6T3NzPT.png' style='position:absolute;bottom:0px;right:15px;width:620px;z-index:1000'/>
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+### Chimeric Adaptation
+Once you've reached 17th level, your genetic modifications have reached new heights. When you complete a short or long rest, you can choose one of the following features. When you undergo your mutagenic transformation, you also gain the benefits of the chosen feature for the duration. You can only have one of these features at a time.
+
+#### Aspect of the Terentatek
+You gain proficiency in Wisdom and Charisma saving throws. Additionally, you have advantage on saving throws against force powers, and when a creature within 30 feet of you casts a force power, you can use your reaction to move up to half your speed towards the creature. You must end this movement closer to the creature than you started. If you end this movement within 5 feet of the creature, you can make one melee attack against the creature (no action required).
+
+#### Aspect of the Rancor
+You gain proficiency in Strength and Constitution saving throws. Additionally, you gain immunity to the frightened condition, 
+and when you deal damage with a weapon or unarmed strike, you can deal an additional 1d8 damage of the same type as the weapon's damage.
+
+#### Aspect of the Varactyl
+You gain proficiency in Dexterity and Intelligence saving throws. Additionally, your speed increases by 10 feet, you ignore effects that would reduce your speed, your attack rolls can't suffer from disadvantage, and creatures can't have advantage on attack rolls against you.
+
+### Discoveries (Geneticist)
+When you select this pursuit, you gain access to new discoveries which reflect the changes you have caused your own body to undergo. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
+
+#### Adapted Hide
+_Prerequisite: Geneticist Pursuit_<br>
+When you aren't wearing armor, your AC is 13 + your Dexterity modifier. Additionally, you are adapted to hot or cold climates (your choice), as described in chapter 5 of the Dungeon Master's Guide. When you undergo your mutagenic transformation, you add your full Intelligence modifier, instead of half, to your AC for the duration.
+
+#### Atmospheric Adaptation
+_Prerequisite: Geneticist Pursuit_<br>
+You can breathe air and water. When you undergo your mutagenic transformation, you no longer need to breathe, and you can survive up to one hour within the vacuum of space for the duration.
+
+#### Enhanced Musculature
+_Prerequisite: Geneticist Pursuit_<br>
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+lift. Additionally, when you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier. When you undergo your mutagenic transformation, you have advantage on Strength checks and Strength saving throws for the duration.
+
+#### Icarian Mutation
+_Prerequisite: Geneticist Pursuit_<br>
+You sprout a pair of winged arms. You gain a flight speed equal to half your walking speed. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required). When you undergo your mutagenic transformation, your flying speed increases to your full walking speed, and you can use your bonus action to take the Dash action for the duration.
+
+#### Mutagenic Hardiness
+_Prerequisite: Geneticist Pursuit_<br> 
+Your hit point maximum increases by a number equal to your level, and it increases by 1 every time you gain a level. When you undergo your mutagenic transformation, and at the beginning of each of your turns, you gain temporary hit points equal to your half your scholar level (rounded down) + your Intelligence modifier for the duration.
+
+#### Predatory Senses
+_Prerequisite: Geneticist Pursuit_<br>
+You have darkvision out to 60 feet. If you already have darkvision, its range instead increases by 30 feet. When you undergo your mutagenic transformation, you gain advantage on Wisdom (Perception) checks that rely on smell for the duration. Additionally, you can track creatures that have left a scent in the last 24 hours.
+
+#### Underground Adaptation
+_Prerequisite: Geneticist Pursuit_<br>
+You gain a burrowing speed equal to your walking speed and you can tunnel through solid rock at a rate of 1 foot per round. In order to use this speed, you must have two free hands. When you undergo your mutagenic transformation, you gain tremorsense out to 30 feet for the duration. You can detect and pinpoint the origin of vibrations within a specific radius, provided that monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.
+
+#### Unnatural Weaponry
+_Prerequisite: Geneticist Pursuit_<br>
+You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on a hit. You can use your choice of your Strength, Dexterity, or Intelligence modifier for the attack and damage rolls. You must use the same modifier for both rolls. When you undergo your mutagenic transformation, your unarmed strikes increase to a d6 and are considered enhanced for the duration. Additionally, you deal an additional 1d4 acid, lightning, or poison damage when you hit with them.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
