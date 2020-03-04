@@ -134,7 +134,7 @@ namespace StarWars5e.Parser.Parsers.SOTG
                 foreach (var globalSearchTermType in searchTerms)
                 {
                     var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(globalSearchTermType.name,
-                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/rules/starships/{path}",
+                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/rules/sotg/{path}",
                         globalSearchTermType.pathOverride);
                     _globalSearchTermRepository.SearchTerms.Add(searchTerm);
                 }

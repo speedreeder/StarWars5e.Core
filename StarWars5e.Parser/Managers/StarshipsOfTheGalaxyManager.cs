@@ -222,7 +222,7 @@ namespace StarWars5e.Parser.Managers
                     size.ContentSourceEnum = ContentSource.SotG;
 
                     var sizeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(size.Name, GlobalSearchTermType.StarshipSize, ContentType.Core,
-                        $"/rules/starships/starshipSizes/{size.Name}");
+                        $"/rules/sotg/starshipSizes/{size.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
 

@@ -109,7 +109,7 @@ namespace StarWars5e.Parser.Parsers.WH
                 foreach (var globalSearchTermType in searchTerms)
                 {
                     var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(globalSearchTermType.name,
-                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/rules/hives/{path}",
+                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/rules/wh/{path}",
                         globalSearchTermType.pathOverride);
                     _globalSearchTermRepository.SearchTerms.Add(searchTerm);
                 }

@@ -9,71 +9,69 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Player's Handbook", GlobalSearchTermType.Book, "/rules/handbook"),
-                ( "Introduction", GlobalSearchTermType.HandbookChapter, "/rules/handbook"),
-                ( "What's Different?", GlobalSearchTermType.HandbookChapter, "/rules/handbook/whatsDifferent"),
-                ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.HandbookChapter, "/rules/handbook/stepByStep"),
-                ( "Chapter 2: Species", GlobalSearchTermType.HandbookChapter, "/rules/handbook/species"),
-                ( "Chapter 3: Classes", GlobalSearchTermType.HandbookChapter, "/rules/handbook/classes"),
-                ( "Chapter 4: Backgrounds", GlobalSearchTermType.HandbookChapter, "/rules/handbook/backgrounds"),
-                ( "Chapter 5: Equipment", GlobalSearchTermType.HandbookChapter, "/rules/handbook/equipment"),
-                ( "Chapter 6: Customization Options", GlobalSearchTermType.HandbookChapter, "/rules/handbook/customization"),
-                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.HandbookChapter, "/rules/handbook/abilityScores"),
-                ( "Chapter 8: Adventuring", GlobalSearchTermType.HandbookChapter, "/rules/handbook/adventuring"),
-                ( "Chapter 9: Combat", GlobalSearchTermType.HandbookChapter, "/rules/handbook/combat"),
-                ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/rules/handbook/casting"),
-                ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/rules/handbook/conditions"),
-                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/rules/handbook/variantRules"),
-                ( "Handbook Changelog", GlobalSearchTermType.Changelog, "/rules/handbook/changelog")
+                ( "Player's Handbook", GlobalSearchTermType.Book, "/rules/phb"),
+                ( "Introduction", GlobalSearchTermType.HandbookChapter, "/rules/phb"),
+                ( "What's Different?", GlobalSearchTermType.HandbookChapter, "/rules/phb/whatsDifferent"),
+                ( "Chapter 1: Step-By-Step Characters", GlobalSearchTermType.HandbookChapter, "/rules/phb/stepByStep"),
+                ( "Chapter 2: Species", GlobalSearchTermType.HandbookChapter, "/rules/phb/species"),
+                ( "Chapter 3: Classes", GlobalSearchTermType.HandbookChapter, "/rules/phb/classes"),
+                ( "Chapter 4: Backgrounds", GlobalSearchTermType.HandbookChapter, "/rules/phb/backgrounds"),
+                ( "Chapter 5: Equipment", GlobalSearchTermType.HandbookChapter, "/rules/phb/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.HandbookChapter, "/rules/phb/customization"),
+                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.HandbookChapter, "/rules/phb/abilityScores"),
+                ( "Chapter 8: Adventuring", GlobalSearchTermType.HandbookChapter, "/rules/phb/adventuring"),
+                ( "Chapter 9: Combat", GlobalSearchTermType.HandbookChapter, "/rules/phb/combat"),
+                ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/rules/phb/casting"),
+                ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/rules/phb/conditions"),
+                ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/rules/phb/variantRules"),
+                ( "Handbook Changelog", GlobalSearchTermType.Changelog, "/rules/phb/changelog")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Starships Of The Galaxy", GlobalSearchTermType.Book, "/rules/starships"),
-                ( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/starships"),
-                ( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/rules/starships/stepByStep"),
-                ( "Chapter 2: Deployments", GlobalSearchTermType.StarshipChapter, "/rules/starships/deployments"),
-                ( "Chapter 3: Starships", GlobalSearchTermType.StarshipChapter, "/rules/starships/starshipsizes"),
-                ( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/rules/starships/modifications"),
-                ( "Chapter 5: Equipment", GlobalSearchTermType.StarshipChapter, "/rules/starships/equipment"),
-                ( "Chapter 6: Customization Options", GlobalSearchTermType.StarshipChapter, "/rules/starships/customization"),
-                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.StarshipChapter, "/rules/starships/abilityScores"),
-                ( "Chapter 8: Adventuring", GlobalSearchTermType.StarshipChapter, "/rules/starships/adventuring"),
-                ( "Chapter 9: Combat", GlobalSearchTermType.StarshipChapter, "/rules/starships/combat"),
-                ( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/rules/starships/generatingEncounters"),
-                ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/rules/starships/conditions"),
-                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/starships/changelog")
+                ( "Starships Of The Galaxy", GlobalSearchTermType.Book, "/rules/sotg"),
+                ( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/sotg"),
+                ( "Chapter 1: Step-By-Step Starships", GlobalSearchTermType.StarshipChapter, "/rules/sotg/stepByStep"),
+                ( "Chapter 2: Deployments", GlobalSearchTermType.StarshipChapter, "/rules/sotg/deployments"),
+                ( "Chapter 3: Starships", GlobalSearchTermType.StarshipChapter, "/rules/sotg/starshipsizes"),
+                ( "Chapter 4: Modifications", GlobalSearchTermType.StarshipChapter, "/rules/sotg/modifications"),
+                ( "Chapter 5: Equipment", GlobalSearchTermType.StarshipChapter, "/rules/sotg/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.StarshipChapter, "/rules/sotg/customization"),
+                ( "Chapter 7: Using Ability Scores", GlobalSearchTermType.StarshipChapter, "/rules/sotg/abilityScores"),
+                ( "Chapter 8: Adventuring", GlobalSearchTermType.StarshipChapter, "/rules/sotg/adventuring"),
+                ( "Chapter 9: Combat", GlobalSearchTermType.StarshipChapter, "/rules/sotg/combat"),
+                ( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/rules/sotg/generatingEncounters"),
+                ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/rules/sotg/conditions"),
+                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/sotg/changelog")
             };
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Wretched Hives", GlobalSearchTermType.Book, "/rules/hives"),
-                //( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/starships"),
-                ( "Chapter 1: Step-By-Step Factions", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/stepByStep"),
-                ( "Chapter 2: Entertainment and Downtime", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/downtime"),
-                ( "Chapter 3: Factions and Membership", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/factions"),
-                ( "Chapter 4: Using Ability Scores", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/abilityScores"),
-                ( "Chapter 5: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/enhancedItems"),
-                ( "Chapter 6: Modifiable Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/modifiableItems"),
-                ( "Chapter 7: Cybernetic Augmentations", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/cyberneticAugmentations"),
-                ( "Chapter 8: Droid Customizations", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/droidCustomizations"),
-                ( "Chapter 9: Tool Proficiencies", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/toolProficiencies"),
-                //( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/rules/starships/generatingEncounters"),
-                ( "Appendix A: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/hives/enhancedItems"),
-                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/hives/changelog")
+                ( "Wretched Hives", GlobalSearchTermType.Book, "/rules/wh"),
+                ( "Chapter 1: Step-By-Step Factions", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/stepByStep"),
+                ( "Chapter 2: Entertainment and Downtime", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/downtime"),
+                ( "Chapter 3: Factions and Membership", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/factions"),
+                ( "Chapter 4: Using Ability Scores", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/abilityScores"),
+                ( "Chapter 5: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/enhancedItems"),
+                ( "Chapter 6: Modifiable Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/modifiableItems"),
+                ( "Chapter 7: Cybernetic Augmentations", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/cyberneticAugmentations"),
+                ( "Chapter 8: Droid Customizations", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/droidCustomizations"),
+                ( "Chapter 9: Tool Proficiencies", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/toolProficiencies"),
+                ( "Appendix A: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/enhancedItems"),
+                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/wh/changelog")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> MonsterChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Monster Manual", GlobalSearchTermType.Book, "/rules/monsters")
+                ( "Monster Manual", GlobalSearchTermType.Book, "/rules/snv")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> ReferenceNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Monsters", GlobalSearchTermType.Reference, "/rules/monsters/monsters"),
+                ( "Monsters", GlobalSearchTermType.Reference, "/rules/snv/monsters"),
                 ( "Classes", GlobalSearchTermType.Reference, "/characters/classes"),
                 ( "Species", GlobalSearchTermType.Reference, "/characters/species"),
                 ( "Archetypes", GlobalSearchTermType.Reference, "/characters/archetypes"),
@@ -95,10 +93,27 @@ namespace StarWars5e.Parser
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> VariantRuleNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                ( "Destiny", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Destiny"),
-                ( "Force Alignment", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Force%20Alignment"),
-                ( "Starship Destiny", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Starship%20Destiny"),
-                ( "Weapon Sundering", GlobalSearchTermType.VariantRule, "/characters/additionalVariantRules/Weapon%20Sundering")
+                ( "ASI And A Feat", GlobalSearchTermType.VariantRule, "/rules/variantRules/ASI%20And%20A%20Feat"),
+                ( "Aging", GlobalSearchTermType.VariantRule, "/rules/variantRules/Aging"),
+                ( "Bonus Action Consumables", GlobalSearchTermType.VariantRule, "/rules/variantRules/Bonus Action Consumables"),
+                ( "Combination Weapons", GlobalSearchTermType.VariantRule, "/rules/variantRules/Combination Weapons"),
+                ( "Compound Advantage", GlobalSearchTermType.VariantRule, "/rules/variantRules/Compound Advantage"),
+                ( "Crueler Criticals", GlobalSearchTermType.VariantRule, "/rules/variantRules/Crueler Criticals"),
+                ( "Defense Rolls", GlobalSearchTermType.VariantRule, "/rules/variantRules/Defense Rolls"),
+                ( "Destiny", GlobalSearchTermType.VariantRule, "/rules/variantRules/Destiny"),
+                ( "Dismemberment", GlobalSearchTermType.VariantRule, "/rules/variantRules/Dismemberment"),
+                ( "Dueling", GlobalSearchTermType.VariantRule, "/rules/variantRules/Dueling"),
+                ( "Flanking", GlobalSearchTermType.VariantRule, "/rules/variantRules/Flanking"),
+                ( "Force Alignment", GlobalSearchTermType.VariantRule, "/rules/variantRules/Force%20Alignment"),
+                ( "Force-Bond", GlobalSearchTermType.VariantRule, "/rules/variantRules/Force-Bond"),
+                ( "Hunted", GlobalSearchTermType.VariantRule, "/rules/variantRules/Hunted"),
+                ( "Lightsaber Forms", GlobalSearchTermType.VariantRule, "/rules/variantRules/Lightsaber Forms"),
+                ( "Milestone Leveling", GlobalSearchTermType.VariantRule, "/rules/variantRules/Milestone Leveling"),
+                ( "Overlapping Features", GlobalSearchTermType.VariantRule, "/rules/variantRules/Overlapping Features"),
+                ( "Saving Throw Checks", GlobalSearchTermType.VariantRule, "/rules/variantRules/Saving Throw Checks"),
+                ( "Simplified Forcecasting", GlobalSearchTermType.VariantRule, "/rules/variantRules/Simplified Forcecasting"),
+                ( "Starship Destiny", GlobalSearchTermType.VariantRule, "/rules/variantRules/Starship%20Destiny"),
+                ( "Weapon Sundering", GlobalSearchTermType.VariantRule, "/rules/variantRules/Weapon%20Sundering")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> PHBChapterOneSections { get; } =
