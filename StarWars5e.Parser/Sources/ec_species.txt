@@ -41,54 +41,55 @@
 |	Half-Human          |	35	|
 |	Harch	            |	37	|
 |	Herglic	            |	38	|
-|	Iktotchi	        |	39	|
-|	Ithorian	        |	40	|
-|	Kage	            |	41	|
-|	Kaleesh	            |	42	|
-|	Kaminoan        	|	43	|
+|	Hutt	            |	39	|
+|	Iktotchi	        |	40	|
+|	Ithorian	        |	41	|
+|	Kage	            |	42	|
+|	Kaleesh	            |	43	|
 
 |||
 |:--|--:|
-|	Karkarodon          |	44	|
-|	Killik	            |	45	|
-|	Klatooinian        	|	46	|
-|	Kubaz           	|	47	|
-|	Kushiban        	|	48	|
-|	Kyuzo           	|	49	|
-|	Lannik          	|	50	|
-|	Lasat	            |	51	|
-|	Miraluka        	|	52	|
-|	Mirialan        	|	53	|
-|	Mustafarian         |	54	|
-|	Muun	            |	55	|
-|	Nautolan        	|	56	|
-|	Neimoidian      	|	57	|
-|	Noghri          	|	58	|
-|	Ortolan         	|	59	|
-|	Pa'lowick           |	60	|
-|	Pau'an	            |	61	|
-|	Quarren	            |	62	|
-|	Rattataki	        |	63	|
-|	Rishii	            |	64	|
-|	Selkath	            |	65	|
-|	Shistavanen	        |	66	|
-|	Squib	            |	67	|
-|	Ssi-Ruu	            |	68	|
-|	Sullustan	        |	69	|
-|	Talz            	|	70	|
-|	Thisspiasian       	|	71	|
-|	Togorian           	|	72	|
-|	Toydarian       	|	73	|
-|	Tusken	            |	74	|
-|	Ugnaught	        |	75	|
-|   Umbaran             |   76  |
-|	Verpine	            |	77	|
-|	Voss	            |	78	|
-|	Vurk            	|	79	|
-|	Weequay	            |	80	|
-|	Yevetha             |	81	|
-|	Zeltron             |	82	|
-|	Zygerrian           |	83	|
+|	Kaminoan        	|	44	|
+|	Karkarodon          |	45	|
+|	Killik	            |	46	|
+|	Klatooinian        	|	47	|
+|	Kubaz           	|	48	|
+|	Kushiban        	|	49	|
+|	Kyuzo           	|	50	|
+|	Lannik          	|	51	|
+|	Lasat	            |	52	|
+|	Miraluka        	|	53	|
+|	Mirialan        	|	54	|
+|	Mustafarian         |	55	|
+|	Muun	            |	56	|
+|	Nautolan        	|	57	|
+|	Neimoidian      	|	58	|
+|	Noghri          	|	59	|
+|	Ortolan         	|	60	|
+|	Pa'lowick           |	61	|
+|	Pau'an	            |	62	|
+|	Quarren	            |	63	|
+|	Rattataki	        |	64	|
+|	Rishii	            |	65	|
+|	Selkath	            |	66	|
+|	Shistavanen	        |	67	|
+|	Squib	            |	68	|
+|	Ssi-Ruu	            |	69	|
+|	Sullustan	        |	70	|
+|	Talz            	|	71	|
+|	Thisspiasian       	|	72	|
+|	Togorian           	|	73	|
+|	Toydarian       	|	74	|
+|	Tusken	            |	75	|
+|	Ugnaught	        |	76	|
+|   Umbaran             |   77  |
+|	Verpine	            |	78	|
+|	Voss	            |	79	|
+|	Vurk            	|	80	|
+|	Weequay	            |	81	|
+|	Yevetha             |	82	|
+|	Zeltron             |	83	|
+|	Zygerrian           |	84	|
 
 </div>
 
@@ -157,7 +158,7 @@ As an aing-tii, you have the following special traits.
 
 ***Armored Plates.*** You have thick armored plates. When you aren't wearing armor, your AC is 13 + your Dexterity modifier.
 
-***Force Attunement.*** Aing-tii have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on saving throws against force powers.
+***Closed Mind.*** Aing-tii have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Intelligence, Wisdom, and Charisma saving throws against force powers.
 
 ***Force Sensitive.*** You know the *force push/pull* at-will force power. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
 
@@ -2094,7 +2095,7 @@ As a Falleen, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Closed Mind.*** Falleen brains have an unusual composition which make them resistant to influence from the Force. You have advantage on saving throws against force powers.
+***Closed Mind.*** Falleen brains have an unusual composition which make them resistant to influence from the Force. You have advantage on Intelligence, Wisdom, and Charisma saving throws against force powers.
 
 ***Enthralling Pheromones.*** You can use your pheromones to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs.
 
@@ -3025,6 +3026,87 @@ As a Herglic, you have the following special traits:
 \pagebreak
 
 ___
+> ## Hutt, Adolescent
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Black, blue, brown, gold, green, purple, tan, white, or yellow|
+> |***Hair Color***|  |None |
+> |***Eye Color***|  |Blue, gray, green, orange, turquoise, violet, or yellow|
+> |***Distinctions***|  | Three lungs, slug-like appearance|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  | 5'5"|+2d12"|
+> |***Weight***|  | 400 lb.|+(2d8) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  | Nal Hutta|
+> |***Language***|  |Huttese|
+
+<div style='margin-top:41px'></div>
+
+### Biology and Appearance
+Hutts are a massive slug-like species who have large mouths and stubby arms. They have three lungs and thick leathery skin, which is wrinkled and slimy. Hutts often have watery eyes and lack facial expressions.  Their tails are supported by a skeletal spine.  Despite their legendary size, hutts start out as tiny huttlets less than half a foot in height, and continually grow over the long lives.
+
+### Society and Culture
+Most hutts are crime lords who live opulent lives overseeing criminal underworld activities like spice smuggling, slavery, gambling and bounty hunting. This is not true for all, however, as some eschew the life of a decadent, obese version of their species and prefer a more mobile existence. Hutt society is divided into families known as kajidics, a social structure that is both familial and a crime gang.
+
+Hutts are encouraged to make a name for themselves around the age of 150 while simultaneously not threatening the welfare of the clan.  At around 200, they will likely stop being saved by the clan and encouraged even further to fend for themselves while benefiting the kajidic; they may even be granted a star system or two.  Nomadic or kajidic-less hutts are often hunted or killed by other hutts in fear of the nomad coming to claim a territory.
+
+### Names
+Hutt names with a suffix title as "the Hutt" are usually reserved for noteworthy huts, with the name of a hutt's kajidic coming before the title.  Because hutts are hermaphroditic, choosing a gender at will, their names are considered androgynous.
+
+**First Names.** Arok, Gorga, Jabba, Mama, Ziro, 
+
+**Kajidic Names.** Besadii, Desilijic, Fenn'ak, Gnuda
+
+\columnbreak
+
+<div style='margin-top:234px'></div>
+
+### Hutt Traits
+As a hutt you have the following special traits.
+
+***Ability Score Increase.*** Your Constitution score increases by 2, and two other ability scores of your choice increase by 1.
+
+***Age.*** Hutts are considered a child until around the age of 200 in which they are a full fledged adult.  Hutts can live upwards of 900 years with even more ancient ones exceeding that.
+
+***Alignment.*** Hutts are selfish, greedy, and highly organized, causing them to tend toward chaotic dark side, though there are exceptions.
+
+***Size.*** Hutts have a unique special characteristic; from birth to death, they never stop growing. As an adolescent hutt, you typically stand between 6 and 7 feet tall and weigh at least 400 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 20 feet.
+
+***Closed Mind.*** Hutt brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Intelligence, Wisdom, and Charisma saving throws against force powers.
+
+***Natural Resistance.*** You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).
+
+***Powerful Build.*** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+***Prehensile Tail.*** You have supreme control over your tail and can use it to manipulate objects as well as your hands.
+
+***Shrewd Demeanor.*** You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice.
+
+***Slow and Lethargic.*** Hutts are slow and generally incapable of moving quickly. You have disadvantage on Dexterity saving throws, and when determining your bonus to AC from your Dexterity, you can't add more than +3.
+
+***Wealthy.*** During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Huttese. Hutts rarely speak Galactic Basic, even though they are perfectly able; if the person with whom they are speaking doesn't understand Huttese, they are more likely to use an interpretor than deign to speak the language of lesser species.
+
+<img src='https://www.gmbinder.com/images/2WRsVbc.png' style='position:absolute; top:45px; right:105px; width:256px;z-index:1000'>
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+\pagebreak
+
+___
 > ## Iktotchi
 > ___
 > #### Visual Characteristics
@@ -3206,7 +3288,7 @@ ___
 <div style='margin-top:159px'></div>
 
 ### Biology and Appearance
-The Kage are a pale-skinned sentient species native to the caverns in the planet of Quarzite. The kage have a long-time conflict with the belugans, consistently at odds with them. During the Clone Wars, Otua Blank ordered the capture of Pluma Sodi to marry her, she was later given back to the Kage Warriors by Asajj Ventress. 
+The kage are a pale-skinned sentient species native to the caverns in the planet of Quarzite. The kage have a long-time conflict with the belugans, consistently at odds with them. During the Clone Wars, Otua Blank ordered the capture of Pluma Sodi to marry her, she was later given back to the Kage Warriors by Asajj Ventress. 
 
 ### Society and Culture
 The kage are a dedicated people of physical excellence; they train tireless and elite fighter-monks known as Kage warriors. They tend to use weapons with electric or disruptive properties, but they are also great fighters in unarmed combat. Kage warriors are respected in Kage society as the greatest calling a kage might follow.
@@ -3255,7 +3337,7 @@ As a kage, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and one language of your choice.
 
-<img src='https://vignette.wikia.nocookie.net/starwars/images/5/5b/PlumaSodiDetail-SWE.png/revision/latest?cb=20160913023221' style='position:absolute;top:47px;right:145px;width:200px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/ELW9r8k.png' style='position:absolute;top:47px;right:145px;width:200px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -3942,7 +4024,7 @@ As a Lannik, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 25 feet.
 
-***Force Attunement.*** Lanniks have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on saving throws against force powers.
+***Closed Mind.*** Lanniks have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Intelligence, Wisdom, and Charisma saving throws against force powers.
 
 ***Force Sensitive.*** You know the *guidance* at-will force power. When you reach 3rd level, you can cast the *valor* force power once per day. When you reach 5th level, you can also cast the *force enlightenment* force power once per day. Wisdom is your forcecasting ability for these powers.
 
@@ -5713,7 +5795,7 @@ As a Toydarian, you have the following special traits.
 
 ***Business Savvy.*** A common trait of all Toydarians is their shrewd business sense and their ability to haggle any deal. A loyal and proud people, these traits could be off-putting to outsiders, as many Toydarians in the galaxy were seen as crooks or slimy businessmen, but this was not always the case. Whenever you make a Charisma (Persuasion) check involving haggling you are considered to have expertise in the Persuasion skill.
 
-***Closed Mind.*** Toydarian brains have an unusual composition which made them resistant to influence from the Force. You have advantage on saving throws against force powers.
+***Closed Mind.*** Toydarian brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Intelligence, Wisdom, and Charisma saving throws against force powers.
 
 ***Flight.*** You have a flying speed of 25 feet. To use this speed, you can't be wearing medium or heavy armor.
 
