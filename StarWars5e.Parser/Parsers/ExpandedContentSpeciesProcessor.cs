@@ -428,6 +428,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Human":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_human.png");
                         break;
+                    case "Hutt, Adolescent":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_hutt.png");
+                        break;
                     case "Iktotchi":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_iktotchi.png");
                         break;
