@@ -24,15 +24,29 @@ namespace StarWars5e.Parser.Managers
             //    .Where(g => g.Count() > 1)
             //    .Select(g => g.Key);
 
+            var existingSearchTerms = (await _tableStorage.GetAllAsync<GlobalSearchTerm>("searchTerms")).ToList();
+            foreach (var existingSearchTerm in existingSearchTerms.Where(e => !e.IsDeleted))
+            {
+                existingSearchTerm.IsDeleted = true;
+            }
+
+            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
+                existingSearchTerms.Where(e => e.PartitionKey == ContentType.ExpandedContent.ToString()),
+                new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
+
+            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
+                existingSearchTerms.Where(e => e.PartitionKey == ContentType.Core.ToString()),
+                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
             await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
                 _globalSearchTermRepository.SearchTerms.Where(s =>
                     s.PartitionKey == ContentType.ExpandedContent.ToString()),
-                new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
+                new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.Insert});
 
             await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
                 _globalSearchTermRepository.SearchTerms.Where(s =>
                     s.PartitionKey == ContentType.Core.ToString()),
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.Insert });
         }
     }
 }
