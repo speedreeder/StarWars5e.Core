@@ -325,7 +325,7 @@ namespace StarWars5e.Parser.Parsers.PHB
                 {
                     ContentTypeEnum = contentType,
                     PartitionKey = contentType.ToString(),
-                    RowKey = name,
+                    RowKey = name.Replace("/", string.Empty).Replace(@"\", string.Empty),
                     Name = name,
                     ClassName = className
                 };

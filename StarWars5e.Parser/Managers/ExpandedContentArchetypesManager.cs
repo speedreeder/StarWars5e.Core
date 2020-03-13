@@ -45,9 +45,9 @@ namespace StarWars5e.Parser.Managers
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }
-            catch (StorageException)
+            catch (StorageException e)
             {
-                Console.WriteLine("Failed to upload EC archetypes.");
+                Console.WriteLine($"Failed to upload EC archetypes: {e.Message}");
             }
         }
     }
