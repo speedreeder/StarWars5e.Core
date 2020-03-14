@@ -356,6 +356,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Codru-Ji":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_codru-ji.png");
                         break;
+                    case "Dashade":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_dashade.png");
+                        break;
                     case "Defel":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_defel.png");
                         break;

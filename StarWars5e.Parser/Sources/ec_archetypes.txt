@@ -27,57 +27,59 @@
 |&emsp;Experimental Engineering |26|
 |Fighter||
 |&emsp;Adept Specialist         |28|
-|&emsp;Demolitions Specialist   |30|
-|&emsp;Enhancement Specialist   |31|
-|&emsp;Heavy Weapons Specialist |33|
-|&emsp;Mounted Specialist       |34|
-|&emsp;Praetorian Specialist    |35|
+|&emsp;Blademaster Specialist   |30|
+|&emsp;Demolitions Specialist   |31|
+|&emsp;Enhancement Specialist   |32|
+|&emsp;Heavy Weapons Specialist |34|
+|&emsp;Mounted Specialist       |35|
+|&emsp;Praetorian Specialist    |36|
 |Guardian||
-|&emsp;Form IV: Ataru           |36|
-|&emsp;Form V: Djem So          |37|
-|&emsp;Form VI: Niman           |38|
-|&emsp;Form VII: Juyo           |39|
-|&emsp;Form VIII: Sokan         |40|
-|&emsp;Form IX: Trakata         |41|
-|&emsp;Form X: Jar'Kai          |42|
+|&emsp;Form IV: Ataru           |37|
+|&emsp;Form V: Shien/Djem So    |38|
+|&emsp;Form VI: Niman           |40|
+|&emsp;Form VII: Juyo/Vapaad    |41|
+|&emsp;Form VIII: Sokan         |43|
+|&emsp;Form IX: Trakata         |44|
+|&emsp;Form X: Jar'Kai          |45|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |43|
-|&emsp;Crimson Order            |44|
-|&emsp;Jal Shey Order           |45|
-|&emsp;Kage Order               |46|
-|&emsp;Matukai Order            |47|
-|&emsp;Whills Order             |48|
+|&emsp;Aing-Tii Order           |46|
+|&emsp;Crimson Order            |47|
+|&emsp;Jal Shey Order           |48|
+|&emsp;Kage Order               |49|
+|&emsp;Matukai Order            |50|
+|&emsp;Whills Order             |51|
 |Operative||
-|&emsp;Acquisitions Practice    |49|
-|&emsp;Beguiler Practice        |50|
-|&emsp;Disabling Practice       |52|
-|&emsp;Performance Practice     |53|
-|&emsp;Ruffian Practice         |54|
-|&emsp;Sawbones Practice        |55|
-|&emsp;Sharpshooter Practice    |56|
+|&emsp;Acquisitions Practice    |52|
+|&emsp;Beguiler Practice        |53|
+|&emsp;Disabling Practice       |55|
+|&emsp;Performance Practice     |56|
+|&emsp;Ruffian Practice         |57|
+|&emsp;Sawbones Practice        |58|
+|&emsp;Sharpshooter Practice    |59|
 |Scholar||
-|&emsp;Chef Pursuit             |57|
-|&emsp;Explorer Pursuit         |59|
-|&emsp;Gambler Pursuit          |61|
-|&emsp;Geneticist Pursuit       |63|
-|&emsp;Slicer Pursuit           |65|
-|&emsp;Zoologist Pursuit        |67|
+|&emsp;Chef Pursuit             |60|
+|&emsp;Explorer Pursuit         |62|
+|&emsp;Gambler Pursuit          |64|
+|&emsp;Geneticist Pursuit       |66|
+|&emsp;Slicer Pursuit           |68|
+|&emsp;Zoologist Pursuit        |70|
 |Scout||
-|&emsp;Bulwark Technique        |71|
-|&emsp;Illusionist Technique    |72|
-|&emsp;Inquisitor Technique     |73|
-|&emsp;Mastermind Technique     |74|
-|&emsp;Predator Technique       |75|
-|&emsp;Slayer Technique         |76|
+|&emsp;Artillerist Technique    |74|
+|&emsp;Bulwark Technique        |77|
+|&emsp;Illusionist Technique    |78|
+|&emsp;Inquisitor Technique     |79|
+|&emsp;Mastermind Technique     |80|
+|&emsp;Predator Technique       |81|
+|&emsp;Slayer Technique         |82|
 |Sentinel||
-|&emsp;Path of Communion        |77|
-|&emsp;Path of the Corsair      |78|
-|&emsp;Path of the Forceblade   |79|
-|&emsp;Path of Synthesis        |80|
-|&emsp;Path of Tenacity         |81|
+|&emsp;Path of Communion        |83|
+|&emsp;Path of the Corsair      |84|
+|&emsp;Path of the Forceblade   |85|
+|&emsp;Path of Synthesis        |86|
+|&emsp;Path of Tenacity         |87|
 
 </div>
 
@@ -156,14 +158,14 @@ At 14th level, you can send your weapon spinning into a gravity-defying whirlwin
 ## Cyclone Approach
 The Cyclone Approach empowers the berserker's ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a whirlwind of fury and steel, cleaving through hordes of enemies.
 
-### Fighting Style
-When you choose this approach at 3rd level, you learn the Two-Weapon Fighting Fighting Style option, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
+### Dual Wielder
+When you choose this approach at 3rd level, when you engage in Two-Weapon Fighting, you can add your Strength or Dexterity modifier (your choice) to the damage of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.
 
 ### Double Swing
-Also at 3rd level, once on each of your turns when you miss with an attack while raging, you can immediately make a melee attack with the weapon in your other hand. You do not add your ability modifier to the damage of this attack.
+Also at 3rd level, once on each of your turns when you miss with an attack while raging, you can immediately make a melee attack with the weapon in your other hand. 
 
 ### Twisting Winds
-At 6th level, your unpredictable movement makes you harder to hit and pin down. When you make a saving throw or ability checks to avoid being knocked prone, pushed, grappled, or restrained, it gains a bonus equal to your Strength modifier.
+At 6th level, your unpredictable movement makes you harder to hit and pin down. When you make a saving throw or ability checks to avoid being knocked prone, pushed, grappled, or restrained, it gains a bonus equal to your Strength or Dexterity modifier (your choice) as long as it doesn't already include that modifier.
 
 \columnbreak
 
@@ -1416,8 +1418,8 @@ Beginning at 7th level, your constant blur of motion and attacks becomes an unen
 | 14th | 15 | 14 | 3rd |
 | 15th | 16 | 15 | 3rd |
 | 16th | 17 | 16 | 3rd |
-| 17th | 18 | 17 | 3rd |
-| 18th | 18 | 18 | 3rd |
+| 17th | 18 | 17 | 4th |
+| 18th | 18 | 18 | 4th |
 | 19th | 19 | 19 | 4th |
 | 20th | 19 | 20 | 4th |
 
@@ -1433,6 +1435,50 @@ Starting at 15th level, you learn to completely ignore many of the most devastat
 At 18th level you reach the pinnacle of your training, moving faster than eyes or most sensors can track. When you use Action Surge feature, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action.
 
 <img src='https://www.gmbinder.com/images/O85GUMO.png' style='position:absolute;bottom:-27px;left:-40px;width:520px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
+## Blademaster Specialist
+Those fighters who choose to become Blademaster Specialists hone their focus to a blade's edge, becoming so in tune with their arsenal that it becomes both their weapon and their armor.
+
+### Unarmored Defense
+When you choose this specialty at 3rd level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Strength modifier.
+
+### Adaptive Fighting
+Also at 3rd level, you've learned to make adaptations to your fighting style on the fly. You have three such effects: Change Up, Draw, and Stow. When you use your Adaptive Fighting, you choose which effect to create.
+
+You can use this features a number of times equal to your Strength or Dexterity modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.
+
+#### Change Up
+You can use your object interaction and expend a use of your Adaptive Fighting to change the Fighting Style option granted to you by your fighter class feature. You can't take a Fighting Style option more than once.
+
+#### Draw
+When you use your object interaction to draw one or more weapons, you can expend a use of your Adaptive Fighting (no action required) to make your weapon attacks with the weapon(s) score a critical hit on a roll of 19 or 20 until the start of your next turn.
+
+#### Stow
+When you use your object interaction to stow a weapon, you can expend a use of your Adaptive Fighting (no action required) to take the Disengage action.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Dervish
+Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Adaptive Fighting, to a maximum of your Strength or Dexterity modifier (your choice, minimum of one).
+
+### Resilient Fighting
+At 10th level, when you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn.
+
+### Adrenaline Rush
+Starting at 15th level, when you use your Action Surge feature, you can take an extra bonus action on top of the additional action.
+
+### Bladestorm
+At 18th level, you can use your action to make a single melee weapon attack against each creature within your reach. Make a separate attack roll against each target. The first attack gains a +1 bonus to its attack roll, and each attack after the first gains an additional +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6. If you are wielding two light- or vibro-weapons, or a weapon with the double property, you also add this bonus to your damage rolls, and you can use your bonus action to engage in Two-Weapon Fighting.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+<img src='https://www.gmbinder.com/images/vLDR8kY.png' style='position:absolute;bottom:18px;right:40px;width:720px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
@@ -1730,14 +1776,14 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 \pagebreak
 
-## Form V: Djem So
-Form V, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.
+## Form V: Shien/Djem So
+Form V, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Shien/Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.
 
 ### Bonus Proficiencies
 You gain proficiency in heavy armor.
 
 ### Fighting Style
-When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Sentinel, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
+When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Defense, Sentinel, or Shielding Fighting Style options for Shien, or Dueling, Great Weapon Fighting, or Versatile Fighting Fighting Style options for Djem So, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 ### The Way of the Krayt Dragon
 Also at 3rd level, as a bonus action, you can take a threatening stance for one minute. While in this stance, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
@@ -1745,36 +1791,55 @@ Also at 3rd level, as a bonus action, you can take a threatening stance for one 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
 ### Channel the Force
-Lastly at 3rd level, you gain the following Channel the Force option.
+Lastly at 3rd level, you gain one of the following Channel the Force options. Choose Blade Barrier for Shien or Falling Avalanche for Djem So.
+
+#### Blade Barrier
+On your turn, when you deal melee weapon damage that includes your Strength modifier, you can forgo your Strength modifier to the damage roll, expend a use of your Channel the Force (no action required), and reduce your speed by half. If you do so, energy and kinetic damage you take from weapons before the end of your next turn is reduced by an amount equal to your Strength modifier. You can not use this feature if you have moved more than half your speed this turn.
 
 #### Falling Avalanche
 On your turn, you can expend a use of your Channel the Force (no action required) and reduce your speed by half to gain advantage on the next ability check or attack roll you make using Strength before the end of your next turn. You can not use this feature if you have moved more than half your speed this turn.
 
-### Vigor
-Beginning at 7th level, if your total for a Strength check or saving throw is less than your Guardian level, you can use that value in place of the total.
+<img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:21px;right:-455px;width:775px;z-index:1000;transform:scaleX(-1)' />
 
-### Brutal Strikes
-Starting at 15th level, the Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+<img src='https://www.gmbinder.com/images/CjyN1px.png' style='position:absolute;bottom:28px;right:35px;width:363px;z-index:1000' />
 
-Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
+
+\pagebreak
+
+<img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:21px;left:-325px;width:775px;z-index:1000;transform:scaleX(-1)' />
 
 \columnbreak
 
-<div style='margin-top:28px'></div>
+### Determination
+At 7th level, you gain one of the following features. Choose Aggressive Negotiations for Shien or Reliable Vigor for Djem So.
+
+#### Aggressive Negotiations
+When you make a Charisma (Intimidation) or Charisma (Persuasion) check, you gain a bonus to the check equal to half your Strength modifier (rounded down) if it doesn't already include that modifier. 
+
+#### Reliable Vigor
+If your total for a Strength check or saving throw is less than your Guardian level, you can use that value in place of the total.
+
+### Presence
+Starting at 15th level, you gain one of the following features. Choose Precise Reflection for Shien or Brutal Strikes for Djem So.
+
+#### Precise Reflection
+When you hit with an attack made by the *saber reflect* power, you can expend force points to deal additional damage to the target. The extra damage is 2d8 for a 1st-level force slot, plus 1d8 for each slot level higher than 1st, to a maximum of 5d8. The damage is the same type as the power’s damage. 
+
+#### Brutal Strikes
+The Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+
+Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.
 
 ### Master of Perseverance
 At 20th level, your might overwhelms even the most implacable of foes. Your Strength and Constitution scores increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
 - You have resistance to kinetic and energy damage from unenhanced weapons.
 - Once per turn, when you hit with a melee weapon attack using Strength, you can use your Force-Empowered Strikes feature at 1st-level without expending force points. You gain temporary hit points equal to the extra damage dealt.
-- When a creature within 5 feet of you makes an attack roll against you, you can use your reaction to make a single weapon attack with advantage against that creature. If the attack hits, impose disadvantage on the triggering attack roll.
+- When a creature within 5 feet of you makes an attack roll against you, you can use your reaction to make a single weapon attack with advantage against that creature. If the attack hits, you impose disadvantage on the triggering attack roll.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:21px;right:-205px;width:635px;z-index:1000' />
-
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
-
-\pagebreak
 
 \pagebreak
 
@@ -1823,35 +1888,60 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 \pagebreak
 
-## Form VII: Juyo
-Form VII, also known as Ferocity Form, revels in the satisfaction of battle and victory. Those guardians who focus on Juyo Form channel their emotions into their fighting, making heavy, sweeping strikes.
+## Form VII: Juyo/Vapaad
+Form VII, also known as Ferocity Form, revels in the satisfaction of battle and victory. Those guardians who focus on Juyo/Vapaad Form channel their emotions into their fighting, making heavy, sweeping strikes.
 
 ### Bonus Proficiencies
 You gain proficiency in heavy armor.
 
 ### Fighting Style
-When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Two-Weapon Fighting, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
+When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Two-Weapon Fighting, or Versatile Fighting Fighting Style options for Juyo, or Brawling, Equilibrium, or Sentinel Fighting Style options for Vapaad, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 ### The Way of the Vornskr
 Also at 3rd level, as a bonus action, you can take a savage stance, designating one creature you can see within 10 feet of you as your prey for 1 minute. You have advantage on attack rolls against the creature. If the target drops to 0 hit points, you can use a bonus action on a subsequent turn to mark a new creature.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
-### Channel the Force
-Lastly at 3rd level, you gain the following Channel<br> the Force option.
-
-#### Snap Aggression
-If you are surprised at the start of combat and<br> aren't incapacitated, you can expend a use of<br> your Channel the Force to act<br> normally on your<br> first turn.
-
 \columnbreak
 
-<div style='margin-top:27px'></div>
+<div style='margin-top:28px'></div>
 
-### Relentless
-At 7th level, you have advantage on initiative rolls and gain a 10 foot bonus to your speed on your first turn of combat.
+### Channel the Force
+Lastly at 3rd level, you gain one of the following Channel the Force options. Choose Snap Aggression for Juyo or Assertive Defense for Vapaad.
 
-### Devastating Critical
-Starting at 15th level, when you score a critical hit with a melee weapon attack, you gain a bonus to that weapon's damage roll equal to your guardian level.
+#### Snap Aggression
+If you are surprised at the start of combat and aren't incapacitated, you can expend a use of your Channel the Force to act normally on your first turn.
+
+#### Assertive Defense
+When you reduce the damage dealt by a force power to 0 using the *saber reflect* power, and you're wielding a lightweapon or vibroweapon, you can expend a use of your Channel the Force to reflect the attack at a target within range, regardless of what type the damage is.
+
+<img src='https://www.gmbinder.com/images/XSgalq5.png' style='position:absolute;bottom:25px;right:5px;width:815px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
+
+\pagebreak
+
+### Fury
+At 7th level, you gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vapaad.
+
+#### Relentless 
+You have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.
+
+#### Punishing Charge 
+When a creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
+
+### Vengeance
+Starting at 15th level, you gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.
+
+#### Devastating Critical
+When you score a critical hit with a melee weapon attack, you gain a bonus to that weapon's damage<br> roll equal to your guardian level.
+
+#### Their Power, My Strength
+When you are dealt damage by a force power, you<br> can reduce that damage by an amount equal to your guardian level (no action required).
+
+You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.
+
+\columnbreak
 
 ### Master of Ferocity
 At 20th level, you are a paragon of extraordinary martial prowess. Your Strength and Dexterity scores increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
@@ -1861,7 +1951,7 @@ At 20th level, you are a paragon of extraordinary martial prowess. Your Strength
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
-<img src='https://www.gmbinder.com/images/XSgalq5.png' style='position:absolute;bottom:25px;right:5px;width:815px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/B55mV5X.png' style='position:absolute;bottom:25px;right:45px;width:515px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
@@ -2062,8 +2152,8 @@ Also at 3rd level, you can cast the *phasestrike* force power without expending 
 | 14th | 15 | 14 | 3rd |
 | 15th | 16 | 15 | 3rd |
 | 16th | 17 | 16 | 3rd |
-| 17th | 18 | 17 | 3rd |
-| 18th | 18 | 18 | 3rd |
+| 17th | 18 | 17 | 4th |
+| 18th | 18 | 18 | 4th |
 | 19th | 19 | 19 | 4th |
 | 20th | 19 | 20 | 4th |
 
@@ -2191,7 +2281,7 @@ Starting at 11th level, you<br> have learned to become<br> one with the shadows.
 ### Opportunist
 At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.
 
-<img src='https://vignette.wikia.nocookie.net/starwars/images/0/08/KageWarriors-SWE.png/revision/latest?cb=20160912040951' style='position:absolute;bottom:18px;right:0px;width:736px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/KJeYR53.png' style='position:absolute;bottom:18px;right:0px;width:736px;z-index:1000' />
 
 <div class='footnote'>EXPANDENT CONTENT | ARCHETYPES | MONK</div>
 
@@ -2399,8 +2489,8 @@ Once you've used this<br> feature, you must com-<br>plete a short or long<br> re
 |14th|15|14|3rd|
 |15th|16|15|3rd|
 |16th|17|16|3rd|
-|17th|18|17|3rd|
-|18th|18|18|3rd|
+|17th|18|17|4th|
+|18th|18|18|4th|
 |19th|19|19|4th|
 |20th|19|20|4th|
 
@@ -2529,18 +2619,45 @@ At 17th level, your confidence when putting on a show has extended into combat. 
 ## Ruffian Practice
 Those operatives who choose the Ruffian Practice use rough-and-tumble tactics to handle any fight, big or small. They incite chaos and make devious moves that keep their enemies reeling.
 
-### Fancy Footwork
-When you choose this practice at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.
-
 ### Rakish Audacity
-Also at 3rd level, your unmistakable confidence propels you into battle. You can add your Charisma modifier to your initiative rolls.
+When you choose this practice at 3rd level, your unmistakable confidence propels you into battle. You can add your Charisma modifier to your initiative rolls.
 
-In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you, as long as the target of the attack is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.
+Additionally, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you, as long as the target of the attack is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.
+
+Finally, during your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.
+
+### Nimble Step
+Also at 3rd level, you learn to fluidly strike and maneuver through combat. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to maneuver across the battlefield.
+
+Some of your fancy footworks require your target to make a saving throw to resist the debilitating strike's effects. The saving throw DC is calculated as follows: 
+
+___
+
+<div align="center">
+
+**Nimble Step save DC** = 8 + your proficiency bonus +<br> your Dexterity modifier.
+
+</div>
+
+___
+
+#### Blade Defense
+You attempt to determine your target's next strike. Roll two Sneak Attack dice, and the target must make a Charisma saving throw. On a failed save, your AC increases by the higher amount rolled on the dice against the first attack it makes against you before the start of your next turn. On a successful save, your AC instead increases by the lower amount.
+
+#### Disarming Strike
+You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it's holding. If you have a free hand, you can catch the item. Otherwise, it lands at your feet.
+
+#### Fancy Footwork
+Roll two Sneak Attack dice. Your speed increases by 5 x the greater result of the two dice, and you ignore difficult terrain until the end of your current turn.
 
 ### Panache
 Beginning at 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.
 
-If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a power, or until you and the target are more than 60 feet apart.
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a power, or until you and the target are more than 60 feet apart.
 
 If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.
 
@@ -2550,7 +2667,7 @@ Starting at 13th level, you can use a bonus action on your turn to gain advantag
 ### Master Duelist
 At 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.
 
-<img src='https://www.gmbinder.com/images/XmV9oK4.png' style='position:absolute;bottom:13px;left:85px;width:1030px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/XmV9oK4.png' style='position:absolute;bottom:19px;right:-90px;width:600px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
@@ -2569,7 +2686,8 @@ The extra hit points increase when you reach certain levels in this class: to 1d
 ### Debilitating Strike
 Also at 3rd level, you learn to apply your anatomical knowledge in direct combat, in order to hinder your targets. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to hinder the creature, provided they have the appropiate physiology.
 
-Your debilitating strikes require your target to make a saving throw to resist the debilitating strike's effects. The saving throw DC is calculated as follows: 
+Some of your debilitating strikes require your target to make a saving throw to resist the debilitating strike's effects. The saving throw DC is calculated as follows: 
+
 ___
 
 <div align="center">
@@ -3150,8 +3268,8 @@ Additionally, when the target of your Critical Analysis casts a tech power, you 
 | 14th |  9 |  7 | 3rd |
 | 15th | 10 |  8 | 3rd |
 | 16th | 10 |  8 | 3rd |
-| 17th | 11 |  9 | 3rd |
-| 18th | 11 |  9 | 3rd |
+| 17th | 11 |  9 | 4th |
+| 18th | 11 |  9 | 4th |
 | 19th | 12 | 10 | 4th |
 | 20th | 12 | 10 | 4th |
 
@@ -3254,10 +3372,10 @@ Choose your beast, which is detailed at the end of this pursuit. Over the course
 If your beast dies, or you want to bond with a different creature, you must first break the bond with your current beast companion. You may only have one beast companion at a time.
 
 Your beast gains a variety of benefits while it is bonded to you:
-- The beast obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your beast acts on its own.
+- The beast obeys your commands as best it can. It acts on your turn, and you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your beast acts on its own.
 - Your beast's level equals your scholar level, and for each scholar level you gain after 3rd, your beast companion gains an additional hit die and increases its hit points accordingly.
 - Your beast has the proficiency bonus of a player character of the same level.
-- Whenever you gain the Ability Score Improvement<br> class feature, your beast's abilities also improve.<br> Your beast can increase one ability score of<br> your choice by 2, or it can increase two<br> ability scores of your choice by 1. As<br> normal, your beast can't increase an<br> ability score above 20 using this feature<br> unless its description specifies<br> otherwise.
+- Whenever you gain the Ability Score Improvement feature in this class, your beast's abilities also improve.<br> Your beast can increase one ability score of<br> your choice by 2, or it can increase two<br> ability scores of your choice by 1. As<br> normal, your beast can't increase an<br> ability score above 20 using this feature<br> unless its description specifies<br> otherwise.
 
 \columnbreak
 
@@ -3502,6 +3620,181 @@ Your beast companion gains tremorsense out to 30 feet.
 
 \pagebreak
 
+## Artillerist Technique
+While some scouts choose to foray alone, others like to have support. Follower of the Artillerist Technique master control of militant constructs, laying waste to the battlefield with their expertise
+
+### Bonus Proficiencies
+You gain proficiency in artillerist's kits.
+
+### Turret Companion
+When you choose this technique at 3rd level, you learn to apply your knowledge of artillery to construct your own portable turret.
+
+You start with a Small turret, which is detailed at the end of this technique. Over the course of 8 hours, which can be done during a long rest, you can expend 500 cr worth of materials to finish your turret. 
+
+If your turret is irreparably destroyed, you can spend an additional 500 cr worth of material and 8 hours to create a new turret. You may only have one turret companion at a time.
+
+Your turret has the following benefits:
+- Your turret has a remote control, which you can use to direct it on your turn while within 120 feet of it. Your turret takes no actions unless you tell it to or an upgrade says otherwise.
+- Your turret's level equals your scout level, and for each scout level you gain after 3rd, your turret<br> companion gains an additional Hit Die and<br> increases its hit points accordingly.
+- Your turret has the proficiency bonus of a<br> player character of the same level.
+- Whenever you gain the Ability Score Improvement feature in this class, your turret's<br> abilities also improve. Your turret can<br> increase one ability score of your<br> choice by 2, or it can increase two<br> ability scores of your choice by 1.<br> As normal, your turret can't<br> increase an ability score above 20<br> using this feature unless its<br> description specifies otherwise.
+- Your turret is a valid target of the *tracker<br> droid interface* tech power.
+- When you would make a weapon attack,<br> you can let your turret attack instead.
+
+Your turret has two modes: deployed<br> and undeployed. Your turret can take no<br> actions while undeployed. You can<br> deploy or undeploy your turret at any<br> time on your turn (no action required), but<br> the effect doesn't occur until the start of<br> your next turn.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Mark of the Artillerist
+Also at 3rd level, once per round, when your turret deals damage to the target of your Ranger's Quarry, you can roll your Ranger's Quarry die and add it to the damage roll.
+
+### Battlefront
+Beginning at 7th level, when you take the Attack action or cast a tech power of 1st-level or higher, you can use your bonus action to have your turret make one weapon attack.
+
+At 14th level, when you use your Combat Tech feature, both you and your turret can each make one weapon attack as part of the same bonus action.
+
+### Crisis Management
+Starting at 11th level, while you can see your turret, it can add half its proficiency bonus (rounded up) to any saving throws it makes.
+
+### Double Up
+At 15th level, when you deal damage to a creature with a weapon or tech power, your turret has advantage on the next attack roll it makes against the creature or it has disadvantage on the first saving throw it makes against an effect your turret controls before the start of your next turn. When your turret deals damage to a creature, you have advantage on your next attack roll against the creature or it has disadvantage on the first saving throw it makes against an effect you control before the start of your next turn.
+
+<img src='https://www.gmbinder.com/images/iOUKn16.png' style='position:absolute;bottom:14px;right:30px;width:540px;;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+## Generating Your Turret 
+Your turret is a portable companion that you can upgrade over time.
+
+Your turret uses your Intelligence, Wisdom, and Charisma scores. You assign your turret's Strength, Dexterity, and Constitution scores using a limited standard array (16, 14, 12) as you see fit.
+
+___
+
+## Turret Features
+All turrets share the following traits.
+
+#### Hit Points
+___
+- **Hit Dice:** 1d6 per turret companion level
+- **Hit Points at 1st Level:** 6 + your turret's Constitution modifier
+- **Hit Points at Higher Levels:** 1d6 (or 4) + your turret's Constitution modifier per turret level after 1st
+
+#### Resistances and Vulnerabilities
+___
+- **Turret Resistances:** Your turret is resistant to necrotic, poison, and psychic damage, and immune to poison and disease.
+- **Turret Vulnerabilities:** Your turret is vulnerable to ion damage. Additionally, your turret has disadvantage on saving throws against effects that would deal ion or lightning damage.
+
+#### Features
+___
+- **Armor Class:** Your turret uses its Intelligence score for its Armor Class.
+- **Integrated Weaponry:** Your turret has an integrated vibroweapon and blaster with which it can make weapon attacks. Neither weapon can be removed while your turret is not disabled. Your turret's vibroweapon deals 1d8 kinetic damage on a hit. Your turret's blaster has the ammunition (range 100/400) and reload 20 properties, and it deals 1d6 kinetic or energy damage on it a hit, depending on its loaded ammunition. It can use both slug cartridges and power cells for ammunition. Your turret can't reload itself. You can choose which weapon your turret uses each time it attacks (no action required).
+- **Turret Upgrades:** Your turret companion has four turret upgrades of your choice. It gains an additional upgrade at 5th level (5), 8th level (6), 11th level (7), 14th level (8), and 17th level (7).
+- **Size:** Small
+- **Speed:** Your turret has two modes: undeployed and deployed. While undeployed, your turret's speed equals your own and it can take no actions. While deployed, your turret has a speed of 25 feet and can take actions.
+- **Type:** Construct
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Turret Upgrades
+If an upgrade has prerequisites, you must meet them to install it. You can install the upgrade at the same time that you meet its prerequisites.
+
+#### Augmenting Barrier
+_**Prerequisite:** 5th level_<br>
+As an action, you can reduce your turret's speed and have it create a barrier that surrounds in a radius depending on its size. A Small turret's speed is reduced to 10 feet and has a 5-foot radius, a Medium turret's speed is reduced to 5 feet and has a 10-foot radius, and a Large turret's speed is to reduce to 0 and has a 15-foot radius. While active, when damage is dealt by a tech power originating from inside the barrier against a target outside the barrier, that tech power gains a bonus to damage equal to half your Intelligence modifier (rounded up).
+
+This barrier lasts for 1 minute. You can end it early as a bonus action on your turn. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Autoreload
+You can preload your turret's blaster with additional ammunition. You can preload two additional power cells, or you can replace each power cell with 20 slug cartridges. Once on each of your turns, you can reload your turret without using an action. Once you've expended the preloaded ammunition, you can't reload your turret's blaster in this way again until you reload it with an action.
+
+#### Climbing Turret
+Your turret gains a climbing speed equal to its deployed walking speed.
+
+#### Cloaking Barrier
+_**Prerequisite:** 5th level_<br>
+As an action, you can reduce your turret's speed and have it create a barrier that surrounds in a radius depending on its size. A Small turret's speed is reduced to 10 feet and has a 5-foot radius, a Medium turret's speed is reduced to 5 feet and has a 10-foot radius, and a Large turret's speed is to reduce to 0 and has a 15-foot radius. While active, this barrier creates an area that is lightly obscured. Wisdom (Perception) checks that originate outside the barrier take a -10 penalty when attempting to detect anything inside the barrier.
+
+This barrier lasts for 1 minute. You can end it early as a bonus action on your turn. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Deployment Accelerator
+Your turret now deploys and undeploys instantly, but you can only do so once on each of your turns.
+
+#### Disguised Turret
+Your turret can collapse into an innocuous looking container while undeployed. You have advantage on Charisma (Deception) checks to hide the nature of your turret while it is undeployed.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+#### Hovering Turret
+Your turret can hover 5 feet over the ground while deployed. It ignores difficult terrain while hovering in this way.
+
+#### Integrated Grenade Launcher
+You integrate a grenade launcher into your turret.
+
+You can choose this upgrade multiple times. Each time you do so, the weapon's reload number increases by 1.
+
+#### Integrated Projector
+You integrate a vapor projector into your turret. 
+
+You can choose this upgrade multiple times. Each time you do so, the weapon's reload number increases by 1.
+
+#### Integrated Rocket Launcher
+You integrate a rocket launcher into your turret.
+
+You can choose this upgrade multiple times. Each time you do so, the weapon's reload number increases by 1.
+
+#### Longbow
+Your turret's blaster's range increases by 50/200. Additionally, when you cast a tech power with a range of 5 feet or greater, and your turret is the target of your *tracker droid interface* tech power, you can cast it as if you were in your turret's space, and the range increases to 150 feet.
+
+#### Phalanx Barrier
+_**Prerequisite:** 5th level_<br>
+As an action, you can reduce your turret's speed and have it create a barrier that surrounds in a radius depending on its size. A Small turret's speed is reduced to 10 feet and has a 5-foot radius, a Medium turret's speed is reduced to 5 feet and has a 10-foot radius, and a Large turret's speed is to reduce to 0 and has a 15-foot radius. While active, ranged weapon attacks originating from outside the barrier that pass through it have disadvantage. Ranged weapon attacks originating from inside the barrier are unaffected.
+
+This barrier lasts for 1 minute. You can end it early as a bonus action on your turn. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Ram Attachment
+You integrate a battering ram into your turret. When your turret makes a Strength check to break down physical doors, it gains a bonus to the check, depending on its size. A Small turret gains a +1 bonus, a Medium turret gains a +2 bonus, and a Large turret gains a +5 bonus. You can help your turret, giving it advantage on the check.
+
+#### Recurring Action
+_**Prerequisite:** 9th level_<br>
+Your turret gains the ability to repeat attacks without direction. At the start of each of your turns, if your turret made an attack since the start of your previous turn, you can have it repeat its most recent attack (no action required). This attack targets the same space as the most recent attack made by your turret, regardless of whether or not a creature occupies that space.
+
+\columnbreak
+
+#### Rejuvenating Barrier
+_**Prerequisite:** 5th level_<br>
+As an action, you can reduce your turret's speed and have it create a barrier that surrounds in a radius depending on its size. A Small turret's speed is reduced to 10 feet and has a 5-foot radius, a Medium turret's speed is reduced to 5 feet and has a 10-foot radius, and a Large turret's speed is to reduce to 0 and has a 15-foot radius. While active, friendly creatures that enter this barrier for the first time or start their turn there regain hit points equal to your Intelligence modifier, and gain temporary hit points equal to your Intelligence modifier. This feature can restore a creature to no more than half of its hit point maximum. 
+
+This barrier lasts for 1 minute. You can end it early as a bonus action on your turn. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Sentry 
+You add an overwatch suite to your turret companion. When you cast the _alarm_ tech power, you can choose to have your turret notified when the alarm is triggered. If you do so, when the alarm is triggered, your turret immediately makes a number of weapon attacks against the triggering creature up to your turret's proficiency bonus. If multiple creatures trigger the alarm simultaneously, your turret targets each creature randomly.
+
+#### Size: Medium
+Your turret's size is Medium. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d8, its vibroweapon and blaster damages increase to 1d10 and 1d8, respectively, and its deployed walking speed decreases to 20 feet.
+
+#### Size: Large
+_**Prerequisite:** Size: Medium_<br>
+Your turret's size is Large. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d10, its vibroweapon and blaster damages increase to 1d12 and 1d10, respectively, and its deployed walking speed decreases to 15 feet.
+
+#### Suppressing Fire
+_**Prerequisite:** 11th level_<br>
+When a creature within 30 feet of you moves at least 5 feet, you can use your reaction to have your turret make a ranged weapon attack with its blaster against the creature. If the attack hits, the creature's speed is reduce by half until the start of your next turn.
+
+#### Turret Coverage
+As an action, you can have your turret anchor itself to the ground or recover itself. While anchored, its speed is reduce to 0, it has resistance to energy and kinetic damage, and it provides cover to creatures within 5 feet of it, depending on its size. A Small turret provides one-quarter cover, a Medium turret provides half cover, and a Large turret provides three-quarters cover. If an attack would miss a creature by an amount less than or equal to the bonus to AC granted by your turret's cover, your turret instead takes the damage. 
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
 ## Bulwark Technique
 Some scouts find themselves far from civilization not to hunt, gather intelligence, or escape danger, but to venture forth simply to defend those unable to defend themselves. Followers of the Bulwark Technique make use of advanced technology to contain those that threaten the undeserving.
 
@@ -3607,7 +3900,7 @@ Also at 3rd level, when the target of your Ranger's Quarry feature is within 15 
 - Whenever the creature casts a force power, it must first succeed on a Constitution saving throw against your tech save DC to maintain concentration. On a failed save, the casting is disrupted, the force power fails, and the force points are wasted.
 - Whenever the creature starts its turn while concentrating on a force power, it must make a Constitution saving throw against your force save DC to maintain concentration. On a failed save, it loses concentration on the power.
 
-At 11th level, the radius of this feature increases to 30 feet.
+At 11th level, the radius of this feature<br> increases to 30 feet.
 
 ### Sense Force
 Beginning at 7th level, you can use your action to gain the benefits of the *force sight* force power until the end of your next turn.
@@ -3628,7 +3921,7 @@ At 15th level, you can cast the *force suppression* and *sever force* force powe
 
 You can use this feature a number of times equal to 1 + your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/yz66qwn.png' style='position:absolute;bottom:4px;right:-95px;width:620px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/6k8LjLG.png' style='position:absolute;bottom:8px;right:-95px;width:680px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
@@ -3868,7 +4161,7 @@ There is power in diversity unknown to those of narrow mind. Those sentinels who
 ### Techcasting Secrets
 Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel class table. You still require the aid of a wristpad for these powers.
 
-At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 19th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power.
+At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 17th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power.
 
 ### Synthetic Understanding
 Also at 3rd level, you've applied your newfound knowledge to broader pursuits. You gain proficiency in Technology or one tool of your choice.
