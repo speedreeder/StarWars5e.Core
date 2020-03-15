@@ -19,11 +19,6 @@ namespace StarWars5e.Parser.Managers
 
         public async Task Upload()
         {
-            //var dupes = _globalSearchTermRepository.SearchTerms
-            //    .GroupBy(i => i.RowKey)
-            //    .Where(g => g.Count() > 1)
-            //    .Select(g => g.Key);
-
             var existingSearchTerms = (await _tableStorage.GetAllAsync<GlobalSearchTerm>("searchTerms")).ToList();
             foreach (var existingSearchTerm in existingSearchTerms.Where(e => !e.IsDeleted))
             {

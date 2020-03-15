@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 using StarWars5e.Models.Utils;
@@ -15,11 +16,12 @@ namespace StarWars5e.Parser
             var searchTerm = new GlobalSearchTerm
             {
                 PartitionKey = contentType.ToString(),
-                RowKey = $"{path}-{name}".ToKebabCase(),
+                RowKey = Guid.NewGuid().ToString(),
                 GlobalSearchTermTypeEnum = type,
                 FullName = $"{type.ToString().SplitPascalCase()}: {name}",
                 Path = path,
-                SearchText = name
+                SearchText = name,
+                IsDeleted = false
             };
             return searchTerm;
         }
@@ -42,11 +44,12 @@ namespace StarWars5e.Parser
             var searchTerm = new GlobalSearchTerm
             {
                 PartitionKey = contentType.ToString(),
-                RowKey = key.ToKebabCase(),
+                RowKey = Guid.NewGuid().ToString(),
                 GlobalSearchTermTypeEnum = type,
                 FullName = $"{type.ToString().SplitPascalCase()}: {nameWithOptionalSection}",
                 Path = key,
-                SearchText = name
+                SearchText = name,
+                IsDeleted = false
             };
             return searchTerm;
         }
