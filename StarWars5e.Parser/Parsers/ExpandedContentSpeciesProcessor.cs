@@ -512,6 +512,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Pau'an":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pau\'an.png");
                         break;
+                    case "Pyke":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pyke.png");
+                        break;
                     case "Quarren":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_quarren.png");
                         break;
