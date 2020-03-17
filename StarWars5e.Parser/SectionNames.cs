@@ -24,7 +24,7 @@ namespace StarWars5e.Parser
                 ( "Chapter 10: Force- And Tech- Casting", GlobalSearchTermType.HandbookChapter, "/rules/phb/casting"),
                 ( "Appendix A: Conditions", GlobalSearchTermType.HandbookChapter, "/rules/phb/conditions"),
                 ( "Appendix B: Recommended Variant Rules", GlobalSearchTermType.HandbookChapter, "/rules/phb/variantRules"),
-                ( "Handbook Changelog", GlobalSearchTermType.Changelog, "/rules/phb/changelog")
+                ( "Player's Handbook Changelog", GlobalSearchTermType.Changelog, "/rules/phb/changelog")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> SOTGChapterNames { get; } =
@@ -43,23 +43,22 @@ namespace StarWars5e.Parser
                 ( "Chapter 9: Combat", GlobalSearchTermType.StarshipChapter, "/rules/sotg/combat"),
                 ( "Chapter 10: Generating Encounters", GlobalSearchTermType.StarshipChapter, "/rules/sotg/generatingEncounters"),
                 ( "Appendix A: Conditions", GlobalSearchTermType.StarshipChapter, "/rules/sotg/conditions"),
-                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/sotg/changelog")
+                ( "Starships Of The Galaxy Changelog", GlobalSearchTermType.Changelog, "/rules/sotg/changelog")
             };
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> WHChapterNames { get; } =
             new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
                 ( "Wretched Hives", GlobalSearchTermType.Book, "/rules/wh"),
-                ( "Chapter 1: Step-By-Step Factions", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/stepByStep"),
+                ( "Introduction", GlobalSearchTermType.StarshipChapter, "/rules/wh"),
+                ( "Chapter 1: Step-By-Step Factions", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/stepByStepFactions"),
                 ( "Chapter 2: Entertainment and Downtime", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/downtime"),
-                ( "Chapter 3: Factions and Membership", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/factions"),
+                ( "Chapter 3: Factions and Membership", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/factionsAndMembership"),
                 ( "Chapter 4: Using Ability Scores", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/abilityScores"),
-                ( "Chapter 5: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/enhancedItems"),
-                ( "Chapter 6: Modifiable Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/modifiableItems"),
-                ( "Chapter 7: Cybernetic Augmentations", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/cyberneticAugmentations"),
-                ( "Chapter 8: Droid Customizations", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/droidCustomizations"),
-                ( "Chapter 9: Tool Proficiencies", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/toolProficiencies"),
-                ( "Appendix A: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/enhancedItems"),
-                ( "Starship Changelog", GlobalSearchTermType.Changelog, "/rules/wh/changelog")
+                ( "Chapter 5: Equipment", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/equipment"),
+                ( "Chapter 6: Customization Options", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/customizationOptions"),
+                ( "Chapter 7: Enhanced Items", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/enhancedItems"),
+                ( "Chapter 8: Tool Proficiencies", GlobalSearchTermType.WretchedHivesChapter, "/rules/wh/toolProficiencies"),
+                ( "Wretched Hives Changelog", GlobalSearchTermType.Changelog, "/rules/wh/changelog")
             };
 
         public static List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> MonsterChapterNames { get; } =

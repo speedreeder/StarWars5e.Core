@@ -37,7 +37,7 @@ namespace StarWars5e.Parser.Managers
 
                     var archetypeSearchTerm = _globalSearchTermRepository.CreateSearchTerm(archetype.Name,
                         GlobalSearchTermType.Archetype, ContentType.ExpandedContent,
-                        $"/characters/archetypes/{archetype.Name}");
+                        $"/characters/archetypes/{Uri.EscapeDataString(archetype.Name)}");
                     _globalSearchTermRepository.SearchTerms.Add(archetypeSearchTerm);
                 }
 
