@@ -285,13 +285,7 @@ When you score a critical hit with a weapon with the disarming property against 
 You have advantage on Charisma (Deception) checks made to hide the nature of a disguised weapon.
 
 #### Disintegrate
-When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a DC 13
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
 #### Disruptive
 When a creature is forced to make a Constitution saving throw to maintain concentration due to taking damage from a weapon with the disruptive property, the DC for the check equals 10 or the full damage taken, whichever number is higher, instead of only half.

@@ -58,28 +58,29 @@
 |&emsp;Performance Practice     |56|
 |&emsp;Ruffian Practice         |57|
 |&emsp;Sawbones Practice        |58|
-|&emsp;Sharpshooter Practice    |59|
+|&emsp;Scrapper Practice        |59|
+|&emsp;Sharpshooter Practice    |60|
 |Scholar||
-|&emsp;Chef Pursuit             |60|
-|&emsp;Explorer Pursuit         |62|
-|&emsp;Gambler Pursuit          |64|
-|&emsp;Geneticist Pursuit       |66|
-|&emsp;Slicer Pursuit           |68|
-|&emsp;Zoologist Pursuit        |70|
+|&emsp;Chef Pursuit             |61|
+|&emsp;Explorer Pursuit         |63|
+|&emsp;Gambler Pursuit          |65|
+|&emsp;Geneticist Pursuit       |67|
+|&emsp;Slicer Pursuit           |69|
+|&emsp;Zoologist Pursuit        |71|
 |Scout||
-|&emsp;Artillerist Technique    |74|
-|&emsp;Bulwark Technique        |77|
-|&emsp;Illusionist Technique    |78|
-|&emsp;Inquisitor Technique     |79|
-|&emsp;Mastermind Technique     |80|
-|&emsp;Predator Technique       |81|
-|&emsp;Slayer Technique         |82|
+|&emsp;Artillerist Technique    |75|
+|&emsp;Bulwark Technique        |78|
+|&emsp;Illusionist Technique    |79|
+|&emsp;Inquisitor Technique     |80|
+|&emsp;Mastermind Technique     |81|
+|&emsp;Predator Technique       |82|
+|&emsp;Slayer Technique         |83|
 |Sentinel||
-|&emsp;Path of Communion        |83|
-|&emsp;Path of the Corsair      |84|
-|&emsp;Path of the Forceblade   |85|
-|&emsp;Path of Synthesis        |86|
-|&emsp;Path of Tenacity         |87|
+|&emsp;Path of Communion        |84|
+|&emsp;Path of the Corsair      |85|
+|&emsp;Path of the Forceblade   |86|
+|&emsp;Path of Synthesis        |87|
+|&emsp;Path of Tenacity         |88|
 
 </div>
 
@@ -91,7 +92,7 @@
 For many, rushing an opponent with guns blazing is a last resort. For Berserkers of the Ballistic Approach, this isn't a last resort; it's the primary plan. Leading with a blaster and pure, unbridled rage, the berserker never lets an empty gun diminish their fury.
 
 ### Firestorm
-When you choose this approach at 3rd level, you've learned to use ranged weapons with untold fury. While wielding a blaster with which you are proficient, you gain the following benefits:
+When you choose this approach at 3rd level, you gain proficiency in martial blasters with the burst or rapid property. Additionally, you've learned to use ranged weapons with untold fury. While wielding a blaster with which you are proficient, you gain the following benefits:
 - When making a ranged weapon attack while within 30 feet of your target, you use your choice of Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 - When you use a blaster as an improvised weapon, you are considered proficient with it.
 
@@ -111,7 +112,7 @@ Starting at 10th level, when you are hit with an attack by a creature within 30 
 <div style='margin-top:28px'></div>
 
 ### Brawn
-At 14th level, when you use the burst property of a blaster with which are you proficient, you can apply your rage damage bonus to every target that takes damage. Additionally, when a creature fails the saving throw against your burst property, it is knocked prone.
+At 14th level, when you use the burst property of a blaster with which are you proficient, you can apply your rage damage bonus to every target that takes damage. Additionally, when a creature fails the saving throw against your burst or rapid property, it is knocked prone.
 
 <img src='https://www.gmbinder.com/images/ahaCpxp.png' style='position:absolute;bottom:-16px;right:-48px;width:600px;z-index:1000;' />
 
@@ -2269,7 +2270,7 @@ Once per turn, when you would make a weapon attack or unarmed strike, you can in
 ### Disruptive Shock
 At 6th level, once per turn, when you hit a<br> creature with a melee weapon attack when<br> you have advantage, or it fails a saving<br> throw against an effect that you control,<br> you can choose to roll a Martial Arts die and<br> deal additional psychic damage equal to the<br> amount rolled. 
 
-You can use this feature a number of times<br> equal to your Wisdom or Charisma modifier<br> (your choice, a minimum of once). You regain any expended uses when you finish a<br>short or long rest.
+You can use this feature a number of times<br> equal to your Wisdom or Charisma modifier<br> (your choice, a minimum of once). You regain any expended uses when you finish a<br> short or long rest.
 
 ### One With Darkness
 Starting at 11th level, you<br> have learned to become<br> one with the shadows.<br> When you are in an<br> area of dim light<br> or darkness, you<br> can use your<br> action to<br> become<br> invis-<br>ible. You<br> remain invisible until you make an<br> attack, cast a power, or are in an area of bright light.
@@ -2725,6 +2726,57 @@ At 17th level, you have advantage on death saving throws.
 Additionally, when you are stabilized, you regain 1 hit point. Once you've used this feature, you can't use it again until you finish a short or long rest.
 
 <img src='https://www.gmbinder.com/images/RVsg9S7.png' style='position:absolute;bottom:22px;right:-70px;width:590px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
+
+\pagebreak
+
+## Scrapper Practice
+Those operatives who choose the Scrapper Practice don't have the time or patience for the fair fight. They utilize close-quarters blaster combat blended with underhanded tactics to surprise and disable their foes.
+
+### Back Blast
+When you choose this practice at 3rd level, you gain proficiency in all blasters with the burst or rapid property that lack the two-handed property. Additionally, when a creature fails a saving throw against the burst or rapid property of a weapon you control and with which you are proficient, you can apply your Sneak Attack damage to one creature dealt damage in this way as long as that creature didn't have advantage on the save.
+
+When you reach 9th level in this class, when multiple creatures fail a saving throw against the burst property of a weapon you control and with which you are proficient, you can divide your Sneak Attack dice amongst the targets as you see fit.
+
+### Upper Hand
+Also at 3rd level, you learn to user underhanded tactics to gain the upper hand. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to perform an upper hand technique.
+
+Some of your upper hand techniques require your target to make a saving throw to resist the technique's effects. The saving throw DC is calculated as follows: 
+
+___
+
+<div align="center">
+
+**Upper Hand save DC** = 8 + your proficiency bonus +<br> your Charisma modifier
+
+</div>
+
+___
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+#### Brutal Hit
+You attempt to knock the target prone while within 15 feet of it. The target must make a Strength saving throw or be knocked prone.
+
+#### Low Blow
+You attempt to stun the target while within 15 feet of it. The target must make a Constitution saving throw or be stunned until the start of its next turn.
+
+#### Shank Shot
+You attempt to hamper the target while within 15 feet of it. The target must make a Dexterity saving throw. If it fails, its movement speed is to 0 and it makes Dexterity saving throws with disadvantage until the end of its next turn.
+
+### Sleight of Foot
+Beginning at 9th level, when a creature moves to within 5 feet of you, you can use your reaction to move up to half your speed away from the creature without provoking opportunity attacks. You must end this movement further from the creature than you started.
+
+### Hostile Negotiations
+Starting at 13th level, when you make a Charisma (Intimidation) or Charisma (Persuasion)  check, you gain a bonus to the check equal to half your Dexterity modifier (rounded down) if it doesn't already include that modifier. 
+
+### Double Tap
+&emsp;&emsp;&emsp;At 17th level, you can deal Sneak Attack damage<br> &emsp;&emsp;&emsp;&emsp;&emsp;twice per turn, but you can't deal more than<br> &emsp;&emsp;&emsp;&emsp;&emsp;your total Sneak Attack dice to a single<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;target per turn.
+
+<img src='https://www.gmbinder.com/images/GHT4jiF.png' style='position:absolute;bottom:0px;right:-64px;width:950px;;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
@@ -3470,7 +3522,7 @@ Whenever you attempt to call forth an animal as your companion, you can instead 
 ## Generating Your Beast 
 Choosing your beast companion is an integral part of being a Zoologist Scholar. Your beast takes a form of your choosing. Alternatively, your GM can choose what form your beast takes based on your environment. 
 
-Once you've selected your type of beast, you assign your beast companion's ability scores using standard array (15, 14, 13, 12, 10, 8) as you see fit.
+Once you've selected your type of beast, you assign your beast companion's ability scores using standard array (16, 14, 14, 12, 10, 8) as you see fit.
 
 ___
 
@@ -3492,7 +3544,7 @@ ___
 #### Features
 ___
 - **Armor Class:** 10 + your beast's Dexterity modifier
-- **Bestial Traits:** Your beast companion four bestial traits of your choice. It gains an additional trait at 5th level (5), 11th level (6), and 17th level (7).
+- **Bestial Traits:** Your beast companion three bestial traits of your choice. It gains an additional trait at 5th level (4), 8th level (5), 14th level (6), and 17th level (7).
 - **Combat Traits:** Your beast companion one combat trait of your choice. It gains an additional trait at 11th level.
 - **Natural Weapon:** Your beast companion attacks with a natural weapon, such as claws or a bite. On a hit, it deals 1d4 kinetic damage.
 - **Size:** Tiny
@@ -3692,7 +3744,7 @@ ___
 ___
 - **Armor Class:** Your turret uses its Intelligence score for its Armor Class.
 - **Integrated Weaponry:** Your turret has an integrated vibroweapon and blaster with which it can make weapon attacks. Neither weapon can be removed while your turret is not disabled. Your turret's vibroweapon deals 1d8 kinetic damage on a hit. Your turret's blaster has the ammunition (range 100/400) and reload 20 properties, and it deals 1d6 kinetic or energy damage on it a hit, depending on its loaded ammunition. It can use both slug cartridges and power cells for ammunition. Your turret can't reload itself. You can choose which weapon your turret uses each time it attacks (no action required).
-- **Turret Upgrades:** Your turret companion has four turret upgrades of your choice. It gains an additional upgrade at 5th level (5), 8th level (6), 11th level (7), 14th level (8), and 17th level (7).
+- **Turret Upgrades:** Your turret companion has four turret upgrades of your choice. It gains an additional upgrade at 5th level (5), 8th level (6), 11th level (7), 14th level (8), and 17th level (9).
 - **Size:** Small
 - **Speed:** Your turret has two modes: undeployed and deployed. While undeployed, your turret's speed equals your own and it can take no actions. While deployed, your turret has a speed of 25 feet and can take actions.
 - **Type:** Construct

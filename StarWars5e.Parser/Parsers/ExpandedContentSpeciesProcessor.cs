@@ -314,14 +314,17 @@ namespace StarWars5e.Parser.Parsers
             {
                 switch (specie.Name)
                 {
+                    case "Anzellan":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_anzellan.png");
+                        break;
                     case "Aqualish":
-                        specie.ImageUrls.Add("https://starwars5ecentralcentral.blob.core.windows.net/site-images/species/species_aqualish.png");
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_aqualish.png");
                         break;
                     case "Ardennian":
-                        specie.ImageUrls.Add("https://starwars5ecentralcentral.blob.core.windows.net/site-images/species/species_ardennian.png");
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ardennian.png");
                         break;
                     case "Balosar":
-                        specie.ImageUrls.Add("https://starwars5ecentralcentral.blob.core.windows.net/site-images/species/species_balosar.png");
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_balosar.png");
                         break;
                     case "Barabel":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_barabel.png");
@@ -348,7 +351,7 @@ namespace StarWars5e.Parser.Parsers
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chagrian.png");
                         break;
                     case "Chevin":
-                        specie.ImageUrls.Add("https://starwars5ecentralcentral.blob.core.windows.net/site-images/species/species_chevin.png");
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chevin.png");
                         break;
                     case "Chiss":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chiss.png");
