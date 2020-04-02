@@ -314,6 +314,9 @@ namespace StarWars5e.Parser.Parsers
             {
                 switch (specie.Name)
                 {
+                    case "Aing-Tii":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_aing-tii.png");
+                        break;
                     case "Anzellan":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_anzellan.png");
                         break;
@@ -355,6 +358,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Chiss":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chiss.png");
+                        break;
+                    case "Clawdite":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_clawdite.jpg");
                         break;
                     case "Codru-Ji":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_codru-ji.png");
