@@ -121,14 +121,14 @@ You must meet any prerequisite specified in a feat to take that feat. If you eve
 The feats presented in this chapter should be considered valid options for background feats.
 
 ### Savage Shorty
-*Prerequisite: Strength 13, size Small*<br>
+_**Prerequisite:** Strength 13, size Small_<br>
 Despite being short of stature, your size has no impact on your strength and virility. You gain the following benefits:
 - Increase your Strength score by 1, to a maximum of 20.
 - Your speed increases by 5 feet.
 - You lose the Undersized special trait.
 
 ### Force Guidance
-*Prerequisite: The ability to cast force powers*<br>
+_**Prerequisite:** The ability to cast force powers_<br>
 You've learned to utilize your gift with the Force in a specific, unique way. You gain the following benefits
 - Increase your Wisdom or Charisma score by 1, to a maximum of 20. 
 - Choose a skill or tool in which you are proficient. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
@@ -148,7 +148,7 @@ You've experimented with cybernetic augmentations, granting the following benefi
 _**Prerequisite:** Class I, II, III, IV, or V Droid_<br>
 You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:
 - Increase an ability score of your choice by 1, to a maximum of 20.
-- You lose the Force-Insensitive special trait.
+- You lose the Force Insensitive special trait.
 - You can cast the *sense force* force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
 
 ### Customized Droid
@@ -156,6 +156,13 @@ _**Prerequisite:** Class I, II, III, IV, or V Droid_<br>
 You've been customized beyond other droids of the same model, granting the following benefits: 
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - Choose one droid customization of standard rarity from Appendix A. That customization is installed and doesn't count against the maximum droid customizations you can support, but it does count towards your maximum parts as shown in the Droid Size Maximum Parts table in Chapter 7.
+
+### Geneticist
+
+### Luthier
+- Increased first check made with that instrument by Int mod
+
+### Artillerist
 
 \pagebreakNum
 
@@ -204,3 +211,18 @@ You are talented at brewing and imbibing impairing beverages. You gain the follo
 - Over the course of a short rest, you can improve the potency of an alcoholic beverage within reach. To use this benefit, you must have a brewer's kit, and the beverage must be within reach. 
 
 \pagebreakNum
+
+### Tiny Terror
+_**Prerequisite:** Strength 13, size Tiny_<br>
+Despite falling below knee height of other species, your size has less impact on your strength and virility. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20.
+- Your speed increases by 5 feet.
+- You lose the Pintsized special trait, and you are no longer limited to +3 when determing your bonus to attack and damasge rolls for weapon attacks using Strength due to the Puny special trait.
+- You gain the Undersized special trait
+
+> ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can’t use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two-hands.
+
+### Feigned Confidence
+You've spent years pretending you know what you're doing, gaining the following benefits:
+- Increase your Charisma score by 1, to a maximum of 20.
+- When you would make an ability check that doesn't add your proficiency bonus, you can first make a DC 15 (Charisma) Deception check. On a success, you can add your proficiency bonus to the check. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.

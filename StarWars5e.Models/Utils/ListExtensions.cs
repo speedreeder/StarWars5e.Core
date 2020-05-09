@@ -32,5 +32,11 @@ namespace StarWars5e.Models.Utils
 
             return index;
         }
+
+        public static List<int> FindAllIndexOf<T>(this List<T> source, Predicate<T> match)
+        {
+            return source.Select((value, index) => match(value) ? index : -1)
+                .Where(index => index != -1).ToList();
+        }
     }
 }

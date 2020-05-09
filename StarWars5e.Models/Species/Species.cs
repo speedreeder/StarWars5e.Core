@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 using StarWars5e.Models.Monster;
 
@@ -48,6 +50,21 @@ namespace StarWars5e.Models.Species
         {
             get => HalfHumanTableEntries == null ? "" : JsonConvert.SerializeObject(HalfHumanTableEntries);
             set => HalfHumanTableEntries = JsonConvert.DeserializeObject<Dictionary<string, string>>(value);
+        }
+
+        [IgnoreProperty]
+        public List<Feature> Features { get; set; }
+        private List<string> _featureRowKeys;
+        public List<string> FeatureRowKeys
+        {
+            get => Features?.Select(f => f.RowKey).ToList();
+            set => _featureRowKeys = value;
+        }
+
+        public string FeatureRowKeysJson
+        {
+            get => FeatureRowKeys == null ? "" : JsonConvert.SerializeObject(FeatureRowKeys);
+            set => FeatureRowKeys = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }

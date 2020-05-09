@@ -356,6 +356,9 @@ namespace StarWars5e.Parser.Parsers
                     case "Chevin":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chevin.png");
                         break;
+                    case "Chironian":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chironian.png");
+                        break;
                     case "Chiss":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chiss.png");
                         break;
@@ -364,6 +367,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Codru-Ji":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_codru-ji.png");
+                        break;
+                    case "Colicoid":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_colicoid.png");
                         break;
                     case "Dashade":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_dashade.png");
@@ -409,6 +415,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Felucian":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_felucian.png");
+                        break;
+                    case "Flesh Raider":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_fleshRaider.png");
                         break;
                     case "Gamorrean":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gamorrean.png");
@@ -526,6 +535,9 @@ namespace StarWars5e.Parser.Parsers
                         break;
                     case "Quarren":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_quarren.png");
+                        break;
+                    case "Rakata":
+                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rakata.png");
                         break;
                     case "Rattataki":
                         specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rattataki.png");

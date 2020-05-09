@@ -14,7 +14,7 @@ Your class gives you a variety of special features, such as a fighter's mastery 
 
 Adventurers sometimes advance in more than one class. An operative might switch direction in life and become an engineer. A berserker might discover latent force sensitivity and dabble in the guardian class while continuing to advance as a berserker. Sith purebloods are known to combine martial mastery with force training and advance as fighters and consulars simultaneously. Optional rules for combining classes in this way, called multiclassing, appear in chapter 6.
 
-> Many classes and subclass add material costs to obtain features integral to the class while most others don't. Your GM can choose to waive the time and cost component if they choose to do so.
+> Many classes and archetypes add material costs to obtain features integral to the class while most others don't. Your GM can choose to waive the time and cost component if they choose to do so.
 >
 > Additionally, certain classes and subclasses will often find themselves with a singular force or tech point, with which they can do nothing. Any character with the force- or tech-casting feature also gains the following feature:
 > 
@@ -376,8 +376,8 @@ Casting force powers during rage counts as attacking for the purposes of maintai
 |14th|15|14|3rd|
 |15th|16|15|3rd|
 |16th|17|16|3rd|
-|17th|18|17|3rd|
-|18th|18|18|3rd|
+|17th|18|17|4th|
+|18th|18|18|4th|
 |19th|19|19|4th|
 |20th|19|20|4th|
 
@@ -1273,12 +1273,16 @@ You modify your weapon to be more effective against barriers. Your weapon deals 
 #### Shock Absorber
 You add a reclamation device to your modified weapon to gather energy from the surroundings when it is present. While wielding your modified weapon, you can cast the _absorb energy_ tech power and the power's extra damage applies to both melee and ranged weapon attacks.
 
-\columnbreak
-
 #### Shock Harpoon
 _**Prerequisite:** 9th level_<br>
 _**Prerequisite:** Harpoon Reel_<br>
-After hitting a creature with the harpoon fire mode, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target as if you were standing in the target's space. If the power requires a saving throw, the target has disadvantage. 
+After hitting a creature with the harpoon fire mode, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target as if you were standing in the
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+target's space. If the power requires a saving throw, the target has disadvantage. 
 
 Once you've used this feature, you can't use it again until you recover the harpoon.
 
@@ -1291,6 +1295,10 @@ Once you've used this feature, you must complete a long rest before you can use 
 #### Snap Fire
 _**Prerequisite:** 9th level, Blaster_<br>
 You modify your modified blaster weapon for quick shots. You can use your reaction to take a opportunity attack with your modified weapon if an enemy comes within 10 feet of you. You have disadvantage on this attack. 
+
+#### Stabilizer Cell
+_**Prerequisite:** Vibroweapon with the dexterity property_<br>
+You install a stabilizer cell in your modified vibroweapon, removing the dexterity property from it.
 
 #### Staggering Oscillator
 _**Prerequisite:** Vibroweapon_<br>
@@ -1330,13 +1338,13 @@ Also at 3rd level, you learn to employ all the knowledge you've accumulated to c
 
 Choose your droid, which is detailed at the end of this discipline. Over the course of 8 hours, which can be done during a long rest, you can expend 500 cr worth of materials to finally finish your droid.
 
-If your droid is irreparable destroyed, or you want to interface with a different droid, you can spend an additional 250 credits and 1 hour to change the target of this feature. You may only have one droid companion at a time.
+If your droid is irreparably destroyed, or you want to interface with a different droid, you can spend an additional 250 credits and 1 hour to change the target of this feature. You may only have one droid companion at a time.
 
 Your droid gains a variety of benefits while it is interfaced with you:
-- The droid obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your droid acts on its own.
+- The droid obeys your commands as best it can. It acts on your turn, and you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your droid acts on its own.
 - Your droid's level equals your engineer level, and for each engineer level you gain after 3rd, your droid companion gains an additional Hit Die and increases its hit points accordingly.
 - Your droid has the proficiency bonus of a player character of the same level.
-- Whenever you gain the Ability Score Improvement class feature, your droid's abilities also improve. Your droid can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your droid can't increase an ability score above 20 using this feature unless its description specifies otherwise.
+- Whenever you gain the Ability Score Improvement feature in this class, your droid's abilities also improve. Your droid can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your droid can't increase an ability score above 20 using this feature unless its description specifies otherwise.
 - Your droid can not wear armor, but you can have the armor professionally integrated into its chassis. Over the course of a long rest, you can expend materials equal to half the cost of the armor in order to integrate it into your droid. Your droid must be proficient in armor in order to have it integrated.
 - Your droid is a valid target of the *tracker droid interface* tech power.
 
@@ -1364,6 +1372,166 @@ Starting at 18th level, whenever an<br> attacker that your droid can see<br> hit
 
 \pagebreakNum
 
+## Generating Your Droid 
+Choosing your droid companion is an integral part of being an Astrotech Engineer. The class of droid you choose determines their features. Class II, III, and IV droids are all appropriate options, with their statistics listed below.
+
+Once you've selected your type of droid class, you assign your droid's ability scores using standard array (16, 14, 14, 12, 10, 8) as you see fit.
+___
+
+## Droid Features
+All droids share the following features.
+
+#### Resistances and Vulnerabilities
+___
+- **Droid Resistances:** Your droid is resistant to necrotic, poison, and psychic damage, and immune to poison and disease.
+- **Droid Vulnerabilities:** Your droid is vulnerable to ion damage. Additionally, your droid has disadvantage on saving throws against effects that would deal ion or lightning damage.
+
+#### Traits
+___
+- **Creature Type:** Droid
+- **Armor Integration:** Your droid can not wear armor, but you can have the armor professionally integrated into its chassis. Over the course of a long rest, you can expend materials equal to half the cost of the armor in order to have it integrated. This work must be done by someone proficient with astrotech's tools. Your droid must be proficient in armor in order to have it integrated.
+
+## Class I Droid 
+Class I droids are programmed for the mathematical, medical, or physical sciences. Subcategories of the first degree are medical droids, biological science droids, physical science droids, and mathematics droids.
+
+As a class I droid, your droid companion has the following features.
+
+#### Hit Points
+___
+- **Hit Dice:** 1d8 per class I droid level
+- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class I droid level after 1st
+
+#### Proficiencies
+___
+- **Armor:** Light armor plating
+- **Weapons:** Simple blasters, simple vibroweapons
+- **Tools:** None
+___
+- **Languages:** Class I droids can speak, read, and write Galactic Basic and one language of your choice. They can understand spoken and written Binary, but can not speak it
+- **Saving Throws:** Wisdom, Intelligence
+- **Skills:** Two Intelligence, Wisdom, or Charisma skills of your choice
+
+#### Features
+___
+- **Size:** Medium
+- **Speed:** 25 ft.
+
+\columnbreak
+
+## Class II Droid 
+Class II droids are programmed for engineering and other technical sciences. They differ from class I droids because they apply the science to real-life situations. Class II droids are rarely equipped with Basic vocabulators, instead communicating through Binary. There are five subcategories of class II droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class II
+droids.
+
+As a class II droid, your droid companion has the following features.
+
+#### Hit Points
+___
+- **Hit Dice:** 1d6 per class II droid level
+- **Hit Points at 1st Level:** 6 + your droid's Constitution modifier
+- **Hit Points at Higher Levels:** 1d6 (or 4) + your droid's Constitution modifier per class II droid level after 1st
+
+#### Proficiencies
+___
+- **Armor:** Light armor, medium armor 
+- **Weapons:** Simple blasters and simple vibroweapons with the light property
+- **Tools:** Your choice of demolition's kit, security kit, or slicer's kit
+___
+- **Languages:** Class II droids can speak, read, and write Binary. They can understand spoken and written Galactic Basic and one language of your choice, but can not speak it
+- **Saving Throws:** Dexterity, Intelligence
+- **Skills:** Two of your choice
+
+#### Features
+___
+- **Size:** Small
+- **Speed:** 25 ft.
+
+## Class III Droid 
+Class III droids are programmed to interact with humans. They are said to be the most advanced droids ever invented. Protocol, servant, tutor, and child care droids are all class III droids.
+
+As a class III droid, your droid companion has the following features.
+
+#### Hit Points
+___
+- **Hit Dice:** 1d8 per class III droid level
+- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class III droid level after 1st
+
+#### Proficiencies
+___
+- **Armor:** Light armor
+- **Weapons:** Simple blasters, simple vibroweapons
+- **Tools:** None
+___
+- **Languages:** Class III droids can speak and understand all registered languages
+- **Saving Throws:** Wisdom, Charisma
+- **Skills:** None
+
+#### Features
+___
+- **Size:** Medium
+- **Speed:** 25 ft.
+
+<div class='footnote'>CHAPTER 3 | CLASSES</div>
+
+\pagebreakNum
+
+## Class IV Droid
+Class IV droids are programmed for military and security purposes. Such droids tend to perform tasks of violence or combat might be expected. Almost all class IV droids carry weapons. Armed combat droids are among the first droids ever created. Security, gladiator, battle, and assassin droids are all class IV droids.
+
+As a class IV droid, your droid companion has the following features.
+
+#### Hit Points
+___
+- **Hit Dice:** 1d8 per class IV droid level
+- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class IV droid level after 1st
+
+#### Proficiencies
+___
+- **Armor:** All armor
+- **Weapons:** All blasters, All vibroweapons
+- **Tools:** None
+___
+- **Languages:** Class IV droids can speak, read, and write Galactic Basic and one language of your choice. They can understand spoken and written Binary, but can not speak it
+- **Saving Throws:** Strength, Dexterity
+- **Skills:** None
+
+#### Features
+___
+- **Size:** Medium
+- **Speed:** 30 ft.
+
+## Class V Droid
+Class V droids are programmed for menial and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation.
+
+As a class V droid, your droid companion has the following features.
+
+#### Hit Points
+___
+- **Hit Dice:** 1d8 per class V droid level
+- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class V droid level after 1st
+
+#### Proficiencies
+___
+- **Armor:** Light armor, medium armor
+- **Weapons:** All vibroweapons, simple blasters
+- **Tools:** One set of artisan's tools
+___
+- **Languages:** Class V droids can speak, read, and write Binary. They can understand spoken and written Galactic Basic and one language of your choice, but can not speak it
+- **Saving Throws:** Strength, Constitution
+- **Skills:** Athletics
+
+#### Features
+___
+- **Size:** Medium
+- **Speed:** 30 ft.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
 ### Astrotech Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
 
@@ -1373,8 +1541,8 @@ You greatly improve the power core of your droid. Its Hit Die becomes a d12.
 
 #### Alarm Protocol
 You install an alarm module in your droid, granting the following benefits:
-- Your droid gains a +5 bonus to initiative.
-- You can't be surprised while your droid is conscious.
+- Your droid grants a +5 bonus to initiative to creatures within 5 feet of it.
+- You and your droid can't be surprised while your droid is conscious.
 
 #### Analysis Protocol
 _**Prerequisite:** 7th level, Class I Droid_<br>
@@ -1393,14 +1561,14 @@ You install an emergency protocol in your droid, prompting a quick reboot after 
 
 Once your droid uses this feature, it must finish a short or long rest before it can use it again.
 
+<div class='footnote'>CHAPTER 3 | CLASSES</div>
+
+\pagebreakNum
+
 #### Celerity Augment
 You augment your droid to move a little faster. Your droid's speed increases by 5 feet.
 
 You can choose this modification twice.
-
-\columnbreak
-
-<div style='margin-top:23px'></div>
 
 #### Charisma Chip
 _**Prerequisite:** Class III Droid_<br>
@@ -1423,15 +1591,13 @@ You can choose this modification multiple times. Each time you do so, the energy
 
 #### Expertise Protocol
 _**Prerequisite:** 5th level_<br>
-You install a protocol in your droid that grants it expertise in a skill. Choose a skill that your droid is proficient in. Your droid gains expertise in it.
+You install a protocol in your droid that grants it expertise in a tool or skill. Choose a tool or skill that your droid is proficient in. Your droid gains expertise in it.
 
 #### False Combustion
 _**Prerequisite:** Class II Droid_<br>
 You install a panic protocol in your droid. As a reaction in response to taking damage, your droid can feign an explosion. For 1 minute, your droid appears to be destroyed to all outward inspection. A creature can use its action to inspect the droid and make an Intelligence (Investigation) check against your droid's tech save DC (8 + your droid's proficiency bonus + your droid's Intelligence modifier). If it succeeds, it becomes aware that your droid is still functioning.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
-
-\pagebreakNum
+\columnbreak
 
 #### Fighting Style Protocol
 Your droid adopts a particular style of fighting as its specialty. Choose one of the Fighting Style options, detailed in chapter 6. Your droid can't take a Fighting Style option more than once, even if it later gets to choose again.
@@ -1460,7 +1626,9 @@ Your droid has martial training that allows it to perform special combat maneuve
 - It learns two maneuvers of your choice from among those available to the fighter class. If a maneuver it uses requires its target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your droid's proficiency bonus + your droid's Strength or Dexterity modifier (your choice).
 - Your droid has two superiority dice, which are d4s. These dice are used to fuel its maneuvers. A superiority die is expended when your droid uses it. It regain all of its expended superiority dice when you finish a short or long rest.
 
-\columnbreak
+<div class='footnote'>CHAPTER 3 | CLASSES</div>
+
+\pagebreakNum
 
 #### Medium Plating
 _**Prerequisite:** Light Armor proficiency_<br>
@@ -1497,11 +1665,7 @@ You improve the power core of your droid. Its Hit Die becomes a d8.
 #### Proficiency Protocol
 You install a protocol in your droid that grants it proficiency in a tool or skill. Your droid gains proficiency in a tool or skill of your choice.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
-
-\pagebreakNum
-
-<div style='margin-top:28px'></div>
+\columnbreak
 
 #### Prototype Power Core
 _**Prerequisite:** d8 Hit Die_<br>
@@ -1509,7 +1673,7 @@ You further improve the power core of your droid. Its Hit Die becomes a d10.
 
 #### Repulsor Coil
 _**Prerequisite:** 7th level, Class II Droid_<br>
-You install repulsor coils in your droid's legs. Your droid gains a flight speed equal to its walking speed.
+You install repulsor coils in your droid's legs. Your droid gains a flying speed equal to its walking speed.
 
 #### Sensor Augmentation
 You augment your droid with an advanced sensor, granting the following benefits:
@@ -1519,7 +1683,7 @@ You augment your droid with an advanced sensor, granting the following benefits:
 - Your droid can search for traps while traveling at a normal pace, instead of only at a slow pace.
 
 #### Stun Ray
-You install a stun ray in your droid. The stun ray has 1 charge. As an action, your droid can use 1 charge to cast the *hold droid* or *paralyze humanoid* tech power. The saving throw is made against your droid's tech save DC (8 + Intelligence + proficiency).
+You install a stun ray in your droid. The stun ray has 1 charge. As an action, your droid can use 1 charge to cast the *hold droid* or *paralyze humanoid* tech power. The saving throw is made against your droid's tech save DC (8 + your droid's proficiency bonus + your droid's Intelligence modifier).
 
 You can choose this modification multiple times. Each time you do so, the stun ray gains another charge, to a maximum of 3. The stun ray regains all expended charges after a long rest.
 
@@ -1532,175 +1696,6 @@ _**Prerequisite:** Durability Module_<br>
 You modify the durability module in your droid, granting the following benefit:
 - Your droid becomes proficient in Constitution saving throws. If it is already proficient, it becomes proficient in another saving throw of your choice.
 - Whenever your droid takes the Dodge action in combat, it can spend one Hit Die to heal itself. Roll the die, add its Constitution modifier, and it regains a number of hit points equal to the total (minimum of one).
-
-
-
-\columnbreak
-
-## Generating Your Droid 
-Choosing your droid companion is an integral part of being an Astrotech Engineer. The class of droid you choose determines their features. Class II, III, and IV droids are all appropriate options, with their statistics listed below.
-
-Once you've selected your type of droid class, you assign your droid's ability scores using standard array (15, 14, 13, 12, 10, 8) as you see fit.
-___
-
-<br>
- 
-## Droid Features
-All droids share the following features.
-
-#### Resistances and Vulnerabilities
-___
-- **Droid Resistances:** Your droid is resistant to necrotic, poison, and psychic damage, and immune to poison and disease.
-- **Droid Vulnerabilities:** Your droid is vulnerable to ion damage. Additionally, your droid has disadvantage on saving throws against effects that would deal ion or lightning damage.
-
-#### Traits
-___
-- **Creature Type:** Droid
-
-<br>
-
-## Class I Droid 
-Class I droids are programmed for the mathematical, medical, or physical sciences. Subcategories of the first degree are medical droids, biological science droids, physical science droids, and mathematics droids.
-
-As a class I droid, your droid companion has the following features.
-
-#### Hit Points
-___
-- **Hit Dice:** 1d8 per class I droid level
-- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
-- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class I droid level after 1st
-
-#### Proficiencies
-___
-- **Armor:** Light armor plating
-- **Weapons:** Simple blasters, simple vibroweapons
-- **Tools:** None
-___
-- **Languages:** Class I droids can speak, read, and write Galactic Basic and one language of your choice. They can understand spoken and written Binary, but can not speak it
-- **Saving Throws:** Wisdom, Intelligence
-- **Skills:** Two Intelligence, Wisdom, or Charisma skills of your choice
-
-#### Features
-___
-- **Size:** Medium
-- **Speed:** 25 ft.
-
-\columnbreak
-
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
-
-\pagebreakNum
-
-## Class II Droid 
-Class II droids are programmed for engineering and other technical sciences. They differ from class I droids because they apply the science to real-life situations. Class II droids are rarely equipped with Basic vocabulators, instead communicating through Binary. There are five subcategories of class II droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class II
-droids.
-
-As a class II droid, your droid companion has the following features.
-
-#### Hit Points
-___
-- **Hit Dice:** 1d6 per class II droid level
-- **Hit Points at 1st Level:** 6 + your droid's Constitution modifier
-- **Hit Points at Higher Levels:** 1d6 (or 4) + your droid's Constitution modifier per class II droid level after 1st
-
-#### Proficiencies
-___
-- **Armor:** Light armor, medium armor 
-- **Weapons:** Simple blasters and simple vibroweapons with the light property
-- **Tools:** Your choice of demolition's kit, security kit, or slicer's kit
-___
-- **Languages:** Class II droids can speak, read, and write Binary. They can understand spoken and written Galactic Basic and one language of your choice, but can not speak it
-- **Saving Throws:** Dexterity, Intelligence
-- **Skills:** Two of your choice
-
-#### Features
-___
-- **Size:** Small
-- **Speed:** 25 ft.
-
-<br>
-
-## Class III Droid 
-Class III droids are programmed to interact with humans. They are said to be the most advanced droids ever invented. Protocol, servant, tutor, and child care droids are all class III droids.
-
-As a class III droid, your droid companion has the following features.
-
-#### Hit Points
-___
-- **Hit Dice:** 1d8 per class III droid level
-- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
-- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class III droid level after 1st
-
-#### Proficiencies
-___
-- **Armor:** Light armor
-- **Weapons:** Simple blasters, simple vibroweapons
-- **Tools:** None
-___
-- **Languages:** Class III droids can speak and understand all registered languages
-- **Saving Throws:** Wisdom, Charisma
-- **Skills:** None
-
-#### Features
-___
-- **Size:** Medium
-- **Speed:** 25 ft.
-
-\columnbreak
-
-## Class IV Droid
-Class IV droids are programmed for military and security purposes. Such droids tend to perform tasks of violence or combat might be expected. Almost all class IV droids carry weapons. Armed combat droids are among the first droids ever created. Security, gladiator, battle, and assassin droids are all class IV droids.
-
-As a class IV droid, your droid companion has the following features.
-
-#### Hit Points
-___
-- **Hit Dice:** 1d8 per class IV droid level
-- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
-- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class IV droid level after 1st
-
-#### Proficiencies
-___
-- **Armor:** All armor
-- **Weapons:** All blasters, All vibroweapons
-- **Tools:** None
-___
-- **Languages:** Class IV droids can speak, read, and write Galactic Basic and one language of your choice. They can understand spoken and written Binary, but can not speak it
-- **Saving Throws:** Strength, Dexterity
-- **Skills:** None
-
-#### Features
-___
-- **Size:** Medium
-- **Speed:** 30 ft.
-
-<br>
-
-## Class V Droid
-Class V droids are programmed for menial and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation.
-
-As a class V droid, your droid companion has the following features.
-
-#### Hit Points
-___
-- **Hit Dice:** 1d8 per class V droid level
-- **Hit Points at 1st Level:** 8 + your droid's Constitution modifier
-- **Hit Points at Higher Levels:** 1d8 (or 5) + your droid's Constitution modifier per class V droid level after 1st
-
-#### Proficiencies
-___
-- **Armor:** Light armor, medium armor
-- **Weapons:** All vibroweapons, simple blasters
-- **Tools:** One set of artisan's tools
-___
-- **Languages:** Class V droids can speak, read, and write Binary. They can understand spoken and written Galactic Basic and one language of your choice, but can not speak it
-- **Saving Throws:** Strength, Constitution
-- **Skills:** Athletics
-
-#### Features
-___
-- **Size:** Medium
-- **Speed:** 30 ft.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -2029,8 +2024,8 @@ Beginning at 7th level, you learn how to inspire your allies to fight on past th
 | 14th |  9 |  7 | 3rd |
 | 15th | 10 |  8 | 3rd |
 | 16th | 10 |  8 | 3rd |
-| 17th | 11 |  9 | 3rd |
-| 18th | 11 |  9 | 3rd |
+| 17th | 11 |  9 | 4th |
+| 18th | 11 |  9 | 4th |
 | 19th | 12 | 10 | 4th |
 | 20th | 12 | 10 | 4th |
 
@@ -2206,8 +2201,8 @@ ___
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* a lightweapon or vibroweapon and a light or medium shield or *(b)* two lightweapons or vibroweapons
-- *(a)* combat suit and a light shield or *(b)* mesh armor
+- *(a)* a lightweapon or vibroweapon and a light or medium physical shield or *(b)* two lightweapons or vibroweapons
+- *(a)* combat suit and a light physical shield or *(b)* mesh armor
 - *(a)* a priest's pack or *(b)* an explorer's pack
 
 #### Variant: Starting Wealth 
@@ -2727,7 +2722,7 @@ Beginning when you choose this order at 3rd level, your special martial arts tra
 Choose two types of weapons to be your Echani weapons: one vibroweapon and one blaster. Each of these weapons can be any simple or martial weapon that lacks the special property. You gain proficiency with these weapons if you don't already have it. Weapons of the chosen types are monk weapons for you. Many of this tradition's features work only with your Echani weapons. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon to be an Echani weapon for you, following the criteria above.
 
 #### Agile Parry
-If you make an unarmed strike as part of the Attack action on your turn and are holding a Echani weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't incapacitated.
+If you make an unarmed strike as part of the Attack action on your turn and are holding an Echani weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't incapacitated.
 
 #### Echani's Shot
 You can use a bonus action on your turn to make your ranged attacks with an Echani weapon more deadly. When you do so, any target you hit with a ranged attack using an Echani weapon takes an extra 1d4 damage of the weapon's type. You retain this<br> benefit until the end of the current turn.
@@ -2908,7 +2903,7 @@ ___
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 - *(a)* a vibrorapier, *(b)* a hidden blade, *(c)* a simple blaster and a power cell, or *(d)* a simple vibroweapon
-- *(a)* a simple blaster and two power cells or *(b)* a simple vibroweapon and a light shield
+- *(a)* a simple blaster and two power cells or *(b)* a simple vibroweapon and a light physical shield
 - *(a)* a burglar's pack, *(b)* a dungeoneer's pack, or *(c)* an explorer's pack
 - A tool with which you are proficient
 - Combat suit and a vibrodagger
@@ -3044,6 +3039,38 @@ When you choose this practice at 3rd level, you gain proficiency with the disgui
 ### Assassinate
 Also at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. Additionally, any hit you score against a creature that is surprised is a critical hit.
 
+### Lethal Strikes
+Lastly at 3rd level, you learn how to read your foes and strikes their weak points. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a lethal strike. 
+
+Some of your lethal strikes require your target to mak ea saving throw to resist the lethal strike's effects. The saving throw DC is calculated as follows: 
+
+___
+
+<div align="center">
+
+**Lethal Strike save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
+
+</div>
+
+___
+
+#### Priming Attack
+You attempt to prime the target. The target must make a Dexterity, Constitution, or Wisdom saving throw (your choice). On a failed save, the next time you deal Sneak Attack damage against the target before the end of your next turn, you roll four additional Sneak Attack dice.
+
+#### Target Assessment
+You attempt to infer crucial details about your foe. The creature must make a Charisma saving throw. On a failed save, the GM tells you two of the following characteristics of your choice:
+- Highest ability score
+- Lowest ability score
+- Strongest saving throw
+- Weakest saving throw
+
+#### Vulnerable Strike
+You attempt to stagger the target. The target must make a Wisdom saving throw. On a failed save, the next time you would make an attack roll against the target before the end of your next turn, you can instead force the target to make a saving throw with the ability score of your choice. On a failed save, the creature takes normal weapon damage and you can apply your Sneak Attack dice to the roll.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
 ### Poisoner
 Beginning at 9th level, you are a master of poisons. You can apply a poison as a bonus action, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal the application of poisons. 
 
@@ -3055,124 +3082,76 @@ Starting at 13th level, you gain the ability to unerringly mimic another person'
 Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.
 
 ### Death Strike
-At 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier). On a failed save, double the damage of your  attack against the creature.
+At 17th level, you become a<br> master of instant<br> death. When you<br> deal weapon<br> damage to a<br> creature that is<br> surprised, it must<br> make a Constitution<br> saving throw against<br> your lethal strike<br> save DC. On a <br>failed save, double<br> the damage of<br> your attack against<br> the creature.
 
-<img src='https://www.gmbinder.com/images/I1BaV1C.png' style='position:absolute;bottom:6px;right:-300px;width:1000px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/I1BaV1C.png' style='position:absolute;bottom:17px;right:-50px;width:545px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
 \pagebreakNum
 
-## Saboteur Practice
-Those operatives who choose the Saboteur<br> Practice enhance their fine-honed skills of<br> stealth and agility with tech, learning tricks<br> to distract and beguile or using explosives<br> and advanced technology to sustain a<br> longer assault.
+<style>
+  .phb#p57:after { display:none; }
+</style>
 
-\columnbreak
+<img src='https://www.gmbinder.com/images/QPI1hht.jpg' class='cover-image' style="position:absolute; left:0px; width:900px;" />
 
-<div style='margin-top:26px'></div>
+\pagebreak
 
-### Techcasting
-When you choose this practice at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
+## Sharpshooter Practice
+Those operatives who choose the Sharpshooter Practice are bringers of death. Striking from a safe distance, the Sharpshooter uses precision shooting to control the battlefield and bring targets down quickly.
 
-#### Tech Powers Known
-You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+### Assume the Position
+Beginning at 3rd level, you don't need advantage on your attack roll to use your Sneak Attack if your target is greater than 30 feet from you and no enemies are within 5 feet of you. In addition, standing up from prone now only costs 5 feet of movement.
 
-#### Tech Points
-You have a number of tech points equal to half of your operative level (rounded up), as shown in the Tech Points column of the Saboteur Practice Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
+Additionally, you gain proficiency with two martial blasters of your choice.
 
-#### Max Power Level
-Many tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Saboteur Practice Techcasting table.
+### Place Shot
+Also at 3rd level, you perfect the art of placing distant shots for maximum effectiveness in debilitating and controlling your enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a placed shot. 
 
-You may only cast tech powers at 4th-level once. You regain the ability to do so after a long rest.
-
-#### Techcasting Ability
-Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.
+Some of your placed shots require your target to make a saving throw to resist the placed shot's effects. The saving throw DC is calculated as follows: 
 
 ___
 
 <div align="center">
 
-**Tech save DC** = 8 + your proficiency bonus + <br>your Intelligence modifier
-
-___
-
-**Tech attack modifier** = your proficiency bonus + <br>your Intelligence modifier
+**Placed Shot save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
 
 </div>
 
 ___
 
-#### Techcasting Focus
-You use a wristpad (found in chapter 5) as a techcasting focus for your tech powers.
+#### Disarming Shot
+You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it's holding. The object lands at its feet.
+
+#### Penetrating Shot
+You attempt to damage another target with the same attack. Choose a second target within 15 feet of and directly behind your initial target. If the original attack roll would hit the second target, it takes two dice worth of Sneak Attack damage.
+
+The damage is of the same type dealt by the original attack.
+
+#### Suppressive Shot
+You attempt to pin the target to its location. The<br> target must succeed on a Wisdom saving throw<br> or be frightened of you until the end of its<br> next turn.
+
+### Head Shot
+At 9th level, you are at your<br> deadliest when your enemies<br> are unaware of the danger<br> they are in. You have advantage on attack rolls<br> against any creature that hasn't taken a turn in<br> combat yet. 
+
+Additionally, any hit you score against a<br> creature that is surprised is a critical hit.
 
 \columnbreak
 
-<img src='https://www.gmbinder.com/images/sXbGgBh.png' style='position:absolute;bottom:28px;left:15px;width:420px;z-index:1000;' />
+<div style='margin-top:28px'></div>
+
+### Distracting Shot
+Starting at 13th level, you are able to defend your compatriots from afar. When a friendly creature you can see within your weapon's normal range is the target of a ranged attack, or forced to make a saving throw, and the source of the effect is within your weapon's normal range, you can use your reaction to make a ranged weapon attack against the source. On a hit, instead of dealing damage, the target of your attack has disadvantage on the attack roll against your ally, or your ally has advantage on the saving throw to resist the effect.
+
+### Double Tap
+At 17th level, you've learned to capitalize when you have the advantage. When you take the Attack action and make an attack with advantage, you can choose to forgo the advantage. If you do, you can make an additional attack against the target or another creature within 5 feet of it (no<br> action required).<br> Both attacks can<br> benefit from your <br>Sneak Attack<br> damage, instead of<br> only one.
+
+<img src='https://www.gmbinder.com/images/PdcqYka.png' style='position:absolute;bottom:7px;right:50px;width:544px;transform:scalex(-1);z-index:1000' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
-\pagebreakNum
-
-### Tracker Droid Improvements
-Also at 3rd level, you can cast the *tracker droid interface* tech power at 1st-level without expending tech points. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.
-
-Additionally, when you cast the *tracker droid interface* tech power, you can modify the tracker droid, and you can perform the following additional tasks with it:
-- You can make the tracker droid invisible.
-- You can stow one object the tracker droid is carrying in a container worn or carried by another creature.
-- You can retrieve an object in a container worn or carried by another creature.
-- You can use demolitions kits, security kits, and slicer's kits at range.
-
-You can perform one of these tasks without being noticed by a creature if your tracker droid succeeds on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.
-
-### Powered Ambush
-Beginning at 9th level, if you are hidden from a creature when you cast a power on it, the creature has disadvantage on any saving throw it makes against the power this turn.
-
-### Explosive Retribution
-Starting at 13th level, as a bonus action on your turn, or as a reaction when the target of your *tracker droid interface* is reduced to 0 hit points, you can detonate your tracker droid. Each creature within 10 feet of the tracker droid must make a Dexterity saving throw against your tech save DC. A creature takes 4d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted.
-
-Once you've detonated the target of your *tracker droid interface*, it is rendered useless until you repair it over the course of a long rest.
-
-\columnbreak
-
-<div class='classTable'>
-
-##### Saboteur Practice Techcasting
-| Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
-|:---:|:---:|:---:|:---:|
-|  3rd |  4 |  2 | 1st |
-|  4th |  4 |  2 | 1st |
-|  5th |  5 |  3 | 1st |
-|  6th |  5 |  3 | 1st |
-|  7th |  6 |  4 | 2nd |
-|  8th |  6 |  4 | 2nd |
-|  9th |  7 |  5 | 2nd |
-| 10th |  7 |  5 | 2nd |
-| 11th |  8 |  6 | 2nd |
-| 12th |  8 |  6 | 2nd |
-| 13th |  9 |  7 | 3rd |
-| 14th |  9 |  7 | 3rd |
-| 15th | 10 |  8 | 3rd |
-| 16th | 10 |  8 | 3rd |
-| 17th | 11 |  9 | 3rd |
-| 18th | 11 |  9 | 3rd |
-| 19th | 12 | 10 | 4th |
-| 20th | 12 | 10 | 4th |
-
-</div> 
-
-### Sabotage
-At 17th level, you gain the ability to sabotage a tech power in the process of being cast When a hostile creature casts a tech power, and you are the target of the tech power or within its area of effect, you can use your reaction to force that creature to make an Intelligence saving throw against your tech save DC. On a successful save, the power is cast as normal.
-
-On a failed save, you negate the power's effects, and the caster takes 1d6 lightning damage per level of the power it was casting. Additionally, on a failed save, the caster's tech focus used to cast the tech power is overloaded and can't be used to cast tech powers for 1 minute. 
-
-At the end of each of the caster's turns, it can repeat the Intelligence saving throw. On a success, it can use the tech focus to cast tech powers again.
-
-Once you've used this feature, you can't use it again until you finish a long rest.
-
-<img src='https://www.gmbinder.com/images/00dWhOj.png' style='position:absolute;bottom:-10px;left:0px;width:700px;' />
-
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
-
-\pagebreakNum
+\pagebreak
 
 ## Scholar
 <span style="font-variant: small-caps">An overwhelming horde of tusken raiders bears down on a</span> chiss and her fellow adventurers. She gives the order and her allies unleash a single coordinated attack cutting deep into their lines. Under her command the enemy is quickly routed against all odds, all according to plan.
@@ -3957,9 +3936,9 @@ Beginning at 1st level, you learn to react with swift and decisive action in com
 ### Ranger's Quarry
 Also 1st level, you learn how to effectively read and track your prey. On your turn, you can choose a creature you can see within 90 feet and mark it as your quarry (no action required). For the next 10 minutes, you gain the following benefits:
 - Once per round, when you hit the target with a weapon attack, you can deal 1d4 additional damage to it of the same type as the weapon's damage. This die changes as you gain scout levels, as shown in the Ranger's Quarry Damage Die column of the scout class table.
-- You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it while it's on the same planet as you. 
+- You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it while it's on the same planet as you.
 
-You can use this feature a number of times equal to your Intelligence modifier. You regain all expended uses when you finish a short or long rest.
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
 
 Starting at 9th level, you can expend two uses of this feature to extend the duration to 8 hours. At 17th level, you can expend three uses to extend the duration to 24 hours.
 
@@ -4125,7 +4104,7 @@ When you hit a creature with a ranged weapon attack, you can expend one superior
 When you hit a creature with a weapon attack, you can expend a superiority die and deal additional damage equal to the number rolled. This damage cannot be reduced in any way.
 
 #### Penetrating Shot
-When you hit a creature with a ranged weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose up to two creatures within 15 feet of and directly behind your initial target. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die.
+When you hit a creature with a ranged weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose up to two creatures within 15 feet of and directly behind your initial target. If the original attack roll would hit the second creature(s), it takes damage equal to the number you roll on your superiority die.
 
 The damage is of the same type dealt by the original attack.
 
@@ -4542,6 +4521,8 @@ At 18th level, when a creature hits you with an attack while within 5 feet of yo
 
 <img src='https://www.gmbinder.com/images/7vgeb0Z.png' style='position:absolute;bottom:7.5px;left:-220px;width:960px;;z-index:1000;' />
 
+<br>
+
 \columnbreak
 
 ## Path of Focus
@@ -4554,7 +4535,7 @@ Starting when you choose this calling at 3rd level, you learn the *burst* force 
 Also at 3rd level, when you deal damage to a creature within 5 feet of you, you can move up to 10 feet without provoking opportunity attacks.
 
 ### Blade Storm
-At 7th level, your bursts become even more overwhelming. Once on your turn, when a creature takes damage from you twice, you can immediately make one additional attack against that creature (no action required). This attack deals damage equal to your Kinetic Combat die.
+At 7th level, your bursts become even more overwhelming. Once on your turn, when a creature takes damage from you twice, you can immediately make one additional attack against that creature (no action required). This attack uses your Kinetic Combat die instead of the weapon's damage die
 
 ### Focused Flow
 By 13th level, whenever you use a Force-Empowered Self feature, you may instead expend no force points and roll a d4 in place of your Kinetic Combat die.

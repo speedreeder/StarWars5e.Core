@@ -29,7 +29,10 @@ namespace StarWars5e.Parser.Parsers
                 }
 
                 return null;
-            }).Where(t => t != null);
+            }).Where(t => t != null).ToList();
+
+            var trakataIndex = archetypeNames.FindIndex(a => a.Equals("Form IX: Trakata"));
+            archetypeNames[trakataIndex] = "Form IX: Tr�kata";
 
             var starWarsClass = "Berserker";
             foreach (var tableLine in tableLines)

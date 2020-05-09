@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 using StarWars5e.Models.Enums;
 
@@ -34,6 +36,21 @@ namespace StarWars5e.Models.Class
         {
             get => CasterTypeEnum.ToString();
             set => CasterTypeEnum = Enum.Parse<PowerType>(value);
+        }
+
+        [IgnoreProperty]
+        public List<Feature> Features { get; set; }
+        private List<string> _featureRowKeys;
+        public List<string> FeatureRowKeys
+        {
+            get => Features?.Select(f => f.RowKey).ToList();
+            set => _featureRowKeys = value;
+        }
+
+        public string FeatureRowKeysJson
+        {
+            get => FeatureRowKeys == null ? "" : JsonConvert.SerializeObject(FeatureRowKeys);
+            set => FeatureRowKeys = JsonConvert.DeserializeObject<List<string>>(value);
         }
     }
 }

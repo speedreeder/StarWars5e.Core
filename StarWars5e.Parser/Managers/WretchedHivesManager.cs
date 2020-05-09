@@ -200,10 +200,15 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
+                var dupes = equipment
+                    .GroupBy(i => i.RowKey)
+                    .Where(g => g.Count() > 1)
+                    .Select(g => g.Key);
+
                 await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException)
+            catch (StorageException e)
             {
                 Console.WriteLine("Failed to upload WH equipment.");
             }

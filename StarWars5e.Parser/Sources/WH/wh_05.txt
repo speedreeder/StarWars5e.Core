@@ -16,20 +16,20 @@ Whether starting a campaign at a higher level, or simply adopting the rules incl
 <div style='column-count:2'>
 
 |Level|Additional Wealth|
-|:--|--:|
-|&nbsp;&nbsp;1st|2d4 x 50 cr|
-|&nbsp;&nbsp;2nd|2d4 x 100 cr|
-|&nbsp;&nbsp;3rd|2d4 x 200 cr|
-|&nbsp;&nbsp;4th|2d4 x 300 cr|
-|&nbsp;&nbsp;5th|3d4 x 400 cr|
-|&nbsp;&nbsp;6th|3d4 x 500 cr|
-|&nbsp;&nbsp;7th|3d4 x 750 cr|
-|&nbsp;&nbsp;8th|3d4 x 1,000 cr|
-|&nbsp;&nbsp;9th|4d4 x 1,250 cr|
+|:--:|--:|
+|1st|2d4 x 50 cr|
+|2nd|2d4 x 100 cr|
+|3rd|2d4 x 200 cr|
+|4th|2d4 x 300 cr|
+|5th|3d4 x 400 cr|
+|6th|3d4 x 500 cr|
+|7th|3d4 x 750 cr|
+|8th|3d4 x 1,000 cr|
+|9th|4d4 x 1,250 cr|
 |10th|4d4 x 1,500 cr|
 
 |Level|Additional Wealth|
-|:--|--:|
+|:--:|--:|
 |11th|4d4 x 1,750 cr|
 |12th|4d4 x 2,000 cr|
 |13th|5d4 x 2,500 cr|
@@ -59,6 +59,8 @@ Enhanced items are scare and powerful, leading to them rarely having a predeterm
 
 #### Rare Materials
 While rare materials, as the name indicates, are more scarce than their raw material counterparts, they typically have a commonly accepted value across markets. While they won't always be available for sale, they will usually fetch the same price across worlds.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -138,6 +140,8 @@ Armor made from plastoid has the reinforced and rigid properties. Shields made f
 #### Quadanium
 Quadanium armor and shields gain the charging 1 property, but also the cumbersome property.
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
 \pagebreakNum
 
 ### Armor Properties
@@ -201,7 +205,33 @@ While wearing armor with the obscured property, electronic sensors and cameras h
 #### Powered
 While wearing armor with the powered property, you gain a bonus to damage rolls using Strength, Strength checks, and Strength saving throws equal to the powered number.
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
 \pagebreakNum
+
+<div class='classTable wide'>
+
+##### Armor and Shields
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Armor|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
+|:---|---:|:---|-:|:---|
+|_Light Armor_	||||||
+|&emsp;Durafiber combat suit    |  1,100 cr&nbsp;&nbsp;|	10 + Dex modifier|10 lb&nbsp;&nbsp;|Agile 1|
+|&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13 lb&nbsp;&nbsp;|Silent|
+|&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
+|_Medium Armor_	||||||
+|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|Insulated 1, strength 11|
+|&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25 lb&nbsp;&nbsp;|Regulated, strength 11|
+|&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
+|_Heavy Armor_	||||||
+|&emsp;Duranium battle armor	|  6,750 cr&nbsp;&nbsp;|	16	|55 lb&nbsp;&nbsp;|Bulky, cumbersome, reactive 1, strength 13|
+|&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
+|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
+|_Shield_		||||||
+|&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6 lb&nbsp;&nbsp;|Spiked (1d4)|
+|&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
+|&emsp;Quadanium heavy shield	|  2,000 cr&nbsp;&nbsp;|	+3	|36 lb&nbsp;&nbsp;|Charging 1, cumbersome, obtrusive, strength 15|
+
+</div>	
 
 #### Reactive
 When you are wearing armor with the reactive property and a creature hits you with an attack roll, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number.
@@ -232,29 +262,7 @@ While wearing armor or wielding a shield with the steadfast property, you have a
 #### Versatile
 A shield with the versatile property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number.
 
-<div class='classTable wide'>
-
-##### Armor and Shields
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Armor|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
-|:---|---:|:---|-:|:---|
-|_Light Armor_	||||||
-|&emsp;Durafiber combat suit    |  1,100 cr&nbsp;&nbsp;|	10 + Dex modifier|10 lb&nbsp;&nbsp;|Agile 1|
-|&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13 lb&nbsp;&nbsp;|Silent|
-|&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
-|_Medium Armor_	||||||
-|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|Insulated 1, strength 11|
-|&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25 lb&nbsp;&nbsp;|Regulated, strength 11|
-|&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
-|_Heavy Armor_	||||||
-|&emsp;Duranium battle armor	|  6,750 cr&nbsp;&nbsp;|	16	|55 lb&nbsp;&nbsp;|Bulky, cumbersome, reactive 1, strength 13|
-|&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
-|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
-|_Shield_		||||||
-|&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6 lb&nbsp;&nbsp;|Spiked (1d4)|
-|&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
-|&emsp;Quadanium heavy shield	|  2,000 cr&nbsp;&nbsp;|	+3	|36 lb&nbsp;&nbsp;|Charging 1, cumbersome, obtrusive, strength 15|
-
-</div>	
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -285,7 +293,13 @@ When you score a critical hit with a weapon with the disarming property against 
 You have advantage on Charisma (Deception) checks made to hide the nature of a disguised weapon.
 
 #### Disintegrate
-When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a 
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
 #### Disruptive
 When a creature is forced to make a Constitution saving throw to maintain concentration due to taking damage from a weapon with the disruptive property, the DC for the check equals 10 or the full damage taken, whichever number is higher, instead of only half.
@@ -300,16 +314,18 @@ When making an attack with a mighty weapon, you use your choice of your Strength
 Before you make a weapon attack with a weapon with the piercing property, you can choose to suffer a penalty to the attack roll up to the piercing number. If you do so, you gain the same bonus to the next attack roll you make against the same target before the start of your next turn.
 
 #### Rapid
-A weapon that has the rapid property can make a normal single-target attack, or it can unload on a single target. The target must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks). On a failed save, the creature takes normal weapon damage, plus an additional amount equal to the weapon's damage die. This consumes an amount of ammunition indicated by the rapid number. If the ranged weapon attack would have disadvantage, the target instead has advantage.
+When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks). On a failed save, the creature takes normal weapon damage, plus an additional amount equal to the weapon's damage dice. If the target is beyond normal range but within long range, it has advantage on the save.
 
 #### Shocking
-When you hit a creature with a weapon with the shocking property, you can force it to make a Constitution saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
+When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
 
 #### Silent
 When you make a ranged attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity (Stealth) check contested by your targets' Wisdom (Perception) check. On a success, you remain hidden.
 
 #### Vicious
 Whenever you deal damage with a weapon with the vicious property and roll the maximum on a weapon damage die, you gain a bonus to damage equal to the vicious number.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -373,6 +389,8 @@ The tranquilizer rifle includes a specialized compartment for poison. One dose o
 #### Vapor Projector
 The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required).
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
 \pagebreakNum
 
 <div class='classTable wide' style='position:absolute;bottom:20px;left:75px;width:687px'>
@@ -393,16 +411,16 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;ARC caster          | 2,400 cr&nbsp;&nbsp;| 1d8 lightning | 10 lb&nbsp;&nbsp;  | Ammunition (range 30/120), burst 4, rapid 2, reload 4, special,<br> strength 11, two-handed |
 | &emsp;Blaster cannon      | 3,000 cr&nbsp;&nbsp;| 1d12 energy   | 36 lb&nbsp;&nbsp;  | Ammunition (range 100/400), auto, burst 2, reload 4, strength 15,<br> two-handed |
 | &emsp;Cycler rifle 		|   450 cr&nbsp;&nbsp;| 1d8 kinetic   | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), rapid 2, reload 8, two-handed |
-| &emsp;Disruptor pistol    | 4,000 cr&nbsp;&nbsp;| 1d8 acid      |  4 lb&nbsp;&nbsp;  | Ammunition (range 60/240), disintegrate, reload 16 |
-| &emsp;Disruptor rifle     | 7,000 cr&nbsp;&nbsp;| 1d10 acid     | 12 lb&nbsp;&nbsp;  | Ammunition (range 100/400), disintegrate, reload 1, strength 11,<br> two-handed |
+| &emsp;Disruptor pistol    | 4,000 cr&nbsp;&nbsp;| 1d8 acid      |  4 lb&nbsp;&nbsp;  | Ammunition (range 60/240), disintegrate 13, reload 16 |
+| &emsp;Disruptor rifle     | 7,000 cr&nbsp;&nbsp;| 1d10 acid     | 12 lb&nbsp;&nbsp;  | Ammunition (range 100/400), disintegrate 13, reload 1, strength 11,<br> two-handed |
 | &emsp;Grenade launcher    |   800 cr&nbsp;&nbsp;| — | 10 lb&nbsp;&nbsp; | Ammunition (range 80/320), reload 1, strength 11, special, two-handed |
 | &emsp;Heavy bowcaster     | 3,100 cr&nbsp;&nbsp;| 1d12 energy   | 26 lb&nbsp;&nbsp;| Ammunition (range 60/240), burst 4, reload 8, strength 15, two-handed |
 | &emsp;Heavy repeater      | 6,400 cr&nbsp;&nbsp;| 2d4 energy    | 16 lb&nbsp;&nbsp;| Ammunition (range 80/320), auto, burst 4, rapid 2, reload 8, strength 15,<br> two-handed |
 | &emsp;Heavy shotgun       |   400 cr&nbsp;&nbsp;| 2d4 kinetic | 16 lb&nbsp;&nbsp; | Ammunition (range 30/120), burst 4, reload 12, strength 13, two-handed |
 | &emsp;Heavy slugpistol    | 1,750 cr&nbsp;&nbsp;   | 1d8 kinetic   |  5 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 2, reload 8, strength 13 |
 | &emsp;Hunting rifle       |   600 cr&nbsp;&nbsp;   | 1d12 kinetic  | 12 lb&nbsp;&nbsp;  | Ammunition (range 150/600), reload 4, strength 13, two-handed |
-| &emsp;Incinerator pistol  |2,500 cr&nbsp;&nbsp;| 1d6 fire      | 5 lb&nbsp;&nbsp;| Ammunition (range 60/240), disintegrate, reload 12, strength 11 |
-| &emsp;Incinerator sniper  | 6,600 cr&nbsp;&nbsp;   | 1d10 fire     | 10 lb&nbsp;&nbsp;  | Ammunition (range 150/600), disintegrate, reload 2, strength 13,<br> two-handed
+| &emsp;Incinerator pistol  |2,500 cr&nbsp;&nbsp;| 1d6 fire      | 5 lb&nbsp;&nbsp;| Ammunition (range 60/240), disintegrate 13, reload 12, strength 11 |
+| &emsp;Incinerator sniper  | 6,600 cr&nbsp;&nbsp;   | 1d10 fire     | 10 lb&nbsp;&nbsp;  | Ammunition (range 150/600), disintegrate 13, reload 2, strength 13,<br> two-handed
 | &emsp;IWS                 | 7,200 cr&nbsp;&nbsp;   | —             | 12 lb&nbsp;&nbsp;  | Special, strength 13, two-handed |
 | &emsp;&emsp;Antiarmor     |        —&nbsp;&nbsp;   | —             |     —&nbsp;&nbsp;  | Ammunition (range 60/240), reload 1, special |
 | &emsp;&emsp;Blaster       |        —&nbsp;&nbsp;   | 1d8 energy    |     —&nbsp;&nbsp;  | Ammunition (range 80/320), reload 12 |
@@ -410,7 +428,7 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;Lightbow            |  400 cr&nbsp;&nbsp;|2d6 energy       |16 lb&nbsp;&nbsp;  |Ammunition (range 60/240), mighty, piercing 1, reload 4, strength 11,<br> two-handed| 
 | &emsp;Nightstinger rifle  | 1,200 cr&nbsp;&nbsp;| 1d12 energy  | 15 lb&nbsp;&nbsp;| Ammunition (range 120/480), silent, reload 2, strength 13, two-handed |
 | &emsp;Railgun             | 6,300 cr&nbsp;&nbsp;   | 2d6 kinetic   | 24 lb&nbsp;&nbsp;  | Ammunition (range 150/600), piercing 1, reload 1, strength 15,<br> two-handed |
-| &emsp;Revolver 		    |   750 cr&nbsp;&nbsp;| 1d8 kinetic | 4 lb&nbsp;&nbsp; | Ammunition (range 30/120), burst 6, reload 6, strength 11 |
+| &emsp;Revolver 		    |   750 cr&nbsp;&nbsp;| 1d8 kinetic | 4 lb&nbsp;&nbsp; | Ammunition (range 30/120), rapid 6, reload 6, strength 11 |
 | &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| — | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, strength 13, special, two-handed |
 | &emsp;Rotary cannon       | 9,800 cr&nbsp;&nbsp;   | 2d6 energy    | 76 lb&nbsp;&nbsp;  | Ammunition (range 100/400), auto, burst, rapid, special, strength 19,<br> two-handed |
 | &emsp;Sonic pistol 		|   650 cr&nbsp;&nbsp;| 1d6 sonic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 12 |
@@ -419,6 +437,8 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;Vapor projector     | 1,600 cr&nbsp;&nbsp;| — | 14 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 11, two-handed |
 
 </div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -446,8 +466,7 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 | _Simple Vibroweapons_|||||
-| &emsp;Electroprod			|   50 cr&nbsp;&nbsp;| — | —&nbsp;&nbsp;|Disruptive, shocking 13 |
-| &emsp;Handwraps			|   50 cr&nbsp;&nbsp;| — | —&nbsp;&nbsp;|Fixed, special |
+| &emsp;Handwraps			|   50 cr&nbsp;&nbsp;| — | —&nbsp;&nbsp;|Fixed, light, special |
 | &emsp;Vibroclaw           |  600 cr&nbsp;&nbsp;|1d4 kinetic|2 lb&nbsp;&nbsp;|Finesse, fixed, light
 | &emsp;Vibrocutter			|  300 cr&nbsp;&nbsp;| 1d6 kinetic	|5 lb&nbsp;&nbsp;|Dexterity 11, heavy, vicious 1 |
 | _Martial Vibroweapons_|||||
@@ -457,6 +476,7 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;&emsp;Staff         |—&nbsp;&nbsp;|1d8 kinetic | —&nbsp;&nbsp; | Double (1d8 kinetic), shocking 13 |
 | &emsp;Chained dagger      |  850 cr&nbsp;&nbsp;|1d6 kinetic|6 lb&nbsp;&nbsp;|Disarming, finesse, reach, two-handed|
 | &emsp;Electrobaton        |  650 cr&nbsp;&nbsp;|1d4 kinetic|3 lb&nbsp;&nbsp;|Finesse, light, shocking 13|
+| &emsp;Electroprod			|  500 cr&nbsp;&nbsp;|1d4 lightning|2 lb&nbsp;&nbsp;|Disruptive, shocking 13 |
 | &emsp;Electrohammer       |1,400 cr&nbsp;&nbsp;|2d4 kinetic|18 lb&nbsp;&nbsp;|Heavy, shocking 13, two-handed |
 | &emsp;Electrostaff        |1,100 cr&nbsp;&nbsp;|1d6 kinetic|6 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, shocking 13, two-handed|
 | &emsp;Electrovoulge       |1,300 cr&nbsp;&nbsp;|1d8 kinetic|15 lb&nbsp;&nbsp;|Reach, shocking 13, two-handed |
@@ -473,6 +493,8 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;Wristblade			|1,000 cr&nbsp;&nbsp;|1d6 kinetic|2 lb&nbsp;&nbsp;|Fixed, light |
 
 </div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -518,6 +540,8 @@ Power generators energize the rotary cannon.
 #### Projector Canister, Corrosive
 When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
 \pagebreakNum
 
 #### Projector Tank, Carbonite
@@ -536,13 +560,9 @@ This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally,
 This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Plasma
-This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a
 
-#### Shocking Cartridge
-A shocking cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
-
-#### Snare
-When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 13 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects.
+\columnbreak
 
 <div class='classTable'>
 
@@ -570,6 +590,16 @@ When hit by this wrist launcher ammunition, a Medium or smaller creature is rest
 |	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
 
 </div>
+
+DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
+#### Shocking Cartridge
+A shocking cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
+
+#### Snare
+When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 13 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -619,6 +649,8 @@ When you use your action to set it, this mine sets an imperceptible laser line e
 |	&emsp;Mine, flash              	|	 600 cr	|	2 lb		|
 
 </div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -689,9 +721,15 @@ This cybernetic augmentation replaces a leg and a foot. Rules for installing aug
 #### Torso Prosthesis
 This cybernetic augmentation replaces all or part of a damage torso. Rules for installing augmentations can be found in chapter \_\_\_.
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
 \pagebreakNum
 
 ### Storage
+
+#### Camtono
+A camtono is a secured, handle container used for transporting valuable goods. The camtono features a keyed lock, which requires a DC 20 security kit to force open. It can hold up to 5 lb., not exceeding a volume of 1/4 cubic foot.
+
 #### Hovercart
 This repulsorcraft is designed to efficiently move large amounts of goods. It has a speed of 30 feet and can hold up to 2,000 lb., not exceeding a volume of 120 cubic feet.
 
@@ -719,6 +757,7 @@ Gravity generators are special devices typically worn on belts that function as 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Storage_	|		|	
+|	&emsp;Camtono     	|	   750 cr	|	  3 lb		|
 |	&emsp;Hovercart     	|	 2,000 cr	|	150 lb		|
 |	&emsp;Smugglepack     	|	   400 cr	|	  6 lb		|
 |	_Utilities_	|		|	
@@ -728,6 +767,8 @@ Gravity generators are special devices typically worn on belts that function as 
 |	&emsp;Gravity generator     	|	 500 cr	|	3 lb		|
 
 </div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -766,6 +807,8 @@ A shoulder cannon is a weapon mounted on a creature's shoulder with an integrate
 |	&emsp;Shoulder cannon	            |	 3,200 cr	|	9 lb		|
 
 </div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -829,6 +872,7 @@ A shoulder cannon is a weapon mounted on a creature's shoulder with an integrate
 |	&emsp;Leg prosthesis     	    |	 450 cr	|	 24 lb		|
 |	&emsp;Torso prosthesis     	    |	 600 cr	|	 36 lb		|
 |	_Storage_	|		|			|
+|	&emsp;Camtono     	|	   750 cr	|	  3 lb		|
 |	&emsp;Hovercart     	        |	 2,000 cr	|	150 lb	|
 |	&emsp;Smugglepack     	        |	   400 cr	|	  6 lb		|
 |	_Utilities_	|		|	
@@ -857,6 +901,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 |	Item		|	Cost	|	Weight	|
 |	:--		|	--:	|	--:	|
 |	_Specialist's kit_		|		|		|
+|	&emsp;Audiotech's kit			                |	550 cr	|   7 lb	|
 |	&emsp;Archaeologist kit							|	125 cr	|	4 lb	|
 |	&emsp;Bioanalysis kit							|	 50 cr	|	3 lb	|
 |	&emsp;Brewer's kit			                    |	200 cr	|	9 lb	|
@@ -881,5 +926,145 @@ This kit contains the necessary implements to harvest and scavenge ores and meta
 
 #### Spicer's Kit
 This kit contains the required accoutrement to refine materials in order to create illicit substances. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create or identify substances.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
+
+## Substances
+Substances, most commonly coming in the alcohol and spice varieties, are goods often sought after by the more seedy denizens of the *Star Wars* underworld. Whether legal or not, people search for these wares, whether to consume or profit on.
+
+### Consumption
+Consuming substances offers powerful temporary boons in the form of a high, potentially offset by a subsequent low. Additionally, consuming substances regularly risks addiction, which reduces the efficacy of substances until a creature abstains from using them.
+
+#### Highs and Lows
+Each substance offers a high followed immediately by a potential low. For the duration of the high, a creature might gain a bonus to an ability score, temporary force or tech points, or some other boon. Immediately when the high ends, the character must succeed on a saving throw depending on the substance or suffer a longer-lasting low, which reverses the effects. The high and low varies depending on the substance consumed, and the duration of the high and low vary based on the rarity of the substance consumed, as determined in the item's description.
+
+A creature can only benefit from one substance at a time. If a creature consumes an additional unit of a substance, while currently experiencing a high or a low, they must immediately make a saving throw to resist the effects of addiction before applying the benefits of the consumed substance. Consuming a substance while experiencing a low immediately ends the low, but any time remaining in that low is added to the duration of the low of the additional consumed substance.
+
+#### Addiction
+Consuming substances regularly also risks becoming addicted to a substance. When the low of a substance ends, a creature must make a saving throw, determined by what substance they are coming off of, as determined in the substance's description. Addiction is measured in six levels. An effect can give a creature one or more levels of addiction, as specified in the effect's description.
+
+##### Addiction Level
+|Level|Effect|
+|:--:|:--|
+|1|The duration of lows is doubled.|
+|2|The duration of highs is halved.|
+|3|The duration of lows is quadrupled, instead of doubled.|
+|4|The effect of highs is halved.|
+|5|The effect of lows is maximized.|
+|6|The effect of highs is minimized.|
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+##### Substances
+
+|	Item	|	Cost	|	Weight		|
+|	:--	|	--:	|	--:		|
+|	_Alcoholic beverages_	|		|			|
+| &emsp;Deuterium-pyro      |   80 cr  |  1/2 lb  |
+| &emsp;Mummergy            |   65 cr  |  1/2 lb  |
+| &emsp;Novanian grog       |   70 cr  |  1/2 lb  |
+| &emsp;Raava               |   95 cr  |  1/2 lb  |
+| &emsp;Spicebrew           |   90 cr  |  1/2 lb  |
+| &emsp;Tihaar              |   85 cr  |  1/2 lb  |
+| &emsp;Tsiraki             |   60 cr  |  1/2 lb  |
+| &emsp;Vayerbok            |   75 cr  |  1/2 lb  |
+|	_Spices_	|		|			|
+| &emsp;Andris              |   75 cr  |  1/2 lb  |
+| &emsp;Cilona              |   60 cr  |  1/2 lb  |
+| &emsp;Giggledust          |   80 cr  |  1/2 lb  |
+| &emsp;Glitterstim         |   95 cr  |  1/2 lb  |
+| &emsp;Karrak              |   90 cr  |  1/2 lb  |
+| &emsp;Muon gold           |   65 cr  |  1/2 lb  |
+| &emsp;Yaladai             |   70 cr  |  1/2 lb  |
+| &emsp;Yarrock             |   85 cr  |  1/2 lb  |
+
+If an already addicted creature suffers another effect that causes addiction, its current level of addiction increases by the amount specified in the effect's description.
+
+A creature suffers the effect of its current level of addiction as well as all lower levels. For example, a creature suffering level 2 addiction has the duration of its lows doubled, and the duration of its highs halved.
+
+An effect that removes addiction reduces its level as specified in the effect's description, with all addiction effects ending if a creature's addiction level is reduced below 1.
+
+If a creature abstains from consuming a substance for 24 hours, they can make a Wisdom saving throw to reduce their addiction level by 1, provided they've completed a long rest during that 24 hours. The DC for the saving throw equals 10 + the creature's addiction level. On a success, their addiction level is reduced by 1. For instance, a creature suffering addiction level 3 can abstain from consuming any substance for 24 hours. If they do so, and they complete a long rest during that 24 hour period, they can make a DC 13 Wisdom saving throw. On a success, their addiction level is reduced to 2.
+
+> #### Availability 
+> While alcoholic beverages are legal on most planets, spices are not. Whether or these items are readily available is up to your GM.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
+
+### Alcoholic Beverages
+The alcoholic beverages are presented in alphabetical order.
+
+#### Deuterium-pyro 
+This alcoholic beverage, favored amongst ruffians, features a terrible flavor and strong aftertaste. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Mummergy 
+Mummergy is a strong-smelling liquor derived from a plant of the same name. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Novanian Grog
+This grog features a pungent odor and a strong kick. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Raava
+Raava is a traditional liquor breed from zsajhira berries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+#### Spicebrew
+Spicebrew, a popular drink across the galaxy, is a tanned alcoholic beverage topped with foam. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Tihaar
+This colorless spirit, favored by Mandalorians, burns the mouth and throat when consumed. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Contitution, and for the duration their current and maximum hit points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Tsiraki
+Tsiraki is a blue-colored alcoholic beverage crafted from fermented salakberries and pickling spices. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Vayerbok
+Vayerbok is a thick, green, vegetable-based alcoholic beverage typically served hot.As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
+
+### Spices
+The spices are presented in alphabetical order.
+
+#### Andris
+Refined andris crystal, a spice mined most commonly on Sevarcos II, sharpens a creature's mind when smoked. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Cilona
+Cilona, the active ingredient in deathsticks, is a hallucinogen that causes an ecstatic feeling that improves strength and endurance. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Giggledust
+This sandy-brown powder causes everything to appear slightly humorous while enhancing a creature's nimbleness. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Glitterstim
+A silvery-green webbing sharp to the touch, yet when liquidized causes a heightened mental state and pleasurable boost. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack 
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Karrak
+A powerful painkiller, karrak allows creatures to continue through the most grievous injuries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Contitution, and for the duration their current and maximum hit points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Muon Gold
+Muon gold is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Yaladai
+Yaladai is a powerful stimulant that grants extreme clarity, improving relaxation and focus. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+#### Yarrock
+Yarrock is a strong hallucinogen which is said to instill a creature with a clear vision of "the meaning of life", granting a boost to confidence. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum

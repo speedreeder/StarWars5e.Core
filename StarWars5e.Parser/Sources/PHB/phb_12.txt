@@ -191,7 +191,7 @@ ___
 - Energizing Aura
 - Incendiary Cloud
 - Scrambling Field
-- Stun
+- Stun Dart
 
 #### 9th-level
 ___
@@ -829,7 +829,7 @@ When you cast this power, you create a trap that will later trigger in response 
 
 The trap is well disguised, and generally and requires a successful Intelligence (Investigation) check against your tech save DC to be found.
 
-You decide what triggers the trap when you cast the power, such as entering a certain area or powering on the object. You can further refine the trigger so the trap activates only under certain circumstances or according to physical characteristics (such as height or weight) or creature kind (for example, the trap could be set to go off only droids or gungans). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
+You decide what triggers the trap when you cast the power, such as entering a certain area or powering on the object. You can further refine the trigger so the trap activates only under certain circumstances or according to physical characteristics (such as height or weight) or creature kind (for example, the trap could be set to go off only droids or gungans). You can also set conditions for creatures that don't trigger the trap, such as those who say a certain password.
 
 You may only have one instance of this trap active at a time. If you cast another trap before the previous one is triggered, the other trap becomes inert.
 
@@ -1173,7 +1173,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 hour
 
-A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target that attacks or casts a power.
+A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target attacks or casts a power.
 
 ***Overcharge Tech.*** You can target one additional creature for each slot level above 2nd.
 
@@ -2004,7 +2004,7 @@ As a part of the action used to cast this power, you must make a ranged attack w
 
 The power's damage increases when you reach higher levels. At 5th level, the effects of both the ranged weapon attack and discharge deal an extra 1d6 lightning damage. Both damage rolls increase by an additional 1d6 at 11th and 17th level.
 
-#### Stun
+#### Stun Dart
 _8th-level tech power_
 ___
 - **Casting Time:** 1 ation
@@ -2174,7 +2174,7 @@ ___
 
 You interface a tracker droid with your tech focus, creating a permanent link. 
 
-Your tracker droid acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A tracker droid can't attack, but it can take other actions as normal.
+Your tracker droid acts independently of you, but it always obeys your commands. In combat, it acts on your turn.
 
 While your tracker droid is within 100 feet of you, you can communicate with it via your tech focus. Additionally, as an action, you can see through your droid's vision and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the droid has. During this time, you are deaf and blind with regard to your own senses.
 

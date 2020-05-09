@@ -10,6 +10,7 @@ using StarWars5e.Models.Background;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
+using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Species;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.PHB;
@@ -207,6 +208,8 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
+                var featureLevels = (await _tableStorage.GetAllAsync<FeatureDataLU>("featureLevelLU")).ToList();
+
                 var classes =
                     await _playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
                         .ToList());
@@ -235,12 +238,59 @@ namespace StarWars5e.Parser.Managers
                         _globalSearchTermRepository.SearchTerms.Add(archetypeSearchTerm);
                     }
 
+                    try
+                    {
+                        var archetypeFeatures = archetypes.SelectMany(f => f.Features).ToList();
+
+                        foreach (var archetypeFeature in archetypeFeatures)
+                        {
+                            var featureLevel = featureLevels.SingleOrDefault(f => f.FeatureRowKey == archetypeFeature.RowKey);
+                            if (featureLevel != null)
+                            {
+                                archetypeFeature.Level = featureLevel.Level;
+                            }
+                        }
+
+                        await _tableStorage.AddBatchAsync<Feature>("features", archetypeFeatures,
+                            new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                    }
+                    catch (StorageException se)
+                    {
+                        Console.WriteLine($"Failed to upload PHB archetype features: {se}");
+                    }
+
+                    var dupes = archetypes
+                        .GroupBy(i => i.RowKey)
+                        .Where(g => g.Count() > 1)
+                        .Select(g => g.Key);
+
                     await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 }
-                catch (StorageException)
+                catch (StorageException se)
                 {
-                    Console.WriteLine("Failed to upload PHB archetypes.");
+                    Console.WriteLine($"Failed to upload PHB archetypes: {se}");
+                }
+
+                try
+                {
+                    var classFeatures = classes.SelectMany(f => f.Features).ToList();
+
+                    foreach (var classFeature in classFeatures)
+                    {
+                        var featureLevel = featureLevels.SingleOrDefault(f => f.FeatureRowKey == classFeature.RowKey);
+                        if (featureLevel != null)
+                        {
+                            classFeature.Level = featureLevel.Level;
+                        }
+                    }
+
+                    await _tableStorage.AddBatchAsync<Feature>("features", classFeatures,
+                        new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                }
+                catch (StorageException se)
+                {
+                    Console.WriteLine($"Failed to upload PHB class features: {se}");
                 }
             }
             catch (StorageException)

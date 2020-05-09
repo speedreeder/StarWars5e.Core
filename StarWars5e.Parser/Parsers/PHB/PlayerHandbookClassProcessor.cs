@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using StarWars5e.Models;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
@@ -18,7 +19,7 @@ namespace StarWars5e.Parser.Parsers.PHB
         private static readonly List<string> FighterSpecialties = new List<string> { "Assault Specialist", "Shield Specialist", "Tactical Specialist" };
         private static readonly List<string> GuardianForms = new List<string> { "Form I: Shii-Cho", "Form II: Makashi", "Form III: Soresu" };
         private static readonly List<string> MonkOrders = new List<string> { "Echani Order", "Nightsister Order", "Ter�s K�si Order" };
-        private static readonly List<string> OperativePractices = new List<string> { "Gunslinger Practice", "Lethality Practice", "Saboteur Practice" };
+        private static readonly List<string> OperativePractices = new List<string> { "Gunslinger Practice", "Lethality Practice", "Sharpshooter Practice" };
         private static readonly List<string> ScholarPursuits = new List<string> { "Physician Pursuit", "Politician Pursuit", "Tactician Pursuit" };
         private static readonly List<string> ScoutTechniques = new List<string> { "Deadeye Technique", "Hunter Technique", "Stalker Technique" };
         private static readonly List<string> SentinelPaths = new List<string> { "Path of Aggression", "Path of Focus", "Path of Shadows" };
@@ -184,6 +185,9 @@ namespace StarWars5e.Parser.Parsers.PHB
                     .ElementAtOrDefault(2)?.Trim();
 
                 var classFeatureText = string.Join("\r\n", classLines.Skip(variantWealthLine + 1).ToList());
+                var archetypeStartLine = classLines.FindIndex(variantWealthLine, f => f.StartsWith("## "));
+
+                starWarsClass.Features = ParseFeatures(classLines.Skip(variantWealthLine + 1).Take(archetypeStartLine - (variantWealthLine + 1)).ToList(), starWarsClass.Name, FeatureSource.Class, ContentType.Core);
                 starWarsClass.ClassFeatureText = classFeatureText;
                 if (classFeatureText.Length > 30000)
                 {
@@ -191,7 +195,6 @@ namespace StarWars5e.Parser.Parsers.PHB
                     starWarsClass.ClassFeatureText2 = new string(classFeatureText.Skip(30000).ToArray());
                 }
 
-                var archetypeStartLine = classLines.FindIndex(variantWealthLine, f => f.StartsWith("## "));
                 var archetypeFlavorEnd = classLines.FindIndex(archetypeStartLine + 1, f => f.StartsWith("#"));
                 starWarsClass.ArchetypeFlavorName = classLines.ElementAtOrDefault(archetypeStartLine)?.Split("## ").ElementAtOrDefault(1);
                 starWarsClass.ArchetypeFlavorText = string.Join("\r\n",
@@ -363,6 +366,8 @@ namespace StarWars5e.Parser.Parsers.PHB
                             .Concat(archetypeLines.Skip(archetypeTableEnd)).ToList().CleanListOfStrings());
 
                         archetype.Text = archetypeText;
+                        archetype.Features = ParseFeatures(archetypeLines.Skip(1).CleanListOfStrings().ToList(),
+                            archetype.Name, FeatureSource.Archetype, contentType);
                         if (archetypeText.Length > 30000)
                         {
                             archetype.Text = new string(archetypeText.Skip(1).Take(30000).ToArray());
@@ -373,6 +378,8 @@ namespace StarWars5e.Parser.Parsers.PHB
                     {
                         var archetypeText = string.Join("\r\n", archetypeLines.Skip(1).CleanListOfStrings());
                         archetype.Text = archetypeText;
+                        archetype.Features = ParseFeatures(archetypeLines.Skip(1).CleanListOfStrings().ToList(),
+                            archetype.Name, FeatureSource.Archetype, contentType);
                         if (archetypeText.Length > 30000)
                         {
                             archetype.Text = new string(archetypeText.Take(30000).ToArray());
@@ -384,6 +391,8 @@ namespace StarWars5e.Parser.Parsers.PHB
                 {
                     var archetypeText = string.Join("\r\n", archetypeLines.Skip(1).CleanListOfStrings());
                     archetype.Text = archetypeText;
+                    archetype.Features = ParseFeatures(archetypeLines.Skip(1).CleanListOfStrings().ToList(),
+                        archetype.Name, FeatureSource.Archetype, contentType);
                     if (archetypeText.Length > 30000)
                     {
                         archetype.Text = new string(archetypeText.Take(30000).ToArray());
@@ -543,6 +552,36 @@ namespace StarWars5e.Parser.Parsers.PHB
                         break;
                 }
             }
+        }
+
+        public static List<Feature> ParseFeatures(List<string> featureTextLines, string sourceName, FeatureSource featureSource, ContentType contentType)
+        {
+            var features = new List<Feature>();
+
+            var featureNameLineIndexes = featureTextLines.FindAllIndexOf(f => f.StartsWith("### "));
+
+            for (var i = 0; i < featureNameLineIndexes.Count - 1; i++)
+            {
+                var currentFeatureNameLineIndex = featureNameLineIndexes[i];
+                var nextFeatureNameLineIndex = featureNameLineIndexes.ElementAtOrDefault(i + 1);
+                var featureLines = nextFeatureNameLineIndex == 0
+                    ? featureTextLines.Skip(currentFeatureNameLineIndex).RemoveEmptyLines().ToList()
+                    : featureTextLines.Skip(currentFeatureNameLineIndex)
+                        .Take(nextFeatureNameLineIndex - currentFeatureNameLineIndex).RemoveEmptyLines().ToList();
+
+                var name = featureLines[0].Split("# ")[1].Trim();
+                var feature = new Feature
+                {
+                    Name = name,
+                    SourceEnum = featureSource,
+                    Text = string.Join("\r\n", featureLines.Skip(1).CleanListOfStrings()),
+                    PartitionKey = contentType.ToString(),
+                    RowKey = $"{featureSource}-{sourceName}-{name}".Replace("/", string.Empty).Replace(@"\", string.Empty)
+                };
+                features.Add(feature);
+            }
+
+            return features;
         }
     }
 }

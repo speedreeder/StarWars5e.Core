@@ -230,10 +230,13 @@ The most common action, a character can choose to attack. When a character choos
 #### Defend
 The second action a character can take is is to defend. When a character chooses to defend, they have advantage on the attack roll during resolution if the opponent takes the Attack action, and disadvantage on the roll if the character takes the Feint action.
 
+\columnbreak
+
 #### Feint
 The third action a character can take is to feint. When a character chooses to feint, they have advantage on the attack roll during resolution if the opponent takes the Defend action, and disadvantage if the character takes the Attack action.
 
-\columnbreak
+> #### Extra Attack
+> If one party has the Extra Attack feature, and the other party doesn't, consider allowing them to roll with an additional instance of advantage.
 
 ### Resolution
 Once each party has chosen their action, they should each make an attack roll, with advantage or disadvantage as appropriate. The winner of the contest strikes a blow or scores a point, as appropriate.
@@ -264,12 +267,12 @@ ___
 - **Medium Armor:** +1 bonus to Constitution saving throws while wearing medium armor.
 - **Heavy Armor:** -1 kinetic and energy damage taken from unenhanced weapons while wearing heavy armor.
 
-For instance, at 1st level, a draethos operative with a 16 in Dexterity would have +6 to Dexterity saving throws instead of +5 while wearing light armor. A character should only gain each bonus once.
+For instance, at 1st level, a draethos operative with a 16 in Dexterity would have +6 to Dexterity saving throws instead of +5 while wearing light armor, while a wookiee berserker with a 14 in Dexterity and a 16 in Constitution would have an Armor Class of 16 while unarmored, instead of 15. A character should only gain each bonus once.
 
 \columnbreak
 
 ### Weapon Proficiencies
-Many species come with specific weapon proficiencies suited to their species' culture, such as chiss or tuskens. If a player chooses a species and class combination that would grant the same weapon proficiencies, consider instead granting them a +1 bonus to attack rolls with the chosen weapon. For instance, at 1st level, a chiss scout with a 16 in Dexterity would have a +6 to attack rolls instead of a +5 when attacking with a blaster pistol or sniper rifle. A character should only gain this bonus once, and this bonus does not apply if the species offers a choice of weapons, such as human or echani.
+Many species come with specific weapon proficiencies suited to their species' culture, such as chiss or tuskens. If a player chooses a species and class combination that would grant the same weapon proficiencies, consider instead granting them a +1 bonus to damage rolls with the chosen weapon. For instance, at 1st level, a chiss scout with a 16 in Dexterity would have a +4 to attack rolls instead of a +3 when attacking with a blaster pistol or sniper rifle. A character should only gain this bonus once, and this bonus does not apply if the species offers a choice of weapons, such as human or echani.
 
 ### Unarmed Strikes/Natural Weapons
 Many species come with higher unarmed strike damage, such as twi'lek or zabrak, or a natural weapon, such as chevin or karkarodons, representing their natural aptitude with unarmed combat. If a player chooses a species, class, or customization option combination that would both grant an increased unarmed strike, consider instead granting them a +1 bonus to their unarmed strike damage. For instance, at 1st level, a zabrak monk with a 16 in Dexterity would do 1d4+4 instead of 1d4+3 with their unarmed strikes. A character should only gain this bonus once.
@@ -305,7 +308,7 @@ Until the start of your next turn, you have<br> resistance to the first kinetic 
 #### Form IV: Ataru
 As a part of the bonus action to adopt this<br> form, you can leap up to 15 feet to an<br> unoccupied space you can see.
 
-#### Form V: Djem So
+#### Form V: Shien/Djem So
 Until the start of your next turn, you can add<br> half your Wisdom or Charisma modifier<br> (your choice, rounded down) to the<br> next ability check or attack roll you<br> make using Strength. 
 
 \columnbreak
@@ -315,7 +318,7 @@ As a part of the bonus action to adopt this form, if you took the Attack action,
 
 Additionally, if you hit with a weapon attack before the start of your next turn, you gain a +2 bonus to the damage roll of the next force power your cast before the end of your next turn.
 
-#### Form VII: Juyo
+#### Form VII: Juyo/Vapaad
 Until the start of your next turn, your weapon attacks score a critical hit on a roll of 19 or 20.
 
 #### Form VIII: Sokan
@@ -648,7 +651,7 @@ You have become a physical manifestation of the dark side of the Force, gaining 
 
 <img src='https://www.gmbinder.com/images/XSXXqiB.png' style='position:absolute;top:90px;left:70px;width:39px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estiny plays a large role in the *Star Wars*<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; universe. As a young boy, Anakin Skywalker is told that his destiny is to bring about balance to the Force. Padme's destiny is to give birth to the twins, Luka and Leia, so that they can fulfil their own destinies. Luke Skywalker learns that his destiny is to redeem his father, Darth Vader, so that balance to the Force is restored. Leia's destiny is to save the Rebellion from annihilation at the hands of the Empire and help forge the New Republic. The destiny mechanic helps players and GMs recognize that all heroes - and even major villains - have significant roles to play in the fate of the galaxy. Destiny rewards players for good roleplaying and gives GM new plot hooks to use when designing adventures.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estiny plays a large role in the *Star Wars*<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; universe. As a young boy, Anakin Skywalker is told that his destiny is to bring about balance to the Force. Padme's destiny is to give birth to the twins, Luke and Leia, so that they can fulfil their own destinies. Luke Skywalker learns that his destiny is to redeem his father, Darth Vader, so that balance to the Force is restored. Leia's destiny is to save the Rebellion from annihilation at the hands of the Empire and help forge the New Republic. The destiny mechanic helps players and GMs recognize that all heroes - and even major villains - have significant roles to play in the fate of the galaxy. Destiny rewards players for good roleplaying and gives GM new plot hooks to use when designing adventures.
 
 The rules presented below are optional. A GM may decide to use Destiny Points or not; however, the decision to use them should be made before the campaign gets underway, so that each player can decide whether or not to embrace a destiny for their character from the outset.
 

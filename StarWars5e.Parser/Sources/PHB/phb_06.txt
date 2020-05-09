@@ -67,15 +67,15 @@ When you gain a level in a class other than your first, you gain only some of th
 |Class|&nbsp;&nbsp;|Proficiencies Gained|
 |:--|:--:|:--|
 |Berserker||Light armor, all vibroweapons||
-|Consular||Simple lightweapons|
+|Consular||—|
 |Fighter||Light armor, medium armor, all blasters, all vibroweapons|
 |Engineer||Light armor, one skill from the class's skill list, one tool from the class's tool list|
 |Guardian||Light armor, medium armor, all lightweapons, all vibroweapons|
 |Operative||Light armor, one skill from the class's skill list, one tool from the class's tool list|
-|Monk||Simple vibroweapons, techblades|
+|Monk||Techblades|
 |Scout||Light armor, medium armor, all blasters, all vibroweapons, one skill from the class's skill list|
 |Scholar||Light armor, one skill from the class's skill list|
-|Sentinel||Light armor, simple lightweapons, simple vibroweapons|
+|Sentinel||Light armor, simple lightweapons|
 
 ## Class Features
 When you gain a new level in a class, you get its features for that level. A few features, however, have additional rules when you're multiclassing: Extra Attack, Superiority Die, Unarmored Defense, and Force- or Tech-casting.
@@ -152,10 +152,10 @@ If you have both force- and tech-casting, you determine your max power levels se
 Certain class features or feats offer your choice of Fighting Style. Choose from the following. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 #### Brawling
-You are skilled at using your weight to your advantage. As long as you are not wielding a medium or heavy shield, you gain the following benefits:
+You are skilled at using your weight to your advantage. You gain the following benefits:
 - You are proficient with improvised weapons.
-- Your unarmed strikes use a d4 for damage.
-- When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target.
+- Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
+- When you attempt to shove or grapple a creature, or make an attack against a creature with an unarmed strike or an improvised weapon wielded in one hand on your turn, you can use your bonus action to make an additional attack, grapple, or shove against the same creature.
 
 #### Close Quarters Shooting
 You are skilled at getting up close and personal with blaster weapons. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
@@ -319,11 +319,11 @@ When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attac
 When you use this ability, you can't use luck points before the end of your next turn. 
 
 ### Brawling Mastery
-You've mastered using your weight to your advantage, easily wrangling targets around. As long as you are not wielding a medium or heavy shield, you gain the following benefits:
-- Your unarmed strikes use a d6 for damage.
-- Your improvised weapons use a d6 for damage and gain the versatile (1d8) property.
+You've mastered using your weight to your advantage, easily wrangling targets around. You gain the following benefits:
+- Your improvised weapons use a d6 for damage and gain the versatile (2d4) property.
+- Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
 - Your speed isn't halved by carrying a grappled creature who is the same size category as you or smaller. 
-- When you take the Attack action and make an attack against a creature grappled by you, you can use a bonus action to make another attack against that creature.
+- Once per turn, when you hit a creature with an unarmed strike or an improvised weapon, you can make an additional unarmed strike or improvised weapon attack against the same target without the aid of your proficiency bonus (no action required).
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
@@ -375,7 +375,7 @@ You've practiced utilizing powers in close quarters, learning techniques that gr
 You've mastered getting up close and personal with blaster weapons, maintain both rate of fire and accuracy. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
 - When you take the Attack action, you can choose to fire rapidly at the expense of accuracy. Your ranged weapon attacks are made without the aid of your proficiency bonus, but you use your bonus action to make an additional ranged weapon attack, also without your proficiency bonus.
 - Your ranged weapon attacks ignore half cover against targets within 30 feet of you.
-- Other creatures provoke an opportunity attack from you when they move to within 15 feet of you, and you can used blaster weapons when making opportunity attacks.
+- Other creatures provoke an opportunity attack from you when they move to within 15 feet of you, and you can use blaster weapons when making opportunity attacks.
 
 ### Combat Caster
 _**Prerequisite:** The ability to cast force or tech powers_<br>
@@ -477,11 +477,6 @@ Every blow that hits your enemies make you feel closer to victory, making you sh
 - When you score a critical hit with an attack roll or reduce a creature to 0 hit points, you can make one weapon attack as a bonus action.
 - Whenever a creature you can see within 30 feet is reduce to 0 hit points, you go into a fervor gaining temporary hit points equal to 1d4 + your Constitution modifier. 
 
-### Feigned Confidence
-You've spent years pretending you know what you're doing, gaining the following benefits:
-- Increase your Charisma score by 1, to a maximum of 20.
-- When you would make an ability check that doesn't add your proficiency bonus, you can first make a DC 15 (Charisma) Deception check. On a success, you can add your proficiency bonus to the check. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
-
 ### Fighting Stylist
 You adopt a particular style of fighting as your specialty, gaining the following benefits:
 - Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
@@ -489,18 +484,25 @@ You adopt a particular style of fighting as your specialty, gaining the followin
 
 You can select this feat multiple times. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
-
-\pagebreakNum
-
 ### Force of Personality
-Rooms never go unalerted to your presence, and the strength of your personality make others lose focus on their own social game. Powers and other effects infrequently override your force of will.
+Rooms never go unalerted to your presence, and the strength of your personality make others lose focus on their own social game. Powers and other effects infrequently override your force of will. You gain the following benefits:
 - Your Charisma score increase by 1, to a maximum of 20.
 - You can use your Charisma modifier instead of your Wisdom modifier when making Insight checks.
 - When you would make a Wisdom saving throw, you can instead make a Charisma saving throw. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you complete a long rest.
 
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
 ### Force Sensitive
-You learn two at-will force powers, and one 1st-level force power, which you cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Your forcecasting ability is Wisdom or Charisma (depending on power alignment).
+_**Prerequisite:** Creature type humanoid_<br>
+You learn two at-will force powers, and one 1st-level force power, which you cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Your forcecasting ability is Wisdom or Charisma (depending on power alignment). Additionally, you lose the Force-Insensitive special trait if you have it.
+
+### Forceful Vigor
+Your strength and virility rarely go unnoticed, often to the point of distraction. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20.
+- You can use your Strength modifier instead of your Constitution modifier when making Constitution checks.
+- When you would make a Constitution saving throw, you can instead make a Strength saving throw. You can use this feature a number of times equal to your Strength modifier. You regain all expended uses of this feature when you complete a long rest.
 
 ### Forger 
 You've learned to identify and create peerless physical forgeries, granting the following benefits: 
@@ -517,12 +519,12 @@ Your presence on the battlefield is a source of inspiration. You gain the follow
 You have spent prolonged use with a mechanic's kit, gaining the following benefits:
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - You gain proficiency with the mechanic's kit. If you are already proficient with it, you instead gain expertise with it.
-- Whenever you make an Intelligence (Mechanic's Kit) check to make a repair, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least ten minutes repairing it.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
+- Whenever you make an Intelligence (Mechanic's Kit) check to make a repair, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least ten minutes repairing it.
 - Whenever you make an Intelligence (Investigation) or Wisdom (Perception) check to find a construct's weakness, you are considered to have expertise in the Investigation or Perception skill.
 
 ### Gourmand 
@@ -550,14 +552,16 @@ Your skills at bartering have granted you the following benefits:
 ### Healer
 You are an able medic, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:
 - Increase your Intelligence or Wisdom score by 1, to a maximum of 20.
-- When you use a medkit to stabilize a dying creature, that creature also regains 1 hit point.
+- When you use a traumakit to stabilize a dying creature, that creature also regains 1 hit point.
 - As an action, you can spend one use of a medkit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points again in this way until it finishes a short or long rest.
 
 ### Heavily Armored
 _**Prerequisite:** Proficiency with medium armor_<br>
 You have trained to master the use of heavy armor, gaining the following benefits:
-- You gain proficiency with heavy armor. If you are already proficient with heavy armor, instead increase your Strength score by 1, to a maximum of 20.
-- While you are wearing heavy armor, kinetic and energy damage that you take from unenhanced weapons is reduced by an amount equal to your proficiency bonus.
+- Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
+- You gain proficiency with heavy armor. If you are already proficient with heavy armor, instead while you are wearing heavy armor, kinetic and energy damage that you take from unenhanced weapons is reduced by an amount equal to your proficiency bonus.
+
+You can take this feat twice. 
 
 ### Heavy Weapons Mastery
 You master the assault cannon, bowcaster, scattergun, and shotgun. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
@@ -592,8 +596,10 @@ You have a mind that can track time, direction, and detail with uncanny precisio
 
 ### Lightly Armored
 You have trained to master the use of light armor, gaining the following benefits:
-- You gain proficiency with light armor. If you are already proficient with light armor, instead increase your Strength or Dexterity score by 1, to a maximum of 20.
-- While you are wearing light armor, your speed increases by 5 feet.
+- Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
+- You gain proficiency with light armor. If you are already proficient with light armor, instead while you are wearing light armor, your speed increases by 5 feet.
+
+You can take this feat twice. 
 
 ### Linguist
 You have studied languages and codes, gaining the following benefits:
@@ -665,9 +671,10 @@ You are exceptionally speedy and agile. You gain the following benefits:
 ### Moderately Armored
 _**Prerequisite:** Proficiency with light armor_<br>
 You have trained to master the use of medium armor, gaining the following benefits: 
-- You gain proficiency with medium armor. If you are already proficient with medium armor, instead increase your Strength or Dexterity score by 1, to a maximum of 20.
-- While you are wearing medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.
-- Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.
+- Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
+- You gain proficiency with medium armor. If you are already proficient with medium armor, instead while you are wearing medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher, and you ignore the bulky property of medium armor.
+
+You can take this feat twice. 
 
 ### Mounted Caster
 _**Prerequisite:** The ability to cast force or tech powers_<br>
@@ -937,8 +944,10 @@ You've practiced casting powers in the midst of combat, learning techniques that
 
 ### Weapon Expert
 You have practiced extensively with a variety of weapons, gaining the following benefits:
-- You gain proficiency with all blasters, lightweapons, and vibroweapons. If you are already proficient with them, instead increase your Strength or Dexterity score by 1, to a maximum of 20.
-- Once per turn when you roll damage for a weapon attack using a weapon with which you are proficient, you can reroll the weapon's damage dice and use either total.
+- Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
+- You gain proficiency with all blasters, lightweapons, and vibroweapons. If you are already proficient with them, instead once per turn when you roll damage for a weapon attack using a weapon with which you are proficient, you can reroll the weapon's damage dice and use either total.
+
+You can take this feat twice. 
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 

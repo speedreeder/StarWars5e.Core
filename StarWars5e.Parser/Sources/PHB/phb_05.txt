@@ -235,13 +235,13 @@ You can use a weapon that has the ammunition property to make a ranged attack on
 <div style='margin-top:28px'></div>
 
 #### Burst
-A weapon that has the burst property can make a normal single-target attack, or it can spray a 10-foot-cube area within range with shots. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks) or take the weapon's normal damage. This consumes an amount of ammunition indicated by the burst number. If the ranged weapon attack would have disadvantage, affected targets instead have advantage.
+When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks) or take the weapon's normal damage. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save.
 
 #### Dexterity
 A weapon with this special property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. 
 
 #### Double
-A weapon with the double property functions as if you are wielding two separate weapons. A damage value in parentheses appears with the property—the damage when the weapon is used with two-weapon fighting. See the rules for two-weapon fighting in chapter 9.
+A weapon with the double property is optimized for fighting with both ends. A damage value in parentheses appears with the property—the damage when the weapon is used with two-weapon fighting. See the rules for two-weapon fighting in chapter 9.
 
 #### Finesse
 When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
@@ -323,22 +323,22 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 |	_Simple Blasters_	|||||
-|&emsp;	Blaster carbine		|  300 cr&nbsp;&nbsp;|1d6 energy		| 8 lb&nbsp;&nbsp;	|Ammunition (range 60/240), reload 16, two-handed |
-|&emsp;	Bowcaster           |  400 cr&nbsp;&nbsp;|1d10 energy      |16 lb&nbsp;&nbsp;  |Ammunition (range 50/200), burst 4, reload 4, strength 11, two-handed|
-|&emsp;	Light pistol 		|  350 cr&nbsp;&nbsp;|1d4 energy		| 2 lb&nbsp;&nbsp;	|Ammunition (range 40/160), light, reload 12|
-|&emsp;	Hold-out 			|  250 cr&nbsp;&nbsp;|1d4 energy		| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), hidden, light, reload 6|
-|&emsp;	Scattergun			|  200 cr&nbsp;&nbsp;|1d6 kinetic		| 3 lb&nbsp;&nbsp;	|Ammunition (range 20/80), burst 4, reload 4|
-|&emsp;	Shotgun 			|  350 cr&nbsp;&nbsp;|2d4 kinetic		|12 lb&nbsp;&nbsp;	|Ammunition (range 30/120), burst 2, reload 4, strength 11, two-handed|
-|&emsp;	Wrist launcher		|  450 cr&nbsp;&nbsp;|—				| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), fixed, reload 1, special	|
+|&emsp;Blaster carbine		|  300 cr&nbsp;&nbsp;|1d6 energy		| 8 lb&nbsp;&nbsp;	|Ammunition (range 60/240), reload 16, two-handed |
+|&emsp;Bowcaster           |  400 cr&nbsp;&nbsp;|1d10 energy      |16 lb&nbsp;&nbsp;  |Ammunition (range 50/200), burst 4, reload 4, strength 11, two-handed|
+|&emsp;Light pistol 		|  350 cr&nbsp;&nbsp;|1d4 energy		| 2 lb&nbsp;&nbsp;	|Ammunition (range 40/160), light, reload 12|
+|&emsp;Hold-out 			|  250 cr&nbsp;&nbsp;|1d4 energy		| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), hidden, light, reload 6|
+|&emsp;Scattergun			|  200 cr&nbsp;&nbsp;|1d6 kinetic		| 3 lb&nbsp;&nbsp;	|Ammunition (range 20/80), burst 4, reload 4|
+|&emsp;Shotgun 			|  350 cr&nbsp;&nbsp;|2d4 kinetic		|12 lb&nbsp;&nbsp;	|Ammunition (range 30/120), burst 2, reload 4, strength 11, two-handed|
+|&emsp;Wrist launcher		|  450 cr&nbsp;&nbsp;|—				| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), fixed, reload 1, special	|
 |	_Martial Blasters_	|||||
-|&emsp; Assault cannon		|  500 cr&nbsp;&nbsp;|1d10 energy		|24 lb&nbsp;&nbsp;	|Ammunition (range 80/320), burst 4, reload 8, strength 11, two-handed|
-|&emsp;	Blaster pistol		|  200 cr&nbsp;&nbsp;|1d6 energy		| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
-|&emsp;	Blaster rifle		|  400 cr&nbsp;&nbsp;|1d8 energy		|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
-|&emsp;	Heavy pistol		|  300 cr&nbsp;&nbsp;|1d8 energy		| 4 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 12, strength 11|
-|&emsp;	Ion pistol			|  200 cr&nbsp;&nbsp;|1d4 ion			| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
-|&emsp;	Ion rifle			|  400 cr&nbsp;&nbsp;|1d6 ion			|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
-|&emsp;	Slugthrower 		|  350 cr&nbsp;&nbsp;|1d8 kinetic		|14 lb&nbsp;&nbsp;	|Ammunition (range 100/400), burst 6, reload 12, two-handed|
-|&emsp;	Sniper rifle		|  750 cr&nbsp;&nbsp;|1d12 energy		|12 lb&nbsp;&nbsp;	|Ammunition (range 150/600), reload 2, strength 11, two-handed|
+|&emsp;Assault cannon		|  500 cr&nbsp;&nbsp;|1d10 energy		|24 lb&nbsp;&nbsp;	|Ammunition (range 80/320), burst 4, reload 8, strength 11, two-handed|
+|&emsp;Blaster pistol		|  200 cr&nbsp;&nbsp;|1d6 energy		| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
+|&emsp;Blaster rifle		|  400 cr&nbsp;&nbsp;|1d8 energy		|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
+|&emsp;Heavy pistol		|  300 cr&nbsp;&nbsp;|1d8 energy		| 4 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 12, strength 11|
+|&emsp;Ion pistol			|  200 cr&nbsp;&nbsp;|1d4 ion			| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
+|&emsp;Ion rifle			|  400 cr&nbsp;&nbsp;|1d6 ion			|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
+|&emsp;Slugthrower 		|  350 cr&nbsp;&nbsp;|1d8 kinetic		|14 lb&nbsp;&nbsp;	|Ammunition (range 100/400), burst 6, reload 12, two-handed|
+|&emsp;Sniper rifle		|  750 cr&nbsp;&nbsp;|1d12 energy		|12 lb&nbsp;&nbsp;	|Ammunition (range 150/600), reload 2, strength 11, two-handed|
 
 </div>	
 
@@ -352,20 +352,20 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Lightweapons_	|||||||
-|&emsp;	Lightclub			|  150 cr&nbsp;&nbsp;|1d10 energy		|5 lb&nbsp;&nbsp;|Luminous, two-handed|
-|&emsp;	Lightdagger			|  100 cr&nbsp;&nbsp;|1d4 energy		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (20/60)|
-|&emsp;	Lightsaber			|  200 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d8)|
-|&emsp;	Shotosaber			|  500 cr&nbsp;&nbsp;|1d6 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
+|&emsp;Lightclub			|  150 cr&nbsp;&nbsp;|1d10 energy		|5 lb&nbsp;&nbsp;|Luminous, two-handed|
+|&emsp;Lightdagger			|  100 cr&nbsp;&nbsp;|1d4 energy		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (20/60)|
+|&emsp;Lightsaber			|  200 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d8)|
+|&emsp;Shotosaber			|  500 cr&nbsp;&nbsp;|1d6 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
 |	_Martial Lightweapons_	|||||||
-|&emsp;	Doublesaber			|1,400 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous, two-handed|
-|&emsp;	Doubleshoto			|1,250 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous, two-handed|
-|&emsp;	Greatsaber			|1,000 cr&nbsp;&nbsp;|2d6 energy		|3 lb&nbsp;&nbsp;|Dexterity 11, luminous, two-handed|
-|&emsp;	Lightsaber pike		|  400 cr&nbsp;&nbsp;|1d10 energy		|3 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
-|&emsp;	Lightfoil			|  500 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
-|&emsp;	Light ring			|  500 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, returning, thrown (range 30/90)	|
-|&emsp;	Martial lightsaber  |  300 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
-|&emsp;	Saberspear			|  450 cr&nbsp;&nbsp;|2d4 energy		|2 lb&nbsp;&nbsp;|Luminous|
-|&emsp;	Saberwhip			|  300 cr&nbsp;&nbsp;|1d4 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
+|&emsp;Doublesaber			|1,400 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous, two-handed|
+|&emsp;Doubleshoto			|1,250 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous, two-handed|
+|&emsp;Greatsaber			|1,000 cr&nbsp;&nbsp;|2d6 energy		|4 lb&nbsp;&nbsp;|Dexterity 11, luminous, two-handed|
+|&emsp;Lightsaber pike		|  400 cr&nbsp;&nbsp;|1d10 energy		|6 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
+|&emsp;Lightfoil			|  500 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
+|&emsp;Light ring			|  500 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, returning, thrown (range 30/90)	|
+|&emsp;Martial lightsaber  |  300 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
+|&emsp;Saberspear			|  450 cr&nbsp;&nbsp;|2d4 energy		|2 lb&nbsp;&nbsp;|Luminous|
+|&emsp;Saberwhip			|  300 cr&nbsp;&nbsp;|1d4 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
 
 <div style='margin-top:38px'></div>
 
@@ -373,29 +373,29 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Vibroweapons_	|||||
-|&emsp;	Techaxe			    |   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light, thrown (range 20/60)	|
-|&emsp;	Vibrodagger			|   50 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, light, thrown (20/60)|
-|&emsp;	Vibrodart			|    5 cr&nbsp;&nbsp;|1d4 kinetic		|1/4 lb&nbsp;&nbsp;|Finesse, special, thrown (20/60)	|
-|&emsp;	Vibroknuckler		|   60 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Hidden, light|
-|&emsp;	Vibromace			|   80 cr&nbsp;&nbsp;|1d8 kinetic		|12 lb&nbsp;&nbsp;|Heavy, two-handed|
-|&emsp;	Vibrostaff			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|4 lb&nbsp;&nbsp;|Versatile (2d4)|
-|&emsp;	Vibrospear			|  120 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Thrown (range 20/60), versatile (1d8)|
+|&emsp;Techaxe			    |   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light, thrown (range 20/60)	|
+|&emsp;Vibrodagger			|   50 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, light, thrown (20/60)|
+|&emsp;Vibrodart			|    5 cr&nbsp;&nbsp;|1d4 kinetic		|1/4 lb&nbsp;&nbsp;|Finesse, special, thrown (20/60)	|
+|&emsp;Vibroknuckler		|   60 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Hidden, light|
+|&emsp;Vibromace			|   80 cr&nbsp;&nbsp;|1d8 kinetic		|12 lb&nbsp;&nbsp;|Heavy, two-handed|
+|&emsp;Vibrostaff			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|4 lb&nbsp;&nbsp;|Versatile (2d4)|
+|&emsp;Vibrospear			|  120 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Thrown (range 20/60), versatile (1d8)|
 |	_Martial Vibroweapons_	|||||
-|&emsp;	Chakram				|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, returning, thrown (range 30/90)	|
-|&emsp;	Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light, two-handed |
-|&emsp;	Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse, two-handed |
-|&emsp;	Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
-|&emsp;	Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, special, thrown (range 15)|
-|&emsp;	Techblade			|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, light|
-|&emsp;	Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic), two-handed	|
-|&emsp;	Vibroaxe			|  300 cr&nbsp;&nbsp;|1d10 kinetic		|11 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
-|&emsp;	Vibroblade			|  150 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Versatile (1d10)|
-|&emsp;	Vibrobaton			|  225 cr&nbsp;&nbsp;|2d4 kinetic		|4 lb&nbsp;&nbsp;|—|
-|&emsp;	Vibrolance			|  100 cr&nbsp;&nbsp;|1d12 kinetic		|6 lb&nbsp;&nbsp;|Reach, special|
-|&emsp;	Vibropike			|  200 cr&nbsp;&nbsp;|1d10 kinetic		|6 lb&nbsp;&nbsp;|Dexterity 11, reach, two-handed|
-|&emsp;	Vibrorapier			|  250 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Finesse|
-|&emsp;	Vibrosword			|  500 cr&nbsp;&nbsp;|2d6 kinetic		|6 lb&nbsp;&nbsp;|Dexterity 11, two-handed|
-|&emsp;	Vibrowhip			|  150 cr&nbsp;&nbsp;|1d4 kinetic		|3 lb&nbsp;&nbsp;|Finesse, reach|
+|&emsp;Chakram				|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, returning, thrown (range 30/90)	|
+|&emsp;Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light, two-handed |
+|&emsp;Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse, two-handed |
+|&emsp;Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
+|&emsp;Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, special, thrown (range 15)|
+|&emsp;Techblade			|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, light|
+|&emsp;Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic), two-handed	|
+|&emsp;Vibroaxe			|  300 cr&nbsp;&nbsp;|1d10 kinetic		|11 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
+|&emsp;Vibroblade			|  150 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Versatile (1d10)|
+|&emsp;Vibrobaton			|  225 cr&nbsp;&nbsp;|2d4 kinetic		|4 lb&nbsp;&nbsp;|—|
+|&emsp;Vibrolance			|  100 cr&nbsp;&nbsp;|1d12 kinetic		|6 lb&nbsp;&nbsp;|Reach, special|
+|&emsp;Vibropike			|  200 cr&nbsp;&nbsp;|1d10 kinetic		|6 lb&nbsp;&nbsp;|Dexterity 11, reach, two-handed|
+|&emsp;Vibrorapier			|  250 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Finesse|
+|&emsp;Vibrosword			|  500 cr&nbsp;&nbsp;|2d6 kinetic		|6 lb&nbsp;&nbsp;|Dexterity 11, two-handed|
+|&emsp;Vibrowhip			|  150 cr&nbsp;&nbsp;|1d4 kinetic		|3 lb&nbsp;&nbsp;|Finesse, reach|
 
 </div>	
 
@@ -517,12 +517,12 @@ A datapad is a<br> small electronic<br> device used for the<br> input, storage a
 |	_Communications_	|		|			|
 |	&emsp;Commlink	                |	  50 cr	|	1/2 lb		|
 |	&emsp;Comm jammer               |	 450 cr	|	3 lb		|
-|	&emsp;Headcomm	                |	  50 cr	|	1 lb		|
+|	&emsp;Headcomm	                |	 200 cr	|	1 lb		|
 |	&emsp;Holocomm	                |	 300 cr	|	2 lb		|
 |	&emsp;Holotrace device	        |  1,000 cr	|	5 lb		|
 |	&emsp;Pocket scrambler	        |	 800 cr	|	1 lb		|
 |	_Data Recording and Storage_|		|			|
-|	&emsp;Code cylinder	            |	 500 cr	|	1/2 lb		|
+|	&emsp;Code cylinder	            |	  20 cr	|	1/2 lb		|
 |	&emsp;Datacard	                |	   5 cr	|	—		|
 |	&emsp;Datacron              	|  1,000 cr	|	2 lb		|
 |	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
@@ -729,7 +729,7 @@ Macrobinoculars are handheld viewing devices that allow users to observe distant
 |	:--	|	--:	|	--:		|
 |	_Utilities_	|		|			|
 |	&emsp;Bedroll	                |	  10 cr	|	7 lb	 	|
-|	&emsp;Blanket	                |	  50 cr	|	3 lb	 	|
+|	&emsp;Blanket	                |	   5 cr	|	3 lb	 	|
 |	&emsp;Binders	                |	  50 cr	|	6 lb		|
 |	&emsp;Chronometer           	|	 100 cr	|	1 lb		|
 |	&emsp;Fibercord cable, 50 ft (rolled)	|	20 cr	|	2 lb		|
@@ -855,12 +855,12 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	_Communications_	|		|			|
 |	&emsp;Commlink	                |	  50 cr	|	1/2 lb		|
 |	&emsp;Comm jammer               |	 450 cr	|	3 lb		|
-|	&emsp;Headcomm	                |	  50 cr	|	1 lb		|
+|	&emsp;Headcomm	                |	 200 cr	|	1 lb		|
 |	&emsp;Holocomm	                |	 300 cr	|	2 lb		|
 |	&emsp;Holotrace device	        |  1,000 cr	|	5 lb		|
 |	&emsp;Pocket scrambler	        |	 800 cr	|	1 lb		|
 |	_Data Recording and Storage_|		|			|
-|	&emsp;Code cylinder	            |	 500 cr	|	1/2 lb		|
+|	&emsp;Code cylinder	            |	  20 cr	|	1/2 lb		|
 |	&emsp;Datacard   	            |	   5 cr	|	—		|
 |	&emsp;Datacron              	|  1,000 cr	|	2 lb		|
 |	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
@@ -899,7 +899,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	&emsp;Pouch	                    |	   5 cr	|	1 lb		|
 |	_Utilities_	|		|			|
 |	&emsp;Bedroll	                |	  10 cr	|	7 lb	 	|
-|	&emsp;Blanket	                |	  50 cr	|	3 lb	 	|
+|	&emsp;Blanket	                |	   5 cr	|	3 lb	 	|
 |	&emsp;Binders	                |	  50 cr	|	6 lb		|
 |	&emsp;Canteen	                |	  10 cr	|	3 lb		|
 |	&emsp;Chronometer           	|	 100 cr	|	1 lb		|
@@ -991,31 +991,36 @@ Slicers used specialized computers and scramble keys, many built by the slicers 
 |	&emsp;Armormech's tools			|	200 cr	|	8 lb	|
 |	&emsp;Armstech's tools			|	250 cr	|	9 lb	|
 |	&emsp;Artificer's tools			|	300 cr	|	5 lb	|
-|	&emsp;Artist's tools			    |	100 cr	|	5 lb	|
+|	&emsp;Artist's tools			|	100 cr	|	5 lb	|
 |	&emsp;Astrotech's tools			|	400 cr	|  12 lb	|
 |	&emsp;Biotech's tools     		|	450 cr	|	6 lb	|
-|	&emsp;Constructor's tools			|	 100 cr	|	7 lb	|
+|	&emsp;Constructor's tools		|	 100 cr	|	7 lb	|
 |	&emsp;Cybertech's tools			|	500 cr	|  10 lb	|
-|	&emsp;Jeweler's tools		    	|	250 cr	|  2 lb	|
+|	&emsp;Jeweler's tools		    |	250 cr	|  2 lb	|
 |	&emsp;Surveyor's tools			|	500 cr	|	6 lb	|
-|	&emsp;Synthweaver's tools			|	250 cr	|	2 lb	|
-|	&emsp;Tinker's tools				|	500 cr	|  10 lb	|
+|	&emsp;Synthweaver's tools		|	250 cr	|	2 lb	|
+|	&emsp;Tinker's tools			|	500 cr	|  10 lb	|
 |	_Gaming set_		|		|		|
 |	&emsp;Chance cubes				|	  1 cr	|	  — 	|
-|	&emsp;Holochess set				|	300 cr	|	8 lb	|
-|	&emsp;Pazaak deck					|	100 cr	|	  —		|
+|	&emsp;Djerik set				|	300 cr	|	8 lb	|
+|	&emsp;Pazaak deck				|	100 cr	|	  —		|
 |	&emsp;Sabacc deck     			|	150 cr	|	  —		|
 |	_Musical instrument_		|		|		|
-|	&emsp;Bagpipes					|	300 cr	|	6 lb	|
 |	&emsp;Bandfill					|	300 cr	|	2 lb	|
+|	&emsp;Chindinkalu horn			|	120 cr	|	7 lb	|
 |	&emsp;Drum						|	 60 cr	|	3 lb	|
+|	&emsp;Fanfar					|	220 cr	|	4 lb	|
+|	&emsp;Fizzz						|	160 cr	|	3 lb	|
 |	&emsp;Flute						|	 20 cr	|	1 lb	|
+|	&emsp;Kloo horn					|	330 cr	|	2 lb	|
 |	&emsp;Lute						|	350 cr	|	2 lb	|
-|	&emsp;Horn						|	 30 cr	|	2 lb	|
+|	&emsp;Mandoviol					|   425 cr	|   1 lb	|
 |	&emsp;Ommni box					|	250 cr	|  10 lb	|
-|	&emsp;Pan flute					|	120 cr	|	2 lb	|
+|	&emsp;Slitherhorn				|	120 cr	|	2 lb	|
 |	&emsp;Shawm						|	 20 cr	|	1 lb	|
-|	&emsp;Viol						|	300 cr	|	1 lb	|
+|	&emsp;Traz					    |	300 cr	|	6 lb	|
+|	&emsp;Valahorn				    |	340 cr	|	4 lb	|
+|	&emsp;Xantha				    |	170 cr	|	7 lb	|
 |	_Specialist's kit_		|		|		|
 |	&emsp;Biochemist's kit		        |	500 cr	|	8 lb	|
 |	&emsp;Chef's kit                    |	 70 cr	|	8 lb	|

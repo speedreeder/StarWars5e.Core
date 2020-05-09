@@ -721,7 +721,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
-Dark energy courses from your hand at a creature within range. The target must succeed on a Wisdom saving throw. If it's is missing any hit points, it takes 1d12 necrotic damage. Otherwise, it takes 1d8.
+Dark energy courses from your hand at a creature within range. The target must succeed on a Wisdom saving throw. If it is missing any hit points, it takes 1d12 necrotic damage. Otherwise, it takes 1d8.
 
 The power's damage increases by one die when you reach 5th, 11th, and 17th level.
 
@@ -818,7 +818,7 @@ _2nd-level universal power_
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
-- **Duration:** Concentration, up to 1 minute 
+- **Duration:** Concentration, up to 1 hour 
 
 You become invisible until the power ends. Anything you are wearing or carrying is invisible as long as it is on your person. The power ends if you attack or cast a power.
 
@@ -874,18 +874,12 @@ ___
 - **Duration:** Concentration, up to 1 hour 
 
 You touch a creature and enhance it with the Force. Choose one of the following effects; the target gains that effect until the power ends.
-
-***Endurance.*** The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the power ends.
-
-***Strength.*** The target has advantage on Strength checks, and his or her carrying capacity doubles.
-
-***Dexterity.*** The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.
-
-***Splendor.*** The target has advantage on Charisma checks.
-
-***Cunning.*** The target has advantage on Intelligence checks.
-
-***Wisdom.*** The target has advantage on Wisdom checks.
+- ***Endurance.*** The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the power ends.
+- ***Strength.*** The target has advantage on Strength checks, and his or her carrying capacity doubles.
+- ***Dexterity.*** The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.
+- ***Splendor.*** The target has advantage on Charisma checks.
+- ***Cunning.*** The target has advantage on Intelligence checks.
+- ***Wisdom.*** The target has advantage on Wisdom checks.
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
@@ -896,9 +890,7 @@ ___
 - **Range:** Self
 - **Duration:** Concentration, up to 1 minute 
 
-An immobile, faintly shimmering barrier springs into existence around you and remains for the duration. The barrier moves with you.
-
-Any force power of 3rd level or lower cast from outside the barrier can't affect you, even if the power is cast using a higher level force slot. Such a power can target you, but the power has no effect on you. Similarly, the area within the barrier is excluded from the areas affected by such powers.
+An immobile, faintly shimmering barrier springs into existence around you and remains for the duration. The barrier moves with you. Any force power of 3rd level or lower cast from outside the barrier can't affect you, even if the power is cast using a higher level force slot. Such a power can target you, but the power has no effect on you. Similarly, the area within the barrier is excluded from the areas affected by such powers.
 
 ***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the barrier blocks powers of one level higher for each slot level above 4th.
 
