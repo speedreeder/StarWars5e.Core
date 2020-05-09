@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
+using StarWars5e.Models;
+using StarWars5e.Models.Enums;
 using StarWars5e.Parser.Managers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -102,6 +105,38 @@ namespace StarWars5e.Parser
                 }
 
                 Console.WriteLine("Failed to upload search terms.");
+            }
+
+            try
+            {
+                var tableStorageRepository = serviceProvider.GetService<ITableStorage>();
+
+                var currentVersion =
+                    (await tableStorageRepository.GetAsync<DataVersion>("dataVersion", ContentType.Core.ToString(),
+                        "MASTERVERSION")).Version;
+
+                var dataNames = new List<string>
+                {
+                    "MASTERVERSION", "archetypes", "armorProperties", "backgrounds", "classes", "credits", "enhancedItems", "equipment",
+                    "feats", "features", "monsters", "powers", "referenceTables", "species", "starshipBaseSizes",
+                    "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures", "weaponProperties",
+                    "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules" 
+                };
+                var dataVersions = dataNames.Select(d => new DataVersion
+                {
+                    LastUpdated = DateTime.Now,
+                    Name = d,
+                    PartitionKey = ContentType.Core.ToString(),
+                    RowKey = d,
+                    Version = currentVersion + 1
+                });
+
+                await tableStorageRepository.AddBatchAsync<DataVersion>("dataVersion", dataVersions,
+                    new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to update data versions.");
             }
         }
     }
