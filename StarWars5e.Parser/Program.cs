@@ -120,7 +120,8 @@ namespace StarWars5e.Parser
                     "MASTERVERSION", "archetypes", "armorProperties", "backgrounds", "classes", "credits", "enhancedItems", "equipment",
                     "feats", "features", "monsters", "powers", "referenceTables", "species", "starshipBaseSizes",
                     "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures", "weaponProperties",
-                    "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules" 
+                    "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules",
+                    "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU"
                 };
                 var dataVersions = dataNames.Select(d => new DataVersion
                 {

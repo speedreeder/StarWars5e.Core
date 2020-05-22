@@ -91,7 +91,7 @@
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | TABLE OF CONTENTS</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Addicted Approach
 For some, the consumption of substances is the entirety of their life. For berserkers of the Addicted Approach, substances cause their fury to burn stronger and deeper, granting significant benefits.
@@ -115,7 +115,7 @@ At 14th level, while you are both raging and experiencing the high of a substanc
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Ballistic Approach
 For many, rushing an opponent with guns blazing is a last resort. For Berserkers of the Ballistic Approach, this isn't a last resort; it's the primary plan. Leading with a blaster and pure, unbridled rage, the berserker never lets an empty gun diminish their fury.
@@ -147,13 +147,13 @@ At 14th level, when you use the burst property of a blaster with which are you p
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Bloodstorm Approach
 The Bloodstorm Approach is said to have originated from the ancient wookiee Hroufrasnooohn clan (which loosely translates to Bloodstorm in Galactic Basic), whose warriors performed gravity-defying feats with their flying vibroaxes through a combination of unorthodox techniques and a mystical belief in their own abilities. A berserker who follows this approach can hurl their devastating weapons at enemies with such power and skill that it completely blurs the line between melee and ranged combat.
 
 ### Furious Throw
-When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. You may count your thrown weapon attacks as if they were melee weapon attacks for the purposes of your class abilities and feats, such as your Berserker Rage and Reckless Attack abilities.
+When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. You may count your thrown weapon attacks as if they were melee weapon attacks for the purposes of your class features and feats, such as your Berserker Rage and Reckless Attack abilities.
 
 ### Returning Attacks
 Also at 3rd level, any weapon you throw can ricochet back to you at your command. When you make a thrown weapon attack, you may have the weapon fly back to your hand immediately after the attack.
@@ -181,7 +181,7 @@ At 14th level, you can send your weapon spinning into a gravity-defying whirlwin
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Brawling Approach
 Most berserkers require weapons. For berserkers of the Brawling Approach, however, everything is their weapon.
@@ -237,7 +237,7 @@ At 14th level, when you would make an unarmed strike or attack with an improvise
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Cyclone Approach
 The Cyclone Approach empowers the berserker's ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a whirlwind of fury and steel, cleaving through hordes of enemies.
@@ -267,7 +267,7 @@ You can use this feature a number of times equal to your Strength modifier (a mi
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Frenzied Approach
 For some berserkers, rage is a means to an end—that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
@@ -294,7 +294,7 @@ At 14th level, when you take damage from a creature that is within 5 feet of you
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Industrial Approach
 While some berserkers are content to surrender to their rage, others prefer a more tactful approach. Berserkers of the Industrial Approach augment their rage with the versatility of technology, adding elemental explosions to their already fearsome arsenal.
@@ -346,7 +346,7 @@ Casting tech powers during rage counts as attacking for the purposes of maintain
 
 <img src='https://www.gmbinder.com/images/ilyi6Mj.png' style='position:absolute;bottom:-51px;left:-298px;width:1040px;z-index:1000' />
 
-\pagebreak
+\pagebreakNum
 
 ### Explosive Resilience
 At 6th level, once per round, when you deal damage that includes your rage damage, you can cause a localized explosion around the recipient of that damage. Each creature within 5 feet of the damaged creature other than you takes acid, cold, fire, ion, or lightning damage (your choice) equal to your rage damage bonus, and you gain resistance to the chosen damage type until the end of your next turn.
@@ -391,7 +391,7 @@ At 14th level, when you are reduced to 0 hit points but not killed outright, and
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Juggernaut Approach
 Certain berserkers find that the strongest offense is a good defense. Berserkers of the Juggernaut Approach wear the heaviest of armor not because they fear injury, but to strike fear in their hapless attackers.
@@ -425,7 +425,7 @@ Once you've used this feature, you must complete<br> a short or long rest before
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Precision Approach
 Some berserkers have learned to channel their rage into a method of increasing their focus and precision to supernatural levels. Those berserkers who choose the Precision Approach hone their rage to a fine point, becoming agile warriors who ruthlessly dispatch their foes.
@@ -451,7 +451,7 @@ At 14th level, the precision with which you act during your rage causes you to b
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of Confluence
 The Force binds us, creating an intangible bridge connecting all living things. Those consulars who follow the Way of Confluence master this power, manipulating those connections to both sustain and torment.
@@ -481,7 +481,7 @@ Starting at 18th level, while you have temporary hit points, you have resistance
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of Endurance
 The Force manifests in myriad ways; while some use the Force to manipulate the world around them, others use it to enhance themselves. Those consulars who follow the Way of Endurance channel the Force to allow them to overcome and reflect the most grievous of injuries.
@@ -524,7 +524,7 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of Manipulation
 The power of the Force is both vast and diverse, with uses varying drastically based on their wielder. Those consulars who follow the Way of Manipulation learn to control their weapons with the Force, maneuvering them across the battlefield.
@@ -536,16 +536,16 @@ Your weapon moves with you, and while Saber Storm is active and you have a weapo
 
 Additionally, while your Saber Storm is active, and at least one animated weapon is within 5 feet of you, you gain the following benefits:
 - You gain a bonus to your AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1) if it doesn't already include that modifier.
-- You gain a bonus to any Constitution saving throw you make to maintain your concentration on a power. The bonus equals your Wisdom or Charisma modifier (your choice, minimum of +l).
+- You gain a bonus to any Constitution saving throw you make to maintain your concentration on a power. The bonus equals your Wisdom or Charisma modifier (your choice, minimum of +1).
 
-This feature can animate more than one weapon when you reach higher levels: two weapons at<br> 5th level, three weapons at 11th level, and four<br> weapons at 17th level. When you use your<br> action to attack with your weapons, you<br> can direct them at the same target or<br> at different ones. Make a separate<br> attack roll for each weapon.
+This feature can animate more than one weapon when you reach higher levels: two weapons<br> at 5th level, three weapons at 11th level,<br> and four weapons at 17th level. When<br> you use your action to attack with your<br> weapons, you can direct them at the<br> same target or at different ones. Make a<br> separate attack roll for each weapon.
 
 At 5th level, the distance your weapon can travel increases to 20 feet. This distance increases to 30 feet at 11th level, and 40 feet at 17th level.
 
 You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.
 
 ### Deceptive Strike
-At 6th level, when you cast a force power with a range of touch while Saber Storm is active, your animated weapon can move up to its range and deliver the<br> power as if it had cast it. 
+At 6th level, when you cast a force power with a range of touch while Saber Storm is active, your animated weapon can move up to its range and deliver the power as if it had cast it. 
 
 \columnbreak
 
@@ -558,13 +558,13 @@ Beginning at 10th level, you can direct your animated weapons to absorb damage w
 At 14th level, when you deal damage to a creature while Saber Storm is active, and that creature fails a Constitution saving throw to maintain concentration on a force power, you can steal and redirect the power. Until the end of your next turn, either you or the creature who failed the Constitution saving throw gain the effects of the power (your choice).
 
 ### Sapping Storm 
-Starting at 18th level, when you reduce a hostile creature to 0 hit points while Saber Storm is active, you gain temporary force points equal to your Wisdom or Charisma modifier (your choice, minimum of one). These temporary force points can not exceed your Wisdom or Charisma modifier (your choice), and when you would spend a force point while you have temporary force points, the temporary force points are spent first. When Saber Storm ends, you lose any remaining&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; temporary force points.
+Starting at 18th level, when you reduce a hostile creature to 0 hit points while Saber Storm is active, you gain temporary force points equal to your Wisdom or Charisma modifier (your choice, minimum of one). These temporary force points can not exceed your Wisdom or Charisma modifier (your choice), and when you would spend a force point while you have temporary force points, the temporary force points are spent first. When Saber Storm ends, you lose any remaining temporary force points.
 
-<img src='https://www.gmbinder.com/images/z2Z0HPg.png' style='position:absolute;bottom:-67px;right:5px;width:550px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/z2Z0HPg.png' style='position:absolute;bottom:-67px;right:5px;width:540px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of Negation
 Some force users seek mastery over the fundamentals of energy manipulation, known as tutaminis. Those consulars who follow the Way of Negation harness this power to limit the havoc that other force-wielders might wreak.
@@ -602,7 +602,7 @@ At 18th level, when you use a Force-Empowered Casting option, you can spend a po
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of Telekinetics
 The consular knows how to manipulate the essence of the surrounding elements with the power of the Force. Those consulars who follow the Way of Telekinetics create torrential gusts of telekinetic energy, forming a potent combination that can pummel even the toughest adversaries into submission.
@@ -638,7 +638,7 @@ Additionally, whenever a force power you cast pushes or pulls a creature, you ca
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of the Seer
 The Force guides us in innumerable ways, often manifesting as visions. Those consulars who follow the Way of Seer attempt to harness these visions in an attempt to work towards the best possible future, as they see it.
@@ -674,7 +674,7 @@ Starting at 18th level, the visions in your dreams<br> &emsp;&emsp;&emsp;intensi
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Artificer Engineering
 Those engineers who choose the Artificer Engineering discipline focus on building and modifying lightsabers, while tapping into the latent presence of the Force in these lightsaber crystals.
@@ -715,7 +715,7 @@ Starting at 18th level, once per turn, when you reduce a hostile creature to 0 h
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Artificer Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
@@ -784,7 +784,7 @@ When you score a critical hit with your modified lightsaber, you have advantage 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Comfortable Handle
 You make minor modifications to the ergonomics of your modified saber's hilt. Your modified lightsaber gains the finesse property.
@@ -836,7 +836,7 @@ You install a retractible chain in the hilt of your modified lightsaber. Your mo
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Audiotech Engineering
 Those engineers who choose the Audiotech Engineering focus on using a specially modified instrument to use music to assist their allies and disrupt their enemies.
@@ -887,7 +887,7 @@ Starting at 18th level, you've gained mastery over your modified instrument. As 
 Once you've used this feature, you must complete a long rest before you can use it again.
 
 #### Battle Crescendo
-Choose up to 10 creatures of your choice that you can see and that can hear your song. Each must make a Constitution saving throw. On a failed save, a target takes 14d6 sonic damage and is stunned. On a success, it takes half damage and isn't stunned. If a creature is killed by this power, its head explodes.
+Choose up to 10 creatures of your choice that you can see and that can hear your song. Each must make a Constitution saving throw. On a failed save, a target takes 14d6 sonic damage and is stunned for 1d4+1 turns. On a success, it takes half damage and isn't stunned. If a creature is killed by this power, its head explodes.
 
 #### Support Crescendo
 Choose up to 10 creatures of your choice that you can see and that can hear your song. Once in the next minute, each creature can, as a free action in response to taking damage, choose to halve that damage. Additionally, if the damage would reduce them to 0 hit points, they are instead reduced to 1.
@@ -899,7 +899,7 @@ Choose up to 10 creatures of your choice that you can see and that can hear your
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Audiotech Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
@@ -966,7 +966,7 @@ You gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 11th lev
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Overwhelming Soundwaves
 _**Prerequisite:** 15th level_<br>
@@ -1033,7 +1033,7 @@ You can integrate a single weapon that weighs no more than 8 lb. into your instr
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Biochem Engineering
 Those engineers who choose the Biochem Engineering discipline focus on utilizing their vast knowledge of medicine and chemistry to supply allies with potent healing and enemies with debilitating poisons and acids.
@@ -1081,7 +1081,7 @@ Starting at 18th level, when you deal acid or poison damage using a tech power o
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Biochem Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
@@ -1144,7 +1144,7 @@ You've created a new mixture from your chemicals that you can use when you activ
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Expanded Mixtures: Hallucinogenic
 You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make an Intelligence saving throw. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the end of your next turn. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success. 
@@ -1214,7 +1214,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Cybertech Engineering
 Those engineers who choose the Cybertech Engineering discipline focus on the ability to craft reusable consumables and items that augment and complement their techcasting abilities.
@@ -1253,7 +1253,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Cybertech Modifications
 If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
@@ -1323,7 +1323,7 @@ You can use this amplifier a number of times equal to your Intelligence modifier
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Imaging Amplifier
 You integrate a booster in your wristpad that enhances your illusionary tech powers. While wielding this amplifier, when a creature attempts an Intelligence (Investigation) check against a tech power you cast to discern the illusion for what it is, you can force the creature to have disadvantage on the roll (no action required). Alternatively, when you cast the *mirror image* tech power, you create a fourth duplicate. While you have four duplicates, you must roll a 5 or higher on the d20 roll to change an attack's target to a duplicate.
@@ -1359,13 +1359,13 @@ You fine tune your Cryo Amplifier. When you activate this amplifier, the creatur
 #### Prototype Explosive Amplifier
 _**Prerequisite:** 7th level_<br>
 _**Prerequisite:** Explosive Amplifier_<br>
-You fine tune your Explosive Amplifier. When you activate this amplifier, the creature is also ignited for 1 minute. At the start of each of its turns, the creature takes additional fire damage equal to your Intelligence modifier and then makes a Dexterity saving throw against your tech save DC, ending this effect on a success. 
+You fine tune your Explosive Amplifier. When you activate this amplifier, the creature is also ignited for 1 minute. At the start of each of its turns, the creature 
 
 \columnbreak
 
 <div style='margin-top:16px'></div>
 
-&emsp;If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames, the effect ends.
+takes additional fire damage equal to your Intelligence modifier and then makes a Dexterity saving throw against your tech save DC, ending this effect on a success. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames, the effect ends.
 
 #### Powered Grappling Hook
 _**Prerequisite:** 9th level_<br>
@@ -1395,7 +1395,7 @@ Once you've used this feature, you can't use it again until you recover and rein
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Experimental Engineering
 Those engineers who choose the Experimental Engineering discipline create and use untested combinations, resulting in powerful—and often unpredictable—effects.
@@ -1434,7 +1434,7 @@ Starting at 18th level, the harmful energies of your tech powers and class featu
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='classTable wide' style='column-count:2'>
 
@@ -1504,7 +1504,7 @@ Starting at 18th level, the harmful energies of your tech powers and class featu
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Adept Specialist
 Those fighters who choose to become Adept Specialists tap into a latent Force-sensitivity to augment their martial prowess, blending the two to accelerate their bodies and blows. An adept speeds across the battlefield, attacking opponents in a flurry of blows before dashing off again.
@@ -1553,7 +1553,7 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Whirling Weapons
 Beginning at 7th level, your constant blur of motion and attacks becomes an unending barrage as you build momentum. Once on your turn when you miss with a weapon attack you can make another weapon attack, no action required. 
@@ -1599,7 +1599,7 @@ At 18th level you reach the pinnacle of your training, moving faster than eyes o
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Blademaster Specialist
 Those fighters who choose to become Blademaster Specialists hone their focus to a blade's edge, becoming so in tune with their arsenal that it becomes both their weapon and their armor.
@@ -1643,7 +1643,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Demolitions Specialist
 Those fighters who choose to become Demolitions Specialists are experts in using explosives in combat. They have an explosive for every situation, whether it be breaching a fortified bunker, taking down a walker, or simply demonstrating that in combat, standing too close to your squadmates can be fatal.
@@ -1678,7 +1678,7 @@ At 18th level, when a creature fails its saving throw against a charge or grenad
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Enhancement Specialist
 Those fighters who choose to become Enhancement Specialists learn to apply their technological prowess to their blasters. With their deep understanding of both their weapon and how to manipulate its ammunition on the fly, they can often turn the tides of a battle with a single shot.
@@ -1720,7 +1720,7 @@ ___
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Ammunition Enhancements
 The ammunition enhancements are presented in alphabetical order.
@@ -1778,7 +1778,7 @@ At 18th level, your ammunition enhancements improve.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Heavy Weapons Specialist
 Some manned instruments of war require their user to have superior physical prowess to overcome their weight and encumbrance. Those fighters who choose to become Heavy Weapons Specialists use their powerful bodies, and powerful armaments, to overwhelm their foes.
@@ -1809,7 +1809,7 @@ At 18th level, attack rolls you make while wielding a weapon with the heavy or s
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Mounted Specialist
 Those fighters who choose to become Mounted Specialists excel at mounted combat. Mounted Specialists are most dangerous from the seat of a speeder or saddle of a varactyl, though they can hold their own from the ground. Their versatility often has them leading the charge or protecting the team.
@@ -1851,7 +1851,7 @@ At 18th level, you respond to danger with extraordinary vigilance. In combat, yo
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Praetorian Specialist
 Those fighters who choose to become Praetorian Specialists seek perfection of both body and mind. These warriors master the art of warfare, and are often sought as bodyguards for the galaxy's elite. They are engines of destruction and resilience, able to fight on to their last breath.
@@ -1888,7 +1888,7 @@ Once you've used this feature, you can't use it again until you finish a long re
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Form IV: Ataru
 Form IV, also know as Aggression Form, is a kinetically active form that relies on speed, acrobatics, and power. Those guardians who focus on Ataru Form utilize high energy tactics to confuse and distract their opponents, quickly moving about the battlefield.
@@ -1897,7 +1897,7 @@ Form IV, also know as Aggression Form, is a kinetically active form that relies 
 When you choose this form as your focus at 3rd level, you adopt a style of fighting as your specialty. Choose one from the Great Weapon Fighting, Two-Weapon Fighting, or Versatile Fighting Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 ### The Way of the Hawk-Bat
-Also at 3rd level, as a bonus action, you you can take an aggressive stance, leaping around the battlefield for 1 minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the *force jump* power at 1st-level without expending force points. Additionally, when you cast *force jump*, you have advantage on the first attack roll you make against each creature within 5 feet of where you land.
+Also at 3rd level, as a bonus action, you can take an aggressive stance, leaping around the battlefield for 1 minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the *force jump* power at 1st-level without expending force points. Additionally, when you cast *force jump*, you have advantage on the first attack roll you make against each creature within 5 feet of where you land.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -1931,7 +1931,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Form V: Shien/Djem So
 Form V, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Shien/Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.
@@ -1962,7 +1962,7 @@ On your turn, you can expend a use of your Channel the Force (no action required
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 <img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:21px;left:-325px;width:775px;z-index:1000;transform:scaleX(-1)' />
 
@@ -1998,7 +1998,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Form VI: Niman
 Form VI, also known as Moderation Form, strikes a balance between bladework and force powers. Those guardians who focus on Niman Form weave Force manipulation with their melee weapon strikes, pushing their opponents off-balance to create an opening.
@@ -2041,7 +2041,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 
 ## Form VII: Juyo/Vapaad
@@ -2075,7 +2075,7 @@ When you reduce the damage dealt by a force power to 0 using the *saber reflect*
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Fury
 At 7th level, you gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vapaad.
@@ -2111,7 +2111,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Form VIII: Sokan
 Form VIII, also known as Persistence Form, uses determined movements followed by swift strokes to keep their opponents' footing unsteady. Those guardians who focus on Persistence Form make use of the terrain, trying to maneuver their opponents into vulnerable areas before dispatching them.
@@ -2157,7 +2157,7 @@ This effect ends early if you are incap-<br>acitated or die. Once you've used th
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Form IX: Tràkata
 Form IX, also known as Deception Form, capitalizes on a lightweapon's ability to quickly be toggled on and off. Those guardians who focus on Tràkata Form perform dazzling tricks with their lightweapon, confusing their opponents before dispatching them.
@@ -2199,7 +2199,7 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Form X: Jar'Kai
 Form X, also known as Domination Form, utilizes two weapons to overwhelm their foes. Those guardians who focus on Jar'Kai Form know that two weapons offer greater versatility than one, and capitalize on the twin angles from which they attack to subdue their enemies.
@@ -2242,7 +2242,7 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Aing-Tii Order
 Monks of the Aing-Tii Order blend an attunement to the Force with their supreme focus to become a blur of motion in the heat of battle.
@@ -2328,7 +2328,7 @@ Starting at 17th level, when you use your action to cast a force power, you can 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Crimson Order
 Monks of the Crimson Order are unyielding in their resolve. They pledge themselves to a singular entity or belief, and uphold their service with solemnity and diligence. 
@@ -2366,7 +2366,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Jal Shey Order
 Monks of the Jal Shey order, driven by the pursuit of knowledge, maintain one of the most well-respected and heavily guarded repositories of history and knowledge across the galaxy: the Archives of the Jal Shey. Here, young folk of all species seeking the clarity of truth and the strength of knowledge pledge to learn the arts of seeking enlightenment by understanding the world around them, and mastering the techniques to defend it. To become a Jal Shey monk is to give one's self to the quest for unveiling the deepest mysteries of the galaxy, to bring light to the secrets of the dark, and guard the most powerful and dangerous of truths.
@@ -2405,7 +2405,7 @@ At 17th level, you've gained the knowledge to temporarily inhibit a creature's f
 
 <div class='footnote'>EXPANDENT CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Kage Order
 Monks of the Kage Order, known as Kage warriors, have mastered fighting in darkness, using that which others fear as a weapon against them. Kage warriors learn tricks to create darkness where none exists, and learn to fight using their intuition rather than relying on sight.
@@ -2437,7 +2437,7 @@ At 17th level, you can exploit a creature's momentary distraction when it is hit
 
 <div class='footnote'>EXPANDENT CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Matukai Order
 Monks of the Matukai Order center their philosophy around  a balance and harmony between the spiritual Force and the physical body, using exercise as a form of meditation. They channel the Force through their bodies, turning themselves into exceptional warriors.
@@ -2462,7 +2462,7 @@ At 17th level, whenever you use your Instinctive Leap feature, you can leap your
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Trickster Order
 Monks of the Trickster Order embody the archetypal role of the "trickster"— one who seemingly bumbles their way into good fortune. They employ a unique fighting style composed of slips, trips, and falls to confuse and frustrate their enemies to no end. Whether your movements are actual foibles on your part or calculated strokes, they will surely leave others guessing long after your time is past.
@@ -2494,7 +2494,7 @@ At 17th level, you gain the ability to make an overwhelming number of attacks ag
   
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Whills Order  
 Monks of the Whills Order hold the secrets of the Force sacred, and dedicate their lives to defending ancient  knowledge of the Force and its artifacts. They master the use of ranged weapons, often crafting their own weapons in respectful admiration of the Jedi tradition of crafting lightweapons.
@@ -2527,7 +2527,7 @@ At 17th level, your first ranged weapon attack and your first melee weapon attac
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Acquisitions Practice
 Many operatives are hired for the procurement of valuable artifacts, but only the true masters of the art can slip through the tightest security and make off with untold riches, whether they do it for a profit, or for sport. Those operatives who choose the Acquisitions Practice apply a mixture of stealth and impressive acrobatics to surpass any kind of defenses they are met with.
@@ -2582,7 +2582,7 @@ Additionally, you learn to utilize the momentum of your fall to make deadly vert
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Beguiler Practice
 Those operatives who choose the Beguiler Practice augment their natural wiles and charm with subtle utilization of the Force. They tap into these powers to cloud the minds of their foes, distracting and diverting before abruptly dispatching them.
@@ -2626,7 +2626,7 @@ ___
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Fascinating Display
 Also at 3rd level, you can spend 1 minute attemping to distract and enthrall those around you. Choose a number of humanoids within 60 feet of you who watched your display for the duration, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be charmed by you. While charmed in this way, the target idolizes you, speaking glowingly of you to anyone who talks to it. Additionally, it hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.
@@ -2680,7 +2680,7 @@ Once you've used this<br> feature, you must com-<br>plete a short or long<br> re
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Disabling Practice
 Those operatives who choose the Disabling Practice utilize a variety of pushes, pulls, weight shifts, and joint locks to immobilize their opponent. They use these techniques to manipulate their opponent, moving them across the battlefield before incapacitating them.
@@ -2737,7 +2737,7 @@ Once&emsp;&emsp; you've used this feature, you must<br> &emsp;&emsp;&emsp;&emsp;
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Performance Practice
 Some operatives choose to master finesse and timing through performance art. Those operatives who choose the Performance Practice become skilled performers who prove especially deadly in close combat, able to find the rhythm of an attacker's strikes as easily as any song.
@@ -2792,7 +2792,7 @@ At 17th level, your confidence when putting on a show has extended into combat. 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Ruffian Practice
 Those operatives who choose the Ruffian Practice use rough-and-tumble tactics to handle any fight, big or small. They incite chaos and make devious moves that keep their enemies reeling.
@@ -2849,7 +2849,7 @@ At 17th level, your mastery of the blade lets you turn failure into success in c
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Saboteur Practice
 Those operatives who choose the Saboteur Practice enhance their fine-honed skills of stealth and agility with tech, using advanced technology with the aid of a tracker droid to sustain a longer assault.
@@ -2895,7 +2895,7 @@ You use a wristpad (found in chapter 5) as a techcasting focus for your tech pow
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Tracker Droid Companion
 Also at 3rd level, you learn to employ all the knowledge you've accumulated to create and customize your own personalized tracker droid companion.
@@ -2957,7 +2957,7 @@ Once you've used this feature, you can't use it again until you finish a long re
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 <div class='wide'>
 
@@ -3039,7 +3039,7 @@ While you are interfaced with your tracker droid via the *tracker droid interfac
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Interfaced Distraction Protocol
 _**Prerequisite:** 5th level_<br>
@@ -3113,7 +3113,7 @@ Your Small tracker droid gains two arms that struggle to wield bigger weapons. Y
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Sawbones Practice
 Those operatives who choose the Sawbones Practice have studied the humanoid body on a more intimate level than other operatives. While others may know where best to stab in order to kill, you also know how to repair the wounds you inflict, as well as how to make them even deeper. You delve into the secrets of the body, learning as much medical knowledge as you can get your hands on, regardless of how dirty the work becomes.
@@ -3170,7 +3170,7 @@ Additionally, when you are stabilized, you regain 1 hit point. Once you've used 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Scrapper Practice
 Those operatives who choose the Scrapper Practice don't have the time or patience for the fair fight. They utilize close-quarters blaster combat blended with underhanded tactics to surprise and disable their foes.
@@ -3221,7 +3221,7 @@ Starting at 13th level, when you make a Charisma (Intimidation) or Charisma (Per
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Chef Pursuit
 Without it empires fall, armies dissolve into nothingness, and species are forgotten with the passage of time. A favored tool of assassins, crime lords, and moguls: food. Those scholars who choose the Chef Pursuit know the importance and power that food carries.
@@ -3269,7 +3269,7 @@ At the end of a short or long rest you may expend a superiority die and choose a
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 <div style='margin-top:23px'></div>
 
@@ -3301,7 +3301,7 @@ When you select this pursuit, you gain access to new discoveries which reflect t
 
 #### Alternative Fuel
 _**Prerequisite:** Chef Pursuit_<br>
-Any of your chef features, maneuvers, or discoveries can now effect droids and constructs.
+Any of your chef features, maneuvers, or discoveries can now affect droids and constructs.
 
 #### Banquet
 _**Prerequisite:** 17th level, Chef Pursuit_<br>
@@ -3333,7 +3333,7 @@ Any food you prepare over a short or long rest carries with it an additional war
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Explorer Pursuit
 The explorer strives to navigate past the known to discover new planets, forgotten ruins, or forbidden locations. Those scholars who choose the Explorer Pursuit spend their time studying maps, landmarks, architecture blue prints, or even history books, using them to effectively lead the way for their companions.
@@ -3362,7 +3362,7 @@ Whenever you or a creature you can see makes an opportunity attack, you can expe
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 <div style='margin-top:23px'></div>
 
@@ -3428,7 +3428,7 @@ You can hold your breath twice as long as you are normally able to, and take hal
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Gambler Pursuit
 Not all studied men and women use their intelligence and skill for the pursuit of knowledge, but instead turn to the various casinos and betting halls of the galaxy. Those scholars who choose the Gambler Pursuit use their knowledge of probability and risk to attempt to master games of chance and build their fortune, or lose it all along the way.
@@ -3465,7 +3465,7 @@ When a creature hits you with an opportunity attack while within 5 feet of you, 
 
 <img src='https://www.gmbinder.com/images/FC6SDv7.png' style='position:absolute;bottom:0px;left:0px;width:848px;transform:scaleX(-1);z-index:1000;' />
 
-\pagebreak
+\pagebreakNum
 
 #### Pure Sabacc 
 When you score a critical hit with a weapon attack, you can expend a superiority die and roll it. On a roll of 4 or higher, you deal maximum damage on the weapon's damage roll, including the superiority die. On a roll of 3 or lower, you instead deal the minimum.
@@ -3531,7 +3531,7 @@ Whenever you roll a 7 on an ability check or saving throw, you can reroll the ab
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Geneticist Pursuit
 Throughout the galaxy there exists scientists who focus on unraveling the mysteries contained within the bodies of the divese sentients of the galaxy. Those scholars who choose the Geneticist Pursuit put their knowledge into practice, splicing their own genetic material to become superior beings... or monsters.
@@ -3582,7 +3582,7 @@ Starting at 9th level, your genetic alterations make you immune to poison and di
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Chimeric Adaptation
 Once you've reached 17th level, your genetic modifications have reached new heights. When you complete a short or long rest, you can choose one of the following features. When you undergo your mutagenic transformation, you also gain the benefits of the chosen feature for the duration. You can only have one of these features at a time.
@@ -3640,7 +3640,7 @@ You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Slicer Pursuit
 Across the galaxy one can find numerous pseudonyms and false identities belonging to the hackers and cyber-infiltrators that call the world of electronics home. Those scholars who choose the Slicer Pursuit put their impressive intellectual prowess to work in the field of technology, to ends both benevolent and malicious.
@@ -3726,7 +3726,7 @@ When you or an ally you can see within 60 feet make a saving throw against a tec
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 <div style='margin-top:23px'></div>
 
@@ -3792,7 +3792,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Zoologist Pursuit
 Many academics develop an affinity for nature, studying the vast fauna that inhabit the different planets throughout the galaxy.
@@ -3836,7 +3836,7 @@ When your beast attempts to grapple or knock a creature prone, you can expend a 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 <div style='margin-top:23px'></div>
 
@@ -3902,12 +3902,12 @@ Whenever you attempt to call forth an animal as your companion, you can instead 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Generating Your Beast 
 Choosing your beast companion is an integral part of being a Zoologist Scholar. Your beast takes a form of your choosing. Alternatively, your GM can choose what form your beast takes based on your environment. 
 
-Once you've selected your type of beast, you assign your beast companion's ability scores using standard array (16, 14, 14, 12, 10, 8) as you see fit.
+Once you've selected your type of beast, you assign your beast companion's ability scores. Your beast's Intelligence score is 6, and you assign it's other ability scores using a limited standard array (16, 14, 14, 12, 10) as you see fit.
 
 ___
 
@@ -3978,7 +3978,7 @@ When your beast hits with a melee weapon attack, it can use a bonus action to at
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Heavy Hide
 Your beast companion's armor class becomes 14. 
@@ -4024,6 +4024,10 @@ Your beast companion has a natural ranged weapon, such as a spitter or or tail s
 #### Reach Weapon
 Your beast companion has a natural weapon with reach, such as a tail or wings. It has the reach property, and on a hit it deals kinetic damage equal to its natural weapon damage die.
 
+#### Size: Huge
+_**Prerequisite:** Size Large_<br>
+Your beast companion's size is Huge. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d12, its natural weapon damage die becomes a d12, and it's walking speed increases to 40.
+
 #### Size: Large
 _**Prerequisite:** Size Medium_<br>
 Your beast companion's size is Large. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d10, its natural weapon damage die becomes a d10, and it's walking speed increases to 35.
@@ -4049,7 +4053,7 @@ When your beast companion deals damage to a creature, it must make a Constitutio
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Artillerist Technique
 While some scouts choose to foray alone, others like to have support. Follower of the Artillerist Technique master control of militant constructs, laying waste to the battlefield with their expertise
@@ -4096,7 +4100,7 @@ At 15th level, when you deal damage to a creature with a weapon or tech power, y
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Generating Your Turret 
 Your turret is a portable companion that you can upgrade over time.
@@ -4161,7 +4165,7 @@ Your turret can collapse into an innocuous looking container while undeployed. Y
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Hovering Turret
 Your turret can hover 5 feet over the ground while deployed. It ignores difficult terrain while hovering in this way.
@@ -4208,12 +4212,12 @@ This barrier lasts for 1 minute. You can end it early as a bonus action on your 
 #### Sentry 
 You add an overwatch suite to your turret companion. When you cast the _alarm_ tech power, you can choose to have your turret notified when the alarm is triggered. If you do so, when the alarm is triggered, your turret immediately makes a number of weapon attacks against the triggering creature up to your turret's proficiency bonus. If multiple creatures trigger the alarm simultaneously, your turret targets each creature randomly.
 
-#### Size: Medium
-Your turret's size is Medium. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d8, its vibroweapon and blaster damages increase to 1d10 and 1d8, respectively, and its deployed walking speed decreases to 20 feet.
-
 #### Size: Large
 _**Prerequisite:** Size: Medium_<br>
 Your turret's size is Large. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d10, its vibroweapon and blaster damages increase to 1d12 and 1d10, respectively, and its deployed walking speed decreases to 15 feet.
+
+#### Size: Medium
+Your turret's size is Medium. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d8, its vibroweapon and blaster damages increase to 1d10 and 1d8, respectively, and its deployed walking speed decreases to 20 feet.
 
 #### Suppressing Fire
 _**Prerequisite:** 11th level_<br>
@@ -4224,7 +4228,7 @@ As an action, you can have your turret anchor itself to the ground or recover it
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Bulwark Technique
 Some scouts find themselves far from civilization not to hunt, gather intelligence, or escape danger, but to venture forth simply to defend those unable to defend themselves. Followers of the Bulwark Technique make use of advanced technology to contain those that threaten the undeserving.
@@ -4280,7 +4284,7 @@ At 15th level, when your personal<br> barrier takes damage, you can have it<br> 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Illusionist Technique
 Among the galaxy you may find the various infiltrators and agents who make ample use of holographic technology to get themselves in and out of danger. Followers of the Illusionist Technique make use of this holographic technology to give themselves an illusory edge in combat.
@@ -4316,7 +4320,7 @@ At 15th level, you can create up to four duplicates of yourself, instead of one,
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Inquisitor Technique
 Across history, there have been those who live to hunt those who wield the Force, be they Jedi or Sith. Followers of the Inquisitor Technique combine technology with force techniques to track down and eliminate force-wielders. For those practitioners of the Force, they are the greatest adversary.
@@ -4356,7 +4360,7 @@ You can use this feature a number of times equal to 1 + your Intelligence modifi
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Mastermind Technique
 Preparation, preparation, preparation. Some scouts are serious students of battle and any creatures they might encounter. Followers of the Mastermind Technique focus on being prepared for any eventuality, and using their breadth of knowledge to gain insights into their enemies.
@@ -4394,7 +4398,7 @@ At 15th level, your training has taught you to find and exploit weaknesses in yo
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Predator Technique
 Some scouts work in solitude, while others prefer the strength of a group. Followers of the Predator Technique find power lies with the pack; they distract their prey, while their allies go for the kill.
@@ -4432,7 +4436,7 @@ At 15th level, when you use your Predator's Resolve feature, a number of friendl
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Slayer Technique
 Some scouts seek to learn the most about their foes and to capitalize on that knowledge. Follower of the Slayer Technique focus on identifying the strengths and weaknesses of their prey, taking advantage of that knowledge to vanquish their foes.
@@ -4459,7 +4463,7 @@ At 15th level, if the target of your Ranger's<br> Quarry feature forces you to m
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Path of Communion
 Those who master the Force can transcend death, persisting beyond their natural experation. Those sentinels who follow the Path of Communion bond with a Force ghost, developing a symbiotic relationship which alters the way they perceive their surroundings.
@@ -4507,7 +4511,7 @@ You can use your action to take total and precise control of the target. Until t
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Path of the Corsair
 There may come a time when a sentinel finds themselves stranded, hunted, or in any situation where they must hide their nature as a force wielder. Those sentinels who follow the Path of the Corsair make use of alternative weaponry not commonly associated with force-wielders to great effect.
@@ -4539,7 +4543,7 @@ At 18th level, when a creature fails the saving throw against your Force-Empower
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Path of Etherealness
 In the distant reaches of the galaxy obscure knowledge and forgotten secrets of the Force can sometimes be found. While other Force-sensitive may find themselves touched by this secret knowledge of the Force, those sentinels who follow the Path of Etherealness instead find themselves grabbed. Held onto by mysterious aspects of the Force that refuse to let go, these sentinels find themselves able to manipulate the universe around them.
@@ -4569,7 +4573,7 @@ At 18th level, you no longer suffer the frailty of old age, and you can't be age
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Path of the Forceblade
 Some few master their weapon in ways that differ from their peers. Those sentinels who follow the Path of the Forceblade channel the Force into their weapon, forming a unique connection that grants you greater control over the weapon; it becomes an extension of their will.
@@ -4606,7 +4610,7 @@ Additionally, when you do so, you can use your Kinetic Combat feature.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Path of Synthesis
 There is power in diversity unknown to those of narrow mind. Those sentinels who follow the Path of Synthesis blend their intricate mastery of the Force with their understanding of technology, creating unique effects to overcome their obstacles.
@@ -4614,7 +4618,7 @@ There is power in diversity unknown to those of narrow mind. Those sentinels who
 ### Techcasting Secrets
 Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel class table. You still require the aid of a wristpad for these powers.
 
-At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 17th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power.
+At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 17th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of no higher than the level determined by this feature.
 
 ### Synthetic Understanding
 Also at 3rd level, you've applied your newfound knowledge to broader pursuits. You gain proficiency in Technology or one tool of your choice.
@@ -4657,7 +4661,7 @@ At 18th level, when you use your Force-Empowered Tech features, a barrier for en
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Path of Tenacity
 The tenacious are ever mindful that the Force ebbs and flows, and uses this knowledge to great advantage. Those sentinels who follow the Path of Tenacity use their connection to the Force to draw the opposition's attention while also warding off their attacks, serving as an effective bulwark against even the most implacable of foes.
@@ -4693,4 +4697,4 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
-\pagebreak
+\pagebreakNum

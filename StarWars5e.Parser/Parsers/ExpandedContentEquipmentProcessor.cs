@@ -74,12 +74,12 @@ namespace StarWars5e.Parser.Parsers
                         PartitionKey = contentType.ToString()
                     };
 
-                    var weightMatch = Regex.Match(tableLineSplit[4], @"\d+");
+                    var weightMatch = Regex.Match(tableLineSplit[4], @"\d+/*\d*");
                     weapon.Name = tableLineSplit[1].RemoveHtmlWhitespace().Trim();
                     weapon.RowKey = weapon.Name;
                     try
                     {
-                        weapon.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
+                        weapon.Weight = weightMatch.Success ? weightMatch.Value : "0";
                         weapon.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
@@ -184,8 +184,8 @@ namespace StarWars5e.Parser.Parsers
                                 ? equipmentCategory
                                 : EquipmentCategory.Unknown;
 
-                        var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+");
-                        otherEquipment.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
+                        var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+/*\d*");
+                        otherEquipment.Weight = weightMatch.Success ? weightMatch.Value : "0";
 
                         var otherEquipmentDescriptionStartLine =
                             lines.FindIndex(f =>
@@ -257,8 +257,8 @@ namespace StarWars5e.Parser.Parsers
                             ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
                             : 0;
 
-                        var weightMatch = Regex.Match(tableLineSplit[4], @"\d+");
-                        armor.Weight = weightMatch.Success ? int.Parse(weightMatch.Value) : 0;
+                        var weightMatch = Regex.Match(tableLineSplit[4], @"\d+/*\d*");
+                        armor.Weight = weightMatch.Success ? weightMatch.Value : "0";
                         armor.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();

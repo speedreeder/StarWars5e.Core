@@ -5,48 +5,157 @@
 # Table of Contents
 |||
 |:--|--:|
-|Barbarian                  | 2|
-|City Watch                 | 3|
-|Clone Trooper              | 4|
-|Companion                  | 5|
-|Courtier                   | 6|
-|Crime Lord                 | 7|
-|Dathomir Witch             | 8|
-|Faction Adventurer         | 9|
-|Faction Artisan            |10|
-|Faction Merchant           |11|
-|Far Traveler               |12|
-|Farmer                     |13|
-|Folk Hero                  |14|
-|Force Adept                |15|
-|Gladiator                  |16|
+|Addict                     | 2|
+|Barbarian                  | 3|
+|City Watch                 | 4|
+|Clone Trooper              | 5|
+|Companion                  | 6|
+|Courtier                   | 7|
+|Crime Lord                 | 8|
+|Dathomir Witch             | 9|
+|Faction Adventurer         |10|
+|Faction Artisan            |11|
+|Faction Merchant           |12|
+|Far Traveler               |13|
+|Farmer                     |14|
+|Folk Hero                  |15|
+|Force Adept                |16|
+|Gladiator                  |17|
 
 |||
 |:--|--:|
-|Hermit                     |17|
-|Holonet Technician         |18|
-|Investigator               |19|
-|Jensaarai                  |20|
-|Laborer                    |21|
-|Lawyer                     |22|
-|Nomad                      |23|
-|Office Worker              |24|
-|Outlaw                     |25|
-|Pirate                     |26|
-|Racer                      |27|
-|Servant                    |28|
-|Student                    |29|
-|Teacher                    |30|
-|(Un)retired Adventurer     |31|
-|Urchin                     |32|
+|Hermit                     |18|
+|Holonet Technician         |19|
+|Investigator               |20|
+|Jensaarai                  |21|
+|Laborer                    |22|
+|Lawyer                     |23|
+|Nomad                      |24|
+|Office Worker              |25|
+|Outlaw                     |26|
+|Pirate                     |27|
+|Racer                      |28|
+|Servant                    |29|
+|Student                    |30|
+|Teacher                    |31|
+|(Un)retired Adventurer     |32|
+|Urchin                     |33|
 
 </div>
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS | TABLE OF CONTENTS</div>
 
-\pagebreak
+\pagebreakNum
 
-\pagebreak
+## Addict
+You hammer down your fifth bottle of the night, do your last bit of snuff, and bid farewell to the seedy cantina barman. You stagger onto the streets and find a nearby alley in which you empty the night's contents. To many, the next morning's hangovers would be hell. To you, they're a ritual.
+___
+- **Skill Proficiencies:** Choose two from Deception, Performance, Persuasion, Sleight of Hand
+- **Tool Proficiencies:** Your choice of any gaming set, brewer's kit, or spicer's kit
+- **Languages:** One of your choice
+- **Equipment:** A chance cube set, a sabaac deck, 2 days field rations, a flask or belt pouch containing your addiction, a set of common clothes, a bedroll, and a belt pouch containing 25 cr
+
+#### Pick Your Poison
+While most addicts are willing to try everything once, they typically have a drug of choice. You can determine what the source of your addiction or determine it randomly below.
+
+<div style='column-count:2'>
+
+|d16|Substance of Choice|
+|:---:|:----------:|
+|1|Deuterium-pyro|	
+|2|Mummergy|
+|3|Novanian grog|	
+|4|Raava|
+|5|Spicebrew|
+|6|Tihaar|
+|7|Tsiraki|
+|8|Vayerbok|
+
+|d16|Substance of Choice|
+|:---:|:----------:|
+|9|Andris|
+|10|Cilona|
+|11|Giggledust|
+|12|Glitterstim|
+|13|Karrak|
+|14|Muon gold|	
+|15|Yaladai|
+|16|Yarrock|
+
+</div>
+
+### Feature: Addicted
+You've been abusing substances for a long time. You always know who to talk to and where to find substances, and you can often identify them in their raw form. 
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Silver-Tongued|
+|2|Performer|
+|3|Charmer|
+|4|Quick-Fingered|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Entertainer|
+|6|Brewmaster|
+|7|Slythmonger|
+|8|Linguist|
+
+</div>
+
+#### Suggested Characteristics
+Addicts can be rude and uncouth, wearing their addiction visibly, or they might hide that addiction and appear to function normally. Importantly, and varying with every addict, why are you addicted? To forget the past? To drown your sorrows? Or are you simply chasing the dragon?
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I am guaranteed to fight someone if I'm drunk/high enough.|
+|2|Life is pain. All I want is to drink/smoke myself into nothingness.|
+|3|I have a simple rule; life's a party, so grab the deathsticks!|
+|4|The only thing keeping me from burning down this village is the fact that you make some damn good spice.|
+|5|I'm quite reserved until the moment I fulfill my addictive needs.|
+|6|This stuff is a bit weak, do you have anything higher than 60% in the back?|
+|7|I take pride in my addiction and am often snobbish when talking about it.|
+|8|I blow up at the slightest insult.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Hope.** I hope to one day be free of my addiction. (Light)|
+|2|**Carelessness.** I don't care what I have to do, just let me feed my addiction. (Dark)|
+|3|**Isolation.** Just let me deal with my demons in peace. (Neutral)
+|4|**Caution.** I will never let my addiction harm others. (Lawful)|
+|5|**Independence.** Addiction frees me. (Chaotic)|
+|6|**Comradery.** Hey, some of my favorite people are addicts! (Any) |
+
+|d6|Bond|
+|:---:|:----------|
+|1|I use my addiction as a tool to wash away my past sins.|
+|2|My family never wanted to be forgotten. I take drugs in the hopes they will be.|
+|3|I hope to start a drug business myself and give people the same happiness I've found.|
+|4|Everything I do is in the hopes of getting my hands on my drug.|
+|5|I traded my former self to my addiction. Now I need to find a way to get him back.|
+|6| To be addicted is to be truly alive.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|This could be rough, let's take something before we go.|
+|2|Hopefully this will be the one to end it.|
+|3|The mission can wait, we should find some dealers first.|
+|4|What? I don't have a problem. You're the one with the problem!|
+|5|It looks like my drug, so it should be safe to take right?|
+|6|I'm never myself when I'm on it.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreakNum
 
 ## Barbarian
 Though you might have only recently arrived in civilized lands, you are no stranger to the values of cooperation and group effort when striving for supremacy. You learned these principles, and much more, as a member of your tribe.
@@ -95,7 +204,7 @@ Often considered rude and uncouth among civilized folk, barbarians have little r
 |:---:|:----------|
 |1|I'm driven by a wanderlust that led me away from home.|
 |2|I watch over my friends as if they were a litter of newborn pups.|
-|3|I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.|
+|3|I once ran twenty-five miles without stopping to warn my clan of an approaching horde. I'd do it again if I had to.|
 |4|I have a lesson for every situation, drawn from observing nature.|
 |5|I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.|
 |6|I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
@@ -131,9 +240,7 @@ Often considered rude and uncouth among civilized folk, barbarians have little r
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## City Watch
 You have served the community where you grew up, standing as its first line of defense against crime and wildlife. You aren't a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe.
@@ -215,9 +322,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Clone Trooper
 You are one of millions; genetically engineered, identical specimens designed to be the perfect soldier. Created from a template provided by the legendary bounty hunter Jango Fett, you represent the latest and greatest evolution in galactic warfare. 
@@ -319,9 +424,7 @@ Clones are trained from birth to be the perfect soldier; over time, they also de
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Companion
 You are experienced in the arts of companionship, and you provide these services for people who can afford to pay it. This may mean adult favors of the sensual variety, but it just as frequently means conversation, comfort, and company.
@@ -402,9 +505,7 @@ You enjoy people and you enjoy your work and you enjoy the money it brings. Ther
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Courtier
 In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position.
@@ -488,9 +589,7 @@ The noble court or bureaucratic organization where you got your start is directl
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Crime Lord
 Few societies manage to eradicate crime altogether. In the underworld, someone always rises to the top, either through vision, organisation, or sheer intimidation. The life of a crime lord isn't for the timid. After conquering an unseen empire, the crime lord wages a daily struggle not only to stay on top, but also to stay alive.
@@ -569,7 +668,7 @@ Crime lords might seem like villains on the surface, and many of them are villai
 |2|**Freedom**. Chains are meant to be broken, as are those who would forge them. (Chaotic)|
 |3|**Charity**. I steal from the wealthy so that I can help people in need. (Light)|
 |4|**Greed**. I will do whatever it takes to become wealthy. (Dark)|
-|5|**People**. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)|
+|5|**People**. I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)|
 |6|**Redemption**. There's a spark of good in everyone. (Light)|
 
 |d6|Bond|
@@ -592,9 +691,7 @@ Crime lords might seem like villains on the surface, and many of them are villai
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Dathomir Witch
 You are a part of one of the many Force-sensitive clans on Dathomir. You and your sisters, under the guidance of the Clan Mother, form powerful connections with one another and the untamed wilds of the planet. Your people are a matriarchal society of warriors who train in the art of war and the usage of both muscle and the Force in combat. While all clans have their own set of rules regarding Force usage, all the clans held one rule above all others: *"Never Concede to Evil."*
@@ -662,7 +759,7 @@ Dathomir Witches are shaped by their training. They study their book of laws and
 |1|I try and bring my culture to outsiders.|
 |2|I always put my clan first.|
 |3|I follow my clan's book of law to the letter.|
-|4|I once ran twenty-five miles without stopping to warn to my clan of an approaching rival clan. I'd do it again if I had to.|
+|4|I once ran twenty-five miles without stopping to warn my clan of an approaching rival clan. I'd do it again if I had to.|
 |5|I place no stock in wealthy or well-mannered folk. Credits and manners won't save you from a hungry rancor.|
 |6|I have a lesson for every situation, drawn from observing nature.|
 |7|I feel far more comfortable around wildlife than I do society.|
@@ -697,9 +794,7 @@ Dathomir Witches are shaped by their training. They study their book of laws and
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Faction Adventurer
 Adventuring is nothing new to you. Due to the circumstances of how you were raised, you have been involved with wandering heroes for most of your life. Maybe you were part of an adventuring band previously, but split with them after a disagreement or tragedy. Or, perhaps you worked around heroes in a lesser role for most of your young life, and you are now ready to graduate to the front lines.
@@ -785,9 +880,7 @@ Adventurers are well adjusted to life on the road. They are often comfortable do
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Faction Artisan
 You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
@@ -873,9 +966,7 @@ Guild artisans are among the most ordinary people in the world—until they set do
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Faction Merchant
 Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others. Your guild might be a large merchant consortium (or family) with interests across the galaxy. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.
@@ -960,9 +1051,7 @@ Guild merchants are among the most ordinary people in the world—until they absco
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Far Traveler
 Almost all of the common people and other folk that one might encounter throughout the galaxy have one thing in common: they live  their lives without traveling more than a few miles from where they were born.
@@ -1066,9 +1155,7 @@ The distance you've traveled manifests itself in the way you speak and carry you
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Farmer
 You are an experienced farmer, cultivating and harvesting nature for the provision of others. You have spent a lot of time surviving outside population centers, but know how to sell your product either directly or to merchants, legal or otherwise.  Because you deal with commodities, either as input or as produce, you know how to get things done and how to live on razor-thin margins. You have survived up to this point by working long, hard, and smart.
@@ -1147,7 +1234,7 @@ A farmer is one of the common people and unusually tied to their home and the la
 |3|**Freedom**. Tyrants must not be allowed to oppress the people. (Light)|
 |4|**Greed**. I will do whatever it takes to become wealthy. (Dark)|
 |5|**Live and Let Live**. Meddling in the affairs of others only causes trouble. (Neutral)|
-|6|**People**. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Any)|
+|6|**People**. I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Any)|
 
 |d6|Bond|
 |:---:|:----------|
@@ -1169,9 +1256,7 @@ A farmer is one of the common people and unusually tied to their home and the la
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Folk Hero
 You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.
@@ -1266,9 +1351,7 @@ A folk hero is one of the common people, for better or for worse. Most folk hero
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Force Adept
 You are keenly attuned to the flow of the mysterious energy field known as the Force.  With proper training, you could learn to consciously sense and manipulate that energy further.  As it is, you may appear to have heightened senses, extremely quick reflexes, an intuitive understanding of others, or an uncanny ability to persuade people to your way of thinking. Your powers may have lain dormant for a long time, perhaps you felt something inside of you but never knew what it was. Perhaps your abilities were awoken by a strong encounter with another force-sensitive with the powers of the Force, or an object associated with the Force, such as a lightsaber.
@@ -1349,9 +1432,7 @@ Force adepts can come from all walks of life and have varied life experiences.  
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Gladiator
 A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your A Champion Well Known feature, you can find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. 
@@ -1432,9 +1513,7 @@ Successful entertainers have to be able to capture and hold an audience's attent
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Hermit
 You lived in seclusion—either in a community or alone—for a formative part of your life. In your time apart from society, you found quiet, solitude, and perhaps some of the answers you were looking for.
@@ -1457,7 +1536,7 @@ What was the reason for your isolation, and what changed to allow you to end you
 |6|I was in search of a place of spiritual significance.|
 
 ### Feature: Discovery
-The seclusion of your hermitage gave you access to a unique and powerful discovery. The nature of this revelation depends on the nature of your seclusion. You might have discoved a great truth about the cosmos or the Force, a fact that has long been forgotten, a relic of the past that could rewrite history, or a place unseen for ages. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society. Work with your GM to determine the details of your discovery and its impact on the campaign.
+The seclusion of your hermitage gave you access to a unique and powerful discovery. The nature of this revelation depends on the nature of your seclusion. You might have discovered a great truth about the cosmos or the Force, a fact that has long been forgotten, a relic of the past that could rewrite history, or a place unseen for ages. It might be information that would be damaging to the people who consigned you to exile, and hence the reason for your return to society. Work with your GM to determine the details of your discovery and its impact on the campaign.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -1527,9 +1606,7 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Holonet Technician
 You worked to keep the holonet up and running, whether being employed directly by an institution or indirectly by people across the galaxy. Your work has allowed you to uncover secrets most would never know existed. 
@@ -1630,9 +1707,7 @@ Holonets technicians vary from boring officer worker to criminal information bro
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Investigator
 Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals.
@@ -1713,9 +1788,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Jensaarai
 You are a Jensaarai, a Force user who has come to understand the failings of both Jedi inactivity and Sith malevolence. While they wield lightsabers, a true mark of skill among the Jensaarai is the crafting of their armor. Each suit is perfectly unique to the wearer, and is frequently (but not always) adorned and shaped to represent an animal that the Jensaarai finds kinship with, up to and potentially including additional mounted weapons or sensors to further emulate that creature.
@@ -1728,10 +1801,9 @@ ___
 - **Equipment:** A set of common clothes including a robe, a sturdy knife, and a belt pouch containing 150 cr
 
 ### Feature: Depths of Duality
-
 Due to the corruption of the Jedi training done to the pre-Jensaarai, you have a unique insight into both the Light and Dark side of the Force, as well as its history, applications, and techniques in a scholarly manner.
 
-You fully understand concepts, and can recall key information, The exception being if the research was hidden from the public and you have not had experience working with, in which you may only partially understand. You also recognize well-known Jedi Masters and Sith Lords by their works and marks.
+You fully understand concepts, and can recall key information, However, if the research was hidden from the public and you have not had experience working with it, you can only partially understand it. You also recognize well-known Jedi Masters and Sith Lords by their works and marks.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -1801,9 +1873,7 @@ Jensaarai are shaped by the unique capacity of their upbringing. Their study of 
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Laborer
 You are an experienced laborer and come from a humble social rank.  You work with your hands, and anything worth doing is worth doing well.  Your life is full of hard work and too little respect for your efforts, but you share a deep camaraderie with your fellow workers. 
@@ -1881,7 +1951,7 @@ Laborers run the gamut from independent operator and owners to lazy and incompet
 |2|**Superiority**. Rules are meant to control the sheep.  I'm no sheep. (Chaotic)|
 |3|**Community**. It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)|
 |4|**Greed**. I will do whatever it takes to climb to the top. (Dark)|
-|5|**People**. I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)|
+|5|**People**. I’m loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)|
 |6|**Faith**.  I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)|
 
 |d6|Bond|
@@ -1904,9 +1974,7 @@ Laborers run the gamut from independent operator and owners to lazy and incompet
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Lawyer
 Your duty is to uphold the law. Before becoming an adventurer you resided over a court or tribunal, managing proceedings and sentencing criminals to punishments fit for their crimes. Your job required a deep understanding of the law which you used to resolve conflicts both clear-cut and morally grey.
@@ -1992,9 +2060,7 @@ A lawyer's career is centered on issues of right, wrong, and punishment, so they
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Nomad
 You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild.
@@ -2039,7 +2105,7 @@ Often considered rude and uncouth among civilized folk, nomads have little respe
 |:---:|:----------|
 |1|I'm driven by a wanderlust that led me away from home.|
 |2|I watch over my friends as if they were a litter of newborn pups.|
-|3|I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.|
+|3|I once ran twenty-five miles without stopping to warn my clan of an approaching horde. I'd do it again if I had to.|
 |4|I have a lesson for every situation, drawn from observing nature.|
 |5|I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.|
 |6|I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.|
@@ -2075,9 +2141,7 @@ Often considered rude and uncouth among civilized folk, nomads have little respe
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Office Worker
 You are an experienced office worker, having been employed by one or more local, planetary, or galactic governments, or one or more private enterprises or syndicates.  You have spent plenty of time around the water cooler and still have contacts in the governmental and corporate worlds.  Love them or hate them, you know your way around rules and regulations and you function well in structured environments. 
@@ -2108,7 +2172,7 @@ There are many kinds of office workers, and within a government or private enter
 
 </div>
 
-### Feature: Clerical Auger
+### Feature: Clerical Augur
 You have an intuitive understanding of how offices work and can readily fit in to an office environment as if you were meant to be there, as long as no one looks too carefully. Additionally, you know where the true power lies in the office: you know who is likely to know the local gossip and you know who to sweet talk into getting things done for you.
 
 ### Background Feat
@@ -2156,7 +2220,7 @@ Office workers run the gamut from loyal and effective team member to lazy and in
 |2|**Superiority**. Rules are meant to control the sheep.  I'm no sheep. (Chaotic)|
 |3|**Community**. It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)|
 |4|**Greed**. I will do whatever it takes to climb to the top. (Dark)|
-|5|**People**. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)|
+|5|**People**. I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)|
 |6|**Faith**.  I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)|
 
 |d6|Bond|
@@ -2179,9 +2243,7 @@ Office workers run the gamut from loyal and effective team member to lazy and in
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Outlaw
 You are a notorious free adventurer who, due to unfortunate circumstances, has lost favor with the law. However, being of the common people, they protect you due to your just nature. A protector of the people, a thorn in the side of authorities.
@@ -2278,9 +2340,7 @@ An outlaw is a hero for the common people who takes pride in his humble origins 
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Pirate
 You are an experienced pirate. Banditry and raiding are common in the Outer Rim, and little negative stigma is given to pirates.  Those that prey on the Empire are sometimes even held in high regard as bold warriors. However, you still have contacts within the criminal underworld and you're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of finer society.
@@ -2360,9 +2420,7 @@ Despite the cutthroat nature of the business, pirates come in all shapes and per
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Racer
 You have a need for speed.  You live off of the adrenaline rush of piloting your craft or steering your beast through the dangers of a race.  You love the thrill of a photo-finish and relish the sweet taste of victory.
@@ -2464,9 +2522,7 @@ Racers are usually competitive and often fearless. They can lead a whirlwind of 
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Servant
 You have lived much of your life in the service of a lord, noble, merchant, or someone else with much wealth or power. You fetched their coats, drove their chariots, pressed their clothes; and generally did what they asked you to do. 
@@ -2549,9 +2605,7 @@ A servant, for better or worse, will have their personality affected by their ye
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Student
 As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to one of the galaxy's great institutes of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home- not to abandon it, but to quest for new lore to add to its storehouse of knowledge.
@@ -2560,7 +2614,7 @@ The most well-known of the galaxy's fonts of knowledge is the Library of the Rep
 ___
 - **Skill Proficiencies:** Choose two from Insight, Lore, Investigation, and Nature
 - **Languages:** Two of your choice
-- **Equipment:** The scholar's robes of your cloister, a writing kit (small pouch with a quill, ink, folded parchment, and a small penknife), a borrowed book on the subject of your current study, and a pouch containing 100 cr
+- **Equipment:** A set of common clothes, a datapad and 10 data cards, a book on the subject of your current study, and a pouch containing 100 cr
 
 ### Feature: Library Access
 Though others must often endure extensive interviews and significant fees to gain access to even the most common archives in your library, you have free and easy access to the majority of the library, though it might also have repositories of lore that are too valuable, powerful, or secret to permit anyone immediate access.
@@ -2637,9 +2691,7 @@ Cloistered scholars are defined by their extensive studies, and their characteri
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Teacher
 You are an experienced teacher who knows how to best instruct others in an array of disciplines.  Although you have a vast amount of knowledge yourself, pedagogy is the most important tool in your toolbox because it allows the rest of your knowledge to spread most efficiently.
@@ -2722,9 +2774,7 @@ As a teacher you are devoted to educating others, as well as learning new inform
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## (Un)Retired Adventurer
 "I'm getting too old for this stuff."
@@ -2809,9 +2859,7 @@ The trials and triumphs of retired adventurers have left an impact, shaping thei
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
 
 ## Urchin
 You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.
@@ -2893,6 +2941,4 @@ Urchins are shaped by lives of desperate poverty, for good and for ill. They ten
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
-\pagebreak
-
-\pagebreak
+\pagebreakNum
