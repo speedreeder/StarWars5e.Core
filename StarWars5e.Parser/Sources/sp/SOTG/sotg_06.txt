@@ -1,0 +1,299 @@
+
+
+# Chapter 6: Customization Options
+
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he combination of your character's personal  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; features, as well as their chosen deployment, defines your character's capabilities in the space component of the game, and the personal details you create set your character apart from every other character. Even within your class, species, and deployment specialization you have options to fine-tune what your character can do. But this chapter is for players who want to go a step further.
+
+This chapter defines two sets of rules for customizing your character: multispeccing and ventures. Multispeccing lets you combine deployments together, and ventures are special options you can choose as you gain ranks.
+
+Ships are locked to their respective size-driven tiers and have no multiclass parallels.
+
+## Multispecializing
+Multispecializing allows you to gain ranks in multiple deployment specializations. Doing so lets you mix the abilities of those deployments to realize a character concept that might not be reflected in one of the standard specialization options.
+
+With this rule, you have the option of gaining a rank in a new specialization whenever you advance in rank, instead of gaining a rank in your current specialization. Your ranks in all your deployments are added together to determine your character rank. For example, if you have two ranks in pilot and one in gunner, you're a 3rd-rank character.
+
+As you advance in ranks, you might primarily remain a member of your original deployment with just a single rank in another specialization, or you might change course entirely, never looking back at the deployment you left behind. You might even start progressing in a third or fourth specialization. Compared to a single-specialized character of the same rank, you'll sacrifice some focus in exchange for versatility.
+
+><br>
+>
+>#### Multispecializing Example
+> 
+>Drew is playing a 1st-rank pilot. When his character is ready to progress to 2nd rank, Drew decides that his character will multispec instead of continuing to progress as a pilot. Drew's character has been spending a lot of time with Rickey's gunner, and has even been doing some simulations. Drew decides that his character will multispec into the gunner deployment, and thus his character becomes a 1st-rank pilot and 1st-rank gunner (written as pilot 1/gunner 1).
+> 
+>When Drew's character is ready to progress to 3rd rank, he can decide whether to add another pilot rank (becoming a pilot 2/gunner 1), another gunner rank (becoming a pilot 1/gunner 2), or a rank in a third deployment, perhaps dabbling in the inner workings of the ship (becoming a pilot 1/gunner 1/mechanic 1).
+<br><br>
+
+\columnbreak
+
+### Prerequisites
+Unlike classes, there are no requirements for multispeccing. When a player has progressed to a rank higher than 1, they can choose to multispec or focus on their primary deployment specialization, with no external requirements or considerations. 
+
+### Milestones 
+Rather than traditional experience and book-keeping, ranks should be awarded as milestones for completing a specific encounter, or obtaining certain knowledge. 
+
+### Proficiency Bonus
+Ships do not have a proficiency bonus. When a feature references a proficiency bonus, instead use the proficiency bonus of the deployed crew member.
+
+> Rather than having a separate proficiency bonus for the space and ground portions of your game, your proficiency bonus for space is the same as that of the ground. 
+
+If a deployment feature or venture allows you to forgo your proficiency bonus, you may only do so once.
+
+#### Expertise
+If you have expertise in a skill as well as a feature that lets you forgo your proficiency bonus, you can only forgo your proficiency bonus once. For instance, if you are a 5th-level, 4th-rank pilot with an 18 in Intelligence and expertise in Piloting, you add 10 to your Piloting checks (4 + 2 x 3). If you use the 4th-rank pilot feature "That's a Good Trick" to forgo your proficiency bonus, you instead add 7 for the Piloting check as a part of that Evade action (4 + 2 x 3 - 3).
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+## Gunning Styles
+Certain deployment features or ventures offer your choice of Gunning Style. Choose from the following. You can't take a Gunning Style option more than once, even if you later get to choose again.
+
+#### Cannoneer
+You are skilled with laser cannons. While you are firing a primary weapon, you gain a +2 bonus to damage rolls.
+
+#### Railgunning
+You are skilled with railguns. While you are firing a secondary weapon, you gain a +2 bonus to attack rolls. 
+
+#### Payload Delivery
+You are skilled with mines, missiles, rockets, and other explosive weapons. When you roll a 1 or 2 on a damage die for a tertiary or quaternary weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. 
+
+\columnbreak
+
+## Gunning Masteries
+Certain deployment features or ventures offer your choice of Gunning Mastery. Choose from the following. You can't take a Gunning Mastery option more than once, even if you later get to choose again.
+
+#### Cannon Mastery
+You are the master of laser cannons. While you are firing a primary weapon, when you take the Attack action, you can choose to fire rapidly at the expense of accuracy. Your attacks are made without the aid of your proficiency bonus, but you use your bonus action to make an additional attack, also without your proficiency bonus.
+
+#### Railgun Mastery
+You are the master of railguns. While you are firing a secondary weapon, before you make an attack, you can choose to double your proficiency bonus. If the attack hits, you reduce the damage dealt by an amount equal to your proficiency bonus.
+
+#### Payload Mastery
+You are the master of missiles, rockets, and other ship-board explosive weapons. While you are firing a tertiary or quaternary weapon, you can choose to reduce the DC by an amount equal to your proficiency bonus. If you do, and the target fails the saving throw, they take additional damage equal to twice your proficiency bonus.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+## Ventures
+Ventures represent talents beyond the deployment specialization of a character. This embodies their training and experience in other aspects of their lives. At certain deployment ranks, your deployment gives you the Venture feature. You can take each venture only once, unless the venture's description says otherwise.
+
+You must meet any prerequisite specified in a venture to take that venture. If you ever lose a venture's prerequisite, you can't use that venture again until you regain the prerequisite. For example, the Spacecasting venture requires you to be able to cast force or tech powers. If your character loses the ability to do so, you can't benefit from the Spacecasting venture until you regain the ability to cast force or tech powers.
+
+> Ventures, and this book in general, are designed and written in such a way that they have minimal impact on the ground game. All ventures are intended to only be usable while deployed aboard a ship, even if they don't explicitly say it.
+
+### Analytical Coordinator
+_Prerequisite: at least 1 level in scholar_<br>
+When an ally makes an ability check or attack roll affected by your Direct action, and they are also the target of your Critical Analysis class feature, they can also roll a d6 and add it to the ability check or attack roll.
+
+### Calculating Gunner
+When you make an attack roll with a secondary ship weapon while on a Medium or smaller ship, you can use your Intelligence modifier, instead of the ship's Dexterity modifier, for the attack rolls.
+
+### Counterslicer
+When you are the target of the Interfere action and are forced to make an Intelligence (Technology) check, if you succeed on the contest, you have advantage on the next Intelligence (Technology) check you make as the result of being targeted by the Interfere action before the end of your next turn.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+### Cunning Operator
+_Prerequisite: at least 2 levels in operative_<br>
+When you take the Evade or Interfere action and fail the contest, you can use the bonus action granted by your Cunning Action to repeat the check against the same target.
+
+### Diamond Deployment
+_Prerequisite: at least 14 levels in monk_<br>
+While deployed, when your ship fails a saving throw, you can spend 1 focus point to reroll the die.
+
+### Dogfighter Superiority
+_Prerequisite: at least 2 levels in fighter_<br>
+When you expend a gambit die or tactical die, roll the die as normal, but you can instead subtract it from your pool of superiority dice.
+
+### Explosive Gambits
+_Prerequisite: at least 3 ranks in gunner_<br>
+Once per turn, when you roll the maximum on a gambit die, you can roll an additional die and add it to the roll.
+
+### Focused Flying
+_Prerequisite: at least 2 levels in monk_<br>
+Immediately after you take the Attack action while deployed as a gunner, you can spend 1 focus point to make an additional attack as a bonus action. This additional attack must be made with a primary weapon. Alternatively, you can spend 1 focus point to take the Evade action as a bonus action on your turn.
+
+### Force-Empowered Accuracy
+_Prerequisite: at least 2 levels in consular_<br>
+Once per turn, while deployed as a gunner, when you miss with a ship attack, or when a target succeeds on the saving throw against a ship weapon, you can spend 1 force point to reroll the die. You must use the new roll.
+
+### Force-Empowered Blasting
+_Prerequisite: at least 2 levels in guardian_<br>
+Once per turn, while deployed as a gunner, when you deal damage with a ship weapon, you can spend 1 force point to deal an additional 1d8 damage to the target. The damage is the same type as the weapon's damage.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+### Force-Empowered Shooting
+_Prerequisite: at least 2 levels in sentinel_<br>
+While deployed as a gunner, when you take the Attack action, you can spend 1 force point to make an additional attack with a bonus action. This additional attack must be made with a primary weapon.
+
+### Force Piloting
+_Prerequisite: The ability to cast force powers_<br>
+When you make an Intelligence (Piloting) check while aboard your ship, you may use your Wisdom or Charisma modifier (your choice), instead of your Intelligence modifier. Additionally, when calculating the bonus to AC while piloting, you can use your Wisdom or Charisma modifier (your choice) instead of your Intelligence modifier.
+
+### Furious Gunner
+_Prerequisite: at least 1 level in berserker_<br>
+While raging, you add your rage damage bonus to damage rolls from primary ship weapons.
+
+### Gunner Adept
+_Prerequisite: Rank 2_<br>
+You have gunner training that allows you to perform special combat gambits. You gain the following benefits:
+- You learn two gambits of your choice from among those available to the gunner deployment. If a gambit you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your ship's Dexterity modifier.
+- If you already have gambit dice, you gain one more; otherwise, you have one gambit die, which is a d4. This die is used to fuel your gambits. A gambit die is expended when you use it. You regain all of your expended gambit dice when you finish a long rest.
+
+### Gunner in Training
+When you make a ship attack while deployed as a gunner, you can add your proficiency bonus to attacks you make if you do not already do so.
+
+### Gunning Mastery
+_Prerequisite: Rank 5_<br>
+You master a particular style of gunning. Choose one of the Gunning Mastery options, detailed above. You can select this venture multiple times. You can't take a Gunning Mastery option more than once, even if you later get to choose again.
+
+\columnbreak
+
+### Gunning Stylist
+_Prerequisite: Rank 3_<br>
+You adopt a particular style of gunning as your specialty. Choose one of the Gunning Style options options, detailed above. You can select this venture multiple times. You can't take a Gunning Style option more than once, even if you later get to choose again.
+
+### Hot Wire
+When you would make an Intelligence (Technology) check while aboard your ship, you can instead make an Intelligence (Mechanic's Kit) check.
+
+### Indomitable Starship
+_Prerequisite: at least 9 levels in fighter_<br>
+While deployed, when your ship fails a saving throw, you can use your Indomitable class feature to reroll the die.
+
+### Infuse Ship Weapon
+_Prerequisite: at least 2 levels in engineer_<br>
+Ship weapons becomes valid targets for your Infuse Item class feature.
+
+### Intuitive Gunner
+_Prerequisite: The ability to cast force powers_<br>
+When you determine the save DC for a tertiary ship weapon while on a Medium or smaller ship, you can use your Wisdom or Charisma modifier (your choice), instead of the ship's Dexterity modifier, for the attack rolls. 
+
+### Keen Eye
+_Prerequisite: Rank 4_<br>
+When you take the Search action and succeed on a Wisdom (Perception) or Intelligence (Investigation) check aided by your ship's scanners, you can learn certain information about a target if you are aware of them. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to one of the following characteristics of your choice:
+- Strength score
+- Dexterity score
+- Constitution score
+- Armor Class
+- Current total hit and shield points
+- Total ship tiers (if any)
+- Total deployment ranks (if any)
+
+Once you've targeted a ship with this feature, you can't target it again until you complete a long rest.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+### Mechanic in Training
+When you make an Intelligence (Mechanic's Kit) check while deployed as a mechanic, you can add your proficiency bonus to checks you make if you do not already do so.
+
+### Operator in Training
+When you make an Intelligence (Technology) check while deployed as an operator, you can add your proficiency bonus to checks you make if you do not already do so.
+
+### Perceptive Techie
+When you make an Intelligence (Technology) check while aboard your ship, you may use your Wisdom modifier instead of your Intelligence modifier.
+
+### Persistent Interference
+_Prerequisite: at least 3 ranks in operator_<br>
+When you take the Interfere action and succeed on the contest, the target has disadvantage on the next Intelligence (Technology) check as a part of an Interfere contest before the end of your next turn.
+
+### Pilot Adept
+_Prerequisite: Rank 2_<br>
+You have pilot training that allows you to perform special combat tactics. You gain the following benefits:
+- You learn two tactics of your choice from among those available to the pilot deployment. 
+- If you already have tactical dice, you gain one more; otherwise, you have one tactical die, which is a d4. This die is used to fuel your tactics. A tactical die is expended when you use it. You regain all of your expended tactical dice when you finish a long rest.
+
+### Pilot in Training
+When you make an Intelligence (Piloting) check while deployed as a pilot, you can add your proficiency bonus to checks you make if you do not already do so.
+
+\columnbreak
+
+### Precision Gunner
+When you make an attack roll with a primary ship weapon while on a Medium or smaller ship, you can use your Dexterity modifier, instead of the ship's, for the attack rolls.
+
+### Reckless Ramming
+_Prerequisite: at least 2 levels in berserker_<br>
+When you take the Ram action, you can throw aside all concern for defense to attack with fierce desperation. The target has disadvantage on the Dexterity saving throw, and you deal additional damage equal to your rage damage bonus. The first attack roll made against your ship before the start of your next turn has advantage.
+
+### Recurrent Repairs
+_Prerequisite: at least 3 ranks in mechanic_<br>
+When you succed on an Intelligence (Mechanic's Kit) check as a part of a Patch action you take, you have advantage on the next Intelligence (Mechanic's Kit) check you take as a part Patch action you take before the end of your next turn.
+
+### Resourceful Display
+_Prerequisite: at least 1 rank in coordinator_<br>
+When you, or an ally with your Inspiring Display die, roll an Inspiring Display, they can roll the die twice and take either result.
+
+### Resourceful Gambits
+_Prerequisite: at least 1 rank in gunner_<br>
+Once per turn, when you roll a gambit die, you can roll the die twice and take either result.
+
+### Resourceful Boost
+_Prerequisite: at least 1 rank in mechanic_<br>
+When you use your System Boost feature, you can roll the die twice and take either result.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+### Resourceful Disruption
+_Prerequisite: at least 1 rank in operator_<br>
+When you roll a System Disruption die, you can roll the die twice and take either result.
+
+### Resourceful Tactics
+_Prerequisite: at least 1 rank in pilot_<br>
+Once per turn, when you roll a tactical die, you can roll the die twice and take either result.
+
+### Scanner Specialist
+When you take the Search action while deployed as an operator, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks that rely on the scanner.
+
+### Shrewd Interrogator
+When you make a Wisdom (Insight) or Charisma (Deception) check while aboard your ship, you may use your Intelligence modifier instead of your Wisdom or Charisma modifier. 
+
+### Sneak Firing
+_Prerequisite: at least 1 level in operative_<br>
+Once per turn, you can deal an extra 1d6 damage to one ship you hit with a ship attack if you have advantage on the attack roll.
+
+### Spacecasting
+_Prerequisite: The ability to cast force or tech powers_<br>
+While casting a force or tech power while aboard your ship, the range increases tenfold. You can not target a hostile creature with a power unless you are aware of their presence and location.
+
+\columnbreak
+
+### Space Explorer
+_Prerequisite: at least 1 level in scout_<br>
+While deployed, parts of your Skilled Explorer class feature extend to your ship:
+- Your ship is not slowed by difficult terrain.
+- Your ship can't get lost by unenhanced means.
+- Your ship can move stealthily at a normal pace.
+
+### Storming Gunner
+When you make an attack roll with a primary ship weapon while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Strength modifier, for the damage rolls.
+
+### Strong Alone, Stronger Together
+_Prerequisite: at least 3 ranks in coordinator_<br>
+When you take the Direct action, you have advantage on the next ability check or saving throw you make before the start of your next turn.
+
+### Tactical Superiority
+_Prerequisite: at least 2 levels in scholar_<br>
+When you expend an Inspiring Display die or System Disruption die, roll the die as normal, but you can instead subtract it from your pool of superiority dice.
+
+### Thread the Needle
+_Prerequisite: at least 3 ranks in pilot_<br>
+When you take the Evade action, you can target two ships within 100 feet of eachother, instead of one. Make a separate Piloting check for each.
+
+### Training Coordinator
+When an ally makes an ability check or attack roll affected by your Direct action, they can add their proficiency bonus to the ability check or attack roll if they do not already do so.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum

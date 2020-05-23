@@ -4,20 +4,21 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Parser.Parsers
 {
     public abstract class BaseProcessor<T>: IBaseProcessor<T> where T: class
     {
-        public async Task<List<T>> Process(List<string> locations)
+        public async Task<List<T>> Process(List<string> locations, Language language = Language.en)
         {
-            var lines = await ReadInternalFile(locations);
+            var lines = await ReadInternalFile(locations, language);
             
             var blocks = await FindBlocks(lines);
             return blocks;
         }
 
-        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations)
+        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations, Language language)
         {
             try
             {
@@ -26,7 +27,7 @@ namespace StarWars5e.Parser.Parsers
                 foreach (var location in locations)
                 {
                     using (var stream = Assembly.GetExecutingAssembly()
-                        .GetManifestResourceStream($"StarWars5e.Parser.Sources.{location}"))
+                        .GetManifestResourceStream($"StarWars5e.Parser.Sources.{language}.{location}"))
                     {
                         using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))
                         {

@@ -1,0 +1,527 @@
+
+
+# Chapter 2: Deployments
+
+<img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:75px;width:35px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dventurers are extraordinary people, driven<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can't stand against.
+
+Deployments are roles your characters can fill that are not directly correlated with their class. A character can then specialize in a specific deployment, granting a variety of features, such as the gunner's gambits or the pilot's tactics. As you progress in your deployment specialization, you gain more powerful features, and some features improve. Each deployment specialization entry in this chapter includes a table summarizing the benefits you gain at every rank, and a detailed explanation of each one.
+
+Each ship has a number of deployments determined by its size and class. A TIE Fighter, for instance, only has a singe deployment, who controls all of the aspect of his fighter. The Millennium Falcon, however, has space 
+
+<br> for a pilot, two gunners, a mechanic, a coordinator, and an operator. Each deployment has specific tasks and abilities related to its function. 
+
+> Unlike classes, when players achieve the space portion of the game, they start at rank 0. Players should attempt to experience multiple roles to see which suits them best before choosing the one in which they will specialize.
+
+A character can fill multiple roles simultaneously, provided it can reach the appropriate equipment to utilize that deployment's features.
+
+> When engaging in the space portion of a campaign, many class features work in conjunction with a ship deployment, while others don't. It is up to your GM to determine which is which.
+
+<br>
+
+<div class='classTable wide'>
+
+##### Deployments
+|Deployment&nbsp;&nbsp;|Description|
+|:--|:--|
+|Coordinator|Provides motivation and organization to the crew|
+|Gunner|Controls one or more weapon emplacements|
+|Mechanic|Controls the functionality of the ship itself, including the ability to make repairs|
+|Operator|Uses ship systems to interfere with and disable the enemy|
+|Pilot|Controls the movement and tactics of the ship|
+
+</div>
+
+<style>
+  .phb#p2:after { display:none; }
+</style>
+
+<img src='https://www.gmbinder.com/images/OLqIigd.png' style='position:absolute;bottom:0px;left:0px;width:840px;z-index:1000' />
+
+\pagebreak
+
+<div class='cover-header' style="font-family:SerifGothicStd-Black; font-size:28px; color:#222; text-shadow:none; margin-top:250px;">ART PAGE</div>
+
+\pagebreak
+
+## Coordinator
+<span style="font-variant: small-caps">The Mon Calamari admiral surveys the battlefield, noting the</span>  positioning of his outnumbered fleet. With a quick barking of orders, he directs his officers to relay that his fleet should prepare to converge on the opposing capital ship, with the knowledge that if they can disrupt the enemy's plans, their mission is complete.
+
+The Sith Lord maneuvers his interceptor into formation with his apprentices. Communicating through encrypted channels, he directs them to move outward to flank their quarry. As they converge from the sides, the Sith launches a debilitating volley, disrupting his prey's systems and readying the ship for capture.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. As the twi'lek pilot begins evasive maneuvers, the human coordinator immediately jumps to action. He directs his crew towards their stations, while reaching out with the Force. As each of his respective crew members settles into their respective roles, he directs their actions to coincide, leading his team to victory.
+
+Without coordination, many a ship would fall to disorganization and a chaos. It is the job of the coordinator to facilitate communication and teamwork, and to keep his ship, or fleet, productive.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Coordinator
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, Inspiring Display |
+| 2nd | Uplifting Directive, Call to Arms  |
+| 3rd | Versatile Coordinator, Commanding Presence |
+| 4th | Masterful Directive, Contingency Plan  |
+| 5th | Paragon Coordinator, Rallying Cry |
+
+</div>
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### Inspiring Display
+Also at 1st rank, you can inspire others through stirring words. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Inspiring Display die, a d4. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Inspiring Display die, but must decide before the GM says whether the roll succeeds or fails. Once the Inspiring Display die is rolled, it is lost. A creature can have only one Inspiring Display die at a time.
+
+You can use this feature twice. You gain another use of this feature at 2nd, 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
+
+Your Inspiring Display die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
+
+### Uplifting Directive
+At 2nd rank, while aboard your ship, you can use the Direct action with a range of 60 feet, as long as the target can hear and understand you.
+
+Additionally, when you take the Direct action, roll a d20. Note the number on the d20. This becomes your uplifting directive number.
+
+While you have an uplifting directive number, when an ally makes an ability check or attack roll affected by your Direct action, you can replace the result of a d20 roll with the value of the uplifting directive roll. You can use this feature before or after making the roll, but before any effects of the roll are determined. You can only have one uplifting directive roll at a time, and you lose any unused uplifting directive rolls when you complete a short or long rest.
+
+<img src='https://www.gmbinder.com/images/yJ7rp4o.png' style='position:absolute;bottom:5px;left:60px;width:323px;z-index:1000' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+### Call to Arms
+Also at 2nd rank, while aboard your ship, if you are surprised at the start of combat and aren't incapacitated, you and a creature who can see or hear you may act normally on their first turn.
+
+### Versatile Coordinator
+Starting at 3rd rank, when you would expend an Inspiring Display die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Commanding Presence
+Also at 3rd rank, you learn a new way to use your Inspiring Display. While aboard your ship, when a creature that can see or hear you fails an ability check, attack roll, or saving throw, you can use use your reaction and expend a use of your Inspiring Display to aid that creature provided it did not already have or use an Inspiring Display die this turn. The creature can then roll the die and add it to the result.
+
+### Masterful Directive
+At 4th rank, when you roll your uplifting directive number as a part of the Direct action, you can use your bonus action to increase your uplifting directive number by an amount equal to your proficiency bonus. If this would increase the value of your uplifting directive number to more than 20, it instead becomes 20.
+
+\columnbreak
+
+### Contingency Plan
+Also at 4th rank, while aboard your ship, you can choose two allies, instead of one, when you take the Direct action. Additionally, while aboard your ship, you can use the Direct action with a range of 1 mile, as long as the target can hear and understand you. 
+
+### Paragon Coordinator
+As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your Inspiring Display feature when you finish a short or long rest.
+
+Additionally, when you roll an uplifting directive number, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Rallying Cry
+Also at 5th rank, as a bonus action, you can extend a rallying cry to those that can hear you. Choose a number of friendly creatures up to twice your Charisma modifier that can see or hear you. Each of those creatures gains an Inspiring Display die that lasts until the end of your next turn. This die does not count against your number of Inspiring Display uses, but creatures can still only have one Inspiring Display die at a time. When a creature uses this die, they take the maximum instead of rolling.
+
+Once you've used this feature, you can't use it again until you finish a short or long rest.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+## Gunner
+<span style="font-variant: small-caps">The trandoshan bounty hunter hides in his assault craft</span> behind a nearby asteroid, patiently awaiting his prey. As it passes along its predetermined course, the trandoshan detonates the seismic charges, disintegrating the ship.
+
+As the gunship moves away from its parent vessel, the zabrak soldier begins scoping out the opposing fleet. As the two forces engage, the gunner chooses his target, engaging his railgun. After its 3-second charge time, a massive blast of energy projects towards his target, vaporizing it instantly.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The human runs to her gunning station, hops into the chair, and engages the controls. As her twi'lek pilot maneuvers the ship out of danger, the gunner draws a bead on the offending snubfighter, before unleashing a quick 1-2 volley and detonating them in a fiery blaze.
+
+Whether coming from a military, criminal, or civilian background, all gunners share the same love of precise and effective destruction of their targets.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Gunner
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, Gunner Stratagem |
+| 2nd | Gunning Style, Improved Critical |
+| 3rd | Versatile Gunner, Brutal Critical |
+| 4th | Gunning Mastery, Protean Gunner |
+| 5th | Paragon Gunner, Maximum Power |
+
+</div>
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### Gunner Stratagem
+Also at 1st rank, you learn gambits that are fueled by special dice called gambit dice.
+
+#### Gambits
+You learn two gambits of your choice, which are detailed under "Gambits" below. Many gambits enhance an attack in some way. You can use only one gambit per attack, and you can only use each gambit once per turn.
+
+You learn an additional gambit at 3rd and 5th rank in this deployment. Each time you learn a new gambit, you can also replace one gambit you know with a different one.
+
+#### Gambit Dice
+You have two gambit dice, which are d4s. A gambit die is expended when you use it. You regain all of your expended gambit dice when you finish a long rest.
+
+You gain another gambit die at 2nd, 3rd, 4th, and 5th rank in this deployment. Additionally, your gambit die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
+
+#### Saving Throws
+Some of your gambits require your target to make a saving throw to resist the gambit's effects. The saving throw DC is calculated as follows:
+
+___
+
+<div align='center'>
+
+**Gambit save DC** = 8 + your proficiency bonus +<br> your ship's Dexterity modifier
+
+</div>
+
+___
+
+### Gambits
+The gambits are presented in alphabetical order.
+
+#### Crippling Shot
+When you hit a ship with a ship attack, you can expend one gambit die to cripple it. You add the gambit die to the attack's damage roll, and the ship's flying speed reduced by half until the end of their next turn.
+
+<img src='https://www.gmbinder.com/images/JTxSRRC.png' style='position:absolute;bottom:8px;left:-10px;width:465px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+<div style='margin-top:23px'></div>
+
+#### Disabling Shot
+When you make a ship attack roll against a ship, you can expend one gambit die to add it to the roll. On a hit, the ship has disadvantage on the next ability check or attack roll it makes before the end of your next turn.
+
+#### Distracting Shot
+When you hit a ship with a ship attack, you can expend one gambit die to give your allies an opening. You add the gambit die to the attack's damage roll, and the next attack roll against the target by someone other than you has advantage if the attack is made before the start of your next turn.
+
+#### Explosive Shot
+When you reduce a ship to 0 hit points, you can expend one gambit die and use a bonus action on your turn to make one additional ship attack against a different ship within range. If that attack hits, add the gambit die to the attack's damage roll.
+
+#### Expose Weakness
+When you hit a ship with a ship attack, you can expend a gambit die and deal additional damage equal to the number rolled. This damage cannot be reduced in any way.
+
+#### Feinting Shot
+You can expend one gambit die and use a bonus action on your turn to feint, choosing one ship within your weapon's normal range as your target. You have advantage on your next attack roll against that ship. If that attack hits, add the gambit die to the attack's damage roll.
+
+#### Penetrating Shot
+When you hit a ship with a ship attack, you can expend one gambit die to attempt to damage another ship with the same attack. Choose a second ship within 150 feet of and directly behind your initial target. If the original attack roll would hit the second ship, it takes damage equal to the number you roll on your gambit die. The damage is of the same type dealt by the original attack.
+
+#### Precision Shot
+When you make a ship attack roll against a ship, you can expend one gambit die to add it to the roll. If that attack hits, add the gambit die to the attack's damage roll. You can use this gambit before or after making the attack roll, but before any effects of the attack are applied.
+
+\columnbreak
+
+### Gunning Style
+At 2nd rank, you adopt a particular style of gunning as your specialty. Choose one of the Gunning Style options, detailed in Chapter 6. You can't take a Gunning Style option more than once, even if you later get to choose again.
+
+### Improved Critical
+Also at 2nd rank, your primary and secondary ship attacks score a critical hit on a roll of 19 or 20, and when a ship rolls a 1 on a saving throw against a tertiary or quaternary weapon, they take damage as if suffering a critical hit.
+
+### Versatile Gunner
+Starting at 3rd rank, when you would expend a gambit die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Brutal Critical
+Also at 3rd rank, you can roll the weapon damage dice one additional time when determining the extra damage for a critical hit with a ship weapon.
+
+### Gunning Mastery
+At 4th rank, you master a particular style of gunning. Choose one of the Gunning Mastery options, detailed in Chapter 6. You can't take a Gunning Mastery option more than once, even if you later get to choose again.
+
+### Protean Gunner
+Also at 4th rank, you can choose a second Gunning Style option.
+
+### Paragon Gunner
+As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your Gunner Stratagem feature when you finish a short or long rest.
+
+Additionally, when you make an attack roll while deployed as a gunner, you can choose to make the roll a critical hit. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Maximum Power
+Also at 5th rank, when you hit a ship with a ship attack, you can deal maximum damage with that attack. 
+
+Once you've used this feature, you can't use it again until you finish a short or long rest.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+## Mechanic
+<span style="font-variant: small-caps">Flinching occasionally as a blaster bolt hits the nearby</span> bulkhead, a Sullustan mechanic quickly solders a large wire. He peers through his tinted goggles, ignoring the shouts of his ship captain as the enemy descends on the hanger. Finally he shouts with pride as the repaired coupling powers up, causing the frigate to hum with energy. He gathers his tools and runs into the ship moments before it finally takes off. 
+
+Staggering in time with the rocking ship, the ortolan mechanic rushes down the hallway, hanging wires obstructing her path. As she dodges and jumps over the impediments, she finally reaches the shield generator. With a quick twist of her hydrospanner and a graceless hit with a hammer, she opens the protective cover and reengages the ship's shields. The familiar hum as they power up brings a smile to her lips.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. In the cockpit, the sounds of a muffled explosion can be heard. With a shrill chirp, the droid mechanic jumps to action, rushing towards the source of the explosion. As it enters the engine room, it identifies the source of the explosion, and quickly moves to repair the damage.
+
+While mechanics come from all walks of life, they all share one thing in common; they gather an immense satisfaction from keeping their ship running.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Mechanic
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, System Boost |
+| 2nd | Quick Fixer, Ship Technician |
+| 3rd | Versatile Mechanic, Reroute Power |
+| 4th | Rapid Repairman, Last Resort |
+| 5th | Paragon Mechanic, Supreme Boost |
+
+</div>
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### System Boost
+Also at 1st rank, while aboard your ship, you learn to quickly augment and repair different systems on your ship. As a bonus action on each of your turns, you can choose an accessible system on your ship and give it a boost. Roll a System Boost die, which is a d4. The die benefits ship system differently:
+- **Engines:** Take the result of the die and multiply it by 50. The flying speed of your ship increases by this amount until the end of your next turn. 
+- **Shields:** Your shields immediately regenerate by the result of the die.
+- **Weapons:** The next time a ship weapon deals damage before the end of your next turn, it deals additional damage equal to the result of the die. The damage is of the same type dealt by the original attack.
+
+You can use this feature twice. You gain another use of this feature at 2nd, 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
+
+Your System Boost die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
+
+### Quick Fixer
+At 2nd rank, when you take the Patch action or conduct ship repairs, you have advantage on the Intelligence (Mechanic's Kit). If you already have advantage, you can instead reroll one of the dice once.
+
+<img src='https://www.gmbinder.com/images/wsfIqqe.png' style='position:absolute;bottom:-30px;left:20px;width:430px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+### Ship Technician
+Also at 2nd rank, when installing new equipment or upgrades, you count as two members of a workforce, instead of one. 
+
+Additionally, when your ship's shields are fully depleted, you can use your reaction to immediately restore a number of shield points equal to your Intelligence modifier. Once you've used this feature, you must finish a long rest before you can use it again.
+
+### Versatile Mechanic
+Starting at 3rd rank, when you would expend a System Boost die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Reroute Power
+Also at 3rd rank, as an action on each of your turns, you can reroute power between your ship's engines, shields, and weapons through use of the ship's capacitor. A capacitor can be toggled to neutral, where all three aspects function normally, or can divert power to a specific system. 
+
+When diverting power to a system, the effects of that system are doubled: 
+- **Engines:** A ship's flying speed is doubled.
+- **Shields:** Shields take half damage and shield regeneration rate is doubled.
+- **Weapons:** Weapons deal double damage. 
+
+When diverting power to a system, power to the other systems is halved: 
+- **Engines:** A ship's flying speed is reduced by half.
+- **Shields:** Shields take double damage and shield regeneration rate reduced by half.
+- **Weapons:** Ship weapon damage is reduced by half. 
+
+\columnbreak
+
+### Rapid Repairman
+At 4th rank, when you take the Patch action, you can choose to forgo your proficiency bonus. If you succeed on the check, you can expend 2 Hit Dice, instead of one. For each Hit Die spent in this way, roll the die and add the ship's Constitution modifier to it.
+
+### Last Resort
+Also at 4th rank, when your ship makes a Destruction saving throw while you are deployed as a mechanic, it adds your Intelligence modifier to the roll (minimum of +1). Additionally, when you roll a ship's Hit Die to regain hit points, the minimum number of hit points you can regain from the roll equals twice your Intelligence modifier (minimum of 2).
+
+### Paragon Mechanic
+As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your System Boost feature when you finish a short or long rest.
+
+Additionally, when you would make an Intelligence (Mechanic's Kit) check while deployed as a mechanic, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Supreme Boost
+As of 5th rank, you learn to how grant massive brief boost to your ship's system. As a bonus action, you can use your System Boost feature on the engines, shields, and weapons simultaneously, without expending any uses of your System Boost feature. Additionally, instead of rolling your System Boost die, you take the maximum.
+
+Once you've used this feature, you must finish a short or long rest before you can use it again.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+## Operator
+<span style="font-variant: small-caps">"*Watcher's Confidence*, please proceed to docking bay ninety-</span>four," comes over the freighter's speakers for a third time. Frantically, the chiss operator types as fast as he can, attempting to disguise his ship's transponder code and true designation. Finally, with a satisfied sigh and a single keystroke, he completes the new temporary identity to his ship.
+
+Methodically, the voss operator types away on the datapad in front of her, one eye on the console and the other on her quarry. As she sees the ship's trajectory abruptly change, she completes her commands, overloading their systems. The ship immediately slows, it's turning become sluggish, enabling the voss to overtake it.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The human operator immediately jumps into the co-pilot's seat and interfaces with the control panel. He engages a comm scrambler, disrupting the communications of the enemy ships, in an effort to diminish their coordination.
+
+Operators share their love of a challenge; to overcome the obstacle that few others can comprehend. While they aren't always celebrated, operators are an integral part of any ship's crew.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Operator
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, System Disruption |
+| 2nd | Improved Interference, Disrupted Defenses |
+| 3rd | Versatile Operator, Threat Assessment |
+| 4th | Masterful Interference, Haywire |
+| 5th | Paragon Operator, Overload Systems |
+
+</div>
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### System Disruption
+Also at 1st rank, as a bonus action while deployed as an operator, you can choose a ship that you can see within 1,000 feet and target its systems for disruption, as long as you understand how they function. For the next minute, or until you disrupt another target, you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it.
+
+Additionally, when the ship makes an ability check, attack roll, or saving throw, you can use your reaction to disrupt the ship's functions. Roll a System Disruption die, which is a d4, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 2nd, 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
+
+Your System Disruption die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
+
+### Improved Interference
+At 2nd rank, when you use take the Interfere action, you have advantage on the Intelligence (Technology) check. If you already have advantage, you can instead reroll one of the dice once.
+
+### Disrupted Defenses
+Also at 2nd rank, the first time the target of your System Disruption takes damage each round, it takes additional damage equal to your System Disruption die. The damage is of the same type dealt by the original attack.
+
+<img src='https://www.gmbinder.com/images/vviMrnU.png' style='position:absolute;bottom:20px;left:60px;width:300px;z-index:1000' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+### Versatile Operator
+Starting at 3rd rank, when you would expend a System Disruption die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Threat Assessment
+Also at 3rd rank, as a bonus action, you can learn certain information about the capabilities of the target of your System Disruption. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to two of the following characteristics of your choice:
+- Strength score
+- Dexterity score
+- Constitution score
+- Armor Class
+- Current total hit and shield points
+- Total ship tiers (if any)
+- Total deployment ranks (if any)
+
+### Masterful Interference
+At 4th rank, when you take the Interfere action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on all ability checks or attack rolls it makes before the start of your next turn, instead of one.
+
+### Haywire
+Also at 4th rank, when you target a ship with your System Disruption feature, it must make a Constitution saving throw (DC = 8 + your bonus to Technology checks). On a failed save, while it is the target of your System Disruption feature, the first time it makes an attack roll or a saving throw each round, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+
+\columnbreak
+
+### Paragon Operator
+As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your System Disruption feature when you finish a short or long rest.
+
+Additionally, when you would make a Technology check while deployed as an operator, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Overload Systems
+Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disruption. The ship must make a Constitution saving throw (DC = 8 + your bonus to Technology checks). On a failed save, the target's flying speed reduced by half, it's turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it's shields no longer regenerate, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one melee or ranged attack during its turn.
+
+The ship's pilot makes another Constitution saving throw at the end of its turns. On a successful save, the effect ends.
+
+Once you've use this feature, you must finish a short or long rest before you can use it again.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+## Pilot
+<span style="font-variant: small-caps">Frantically, the human pilot jukes his x-wing from side-to-side,</span> trying desperately to shake his tail. In a last ditch effort, the pilot hauls back on the yolk, inverting his fighter, before quickly snapping off two proton torpedoes and vaporizing his opponent.
+
+The sullustan maneuvers his B-Wing into position above the Star Destroyer's shield batteries before dropping his payload. As he turns his craft to flee, he takes one last glance over his shoulder, just in time to see the bombs detonate the shield generator in a massive eruption.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The twi'lek pilot immediately takes evasive maneuvers, dodging the incoming volley, before giving her ships line of fire on the offenders.
+
+Regardless of their choice of career, their origin, and their species, all pilots share one thing in common; the love of flight. They thrive under pressure, be it a dogfight, a bombing run, or smuggler evading the law.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Pilot
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, Piloting Procedure |
+| 2nd | I'll Try Spinning, Evasion |
+| 3rd | Versatile Pilot, Cunning Avoidance |
+| 4th | That's a Good Trick, Uncanny Dodge  |
+| 5th | Paragon Pilot, Pilot Extraordinaire |
+
+</div>
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### Piloting Procedure
+Also at 1st rank, you learn tactics that are fueled by special dice called tactical dice.
+
+#### Tactics
+You learn two tactics of your choice, which are detailed under "Tactics" below. You can use only one tactic per turn, and you can only use each tactic once per round.
+
+You learn an additional tactic at 3rd and 5th rank in this deployment. Each time you learn a new tactic, you can also replace one tactic you know with a different one.
+
+#### Tactical Dice
+You have two tactical dice, which are d4s. A tactial die is expended when you use it. You regain all of your expended tactical dice when you finish a long rest.
+
+You gain another tactical die at 2nd, 3rd, 4th and 5th in this deployment. Additionally, your tactical die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
+
+### Tactics
+The tactics are presented in alphabetical order.
+
+#### Attack Pattern Delta
+When your ship makes a ship attack while there is a friendly ship within 100 feet of you, you can expend a tactical die to grant advantage to the roll. If the attack hits, add the result of the die to the attack's damage roll.
+
+#### Break the Lock
+When you fail a Strength, Dexterity, or Constitution saving throw, you can expend a tactical die to attempt to recover. Roll the die and add the result to the saving throw.
+
+<img src='https://www.gmbinder.com/images/vmwsYtZ.png' style='position:absolute;bottom:4px;left:-110px;width:672px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+<div style='margin-top:23px'></div>
+
+#### Defense Screen
+As a bonus action, you can expend a tactical die and take a defensive formation as long as there is a friendly ship within 100 feet of you. When you do so, your AC increases by the amount rolled on the die until the start of your next turn.
+
+#### Koiogran Turn
+When you are the target of an attack roll, you can expend a tactical die and attempt to maneuver out of the line of fire. Roll the die, take the result, and multiply it by 50. You immediately move that many feet in a direction of your choice. The orientation of your ship does not change.
+
+#### Skim the Surface
+As a bonus action, you can expend a tactical die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's flying speed increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn.
+
+#### Snap Roll
+When you are hit by a ship attack, you can expend a tactical die and attempt to roll to mitigate the damage. When you do so, the damage you take from the attack is reduced by the amount rolled on the die.
+
+#### Starship Charge
+When you take the Ram action, you can expend a tactical die to increase the damage. On a failed save, the target ship takes additional kinetic damage equal to the amount rolled on the die + your ship's Strength modifier. Your ship has resistance to the additional damage dealt by this tactic.
+
+#### Target Acquired
+As a bonus action, you can expend a tactical die and lock on to a target you can see. The next attack roll made by your ship has advantage, and if the attack hits, add the result of the die to the attack's damage roll.
+
+### I'll Try Spinning
+At 2nd rank, when you use take the Evade action, you have advantage on the Piloting check. If you already have advantage, you can instead reroll one of the dice once.
+
+\columnbreak
+
+### Evasion
+Also at 2nd rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.
+
+### Versatile Pilot
+Starting at 3rd rank, when you would expend a Tactical die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Cunning Avoidance
+Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make an Intelligence (Piloting) check, and instead use that value for your AC or saving throw.
+
+### That's a Good Trick
+At 4th rank, when you take the Evade action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on attack rolls it makes against you before the start of your next turn, instead of one.
+
+### Uncanny Dodge
+Also at 4th rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack's damage against your ship.
+
+### Paragon Pilot
+As of 5th tier, you are a paragon of your deployment. You regain all expended uses of your Pilot Procedure feature when you finish a short or long rest.
+
+Additionally, when you would make a Piloting check while deployed as a pilot, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Pilot Extraordinaire
+Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Piloting checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against you have disadvantage.
+
+Once you've used this feature, you can't use it again until you finish a short or long rest.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum

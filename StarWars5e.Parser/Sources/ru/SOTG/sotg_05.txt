@@ -1,0 +1,497 @@
+
+
+# Chapter 5: Equipment
+
+<img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he starship marketplace on the planet of Kuat <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps speed. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tout as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.
+
+This chapter offers choices of certain equipment types, to be used in conjunction with the starship upgrades featured in Chapter 4. The listed prices are those appropriate to ships of a Small size; when outfitting a ship of any other size, you'll want to apply the starship size equipment cost, as shown in the Starship Size Equipment Cost table below, which differs slightly from a similar table found in Chapter 4.
+
+### Cost Modifiers
+It costs more to purchase a primary weapon for a capital ship than one for a starfighter; parts for bigger starships are simply costlier to acquire and install. Consequently, each starship has a cost modifier, derived from its size as shown in the Starship Size Equipment Cost table below, which is multiplied by the base cost of the item.
+
+#### Starship Size Equipment Cost 
+| Starship Size | Cost Modifier |
+|:----:|:-------------|
+| Tiny  |&emsp;&emsp;x 0.5 |
+| Small |&emsp;&emsp;x 1 |
+| Medium |&emsp;&emsp;x 2 |
+| Large |&emsp;&emsp;x 5 |
+| Huge |&emsp;&emsp;x 50 |
+| Gargantuan |&emsp;&emsp;x 500 |
+
+For instance, to purchase and install Deflection Armor on a Small size ship, it costs 3,100 credits. To purchase and install it on a Huge ship, however, it costs 155,000 (3,100 x 50).
+
+### Equipment Workforce
+Additionally, bigger ships require more people to install new equipment. For a Small ship, a single person can do everything necessary (though additionally staff will reduce the time taken), while a Medium or larger ship requires a more extensive workforce, as shown below in the Starship Size Equipment Workforce table below.
+
+\columnbreak
+
+#### Starship Size Equipment Workforce 
+| Starship Size | Minimum Workforce |
+|:----:|:----:|
+| Tiny  | 1 |
+| Small  | 1 |
+| Medium  | 2 |
+| Large  | 5 |
+| Huge | 50 |
+| Gargantuan | 500 |
+
+### Installation Time
+With sufficient workforce, a snubfighter's equipment can be installed in no more than a week's time. However, installing a new equipment layout in a freighter can take up to a month, and an overhaul of a large ship such as a cruiser might take a year. It isn't practical for a smaller workforce to make changes to such big ships, regardless of how much time the workers have.
+
+The base time needed to upgrade a starship is calculated as follows:
+
+___
+
+<div align='center'>
+
+**time (in days) = ("base cost of new equipment" x "starship size equipment cost") / (500 x "size of workforce")**
+
+</div>
+
+___
+
+For instance, to install Deflection Armor in a Small ship, with a workforce of 1, would take 6.2 days. To install it on a Huge ship, with a workforce of 100, however, would take 3.1 days [(3,100 x 50) / (500 x 100)].
+
+It is assumed that each member of the workforce works 8 hours per day.
+
+## Cargo
+One of the primary features of a starship is its ability to store and transport cargo. This capacity accounts for everything not directly mounted to the ship, such as consumables, extra fuel, and personnel.
+
+### Cargo Capacity
+Each ship comes with a capacity for a certain amount of cargo, depending on its size, as shown below in the Starship Size Cargo Capacity table.
+
+#### Starship Size Cargo Capacity
+|Starship Size|Cargo Capacity&emsp;&emsp;|
+|:--:|--:|
+|Tiny|—&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|
+|Small|2 tons&emsp;&emsp;&emsp;&emsp;|
+|Medium|25 tons&emsp;&emsp;&emsp;&emsp;|
+|Large|500 tons&emsp;&emsp;&emsp;&emsp;|
+|Huge|10,000 tons&emsp;&emsp;&emsp;&emsp;|
+|Gargantuan|200,000 tons&emsp;&emsp;&emsp;&emsp;|
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+## Armor and Shields
+Different ships use different types of armor based on their size and maneuverability. Snubfighters typically use lighter weight armor giving them greater avoidance, while bombers focus more on absorption over maneuverability. In addition to armor, some ships have shields to give them a greater defensive advantage.
+
+### Armor
+Armor augments the Armor Class and hit points of a ship. All starships have access to armor without need of modifications.
+
+#### Armor Class
+The armor class of a ship is determined by taking the ship's size base armor class (as shown in the Starship Size Base Armor Class table below), adding the pilot's Intelligence (Piloting) modifier, and any applicable bonuses to it. For example, a Small ship has a base armor class of 9. If the pilot has an Intelligence of 16, a proficiency bonus of +2, proficiency in Piloting, and the ship is using deflection armor, his ship has an armor class of 14. You do not require proficiency in Piloting to attempt to fly a space ship.
+
+#### Starship Size Base Armor Class
+|Starship Size|Base Armor Class|
+|:--:|:--:|
+|Tiny|10|
+|Small|9|
+|Medium|8|
+|Large|7|
+|Huge|6|
+|Gargantuan|5|
+
+#### Deflection Armor
+Deflection armor is the most common type of armor aboard ships, and offers no benefit or penalty to armor class or hit points.
+
+#### Lightweight Armor
+Lightweight armor offers a trade-off of a more maneuverable but less resilient ship. A ship with Lightweight Armor installed has a +1 bonus to armor class, but has one fewer maximum hit point per Hit Die. 
+
+<br>
+
+<div style='margin-top:14px'></div>
+
+#### Reinforced Armor
+Opposite of lightweight armor is reinforced armor. This armor improves a ship's resilience, but makes it less likely to avoid damage. A ship with Reinforced Armor installed has a -1 penalty to armor class, but has one additional maximum hit point per Hit Die.
+
+### Shields
+Some ships (like TIE Fighters) lack shields, though most ships have them. Shields determine a ships shield points and shield regeneration rate. Shield points determine how strong a ship's shields are, while shield regeneration rate determines how quickly those shields regenerate.  All starships have access to shields without need of modifications.
+
+***Shield Capacity.*** The capacity of shields is calculated by multiplying the ship's hit points by the shield capacity. For instance, if a ship has 50 hit points, then it would have 50 shield points with a Directional Shield, but only 25 with a Quick-Charge Shield.
+
+***Shield Regeneration Rate.*** Shield regeneration rate is represented by a value, and the shields regenerate by that amount at the start of the pilot's turn. The shield regeneration rate is calculated by multiplying the maximum value of the ship's Hit Die by the shield regeneration rate coefficient. For instance, a Small ship regenerates 6 shield points at the start of the pilot's turn with a Direction Shield, but only 3 shield points with a Fortress Shield (6 x 0.5).
+
+***Shield Depletion.*** In the event that shield points are reduced to 0, they no longer regenerate until your ship undergoes maintenance.
+
+#### Directional Shield
+Directional Shields are the most commonly used and balanced shields on the market.
+
+#### Fortress Shield
+Fortress shields offer a higher maximum shield points, but regenerate slower than normal shields.
+
+#### Quick-Charge Shield
+Quick-Charge Shields, opposite of Fortress Shields, offer a reduced capacity, but rapidly replenish.
+
+<div class='classTable wide'>
+
+|Name|Cost|Armor Class<br> Bonus|Hit Points<br>per Hit Die|&nbsp;&nbsp;&nbsp;Shield<br> &nbsp;Capacity|Shield Regeneration<br>&nbsp;&nbsp;&nbsp;Rate Coefficient|
+|:--|--:|:--:|:--:|:--|:--|
+|	_Armor_	    |||||||
+|&emsp;	Deflection armor       |3,100 cr| — | — |&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
+|&emsp;	Lightweight armor      |3,700 cr| +1| -1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—| 
+|&emsp;	Reinforced armor       |3,450 cr| -1| +1|&emsp;&nbsp;&nbsp;—|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;—|
+|	_Shields_	|||||||
+|&emsp;	Directional shield     |4,300 cr| — | — |&emsp;&nbsp;&nbsp;x 1|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 1|
+|&emsp;	Fortress shield        |4,650 cr| — | — |&emsp;&nbsp;&nbsp;x 2|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 0.5|
+|&emsp;	Quick-Charge shield    |4,900 cr| — | — |&emsp;&nbsp;&nbsp;x 0.5|&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;x 2|
+
+</div>
+
+\pagebreakNum
+
+## Weapons
+Ships have a weapon categories based on their determined function. Most snubfighters use laser cannons, while gunships have both railguns and lasers. Specialized ships often carry torpedoes or missile batteries, or even a bomb deployer. In order to install a weapon, your ship must have a vacant fixed or turret hardpoint modification.
+
+Ship weapons are divided into four categories: Primary, Secondary, Tertiary, and Quaternary. Properties vary based on the weapon's category.
+
+#### Primary Weapons
+Primary weapons are the most common type that ships carry: laser cannons. If a ship has any weapons, it has laser cannons. Laser cannons vary in accuracy, effective range, rate of fire, damage, and damage type.
+
+In a Large or larger ship, rather than an attack roll, primary weapons call for Dexterity saving throws to avoid the weapon's effects. If the target fails the saving throw, they take the weapon's normal damage. On a successful save, they take half of the weapon's normal damage.
+
+#### Secondary Weapons
+Secondary weapons are typically railguns. These weapons deal more damage and have a longer range than primary weapons, but they are more cumbersome and have a slower rate of fire. They are a common addition to gunships. 
+
+In a Large or larger ship, rather than an attack roll, secondary weapons call for Dexterity saving throws to avoid the weapon's effects. If the target fails the saving throw, they take the weapon's normal damage. On a successful save, they take half of the weapon's normal damage.
+
+#### Tertiary Weapons
+Tertiary weapons are limited-use weapons in the form of missiles, rockets or torpedoes. These weapons have a long range, high accuracy, and massive damage potential but they are limited use and expensive to obtain. X-Wings are typically outfitted with proton torpedoes. 
+
+Rather than attack rolls, tertiary weapons call for Dexterity saving throws to avoid the weapon's effects. If the target fails the saving throw, they take the weapon's normal damage. On a successful save, they take half of the weapon's normal damage.
+
+#### Quaternary Weapons
+Quaternary weapons are limited-use weapons in the form of bombs, charges, and mines. These weapons deal massive damage, but travel at slow speeds, and costly to maintain. Y-Wings are typically outfitted with proton bombs.
+
+Rather than attack rolls, quaternary weapons call for saving throws to avoid the weapon's effects. If the target fails the saving throw, they take the weapon's normal damage. On a successful save, they take half of the weapon's normal damage.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+&emsp;When released, quaternary weapons travel in a straight line at a rate of 100 feet per round, moving at the start of the firing gunner's turn. Quaternary weapons detonate when they physically connect with an object, when the firing gunner detonates them remotely using their reaction, or 1 minute after they are deployed.
+
+When a deployed gunner takes the Attack action with a quaternary weapon, they can release multiple loaded ammunition simultaneously. If they choose to do so, the ammunition travels in the same space at the same velocity and can be detonated as a part of the same reaction. 
+
+### Weapon Properties
+Many weapons have special properties related to their use, as shown in the Weapons table.
+
+#### Ammunition
+You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. 
+
+Weapons with the ammunition property come with a range in parentheses after the property. The range property varies based on the weapon type.
+
+***Tertiary Weapons.***  The first number is the tertiary weapon's **normal range** in feet, and the second number indicates the tertiary weapon's **long range**. When attacking a target with a tertiary weapon beyond **normal range**, they have advantage on the saving throw. You can't attack a target beyond the tertiary weapon's **long range**.
+
+***Quaternary Weapons.*** Quaternary weapons do not have a range. Instead, quaternary weapons travel in a straight line at a rate of 100 feet per round.
+
+#### Attack Bonus
+Some weapons come with an attack bonus. When a deployed gunner makes an attack roll with a weapon with an attack bonus, they add the bonus (or subtract, if negative) to the attack roll.
+
+If a tertiary or quaternary weapon has an attack bonus, they add the bonus (or subtract, if negative) to the weapon's save DC.
+
+#### Attacks Per Round
+The rate at which weapons fire varies based on weapon. The "Attacks per Round" column shows how many ship attacks a deployed gunner can make with the chosen weapon when they take the Attack action.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+#### Power
+You can use a weapon that has the power property to make a ranged attack without the use of ammunition. The weapon draws directly from the ship's power source.
+
+Weapons with the power property come with a range in parentheses after the property. The range lists two numbers. The effect of these two numbers varies based on the weapon type.
+
+***Primary Weapons.*** The first number is the primary weapon's **normal range** in feet, and the second number indicates the primary weapon's **long range**. When attacking a target with a primary weapon beyond **normal range**, you have disadvantage on the attack roll. In a Large or larger ship, when attacking a target with a primary weapon beyond **normal range**, they have advantage on the saving throw. You can't attack a target beyond the weapon's **long range**. 
+
+***Secondary Weapons.*** The first number is the secondary weapon's **close range** in feet, and the second number indicates the secondary weapon's **normal range**. When attacking a target within **close range**, you have disadvantage on the attack roll. When attacking a target beyond **close range**, but within **normal range**, you make the attack roll unaltered. In a Large or larger ship, when attacking a target within **close range**, they have advantage on the saving throw. When attacking a target beyond **close range**, but within **normal range**, they make the saving throw unaltered. You can't attack a target beyond the secondary weapon's **normal range**. 
+
+#### Reload
+A limited number of shots can be made with a weapon that has the reload property. A deployed crew member must then reload it. Reloading a weapon takes 1 minute per ammunition.
+
+## Weapons by Size
+In addition to the cost of the weapon varying by size, the damage dice vary as well. There are two tables. The first is for size Tiny to Medium ships, and the second is for size Large to Gargantuan.
+
+### Tiny to Medium
+On the Ship Weapons (Small) table, the shown values for appropriate for Small size ships. When scaling these weapons to size Tiny or Medium ships, there are steps that vary based on weapon type.
+
+#### Primary and Secondary Weapons
+When scaling a primary or secondary weapon to a size Tiny ship, reduce the damage die by one step. When scaling a primary or secondary weapon to a size Medium ship, increase the damage die by one step. 
+
+For instance, a Laser Cannon for a size Tiny ship deals 1d4 energy damage; for a size Medium ship it deals 1d8 energy damage. Meanwhile, a Slug Railgun for a size Tiny ship deals 2d6 kinetic damage; for a size Medium ship it deals 2d10 kinetic damage.
+
+\columnbreak
+
+#### Tertiary and Quaternary Weapons
+When scaling a tertiary or quaternary weapon to a size Tiny ship, reduce the damage die by one step and reduce the reload number by half. When scaling a tertiary or quaternary weapon to a size Medium ship, increase the damage die by one step and double the reload number. 
+
+For instance, a Cluster Missile Launcher for a size Tiny ship deals 2d8 energy damage and has a reload of 4; for a size Medium ship it deals 2d12 energy damage and has a reload of 16. Meanwhile, a Bomb Deployer for a size Tiny ship has a reload of 2, while a Bomblet deals 3d8 energy damage; for a size Medium ship the Bomb Deployer has a reload of 8, while a Bomblet deals 3d12 energy damage.
+
+### Large to Gargantuan
+On the Ship Weapons (Huge) table, the shown values for appropriate for Huge size ships. When scaling these weapons to size Large or Gargantuan ships, there are steps that vary based on weapon type.
+
+#### Primary and Secondary Weapons
+When scaling a primary or secondary weapon to a size Large ship, reduce the damage die by one step. When scaling a primary or secondary weapon to a size Gargantuan ship, increase the damage die by one step. 
+
+For instance, a Laser Battery for a size Large ship deals 2d4 energy damage; for a size Gargantuan ship it deals 2d8 energy damage. Meanwhile, a Heavy Slug Railgun for a size Large ship deals 4d6 kinetic damage; for a size Gargantuan ship it deals 4d10 kinetic damage.
+
+#### Tertiary and Quaternary Weapons
+When scaling a tertiary or quaternary weapon to a size Large ship, reduce the damage die by one step and reduce the reload number by half. When scaling a tertiary or quaternary weapon to a size Gargantuan ship, increase the damage die by one step and double the reload number. 
+
+For instance, a Cluster Missile Array for a size Large ship deals 4d8 energy damage and has a reload of 32; for a size Gargantuan ship it deals 4d12 energy damage and has a reload of 128. Meanwhile, a Bomb Layer for a size Large ship has a reload of 16, while a Bomblet deals 6d8 energy damage; for a size Gargantuan ship the Bomb Deployer has a reload of 64, while a Bomblet deals 6d12 energy damage.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+<div class='classTable wide'>
+
+##### Ship Weapons (Small)
+|Name|Cost|  |Damage|Attack<br> Bonus|Attacks<br> per Round|Properties| 
+|:---|---:|:-:|:---|:--:|:-:|:---|
+|_Primary Weapons_	|||||||
+|&emsp;	Burst laser cannon			|4,000 cr||3d6 energy	 | — |1|Power (range 300/600)|
+|&emsp;	Heavy laser cannon			|4,150 cr||1d6+1 energy	 | +1|1|Power (range 600/1,200)|
+|&emsp;	Ion cannon      			|4,300 cr||3d6 pulse	 | — |1|Power (range 300/600)|
+|&emsp;	Laser cannon             	|3,800 cr||1d6 energy	 | — |2|Power (range 450/900)|
+|&emsp;	Light laser cannon       	|4,100 cr||1d6+1 energy	 | — |2|Power (range 300/600)|
+|&emsp;	Quad laser cannon       	|4,400 cr||1d6+1 energy	 | -1|2|Power (range 450/900)|
+|&emsp;	Rapid-fire laser cannon    	|4,600 cr||1d6 energy	 | -1|3|Power (range 300/600)|
+|&emsp;	Thermite cannon      		|4,300 cr||3d6 thermite	 | — |1|Power (range 300/600)|
+|_Secondary Weapons_	|||||||
+|&emsp;	Ion railgun		        	|5,300 cr||2d8 pulse 	 | +1|1|Power (range 600/1,800)|
+|&emsp;	Slug railgun		    	|5,150 cr||2d8 kinetic   | +1|1|Power (range 600/1,800)|
+|&emsp;	Thermite railgun	    	|5,400 cr||2d8 thermite  | +1|1|Power (range 600/1,800)|
+|_Tertiary Weapons_	|||||||
+|&emsp;	Cluster missile launcher	|6,000 cr||2d10 energy   | +2|2|Ammunition (range 300/600), reload 8|
+|&emsp;	Concussion missile launcher |6,250 cr||3d10 energy   | +2|1|Ammunition (range 600/1,200), reload 4|
+|&emsp;	Ion missile launcher        |6,600 cr||2d10 pulse    | +2|1|Ammunition (range 900/1,800), reload 4|
+|&emsp;	Proton torpedo launcher     |6,900 cr||2d10 energy   | +2|1|Ammunition (range 900/1,800), reload 4|
+|&emsp;	Rocket pod launcher         |6,300 cr||1d10 energy   | — |3|Ammunition (range 600/1,200), reload 12|
+|&emsp;	Thermite torpedo launcher   |6,700 cr||2d10 thermite | +2|1|Ammunition (range 900/1,800), reload 4|
+|_Quaternary Weapons_	|||||||
+|&emsp;	Bomb deployer               |8,000 cr|| —            | — |1|Ammunition, reload 4|
+
+</div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+<div class='classTable wide'>
+
+##### Ship Weapons (Huge)
+|Name|Cost|  |Damage|Attack<br> Bonus|Attacks<br> per Round|Properties| 
+|:---|---:|:-:|:---|:--:|:-:|:---|
+|_Primary Weapons_	|||||||
+|&emsp;	Burst laser battery			|4,000 cr||6d6 energy	     | — |1|Power (range 300/600)|
+|&emsp;	Heavy laser battery			|4,150 cr||2d6+2 energy	     | +1|1|Power (range 600/1,200)|
+|&emsp;	Ion battery      			|4,300 cr||6d6 pulse	     | — |1|Power (range 300/600)|
+|&emsp;	Laser battery             	|3,800 cr||2d6 energy	     | — |2|Power (range 450/900)|
+|&emsp;	Light laser battery       	|4,100 cr||2d6+2 energy	     | — |2|Power (range 300/600)|
+|&emsp;	Quad laser battery       	|4,400 cr||2d6+2 energy	     | -1|2|Power (range 450/900)|
+|&emsp;	Rapid-fire laser battery   	|4,600 cr||2d6 energy	     | -1|3|Power (range 300/600)|
+|&emsp;	Thermite battery      		|4,300 cr||6d6 thermite      | — |1|Power (range 300/600)|
+|_Secondary Weapons_	|||||||
+|&emsp;	Heavy ion railgun	       	|5,300 cr||4d8 pulse 	     | +1|1|Power (range 600/1,800)|
+|&emsp;	Heavy slug railgun	    	|5,150 cr||4d8 kinetic     | +1|1|Power (range 600/1,800)|
+|&emsp;	Heavy thermite railgun    	|5,400 cr||4d8 thermite    | +1|1|Power (range 600/1,800)|
+|_Tertiary Weapons_	|||||||
+|&emsp;	Cluster missile array   	|6,000 cr||4d10 energy     | +2|2|Ammunition (range 300/600), reload 64|
+|&emsp;	Concussion missile array    |6,250 cr||6d10 energy     | +2|1|Ammunition (range 600/1,200), reload 32|
+|&emsp;	Ion missile array           |6,600 cr||4d10 pulse      | +2|1|Ammunition (range 900/1,800), reload 32|
+|&emsp;	Proton torpedo array        |6,900 cr||4d10 energy     | +2|1|Ammunition (range 900/1,800), reload 32|
+|&emsp;	Rocket pod array            |6,300 cr||2d10 energy     | — |3|Ammunition (range 600/1,200), reload 96|
+|&emsp;	Thermite torpedo array      |6,700 cr||4d10 thermite   | +2|1|Ammunition (range 900/1,800), reload 32|
+|_Quaternary Weapons_	|||||||
+|&emsp;	Bomb layer                  |8,000 cr|| —              | — |1|Ammunition, reload 32|
+
+</div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+## Ammunition 
+Tertiary and quaternary weapons require ammunition. The cost associated is for each individual unit.
+
+### Tertiary Ammunition
+The ammunition for tertiary weapons varies based on the specific type of launcher attached to the hardpoint.
+
+### Quaternary Ammunition
+The ammunition for quaternary weapons, while fire-able by the same bomb deployer, vary greatly in function. Regardless of their function, all quaternary ammunition has 1 hit point and an AC of 20. Upon destruction, all quaternary ammunition detonates. The damage value is appropriate for Small ships, while the value in parentheses is appropriate for Huge ships. For other ship sizes, scale the cost and die by reducing or increasing it, as explained in "Weapons by Size".
+
+#### Bomblets
+When a bomblet detonates, each ship within 100 feet must make a Dexterity saving throw. A ship takes 3d10 (6d10) energy damage on a failed save, or half as much on a successful one.
+
+#### EMP Bomb
+When an EMP bomb detonates, each ship within 200 feet must make a Constitution saving throw. On a failed save, a ship is stunned for 1 minute. As an action on each of their turns, a deployed mechanic can repeat the saving throw, ending the effect on a success.
+
+#### Proximity Mine
+Rather than exploding on contact, proximity mines detonate any time a ship comes within range of it. When a proximity mine detonates, each ship within 100 feet must make a Dexterity saving throw. A ship takes 2d10 (4d10) thermite damage on a failed save, or half as much on a successful one.
+
+#### Pulse Bomb
+When an pulse bomb detonates, each ship within 200 feet must make a Constitution saving throw. A ship takes 2d10 (4d10) pulse damage on a failed save, or half as much on a successful one. Additionally, on a failed save, if the ship is your size or smaller, it is ionized for 1 minute. As an action on each of their turns, a deployed mechanic can repeat the saving throw, ending the effect on a success.
+
+#### Seismic Charge
+When a seismic charge detonates, each ship within 300 feet must make a Dexterity saving throw. A ship takes 1d10 (2d10) kinetic damage on a failed save, or half as much on a successful one.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Ammunition
+|Name|Cost|Weight|
+|:---|:---:|--:|
+|_Tertiary Weapons_|||
+|&emsp;	Cluster missile 	|300 cr| 8 lb|
+|&emsp;	Concussion missile  |600 cr|16 lb|
+|&emsp;	Ion missile         |700 cr|18 lb|
+|&emsp;	Proton torpedo      |650 cr|17 lb|
+|&emsp;	Rocket              |200 cr| 6 lb|
+|&emsp;	Thermite torpedo    |700 cr|18 lb|
+|_Quaternary Weapons_||
+|&emsp;	Bomblets        	|620 cr| 8 lb|
+|&emsp;	EMP bomb        	|900 cr|12 lb|
+|&emsp;	Proximity mine   	|650 cr| 9 lb|
+|&emsp;	Pulse bomb        	|700 cr|14 lb|
+|&emsp;	Seismic charge   	|600 cr|11 lb|
+
+</div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+## Hyperdrive
+The hyperdrive is a propulsion system that allows a starship to reach lightspeed and traverse the void between stars in the alternate dimension of hyperspace. For a starship to have a hyperdrive, it must have a vacant hyperdrive slot modification.
+
+The hyperdrive functions by sending hypermatter particles to hurl a ship into hyperspace while<br> preserving the vessel's mass/energy profile, and<br> requires a functional hyperdrive motivator to do so.<br> The vessel then travels along a programmed course<br> until it drops back into normal space—realspace—at its<br> destination.
+
+A deployed operator can engage the hyperdrive as an action, after which it takes 1 minute to boot up. During that time, if the ship takes damage, it must make a Constitution saving throw (DC = 10 or half the damage taken, whichever is higher). On a failed save, the hyperdrive fails to boot. If the ship takes damage from multiple sources, it makes a separate saving throw for each source of damage.
+
+A hyperdrive's only function is to keep a vessel in hyperspace, and should a hyperdrive be forcibly deactivated or destroyed during transit, the ship will be violently pulled back into realspace.
+
+Tiny ships never have a hyperdrive, while Small ships occasionally do. Medium and larger ships typically have a hyperdrive.
+
+Hyperdrives are rated by a class: the lower the class, the faster the hyperdrive. A class 1 hyperdrive travels at the speed of light, while a class 2 hyperdrive travels at half the speed of light. Consequently, a class .5 hyperdrive travels at twice the speed of light.
+
+A ship can have multiple hyperdrives. Larger ships typically have a back-up in case of failure. Only one hyperdrive can be activated at a time. Your ship must have a hyperdrive slot for each hyperdrive.
+
+<div style='margin-top:90px'></div>
+
+<div class='classTable'>
+
+##### Hyperdrives
+|Name|Cost|
+|:--|--:|
+|Hyperdrive, class 0.5    |50,000 cr|
+|Hyperdrive, class 0.75   |25,000 cr|
+|Hyperdrive, class 1.0    |15,000 cr|
+|Hyperdrive, class 1.5    |12,500 cr|
+|Hyperdrive, class 2      |10,000 cr|
+|Hyperdrive, class 3      | 7,500 cr|
+|Hyperdrive, class 4      | 5,000 cr|
+|Hyperdrive, class 5      | 2,500 cr|
+|Hyperdrive, class 8      | 1,000 cr|
+|Hyperdrive, class 15     |   500 cr|
+
+</div>
+
+\columnbreak
+
+## Navcomputer
+The navcomputer is a specialized computer designed to calculate hyperspace routes. For a starship to have a navcomputer, it must have a vacant navcomputer slot modification.
+
+When a deployed operator makes an Intelligence check to calculate astrogation, if a navcomputer is present and if they are proficient in Technology, they can instead make an Intelligence (Technology) check. A deployed operator can activate the navcomputer as a bonus action.
+
+Some navcomputers offer a bonus when calculating astrogation, as indicated by a number after the name (for instance, a Navcomputer +1 offers a +1 bonus to the check). When you make a check to calculate astrogation, you add this bonus, regardless of whether or not you are proficient in Technology.
+
+<div style='margin-top:512px'></div>
+
+<div class='classTable'>
+
+##### Navcomputer
+|Name|Cost|
+|:--|--:|
+|Basic navcomputer    | 2,500 cr|
+|Navcomputer +1       | 7,500 cr|
+|Navcomputer +2       |15,000 cr|
+|Navcomputer +3       |50,000 cr|
+
+</div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>		
+
+\pagebreakNum
+
+## Docking
+All starships require refueling and restocking, as well as a place to dock where they can get these services.
+
+### Docking Fees
+Docking fees vary planet-to-planet, but typically average around 20 credits per day in an average spaceport for a Tiny or Small ship. For a Medium or larger ship, multiply the amount by the Starship Size Equipment Cost table.
+
+For Large and larger ships, docking on planet is impractical. Typically, most civilized planets will have docking station in space that the characters can dock to. Alternatively, if they don't need to refuel or restock, they can simply remain in orbit and bypass any docking fees, while the party themselves transfer to the planet's surface in a smaller transport.
+
+#### Long Term Storage
+Long-term storage is available in some locations, averaging around 200 credits per month for a Tiny or Small ship. For a Medium or larger ship, multiply the amount by the Starship Size Equipment Cost table.
+
+Again, it is impractical for a Large or larger ship to to be stored on planet. At large shipyards, long term storage might be available.
+
+It generally requires about eight hours to get a ship out of long-term storage and ready for flight.
+
+## Refueling and Restocking
+All ships require fuel to operate; without it, a ship is effectively disabled. In general, most starships refuel each time they put into port, and during refueling other essential ship consumables (such as water and oxygen) are restocked as well.
+
+### Refueling
+Ships consume fuel in terms of "units", the quantity of which varies by the size of the ship. A ship uses a unit's worth of fuel for one day of flight in realspace or hyperspace, after one hour of flight in atmosphere, or in a single jump to lightspeed. Costs for a unit's worth of fuel can be found below on the Starship Size Fuel Cost table.
+
+#### Starship Size Fuel Cost
+|Starship Size|Fuel Cost|
+|:--|--:|
+|Tiny|25 cr/unit|
+|Small|50 cr/unit|
+|Medium|100 cr/unit|
+|Large|1,000 cr/unit|
+|Huge|10,000 cr/unit|
+|Gargantuan|100,000 cr/unit|
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+&emsp;Additionally, a ship can store an amount of fuel, as determined by its size, in the Starship Size Fuel Capacity table below.
+
+#### Starship Size Fuel Capacity
+|Starship Size|Fuel Capacity|
+|:--|--:|
+|Tiny| 5 units|
+|Small| 10 units|
+|Medium| 30 units|
+|Large| 300 units|
+|Huge| 600 units|
+|Gargantuan| 1,800 units|
+
+#### Primary Systems
+When a ship refuels, their primary systems, such as electricity and life support, are also replenished. As long the starship has fuel remaining, primary systems function. 
+
+### Restocking
+Ships store food and beverage in terms of "portions", the quantity of which varies by the size of the ship. Each living creature aboard a ship consumes one portion per day spent aboard the ship. A portion costs 10 credits. 
+
+#### Starship Size Food Capacity
+|Starship Size|Food Capacity|
+|:--|--:|
+|Tiny| —|
+|Small| 10 portions|
+|Medium| 120 portions|
+|Large| 240,000 portions|
+|Huge| 9,600,000 portions|
+|Gargantuan| 576,000,000 portions|
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
