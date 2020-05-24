@@ -55,42 +55,12 @@ namespace StarWars5e.Parser.Managers
             _globalSearchTermRepository = globalSearchTermRepository;
             _globalization = globalization;
 
-            var weaponProperties = new List<(string name, string startLine, int occurence)>
-            {
-                ("Ammunition", "#### Ammunition", 1),
-                ("Burst", "#### Burst", 1),
-                ("Dexterity", "#### Dexterity", 1),
-                ("Double", "#### Double", 1),
-                ("Finesse", "#### Finesse", 1),
-                ("Fixed", "#### Fixed", 1),
-                ("Heavy", "#### Heavy", 3 ),
-                ("Hidden", "#### Hidden", 1),
-                ("Light", "#### Light", 2),
-                ("Luminous", "#### Luminous", 1),
-                ("Range", "#### Range", 1),
-                ("Reach", "#### Reach", 1),
-                ("Reload", "#### Reload", 1),
-                ("Returning", "#### Returning", 1),
-                ("Special", "#### Special", 1),
-                ("Strength", "#### Strength", 2 ),
-                ("Thrown", "#### Thrown", 1),
-                ("Two-Handed", "#### Two-Handed", 1),
-                ("Versatile", "#### Versatile", 1)
-            };
+            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, _globalization.PlayerHandbookWeaponProperties);
 
-            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, weaponProperties);
-
-            var armorProperties = new List<(string name, string startLine, int occurence)>
-            {
-                ("Bulky", "#### Bulky", 1),
-                ("Obtrusive", "#### Obtrusive", 1),
-                ("Strength", "#### Strength", 1)
-            };
-
-            _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, armorProperties);
+            _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, _globalization.PlayerHandbookArmorProperties);
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference("player-handbook-rules");
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"player-handbook-rules-{_globalization.Language}");
         }
 
         public async Task Parse()
@@ -155,7 +125,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<Equipment>("equipment", equipment,
+                await _tableStorage.AddBatchAsync<Equipment>($"equipment{_globalization.Language}", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -178,7 +148,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Background>("backgrounds", backgrounds,
+                await _tableStorage.AddBatchAsync<Background>($"backgrounds{_globalization.Language}", backgrounds,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -201,7 +171,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Species>("species", species,
+                await _tableStorage.AddBatchAsync<Species>($"species{_globalization.Language}", species,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -226,7 +196,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(classSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Class>("classes", classes,
+                await _tableStorage.AddBatchAsync<Class>($"classes{_globalization.Language}", classes,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 try
                 {
@@ -254,7 +224,7 @@ namespace StarWars5e.Parser.Managers
                             }
                         }
 
-                        await _tableStorage.AddBatchAsync<Feature>("features", archetypeFeatures,
+                        await _tableStorage.AddBatchAsync<Feature>($"features{_globalization.Language}", archetypeFeatures,
                             new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                     }
                     catch (StorageException se)
@@ -267,7 +237,7 @@ namespace StarWars5e.Parser.Managers
                         .Where(g => g.Count() > 1)
                         .Select(g => g.Key);
 
-                    await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
+                    await _tableStorage.AddBatchAsync<Archetype>($"archetypes{_globalization.Language}", archetypes,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 }
                 catch (StorageException se)
@@ -288,7 +258,7 @@ namespace StarWars5e.Parser.Managers
                         }
                     }
 
-                    await _tableStorage.AddBatchAsync<Feature>("features", classFeatures,
+                    await _tableStorage.AddBatchAsync<Feature>($"features{_globalization.Language}", classFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 }
                 catch (StorageException se)
@@ -330,7 +300,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<Power>("powers", powers,
+                await _tableStorage.AddBatchAsync<Power>($"powers{_globalization.Language}", powers,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -352,7 +322,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Feat>("feats", feats,
+                await _tableStorage.AddBatchAsync<Feat>($"feats{_globalization.Language}", feats,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -391,7 +361,7 @@ namespace StarWars5e.Parser.Managers
                         "#### Special\r\nA weapon with the special property has unusual rules governing its use, explained in the weapon's description.";
                 }
 
-                await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
+                await _tableStorage.AddBatchAsync<WeaponProperty>($"weaponProperties{_globalization.Language}", weaponProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -404,7 +374,7 @@ namespace StarWars5e.Parser.Managers
                 var armorProperties =
                     await _armorPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _globalization);
 
-                await _tableStorage.AddBatchAsync<ArmorProperty>("armorProperties", armorProperties,
+                await _tableStorage.AddBatchAsync<ArmorProperty>($"armorProperties{_globalization.Language}", armorProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

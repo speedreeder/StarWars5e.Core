@@ -42,7 +42,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Feat>("feats", ecFeats,
+                await _tableStorage.AddBatchAsync<Feat>($"feats{_globalization.Language}", ecFeats,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

@@ -51,7 +51,7 @@ namespace StarWars5e.Parser.Managers
             _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor(globalSearchTermRepository);
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference("starships-rules");
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"starships-rules-{_globalization.Language}");
         }
 
         public async Task Parse(List<ReferenceTable> referenceTables = null)
@@ -121,7 +121,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipDeployment>("starshipDeployments", deployments,
+                await _tableStorage.AddBatchAsync<StarshipDeployment>($"starshipDeployments{_globalization.Language}", deployments,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -173,7 +173,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipEquipment>("starshipEquipment", equipment,
+                await _tableStorage.AddBatchAsync<StarshipEquipment>($"starshipEquipment{_globalization.Language}", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -209,7 +209,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(modificationSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipModification>("starshipModifications", modifications,
+                await _tableStorage.AddBatchAsync<StarshipModification>($"starshipModifications{_globalization.Language}", modifications,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -230,7 +230,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipBaseSize>("starshipBaseSizes", sizes,
+                await _tableStorage.AddBatchAsync<StarshipBaseSize>($"starshipBaseSizes{_globalization.Language}", sizes,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -250,7 +250,7 @@ namespace StarWars5e.Parser.Managers
                         $"/starships/ventures?search={venture.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
-                await _tableStorage.AddBatchAsync<StarshipVenture>("starshipVentures", ventures,
+                await _tableStorage.AddBatchAsync<StarshipVenture>($"starshipVentures{_globalization.Language}", ventures,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

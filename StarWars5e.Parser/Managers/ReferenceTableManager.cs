@@ -30,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         public async Task<List<ReferenceTable>> Parse()
         {
             var tables = await _referenceTableProcessor.Process(_referenceTableFileNames, _globalization);
-            await _tableStorage.AddBatchAsync<ReferenceTable>("referenceTables", tables,
+            await _tableStorage.AddBatchAsync<ReferenceTable>($"referenceTables{_globalization.Language}", tables,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             return tables;
         }

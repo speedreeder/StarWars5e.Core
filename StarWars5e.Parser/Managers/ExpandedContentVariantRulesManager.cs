@@ -21,7 +21,7 @@ namespace StarWars5e.Parser.Managers
             _expandedContentVariantRulesProcessor = new ExpandedContentVariantRulesProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference("variant-rules");
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"variant-rules-{_globalization.Language}");
         }
 
         public async Task Parse()
