@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -16,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentEnhancedItemsProcessor _expandedContentEnhancedItemsProcessor;
         private readonly List<string> _ecEnhancedItemsFileName = new List<string> { "ec_enhanced_items.txt" };
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public ExpandedContentEnhancedItemsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public ExpandedContentEnhancedItemsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _expandedContentEnhancedItemsProcessor = new ExpandedContentEnhancedItemsProcessor();
         }
 
@@ -30,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var enhancedItems = await _expandedContentEnhancedItemsProcessor.Process(_ecEnhancedItemsFileName, _globalization);
+                var enhancedItems = await _expandedContentEnhancedItemsProcessor.Process(_ecEnhancedItemsFileName, _localization);
 
                 foreach (var enhancedItem in enhancedItems)
                 {
@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(enhancedItemSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<EnhancedItem>($"enhancedItems{_globalization.Language}", enhancedItems,
+                await _tableStorage.AddBatchAsync<EnhancedItem>($"enhancedItems{_localization.Language}", enhancedItems,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }

@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -17,13 +17,13 @@ namespace StarWars5e.Parser.Managers
         private readonly ExpandedContentEquipmentProcessor _equipmentProcessor;
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _equipmentProcessor = new ExpandedContentEquipmentProcessor();
         }
 
@@ -31,7 +31,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName, _globalization);
+                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName, _localization);
 
                 foreach (var equipment in equipments)
                 {
@@ -87,7 +87,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<Equipment>($"equipment{_globalization.Language}", equipments,
+                await _tableStorage.AddBatchAsync<Equipment>($"equipment{_localization.Language}", equipments,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

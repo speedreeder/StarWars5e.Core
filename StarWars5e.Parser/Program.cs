@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
-using StarWars5e.Parser.Globalization;
+using StarWars5e.Parser.Localization;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser
@@ -48,7 +48,7 @@ namespace StarWars5e.Parser
                     return;
                 }
 
-                var stringsClass = GlobalizationFactory.Get(languageEnum);
+                var stringsClass = LocalizationFactory.Get(languageEnum);
 
                 await ParseContent.Parse(serviceProvider.GetService<ITableStorage>(),
                     serviceProvider.GetService<CloudStorageAccount>(),

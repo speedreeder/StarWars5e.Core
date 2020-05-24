@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -16,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentForcePowersProcessor _forcePowersProcessor;
         private readonly List<string> _ecForcePowersFileName = new List<string> { "ec_force_powers.txt" };
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _forcePowersProcessor = new ExpandedContentForcePowersProcessor();
         }
 
@@ -30,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var forcePowers = await _forcePowersProcessor.Process(_ecForcePowersFileName, _globalization);
+                var forcePowers = await _forcePowersProcessor.Process(_ecForcePowersFileName, _localization);
 
                 foreach (var forcePower in forcePowers)
                 {
@@ -42,7 +42,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Power>($"powers{_globalization.Language}", forcePowers,
+                await _tableStorage.AddBatchAsync<Power>($"powers{_localization.Language}", forcePowers,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 
-namespace StarWars5e.Parser.Parsers.PHB
+namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookEquipmentProcessor: BaseProcessor<Equipment>
     {

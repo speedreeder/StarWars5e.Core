@@ -7,8 +7,8 @@ using StarWars5e.Models;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Lookup;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -19,13 +19,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentArchetypeProcessor _archetypeProcessor;
         private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_archetypes.txt" };
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _archetypeProcessor = new ExpandedContentArchetypeProcessor();
         }
 
@@ -33,7 +33,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName, _globalization);
+                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName, _localization);
 
                 foreach (var archetype in archetypes)
                 {
@@ -65,7 +65,7 @@ namespace StarWars5e.Parser.Managers
                         .Where(g => g.Count() > 1)
                         .Select(g => g.Key);
 
-                    await _tableStorage.AddBatchAsync<Feature>($"features{_globalization.Language}", archetypeFeatures,
+                    await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", archetypeFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 }
                 catch (StorageException se)
@@ -73,7 +73,7 @@ namespace StarWars5e.Parser.Managers
                     Console.WriteLine($"Failed to upload EC archetype features: {se}");
                 }
 
-                await _tableStorage.AddBatchAsync<Archetype>($"archetypes{_globalization.Language}", archetypes,
+                await _tableStorage.AddBatchAsync<Archetype>($"archetypes{_localization.Language}", archetypes,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }

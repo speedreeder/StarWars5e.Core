@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Background;
 using StarWars5e.Models.Enums;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -16,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentBackgroundProcessor _backgroundProcessor;
         private readonly List<string> _ecBackgroundsFileName = new List<string> {"ec_backgrounds.txt"};
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _backgroundProcessor = new ExpandedContentBackgroundProcessor();
         }
 
@@ -30,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var backgrounds = await _backgroundProcessor.Process(_ecBackgroundsFileName, _globalization);
+                var backgrounds = await _backgroundProcessor.Process(_ecBackgroundsFileName, _localization);
 
                 foreach (var background in backgrounds)
                 {
@@ -42,7 +42,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Background>($"backgrounds{_globalization.Language}", backgrounds,
+                await _tableStorage.AddBatchAsync<Background>($"backgrounds{_localization.Language}", backgrounds,
                     new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
 
             }

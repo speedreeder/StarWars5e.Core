@@ -1,18 +1,18 @@
 ﻿using System;
 using StarWars5e.Models.Enums;
 
-namespace StarWars5e.Parser.Globalization
+namespace StarWars5e.Parser.Localization
 {
-    public static class GlobalizationFactory
+    public static class LocalizationFactory
     {
-        public static IGlobalization Get(Language language)
+        public static ILocalization Get(Language language)
         {
             switch (language)
             {
                 case Language.En:
-                    return new GlobalizationEn();
+                    return new LocalizationEn();
                 case Language.Ru:
-                    return new GlobalizationRu();
+                    return new LocalizationRu();
                 default:
                     throw new ArgumentOutOfRangeException(nameof(language), language, null);
             }

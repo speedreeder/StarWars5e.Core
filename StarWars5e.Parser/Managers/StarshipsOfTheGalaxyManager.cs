@@ -9,9 +9,9 @@ using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
-using StarWars5e.Parser.Parsers.SOTG;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
+using StarWars5e.Parser.Processors.SOTG;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -29,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
         private readonly List<string> _sotgFilesName = new List<string>
         {
@@ -38,9 +38,9 @@ namespace StarWars5e.Parser.Managers
         };
 
         public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
-            _globalization = globalization;
+            _localization = localization;
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
@@ -51,14 +51,14 @@ namespace StarWars5e.Parser.Managers
             _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor(globalSearchTermRepository);
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"starships-rules-{_globalization.Language}");
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"starships-rules-{_localization.Language}");
         }
 
         public async Task Parse(List<ReferenceTable> referenceTables = null)
         {
             try
             {
-                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName, _globalization);
+                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName, _localization);
 
                 if (referenceTables != null)
                 {
@@ -88,7 +88,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var deployments =
-                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList(), _globalization);
+                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList(), _localization);
 
                 foreach (var deployment in deployments)
                 {
@@ -121,7 +121,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipDeployment>($"starshipDeployments{_globalization.Language}", deployments,
+                await _tableStorage.AddBatchAsync<StarshipDeployment>($"starshipDeployments{_localization.Language}", deployments,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -131,7 +131,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList(), _globalization);
+                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList(), _localization);
 
                 if (referenceTables != null)
                 {
@@ -173,7 +173,7 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipEquipment>($"starshipEquipment{_globalization.Language}", equipment,
+                await _tableStorage.AddBatchAsync<StarshipEquipment>($"starshipEquipment{_localization.Language}", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -183,7 +183,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList(), _globalization);
+                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList(), _localization);
 
                 if (referenceTables != null)
                 {
@@ -209,7 +209,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(modificationSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipModification>($"starshipModifications{_globalization.Language}", modifications,
+                await _tableStorage.AddBatchAsync<StarshipModification>($"starshipModifications{_localization.Language}", modifications,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -219,7 +219,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList(), _globalization);
+                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList(), _localization);
 
                 foreach (var size in sizes)
                 {
@@ -230,7 +230,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<StarshipBaseSize>($"starshipBaseSizes{_globalization.Language}", sizes,
+                await _tableStorage.AddBatchAsync<StarshipBaseSize>($"starshipBaseSizes{_localization.Language}", sizes,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -240,7 +240,7 @@ namespace StarWars5e.Parser.Managers
             
             try
             {
-                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList(), _globalization);
+                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList(), _localization);
 
                 foreach (var venture in ventures)
                 {
@@ -250,7 +250,7 @@ namespace StarWars5e.Parser.Managers
                         $"/starships/ventures?search={venture.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(sizeSearchTerm);
                 }
-                await _tableStorage.AddBatchAsync<StarshipVenture>($"starshipVentures{_globalization.Language}", ventures,
+                await _tableStorage.AddBatchAsync<StarshipVenture>($"starshipVentures{_localization.Language}", ventures,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

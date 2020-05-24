@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Species;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -16,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly IBaseProcessor<Species> _speciesProcessor;
         private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_species.txt" };
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _speciesProcessor = new ExpandedContentSpeciesProcessor();
         }
 
@@ -30,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var species = await _speciesProcessor.Process(_ecSpeciesFileName, _globalization);
+                var species = await _speciesProcessor.Process(_ecSpeciesFileName, _localization);
 
                 foreach (var specie in species)
                 {
@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Species>($"species{_globalization.Language}", species,
+                await _tableStorage.AddBatchAsync<Species>($"species{_localization.Language}", species,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
-using StarWars5e.Parser.Parsers.PHB;
+using StarWars5e.Parser.Processors.PHB;
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentArchetypeProcessor : BaseProcessor<Archetype>
     {

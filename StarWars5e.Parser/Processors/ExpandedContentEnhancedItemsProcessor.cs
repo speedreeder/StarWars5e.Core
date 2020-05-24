@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
-using StarWars5e.Parser.Parsers.WH;
+using StarWars5e.Parser.Processors.WH;
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentEnhancedItemsProcessor : BaseProcessor<EnhancedItem>
     {

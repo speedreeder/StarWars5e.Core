@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
 
-namespace StarWars5e.Parser.Parsers.PHB
+namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookChapterRulesProcessor : BaseProcessor<ChapterRules>
     {

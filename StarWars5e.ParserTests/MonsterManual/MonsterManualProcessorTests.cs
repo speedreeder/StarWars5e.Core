@@ -2,11 +2,12 @@
 using NUnit.Framework;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Monster;
-using StarWars5e.Parser.Parsers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
 
 namespace StarWars5e.ParserTests.MonsterManual
 {
@@ -29,7 +30,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         [Test]
         public async Task ParsedSampleFile()
         {
-            var result = await _monsterProcessor.Process(_filesToParse);
+            var result = await _monsterProcessor.Process(_filesToParse, new LocalizationEn());
             Assert.IsNotEmpty(result);
             Assert.AreEqual(2, result.Count);
         }
@@ -37,7 +38,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         [Test]
         public async Task ParsedSampleFile_AssertValues()
         {
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse)).First();
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse, new LocalizationEn())).First();
 
             Assert.AreEqual("Adolescent Acklay", monsterResult.Name);
             Assert.AreEqual(MonsterSize.Huge, Enum.Parse<MonsterSize>(monsterResult.Size));
@@ -72,7 +73,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         [Test]
         public async Task ParsedSampleFile_AssertBehaviors()
         {
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse)).First();
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse, new LocalizationEn())).First();
 
             var traitBehavior = monsterResult.Behaviors.FirstOrDefault(x => x.MonsterBehaviorTypeEnum == MonsterBehaviorType.Trait);
 
@@ -93,7 +94,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         [Test]
         public async Task ParsedSampleFile_AssertFlavorTextParsed()
         {
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse)).First();
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse, new LocalizationEn())).First();
 
             Assert.IsNotEmpty(monsterResult.SectionText);
             Assert.AreEqual("Acklays are amphibious reptillian crustaceans with six deadly claws and razor-sharp teeth native to the planet Vendaxa. They are often used as execution beasts or fodder for gladiatorial arenas.", monsterResult.SectionText);
@@ -107,7 +108,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         {
             _filesToParse = new List<string> { fileName };
 
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse));
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse, new LocalizationEn()));
 
             Assert.Multiple(() =>
             {
@@ -166,7 +167,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         public async Task ParsedGeneric_AssertBehaviors(string fileName)
         {
             _filesToParse = new List<string> { fileName };
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse));
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse, new LocalizationEn()));
 
             foreach(var monster in monsterResult)
             {
@@ -201,7 +202,7 @@ namespace StarWars5e.ParserTests.MonsterManual
         public async Task ParsedGeneric_AssertLegendaryActions(string fileName)
         {
             _filesToParse = new List<string> { fileName };
-            var monsterResult = (await _monsterProcessor.Process(_filesToParse));
+            var monsterResult = (await _monsterProcessor.Process(_filesToParse, new LocalizationEn()));
 
             var monsterBehaviors = monsterResult
                 .Where(x => x.Behaviors.Any())

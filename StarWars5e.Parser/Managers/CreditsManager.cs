@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using StarWars5e.Models.Utils;
-using StarWars5e.Parser.Globalization;
+using StarWars5e.Parser.Localization;
 
 namespace StarWars5e.Parser.Managers
 {
     public class CreditsManager
     {
         private readonly CloudBlobContainer _cloudBlobContainer;
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
-        public CreditsManager(CloudStorageAccount cloudStorageAccount, IGlobalization globalization)
+        public CreditsManager(CloudStorageAccount cloudStorageAccount, ILocalization localization)
         {
-            _globalization = globalization;
+            _localization = localization;
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("credits");
         }
@@ -32,9 +32,9 @@ namespace StarWars5e.Parser.Managers
 
                 await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
 
-                var blob = _cloudBlobContainer.GetBlockBlobReference($"credits.{_globalization}.txt");
+                var blob = _cloudBlobContainer.GetBlockBlobReference($"credits.{_localization}.txt");
                 using (var stream = Assembly.GetEntryAssembly()
-                    .GetManifestResourceStream($"StarWars5e.Parser.Sources.{_globalization}.Credits.txt"))
+                    .GetManifestResourceStream($"StarWars5e.Parser.Sources.{_localization}.Credits.txt"))
                 {
                     stream.Seek(0, SeekOrigin.Begin);
                     using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))

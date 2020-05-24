@@ -9,10 +9,10 @@ using StarWars5e.Models;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
-using StarWars5e.Parser.Globalization;
-using StarWars5e.Parser.Parsers;
-using StarWars5e.Parser.Parsers.PHB;
-using StarWars5e.Parser.Parsers.WH;
+using StarWars5e.Parser.Localization;
+using StarWars5e.Parser.Processors;
+using StarWars5e.Parser.Processors.PHB;
+using StarWars5e.Parser.Processors.WH;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -34,32 +34,32 @@ namespace StarWars5e.Parser.Managers
             "WH.wh_00.txt", "WH.wh_01.txt", "WH.wh_02.txt", "WH.wh_03.txt", "WH.wh_04.txt", "WH.wh_05.txt", "WH.wh_06.txt",
             "WH.wh_07.txt", "WH.wh_08.txt", "WH.wh_aa.txt", "WH.wh_changelog.txt"
         };
-        private readonly IGlobalization _globalization;
+        private readonly ILocalization _localization;
 
         public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _globalization = globalization;
+            _localization = localization;
             _wretchedHivesEquipmentProcessor = new WretchedHivesEquipmentProcessor();
             _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(globalSearchTermRepository);
             _enhancedItemProcessor = new EnhancedItemProcessor();
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"wretched-hives-rules-{_globalization.Language}");
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"wretched-hives-rules-{_localization.Language}");
 
-            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, _globalization.WretchedHivesWeaponProperties);
+            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, _localization.WretchedHivesWeaponProperties);
 
-            _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, _globalization.WretchedHivesArmorProperties);
+            _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, _localization.WretchedHivesArmorProperties);
         }
 
         public async Task Parse()
         {
             try
             {
-                var rules = await _wretchedHivesChapterRulesProcessor.Process(_whFilesName, _globalization);
+                var rules = await _wretchedHivesChapterRulesProcessor.Process(_whFilesName, _localization);
 
                 await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
                 foreach (var chapterRules in rules)
@@ -77,7 +77,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var enhancedItems = await _enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _globalization);
+                var enhancedItems = await _enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _localization);
 
                 foreach (var enhancedItem in enhancedItems)
                 {
@@ -88,7 +88,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(enhancedItemSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<EnhancedItem>($"enhancedItems{_globalization.Language}", enhancedItems,
+                await _tableStorage.AddBatchAsync<EnhancedItem>($"enhancedItems{_localization.Language}", enhancedItems,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -99,7 +99,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var equipment =
-                    await _wretchedHivesEquipmentProcessor.Process(new List<string>{ "WH.wh_05.txt" }, _globalization);
+                    await _wretchedHivesEquipmentProcessor.Process(new List<string>{ "WH.wh_05.txt" }, _localization);
 
                 foreach (var equipment1 in equipment)
                 {
@@ -160,7 +160,7 @@ namespace StarWars5e.Parser.Managers
                     .Where(g => g.Count() > 1)
                     .Select(g => g.Key);
 
-                await _tableStorage.AddBatchAsync<Equipment>($"equipment{_globalization.Language}", equipment,
+                await _tableStorage.AddBatchAsync<Equipment>($"equipment{_localization.Language}", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException e)
@@ -170,9 +170,9 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var weaponProperties = await _weaponPropertyProcessor.Process(new List<string> {"WH.wh_05.txt"}, _globalization);
+                var weaponProperties = await _weaponPropertyProcessor.Process(new List<string> {"WH.wh_05.txt"}, _localization);
 
-                await _tableStorage.AddBatchAsync<WeaponProperty>($"weaponProperties{_globalization.Language}", weaponProperties,
+                await _tableStorage.AddBatchAsync<WeaponProperty>($"weaponProperties{_localization.Language}", weaponProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -183,9 +183,9 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var armorProperties =
-                    await _armorPropertyProcessor.Process(new List<string> { "WH.wh_05.txt" }, _globalization);
+                    await _armorPropertyProcessor.Process(new List<string> { "WH.wh_05.txt" }, _localization);
 
-                await _tableStorage.AddBatchAsync<ArmorProperty>($"armorProperties{_globalization.Language}", armorProperties,
+                await _tableStorage.AddBatchAsync<ArmorProperty>($"armorProperties{_localization.Language}", armorProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
@@ -195,7 +195,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var feats = await _playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _globalization);
+                var feats = await _playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization);
 
                 foreach (var feat in feats)
                 {
@@ -206,7 +206,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(featSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Feat>($"feats{_globalization.Language}", feats,
+                await _tableStorage.AddBatchAsync<Feat>($"feats{_localization.Language}", feats,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

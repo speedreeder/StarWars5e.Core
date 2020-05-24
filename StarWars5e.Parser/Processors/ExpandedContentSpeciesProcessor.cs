@@ -10,7 +10,7 @@ using StarWars5e.Models.Utils;
 using Attribute = StarWars5e.Models.Enums.Attribute;
 // ReSharper disable StringLiteralTypo
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentSpeciesProcessor : BaseProcessor<Species>
     {

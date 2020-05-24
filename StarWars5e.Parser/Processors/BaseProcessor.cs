@@ -4,13 +4,13 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using StarWars5e.Parser.Globalization;
+using StarWars5e.Parser.Localization;
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Processors
 {
     public abstract class BaseProcessor<T>: IBaseProcessor<T> where T: class
     {
-        public async Task<List<T>> Process(List<string> locations, IGlobalization strings)
+        public async Task<List<T>> Process(List<string> locations, ILocalization strings)
         {
             var lines = await ReadInternalFile(locations, strings);
             
@@ -18,7 +18,7 @@ namespace StarWars5e.Parser.Parsers
             return blocks;
         }
 
-        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations, IGlobalization strings)
+        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations, ILocalization strings)
         {
             try
             {

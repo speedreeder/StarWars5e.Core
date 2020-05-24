@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.Enums;
-using System.Collections.Generic;
 
-namespace StarWars5e.Parser.Globalization
+namespace StarWars5e.Parser.Localization
 {
-    public interface IGlobalization
+    public interface ILocalization
     {
         public Language Language { get; }
         

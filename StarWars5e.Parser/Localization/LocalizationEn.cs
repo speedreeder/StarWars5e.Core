@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using StarWars5e.Models.Enums;
-using System.Collections.Generic;
 
-namespace StarWars5e.Parser.Globalization
+namespace StarWars5e.Parser.Localization
 {
-    public class GlobalizationEn : IGlobalization
+    public class LocalizationEn : ILocalization
     {
         public Language Language => Language.En;
 
@@ -26,7 +25,7 @@ namespace StarWars5e.Parser.Globalization
             ("Vicious", "#### Vicious", 1)
         };
 
-        public List<(string name, string startLine, int occurence)> WretchedHivesArmorProperties = new List<(string name, string startLine, int occurence)>
+        public List<(string name, string startLine, int occurence)> WretchedHivesArmorProperties => new List<(string name, string startLine, int occurence)>
         {
             ("Absorptive", "#### Absorptive", 1),
             ("Agile", "#### Agile", 1),

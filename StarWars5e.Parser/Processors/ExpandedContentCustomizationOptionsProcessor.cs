@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
-using StarWars5e.Parser.Parsers.PHB;
+using StarWars5e.Parser.Processors.PHB;
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentCustomizationOptionsProcessor : BaseProcessor<Feat>
     {

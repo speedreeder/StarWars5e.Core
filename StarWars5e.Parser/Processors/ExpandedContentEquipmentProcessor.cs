@@ -9,7 +9,7 @@ using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Utils;
 
-namespace StarWars5e.Parser.Parsers
+namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentEquipmentProcessor : BaseProcessor<Equipment>
     {

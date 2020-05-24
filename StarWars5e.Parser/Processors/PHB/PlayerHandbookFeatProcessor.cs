@@ -8,7 +8,7 @@ using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
 using Attribute = StarWars5e.Models.Enums.Attribute;
 
-namespace StarWars5e.Parser.Parsers.PHB
+namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookFeatProcessor : BaseProcessor<Feat>
     {

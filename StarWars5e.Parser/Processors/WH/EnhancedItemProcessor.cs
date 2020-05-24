@@ -6,7 +6,7 @@ using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
 
-namespace StarWars5e.Parser.Parsers.WH
+namespace StarWars5e.Parser.Processors.WH
 {
     public class EnhancedItemProcessor : BaseProcessor<EnhancedItem>
     {

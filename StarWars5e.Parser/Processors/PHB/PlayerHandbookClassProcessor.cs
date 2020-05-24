@@ -9,7 +9,7 @@ using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
 
-namespace StarWars5e.Parser.Parsers.PHB
+namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookClassProcessor : BaseProcessor<Class>
     {
