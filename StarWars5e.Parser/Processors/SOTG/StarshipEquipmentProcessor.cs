@@ -16,27 +16,27 @@ namespace StarWars5e.Parser.Processors.SOTG
         {
             var starshipEquipment = new List<StarshipEquipment>();
 
-            var armorTableStartingIndex = lines.FindIndex(f => f.Contains("|Armor Class") && f.Contains("|Shield Regeneration"));
+            var armorTableStartingIndex = lines.FindIndex(f => f.Contains(Localization.SOTGArmorTableStartingLineArmorClass) && f.Contains(Localization.SOTGArmorTableStartingLineShieldRegeneration));
             var armorTableEndIndex = lines.FindIndex(armorTableStartingIndex, string.IsNullOrWhiteSpace);
             var armorTableLines = lines.Skip(armorTableStartingIndex).Take(armorTableEndIndex - armorTableStartingIndex).ToList();
 
-            var smallWeaponStart = lines.FindIndex(f => f.Contains("##### Ship Weapons (Small)", StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var smallWeaponStart = lines.FindIndex(f => f.Contains(Localization.SOTGSmallWeaponsTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var smallWeaponsEndIndex = lines.FindIndex(smallWeaponStart, string.IsNullOrWhiteSpace);
             var smallWeaponTableLines = lines.Skip(smallWeaponStart).Take(smallWeaponsEndIndex - smallWeaponStart).ToList();
 
-            var hugeWeaponStartIndex = lines.FindIndex(f => f.Contains("##### Ship Weapons (Huge)", StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var hugeWeaponStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGHugeWeaponsTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var hugeWeaponsEndIndex = lines.FindIndex(hugeWeaponStartIndex, string.IsNullOrWhiteSpace);
             var hugeWeaponTableLines = lines.Skip(hugeWeaponStartIndex).Take(hugeWeaponsEndIndex - hugeWeaponStartIndex).ToList();
 
-            var ammunitionTableStartIndex = lines.FindIndex(f => f.Contains("##### Ammunition", StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var ammunitionTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGAmmunitionTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var ammunitionTableEndIndex = lines.FindIndex(ammunitionTableStartIndex, string.IsNullOrWhiteSpace);
             var ammunitionTableLines = lines.Skip(ammunitionTableStartIndex).Take(ammunitionTableEndIndex - ammunitionTableStartIndex).ToList();
 
-            var hyperdriveTableStartIndex = lines.FindIndex(f => f.Contains("##### Hyperdrives", StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var hyperdriveTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGHyperdrivesTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var hyperdriveTableEndIndex = lines.FindIndex(hyperdriveTableStartIndex, string.IsNullOrWhiteSpace);
             var hyperdriveTableLines = lines.Skip(hyperdriveTableStartIndex).Take(hyperdriveTableEndIndex - hyperdriveTableStartIndex).ToList();
 
-            var navcomputerTableStartIndex = lines.FindIndex(f => f.Contains("##### Navcomputer", StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var navcomputerTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGNavcomputerTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var navcomputerTableEndIndex = lines.FindIndex(navcomputerTableStartIndex, string.IsNullOrWhiteSpace);
             var navcomputerTableLines = lines.Skip(navcomputerTableStartIndex).Take(navcomputerTableEndIndex - navcomputerTableStartIndex).ToList();
 
@@ -50,13 +50,13 @@ namespace StarWars5e.Parser.Processors.SOTG
             return Task.FromResult(starshipEquipment);
         }
 
-        private static IEnumerable<StarshipEquipment> CreateArmorAndShields(List<string> armorTableLines, List<string> allLines)
+        private IEnumerable<StarshipEquipment> CreateArmorAndShields(List<string> armorTableLines, List<string> allLines)
         {
             var armorAndShields = new List<StarshipEquipment>();
 
-            var armorStart = armorTableLines.FindIndex(f => f.Contains("_armor_", StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var armorStart = armorTableLines.FindIndex(f => f.Contains(Localization.SOTGArmorTableArmorStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var shieldsStart =
-                armorTableLines.FindIndex(f => f.Contains("_shields_", StringComparison.InvariantCultureIgnoreCase)) + 1;
+                armorTableLines.FindIndex(f => f.Contains(Localization.SOTGArmorTableShieldsStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
 
             var armorLines = armorTableLines.Skip(armorStart).Take(shieldsStart - armorStart - 1);
             var shieldLines = armorTableLines.Skip(shieldsStart);
@@ -116,7 +116,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             return armorAndShields;
         }
 
-        private static IEnumerable<StarshipEquipment> CreateWeapons(IList<string> weaponTableLines, bool isSmallWeapons)
+        private IEnumerable<StarshipEquipment> CreateWeapons(IList<string> weaponTableLines, bool isSmallWeapons)
         {
             var weapons = new List<StarshipEquipment>();
 
@@ -160,7 +160,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                         weapon.DamageDieModifier = int.Parse(damage[2].Value);
                     }
 
-                    var reloadIndex = weaponColumns[7].IndexOf("reload", StringComparison.InvariantCultureIgnoreCase);
+                    var reloadIndex = weaponColumns[7].IndexOf(Localization.reload, StringComparison.InvariantCultureIgnoreCase);
                     if (reloadIndex != -1)
                     {
                         var checkForReload = Regex.Match(weaponColumns[7].Substring(reloadIndex), @"-?\d+");
@@ -176,7 +176,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                         weapon.AttackBonus = int.Parse(attackBonusMatch.Value);
                     }
 
-                    var rangeIndex = weaponColumns[7].IndexOf("range", StringComparison.InvariantCultureIgnoreCase);
+                    var rangeIndex = weaponColumns[7].IndexOf(Localization.range, StringComparison.InvariantCultureIgnoreCase);
                     if (rangeIndex != -1)
                     {
                         var shortRangeMatch = Regex.Match(weaponColumns[7].Substring(rangeIndex),
@@ -192,7 +192,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             return weapons;
         }
 
-        private static IEnumerable<StarshipEquipment> CreateAmmunition(IList<string> ammunitionTableLines, List<string> allLines)
+        private IEnumerable<StarshipEquipment> CreateAmmunition(IList<string> ammunitionTableLines, List<string> allLines)
         {
             var ammunitionList = new List<StarshipEquipment>();
 
@@ -284,21 +284,15 @@ namespace StarWars5e.Parser.Processors.SOTG
             return navcomputerList;
         }
 
-        private static StarshipWeaponCategory GetStarshipWeaponCategoryFromString(string weaponCategoryText)
+        private StarshipWeaponCategory GetStarshipWeaponCategoryFromString(string weaponCategoryText)
         {
-            switch (weaponCategoryText)
-            {
-                case "Primary Weapons":
-                    return StarshipWeaponCategory.Primary;
-                case "Secondary Weapons":
-                    return StarshipWeaponCategory.Secondary;
-                case "Tertiary Weapons":
-                    return StarshipWeaponCategory.Tertiary;
-                case "Quaternary Weapons":
-                    return StarshipWeaponCategory.Quaternary;
-                default:
-                    return StarshipWeaponCategory.None;
-            }
+            if (weaponCategoryText == Localization.PrimaryWeapons)
+                return StarshipWeaponCategory.Primary;
+            if (weaponCategoryText == Localization.SecondaryWeapons)
+                return StarshipWeaponCategory.Secondary;
+            if (weaponCategoryText == Localization.TertiaryWeapons)
+                return StarshipWeaponCategory.Tertiary;
+            return weaponCategoryText == Localization.QuaternaryWeapons ? StarshipWeaponCategory.Quaternary : StarshipWeaponCategory.None;
         }
     }
 }

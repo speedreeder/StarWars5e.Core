@@ -50,7 +50,14 @@ namespace StarWars5e.Parser.Localization
         public string tech => "tech";
         public string Traits => "Traits";
         public string Size => "Size";
-        public string choice => "choice";
+        public string choice => "choice"; 
+        public string reload => "reload";
+        public string range => "range";
+        public string PrimaryWeapons => "Primary Weapons";
+        public string SecondaryWeapons => "Secondary Weapons";
+        public string TertiaryWeapons => "Tertiary Weapons";
+        public string QuaternaryWeapons => "Quaternary Weapons";
+
         #endregion
 
         #region WretchedHivesManager
@@ -256,6 +263,24 @@ namespace StarWars5e.Parser.Localization
         public string SOTGVariantStart => "## Variant: Space Stations";
         public string SOTGModificationsStart => "## Engineering Systems";
         public string SOTGVenturesStart => "## Ventures";
+        #endregion
+
+        #region StarshipDeploymentProcessor
+        public string DeploymentsStart => "##### Deployments";
+        public string GetDeploymentTableStart(string deploymentName) => $"##### The {deploymentName}";
+        #endregion
+
+        #region StarshipEquipmentProcessor
+        public string SOTGArmorTableStartingLineArmorClass => "|Armor Class";
+        public string SOTGArmorTableStartingLineShieldRegeneration => "|Shield Regeneration";
+        public string SOTGSmallWeaponsTableStartingLine => "##### Ship Weapons (Small)";
+        public string SOTGHugeWeaponsTableStartingLine => "##### Ship Weapons (Huge)";
+        public string SOTGAmmunitionTableStartingLine => "##### Ammunition";
+        public string SOTGHyperdrivesTableStartingLine => "##### Hyperdrives";
+        public string SOTGNavcomputerTableStartingLine => "##### Navcomputer";
+        public string SOTGArmorTableArmorStartingLine => "_armor_";
+        public string SOTGArmorTableShieldsStartingLine => "_shields_";
+
         #endregion
     }
 }

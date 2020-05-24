@@ -12,17 +12,17 @@ namespace StarWars5e.Parser.Processors.SOTG
     {
         public override Task<List<StarshipDeployment>> FindBlocks(List<string> lines)
         {
-            var startingIndex = lines.FindIndex(f => f == "##### Deployments");
+            var startingIndex = lines.FindIndex(f => f == Localization.DeploymentsStart);
             var deploymentLines = lines.Skip(startingIndex).ToList();
 
             return Task.FromResult(CreateDeployments(deploymentLines));
         }
 
-        private static List<StarshipDeployment> CreateDeployments(List<string> deploymentChapterLines)
+        private List<StarshipDeployment> CreateDeployments(List<string> deploymentChapterLines)
         {
             var deployments = new List<StarshipDeployment>();
 
-            var deploymentDescriptionTableStartIndex = deploymentChapterLines.FindIndex(f => f == "##### Deployments");
+            var deploymentDescriptionTableStartIndex = deploymentChapterLines.FindIndex(f => f == Localization.DeploymentsStart);
             var deploymentDescriptionTableEndIndex = deploymentChapterLines.FindIndex(deploymentDescriptionTableStartIndex + 3, string.IsNullOrWhiteSpace);
             var deploymentDescriptionTableLines = deploymentChapterLines.Skip(deploymentDescriptionTableStartIndex + 3)
                 .Take(deploymentDescriptionTableEndIndex - (deploymentDescriptionTableStartIndex + 3)).ToList();
@@ -38,7 +38,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                     Description = deploymentTableColumns[2].Trim()
                 };
 
-                var deploymentStart = deploymentChapterLines.FindIndex(f => f == $"## {deployment.Name}");
+                var deploymentStart = deploymentChapterLines.FindIndex(f => f == Localization.GetDeploymentTableStart(deployment.Name));
                 var deploymentEnd = deploymentChapterLines.FindIndex(deploymentStart + 1, f => f.StartsWith("## ")) == -1
                     ? deploymentChapterLines.Count
                     : deploymentChapterLines.FindIndex(deploymentStart + 1, f => f.StartsWith("## "));

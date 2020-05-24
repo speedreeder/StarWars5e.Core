@@ -52,6 +52,12 @@ namespace StarWars5e.Parser.Localization
         public string Traits { get; }
         public string Size { get; }
         public string choice { get; }
+        public string reload { get; }
+        public string range { get; }
+        public string PrimaryWeapons { get; }
+        public string SecondaryWeapons { get; }
+        public string TertiaryWeapons { get; }
+        public string QuaternaryWeapons { get; }
         #endregion
 
         #region WretchedHivesManager
@@ -185,6 +191,24 @@ namespace StarWars5e.Parser.Localization
         public string SOTGVariantStart { get; }
         public string SOTGModificationsStart { get; }
         public string SOTGVenturesStart { get; }
+        #endregion
+
+        #region StarshipDeploymentProcessor
+        public string DeploymentsStart { get; }
+        public string GetDeploymentTableStart(string deploymentName);
+        #endregion
+
+        #region StarshipEquipmentProcessor
+        public string SOTGArmorTableStartingLineArmorClass { get; }
+        public string SOTGArmorTableStartingLineShieldRegeneration { get; }
+        public string SOTGSmallWeaponsTableStartingLine { get; }
+        public string SOTGHugeWeaponsTableStartingLine { get; }
+        public string SOTGAmmunitionTableStartingLine { get; }
+        public string SOTGHyperdrivesTableStartingLine { get; }
+        public string SOTGNavcomputerTableStartingLine { get; }
+        public string SOTGArmorTableArmorStartingLine { get; }
+        public string SOTGArmorTableShieldsStartingLine { get; }
+
         #endregion
     }
 }

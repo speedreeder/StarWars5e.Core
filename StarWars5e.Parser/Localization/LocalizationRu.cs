@@ -173,6 +173,8 @@ namespace StarWars5e.Parser.Localization
 
         public string Range => throw new System.NotImplementedException();
 
+        public string range => throw new System.NotImplementedException();
+
         public string Duration => throw new System.NotImplementedException();
 
         public string Concentration => throw new System.NotImplementedException();
@@ -294,6 +296,41 @@ namespace StarWars5e.Parser.Localization
         public string SOTGModificationsStart => throw new System.NotImplementedException();
 
         public string SOTGVenturesStart => throw new System.NotImplementedException();
+
+        public string reload => throw new System.NotImplementedException();
+
+        public string PrimaryWeapons => throw new System.NotImplementedException();
+
+        public string SecondaryWeapons => throw new System.NotImplementedException();
+
+        public string TertiaryWeapons => throw new System.NotImplementedException();
+
+        public string QuaternaryWeapons => throw new System.NotImplementedException();
+
+        public string DeploymentsStart => throw new System.NotImplementedException();
+
+        public string SOTGArmorTableStartingLineArmorClass => throw new System.NotImplementedException();
+
+        public string SOTGArmorTableStartingLineShieldRegeneration => throw new System.NotImplementedException();
+
+        public string SOTGSmallWeaponsTableStartingLine => throw new System.NotImplementedException();
+
+        public string SOTGHugeWeaponsTableStartingLine => throw new System.NotImplementedException();
+
+        public string SOTGAmmunitionTableStartingLine => throw new System.NotImplementedException();
+
+        public string SOTGHyperdrivesTableStartingLine => throw new System.NotImplementedException();
+
+        public string SOTGNavcomputerTableStartingLine => throw new System.NotImplementedException();
+
+        public string SOTGArmorTableArmorStartingLine => throw new System.NotImplementedException();
+
+        public string SOTGArmorTableShieldsStartingLine => throw new System.NotImplementedException();
+
+        public string GetDeploymentTableStart(string deploymentName)
+        {
+            throw new System.NotImplementedException();
+        }
 
         public string PHBAttributeIncreaseIndexPattern(List<string> attributesChoices)
         {
