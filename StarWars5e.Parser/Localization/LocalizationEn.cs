@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Parser.Localization
@@ -9,7 +8,6 @@ namespace StarWars5e.Parser.Localization
         public Language Language => Language.en;
 
         #region Common
-
         public string Quick => "Quick";
         public string Build => "Build";
         public string Creating => "Creating";
@@ -53,7 +51,6 @@ namespace StarWars5e.Parser.Localization
         public string Traits => "Traits";
         public string Size => "Size";
         public string choice => "choice";
-
         #endregion
 
         #region WretchedHivesManager
@@ -74,7 +71,6 @@ namespace StarWars5e.Parser.Localization
             ("Silent", "#### Silent", 2),
             ("Vicious", "#### Vicious", 1)
         };
-
         public List<(string name, string startLine, int occurence)> WretchedHivesArmorProperties => new List<(string name, string startLine, int occurence)>
         {
             ("Absorptive", "#### Absorptive", 1),
@@ -129,7 +125,6 @@ namespace StarWars5e.Parser.Localization
             ("Two-Handed", "#### Two-Handed", 1),
             ("Versatile", "#### Versatile", 1)
         };
-
         public List<(string name, string startLine, int occurence)> PlayerHandbookArmorProperties => new List<(string name, string startLine, int occurence)>
         {
             ("Bulky", "#### Bulky", 1),
@@ -139,85 +134,47 @@ namespace StarWars5e.Parser.Localization
         #endregion
 
         #region PlayerHandbookBackgroundsProcessor
-
         public string StartingBackground => "## Agent";
-
         public string Changelog => "Changelog";
-
         #endregion
 
         #region PlayerHandbookChangerRulesProcessor
         public string PHBPrefaceStartLine => "## Preface";
-
         public string PHBWhatsDifferentStartLine => "## What's Different?";
-
         public string PHBIntroductionStartLine => "# Introduction";
-
         public string PHBChapter1StartLine => "# Chapter 1: Step-By-Step Characters";
-
         public string PHBChapter2StartLine => "# Chapter 2: Species";
-
         public string PHBChapter3StartLine => "# Chapter 3: Classes";
-
         public string PHBChapter4StartLine => "# Chapter 4: Personality and Backgrounds";
-
         public string PHBChapter5StartLine => "# Chapter 5: Equipment";
-
         public string PHBChapter6StartLine => "# Chapter 6: Customization Options";
-
         public string PHBChapter7StartLine => "# Chapter 7: Using Ability Scores";
-
         public string PHBChapter8StartLine => "# Chapter 8: Adventuring";
-
         public string PHBChapter9StartLine => "# Chapter 9: Combat";
-
         public string PHBChapter10StartLine => "# Chapter 10: Force- and Tech-casting";
-
         public string PHBChapter11StartLine => "# Chapter 11: Force Powers";
-
         public string PHBAppendixAStartLine => "# Appendix A: Conditions";
-
         public string PHBAppendixBStartLine => "# Appendix B: Recommended Variant Rules";
-
         public string PHBChangelogStartLine => "# Changelog";
-
         public string PHBPrefaceTitle => "Preface";
-
         public string PHBWhatsDifferentTitle => "Whats Different";
-
         public string PHBIntroductionTitle => "Introduction";
-
         public string PHBChapter1Title => "Step-By-Step Characters";
-
         public string PHBChapter2Title => "Species";
-
         public string PHBChapter3Title => "Classes";
-
         public string PHBChapter4Title => "Personality and Backgrounds";
-
         public string PHBChapter5Title => "Equipment";
-
         public string PHBChapter6Title => "Customization Options";
-
         public string PHBChapter7Title => "Using Ability Scores";
-
         public string PHBChapter8Title => "Adventuring";
-
         public string PHBChapter9Title => "Combat";
-
         public string PHBChapter10Title => "Force- and Tech-casting";
-
         public string PHBAppendixATitle => "Appendix A: Conditions";
-
         public string PHBAppendixBTitle => "Appendix B: Recommended Variant Rules";
-
         public string PHBChangelogTitle => "Changelog";
-
         public string PHBClassesStartLine => "##### Classes";
         public string PHBBackgroundsStartLine => "## Agent";
         public string PHBFeatsStartLine => "## Feats";
-
-
         #endregion
 
         #region PlayerHandbookClassProcessor
@@ -267,5 +224,38 @@ namespace StarWars5e.Parser.Localization
         public string SpeciesHalfHuman => "Half-Human";
         #endregion
 
+        #region StarshipChapterRulesProcessor
+        public string SOTGChapter0StartLine => "# Introduction";
+        public string SOTGChapter1StartLine => "# Chapter 1: Step-By-Step Starships";
+        public string SOTGChapter2StartLine => "# Chapter 2: Deployments";
+        public string SOTGChapter3StartLine => "# Chapter 3: Starships";
+        public string SOTGChapter4StartLine => "# Chapter 4: Modifications";
+        public string SOTGChapter5StartLine => "# Chapter 5: Equipment";
+        public string SOTGChapter6StartLine => "# Chapter 6: Customization Options";
+        public string SOTGChapter7StartLine => "# Chapter 7: Using Ability Scores";
+        public string SOTGChapter8StartLine => "# Chapter 8: Adventuring";
+        public string SOTGChapter9StartLine => "# Chapter 9: Combat";
+        public string SOTGChapter10StartLine => "# Chapter 10: Generating Encounters";
+        public string SOTGAppendixAStartLine => "# Appendix A: Conditions";
+        public string SOTGChangelogStartLine => "# Changelog";
+        public string SOTGChapter0Title => "Introduction";
+        public string SOTGChapter1Title => "Step-By-Step Starships";
+        public string SOTGChapter2Title => "Deployments";
+        public string SOTGChapter3Title => "Starships";
+        public string SOTGChapter4Title => "Modifications";
+        public string SOTGChapter5Title => "Equipment";
+        public string SOTGChapter6Title => "Customization Options";
+        public string SOTGChapter7Title => "Using Ability Scores";
+        public string SOTGChapter8Title => "Adventuring";
+        public string SOTGChapter9Title => "Combat";
+        public string SOTGChapter10Title => "Generating Encounters";
+        public string SOTGAppendixATitle => "Appendix A: Conditions";
+        public string SOTGChangelogTitle => "Changelog";
+        public string SOTGDeploymentsStartLine => "##### Deployments";
+        public string SOTGShipSizeStartLine => "## Tiny Ships";
+        public string SOTGVariantStart => "## Variant: Space Stations";
+        public string SOTGModificationsStart => "## Engineering Systems";
+        public string SOTGVenturesStart => "## Ventures";
+        #endregion
     }
 }

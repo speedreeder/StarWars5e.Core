@@ -20,99 +20,99 @@ namespace StarWars5e.Parser.Processors.SOTG
         {
             var chapters = new List<ChapterRules>();
 
-            var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
-            var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: Step-By-Step Starships");
-            var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Deployments");
-            var chapter3StartIndex = lines.FindIndex(f => f == "# Chapter 3: Starships");
-            var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Modifications");
-            var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Equipment");
-            var chapter6StartIndex = lines.FindIndex(f => f == "# Chapter 6: Customization Options");
-            var chapter7StartIndex = lines.FindIndex(f => f == "# Chapter 7: Using Ability Scores");
-            var chapter8StartIndex = lines.FindIndex(f => f == "# Chapter 8: Adventuring");
-            var chapter9StartIndex = lines.FindIndex(f => f == "# Chapter 9: Combat");
-            var chapter10StartIndex = lines.FindIndex(f => f == "# Chapter 10: Generating Encounters");
-            var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Conditions");
-            var changelogStartIndex = lines.FindIndex(f => f == "# Changelog");
+            var chapter0StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter0StartLine);
+            var chapter1StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter1StartLine);
+            var chapter2StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter2StartLine);
+            var chapter3StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter3StartLine);
+            var chapter4StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter4StartLine);
+            var chapter5StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter5StartLine);
+            var chapter6StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter6StartLine);
+            var chapter7StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter7StartLine);
+            var chapter8StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter8StartLine);
+            var chapter9StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter9StartLine);
+            var chapter10StartIndex = lines.FindIndex(f => f == Localization.SOTGChapter10StartLine);
+            var appendixAStartIndex = lines.FindIndex(f => f == Localization.SOTGAppendixAStartLine);
+            var changelogStartIndex = lines.FindIndex(f => f == Localization.SOTGChangelogStartLine);
 
             var introLines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
                 .CleanListOfStrings().ToList();
             introLines[2] = introLines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(introLines, 0, "Introduction", SectionNames.SOTGChapterZeroSections,
+            chapters.Add(CreateStarshipChapterRules(introLines, 0, Localization.SOTGChapter0Title, SectionNames.SOTGChapterZeroSections,
                 ""));
 
             var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
                 .CleanListOfStrings().ToList();
             chapter1Lines[2] = chapter1Lines[2].Insert(0, "Y");
-            chapters.Add(CreateStarshipChapterRules(chapter1Lines, 1, "Step-By-Step Starships",
+            chapters.Add(CreateStarshipChapterRules(chapter1Lines, 1, Localization.SOTGChapter1Title,
                 SectionNames.SOTGChapterOneSections, "stepByStep"));
 
-            var chapter2EndIndex = lines.FindIndex(chapter2StartIndex, f => f == "##### Deployments");
+            var chapter2EndIndex = lines.FindIndex(chapter2StartIndex, f => f == Localization.SOTGDeploymentsStartLine);
             var chapter2Lines = lines.Skip(chapter2StartIndex).Take(chapter2EndIndex - chapter2StartIndex)
                 .CleanListOfStrings().ToList();
             chapter2Lines[2] = chapter2Lines[2].Insert(0, "A");
-            chapters.Add(CreateStarshipChapterRules(chapter2Lines, 2, "Deployments", SectionNames.PHBChapterTwoSections,
+            chapters.Add(CreateStarshipChapterRules(chapter2Lines, 2, Localization.SOTGChapter2Title, SectionNames.PHBChapterTwoSections,
                 "deployments"));
 
-            var chapter3EndIndex = lines.FindIndex(chapter3StartIndex, f => f == "## Tiny Ships");
+            var chapter3EndIndex = lines.FindIndex(chapter3StartIndex, f => f == Localization.SOTGShipSizeStartLine);
             var chapter3Lines = lines.Skip(chapter3StartIndex).Take(chapter3EndIndex - chapter3StartIndex)
                 .CleanListOfStrings().ToList();
             var variantStart = lines.FindIndex(chapter3StartIndex, f => f == "## Variant: Space Stations");
             var variantLines = lines.Skip(variantStart).Take(chapter4StartIndex - variantStart).CleanListOfStrings().ToList();
             chapter3Lines.AddRange(variantLines);
             chapter3Lines[2] = chapter3Lines[2].Insert(0, "C");
-            chapters.Add(CreateStarshipChapterRules(chapter3Lines, 3, "Starships",
+            chapters.Add(CreateStarshipChapterRules(chapter3Lines, 3, Localization.SOTGChapter3Title,
                 SectionNames.SOTGChapterThreeSections, "starshipSizes"));
 
-            var chapter4EndIndex = lines.FindIndex(chapter4StartIndex, f => f == "## Engineering Systems");
+            var chapter4EndIndex = lines.FindIndex(chapter4StartIndex, f => f == Localization.SOTGModificationsStart);
             var chapter4Lines = lines.Skip(chapter4StartIndex).Take(chapter4EndIndex - chapter4StartIndex)
                 .CleanListOfStrings().ToList();
             chapter4Lines[2] = chapter4Lines[2].Insert(0, "A");
-            chapters.Add(CreateStarshipChapterRules(chapter4Lines, 4, "Modifications",
+            chapters.Add(CreateStarshipChapterRules(chapter4Lines, 4, Localization.SOTGChapter4Title,
                 SectionNames.SOTGChapterFourSections, "modifications"));
 
             var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
                 .CleanListOfStrings().ToList();
             chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(chapter5Lines, 6, "Equipment", SectionNames.SOTGChapterFiveSections,
+            chapters.Add(CreateStarshipChapterRules(chapter5Lines, 5, Localization.SOTGChapter5Title, SectionNames.SOTGChapterFiveSections,
                 "equipment"));
 
-            var chapter6EndIndex = lines.FindIndex(lines.FindIndex(chapter6StartIndex, f => f == "## Ventures"),
+            var chapter6EndIndex = lines.FindIndex(lines.FindIndex(chapter6StartIndex, f => f == Localization.SOTGVenturesStart),
                 f => f.StartsWith("### "));
             var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex)
                 .CleanListOfStrings().ToList();
             chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(chapter6Lines, 6, "Customization Options",
+            chapters.Add(CreateStarshipChapterRules(chapter6Lines, 6, Localization.SOTGChapter6Title,
                 SectionNames.SOTGChapterSixSections, "customization"));
 
             var chapter7Lines = lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex)
                 .CleanListOfStrings().ToList();
             chapter7Lines[2] = chapter7Lines[2].Insert(0, "S");
-            chapters.Add(CreateStarshipChapterRules(chapter7Lines, 7, "Using Ability Scores",
+            chapters.Add(CreateStarshipChapterRules(chapter7Lines, 7, Localization.SOTGChapter7Title,
                 SectionNames.SOTGChapterSevenSections, "abilityScores"));
 
             var chapter8Lines = lines.Skip(chapter8StartIndex).Take(chapter9StartIndex - chapter8StartIndex)
                 .CleanListOfStrings().ToList();
             chapter8Lines[2] = chapter8Lines[2].Insert(0, "D");
-            chapters.Add(CreateStarshipChapterRules(chapter8Lines, 8, "Adventuring",
+            chapters.Add(CreateStarshipChapterRules(chapter8Lines, 8, Localization.SOTGChapter8Title,
                 SectionNames.SOTGChapterEightSections, "adventuring"));
 
             var chapter9Lines = lines.Skip(chapter9StartIndex).Take(chapter10StartIndex - chapter9StartIndex).CleanListOfStrings().ToList();
             chapter9Lines[2] = chapter9Lines[2].Insert(0, "A");
-            chapters.Add(CreateStarshipChapterRules(chapter9Lines, 9, "Combat", SectionNames.SOTGChapterNineSections,
+            chapters.Add(CreateStarshipChapterRules(chapter9Lines, 9, Localization.SOTGChapter9Title, SectionNames.SOTGChapterNineSections,
                 "combat"));
 
             var chapter10Lines = lines.Skip(chapter10StartIndex).Take(appendixAStartIndex - chapter10StartIndex).CleanListOfStrings().ToList();
             chapter10Lines[2] = chapter10Lines[2].Insert(0, "C");
-            chapters.Add(CreateStarshipChapterRules(chapter10Lines, 10, "Generating Encounters",
+            chapters.Add(CreateStarshipChapterRules(chapter10Lines, 10, Localization.SOTGChapter10Title,
                 SectionNames.SOTGChapterTenSections, "generatingEncounters"));
 
             var appendixALines = lines.Skip(appendixAStartIndex).Take(changelogStartIndex - appendixAStartIndex).CleanListOfStrings().ToList();
             appendixALines[2] = appendixALines[2].Insert(0, "C");
-            chapters.Add(CreateStarshipChapterRules(appendixALines, 11, "Appendix A: Conditions",
+            chapters.Add(CreateStarshipChapterRules(appendixALines, 11, Localization.SOTGAppendixATitle,
                 SectionNames.SOTGAppendixAConditionsSections, "conditions"));
 
             var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
-            chapters.Add(CreateStarshipChapterRules(changelogLines, 99, "Changelog"));
+            chapters.Add(CreateStarshipChapterRules(changelogLines, 99, Localization.SOTGChangelogTitle));
 
             foreach (var sotgChapterName in SectionNames.SOTGChapterNames)
             {
@@ -149,40 +149,6 @@ namespace StarWars5e.Parser.Processors.SOTG
                 ContentMarkdown = string.Join("\r\n", chapterLines)
             };
             return chapter;
-        }
-
-        private static IEnumerable<string> GetChapter5Rules(List<string> chapter5Lines)
-        {
-            var chapter5RulesLines = new List<string>();
-
-            var armorTableStart = chapter5Lines.FindIndex(f => f.StartsWith("|Name|Cost|Armor Class"));
-            chapter5RulesLines.AddRange(chapter5Lines.Take(armorTableStart));
-
-            var weaponRulesStart = chapter5Lines.FindIndex(f => f == "## Weapons");
-            var weaponRulesStop = chapter5Lines.FindIndex(f => f == "##### Ship Weapons (Small)");
-
-            chapter5RulesLines.AddRange(chapter5Lines.Skip(weaponRulesStart).Take(weaponRulesStop - weaponRulesStart));
-
-            var ammunitionRulesStart = chapter5Lines.FindIndex(f => f.StartsWith("## Ammunition"));
-            var ammunitionRulesStop = chapter5Lines.FindIndex(f => f == "##### Ammunition (Small)");
-
-            chapter5RulesLines.AddRange(chapter5Lines.Skip(ammunitionRulesStart).Take(ammunitionRulesStop - ammunitionRulesStart));
-
-            var hyperdriveRulesStart = chapter5Lines.FindIndex(f => f == "## Hyperdrive");
-            var hyperdriveRulesStop = chapter5Lines.FindIndex(f => f == "##### Hyperdrives");
-
-            chapter5RulesLines.AddRange(chapter5Lines.Skip(hyperdriveRulesStart).Take(hyperdriveRulesStop - hyperdriveRulesStart));
-
-            var navcomputerRulesStart = chapter5Lines.FindIndex(f => f == "## Navcomputer");
-            var navcomputerRulesStop = chapter5Lines.FindIndex(f => f == "##### Navcomputer");
-
-            chapter5RulesLines.AddRange(chapter5Lines.Skip(navcomputerRulesStart).Take(navcomputerRulesStop - navcomputerRulesStart));
-
-            var otherRulesStart = chapter5Lines.FindIndex(f => f == "## Docking");
-
-            chapter5RulesLines.AddRange(chapter5Lines.Skip(otherRulesStart).Take(chapter5Lines.Count - otherRulesStart));
-
-            return chapter5RulesLines;
         }
     }
 }

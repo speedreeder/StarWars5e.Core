@@ -152,5 +152,39 @@ namespace StarWars5e.Parser.Localization
         public string SpeciesAbilityScoreIncrease { get; }
         public string SpeciesHalfHuman { get; }
         #endregion
+
+        #region StarshipChapterRulesProcessor
+        public string SOTGChapter0StartLine { get; }
+        public string SOTGChapter1StartLine { get; }
+        public string SOTGChapter2StartLine { get; }
+        public string SOTGChapter3StartLine { get; }
+        public string SOTGChapter4StartLine { get; }
+        public string SOTGChapter5StartLine { get; }
+        public string SOTGChapter6StartLine { get; }
+        public string SOTGChapter7StartLine { get; }
+        public string SOTGChapter8StartLine { get; }
+        public string SOTGChapter9StartLine { get; }
+        public string SOTGChapter10StartLine { get; }
+        public string SOTGAppendixAStartLine { get; }
+        public string SOTGChangelogStartLine { get; }
+        public string SOTGChapter0Title { get; }
+        public string SOTGChapter1Title { get; }
+        public string SOTGChapter2Title { get; }
+        public string SOTGChapter3Title { get; }
+        public string SOTGChapter4Title { get; }
+        public string SOTGChapter5Title { get; }
+        public string SOTGChapter6Title { get; }
+        public string SOTGChapter7Title { get; }
+        public string SOTGChapter8Title { get; }
+        public string SOTGChapter9Title { get; }
+        public string SOTGChapter10Title { get; }
+        public string SOTGAppendixATitle { get; }
+        public string SOTGChangelogTitle { get; }
+        public string SOTGDeploymentsStartLine { get; }
+        public string SOTGShipSizeStartLine { get; }
+        public string SOTGVariantStart { get; }
+        public string SOTGModificationsStart { get; }
+        public string SOTGVenturesStart { get; }
+        #endregion
     }
 }

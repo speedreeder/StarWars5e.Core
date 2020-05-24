@@ -91,26 +91,6 @@ namespace StarWars5e.Parser.Localization
 
         public string PHBFeatsStartLine => throw new System.NotImplementedException();
 
-        public List<string> BerserkerApproaches => throw new System.NotImplementedException();
-
-        public List<string> ConsularTraditions => throw new System.NotImplementedException();
-
-        public List<string> EngineerDisciplines => throw new System.NotImplementedException();
-
-        public List<string> FighterSpecialties => throw new System.NotImplementedException();
-
-        public List<string> GuardianForms => throw new System.NotImplementedException();
-
-        public List<string> MonkOrders => throw new System.NotImplementedException();
-
-        public List<string> OperativePractices => throw new System.NotImplementedException();
-
-        public List<string> ScholarPursuits => throw new System.NotImplementedException();
-
-        public List<string> ScoutTechniques => throw new System.NotImplementedException();
-
-        public List<string> SentinelPaths => throw new System.NotImplementedException();
-
         public string Quick => throw new System.NotImplementedException();
 
         public string Build => throw new System.NotImplementedException();
@@ -252,6 +232,68 @@ namespace StarWars5e.Parser.Localization
         public string SpeciesAbilityScoreIncrease => throw new System.NotImplementedException();
 
         public string SpeciesHalfHuman => throw new System.NotImplementedException();
+
+        public string SOTGChapter0StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter1StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter2StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter3StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter4StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter5StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter6StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter7StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter8StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter9StartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter10StartLine => throw new System.NotImplementedException();
+
+        public string SOTGAppendixAStartLine => throw new System.NotImplementedException();
+
+        public string SOTGChangelogStartLine => throw new System.NotImplementedException();
+
+        public string SOTGChapter0Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter1Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter2Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter3Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter4Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter5Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter6Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter7Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter8Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter9Title => throw new System.NotImplementedException();
+
+        public string SOTGChapter10Title => throw new System.NotImplementedException();
+
+        public string SOTGAppendixATitle => throw new System.NotImplementedException();
+
+        public string SOTGChangelogTitle => throw new System.NotImplementedException();
+
+        public string SOTGDeploymentsStartLine => throw new System.NotImplementedException();
+
+        public string SOTGShipSizeStartLine => throw new System.NotImplementedException();
+
+        public string SOTGVariantStart => throw new System.NotImplementedException();
+
+        public string SOTGModificationsStart => throw new System.NotImplementedException();
+
+        public string SOTGVenturesStart => throw new System.NotImplementedException();
 
         public string PHBAttributeIncreaseIndexPattern(List<string> attributesChoices)
         {
