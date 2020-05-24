@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Utils;
 using StarWars5e.Parser.Processors.PHB;
 
@@ -11,6 +12,14 @@ namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentArchetypeProcessor : BaseProcessor<Archetype>
     {
+        private readonly List<ClassImageLU> _classImageLus;
+        private readonly List<CasterRatioLU> _casterRatioLus;
+
+        public ExpandedContentArchetypeProcessor(List<ClassImageLU> classImageLus, List<CasterRatioLU> casterRatioLus)
+        {
+            _classImageLus = classImageLus;
+            _casterRatioLus = casterRatioLus;
+        }
         public override Task<List<Archetype>> FindBlocks(List<string> lines)
         {
             var archetypes = new List<Archetype>();
@@ -54,7 +63,9 @@ namespace StarWars5e.Parser.Processors
                             .Take(archetypeLinesEnd - archetypeLinesStart);
                     }
 
-                    archetypes.Add(PlayerHandbookClassProcessor.ParseArchetype(archetypeLines.ToList(), starWarsClass,
+                    var playerHandbookClassProcessor = new PlayerHandbookClassProcessor(_classImageLus, _casterRatioLus);
+
+                    archetypes.Add(playerHandbookClassProcessor.ParseArchetype(archetypeLines.ToList(), starWarsClass,
                         ContentType.ExpandedContent));
                 }
             }

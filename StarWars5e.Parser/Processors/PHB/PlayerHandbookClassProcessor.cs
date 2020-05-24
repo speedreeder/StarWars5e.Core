@@ -7,39 +7,30 @@ using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookClassProcessor : BaseProcessor<Class>
     {
-        private static readonly List<string> BerserkerApproaches = new List<string>{ "Augmented Approach", "Marauder Approach", "Warchief Approach" };
-        private static readonly List<string> ConsularTraditions = new List<string> { "Way of Balance", "Way of Lightning", "Way of the Sage" };
-        private static readonly List<string> EngineerDisciplines = new List<string> { "Armormech Engineering", "Armstech Engineering", "Astrotech Engineering" };
-        private static readonly List<string> FighterSpecialties = new List<string> { "Assault Specialist", "Shield Specialist", "Tactical Specialist" };
-        private static readonly List<string> GuardianForms = new List<string> { "Form I: Shii-Cho", "Form II: Makashi", "Form III: Soresu" };
-        private static readonly List<string> MonkOrders = new List<string> { "Echani Order", "Nightsister Order", "Ter�s K�si Order" };
-        private static readonly List<string> OperativePractices = new List<string> { "Gunslinger Practice", "Lethality Practice", "Sharpshooter Practice" };
-        private static readonly List<string> ScholarPursuits = new List<string> { "Physician Pursuit", "Politician Pursuit", "Tactician Pursuit" };
-        private static readonly List<string> ScoutTechniques = new List<string> { "Deadeye Technique", "Hunter Technique", "Stalker Technique" };
-        private static readonly List<string> SentinelPaths = new List<string> { "Path of Aggression", "Path of Focus", "Path of Shadows" };
+        private readonly List<ClassImageLU> _classImageLus;
+        private readonly List<MulticlassProficiencyLU> _multiclassProficiencyLus;
+        private readonly List<CasterRatioLU> _casterRatioLus;
 
-        private static readonly List<(string ArchetypeName, double CasterRatio, PowerType CasterType)>
-            ArchetypeCasterMap = new List<(string ArchetypeName, double CasterRatio, PowerType CasterType)>
-            {
-                ("Marauder Approach", .3333333333333333, PowerType.Force),
-                ("Adept Specialist", .3333333333333333, PowerType.Force),
-                ("Aing-Tii Order", .3333333333333333, PowerType.Force),
-                ("Beguiler Practice", .3333333333333333, PowerType.Force),
-                ("Shield Specialist", .3333333333333333, PowerType.Tech),
-                ("Saboteur Practice", .3333333333333333, PowerType.Tech)
-            };
+        public PlayerHandbookClassProcessor(List<ClassImageLU> classImageLus = null,
+            List<CasterRatioLU> casterRatioLus = null, List<MulticlassProficiencyLU> multiclassProficiencyLus = null)
+        {
+            _classImageLus = classImageLus;
+            _multiclassProficiencyLus = multiclassProficiencyLus;
+            _casterRatioLus = casterRatioLus;
+        }
 
         public override Task<List<Class>> FindBlocks(List<string> lines)
         {
             var classes = new List<Class>();
             lines = lines.CleanListOfStrings().ToList();
-            var classTableStart = lines.FindIndex(f => f.Equals("##### Classes"));
+            var classTableStart = lines.FindIndex(f => f.Equals(Localization.PHBClassesTableStart));
             var classTableEnd = lines.FindIndex(classTableStart, f => f.Equals(string.Empty));
             var classTableLines = lines.Skip(classTableStart + 3).Take(classTableEnd - (classTableStart + 3)).ToList();
 
@@ -65,18 +56,37 @@ namespace StarWars5e.Parser.Processors.PHB
                     var classLinesEnd = lines.FindIndex(classLinesStart, f => f.Equals($"## {nextClassName}"));
                     classLines = lines.Skip(classLinesStart).Take(classLinesEnd - classLinesStart).ToList();
                 }
-                
+
+                if (_classImageLus != null)
+                {
+                    foreach (var classImageLu in _classImageLus.Where(c => c.Class == starWarsClass.Name))
+                    {
+                        starWarsClass.ImageUrls.Add(classImageLu.Url);
+                    }
+                }
+
+                if (_multiclassProficiencyLus != null)
+                {
+                    foreach (var multiclassProficiencyLu in _multiclassProficiencyLus.Where(m => m.Class == starWarsClass.Name))
+                    {
+                        starWarsClass.MultiClassProficiencies.Add(multiclassProficiencyLu.Proficiency);
+                    }
+                }
+
+                var casterRatio = _casterRatioLus?.SingleOrDefault(c => c.Name == starWarsClass.Name);
+                if (casterRatio != null)
+                {
+                    starWarsClass.CasterRatio = casterRatio.Ratio;
+                    starWarsClass.CasterTypeEnum = casterRatio.CasterTypeEnum;
+                }
+
                 classes.Add(ParseClass(classLines, starWarsClass, ContentType.Core));
             }
-
-            MapImageUrls(classes);
-            MapCasterRatioAndType(classes);
-            MapMultiClassProficiencies(classes);
 
             return Task.FromResult(classes);
         }
 
-        public static Class ParseClass(List<string> classLines, Class starWarsClass, ContentType contentType)
+        private Class ParseClass(List<string> classLines, Class starWarsClass, ContentType contentType)
         {
             try
             {
@@ -85,14 +95,14 @@ namespace StarWars5e.Parser.Processors.PHB
                 starWarsClass.RowKey = starWarsClass.Name;
 
                 var flavorTextEnd = classLines.FindIndex(f =>
-                    Regex.IsMatch(f, $@"\#\#\#\s*Creating.*{starWarsClass.Name}"));
+                    Regex.IsMatch(f, $@"\#\#\#\s*{Localization.Creating}.*{starWarsClass.Name}"));
                 starWarsClass.FlavorText = string.Join("\r\n", classLines.Skip(1).Take(flavorTextEnd - 1));
 
-                var buildStart = classLines.FindIndex(flavorTextEnd, f => Regex.IsMatch(f, @"[#]+\s*Quick\s*Build"));
+                var buildStart = classLines.FindIndex(flavorTextEnd, f => Regex.IsMatch(f, Localization.PHBClassBuildStartPattern));
                 starWarsClass.CreatingText =
                     string.Join("\r\n", classLines.Skip(flavorTextEnd + 1).Take(buildStart - (flavorTextEnd + 1)));
 
-                var classTableStart = classLines.FindIndex(f => f.Equals($"##### The {starWarsClass.Name}"));
+                var classTableStart = classLines.FindIndex(f => f.Equals($"##### {Localization.The} {starWarsClass.Name}"));
                 var classTableEnd = classLines.FindIndex(classTableStart, f => f.Equals(string.Empty));
                 var classTableLines = classLines.Skip(classTableStart).Take(classTableEnd - classTableStart).ToList();
 
@@ -120,9 +130,9 @@ namespace StarWars5e.Parser.Processors.PHB
                     starWarsClass.LevelChanges.Add(level, levelChange);
                 }
 
-                starWarsClass.HitPointsAtFirstLevel = classLines.Find(f => f.Contains("**Hit Points at 1st Level:**"))
+                starWarsClass.HitPointsAtFirstLevel = classLines.Find(f => f.Contains(Localization.PHBClassHitPointsAtFirstLevel))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
-                starWarsClass.HitPointsAtHigherLevels = classLines.Find(f => f.Contains("**Hit Points at Higher Level"))
+                starWarsClass.HitPointsAtHigherLevels = classLines.Find(f => f.Contains(Localization.PHBClassHitPointsAtHigherLevel))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
 
                 if (starWarsClass.HitPointsAtFirstLevel != null)
@@ -137,44 +147,46 @@ namespace StarWars5e.Parser.Processors.PHB
                         int.Parse(Regex.Match(starWarsClass.HitPointsAtHigherLevels.Split('(')[1], @"\d+").Value);
                 }
 
-                starWarsClass.ArmorProficiencies = classLines.Find(f => f.Contains("**Armor:**"))
+                starWarsClass.ArmorProficiencies = classLines.Find(f => f.Contains($"**{Localization.Armor}:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
 
 
-                starWarsClass.WeaponProficiencies = classLines.Find(f => f.Contains("**Weapons:**"))
+                starWarsClass.WeaponProficiencies = classLines.Find(f => f.Contains($"**{Localization.Weapons}:**"))
                     .Split("**").ElementAtOrDefault(2)?.Split(',').Select(s => s.Trim()).ToList();
 
 
-                starWarsClass.ToolProficiencies = classLines.Find(f => f.Contains("**Tools:**"))
-                    .Split("**").ElementAtOrDefault(2)?.Split(new [] {",", "and"}, StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToList();
+                starWarsClass.ToolProficiencies = classLines.Find(f => f.Contains($"**{Localization.Tools}:**"))
+                    .Split("**").ElementAtOrDefault(2)?.Split(new [] {",", Localization.and}, StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()).ToList();
 
                 if (starWarsClass.ToolProficiencies != null)
                 {
                     starWarsClass.ToolProficienciesList = starWarsClass.ToolProficiencies.Select(t =>
                     {
-                        t = t.Replace("Your choice of ", "");
+                        t = t.Replace($"{Localization.PHBClassToolProficiencyChoice} ", "");
                         return t.RemoveWords(new [] {"or"});
                     }).ToList();
                 }
 
-                starWarsClass.SkillChoices = classLines.Find(f => f.Contains("**Skills:**"))
+                starWarsClass.SkillChoices = classLines.Find(f => f.Contains($"**{Localization.Skills}:**"))
                     .Split("**").ElementAtOrDefault(2)?.Trim();
 
                 if (starWarsClass.SkillChoices != null)
                 {
-                    starWarsClass.SkillChoicesList = starWarsClass.SkillChoices.Split("from ")[1]
+                    starWarsClass.SkillChoicesList = starWarsClass.SkillChoices.Split($"{Localization.from} ")[1]
                         .Split(",")
                         .Select(c =>
                         {
-                            c = c.RemoveWords(new []{"and"});
+                            c = c.RemoveWords(new []{Localization.and});
                             return c.Trim();
                         })
                         .ToList();
 
-                    starWarsClass.NumSkillChoices = Regex.Match(starWarsClass.SkillChoices, @"one|two|three|four|five|six|seven|eight|nine").Value.ToInteger();
+                    starWarsClass.NumSkillChoices = Regex.Match(starWarsClass.SkillChoices,
+                            @$"{Localization.one}|{Localization.two}|{Localization.three}|{Localization.four}|{Localization.five}|{Localization.six}|{Localization.seven}|{Localization.eight}|{Localization.nine}")
+                        .Value.ToInteger();
                 }
 
-                var equipmentLinesStart = classLines.FindIndex(f => f.Equals("#### Equipment"));
+                var equipmentLinesStart = classLines.FindIndex(f => f.Equals($"#### {Localization.Equipment}"));
                 var equipmentLinesEnd = classLines.FindIndex(equipmentLinesStart + 1, f => f.StartsWith("#"));
                 starWarsClass.EquipmentLines = classLines.Skip(equipmentLinesStart).Take(equipmentLinesEnd - equipmentLinesStart)
                     .Where(s => s.StartsWith('-')).ToList();
@@ -213,113 +225,48 @@ namespace StarWars5e.Parser.Processors.PHB
             }
         }
 
-        private static List<Archetype> ParseArchetypes(List<string> classArchetypeLines, string className,
+        private List<Archetype> ParseArchetypes(List<string> classArchetypeLines, string className,
             ContentType contentType)
         {
             var archetypes = new List<Archetype>();
+
+            var archetypeStartingLines = classArchetypeLines.FindAll(c => c.StartsWith("## "));
+
             switch (className)
             {
-                case "Berserker":
-                    foreach (var archetypeName in BerserkerApproaches)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, BerserkerApproaches);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
-                case "Consular":
-                    foreach (var archetypeName in ConsularTraditions)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, ConsularTraditions);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
                 case "Engineer":
-                    foreach (var archetypeName in EngineerDisciplines)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, EngineerDisciplines);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
-                case "Fighter":
-                    foreach (var archetypeName in FighterSpecialties)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, FighterSpecialties);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
-                case "Guardian":
-                    foreach (var archetypeName in GuardianForms)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, GuardianForms);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
-                case "Monk":
-                    foreach (var archetypeName in MonkOrders)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, MonkOrders);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
-                case "Operative":
-                    foreach (var archetypeName in OperativePractices)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, OperativePractices);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
+                    archetypeStartingLines = classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains("Engineering"));
                     break;
                 case "Scholar":
-                    foreach (var archetypeName in ScholarPursuits)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, ScholarPursuits);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
+                    archetypeStartingLines = classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains("Pursuit"));
                     break;
-                case "Scout":
-                    foreach (var archetypeName in ScoutTechniques)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, ScoutTechniques);
+            }
+            foreach (var archetypeStartingLine in archetypeStartingLines)
+            {
+                var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeStartingLine);
 
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
-                case "Sentinel":
-                    foreach (var archetypeName in SentinelPaths)
-                    {
-                        var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeName, SentinelPaths);
-
-                        archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
-                    }
-                    break;
+                archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
             }
 
             return archetypes;
         }
 
-        private static List<string> GetArchetypeLines(List<string> lines, string archetypeName, IReadOnlyCollection<string> archetypeNames)
+        private static List<string> GetArchetypeLines(List<string> lines, string archetypeStartLine)
         {
-            var archetypeStartLine = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
-            var archetypeEndLine = lines.FindIndex(archetypeStartLine + 1,
-                f => archetypeNames.SingleOrDefault(a => f.StartsWith("## ") && f.Contains(a)) != null);
-            var archetypesLines = lines.Skip(archetypeStartLine).ToList();
+            var archetypeStartLineIndex = lines.FindIndex(f => f.Contains(archetypeStartLine));
+            var archetypeEndLine = lines.FindIndex(archetypeStartLineIndex + 1,
+                f => f.StartsWith("## "));
+            var archetypesLines = lines.Skip(archetypeStartLineIndex).ToList();
             if (archetypeEndLine != -1)
             {
-                archetypesLines = lines.Skip(archetypeStartLine)
-                    .Take(archetypeEndLine - archetypeStartLine).ToList();
+                archetypesLines = lines.Skip(archetypeStartLineIndex)
+                    .Take(archetypeEndLine - archetypeStartLineIndex).ToList();
             }
 
             return archetypesLines;
         }
 
-        public static Archetype ParseArchetype(List<string> archetypeLines, string className, ContentType contentType)
+        public Archetype ParseArchetype(List<string> archetypeLines, string className, ContentType contentType)
         {
             var name = archetypeLines[0].Split("##").ElementAtOrDefault(1)?.Trim();
             try
@@ -400,11 +347,11 @@ namespace StarWars5e.Parser.Processors.PHB
                     }
                 }
 
-                var casterRatio = ArchetypeCasterMap.FirstOrDefault(c => c.ArchetypeName == name);
-                if (casterRatio != default((string ArchetypeName, double CasterRatio, PowerType casterType)))
+                var casterRatio = _casterRatioLus.SingleOrDefault(c => c.Name == name);
+                if (casterRatio != null)
                 {
-                    archetype.CasterRatio = casterRatio.CasterRatio;
-                    archetype.CasterTypeEnum = casterRatio.CasterType;
+                    archetype.CasterRatio = casterRatio.Ratio;
+                    archetype.CasterTypeEnum = casterRatio.CasterTypeEnum;
                 }
 
                 return archetype;
@@ -412,145 +359,6 @@ namespace StarWars5e.Parser.Processors.PHB
             catch (Exception e)
             {
                 throw new Exception($"Failed while parsing {name}", e);
-            }
-        }
-
-        public static void MapImageUrls(IEnumerable<Class> classes)
-        {
-            foreach (var starWarsClass in classes)
-            {
-                switch (starWarsClass.Name)
-                {
-                    case "Berserker":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/berserker_01.png");
-                        break;
-                    case "Consular":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_02.png");
-                        break;
-                    case "Engineer":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/engineer_01.png");
-                        break;
-                    case "Fighter":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/fighter_01.png");
-                        break;
-                    case "Guardian":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/guardian_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/guardian_02.png");
-                        break;
-                    case "Monk":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/monk_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/monk_02.png");
-                        break;
-                    case "Operative":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/operative_01.png");
-                        break;
-                    case "Scholar":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scholar_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scholar_02.png");
-                        break;
-                    case "Scout":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_02.png");
-                        break;
-                    case "Sentinel":
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/sentinel_01.png");
-                        starWarsClass.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/classes/sentinel_02.png");
-                        break;
-                }
-            }
-        }
-
-        public static void MapMultiClassProficiencies(IEnumerable<Class> classes)
-        {
-            foreach (var starWarsClass in classes)
-            {
-                switch (starWarsClass.Name)
-                {
-                    case "Berserker":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
-                        break;
-                    case "Consular":
-                        starWarsClass.MultiClassProficiencies.Add("Simple lightweapons");
-                        break;
-                    case "Engineer":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        break;
-                    case "Fighter":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        starWarsClass.MultiClassProficiencies.Add("medium armor");
-                        starWarsClass.MultiClassProficiencies.Add("all blasters");
-                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
-                        break;
-                    case "Guardian":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        starWarsClass.MultiClassProficiencies.Add("medium armor");
-                        starWarsClass.MultiClassProficiencies.Add("all lightweapons");
-                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
-                        break;
-                    case "Monk":
-                        starWarsClass.MultiClassProficiencies.Add("Simple vibroweapons");
-                        starWarsClass.MultiClassProficiencies.Add("techblades");
-                        break;
-                    case "Operative":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        break;
-                    case "Scholar":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        break;
-                    case "Scout":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        starWarsClass.MultiClassProficiencies.Add("medium armor");
-                        starWarsClass.MultiClassProficiencies.Add("all blasters");
-                        starWarsClass.MultiClassProficiencies.Add("all vibroweapons");
-                        break;
-                    case "Sentinel":
-                        starWarsClass.MultiClassProficiencies.Add("Light armor");
-                        starWarsClass.MultiClassProficiencies.Add("simple lightweapons");
-                        starWarsClass.MultiClassProficiencies.Add("simple vibroweapons");
-                        break;
-                }
-            }
-        }
-
-        public static void MapCasterRatioAndType(IEnumerable<Class> classes)
-        {
-            foreach (var starWarsClass in classes)
-            {
-                switch (starWarsClass.Name)
-                {
-                    case "Berserker":
-                        break;
-                    case "Consular":
-                        starWarsClass.CasterRatio = 1;
-                        starWarsClass.CasterTypeEnum = PowerType.Force;
-                        break;
-                    case "Engineer":
-                        starWarsClass.CasterRatio = 1;
-                        starWarsClass.CasterTypeEnum = PowerType.Tech;
-                        break;
-                    case "Fighter":
-                        break;
-                    case "Guardian":
-                        starWarsClass.CasterRatio = .5;
-                        starWarsClass.CasterTypeEnum = PowerType.Force;
-                        break;
-                    case "Monk":
-                        break;
-                    case "Operative":
-                        break;
-                    case "Scholar":
-                        break;
-                    case "Scout":
-                        starWarsClass.CasterRatio = .5;
-                        starWarsClass.CasterTypeEnum = PowerType.Tech;
-                        break;
-                    case "Sentinel":
-                        starWarsClass.CasterRatio = .6666666666666666;
-                        starWarsClass.CasterTypeEnum = PowerType.Force;
-                        break;
-                }
             }
         }
 

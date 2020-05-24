@@ -26,7 +26,6 @@ namespace StarWars5e.Parser.Managers
         private readonly PlayerHandbookEquipmentProcessor _playerHandbookEquipmentProcessor;
         private readonly PlayerHandbookBackgroundsProcessor _playerHandbookBackgroundsProcessor;
         private readonly PlayerHandbookSpeciesProcessor _playerHandbookSpeciesProcessor;
-        private readonly PlayerHandbookClassProcessor _playerHandbookClassProcessor;
         private readonly PlayerHandbookPowersProcessor _playerHandbookPowersProcessor;
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
@@ -45,13 +44,14 @@ namespace StarWars5e.Parser.Managers
         public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
+
+
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
             _playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor();
-            _playerHandbookClassProcessor = new PlayerHandbookClassProcessor();
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
-            _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
+            _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(localization);
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
 
@@ -183,8 +183,15 @@ namespace StarWars5e.Parser.Managers
             {
                 var featureLevels = (await _tableStorage.GetAllAsync<FeatureDataLU>("featureLevelLU")).ToList();
 
+                var classImageLus = await _tableStorage.GetAllAsync<ClassImageLU>("classImageLU");
+                var casterRatioLus = await _tableStorage.GetAllAsync<CasterRatioLU>("casterRatioLU");
+                var multiclassProficiencyLus =
+                    await _tableStorage.GetAllAsync<MulticlassProficiencyLU>("multiclassProficiencyLU");
+
+                var playerHandbookClassProcessor = new PlayerHandbookClassProcessor(classImageLus.ToList(), casterRatioLus.ToList(), multiclassProficiencyLus.ToList());
+
                 var classes =
-                    await _playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+                    await playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
                         .ToList(), _localization);
 
                 foreach (var swClass in classes)

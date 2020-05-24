@@ -23,7 +23,7 @@ namespace StarWars5e.Parser.Managers
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
-            _speciesProcessor = new ExpandedContentSpeciesProcessor();
+            _speciesProcessor = new ExpandedContentSpeciesProcessor(localization);
         }
 
         public async Task Parse()

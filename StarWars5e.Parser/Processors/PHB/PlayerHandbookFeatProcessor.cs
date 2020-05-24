@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
+using StarWars5e.Parser.Localization;
 using Attribute = StarWars5e.Models.Enums.Attribute;
 
 namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookFeatProcessor : BaseProcessor<Feat>
     {
+        public PlayerHandbookFeatProcessor(ILocalization localization)
+        {
+            Localization = localization;
+        }
         public override Task<List<Feat>> FindBlocks(List<string> lines)
         {
             var feats = new List<Feat>();
             lines = lines.CleanListOfStrings().ToList();
-            var featsStart = lines.FindIndex(f => f.Equals("## Feats"));
+            var featsStart = lines.FindIndex(f => f.Equals($"## {Localization.Feats}"));
             var featsLines = lines.Skip(featsStart + 1).ToList();
 
             for (var i = 0; i < featsLines.Count; i++)
@@ -39,7 +44,7 @@ namespace StarWars5e.Parser.Processors.PHB
             return Task.FromResult(feats);
         }
 
-        public static Feat ParseFeat(List<string> featLines, ContentType contentType)
+        public Feat ParseFeat(List<string> featLines, ContentType contentType)
         {
             var name = featLines[0].Split("###")[1].Trim();
             try
@@ -53,7 +58,9 @@ namespace StarWars5e.Parser.Processors.PHB
                 };
 
                 var prerequisiteIndex =
-                    featLines.FindIndex(f => f.StartsWith("*Prerequisite") || f.StartsWith("_Prerequisite") || f.StartsWith("_**Prerequisite") || f.StartsWith("_*Prerequisite"));
+                    featLines.FindIndex(f =>
+                        f.StartsWith($"*{Localization.Prerequisite}") || f.StartsWith($"{Localization.Prerequisite}") ||
+                        f.StartsWith($"_**{Localization.Prerequisite}") || f.StartsWith($"_*{Localization.Prerequisite}"));
 
                 if (prerequisiteIndex != -1)
                 {
@@ -67,9 +74,9 @@ namespace StarWars5e.Parser.Processors.PHB
                 }
 
                 var attributesChoices = Enum.GetNames(typeof(Attribute)).ToList();
-                attributesChoices.Add("ability");
+                attributesChoices.Add(Localization.ability);
                 var attributeIncreaseIndex = featLines.FindIndex(f =>
-                    Regex.IsMatch(f, $@"[Ii]ncrease.*({string.Join("|", attributesChoices)}).*score", RegexOptions.IgnoreCase));
+                    Regex.IsMatch(f, Localization.PHBAttributeIncreaseIndexPattern(attributesChoices), RegexOptions.IgnoreCase));
 
                 if (attributeIncreaseIndex != -1)
                 {
@@ -99,9 +106,9 @@ namespace StarWars5e.Parser.Processors.PHB
                     {
                         feat.AttributesIncreased.Add(Attribute.Charisma.ToString());
                     }
-                    if (attributeIncreaseLine.Contains("your choice"))
+                    if (attributeIncreaseLine.Contains(Localization.PHBFeatYourChoice))
                     {
-                        feat.AttributesIncreased.Add("Any");
+                        feat.AttributesIncreased.Add(Localization.Any);
                     }
                 }
 

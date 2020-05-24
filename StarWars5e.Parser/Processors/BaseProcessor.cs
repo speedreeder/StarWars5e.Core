@@ -10,15 +10,18 @@ namespace StarWars5e.Parser.Processors
 {
     public abstract class BaseProcessor<T>: IBaseProcessor<T> where T: class
     {
-        public async Task<List<T>> Process(List<string> locations, ILocalization strings)
+        public ILocalization Localization;
+
+        public async Task<List<T>> Process(List<string> locations, ILocalization localization)
         {
-            var lines = await ReadInternalFile(locations, strings);
+            Localization = localization;
+            var lines = await ReadInternalFile(locations, localization);
             
             var blocks = await FindBlocks(lines);
             return blocks;
         }
 
-        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations, ILocalization strings)
+        private static async Task<List<string>> ReadInternalFile(IEnumerable<string> locations, ILocalization localization)
         {
             try
             {
@@ -27,7 +30,7 @@ namespace StarWars5e.Parser.Processors
                 foreach (var location in locations)
                 {
                     using (var stream = Assembly.GetExecutingAssembly()
-                        .GetManifestResourceStream($"StarWars5e.Parser.Sources.{strings.Language}.{location}"))
+                        .GetManifestResourceStream($"StarWars5e.Parser.Sources.{localization.Language}.{location}"))
                     {
                         using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))
                         {

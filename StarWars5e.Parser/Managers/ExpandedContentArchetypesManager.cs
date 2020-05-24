@@ -17,7 +17,6 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly ExpandedContentArchetypeProcessor _archetypeProcessor;
         private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_archetypes.txt" };
         private readonly ILocalization _localization;
 
@@ -26,14 +25,17 @@ namespace StarWars5e.Parser.Managers
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
-            _archetypeProcessor = new ExpandedContentArchetypeProcessor();
         }
 
         public async Task Parse()
         {
             try
             {
-                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName, _localization);
+                var classImageLus = await _tableStorage.GetAllAsync<ClassImageLU>("classImageLU");
+                var casterRatioLus = await _tableStorage.GetAllAsync<CasterRatioLU>("casterRatioLU");
+
+                var archetypeProcessor = new ExpandedContentArchetypeProcessor(classImageLus.ToList(), casterRatioLus.ToList());
+                var archetypes = await archetypeProcessor.Process(_ecArchetypesFileName, _localization);
 
                 foreach (var archetype in archetypes)
                 {

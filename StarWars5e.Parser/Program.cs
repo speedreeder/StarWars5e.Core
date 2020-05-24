@@ -40,7 +40,7 @@ namespace StarWars5e.Parser
 
             foreach (var language in languages)
             {
-                var languageEnum = Enum.TryParse<Language>(language, out var parsedLanguage) ? parsedLanguage : Language.None;
+                var languageEnum = Enum.TryParse<Language>(language, true, out var parsedLanguage) ? parsedLanguage : Language.None;
 
                 if (languageEnum == Language.None)
                 {

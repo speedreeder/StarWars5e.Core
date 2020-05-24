@@ -28,7 +28,8 @@ namespace StarWars5e.Parser.Processors
                     featLines = lines.Skip(featStartIndex).Take(featEndIndex - featStartIndex);
                 }
 
-                var feat = PlayerHandbookFeatProcessor.ParseFeat(featLines.ToList(), ContentType.ExpandedContent);
+                var playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(Localization);
+                var feat = playerHandbookFeatProcessor.ParseFeat(featLines.ToList(), ContentType.ExpandedContent);
                 feats.Add(feat);
             }
 

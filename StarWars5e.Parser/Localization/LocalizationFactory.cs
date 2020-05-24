@@ -9,9 +9,9 @@ namespace StarWars5e.Parser.Localization
         {
             switch (language)
             {
-                case Language.En:
+                case Language.en:
                     return new LocalizationEn();
-                case Language.Ru:
+                case Language.ru:
                     return new LocalizationRu();
                 default:
                     throw new ArgumentOutOfRangeException(nameof(language), language, null);

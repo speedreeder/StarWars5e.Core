@@ -10,18 +10,16 @@ namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookBackgroundsProcessor : BaseProcessor<Background>
     {
-        private const string StartingBackground = "## Agent";
-
         public override Task<List<Background>> FindBlocks(List<string> lines)
         {
             var backgrounds = new List<Background>();
 
             var backgroundsStart =
-                lines.FindIndex(f => f.Equals(StartingBackground, StringComparison.InvariantCultureIgnoreCase));
+                lines.FindIndex(f => f.Equals(Localization.StartingBackground, StringComparison.InvariantCultureIgnoreCase));
 
             for (var i = backgroundsStart; i < lines.Count; i++)
             {
-                if (!lines[i].StartsWith("## ") && !lines[i].StartsWith("## ") || lines[i].Contains("Changelog")) continue;
+                if (!lines[i].StartsWith("## ") && !lines[i].StartsWith("## ") || lines[i].Contains(Localization.Changelog)) continue;
 
                 var backgroundEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("## "));
                 var backgroundLines = lines.Skip(i).ToList();
