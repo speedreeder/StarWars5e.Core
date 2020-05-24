@@ -42,7 +42,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Power>("powers", forcePowers,
+                await _tableStorage.AddBatchAsync<Power>($"powers{_globalization.Language}", forcePowers,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }

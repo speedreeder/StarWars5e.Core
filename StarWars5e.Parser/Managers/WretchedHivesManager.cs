@@ -48,7 +48,7 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference("wretched-hives-rules");
+            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"wretched-hives-rules-{_globalization.Language}");
 
             var nameStartingLineProperties = new List<(string name, string startLine, int occurence)>
             {

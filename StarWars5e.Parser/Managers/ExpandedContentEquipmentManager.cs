@@ -15,10 +15,8 @@ namespace StarWars5e.Parser.Managers
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentEquipmentProcessor _equipmentProcessor;
-        private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
-
         private readonly IGlobalization _globalization;
 
         public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
@@ -27,17 +25,6 @@ namespace StarWars5e.Parser.Managers
             _globalSearchTermRepository = globalSearchTermRepository;
             _globalization = globalization;
             _equipmentProcessor = new ExpandedContentEquipmentProcessor();
-
-            var nameStartingLineProperties = new List<(string name, string startLine, int occurence)>
-            {
-                ("Auto", "#### Auto", 1),
-                ("Defensive", "#### Defensive", 1),
-                ("Disguised", "#### Disguised", 1),
-                ("Disintegrate", "#### Disintegrate", 1),
-                ("Shocking", "#### Shocking", 1)
-            };
-
-            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, nameStartingLineProperties);
         }
 
         public async Task Parse()
@@ -100,25 +87,13 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
-                await _tableStorage.AddBatchAsync<Equipment>("equipment", equipments,
+                await _tableStorage.AddBatchAsync<Equipment>($"equipment{_globalization.Language}", equipments,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload EC equipment.");
             }
-
-            //try
-            //{
-            //    var weaponProperties = await _weaponPropertyProcessor.Process(_ecEquipmentFileName);
-
-            //    await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
-            //        new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-            //}
-            //catch (StorageException)
-            //{
-            //    Console.WriteLine("Failed to upload EC weapon properties.");
-            //}
         }
     }
 }

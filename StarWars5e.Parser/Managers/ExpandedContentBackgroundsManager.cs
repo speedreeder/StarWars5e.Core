@@ -42,7 +42,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(backgroundSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Background>("backgrounds", backgrounds,
+                await _tableStorage.AddBatchAsync<Background>($"backgrounds{_globalization.Language}", backgrounds,
                     new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
 
             }

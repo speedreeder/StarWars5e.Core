@@ -14,22 +14,36 @@ namespace StarWars5e.Parser
 {
     public static class ParseContent
     {
-        public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
+        public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount,
+            GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
-            var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, globalization);
-            var monsterManualManager = new MonsterManualManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(cloudStorageAccount, globalization);
-            var extendedContentCustomizationOptionsManager = new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var extendedContentForcePowersManager = new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, globalization);
-            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, globalization);
+            var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount,
+                globalSearchTermRepository, globalization);
+            var monsterManualManager =
+                new MonsterManualManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentSpeciesManager =
+                new ExpandedContentSpeciesManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentBackgroundManager =
+                new ExpandedContentBackgroundsManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentEquipmentManager =
+                new ExpandedContentEquipmentManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentArchetypesManager =
+                new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentVariantRulesManager =
+                new ExpandedContentVariantRulesManager(cloudStorageAccount, globalization);
+            var extendedContentCustomizationOptionsManager =
+                new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository,
+                    globalization);
+            var extendedContentForcePowersManager =
+                new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount,
+                globalSearchTermRepository, globalization);
             var referenceTableManager = new ReferenceTableManager(azureTableStorage, globalization);
-            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, globalization);
+            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount,
+                globalSearchTermRepository, globalization);
             var creditsManager = new CreditsManager(cloudStorageAccount, globalization);
-            var extendedContentEnhancedItemManager = new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentEnhancedItemManager =
+                new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, globalization);
 
             var referenceTables = await referenceTableManager.Parse();
             await starshipManager.Parse(referenceTables);
@@ -81,9 +95,11 @@ namespace StarWars5e.Parser
 
                 var dataNames = new List<string>
                 {
-                    "MASTERVERSION", "archetypes", "armorProperties", "backgrounds", "classes", "credits", "enhancedItems", "equipment",
+                    "MASTERVERSION", "archetypes", "armorProperties", "backgrounds", "classes", "credits",
+                    "enhancedItems", "equipment",
                     "feats", "features", "monsters", "powers", "referenceTables", "species", "starshipBaseSizes",
-                    "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures", "weaponProperties",
+                    "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures",
+                    "weaponProperties",
                     "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules",
                     "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU"
                 };
@@ -97,7 +113,7 @@ namespace StarWars5e.Parser
                 });
 
                 await azureTableStorage.AddBatchAsync<DataVersion>("dataVersion", dataVersions,
-                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                    new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
             }
             catch (StorageException)
             {

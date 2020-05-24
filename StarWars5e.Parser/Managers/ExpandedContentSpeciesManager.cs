@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(specieSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Species>("species", species,
+                await _tableStorage.AddBatchAsync<Species>($"species{_globalization.Language}", species,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(monsterSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Monster>("monsters", monsters,
+                await _tableStorage.AddBatchAsync<Monster>($"monsters{_globalization.Language}", monsters,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
             catch (StorageException)

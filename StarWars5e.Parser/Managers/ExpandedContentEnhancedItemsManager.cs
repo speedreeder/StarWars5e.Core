@@ -41,7 +41,7 @@ namespace StarWars5e.Parser.Managers
                     _globalSearchTermRepository.SearchTerms.Add(enhancedItemSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<EnhancedItem>("enhancedItems", enhancedItems,
+                await _tableStorage.AddBatchAsync<EnhancedItem>($"enhancedItems{_globalization.Language}", enhancedItems,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }

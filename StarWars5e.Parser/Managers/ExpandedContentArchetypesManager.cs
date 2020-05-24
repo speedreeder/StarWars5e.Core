@@ -65,7 +65,7 @@ namespace StarWars5e.Parser.Managers
                         .Where(g => g.Count() > 1)
                         .Select(g => g.Key);
 
-                    await _tableStorage.AddBatchAsync<Feature>("features", archetypeFeatures,
+                    await _tableStorage.AddBatchAsync<Feature>($"features{_globalization.Language}", archetypeFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                 }
                 catch (StorageException se)
@@ -73,7 +73,7 @@ namespace StarWars5e.Parser.Managers
                     Console.WriteLine($"Failed to upload EC archetype features: {se}");
                 }
 
-                await _tableStorage.AddBatchAsync<Archetype>("archetypes", archetypes,
+                await _tableStorage.AddBatchAsync<Archetype>($"archetypes{_globalization.Language}", archetypes,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }
