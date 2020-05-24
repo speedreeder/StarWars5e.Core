@@ -9,6 +9,7 @@ using StarWars5e.Models;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.PHB;
 using StarWars5e.Parser.Parsers.WH;
@@ -33,14 +34,14 @@ namespace StarWars5e.Parser.Managers
             "WH.wh_00.txt", "WH.wh_01.txt", "WH.wh_02.txt", "WH.wh_03.txt", "WH.wh_04.txt", "WH.wh_05.txt", "WH.wh_06.txt",
             "WH.wh_07.txt", "WH.wh_08.txt", "WH.wh_aa.txt", "WH.wh_changelog.txt"
         };
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
         public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, Language language)
+            GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _wretchedHivesEquipmentProcessor = new WretchedHivesEquipmentProcessor();
             _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(globalSearchTermRepository);
             _enhancedItemProcessor = new EnhancedItemProcessor();
@@ -106,7 +107,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var rules = await _wretchedHivesChapterRulesProcessor.Process(_whFilesName, _language);
+                var rules = await _wretchedHivesChapterRulesProcessor.Process(_whFilesName, _globalization);
 
                 await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
                 foreach (var chapterRules in rules)
@@ -124,7 +125,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var enhancedItems = await _enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _language);
+                var enhancedItems = await _enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _globalization);
 
                 foreach (var enhancedItem in enhancedItems)
                 {
@@ -146,7 +147,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var equipment =
-                    await _wretchedHivesEquipmentProcessor.Process(new List<string>{ "WH.wh_05.txt" }, _language);
+                    await _wretchedHivesEquipmentProcessor.Process(new List<string>{ "WH.wh_05.txt" }, _globalization);
 
                 foreach (var equipment1 in equipment)
                 {
@@ -217,7 +218,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var weaponProperties = await _weaponPropertyProcessor.Process(new List<string> {"WH.wh_05.txt"}, _language);
+                var weaponProperties = await _weaponPropertyProcessor.Process(new List<string> {"WH.wh_05.txt"}, _globalization);
 
                 await _tableStorage.AddBatchAsync<WeaponProperty>("weaponProperties", weaponProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
@@ -230,7 +231,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var armorProperties =
-                    await _armorPropertyProcessor.Process(new List<string> { "WH.wh_05.txt" }, _language);
+                    await _armorPropertyProcessor.Process(new List<string> { "WH.wh_05.txt" }, _globalization);
 
                 await _tableStorage.AddBatchAsync<ArmorProperty>("armorProperties", armorProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
@@ -242,7 +243,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var feats = await _playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _language);
+                var feats = await _playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _globalization);
 
                 foreach (var feat in feats)
                 {

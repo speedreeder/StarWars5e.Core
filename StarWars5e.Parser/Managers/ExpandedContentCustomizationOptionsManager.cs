@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -15,22 +16,22 @@ namespace StarWars5e.Parser.Managers
         private readonly ExpandedContentCustomizationOptionsProcessor _expandedContentCustomizationOptionsProcessor;
         private readonly List<string> _ecCustomizationOptionsFileName = new List<string> { "ec_customization_options.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
         public ExpandedContentCustomizationOptionsManager(ITableStorage tableStorage,
-            GlobalSearchTermRepository globalSearchTermRepository, Language language)
+            GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _expandedContentCustomizationOptionsProcessor = new ExpandedContentCustomizationOptionsProcessor();
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
         }
 
         public async Task Parse()
         {
             try
             {
-                var ecFeats = await _expandedContentCustomizationOptionsProcessor.Process(_ecCustomizationOptionsFileName, _language);
+                var ecFeats = await _expandedContentCustomizationOptionsProcessor.Process(_ecCustomizationOptionsFileName, _globalization);
 
                 foreach (var feat in ecFeats)
                 {

@@ -7,6 +7,7 @@ using StarWars5e.Models;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Lookup;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -18,13 +19,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentArchetypeProcessor _archetypeProcessor;
         private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_archetypes.txt" };
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _archetypeProcessor = new ExpandedContentArchetypeProcessor();
         }
 
@@ -32,7 +33,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName, _language);
+                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName, _globalization);
 
                 foreach (var archetype in archetypes)
                 {

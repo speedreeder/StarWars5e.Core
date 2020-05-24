@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Background;
 using StarWars5e.Models.Enums;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -15,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentBackgroundProcessor _backgroundProcessor;
         private readonly List<string> _ecBackgroundsFileName = new List<string> {"ec_backgrounds.txt"};
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _backgroundProcessor = new ExpandedContentBackgroundProcessor();
         }
 
@@ -29,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var backgrounds = await _backgroundProcessor.Process(_ecBackgroundsFileName, _language);
+                var backgrounds = await _backgroundProcessor.Process(_ecBackgroundsFileName, _globalization);
 
                 foreach (var background in backgrounds)
                 {

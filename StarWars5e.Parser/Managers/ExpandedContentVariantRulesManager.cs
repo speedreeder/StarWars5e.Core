@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Newtonsoft.Json;
-using StarWars5e.Models.Enums;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 
 namespace StarWars5e.Parser.Managers
@@ -13,11 +13,11 @@ namespace StarWars5e.Parser.Managers
         private readonly CloudBlobContainer _cloudBlobContainer;
         private readonly ExpandedContentVariantRulesProcessor _expandedContentVariantRulesProcessor;
         private readonly List<string> _ecVariantRulesFileName = new List<string> { "ec_variantrules.txt" };
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ExpandedContentVariantRulesManager(CloudStorageAccount cloudStorageAccount, Language language)
+        public ExpandedContentVariantRulesManager(CloudStorageAccount cloudStorageAccount, IGlobalization globalization)
         {
-            _language = language;
+            _globalization = globalization;
             _expandedContentVariantRulesProcessor = new ExpandedContentVariantRulesProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
@@ -26,7 +26,7 @@ namespace StarWars5e.Parser.Managers
 
         public async Task Parse()
         {
-            var rules = await _expandedContentVariantRulesProcessor.Process(_ecVariantRulesFileName, _language);
+            var rules = await _expandedContentVariantRulesProcessor.Process(_ecVariantRulesFileName, _globalization);
             await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
             foreach (var variantRule in rules)
             {

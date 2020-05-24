@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Managers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -13,22 +14,22 @@ namespace StarWars5e.Parser
 {
     public static class ParseContent
     {
-        public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
-            var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, language);
-            var monsterManualManager = new MonsterManualManager(azureTableStorage, globalSearchTermRepository, language);
-            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(azureTableStorage, globalSearchTermRepository, language);
-            var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(azureTableStorage, globalSearchTermRepository, language);
-            var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(azureTableStorage, globalSearchTermRepository, language);
-            var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, language);
-            var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(cloudStorageAccount, language);
-            var extendedContentCustomizationOptionsManager = new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository, language);
-            var extendedContentForcePowersManager = new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, language);
-            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, language);
-            var referenceTableManager = new ReferenceTableManager(azureTableStorage, language);
-            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, language);
-            var creditsManager = new CreditsManager(cloudStorageAccount, language);
-            var extendedContentEnhancedItemManager = new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, language);
+            var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, globalization);
+            var monsterManualManager = new MonsterManualManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentSpeciesManager = new ExpandedContentSpeciesManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentBackgroundManager = new ExpandedContentBackgroundsManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentEquipmentManager = new ExpandedContentEquipmentManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentArchetypesManager = new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentVariantRulesManager = new ExpandedContentVariantRulesManager(cloudStorageAccount, globalization);
+            var extendedContentCustomizationOptionsManager = new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var extendedContentForcePowersManager = new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, globalization);
+            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, globalization);
+            var referenceTableManager = new ReferenceTableManager(azureTableStorage, globalization);
+            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount, globalSearchTermRepository, globalization);
+            var creditsManager = new CreditsManager(cloudStorageAccount, globalization);
+            var extendedContentEnhancedItemManager = new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, globalization);
 
             var referenceTables = await referenceTableManager.Parse();
             await starshipManager.Parse(referenceTables);

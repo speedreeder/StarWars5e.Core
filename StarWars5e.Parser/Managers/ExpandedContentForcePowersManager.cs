@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -15,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentForcePowersProcessor _forcePowersProcessor;
         private readonly List<string> _ecForcePowersFileName = new List<string> { "ec_force_powers.txt" };
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _forcePowersProcessor = new ExpandedContentForcePowersProcessor();
         }
 
@@ -29,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var forcePowers = await _forcePowersProcessor.Process(_ecForcePowersFileName, _language);
+                var forcePowers = await _forcePowersProcessor.Process(_ecForcePowersFileName, _globalization);
 
                 foreach (var forcePower in forcePowers)
                 {

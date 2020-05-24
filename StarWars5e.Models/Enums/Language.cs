@@ -7,10 +7,10 @@ namespace StarWars5e.Models.Enums
         [Description("None")]
         None = 0,
         [Description("English")]
-        en,
+        En,
         [Description("Spanish")]
-        sp,
+        Sp,
         [Description("Russian")]
-        ru
+        Ru
     }
 }

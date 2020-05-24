@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using StarWars5e.Models;
-using StarWars5e.Models.Enums;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -18,18 +18,18 @@ namespace StarWars5e.Parser.Managers
             "SOTG.sotg_02.txt", "SOTG.sotg_03.txt", "SOTG.sotg_04.txt", "SOTG.sotg_05.txt", "SOTG.sotg_06.txt",
             "SOTG.sotg_07.txt", "SOTG.sotg_08.txt", "SOTG.sotg_09.txt", "SOTG.sotg_aa.txt", "ec_equipment.txt"
         };
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ReferenceTableManager(ITableStorage tableStorage, Language language)
+        public ReferenceTableManager(ITableStorage tableStorage, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
-            _language = language;
+            _globalization = globalization;
             _referenceTableProcessor = new ReferenceTableProcessor();
         }
 
         public async Task<List<ReferenceTable>> Parse()
         {
-            var tables = await _referenceTableProcessor.Process(_referenceTableFileNames, _language);
+            var tables = await _referenceTableProcessor.Process(_referenceTableFileNames, _globalization);
             await _tableStorage.AddBatchAsync<ReferenceTable>("referenceTables", tables,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             return tables;

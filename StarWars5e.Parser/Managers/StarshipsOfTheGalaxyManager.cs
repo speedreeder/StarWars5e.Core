@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.SOTG;
 using Wolnik.Azure.TableStorage.Repository;
@@ -28,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
         private readonly List<string> _sotgFilesName = new List<string>
         {
@@ -37,9 +38,9 @@ namespace StarWars5e.Parser.Managers
         };
 
         public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, Language language)
+            GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
-            _language = language;
+            _globalization = globalization;
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
@@ -57,7 +58,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName, _language);
+                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName, _globalization);
 
                 if (referenceTables != null)
                 {
@@ -87,7 +88,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var deployments =
-                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList(), _language);
+                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList(), _globalization);
 
                 foreach (var deployment in deployments)
                 {
@@ -130,7 +131,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList(), _language);
+                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList(), _globalization);
 
                 if (referenceTables != null)
                 {
@@ -182,7 +183,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList(), _language);
+                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList(), _globalization);
 
                 if (referenceTables != null)
                 {
@@ -218,7 +219,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList(), _language);
+                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList(), _globalization);
 
                 foreach (var size in sizes)
                 {
@@ -239,7 +240,7 @@ namespace StarWars5e.Parser.Managers
             
             try
             {
-                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList(), _language);
+                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList(), _globalization);
 
                 foreach (var venture in ventures)
                 {

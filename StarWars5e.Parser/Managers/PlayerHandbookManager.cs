@@ -12,6 +12,7 @@ using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Species;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using StarWars5e.Parser.Parsers.PHB;
 using Wolnik.Azure.TableStorage.Repository;
@@ -32,7 +33,7 @@ namespace StarWars5e.Parser.Managers
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
         private readonly List<string> _phbFilesNames = new List<string>
         {
@@ -41,7 +42,7 @@ namespace StarWars5e.Parser.Managers
             "PHB.phb_11.txt", "PHB.phb_12.txt", "PHB.phb_aa.txt", "PHB.phb_ab.txt", "PHB.phb_changelog.txt"
         };
 
-        public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
@@ -52,7 +53,7 @@ namespace StarWars5e.Parser.Managers
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
 
             var weaponProperties = new List<(string name, string startLine, int occurence)>
             {
@@ -98,7 +99,7 @@ namespace StarWars5e.Parser.Managers
             {
                 var equipment =
                     await _playerHandbookEquipmentProcessor.Process(_phbFilesNames
-                        .Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _language);
+                        .Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _globalization);
 
                 foreach (var equipment1 in equipment)
                 {
@@ -166,7 +167,7 @@ namespace StarWars5e.Parser.Managers
             {
                 var backgrounds =
                     await _playerHandbookBackgroundsProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_04.txt"))
-                        .ToList(), _language);
+                        .ToList(), _globalization);
 
                 foreach (var background in backgrounds)
                 {
@@ -189,7 +190,7 @@ namespace StarWars5e.Parser.Managers
             {
                 var species =
                     await _playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
-                        .ToList(), _language);
+                        .ToList(), _globalization);
 
                 foreach (var specie in species)
                 {
@@ -214,7 +215,7 @@ namespace StarWars5e.Parser.Managers
 
                 var classes =
                     await _playerHandbookClassProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
-                        .ToList(), _language);
+                        .ToList(), _globalization);
 
                 foreach (var swClass in classes)
                 {
@@ -304,7 +305,7 @@ namespace StarWars5e.Parser.Managers
             {
                 var powers =
                     await _playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
-                        .ToList(), _language);
+                        .ToList(), _globalization);
                 
                 foreach (var power in powers)
                 {
@@ -340,7 +341,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var feats = await _playerHandbookFeatProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_06.txt"))
-                    .ToList(), _language);
+                    .ToList(), _globalization);
 
                 foreach (var feat in feats)
                 {
@@ -362,7 +363,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var rules =
-                    await _playerHandbookChapterRulesProcessor.Process(_phbFilesNames, _language);
+                    await _playerHandbookChapterRulesProcessor.Process(_phbFilesNames, _globalization);
 
                 await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
                 foreach (var chapterRules in rules)
@@ -381,7 +382,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var weaponProperties =
-                    await _weaponPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _language);
+                    await _weaponPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _globalization);
 
                 var specialProperty = weaponProperties.SingleOrDefault(w => w.Name == "Special");
                 if (specialProperty != null)
@@ -401,7 +402,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var armorProperties =
-                    await _armorPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _language);
+                    await _armorPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _globalization);
 
                 await _tableStorage.AddBatchAsync<ArmorProperty>("armorProperties", armorProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });

@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Monster;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -15,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<Monster> _monsterProcessor;
         private readonly List<string> _mmFileName = new List<string> { "SNV_Content.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _monsterProcessor = new MonsterProcessor();
         }
 
@@ -29,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var monsters = await _monsterProcessor.Process(_mmFileName, _language);
+                var monsters = await _monsterProcessor.Process(_mmFileName, _globalization);
 
                 foreach (var monster in monsters)
                 {

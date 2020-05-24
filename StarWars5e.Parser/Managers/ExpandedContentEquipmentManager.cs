@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -18,13 +19,13 @@ namespace StarWars5e.Parser.Managers
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
 
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _equipmentProcessor = new ExpandedContentEquipmentProcessor();
 
             var nameStartingLineProperties = new List<(string name, string startLine, int occurence)>
@@ -43,7 +44,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName, _language);
+                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName, _globalization);
 
                 foreach (var equipment in equipments)
                 {

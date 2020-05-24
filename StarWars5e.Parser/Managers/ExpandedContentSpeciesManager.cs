@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Species;
+using StarWars5e.Parser.Globalization;
 using StarWars5e.Parser.Parsers;
 using Wolnik.Azure.TableStorage.Repository;
 
@@ -15,13 +16,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly IBaseProcessor<Species> _speciesProcessor;
         private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_species.txt" };
-        private readonly Language _language;
+        private readonly IGlobalization _globalization;
 
-        public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
+        public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, IGlobalization globalization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
-            _language = language;
+            _globalization = globalization;
             _speciesProcessor = new ExpandedContentSpeciesProcessor();
         }
 
@@ -29,7 +30,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var species = await _speciesProcessor.Process(_ecSpeciesFileName, _language);
+                var species = await _speciesProcessor.Process(_ecSpeciesFileName, _globalization);
 
                 foreach (var specie in species)
                 {
