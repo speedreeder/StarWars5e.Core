@@ -25,7 +25,6 @@ namespace StarWars5e.Parser.Managers
         private readonly CloudBlobContainer _cloudBlobContainer;
         private readonly PlayerHandbookEquipmentProcessor _playerHandbookEquipmentProcessor;
         private readonly PlayerHandbookBackgroundsProcessor _playerHandbookBackgroundsProcessor;
-        private readonly PlayerHandbookSpeciesProcessor _playerHandbookSpeciesProcessor;
         private readonly PlayerHandbookPowersProcessor _playerHandbookPowersProcessor;
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
@@ -45,10 +44,8 @@ namespace StarWars5e.Parser.Managers
         {
             _tableStorage = tableStorage;
 
-
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
-            _playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor();
             _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(localization);
@@ -158,8 +155,11 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
+                var speciesImageUrlsLus = await _tableStorage.GetAllAsync<SpeciesImageUrlLU>("speciesImageUrlsLU");
+                var playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor(speciesImageUrlsLus.ToList());
+
                 var species =
-                    await _playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
+                    await playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
                         .ToList(), _localization);
 
                 foreach (var specie in species)

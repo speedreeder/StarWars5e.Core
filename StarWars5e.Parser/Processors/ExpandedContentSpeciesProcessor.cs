@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Monster;
 using StarWars5e.Models.Species;
 using StarWars5e.Models.Utils;
@@ -15,8 +16,11 @@ namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentSpeciesProcessor : BaseProcessor<Species>
     {
-        public ExpandedContentSpeciesProcessor(ILocalization localization)
+        private readonly List<SpeciesImageUrlLU> _speciesImageUrlLus;
+
+        public ExpandedContentSpeciesProcessor(ILocalization localization, List<SpeciesImageUrlLU> speciesImageUrlLus)
         {
+            _speciesImageUrlLus = speciesImageUrlLus;
             Localization = localization;
         }
 
@@ -37,8 +41,6 @@ namespace StarWars5e.Parser.Processors
 
                 species.Add(ParseSpecies(speciesLines, ContentType.ExpandedContent));
             }
-
-            MapImageUrls(species);
 
             return Task.FromResult(species);
         }
@@ -300,330 +302,13 @@ namespace StarWars5e.Parser.Processors
                     }
                 }
 
+                species.ImageUrls = _speciesImageUrlLus.Where(s => s.Specie == name).Select(s => s.Url).ToList();
+
                 return species;
             }
             catch (Exception e)
             {
                 throw new Exception($"Failed while parsing {name}", e);
-            }
-        }
-
-        public static void MapImageUrls(IEnumerable<Species> species)
-        {
-            foreach (var specie in species)
-            {
-                switch (specie.Name)
-                {
-                    case "Aing-Tii":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_aing-tii.png");
-                        break;
-                    case "Anzellan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_anzellan.png");
-                        break;
-                    case "Aqualish":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_aqualish.png");
-                        break;
-                    case "Ardennian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ardennian.png");
-                        break;
-                    case "Balosar":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_balosar.png");
-                        break;
-                    case "Barabel":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_barabel.png");
-                        break;
-                    case "Besalisk":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_besalisk.png");
-                        break;
-                    case "Bith":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_bith.png");
-                        break;
-                    case "Bothan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_bothan.png");
-                        break;
-                    case "Cathar":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_cathar.png");
-                        break;
-                    case "Cerean":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_cerean.png");
-                        break;
-                    case "Chadra-Fan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chadrafan.png");
-                        break;
-                    case "Chagrian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chagrian.png");
-                        break;
-                    case "Chevin":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chevin.png");
-                        break;
-                    case "Chironian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chironian.png");
-                        break;
-                    case "Chiss":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chiss.png");
-                        break;
-                    case "Clawdite":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_clawdite.jpg");
-                        break;
-                    case "Codru-Ji":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_codru-ji.png");
-                        break;
-                    case "Colicoid":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_colicoid.png");
-                        break;
-                    case "Dashade":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_dashade.png");
-                        break;
-                    case "Defel":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_defel.png");
-                        break;
-                    case "Devaronian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_devaronian.png");
-                        break;
-                    case "Draethos":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_draethos.png");
-                        break;
-                    case "Droid, Class I":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclass01.png");
-                        break;
-                    case "Droid, Class IV":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclass04.png");
-                        break;
-                    case "Droid, Class III":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclas03_01.png");
-                        break;
-                    case "Droid, Class II":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclass02_01.png");
-                        break;
-                    case "Droid, Class V":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclass05.png");
-                        break;
-                    case "Dug":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_dug.png");
-                        break;
-                    case "Duros":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_duros.png");
-                        break;
-                    case "Echani":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_echani.png");
-                        break;
-                    case "Ewok":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ewok.png");
-                        break;
-                    case "Falleen":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_falleen.png");
-                        break;
-                    case "Felucian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_felucian.png");
-                        break;
-                    case "Flesh Raider":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_fleshRaider.png");
-                        break;
-                    case "Gamorrean":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gamorrean.png");
-                        break;
-                    case "Gand":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gand.png");
-                        break;
-                    case "Geonosian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_geonosian.png");
-                        break;
-                    case "Givin":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_givin.png");
-                        break;
-                    case "Gotal":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gotal.png");
-                        break;
-                    case "Gran":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gran.png");
-                        break;
-                    case "Gungan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gungan.jpg");
-                        break;
-                    case "Harch":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_harch.png");
-                        break;
-                    case "Herglic":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_herglic.png");
-                        break;
-                    case "Human":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_human.png");
-                        break;
-                    case "Hutt, Adolescent":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_hutt.png");
-                        break;
-                    case "Iktotchi":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_iktotchi.png");
-                        break;
-                    case "Ithorian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ithorian.png");
-                        break;
-                    case "Jawa":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_jawa.png");
-                        break;
-                    case "Kage":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kage.png");
-                        break;
-                    case "Kaleesh":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kaleesh.png");
-                        break;
-                    case "Kaminoan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kaminoan.png");
-                        break;
-                    case "Karkarodon":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_karkarodon.png");
-                        break;
-                    case "Kel Dor":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_keldor.png");
-                        break;
-                    case "Killik":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_killik.png");
-                        break;
-                    case "Klatooinian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_klatooinian.png");
-                        break;
-                    case "Kubaz":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kubaz.png");
-                        break;
-                    case "Kushiban":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kushiban.png");
-                        break;
-                    case "Kyuzo":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kyuzo.png");
-                        break;
-                    case "Lannik":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_lannik.png");
-                        break;
-                    case "Lasat":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_lassat.jpg");
-                        break;
-                    case "Miraluka":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_miraluka.png");
-                        break;
-                    case "Mirialan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_mirialan.png");
-                        break;
-                    case "Mon Calamari":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_moncalamari.png");
-                        break;
-                    case "Mustafarian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_mustafarian.png");
-                        break;
-                    case "Muun":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_muun.png");
-                        break;
-                    case "Nautolan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_nautolan.jpg");
-                        break;
-                    case "Neimoidian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_neimoidian.jpg");
-                        break;
-                    case "Noghri":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_noghri.png");
-                        break;
-                    case "Ortolan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ortolan.png");
-                        break;
-                    case "Pa'lowick":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pa\'lowick.png");
-                        break;
-                    case "Pau'an":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pau\'an.png");
-                        break;
-                    case "Pyke":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_pyke.png");
-                        break;
-                    case "Quarren":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_quarren.png");
-                        break;
-                    case "Rakata":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rakata.png");
-                        break;
-                    case "Rattataki":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rattataki.png");
-                        break;
-                    case "Rishii":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rishii.png");
-                        break;
-                    case "Rodian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rodian.png");
-                        break;
-                    case "Selkath":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_selkath.png");
-                        break;
-                    case "Shistavanen":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_shistavanen.png");
-                        break;
-                    case "Sith Pureblood":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_sith.png");
-                        break;
-                    case "Squib":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_squib.png");
-                        break;
-                    case "Ssi-Ruu":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ssi-ruu.jpg");
-                        break;
-                    case "Sullustan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_sullustan.png");
-                        break;
-                    case "Talz":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_talz.png");
-                        break;
-                    case "Thisspiasian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_thisspiasian.png");
-                        break;
-                    case "Togorian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_togorian.png");
-                        break;
-                    case "Togruta":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_togruta.png");
-                        break;
-                    case "Toydarian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_toydarian.png");
-                        break;
-                    case "Trandoshan":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_trandoshan (2).png");
-                        break;
-                    case "Tusken":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_tusken.png");
-                        break;
-                    case "Twi'lek":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_twilek.png");
-                        break;
-                    case "Ugnaught":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ugnaught.jpg");
-                        break;
-                    case "Umbaran":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_umbaran.png");
-                        break;
-                    case "Verpine":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_verpine.png");
-                        break;
-                    case "Voss":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_voss.png");
-                        break;
-                    case "Vurk":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_vurk.png");
-                        break;
-                    case "Weequay":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_weequay.png");
-                        break;
-                    case "Wookiee":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_wookiee.png");
-                        break;
-                    case "Yevetha":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_yevetha.png");
-                        break;
-                    case "Zabrak":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_zabrak.png");
-                        break;
-                    case "Zeltron":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_zeltron.png");
-                        break;
-                    case "Zygerrian":
-                        specie.ImageUrls.Add("https://starwars5ecentral.blob.core.windows.net/site-images/species/species_zygerrian.png");
-                        break;
-                }
             }
         }
     }

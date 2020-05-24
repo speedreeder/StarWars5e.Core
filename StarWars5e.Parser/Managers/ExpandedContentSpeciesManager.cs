@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Species;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
@@ -14,7 +16,6 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly IBaseProcessor<Species> _speciesProcessor;
         private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_species.txt" };
         private readonly ILocalization _localization;
 
@@ -23,14 +24,16 @@ namespace StarWars5e.Parser.Managers
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
-            _speciesProcessor = new ExpandedContentSpeciesProcessor(localization);
         }
 
         public async Task Parse()
         {
             try
             {
-                var species = await _speciesProcessor.Process(_ecSpeciesFileName, _localization);
+                var speciesImageUrlsLU = await _tableStorage.GetAllAsync<SpeciesImageUrlLU>("speciesImageUrlsLU");
+                var speciesProcessor = new ExpandedContentSpeciesProcessor(_localization, speciesImageUrlsLU.ToList());
+
+                var species = await speciesProcessor.Process(_ecSpeciesFileName, _localization);
 
                 foreach (var specie in species)
                 {

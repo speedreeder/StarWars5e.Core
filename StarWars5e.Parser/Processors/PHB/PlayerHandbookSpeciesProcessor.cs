@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
+using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Species;
 using StarWars5e.Models.Utils;
 
@@ -9,6 +10,12 @@ namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookSpeciesProcessor : BaseProcessor<Species>
     {
+        private readonly List<SpeciesImageUrlLU> _speciesImageUrlLus;
+
+        public PlayerHandbookSpeciesProcessor(List<SpeciesImageUrlLU> speciesImageUrlLus)
+        {
+            _speciesImageUrlLus = speciesImageUrlLus;
+        }
         public override Task<List<Species>> FindBlocks(List<string> lines)
         {
             var species = new List<Species>();
@@ -24,11 +31,9 @@ namespace StarWars5e.Parser.Processors.PHB
                     speciesLines = lines.Skip(i).Take(speciesEndIndex - i).CleanListOfStrings().ToList();
                 }
 
-                var expandedContentSpeciesProcessor = new ExpandedContentSpeciesProcessor(Localization);
+                var expandedContentSpeciesProcessor = new ExpandedContentSpeciesProcessor(Localization, _speciesImageUrlLus);
                 species.Add(expandedContentSpeciesProcessor.ParseSpecies(speciesLines, ContentType.Core));
             }
-
-            ExpandedContentSpeciesProcessor.MapImageUrls(species);
 
             return Task.FromResult(species);
         }
