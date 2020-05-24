@@ -15,11 +15,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentForcePowersProcessor _forcePowersProcessor;
         private readonly List<string> _ecForcePowersFileName = new List<string> { "ec_force_powers.txt" };
+        private readonly Language _language;
 
-        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _forcePowersProcessor = new ExpandedContentForcePowersProcessor();
         }
 
@@ -27,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var forcePowers = await _forcePowersProcessor.Process(_ecForcePowersFileName);
+                var forcePowers = await _forcePowersProcessor.Process(_ecForcePowersFileName, _language);
 
                 foreach (var forcePower in forcePowers)
                 {

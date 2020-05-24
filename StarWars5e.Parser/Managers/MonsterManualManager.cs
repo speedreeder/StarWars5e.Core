@@ -15,11 +15,13 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<Monster> _monsterProcessor;
         private readonly List<string> _mmFileName = new List<string> { "SNV_Content.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
+        private readonly Language _language;
 
-        public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _monsterProcessor = new MonsterProcessor();
         }
 
@@ -27,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var monsters = await _monsterProcessor.Process(_mmFileName);
+                var monsters = await _monsterProcessor.Process(_mmFileName, _language);
 
                 foreach (var monster in monsters)
                 {

@@ -10,7 +10,7 @@ namespace StarWars5e.Parser.Parsers
 {
     public abstract class BaseProcessor<T>: IBaseProcessor<T> where T: class
     {
-        public async Task<List<T>> Process(List<string> locations, Language language = Language.en)
+        public async Task<List<T>> Process(List<string> locations, Language language)
         {
             var lines = await ReadInternalFile(locations, language);
             

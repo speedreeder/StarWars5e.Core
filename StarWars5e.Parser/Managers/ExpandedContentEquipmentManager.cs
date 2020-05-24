@@ -18,10 +18,13 @@ namespace StarWars5e.Parser.Managers
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
 
-        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        private readonly Language _language;
+
+        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _equipmentProcessor = new ExpandedContentEquipmentProcessor();
 
             var nameStartingLineProperties = new List<(string name, string startLine, int occurence)>
@@ -40,7 +43,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName);
+                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName, _language);
 
                 foreach (var equipment in equipments)
                 {

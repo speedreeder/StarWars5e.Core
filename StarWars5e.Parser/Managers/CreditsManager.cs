@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
 
 namespace StarWars5e.Parser.Managers
@@ -14,9 +15,11 @@ namespace StarWars5e.Parser.Managers
     public class CreditsManager
     {
         private readonly CloudBlobContainer _cloudBlobContainer;
+        private readonly Language _language;
 
-        public CreditsManager(CloudStorageAccount cloudStorageAccount)
+        public CreditsManager(CloudStorageAccount cloudStorageAccount, Language language)
         {
+            _language = language;
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference("credits");
         }
@@ -29,9 +32,9 @@ namespace StarWars5e.Parser.Managers
 
                 await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
 
-                var blob = _cloudBlobContainer.GetBlockBlobReference("credits.txt");
+                var blob = _cloudBlobContainer.GetBlockBlobReference($"credits.{_language}.txt");
                 using (var stream = Assembly.GetEntryAssembly()
-                    .GetManifestResourceStream($"StarWars5e.Parser.Sources.Credits.txt"))
+                    .GetManifestResourceStream($"StarWars5e.Parser.Sources.{_language}.Credits.txt"))
                 {
                     stream.Seek(0, SeekOrigin.Begin);
                     using (var reader = new StreamReader(stream, Encoding.UTF8, true, 128))

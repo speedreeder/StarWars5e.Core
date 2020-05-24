@@ -28,6 +28,7 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
+        private readonly Language _language;
 
         private readonly List<string> _sotgFilesName = new List<string>
         {
@@ -35,8 +36,10 @@ namespace StarWars5e.Parser.Managers
             "SOTG.sotg_07.txt", "SOTG.sotg_08.txt", "SOTG.sotg_09.txt", "SOTG.sotg_10.txt", "SOTG.sotg_aa.txt", "SOTG.sotg_changelog.txt"
         };
 
-        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository)
+        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
+            GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
+            _language = language;
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
@@ -54,7 +57,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName);
+                var rules = await _starshipChapterRulesProcessor.Process(_sotgFilesName, _language);
 
                 if (referenceTables != null)
                 {
@@ -84,7 +87,7 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var deployments =
-                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList());
+                    await _starshipDeploymentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_02.txt")).ToList(), _language);
 
                 foreach (var deployment in deployments)
                 {
@@ -127,7 +130,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList());
+                var equipment = await _starshipEquipmentProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_05.txt")).ToList(), _language);
 
                 if (referenceTables != null)
                 {
@@ -179,7 +182,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList());
+                var modifications = await _starshipModificationProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_04.txt")).ToList(), _language);
 
                 if (referenceTables != null)
                 {
@@ -215,7 +218,7 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList());
+                var sizes = await _starshipSizeProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_03.txt")).ToList(), _language);
 
                 foreach (var size in sizes)
                 {
@@ -236,7 +239,7 @@ namespace StarWars5e.Parser.Managers
             
             try
             {
-                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList());
+                var ventures = await _starshipVentureProcessor.Process(_sotgFilesName.Where(f => f.Equals("SOTG.sotg_06.txt")).ToList(), _language);
 
                 foreach (var venture in ventures)
                 {

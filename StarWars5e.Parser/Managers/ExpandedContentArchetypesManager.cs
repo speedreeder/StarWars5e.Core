@@ -18,21 +18,21 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentArchetypeProcessor _archetypeProcessor;
         private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_archetypes.txt" };
+        private readonly Language _language;
 
-        public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _archetypeProcessor = new ExpandedContentArchetypeProcessor();
         }
 
         public async Task Parse()
         {
-            
-
             try
             {
-                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName);
+                var archetypes = await _archetypeProcessor.Process(_ecArchetypesFileName, _language);
 
                 foreach (var archetype in archetypes)
                 {

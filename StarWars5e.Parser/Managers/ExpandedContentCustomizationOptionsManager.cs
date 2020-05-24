@@ -15,20 +15,22 @@ namespace StarWars5e.Parser.Managers
         private readonly ExpandedContentCustomizationOptionsProcessor _expandedContentCustomizationOptionsProcessor;
         private readonly List<string> _ecCustomizationOptionsFileName = new List<string> { "ec_customization_options.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
+        private readonly Language _language;
 
         public ExpandedContentCustomizationOptionsManager(ITableStorage tableStorage,
-            GlobalSearchTermRepository globalSearchTermRepository)
+            GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _expandedContentCustomizationOptionsProcessor = new ExpandedContentCustomizationOptionsProcessor();
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
         }
 
         public async Task Parse()
         {
             try
             {
-                var ecFeats = await _expandedContentCustomizationOptionsProcessor.Process(_ecCustomizationOptionsFileName);
+                var ecFeats = await _expandedContentCustomizationOptionsProcessor.Process(_ecCustomizationOptionsFileName, _language);
 
                 foreach (var feat in ecFeats)
                 {

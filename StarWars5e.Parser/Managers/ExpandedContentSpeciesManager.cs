@@ -15,11 +15,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly IBaseProcessor<Species> _speciesProcessor;
         private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_species.txt" };
+        private readonly Language _language;
 
-        public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _speciesProcessor = new ExpandedContentSpeciesProcessor();
         }
 
@@ -27,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var species = await _speciesProcessor.Process(_ecSpeciesFileName);
+                var species = await _speciesProcessor.Process(_ecSpeciesFileName, _language);
 
                 foreach (var specie in species)
                 {

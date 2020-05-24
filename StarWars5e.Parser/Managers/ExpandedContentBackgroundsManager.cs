@@ -15,11 +15,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentBackgroundProcessor _backgroundProcessor;
         private readonly List<string> _ecBackgroundsFileName = new List<string> {"ec_backgrounds.txt"};
+        private readonly Language _language;
 
-        public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _backgroundProcessor = new ExpandedContentBackgroundProcessor();
         }
 
@@ -27,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var backgrounds = await _backgroundProcessor.Process(_ecBackgroundsFileName);
+                var backgrounds = await _backgroundProcessor.Process(_ecBackgroundsFileName, _language);
 
                 foreach (var background in backgrounds)
                 {

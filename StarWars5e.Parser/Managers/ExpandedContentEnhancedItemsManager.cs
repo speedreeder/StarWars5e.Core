@@ -15,11 +15,13 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ExpandedContentEnhancedItemsProcessor _expandedContentEnhancedItemsProcessor;
         private readonly List<string> _ecEnhancedItemsFileName = new List<string> { "ec_enhanced_items.txt" };
+        private readonly Language _language;
 
-        public ExpandedContentEnhancedItemsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public ExpandedContentEnhancedItemsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, Language language)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _language = language;
             _expandedContentEnhancedItemsProcessor = new ExpandedContentEnhancedItemsProcessor();
         }
 
@@ -27,7 +29,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var enhancedItems = await _expandedContentEnhancedItemsProcessor.Process(_ecEnhancedItemsFileName);
+                var enhancedItems = await _expandedContentEnhancedItemsProcessor.Process(_ecEnhancedItemsFileName, _language);
 
                 foreach (var enhancedItem in enhancedItems)
                 {
