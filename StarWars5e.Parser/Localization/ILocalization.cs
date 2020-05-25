@@ -159,6 +159,11 @@ namespace StarWars5e.Parser.Localization
         public string ranged { get; }
         public string melee { get; }
         public string damage { get; }
+        public string Engineer { get; }
+        public string Scholar { get; }
+        public string Engineering { get; }
+        public string Pursuit { get; }
+
 
         #endregion
 

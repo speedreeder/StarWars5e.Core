@@ -159,6 +159,10 @@ namespace StarWars5e.Parser.Localization
         public string ranged => "ranged";
         public string melee => "melee";
         public string damage => "damage";
+        public string Engineer => "Engineer";
+        public string Scholar => "Scholar";
+        public string Engineering => "Engineering";
+        public string Pursuit => "Pursuit";
         #endregion
 
         #region WretchedHivesManager
@@ -627,6 +631,7 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableStartingLineStarshipSizeMaximumSuites => "#### Starship Size Maximum Suites";
         public string ReferenceTableStartingLineStarshipSizeSuiteCapacity => "#### Starship Size Suite Capacity";
         public string ReferenceTableStartingLineCyberneticAugmentationSideEffects => "#### Cybernetic Augmentation Side Effects";
+
         #endregion
     }
 }

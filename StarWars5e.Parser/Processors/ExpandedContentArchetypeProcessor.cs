@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -14,11 +15,13 @@ namespace StarWars5e.Parser.Processors
     {
         private readonly List<ClassImageLU> _classImageLus;
         private readonly List<CasterRatioLU> _casterRatioLus;
+        private readonly List<Class> _classes;
 
-        public ExpandedContentArchetypeProcessor(List<ClassImageLU> classImageLus, List<CasterRatioLU> casterRatioLus)
+        public ExpandedContentArchetypeProcessor(List<ClassImageLU> classImageLus, List<CasterRatioLU> casterRatioLus, List<Class> classes)
         {
             _classImageLus = classImageLus;
             _casterRatioLus = casterRatioLus;
+            _classes = classes;
         }
         public override Task<List<Archetype>> FindBlocks(List<string> lines)
         {
@@ -43,12 +46,12 @@ namespace StarWars5e.Parser.Processors
             var trakataIndex = archetypeNames.FindIndex(a => a.Equals(Localization.ECFormIXTrakata));
             archetypeNames[trakataIndex] = Localization.ECFormIXTrakataMangled;
 
-            var starWarsClass = Localization.Berserker;
+            var starWarsClassName = Localization.Berserker;
             foreach (var tableLine in tableLines)
             {
                 var tableLineSplit = tableLine.Split('|');
                 
-                if (!tableLineSplit[1].HasLeadingHtmlWhitespace()) starWarsClass = tableLineSplit[1];
+                if (!tableLineSplit[1].HasLeadingHtmlWhitespace()) starWarsClassName = tableLineSplit[1];
                 else
                 {
                     var archetypeName = tableLineSplit[1].Trim().RemoveHtmlWhitespace();
@@ -65,6 +68,9 @@ namespace StarWars5e.Parser.Processors
                     }
 
                     var playerHandbookClassProcessor = new PlayerHandbookClassProcessor(_classImageLus, _casterRatioLus);
+
+                    var starWarsClass = _classes.Single(c =>
+                        c.Name.Equals(starWarsClassName, StringComparison.InvariantCultureIgnoreCase));
 
                     archetypes.Add(playerHandbookClassProcessor.ParseArchetype(archetypeLines.ToList(), starWarsClass,
                         ContentType.ExpandedContent));

@@ -941,6 +941,14 @@ namespace StarWars5e.Parser.Localization
 
         public string ReferenceTableStartingLineCyberneticAugmentationSideEffects => throw new System.NotImplementedException();
 
+        public string Engineer => throw new System.NotImplementedException();
+
+        public string Scholar => throw new System.NotImplementedException();
+
+        public string Engineering => throw new System.NotImplementedException();
+
+        public string Pursuit => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

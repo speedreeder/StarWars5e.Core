@@ -214,7 +214,7 @@ namespace StarWars5e.Parser.Processors.PHB
                         .Select(s => s.RemoveHtmlWhitespace()).CleanListOfStrings());
 
                 var archetypesLines = classLines.Skip(archetypeFlavorEnd).ToList();
-                var archetypes = ParseArchetypes(archetypesLines, starWarsClass.Name, contentType);
+                var archetypes = ParseArchetypes(archetypesLines, starWarsClass, contentType);
                 starWarsClass.Archetypes = archetypes;
 
                 return starWarsClass;
@@ -225,27 +225,29 @@ namespace StarWars5e.Parser.Processors.PHB
             }
         }
 
-        private List<Archetype> ParseArchetypes(List<string> classArchetypeLines, string className,
+        private List<Archetype> ParseArchetypes(List<string> classArchetypeLines, Class starWarsClass,
             ContentType contentType)
         {
             var archetypes = new List<Archetype>();
 
             var archetypeStartingLines = classArchetypeLines.FindAll(c => c.StartsWith("## "));
 
-            switch (className)
+            if (starWarsClass.Name == Localization.Engineer)
             {
-                case "Engineer":
-                    archetypeStartingLines = classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains("Engineering"));
-                    break;
-                case "Scholar":
-                    archetypeStartingLines = classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains("Pursuit"));
-                    break;
+                archetypeStartingLines =
+                    classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains(Localization.Engineering));
             }
+            else if (starWarsClass.Name == Localization.Scholar)
+            {
+                archetypeStartingLines =
+                    classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains(Localization.Pursuit));
+            }
+            
             foreach (var archetypeStartingLine in archetypeStartingLines)
             {
                 var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeStartingLine);
 
-                archetypes.Add(ParseArchetype(archetypeLines, className, contentType));
+                archetypes.Add(ParseArchetype(archetypeLines, starWarsClass, contentType));
             }
 
             return archetypes;
@@ -266,7 +268,7 @@ namespace StarWars5e.Parser.Processors.PHB
             return archetypesLines;
         }
 
-        public Archetype ParseArchetype(List<string> archetypeLines, string className, ContentType contentType)
+        public Archetype ParseArchetype(List<string> archetypeLines, Class starWarsClass, ContentType contentType)
         {
             var name = archetypeLines[0].Split("##").ElementAtOrDefault(1)?.Trim();
             try
@@ -277,7 +279,7 @@ namespace StarWars5e.Parser.Processors.PHB
                     PartitionKey = contentType.ToString(),
                     RowKey = name.Replace("/", string.Empty).Replace(@"\", string.Empty),
                     Name = name,
-                    ClassName = className
+                    ClassName = starWarsClass.Name
                 };
 
                 var archetypeTableStart = archetypeLines.FindIndex(f => f.StartsWith("|"));
@@ -346,6 +348,10 @@ namespace StarWars5e.Parser.Processors.PHB
                         archetype.Text2 = new string(archetypeText.Skip(30000).ToArray());
                     }
                 }
+
+                archetype.CasterRatio = 0;
+                archetype.CasterTypeEnum = PowerType.None;
+                archetype.ClassCasterTypeEnum = starWarsClass.CasterTypeEnum;
 
                 var casterRatio = _casterRatioLus.SingleOrDefault(c => c.Name == name);
                 if (casterRatio != null)

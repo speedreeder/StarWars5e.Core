@@ -38,6 +38,13 @@ namespace StarWars5e.Models.Class
             set => CasterTypeEnum = Enum.Parse<PowerType>(value);
         }
 
+        public PowerType ClassCasterTypeEnum { get; set; }
+        public string ClassCasterType
+        {
+            get => ClassCasterTypeEnum.ToString();
+            set => ClassCasterTypeEnum = Enum.Parse<PowerType>(value);
+        }
+
         [IgnoreProperty]
         public List<Feature> Features { get; set; }
         private List<string> _featureRowKeys;

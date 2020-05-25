@@ -33,8 +33,9 @@ namespace StarWars5e.Parser.Managers
             {
                 var classImageLus = await _tableStorage.GetAllAsync<ClassImageLU>("classImageLU");
                 var casterRatioLus = await _tableStorage.GetAllAsync<CasterRatioLU>("casterRatioLU");
+                var classes = await _tableStorage.GetAllAsync<Class>($"classes{_localization.Language}");
 
-                var archetypeProcessor = new ExpandedContentArchetypeProcessor(classImageLus.ToList(), casterRatioLus.ToList());
+                var archetypeProcessor = new ExpandedContentArchetypeProcessor(classImageLus.ToList(), casterRatioLus.ToList(), classes.ToList());
                 var archetypes = await archetypeProcessor.Process(_ecArchetypesFileName, _localization);
 
                 foreach (var archetype in archetypes)
