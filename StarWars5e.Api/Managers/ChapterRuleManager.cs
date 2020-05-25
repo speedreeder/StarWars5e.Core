@@ -4,6 +4,7 @@ using Microsoft.WindowsAzure.Storage.Blob;
 using Newtonsoft.Json;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Api.Managers
 {
@@ -16,9 +17,17 @@ namespace StarWars5e.Api.Managers
             _cloudBlobClient = cloudBlobClient;
         }
 
-        public async Task<List<ChapterRules>> GetChapterRulesFromBlobContainer(string containerName)
+        public async Task<List<ChapterRules>> GetChapterRulesFromBlobContainer(string containerName, Language language)
         {
-            var container = _cloudBlobClient.GetContainerReference(containerName);
+            var container = _cloudBlobClient.GetContainerReference($"{containerName}-{language}");
+
+            var exists = await container.ExistsAsync();
+
+            if (!exists)
+            {
+                container = _cloudBlobClient.GetContainerReference($"{containerName}-{Language.en}");
+            }
+
             var chapterRules = new List<ChapterRules>();
             BlobContinuationToken blobContinuationToken = null;
             do
@@ -36,10 +45,16 @@ namespace StarWars5e.Api.Managers
             return chapterRules;
         }
 
-        public async Task<ChapterRules> GetChapterRuleFromBlobContainer(string containerName, string chapterName)
+        public async Task<ChapterRules> GetChapterRuleFromBlobContainer(string containerName, string chapterName, Language language)
         {
-            var container = _cloudBlobClient.GetContainerReference(containerName);
-            var blob = container.GetBlockBlobReference(chapterName);
+            var container = _cloudBlobClient.GetContainerReference($"{containerName}-{language}");
+            var exists = await container.ExistsAsync();
+
+            if (!exists)
+            {
+                container = _cloudBlobClient.GetContainerReference($"{containerName}-{Language.en}");
+            }
+            var blob = container.GetBlockBlobReference($"{chapterName}.json");
             var chapterRule = JsonConvert.DeserializeObject<ChapterRules>(await blob.DownloadTextAsync());
 
             return chapterRule;

@@ -1,8 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Api.Storage;
+using StarWars5e.Models.EnhancedItems;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Search;
 
@@ -22,9 +26,22 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Equipment>>> Get()
+        public async Task<ActionResult<IEnumerable<Equipment>>> Get(Language language = Language.en)
         {
-            var equipment = await _tableStorage.GetAllAsync<Equipment>("equipment");
+            List<EnhancedItem> equipment;
+            try
+            {
+                equipment = (await _tableStorage.GetAllAsync<EnhancedItem>($"equipment{language}")).ToList();
+            }
+            catch (StorageException e)
+            {
+                if (e.Message == "Not Found")
+                {
+                    equipment = (await _tableStorage.GetAllAsync<EnhancedItem>($"equipment{Language.en}")).ToList();
+                    return Ok(equipment);
+                }
+                throw;
+            }
             return Ok(equipment);
         }
 

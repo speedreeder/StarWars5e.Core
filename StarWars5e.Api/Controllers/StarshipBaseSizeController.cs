@@ -1,7 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Storage;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
 
 namespace StarWars5e.Api.Controllers
@@ -18,9 +21,22 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<StarshipBaseSize>>> Get()
+        public async Task<ActionResult<IEnumerable<StarshipBaseSize>>> Get(Language language = Language.en)
         {
-            var starshipBaseSizes = await _tableStorage.GetAllAsync<StarshipBaseSize>("starshipBaseSizes");
+            List<StarshipBaseSize> starshipBaseSizes;
+            try
+            {
+                starshipBaseSizes = (await _tableStorage.GetAllAsync<StarshipBaseSize>($"starshipBaseSizes{language}")).ToList();
+            }
+            catch (StorageException e)
+            {
+                if (e.Message == "Not Found")
+                {
+                    starshipBaseSizes = (await _tableStorage.GetAllAsync<StarshipBaseSize>($"starshipBaseSizes{Language.en}")).ToList();
+                    return Ok(starshipBaseSizes);
+                }
+                throw;
+            }
             return Ok(starshipBaseSizes);
         }
 

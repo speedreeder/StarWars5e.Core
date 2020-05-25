@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Storage;
 using StarWars5e.Models;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -18,9 +21,22 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<WeaponProperty>>> Get()
+        public async Task<ActionResult<IEnumerable<WeaponProperty>>> Get(Language language = Language.en)
         {
-            var weaponProperties = await _tableStorage.GetAllAsync<WeaponProperty>("weaponProperties");
+            List<WeaponProperty> weaponProperties;
+            try
+            {
+                weaponProperties = (await _tableStorage.GetAllAsync<WeaponProperty>($"weaponProperties{language}")).ToList();
+            }
+            catch (StorageException e)
+            {
+                if (e.Message == "Not Found")
+                {
+                    weaponProperties = (await _tableStorage.GetAllAsync<WeaponProperty>($"weaponProperties{Language.en}")).ToList();
+                    return Ok(weaponProperties);
+                }
+                throw;
+            }
             return Ok(weaponProperties);
         }
     }

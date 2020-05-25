@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.WindowsAzure.Storage.Blob;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -17,9 +18,16 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<string>> Get()
+        public async Task<ActionResult<string>> Get(Language language = Language.en)
         {
-            var container = _cloudBlobClient.GetContainerReference("credits");
+            var container = _cloudBlobClient.GetContainerReference($"credits-{language}");
+            var exists = await container.ExistsAsync();
+
+            if (!exists)
+            {
+                container = _cloudBlobClient.GetContainerReference($"credits-{Language.en}");
+            }
+
             var blockBlob = container.GetBlockBlobReference("credits.txt");
 
             var stream = new MemoryStream();

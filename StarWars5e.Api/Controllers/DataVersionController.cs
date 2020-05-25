@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Storage;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -19,9 +21,22 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<DataVersion>>> Get()
+        public async Task<ActionResult<IEnumerable<DataVersion>>> Get(Language language = Language.en)
         {
-            var dataVersions = await _tableStorage.GetAllAsync<DataVersion>("dataVersion");
+            List<DataVersion> dataVersions;
+            try
+            {
+                dataVersions = (await _tableStorage.GetAllAsync<DataVersion>($"dataVersion{language}")).ToList();
+            }
+            catch (StorageException e)
+            {
+                if (e.Message == "Not Found")
+                {
+                    dataVersions = (await _tableStorage.GetAllAsync<DataVersion>($"dataVersion{Language.en}")).ToList();
+                    return Ok(dataVersions);
+                }
+                throw;
+            }
             return Ok(dataVersions);
         }
 

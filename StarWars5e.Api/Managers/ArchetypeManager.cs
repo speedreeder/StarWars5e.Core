@@ -17,7 +17,7 @@ namespace StarWars5e.Api.Managers
         {
             _tableStorage = tableStorage;
         }
-        public async Task<PagedSearchResult<Archetype>> SearchArchetypes(ArchetypeSearch archetypeSearch)
+        public async Task<PagedSearchResult<Archetype>> SearchArchetypes(ArchetypeSearch archetypeSearch, Language language)
         {
             var filter = "";
             if (!string.IsNullOrEmpty(archetypeSearch.Class))
@@ -32,11 +32,11 @@ namespace StarWars5e.Api.Managers
             if (archetypeSearch.ContentType.HasValue && archetypeSearch.ContentType != ContentType.None)
             {
                 if (!string.IsNullOrEmpty(filter)) filter = $"{filter} and";
-                filter = $"{filter} ContentType eq '{archetypeSearch.ContentType.ToString()}'";
+                filter = $"{filter} ContentType eq '{archetypeSearch.ContentType}'";
             }
 
             var query = new TableQuery<Archetype>().Where(filter);
-            var archetypes = await _tableStorage.QueryAsync("archetypes", query);
+            var archetypes = await _tableStorage.QueryAsync($"archetypes{language}", query);
 
             switch (archetypeSearch.ArchetypeSearchOrdering)
             {

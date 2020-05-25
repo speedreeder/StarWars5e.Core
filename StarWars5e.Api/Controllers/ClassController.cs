@@ -1,9 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Api.Storage;
 using StarWars5e.Models.Class;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 
 namespace StarWars5e.Api.Controllers
@@ -22,9 +25,22 @@ namespace StarWars5e.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Class>>> Get()
+        public async Task<ActionResult<IEnumerable<Class>>> Get(Language language = Language.en)
         {
-            var starWarsClasses = await _tableStorage.GetAllAsync<Class>("classes");
+            List<Class> starWarsClasses;
+            try
+            {
+                starWarsClasses = (await _tableStorage.GetAllAsync<Class>($"classes{language}")).ToList();
+            }
+            catch (StorageException e)
+            {
+                if (e.Message == "Not Found")
+                {
+                    starWarsClasses = (await _tableStorage.GetAllAsync<Class>($"classes{Language.en}")).ToList();
+                    return Ok(starWarsClasses);
+                }
+                throw;
+            }
             return Ok(starWarsClasses);
         }
 
