@@ -20,7 +20,7 @@ namespace StarWars5e.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ChapterRules>>> Get(Language language = Language.en)
         {
-            var chapterRules = await _chapterRuleManager.GetChapterRulesFromBlobContainer($"player-handbook-rules", language);
+            var chapterRules = await _chapterRuleManager.GetChapterRulesFromBlobContainer("player-handbook-rules", language);
 
             return Ok(chapterRules);
         }
@@ -28,7 +28,7 @@ namespace StarWars5e.Api.Controllers
         [HttpGet("{name}")]
         public async Task<ActionResult<ChapterRules>> Get(string name, Language language = Language.en)
         {
-            var chapterRule = await _chapterRuleManager.GetChapterRuleFromBlobContainer($"player-handbook-rules", name, language);
+            var chapterRule = await _chapterRuleManager.GetChapterRuleFromBlobContainer("player-handbook-rules", name, language);
 
             return Ok(chapterRule);
         }

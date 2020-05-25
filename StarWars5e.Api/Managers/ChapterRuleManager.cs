@@ -54,7 +54,7 @@ namespace StarWars5e.Api.Managers
             {
                 container = _cloudBlobClient.GetContainerReference($"{containerName}-{Language.en}");
             }
-            var blob = container.GetBlockBlobReference($"{chapterName}.json");
+            var blob = container.GetBlockBlobReference(chapterName);
             var chapterRule = JsonConvert.DeserializeObject<ChapterRules>(await blob.DownloadTextAsync());
 
             return chapterRule;
