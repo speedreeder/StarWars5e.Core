@@ -37,7 +37,7 @@ namespace StarWars5e.Parser
             var extendedContentForcePowersManager =
                 new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentTechPowersManager =
-                new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, localization);
+                new ExpandedContentTechPowersManager(azureTableStorage, globalSearchTermRepository, localization);
             var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount,
                 globalSearchTermRepository, localization);
             var referenceTableManager = new ReferenceTableManager(azureTableStorage, localization);
