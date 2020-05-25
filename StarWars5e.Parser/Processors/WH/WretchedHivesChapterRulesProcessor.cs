@@ -20,74 +20,74 @@ namespace StarWars5e.Parser.Processors.WH
         {
             var chapters = new List<ChapterRules>();
 
-            var chapter0StartIndex = lines.FindIndex(f => f == "# Introduction");
-            var chapter1StartIndex = lines.FindIndex(f => f == "# Chapter 1: Step-By-Step Factions");
-            var chapter2StartIndex = lines.FindIndex(f => f == "# Chapter 2: Entertainment and Downtime");
-            var chapter3StartIndex = lines.FindIndex(f => f == "# Chapter 3: Factions and Membership");
-            var chapter4StartIndex = lines.FindIndex(f => f == "# Chapter 4: Using Ability Scores");
-            var chapter5StartIndex = lines.FindIndex(f => f == "# Chapter 5: Equipment");
-            var chapter6StartIndex = lines.FindIndex(f => f == "# Chapter 6: Customization Options");
-            var chapter7StartIndex = lines.FindIndex(f => f == "# Chapter 7: Enhanced Items");
-            var chapter8StartIndex = lines.FindIndex(f => f == "# Chapter 8: Tool Proficiencies");
-            var appendixAStartIndex = lines.FindIndex(f => f == "# Appendix A: Enhanced Items");
-            var changelogStartIndex = lines.FindIndex(f => f == "# Changelog");
+            var chapter0StartIndex = lines.FindIndex(f => f == Localization.WHChapter0StartLine);
+            var chapter1StartIndex = lines.FindIndex(f => f == Localization.WHChapter1StartLine);
+            var chapter2StartIndex = lines.FindIndex(f => f == Localization.WHChapter2StartLine);
+            var chapter3StartIndex = lines.FindIndex(f => f == Localization.WHChapter3StartLine);
+            var chapter4StartIndex = lines.FindIndex(f => f == Localization.WHChapter4StartLine);
+            var chapter5StartIndex = lines.FindIndex(f => f == Localization.WHChapter5StartLine);
+            var chapter6StartIndex = lines.FindIndex(f => f == Localization.WHChapter6StartLine);
+            var chapter7StartIndex = lines.FindIndex(f => f == Localization.WHChapter7StartLine);
+            var chapter8StartIndex = lines.FindIndex(f => f == Localization.WHChapter8StartLine);
+            var appendixAStartIndex = lines.FindIndex(f => f == Localization.WHAppendixAStartLine);
+            var changelogStartIndex = lines.FindIndex(f => f == Localization.WHChangelogStartLine);
 
             var chapter0Lines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
                 .CleanListOfStrings().ToList();
             chapter0Lines[2] = chapter0Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter0Lines, 1, "Introduction", SectionNames.WHChapterZeroSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter0Lines, 1, Localization.WHChapter0Title, SectionNames.WHChapterZeroSections,
                 "introduction"));
 
             var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
                 .CleanListOfStrings().ToList();
             chapter1Lines[2] = chapter1Lines[2].Insert(0, "M");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter1Lines, 1, "Step-By-Step Factions", SectionNames.WHChapterOneSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter1Lines, 1, Localization.WHChapter1Title, SectionNames.WHChapterOneSections,
                 "stepByStep"));
 
             var chapter2Lines = lines.Skip(chapter2StartIndex).Take(chapter3StartIndex - chapter2StartIndex)
                 .CleanListOfStrings().ToList();
             chapter2Lines[2] = chapter2Lines[2].Insert(0, "A");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter2Lines, 2, "Entertainment and Downtime", SectionNames.WHChapterTwoSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter2Lines, 2, Localization.WHChapter2Title, SectionNames.WHChapterTwoSections,
                 "downtime"));
 
             var chapter3Lines = lines.Skip(chapter3StartIndex).Take(chapter5StartIndex - chapter3StartIndex)
                 .CleanListOfStrings().ToList();
             chapter3Lines[2] = chapter3Lines[2].Insert(0, "A");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter3Lines, 3, "Factions and Membership", SectionNames.WHChapterThreeSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter3Lines, 3, Localization.WHChapter3Title, SectionNames.WHChapterThreeSections,
                 "factionsAndMembership"));
 
             var chapter4Lines = lines.Skip(chapter4StartIndex).Take(chapter5StartIndex - chapter4StartIndex)
                 .CleanListOfStrings().ToList();
             chapter4Lines[2] = chapter4Lines[2].Insert(0, "S");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter4Lines, 3, "Using Ability Scores", SectionNames.WHChapterFourSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter4Lines, 4, Localization.WHChapter4Title, SectionNames.WHChapterFourSections,
                 "abilityScores"));
 
             var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
                 .CleanListOfStrings().ToList();
             chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter5Lines, 5, "Equipment", SectionNames.WHChapterFiveSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter5Lines, 5, Localization.WHChapter5Title, SectionNames.WHChapterFiveSections,
                 "equipment"));
 
             var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter7StartIndex - chapter6StartIndex)
                 .CleanListOfStrings().ToList();
             chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter6Lines, 6, "Customization Options", SectionNames.WHChapterSixSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter6Lines, 6, Localization.WHChapter6Title, SectionNames.WHChapterSixSections,
                 "customizationOptions"));
 
             var chapter7Lines = lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex)
                 .CleanListOfStrings().ToList();
             chapter7Lines[2] = chapter7Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter7Lines, 7, "Enhanced Items", SectionNames.WHChapterSevenSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter7Lines, 7, Localization.WHChapter7Title, SectionNames.WHChapterSevenSections,
                 "enhancedItems"));
 
             var chapter8Lines = lines.Skip(chapter8StartIndex).Take(appendixAStartIndex - chapter8StartIndex)
                 .CleanListOfStrings().ToList();
             chapter8Lines[2] = chapter8Lines[2].Insert(0, "T");
-            chapters.Add(CreateWretchedHivesChapterRules(chapter8Lines, 8, "Tool Proficiencies", SectionNames.WHChapterEightSections,
+            chapters.Add(CreateWretchedHivesChapterRules(chapter8Lines, 8, Localization.WHChapter8Title, SectionNames.WHChapterEightSections,
                 "toolProficiencies"));
 
             var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
-            chapters.Add(CreateWretchedHivesChapterRules(changelogLines, 99, "Changelog"));
+            chapters.Add(CreateWretchedHivesChapterRules(changelogLines, 99, Localization.WHChangelogTitle));
 
             foreach (var whChapterName in SectionNames.WHChapterNames)
             {

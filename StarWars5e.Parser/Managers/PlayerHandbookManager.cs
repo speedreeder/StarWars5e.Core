@@ -25,7 +25,6 @@ namespace StarWars5e.Parser.Managers
         private readonly CloudBlobContainer _cloudBlobContainer;
         private readonly PlayerHandbookEquipmentProcessor _playerHandbookEquipmentProcessor;
         private readonly PlayerHandbookBackgroundsProcessor _playerHandbookBackgroundsProcessor;
-        private readonly PlayerHandbookPowersProcessor _playerHandbookPowersProcessor;
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
         private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
@@ -46,7 +45,6 @@ namespace StarWars5e.Parser.Managers
 
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
-            _playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor();
             _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(localization);
             _globalSearchTermRepository = globalSearchTermRepository;
@@ -280,8 +278,11 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
+
+                var playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor(_localization);
+
                 var powers =
-                    await _playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
+                    await playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
                         .ToList(), _localization);
                 
                 foreach (var power in powers)

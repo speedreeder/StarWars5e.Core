@@ -113,23 +113,23 @@ namespace StarWars5e.Parser.Processors
 
                 monster.Alignment = typeLine[1].Trim().RemoveMarkdownCharacters();
                 monster.ArmorClass = int.Parse(Regex
-                    .Match(monsterLines.Find(f => f.Contains("**Armor Class**")), @"\d+").Value);
-                var armorTypeSplit = monsterLines.Find(f => f.Contains("**Armor Class**")).Split('(', ')');
+                    .Match(monsterLines.Find(f => f.Contains(Localization.MonsterArmorClass)), @"\d+").Value);
+                var armorTypeSplit = monsterLines.Find(f => f.Contains(Localization.MonsterArmorClass)).Split('(', ')');
                 if (armorTypeSplit.ElementAtOrDefault(1) != null)
                 {
-                    monster.ArmorType = monsterLines.Find(f => f.Contains("**Armor Class**")).Split('(', ')')[1];
+                    monster.ArmorType = monsterLines.Find(f => f.Contains(Localization.MonsterArmorClass)).Split('(', ')')[1];
                 }
 
                 monster.HitPoints = int.Parse(Regex
-                    .Match(monsterLines.Find(f => f.Contains("**Hit Points**")), @"\d+").Value);
-                monster.HitPointRoll = monsterLines.Find(f => f.Contains("**Hit Points**")).Split('(', ')')
+                    .Match(monsterLines.Find(f => f.Contains(Localization.MonsterHitPoints)), @"\d+").Value);
+                monster.HitPointRoll = monsterLines.Find(f => f.Contains(Localization.MonsterHitPoints)).Split('(', ')')
                     .SafeAccess(1) ?? "";
                 monster.Speed = int.Parse(Regex
-                    .Match(monsterLines.Find(f => f.Contains("**Speed**")), @"\d+").Value);
-                monster.Speeds = monsterLines.Find(f => f.Contains("**Speed**")).Split("**")[2].Trim();
+                    .Match(monsterLines.Find(f => f.Contains(Localization.MonsterSpeed)), @"\d+").Value);
+                monster.Speeds = monsterLines.Find(f => f.Contains(Localization.MonsterSpeed)).Split("**")[2].Trim();
 
                 var attributeLine =
-                    monsterLines[monsterLines.FindIndex(f => f.Contains("|STR|DEX|CON|INT|WIS|CHA|")) + 2];
+                    monsterLines[monsterLines.FindIndex(f => f.Contains(Localization.MonsterAttributes)) + 2];
                 var attributeNumbers = Regex.Matches(attributeLine, @"-?\d+");
                 monster.Strength = int.Parse(attributeNumbers[0].ToString());
                 monster.StrengthModifier = int.Parse(attributeNumbers[1].ToString());
@@ -145,20 +145,20 @@ namespace StarWars5e.Parser.Processors
                 monster.CharismaModifier = int.Parse(attributeNumbers[11].ToString());
 
                 monster.SavingThrows =
-                    monsterLines.Find(f => f.Contains("**Saving Throws**"))?.Split("**Saving Throws**")[1]
+                    monsterLines.Find(f => f.Contains(Localization.MonsterSavingThrows))?.Split(Localization.MonsterSavingThrows)[1]
                         .Split(',').Select(s => s.Trim()).ToList();
-                monster.Skills = monsterLines.Find(f => f.Contains("**Skills**"))?.Split("**Skills**")[1]
+                monster.Skills = monsterLines.Find(f => f.Contains(Localization.MonsterSkills))?.Split(Localization.MonsterSkills)[1]
                     .Split(',')
                     .Select(s => s.Trim()).ToList();
 
-                var damageVulnerabilitiesLine = monsterLines.Find(f => f.Contains("**Damage Vulnerabilities**",
+                var damageVulnerabilitiesLine = monsterLines.Find(f => f.Contains(Localization.MonsterDamageVulnerabilities,
                     StringComparison.InvariantCultureIgnoreCase));
 
                 if (damageVulnerabilitiesLine != null)
                 {
                     var damageVulnerabilitiesSplit =
                         Regex.Split(damageVulnerabilitiesLine
-                                , @"\*\*Damage Vulnerabilities\*\*",
+                                , Localization.MonsterDamageVulnerabilitiesPattern,
                                 RegexOptions.IgnoreCase)
                             [1].Split(',').Select(s => s.Trim()).ToList();
                     monster.DamageVulnerabilitiesParsed = damageVulnerabilitiesSplit
@@ -170,8 +170,8 @@ namespace StarWars5e.Parser.Processors
                         : null;
                 }
 
-                var damageImmunitiesSplit = monsterLines.Find(f => f.Contains("**Damage Immunities**"))?
-                    .Split("**Damage Immunities**")[1].Split(',').Select(s => s.Trim()).ToList();
+                var damageImmunitiesSplit = monsterLines.Find(f => f.Contains(Localization.MonsterDamageImmunities))?
+                    .Split(Localization.MonsterDamageImmunities)[1].Split(',').Select(s => s.Trim()).ToList();
                 if (damageImmunitiesSplit != null)
                 {
                     monster.DamageImmunitiesParsed = damageImmunitiesSplit
@@ -184,8 +184,8 @@ namespace StarWars5e.Parser.Processors
                         : null;
                 }
 
-                var damageResistancesSplit = monsterLines.Find(f => f.Contains("**Damage Resistances**"))?
-                    .Split("**Damage Resistances**")[1].Split(',').Select(s => s.Trim()).ToList();
+                var damageResistancesSplit = monsterLines.Find(f => f.Contains(Localization.MonsterDamageResistances))?
+                    .Split(Localization.MonsterDamageResistances)[1].Split(',').Select(s => s.Trim()).ToList();
                 if (damageResistancesSplit != null)
                 {
                     monster.DamageResistancesParsed = damageResistancesSplit
@@ -198,8 +198,8 @@ namespace StarWars5e.Parser.Processors
                         : null;
                 }
 
-                var conditionImmunitiesSplit = monsterLines.Find(f => f.Contains("**Condition Immunities**"))?
-                    .Split("**Condition Immunities**")[1].Split(',').Select(s => s.Trim()).ToList();
+                var conditionImmunitiesSplit = monsterLines.Find(f => f.Contains(Localization.MonsterConditionImmunities))?
+                    .Split(Localization.MonsterConditionImmunities)[1].Split(',').Select(s => s.Trim()).ToList();
                 if (conditionImmunitiesSplit != null)
                 {
                     monster.ConditionImmunitiesParsed = conditionImmunitiesSplit
@@ -212,13 +212,13 @@ namespace StarWars5e.Parser.Processors
                         : null;
                 }
 
-                monster.Senses = monsterLines.Find(f => f.Contains("**Senses**"))?
-                    .Split("**Senses**")[1].Split(',').Select(s => s.Trim()).ToList();
-                monster.Languages = monsterLines.Find(f => f.Contains("**Languages**"))?
-                    .Split("**Languages**")[1].Split(new[] {",", "and"}, StringSplitOptions.RemoveEmptyEntries)
+                monster.Senses = monsterLines.Find(f => f.Contains(Localization.MonsterSenses))?
+                    .Split(Localization.MonsterSenses)[1].Split(',').Select(s => s.Trim()).ToList();
+                monster.Languages = monsterLines.Find(f => f.Contains(Localization.MonsterLanguages))?
+                    .Split(Localization.MonsterLanguages)[1].Split(new[] {",", Localization.and}, StringSplitOptions.RemoveEmptyEntries)
                     .Select(s => s.Trim()).ToList() ?? new List<string> { "—" };
 
-                var challengeLine = monsterLines.Find(f => f.Contains("**Challenge**"));
+                var challengeLine = monsterLines.Find(f => f.Contains(Localization.MonsterChallenge));
                 var challengeRatingSplit = challengeLine
                     .Substring(challengeLine.LastIndexOf("**", StringComparison.InvariantCultureIgnoreCase)).Split(' ');
                 //var challengeRatingNumbers = Regex.Matches(monsterLines.Find(f => f.Contains("**Challenge**")), @"[0-9]+(,[0-9]+)*");
@@ -299,19 +299,19 @@ namespace StarWars5e.Parser.Processors
             }
         }
 
-        private static MonsterBehaviorType DetermineBehaviorType(string behaviorTitleLine)
+        private MonsterBehaviorType DetermineBehaviorType(string behaviorTitleLine)
         {
-            if (behaviorTitleLine.Contains("Legendary"))
+            if (behaviorTitleLine.Contains(Localization.MonsterBehaviorLegendary))
             {
                 return MonsterBehaviorType.Legendary;
             }
 
-            if (behaviorTitleLine.Contains("Actions"))
+            if (behaviorTitleLine.Contains(Localization.MonsterBehaviorActions))
             {
                 return MonsterBehaviorType.Action;
             }
 
-            if (behaviorTitleLine.Contains("Reactions"))
+            if (behaviorTitleLine.Contains(Localization.MonsterBehaviorReactions))
             {
                 return MonsterBehaviorType.Reaction;
             }
@@ -319,7 +319,7 @@ namespace StarWars5e.Parser.Processors
             return MonsterBehaviorType.None;
         }
 
-        private static IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(IReadOnlyList<string> behaviorLines, MonsterBehaviorType behaviorType)
+        private IEnumerable<MonsterBehavior> GetMonsterBehaviorsFromLines(IReadOnlyList<string> behaviorLines, MonsterBehaviorType behaviorType)
         {
             var monsterBehaviors = new List<MonsterBehavior>();
 
@@ -373,7 +373,9 @@ namespace StarWars5e.Parser.Processors
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
                         Name = name.RemoveMarkdownCharacters(),
-                        Description = string.Join(" ", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() }).RemoveMarkdownCharacters(),
+                        Description = string
+                            .Join(" ", new List<string>(singleBehaviorLines.Skip(1)) {baseLine.Split("**")[2].Trim()})
+                            .RemoveMarkdownCharacters(),
                         Restrictions = restrictions
                     };
 
@@ -413,11 +415,11 @@ namespace StarWars5e.Parser.Processors
                     {
                         if (behaviorType == MonsterBehaviorType.Action)
                         {
-                            if (baseLine.Split("***")[2].Trim().Contains("*melee", StringComparison.InvariantCultureIgnoreCase))
+                            if (baseLine.Split("***")[2].Trim().Contains($"*{Localization.melee}", StringComparison.InvariantCultureIgnoreCase))
                             {
                                 monsterBehavior.AttackTypeEnum = AttackType.MeleeWeapon;
                             }
-                            else if (baseLine.Split("***")[2].Trim().Contains("*ranged",
+                            else if (baseLine.Split("***")[2].Trim().Contains($"*{Localization.ranged}",
                                 StringComparison.InvariantCultureIgnoreCase))
                             {
                                 monsterBehavior.AttackTypeEnum = AttackType.RangedWeapon;
@@ -428,7 +430,7 @@ namespace StarWars5e.Parser.Processors
                             }
 
                             var attackSplit = baseLine.Split("***")[2].Trim().Split(',').Select(s => s.Trim()).ToList();
-                            var hitSplit = Regex.Split(baseLine.Split("***")[2].Trim(), @"\*Hit[:]*\*|Hit:");
+                            var hitSplit = Regex.Split(baseLine.Split("***")[2].Trim(), Localization.MonsterHitSplitPattern);
                             var hitCommaSplit = hitSplit.SafeAccess(0)?.Split(',')?.ToList() ?? new List<string>();
                             var hitSpaceSplit = hitSplit.SafeAccess(1)?.Split(' ')?.ToList() ?? new List<string>();
                             var didParseAttBonus = int.TryParse(Regex.Match(attackSplit[0], @"-?\d+").Value, out var parsedAttBonus);
@@ -441,9 +443,9 @@ namespace StarWars5e.Parser.Processors
                                 monsterBehavior.Damage = Regex.Match(hitSplit.SafeAccess(1) ?? string.Empty, @"-?\d+").Value.Trim();
                                 monsterBehavior.DamageRoll = hitSplit.SafeAccess(1)?.Split('(', ')').ElementAtOrDefault(1)?.Trim();
                                 if (hitSpaceSplit.FindIndex(f =>
-                                        f.Contains("damage", StringComparison.InvariantCultureIgnoreCase)) != -1)
+                                        f.Contains(Localization.damage, StringComparison.InvariantCultureIgnoreCase)) != -1)
                                 {
-                                    if (Enum.TryParse(hitSpaceSplit[hitSpaceSplit.FindIndex(f => f.Contains("damage", StringComparison.InvariantCultureIgnoreCase)) - 1],
+                                    if (Enum.TryParse(hitSpaceSplit[hitSpaceSplit.FindIndex(f => f.Contains(Localization.damage, StringComparison.InvariantCultureIgnoreCase)) - 1],
                                             true, out DamageType damageType) &&
                                         Enum.IsDefined(typeof(DamageType), damageType))
                                     {

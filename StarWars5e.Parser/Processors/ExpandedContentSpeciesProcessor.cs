@@ -65,34 +65,34 @@ namespace StarWars5e.Parser.Processors
 
                 var traitLines = speciesLines.Skip(traitsStart).ToList().Where(t => t.StartsWith("***") || t.StartsWith("**"));
 
-                species.ColorScheme = speciesLines.Find(f => f.Contains(Localization.SpeciesColorScheme))?.Split('|')
+                species.ColorScheme = speciesLines.Find(f => f.Contains(Localization.ECSpeciesColorScheme))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.SkinColorOptions = speciesLines.Find(f => f.Contains(Localization.SpeciesSkinColor))?.Split('|')
+                species.SkinColorOptions = speciesLines.Find(f => f.Contains(Localization.ECSpeciesSkinColor))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.HairColorOptions = speciesLines.Find(f => f.Contains(Localization.SpeciesHairColor))?.Split('|')
+                species.HairColorOptions = speciesLines.Find(f => f.Contains(Localization.ECSpeciesHairColor))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.EyeColorOptions = speciesLines.Find(f => f.Contains(Localization.SpeciesEyeColor))?.Split('|')
+                species.EyeColorOptions = speciesLines.Find(f => f.Contains(Localization.ECSpeciesEyeColor))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.Distinctions = speciesLines.Find(f => f.Contains(Localization.SpeciesDistinctions))?.Split('|')
+                species.Distinctions = speciesLines.Find(f => f.Contains(Localization.ECSpeciesDistinctions))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.HeightAverage = speciesLines.Find(f => f.Contains(Localization.SpeciesHeight))?.Split('|')
+                species.HeightAverage = speciesLines.Find(f => f.Contains(Localization.ECSpeciesHeight))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.HeightRollMod = speciesLines.Find(f => f.Contains(Localization.SpeciesHeight))?.Split('|')
+                species.HeightRollMod = speciesLines.Find(f => f.Contains(Localization.ECSpeciesHeight))?.Split('|')
                     .Reverse().Skip(1).FirstOrDefault()?.Trim().RemoveHtmlWhitespace();
-                species.WeightAverage = speciesLines.Find(f => f.Contains(Localization.SpeciesWeight))?.Split('|')
+                species.WeightAverage = speciesLines.Find(f => f.Contains(Localization.ECSpeciesWeight))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
-                species.WeightRollMod = speciesLines.Find(f => f.Contains(Localization.SpeciesWeight))?.Split('|')
+                species.WeightRollMod = speciesLines.Find(f => f.Contains(Localization.ECSpeciesWeight))?.Split('|')
                     .Reverse().Skip(1).FirstOrDefault()?.Trim().RemoveHtmlWhitespace();
-                species.Homeworld = speciesLines.Find(f => f.Contains(Localization.SpeciesHomeworld))?.Split('|')
+                species.Homeworld = speciesLines.Find(f => f.Contains(Localization.ECSpeciesHomeworld))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();              
-                species.Manufacturer = speciesLines.Find(f => f.Contains(Localization.SpeciesManufacturer))?.Split('|')
+                species.Manufacturer = speciesLines.Find(f => f.Contains(Localization.ECSpeciesManufacturer))?.Split('|')
                     .Skip(2).FirstOrDefault()?.Trim().RemoveHtmlWhitespace();
 
-                species.Language = speciesLines.Find(f => f.Contains(Localization.SpeciesLanguage))?.Split('|')
+                species.Language = speciesLines.Find(f => f.Contains(Localization.ECSpeciesLanguage))?.Split('|')
                     .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
                 if (species.Language == null)
                 {
-                    species.Language = speciesLines.Find(f => f.Contains(Localization.SpeciesPrimaryLanguage))?.Split('|')
+                    species.Language = speciesLines.Find(f => f.Contains(Localization.ECSpeciesPrimaryLanguage))?.Split('|')
                         .Skip(2).FirstOrDefault(f => !f.IsJustHtmlOrOtherWhitespace())?.Trim().RemoveHtmlWhitespace();
                 }
 
@@ -144,7 +144,7 @@ namespace StarWars5e.Parser.Processors
                 }
 
                 var attributeIncreaseTrait = species.Traits.SingleOrDefault(t =>
-                    t.Name.Contains(Localization.SpeciesAbilityScoreIncrease, StringComparison.InvariantCultureIgnoreCase));
+                    t.Name.Contains(Localization.ECSpeciesAbilityScoreIncrease, StringComparison.InvariantCultureIgnoreCase));
                 if (attributeIncreaseTrait != null)
                 {
                     species.AbilitiesIncreased = new List<List<AbilityIncrease>>();
@@ -155,7 +155,7 @@ namespace StarWars5e.Parser.Processors
                         var abilityIncreases = new List<AbilityIncrease>();
                         foreach (var abilitySplit in abilitiesSplit)
                         {
-                            if(!Localization.ValidAttributeHints.Any(v => abilitySplit.Contains(v))) continue;
+                            if(!Localization.ECValidAttributeHints.Any(v => abilitySplit.Contains(v))) continue;
                             var abilityIncrease = new AbilityIncrease();
 
                             if (abilitySplit.Contains(Attribute.Strength.ToString()))
@@ -289,7 +289,7 @@ namespace StarWars5e.Parser.Processors
                     }
                 }
 
-                if (name == Localization.SpeciesHalfHuman)
+                if (name == Localization.ECSpeciesHalfHuman)
                 {
                     var tableLines = speciesLines.Where(c => Regex.IsMatch(c, @"^>\s*\|[A-Za-z]+")).ToList();
 

@@ -24,7 +24,7 @@ namespace StarWars5e.Parser.Processors
         {
             var archetypes = new List<Archetype>();
 
-            var tableOfContentsStart = lines.FindIndex(f => f.Contains("# Table of Contents"));
+            var tableOfContentsStart = lines.FindIndex(f => f.Contains(Localization.ECTableOfContentsStartLine));
             var tableOfContentsEnd = lines.FindIndex(tableOfContentsStart + 1, f => f.StartsWith('#'));
             var tableLines = lines.Skip(tableOfContentsStart + 3).Take(tableOfContentsEnd - (tableOfContentsStart + 3))
                 .Where(f => Regex.IsMatch(f, @"^\|[a-zA-Z&]")).ToList();
@@ -40,10 +40,10 @@ namespace StarWars5e.Parser.Processors
                 return null;
             }).Where(t => t != null).ToList();
 
-            var trakataIndex = archetypeNames.FindIndex(a => a.Equals("Form IX: Trakata"));
-            archetypeNames[trakataIndex] = "Form IX: Tr�kata";
+            var trakataIndex = archetypeNames.FindIndex(a => a.Equals(Localization.ECFormIXTrakata));
+            archetypeNames[trakataIndex] = Localization.ECFormIXTrakataMangled;
 
-            var starWarsClass = "Berserker";
+            var starWarsClass = Localization.Berserker;
             foreach (var tableLine in tableLines)
             {
                 var tableLineSplit = tableLine.Split('|');
@@ -52,10 +52,11 @@ namespace StarWars5e.Parser.Processors
                 else
                 {
                     var archetypeName = tableLineSplit[1].Trim().RemoveHtmlWhitespace();
-                    if (archetypeName == "Form IX: Trakata") archetypeName = "Form IX: Tr�kata";
+                    if (archetypeName == Localization.ECFormIXTrakata) archetypeName = Localization.ECFormIXTrakataMangled;
                     var archetypeLinesStart = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
-                    
-                    var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1, f => f.StartsWith("## ") && archetypeNames.Contains(f.Trim().Split("## ")[1]));
+
+                    var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1,
+                        f => f.StartsWith("## ") && archetypeNames.Contains(f.Trim().Split("## ")[1]));
                     var archetypeLines = lines.Skip(archetypeLinesStart);
                     if (archetypeLinesEnd != -1)
                     {

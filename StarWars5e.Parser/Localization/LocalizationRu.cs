@@ -107,6 +107,8 @@ namespace StarWars5e.Parser.Localization
 
         public string Armor => throw new System.NotImplementedException();
 
+        public string armor => throw new System.NotImplementedException();
+
         public string Tools => throw new System.NotImplementedException();
 
         public string Weapons => throw new System.NotImplementedException();
@@ -140,6 +142,8 @@ namespace StarWars5e.Parser.Localization
         public string Feats => throw new System.NotImplementedException();
 
         public string Any => throw new System.NotImplementedException();
+
+        public string any => throw new System.NotImplementedException();
 
         public string PHBClassesTableStart => throw new System.NotImplementedException();
 
@@ -207,33 +211,33 @@ namespace StarWars5e.Parser.Localization
 
         public string PHBPowerStartLinesPattern => throw new System.NotImplementedException();
 
-        public List<string> ValidAttributeHints => throw new System.NotImplementedException();
+        public List<string> ECValidAttributeHints => throw new System.NotImplementedException();
 
-        public string SpeciesColorScheme => throw new System.NotImplementedException();
+        public string ECSpeciesColorScheme => throw new System.NotImplementedException();
 
-        public string SpeciesSkinColor => throw new System.NotImplementedException();
+        public string ECSpeciesSkinColor => throw new System.NotImplementedException();
 
-        public string SpeciesHairColor => throw new System.NotImplementedException();
+        public string ECSpeciesHairColor => throw new System.NotImplementedException();
 
-        public string SpeciesEyeColor => throw new System.NotImplementedException();
+        public string ECSpeciesEyeColor => throw new System.NotImplementedException();
 
-        public string SpeciesDistinctions => throw new System.NotImplementedException();
+        public string ECSpeciesDistinctions => throw new System.NotImplementedException();
 
-        public string SpeciesHeight => throw new System.NotImplementedException();
+        public string ECSpeciesHeight => throw new System.NotImplementedException();
 
-        public string SpeciesWeight => throw new System.NotImplementedException();
+        public string ECSpeciesWeight => throw new System.NotImplementedException();
 
-        public string SpeciesHomeworld => throw new System.NotImplementedException();
+        public string ECSpeciesHomeworld => throw new System.NotImplementedException();
 
-        public string SpeciesManufacturer => throw new System.NotImplementedException();
+        public string ECSpeciesManufacturer => throw new System.NotImplementedException();
 
-        public string SpeciesLanguage => throw new System.NotImplementedException();
+        public string ECSpeciesLanguage => throw new System.NotImplementedException();
 
-        public string SpeciesPrimaryLanguage => throw new System.NotImplementedException();
+        public string ECSpeciesPrimaryLanguage => throw new System.NotImplementedException();
 
-        public string SpeciesAbilityScoreIncrease => throw new System.NotImplementedException();
+        public string ECSpeciesAbilityScoreIncrease => throw new System.NotImplementedException();
 
-        public string SpeciesHalfHuman => throw new System.NotImplementedException();
+        public string ECSpeciesHalfHuman => throw new System.NotImplementedException();
 
         public string SOTGChapter0StartLine => throw new System.NotImplementedException();
 
@@ -326,6 +330,616 @@ namespace StarWars5e.Parser.Localization
         public string SOTGArmorTableArmorStartingLine => throw new System.NotImplementedException();
 
         public string SOTGArmorTableShieldsStartingLine => throw new System.NotImplementedException();
+
+        public string feature => throw new System.NotImplementedException();
+
+        public string a => throw new System.NotImplementedException();
+
+        public string Tier => throw new System.NotImplementedException();
+
+        public string Features => throw new System.NotImplementedException();
+
+        public string SOTGEngineeringLinesStart => throw new System.NotImplementedException();
+
+        public string SOTGOperationsLinesStart => throw new System.NotImplementedException();
+
+        public string SOTGSuitesLinesStart => throw new System.NotImplementedException();
+
+        public string SOTGUniversalLinesStart => throw new System.NotImplementedException();
+
+        public string SOTGWeaponsLinesStart => throw new System.NotImplementedException();
+
+        public List<string> ShipSavingThrowOptions => throw new System.NotImplementedException();
+
+        public string SOTGStarshipFeatures => throw new System.NotImplementedException();
+
+        public string SOTGStrengthAtTierZero => throw new System.NotImplementedException();
+
+        public string SOTGDexterityAtTierZero => throw new System.NotImplementedException();
+
+        public string SOTGConstitutionAtTierZero => throw new System.NotImplementedException();
+
+        public string SOTGHitDiceAtTierZero => throw new System.NotImplementedException();
+
+        public string SOTGHitPointsForSubsequentHitDie => throw new System.NotImplementedException();
+
+        public string SOTGMaximumSuiteSystems => throw new System.NotImplementedException();
+
+        public string SOTGModificationSlotsAtTierZero => throw new System.NotImplementedException();
+
+        public string SOTGStockModifications => throw new System.NotImplementedException();
+
+        public string SOTGSavingThrows => throw new System.NotImplementedException();
+
+        public string SOTGStartingEquipment => throw new System.NotImplementedException();
+
+        public string SOTGClassTableStart => throw new System.NotImplementedException();
+
+        public string SOTGClassTableEnd => throw new System.NotImplementedException();
+
+        public string SOTGStarshipImprovements => throw new System.NotImplementedException();
+
+        public string SOTGAdditionalModifications => throw new System.NotImplementedException();
+
+        public string SOTGYourChoiceOf => throw new System.NotImplementedException();
+
+        public string SOTGSuiteChoiceSplitIndex => throw new System.NotImplementedException();
+
+        public string standard => throw new System.NotImplementedException();
+
+        public string premium => throw new System.NotImplementedException();
+
+        public string prototype => throw new System.NotImplementedException();
+
+        public string advanced => throw new System.NotImplementedException();
+
+        public string legendary => throw new System.NotImplementedException();
+
+        public string artifact => throw new System.NotImplementedException();
+
+        public string adventuringgear => throw new System.NotImplementedException();
+
+        public string body => throw new System.NotImplementedException();
+
+        public string Feet => throw new System.NotImplementedException();
+
+        public string Finger => throw new System.NotImplementedException();
+
+        public string Hands => throw new System.NotImplementedException();
+
+        public string Head => throw new System.NotImplementedException();
+
+        public string Neck => throw new System.NotImplementedException();
+
+        public string Legs => throw new System.NotImplementedException();
+
+        public string Shoulders => throw new System.NotImplementedException();
+
+        public string Waist => throw new System.NotImplementedException();
+
+        public string Wrists => throw new System.NotImplementedException();
+
+        public string armormodification => throw new System.NotImplementedException();
+
+        public string reinforcement => throw new System.NotImplementedException();
+
+        public string shielding => throw new System.NotImplementedException();
+
+        public string overlay => throw new System.NotImplementedException();
+
+        public string underlay => throw new System.NotImplementedException();
+
+        public string armoring => throw new System.NotImplementedException();
+
+        public string anyheavy => throw new System.NotImplementedException();
+
+        public string anymedium => throw new System.NotImplementedException();
+
+        public string anylight => throw new System.NotImplementedException();
+
+        public string consumable => throw new System.NotImplementedException();
+
+        public string adrenal => throw new System.NotImplementedException();
+
+        public string explosive => throw new System.NotImplementedException();
+
+        public string poison => throw new System.NotImplementedException();
+
+        public string stimpac => throw new System.NotImplementedException();
+
+        public string barrier => throw new System.NotImplementedException();
+
+        public string cyberneticaugmentation => throw new System.NotImplementedException();
+
+        public string enhancement => throw new System.NotImplementedException();
+
+        public string replacement => throw new System.NotImplementedException();
+
+        public string droidcustomization => throw new System.NotImplementedException();
+
+        public string part => throw new System.NotImplementedException();
+
+        public string protocol => throw new System.NotImplementedException();
+
+        public string focusgeneratormodification => throw new System.NotImplementedException();
+
+        public string cycler => throw new System.NotImplementedException();
+
+        public string emitter => throw new System.NotImplementedException();
+
+        public string conductor => throw new System.NotImplementedException();
+
+        public string energychannel => throw new System.NotImplementedException();
+
+        public string focus => throw new System.NotImplementedException();
+
+        public string force => throw new System.NotImplementedException();
+
+        public string itemmodification => throw new System.NotImplementedException();
+
+        public string augment => throw new System.NotImplementedException();
+
+        public string wristpadmodification => throw new System.NotImplementedException();
+
+        public string dataport => throw new System.NotImplementedException();
+
+        public string storage => throw new System.NotImplementedException();
+
+        public string motherboard => throw new System.NotImplementedException();
+
+        public string processor => throw new System.NotImplementedException();
+
+        public string lightweaponmodification => throw new System.NotImplementedException();
+
+        public string lens => throw new System.NotImplementedException();
+
+        public string stabilizer => throw new System.NotImplementedException();
+
+        public string crystal => throw new System.NotImplementedException();
+
+        public string powercell => throw new System.NotImplementedException();
+
+        public string vibroweaponmodification => throw new System.NotImplementedException();
+
+        public string edge => throw new System.NotImplementedException();
+
+        public string vibratorcell => throw new System.NotImplementedException();
+
+        public string projector => throw new System.NotImplementedException();
+
+        public string grip => throw new System.NotImplementedException();
+
+        public string clothingmodification => throw new System.NotImplementedException();
+
+        public string inlay => throw new System.NotImplementedException();
+
+        public string weave => throw new System.NotImplementedException();
+
+        public string blastermodification => throw new System.NotImplementedException();
+
+        public string barrel => throw new System.NotImplementedException();
+
+        public string targeting => throw new System.NotImplementedException();
+
+        public string matrix => throw new System.NotImplementedException();
+
+        public string energycore => throw new System.NotImplementedException();
+
+        public string shield => throw new System.NotImplementedException();
+
+        public string heavy => throw new System.NotImplementedException();
+
+        public string medium => throw new System.NotImplementedException();
+
+        public string weapon => throw new System.NotImplementedException();
+
+        public string anyblaster => throw new System.NotImplementedException();
+
+        public string anyvibroweapon => throw new System.NotImplementedException();
+
+        public string anylightweapon => throw new System.NotImplementedException();
+
+        public string lightweapon => throw new System.NotImplementedException();
+
+        public string blaster => throw new System.NotImplementedException();
+
+        public string vibroweapon => throw new System.NotImplementedException();
+
+        public string valuable => throw new System.NotImplementedException();
+
+        public string art => throw new System.NotImplementedException();
+
+        public string jewel => throw new System.NotImplementedException();
+
+        public string relic => throw new System.NotImplementedException();
+
+        public string sculpture => throw new System.NotImplementedException();
+
+        public string shiparmor => throw new System.NotImplementedException();
+
+        public string shipshield => throw new System.NotImplementedException();
+
+        public string shipweapon => throw new System.NotImplementedException();
+
+        public string property => throw new System.NotImplementedException();
+
+        public string Berserker => throw new System.NotImplementedException();
+
+        public string SuggestedCharacteristics => throw new System.NotImplementedException();
+
+        public string IWS => throw new System.NotImplementedException();
+
+        public string Bulky => throw new System.NotImplementedException();
+
+        public string ranged => throw new System.NotImplementedException();
+
+        public string melee => throw new System.NotImplementedException();
+
+        public string damage => throw new System.NotImplementedException();
+
+        public string SampleEnhancedItems => throw new System.NotImplementedException();
+
+        public string RequiresAttunement => throw new System.NotImplementedException();
+
+        public string WHChapter0StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter1StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter2StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter3StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter4StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter5StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter6StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter7StartLine => throw new System.NotImplementedException();
+
+        public string WHChapter8StartLine => throw new System.NotImplementedException();
+
+        public string WHAppendixAStartLine => throw new System.NotImplementedException();
+
+        public string WHChangelogStartLine => throw new System.NotImplementedException();
+
+        public string WHChapter0Title => throw new System.NotImplementedException();
+
+        public string WHChapter1Title => throw new System.NotImplementedException();
+
+        public string WHChapter2Title => throw new System.NotImplementedException();
+
+        public string WHChapter3Title => throw new System.NotImplementedException();
+
+        public string WHChapter4Title => throw new System.NotImplementedException();
+
+        public string WHChapter5Title => throw new System.NotImplementedException();
+
+        public string WHChapter6Title => throw new System.NotImplementedException();
+
+        public string WHChapter7Title => throw new System.NotImplementedException();
+
+        public string WHChapter8Title => throw new System.NotImplementedException();
+
+        public string WHChangelogTitle => throw new System.NotImplementedException();
+
+        public string WHBlastersStartLine => throw new System.NotImplementedException();
+
+        public string WHVibroweaponsStartLine => throw new System.NotImplementedException();
+
+        public string WHLightweaponsStartLine => throw new System.NotImplementedException();
+
+        public string WHArmorAndShieldsStartLine => throw new System.NotImplementedException();
+
+        public string WHSpecialistsKitStartLine => throw new System.NotImplementedException();
+
+        public string WHAmmunitionStartLine => throw new System.NotImplementedException();
+
+        public string WHMedicalStartLine => throw new System.NotImplementedException();
+
+        public string ECTableOfContentsStartLine => throw new System.NotImplementedException();
+
+        public string ECFormIXTrakata => throw new System.NotImplementedException();
+
+        public string ECFormIXTrakataMangled => throw new System.NotImplementedException();
+
+        public string ECToolProficienciesStartLine => throw new System.NotImplementedException();
+
+        public string ECLanguagesStartLine => throw new System.NotImplementedException();
+
+        public string ECEquipmentStartLine => throw new System.NotImplementedException();
+
+        public string ECSkillProficienciesPattern => throw new System.NotImplementedException();
+
+        public string ECSuggestedCharacteristicsStartLine => throw new System.NotImplementedException();
+
+        public string ECFeatureStartLine => throw new System.NotImplementedException();
+
+        public string ECFeatStartLine => throw new System.NotImplementedException();
+
+        public string ECPersonalityTraitsPattern => throw new System.NotImplementedException();
+
+        public string ECIdealsPattern => throw new System.NotImplementedException();
+
+        public string ECBondsPattern => throw new System.NotImplementedException();
+
+        public string ECFlawsPattern => throw new System.NotImplementedException();
+
+        public string ECBlastersStartLine => throw new System.NotImplementedException();
+
+        public string ECMartialLightweaponsStartLine => throw new System.NotImplementedException();
+
+        public string ECMartialVibroweaponsStartLine => throw new System.NotImplementedException();
+
+        public string ECInterchangeableWeaponsSystemPattern => throw new System.NotImplementedException();
+
+        public string ECStrengthRequirementPattern => throw new System.NotImplementedException();
+
+        public string ECClassificationMartialBlasters => throw new System.NotImplementedException();
+
+        public string ECClassificationSimpleBlasters => throw new System.NotImplementedException();
+
+        public string ECClassificationSimpleLightweapons => throw new System.NotImplementedException();
+
+        public string ECClassificationMartialLightweapons => throw new System.NotImplementedException();
+
+        public string ECClassificationSimpleVibroweapons => throw new System.NotImplementedException();
+
+        public string ECClassificationMartialVibroweapons => throw new System.NotImplementedException();
+
+        public string ECClassificationUtilities => throw new System.NotImplementedException();
+
+        public string ECClassificationWeaponAndArmorAccessories => throw new System.NotImplementedException();
+
+        public string ECClassificationAmmunition => throw new System.NotImplementedException();
+
+        public string ECClassificationClothing => throw new System.NotImplementedException();
+
+        public string ECClassificationCommunication => throw new System.NotImplementedException();
+
+        public string ECClassificationDataRecordingAndStorage => throw new System.NotImplementedException();
+
+        public string ECClassificationExplosives => throw new System.NotImplementedException();
+
+        public string ECClassificationLifeSupport => throw new System.NotImplementedException();
+
+        public string ECClassificationMedical => throw new System.NotImplementedException();
+
+        public string ECClassificationStorage => throw new System.NotImplementedException();
+
+        public string ECClassificationArtisansTools => throw new System.NotImplementedException();
+
+        public string ECClassificationGamingSet => throw new System.NotImplementedException();
+
+        public string ECClassificationMusicalInstrument => throw new System.NotImplementedException();
+
+        public string ECClassificationSpecialistsKit => throw new System.NotImplementedException();
+
+        public string ECClassificationLightArmor => throw new System.NotImplementedException();
+
+        public string ECClassificationMediumArmor => throw new System.NotImplementedException();
+
+        public string ECClassificationHeavyArmor => throw new System.NotImplementedException();
+
+        public string ECClassificationShield => throw new System.NotImplementedException();
+
+        public string ECAtWillPattern => throw new System.NotImplementedException();
+
+        public string ECVariantRuleForceAlignment => throw new System.NotImplementedException();
+
+        public string ECVariantRuleForceAlignmentStartingLetter => throw new System.NotImplementedException();
+
+        public string ECVariantRuleDestiny => throw new System.NotImplementedException();
+
+        public string ECVariantRuleDestinyStartingLetter => throw new System.NotImplementedException();
+
+        public string ECVariantRuleStarshipDestiny => throw new System.NotImplementedException();
+
+        public string ECVariantRuleStarshipDestinyStartingLetter => throw new System.NotImplementedException();
+
+        public string ECVariantRuleWeaponSundering => throw new System.NotImplementedException();
+
+        public string ECVariantRuleWeaponSunderingStartingLetter => throw new System.NotImplementedException();
+
+        public string ECVariantRuleAdvancedAdvantage => throw new System.NotImplementedException();
+
+        public string ECVariantRuleAdvancedAdvantageStartingLetter => throw new System.NotImplementedException();
+
+        public string ECVariantRuleLightsaberForms => throw new System.NotImplementedException();
+
+        public string ECVariantRuleLightsaberFormsStartingLetter => throw new System.NotImplementedException();
+
+        public string ECVariantRuleDismemberment => throw new System.NotImplementedException();
+
+        public string ECVariantRuleDismembermentStartingLetter => throw new System.NotImplementedException();
+
+        public string MonsterArmorClass => throw new System.NotImplementedException();
+
+        public string MonsterHitPoints => throw new System.NotImplementedException();
+
+        public string MonsterSpeed => throw new System.NotImplementedException();
+
+        public string MonsterAttributes => throw new System.NotImplementedException();
+
+        public string MonsterSavingThrows => throw new System.NotImplementedException();
+
+        public string MonsterSkills => throw new System.NotImplementedException();
+
+        public string MonsterDamageVulnerabilities => throw new System.NotImplementedException();
+
+        public string MonsterDamageVulnerabilitiesPattern => throw new System.NotImplementedException();
+
+        public string MonsterDamageImmunities => throw new System.NotImplementedException();
+
+        public string MonsterDamageResistances => throw new System.NotImplementedException();
+
+        public string MonsterConditionImmunities => throw new System.NotImplementedException();
+
+        public string MonsterSenses => throw new System.NotImplementedException();
+
+        public string MonsterLanguages => throw new System.NotImplementedException();
+
+        public string MonsterChallenge => throw new System.NotImplementedException();
+
+        public string MonsterBehaviorLegendary => throw new System.NotImplementedException();
+
+        public string MonsterBehaviorActions => throw new System.NotImplementedException();
+
+        public string MonsterBehaviorReactions => throw new System.NotImplementedException();
+
+        public string MonsterHitSplitPattern => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameAbilityScorePointCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameAbilityScoresAndModifiers => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameXPByLevel => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStartingWealthByClass => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameLifestyleExpenses => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameMulticlassingPrerequisites => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameMulticlassingProficiencies => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeStockCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeConstructionWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameBaseUpgradeCostByTier => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeUpgradeCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeUpgradeWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameModificationCategoryBaseCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeModificationCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeModificationWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameModificationTierRequirementDC => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameModificationSlotsAtTierZero => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeEquipmentCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeEquipmentWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeCargoCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeBaseArmorClass => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeFuelCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeFuelCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeFoodCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeBaseFlyingSpeed => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeBaseTurningSpeed => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameSampleRealspaceTravelTimes => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameSampleHyperspaceTravelTimes => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameAstrogationTimeTaken => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameHyperspaceMishaps => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeMinimumCrew => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeRepairTime => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeMaintenanceTime => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeCategories => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameSystemDamage => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeMaximumSuites => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeSuiteCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableNameCyberneticAugmentationSideEffects => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineAbilityScorePointCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineAbilityScoresAndModifiers => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineXPByLevel => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStartingWealthByClass => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineLifestyleExpenses => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineMulticlassingPrerequisites => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineMulticlassingProficiencies => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeStockCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeConstructionWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineBaseUpgradeCostByTier => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeUpgradeCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeUpgradeWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationCategoryBaseCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeModificationCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeModificationWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationTierRequirementDC => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationSlotsAtTierZero => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeEquipmentCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeEquipmentWorkforce => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeCargoCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeBaseArmorClass => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeFuelCost => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeFuelCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeFoodCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeBaseFlyingSpeed => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeBaseTurningSpeed => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineSampleRealspaceTravelTimes => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineSampleHyperspaceTravelTimes => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineAstrogationTimeTaken => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineHyperspaceMishaps => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeMinimumCrew => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeRepairTime => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeMaintenanceTime => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeCategories => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineSystemDamage => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeMaximumSuites => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeSuiteCapacity => throw new System.NotImplementedException();
+
+        public string ReferenceTableStartingLineCyberneticAugmentationSideEffects => throw new System.NotImplementedException();
 
         public string GetDeploymentTableStart(string deploymentName)
         {

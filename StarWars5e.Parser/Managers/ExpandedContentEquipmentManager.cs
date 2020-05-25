@@ -14,7 +14,6 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly ExpandedContentEquipmentProcessor _equipmentProcessor;
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
         private readonly ILocalization _localization;
@@ -24,14 +23,14 @@ namespace StarWars5e.Parser.Managers
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
-            _equipmentProcessor = new ExpandedContentEquipmentProcessor();
         }
 
         public async Task Parse()
         {
             try
             {
-                var equipments = await _equipmentProcessor.Process(_ecEquipmentFileName, _localization);
+                var equipmentProcessor = new ExpandedContentEquipmentProcessor(_localization);
+                var equipments = await equipmentProcessor.Process(_ecEquipmentFileName, _localization);
 
                 foreach (var equipment in equipments)
                 {

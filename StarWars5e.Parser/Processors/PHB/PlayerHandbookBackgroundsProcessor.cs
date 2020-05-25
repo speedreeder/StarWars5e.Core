@@ -28,7 +28,8 @@ namespace StarWars5e.Parser.Processors.PHB
                     backgroundLines = lines.Skip(i).Take(backgroundEndIndex - i).CleanListOfStrings().ToList();
                 }
 
-                backgrounds.Add(ExpandedContentBackgroundProcessor.ParseBackground(backgroundLines, ContentType.Core));
+                var expandedContentBackgroundProcessor = new ExpandedContentBackgroundProcessor(Localization);
+                backgrounds.Add(expandedContentBackgroundProcessor.ParseBackground(backgroundLines, ContentType.Core));
             }
 
             return Task.FromResult(backgrounds);

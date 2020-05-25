@@ -10,14 +10,14 @@ using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
 {
-    public class ExpandedContentForcePowersManager
+    public class ExpandedContentTechPowersManager
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly List<string> _ecForcePowersFileName = new List<string> { "ec_force_powers.txt" };
+        private readonly List<string> _ecTechPowersFileName = new List<string> { "ec_tech_powers.txt" };
         private readonly ILocalization _localization;
 
-        public ExpandedContentForcePowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+        public ExpandedContentTechPowersManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
@@ -28,8 +28,8 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var forcePowersProcessor = new ExpandedContentForcePowersProcessor();
-                var forcePowers = await forcePowersProcessor.Process(_ecForcePowersFileName, _localization);
+                var techPowersProcessor = new ExpandedContentTechPowersProcessor();
+                var forcePowers = await techPowersProcessor.Process(_ecTechPowersFileName, _localization);
 
                 foreach (var forcePower in forcePowers)
                 {
@@ -37,7 +37,7 @@ namespace StarWars5e.Parser.Managers
 
                     var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(forcePower.Name,
                         GlobalSearchTermType.ForcePower, ContentType.ExpandedContent,
-                        $"/characters/forcePowers/?search={forcePower.Name}");
+                        $"/characters/techPowers/?search={forcePower.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                 }
 

@@ -17,7 +17,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             //var venturesSectionEndIndex = lines.FindIndex(venturesSectionStartingIndex, f => f.Contains("# Chapter 7"));
             //var venturesSectionLines = lines.Skip(venturesSectionStartingIndex).Take(venturesSectionEndIndex - venturesSectionStartingIndex).ToList();
 
-            var ventureRulesStartingIndex = lines.FindIndex(f => f.Contains("## Ventures"));
+            var ventureRulesStartingIndex = lines.FindIndex(f => f.Contains(Localization.SOTGVenturesStart));
             var ventureRulesEndIndex =
                 lines.FindIndex(ventureRulesStartingIndex, f => f.StartsWith("### "));
 
@@ -28,7 +28,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             return Task.FromResult(starshipVenture);
         }
 
-        private static IEnumerable<StarshipVenture> CreateVentures(List<string> ventureLines)
+        private IEnumerable<StarshipVenture> CreateVentures(List<string> ventureLines)
         {
             var ventureList = new List<StarshipVenture>();
 
@@ -44,7 +44,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = ventureLines[i].Substring(ventureLines[i].IndexOf(' ') + 1).Trim(),
                     Name = ventureLines[i].Substring(ventureLines[i].IndexOf(' ') + 1).Trim(),
-                    Prerequisites = currentVentureLines.Where(s => s.StartsWith("_prerequisite",
+                    Prerequisites = currentVentureLines.Where(s => s.StartsWith($"_{Localization.Prerequisite}",
                             StringComparison.InvariantCultureIgnoreCase)).Select(s =>
                             s.Substring(s.IndexOf(' ') + 1).Replace("_", string.Empty).Replace("<br>", string.Empty))
                         .ToList(),
@@ -54,7 +54,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                             !s.StartsWith('/') &&
                             !s.StartsWith('<') &&
                             !s.StartsWith('#') &&
-                            !s.StartsWith("_Prerequisite", StringComparison.InvariantCultureIgnoreCase)))
+                            !s.StartsWith($"_{Localization.Prerequisite}", StringComparison.InvariantCultureIgnoreCase)))
                 };
 
                 ventureList.Add(venture);

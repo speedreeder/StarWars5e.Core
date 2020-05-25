@@ -9,7 +9,7 @@ using StarWars5e.Parser.Processors.PHB;
 
 namespace StarWars5e.Parser.Processors
 {
-    public class ExpandedContentForcePowersProcessor : BaseProcessor<Power>
+    public class ExpandedContentTechPowersProcessor : BaseProcessor<Power>
     {
         public override Task<List<Power>> FindBlocks(List<string> lines)
         {
@@ -28,6 +28,7 @@ namespace StarWars5e.Parser.Processors
                 {
                     powerLines = lines.Skip(powerStartIndex).Take(powerEndIndex - powerStartIndex);
                 }
+
                 var playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor(Localization);
                 powers.Add(playerHandbookPowersProcessor.ParsePower(powerLines.CleanListOfStrings().ToList(), ContentType.Core, null));
             }

@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Utils;
+using StarWars5e.Parser.Localization;
 
 namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookPowersProcessor : BaseProcessor<Power>
     {
+        public PlayerHandbookPowersProcessor(ILocalization localization)
+        {
+            Localization = localization;
+        }
         public override Task<List<Power>> FindBlocks(List<string> lines)
         {
             var powers = new List<Power>();

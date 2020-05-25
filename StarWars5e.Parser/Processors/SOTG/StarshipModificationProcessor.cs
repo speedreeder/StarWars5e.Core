@@ -14,12 +14,12 @@ namespace StarWars5e.Parser.Processors.SOTG
         {
             var modifications = new List<StarshipModification>();
 
-            var engineeringLinesStart = lines.FindIndex(f => f.StartsWith("## Engineering Systems"));
+            var engineeringLinesStart = lines.FindIndex(f => f.StartsWith(Localization.SOTGEngineeringLinesStart));
             var operationLinesStart = lines.FindIndex(f =>
-                f.StartsWith("## Operation Systems", StringComparison.InvariantCultureIgnoreCase));
-            var suiteLinesStart = lines.FindIndex(f => f.StartsWith("## Suite Systems"));
-            var universalLinesStart = lines.FindIndex(f => f.StartsWith("## Universal Systems"));
-            var weaponLinesStart = lines.FindIndex(f => f.StartsWith("## Weapon Systems"));
+                f.StartsWith(Localization.SOTGOperationsLinesStart, StringComparison.InvariantCultureIgnoreCase));
+            var suiteLinesStart = lines.FindIndex(f => f.StartsWith(Localization.SOTGSuitesLinesStart));
+            var universalLinesStart = lines.FindIndex(f => f.StartsWith(Localization.SOTGUniversalLinesStart));
+            var weaponLinesStart = lines.FindIndex(f => f.StartsWith(Localization.SOTGWeaponsLinesStart));
 
             var engineeringSystemsLines = lines.Skip(engineeringLinesStart)
                 .Take(operationLinesStart - engineeringLinesStart).ToList();
@@ -45,7 +45,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             return Task.FromResult(modifications);
         }
 
-        private static IEnumerable<StarshipModification> CreateModifications(List<string> systemLines, StarshipModificationType type)
+        private IEnumerable<StarshipModification> CreateModifications(List<string> systemLines, StarshipModificationType type)
         {
             var modifications = new List<StarshipModification>();
             for (var i = 0; i < systemLines.Count; i++)
@@ -61,7 +61,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
                     Name = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
-                    Prerequisites = modificationLines.Where(s => s.StartsWith("_prerequisite",
+                    Prerequisites = modificationLines.Where(s => s.StartsWith($"_{Localization.Prerequisite}",
                             StringComparison.InvariantCultureIgnoreCase)).Select(s =>
                             s.Substring(s.IndexOf(' ') + 1).Replace("_", string.Empty).Replace("<br>", string.Empty))
                         .ToList(),
@@ -71,7 +71,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                             !s.StartsWith('/') &&
                             !s.StartsWith('<') &&
                             !s.StartsWith('#') &&
-                            !s.StartsWith("_Prerequisite", StringComparison.InvariantCultureIgnoreCase)))
+                            !s.StartsWith($"_{Localization.Prerequisite}", StringComparison.InvariantCultureIgnoreCase)))
                 };
 
                 modifications.Add(modification);

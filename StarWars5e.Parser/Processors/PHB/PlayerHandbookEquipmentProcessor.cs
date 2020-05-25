@@ -7,32 +7,26 @@ namespace StarWars5e.Parser.Processors.PHB
 {
     public class PlayerHandbookEquipmentProcessor: BaseProcessor<Equipment>
     {
-        private readonly ExpandedContentEquipmentProcessor _expandedContentEquipmentProcessor;
-
-        public PlayerHandbookEquipmentProcessor()
-        {
-            _expandedContentEquipmentProcessor = new ExpandedContentEquipmentProcessor();
-        }
-
         public override async Task<List<Equipment>> FindBlocks(List<string> lines)
         {
             var equipmentList = new List<Equipment>();
 
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines,
+            var expandedContentEquipmentProcessor = new ExpandedContentEquipmentProcessor(Localization);
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseWeapons(lines,
                 Localization.PHBBlastersTableStart, false, 1, ContentType.Core));
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines,
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseWeapons(lines,
                 Localization.PHBVibroweaponsTableStart, false, 1, ContentType.Core));
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseWeapons(lines,
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseWeapons(lines,
                 Localization.PHBLightweaponsTableStart, false, 1, ContentType.Core));
 
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseArmor(lines,
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseArmor(lines,
                 Localization.PHBArmorAndShieldsTableStart, ContentType.Core));
 
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
                 Localization.PHBArtisansToolsTableStart, true, 1, ContentType.Core));
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
                 Localization.PHBAmmunitionTableStart, true, 2, ContentType.Core));
-            equipmentList.AddRange(await _expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
                 Localization.PHBMedicalTableStart, true, 2, ContentType.Core));
 
             return equipmentList;

@@ -36,6 +36,8 @@ namespace StarWars5e.Parser
                     localization);
             var extendedContentForcePowersManager =
                 new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, localization);
+            var extendedContentTechPowersManager =
+                new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, localization);
             var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount,
                 globalSearchTermRepository, localization);
             var referenceTableManager = new ReferenceTableManager(azureTableStorage, localization);
@@ -54,6 +56,7 @@ namespace StarWars5e.Parser
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
             await extendedContentCustomizationOptionsManager.Parse();
+            await extendedContentTechPowersManager.Parse();
             await extendedContentForcePowersManager.Parse();
             await wretchedHivesManager.Parse();
             await playerHandbookManager.Parse();
@@ -90,8 +93,8 @@ namespace StarWars5e.Parser
             try
             {
                 var currentVersion =
-                    (await azureTableStorage.GetAsync<DataVersion>("dataVersion", ContentType.Core.ToString(),
-                        "MASTERVERSION")).Version;
+                    (await azureTableStorage.GetAsync<DataVersion>($"dataVersion{localization.Language}", ContentType.Core.ToString(),
+                        "MASTERVERSION"))?.Version;
 
                 var dataNames = new List<string>
                 {
@@ -109,10 +112,10 @@ namespace StarWars5e.Parser
                     Name = d,
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = d,
-                    Version = currentVersion + 1
+                    Version = currentVersion + 1 ?? 1
                 });
 
-                await azureTableStorage.AddBatchAsync<DataVersion>("dataVersion", dataVersions,
+                await azureTableStorage.AddBatchAsync<DataVersion>($"dataVersion{localization.Language}", dataVersions,
                     new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
             }
             catch (StorageException)

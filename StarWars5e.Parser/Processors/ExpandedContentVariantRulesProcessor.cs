@@ -31,39 +31,39 @@ namespace StarWars5e.Parser.Processors
             return Task.FromResult(variantRules);
         }
 
-        public static ChapterRules ParseVariantRules(List<string> variantLines, ContentType contentType)
+        public ChapterRules ParseVariantRules(List<string> variantLines, ContentType contentType)
         {
             var variantRule = new ChapterRules();
             var name = variantLines[0].Split('#')[1].Trim();
             try
             {
-                if (name == "Force Alignment")
+                if (name == Localization.ECVariantRuleForceAlignment)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "T");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleForceAlignmentStartingLetter);
                 }
-                if (name == "Destiny")
+                if (name == Localization.ECVariantRuleDestiny)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "D");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleDestinyStartingLetter);
                 }
-                if (name == "Starship Destiny")
+                if (name == Localization.ECVariantRuleStarshipDestiny)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "S");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleStarshipDestinyStartingLetter);
                 }
-                if (name == "Weapon Sundering")
+                if (name == Localization.ECVariantRuleWeaponSundering)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "Y");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleWeaponSunderingStartingLetter);
                 }
-                if (name == "Advanced Advantage")
+                if (name == Localization.ECVariantRuleAdvancedAdvantage)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "T");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleAdvancedAdvantageStartingLetter);
                 }
-                if (name == "Lightsaber Forms")
+                if (name == Localization.ECVariantRuleLightsaberForms)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "T");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleLightsaberFormsStartingLetter);
                 }
-                if (name == "Dismemberment")
+                if (name == Localization.ECVariantRuleDismemberment)
                 {
-                    variantLines[2] = variantLines[2].Insert(0, "S");
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleDismembermentStartingLetter);
                 }
 
                 variantRule.ChapterName = name;

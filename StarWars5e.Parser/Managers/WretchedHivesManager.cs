@@ -23,11 +23,9 @@ namespace StarWars5e.Parser.Managers
         private readonly CloudBlobContainer _cloudBlobContainer;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly IBaseProcessor<ChapterRules> _wretchedHivesChapterRulesProcessor;
-        private readonly IBaseProcessor<EnhancedItem> _enhancedItemProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly WretchedHivesEquipmentProcessor _wretchedHivesEquipmentProcessor;
-        private readonly PlayerHandbookFeatProcessor _playerHandbookFeatProcessor;
 
         private readonly List<string> _whFilesName = new List<string>
         {
@@ -44,8 +42,6 @@ namespace StarWars5e.Parser.Managers
             _localization = localization;
             _wretchedHivesEquipmentProcessor = new WretchedHivesEquipmentProcessor();
             _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(globalSearchTermRepository);
-            _enhancedItemProcessor = new EnhancedItemProcessor();
-            _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference($"wretched-hives-rules-{_localization.Language}");
@@ -77,7 +73,8 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var enhancedItems = await _enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _localization);
+                var enhancedItemProcessor = new EnhancedItemProcessor(_localization);
+                var enhancedItems = await enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _localization);
 
                 foreach (var enhancedItem in enhancedItems)
                 {
@@ -195,7 +192,8 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var feats = await _playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization);
+                var playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(_localization);
+                var feats = await playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization);
 
                 foreach (var feat in feats)
                 {

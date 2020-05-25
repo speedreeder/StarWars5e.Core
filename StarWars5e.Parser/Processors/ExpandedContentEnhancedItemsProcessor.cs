@@ -8,15 +8,10 @@ namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentEnhancedItemsProcessor : BaseProcessor<EnhancedItem>
     {
-        private readonly EnhancedItemProcessor _enhancedItemProcessor;
-        public ExpandedContentEnhancedItemsProcessor()
-        {
-            _enhancedItemProcessor = new EnhancedItemProcessor();
-        }
-
         public override async Task<List<EnhancedItem>> FindBlocks(List<string> lines)
         {
-            return await _enhancedItemProcessor.ParseEnhancedItems(lines, ContentType.ExpandedContent);
+            var enhancedItemProcessor = new EnhancedItemProcessor(Localization);
+            return await enhancedItemProcessor.ParseEnhancedItems(lines, ContentType.ExpandedContent);
         }
     }
 }

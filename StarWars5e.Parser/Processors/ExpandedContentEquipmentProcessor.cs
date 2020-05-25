@@ -8,27 +8,23 @@ using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Models.Utils;
+using StarWars5e.Parser.Localization;
 
 namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentEquipmentProcessor : BaseProcessor<Equipment>
     {
+        public ExpandedContentEquipmentProcessor(ILocalization localization)
+        {
+            Localization = localization;
+        }
         public override async Task<List<Equipment>> FindBlocks(List<string> lines)
         {
             var equipment = new List<Equipment>();
 
-            equipment.AddRange(await ParseWeapons(lines, "##### Blasters", false, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Ammunition_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseWeapons(lines, "_Martial Lightweapons_", true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseWeapons(lines, "_Martial Vibroweapons_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Communications_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Data Recording and Storage_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Explosives_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Life Support_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Medical_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Storage_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Utilities_", true, 1, ContentType.ExpandedContent));
-            //equipment.AddRange(await ParseOtherEquipment(lines.ToList(), "_Weapon and Armor Accessories_", true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECBlastersStartLine, false, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECMartialLightweaponsStartLine, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECMartialVibroweaponsStartLine, true, 1, ContentType.ExpandedContent));
 
             return equipment;
         }
@@ -53,12 +49,6 @@ namespace StarWars5e.Parser.Processors
                 if (tableEnd == -1) tableEnd = lines.Count - 1;
                 tableLines = lines.Skip(tableStart + 3).Take(tableEnd - (tableStart + 3)).CleanListOfStrings(false).ToList();
             }
-
-            //var tableNameIndex = lines.FindIndex(f => f.Contains(tableName));
-
-            //var tableStart = lines.FindIndex(tableNameIndex, f => Regex.IsMatch(f, @"^\|.*_\w*"));
-            //var tableEnd = lines.FindIndex(tableStart + 1, f => f == string.Empty);
-            //var tableLines = lines.Skip(tableStart).Take(tableEnd - tableStart).CleanListOfStrings().ToList();
 
             var weaponClassification = WeaponClassification.Unknown;
             foreach (var tableLine in tableLines)
@@ -104,8 +94,11 @@ namespace StarWars5e.Parser.Processors
                             weapon.EquipmentCategoryEnum = EquipmentCategory.Weapon;
 
                             var weaponDescriptionStartLine =
-                                lines.FindIndex(f => Regex.IsMatch(f, $@"####\s+{weapon.Name}", RegexOptions.IgnoreCase) ||
-                                                     weapon.Name.Equals("IWS", StringComparison.InvariantCultureIgnoreCase) && Regex.IsMatch(f, @"####\s+Interchangeable\s+Weapons\s+System", RegexOptions.IgnoreCase));
+                                lines.FindIndex(f =>
+                                    Regex.IsMatch(f, $@"####\s+{weapon.Name}", RegexOptions.IgnoreCase) ||
+                                    weapon.Name.Equals(Localization.IWS, StringComparison.InvariantCultureIgnoreCase) &&
+                                    Regex.IsMatch(f, Localization.ECInterchangeableWeaponsSystemPattern,
+                                        RegexOptions.IgnoreCase));
                             if (weaponDescriptionStartLine != -1)
                             {
                                 var weaponDescriptionEndLine = lines.FindIndex(weaponDescriptionStartLine + 1, f => f.StartsWith("#") || f.StartsWith('|'));
@@ -269,9 +262,9 @@ namespace StarWars5e.Parser.Processors
                         equipmentList.Add(armor);
 
                         armor.AC = tableLineSplit[3].Trim().RemoveHtmlWhitespace();
-                        armor.StrengthRequirement = Regex.Match(tableLineSplit[5].Trim().RemoveHtmlWhitespace(), @"[,]*\s+?:([sS]trength\s+\d)").Value;
+                        armor.StrengthRequirement = Regex.Match(tableLineSplit[5].Trim().RemoveHtmlWhitespace(), Localization.ECStrengthRequirementPattern).Value;
                         armor.StealthDisadvantage = tableLineSplit[5].Trim().RemoveHtmlWhitespace()
-                            .Contains("Bulky", StringComparison.InvariantCultureIgnoreCase);
+                            .Contains(Localization.Bulky, StringComparison.InvariantCultureIgnoreCase);
 
                         var armorDescriptionStartLine =
                             lines.FindIndex(f =>
@@ -301,29 +294,29 @@ namespace StarWars5e.Parser.Processors
             return Task.FromResult(equipmentList);
         }
 
-        private static WeaponClassification DetermineWeaponClassification(string weaponClassificationLine)
+        private WeaponClassification DetermineWeaponClassification(string weaponClassificationLine)
         {
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Blaster[s]?\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationMartialBlasters, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialBlaster;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Blaster[s]?\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationSimpleBlasters, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleBlaster;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Lightweapon[s]?\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationSimpleLightweapons, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleLightweapon;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Lightweapon[s]?\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationMartialLightweapons, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialLightweapon;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Simple\s*Vibroweapon[s]?\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationSimpleVibroweapons, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.SimpleVibroweapon;
             }
-            if (Regex.IsMatch(weaponClassificationLine, @"_\s*Martial\s*Vibroweapon[s]?\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationMartialVibroweapons, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialVibroweapon;
             }
@@ -331,61 +324,61 @@ namespace StarWars5e.Parser.Processors
             return WeaponClassification.Unknown;
         }
 
-        private static EquipmentCategory DetermineEquipmentCategory(string equipmentCategoryLine)
+        private EquipmentCategory DetermineEquipmentCategory(string equipmentCategoryLine)
         {
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Utilities\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationUtilities, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Utility;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Weapon\s*and\s*Armor\s*Accessories\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationWeaponAndArmorAccessories, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.WeaponOrArmorAccessory;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Ammunition\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationAmmunition, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Ammunition;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Clothing\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationClothing, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Clothing;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Communications\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationCommunication, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Communications;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Data\s*Recording\s*and\s*Storage\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationDataRecordingAndStorage, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.DataRecordingAndStorage;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Explosives\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationExplosives, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Explosive;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Life\s*Support\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationLifeSupport, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.LifeSupport;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Medical\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationMedical, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Medical;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Storage\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationStorage, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Storage;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Artisan's\s*tools\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationArtisansTools, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Tool;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Gaming\s*set\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationGamingSet, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.GamingSet;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Musical\s*instrument\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationMusicalInstrument, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.MusicalInstrument;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, @"_\s*Specialist's\s*kit\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationSpecialistsKit, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Kit;
             }
@@ -393,21 +386,21 @@ namespace StarWars5e.Parser.Processors
             return EquipmentCategory.Unknown;
         }
 
-        private static ArmorClassification DetermineArmorClassification(string armorClassificationLine)
+        private ArmorClassification DetermineArmorClassification(string armorClassificationLine)
         {
-            if (Regex.IsMatch(armorClassificationLine, @"_\s*Light\s*Armor\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(armorClassificationLine, Localization.ECClassificationLightArmor, RegexOptions.IgnoreCase))
             {
                 return ArmorClassification.Light;
             }
-            if (Regex.IsMatch(armorClassificationLine, @"_\s*Medium\s*Armor\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(armorClassificationLine, Localization.ECClassificationMediumArmor, RegexOptions.IgnoreCase))
             {
                 return ArmorClassification.Medium;
             }
-            if (Regex.IsMatch(armorClassificationLine, @"_\s*Heavy\s*Armor\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(armorClassificationLine, Localization.ECClassificationHeavyArmor, RegexOptions.IgnoreCase))
             {
                 return ArmorClassification.Heavy;
             }
-            if (Regex.IsMatch(armorClassificationLine, @"_\s*Shield\s*_", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(armorClassificationLine, Localization.ECClassificationShield, RegexOptions.IgnoreCase))
             {
                 return ArmorClassification.Shield;
             }
