@@ -24,16 +24,16 @@ namespace StarWars5e.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Feat>>> Get(Language language = Language.en)
         {
-            List<EnhancedItem> feats;
+            List<Feat> feats;
             try
             {
-                feats = (await _tableStorage.GetAllAsync<EnhancedItem>($"feats{language}")).ToList();
+                feats = (await _tableStorage.GetAllAsync<Feat>($"feats{language}")).ToList();
             }
             catch (StorageException e)
             {
                 if (e.Message == "Not Found")
                 {
-                    feats = (await _tableStorage.GetAllAsync<EnhancedItem>($"feats{Language.en}")).ToList();
+                    feats = (await _tableStorage.GetAllAsync<Feat>($"feats{Language.en}")).ToList();
                     return Ok(feats);
                 }
                 throw;
