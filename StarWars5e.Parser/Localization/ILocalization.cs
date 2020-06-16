@@ -186,6 +186,7 @@ namespace StarWars5e.Parser.Localization
         public string PlayersHandbookChangelog { get; }
         public string WeaponProperties { get; }
         public string ArmorProperties { get; }
+        public string Fighter { get; }
         #endregion
 
         #region WretchedHivesManager

@@ -242,10 +242,16 @@ namespace StarWars5e.Parser.Processors.PHB
                 archetypeStartingLines =
                     classArchetypeLines.FindAll(c => c.StartsWith("## ") && c.Contains(Localization.Pursuit));
             }
-            
-            foreach (var archetypeStartingLine in archetypeStartingLines)
+
+            for (var i = 0; i < archetypeStartingLines.Count; i++)
             {
-                var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeStartingLine);
+                var nextArchetype = string.Empty;
+
+                if (i != archetypeStartingLines.Count - 1)
+                {
+                    nextArchetype = archetypeStartingLines[i + 1];
+                }
+                var archetypeLines = GetArchetypeLines(classArchetypeLines, archetypeStartingLines[i], nextArchetype);
 
                 archetypes.Add(ParseArchetype(archetypeLines, starWarsClass, contentType));
             }
@@ -253,15 +259,20 @@ namespace StarWars5e.Parser.Processors.PHB
             return archetypes;
         }
 
-        private static List<string> GetArchetypeLines(List<string> lines, string archetypeStartLine)
+        private List<string> GetArchetypeLines(List<string> classArchetypeLines, string archetypeStartLine, string nextArchetype)
         {
-            var archetypeStartLineIndex = lines.FindIndex(f => f.Contains(archetypeStartLine));
-            var archetypeEndLine = lines.FindIndex(archetypeStartLineIndex + 1,
-                f => f.StartsWith("## "));
-            var archetypesLines = lines.Skip(archetypeStartLineIndex).ToList();
+            var archetypeStartLineIndex = classArchetypeLines.FindIndex(f => f.Contains(archetypeStartLine));
+
+            var archetypeEndLine = -1;
+            if (!string.IsNullOrWhiteSpace(nextArchetype))
+            {
+                archetypeEndLine = classArchetypeLines.FindIndex(archetypeStartLineIndex + 1, f => f == nextArchetype);
+            }
+
+            var archetypesLines = classArchetypeLines.Skip(archetypeStartLineIndex).ToList();
             if (archetypeEndLine != -1)
             {
-                archetypesLines = lines.Skip(archetypeStartLineIndex)
+                archetypesLines = classArchetypeLines.Skip(archetypeStartLineIndex)
                     .Take(archetypeEndLine - archetypeStartLineIndex).ToList();
             }
 

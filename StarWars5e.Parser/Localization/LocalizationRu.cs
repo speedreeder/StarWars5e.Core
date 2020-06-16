@@ -997,6 +997,8 @@ namespace StarWars5e.Parser.Localization
 
         public string SOTGVariantSpaceStations => throw new System.NotImplementedException();
 
+        public string Fighter => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

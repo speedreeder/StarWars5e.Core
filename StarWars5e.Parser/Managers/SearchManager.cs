@@ -24,27 +24,14 @@ namespace StarWars5e.Parser.Managers
         public async Task Upload()
         {
             var existingSearchTerms = (await _tableStorage.GetAllAsync<GlobalSearchTerm>("searchTerms")).ToList();
-            //foreach (var existingSearchTerm in existingSearchTerms.Where(e => !e.IsDeleted))
-            //{
-            //    existingSearchTerm.IsDeleted = true;
-            //}
+
+            var i = 1;
             Parallel.ForEach(existingSearchTerms, new ParallelOptions{ MaxDegreeOfParallelism = Environment.ProcessorCount}, async existingSearchTerm =>
             {
                 await _tableStorage.DeleteAsync("searchTerms", existingSearchTerm);
-
+                Console.WriteLine($"Deleted {i} of {existingSearchTerms.Count} existing search terms.");
+                i++;
             });
-
-            foreach (var existingSearchTerm in existingSearchTerms)
-            {
-            }
-
-            //await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
-            //    existingSearchTerms.Where(e => e.PartitionKey == ContentType.ExpandedContent.ToString()),
-            //    new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
-
-            //await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
-            //    existingSearchTerms.Where(e => e.PartitionKey == ContentType.Core.ToString()),
-            //    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             foreach (var globalSearchTerm in _globalSearchTermRepository.SearchTerms)
             {
