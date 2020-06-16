@@ -79,13 +79,13 @@ namespace StarWars5e.Parser.Processors
                         var flavorTableDieType = Regex.Match(backgroundLines[flavorTableLinesStart], @"\d+").Value;
                         var flavorTableLinesEnd = backgroundLines.FindIndex(flavorTableLinesStart, f => f.StartsWith($"|{flavorTableDieType}"));
                         var flavorTableLines = backgroundLines.Skip(flavorTableLinesStart).Take(flavorTableLinesEnd - flavorTableLinesStart + 1)
-                            .Where(f => Regex.IsMatch(f, @"^\|\d"));
+                            .Where(f => Regex.IsMatch(f, @"^\|\d+"));
 
                         background.FlavorOptions = flavorTableLines
                             .Select(f => new BackgroundOption
                             {
                                 Name = f.Split('|')[2].Trim(),
-                                Roll = int.Parse(Regex.Match(f, @"\d").Value)
+                                Roll = int.Parse(Regex.Match(f, @"\d+").Value)
                             }).ToList();
                     }
                 }

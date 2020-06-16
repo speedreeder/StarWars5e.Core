@@ -30,7 +30,7 @@ namespace StarWars5e.Parser.Processors
 
             for (var i = 0; i < lines.Count; i++)
             {
-                if (!lines[i].StartsWith("> ## ") && !lines[i].StartsWith(">## ")) continue;
+                if (!Regex.IsMatch(lines[i], @"^>\s*##\s+")) continue;
                 
                 var speciesEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("> ## ") || f.StartsWith(">## "));
                 var speciesLines = lines.Skip(i).CleanListOfStrings().ToList();
@@ -47,7 +47,7 @@ namespace StarWars5e.Parser.Processors
 
         public Species ParseSpecies(List<string> speciesLines, ContentType contentType)
         {
-            var name = speciesLines.Find(f => f.StartsWith("> ## ") || f.StartsWith(">## ")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
+            var name = speciesLines.Find(f => Regex.IsMatch(f, @"^>\s*##\s+")).Split("## ")[1].Trim().RemoveMarkdownCharacters();
             try
             {
                 var species = new Species
@@ -302,7 +302,7 @@ namespace StarWars5e.Parser.Processors
                     }
                 }
 
-                species.ImageUrls = _speciesImageUrlLus.Where(s => s.Specie == name).Select(s => s.Url).ToList();
+                species.ImageUrls = _speciesImageUrlLus.Where(s => s.Specie.Equals(name, StringComparison.InvariantCultureIgnoreCase)).Select(s => s.Url).ToList();
 
                 return species;
             }
