@@ -1,7 +1,9 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
+using StarWars5e.Parser.Localization;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -10,28 +12,44 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
+        private readonly ILocalization _localization;
 
-        public SearchManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository)
+        public SearchManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
+            _localization = localization;
         }
 
         public async Task Upload()
         {
             var existingSearchTerms = (await _tableStorage.GetAllAsync<GlobalSearchTerm>("searchTerms")).ToList();
-            foreach (var existingSearchTerm in existingSearchTerms.Where(e => !e.IsDeleted))
+            //foreach (var existingSearchTerm in existingSearchTerms.Where(e => !e.IsDeleted))
+            //{
+            //    existingSearchTerm.IsDeleted = true;
+            //}
+            Parallel.ForEach(existingSearchTerms, new ParallelOptions{ MaxDegreeOfParallelism = Environment.ProcessorCount}, async existingSearchTerm =>
             {
-                existingSearchTerm.IsDeleted = true;
+                await _tableStorage.DeleteAsync("searchTerms", existingSearchTerm);
+
+            });
+
+            foreach (var existingSearchTerm in existingSearchTerms)
+            {
             }
 
-            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
-                existingSearchTerms.Where(e => e.PartitionKey == ContentType.ExpandedContent.ToString()),
-                new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
+            //await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
+            //    existingSearchTerms.Where(e => e.PartitionKey == ContentType.ExpandedContent.ToString()),
+            //    new BatchOperationOptions {BatchInsertMethod = BatchInsertMethod.InsertOrReplace});
 
-            await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
-                existingSearchTerms.Where(e => e.PartitionKey == ContentType.Core.ToString()),
-                new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            //await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
+            //    existingSearchTerms.Where(e => e.PartitionKey == ContentType.Core.ToString()),
+            //    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+            foreach (var globalSearchTerm in _globalSearchTermRepository.SearchTerms)
+            {
+                globalSearchTerm.LanguageEnum = _localization.Language;
+            }
 
             await _tableStorage.AddBatchAsync<GlobalSearchTerm>("searchTerms",
                 _globalSearchTermRepository.SearchTerms.Where(s =>

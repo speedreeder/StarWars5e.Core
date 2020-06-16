@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Azure.Search;
 using StarWars5e.Api.Interfaces;
+using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 
 namespace StarWars5e.Api.Managers
@@ -16,9 +17,10 @@ namespace StarWars5e.Api.Managers
             _searchIndexClient = searchIndexClient;
         }
 
-        public async Task<IEnumerable<GlobalSearchTerm>> RunGlobalSearch(string searchText)
+        public async Task<IEnumerable<GlobalSearchTerm>> RunGlobalSearch(string searchText, Language language)
         {
-            var results = (await _searchIndexClient.Documents.SearchAsync<GlobalSearchTerm>(searchText)).Results.Select(r => r.Document);
+            var results = (await _searchIndexClient.Documents.SearchAsync<GlobalSearchTerm>(searchText)).Results
+                .Select(r => r.Document).Where(d => d.LanguageEnum == language);
             return results;
         }
     }

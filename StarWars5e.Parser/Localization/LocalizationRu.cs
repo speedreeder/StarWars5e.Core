@@ -399,6 +399,8 @@ namespace StarWars5e.Parser.Localization
 
         public string adventuringgear => throw new System.NotImplementedException();
 
+        public string AdventuringGear => throw new System.NotImplementedException();
+
         public string body => throw new System.NotImplementedException();
 
         public string Feet => throw new System.NotImplementedException();
@@ -948,6 +950,52 @@ namespace StarWars5e.Parser.Localization
         public string Engineering => throw new System.NotImplementedException();
 
         public string Pursuit => throw new System.NotImplementedException();
+
+        public string EnhancedItems => throw new System.NotImplementedException();
+
+        public string Monsters => throw new System.NotImplementedException();
+
+        public string Classes => throw new System.NotImplementedException();
+
+        public string Species => throw new System.NotImplementedException();
+
+        public string Archetypes => throw new System.NotImplementedException();
+
+        public string Backgrounds => throw new System.NotImplementedException();
+
+        public string ForcePowers => throw new System.NotImplementedException();
+
+        public string TechPowers => throw new System.NotImplementedException();
+
+        public string StarshipModifications => throw new System.NotImplementedException();
+
+        public string StarshipEquipment => throw new System.NotImplementedException();
+
+        public string StarshipWeapons => throw new System.NotImplementedException();
+
+        public string Ventures => throw new System.NotImplementedException();
+
+        public string AdditionalVariantRules => throw new System.NotImplementedException();
+
+        public string MonsterManual => throw new System.NotImplementedException();
+
+        public string WretchedHives => throw new System.NotImplementedException();
+
+        public string WretchedHivesChangelog => throw new System.NotImplementedException();
+
+        public string StarshipsOfTheGalaxy => throw new System.NotImplementedException();
+
+        public string StarshipsOfTheGalaxyChangelog => throw new System.NotImplementedException();
+
+        public string PlayersHandbook => throw new System.NotImplementedException();
+
+        public string PlayersHandbookChangelog => throw new System.NotImplementedException();
+
+        public string WeaponProperties => throw new System.NotImplementedException();
+
+        public string ArmorProperties => throw new System.NotImplementedException();
+
+        public string SOTGVariantSpaceStations => throw new System.NotImplementedException();
 
         public string GetDeploymentTableStart(string deploymentName)
         {

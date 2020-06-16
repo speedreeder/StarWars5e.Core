@@ -79,7 +79,7 @@ namespace StarWars5e.Models.Utils
         {
             return Regex.Replace(
                 value,
-                "([A-Z])",
+                "([A-Z][a-z ])",
                 " $1",
                 RegexOptions.Compiled).Trim();
         }

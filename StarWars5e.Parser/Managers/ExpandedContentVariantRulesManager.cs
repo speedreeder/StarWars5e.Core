@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Newtonsoft.Json;
+using StarWars5e.Models.Enums;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
 
@@ -12,12 +13,14 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly CloudBlobContainer _cloudBlobContainer;
         private readonly ExpandedContentVariantRulesProcessor _expandedContentVariantRulesProcessor;
+        private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly List<string> _ecVariantRulesFileName = new List<string> { "ec_variantrules.txt" };
         private readonly ILocalization _localization;
 
-        public ExpandedContentVariantRulesManager(CloudStorageAccount cloudStorageAccount, ILocalization localization)
+        public ExpandedContentVariantRulesManager(CloudStorageAccount cloudStorageAccount, ILocalization localization, GlobalSearchTermRepository globalSearchTermRepository)
         {
             _localization = localization;
+            _globalSearchTermRepository = globalSearchTermRepository;
             _expandedContentVariantRulesProcessor = new ExpandedContentVariantRulesProcessor();
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
@@ -34,6 +37,10 @@ namespace StarWars5e.Parser.Managers
                 var blob = _cloudBlobContainer.GetBlockBlobReference($"{variantRule.ChapterName}.json");
 
                 await blob.UploadTextAsync(json);
+
+                var searchTerm = _globalSearchTermRepository.CreateSearchTerm(variantRule.ChapterName, GlobalSearchTermType.VariantRule,
+                    ContentType.ExpandedContent, $"/rules/variantRules/{variantRule.ChapterName}");
+                _globalSearchTermRepository.SearchTerms.Add(searchTerm);
             }
         }
     }

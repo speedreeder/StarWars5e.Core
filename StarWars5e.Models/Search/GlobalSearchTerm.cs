@@ -15,6 +15,12 @@ namespace StarWars5e.Models.Search
         public string Path { get; set; }
         public string FullName { get; set; }
         public bool IsDeleted { get; set; }
+        public Language LanguageEnum { get; set; }
+        public string Language
+        {
+            get => LanguageEnum.ToString();
+            set => LanguageEnum = Enum.Parse<Language>(value);
+        }
 
         [IsSearchable]
         public string SearchText { get; set; }

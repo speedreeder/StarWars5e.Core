@@ -3,7 +3,7 @@
     public enum GlobalSearchTermType
     {
         None,
-        Rule,
+        PHBRule,
         StarshipRule,
         VariantRule,
         Feat,
@@ -43,6 +43,9 @@
         Book,
         Reference,
         WretchedHivesChapter,
-        EnhancedItem
+        EnhancedItem,
+        ArmorProperty,
+        WHRule,
+        Rule
     }
 }

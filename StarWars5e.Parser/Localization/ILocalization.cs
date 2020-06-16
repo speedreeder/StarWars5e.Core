@@ -68,6 +68,7 @@ namespace StarWars5e.Parser.Localization
         public string legendary { get; }
         public string artifact { get; }
         public string adventuringgear { get; }
+        public string AdventuringGear { get; }
         public string body { get; }
         public string Feet { get; }
         public string Finger { get; }
@@ -163,8 +164,28 @@ namespace StarWars5e.Parser.Localization
         public string Scholar { get; }
         public string Engineering { get; }
         public string Pursuit { get; }
-
-
+        public string EnhancedItems { get; }
+        public string Monsters { get; }
+        public string Classes { get; }
+        public string Species { get; }
+        public string Archetypes { get; }
+        public string Backgrounds { get; }
+        public string ForcePowers { get; }
+        public string TechPowers { get; }
+        public string StarshipModifications { get; }
+        public string StarshipEquipment { get; }
+        public string StarshipWeapons { get; }
+        public string Ventures { get; }
+        public string AdditionalVariantRules { get; }
+        public string MonsterManual { get; }
+        public string WretchedHives { get; }
+        public string WretchedHivesChangelog { get; }
+        public string StarshipsOfTheGalaxy { get; }
+        public string StarshipsOfTheGalaxyChangelog { get; }
+        public string PlayersHandbook { get; }
+        public string PlayersHandbookChangelog { get; }
+        public string WeaponProperties { get; }
+        public string ArmorProperties { get; }
         #endregion
 
         #region WretchedHivesManager
@@ -298,6 +319,7 @@ namespace StarWars5e.Parser.Localization
         public string SOTGVariantStart { get; }
         public string SOTGModificationsStart { get; }
         public string SOTGVenturesStart { get; }
+        public string SOTGVariantSpaceStations { get; }
         #endregion
 
         #region StarshipDeploymentProcessor

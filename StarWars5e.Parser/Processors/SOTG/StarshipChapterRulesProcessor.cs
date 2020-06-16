@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -36,106 +38,169 @@ namespace StarWars5e.Parser.Processors.SOTG
 
             var introLines = lines.Skip(chapter0StartIndex).Take(chapter1StartIndex - chapter0StartIndex)
                 .CleanListOfStrings().ToList();
-            introLines[2] = introLines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(introLines, 0, Localization.SOTGChapter0Title, SectionNames.SOTGChapterZeroSections,
-                ""));
+            if (Localization.Language == Language.en) introLines[2] = introLines[2].Insert(0, "T");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(introLines, 0, Localization.SOTGChapter0Title));
 
             var chapter1Lines = lines.Skip(chapter1StartIndex).Take(chapter2StartIndex - chapter1StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter1Lines[2] = chapter1Lines[2].Insert(0, "Y");
-            chapters.Add(CreateStarshipChapterRules(chapter1Lines, 1, Localization.SOTGChapter1Title,
-                SectionNames.SOTGChapterOneSections, "stepByStep"));
+            if (Localization.Language == Language.en) chapter1Lines[2] = chapter1Lines[2].Insert(0, "Y");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter1Lines, 1, Localization.SOTGChapter1Title,
+                "stepByStep"));
 
             var chapter2EndIndex = lines.FindIndex(chapter2StartIndex, f => f == Localization.SOTGDeploymentsStartLine);
             var chapter2Lines = lines.Skip(chapter2StartIndex).Take(chapter2EndIndex - chapter2StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter2Lines[2] = chapter2Lines[2].Insert(0, "A");
-            chapters.Add(CreateStarshipChapterRules(chapter2Lines, 2, Localization.SOTGChapter2Title, SectionNames.PHBChapterTwoSections,
+            if (Localization.Language == Language.en) chapter2Lines[2] = chapter2Lines[2].Insert(0, "A");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter2Lines, 2, Localization.SOTGChapter2Title,
                 "deployments"));
 
             var chapter3EndIndex = lines.FindIndex(chapter3StartIndex, f => f == Localization.SOTGShipSizeStartLine);
             var chapter3Lines = lines.Skip(chapter3StartIndex).Take(chapter3EndIndex - chapter3StartIndex)
                 .CleanListOfStrings().ToList();
-            var variantStart = lines.FindIndex(chapter3StartIndex, f => f == "## Variant: Space Stations");
+            var variantStart = lines.FindIndex(chapter3StartIndex, f => f == Localization.SOTGVariantSpaceStations);
             var variantLines = lines.Skip(variantStart).Take(chapter4StartIndex - variantStart).CleanListOfStrings().ToList();
             chapter3Lines.AddRange(variantLines);
-            chapter3Lines[2] = chapter3Lines[2].Insert(0, "C");
-            chapters.Add(CreateStarshipChapterRules(chapter3Lines, 3, Localization.SOTGChapter3Title,
-                SectionNames.SOTGChapterThreeSections, "starshipSizes"));
+            if (Localization.Language == Language.en) chapter3Lines[2] = chapter3Lines[2].Insert(0, "C");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter3Lines, 3, Localization.SOTGChapter3Title,
+                "starshipSizes"));
 
             var chapter4EndIndex = lines.FindIndex(chapter4StartIndex, f => f == Localization.SOTGModificationsStart);
             var chapter4Lines = lines.Skip(chapter4StartIndex).Take(chapter4EndIndex - chapter4StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter4Lines[2] = chapter4Lines[2].Insert(0, "A");
-            chapters.Add(CreateStarshipChapterRules(chapter4Lines, 4, Localization.SOTGChapter4Title,
-                SectionNames.SOTGChapterFourSections, "modifications"));
+            if (Localization.Language == Language.en) chapter4Lines[2] = chapter4Lines[2].Insert(0, "A");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter4Lines, 4, Localization.SOTGChapter4Title,
+                "modifications"));
 
             var chapter5Lines = lines.Skip(chapter5StartIndex).Take(chapter6StartIndex - chapter5StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(chapter5Lines, 5, Localization.SOTGChapter5Title, SectionNames.SOTGChapterFiveSections,
+            if (Localization.Language == Language.en) chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter5Lines, 5, Localization.SOTGChapter5Title,
                 "equipment"));
 
             var chapter6EndIndex = lines.FindIndex(lines.FindIndex(chapter6StartIndex, f => f == Localization.SOTGVenturesStart),
                 f => f.StartsWith("### "));
             var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
-            chapters.Add(CreateStarshipChapterRules(chapter6Lines, 6, Localization.SOTGChapter6Title,
-                SectionNames.SOTGChapterSixSections, "customization"));
+            if (Localization.Language == Language.en) chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter6Lines, 6, Localization.SOTGChapter6Title,
+                "customization"));
 
             var chapter7Lines = lines.Skip(chapter7StartIndex).Take(chapter8StartIndex - chapter7StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter7Lines[2] = chapter7Lines[2].Insert(0, "S");
-            chapters.Add(CreateStarshipChapterRules(chapter7Lines, 7, Localization.SOTGChapter7Title,
-                SectionNames.SOTGChapterSevenSections, "abilityScores"));
+            if (Localization.Language == Language.en) chapter7Lines[2] = chapter7Lines[2].Insert(0, "S");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter7Lines, 7, Localization.SOTGChapter7Title,
+                "abilityScores"));
 
             var chapter8Lines = lines.Skip(chapter8StartIndex).Take(chapter9StartIndex - chapter8StartIndex)
                 .CleanListOfStrings().ToList();
-            chapter8Lines[2] = chapter8Lines[2].Insert(0, "D");
-            chapters.Add(CreateStarshipChapterRules(chapter8Lines, 8, Localization.SOTGChapter8Title,
-                SectionNames.SOTGChapterEightSections, "adventuring"));
+            if (Localization.Language == Language.en) chapter8Lines[2] = chapter8Lines[2].Insert(0, "D");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter8Lines, 8, Localization.SOTGChapter8Title,
+               "adventuring"));
 
             var chapter9Lines = lines.Skip(chapter9StartIndex).Take(chapter10StartIndex - chapter9StartIndex).CleanListOfStrings().ToList();
-            chapter9Lines[2] = chapter9Lines[2].Insert(0, "A");
-            chapters.Add(CreateStarshipChapterRules(chapter9Lines, 9, Localization.SOTGChapter9Title, SectionNames.SOTGChapterNineSections,
+            if (Localization.Language == Language.en) chapter9Lines[2] = chapter9Lines[2].Insert(0, "A");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter9Lines, 9, Localization.SOTGChapter9Title,
                 "combat"));
 
             var chapter10Lines = lines.Skip(chapter10StartIndex).Take(appendixAStartIndex - chapter10StartIndex).CleanListOfStrings().ToList();
-            chapter10Lines[2] = chapter10Lines[2].Insert(0, "C");
-            chapters.Add(CreateStarshipChapterRules(chapter10Lines, 10, Localization.SOTGChapter10Title,
-                SectionNames.SOTGChapterTenSections, "generatingEncounters"));
+            if (Localization.Language == Language.en) chapter10Lines[2] = chapter10Lines[2].Insert(0, "C");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter10Lines, 10, Localization.SOTGChapter10Title,
+                "generatingEncounters"));
 
             var appendixALines = lines.Skip(appendixAStartIndex).Take(changelogStartIndex - appendixAStartIndex).CleanListOfStrings().ToList();
-            appendixALines[2] = appendixALines[2].Insert(0, "C");
-            chapters.Add(CreateStarshipChapterRules(appendixALines, 11, Localization.SOTGAppendixATitle,
-                SectionNames.SOTGAppendixAConditionsSections, "conditions"));
+            if (Localization.Language == Language.en) appendixALines[2] = appendixALines[2].Insert(0, "C");
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(appendixALines, 11, Localization.SOTGAppendixATitle,
+                "conditions"));
 
             var changelogLines = lines.Skip(changelogStartIndex).CleanListOfStrings().ToList();
-            chapters.Add(CreateStarshipChapterRules(changelogLines, 99, Localization.SOTGChangelogTitle));
+            chapters.Add(CreateStarshipChapterRulesAndSearchTerms(changelogLines, 99, Localization.SOTGChangelogTitle));
 
-            foreach (var sotgChapterName in SectionNames.SOTGChapterNames)
+            var sotgSections = new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
-                var searchTerm = _globalSearchTermRepository.CreateSearchTerm(sotgChapterName.name,
-                    sotgChapterName.globalSearchTermType, ContentType.Core, sotgChapterName.pathOverride);
+                ( Localization.StarshipsOfTheGalaxy, GlobalSearchTermType.Book, "/rules/sotg"),
+                ( Localization.StarshipsOfTheGalaxyChangelog, GlobalSearchTermType.Changelog, "/rules/sotg/changelog")
+            };
+
+            foreach (var sotgSection in sotgSections)
+            {
+                var searchTerm = _globalSearchTermRepository.CreateSearchTerm(sotgSection.name,
+                    sotgSection.globalSearchTermType, ContentType.Core, sotgSection.pathOverride);
                 _globalSearchTermRepository.SearchTerms.Add(searchTerm);
             }
 
             return Task.FromResult(chapters);
         }
 
-        private ChapterRules CreateStarshipChapterRules(IEnumerable<string> chapterLines, int chapterNumber,
-            string chapterName,
-            IReadOnlyCollection<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> searchTerms = null,
-            string path = null)
+        private ChapterRules CreateStarshipChapterRulesAndSearchTerms(List<string> chapterLines, int chapterNumber,
+            string chapterName, string path = null)
         {
-            if (searchTerms != null)
+            List<int> headerLineIndexes;
+            var chapterLineIndexesToExclude = new List<int>();
+
+            if (chapterNumber == 11)
             {
-                foreach (var globalSearchTermType in searchTerms)
+                headerLineIndexes = chapterLines.FindAllIndexOf(f => f.StartsWith("#### ") || f.StartsWith("# ")).Except(chapterLineIndexesToExclude)
+                    .ToList();
+
+                foreach (var headerLineIndex in headerLineIndexes)
                 {
-                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(globalSearchTermType.name,
-                        globalSearchTermType.globalSearchTermType, ContentType.Core, chapterName, $"/rules/sotg/{path}",
-                        globalSearchTermType.pathOverride);
+                    var line = chapterLines.ElementAt(headerLineIndex);
+
+                    var searchTermType = GlobalSearchTermType.StarshipCondition;
+
+                    if (line.Equals(chapterLines.First(f => f.StartsWith("# "))))
+                    {
+                        searchTermType = GlobalSearchTermType.StarshipChapter;
+                    }
+
+                    var name = line.RemoveHashtagCharacters().Trim();
+                    var repeatIndexes = chapterLines.FindAllIndexOf(f => Regex.IsMatch(f, $@"^#+\s*{name}"));
+
+                    var instance = repeatIndexes.IndexOf(headerLineIndex) + 1;
+                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(name,
+                        searchTermType, ContentType.Core, chapterName, $"/rules/sotg/{path}",
+                        instance > 1 ? $"{name} {instance}" : null);
+                    _globalSearchTermRepository.SearchTerms.Add(searchTerm);
+                }
+            }
+            else if (chapterNumber != 99)
+            {
+                var weaponPropertiesStartIndex = chapterLines.FindIndex(f => f.StartsWith($"### {Localization.WeaponProperties}"));
+                if (weaponPropertiesStartIndex > 0)
+                {
+                    HandleSearchTermForProperty(chapterLines, weaponPropertiesStartIndex, chapterName,
+                        path, GlobalSearchTermType.StarshipWeaponProperty, chapterLineIndexesToExclude);
+                }
+
+                HandleTables(chapterLines, chapterName, path, chapterLineIndexesToExclude);
+
+                headerLineIndexes = chapterLines
+                    .FindAllIndexOf(f => f.StartsWith('#') || f.StartsWith("> #")).Except(chapterLineIndexesToExclude)
+                    .ToList();
+
+                foreach (var headerLineIndex in headerLineIndexes)
+                {
+                    var line = chapterLines.ElementAt(headerLineIndex);
+
+                    var searchTermType = GlobalSearchTermType.StarshipRule;
+
+                    if (line.Equals(chapterLines.First(f => f.StartsWith("# "))))
+                    {
+                        searchTermType = GlobalSearchTermType.StarshipChapter;
+                    }
+
+                    if (line.Contains("variant:", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        searchTermType = GlobalSearchTermType.VariantRule;
+                    }
+
+                    var name = line.RemoveHashtagCharacters().Trim();
+                    var repeatIndexes = chapterLines.FindAllIndexOf(f => Regex.IsMatch(f, $@"^#+\s*{name}"));
+
+                    var instance = repeatIndexes.IndexOf(headerLineIndex) + 1;
+                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(name,
+                        searchTermType, ContentType.Core, chapterName, $"/rules/sotg/{path}",
+                        instance > 1 ? $"{name} {instance}" : null);
                     _globalSearchTermRepository.SearchTerms.Add(searchTerm);
                 }
             }
@@ -149,6 +214,66 @@ namespace StarWars5e.Parser.Processors.SOTG
                 ContentMarkdown = string.Join("\r\n", chapterLines)
             };
             return chapter;
+        }
+
+        private void HandleSearchTermForProperty(List<string> chapterLines, int startingIndex, string chapterName,
+            string path, GlobalSearchTermType globalSearchTermType, List<int> chapterLineIndexesToExclude)
+        {
+            if (startingIndex > 0)
+            {
+                var endIndex = chapterLines.FindIndex(startingIndex + 1, f => Regex.IsMatch(f, @"^#{1,3}\s+"));
+
+                var indexes = chapterLines
+                    .FindAllIndexOf(f => f.StartsWith("####"))
+                    .Where(i => i > startingIndex && i < (endIndex > 0 ? endIndex : chapterLines.Count - 1))
+                    .Except(chapterLineIndexesToExclude);
+
+                foreach (var index in indexes)
+                {
+                    var line = chapterLines.ElementAt(index);
+                    var repeatIndexes = chapterLines.FindAllIndexOf(f => f == line);
+                    var name = line.RemoveHashtagCharacters().Trim();
+
+                    var instance = repeatIndexes.IndexOf(index) + 1;
+                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(name,
+                        globalSearchTermType, ContentType.Core, chapterName, $"/rules/sotg/{path}",
+                        instance > 1 ? $"{name} {instance}" : null);
+
+                    _globalSearchTermRepository.SearchTerms.Add(searchTerm);
+
+                    chapterLineIndexesToExclude.Add(index);
+                }
+            }
+        }
+
+        private void HandleTables(List<string> chapterLines, string chapterName, string path, List<int> chapterLineIndexesToExclude)
+        {
+            var tableLinesIndexes = chapterLines
+                .FindAllIndexOf(f => f.StartsWith("|")).Where(f =>
+                    chapterLines[f - 1].StartsWith("#") || string.IsNullOrWhiteSpace(chapterLines[f - 1]))
+                .Except(chapterLineIndexesToExclude);
+
+            foreach (var tableLinesIndex in tableLinesIndexes)
+            {
+                var tableHeaderLineIndex = chapterLines.FindLastIndex(tableLinesIndex, f => f.StartsWith("#"));
+
+                if (tableHeaderLineIndex > 0)
+                {
+                    var tableHeaderLine = chapterLines[tableHeaderLineIndex];
+
+                    var name = tableHeaderLine.RemoveHashtagCharacters().Trim();
+                    var repeatIndexes = chapterLines.FindAllIndexOf(f => Regex.IsMatch(f, $@"^#+\s*{name}"));
+
+                    var instance = repeatIndexes.IndexOf(tableHeaderLineIndex) + 1;
+
+                    var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(name,
+                        GlobalSearchTermType.Table, ContentType.Core, chapterName, $"/rules/sotg/{path}",
+                        instance > 1 ? $"{name} {instance}" : null);
+                    _globalSearchTermRepository.SearchTerms.Add(searchTerm);
+
+                    chapterLineIndexesToExclude.Add(tableHeaderLineIndex);
+                }
+            }
         }
     }
 }

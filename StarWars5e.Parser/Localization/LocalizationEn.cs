@@ -68,6 +68,7 @@ namespace StarWars5e.Parser.Localization
         public string legendary => "legendary";
         public string artifact => "artifact";
         public string adventuringgear => "adventuring gear";
+        public string AdventuringGear => "Adventuring Gear";
         public string body => "body";
         public string Feet => "Feet";
         public string Finger => "Finger";
@@ -163,6 +164,28 @@ namespace StarWars5e.Parser.Localization
         public string Scholar => "Scholar";
         public string Engineering => "Engineering";
         public string Pursuit => "Pursuit";
+        public string EnhancedItems => "Enhanced Items";
+        public string Monsters => "Monsters";
+        public string Classes => "Classes";
+        public string Species => "Species";
+        public string Archetypes => "Archetypes";
+        public string Backgrounds => "Backgrounds";
+        public string ForcePowers => "Force Powers";
+        public string TechPowers => "Tech Powers";
+        public string StarshipModifications => "Starship Modifications";
+        public string StarshipEquipment => "Starship Equipment";
+        public string StarshipWeapons => "Starship Weapons";
+        public string Ventures => "Ventures";
+        public string AdditionalVariantRules => "Additional Variant Rules";
+        public string MonsterManual => "Monster Manual";
+        public string WretchedHives => "Wretched Hives";
+        public string WretchedHivesChangelog => "Wretched Hives Changelog";
+        public string StarshipsOfTheGalaxy => "Starships Of The Galaxy";
+        public string StarshipsOfTheGalaxyChangelog => "Starships Of The Galaxy Changelog";
+        public string PlayersHandbook => "Player's Handbook";
+        public string PlayersHandbookChangelog => "Player's Handbook Changelog";
+        public string WeaponProperties => "Weapon Properties";
+        public string ArmorProperties => "Armor Properties";
         #endregion
 
         #region WretchedHivesManager
@@ -368,6 +391,7 @@ namespace StarWars5e.Parser.Localization
         public string SOTGVariantStart => "## Variant: Space Stations";
         public string SOTGModificationsStart => "## Engineering Systems";
         public string SOTGVenturesStart => "## Ventures";
+        public string SOTGVariantSpaceStations => "## Variant: Space Stations";
         #endregion
 
         #region StarshipDeploymentProcessor

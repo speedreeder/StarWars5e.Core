@@ -18,12 +18,19 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
 
+        public List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> MonsterChapterNames;
+
         public MonsterManualManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
             _monsterProcessor = new MonsterProcessor();
+
+            MonsterChapterNames = new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( localization.MonsterManual, GlobalSearchTermType.Book, "/rules/snv")
+            };
         }
 
         public async Task Parse()
@@ -49,7 +56,7 @@ namespace StarWars5e.Parser.Managers
                 Console.WriteLine("Failed to upload monsters.");
             }
 
-            foreach (var monsterChapterName in SectionNames.MonsterChapterNames)
+            foreach (var monsterChapterName in MonsterChapterNames)
             {
                 var monsterChapterSearchTerm = _globalSearchTermRepository.CreateSearchTerm(monsterChapterName.name,
                     monsterChapterName.globalSearchTermType, ContentType.Core, monsterChapterName.pathOverride);

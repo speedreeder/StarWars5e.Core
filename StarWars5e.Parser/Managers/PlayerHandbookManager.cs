@@ -39,6 +39,8 @@ namespace StarWars5e.Parser.Managers
             "PHB.phb_11.txt", "PHB.phb_12.txt", "PHB.phb_aa.txt", "PHB.phb_ab.txt", "PHB.phb_changelog.txt"
         };
 
+        public List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> ReferenceNames;
+
         public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
@@ -56,6 +58,27 @@ namespace StarWars5e.Parser.Managers
 
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference($"player-handbook-rules-{_localization.Language}");
+
+            ReferenceNames = new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
+            {
+                ( localization.Monsters, GlobalSearchTermType.Reference, "/rules/snv/monsters"),
+                ( localization.Classes, GlobalSearchTermType.Reference, "/characters/classes"),
+                ( localization.Species, GlobalSearchTermType.Reference, "/characters/species"),
+                ( localization.Archetypes, GlobalSearchTermType.Reference, "/characters/archetypes"),
+                ( localization.Backgrounds, GlobalSearchTermType.Reference, "/characters/backgrounds"),
+                ( localization.Armor, GlobalSearchTermType.Reference, "/loot/armor"),
+                ( localization.Weapons, GlobalSearchTermType.Reference, "/loot/weapons"),
+                ( localization.AdventuringGear, GlobalSearchTermType.Reference, "/loot/adventuringGear"),
+                ( localization.EnhancedItems, GlobalSearchTermType.Reference, "/loot/enhancedItems"),
+                ( localization.Feats, GlobalSearchTermType.Reference, "/characters/feats"),
+                ( localization.ForcePowers, GlobalSearchTermType.Reference, "/characters/forcePowers"),
+                ( localization.TechPowers, GlobalSearchTermType.Reference, "/characters/techPowers"),
+                ( localization.StarshipModifications, GlobalSearchTermType.Reference, "/starships/modifications"),
+                ( localization.StarshipEquipment, GlobalSearchTermType.Reference, "/starships/equipment"),
+                ( localization.StarshipWeapons, GlobalSearchTermType.Reference, "/starships/weapons"),
+                ( localization.Ventures, GlobalSearchTermType.Reference, "/starships/ventures"),
+                ( localization.AdditionalVariantRules, GlobalSearchTermType.Reference, "/rules/variantRules"),
+            };
         }
 
         public async Task Parse()
@@ -387,22 +410,22 @@ namespace StarWars5e.Parser.Managers
             }
             catch (StorageException)
             {
-                Console.WriteLine("Failed to upload PHB weapon properties.");
+                Console.WriteLine("Failed to upload PHB armor properties.");
             }
 
-            foreach (var referenceName in SectionNames.ReferenceNames)
+            foreach (var referenceName in ReferenceNames)
             {
                 var referenceSearchTerm = _globalSearchTermRepository.CreateSearchTerm(referenceName.name, referenceName.globalSearchTermType, ContentType.Core,
                     referenceName.pathOverride);
                 _globalSearchTermRepository.SearchTerms.Add(referenceSearchTerm);
             }
 
-            foreach (var variantRuleName in SectionNames.VariantRuleNames)
-            {
-                var variantRuleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(variantRuleName.name, variantRuleName.globalSearchTermType, ContentType.Core,
-                    variantRuleName.pathOverride);
-                _globalSearchTermRepository.SearchTerms.Add(variantRuleSearchTerm);
-            }
+            //foreach (var variantRuleName in SectionNames.VariantRuleNames)
+            //{
+            //    var variantRuleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(variantRuleName.name, variantRuleName.globalSearchTermType, ContentType.Core,
+            //        variantRuleName.pathOverride);
+            //    _globalSearchTermRepository.SearchTerms.Add(variantRuleSearchTerm);
+            //}
         }
     }
 }

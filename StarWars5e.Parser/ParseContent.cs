@@ -30,7 +30,7 @@ namespace StarWars5e.Parser
             var extendedContentArchetypesManager =
                 new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentVariantRulesManager =
-                new ExpandedContentVariantRulesManager(cloudStorageAccount, localization);
+                new ExpandedContentVariantRulesManager(cloudStorageAccount, localization, globalSearchTermRepository);
             var extendedContentCustomizationOptionsManager =
                 new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository,
                     localization);
@@ -65,7 +65,7 @@ namespace StarWars5e.Parser
 
             try
             {
-                var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository);
+                var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository, localization);
                 await searchManager.Upload();
             }
             catch (StorageException)
