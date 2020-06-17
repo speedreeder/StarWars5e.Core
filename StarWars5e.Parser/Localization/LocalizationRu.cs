@@ -999,6 +999,12 @@ namespace StarWars5e.Parser.Localization
 
         public string Fighter => throw new System.NotImplementedException();
 
+        public string WHAlcoholicBeveragesStartLine => throw new System.NotImplementedException();
+
+        public string ECClassificationAlcoholicBeverages => throw new System.NotImplementedException();
+
+        public string ECClassificationSpices => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

@@ -23,6 +23,8 @@
         MusicalInstrument,
         Droid,
         Clothing,
-        Kit
+        Kit,
+        AlcoholicBeverage,
+        Spice
     }
 }

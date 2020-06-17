@@ -123,6 +123,8 @@ namespace StarWars5e.Parser.Managers
                         case EquipmentCategory.MusicalInstrument:
                         case EquipmentCategory.Droid:
                         case EquipmentCategory.Clothing:
+                        case EquipmentCategory.AlcoholicBeverage:
+                        case EquipmentCategory.Spice:
                         case EquipmentCategory.Kit:
                             var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(equipment1.Name,
                                 GlobalSearchTermType.AdventuringGear, ContentType.Core,

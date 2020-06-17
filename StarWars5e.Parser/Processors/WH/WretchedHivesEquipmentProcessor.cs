@@ -22,6 +22,7 @@ namespace StarWars5e.Parser.Processors.WH
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHAmmunitionStartLine, true, 2, ContentType.Core));
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHMedicalStartLine, true, 2, ContentType.Core));
 
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHAlcoholicBeveragesStartLine, true, 1, ContentType.Core));
             return equipmentList;
         }
     }

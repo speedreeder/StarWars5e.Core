@@ -479,6 +479,8 @@ namespace StarWars5e.Parser.Localization
         public string WHSpecialistsKitStartLine => "_Specialist's kit_";
         public string WHAmmunitionStartLine => "_Ammunition_";
         public string WHMedicalStartLine => "_Medical_";
+        public string WHAlcoholicBeveragesStartLine => "_Alcoholic beverages_";
+
         #endregion
 
         #region ExpandedContentArchetypeProcessor
@@ -533,6 +535,9 @@ namespace StarWars5e.Parser.Localization
         public string ECClassificationMediumArmor => @"_\s*Medium\s*Armor\s*_";
         public string ECClassificationHeavyArmor => @"_\s*Heavy\s*Armor\s*_";
         public string ECClassificationShield => @"_\s*Shield\s*_";
+        public string ECClassificationAlcoholicBeverages => @"_\s*Alcoholic\s*beverages\s*_";
+        public string ECClassificationSpices => @"_\s*Spices\s*_";
+
         #endregion
 
         #region ExpandedContentForcePowersProcessor

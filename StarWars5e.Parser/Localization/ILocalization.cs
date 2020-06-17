@@ -406,6 +406,7 @@ namespace StarWars5e.Parser.Localization
         public string WHSpecialistsKitStartLine { get; }
         public string WHAmmunitionStartLine { get; }
         public string WHMedicalStartLine { get; }
+        public string WHAlcoholicBeveragesStartLine { get; }
         #endregion
 
         #region ExpandedContentArchetypeProcessor
@@ -458,6 +459,8 @@ namespace StarWars5e.Parser.Localization
         public string ECClassificationMediumArmor{ get; }
         public string ECClassificationHeavyArmor { get; }
         public string ECClassificationShield { get; }
+        public string ECClassificationAlcoholicBeverages { get; }
+        public string ECClassificationSpices { get; }
         #endregion
 
         #region ExpandedContentForcePowersProcessor

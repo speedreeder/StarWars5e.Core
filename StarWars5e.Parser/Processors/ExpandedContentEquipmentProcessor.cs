@@ -382,6 +382,14 @@ namespace StarWars5e.Parser.Processors
             {
                 return EquipmentCategory.Kit;
             }
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationAlcoholicBeverages, RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.AlcoholicBeverage;
+            }
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationSpices, RegexOptions.IgnoreCase))
+            {
+                return EquipmentCategory.Spice;
+            }
 
             return EquipmentCategory.Unknown;
         }
