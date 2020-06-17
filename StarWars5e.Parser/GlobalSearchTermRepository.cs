@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 using StarWars5e.Models.Utils;
@@ -23,6 +24,7 @@ namespace StarWars5e.Parser
                 SearchText = name,
                 IsDeleted = false
             };
+            searchTerm.SearchKey = Regex.Replace(searchTerm.FullName, @"[^a-zA-Z0-9-=_]", "");
             return searchTerm;
         }
 
@@ -51,6 +53,7 @@ namespace StarWars5e.Parser
                 SearchText = name,
                 IsDeleted = false
             };
+            searchTerm.SearchKey = Regex.Replace(searchTerm.FullName, @"[^a-zA-Z0-9-=_]", "");
             return searchTerm;
         }
 

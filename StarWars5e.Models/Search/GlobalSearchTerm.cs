@@ -24,5 +24,6 @@ namespace StarWars5e.Models.Search
 
         [IsSearchable]
         public string SearchText { get; set; }
+        public string SearchKey { get; set; }
     }
 }
