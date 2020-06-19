@@ -189,7 +189,7 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Armoring;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.armor))
+                    else if (typeSplit.ToLower().Contains($"**{Localization.armor}**"))
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.Armor;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.anyheavy))
@@ -417,7 +417,7 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyCore;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.shield))
+                    else if (typeSplit.ToLower().Contains($"**{Localization.shield}**"))
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.Shield;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.heavy))
@@ -441,7 +441,7 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.EnhancedShieldTypeEnum = EnhancedShieldType.Specific;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.weapon))
+                    else if (typeSplit.ToLower().Contains($"**{Localization.weapon}**"))
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.Weapon;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.anyblaster))
