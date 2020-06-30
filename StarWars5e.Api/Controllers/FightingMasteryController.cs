@@ -11,33 +11,33 @@ namespace StarWars5e.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FeatController : ControllerBase
+    public class FightingMasteryController : ControllerBase
     {
         private readonly IAzureTableStorage _tableStorage;
 
-        public FeatController(IAzureTableStorage tableStorage)
+        public FightingMasteryController(IAzureTableStorage tableStorage)
         {
             _tableStorage = tableStorage;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Feat>>> Get(Language language = Language.en)
+        public async Task<ActionResult<IEnumerable<FightingMastery>>> Get(Language language = Language.en)
         {
-            List<Feat> feats;
+            List<FightingMastery> fightingMasteries;
             try
             {
-                feats = (await _tableStorage.GetAllAsync<Feat>($"feats{language}")).ToList();
+                fightingMasteries = (await _tableStorage.GetAllAsync<FightingMastery>($"fightingMasteries{language}")).ToList();
             }
             catch (StorageException e)
             {
                 if (e.Message == "Not Found")
                 {
-                    feats = (await _tableStorage.GetAllAsync<Feat>($"feats{Language.en}")).ToList();
-                    return Ok(feats);
+                    fightingMasteries = (await _tableStorage.GetAllAsync<FightingMastery>($"fightingMasteries{Language.en}")).ToList();
+                    return Ok(fightingMasteries);
                 }
                 throw;
             }
-            return Ok(feats);
+            return Ok(fightingMasteries);
         }
 
         //[HttpPost]

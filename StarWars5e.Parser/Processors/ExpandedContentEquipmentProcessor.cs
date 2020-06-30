@@ -366,7 +366,7 @@ namespace StarWars5e.Parser.Processors
             {
                 return EquipmentCategory.Storage;
             }
-            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationArtisansTools, RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(equipmentCategoryLine, Localization.ECClassificationArtisansImplements, RegexOptions.IgnoreCase))
             {
                 return EquipmentCategory.Tool;
             }

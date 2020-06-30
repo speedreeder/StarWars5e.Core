@@ -1,5 +1,88 @@
 # Changelog
 
+### 6/30/2020
+
+#### Throughout
+- All artisan's tools have been renamed implements in order to differentiate them from the Tools category.
+- Double-Weapon Fighting and Two-Weapon Fighting have been divorced.
+
+#### Chapter 3
+- Superiority dice and quantity scaling for fighter, scholar, and Deadeye scout has been altered to align with similar features.
+- ***Berserker***
+- Berserkers now gain the Fighting Style feature at 3rd level.
+- Updated text of Rage to prevent shenanigans with heavy armor.
+- ***Consular***
+- Hidden Force replaced with Force Affinity. Hidden Force was ultimately a useless feature outside of using the Hunted variant or similar mechanics.
+- ***Engineer***
+- Potent Aptitude scaling changed to align with similar features.
+- Infuse Item now natively scales to a +3 bonus. The engineer enhanced item will be updated with the next release of WH.
+- Astrotech's Techcasting Protocol at-wills no longer scale.
+- ***Fighter***
+- Maneuver's now scale in size natively.
+- New 3rd-level fighter class feature: Fighting Mastery.
+- Updated fighter's 11th level feature to reference Double-Weapon Fighting.
+- Shield Specialist fighter now has a second 3rd-level feature to align with the other archetypes.
+- Tactical Specialist fighter has had some features shuffled.
+- ***Guardian***
+- Clarified that you only get one of the two options available to you from the guardian's Channel the Force ability.
+- Now gain fighting styles at 2nd level, and auras at 3rd level. They can choose freely from the available style options, instead of a restricted choice based on archetype. Fighting style archetype features have been replaced, including expanded content.
+- Force-Empowered Strikes can now use 1+ force points, at 1d8 per point spent, not exceeding Wis/Cha mod.
+- ***Monk***
+- Martial Arts die scaling improved to align with similar features.
+- Unarmored Movement scaling improved to align with similar features.
+- Monks now gain the Fighting Style feature at 3rd level.
+- ***Sentinel***
+- Kinetic Combat die scaling improved to align with similar features.
+- Ideal of the Tranquil has been reduced to half mod (rounded up) instead of full mod.
+- Kinetic Combat feature replaced with Led by the Force to better represent their skill focused nature. Archetypes have seen minor reworks to align.
+
+\columnbreak
+
+<div style='margin-top:46px'></div>
+
+- Force-Empowered Self reworked to trigger on any hit instead of just the former Kinetic Combat hit.
+- Sentinels now gain the Fighting Style feature at 3rd level.
+
+#### Chapter 4
+- Updated the rules for customizing a background to be a little more clear.
+- Updated background feats as part of the new Specialist feat.
+
+#### Chapter 5
+- Wording for double and light weapon properties adjusted. Double weapons now only require two hands to engage in Double-Weapon fighting. All double weapons no longer have the two-handed property.
+
+#### Chapter 6
+- All of the Fighting Mastery feats have been deprecated in conjunction with the new fighter class feature Fighting Mastery. A new feat has been added to allow other classes to access these.
+- Fighting styles and their mastery feats have been drastically overhauled. The number of fighting styles and fighting masteries have been increased from 12 to 16, with an additional 8 in expanded content.
+- As a part of the new Formfighting Style and Mastery, the Lightsaber Forms variant rule has been coopted into the PHB.
+- Force Sensitive and Tech Dabbler feats updated.
+- New Casting Specialist feat replacing Ashla, Bendu, and Bogan Mastery.
+- Weapon feats renamed to Specialist from Mastery.
+- To align with artisan's implements, all specialist's kits have been consolidated to be governed by a single feat: Specialist. 
+- Some feats have been moved to Expanded Content or Wretched Hives.
+
+#### Chapter 8
+- Added a variant for resting in armor.
+
+#### Chapter 9
+- Double-Weapon Fighting and Two-Weapon Fighting have been divorced.
+- Added rules for temporary force and tech points to chapter 9.
+- Added a new Guard action,
+- Added rules for allowing attacks to hit you.
+- One-quarter cover now offers a +2 bonus, and half cover now offers a +3 bonus.
+- Divided shove into trip (prone) and shove (away).
+
+#### Chapter 10
+- Clarified how powers with similar effects interact.
+
+#### Chapter 11
+- Stun and stasis have been tweaked to align with their 5e counterparts.
+
+#### Appendix B
+- Added the force/tech reroll feature to this appendix.
+
+#### And, as always
+- Minor text fixes.
+
 ### 4/14/2020
 
 #### Chapter 3

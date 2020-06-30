@@ -46,6 +46,8 @@
         EnhancedItem,
         ArmorProperty,
         WHRule,
-        Rule
+        Rule,
+        FightingMastery,
+        FightingStyle
     }
 }

@@ -27,15 +27,15 @@ Certain classes—berserker, consular, engineer, fighter, guardian, and scout—have
 |Scout|All blasters, all vibroweapons|
 |Sentinel|Simple vibroweapons, simple lightweapons, bolas, chained dagger, chained lightdagger, electrobaton, electrostaff, guard shoto, lightfist, riot baton, riot shocker, vibroshield, vibroknife, vibrotonfa, war hat, wristblade|
 
-#### Weapons by Mastery Feat
-Many of these weapons are appropriate options for weapon mastery feats. You can see which weapon is governed by which feat below.
+#### Weapons by Specialist Feat
+Many of these weapons are appropriate options for weapon specialist feats. You can see which weapon is governed by which feat below.
 
 <div class='wide' style='position:absolute;bottom:60px;left:75px;width:687px;column-count:3'>
 
-|Weapon|Mastery feat|
+|Weapon|Specialist feat|
 |:--|:--|
-|	ARC caster	|	Heavy Weapons	|
-|	Blaster cannon	|	Heavy Weapons	|
+|	ARC caster	|	Heavy Weapon	|
+|	Blaster cannon	|	Heavy Weapon	|
 |	Bo-rifle	|	Trip Weapon	|
 |	Bolas	|	Trip Weapon	|
 |	Bolt-thrower	|	Rifle	|
@@ -45,7 +45,7 @@ Many of these weapons are appropriate options for weapon mastery feats. You can 
 |	Chained lightdagger	|	Trip Weapon	|
 |	Claymore saber	|	Crushing Weapon	|
 |	Crossguard saber	|	Blade	|
-|	Cycler rifle	|	Heavy Weapons	|
+|	Cycler rifle	|	Heavy Weapon	|
 |	Disruptor pistol	|	Sidearm	|
 |	Disruptor rifle	|	Rifle	|
 |	Dual-phase saber	|	Blade	|
@@ -55,20 +55,20 @@ Many of these weapons are appropriate options for weapon mastery feats. You can 
 |	Electrostaff	|	Trip Weapon	|
 |	Electrovoulge	|	Polearm	|
 |	Energy bow	|	Rifle	|
-|	Grenade launcher	|	Heavy Weapons	|
+|	Grenade launcher	|	Heavy Weapon	|
 
-|Weapon|Mastery feat|
+|Weapon|Specialist feat|
 |:--|:--|
 |	Guard shoto	|	Blade	|
 |	Handwraps	|	Blade	|
-|	Heavy bowcaster	|	Heavy Weapons	|
+|	Heavy bowcaster	|	Heavy Weapon	|
 |	Heavy repeater	|	Rifle	|
-|	Heavy shotgun	|	Heavy Weapons	|
+|	Heavy shotgun	|	Heavy Weapon	|
 |	Heavy slugpistol	|	Sidearm	|
 |	Incinerator pistol	|	Sidearm	|
 |	Incinerator sniper	|	Rifle	|
 |	Ion carbine	|	Rifle	|
-|	IWS	|	Heavy Weapons	|
+|	IWS	|	Heavy Weapon	|
 |	Light repeater	|	Rifle	|
 |	Lightaxe	|	Crushing Weapon	|
 |	Lightbow	|	Rifle	|
@@ -83,18 +83,18 @@ Many of these weapons are appropriate options for weapon mastery feats. You can 
 |	Revolver	|	Sidearm	|
 |	Riot baton	|	Trip Weapon	|
 
-|Weapon|Mastery feat|
+|Weapon|Specialist feat|
 |:--|:--|
 |	Riot shocker	|	Trip Weapon	|
-|	Rocket launcher	|	Heavy Weapons	|
-|	Rotary cannon	|	Heavy Weapons	|
+|	Rocket launcher	|	Heavy Weapon	|
+|	Rotary cannon	|	Heavy Weapon	|
 |	Sith saber	|	Crushing Weapon	|
 |	Slugpistol	|	Sidearm	|
 |	Sonic pistol	|	Sidearm	|
 |	Sonic rifle	|	Rifle	|
 |	Subrepeater	|	Sidearm	|
 |	Tranquilizer rifle	|	Rifle	|
-|	Vapor projector	|	Heavy Weapons	|
+|	Vapor projector	|	Heavy Weapon	|
 |	Vibroclaw	|	Blade	|
 |	Vibroclaymore	|	Crushing Weapon	|
 |	Vibrocutter	|	Crushing Weapon	|
@@ -110,7 +110,6 @@ Many of these weapons are appropriate options for weapon mastery feats. You can 
 
 </div>
 
-
 \pagebreakNum
 
 ## Feats
@@ -120,36 +119,17 @@ You must meet any prerequisite specified in a feat to take that feat. If you eve
 
 The feats presented in this chapter should be considered valid options for background feats.
 
-### Savage Shorty
-_**Prerequisite:** Strength 13, size Small_<br>
-Despite being short of stature, your size has no impact on your strength and virility. You gain the following benefits:
-- Increase your Strength score by 1, to a maximum of 20.
-- Your speed increases by 5 feet.
-- You lose the Undersized special trait.
-
-### Force Guidance
-_**Prerequisite:** The ability to cast force powers_<br>
-You've learned to utilize your gift with the Force in a specific, unique way. You gain the following benefits
-- Increase your Wisdom or Charisma score by 1, to a maximum of 20. 
-- Choose a skill or tool in which you are proficient. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
-
-You can select this feat multiple times. Each time you do so, you must choose a different skill or tool.
-
 ### Augmented Cyborg
 You've experimented with cybernetic augmentations, granting the following benefits: 
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - Choose one cybernetic augmentation of standard rarity from Appendix A. That augmentation is installed and doesn't count against the maximum cybernetic augmentations you can support, but it does count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table in Chapter 7.
 
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-### Shard Modification
-_**Prerequisite:** Class I, II, III, IV, or V Droid_<br>
-You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You lose the Force Insensitive special trait.
-- You can cast the *sense force* force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
+### Climber
+You excel at scaling cliffsides, hills, trees, and general climbing. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20. 
+- You gain a climbing speed equal to your movement speed.
+- You have advantage on ability checks and saving throws to avoid falling off or down while climbing. 
+- You can spend 5 minutes instructing, pointing out handholds, and guiding other creatures before making a climb. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you. Each creature can add a 1d6 to any ability check or saving throw they make for that climb.
 
 ### Customized Droid
 _**Prerequisite:** Class I, II, III, IV, or V Droid_<br>
@@ -157,60 +137,33 @@ You've been customized beyond other droids of the same model, granting the follo
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - Choose one droid customization of standard rarity from Appendix A. That customization is installed and doesn't count against the maximum droid customizations you can support, but it does count towards your maximum parts as shown in the Droid Size Maximum Parts table in Chapter 7.
 
-### Geneticist
+### Mariner
+You've spent an exorbitant amount of time in water. You gain the following benefits:
+- Increase your Constitution by 1, to a maximum of 20.
+- You gain a swimming speed equal to your movement speed.
+- You have advantage on a ability checks and saving throws related to swimming.
+- You can hold your breath for a number of minutes equal to 1 + twice your Constitution modifier.
 
-### Luthier
-- Increased first check made with that instrument by Int mod
+### Prone Combatant
+You've practiced fighting while prone, gaining the following benefits:
+- Increase your Dexterity score by 1, to a maximum of 20.
+- You gain a crawling speed equal to your movement speed.
+- You no longer have disadvantage on ranged attack rolls against targets within 30 feet.
+- When you attempt to hide on your turn while prone, you can opt to not move on that turn. If you avoid moving, you are considered lightly obscured. You lose this benefit if you move or stand up, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden. If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.
 
-### Artillerist
+### Savage Shorty
+_**Prerequisite:** Strength 13, size Small_<br>
+Despite being short of stature, your size has no impact on your strength and virility. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20.
+- Your speed increases by 5 feet.
+- You lose the Undersized special trait.
 
-\pagebreakNum
-
-### Archaeologist
-You are experienced with collecting and classifying gems and relics. You gain the following benefits:
+### Shard Modification
+_**Prerequisite:** Creature type: droid_<br>
+You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:
 - Increase an ability score of your choice by 1, to a maximum of 20.
-- You gain proficiency with the archaeologist kit. If you are already proficient with it, you instead gain expertise with it.
-- As an action, you can touch a relic within 5 feet of you and determine whether the item holds any enhanced properties.
-- You can accurately determine the value of gems you can see and feel. You must have an archaeologist kit to use this benefit.
-
-### Scavenger
-You are skilled at removing and recognizing metals and ores. You gain the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You gain proficiency with the scavenging kit. If you are already proficient with it, you instead gain expertise with it.
-- You can determine the approximate use of an ore or metal you can touch and see. You must have a scavenging kit to use this benefit.
-- Over the course of a short rest, you can hone the edge of a vibroweapon. To use this benefit, you must have a scavenging kit, and the vibroweapon must be within reach. The first time a character deals damage with the vibroweapon before the end of your next short or long rest, and it deals extra damage equal to your Intelligence modifier of the same type it would normally deal.
-
-### Bioanalyst
-You are adept at harvesting and harnessing the useful properties of herbs and other plants. You gain the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You gain proficiency with the bioanalysis kit. If you are already proficient with it, you instead gain expertise with it.
-- As an action, you can inspect a plant within 5 feet of you and determine whether it is edible or poisonous, provided that you can see and smell it.
-- You can apply herbal remedies to help yourself or your allies recover from maladies. Over the course of a short rest, you can remove one poison or disease from a friendly creature within reach. You must have a bioanalysis kit and access to local herbs to use this benefit.
-
-\columnbreak
-
-### Wildcatter
-You are accomplished with producing and refining ammunitions. You gain the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You gain proficiency with the munitions kit. If you are already proficient with it, you instead gain expertise with it.
-- 
-- Over the course of a short rest, you can increase the potency of one specialized power cell or slug cartridge within reach. To use this benefit, you must have a munition's kit, and the ammunition must be within reach. If you do so, the first time you fire the ammunition before the end of your next short or long rest, if it hits, you deal additional damage equal to your Intelligence modifier.
-
-### Dealer
-You are competent with the creation and use if illicit substances. You gain the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You gain proficiency with the spicer's kit. If you are already proficient with it, you instead gain expertise with it.
-- As an action, you can inspect a substance within 5 feet of you and determine what properties it will grant, provided that you can interact with it.
-- Over the course of a short rest, you can hone or reduce the addictive properties of a substance within reach. To use this benefit, you must have a spicer's kit, and the substance must be within reach. If a character consumes the substance before the end of your next short or long rest, they have advantage or disadvantage (your choice) on the Constitution saving throw made to avoid addiction.
-
-### Brewmaster
-You are talented at brewing and imbibing impairing beverages. You gain the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You gain proficiency with the brewer's kit. If you are already proficient with it, you instead gain expertise with it.
-- 
-- Over the course of a short rest, you can improve the potency of an alcoholic beverage within reach. To use this benefit, you must have a brewer's kit, and the beverage must be within reach. 
-
-\pagebreakNum
+- You lose the Force Insensitive special trait.
+- You can cast the *sense force* force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
 
 ### Tiny Terror
 _**Prerequisite:** Strength 13, size Tiny_<br>
@@ -218,11 +171,4 @@ Despite falling below knee height of other species, your size has less impact on
 - Increase your Strength score by 1, to a maximum of 20.
 - Your speed increases by 5 feet.
 - You lose the Pintsized special trait, and you are no longer limited to +3 when determing your bonus to attack and damasge rolls for weapon attacks using Strength due to the Puny special trait.
-- You gain the Undersized special trait
-
-> ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can’t use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two-hands.
-
-### Feigned Confidence
-You've spent years pretending you know what you're doing, gaining the following benefits:
-- Increase your Charisma score by 1, to a maximum of 20.
-- When you would make an ability check that doesn't add your proficiency bonus, you can first make a DC 15 (Charisma) Deception check. On a success, you can add your proficiency bonus to the check. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
+- You gain the Undersized special trait: ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can’t use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two-hands.

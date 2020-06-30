@@ -13,7 +13,9 @@ namespace StarWars5e.Parser.Managers
     public class ExpandedContentCustomizationOptionsManager
     {
         private readonly ITableStorage _tableStorage;
-        private readonly ExpandedContentCustomizationOptionsProcessor _expandedContentCustomizationOptionsProcessor;
+        private readonly ExpandedContentCustomizationOptionsFeatProcessor _expandedContentCustomizationOptionsFeatProcessor;
+        private readonly ExpandedContentCustomizationOptionsFightingStyleProcessor _expandedContentCustomizationOptionsFightingStyleProcessor;
+        private readonly ExpandedContentCustomizationOptionsFightingMasteryProcessor _expandedContentCustomizationOptionsFightingMasteryProcessor;
         private readonly List<string> _ecCustomizationOptionsFileName = new List<string> { "ec_customization_options.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
@@ -22,7 +24,9 @@ namespace StarWars5e.Parser.Managers
             GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
-            _expandedContentCustomizationOptionsProcessor = new ExpandedContentCustomizationOptionsProcessor();
+            _expandedContentCustomizationOptionsFeatProcessor = new ExpandedContentCustomizationOptionsFeatProcessor();
+            _expandedContentCustomizationOptionsFightingStyleProcessor = new ExpandedContentCustomizationOptionsFightingStyleProcessor();
+            _expandedContentCustomizationOptionsFightingMasteryProcessor = new ExpandedContentCustomizationOptionsFightingMasteryProcessor();
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
         }
@@ -31,7 +35,7 @@ namespace StarWars5e.Parser.Managers
         {
             try
             {
-                var ecFeats = await _expandedContentCustomizationOptionsProcessor.Process(_ecCustomizationOptionsFileName, _localization);
+                var ecFeats = await _expandedContentCustomizationOptionsFeatProcessor.Process(_ecCustomizationOptionsFileName, _localization);
 
                 foreach (var feat in ecFeats)
                 {
@@ -48,6 +52,48 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload EC feats.");
+            }
+
+            try
+            {
+                var ecFightingStyles = await _expandedContentCustomizationOptionsFightingStyleProcessor.Process(_ecCustomizationOptionsFileName, _localization);
+
+                foreach (var fightingStyle in ecFightingStyles)
+                {
+                    fightingStyle.ContentSourceEnum = ContentSource.EC;
+
+                    var fightingStyleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingStyle.Name, GlobalSearchTermType.FightingStyle, ContentType.ExpandedContent,
+                        $"/characters/fightingStyles/?search={fightingStyle.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(fightingStyleSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<FightingStyle>($"fightingStyles{_localization.Language}", ecFightingStyles,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload EC fighting styles.");
+            }
+
+            try
+            {
+                var ecFightingMasteries = await _expandedContentCustomizationOptionsFightingMasteryProcessor.Process(_ecCustomizationOptionsFileName, _localization);
+
+                foreach (var fightingMastery in ecFightingMasteries)
+                {
+                    fightingMastery.ContentSourceEnum = ContentSource.EC;
+
+                    var fightingMasterySearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingMastery.Name, GlobalSearchTermType.FightingMastery, ContentType.ExpandedContent,
+                        $"/characters/fightingMasteries/?search={fightingMastery.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(fightingMasterySearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<FightingStyle>($"fightingMasteries{_localization.Language}", ecFightingMasteries,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload EC fighting masteries.");
             }
         }
     }

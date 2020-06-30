@@ -23,7 +23,7 @@ namespace StarWars5e.Parser.Processors.PHB
                 Localization.PHBArmorAndShieldsTableStart, ContentType.Core));
 
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
-                Localization.PHBArtisansToolsTableStart, true, 1, ContentType.Core));
+                Localization.PHBArtisansImplementsTableStart, true, 1, ContentType.Core));
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines,
                 Localization.PHBAmmunitionTableStart, true, 2, ContentType.Core));
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines,

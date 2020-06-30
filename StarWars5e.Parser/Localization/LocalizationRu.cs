@@ -163,7 +163,7 @@ namespace StarWars5e.Parser.Localization
 
         public string PHBArmorAndShieldsTableStart => throw new System.NotImplementedException();
 
-        public string PHBArtisansToolsTableStart => throw new System.NotImplementedException();
+        public string PHBArtisansImplementsTableStart => throw new System.NotImplementedException();
 
         public string PHBAmmunitionTableStart => throw new System.NotImplementedException();
 
@@ -709,7 +709,7 @@ namespace StarWars5e.Parser.Localization
 
         public string ECClassificationStorage => throw new System.NotImplementedException();
 
-        public string ECClassificationArtisansTools => throw new System.NotImplementedException();
+        public string ECClassificationArtisansImplements => throw new System.NotImplementedException();
 
         public string ECClassificationGamingSet => throw new System.NotImplementedException();
 

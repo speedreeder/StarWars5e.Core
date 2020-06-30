@@ -326,7 +326,7 @@ namespace StarWars5e.Parser.Localization
         public string PHBVibroweaponsTableStart => "##### Vibroweapons";
         public string PHBLightweaponsTableStart => "##### Lightweapons";
         public string PHBArmorAndShieldsTableStart => "##### Armor and Shields";
-        public string PHBArtisansToolsTableStart => "_Artisan's tools_";
+        public string PHBArtisansImplementsTableStart => "_Artisan's implements_";
         public string PHBAmmunitionTableStart => "_Ammunition_";
         public string PHBMedicalTableStart => "_Medical_";
         #endregion
@@ -527,7 +527,7 @@ namespace StarWars5e.Parser.Localization
         public string ECClassificationLifeSupport => @"_\s*Life\s*Support\s*_";
         public string ECClassificationMedical => @"_\s*Medical\s*_";
         public string ECClassificationStorage => @"_\s*Storage\s*_";
-        public string ECClassificationArtisansTools => @"_\s*Artisan's\s*tools\s*_";
+        public string ECClassificationArtisansImplements => @"_\s*Artisan's\s*implements\s*_";
         public string ECClassificationGamingSet => @"_\s*Gaming\s*set\s*_";
         public string ECClassificationMusicalInstrument => @"_\s*Musical\s*instrument\s*_";
         public string ECClassificationSpecialistsKit => @"_\s*Specialist's\s*kit\s*_";

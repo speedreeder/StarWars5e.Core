@@ -148,7 +148,7 @@ Quadanium armor and shields gain the charging 1 property, but also the cumbersom
 Many armors and shield have special properties related to their use, as shown in the Armor table.
 
 #### Absorptive
-When you are wearing armor or wielding a shield with the absorptive property, you ignore damage from weapons that would deal less than the absorptive number.
+When you are wearing armor or wielding a shield with the absorptive property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1.
 
 #### Agile
 While wearing armor or wielding a shield with the agile property, you gain a bonus to Dexterity checks and Dexterity saving throws equal to the agile number, and you gain a bonus to your speed equal to 5 x the agile number.
@@ -293,13 +293,7 @@ When you score a critical hit with a weapon with the disarming property against 
 You have advantage on Charisma (Deception) checks made to hide the nature of a disguised weapon.
 
 #### Disintegrate
-When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a 
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
 #### Disruptive
 When a creature is forced to make a Constitution saving throw to maintain concentration due to taking damage from a weapon with the disruptive property, the DC for the check equals 10 or the full damage taken, whichever number is higher, instead of only half.
@@ -314,7 +308,7 @@ When making an attack with a mighty weapon, you use your choice of your Strength
 Before you make a weapon attack with a weapon with the piercing property, you can choose to suffer a penalty to the attack roll up to the piercing number. If you do so, you gain the same bonus to the next attack roll you make against the same target before the start of your next turn.
 
 #### Rapid
-When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks). On a failed save, the creature takes normal weapon damage, plus an additional amount equal to the weapon's damage dice. If the target is beyond normal range but within long range, it has advantage on the save.
+When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal. If the target is beyond normal range but within long range, it has advantage on the save.
 
 #### Shocking
 When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
@@ -560,11 +554,9 @@ This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally,
 This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Rocket, Plasma
-This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
 
-\columnbreak
 
-<div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	:--:		|
@@ -591,7 +583,7 @@ This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally,
 
 </div>
 
-DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
 
 #### Shocking Cartridge
 A shocking cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
@@ -671,20 +663,6 @@ Underwater respirators are worn over the mouth and lower face. While worn, you c
 #### Water Suit
 Water suits are sealed suits that prevent water from getting in or out. Additionally, while wearing a water suit, you can breath underwater, as the suit filters the water to create breathable oxygen.
 
-### Medical
-
-#### Arm Prosthesis
-This cybernetic augmentation replaces a single arm, forearm, and hand. Rules for installing augmentations can be found in chapter \_\_\_.
-
-#### Eye Prosthesis
-This cybernetic augmentation replaces an eye. Rules for installing augmentations can be found in chapter \_\_\_.
-
-#### Facial Prosthesis
-This cybernetic augmentation replaces all or part of a damaged face. Rules for installing augmentations can be found in chapter \_\_\_.
-
-#### Foot Prosthesis
-This cybernetic augmentation replaces a foot. Rules for installing augmentations can be found in chapter \_\_\_.
-
 \columnbreak
 
 <div class='classTable'>
@@ -709,17 +687,26 @@ This cybernetic augmentation replaces a foot. Rules for installing augmentations
 
 </div>
 
-#### Forearm Prosthesis
-This cybernetic augmentation replaces a forearm and hand. Rules for installing augmentations can be found in chapter \_\_\_.
+### Medical
 
-#### Hand Prosthesis
-This cybernetic augmentation replaces a hand. Rules for installing augmentations can be found in chapter \_\_\_.
+#### Prosthetics
+These cybernetic augmentations don't count against the maximum cybernetic augmentations you can support, but they do count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table. Rules for installing augmentations can be found in chapter 7.
 
-#### Leg Prosthesis
-This cybernetic augmentation replaces a leg and a foot. Rules for installing augmentations can be found in chapter \_\_\_.
+***Arm Prosthesis.*** This cybernetic augmentation replaces a single arm, forearm, and hand. 
 
-#### Torso Prosthesis
-This cybernetic augmentation replaces all or part of a damage torso. Rules for installing augmentations can be found in chapter \_\_\_.
+***Eye Prosthesis.*** This cybernetic augmentation replaces an eye.
+
+***Facial Prosthesis.*** This cybernetic augmentation replaces all or part of a damaged face.
+
+***Foot Prosthesis.*** This cybernetic augmentation replaces a foot. 
+
+***Forearm Prosthesis.*** This cybernetic augmentation replaces a forearm and hand. 
+
+***Hand Prosthesis.*** This cybernetic augmentation replaces a hand. 
+
+***Leg Prosthesis.*** This cybernetic augmentation replaces a leg and a foot. 
+
+***Torso Prosthesis.*** This cybernetic augmentation replaces all or part of a damage torso. 
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -757,7 +744,7 @@ Gravity generators are special devices typically worn on belts that function as 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Storage_	|		|	
-|	&emsp;Camtono     	|	   750 cr	|	  3 lb		|
+|	&emsp;Camtono     	    |	   750 cr	|	  3 lb		|
 |	&emsp;Hovercart     	|	 2,000 cr	|	150 lb		|
 |	&emsp;Smugglepack     	|	   400 cr	|	  6 lb		|
 |	_Utilities_	|		|	
@@ -872,7 +859,7 @@ A shoulder cannon is a weapon mounted on a creature's shoulder with an integrate
 |	&emsp;Leg prosthesis     	    |	 450 cr	|	 24 lb		|
 |	&emsp;Torso prosthesis     	    |	 600 cr	|	 36 lb		|
 |	_Storage_	|		|			|
-|	&emsp;Camtono     	|	   750 cr	|	  3 lb		|
+|	&emsp;Camtono     	            |	   750 cr	|	  3 lb		|
 |	&emsp;Hovercart     	        |	 2,000 cr	|	150 lb	|
 |	&emsp;Smugglepack     	        |	   400 cr	|	  6 lb		|
 |	_Utilities_	|		|	
@@ -902,6 +889,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 |	:--		|	--:	|	--:	|
 |	_Specialist's kit_		|		|		|
 |	&emsp;Audiotech's kit			                |	550 cr	|   7 lb	|
+|	&emsp;Artillerist's kit			                |	275 cr	|  11 lb	|
 |	&emsp;Archaeologist kit							|	125 cr	|	4 lb	|
 |	&emsp;Bioanalysis kit							|	 50 cr	|	3 lb	|
 |	&emsp;Brewer's kit			                    |	200 cr	|	9 lb	|
@@ -911,6 +899,9 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 
 #### Archaeologist Kit
 This kit contains instruments used to carefully collect gems, relics, and other heirlooms. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to classify, collect, and polish gems and relics.
+
+#### Artillerist's Kit
+This kit contains all the necessary equipment to create, repair, and modify turrets. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create, repair, and modify turrets.
 
 #### Bioanalysis Kit
 This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by bioanalysts to harvest and store plants and herbs. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to harvest, identify, or apply plants and herbs.
@@ -973,14 +964,14 @@ Consuming substances regularly also risks becoming addicted to a substance. When
 | &emsp;Tsiraki             |   60 cr  |  1/2 lb  |
 | &emsp;Vayerbok            |   75 cr  |  1/2 lb  |
 |	_Spices_	|		|			|
-| &emsp;Andris              |   75 cr  |  1/2 lb  |
-| &emsp;Cilona              |   60 cr  |  1/2 lb  |
-| &emsp;Giggledust          |   80 cr  |  1/2 lb  |
-| &emsp;Glitterstim         |   95 cr  |  1/2 lb  |
-| &emsp;Karrak              |   90 cr  |  1/2 lb  |
-| &emsp;Muon gold           |   65 cr  |  1/2 lb  |
-| &emsp;Yaladai             |   70 cr  |  1/2 lb  |
-| &emsp;Yarrock             |   85 cr  |  1/2 lb  |
+| &emsp;Andris              |   75 cr  |  1/8 lb  |
+| &emsp;Cilona              |   60 cr  |  1/8 lb  |
+| &emsp;Giggledust          |   80 cr  |  1/8 lb  |
+| &emsp;Glitterstim         |   95 cr  |  1/8 lb  |
+| &emsp;Karrak              |   90 cr  |  1/8 lb  |
+| &emsp;Muon gold           |   65 cr  |  1/8 lb  |
+| &emsp;Yaladai             |   70 cr  |  1/8 lb  |
+| &emsp;Yarrock             |   85 cr  |  1/8 lb  |
 
 If an already addicted creature suffers another effect that causes addiction, its current level of addiction increases by the amount specified in the effect's description.
 

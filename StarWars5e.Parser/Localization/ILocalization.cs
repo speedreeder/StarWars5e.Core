@@ -257,7 +257,7 @@ namespace StarWars5e.Parser.Localization
         public string PHBVibroweaponsTableStart { get; }
         public string PHBLightweaponsTableStart { get; }
         public string PHBArmorAndShieldsTableStart { get; }
-        public string PHBArtisansToolsTableStart { get; }
+        public string PHBArtisansImplementsTableStart { get; }
         public string PHBAmmunitionTableStart { get; }
         public string PHBMedicalTableStart { get; }
         #endregion
@@ -451,7 +451,7 @@ namespace StarWars5e.Parser.Localization
         public string ECClassificationLifeSupport { get; }
         public string ECClassificationMedical { get; }
         public string ECClassificationStorage { get; }
-        public string ECClassificationArtisansTools { get; }
+        public string ECClassificationArtisansImplements { get; }
         public string ECClassificationGamingSet { get; }
         public string ECClassificationMusicalInstrument { get; }
         public string ECClassificationSpecialistsKit { get; }

@@ -81,8 +81,7 @@ namespace StarWars5e.Parser.Processors.PHB
             if (Localization.Language == Language.en) chapter5Lines[2] = chapter5Lines[2].Insert(0, "T");
             chapters.Add(CreateChapterRulesAndSearchTerms(chapter5Lines, 5, Localization.PHBChapter5Title, "equipment"));
 
-            var chapter6EndIndex = lines.FindIndex(chapter6StartIndex, f => f.StartsWith(Localization.PHBFeatsStartLine));
-            var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex)
+            var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter7StartIndex - chapter6StartIndex)
                 .CleanListOfStrings().ToList();
             if (Localization.Language == Language.en) chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
             chapters.Add(CreateChapterRulesAndSearchTerms(chapter6Lines, 6, Localization.PHBChapter6Title, "customization"));

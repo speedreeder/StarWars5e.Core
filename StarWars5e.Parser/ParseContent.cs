@@ -99,12 +99,11 @@ namespace StarWars5e.Parser
                 var dataNames = new List<string>
                 {
                     "MASTERVERSION", "archetypes", "armorProperties", "backgrounds", "classes", "credits",
-                    "enhancedItems", "equipment",
-                    "feats", "features", "monsters", "powers", "referenceTables", "species", "starshipBaseSizes",
-                    "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures",
-                    "weaponProperties",
+                    "enhancedItems", "equipment", "feats", "features", "monsters", "powers", "referenceTables", "species", "starshipBaseSizes",
+                    "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures", "weaponProperties",
                     "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules",
-                    "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU"
+                    "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU", "fightingStyle",
+                    "fightingMastery"
                 };
                 var dataVersions = dataNames.Select(d => new DataVersion
                 {
