@@ -211,7 +211,7 @@ namespace StarWars5e.Parser.Managers
             }
             catch (StorageException)
             {
-                Console.WriteLine("Failed to upload PHB feats.");
+                Console.WriteLine("Failed to upload WH feats.");
             }
         }
     }

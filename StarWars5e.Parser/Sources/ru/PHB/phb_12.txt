@@ -353,7 +353,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 minute
 
-You empower a blaster weapon you are holding. For the duration, you can reload the weapon once per turn without using an action, and as a bonus action on each of your turns you can make one attack with the weapon loaded with the power cell. 
+You empower a blaster weapon you are holding. For the duration, you can reload the weapon once per turn without using an action, and as a bonus action on each of your turns you can make one attack with the weapon.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
 
@@ -484,7 +484,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous 
 
-A emit a burst of cold energy at a creature within range. Make a ranged tech attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
+You emit a burst of cold energy at a creature within range. Make a ranged tech attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
 
 The power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
@@ -720,7 +720,7 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous
 
-Lightning springs from you to deliver a shock to a creature you try to touch. Make a melee tech attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
+Lightning springs from you to deliver a shock to a creature you try to touch. Make a melee tech attack against the target. You have advantage on the attack roll if the target is made of metal or wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
 
 This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
@@ -857,9 +857,9 @@ For the duration, as long as you are on the same planet as the destination, you 
 #### Firestorm
 *6th-level tech power*
 ___
-- **Casting Time**: 1 action
-- **Range**: 60 feet
-- **Duration**: Instantaneous
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Instantaneous
 
 Choose a point on the ground within range, incinerating everything in a 15-foot radius. All creatures must make a Dexterity saving throw, taking 8d8 fire damage on a failure or half as much on a success. All large or smaller creatures are pushed to the edge of the power's radius. You may choose one creature to be at the very center of the firestorm, if you do so that creature has disadvantage on its saving throw and is knocked prone on a failure.
 
@@ -1095,7 +1095,7 @@ ___
 - **Range:** 120 feet
 - **Duration:** Instantaneous 
 
-You lock on to a target within range and expel a series of three small explosives. Each explosive hits a creature of your choice that you can see within range. An explosive deals 1d4 + 1 fire damage to its target. The explosives all strike simultaneously, and you can direct them to hit one creature or several.
+You lock on to one or more targets within range and expel a series of three small explosives. Each explosive hits a creature of your choice that you can see within range. An explosive deals 1d4 + 1 fire damage to its target. The explosives all strike simultaneously, and you can direct them to hit one creature or several.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the power creates one more explosive for each slot level above 1st.
 
@@ -1974,7 +1974,7 @@ _1st-level tech power_
 ___
 - **Casting Time:** 1 action
 - **Range:** 30 feet
-- **Duration:** Concentration, up 1 minute
+- **Duration:** Concentration, up to 1 minute
 
 Up to three creatures of your choice that you can see within range must make Dexterity saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
@@ -2072,7 +2072,7 @@ ___
 - **Range:** 90 feet
 - **Duration:** Concentration, up to 1 hour
 
-You choose a creature you can see within range and mark it as your quarry. Until the power ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, the target gains no benefit from half cover and three-quarters cover against you, and if the target is invisible, you can see it as if it were visible. If the target drops to 0 hit points before this power ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
+You choose a creature you can see within range and mark it as your quarry. Until the power ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, the target gains no benefit from one-quarter, half, and three-quarters cover against you, and if the target is invisible, you can see it as if it were visible. If the target drops to 0 hit points before this power ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
 
 \columnbreak
 

@@ -82,21 +82,21 @@ A list of the most commonly spoken languages of *Star Wars* can be found below i
 |	Bith	|
 |	Bothese	|
 |	Cheunh	|
+|	Dosh	|
 |	Durese	|
 |	Galactic Basic	|
 |	Huttese	|
 |	Jawaese	|
-|	Kel Dor	|
 
 ||
 |:--:|
+|	Kel Dor	|
 |	Mon Cal	|
 |	Rodese	|
+|	Shyriiwook	|
 |	Sith	|
 |	Togruti	|
-|	Dosh	|
 |	Twi'leki	|
-|	Shyriiwook	|
 |	Zabraki	|
 
 </div>
@@ -182,7 +182,7 @@ Each background gives a character a starting feat. Feats are described in chapte
 A background contains suggested personal characteristics based on your background. You can pick characteristics, roll dice to determine them randomly, or use the suggestions as inspiration for characteristics of your own creation.
 
 ### Customizing a Background
-You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend credits, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; one ideal, one bond, and one flaw. If you can't find a&nbsp;&nbsp;&nbsp; feature that matches your desired background, work&nbsp;&nbsp; with your GM to create<br> one.
+You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, a total of two tool proficiencies or languages, and a background feat from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend credits, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits, &nbsp;&emsp;&emsp;one ideal, one bond, and one flaw. If you can't find a &nbsp;&nbsp;&nbsp;feature that matches your desired background, work &nbsp;&nbsp;&nbsp;with your GM to create one.
 
 <img src='https://www.gmbinder.com/images/fCleZ2B.png' style='position:absolute;bottom:-30px;right:0px;width:855px;transform:scaleX(-1);z-index:1000;' />
 
@@ -295,10 +295,10 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Demolitionist|
-|6|Bypasser|
-|7|Slicer|
-|8|Linguist|
+|5|Specialist|
+|6|Linguist|
+|7|Alert|
+|8|Athlete|
 
 </div>
 
@@ -499,7 +499,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Master of Disguise|
+|5|Specialist|
 |6|Entertainer|
 |7|Practiced|
 |8|Actor|
@@ -676,7 +676,7 @@ As a further embodiment of the experience and training of your background, you c
 |5|Linguist|
 |6|Crafter|
 |7|Healer|
-|8|Force Sensitive|
+|8|Force-Sensitive|
 
 </div>
 
@@ -733,7 +733,7 @@ Jedi are shaped by their experience in their temple. Their study of the history 
 You are a child of Mandalore. As a member of the most renowned warrior culture in history, your people are known for being strong and hardy. Mandalorian culture is built around the honor and glory that come from victory in battle.
 ___
 - **Skill Proficiencies:** Choose two from Athletics, Intimidation, Piloting, and Survival
-- **Tool Proficiencies:** One set of artisan's tools
+- **Tool Proficiencies:** One set of artisan's implements
 - **Languages:** Mando'a 
 - **Equipment:** A set of traveler's clothes, a trophy from a previous victory, and a pouch containing 200 cr
 
@@ -1039,7 +1039,7 @@ While scientist's are widely knowledgeable, they also choose a focus for their s
 </div>
 
 ### Feature: Scientific Method
-You are well acquainted with your field of research from having read numerous journals or having attended scientific conferences. Concepts that are complicated, involving technical jargon that usually goes over most people's heads, are simple to you. You fully understand concepts, can recall key information, and know how to use equipment related to your field, unless the research was hidden from the public, in which you may only partially understand. You also recognize well-known figures in your field.
+You are well acquainted with your field of research from having read numerous journals or having attended scientific conferences. Concepts that are complicated, involving technical jargon that usually goes over most people's heads, are simple to you. You fully understand concepts, can recall key information, and know how to use equipment related to your field, unless the research was hidden from the public, in which case you may only partially understand it. You also recognize well-known figures in your field.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -1151,7 +1151,7 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Master of Disguise|
+|5|Specialist|
 |6|Force of Personality|
 |7|Snappy Interjection|
 |8|Actor|
@@ -1249,7 +1249,7 @@ As a further embodiment of the experience and training of your background, you c
 |5|Linguist|
 |6|Crafter|
 |7|Force of Personality|
-|8|Force Sensitive|
+|8|Force-Sensitive|
 
 </div>
 
@@ -1327,9 +1327,9 @@ As a further embodiment of the experience and training of your background, you c
 |d8|Feat|
 |:--:|:--:|
 |5|Entertainer|
-|6|Demolitionist|
-|7|Bypasser|
-|8|Slicer|
+|6|Specialist|
+|7|Feigned Confidence|
+|8|Force of Personality|
 
 </div>
 
@@ -1534,9 +1534,9 @@ As a further embodiment of the experience and training of your background, you c
 
 |d8|Feat|
 |:--:|:--:|
-|5|Gourmand|
-|6|Genius Mechanic|
-|7|Entertainer|
+|5|Specialist|
+|6|Entertainer|
+|7|Galvanizing Presence|
 |8|Inspiring Leader|
 
 </div>

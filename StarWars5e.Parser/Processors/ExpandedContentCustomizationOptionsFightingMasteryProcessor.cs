@@ -10,28 +10,29 @@ namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentCustomizationOptionsFightingMasteryProcessor : BaseProcessor<FightingMastery>
     {
-        public override Task<List<FightingMastery>> FindBlocks(List<string> lines)
+        public override Task<List<FightingMastery>> FindBlocks(List<string> lines, ContentType contentType)
         {
             var fightingMasteries = new List<FightingMastery>();
             lines = lines.CleanListOfStrings().ToList();
 
             var fightingMasteriesStart = lines.FindIndex(f => f.StartsWith("## Fighting Masteries"));
-            var fightingMasteriesEndIndex = lines.FindIndex(fightingMasteriesStart + 1, f => f.StartsWith("## "));
+            var fightingMasteriesTempEndIndex = lines.FindIndex(fightingMasteriesStart + 1, f => f.StartsWith("## "));
+            var fightingMasteriesEndIndex = fightingMasteriesTempEndIndex != -1 ? fightingMasteriesTempEndIndex : lines.Count;
 
-            for (var i = fightingMasteriesStart; i < (fightingMasteriesEndIndex != -1 ? fightingMasteriesEndIndex : lines.Count); i++)
+            for (var i = fightingMasteriesStart; i < fightingMasteriesEndIndex; i++)
             {
                 if (!lines[i].StartsWith("#### ")) continue;
 
                 var fightingMasteryStartIndex = i;
                 var fightingMasteryEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("#### "));
 
-                var fightingMasteryLines = lines.Skip(fightingMasteryStartIndex);
-                if (fightingMasteryEndIndex != -1)
+                var fightingMasteryLines = lines.Skip(fightingMasteryStartIndex).Take(fightingMasteriesEndIndex - fightingMasteryStartIndex);
+                if (fightingMasteryEndIndex != -1 && fightingMasteryEndIndex < fightingMasteriesEndIndex)
                 {
                     fightingMasteryLines = lines.Skip(fightingMasteryStartIndex).Take(fightingMasteryEndIndex - fightingMasteryStartIndex);
                 }
 
-                var fightingMastery = ParseFightingMastery(fightingMasteryLines.ToList(), ContentType.ExpandedContent);
+                var fightingMastery = ParseFightingMastery(fightingMasteryLines.ToList(), contentType);
                 fightingMasteries.Add(fightingMastery);
             }
 

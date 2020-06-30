@@ -48,6 +48,7 @@
         WHRule,
         Rule,
         FightingMastery,
-        FightingStyle
+        FightingStyle,
+        LightsaberForm
     }
 }

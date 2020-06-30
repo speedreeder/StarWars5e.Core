@@ -256,7 +256,7 @@ While the weapon is animated, on each of your turns you can use a bonus action t
 
 <div style='margin-top:16px'></div>
 
-&emsp;An enemy can attempt to gain control of the weapon by making a Strength (Athletics) check against your force save DC. On a success, the creature gains control of the weapon and the power ends.
+&emsp;An enemy can attempt to gain control of the weapon by using its action to make a Strength (Athletics) check against your force save DC. On a success, the creature gains control of the weapon and the power ends.
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the weapon's damage increases by 1d8 for every two slot levels above 2nd.
 
@@ -291,7 +291,7 @@ You exude an aura out to 5 feet that boosts the morale and overall battle prowes
 
 Whenever you or a friendly creature within your meditation makes an attack roll or a saving throw, they can roll a d4 and add the number rolled to the attack roll or saving throw. 
 
-Whenever a hostile creature starts enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d4 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
+Whenever a hostile creature enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d4 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -575,7 +575,7 @@ ___
 - **Range:** 120 feet (30-foot cube)
 - **Duration:** Concentration, up to 1 minute 
 
-Choose a point that you can see within range. Each droid must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, the droid takes energy damage equal to twice your forcecasting ability modifier and then repeats this saving throw. On a success, the power ends on the target.
+Choose a point that you can see within range. Each droid or construct  must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, an affected target takes energy damage equal to twice your forcecasting ability modifier and then repeats this saving throw. On a success, the power ends on the target.
 
 #### Disable Droid
 _4th-level light side power_
@@ -585,7 +585,7 @@ ___
 - **Range:** 90 feet (15-foot cube)
 - **Duration:** Concentration, up to 1 minute 
 
-Choose a point that you can see within range. Each droid must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, the droid takes energy damage equal to your forcecasting ability modifier and then repeats this saving throw. On a success, the power ends on the target.
+Choose a point that you can see within range. Each droid or construct must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, an affected creature takes energy damage equal to your forcecasting ability modifier and then repeats this saving throw. On a success, the power ends on the target.
 
 \columnbreak
 
@@ -1272,7 +1272,7 @@ You exude an aura out to 15 feet that boosts the morale and overall battle prowe
 
 Whenever you or a friendly creature within your meditation makes an attack roll or a saving throw, they can roll a d6 and add the number rolled to the attack roll or saving throw. 
 
-Whenever a hostile creature starts enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d6 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
+Whenever a hostile creature enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d6 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
 
 #### Improved Dark Side Tendrils
 _3rd-level dark side power_
@@ -1581,7 +1581,7 @@ You exude an aura out to 30 feet that boosts the morale and overall battle prowe
 
 Whenever you or a friendly creature within your meditation makes an attack roll or a saving throw, they can roll a d8 and add the number rolled to the attack roll or saving throw. 
 
-Whenever a hostile creature starts enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d8 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
+Whenever a hostile creature enters your meditation or starts its turn there, it must make a Charisma saving throw. On a failed save, it must roll a d8 and subtract the number rolled from each attack roll or saving throw it makes before the end of your next turn. On a successful save, it is immune to this power for 1 day.
 
 #### Master Feedback
 _9th-level dark side power_
@@ -1937,6 +1937,8 @@ ___
 
 In response to being attacked, you raise your weapon to attempt to deflect. When you you use this power, the damage you take from the attack is reduced by 1d6. If you reduce the damage to 0, you're wielding a lightweapon or vibroweapon, and the damage is energy or ion, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 20 feet and a long range of 60 feet. On a hit, the target takes the triggering attack's normal damage. 
 
+If you would have resistance to the triggering damage, resistance is applied before the damage reduction.
+
 The power's damage reduction increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
 #### Saber Throw
@@ -1948,9 +1950,11 @@ ___
 
 As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power's range, otherwise the power fails. On a hit, the target takes 1d8 damage of the same type as the weapon's damage. The weapon then immediately returns to your hand.
 
-This power can hit multiple targets when you reach higher levels: two targets at 5th level, three targets at 11th level, and four targets at 17th level. Each target must be within 30 feet of the previous target, you must make a separate attack roll for each target, and the last target must be no further than 30 feet away from you. You can not hit the same target twice in succession.
-
 \columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;This power can hit multiple targets when you reach higher levels: two targets at 5th level, three targets at 11th level, and four targets at 17th level. Each target must be within 30 feet of the previous target, you must make a separate attack roll for each target, and the last target must be no further than 30 feet away from you. You can not hit the same target twice in succession.
 
 #### Saber Ward
 _At-will universal power_
@@ -2168,9 +2172,9 @@ ___
 - **Range:** 90 feet
 - **Duration:** Concentration, up to 1 minute
 
-Choose up to 3 creatures that you can see within range. Each target must succeed on a Wisdom saving throw or be paralyzed for the duration. This power has no effect on droids or constructs. At the end of each of its turns, a target can make another Wisdom saving throw. On a success, the power ends on the target.
+Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs. 
 
-***Force Potency.*** When you cast this power using a force slot of 6th level or higher, you can target an additional creature for each slot level above 5th.
+***Force Potency.*** When you cast this power using a force slot of 6th level or higher, you can target an additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.
 
 #### Stasis Field
 _8th-level light side power_
@@ -2180,7 +2184,7 @@ ___
 - **Range:** 120 feet (30-foot cube)
 - **Duration:** Concentration, up to 1 minute
 
-Choose a target that you can see within range. Each creature must succeed on a Wisdom saving throw or be paralyzed for the duration. This power has no effect on droids or constructs. At the end of each of a target's turns, it can make another Wisdom saving throw. On a success, the power ends on the target.
+Choose a point that you can see within range. Each creature within range of that point must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of a target's turns, it can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs. 
 
 ***Force Potency.*** When you cast this power using a force slot of 9th level, the size of the cube increases to 40 feet.
 
@@ -2191,7 +2195,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Concentration, up to 1 minute 
 
-Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target.
+Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target.
 
 \columnbreak
 
@@ -2202,7 +2206,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Concentration, up to 1 minute 
 
-Choose a droid that you can see within range. The target must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, the droid takes energy damage equal to your forcecasting ability modifier. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.
+Choose a droid or construct that you can see within range. The target must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, the target takes energy damage equal to your forcecasting ability modifier. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.
 
 #### Telekinesis
 _5th-level universal power_

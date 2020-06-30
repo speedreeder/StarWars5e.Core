@@ -64,6 +64,15 @@ The different worlds of *Star Wars* are a vast tapestry made up of many differen
 
 The Armor table shows the cost, weight, and other properties of the common types of armor worn in the worlds of *Star Wars*.
 
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Armor and Shield Proficiency
+Anyone can put on a suit of armor or wield a shield. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can't force- or tech-cast.
+
+If you have proficiency in armor, you have proficiency in the appropriate shield as well.
+
 > ##### Variant: Equipment Sizes
 > In most campaigns, you can use or wear any equipment that you find on your adventures, within the bounds of common sense. For example, a burly wookiee won't fit in a jawa's combat suit, and an ugnaught would be swallowed up in a gamorrean's hooded cloak. 
 >
@@ -71,13 +80,8 @@ The Armor table shows the cost, weight, and other properties of the common types
 >
 > Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armormech, synthweaver, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The GM can either roll 1d4x100 or determine the increase in cost based on the extent of the alterations required.
 
-### Armor and Shield Proficiency
-Anyone can put on a suit of armor or wield a shield. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can't force- or tech-cast.
-
-If you have proficiency in armor, you have proficiency in the appropriate shield as well.
-
 ### Armor Class (AC)
-Armor protects its wearer from attacks. The armor (and shield) you wear determines your Armor Class.
+Armor protects its wearer from attacks. The armor (and shield) you wear determines your armor class (AC).
 
 ### Armor Properties
 Many armors and shield have special properties related to their use, as shown in the Armor table.
@@ -88,14 +92,10 @@ While wearing armor with the bulky property, you have disadvantage on Dexterity 
 #### Obtrusive
 While wielding a shield with the obtrusive property, you have disadvantage on Dexterity (Stealth) checks that rely on sight.
 
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
 #### Strength
 While wearing armor or wielding a shield with the strength property, your speed is reduced by 10 unless you meet the strength requirement. 
 
-<img src='https://www.gmbinder.com/images/KulkaIH.png' style='position:absolute;bottom:15px;right:-294px;width:940px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/KulkaIH.png' style='position:absolute;bottom:15px;left:-254px;width:810px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -139,9 +139,9 @@ Assault armor improved on battle armor, with the benefit of micro-hydraulics tha
 Heavy exoskeletons are virtually the heaviest armor acquirable during the Galactic War. It is ideal for extreme combat situations that involved direct damage and also offers a very good level of protection in sacrifice of dexterity. Some consider it claustrophobic but that was the trade-off for safety.
 
 ### Shields
-Shields come in varying weights, sizes, and materials. Light shields are smaller and mounted to the forearm, while medium and large shields are held in hand.
+Shields come in varying weights, sizes, and materials. Light shields are smaller and mounted to the forearm, while medium and large shields are held in hand. You can only benefit from one shield at a time.
 
-***Physical Shields.*** Physical shields are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier. Physical shields have varying functionality depending on the material from which they are made.
+***Physical Shields.*** Physical shields are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier. 
 
 ***Shield Generators.*** Shield generators are made almost entirely of energy barriers. Medium and large shield generators have a physical handheld component from which the barrier emanates; medium shield generators are orbs that are slightly larger than a fist, while large shield generators project from a large cross.
 
@@ -232,7 +232,7 @@ You can use a weapon that has the ammunition property to make a ranged attack on
 
 \columnbreak
 
-<div style='margin-top:28px'></div>
+<div style='margin-top:26px'></div>
 
 #### Burst
 When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks) or take the weapon's normal damage. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save.
@@ -241,7 +241,7 @@ When you would make a ranged weapon attack with a weapon with the burst property
 A weapon with this special property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. 
 
 #### Double
-A weapon with the double property is optimized for fighting with both ends. A damage value in parentheses appears with the property—the damage when the weapon is used with two-weapon fighting. See the rules for two-weapon fighting in chapter 9.
+This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with Double-Weapon Fighting. See the rules for Double-Weapon Fighting in chapter 9.
 
 #### Finesse
 When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
@@ -256,7 +256,7 @@ When you hit with an attack roll using Strength with this weapon, you deal addit
 You have advantage on Dexterity (Sleight of Hand) checks made to conceal a hidden weapon.
 
 #### Light
-A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. See the rules for two-weapon fighting in chapter 9.
+A light weapon is small and easy to handle, making it ideal for use when engaging in Double- or Two-Weapon Fighting. See the rules for Double- and Two-Weapon Fighting in chapter 9.
 
 #### Luminous
 A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage.
@@ -338,7 +338,7 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;Ion pistol			|  200 cr&nbsp;&nbsp;|1d4 ion			| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
 |&emsp;Ion rifle			|  400 cr&nbsp;&nbsp;|1d6 ion			|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
 |&emsp;Slugthrower 		|  350 cr&nbsp;&nbsp;|1d8 kinetic		|14 lb&nbsp;&nbsp;	|Ammunition (range 100/400), burst 6, reload 12, two-handed|
-|&emsp;Sniper rifle		|  750 cr&nbsp;&nbsp;|1d12 energy		|12 lb&nbsp;&nbsp;	|Ammunition (range 150/600), reload 2, strength 11, two-handed|
+|&emsp;Sniper rifle		|  750 cr&nbsp;&nbsp;|1d12 energy		|12 lb&nbsp;&nbsp;	|Ammunition (range 150/600), reload 2, strength 13, two-handed|
 
 </div>	
 
@@ -357,8 +357,8 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;Lightsaber			|  200 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d8)|
 |&emsp;Shotosaber			|  500 cr&nbsp;&nbsp;|1d6 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
 |	_Martial Lightweapons_	|||||||
-|&emsp;Doublesaber			|1,400 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous, two-handed|
-|&emsp;Doubleshoto			|1,250 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous, two-handed|
+|&emsp;Doublesaber			|1,400 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous|
+|&emsp;Doubleshoto			|1,250 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous|
 |&emsp;Greatsaber			|1,000 cr&nbsp;&nbsp;|2d6 energy		|4 lb&nbsp;&nbsp;|Dexterity 11, luminous, two-handed|
 |&emsp;Lightsaber pike		|  400 cr&nbsp;&nbsp;|1d10 energy		|6 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
 |&emsp;Lightfoil			|  500 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
@@ -382,12 +382,12 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |&emsp;Vibrospear			|  120 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Thrown (range 20/60), versatile (1d8)|
 |	_Martial Vibroweapons_	|||||
 |&emsp;Chakram				|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, returning, thrown (range 30/90)	|
-|&emsp;Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light, two-handed |
-|&emsp;Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse, two-handed |
+|&emsp;Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light|
+|&emsp;Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse |
 |&emsp;Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
 |&emsp;Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, special, thrown (range 15)|
 |&emsp;Techblade			|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, light|
-|&emsp;Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic), two-handed	|
+|&emsp;Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic)	|
 |&emsp;Vibroaxe			|  300 cr&nbsp;&nbsp;|1d10 kinetic		|11 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
 |&emsp;Vibroblade			|  150 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Versatile (1d10)|
 |&emsp;Vibrobaton			|  225 cr&nbsp;&nbsp;|2d4 kinetic		|4 lb&nbsp;&nbsp;|—|
@@ -633,11 +633,11 @@ As an action, you can use the poison in this vial to coat one vibroweapon, one s
 #### Emergency Battery
 All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the kit to stabilize a droid that has 0 hit points, without needing to make an Intelligence (Technology) check.
 
-#### Traumakit
-A common traumakit can be stocked with bacta packs, and contains spray-bandages, bone stabilizers, antiseptics, and other essentials for the treatment of wounds. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. A traumakit can be used to stabilize 5 times before it must be restocked at its original cost.
-
 #### Medpac
 A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As an action, you can use this medpac to restore 2d4+2 hit points to a creature within 5 feet.
+
+#### Repair Kit
+A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore 2d4+2 hit points to a droid or construct within 5 feet.
 
 \columnbreak
 
@@ -652,7 +652,7 @@ A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As 
 |	&emsp;Respirator	            |	 200 cr	|	1 lb	 	|
 |	_Medical_	|		|			|
 |	&emsp;Antitoxkit	            |	 600 cr	|	4 lb		|
-|	&emsp;Basic poison           	|    125 cr	|	1 lb		|
+|	&emsp;Basic poison           	|    125 cr	|	1/2 lb		|
 |	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
 |	&emsp;Traumakit	                |	  50 cr	|	3 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
@@ -665,29 +665,29 @@ A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As 
 
 </div>	
 
-<div style='margin-top:140px'></div>
+<div style='margin-top:100px'></div>
 
-#### Repair Kit
-A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore 2d4+2 hit points to a droid or construct within 5 feet.
+#### Traumakit
+A common traumakit can be stocked with bacta packs, and contains spray-bandages, bone stabilizers, antiseptics, and other essentials for the treatment of wounds. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. A traumakit can be used to stabilize 5 times before it must be restocked at its original cost.
 
 #### Storage Container Capacity				
 |	Container	|	Capacity	|
 |	:--	|	:--	|
 |	Backpack	|	1 cubic foot, 30 pounds of gear	|
-|	Basket	|	2 cubic feet/40 pounds of gear	|
+|	Basket	|	2 cubic feet, 40 pounds of gear	|
 |	Bottle	|	1 1/2 pints liquid	|
-|	Bucket	|	3 gallons lliquid, 1/2 cubic foot solid	|
+|	Bucket	|	3 gallons liquid, 1/2 cubic foot solid	|
 |	Canteen	|	4 pints liquid	|
 |	Crate	|	40 gallons liquid, 4 cubic feet solid	|
 |	Chest	|	12 cubic feet/300 pounds of gear	|
 |	Flask or tankard	|	1 pint liquid	|
 |	Jug or pitcher	|	1 gallon liquid	|
 |	Pot 	|	1 gallon liquid	|
-|	Pouch	|	1/5 cubic foot/6 pounds of good	|
-|	Sack	|	1 cubic foot/30 pounds of gear	|
+|	Pouch	|	1/5 cubic foot, 6 pounds of good	|
+|	Sack	|	1 cubic foot, 30 pounds of gear	|
 |	Vial	|	4 ounces liquid	|
 
-<img src='https://www.gmbinder.com/images/GVHpzCM.png' style='position:absolute;bottom:430px;right:120px;width:230px;' />
+<img src='https://www.gmbinder.com/images/GVHpzCM.png' style='position:absolute;bottom:470px;right:120px;width:230px;z-index:1000' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -887,7 +887,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |:--|--:|--:|
 |	_Medical_	|		|			|
 |	&emsp;Antitoxkit	            |	 600 cr	|	4 lb		|
-|	&emsp;Basic poison           	|    125 cr	|	1 lb		|
+|	&emsp;Basic poison           	|    125 cr	|	1/2 lb		|
 |	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
 |	&emsp;Traumakit	                |	  50 cr	|	3 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
@@ -938,8 +938,8 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 ## Tools
 A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools, which lets you add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. 
 
-#### Artisan's Tools
-These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+#### Artisan's Implements
+These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's implements lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's implements requires a separate proficiency.
 
 #### Biochemist's Kit
 This kit includes all of the necessary components to create and house standard adrenals, medpacs, and stimpacs. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify adrenals, medpacs, and stimpacs. Also, proficiency with this kit is required to create adrenals, medpacs, and stimpacs.
@@ -987,22 +987,22 @@ Slicers used specialized computers and scramble keys, many built by the slicers 
 ##### Tools							
 |	Item		|	Cost	|	Weight	|
 |	:--		|	--:	|	--:	|
-|	_Artisan's tools_		|		|		|
-|	&emsp;Armormech's tools			|	200 cr	|	8 lb	|
-|	&emsp;Armstech's tools			|	250 cr	|	9 lb	|
-|	&emsp;Artificer's tools			|	300 cr	|	5 lb	|
-|	&emsp;Artist's tools			|	100 cr	|	5 lb	|
-|	&emsp;Astrotech's tools			|	400 cr	|  12 lb	|
-|	&emsp;Biotech's tools     		|	450 cr	|	6 lb	|
-|	&emsp;Constructor's tools		|	 100 cr	|	7 lb	|
-|	&emsp;Cybertech's tools			|	500 cr	|  10 lb	|
-|	&emsp;Jeweler's tools		    |	250 cr	|  2 lb	|
-|	&emsp;Surveyor's tools			|	500 cr	|	6 lb	|
-|	&emsp;Synthweaver's tools		|	250 cr	|	2 lb	|
-|	&emsp;Tinker's tools			|	500 cr	|  10 lb	|
+|	_Artisan's implements_		|		|		|
+|	&emsp;Armormech's implements			|	200 cr	|	8 lb	|
+|	&emsp;Armstech's implements			|	250 cr	|	9 lb	|
+|	&emsp;Artificer's implements			|	300 cr	|	5 lb	|
+|	&emsp;Artist's implements			|	100 cr	|	5 lb	|
+|	&emsp;Astrotech's implements			|	400 cr	|  12 lb	|
+|	&emsp;Biotech's implements     		|	450 cr	|	6 lb	|
+|	&emsp;Constructor's implements		|	 100 cr	|	7 lb	|
+|	&emsp;Cybertech's implements			|	500 cr	|  10 lb	|
+|	&emsp;Jeweler's implements		    |	250 cr	|  2 lb	|
+|	&emsp;Surveyor's implements			|	500 cr	|	6 lb	|
+|	&emsp;Synthweaver's implements		|	250 cr	|	2 lb	|
+|	&emsp;Tinker's implements			|	500 cr	|  10 lb	|
 |	_Gaming set_		|		|		|
 |	&emsp;Chance cubes				|	  1 cr	|	  — 	|
-|	&emsp;Djerik set				|	300 cr	|	8 lb	|
+|	&emsp;Dejarik set				|	300 cr	|	8 lb	|
 |	&emsp;Pazaak deck				|	100 cr	|	  —		|
 |	&emsp;Sabacc deck     			|	150 cr	|	  —		|
 |	_Musical instrument_		|		|		|
@@ -1061,7 +1061,7 @@ A merchant may be chartered by an individual or a corporation to deliver goods t
 |  5,000 cr	||	Metal, precious (1 lb)	|
 |  1,500 cr	||	Ore. common (1 ton)	|
 |  2,000 cr	||	Spice, common (1 lb)	|
-|  5,000 cr	||	Spice precious (1 lb)	|
+|  5,000 cr	||	Spice, precious (1 lb)	|
 | 10,000 cr ||	Spice, illicit (1 lb)	|
 
 <img src='https://www.gmbinder.com/images/mZ7inBg.png' style='position:absolute;bottom:32px;right:5px;width:430px' />
@@ -1076,7 +1076,7 @@ One common way to spend wealth is to purchase droids. Some droids are built for 
 |Droid Designation|Cost|
 |:--|--:|
 |3PO Series Protocol Droid|5,500 cr|
-|B1 Battle Droid|1,300 cr|
+|B1-A Battle Droid|1,300 cr|
 |B1-X Battle Droid|2,600 cr|
 |Destroyer Droid|84,000 cr|
 |DUM Series Pit Droid|650 cr|

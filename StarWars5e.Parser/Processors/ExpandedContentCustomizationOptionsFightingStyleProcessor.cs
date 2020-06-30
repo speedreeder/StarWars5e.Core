@@ -10,29 +10,29 @@ namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentCustomizationOptionsFightingStyleProcessor : BaseProcessor<FightingStyle>
     {
-        public override Task<List<FightingStyle>> FindBlocks(List<string> lines)
+        public override Task<List<FightingStyle>> FindBlocks(List<string> lines, ContentType contentType)
         {
             var fightingStyles = new List<FightingStyle>();
             lines = lines.CleanListOfStrings().ToList();
 
-
             var fightingStylesStart = lines.FindIndex(f => f.StartsWith("## Fighting Styles"));
-            var fightingStylesEndIndex = lines.FindIndex(fightingStylesStart + 1, f => f.StartsWith("## "));
+            var fightingStylesTempEndIndex = lines.FindIndex(fightingStylesStart + 1, f => f.StartsWith("## "));
+            var fightingStylesEndIndex = fightingStylesTempEndIndex != -1 ? fightingStylesTempEndIndex : lines.Count;
 
-            for (var i = fightingStylesStart; i < (fightingStylesEndIndex != -1 ? fightingStylesEndIndex : lines.Count); i++)
+            for (var i = fightingStylesStart; i < fightingStylesEndIndex; i++)
             {
                 if (!lines[i].StartsWith("#### ")) continue;
 
                 var fightingStyleStartIndex = i;
                 var fightingStyleEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("#### "));
 
-                var fightingStyleLines = lines.Skip(fightingStyleStartIndex);
-                if (fightingStyleEndIndex != -1)
+                var fightingStyleLines = lines.Skip(fightingStyleStartIndex).Take(fightingStylesEndIndex - fightingStyleStartIndex);
+                if (fightingStyleEndIndex != -1 && fightingStyleEndIndex < fightingStylesEndIndex)
                 {
                     fightingStyleLines = lines.Skip(fightingStyleStartIndex).Take(fightingStyleEndIndex - fightingStyleStartIndex);
                 }
 
-                var fightingStyle = ParseFightingStyle(fightingStyleLines.ToList(), ContentType.ExpandedContent);
+                var fightingStyle = ParseFightingStyle(fightingStyleLines.ToList(), contentType);
                 fightingStyles.Add(fightingStyle);
             }
 

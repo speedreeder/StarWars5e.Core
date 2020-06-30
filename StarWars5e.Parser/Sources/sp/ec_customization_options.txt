@@ -1,5 +1,220 @@
 
 
+## Fighting Styles
+Certain class features or feats offer your choice of fighting style. You can't take a fighting style option more than once, even if you later get to choose again.
+
+You may choose your fighting style from the following options or roll on the table below to determine it randomly.
+
+<div style='column-count:2'>
+
+|d8|Fighting Style|
+|:--:|:--|
+|1|Berserk|
+|2|Covert|
+|3|Disruption|
+|4|Explosives|
+
+|d8|Fighting Style|
+|:--:|:--|
+|5|Formation|
+|6|Gunning|
+|7|Guerrilla|
+|8|Onslaught|
+
+</div>
+
+#### Berserk Style
+You are skilled at returning pain to those who deliver it. You gain the following benefits: 
+- When you deal damage to a creature that includes your Strength modifier, you add twice your Strength modifier if that creature dealt damage to you since the start of your last turn.
+- When you choose to let an attack that would miss you hit you instead, the creature rolls the damage as normal instead of choosing the maximum.
+
+#### Covert Style
+You are skilled at fighting from unseen angles. You gain the following benefits:
+- You can take the Hide action as a bonus action. If you could already take the Hide action as a bonus action, you can instead take it as a reaction on your turn.
+- Creatures you've dealt damage to since the start of your last turn have disadvantage on Wisdom (Perception) checks made to find you.
+
+#### Disruption Style
+Choose one from force- or tech-casting. You are skilled at fighting and interfering with casters of the chosen type. You gain the following benefits:
+- When you force a creature to make a Constitution saving throw to maintain concentration on your turn, and they succeed on the save, you can use your bonus action to force them to reroll the save. They must use the new roll.
+- Once per round, when a hostile creature attempts to cast a power while within 5 feet of you, they must first make a Constitution saving throw as if to maintain concentration (DC = 10 + the power's level). On a failure, the power isn't cast and any points are wasted.
+
+#### Explosives Style
+You are skilled at fighting with explosives. You gain the following benefits:
+- You can throw grenades with your bonus action, instead of your action. If you could already throw grenades as a bonus action, you can instead do so as a reaction on your turn.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+- When a creature rolls a 1 on the saving throw against a charge, grenade, mine, missile, projector cannister, projector tank, or rocket you control, it takes damage as if suffering a critical hit.
+
+#### Formation Style
+You are skilled at fighting with a partner. While an ally is within 5 feet of you, you gain the following benefits:
+- You can take the Guard action as a bonus action. If you could already take the Guard action as a bonus action, you can instead take it as a reaction on your turn.
+- When you move on your turn, you can use a bonus action to allow an ally within 5 feet of you to move with you (no action required by the ally). The ally must end this movement within 5 feet of you, and this movement can't exceed the ally's speed.
+- When you choose to let an attack that would hit a guarded ally hit you instead, the creature rolls the damage as normal instead of choosing the maximum.
+
+#### Guerrilla Style
+You are skilled at maneuvering across the battlefield. You gain the following benefits:
+- You can take the Disengage action as a bonus action. If you could already take the Disengage action as a bonus action, you can instead take it as a reaction on your turn.
+- When you take the Disengage action, you ignore unenhanced difficult terrain, and you have advantage on the first ability check or saving throw to avoid an effect that impairs your movement speed or forces you to move before the start of your next turn.
+
+#### Gunning Style
+You are skilled at using blasters in unique ways. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
+- When a creature rolls a 1 on the saving throw against the burst or rapid property, or a power cell or slug cartridge, that you control, it takes damage as if suffering a critical hit.
+- When you use the burst property of a weapon, you can instead spray a line 20 feet long and 5 feet wide within range with shots. 
+- When you use the rapid property of a weapon, when you roll the weapon's damage dice twice, you can double one set of the weapon's damage dice and forgo the other instead of adding them together.
+
+#### Onslaught Style
+You are skilled at using your momentum to your advantage. You gain the following benefits:
+- You can take the Dash action as a bonus action. If you could already take the Dash action as a bonus action, you can instead take it as a reaction on your turn.
+- When you attempt to trip a creature, instead of making a Strength (Athletics) check, you can instead make an attack roll. If you are wielding your weapon in two hands, you make this attack roll with advantage.
+
+\pagebreak
+
+## Fighting Masteries
+Certain class features or feats offer your choice of fighting mastery. You can't take a fighting mastery option more than once, even if you later get to choose again.
+
+You may choose your fighting mastery from the following options or roll on the table below to determine it randomly.
+
+<div style='column-count:2'>
+
+|d8|Fighting Style|
+|:--:|:--|
+|1|Berserk|
+|2|Covert|
+|3|Disruption|
+|4|Explosives|
+
+|d8|Fighting Style|
+|:--:|:--|
+|5|Formation|
+|6|Gunning|
+|7|Guerrilla|
+|8|Onslaught|
+
+</div>
+
+#### Berserk Mastery
+You've mastered returning pain to those who deliver it, becoming a scourge on the battlefield. You gain the following benefits:
+- When a creature within 5 feet of you deals damage to you with a weapon or unarmed strike, you can use your reaction to make a melee weapon attack or unarmed strike against that creature. On a hit, you deal additional damage equal to your proficiency bonus.
+- When a creature scores a critical hit against you, you have advantage on the first attack you make against that creature before the end of your next turn. If you would already have advantage, you can instead reroll one of the dice once.
+- You have advantage on saving throws that would force you to act against your will, be frightened, or prevent you from attacking a creature.
+
+#### Covert Mastery
+You've mastered fighting from unseen angles, gaining an advantage over your foes. You gain the following benefits:
+- You can try to hide when you are lightly obscured from the creature from which you are hiding.
+- Dim light doesn't impose disadvantage on your Wisdom (Perception) checks that rely on sight.
+- When you are hidden from a creature and miss it with an unarmed strike or weapon attack, making the attack doesn't automatically reveal your position.
+- Once per turn, when you deal damage to a creature with an unarmed strike or weapon attack while hidden from it, you deal additional damage equal to your proficiency bonus.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+#### Disruption Mastery
+Choose one from force- or tech-casting. You've mastered fighting and interfering with casters of the chosen type, confounding their concentration. You gain the following benefits:
+- When a creature within 30 feet of you that you can see casts a power, they provoke an opportunity attack from you.
+- Whenever you force a creature to make a saving throw to maintain concentration, the DC for the saving throw increases by an amount equal to your proficiency bonus.
+- You have advantage on saving throws against powers cast by creatures you can see if you've dealt damage to them since the start of your last turn.
+
+#### Explosives Mastery
+You've mastered fighting with explosives, causing untold destruction. While using charges, grenades, mines, missiles, projector cannisters, projector tanks, or rockets, you gain the following benefits:
+- When determining the save DC of charges, grenades, mines, missiles, projector cannisters, projector tanks, or rockets you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.
+- When using a charge, grenade, mine, missile, projector cannister, projector tank, or rocket, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus.
+- You have advantage on saving throws against charges, grenades, mines, missiles, projector cannisters, projector tanks, or rockets you control.
+
+#### Formation Mastery
+You've mastered fighting with a partner, learning to move and act as a single unit. While an ally is within 5 feet of you, you gain the following benefits:
+- When a creature misses an ally within 5 feet of you with a weapon attack, you can use your reaction to make a weapon attack against that creature without your proficiency bonus.
+- When a creature hits an ally within 5 feet of you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.
+- When you take the Guard action, the guarded ally has advantage on Dexterity saving throws that would affect only them while guarded.
+
+\pagebreak
+
+<div style='margin-top:28px'></div>
+
+#### Guerrilla Mastery
+You've mastered maneuvering across the battlefield, sliding through openings that others might not see. You gain the following benefits:
+- You can move through a hostile creature's space regardless of that creature's size.
+- When you hit a creature with an opportunity attack, you can move up to half your speed (no action required) without provoking opportunity attacks from that creature.
+- Once per turn, when you hit a creature with a weapon attack, another enemy of the creature is within 5 feet of it, and that enemy isn't incapacitated, you can deal additional damage equal to twice your proficiency bonus.
+- When a hostile creature moves to within 5 feet of you, you can use your reaction to Disengage and move up to half your speed. If you could already use your reaction to Disengage and move up to half your speed, you can instead move up to your full speed.
+
+#### Gunning Mastery
+You've mastered using blasters in unique ways, controlling the battlefield. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
+- When a creature succeeds on the saving throw against the burst or rapid property of your weapon, they take damage equal to your Dexterity modifier.
+- When you use the burst property of a weapon, you can choose to take a penalty to the save DC equal to your proficiency bonus. If you do so, each creature that fails the save takes additional damage equal to your proficiency bonus.
+- When you use the rapid property of a weapon, you can choose to take a penalty to the save DC equal to your proficiency bonus. If you do so, and the target fails the save, they take additional damage equal to twice your proficiency bonus.
+- You treat the strength number of weapons as one step lower (19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely.
+
+#### Onslaught Mastery
+You've mastered using your momentum to your advantage, effectively pummeling creatures into submission and keeping them down once they fall. You gain the following benefits:
+- When a creature falls prone within 5 feet of you, you can use your reaction to make an attack with an unarmed strike or melee weapon.
+- When you would have advantage on a melee weapon attack due to a creature being prone, you can reroll one of the dice once.
+- When a prone creature within 5 feet of you attempts to stand, they provoke an opportunity attack from you.
+- Once on each of your turns, if you move at least 10 feet in a straight line towards a creature before hitting it with a melee weapon attack, you deal additional damage equal to your proficiency bonus.
+
+\columnbreak
+
+## Feats
+A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
+
+You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
+
+### Close Quarters Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You've practiced utilizing powers in close quarters, learning techniques that grant you the following benefits:
+- When making a ranged force or tech attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.  
+- Your ranged force and tech attacks ignore half cover and three-quarters cover against targets within 30 feet of you. 
+- You learn one at-will power that requires an attack roll. Your casting ability for this at-will power depends on the power list you chose from: Wisdom or Charisma (depending on power alignment) for force powers or Intelligence for tech powers.
+
+### Combat Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You've practiced making your powers more difficult to avoid, learning techniques that grant you the following benefits:
+- When a creature rolls a 1 on the d20 roll of a saving throw against a power you cast that deals damage, they instead take the highest number possible for the damage die.
+- You learn one at-will power that requires a saving throw. Your casting ability for this at-will power depends on the power list you chose from: Wisdom or Charisma (depending on power alignment) for force powers or Intelligence for tech powers.
+
+### Dual Focused Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You have learned to bifurcate your attention while concentrating on powers, learning techniques that grant you the following benefits:
+- If you attempt to cast a power that requires concentration while already concentrating on an existing power, you can maintain concentration on both powers simultaneously. You must spend your action each subsequent round on maintaining this concentration, or lose concentration for both powers.                              
+- At the end of each of your turns where you have two powers you are concentrating on, you must make a Constitution saving throw (DC equals 10 + the number of complete rounds you've been concentrating on two powers). On a failure, you lose concentration for both powers. You can drop concentration on one of your powers during your turn as a free action to avoid this saving throw.
+- Any time you would be forced to make a Constitution saving throw to maintain concentration due to taking damage, the DC equals 10 + both powers' levels combined, or half the damage you take, whichever number is higher. On a failure, you lose concentration on both powers.
+
+### Martial Adept
+You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:
+- You learn two maneuvers of your choice from among those available to the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
+- If you already have superiority dice, you gain one more; otherwise, you have two superiority dice, which are d4s. These dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+
+### Mounted Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You are trained in the use of powers while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:
+- When you cast a power targeting yourself, you can also affect your mount with the power.
+- You have advantage on melee force or tech attack rolls against any unmounted creature that is smaller than your mount.
+- If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+### Quick Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You've practiced casting powers in quick succession, learning techniques that grant you the following benefits:
+- When you cast a power with a casting time of a bonus action, you may use your action to cast a power with a power level no higher than half your proficiency bonus (rounded down).
+- When you cast a power with a casting time of a bonus action, you can cast it without expending force or tech points as long as it is no higher level than your proficiency bonus. Once you've used this feature, you must complete a long rest before you can use it again.
+
+### Sniping Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You've practiced casting powers more accurately from long range, learning techniques that give you the following benefits:
+- When you cast a power that requires you to make an attack roll, the power's range is doubled.
+- Your ranged force and tech attacks ignore half cover and three-quarters cover.
+- You learn one at-will power that requires an attack roll. Your casting ability for this at-will power depends on the power list you chose from: Wisdom or Charisma (depending on power alignment) for force powers or Intelligence for tech powers.
+
+### War Caster
+_**Prerequisite:** The ability to cast force or tech powers_<br>
+You've practiced casting powers in the midst of combat, learning techniques that grant you the following benefits:
+- You have advantage on Constitution saving throws that you make to maintain your concentration on a power when you take damage.
+- Once per round, when a hostile creature provokes an opportunity attack from you, you can use your reaction to cast a power at the creature, rather than making an opportunity attack. The power must have a casting time of 1 action and must target only that creature.
+
+\pagebreak
+
 ## Class-Specific Feats
 
 ### Relentless Pursuer

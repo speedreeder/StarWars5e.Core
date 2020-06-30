@@ -363,6 +363,72 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
+                var lightsaberFormsProcessor = new PlayerHandbookCustomizationOptionsLightsaberFormsProcessor();
+                var lightsaberForms = await lightsaberFormsProcessor.Process(new List<string> { "PHB.phb_06.txt" }, _localization, ContentType.Core);
+
+                foreach (var lightsaberForm in lightsaberForms)
+                {
+                    lightsaberForm.ContentSourceEnum = ContentSource.PHB;
+
+                    var lightsaberFormSearchTerm = _globalSearchTermRepository.CreateSearchTerm(lightsaberForm.Name, GlobalSearchTermType.LightsaberForm, ContentType.Core,
+                        $"/characters/lightsaberForms/?search={lightsaberForm.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(lightsaberFormSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<LightsaberForm>($"lightsaberForms{_localization.Language}", lightsaberForms,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException se)
+            {
+                Console.WriteLine($"Failed to upload PHB lightsaber forms: {se}");
+            }
+
+            try
+            {
+                var fightingStylesProcessor = new ExpandedContentCustomizationOptionsFightingStyleProcessor();
+                var fightingStyles = await fightingStylesProcessor.Process(new List<string> { "PHB.phb_06.txt" }, _localization, ContentType.Core);
+
+                foreach (var fightingStyle in fightingStyles)
+                {
+                    fightingStyle.ContentSourceEnum = ContentSource.PHB;
+
+                    var fightingStyleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingStyle.Name, GlobalSearchTermType.FightingStyle, ContentType.Core,
+                        $"/characters/fightingStyles/?search={fightingStyle.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(fightingStyleSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<FightingStyle>($"fightingStyles{_localization.Language}", fightingStyles,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload PHB fighting styles.");
+            }
+
+            try
+            {
+                var fightingMasteriesProcessor = new ExpandedContentCustomizationOptionsFightingMasteryProcessor();
+                var fightingMasteries = await fightingMasteriesProcessor.Process(new List<string> { "PHB.phb_06.txt" }, _localization, ContentType.Core);
+
+                foreach (var fightingMastery in fightingMasteries)
+                {
+                    fightingMastery.ContentSourceEnum = ContentSource.PHB;
+
+                    var fightingMasterySearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingMastery.Name, GlobalSearchTermType.FightingMastery, ContentType.Core,
+                        $"/characters/fightingMasteries/?search={fightingMastery.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(fightingMasterySearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<FightingMastery>($"fightingMasteries{_localization.Language}", fightingMasteries,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload PHB fighting masteries.");
+            }
+
+            try
+            {
                 var rules =
                     await _playerHandbookChapterRulesProcessor.Process(_phbFilesNames, _localization);
 

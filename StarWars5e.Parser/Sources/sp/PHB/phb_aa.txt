@@ -23,6 +23,9 @@ The following definitions specify what happens to a creature while it is subject
 #### Deafened
 - A deafened creature can't hear and automatically fails any ability check that requires hearing.
 
+#### Diseased
+- A diseased creature suffers effects that vary based on the disease.
+
 #### Exhaustion
 Some special abilities and environmental hazards, such as and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.
 
@@ -40,9 +43,9 @@ If an already exhausted creature suffers another effect that causes exhaustion, 
 
 A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.
 
-An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.
-
 \columnbreak
+
+An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.
 
 Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.
 

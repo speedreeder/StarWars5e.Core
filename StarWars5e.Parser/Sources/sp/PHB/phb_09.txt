@@ -50,9 +50,9 @@ You can take only one bonus action on your turn, so you must choose which bonus 
 You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action.
 
 #### Object Interaction
-You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.
+You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, you could draw your weapon as part of the same action you use to attack, or you could grasp a two-handed weapon you are wielding in one hand with your other hand as you attack with it (releasing it requires no action).
 
-If you want to interact with a second object, you need to use your action. Some enhanced items and other special objects always require an action to use, as stated in their descriptions.
+If you want to interact with an additional object, you need to use your action or bonus action (your choice. Some enhanced items and other special objects always require an action to use, as stated in their descriptions.
 
 The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
 
@@ -92,7 +92,7 @@ You can communicate however you are able, through brief utterances and gestures,
 > - hand an item to another character
 
 ### Reactions
-Certain special abilities, powers, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction.
+Certain special abilities, powers, and situations allow you to take a special action called a reaction. A reaction, typically an instant response to a trigger of some kind, can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction.
 
 When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.
 
@@ -181,8 +181,6 @@ A creature can squeeze through a space that is large enough for a creature one s
 > 
 > ***Speed.*** Rather than moving foot by foot, move square by square on the grid. This means you use your speed in 5-foot segments. This is particularly easy if you translate your speed into squares by dividing the speed by 5. For example, a speed of 30 feet translates into a speed of 6 squares.
 > 
-> If you use a grid often, consider writing your speed in squares on your character sheet.
-> 
 > ***Entering a Square.*** To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to the square you're in (discussed below). 
 > 
 > ***Corners.*** Diagonal movement can't cross the corner of a wall, large tree, or other terrain feature that fills its space.
@@ -197,15 +195,13 @@ When you take your action on your turn, you can take one of the actions presente
 When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
 ### Attack
-The most common action to take in combat is the Attack action, whether you are swinging a vibrosword, firing a blaster rifle, or brawling with your fists.
+The most common action to take in combat is the Attack action, whether you are swinging a vibrosword, firing a blaster, or brawling with your fists. With this action, you make one melee or ranged attack. See the "Making an Attack" section for the rules that govern attacks.
 
-With this action, you make one melee or ranged attack. See the "Making an Attack" section for the rules that govern attacks.
+Certain features, such as the Extra Attack class feature, allow you to make more than one attack with this action.
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
-
-&emsp;Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action.
 
 ### Cast a Power
 Force- and tech-casters such as consulars and engineers, as well as many creatures, have access to powers and can use them to great effect in combat. Each power has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the power. Casting a power is, therefore, not necessarily an action. Most powers do have a casting time of 1 action, so a force- or tech-caster often uses his or her action in combat to cast such a power. See chapter 10 for the rules on force- and tech-casting.
@@ -221,17 +217,20 @@ If you take the Disengage action, your movement doesn't provoke opportunity atta
 ### Dodge
 When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in appendix A) or if your speed drops to 0.
 
+### Guard
+You can defend a creature within 5 feet of you. When you take the Guard action, you focus entirely on preventing attacks from reaching your ally. Until the start of your next turn, any attack roll made against the guarded ally has disadvantage if you can see the attacker, as long as the ally is within 5 feet of you. 
+
+Additionally, if an attack would hit the guarded ally, you can instead have it hit you (no action required). If you do so, the attacker chooses the maximum amount of damage instead of rolling.
+
 ### Help
 You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.
 
 Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage.
 
-### Hide
-When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter.
-
 \columnbreak
 
-<br>
+### Hide
+When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter.
 
 > #### Improvising an Action
 > Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in chapter 7 for inspiration as you improvise.
@@ -251,7 +250,7 @@ When you ready a power, you cast it as normal but hold its energy, which you rel
 When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.
 
 ### Use an Object
-You normally interact with an object while doing something else, such as when you draw a vibrosword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn.
+Many objects and items, such as grenades or medpacs, require your action to use. When an object requires your action for its use, you take the Use an Object action. If you would normally have to use your object interaction to draw the item you are using, you can instead do so as part of the Use an Object action. 
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
@@ -285,12 +284,15 @@ If the d20 roll for an attack is a 20, the attack hits regardless of any modifie
 
 If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
 
-### Unseen Attackers and Targets
-Combatants often try to escape their foes' notice by hiding, casting the *force camouflage* power, or lurking in darkness.
+#### Choosing to be Hit
+Sometimes, an attack might miss you when you wanted it to hit. You can choose to allow a miss to hit you (no action required). If you do so, the attacker chooses the maximum amount of damage instead of rolling.
 
 \columnbreak
 
 <div style='margin-top:27px'></div>
+
+### Unseen Attackers and Targets
+Combatants often try to escape their foes' notice by hiding, casting the *force camouflage* power, or lurking in darkness.
 
 When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly.
 
@@ -312,51 +314,54 @@ You can make an opportunity attack when a hostile creature that you can see move
 
 You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy.
 
-> #### Contests in Combat
-> Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The GM can use these contests as models for improvising others.
-
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
 #### Grappling
-When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
+When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a **grapple**. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
-The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see appendix A). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
+> #### Contests in Combat
+> Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat. The GM can use these contests as models for improvising others.
+
+The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, you try to seize the target by making a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see appendix A). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 
 ***Escaping a Grapple.*** A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.
 
 ***Moving a Grappled Creature.*** When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
 
-#### Shoving
-Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
+#### Shoving and Tripping
+Using the Attack action, you can make a special melee attack to **shove** a creature to push it away from you, or to **trip** a creature to knock it prone. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
-The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 5 feet away from you.
+The target of your shove or trip must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either shove the target 5 feet away from you or trip it prone.
 
 ### Ranged Attacks
-When you make a ranged attack, you fire a blaster rifle or pistol, hurl a vibrodagger, or otherwise send projectiles to strike a foe at a distance. A creature might have a natural ranged weapon. Many powers also involve making a ranged attack.
+When you make a ranged attack, you fire a blaster, hurl a vibrodagger, or otherwise strike a foe at a distance. A creature might have a natural ranged weapon. Many powers also involve making a ranged attack.
 
 #### Range
-You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a power, has a single range, you can't attack a target beyond this range. Some ranged attacks, such as those made with a blaster rifle or assault cannon, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range.
-
-#### Ranged Attacks in Close combat
-Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.
+You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a power, has a single range, you can't attack a target beyond this range. Some ranged attacks, such as those made with a blaster, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range.
 
 \columnbreak
 
+#### Ranged Attacks in Close Combat
+Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.
+
 ### Two-Weapon Fighting
-When you take the Attack action and attack with a light weapon that you're holding in one hand (or a double weapon), you can use a bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
+When you take the Attack action and attack with a light weapon that you're holding in one hand, you can use a bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
 
 If a weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
+
+### Double-Weapon Fighting
+When you take the Attack action and attack with a weapon with the light and double properties while wielding it in two hands, you can use a bonus action to attack with the other end of the weapon. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
 
 ## Cover
 Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.
 
 There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.
 
-A target with **one-quarter cover** has a +1 bonus to AC and Dexterity saving throws. A target has one-quarter cover if an obstacle blocks at least one-fourth of its body, such as a thin pillar.
+A target with **one-quarter cover** has a +2 bonus to AC and Dexterity saving throws. A target has one-quarter cover if an obstacle blocks at least one-fourth of its body, such as a thin pillar.
 
-A target with **half cover** has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body, such as a low wall, a large piece of furniture, or another creature.
+A target with **half cover** has a +3 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body, such as a low wall, a large piece of furniture, or another creature.
 
 A target with **three-quarters cover** has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.
 
@@ -365,18 +370,16 @@ A target with **total cover** can't be targeted directly by an attack or a power
 ## Damage and Healing
 Injury and the risk of death are constant companions of those who explore the worlds of D&D. The thrust of a vibrosword, a well-placed blaster shot, or a shock of lightning from a *shock* power all have the potential to damage, or even kill, the hardiest of creatures.
 
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
 ### Hit Points
 Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more hit points are more difficult to kill. Those with fewer hit points are more fragile.
 
 A creature's current hit points (usually just called hit points) can be any number from the creature's hit point maximum down to 0. This number changes as a creature takes damage or receives healing.
 
 Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points.
-
-<div class='footnote'>CHAPTER 9 | COMBAT</div>
-
-\pagebreakNum
-
-<div style='margin-top:20px'></div>
 
 ### Damage Rolls
 Each weapon, power, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Modified weapons, special abilities, and other factors can grant a bonus to damage.
@@ -395,7 +398,7 @@ Different attacks, damaging powers, and other harmful effects deal different typ
 
 The damage types follow, with examples to help a GM assign a damage type to a new effect.
 
-***Acid.*** Viles of corrosive liquid or the *acid splash* tech power deal acid damage.
+***Acid.*** Vials of corrosive liquid or the *acid splash* tech power deal acid damage.
 
 ***Cold.*** The chill energy of carbonite and cryogenesis deal cold damage.
 
@@ -407,9 +410,13 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ***Ion.*** Ion damage is a special damage type that is most effective against droids and constructs. 
 
-***Kinetic.*** Kinetic damage encompasses all physical damage commonly dealt by vibroweapons.
+\columnbreak
 
-***Lightning.*** The electrifying energy of the *force lightning* or *electroshock* powers deal lightning damage.
+<div style='margin-top:23px'></div>
+
+&emsp;***Kinetic.*** Kinetic damage encompasses all physical damage commonly dealt by vibroweapons.
+
+***Lightning.*** The electrifying energy of the *force lightning* power deals lightning damage.
 
 ***Necrotic.*** Necrotic damage, dealt by powers like *death field*, withers matter and even the soul.
 
@@ -419,34 +426,32 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ***Sonic.*** Debilitating noises cause sonic damage.
 
-\columnbreak
-
 ### Damage Resistance and Vulnerability
 Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.
 
 Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to kinetic damage and is hit by an attack that deals 25 kinetic damage. The creature is also within an aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.
 
-Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to lightning damage as well as resistance to all nonforce-power damage, the damage of a nonforce-power lightning is reduced by half against the creature, not reduced by three-quarters.
+Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to lightning damage as well as resistance to all force power damage, the damage of a *force lightning* is reduced by half against the creature, not reduced by three-quarters.
+
+> ##### Describing the Effects of Damage
+> Game Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you unconscious.
 
 ### Healing
-Unless it results in death, damage isn't permanent. Even death is reversible through certain powers. Rest can restore a creature's hit points (as explained in chapter 8), and special methods such as a *benevolence* force power or a stimpack can remove damage in an instant.
+Unless it results in death, damage isn't permanent. Even death is reversible through certain powers. Rest can restore a creature's hit points (as explained in chapter 8), and special methods such as a *benevolence* force power or a medpac can remove damage in an instant.
 
-When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a consular grants an operative 8 hit points of healing. If the operative has 14 current hit points and has a hit point maximum of 20, the operative regains 6 hit points from the consular, not 8.
+When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a consular grants an operative 8 hit points of healing. If the operative has 14 current hit points with a maximum of 20, the operative regains 6 hit points from the consular, not 8.
 
 A creature that has died can't regain hit points until a power such as *revitalize* has restored it to life.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
 
 #### Hit Dice
 Resting (explained in chapter 8), as well as certain special traits such as the trandoshan's Regenerative, consume Hit Dice to restore hit points. Whenever a creature rolls a Hit Die to restore hit points, they add their Constitution modifier to the roll.
 
 ### Dropping to 0 Hit Points
 When you drop to 0 hit points, you either die outright or fall unconscious, as explained in the following sections.
-
-> ##### Describing the Effects of Damage
-> Game Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you unconscious.
-
-<div class='footnote'>CHAPTER 9 | COMBAT</div>
-
-\pagebreakNum
 
 #### Instant Death
 Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.
@@ -461,7 +466,7 @@ Whenever you start your turn with 0 hit points, you must make a special saving t
 
 ***Rolling 1 or 20.*** When you make a death saving throw and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point.
 
-***Damage at 0 Hit Points.*** If you take any damage while you have 0 hit points (for example, by catching fire because your limbs were all chopped off next to a pit of lava), you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death.
+***Damage at 0 Hit Points.*** If you take any damage while you have 0 hit points (for example, by<br> catching fire because your limbs were all<br> chopped off next to a pit of lava), you<br> suffer a death saving throw failure.<br> If the damage is from a critical hit,<br> you suffer two failures instead.<br> If the damage equals or<br> exceeds your hit point<br> maximum, you suffer<br> instant death.
 
 \columnbreak
 
@@ -478,15 +483,15 @@ Most GMs have a monster die the instant it drops to 0 hit points, rather than ha
 Mighty villains and special nonplayer characters are common exceptions; the GM might have them fall unconscious and follow the same rules as player characters.
 
 ### Knocking a Creature Out
-Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee weapon attack or blaster weapon that deals ion or energy damage, the attacker can knock the creature out.<br> The attacker can make this choice the instant<br> the damage is dealt. The creature falls<br> unconscious and is<br> stable.
+Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee weapon attack or blaster weapon that deals ion or energy damage, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls unconscious and is stable.
 
-<img src='https://www.gmbinder.com/images/4Kf8o4R.png' style='position:absolute;bottom:0px;right:0px;width:910px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/4Kf8o4R.png' style='position:absolute;bottom:0px;right:0px;width:830px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
-### Temporary Hit Points
+## Temporary Hit Points
 Some powers and special abilities confer temporary hit points to a creature. Temporary hit points aren't actual hit points; they are a buffer against damage, a pool of hit points that protect you from injury.
 
 When you have temporary hit points and take damage, the temporary hit points are lost first, and any leftover damage carries over to your normal hit points. For example, if you have 5 temporary hit points and take 7 damage, you lose the temporary hit points and then take 2 damage.
@@ -498,6 +503,24 @@ Healing can't restore temporary hit points, and they can't be added together. If
 If you have 0 hit points, receiving temporary hit points doesn't restore you to consciousness or stabilize you. They can still absorb damage directed at you while you're in that state, but only true healing can save you. 
 
 Unless a feature that grants you temporary hit points has a duration, they last until they're depleted or you finish a long rest.
+
+### Temporary Force and Tech Points
+Similar to temporary hit points, some powers, abilities, or features grant temporary force or tech points to a creature. When you would expend force or tech points—whether through a power, ability, or feature—the temporary points are spent first.
+
+You can only have one source of temporary force or tech points. If you have temporary force or tech points and receive more of them, you decide whether to keep the ones you have or gain the new ones.
+
+Unless a feature that grants you temporary force or tech points has a duration, they last until they're depleted or you finish a long rest.
+
+## Underwater Combat
+When adventurers pursue karkarodons back to their undersea domain, fight off gungans in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.
+
+When making a **melee weapon attack,** a creature that doesn't have a swimming speed (either natural or granted by a power) has disadvantage on the attack roll unless the weapon is a vibrodagger or vibrospear.	
+
+A **ranged weapon attack** automatically misses a target beyond the weapon's normal range, but functions normally against a target within normal range.
+
+Creatures and objects that are fully immersed in water have resistance to fire damage.
+
+\columnbreak
 
 ## Mounted Combat
 A trooper charging into battle on a dewback, an engineer casting powers from the seat of a speeder, or a consular soaring through the sky on shuttle all enjoy the benefits of speed and mobility that a mount can provide.
@@ -512,28 +535,15 @@ If an effect moves your mount against its will while you're on it, you must succ
 If your mount is knocked prone, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall prone in a space within 5 feet it.
 
 #### Controlling a Mount
-While you're mounted , you have two options. You can either control the mount or allow it to act independently. Intelligent creatures act independently.
+While you're mounted, you have two options. You can either control the mount or allow it to act independently. Intelligent creatures act independently.
 
-\columnbreak
+You can control a mount only if it has been trained to accept a rider. Domesticated animals, such as dewbacks or kaadu, and similar creatures are assumed to have such training. The initiative of a controlled<br> &emsp;&emsp;&emsp;&emsp;mount changes to match yours when you<br> &emsp;&emsp;&emsp;&emsp;&emsp;mount it. It moves as you direct it, and it has<br> &emsp;&emsp;&emsp;&emsp;&emsp;only three action options: Dash, Disengage,<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and Dodge. A controlled mount can<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;move and act even on the turn that<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;you mount it. All vehicles are<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;considered controlled mounts,<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;unless a feature says otherwise.
 
-<div style='margin-top:23px'></div>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;An independent mount retains its<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;place in the initiative order. Bearing<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;a rider puts no restrictions on the<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;actions the mount can take, and it<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;moves and acts as it wishes. It might<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;flee from combat, rush to attack and<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;devour a badly injured foe, or otherwise<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;act against your wishes.
 
-You can control a mount only if it has been trained to accept a rider. Domesticated animals, such as dewbacks or kaadu, and similar creatures are assumed to have such training. The initiative of a controlled mount changes to match yours when you mount it. It moves as you direct it, and it has only three action options: Dash, Disengage, and Dodge. A controlled mount can move and act even on the turn that you mount it.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;In either case, if the mount provokes<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;an opportunity attack while you're on<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;it, the attacker can target you or the<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;mount.
 
-An independent mount retains its place in the initiative order. Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against your wishes.
-
-In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount.
-
-## Underwater Combat
-When adventurers pursue karkarodons back to their undersea domain, fight off gungans in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.
-
-When making a **melee weapon attack,** a creature that doesn't have a swimming speed (either natural or granted by a power) has disadvantage on the attack roll unless the weapon is a vibrodagger or vibrospear.	
-
-A **ranged weapon attack** automatically misses a target beyond the weapon's normal range, but functions normally against a target within normal range.
-
-Creatures and objects that are fully immersed in water have resistance to fire damage.
-
-<img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:10px;width:450px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:150px;width:440px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 

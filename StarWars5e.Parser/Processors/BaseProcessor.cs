@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using StarWars5e.Models.Enums;
 using StarWars5e.Parser.Localization;
 
 namespace StarWars5e.Parser.Processors
@@ -18,6 +19,15 @@ namespace StarWars5e.Parser.Processors
             var lines = await ReadInternalFile(locations, localization);
             
             var blocks = await FindBlocks(lines);
+            return blocks;
+        }
+
+        public async Task<List<T>> Process(List<string> locations, ILocalization localization, ContentType contentType)
+        {
+            Localization = localization;
+            var lines = await ReadInternalFile(locations, localization);
+
+            var blocks = await FindBlocks(lines, contentType);
             return blocks;
         }
 
@@ -52,6 +62,14 @@ namespace StarWars5e.Parser.Processors
             }
         }
 
-        public abstract Task<List<T>> FindBlocks(List<string> lines);
+        public virtual Task<List<T>> FindBlocks(List<string> lines)
+        {
+            return null;
+        }
+
+        public virtual Task<List<T>> FindBlocks(List<string> lines, ContentType contentType)
+        {
+            return null;
+        }
     }
 }

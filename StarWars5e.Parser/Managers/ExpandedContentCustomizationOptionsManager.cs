@@ -56,7 +56,9 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var ecFightingStyles = await _expandedContentCustomizationOptionsFightingStyleProcessor.Process(_ecCustomizationOptionsFileName, _localization);
+                var ecFightingStyles =
+                    await _expandedContentCustomizationOptionsFightingStyleProcessor.Process(
+                        _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
 
                 foreach (var fightingStyle in ecFightingStyles)
                 {
@@ -77,7 +79,9 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var ecFightingMasteries = await _expandedContentCustomizationOptionsFightingMasteryProcessor.Process(_ecCustomizationOptionsFileName, _localization);
+                var ecFightingMasteries =
+                    await _expandedContentCustomizationOptionsFightingMasteryProcessor.Process(
+                        _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
 
                 foreach (var fightingMastery in ecFightingMasteries)
                 {
