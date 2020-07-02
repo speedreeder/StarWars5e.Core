@@ -193,7 +193,7 @@ namespace StarWars5e.Parser.Processors.WH
 
                     var instance = repeatIndexes.IndexOf(index) + 1;
                     var searchTerm = _globalSearchTermRepository.CreateSectionSearchTermFromName(name,
-                        globalSearchTermType, ContentType.Core, chapterName, $"/rules/phb/{path}",
+                        globalSearchTermType, ContentType.Core, chapterName, $"/rules/wh/{path}",
                         instance > 1 ? $"{name} {instance}" : null);
 
                     _globalSearchTermRepository.SearchTerms.Add(searchTerm);

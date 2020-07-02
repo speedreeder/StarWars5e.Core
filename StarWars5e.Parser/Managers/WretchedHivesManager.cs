@@ -46,7 +46,7 @@ namespace StarWars5e.Parser.Managers
             var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
             _cloudBlobContainer = cloudBlobClient.GetContainerReference($"wretched-hives-rules-{_localization.Language}");
 
-            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.ExpandedContent, _localization.WretchedHivesWeaponProperties);
+            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, _localization.WretchedHivesWeaponProperties);
 
             _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, _localization.WretchedHivesArmorProperties);
         }
@@ -189,7 +189,7 @@ namespace StarWars5e.Parser.Managers
             }
             catch (StorageException)
             {
-                Console.WriteLine("Failed to upload WH weapon properties.");
+                Console.WriteLine("Failed to upload WH armor properties.");
             }
 
             try

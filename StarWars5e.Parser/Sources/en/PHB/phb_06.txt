@@ -107,11 +107,9 @@ You determine your available force or tech points by adding together the amount 
 If you have both force and tech points, you keep your pools separate, and they can only be used to fuel force or tech powers, respectively.
 
 #### Max Power Level
-You determine your max power level by adding together all your levels in consular or engineer, two-thirds of your levels (rounded up) in the sentinel class, half your levels (rounded down) in the scout or guardian class, and a third of your berserker, fighter, or operative levels (rounded down) if you have the Marauder Approach, Shield Specialist, or Saboteur Practice feature. Use this total to determine your max power level by consulting the Multiclass Max Power Level table.
+When multiclassing, you determine your max power level by dividing each class's potential Max Power Level by 9, multiply the result by the number of levels in that class, add the results for each class together (rounding down the final result), and consulting the Multiclass Max Power Level table below. 
 
-If you have more than one force- or tech-casting class, this table might give you a higher max power level than the powers you know. You can cast powers at that level if they have an enhanced effect when cast at a higher level.
-
-For example, if you are the aforementioned consular 5/sentinel 3, you count as a 7th-level character when determining your max power level, which is 4. While you don't know any 4th-level force powers, you can cast powers at that level if they have an enhanced effect at a higher level.
+For instance, if you have four levels in Marauder Approach berserker (1.77) and three levels in guardian (1.67), you count as a 3rd-level character when determining your max power level, which is 2. While you don't know any 2nd-level powers, you can cast powers you know at that level.
 
 If you have both force- and tech-casting, you determine your max power levels separately, and they can only be used to cast force or tech powers, respectively.
 
@@ -145,6 +143,9 @@ If you have both force- and tech-casting, you determine your max power levels se
 |20th|9th|
 
 </div>
+
+#### High-Level Casting
+When determining the number of higher level powers you can cast before needing a long rest, consult the rules for casting in the class in which you have the most levels.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
@@ -194,7 +195,7 @@ You are skilled at using your weight to your advantage. You gain the following b
 
 #### Defense Style
 You are skilled at the art of defending yourself. While you are wearing medium or heavy armor with which you are proficient, you gain the following benefits:
-- You can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, damage dealt to you by the target is reduced by an amount equal to half your Strength or Constitution modifier (your choice, rounded up, minimum of +1) while marked. You can only have one creature marked in this way at a time.
+- You can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, damage dealt to you by the target is reduced by an amount equal to half your Strength or Constitution modifier (your choice, rounded up, minimum of 1) while marked. You can only have one creature marked in this way at a time.
 - You have advantage on Strength checks and Strength saving throws to avoid being moved.
 
 \columnbreak
@@ -219,7 +220,7 @@ You are skilled at fighting without the confines of armor. While you are wearing
 
 #### Formfighting Style
 _**Prerequisite:** The ability to cast force powers_<br>
-You are skilled at the basics of the known forms of lightsaber combat. While you are wielding a lightweapon with which you are proficient, you gain the following benefits:
+You are skilled at the basics of the known forms of lightsaber combat. You gain the following benefits:
 - You learn three Lightsaber Forms, detailed later in this chapter.
 - Once on each of your turns, you can draw or stow a lightweapon without using your object interaction.
 
@@ -247,7 +248,7 @@ You are skilled at techniques that take advantage of every drop in any enemy's g
 
 #### Sharpshooter Style
 You are skilled with blaster weapons and can make shots that others find difficult. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
-- When you hit with a ranged weapon attack against a target 30 feet or greater than you, and you haven't moved, you can snare the target. If you do so, the target's speed is reduced by half until the end of it's next turn, and your speed is reduced to 0 until the end of your current turn. If the target's speed was already reduced by half, it is instead reduced to 5 feet.
+- On your turn, when you hit with a ranged weapon attack against a target 30 feet or greater than you, you can snare the target. If you do so, the target's speed is reduced by half until the end of it's next turn. If the target's speed was already reduced by half, it is instead reduced to 5 feet. You can't use this feature if you have moved during this turn, and using this feature reduces your speed to 0 until the end of your current turn.
 - Your ranged weapon attacks ignore one-quarter and half cover against targets 30 feet or greater from you.
 
 #### Shield Style
@@ -369,7 +370,7 @@ You've mastered fighting without the confines of armor, treating combat as an el
 
 #### Formfighting Mastery
 _**Prerequisite:** The ability to cast force powers_<br>
-You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with grace. While you are wielding a lightweapon with which you are proficient, you gain the following benefits:
+You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with grace. You gain the following benefits:
 - You learn three Lightsaber Forms, detailed later in this chapter. If you already know at least three Lightsaber Forms, you instead learn the remaining forms.
 - Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, you can engage in one of your Lightsaber Forms without using your bonus action. If that form lets you make an attack, that attack is also made without your proficiency bonus.
 - Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original attack roll would hit the second creature, it takes damage equal to twice your proficiency bonus.
@@ -459,7 +460,7 @@ You may choose your Lightsaber Forms from the following options or roll on the t
 
 <div style='column-count:2'>
 
-|d10|Fighting Mastery|
+|d10|Lightsaber Form|
 |:--:|:--|
 |1|Form I: Shii-Cho|
 |2|Form II: Makashi|
@@ -467,7 +468,7 @@ You may choose your Lightsaber Forms from the following options or roll on the t
 |4|Form IV: Ataru|
 |5|Form V: Shien/Djem So|
 
-|d10|Fighting Mastery|
+|d10|Lightsaber Form|
 |:--:|:--|
 |6|Form VI: Niman|
 |7|Form VII: Juyo/Vapaad|
@@ -492,7 +493,7 @@ Additionally, the first time you hit a creature within 5 feet of you with a weap
 Until the start of your next turn, when a creature makes a melee weapon attack against you and misses, you can use your reaction to make one melee weapon attack against that creature.
 
 #### Form III: Soresu
-The first time you kinetic or energy damage you take from a weapon before the start of your next turn, that damage is reduced by half.
+The first time you take kinetic or energy damage from a weapon before the start of your next turn, that damage is reduced by half.
 
 #### Form IV: Ataru
 As a part of the bonus action to adopt this form, you can leap up to 15 feet to an unoccupied space you can see.
@@ -679,7 +680,7 @@ You've spent years pretending you know what you're doing, gaining the following 
 - When you would make an ability check that doesn't add your proficiency bonus, you can first make a DC 15 (Charisma) Deception check. On a success, you can add your proficiency bonus to the check. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
 
 ### Fighting Master
-You've mastered a particular style of fighting. Choose one of the Fighting Mastery options, detailed earlier in this chapter. You can't take a Fighting Mastery option more than once, even if you later get to choose again.
+You've mastered a particular style of fighting. Choose one of the Fighting Mastery options, detailed earlier in this chapter. You can select this feat multiple times. You can't take a Fighting Mastery option more than once, even if you later get to choose again.
 
 ### Fighting Stylist
 You adopt a particular style of fighting as your specialty, gaining the following benefits:
@@ -903,11 +904,9 @@ Choose one ability score. You gain the following benefits:
 You master the use of blaster carbine, blaster rifle, ion rifle, sniper rifle, and slugthrower. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
 - You gain a +1 bonus to the weapon's attack rolls.
 - Whenever you have advantage on an attack roll and hit, and the lower of the two d20 rolls would also hit, you can attempt to snare the target. If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or its movement speed is reduced by half until the end of it's next turn. If it's speed was already reduced by half, it is instead reduced to 5 feet.
-- When a creature you can see misses you with an attack roll, you can use your reaction to Disengage and move up to half your speed. You must end this movement further away from the creature than you started. 
+- When a creature you can see misses you with an attack roll, you can use your reaction to Disengage and move up to half your speed. You must end this movement further away from the creature than you started.
 
-\columnbreak
-
-### Sidearm Specialist
+### Sidearm Specialist 
 You master the blaster pistol, heavy pistol, hold out, ion pistol, light pistol, and wrist launcher. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
 - You gain a +1 bonus to the weapon's attack rolls.
 - You learn to load and fire your weapon more efficiently. You can now reload these weapons using your object interaction. You must have one free hand to reload.
@@ -922,13 +921,14 @@ You develop your conversational skill to better deceive others. You gain the fol
 ### Snappy Interjection
 You've mastered a quick tongue to aid your allies. You gain the following benefits:
 - Increase your Charisma score by 1, to a maximum of 20.
-- When an ally makes an attack roll, an ability check or a saving throw, you may spend your reaction to give them advantage on the roll. Once you use this ability, you can't use it again until you finish a short or long rest.
+- Once per short or long rest, when an ally makes an attack roll, an ability check or a saving throw, you can spend your reaction to give them advantage on the roll.
 
 ### Specialist
 You have focused training with a specific tool. Select one type of specialist's kit. You gain the following benefits:
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - You gain proficiency with the chosen kit. If you are already proficient with it, you instead gain expertise with it. 
 - You can attempt ability checks with the chosen kit without the kit present, but you have disadvantage on the check when you do so.
+- Whenever you make an ability check with the chosen kit and you don't have disadvantage on the check, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least 1 minute on the check.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
@@ -936,7 +936,7 @@ You have focused training with a specific tool. Select one type of specialist's 
 
 <div style='margin-top:23px'></div>
 
-- Whenever you make an ability check with the chosen kit and you don't have disadvantage on the check, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least 1 minute on the check.
+&emsp;You can select this feat multiple times. Each time you do so, you must choose a different specialist's kit.
 
 ### Stealthy 
 You know how best to hide, gaining the following benefits: 

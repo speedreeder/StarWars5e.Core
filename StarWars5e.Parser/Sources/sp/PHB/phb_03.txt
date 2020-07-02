@@ -234,7 +234,7 @@ Beginning at 18th level, if your total for a Strength check is less than your St
 At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores increases by 4. 
 
 ## Berserker Approaches
-For some berserkers, rage is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel, while for others see it as a spiritual blessing.
+For berserkers, rage is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Your approach grants you features at 3rd, 6th, 10th, and 14th level.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -650,7 +650,7 @@ At 20th level, your attunement to the Force is absolute. Your Wisdom or Charisma
 &emsp;If you want to cast it at a higher level, you must<br> &emsp;&emsp;expend force points as normal.
 
 ## &nbsp;Consular Traditions
-Different consulars select different traditions, called Ways, to follow as they hone their powers. 
+Different consulars select different traditions, called Ways, to follow as they hone their powers. Your tradition grants you features at 3rd, 6th, 10th, 14th, and 18th level.
 
 <img src='https://www.gmbinder.com/images/BYdyPsr.png' style='position:absolute;bottom:0px;left:0px;width:520px;z-index:1000;' />
 
@@ -677,7 +677,7 @@ At 6th level, when a creature that you can see within 30 feet of you takes damag
 Beginning at 10th level, your at-will universal powers grant a small boost to your Force Barrier. When you cast an at-will universal power, the barrier regains 1 hit point.
 
 ### Improved Suppression
-At 14th level, when you cast a force power that requires you to make an ability check as a part of casting that power (as in *sever force* and *force suppression*), you add your proficiency bonus to that ability check.
+At 14th level, when you cast a force power that requires you to make an ability check as a part of casting that power, such as *sever force* or *force suppression*, you add your proficiency bonus to that ability check.
 
 \columnbreak
 
@@ -937,7 +937,9 @@ At 20th level, your mastery of technology is unrivaled. Your Constitution and In
 Additionally, when you roll initiative and have no uses of Potent Aptitude left, you regain one use.
 
 ## Engineering Disciplines
-The wide range of tool applications gives birth to well defined distinctions between different engineering disciplines. Each discipline focuses on maximizing the personal use of a certain tool.
+The wide range of tool applications gives birth to well defined distinctions between different engineering disciplines. Each discipline focuses on maximizing the personal use of a certain tool. Your discipline grants you features at 3rd, 6th, 14th, and 18th level.
+
+
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -1588,6 +1590,9 @@ You can choose this modification twice.
 _**Prerequisite:** Class III Droid_<br>
 You install a charisma chip in your droid. When an ally your droid can see makes an ability check, attack roll, or saving throw, your droid can use its reaction to give them advantage on the roll. It can do so before or after they roll the d20, but before the GM says the roll succeeds or fails. Once your droid uses this ability, it can't use it again until it finishes a short or long rest.
 
+#### Darkvision Optics
+Your droid has darkvision to a range of 60 feet. If your droid already has darkvision, this modification increases its range by 30 feet.
+
 #### Durability Module
 You enhance your droid's durability, granting the following benefits:
 - When your droid rolls a Hit Die to regain hit points, the minimum number of hit points your droid can regain from the roll equals twice your droid's Constitution modifier (minimum of 2).
@@ -1596,20 +1601,20 @@ You enhance your droid's durability, granting the following benefits:
 #### Emergency Mode
 _**Prerequisite:** 15th level_<br>
 _**Prerequisite:** Back-Up Protocol_<br>
-You modify your droid's back-up protocol. When your droid's back-up protocol is initiated, it can immediately use its reaction to make one attack roll against a target within range. If the target is the source of the damage that reduced your droid to 0, the attack roll has advantage.
+You modify your droid's back-up protocol. When your droid's back-up protocol is initiated, it can use its reaction to make one attack roll against a target within range. If the target is the source of the damage that reduced your droid to 0, the attack roll has advantage.
 
 #### Energy Shield
-You install an energy shield in your droid. The energy shield has 1 charge. As an action, your droid can use 1 charge to cast the *energy shield* tech power.
+You install an energy shield in your droid, which has 1 charge. As an action, your droid can use 1 charge to cast the *energy shield* tech power.
 
 You can choose this modification multiple times. Each time you do so, the energy shield gains another charge, to a maximum of 3. The energy shield regains all expended charges after a long rest.
 
 #### Expertise Protocol
 _**Prerequisite:** 5th level_<br>
-You install a protocol in your droid that grants it expertise in a tool or skill. Choose a tool or skill that your droid is proficient in. Your droid gains expertise in it.
+You install a protocol in your droid that grants it expertise in a tool or skill in which it is proficient.
 
 #### False Combustion
 _**Prerequisite:** Class II Droid_<br>
-You install a panic protocol in your droid. As a reaction in response to taking damage, your droid can feign an explosion. For 1 minute, your droid appears to be destroyed to all outward inspection. A creature can use its action to inspect the droid and make an Intelligence (Investigation) check against your droid's tech save DC (8 + your droid's proficiency bonus + your droid's Intelligence modifier). If it succeeds, it becomes aware that your droid is still functioning.
+As a reaction in response to taking damage, your droid can feign an explosion. For 1 minute, it appears to be destroyed to all outward inspection. A creature can use its action to inspect your droid and make an Intelligence (Investigation) check (DC = 8 + your droid's proficiency bonus + your droid's Intelligence modifier). If it succeeds, it becomes aware that your droid still functions.
 
 \columnbreak
 
@@ -1617,7 +1622,7 @@ You install a panic protocol in your droid. As a reaction in response to taking 
 Your droid adopts a particular style of fighting as its specialty. Choose one of the Fighting Style options, detailed in chapter 6. Your droid can't take a Fighting Style option more than once, even if it later gets to choose again.
 
 #### Flamethrower
-You install a flamethrower in your droid. The flamethrower has 1 charge. As an action, your droid can cast the *jet of flame* tech power or use 1 charge to cast the *flame sweep* tech power at 1st level. The saving throw is made against your droid's tech save DC (8 + your droid's proficiency bonus + your droid's Intelligence modifier).
+You install a flamethrower in your droid. The flamethrower has 1 charge. As an action, your droid can cast the *jet of flame* tech power, though it does not scale with higher levels, or use 1 charge to cast the *flame sweep* tech power at 1st level. The saving throw is made against your droid's tech save DC (8 + your droid's proficiency bonus + your droid's Intelligence modifier).
 
 You can choose this modification multiple times. Each time you do so, the flamethrower gains another charge, to a maximum of 3. If the flamethrower has multiple charges, you can use multiple charges to cast *flame sweep* at a higher level, 1 point per charge. The flamethrower regains all expended charges after a long rest.
 
@@ -1715,6 +1720,11 @@ _**Prerequisite:** Durability Module_<br>
 You modify the durability module in your droid, granting the following benefit:
 - Your droid becomes proficient in Constitution saving throws. If it is already proficient, it becomes proficient in another saving throw of your choice.
 - Whenever your droid takes the Dodge action in combat, it can spend one Hit Die to heal itself. Roll the die, add its Constitution modifier, and it regains a number of hit points equal to the total (minimum of one).
+
+#### Truesight Optics
+_**Prerequisite:** 11th level_<br>
+_**Prerequisite:** Darkvision Optics_<br>
+Your droid can see through illusions and detect invisibility within 60 feet, as with truesight.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -1951,7 +1961,7 @@ At 20th level, you are the master of combat. Your Strength or Dexterity score in
 Additionally, you can attack four times, instead of once, whenever you take the Attack action on your turn.
 
 ## Fighter Specialties
-Different fighters choose different approaches to perfecting their fighting prowess. The fighter specialty you choose to emulate reflects your approach.
+Different fighters choose different approaches to perfecting their fighting prowess. The fighter specialty you choose to emulate reflects your approach. Your specialty grants you features at 3rd, 7th, 10th, 15th, and 18th level.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -2185,28 +2195,28 @@ You can make a guardian quickly by following these suggestions. First, make Stre
 <div class='classTable wide'>
 
 ##### The Guardian
-|	Level	|	Proficiency<br> Bonus	|	Features	|	Force Powers<br> Known	|Force<br> Points| Max Power<br> Level|
-|	:--:	|	:--:	|	:--	|	:--:	|	:--:	|	:--:	|
-|	 1st	|	+2	|	Forcecasting, Channel the Force	    		| 	 4	|	 2	|	 1st	|
-|	 2nd	|	+2	|	Force-Empowered Strikes, Fighting Style		|	 5	|	 4	|	 1st	|
-|	 3rd	|	+2	|	Guardian Aura, Guardian Focus               |	 6	|	 6	|	 1st	|
-|	 4th	|	+2	|	Ability Score Improvement					|	 7	|	 8	|	 1st	|
-|	 5th	|	+3	|	Extra Attack								|	 9	|	10	|	 2nd	|
-|	 6th	|	+3	|	Force Purity    							|	10	|	12	|	 2nd	|
-|	 7th	|	+3	|	Focus feature   							|	11	|	14	|	 2nd	|
-|	 8th	|	+3	|	Ability Score Improvement					|	12	|	16	|	 2nd	|
-|	 9th	|	+4	|	—											|	14	|	18	|	 3rd	|
-|	10th	|	+4	|	Guardian Aura (two auras, 15-foot radius)    	|	15	|	20	|	 3rd	|
-|	11th	|	+4	|	Improved Force-Empowered Strikes			|	16	|	22	|	 3rd	|
-|	12th	|	+4	|	Ability Score Improvement					|	17	|	24	|	 3rd	|
-|	13th	|	+5	|	—											|	19	|	26	|	 4th	|
-|	14th	|	+5	|	Cleansing Touch								|	20	|	28	|	 4th	|
-|	15th	|	+5	|	Focus feature	    						|	21	|	30	|	 4th	|
-|	16th	|	+5	|	Ability Score Improvement					|	22	|	32	|	 4th	|
-|	17th	|	+6	|	—											|	24	|	34	|	 5th	|
-|	18th	|	+6	|	Guardian Aura (30-foot radius)				|	25	|	36	|	 5th	|
-|	19th	|	+6	|	Ability Score Improvement					|	26	|	38	|	 5th	|
-|	20th	|	+6	|	Focus feature	    						|	27	|	40	|	 5th	|
+|	Level	|	Proficiency<br> Bonus	|	Features	|	Focused<br> Strikes |   Force Powers<br> Known	|Force<br> Points| Max Power<br> Level|
+|	:--:	|	:--:	|	:--	|	:--:	|	:--:	|	:--:	|   :--:|
+|	 1st	|	+2	|	Forcecasting, Channel the Force	    		|—| 	 4	|	 2	|	 1st	|
+|	 2nd	|	+2	|	Force-Empowered Strikes, Fighting Style		|2d8|	 5	|	 4	|	 1st	|
+|	 3rd	|	+2	|	Guardian Aura, Guardian Focus               |2d8|	 6	|	 6	|	 1st	|
+|	 4th	|	+2	|	Ability Score Improvement					|2d8|	 7	|	 8	|	 1st	|
+|	 5th	|	+3	|	Extra Attack								|3d8|	 9	|	10	|	 2nd	|
+|	 6th	|	+3	|	Force Purity    							|3d8|	10	|	12	|	 2nd	|
+|	 7th	|	+3	|	Focus feature   							|3d8|	11	|	14	|	 2nd	|
+|	 8th	|	+3	|	Ability Score Improvement					|3d8|	12	|	16	|	 2nd	|
+|	 9th	|	+4	|	—											|4d8|	14	|	18	|	 3rd	|
+|	10th	|	+4	|	Guardian Aura (two auras, 15-foot radius)   |4d8|	15	|	20	|	 3rd	|
+|	11th	|	+4	|	Improved Force-Empowered Strikes			|4d8|	16	|	22	|	 3rd	|
+|	12th	|	+4	|	Ability Score Improvement					|4d8|	17	|	24	|	 3rd	|
+|	13th	|	+5	|	—											|5d8|	19	|	26	|	 4th	|
+|	14th	|	+5	|	Cleansing Touch								|5d8|	20	|	28	|	 4th	|
+|	15th	|	+5	|	Focus feature	    						|5d8|	21	|	30	|	 4th	|
+|	16th	|	+5	|	Ability Score Improvement					|5d8|	22	|	32	|	 4th	|
+|	17th	|	+6	|	—											|6d8|	24	|	34	|	 5th	|
+|	18th	|	+6	|	Guardian Aura (30-foot radius)				|6d8|	25	|	36	|	 5th	|
+|	19th	|	+6	|	Ability Score Improvement					|6d8|	26	|	38	|	 5th	|
+|	20th	|	+6	|	Focus feature	    						|6d8|	27	|	40	|	 5th	|
 
 </div>
 
@@ -2298,7 +2308,7 @@ As an action, you can expend a use of your Channel the Force to sap the life fro
 As a bonus action, you can expend a use of your Channel the Force and touch a creature within 5 feet of you. That creature regains hit points equal to your guardian level + your Wisdom modifier (minimum of one). Alternatively, if the creature is poisoned or diseased, you neutralize the poison or disease. If more than one poison or disease afflicts the target, you neutralize one poison or disease that you know is present, or you neutralize one at random.
 
 ### Force-Empowered Strikes
-Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend force points to deal additional damage to the target. The extra damage is 1d8 for each point spent in this way, to a maximum of 5d8. You can't spend more force points than your Wisdom or Charisma modifier (your choice, minimum of one), and the damage is the same type as the weapon's damage.
+Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend force points to deal additional damage to the target, which is the same type as the weapon's damage. The additional damage is 1d8 for each point spent in this way. You can't deal more additional damage than the amount shown in the Focused Strikes column of the guardian table. 
 
 ### Fighting Style
 Also at 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the Fighting Style options, detailed in Chapter 6. You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -2360,7 +2370,7 @@ Whenever a friendly creature starts its turn within 5 feet of you, that creature
 You and friendly creatures within 5 feet of you have resistance to damage from force powers.
 
 ## Guardian Foci
-Different guardians focus on different lightsaber styles, called Forms, as they hone their powers.
+Different guardians focus on different lightsaber styles, called Forms, as they hone their powers. Your focus grants you features at 3rd, 7th, 15th, and 20th level.
 
 <img src='https://www.gmbinder.com/images/F1iR9gg.png' style='position:absolute;bottom:24px;left:15px;width:480px;z-index:1000;' />
 
@@ -2561,7 +2571,7 @@ You can make a monk quickly by following these suggestions. First, make Dexterit
 |	3rd	|+2	|	Fighting Style, Deflect Missiles, Monastic Order|	d4	|	3	|+10 ft.		|
 |	4th	|+2	|	Ability Score Improvement, Slow Fall	        |	d4	|	4	|+10 ft.	|
 |	5th	|+3	|	Extra Attack, Stunning Strike	                |	d6	|	5	|+15 ft.	|
-|	6th	|+3	|	Focused Strikes, Monastic Order feature	        |	d6	|	6	|+15 ft.	|
+|	6th	|+3	|	Enhanced Strikes, Monastic Order feature	    |	d6	|	6	|+15 ft.	|
 |	7th	|+3	|	Evasion, Stillness of Mind	                    |	d6	|	7	|+15 ft.	|
 |	8th	|+3	|	Ability Score Improvement	                    |	d6	|	8	|+15 ft.	|
 |	9th	|+4	|	Unarmored Movement Improvement	                |	d8	|	9	|+20 ft.	|
@@ -2678,7 +2688,7 @@ Also at 3rd level, you can use your reaction to deflect a projectile when you ar
 If you reduce the damage to 0, and the damage is energy or ion, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 focus point to make a ranged attack as you deflect the projectile, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the projectile counts as a monk weapon for the attack.
 
 ### Monastic Order
-Lastly at 3rd level, you commit yourself to one a monastic order, which is detailed at the end of the class description. Your order grants you features at 3rd level and again at 6th, 11th, and 17th level.
+Lastly at 3rd level, you commit yourself to one monastic order, which is detailed at the end of the class description. Your order grants you features at 3rd level and again at 6th, 11th, and 17th level.
 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Alternatively, you can choose a feat (see Chapter 6 for a list of feats).
@@ -2696,7 +2706,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 ### Stunning Strike
 Starting at 5th level, you can interfere with an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 focus point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.
 
-### Focused Strikes
+### Enhanced Strikes
 Starting at 6th level, your unarmed strikes count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.
 
 ### Evasion
@@ -2728,9 +2738,9 @@ Beginning at 18th level, you can use your action to spend 4 focus points to beco
 At 20th level, you've gained perfect control over your body. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, when you roll for initiative and have no focus points remaining, you regain 2 focus points.
 
 ## Monastic Orders
-Traditions of monastic pursuit are common in the locales scattered across the galaxy. Each order is based in a specific culture and is mutually exclusive, despite relying on the same basic techniques.
+Traditions of monastic pursuit are common in the locales scattered across the galaxy. Each order is based in a specific culture and is mutually exclusive, despite relying on the same basic techniques. Your order grants you features at 3rd, 6th, 11th, and 17th level.
 
-<img src='https://www.gmbinder.com/images/WjNSTbI.png' style='position:absolute;bottom:13px;right:-50px;width:740px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/WjNSTbI.png' style='position:absolute;bottom:13px;right:-50px;width:720px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -2995,7 +3005,9 @@ At 20th level, you have an uncanny knack for succeeding when you need to. Your D
 Once you've used this feature, you can't use it again until you finish a short or long rest.
 
 ## Operative Practices
-Operatives have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different operatives steer those talents in varying directions, embodied by the different operative practices.
+Operatives have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different operatives steer those talents in varying directions, embodied by the different operative practices. Your practice grants you features at 3rd, 9th, 13th, and 17th level.
+
+
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -3391,9 +3403,11 @@ At 18th level, you are able to effectively prepare for any mission on hand. At t
 When you reach 20th level, you are the pinnacle of your pursuit. Your Intelligence score increases by 4. Your maximum for that score increases by 4. Additionally, you can use any maneuver you know without expending a superiority die,<br> rolling a d4 instead.
 
 ## Academic Pursuits
-Your pursuit is a representation<br> of which fields you have studied<br> or how you practically apply<br> your knowledge.
+Your pursuit is a representation<br> of which fields you have studied<br> or how you practically apply<br> your knowledge. Your pursuit<br> grants you<br> features at 3rd,<br> 6th, 9th, and<br> 17th level.
 
-<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:17px;right:-170px;width:750px;transform:scaleX(-1);z-index:1000;' />
+
+
+<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:17px;right:-170px;width:745px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -4063,7 +4077,9 @@ At 20th level, you become an unparalleled hunter. Your Strength or Dexterity sco
 Additionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
 
 ## Scout Techniques
-Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Those scouts who adopt the same<br> &emsp;&emsp;&emsp;&emsp;&emsp;technique tend to share a camaraderie with<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;each other.
+Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Those scouts who adopt the same<br> &emsp;&emsp;&emsp;&emsp;&emsp;technique tend to share a camaraderie with<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;each other. Your technique grants you<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;features at 3rd, 7th, 11th, and 15th level.
+
+
 
 <img src='https://www.gmbinder.com/images/s3Jkq04.png' style='position:absolute;bottom:0px;left:0px;width:840px;z-index:1000;' />
 
@@ -4323,7 +4339,7 @@ You can make a sentinel quickly by following these suggestions. First, make Dext
 ##### The Sentinel
 |	Level	|	Proficiency<br> Bonus	|	Features	|	Kinetic<br> Combat |	Force Powers<br> Known	|Force<br> Points  | Max Power<br> Level|
 |	:--:	|	:--:	|	:--    |	:--: |	:--:	|	:--:	|	:--:	|
-|	 1st	|	+2	|	Forcecasting, Led by the Force			    | 	d4	|	 6	|	 3	|	 1st	|
+|	 1st	|	+2	|	Forcecasting, Led by the Force			    | 	—	|	 6	|	 3	|	 1st	|
 |	 2nd	|	+2	|	Force-Empowered Self, Sentinel Ideals		|	d4	| 	 7	|	 6	|	 1st	|
 |	 3rd	|	+2	|	Fighting Style, Sentinel Calling			|	d4	|	 9	|	 9	|	 2nd	|
 |	 4th	|	+2	|	Ability Score Improvement					|	d4	|	10	|	12	|	 2nd	|
@@ -4362,7 +4378,7 @@ ___
 - **Tools:** One specialist's kit of your choice
 ___
 - **Saving Throws:** Dexterity, Charisma
-- **Skills:** Choose two from Acrobatics, Animal Handling, Insight, Intimidation, Perception, Persuasion, Piloting, Stealth, and Technology
+- **Skills:** Choose three from Acrobatics, Animal Handling, Insight, Intimidation, Perception, Persuasion, Piloting, Stealth, and Technology
 
 \columnbreak
 
@@ -4421,7 +4437,7 @@ ___
 Also at 1st level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.
 
 ### Force-Empowered Self
-Starting at 2nd level, your training allows you to harness the mystical energy of the Force throughout your body. When you hit a target with your melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. Each effect uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You
+Starting at 2nd level, your training allows you to harness the mystical energy of the Force throughout your body. When you hit a creature with a melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. Each effect uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You
 
 \columnbreak
 
@@ -4518,7 +4534,7 @@ When you roll a Hit Die to regain hit points, you may use your Wisdom or Charism
 Additionally, as an action, you can manifest this ideal in a brief surge of energy. You gain a number of temporary hit points equal to half your sentinel level (rounded down) + your Wisdom or Charisma modifier (your choice, minimum of one).
 
 ## Sentinel Callings
-Different sentinels select different callings, called Paths, to follow as they hone their powers.
+Different sentinels select different callings, called Paths, to follow as they hone their powers. Your calling grants you features at 3rd, 7th, 13th, and 18th level.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
