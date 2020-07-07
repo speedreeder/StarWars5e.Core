@@ -43,9 +43,6 @@ namespace StarWars5e.Parser.Processors
                 return null;
             }).Where(t => t != null).ToList();
 
-            var trakataIndex = archetypeNames.FindIndex(a => a.Equals(Localization.ECFormIXTrakata));
-            archetypeNames[trakataIndex] = Localization.ECFormIXTrakataMangled;
-
             var starWarsClassName = Localization.Berserker;
             foreach (var tableLine in tableLines)
             {
@@ -55,7 +52,6 @@ namespace StarWars5e.Parser.Processors
                 else
                 {
                     var archetypeName = tableLineSplit[1].Trim().RemoveHtmlWhitespace();
-                    if (archetypeName == Localization.ECFormIXTrakata) archetypeName = Localization.ECFormIXTrakataMangled;
                     var archetypeLinesStart = lines.FindIndex(f => f.Contains($"## {archetypeName}"));
 
                     var archetypeLinesEnd = lines.FindIndex(archetypeLinesStart + 1,
