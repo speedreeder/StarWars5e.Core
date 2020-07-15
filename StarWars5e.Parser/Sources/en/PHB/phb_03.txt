@@ -244,7 +244,7 @@ For berserkers, rage is an internal reservoir where pain, grief, and anger are f
 The Augmented Approach is for those who seek to increase their prowess through cybernetic enhancement. Some who take this path go so far they are left with little more than the memory of the body they once owned, all to achieve in combat what they cannot with a body made of flesh and bone.
 
 ### Basic Cybernetics
-When you choose this approach at 3rd level, you learn the *mending* and *analyse* tech powers and can cast them without the use of a wristpad or spending tech points. You can cast *analyse* this way a number of times equal to your Constitution modifier (minimum of one). You regain all expended uses when you complete a long rest.
+When you choose this approach at 3rd level, you learn the *mending* and *analyze* tech powers and can cast them without the use of a wristpad or spending tech points. You can cast *analyze* this way a number of times equal to your Constitution modifier (minimum of one). You regain all expended uses when you complete a long rest.
 
 ### Overdrive Enhancement
 Also at 3rd level, you gain a cybernetic enhancement. Choose one of the following enhancements and gain its feature. You must undergo cybernetic surgery by a person proficient in biotech's implements that incorporates this enhancement into your body. This surgery costs 100 credits and takes 8 hours.
@@ -802,7 +802,7 @@ You can make an engineer quickly by following these<br> suggestions. First, make
 ##### The Engineer
 |	Level	|	Proficiency<br> Bonus   | Features	|   Potent<br> Aptitude |   Tech Powers<br> Known	|	Tech<br> Points	| Max Power<br> Level| Modification<br> Slots|
 |:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|
-|	 1	|	+2	|	Techcasting, Potent Aptitude (d6)			| d4|	 6	|	  2	|	1st	| — |
+|	 1	|	+2	|	Techcasting, Potent Aptitude    			| d4|	 6	|	  2	|	1st	| — |
 |	 2	|	+2	|	Infuse Item (+1), Tool Expertise			| d4|	 7	|	  4	|	1st	| — |
 |	 3	|	+2	|	Engineering Discipline                      | d4|	 9	|	  6	|	2nd	| 4 |
 |	 4	|	+2	|	Ability Score Improvement					| d4|	10	|	  8	|	2nd	| 4 |
@@ -901,13 +901,7 @@ You use a wristpad (found in chapter 5) or your tool proficiencies granted by th
 ### Potent Aptitude
 Also at 1st level, your technological experience lends you an uncommon insight that you can use to bolster your allies. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Potent Aptitude die, a d4. This die changes as you gain engineer levels, as shown in the Potent Aptitude column of the engineer table.
 
-Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before
-
-\columnbreak
-
-<div style='margin-top:23px'></div>
-
-deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.
 
 A creature can have only one Potent Aptitude die at a time.
 
@@ -1406,6 +1400,7 @@ ___
 ___
 - **Creature Type:** Droid
 - **Armor Integration:** Your droid can not wear armor, but you can have the armor professionally integrated into its chassis. Over the course of a long rest, you can expend materials equal to half the cost of the armor in order to have it integrated. This work must be done by someone proficient with astrotech's implements. Your droid must be proficient in armor in order to have it integrated.
+- **Droid Systems:** Your droid does not need to eat or drink. 
 
 ## Class I Droid 
 Class I droids are programmed for the mathematical, medical, or physical sciences. Subcategories of the first degree are medical droids, biological science droids, physical science droids, and mathematics droids.
@@ -1712,7 +1707,7 @@ You install a stun ray in your droid. The stun ray has 1 charge. As an action, y
 You can choose this modification multiple times. Each time you do so, the stun ray gains another charge, to a maximum of 3. The stun ray regains all expended charges after a long rest.
 
 #### Techcasting Protocol
-Your droid learns two at-will tech powers, and one 1st-level tech power, which it casts at its lowest level. Once your droid casts it, your droid must finish a long rest before it can cast it again. Intelligence is your droid's techcasting ability for these powers. It does not require use of a wristpad for these powers. At-will powers chosen in this way do not scale with higher levels.
+Your droid learns one at-will tech power and one 1st-level tech power, which it can cast at its lowest level once per long rest. Your droid's techcasting ability is Intelligence. It does not require use of a wristpad for these powers. At-will powers chosen in this way do not scale with higher levels.
 
 #### Toughness Module
 _**Prerequisite:** 11th level_<br>
@@ -1724,7 +1719,7 @@ You modify the durability module in your droid, granting the following benefit:
 #### Truesight Optics
 _**Prerequisite:** 11th level_<br>
 _**Prerequisite:** Darkvision Optics_<br>
-Your droid can see through illusions and detect invisibility within 60 feet, as with truesight.
+Your droid can see through illusions and detect invisibility within 30 feet, as with truesight.
 
 <div class='footnote'>CHAPTER 3 | CLASSES</div>
 
@@ -2100,7 +2095,7 @@ You learn two additional maneuvers of your choice, and you earn more at higher l
 You have two additional superiority dice, and you earn more at higher levels, as shown in the Superiority Dice column of the Tactical Specialist Combat Superiority table.
 
 ### Signature Maneuver
-Also at 3rd level, you choose a maneuver as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round.
+Also at 3rd level, you choose a maneuver you know as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round.
 
 ### Know Your Enemy
 Beginning at 7th level, if you spend at least 1 minute observing or interacting with another creature outside 
@@ -3976,7 +3971,7 @@ Beginning at 1st level, you learn to react with swift and decisive action in com
 - On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted.
 
 ### Ranger's Quarry
-Also at 1st level, you learn how to effectively read and track your prey. On your turn, you can choose a creature you can see within 90 feet and mark it as your quarry (no action required). For the next 10 minutes, you gain the following benefits:
+Also at 1st level, you learn how to effectively read and track your prey. On your turn, you can choose a creature you can see within 120 feet and mark it as your quarry (no action required). For the next hour, you gain the following benefits:
 - Once per round, when you hit the target with a weapon attack, you can deal 1d4 additional damage to it of the same type as the weapon's damage. This die changes as you gain scout levels, as shown in the Ranger's Quarry column of the scout table.
 - You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it while it's on the same planet as you.
 

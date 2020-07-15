@@ -4,7 +4,7 @@
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:29px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he combination of ability scores, species, class, and</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players who—with the GM's permission—want to go a step further.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he combination of ability scores, species, class, and</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players whoï¿½with the GM's permissionï¿½want to go a step further.
 
 This chapter defines two optional sets of rules for customizing your character: multiclassing and feats. Multiclassing lets you combine classes together, and feats are special options you can choose instead of increasing your ability s cores as you gain levels. Your GM decides whether these options are available in a campaign.
 
@@ -412,7 +412,7 @@ You've mastered blaster weapons and can easily make shots that others find impos
 <div style='margin-top:28px'></div>
 
 #### Shield Mastery
-You've mastered using a shield to defend your allies as well as yourself, and you understand that shields are not just for protection but also for offense. While you are wielding a shield with which you are proficient, you gain the following benefits:
+You've mastered using a shield to defend your allies as well as yourself, strategically imposing your shield to capitalize on its protection. While you are wielding a shield with which you are proficient, you gain the following benefits:
 - If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a power or other harmful effect.
 - When a creature you can see damages you, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus.
 - When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, and you succeed on the saving throw, you can use your reaction to take no damage.
@@ -443,7 +443,7 @@ You've mastered fighting with double-bladed weapons, using both ends to devastat
 
 #### Versatile Mastery
 You've mastered using weapons in different ways, altering your attack patterns mid-swing. While you are wielding a melee weapon with the versatile property with which you are proficient and no other weapons, you gain the following benefits:
-- When you are the target of a melee weapon attack, you can immediately use your reaction to make a melee weapon attack against the target without your proficiency bonus. On a hit, the target suffers the attack’s normal effects, and you impose disadvantage on the attack roll made against you.
+- When you are the target of a melee weapon attack, you can immediately use your reaction to make a melee weapon attack against the target without your proficiency bonus. On a hit, the target suffers the attackï¿½s normal effects, and you impose disadvantage on the attack roll made against you.
 - Once per turn, when you make an attack roll while wielding a weapon in two hands, you can attempt to follow up on the attack. If the attack hits, the creature must make a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier). On a failed save, the creature is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.
 - Once per turn, when you make an attack roll while wielding a weapon in one hand, the target is wielding a shield, and your other hand is empty, you can use your other hand to pull down the<br> shield (no action required).<br> If you do so, the creature<br> gains no benefit to armor<br> class from its shield for that<br> attack.
 
@@ -504,7 +504,7 @@ Until the start of your next turn, you can add half your Wisdom or Charisma modi
 #### Form VI: Niman
 As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting. 
 
-Additionally, if you hit with a weapon attack before the start of your next turn, you can choose to deal additional damage to one creature you hit with a force power or fails a save against a force power you cast before the end of your next turn equal to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1) as long as it doesn't already include that modifier.
+Additionally, if you hit with a weapon attack before the start of your next turn, you can choose to deal additional damage to one creature you hit with a force attack or fails a save against a force power you cast before the end of your next turn equal to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1) as long as it doesn't already include that modifier.
 
 #### Form VII: Juyo/Vapaad
 Until the start of your next turn, your weapon attacks score a critical hit on a roll of 19 or 20.
@@ -527,7 +527,7 @@ As a part of the bonus action to adopt this form, if you took the Attack action,
 ## Feats
 A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
 
-You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
+You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehowï¿½perhaps by a withering curseï¿½you can't benefit from the Inspiring Leader feat until your Charisma is restored.
 
 ### Ace Pilot 
 You're quite experienced both on land and in the air, be it from time in a navy, as a mercenary, or perhaps even piracy. You gain the following benefits:
@@ -555,7 +555,7 @@ Skilled at mimicry and dramatics, you gain the following benefits:
 Always on the lookout for danger, you gain the following benefits:
 - You gain a +5 bonus to initiative.
 - You can't be surprised while you are conscious.
-- Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you.
+- Other creatures donï¿½t gain advantage on attack rolls against you as a result of being unseen by you.
 
 ### Animal Handler 
 You master the techniques needed to train and handle animals. You gain the following benefits:
@@ -725,11 +725,6 @@ Your presence on the battlefield is a source of inspiration. You gain the follow
 ### Haggler
 Your skills at bartering have granted you the following benefits:
 - Increase your Charisma score by 1 up to a maximum of 20. 
-
-\columnbreak
-
-<div style='margin-top:23px'></div>
-
 - You have advantage on Charisma (Persuasion) and Charisma (Deception) checks when attempting to barter or trade. 
 - You are always aware of the current monetary value for any unenhanced or common enhanced item. Whenever you identify an item, you gain a rough estimate of its current monetary value.
 
@@ -850,11 +845,6 @@ You hone your senses until they become razor sharp. You gain the following benef
 You master performance so that you can command any stage. You gain the following benefits: 
 - Increase your Charisma score by 1, to a maximum of 20. 
 - You gain proficiency in the Performance skill. If you are already proficient in it, you instead gain expertise in it. 
-
-\columnbreak
-
-<div style='margin-top:23px'></div>
-
 - While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid's Wisdom (Insight) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.
 
 ### Polearm Specialist
@@ -930,13 +920,7 @@ You have focused training with a specific tool. Select one type of specialist's 
 - You can attempt ability checks with the chosen kit without the kit present, but you have disadvantage on the check when you do so.
 - Whenever you make an ability check with the chosen kit and you don't have disadvantage on the check, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least 1 minute on the check.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
-
-\pagebreakNum
-
-<div style='margin-top:23px'></div>
-
-&emsp;You can select this feat multiple times. Each time you do so, you must choose a different specialist's kit.
+You can select this feat multiple times. Each time you do so, you must choose a different specialist's kit.
 
 ### Stealthy 
 You know how best to hide, gaining the following benefits: 
@@ -960,10 +944,10 @@ You master wilderness lore, gaining the following benefits:
 You master the theory and practice of technology, gaining the following benefits: 
 - Increase your Intelligence score by 1, to a maximum of 20. 
 - You gain proficiency in the Technology skill. If you are already proficient in it, you instead gain expertise in it. 
-- You learn the *repair droid* tech power. You can cast it once, using supplies scavenged around you, without the use of a wristpad and without spending tech points, and you regain the ability to do so when you finish a long rest.  
+- You learn the *repair droid* tech power. You can cast it once, using supplies scavenged around you, without the use of a wristpad and without spending tech points, and you regain the ability to do so when you finish a long rest.
 
 ### Tech Dabbler
-You know two at-will tech powers. When you reach 3rd level, you learn and can cast one 1st-level tech power once per long rest. When you reach 5th level, you learn and can cast one 2nd-level tech power once per long rest. Intelligence is your techcasting ability. You do not require use of a wristpad for these powers.
+You know two at-will tech powers. When you reach 3rd level, you learn and can cast one 1st-level tech power once per long rest. When you reach 5th level, you learn and can cast one 2nd-level tech power once per long rest. Your techcasting ability is Intelligence. You do not require use of a tech focus for these powers.
 
 \columnbreak
 

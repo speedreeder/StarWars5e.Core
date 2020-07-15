@@ -188,10 +188,7 @@ At 14th level, you can send your weapon spinning into a gravity-defying whirlwin
 Most berserkers require weapons. For berserkers of the Brawling Approach, however, everything is their weapon.
 
 ### Fists of Fury
-When you choose this approach at 3rd level, you've learned to hone your rage through your fists. You gain the following benefits:
-- You are proficient with improvised weapons.
-- Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
-- When you attempt to shove or grapple a creature, or make an attack against a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can use your bonus action to make an unarmed strike, grapple, or shove against the same creature.
+When you choose this approach at 3rd level, you've learned to hone your rage through your fists. Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
 
 ### Reckless Strikes
 Also at 3rd level, while you are raging, not wearing heavy armor, and not wielding a shield, when you hit a creature with an unarmed strike or improvised weapon, you can choose to forgo your rage damage to make the attack a reckless strike.
@@ -218,7 +215,7 @@ Your target must make a Constitution saving throw. On a failed save, the creatur
 Your target must make a Strength or Dexterity saving throw (the target chooses the ability score to use). On a failed save, your target is pushed back 5 feet. If the target is grappled by you, it instead knocked prone.
 
 ### Shattering Strikes
-At 6th level, you rage causes your strikes to overcome the hardest of materials. While raging, you gain the following benefits:
+At 6th level, your rage causes your strikes to overcome the hardest of materials. While raging, you gain the following benefits:
 - Your unarmed strikes and improved weapons count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.
 - Your unarmed strikes deal double damage against structures.
 
@@ -3967,8 +3964,8 @@ Your beast companion knows one 2nd-level force power of your choice, and once pe
 #### Force Resistance
 Your beast companion has advantage on saving throws against force powers.
 
-#### Force Sensitive
-Your beast companion knows one 1st-level force power of your choice, and once per long rest it can cast it at 1st-level without expending force points. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment).
+#### Force-Sensitive
+Your beast learns one at-will force power and one 1st-level force power, which it can cast at its lowest level once per long rest. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment). At-will powers chosen in this way do not scale with higher levels.
 
 #### Grappler
 When your beast hits with a melee weapon attack, it can use a bonus action to attempt to grapple the target. On a success, the target is both grappled and restrained, and your beast can't attack again while it has a creature grappled.
@@ -4620,7 +4617,7 @@ Also at 3rd level, you've applied your newfound knowledge to broader pursuits. Y
 
 Additionally, when you make an Intelligence (Technology) check, or a check with a tool, you may use your Wisdom or Charisma modifier (your choice) instead of your Intelligence modifier.
 
-Finally, when you deal damage with a tech power or your Deflection Force Empowered Self option, you can choose to substitute the damage dealt as ion.
+Finally, when you deal damage with a tech power or your Double Strike Force Empowered Self option, you can choose to substitute the damage dealt as ion.
 
 ### Force-Empowered Tech
 At 7th level, you learn to fully blend your technological aptitude with your use of the Force. You have three such effects: Disruption Pulse, Force Override, and Techcasting Insight. When you use your Force-Empowered Tech, you choose which effect to create.
@@ -4817,8 +4814,8 @@ Your beast companion knows one 2nd-level force power of your choice, and once pe
 #### Force Resistance
 Your beast companion has advantage on saving throws against force powers.
 
-#### Force Sensitive
-Your beast companion knows one 1st-level force power of your choice, and once per long rest it can cast it at 1st-level without expending force points. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment).
+#### Force-Sensitive
+Your beast learns one at-will force power and one 1st-level force power, which it can cast at its lowest level once per long rest. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment). At-will powers chosen in this way do not scale with higher levels.
 
 #### Grappler
 When your beast hits with a melee weapon attack, it can use a bonus action to attempt to grapple the target. On a success, the target is both grappled and restrained, and your beast can't attack again while it has a creature grappled.

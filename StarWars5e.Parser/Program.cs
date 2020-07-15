@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Azure.Search;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
@@ -24,10 +25,13 @@ namespace StarWars5e.Parser
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
             var globalSearchTermRepository = new GlobalSearchTermRepository();
 
+            var searchClient = new SearchServiceClient("sw5esearch", new SearchCredentials(config["SearchKey"]));
+
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ITableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
                 .AddSingleton(globalSearchTermRepository)
+                .AddSingleton(searchClient)
                 .BuildServiceProvider();
 
             var languages = config["Languages"].Split(',');
@@ -52,7 +56,7 @@ namespace StarWars5e.Parser
 
                 await ParseContent.Parse(serviceProvider.GetService<ITableStorage>(),
                     serviceProvider.GetService<CloudStorageAccount>(),
-                    serviceProvider.GetService<GlobalSearchTermRepository>(), stringsClass);
+                    serviceProvider.GetService<GlobalSearchTermRepository>(), stringsClass, serviceProvider.GetService<SearchServiceClient>());
             }
         }
     }

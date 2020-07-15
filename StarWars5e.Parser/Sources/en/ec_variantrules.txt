@@ -2,6 +2,60 @@
 
 <div class='wide'>
 
+# Careful Checks
+
+</div>
+
+When you spend at least 10 minutes performing an activity that requires an ability check, that check has consequences for failure, and you don't have disadvantage on the check, you can choose to make that check carefully, colloquially called "taking 10". If you do so, you treat the check as if you had rolled a 10 on the d20. For instance, if you are crafting an item, during resolution you make an Intelligence check with the appropriate tools to determine your d100 Roll Modifier. Instead of rolling the d20, you can make a careful check and take 10, treating the check as if you'd rolled a 10, adding your Intelligence modifier and proficiency bonus, if you are proficient with the tools.
+
+If you would have advantage on the check, you can instead take 15. 
+
+If using the Compound Advantage variant rule, if you have superadvantage on a check, you can take 18. If you have hyperadvantage on a check, you can instead take 20.
+
+\pagebreak
+
+<div class='wide'>
+
+# Replacing Powers
+
+</div>
+
+Often a player might feel restricted because they made a bad power choice, and they don't want to wait until their next level up to do so. If this is a mechanic that suits your players, consider using the following variant rule.
+
+Each time a character completes a long rest, they can attempt to take one power they know and replace it with another power, as long as that power is not of a higher level than their Max Power Level. If the character knows both force and tech powers, those powers can only be replaced with another force or tech power, respectively. 
+
+The character immediately unlearns the power they are trying to replace, and then must make a force- or tech-casting ability check (using Wisdom or Charisma as appropriate, depending on force power alignment) with proficiency. The DC of the check varies depending on the level of the power the character is attempting to learn, as shown in the Power Level Check DC table below.
+
+##### Power Level Check DC
+
+<div style='column-count:2'>
+
+|Power <br>Level|Check <br>DC|
+|:--:|:--:|
+|0|10|
+|1|14|
+|2|16|
+|3|18|
+|4|20|
+
+|Power <br>Level|Check <br>DC|
+|:--:|:--:|
+|5|22|
+|6|24|
+|7|26|
+|8|28|
+|9|30|
+
+</div>
+
+On a success, the new power is learned. On a failure, the new power is not learned, the old power is still forgotten, and the character can't try again until their next long rest.
+
+When attempting to replace a power, if the character currently has a vacant power known slot, they do not need to first unlearn a power before attempting to fill that slot.
+
+\pagebreak
+
+<div class='wide'>
+
 # Exertion
 
 </div>
@@ -14,7 +68,7 @@ Once per round, a player can have their character attempt to exert themselves. W
 The character can wait until after it rolls the d20 before deciding to exert themselves, but must decide before the GM says whether the roll succeeds or fails.
 
 ### Over-Exertion
-When a character exerts themselves, they immediately take damage equal to the amount rolled, which can't be reduced or negated in any way. If this damage would reduce the character to 0 hit points, they don't immediately fall unconscious. At the end of the current turn, if the character is still at 0 hit points, they fall unconscious and are stable.
+When a character exerts themselves, they immediately lose hit points equal to the amount rolled, which can't be reduced or negated in any way. If this damage would reduce the character to 0 hit points, they don't immediately fall unconscious. At the end of the current turn, if the character is still at 0 hit points, they fall unconscious and are stable.
 
 <div class='footnote'>EXPANDED CONTENT | VARIANT RULES</div>
 
@@ -419,7 +473,7 @@ With this rule, instead of rolling the damage dice twice, you instead maximize t
 
 </div>
 
-Some weapons—specifically lightweapons—can be used in a variety of ways. For instance, the iconic scenes with Darth Maul using his doublesaber, but with only one blade extended. Or more recently with Cal Kestis in Jedi: Fallen Order, where you could adjust from doublesaber fighting to single saber fighting, or vice versa, on the fly. If you want the option to combine weapons in this fashion, consider the following variant rule.
+Some weaponsï¿½specifically lightweaponsï¿½can be used in a variety of ways. For instance, the iconic scenes with Darth Maul using his doublesaber, but with only one blade extended. Or more recently with Cal Kestis in Jedi: Fallen Order, where you could adjust from doublesaber fighting to single saber fighting, or vice versa, on the fly. If you want the option to combine weapons in this fashion, consider the following variant rule.
 
 ### Weapon Combination
 Combining weapons requires three key components: the two weapons you want to combine, and the appropriate tools. Two weapons can only be combined by someone proficient with appropriate tools, as shown in the Item Specific Tools table in Wretched Hives.
@@ -496,7 +550,7 @@ The third action a character can take is to feint. When a character chooses to f
 Once each party has chosen their action, they should each make an attack roll, with advantage or disadvantage as appropriate. The winner of the contest strikes a blow or scores a point, as appropriate.
 
 #### Ties
-Generally, ties should either award a point to both parties—or no points to either party—at the discretion of the GM.
+Generally, ties should either award a point to both partiesï¿½or no points to either partyï¿½at the discretion of the GM.
 
 ### Strikes
 How many strikes a character can take varies based on the lethality of the contest. You might grant each party a potential three strikes if sparring, or you might give them each strikes equal to their Constitution modifier in a lethal contest, or even strikes equal to their proficiency bonus in a fight for honor. 
@@ -541,13 +595,13 @@ Additionally, consider allowing those species that have natural weapons to use t
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ypically, multiple instances of advantage or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; disadvantage don't stack; you either have it or you don't, and if you have both, you essentially have neither. This variant rule is designed to allow sources of advantage—and disadvantage—to stack, to a maximum of three times.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ypically, multiple instances of advantage or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; disadvantage don't stack; you either have it or you don't, and if you have both, you essentially have neither. This variant rule is designed to allow sources of advantageï¿½and disadvantageï¿½to stack, to a maximum of three times.
 
 When you have two sources of advantage, you instead have **superadvantage**, which allows you to roll two additional d20s when you make your ability check, attack roll, or saving throw, and take the highest of the three dice. If you have three sources of advantage, however, you instead have **hyperadvantage**, which allows you to roll three additionals d20s and take the highest of the four. Consequently, if you have two sources of disadvantage, you instead have **superdisadvantage**, and if you have three sources of disadvantage, you have **hyperdisadvantage**, rolling three and four d20s, respectively, and taking the lowest.
 
-Additionally, advantage and disadvantage no longer completely cancel each other out. Instead, if you have two sources of advantage and one source of disadvantage, you instead have one source of advantage. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantage—superadvantage—when you make your attack roll. If the creature is heavily obscured from you, however, you would have disadvantage on the attack roll, shifting you from superadvantage to advantage.
+Additionally, advantage and disadvantage no longer completely cancel each other out. Instead, if you have two sources of advantage and one source of disadvantage, you instead have one source of advantage. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantageï¿½superadvantageï¿½when you make your attack roll. If the creature is heavily obscured from you, however, you would have disadvantage on the attack roll, shifting you from superadvantage to advantage.
 
-Each source of advantage or disadvantage must be unique. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantage—superadvantage—when you make your attack roll. If another ally also takes the Help action, however, you still only have two unique sources of advantage, thus granting only superadvantage.
+Each source of advantage or disadvantage must be unique. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantageï¿½superadvantageï¿½when you make your attack roll. If another ally also takes the Help action, however, you still only have two unique sources of advantage, thus granting only superadvantage.
 
 > Some customization options, such as the Supreme Accuracy feat, grant bonuses if you would have advantage. If you elect to use this variant rule, adjust these customization options to instead grant an additional source of advantage if you would already have advantage. For instance, if you have the Supreme Accuracy feat, if you have no source of advantage, you gain no benefit from the second bullet of the feat. If you have a source of advantage, however, the feat instead grants you superadvantage (or potentially hyperadvantage if you have an additional source of advantage).
 
@@ -555,7 +609,7 @@ Each source of advantage or disadvantage must be unique. For instance, if you ar
 When determining your total for a passive check with this variant rule, if you have superadvantage on a check, add 8. For superdisadvantage, subtract 8. If you have hyperadvantage on a check, add 10, and if you have hyperdisadvantage, subtract 10.
 
 ### Careful Checks
-If you would have superadvantage on a careful check, you can instead take 18. For superdisadvantage, you can instead take 2. If you have hyperadvantage on a check, you can instead take 20, and if you have hyperdisadvantage, you can instead take 1.
+If you would have superadvantage on a careful check, you can instead take 18. If you have hyperadvantage on a check, you can instead take 20.
 
 \pagebreak
 
@@ -603,7 +657,7 @@ When a character performs an act associated with one side of the Force, they gai
 - Other benevolent acts, as determined by your GM, can earn you 1 or more Light Points.
 
 Consequently, players can also gain Dark Points through various actions:
-- The first time you cast a dark side force power of 1st-level or higher you gain Dark Points equal to the power’s level. Subsequent castings of that power earn you 1 Dark Point.
+- The first time you cast a dark side force power of 1st-level or higher you gain Dark Points equal to the power's level. Subsequent castings of that power earn you 1 Dark Point.
 - Committing truly heinous acts, such as harming or murdering an innocent, can earn you 1 or more Dark Points.
 - Other evil acts, as determined by your GM, can earn you 1 or more Dark Points.
 
@@ -789,13 +843,13 @@ You have become a physical manifestation of the light side of the Force, gaining
 
 &emsp;***Lightbringer.*** Your maximum force points increases by 10.
 
-***Protection.*** When a friendly creature other than you within 30 feet that you can see takes damage from any source, you can reduce that damage to 0. Once you've used this boon, you can’t use it again until you finish a short or long rest.
+***Protection.*** When a friendly creature other than you within 30 feet that you can see takes damage from any source, you can reduce that damage to 0. Once you've used this boon, you can't use it again until you finish a short or long rest.
 
 ***Immutable Defense.*** The damage resistances of friendly creatures other than you within 30 feet of you cannot be ignored.
 
-***Quick Casting.*** Choose one light side force power you know of 1st through 3rd level that has a casting time of 1 action. That power’s casting time is now 1 bonus action for you.
+***Quick Casting.*** Choose one light side force power you know of 1st through 3rd level that has a casting time of 1 action. That power's casting time is now 1 bonus action for you.
 
-***Lay On Hands.*** You can use a bonus action and touch a friendly creature other than yourself, causing them to recover a number of hit points equal to half their hit point maximum. Once you've used this boon, you can’t use it again until you finish a long rest.
+***Lay On Hands.*** You can use a bonus action and touch a friendly creature other than yourself, causing them to recover a number of hit points equal to half their hit point maximum. Once you've used this boon, you can't use it again until you finish a long rest.
 
 ***Healer.*** If a friendly creature within 30 feet of you regains hit points at the end of a short rest by spending one or more Hit Dice, that creature regains additional hit points equal to your Wisdom modifier.
 
@@ -837,13 +891,13 @@ You have become a physical manifestation of the dark side of the Force, gaining 
 
 &emsp;***Deathbringer.*** Your maximum force points increases by 10.
 
-***Invincibility.*** When you take damage from any source, you can reduce that damage to 0. Once you've used this boon, you can’t use it again until you finish a short or long rest.
+***Invincibility.*** When you take damage from any source, you can reduce that damage to 0. Once you've used this boon, you can't use it again until you finish a short or long rest.
 
 ***Irresistible Offense.*** You can bypass the damage resistances of any creature.
 
-***Quick Casting.*** Choose one dark side force power you know of 1st through 3rd level that has a casting time of 1 action. That power’s casting time is now 1 bonus action for you.
+***Quick Casting.*** Choose one dark side force power you know of 1st through 3rd level that has a casting time of 1 action. That power's casting time is now 1 bonus action for you.
 
-***Recovery.*** You can use a bonus action to recover a number of hit points equal to half your hit point maximum. Once you use this boon, you can’t use it again until you finish a long rest.
+***Recovery.*** You can use a bonus action to recover a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.
 
 ***Power Mastery.*** Choose one 1st-level dark side power that you can cast. You can now cast that power at its lowest level without expending force points.
 
@@ -1083,15 +1137,15 @@ A player can choose to specialize their character with the following features.
 Certain class features or feats offer your choice of Fighting Style. As a part of this variant rule, you should allow your players to take the following Fighting Style instead of the options listed in the Player Handbook. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 #### Sunder Fighting
-You are skilled at striking in order to damage, and potentially destroy, your enemies’ weapons. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
+You are skilled at striking in order to damage, and potentially destroy, your enemies' weapons. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
 - You no longer have disadvantage on Sundering attack rolls.
 - When a foe hits you with a Sundering attack, you can use your reaction to add a +5 to your armor class vs the triggering attack. If this causes the attack to miss, your weapon does not take any damage.
 
 ## Feat
-A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat’s description says otherwise. As a part of this variant rule, you should allow your players to take the following feat instead of the options listed in the Player Handbook.
+A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise. As a part of this variant rule, you should allow your players to take the following feat instead of the options listed in the Player Handbook.
 
 ### Sundering Mastery
-You have mastered rending your foes’ weapons, leaving them impotent and vulnerable to your follow up attacks. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
+You have mastered rending your foes' weapons, leaving them impotent and vulnerable to your follow up attacks. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
 - Before you make a Sundering attack with weapon that you are proficient with, you can choose to forgo your proficiency bonus. If the attack hits, you add double your proficiency bonus to the attack's damage.
 - On your turn, when you score a critical hit with a Sundering attack or reduce a weapon to 0 hit points with one, you can make one melee weapon attack as a bonus action.
 
@@ -1103,7 +1157,7 @@ You have mastered rending your foes’ weapons, leaving them impotent and vulnerab
 
 <img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:90px;left:75px;width:38px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome characters—and their players—take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome charactersï¿½and their playersï¿½take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
 
 When a character rolls a 20 on an attack roll with a weapon that is capable of removing a limb, such as a lightweapon or vibroweapon, have them roll an additional d20. If they roll a 20 on the second d20 roll, they successfully remove a limb from a creature, or potentially slay them outright.
 

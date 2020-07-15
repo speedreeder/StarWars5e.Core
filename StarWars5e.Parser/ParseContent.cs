@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Microsoft.Azure.Search;
 using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -15,7 +16,7 @@ namespace StarWars5e.Parser
     public static class ParseContent
     {
         public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization, SearchServiceClient searchServiceClient)
         {
             var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount,
                 globalSearchTermRepository, localization);
@@ -65,7 +66,7 @@ namespace StarWars5e.Parser
 
             try
             {
-                var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository, localization);
+                var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository, localization, searchServiceClient);
                 await searchManager.Upload();
             }
             catch (StorageException)
