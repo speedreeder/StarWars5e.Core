@@ -526,7 +526,7 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 The power of the Force is both vast and diverse, with uses varying drastically based on their wielder. Those consulars who follow the Way of Manipulation learn to control their weapons with the Force, maneuvering them across the battlefield.
 
 ### Saber Storm
-When you choose this tradition at 3rd level, you learn to deftly control your weapons utilizing the Force. As an action, you can initiate your Saber Storm. When you do so, select a melee weapon you wield, or one melee weapon within 5 feet that is not worn or carried by a conscious creature, and use the Force to cause it to levitate, acting as an extension of your will for 1 minute. When you activate this feature, you can cause the weapon to move up to 10 feet and make a melee force attack against a creature within 5 feet of it. On a hit, the target takes 1d8 + your forcecasting ability modifier damage. The type is of the normal damage dealt by the weapon. The weapon then returns to your side.
+When you choose this tradition at 3rd level, you learn to deftly control your weapons utilizing the Force. As an action, you can initiate your Saber Storm. When you do so, select a light- or vibro-weapon within 5 feet that is not worn or carried by a conscious creature other than you, and use the Force to cause it to levitate, acting as an extension of your will for 1 minute. When you activate this feature, you can cause the weapon to move up to 10 feet and make a melee force attack against a creature within 5 feet of it. On a hit, the target takes 1d8 + your forcecasting ability modifier damage. The type is of the normal damage dealt by the weapon. The weapon then returns to your side.
 
 Your weapon moves with you, and while Saber Storm is active and you have a weapon animated, on each of your turns you can use an action to move a weapon up to 10 feet and repeat the attack against a creature within 5 feet of it. The weapon then returns to your side. Your Saber Storm ends early if you are incapacitated. At any time, you can end this feature and return the animated weapon to your hand.
 
@@ -769,7 +769,7 @@ You can use this trait a number of times equal to your Intelligence modifier (a 
 
 #### Brightsaber Conversion
 _Incompatible with other conversions_<br>
-You modify your lightweapon, giving it a brigher glow. While activated, your modified lightsaber sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+You modify your lightweapon, giving it a brighter glow. While activated, your modified lightsaber sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 
 Additionally, when you make your first attack on your turn, you can alter the properties of your modified lightsaber. Until the start of your next turn, the damage type of your modified lightsaber is changed to fire.
 
@@ -1631,11 +1631,11 @@ At 10th level, when you expend a use of your Adaptive Fighting, you gain resista
 Starting at 15th level, when you use your Action Surge feature, you can take an extra bonus action on top of the additional action.
 
 ### Bladestorm
-At 18th level, you can use your action to make a single melee weapon attack against each creature within your reach. Make a separate attack roll against each target. The first attack gains a +1 bonus to its attack roll, and each attack after the first gains an additional +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6. If you are wielding two light- or vibro-weapons, or a weapon with the double property, you also add this bonus to your damage rolls, and you can use your bonus action to engage in Two-Weapon Fighting.
+At 18th level, you can use your action to make a single melee weapon attack against each creature within your reach. Make a separate attack roll against each target. The first attack gains a +1 bonus to its attack roll, and each attack after the first gains an additional +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6. If you are wielding two light- or vibro-weapons, or a weapon with the double property, you also add this bonus to your damage rolls, and you can use your bonus action to engage in Double- or Two-Weapon Fighting.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
-<img src='https://www.gmbinder.com/images/vLDR8kY.png' style='position:absolute;bottom:18px;right:40px;width:720px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/vLDR8kY.png' style='position:absolute;bottom:18px;right:45px;width:710px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
@@ -2079,7 +2079,7 @@ At 7th level, you gain one of the following features. Choose Relentless for Juyo
 You have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.
 
 #### Punishing Charge 
-When a creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
+When a hostile creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
 
 ### Vengeance
 Starting at 15th level, you gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.
@@ -2098,7 +2098,7 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 At 20th level, you are a paragon of extraordinary martial prowess. Your Strength and Dexterity scores increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
 - You have resistance to all damage.
 - When you take the Attack action on your turn, you can make one additional attack as part of that action.
-- Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
+- Your critical hit range with melee weapons increases by 1.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
@@ -2337,7 +2337,7 @@ Additionally, you've learned to adapt to new weaponry. Over the course of an hou
 Also at 3rd level, you can use your reaction to divert an attack when you or a friendly creature within 5 feet of you are hit by a melee weapon attack. When you do so, the damage taken by the attack is reduced by 1d10 + your Dexterity modifier + your monk level.
 
 ### Crimson Squall
-At 6th level, you've learned to enhance your kata.<br> As a bonus action while wielding a monk weapon,<br> you can expend 1 focus to cause the area<br> within 5 feet of you to become difficult terrain<br> for 1 minute. This area travels with you, and<br> creatures within the area can not make<br> opportunity attacks.
+At 6th level, you've learned to enhance your kata.<br> As a bonus action while wielding a monk weapon,<br> you can expend 1 focus point to cause the area<br> within 5 feet of you to become difficult terrain<br> for 1 minute. This area travels with you, and<br> creatures within the area can not make<br> opportunity attacks.
 
 At 11th level, the range of this area increases to<br> 15 feet, and at 17th level, the range of this<br> area increases to 30 feet.
 
@@ -3007,6 +3007,9 @@ You install a camouflage module in your tracker droid. You tracker droid can tur
 
 Deduct the time your tracker droid is invisible, in increments of 1 minute, from the module’s maximum duration of 2 hours. After 2 hours of use, the module ceases to function. For every uninterrupted period of 12 hours the module goes unused, it regains 1 hour of use.
 
+#### Darkvision Optics
+Your tracker droid has darkvision to a range of 60 feet. If your tracker droid already has darkvision, this modification increases its range by 30 feet.
+
 #### Expertise Protocol
 _**Prerequisite:** 5th level_<br>
 You install a protocol in your tracker droid that grants it expertise in a tool or skill. Choose a tool or skill that your tracker droid is proficient in. Your tracker droid gains expertise in it.
@@ -3098,6 +3101,11 @@ Your tracker droid comes with a hidden storage compartment which can store up to
 
 #### Techcasting Range Protocol
 You can cast tech powers with a range of 5 feet or greater through your tracker droid while interfaced with it, but your tracker droid must be within 5 feet of the target of the power. This increases to 10 feet at 5th level, 20 feet at 9th level, 30 feet at 13th level, 60 feet at 17th level, and 120 feet at 20th level.
+
+#### Truesight Optics
+_**Prerequisite:** 11th level_<br>
+_**Prerequisite:** Darkvision Optics_<br>
+Your droid can see through illusions and detect invisibility within 60 feet, as with truesight.
 
 #### Undersized Arms
 _**Prerequisite:** Size Small_<br>
@@ -4573,32 +4581,34 @@ At 18th level, you no longer suffer the frailty of old age, and you can't be age
 Some few master their weapon in ways that differ from their peers. Those sentinels who follow the Path of the Forceblade channel the Force into their weapon, forming a unique connection that grants you greater control over the weapon; it becomes an extension of their will.
 
 ### Phasethrow
-Starting when you choose this calling at 3rd level, you learn the *saber throw* force power. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use all three Force-Empowered Self options when you cast it as your action and hit a target. Finally, once per turn, when you hit a creature within 30 feet of you with the *saber throw* force power, you can spend 1 force point to teleport to an unoccupied space within 5 feet of the creature.
+Starting when you choose this calling at 3rd level, you learn the *saber throw* force power. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use all three Force-Empowered Self options when you cast it as your action and hit a target. Finally, when you hit a creature within with the *saber throw* force power, you deal additional damage equal to half your Wisdom or Charisma modifier (your choice, minimum of one) if it doesn’t already include that modifier.
 
 ### Forceblade Bond
-Also at 3rd level, you learn how to bond with a lightweapon or vibroweapon through the Force, making it part of you.
+Also at 3rd level, you learn how to bond with a light- or vibro-weapon through the Force, making it part of you.
 
 You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond, gaining the following benefits:
-- You can't be disarmed of that weapon unless you are incapacitated. 
-- If the weapon is within 60 feet<br> of you and you can see it, you<br> can summon that weapon as a<br> bonus action on your turn, causing it to travel instantly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
+- You can't be disarmed of that weapon while you are conscious. 
+- If the weapon is within 60 feet of<br> you and you can see it, you can<br> summon that weapon as a bonus action on your turn, causing it to travel instantly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
 - You can use Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls.
 
 You can have two weapons bonded to you in this way at a time, and you can summon both of them to you with the same bonus action.
 
 ### Twin Saber Throw
-At 7th level, when you cast *saber throw*<br> while wielding your forceblade, you<br> add half your forcecasting ability<br> modifier (rounded down) to the<br> damage rolls, and you can att-<br>ack the same target multiple<br> times. Additionally, when<br> you make your Kinetic Combat attack, if you spent<br> a force point to teleport to within 5 feet of the<br> target, you make the attack roll with<br> advantage.
+At 7th level, when you cast *saber throw*<br> while wielding your forceblade, you can<br> attack the same target multiple times.
+
+Additionally, when you deal damage<br> to a creature within 30 feet of you with<br> your forceblade, you can use your bonus<br> action to teleport to within 5 feet of that creature and make a melee weapon attack against that creature. This attack uses your Kinetic Combat die instead<br> of your weapon's damage die. You can use this<br> feature a number of times equal to your<br> Wisdom or Charisma modifier (a minimum<br> of once). You regain all expended uses when<br> you complete a long rest.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
 ### Disruptive Throw
-By 13th level, when you are the target of a ranged attack, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage using your Kinetic Combat die and you impose disadvantage on the triggering attack roll.
+By 13th level, when you are the target of a ranged attack, and the source is within range of your saber throw force power, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage using your Kinetic Combat die instead of the weapon's damage die and you impose disadvantage on the triggering attack roll.
 
 ### Forceblade Mastery
 At 18th level, you've mastered controlling your forceblade with your mind, using it to keep your enemies at bay. As an action, you can telekinetically control your forceblade and have it strike any number of creatures within 10 feet of you, spending 1 force point per target. Each target must make a Dexterity saving throw (DC = 8 + your bonus to weapon attack rolls with that weapon). On a failed save, it takes damage using your Kinetic Combat die + half your sentinel level (rounded down), is pushed back 10 feet and knocked prone.
 
-<img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:10px;right:-45px;width:720px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:10px;right:-60px;width:720px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
@@ -4711,7 +4721,7 @@ Your beast gains a variety of benefits while it is bonded to you:
 - Whenever you gain the Ability Score Improvement feature in this class, your beast's abilities also improve. Your beast can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your beast can't increase an ability score above 20 using this feature unless its description specifies otherwise.
 
 Additionally, while your beast companion is within 5 feet of you, you gain the following benefits:
-- When you use your Kinetic Combat or Force-Empowered Self features to increase your speed or armor class, you can instead grant this bonus to your beast companion. 
+- When you use a Force-Empowered Self option to increase your speed or armor class, you can instead grant this bonus to your beast companion. 
 - You and your beast companion can communicate telepathically, though your beast companion can only communicate in and understand simple concepts.
 
 This radius increases to 10 feet at 7th level, 20 feet at 13th level, and 30 feet at 18th level.
