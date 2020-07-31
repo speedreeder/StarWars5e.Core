@@ -52,41 +52,42 @@
 |&emsp;Crimson Order            |51|
 |&emsp;Jal Shey Order           |52|
 |&emsp;Kage Order               |53|
-|&emsp;Matukai Order            |54|
-|&emsp;Trickster Order          |55|
-|&emsp;Whills Order             |56|
+|&emsp;Kyuzo Order              |54|
+|&emsp;Matukai Order            |55|
+|&emsp;Trickster Order          |56|
+|&emsp;Whills Order             |57|
 |Operative||
-|&emsp;Acquisitions Practice    |57|
-|&emsp;Beguiler Practice        |58|
-|&emsp;Disabling Practice       |60|
-|&emsp;Performance Practice     |61|
-|&emsp;Ruffian Practice         |62|
-|&emsp;Saboteur Practice        |63|
-|&emsp;Sawbones Practice        |67|
-|&emsp;Scrapper Practice        |68|
+|&emsp;Acquisitions Practice    |58|
+|&emsp;Beguiler Practice        |59|
+|&emsp;Disabling Practice       |61|
+|&emsp;Performance Practice     |62|
+|&emsp;Ruffian Practice         |63|
+|&emsp;Saboteur Practice        |64|
+|&emsp;Sawbones Practice        |68|
+|&emsp;Scrapper Practice        |69|
 |Scholar||
-|&emsp;Chef Pursuit             |69|
-|&emsp;Explorer Pursuit         |71|
-|&emsp;Gambler Pursuit          |73|
-|&emsp;Geneticist Pursuit       |75|
-|&emsp;Slicer Pursuit           |77|
-|&emsp;Zoologist Pursuit        |79|
+|&emsp;Chef Pursuit             |70|
+|&emsp;Explorer Pursuit         |72|
+|&emsp;Gambler Pursuit          |74|
+|&emsp;Geneticist Pursuit       |76|
+|&emsp;Slicer Pursuit           |78|
+|&emsp;Zoologist Pursuit        |80|
 |Scout||
-|&emsp;Artillerist Technique    |83|
-|&emsp;Bulwark Technique        |86|
-|&emsp;Illusionist Technique    |87|
-|&emsp;Inquisitor Technique     |88|
-|&emsp;Mastermind Technique     |89|
-|&emsp;Predator Technique       |90|
-|&emsp;Slayer Technique         |91|
+|&emsp;Artillerist Technique    |84|
+|&emsp;Bulwark Technique        |87|
+|&emsp;Illusionist Technique    |88|
+|&emsp;Inquisitor Technique     |89|
+|&emsp;Mastermind Technique     |90|
+|&emsp;Predator Technique       |91|
+|&emsp;Slayer Technique         |92|
 |Sentinel||
-|&emsp;Path of Communion        |92|
-|&emsp;Path of the Corsair      |93|
-|&emsp;Path of Etherealness     |94|
-|&emsp;Path of the Forceblade   |95|
-|&emsp;Path of Synthesis        |96|
-|&emsp;Path of Tenacity         |97|
-|&emsp;Path of Witchcraft       |98|
+|&emsp;Path of Communion        |93|
+|&emsp;Path of the Corsair      |94|
+|&emsp;Path of Etherealness     |95|
+|&emsp;Path of the Forceblade   |96|
+|&emsp;Path of Synthesis        |97|
+|&emsp;Path of Tenacity         |98|
+|&emsp;Path of Witchcraft       |99|
 
 </div>
 
@@ -2431,6 +2432,34 @@ At 17th level, you can exploit a creature's momentary distraction when it is hit
 <img src='https://www.gmbinder.com/images/KJeYR53.png' style='position:absolute;bottom:18px;right:0px;width:736px;z-index:1000' />
 
 <div class='footnote'>EXPANDENT CONTENT | ARCHETYPES | MONK</div>
+
+\pagebreakNum
+
+## Kyuzo Order
+Monks of the Kyuzo Order turn weapon throwing into a true art form. Inspired by the skill of native kyuzo wielding their war helmets as both shield and weapon, these monks utilize any thrown object they can find to defend themselves and others while they attack enemies from angles both surprising and devastating.
+
+### Flurry of Throws
+When you choose this order at 3rd level, you've learned new heights to throwing weapons. When you take the Attack action and attack with a weapon with the thrown property, you can use your bonus action to make an additional attack with a weapon with the thrown property, or you can spend 1 focus point to make two attacks with weapons with the thrown property as a bonus action. Additionally, when you throw an improvised weapon, you are considered proficient in it, and it use your Martial Arts die instead of its 1d4.
+
+### Intercept
+Also at 3rd level, you've learned to use thrown weapons to intercept projectiles traveling towards your allies. When you are wielding a weapon with the thrown property with which you are proficient, and a creature within your weapon's normal range is hit by a ranged weapon attack, you can use your reaction to throw your weapon to intercept the projectile. When you do so, the damage the creature takes from the attack is reduced by 1d10 + your Dexterity modifier + your monk level. If the weapon has the returning property, it then returns to your hand.
+
+### Scattering Stance
+At 6th level, when you take the Dodge action, until the start of your next turn you gain a number of special reactions equal to your proficiency bonus that you can only use for your Intercept feature. You can only take one reaction per turn.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Curved Throw
+Starting at 11th level, you can curve your throws behind cover. When you make an attack roll with a weapon with the thrown property, you can spend 1 focus point to cause the target to gain no benefit from shields or cover, unless that cover is full cover.
+
+### Relentless Assault
+At 17th level, when you make multiple weapon attacks with thrown weapons against the same target on your turn, each attack after the first gains a +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6.
+
+<img src='https://www.gmbinder.com/images/5aztMYq.png' style='position:absolute;bottom:21px;right:30px;width:530px;transform:scaleX(-1);z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
 \pagebreakNum
 
