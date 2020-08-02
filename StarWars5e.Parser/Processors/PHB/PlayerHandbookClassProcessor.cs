@@ -61,7 +61,7 @@ namespace StarWars5e.Parser.Processors.PHB
                 {
                     foreach (var classImageLu in _classImageLus.Where(c => c.Class == starWarsClass.Name))
                     {
-                        starWarsClass.ImageUrls.Add(classImageLu.Url);
+                        starWarsClass.ImageUrls.Add(classImageLu.URL);
                     }
                 }
 
