@@ -1125,7 +1125,7 @@ Additionally, when a creature fails their Dexterity saving throw against your Co
 _**Prerequisite:** 5th level_<br>
 You add additional chemicals to your modified biochemist's pack. When you deal cold damage with a tech power or class feature, you can use your Biochemist's Touch and Potent Mixture features.
 
-Additionally, when a creature fails their Constitution saving throw against your Noxious Mixtures feature, you can choose to instead deal cold damage. If you do so, its speed is reduced by 10 feet until the start of your next turn. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
+Additionally, when a creature fails their Constitution saving throw against your Noxious Mixtures feature, you can choose to instead deal cold damage. If you do so, it gains 1 slowed level until the start of your next turn. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
 
 #### Expanded Chemicals: Restorative
 _**Prerequisite:** 5th level_<br>
@@ -1134,7 +1134,7 @@ You add additional chemicals to your modified biochemist's pack. When you restor
 Additionally, when you use your Invigorating Mixture to grant temporary hit points to a creature, you can choose to restore that many hit points to the same creature. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
 
 #### Expanded Mixtures: Adhesive
-You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Strength saving throw. If the creature is Large or larger, it has advantage on the saving throw. On a failed save, a creature's speed is reduced to 0 until the start of your next turn. As an action on their turn, an affected creature can repeat this saving throw, ending the effect on a success. 
+You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Strength saving throw. If the creature is Large or larger, it has advantage on the saving throw. On a failed save, a creature gains 4 slowed levels until the start of your next turn. As an action on their turn, an affected creature can repeat this saving throw, ending the effect on a success. 
 
 #### Expanded Mixtures: Blinding
 You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Constitution saving throw. On a failed save, a creature is blinded until the start of your next turn.
@@ -1351,7 +1351,7 @@ You fine tune your Corrosive Amplifier. When you activate this amplifier, the ne
 #### Prototype Cryo Amplifier
 _**Prerequisite:** 7th level_<br>
 _**Prerequisite:** Cryo Amplifier_<br>
-You fine tune your Cryo Amplifier. When you activate this amplifier, the creature's speed is reduced by 10 feet until the end of your next turn. If the tech power already reduces the creature's speed, that amount is instead increased by 5 feet.
+You fine tune your Cryo Amplifier. When you activate this amplifier, the creature gains 1 slowed level until the end of your next turn. 
 
 #### Prototype Explosive Amplifier
 _**Prerequisite:** 7th level_<br>
@@ -1370,7 +1370,7 @@ _**Prerequisite:** Wrist-Mounted Grappling Hook_<br>
 While your wrist-mounted grappling hook is deployed, when you cast a tech power with a range of touch, your hook can deliver the power as if it had cast it.
 
 #### Sentry Turret
-You learn how to craft small sentry turrets shaped like globes that can adhere to any surface. As an action or bonus action (your choice), you can throw a sentry to a point you can see within range (30 feet + your Strength modifier x 5). At the end of each of your turns, a deployed sentry automatically targets a hostile creature within 10 feet of it. If multiple targets are available, one is chosen at random. The target must make a Dexterity saving throw. On a failed save, it takes 1d4 energy damage and its speed is reduced by 5 until the end of your next turn.
+You learn how to craft small sentry turrets shaped like globes that can adhere to any surface. As an action or bonus action (your choice), you can throw a sentry to a point you can see within range (30 feet + your Strength modifier x 5). At the end of each of your turns, a deployed sentry automatically targets a hostile creature within 10 feet of it. If multiple targets are available, one is chosen at random. The target must make a Dexterity saving throw. On a failed save, it takes 1d4 energy damage and gains 1 slowed level until the end of your next turn.
 
 The sentries have 1 hit point, an armor class of 10, and can be repaired over the course of a long rest. Each sentry lasts for 1 minute before deactivating. You can maintain a number of sentries equal to your Intelligence modifier. Once a sentry has been activated, it can't be activated again until you finish a short or long rest.
 
@@ -1405,10 +1405,10 @@ Also at 3rd level, you learn to enhance your tinker's implements with unproven s
 
 Whenever you cast a tech power of 1st level or higher while wielding your tinker's implements, you risk unexpected complications. Your GM can have you roll a d20. If you roll a 1, roll on the Experimental Engineering Surge table to create a random effect. 
 
-Additionally, your tinker's implements come equipped with 4 overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Experimental Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and your<br> maximum tech points is reduced by 1 until<br> you complete a long rest. You regain all<br> expended overrides when you complete<br> a long rest.
+Additionally, your tinker's implements come equipped with 4 overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Experimental Engineering Surge, you can use an override to reroll the percentile dice. You<br> must use the new result, you can only do<br> this once per surge, and your maximum<br> tech points is reduced by 1 until you<br> complete a long rest. You regain all<br> expended overrides when you<br> complete a long rest.
 
 ### Unstable Volley
-Lastly at 3rd level, as a bonus<br> action you can expend one<br> use of your Potent Aptitude<br> to launch a volley of unstable<br> energy at a surface located with-<br>in 30 feet of you that you can<br> see. This energy adheres to<br> the surface for 1 minute, after<br> which it erupts. As a part of this<br> bonus action, or as a bonus<br> action on each of your turns,<br> you can cause the energy<br> to erupt early. Each<br> creature within 5 feet<br> of it must make a Dext-<br>erity saving throw<br> against your tech save<br> DC. A creature takes<br> 1d6 lightning damage on<br> a failed save, or half as<br> much on a successful one. 
+Lastly at 3rd level, as a bonus<br> action you can expend one<br> use of your Potent Aptitude to<br> launch a volley of unstable<br> energy at a surface located<br> within 30 feet of you that you<br> can see. This energy adheres<br> to the surface for 1 minute,<br> after which it erupts. As a<br> part of this bonus action,<br> or as a bonus action on<br> each of your turns, you<br> can cause the energy to<br> erupt early. Each<br> creature within 5 feet<br> of it must make a<br> Dexterity saving throw<br> against your tech save DC.<br> A creature takes 1d6 lightning damage on a<br> failed save, or half as much on a<br> successful one. 
 
 \columnbreak
 
@@ -1583,8 +1583,8 @@ Beginning at 7th level, your constant blur of motion and attacks becomes an unen
 
 </div>
 
-### Focused Breathing
-At 10th level, you learn to recover some of your expended power quickly. When you use your Second Wind you also regain a number of force points equal to your Wisdom or Charisma modifier (your choice, a minimum of one). 
+### &emsp;&emsp;Focused Breathing
+&emsp;At 10th level, you learn to recover some of your expended power quickly. When you use your Second Wind you also regain a number of force points equal to your Wisdom or Charisma modifier (your choice, a minimum of one). 
 
 ### Unstoppable Force
 Starting at 15th level, you learn to completely ignore many of the most devastating impediments of combat. You can expend a use of Indomitable to gain the effect of the *freedom of movement* force power until the end of your next turn. 
@@ -1723,7 +1723,7 @@ ___
 The ammunition enhancements are presented in alphabetical order.
 
 #### Carbonite Shot
-When this shot strikes its target, shards of carbonite wrap around the target. The creature hit by the shot takes an extra 2d6 cold damage, its speed is reduced by 10 feet, and it takes 2d6 kinetic damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the carbonite with a successful Strength (Athletics) check against your Special Ammunition save DC. Otherwise, the carbonite lasts for 1 minute or until you use this option again.
+When this shot strikes its target, shards of carbonite wrap around the target. The creature hit by the shot takes an extra 2d6 cold damage, it gains 1 slowed level, and it takes 2d6 kinetic damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the carbonite with a successful Strength (Athletics) check against your Special Ammunition save DC. Otherwise, the carbonite lasts for 1 minute or until you use this option again.
 
 The cold damage and kinetic damage both increase to 4d6 when you reach 18th level in this class.
 
@@ -1827,7 +1827,7 @@ In addition, if a creature marked by you deals damage to anyone other than you, 
 Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ### Warding Maneuver
-Beginning at 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll ld8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
+Beginning at 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is dealt damage by an attack, you can roll ld8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
 
 You can use this feature a number of times equal to your Constitution modifier (a minimum of once), and you regain all expended uses of it when you finish a long rest.
 
@@ -1836,7 +1836,7 @@ You can use this feature a number of times equal to your Constitution modifier (
 <div style='margin-top:27px'></div>
 
 ### Hold the Line
-At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target's speed is reduced to 0 until the end of the current turn.
+At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target gains 4 slowed levels until the end of the current turn.
 
 ### Ferocious Charger
 Starting at 15th level, you can run down your foes, whether you're mounted or not. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or be knocked prone. You can use this feature only once on each of your turns.
@@ -1962,6 +1962,8 @@ On your turn, you can expend a use of your Channel the Force (no action required
 \pagebreakNum
 
 <img src='https://www.gmbinder.com/images/qzvePJ1.png' style='position:absolute;bottom:21px;left:-325px;width:775px;z-index:1000;transform:scaleX(-1)' />
+
+<br>
 
 \columnbreak
 
@@ -2343,7 +2345,7 @@ At 6th level, you've learned to enhance your kata.<br> As a bonus action while w
 At 11th level, the range of this area increases to<br> 15 feet, and at 17th level, the range of this<br> area increases to 30 feet.
 
 ### Vigilant Sentinel
-Starting at 11th level,<br> when you attempt<br> to perceive your<br> surroundings<br> on your turn,<br> you can opt<br> to not move on that turn. If you avoid moving, you<br> gain a +10 bonus to your Wisdom (Perception) checks<br> until the start of your next turn. You lose this benefit<br> if you move or fall prone, either voluntarily or because<br> of some external effect.
+Starting at 11th level,<br> when you attempt<br> to perceive your<br> surroundings<br> on your turn,<br> you can opt<br> to not move<br> on that turn. If you avoid moving, you gain a +10<br> bonus to your Wisdom (Perception) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect.
 
 \columnbreak
 
@@ -2577,7 +2579,7 @@ ___
 ___
 
 #### Hinder
-You attempt to distract your target in order to hinder their movement. The target must make a Constitution saving throw. On a failed save, its movement speed is reduced by half and it makes the first Dexterity saving throw before the end of its next turn with disadvantage.
+You attempt to distract your target in order to hinder their movement. The target must make a Constitution saving throw. On a failed save, it gains 1 slowed level until the end of its next turn and it makes the first Dexterity saving throw before the end of its next turn with disadvantage.
 
 #### Pilfer
 You attempt to pick your target's pockets. The target must make a Wisdom saving throw. On a failed save, you have advantage on the first Dexterity (Sleight of Hand) check you make against the target before the end of your next turn.
@@ -3178,7 +3180,7 @@ You attempt to create a lingering wound in the target for one minute. The target
 You attempt to cause cause distracting pain in the target. The target must make a Constitution saving throw. On a failed save, it has disadvantage on attack rolls until the end of your next turn. 
 
 #### Hampering Shot
-You attempt to hamper the target's movement. The target must make a Constitution saving throw. On a failed save, its movement speed is reduced by half and it makes Dexterity saving throws with disadvantage until the end of its next turn.
+You attempt to hamper the target's movement. The target must make a Constitution saving throw. On a failed save, it gains 1 slowed level and it makes Dexterity saving throws with disadvantage until the end of its next turn.
 
 \columnbreak
 
@@ -3893,7 +3895,7 @@ Starting at 9th level, when your beast makes an attack roll, ability check, or s
 Once you've reached 17th level, you have learned how to push your beast beyond its limits. If your beast is within 30 feet of you and can see or hear you, you can command it to enter a furious state. While raging, your beast gains the following benefits:
 - Your beast has advantage on Strength checks and Strength saving throws if it is size Medium or larger.
 - Your beast has advantage on Dexterity checks and Dexterity saving throws if it is size Small or smaller.
-- When your hits with an attack, it deals bonus damage equal to your Intelligence modifier.
+- When your beast hits with an attack, it deals bonus damage equal to your Intelligence modifier.
 - Your beast has resistance to kinetic and energy damage.
 
 Your beast's furious state lasts for 1 minute. It ends early if your beast is knocked unconscious. You can end your beast's furious state as a bonus action.
@@ -4252,7 +4254,7 @@ Your turret's size is Medium. Its hit points increase by an amount equal to its 
 
 #### Suppressing Fire
 _**Prerequisite:** 11th level_<br>
-When a creature within 30 feet of you moves at least 5 feet, you can use your reaction to have your turret make a ranged weapon attack with its blaster against the creature. If the attack hits, the creature's speed is reduce by half until the start of your next turn.
+When a creature within 30 feet of you moves at least 5 feet, you can use your reaction to have your turret make a ranged weapon attack with its blaster against the creature. If the attack hits, the creature gains 1 slowed level until the start of your next turn.
 
 #### Turret Coverage
 As an action, you can have your turret anchor itself to the ground or recover itself. While anchored, its speed is reduce to 0, it has resistance to energy and kinetic damage, and it provides cover to creatures within 5 feet of it, depending on its size. A Small turret provides one-quarter cover, a Medium turret provides half cover, and a Large turret provides three-quarters cover. If an attack would miss a creature by an amount less than or equal to the bonus to AC granted by your turret's cover, your turret instead takes the damage. 
@@ -4548,7 +4550,7 @@ You can use your action to take total and precise control of the target. Until t
 There may come a time when a sentinel finds themselves stranded, hunted, or in any situation where they must hide their nature as a force wielder. Those sentinels who follow the Path of the Corsair make use of alternative weaponry not commonly associated with force-wielders to great effect.
 
 ### Scavenger's Reach
-Starting when you choose this calling at 3rd level, you learn the *force disarm* force power. Additionally, you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.
+Starting when you choose this calling at 3rd level, you learn the *force disarm* force power, which does not count against your total powers known. Additionally, you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.
 
 ### Corsair Weapons
 Also at 3rd level, you can use the force to quickly learn the use of unfamiliar weapons. When you hold a weapon that you are not proficient in, you can spend 1 force point (no action required) to gain proficiency with that weapon until the end of your next long rest. Additionally, you can use your Force-Empowered Self options when you hit with a ranged weapon attack.
@@ -4610,14 +4612,14 @@ At 18th level, you no longer suffer the frailty of old age, and you can't be age
 Some few master their weapon in ways that differ from their peers. Those sentinels who follow the Path of the Forceblade channel the Force into their weapon, forming a unique connection that grants you greater control over the weapon; it becomes an extension of their will.
 
 ### Phasethrow
-Starting when you choose this calling at 3rd level, you learn the *saber throw* force power. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use all three Force-Empowered Self options when you cast it as your action and hit a target. Finally, when you hit a creature within with the *saber throw* force power, you deal additional damage equal to half your Wisdom or Charisma modifier (your choice, minimum of one) if it doesn’t already include that modifier.
+Starting when you choose this calling at 3rd level, you learn the *saber throw* force power, which does not count against your total powers known. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use all three Force-Empowered Self options when you cast it as your action and hit a target. Finally, when you hit a creature within with the *saber throw* force power, you deal additional damage equal to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1) if it doesn’t already include that modifier.
 
 ### Forceblade Bond
 Also at 3rd level, you learn how to bond with a light- or vibro-weapon through the Force, making it part of you.
 
 You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond, gaining the following benefits:
-- You can't be disarmed of that weapon while you are conscious. 
-- If the weapon is within 60 feet of<br> you and you can see it, you can<br> summon that weapon as a bonus action on your turn, causing it to travel instantly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
+- You can't be disarmed of that<br> weapon while you are conscious. 
+- If the weapon is within 60 feet of you and<br> you can see it, you can summon that weapon as a bonus action on your turn, causing it to travel instantly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
 - You can use Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls.
 
 You can have two weapons bonded to you in this way at a time, and you can summon both of them to you with the same bonus action.
@@ -4632,12 +4634,12 @@ Additionally, when you deal damage<br> to a creature within 30 feet of you with<
 <div style='margin-top:28px'></div>
 
 ### Disruptive Throw
-By 13th level, when you are the target of a ranged attack, and the source is within range of your saber throw force power, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage using your Kinetic Combat die instead of the weapon's damage die and you impose disadvantage on the triggering attack roll.
+By 13th level, when you are the target of a ranged attack, and the source is within range of your *saber throw* force power, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage using your Kinetic Combat die instead of the weapon's damage die and you impose disadvantage on the triggering attack roll.
 
 ### Forceblade Mastery
 At 18th level, you've mastered controlling your forceblade with your mind, using it to keep your enemies at bay. As an action, you can telekinetically control your forceblade and have it strike any number of creatures within 10 feet of you, spending 1 force point per target. Each target must make a Dexterity saving throw (DC = 8 + your bonus to weapon attack rolls with that weapon). On a failed save, it takes damage using your Kinetic Combat die + half your sentinel level (rounded down), is pushed back 10 feet and knocked prone.
 
-<img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:10px;right:-60px;width:720px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:10px;right:-60px;width:710px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 
@@ -4698,14 +4700,10 @@ At 18th level, when you use your Force-Empowered Tech features, a barrier for en
 The tenacious are ever mindful that the Force ebbs and flows, and uses this knowledge to great advantage. Those sentinels who follow the Path of Tenacity use their connection to the Force to draw the opposition's attention while also warding off their attacks, serving as an effective bulwark against even the most implacable of foes.
 
 ### Protector
-Starting when you choose this calling at 3rd level, you learn the *saber ward* force power. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, when you cast it, you can spend 2 force points to extend the benefits to creatures of your choice within 5 feet of you while the power is active. The creatures immediately lose this benefit if they move more than 5 feet away from you.
+Starting when you choose this calling at 3rd level, you learn the *saber ward* force power, which does not count against your total powers known. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, when you cast it, you can spend 2 force points to extend the benefits to creatures of your choice within 5 feet of you while the power is active. The creatures immediately lose this benefit if they move more than 5 feet away from you.
 
 ### Kinetic Ward
-Also at 3rd level, you can use your reaction to deflect a strike when you are hit by a melee weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your 
-
-<div style='margin-top:35px'></div>
-
-sentinel level. If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and if the attack hits it uses your Kinetic Combat die for its damage roll. If *saber ward* is active, you have advantage on the attack roll.
+Also at 3rd level, you can use your reaction to deflect a strike when you are dealt damage by a melee weapon attack. When you do so, the damage you take from the<br><br><br><br> attack is reduced by 1d10 + your Dexterity modifier + your sentinel level. If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and if the attack hits it uses your Kinetic Combat die for its damage roll. If *saber ward* is active, you have advantage on the attack roll.
 
 ### Kinetic Bulwark
 At 7th level, you can extend your Kinetic Ward to a creature within 5 feet of you when they are hit by a melee weapon attack. If this damage is not reduced to 0, the warded creature takes any remaining damage. 
@@ -4724,7 +4722,7 @@ At 18th level, you can protect allies even further from you. When a creature wit
 
 You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/uUGZB8C.png' style='position:absolute;bottom:27px;right:0px;width:813px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/uUGZB8C.png' style='position:absolute;bottom:27px;right:0px;width:803px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 

@@ -1,4 +1,72 @@
 
+
+#### Bestow Virus
+_3rd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** Concentration, up to 1 minute
+
+You touch a droid, construct, or a creature with a tech focus, and it must succeed on an Intelligence saving throw or receive a tech-based curse for the duration of the power. When you cast this power, choose the nature of the curse from the following options:
+- Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.
+- While cursed, the target has disadvantage on attack rolls against you.
+- While cursed, the target must make an Intelligence saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.
+- While the target is cursed, your attacks and powers deal an extra 1d8 lightning damage to the target.
+
+A *remove virus* power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
+
+**Overcharge Tech.** If you cast this power using a tech slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a tech slot of 5th level or higher, the duration is 8 hours. If you use a tech slot of 7th level or higher, the duration is 24 hours. If you use a 9th-level tech slot, the power lasts until it is dispelled. Using a tech slot of 5th level or higher grants a duration that doesn't require concentration.
+
+#### Enhance Droid
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** Concentration, up to 1 hour
+
+You touch a droid or construct and upgrade one of its aspects. Choose one of the following effects; the target gains that effect until the power ends. 
+- ***Servomotor.*** The target has advantage on Strength checks, and its carrying capacity doubles. 
+- ***Motivator.*** The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated. 
+- ***Power Core.*** The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the power ends. 
+- ***Databanks.*** The target has advantage on Intelligence checks. 
+- ***Sensors.*** The target has advantage on Wisdom checks. 
+- ***Relations Protocols.*** The target has advantage on Charisma checks. 
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you can target one additional droid or construct for each slot level above 2nd.
+
+#### Glide
+_2nd-level tech power_
+___
+- **Casting Time:** 1 reaction, which you take when you or a creature within 30 feet of you falls
+- **Range:** 30 feet
+- **Duration:** 1 minute
+
+One willing creature gains the ability to glide when falling. For the duration of the power, it falls at a rate of 30 feet per round and can move up to 30 feet horizontally as well on each of its turns. If the creature lands before the power ends, it takes no falling damage and can land on its feet, and the power ends for that creature.
+
+#### Short Circuit
+_At-will tech power_
+___
+- Casting Time: 1 action
+- Range: 120 feet
+- Duration: 1 round
+
+You electrocute a creature within range. Make a ranged tech attack against the creature. On a hit, the target takes 1d8 lightning damage. If the target is a droid, construct, or has a tech focus, it has disadvantage on attack rolls against you until the end of your next turn. 
+
+This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+#### Wire Line
+_At-will tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Duration:** Instantaneous
+
+You launch a grappling wire toward a creature you can see within range. Make a melee tech attack against the target. If the attack hits, the creature takes 1d6 kinetic damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.
+
+This power's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+
+\pagebreak
+
 #### Voltaic Shielding
 _1st-level tech power_
 ___
