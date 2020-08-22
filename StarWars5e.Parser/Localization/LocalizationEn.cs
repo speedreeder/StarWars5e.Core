@@ -357,7 +357,7 @@ namespace StarWars5e.Parser.Localization
         public string ECSpeciesLanguage => "***Language***";
         public string ECSpeciesPrimaryLanguage => "***Primary Language***";
         public string ECSpeciesAbilityScoreIncrease => "Ability Score Increase";
-        public string ECSpeciesHalfHuman => "Half-Human";
+        public string ECSpeciesHalfHuman => "Half-human";
         #endregion
 
         #region StarshipChapterRulesProcessor

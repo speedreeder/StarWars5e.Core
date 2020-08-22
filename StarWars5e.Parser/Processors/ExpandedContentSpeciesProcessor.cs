@@ -289,7 +289,7 @@ namespace StarWars5e.Parser.Processors
                     }
                 }
 
-                if (name == Localization.ECSpeciesHalfHuman)
+                if (name.Equals(Localization.ECSpeciesHalfHuman, StringComparison.InvariantCultureIgnoreCase))
                 {
                     var tableLines = speciesLines.Where(c => Regex.IsMatch(c, @"^>\s*\|[A-Za-z]+")).ToList();
 
