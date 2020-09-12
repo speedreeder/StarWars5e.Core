@@ -92,19 +92,20 @@
 |	Ssi-Ruu	            |	81	|
 |	Sullustan	        |	82	|
 |	Talz            	|	83	|
-|	Thisspiasian       	|	84	|
-|	Togorian           	|	85	|
-|	Toydarian       	|	86	|
-|	Tusken	            |	87	|
-|	Ugnaught	        |	88	|
-|   Umbaran             |   89  |
-|	Verpine	            |	90	|
-|	Voss	            |	91	|
-|	Vurk            	|	92	|
-|	Weequay	            |	93	|
-|	Yevetha             |	94	|
-|	Zeltron             |	95	|
-|	Zygerrian           |	96	|
+|	Tarasin            	|	84	|
+|	Thisspiasian       	|	85	|
+|	Togorian           	|	86	|
+|	Toydarian       	|	87	|
+|	Tusken	            |	88	|
+|	Ugnaught	        |	89	|
+|   Umbaran             |   90  |
+|	Verpine	            |	91	|
+|	Voss	            |	92	|
+|	Vurk            	|	93	|
+|	Weequay	            |	94	|
+|	Yevetha             |	95	|
+|	Zeltron             |	96	|
+|	Zygerrian           |	97	|
 
 </div>
 
@@ -3409,11 +3410,11 @@ ___
 > |Gand|Lungless|
 > |Geonosian|Geonosian Weaponry|
 > |Givin|Vacuum Sealed|
-> |Gotal|Natural Empathy|
-> |Gran|Keen Sight|
 > 
 > |||
 > |:--:|:--:|
+> |Gotal|Natural Empathy|
+> |Gran|Keen Sight|
 > |Gungan|Martial Proficiency|
 > |Harch|Venomous Fangs|
 > |Herglic|Toughness|
@@ -3460,6 +3461,7 @@ ___
 > |Squib|Keen Smell|
 > |Sullustan|Darkvision|
 > |Talz|Darkvision|
+> |Tarasin|Sa'tosin Sense|
 > |Thisspiasian|Prehensile Tail|
 > |Togorian|Toughness|
 > |Togruta|Darkvision|
@@ -6388,6 +6390,75 @@ As a Talz, you have the following special traits.
 ***Languages.*** You can speak, read, and write Talzzi. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Talzzi is characterized by its high-pitched chirps and buzzes.
 
 <img src='https://www.gmbinder.com/images/7pfWlgG.png' style='position:absolute;top:48px;right:44px;width:304px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreakNum
+
+___
+> ## Tarasin
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Translucent; varies with emotion|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Red, orange, yellow, or black|
+> |***Distinctions***|  |Reptillian, sa'tosin spines|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'9"|+2d6"|
+> |***Weight***|  |100 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Cularin|
+> |***Language***|  |Tarasinese|
+
+<div style='margin-top:40px'></div>
+
+### Biology and Appearance
+Tarasins are tall reptilians covered in translucent scales that allows the species' color-changing skin below to show through. Tarasins also have a colorful fan of flesh and scales—known as a kampo—that opens around their heads when they experience strong emotional distress, which can be a detriment to negotiations, as it is difficult for a tarasin to hide discomfort. This color-changing ability is useful for camouflage and communication, and the scales naturally repel heat. Some examples of colors they take on include being brown when calm and in a comfortable environment, or becoming red after extended exertion or when excited. Tarasins also have short spines that protrude from their forearms—known as a sa'tosin—which give the creatures the ability to sense the use of the Force. Tarasins are naturally curious and protective but also slow to anger. What they lack in sheer physical strength they make up for with a brilliant intellect.
+
+### Society and Culture
+Tarasins live in a tribal system in the jungle underbrush of Cularin, grouping together in clans called irstat. The tarasin believe they have a symbiotic relationship with Cularin, and their religion is based around the appreciation of the natural world. This closeness with their homeworld is what makes the tarasin reluctant to leave it for an extended time. The tarasin have a strong connection with the Force, and their spiritual leaders are often able to call upon the Force in small ways. The tarasin believe that the ch'hala tree is sacred. This may have been influenced by the trees having a similar ability to shift their colors as the tarasin, but it is also the most unique tree on Cularin. 
+
+### Names
+Tarasin names are generally very soft and melodic. Names are agendered, and surnames are not used.
+
+**Names.** Feliosa, Misona, Nissira, Vylana, Ziransa
+
+\columnbreak
+
+<div style='margin-top:476px'></div>
+
+### Tarasin Traits
+As a tarasin, you have the following special traits.
+
+***Ability Score Increase.*** Your Intelligence score increases by 2, and your Dexterity score increases by 1.
+
+***Age.*** Tarasins reach adulthood at 10 and live less than 80 years.
+
+***Alignment.*** Tarasins' curious yet composed nature causes them to tend toward balanced alignments, though there are exceptions.
+
+***Size.*** Tarasins typically stand 5 to 6 feet tall and generally weigh about 130 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Chameleon Skin.*** Your scales are translucent, allowing your color-shifting skin to help you blend into your surroundings. You have proficiency in the Stealth skill. Additionally, you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+
+***Jungle Dweller.*** Growing up in the jungles of Cularin has left an impact. You don't treat jungle terrain as difficult terrain.
+
+***Naturalist.*** You have proficiency in the Nature skill.
+
+***Sa'tosin Sense.*** Tarasins have short spines called sa'tosin that allow them to sense the use of the Force. You are constantly under the effects of the force power *sense force*, though the power does not require concentration for you.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Tarasinese. You can communicate non-verbally with other tarasins through use of a complex system of skin color changes.
+
+<img src='https://www.gmbinder.com/images/v6JqWEi.png' style='position:absolute;top:44px;right:130px;width:189px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

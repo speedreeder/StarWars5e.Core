@@ -28,66 +28,67 @@
 |&emsp;Biochem Engineering      |24|
 |&emsp;Cybertech Engineering    |27|
 |&emsp;Experimental Engineering |30|
+|&emsp;Gadgeteer Engineering    |32|
 |Fighter||
-|&emsp;Adept Specialist         |32|
-|&emsp;Blademaster Specialist   |34|
-|&emsp;Demolitions Specialist   |35|
-|&emsp;Enhancement Specialist   |36|
-|&emsp;Heavy Weapons Specialist |37|
-|&emsp;Mounted Specialist       |38|
-|&emsp;Praetorian Specialist    |39|
+|&emsp;Adept Specialist         |35|
+|&emsp;Blademaster Specialist   |37|
+|&emsp;Demolitions Specialist   |38|
+|&emsp;Enhancement Specialist   |39|
+|&emsp;Heavy Weapons Specialist |41|
+|&emsp;Mounted Specialist       |42|
+|&emsp;Praetorian Specialist    |43|
 |Guardian||
-|&emsp;Form IV: Ataru           |41|
-|&emsp;Form V: Shien/Djem So    |42|
-|&emsp;Form VI: Niman           |44|
-|&emsp;Form VII: Juyo/Vapaad    |45|
-|&emsp;Form VIII: Sokan         |47|
-|&emsp;Form IX: Trakata         |48|
-|&emsp;Form X: Jar'Kai          |49|
+|&emsp;Form IV: Ataru           |44|
+|&emsp;Form V: Shien/Djem So    |45|
+|&emsp;Form VI: Niman           |47|
+|&emsp;Form VII: Juyo/Vapaad    |48|
+|&emsp;Form VIII: Sokan         |50|
+|&emsp;Form IX: Trakata         |51|
+|&emsp;Form X: Jar'Kai          |52|
 
 |||
 |:--|--:|
 |Monk||
-|&emsp;Aing-Tii Order           |50|
-|&emsp;Crimson Order            |51|
-|&emsp;Jal Shey Order           |52|
-|&emsp;Kage Order               |53|
-|&emsp;Kyuzo Order              |54|
-|&emsp;Matukai Order            |55|
-|&emsp;Trickster Order          |56|
-|&emsp;Whills Order             |57|
+|&emsp;Aing-Tii Order           |53|
+|&emsp;Crimson Order            |54|
+|&emsp;Jal Shey Order           |55|
+|&emsp;Kage Order               |56|
+|&emsp;Kyuzo Order              |57|
+|&emsp;Matukai Order            |58|
+|&emsp;Trickster Order          |59|
+|&emsp;Whills Order             |60|
 |Operative||
-|&emsp;Acquisitions Practice    |58|
-|&emsp;Beguiler Practice        |59|
-|&emsp;Disabling Practice       |61|
-|&emsp;Performance Practice     |62|
-|&emsp;Ruffian Practice         |63|
-|&emsp;Saboteur Practice        |64|
-|&emsp;Sawbones Practice        |68|
-|&emsp;Scrapper Practice        |69|
+|&emsp;Acquisitions Practice    |61|
+|&emsp;Beguiler Practice        |62|
+|&emsp;Disabling Practice       |64|
+|&emsp;Performance Practice     |65|
+|&emsp;Ruffian Practice         |66|
+|&emsp;Saboteur Practice        |67|
+|&emsp;Sawbones Practice        |71|
+|&emsp;Scrapper Practice        |72|
 |Scholar||
-|&emsp;Chef Pursuit             |70|
-|&emsp;Explorer Pursuit         |72|
-|&emsp;Gambler Pursuit          |74|
-|&emsp;Geneticist Pursuit       |76|
-|&emsp;Slicer Pursuit           |78|
-|&emsp;Zoologist Pursuit        |80|
+|&emsp;Chef Pursuit             |73|
+|&emsp;Explorer Pursuit         |75|
+|&emsp;Gambler Pursuit          |77|
+|&emsp;Geneticist Pursuit       |79|
+|&emsp;Slicer Pursuit           |81|
+|&emsp;Zoologist Pursuit        |83|
 |Scout||
-|&emsp;Artillerist Technique    |84|
-|&emsp;Bulwark Technique        |87|
-|&emsp;Illusionist Technique    |88|
-|&emsp;Inquisitor Technique     |89|
-|&emsp;Mastermind Technique     |90|
-|&emsp;Predator Technique       |91|
-|&emsp;Slayer Technique         |92|
+|&emsp;Artillerist Technique    |87|
+|&emsp;Bulwark Technique        |90|
+|&emsp;Illusionist Technique    |91|
+|&emsp;Inquisitor Technique     |92|
+|&emsp;Mastermind Technique     |93|
+|&emsp;Predator Technique       |94|
+|&emsp;Slayer Technique         |95|
 |Sentinel||
-|&emsp;Path of Communion        |93|
-|&emsp;Path of the Corsair      |94|
-|&emsp;Path of Etherealness     |95|
-|&emsp;Path of the Forceblade   |96|
-|&emsp;Path of Synthesis        |97|
-|&emsp;Path of Tenacity         |98|
-|&emsp;Path of Witchcraft       |99|
+|&emsp;Path of Communion        |96|
+|&emsp;Path of the Corsair      |97|
+|&emsp;Path of Etherealness     |98|
+|&emsp;Path of the Forceblade   |99|
+|&emsp;Path of Synthesis        |100|
+|&emsp;Path of Tenacity         |101|
+|&emsp;Path of Witchcraft       |102|
 
 </div>
 
@@ -697,7 +698,7 @@ Lastly at 3rd level, once per round, when you hit a creature with your modified 
 
 The damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 11th level, and 8d6 at 17th level.
 
-### Kyber Knowledge
+### Forcecasting Secrets
 Beginning at 6th level, your study of kyber crystals has awakened a latent force sensitivity. Choose two force powers of 1st level. The chosen powers count as tech powers for you, but are not included in the number in the Powers Known column of the engineer table.
 
 At 10th level, you learn two additional force powers of 1st or 2nd level. At 14th level, you learn two force powers of 1st-3rd level, and at 18th level, you learn two force powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of the same level.
@@ -1503,6 +1504,206 @@ Starting at 18th level, the harmful energies of your tech powers and class featu
 
 \pagebreakNum
 
+## Gadgeteer Engineering
+Those engineers who choose the Gadgeteer discipline focus on the ability to craft reusable consumables and items that augment and complement their techcasting abilities.
+
+### Bonus Proficiencies
+When you choose this discipline at 3rd level, you gain proficiency in gadgeteer's implements. Additionally, when you engage in crafting with gadgeteer's implements, the rate at which you craft doubles.
+
+### Gadgeteer Harness
+Also at 3rd level, you learn to create and modify adventuring gear utilizing your gadgeteer experience. Over the course of a long rest, you can expend 500 cr worth of materials to create your modified gadgeteer harness. You must have gadgeteer's implements and materials in order to perform this modification.
+
+Your gadgeteer harness is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your gadgeteer harness has 4 modification slots to which you can affix gadgets, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+
+Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
+
+### Projected Barrier
+Lastly at 3rd level, as a bonus action while wearing your gadgeteer harness, you can expend a use of your Potent Aptitude to project a barrier on a friendly creature you can see within 30 feet. A creature can only have one barrier active at a time.
+
+#### Environmental Barrier
+You project an environmental barrier that lasts until the end of your next short or long rest. The barrier has a number of hit points equal to the amount rolled on your Potent Aptitude die + your engineer level. Whenever a creature with this barrier takes damage (one of acid, cold, fire, force, lightning, necrotic, poison, psychic, or sonic, chosen by you when you activate the effect), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, the creature take any remaining damage. 
+
+#### Physical Barrier
+You project a physical barrier that lasts until the end of your next short or long rest. The barrier has a number of hit points equal to the amount rolled on your Potent Aptitude die + half your engineer level (rounded down). Whenever a creature with this barrier takes damage (one of energy, ion, or kinetic, chosen by you when you activate the effect), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, the creature take any remaining damage. 
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Versatile Direction
+Beginning at 6th level, you can take a second bonus action on each of your turns. 
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+
+### Reinforced Barriers
+At 14th level, when you cast a tech power while you have a barrier active, you can restore hit points to the barrier, provided it is within 30 feet of you. You restore a number of hit points equal to twice the power's level, or 1 hit point for an at-will power. This can't increase a barrier's hit points above its initial hit points. If you have multiple barriers active, you can divide these hit points between them as you see fit.
+
+### Adaptive Barrier
+Starting at 18th level, when a creature who has one of your barriers within 30 feet of you that you can see takes damage, and that damage is of a type that could be affected by that barrier, you can use your reaction to grant them resistance to the triggering damage. If that damage is the same type as the barrier's chosen damage, you instead grant them immunity. Whether resistance or immunity, the barrier immediately drops to 0 hit points.
+
+<img src='https://www.gmbinder.com/images/rMiCs3H.png' style='position:absolute;bottom:-7px;right:90px;width:301px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreakNum
+
+### Gadgeteer Contraptions
+If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
+
+#### Advanced Grounding System
+_**Prerequisite:** 13th level_<br>
+_**Prerequisite:** Prototype Grounding System_<br>
+While wearing your gadgeteer harness you have immunity to lightning damage.
+
+#### Auto-Injection Regenerator
+_**Prerequisite:** 5th level_<br>
+You install a special kolto injector into your gadgeteer harness that can inject you with kolto in response to pain. When you take damage, you can use your reaction and expend a Hit Die to regain health as long as the damage would not reduce your hit points to 0.
+
+#### Autothrusters
+_**Prerequisite:** Jet Pack_<br>
+You can take the Dash and Disengage actions as a bonus action while your jet pack is active.
+
+#### Climbing Gloves
+You craft a set of gloves with a powerful assisted grip. While wearing these gloves, you have a climbing speed of 20 feet, and you have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.
+
+#### Darkvision Goggles
+You craft a pair of sight-enhancing goggles. While wearing these goggles, you have darkvision to a range of 60 feet. If you already have darkvision, this modification increases its range by 30 feet.
+
+#### Extended Tank
+_**Prerequisite:** 5th level_<br>
+_**Prerequisite:** Jet Pack_<br>
+Your jet pack now lasts up to 10 minutes when activated.
+
+#### Flame Vents
+_**Prerequisite:** 9th level_<br>
+_**Prerequisite:** Jet Pack_<br>
+You learn the *flame sweep* tech power and can cast it at first level without using tech points. Once you have used this ability, you cannot use it again until you finish a short or long rest.
+
+Additionally, while your jet pack is active, you can cast *flame sweep* using your bonus action instead of your action.
+
+#### Grounding System
+While wearing your gadgeteer harness you are immune to the shocked condition.
+
+#### Integrated Inhibitor
+_**Prerequisite:** 5th level_<br>
+You gain a +1 bonus to your tech save DC. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+#### Integrated Targeter
+_**Prerequisite:** 5th level_<br>
+You gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+#### Intelligence Core Override
+_**Prerequisite:** 9th level_<br>
+You can cast the *override interface* tech power at 5th level without spending tech points.
+
+Once you've used this feature, you must complete a long rest before you can use it again.
+
+#### Jet Pack
+You add integrate a jet pack into your gadgeteer harness to grant you temporary, limited flight. Activating or deactivating the jets requires a bonus action and, while active, you have a flying speed of 30 feet. 
+
+The jet pack last for 1 minute before deactivating. Once the jets have been activated, they can't be activated again until you finish a short or long rest.
+
+#### Mechanical Arm
+You create a mechanical arm which mounts to your shoulder, which you can use independently. You can only gain the benefit of items held by two of your arms at any given time.
+
+You can choose this modification twice.
+
+#### Mimicker
+_**Prerequisite:** 9th level_<br>
+You create a device that attaches to your gadgeteer harness. Your mimicker casts a shadow that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function for 1 minute. Your mimicker is suppressed while you are incapacitated, restrained, or otherwise unable to move.
+
+#### Miniaturized Hydraulics
+Your gadgeteer harness can store 20 pounds of equipment without adding to your encumbrance.
+
+#### Oil Spill
+As an action, you can cast the *oil slick* tech power without expending tech points. Casting the power in this way does not require concentration, and the oil will remain in place for the full duration of the power.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Powered Grappling Hook
+_**Prerequisite:** 9th level_<br>
+_**Prerequisite:** Wrist-Mounted Grappling Hook_<br>
+While your wrist-mounted grappling hook is deployed, when you cast a tech power with a range of touch, your hook can deliver the power as if it had cast it.
+
+#### Prototype Grounding System
+_**Prerequisite:** 9th level_<br>
+_**Prerequisite:** Grounding System_<br>
+While wearing your gadgeteer harness you have resistance to lightning damage.
+
+#### Prototype Thruster
+_**Prerequisite:** 9th level_<br>
+_**Prerequisite:** Jet Pack_<br>
+While your jet pack is activated, your flying speed is now 45 feet.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreakNum
+
+#### Quick Start Engine
+_**Prerequisite:** 5th level_<br>
+_**Prerequisite:** Jet Pack_<br>
+You can now activate your Jet Pack as an object interaction rather than as a bonus action.
+
+#### Recycled Adrenals
+You can augment a single adrenal to regain its charge. This adrenal can only be used by you, and it can only affect you. Once you've used this adrenal, you can't use it again until you finish a short or long rest.
+
+#### Recycled Explosives
+You can augment a single explosive to regain its charge. This explosive can only be used by you, and it uses your tech save DC instead of its own, unless its own DC would be higher. Once you've used this explosive, you can't use it again until you finish a short or long rest.
+
+#### Recycled Stimpacs
+You can augment a single stimpac to regain its charge. This stimpac can only be used by you, and it can only affect you. Once you've used this stimpac, you can't use it again until you finish a short or long rest.
+
+#### Sentry Turret
+You learn how to craft small sentry turrets shaped like globes that can adhere to any surface. As an action or bonus action (your choice), you can throw a sentry to a point you can see within range (30 feet + your Strength modifier x 5). At the end of each of your turns, a deployed sentry automatically targets a hostile creature within 10 feet of it. If multiple targets are available, one is chosen at random. The target must make a Dexterity saving throw. On a failed save, it takes 1d4 energy damage and gains 1 slowed level until the end of your next turn. If a creature would be targeted by more than one of these sentries, it only makes this saving throw once, taking an additional d4 damage for each sentry beyond the first.
+
+The sentries have 1 hit point, an armor class of 10, and can be repaired over the course of a long rest. Each sentry lasts for 1 minute before deactivating. You can maintain a number of sentries equal to your Intelligence modifier. Once a sentry has been activated, it can't be activated again until you finish a short or long rest.
+
+#### Shocking Hook
+_**Prerequisite:** 9th level_<br>
+_**Prerequisite:** Wrist-Mounted Grappling Hook_<br>
+After hitting a creature with your grappling hook, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target with a range of touch. If the power requires an attack roll, you have advantage. If the target requires a saving throw, the target has disadvantage. 
+
+Once you've used this feature, you can't use it again until you recover the harpoon.
+
+\columnbreak
+
+#### Stealth Field Generator
+_**Prerequisite:** 9th level_<br>
+You create an augmented belt that functions as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute. This effect ends early if you make an attack or cast a force- or tech- power.
+
+Once the belt has been activated, it can't be activated again until you finish a short or long rest.
+
+#### Shocking Barrier
+_**Prerequisite:** 5th level_<br>
+You enhanced your barriers. Whenever a creature with one of your barriers active takes damage from a creature within 5 feet of it, the damaged creature can roll your Potent Aptitude die, dealing the result of the die as lightning damage to the creature that damaged it.
+
+#### Truesight Goggles
+_**Prerequisite:** 11th level_<br>
+_**Prerequisite:** Darkvision Goggles_<br>
+You modify your goggles with a toggle allowing you to briefly gain enhanced sight. As a bonus action, you can activate the truesight feature of your goggles. When toggled on, for the next minute your goggles now automatically dispel illusions and can detect invisibility, as with truesight.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+#### Weapon Integration
+You can integrate a single weapon that weighs no more than 8 lb. into your gadgeteer harness. While integrated, that weapon gains the hidden and fixed properties. 
+
+#### Wrist-Mounted Grappling Hook
+You craft a wrist-mounted grappling hook weapon attached to a tightly coiled cord. With this contraption, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.
+
+A creature struck by this attack is impaled by the hook. As an action, a creature can attempt to remove the hook. Removing the hook requires a Strength check. While the hook is stuck in the target, you are connected to the target by a 60 foot cable.
+
+While the hook is deployed, you can use your bonus action to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).
+
+Once you've used this feature, you can't use it again until you recover and reinsert the hook as an action.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreakNum
+
 ## Adept Specialist
 Those fighters who choose to become Adept Specialists tap into a latent Force-sensitivity to augment their martial prowess, blending the two to accelerate their bodies and blows. An adept speeds across the battlefield, attacking opponents in a flurry of blows before dashing off again.
 
@@ -1974,7 +2175,7 @@ At 7th level, you gain one of the following features. Choose Aggressive Negotiat
 When you make a Charisma (Intimidation) or Charisma (Persuasion) check, you gain a bonus to the check equal to half your Strength modifier (rounded down) if it doesn't already include that modifier. 
 
 #### Reliable Vigor
-If your total for a Strength check or saving throw is less than your Guardian level, you can use that value in place of the total.
+If your total for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the total.
 
 ### Presence
 Starting at 15th level, you gain one of the following features. Choose Precise Reflection for Shien or Brutal Strikes for Djem So.
@@ -3333,33 +3534,27 @@ These benefits last until the end of<br> the creature's next&emsp;&emsp;&emsp; l
 When you select this pursuit, you gain access to new discoveries which reflect the progress of your studies into the culinary arts. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
 
 #### Alternative Fuel
-_**Prerequisite:** Chef Pursuit_<br>
 Any of your chef features, maneuvers, or discoveries can now affect droids and constructs.
 
 #### Banquet
-_**Prerequisite:** 17th level, Chef Pursuit_<br>
-_**Prerequisite:** Full Course discovery_<br>
+_**Prerequisite:** 17th level, Full Course_<br>
 Over the course of a long or short rest, you may utilize an additional maneuver from this archetype (total of four).
 
 #### Filling Meal
-_**Prerequisite:** 7th level, Chef Pursuit_<br>
+_**Prerequisite:** 7th level_<br>
 Over the course of a long or short rest, you may utilize up to two different maneuvers from this archetype, rather than one.
 
 #### Full Course
-_**Prerequisite:** 12th level, Chef Pursuit_<br>
-_**Prerequisite:** Filling Meal discovery_<br>
+_**Prerequisite:** 12th level, Filling Meal_<br>
 Over the course of a long or short rest, you may utilize an additional maneuver from this archetype (total of three).
 
 #### On the Rocks
-_**Prerequisite:** Chef Pursuit_<br>
 Any food you prepare over a short or long rest carries with it an additional cooling effect. Creatures that consume it are considered adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide, until the end of the creature's next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes fire damage before the end of their next short or long rest, they are considered resistant to the damage.
 
 #### Secret Ingredient
-_**Prerequisite:** Chef Pursuit_<br>
 If you or any friendly creature that has consumed food made by you during their last short or long rest gains temporary hit points, the number of temporary hit points they gain increases by an amount equal to your Intelligence modifier.
 
 #### Spice of Life
-_**Prerequisite:** Chef Pursuit_<br>
 Any food you prepare over a short or long rest carries with it an additional warming effect. Creatures that consume it are considered adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide, until the end of the creature's next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes cold damage before the end of their next short or long rest, they are considered resistant to the damage.
 
 <img src='https://www.gmbinder.com/images/2qofkgK.png' style='position:absolute;bottom:0px;left:173px;width:285px;transform:scaleX(-1);z-index:1000;' />
@@ -3430,33 +3625,30 @@ Beginning at 17th level, when you use the Surveyed Area feature, the area affect
 When you select this pursuit, you gain access to new discoveries which reflect your studies in maps and hidden routes. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
 
 #### Cover Adept
-*Prerequisites: 12th level, Explorer Pursuit*<br>
+_**Prerequisite:** 12th level_<br>
 You treat half cover as three-quarters cover, and three-quarters cover as full cover. Additionally, while you are in cover, Dexterity (Stealth) checks you make gain a bonus equal to your Intelligence modifier (minimum of +1).
 
 #### Dungeon Explorer
-*Prerequisites: Explorer Pursuit*<br>
 You have advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks to locate any secret doors or traps, and you have resistance to damage dealt by traps.
 
 In addition, you can use your Sage Advice feature to teach friendly creatures about various types of traps, following the same rules of that feature. When you do so, the chosen creatures have resistance to damage dealt by traps.
 
 #### Galactic Explorer
-*Prerequisites: 9th level, Explorer Pursuit*<br>
+_**Prerequisite:** 9th level_<br>
 When you make a Piloting (Intelligence) skill check and may add your proficiency bonus to the check, treat any roll of 9 or lower as if you had rolled a 10. 
 
 #### Grappling Hunter
-*Prerequisites: 5th level, Explorer Pursuit*<br>
+_**Prerequisite:** 5th level_<br>
 Attack rolls that you make against creatures that you are grappling have advantage. 
 
 #### High Ground
-*Prerequisites: 5th level, Explorer Pursuit*<br>
+_**Prerequisite:** 5th level_<br>
 Once per turn, when you or a friendly creature hits a creature that is a target of your Critical Analysis feature, it takes additional damage equal to your half Intelligence modifier (minimum of +1). 
 
 #### No Stone Left Unturned
-*Prerequisites: Explorer Pursuit*<br>
 When you make a Wisdom (Perception) or Investigation (Intelligence) check to find a hidden creature that is inside the area that is targeted by your Critical Analysis feature, you do so with advantage. 
 
 #### Versatile Explorer
-*Prerequisites: Explorer Pursuit*<br>
 You can hold your breath twice as long as you are normally able to, and take half as much damage from fall damage.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
@@ -3533,34 +3725,30 @@ While you have a borrowed luck roll, you can expend it and replace any ability c
 When you select this pursuit, you gain access to new discoveries which reflect your deep understanding of chance. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
 
 #### Ace Up Your Sleeve
-_**Prerequisite:** Gambler Pursuit_<br>
 Whenever you make a Dexterity (Sleight of Hand) or Charisma (Deception) check, you can expend a superiority die, adding the result to your total for the check.
 
 #### Against the House
-_**Prerequisite:** Gambler Pursuit_<br>
 Whenever you would make a Charisma (Persuasion) check involving haggling, you can instead challenge the target to a game of chance. If they accept your offer, you can make an ability check with an available gaming set. If you win the challenge, you automatically succeed on the Charisma (Persuasion) check.
 
 #### Ante Up
-_**Prerequisite:** Gambler Pursuit_<br>
 When you roll initiative, are not surprised, and end up first in the initiative order, you can take one additional action on top of your regular action and a possible bonus action during your first turn in combat.
 
 #### Calculated Bluff
-_**Prerequisite:** Gambler Pursuit_<br>
 When you make an ability check using your Charisma, you can choose to instead make the check using your Intelligence.
 
 #### Cold Read
-_**Prerequisite:** Gambler Pursuit, 5th level_<br>
+_**Prerequisite:** 5th level_<br>
 As an action, you may make a Wisdom (Insight) check contested by a target's Charisma (Deception) check. On a success, you know the next action the target intends to take, so long as the situation does not change dramatically.
 
 #### Feeling the Pressure
-_**Prerequisite:** Gambler Pursuit, 13th level_<br>
+_**Prerequisite:** 13th level_<br>
 Whenever you roll a 4 or higher on your Risk Versus Reward feature, the target of your Critical Analysis feature also has disadvantage on attack rolls made against you until the start of your next turn.
 
 #### The Magic Number
-_**Prerequisite:** Gambler Pursuit, 7th level_<br>
+_**Prerequisite:** 7th level_<br>
 Whenever you roll a 7 on an ability check or saving throw, you can reroll the ability check or saving throw with advantage.
 
-<img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-30px;right:85px;width:280px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-50px;right:25px;width:370px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -3634,41 +3822,31 @@ You gain proficiency in Dexterity and Intelligence saving throws. Additionally, 
 When you select this pursuit, you gain access to new discoveries which reflect the changes you have caused your own body to undergo. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
 
 #### Adapted Hide
-_**Prerequisite:** Geneticist Pursuit_<br>
 When you aren't wearing armor, your AC is 13 + your Dexterity modifier. Additionally, you are adapted to hot or cold climates (your choice), as described in chapter 5 of the Dungeon Master's Guide. When you undergo your mutagenic transformation, you add your full Intelligence modifier, instead of half, to your AC for the duration.
 
 #### Atmospheric Adaptation
-_**Prerequisite:** Geneticist Pursuit_<br>
 You can breathe air and water. When you undergo your mutagenic transformation, you no longer need to breathe, and you can survive up to one hour within the vacuum of space for the duration.
-
-#### Enhanced Musculature
-_**Prerequisite:** Geneticist Pursuit_<br>
-You count as one size larger when determining your carrying capacity and the weight you can push, drag, or
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
-lift. Additionally, when you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier. When you undergo your mutagenic transformation, you have advantage on Strength checks and Strength saving throws for the duration.
+#### Enhanced Musculature
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Additionally, when you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier. When you undergo your mutagenic transformation, you have advantage on Strength checks and Strength saving throws for the duration.
 
 #### Icarian Mutation
-_**Prerequisite:** Geneticist Pursuit_<br>
-You sprout a pair of winged arms. You gain a flight speed equal to half your walking speed. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required). When you undergo your mutagenic transformation, your flying speed increases to your full walking speed, and you can use your bonus action to take the Dash action for the duration.
+You sprout a pair of winged arms. You gain a flying speed equal to half your walking speed. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required). When you undergo your mutagenic transformation, your flying speed increases to your full walking speed, and you can use your bonus action to take the Dash action for the duration.
 
 #### Mutagenic Hardiness
-_**Prerequisite:** Geneticist Pursuit_<br> 
 Your hit point maximum increases by a number equal to your level, and it increases by 1 every time you gain a level. When you undergo your mutagenic transformation, and at the beginning of each of your turns, you gain temporary hit points equal to your half your scholar level (rounded down) + your Intelligence modifier for the duration.
 
 #### Predatory Senses
-_**Prerequisite:** Geneticist Pursuit_<br>
 You have darkvision out to 60 feet. If you already have darkvision, its range instead increases by 30 feet. When you undergo your mutagenic transformation, you gain advantage on Wisdom (Perception) checks that rely on smell for the duration. Additionally, you can track creatures that have left a scent in the last 24 hours.
 
 #### Underground Adaptation
-_**Prerequisite:** Geneticist Pursuit_<br>
 You gain a burrowing speed equal to your walking speed and you can tunnel through solid rock at a rate of 1 foot per round. In order to use this speed, you must have two free hands. When you undergo your mutagenic transformation, you gain tremorsense out to 30 feet for the duration. You can detect and pinpoint the origin of vibrations within a specific radius, provided that monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.
 
 #### Unnatural Weaponry
-_**Prerequisite:** Geneticist Pursuit_<br>
 You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on a hit. You can use your choice of your Strength, Dexterity, or Intelligence modifier for the attack and damage rolls. You must use the same modifier for both rolls. When you undergo your mutagenic transformation, your unarmed strikes increase to a d6 and are considered enhanced for the duration. Additionally, you deal an additional 1d4 acid, lightning, or poison damage when you hit with them.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
@@ -3794,31 +3972,27 @@ You can use this feature a number of time equal to half your Intelligence modifi
 When you select this pursuit, you gain access to new discoveries which reflect your understanding of tech casting. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
 
 #### Administrator's Log
-_**Prerequisite:** Slicer Pursuit_<br>
 If you spend at least 10 minutes working on a computer or terminal, you can get a full list of users who have accessed the machine within the past 24 hours. Over the course of a long rest, you may then form a facsimile of identification that would allow you to pass yourself off as that person when accessing machines.
 
 #### Backdoor Egress
-_**Prerequisite:** Slicer Pursuit_<br>
 When you cast a tech power that affects an area and requires a saving throw, and you are inside that power's area, you can use your reaction to move up to half your speed without provoking opportunity attacks. If you end this movement outside the area affected by the tech power, you do not have to make a saving throw to avoid its effects. 
 
 #### Intelligence Core Override
-_**Prerequisite:** 9th level, Slicer Pursuit_<br>
+_**Prerequisite:** 9th level_<br>
 You can cast the *override interface* tech power at 5th level without spending tech points. 
 
 Once you've used this feature, you must complete a long rest before you can use it again.
 
 #### Resource Appropriation
-_**Prerequisite:** 11th level, Slicer Pursuit_<br>
+_**Prerequisite:** 11th level_<br>
 If you reduce the target of your Critical Analysis feature to 0 hit points, and it has tech point remaining, you may choose to gain any tech points it had remaining. Your current tech points cannot exceed your tech point maximum.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 #### Skillful Casting
-_**Prerequisite:** Slicer Pursuit_<br>
 When you hit a creature with an at-will tech power that requires an attack roll, you may treat that attack roll as a weapon attack for the purpose of using maneuvers.
 
 #### Sleeper Program
-_**Prerequisite:** Slicer Pursuit_<br>
 Whenever you cast a tech power with a casting time of 1 action, you can choose to delay the power's activation up to a minute. When you do so, you cast the power as normal, but holds its energy for the duration of the delay. Holding onto the power's effect requires concentration. If your concentration is broken before the delay ends, the power dissipates without taking effect. You can use your reaction to activate the power at any time.
 
 You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses  when you finish a long rest.
@@ -3908,29 +4082,26 @@ Once you've used this feature, you can't use it again until you finish a long re
 When you select this pursuit, you gain access to new discoveries which reflect your studies in biology and behaviour of alien lifeforms. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
 
 #### Advantageous Companion
-_**Prerequisite:** Zoologist Pursuit_<br>
 When you make a Charisma (Intimidation) check against a creature that can see your beast companion, and your companion is size Medium or larger, you make the check with advantage.
 
 When you make a Charisma (Persuasion) check against a creature that can see your beast companion, and your companion is size Small or Tiny, you make the check with advantage.
 
 #### Colossal Companion
-_**Prerequisite:** 15th level, Zoologist Pursuit_<br>
+_**Prerequisite:** 15th level_<br>
 You can attempt to temporarily take control of a Huge beast. With the use of 10,000 cr worth of herbs and food, you can make a DC 15 Animal Handling check. On a success, the creature becomes your companion for 1d4 hours and gains the benefits of your Beast Companion feature. You can attempt to extend the duration by one hour by making additional Animal Handling checks. The DC for the first check is 20, and increases by 5 on each subsequent check. On a failure, the creature becomes hostile to you if it wasn't already and becomes immune to this feature for 24 hours.
 
 #### Holocam Attachment
-_**Prerequisite:** Zoologist Pursuit_<br>
 You have learned how to safely attach a holocam on the head of the companion. You learn the *tracker droid interface* tech power, and your beast becomes a valid target of this power.
 
 #### Neat Tricks
-_**Prerequisite:** 5th level, Zoologist Pursuit_<br>
+_**Prerequisite:** 5th level_<br>
 Your beast gains proficiency in one Strength or Dexterity skill of your choice. If your beast's size is Medium or larger and the chosen skill uses Strength, it has expertise in the chosen skill. If your beast's size is Small or smaller and the chosen skill uses Dexterity, it has expertise in the chosen skill.
 
 #### Protective Friend
-_**Prerequisite:** Zoologist Pursuit_<br>
 If a creature makes a melee attack against you or your companion, and your companion is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.
 
 #### The More The Merrier
-_**Prerequisite:** 7th level, Zoologist Pursuit_<br>
+_**Prerequisite:** 7th level_<br>
 Whenever you attempt to call forth an animal as your companion, you can instead spend 1,000 cr worth of components and call forth a swarm of Tiny creatures. The swarm is composed of a number of creatures equal to your scholar level + your Intelligence modifier, and is size Medium. All of the creatures within the swarm act as a single creature.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
@@ -4358,7 +4529,7 @@ At 15th level, you can create up to four duplicates of yourself, instead of one,
 ## Inquisitor Technique
 Across history, there have been those who live to hunt those who wield the Force, be they Jedi or Sith. Followers of the Inquisitor Technique combine technology with force techniques to track down and eliminate force-wielders. For those practitioners of the Force, they are the greatest adversary.
 
-### Whispers of the Force
+### Forcecasting Secrets
 When you choose this technique at 3rd level, you have learned secrets from a subtle attunement to the force. Choose two force powers of no higher level than your Max Power Level, as shown in the scout table. The chosen powers count as tech powers for you, but are not included in the number in the Powers Known column of the scout table.
 
 You learn two additional powers at 5th, 9th, and 13th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of no higher level than your Max Power Level.
