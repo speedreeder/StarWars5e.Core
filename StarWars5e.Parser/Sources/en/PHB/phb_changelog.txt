@@ -1,5 +1,139 @@
 # Changelog
 
+### 9/30/2020
+
+#### Throughout
+
+#### Chapter 2
+- Increased the number of book species to 30.
+- Mon Calamari Resistance updated to reference the slowed condition.
+
+#### Chapter 3
+- Increased the number of book archetypes to 40 (four per class). Some archetypes have been moved out of the PHB to EC in preparation for future updates.
+- Adjusted many archetypes to grant a consistent number of features at certain levels.
+- Updated powers known for all classes and archetypes, predominantly buffing progression.
+
+##### Berserker
+- Capstone ability scores nerfed to align with other capstones. Capstone feature added.
+- Feral Instincts renamed Feral Impulse.
+- Danger Sense moved to 3rd level. Fighting Style moved to 2nd level.
+- Fighting Style replaced with Berserker Instincts. Fighting Style moved to an instinct option.
+- Fast Movement moved to an instinct option.
+- Augmented Approach cannibalized as a part of the new Berserker Instincts feature. Augmented Approach, while a cool archetype, didn't interact well with the Cybernetics rules from Wretched Hives.
+- ***Expanded Content.*** Added a second 3rd-level feature to Frenzied Approach.
+
+##### Engineer
+- Engineer's modification slot progression slightly altered.
+- Engineer mod slots now only reduce max tech points in excess of your proficiency bonus.
+- Armormech Engineer's 6th- and 14th-level features updated. Tech blast updated to be a weapon that uses Intelligence instead of a tech attack.
+- Experimental Engineering renamed Unstable Engineering.
+
+##### Fighter
+- Assault Specialist toned down a bit, and has a new additional 3rd-level feature.
+
+##### Guardian
+- Cause Harm range increased to 60 feet, from 30.
+- Lend Aid now only affects beasts and humanoids. This was always intended, but overlooked.
+- Aura of Conviction and Devotion consolidated and nerfed to instead grant advantage on saving throws against those effects.
+- Guardians now gain a third aura at 18th level. 
+- Guardian Aura radius improvements now occur at 9th and 17th level instead of 10th and 18th level.
+- Guardian archetype naming convention redone to align with the basic forms.
+
+##### Monk
+- Martial Arts now allows you to replace Strength with Dexterity when grappling, shoving, or tripping.
+- Martial Arts now lets you Dash and Disengage as a bonus action for free.
+- Added a focus attack modifier with the focus save DC.
+- The three base focus features have been slightly adjusted and now have higher level scaling.
+- Unarmored Movement moved to 3rd level. Fighting Style moved to 2nd level.
+- Fighting Style replaced with Monastic Vows. Fighting Style moved to a vow option.
+- Purity of Body moved to 13th level. Tongue of Sun and Moved eliminated. Extra ASI at 10th level.
+- Nightsister Order's Ichor Lightning now uses your focus attack modifier instead of Dex for its attack and damage rolls.
+- Teras Kasi Order removed, to be reintroduced more appropriate to its anti-Force theme.
+- ***Expanded Content.*** Aing-Tii Order's Flow-Walking moved to 6th level and consolidated with Focused Flurry. Both features use a shared pool equal to your Wis/Cha mod.
+- ***Expanded Content.*** Crimson Order's Crimson Armaments feature updated to align with Vow of the Sentry.
+- ***Expanded Content.*** Crimson Order's Divert Strike moved to a vow option.
+- ***Expanded Content.*** Jal Shey Order's 3rd-level features consolidated. Reduced the language and skill proficiencies gained.
+- ***Expanded Content.*** Kage Order's Intuitive Sight moved to a vow option.
+- ***Expanded Content.*** Kyuzo Order now gains proficiency with all thrown weapons.
+- ***Expanded Content.*** Kyuzo Order's Flurry of Throws removed to align with Vow of the Versatile.
+- ***Expanded Content.*** Trickster Order's two 3rd-level features consolidated.
+
+##### Operative
+- Operatives can now choose any skills and any specialist's kit
+- Bad Feeling moved to 3rd level
+- New Operative Exploits that grant operatives minor invocations. Coopted the failed Exploits variant rule as a part of this.
+- ***Expanded Content.*** Disabling Practice now works in medium armor, but still doesn't allow heavy.
+
+##### Scholar
+- Scholar's discoveries progression improved and matched with engineer's mod slots.
+- Added an additional feature to Multitasker.
+- Physician scholar renamed Doctor.
+
+##### Scout
+- Ranger's Quarry is no longer limited use, but you can now only mark creatures once on each of your turns, you can deal the additional damage once per turn instead of round, and you can only have one creature marked at a time. At 5th level, you can use your reaction to mark a creature as it enters your line of sight. The duration now automatically increases at higher levels.
+- Pathfinder moved to 1st level and updated.
+- Swift Response moved to 3rd level and replaced with Scout Routines. Responder's Routine adopts features from Swift Response.
+
+##### Sentinel
+- Path of Aggression's Thunderous Momentum feature updated to reference the new slowed condition.
+
+#### Chapter 4
+- Increased the number of book backgrounds to 20.
+
+#### Chapter 5
+- Reverted the Variant: Starting Wealth values back to dice. Added an additional 3d4 to each class.
+- Added a cumulative wealth by level table.
+- Auto and rapid properties moved to the PHB from Wretched Hives. Many weapons also moved from WH to the PHB.
+- Ion blasters slightly nerfed to better represent their intended use.
+- Consumable DCs updated across all books.
+- Updated wrist launcher cannisters to function with proficiency.
+- Medpac and Repair Kit changed to scale with Hit Dice size. This includes their enhanced versions.
+- Poison buffed to 2d4.
+- Breaching charge moved to EC temporarily, to be re-introduced in GSH.
+- Explosives have been reworked, generally buffed, and shuffled, with new options available in the PHB and WH.
+- Updated binders.
+
+#### Chapter 6
+- All fighting styles and masteries moved into the PHB.
+- Berserk Style updated to not make the Strength capstone feat quite so ridiculous.
+- Twin-Blade Style now allows you to add your ability modifier to your Double-Weapon Fighting attack roll, instead of the damage roll, to align with the Chapter 9 change.
+- Form naming convention redone.
+- Updated Niman form.
+- All feats that are not eligible as a background option have had level requirements added. This will make sorting for valid background feats on the website easier.
+- Rifle Specialist updated to reference the slowed condition.
+- First bullet of Casting Specialist nerfed.
+- The seven weapon specialist feats and the Casting Specialist feat have been moved to EC, to be reintroduced in a later book.
+- Weapon Expert updated to better enable the secondary feature.
+
+#### Chapter 9
+- Defined critical hit range.
+- Double-Weapon Fighting now no longer adds your ability modifier to the attack roll, instead of the damage roll, to further deviate it from Two-Weapon Fighting. The Twin-Blade style has been updated accordingly.
+- Clarified the order in which passive damage reduction, damage resistance and vulnerability, and active damage reduction occur. Updated features that actively reduce damage to clarify that they trigger on the damage, not the attack.
+
+#### Chapter 11
+- Increased the number of book force powers to 200.
+- Updated the weapon at-will language to allow for unarmed strikes.
+- Updated some at-will powers that previously didn't improve at higher levels.
+- All force powers that reduced a creature's speed instead grant 1 or more slowed levels.
+- Some powers have been tweaked, either buffing or nerfing as appropriate.
+
+#### Chapter 12
+- Increased the number of book tech powers to 200.
+- Updated the weapon at-will language to allow for unarmed strikes and thrown weapons.
+- Updated some at-will powers that previously didn't improve at higher levels.
+- All tech powers that reduced a creature's speed instead grant 1 or more slowed levels.
+- Some powers have been tweaked, either buffing or nerfing as appropriate.
+- Scorching Ray renamed Scintillating Ray.
+
+#### Appendix A
+- Shocked no longer reduces speed. It now restricts a creature to either an action or a bonus action, but not both.
+- New condition: Slowed. Functions like exhaustion, but instead reduces speed. Each other condition that would reduce speed instead references slowed. Powers and features that would reduce speed should now reference slowed, to grant synergy.
+
+#### And, as always
+- Minor text fixes.
+
+\pagebreak
+
 ### 6/30/2020
 
 #### Throughout
@@ -134,9 +268,9 @@
 - Minor text fixes.
 
 ## 7/9/2019
-Book is officially finalized. I will update typos as they become evident, but otherwise no material changes will occur.
+~~Book is officially finalized. I will update typos as they become evident, but otherwise no material changes will occur.~~
 
-## 6/25/2019
+### 6/25/2019
 
 #### Chapter 3
 - Added Charisma as a viable alternative to monk's Unarmored Defense, as well as other features, as appropriate.
@@ -174,9 +308,10 @@ Book is officially finalized. I will update typos as they become evident, but ot
 #### And, as always
 - Minor text fixes
 
-## 5/14/2019
+### 5/14/2019
 
 #### Chapter 3
+
 ##### Consular
 - Class overhauled.
 
@@ -221,7 +356,7 @@ Acidic Strike, Carbon Fog, Carbonite Explosion, Combustive Shot, Concealed Caltr
 #### And, as always
 - Minor text fixes
 
-## 4/2/2019
+### 4/2/2019
 
 #### Chapter 2
 - Bothans are now Medium size
@@ -301,7 +436,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 3/5/2019
+### 3/5/2019
 
 #### Miscellaneous
 - More artwork
@@ -321,7 +456,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 2/5/2019
+### 2/5/2019
 
 #### Miscellaneous
 - More artwork
@@ -343,7 +478,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 1/8/2019
+### 1/8/2019
 
 #### Miscellaneous
 - More artwork
@@ -359,7 +494,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 12/11/2018
+### 12/11/2018
 
 #### Miscellaneous
 - More artwork
@@ -396,7 +531,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 11/13/2018
+### 11/13/2018
 
 #### Miscellaneous
 - More artwork
@@ -418,7 +553,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 10/30/2018
+### 10/30/2018
 
 #### Miscellaneous
 - [Finally] added a Table of Contents
@@ -462,7 +597,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 10/9/2018
+### 10/9/2018
 
 #### Miscellaneous
 - More artwork
@@ -511,7 +646,7 @@ Beacon of Hope, Bestow Curse, Danger Sense, Dark Shear, Dark Side Tendrils, Forc
 #### And, as always
 - Minor text fixes
 
-## 9/25/2018
+### 9/25/2018
 
 #### Chapter 3
 - Clarified that all capstones increase the maximum as well as the total.

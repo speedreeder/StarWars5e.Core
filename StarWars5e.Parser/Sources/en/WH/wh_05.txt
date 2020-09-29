@@ -145,7 +145,7 @@ Quadanium armor and shields gain the charging 1 property, but also the cumbersom
 \pagebreakNum
 
 ### Armor Properties
-Many armors and shield have special properties related to their use, as shown in the Armor table.
+Many armors and shield have special properties related to their use, as shown in the Armor table. You must be proficient in and wearing armor or wielding a shield to benefit from its special properties.
 
 #### Absorptive
 When you are wearing armor or wielding a shield with the absorptive property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1.
@@ -173,10 +173,6 @@ While wearing armor or wielding a shield with the cumbersome property, your spee
 
 #### Gauntleted
 While wearing armor with the gauntleted property, your unarmed strikes deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier.
-
-\columnbreak
-
-<div style='margin-top:23px'></div>
 
 #### Imbalanced
 When you are critically hit while wielding this shield, you can't take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn.
@@ -254,7 +250,7 @@ While wearing armor with the rigid property, you add half your Dexterity modifie
 While wearing armor with the silent property, you have advantage on Dexterity (Stealth) checks that rely on sound.
 
 #### Spiked
-When you succeed on a Strength (Athletics) check to push a creature while wielding a shield with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier.
+When you succeed on a Strength (Athletics) check to shove or trip a creature while wielding a shield with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier.
 
 #### Steadfast 
 While wearing armor or wielding a shield with the steadfast property, you have advantage on Strength checks and Strength saving throws to avoid being moved.
@@ -277,9 +273,6 @@ Proficiency in these weapons is discussed further in Chapter 6.
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
-#### Auto
-Automatic weapons can only fire in burst and rapid mode.
-
 #### Defensive
 When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon.
 
@@ -288,9 +281,6 @@ Before you make a weapon attack with a weapon with the dire property, you can ch
 
 #### Disarming
 When you score a critical hit with a weapon with the disarming property against a creature that is holding an object, you can attempt to disarm the target (no action required). If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your choice of either your Strength or Dexterity modifier) or it drops an object of your choice at its feet.
-
-#### Disguised
-You have advantage on Charisma (Deception) checks made to hide the nature of a disguised weapon.
 
 #### Disintegrate
 When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
@@ -306,9 +296,6 @@ When making an attack with a mighty weapon, you use your choice of your Strength
 
 #### Piercing
 Before you make a weapon attack with a weapon with the piercing property, you can choose to suffer a penalty to the attack roll up to the piercing number. If you do so, you gain the same bonus to the next attack roll you make against the same target before the start of your next turn.
-
-#### Rapid
-When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to ranged weapon attacks). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal. If the target is beyond normal range but within long range, it has advantage on the save.
 
 #### Shocking
 When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
@@ -327,7 +314,7 @@ Whenever you deal damage with a weapon with the vicious property and roll the ma
 Weapons with special rules are described to below.
 
 #### ARC Caster
-When you score a critical hit with this weapon, a creature becomes shocked until the end of their next turn.
+When you score a critical hit with this weapon, a creature becomes shocked until the end of its next turn.
 
 #### Bolas
 A Large or smaller creature hit by a bolas is restrained until it is freed. A bolas has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Dexterity check, freeing itself or another creature within its reach on a success. The bolas has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the bolas frees the creature without harming it and immediately ends the bolas's effects. While a creature is restrained by a bolas, you can make no further attacks with it.
@@ -341,11 +328,18 @@ The bo-rifle is a lasat weapon most commonly carried by the Honor Guard of Lasan
 
 ***Staff.*** While in this mode, the weapon gains the shocking 13 property.
 
+#### Flechette Cannon
+The flechette cannon does not make attack rolls. Rather than traditional power cells, the flechette cannon uses specialized cannon tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). If you don't meet the flechette cannon's strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the flechette cannon, you must roll the damage dice twice and take the lesser total.
+
 #### Grenade Launcher
-Rather than traditional power cells, the grenade launcher fires grenades. When firing a grenade at long range, creatures within the radius of the grenade's explosion have advantage on the saving throw.
+Rather than traditional power cells, the grenade launcher fires grenades. When firing a grenade at long range, or if you don't meet the grenade launcher's strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the grenade launcher, you must roll the damage dice twice and take the lesser total.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
 
 #### Handwraps
-Handwraps are worn over the hands. When you hit with a melee weapon attack using handwraps, you use your unarmed strike damage instead of the weapon's damage. Additionally, while wearing handwraps, when pushing or dragging weight in excess of your carrying capacity, your speed drops to 10 feet, instead of 5.
+Handwraps are worn over the hands. When you hit with a melee weapon attack using handwraps, you use your unarmed strike damage instead. Additionally, while wearing handwraps, when pushing or dragging weight in excess of your carrying capacity, your speed drops to 10 feet, instead of 5.
 
 #### Interchangeable Weapons System
 The IWS is a heavy weapon that can fire in three different modes. On your turn, you can use your object interaction to switch between modes, detailed below. 
@@ -356,32 +350,22 @@ The IWS is a heavy weapon that can fire in three different modes. On your turn, 
 
 ***Sniper.*** While in this mode, the weapon uses traditional power cells.
 
-\columnbreak
-
-<div style='margin-top:23px'></div>
-
 #### Mancatcher
 When you would make a Strength (Athletics) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a melee weapon attack with it. If the attack hits, the creature becomes grappled by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage.
-
-#### Needler
-The needler includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 10 shots fired by the weapon.
 
 #### Retrosaber
 The retrosaber is an an ancient type of lightweapon that requires a power cell to function. Once four attacks have been made with a retrosaber, a character must replace the power cell using an action or bonus action (the character's choice). You must have one free hand to replace the power cell.
 
 #### Rocket Launcher
-Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets.
+Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets. When firing a rocket at long range, or if you don't meet the rocket launcher's strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw.
 
 #### Rotary Cannon
 Rather than traditional power cells, the rotary cannon uses specialized power generator that allow it to fire continuously for 10 minutes. Replacing a power generator takes an action.
 
 The rotary cannon requires the use of a tripod unless you meet its strength requirement, which is included in the price. Over the course of 1 minute, you can deploy or collapse the rotary cannon on the tripod. While deployed, your speed is reduced to 0.
 
-#### Tranquilizer Rifle 
-The tranquilizer rifle includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 4 shots fired by the weapon.
-
 #### Vapor Projector
-The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required).
+The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). If you don't meet the vapor projector's strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the vapor projector, you must roll the damage dice twice and take the lesser total.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -395,24 +379,13 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | _Simple Blasters_|||||
 | &emsp;Bolt-thrower		|   500 cr&nbsp;&nbsp;| 1d10 kinetic | 14 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 2, silent, strength 11, two-handed |
 | &emsp;Energy bow		    | 300 cr&nbsp;&nbsp;| 1d6 energy    |  3 lb&nbsp;&nbsp;  | Ammunition (range 80/320), mighty, reload 12, silent, two-handed |
-| &emsp;Ion carbine	  	    | 300 cr&nbsp;&nbsp;| 1d4 ion       |  8 lb&nbsp;&nbsp;  | Ammunition (range 60/240), reload 16, two-handed |
-| &emsp;Light repeater	    | 900 cr&nbsp;&nbsp;| 1d6 energy    | 12 lb&nbsp;&nbsp;  | Ammunition (range 60/240), auto, burst 8, reload 16, two-handed |
-| &emsp;Needler			    | 275 cr&nbsp;&nbsp;| 1d4 kinetic   |  3 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 10, reload 20, special |
-| &emsp;Slugpistol          | 100 cr&nbsp;&nbsp;| 1d6 kinetic   |  3 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 8, reload 16 strength 11|
-| &emsp;Tranquilizer rifle  | 200 cr&nbsp;&nbsp;| 1d4 kinetic   | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), reload 4, two-handed, special |
-| &emsp;Wristblaster        | 250 cr&nbsp;&nbsp;| 1d4 energy    |  1 lb&nbsp;&nbsp;  | Ammunition (range 30/120), disguised, fixed, light, reload 12 |
+| &emsp;Shatter pistol      | 800 cr&nbsp;&nbsp;     | 1d4 kinetic   |  3 lb&nbsp;&nbsp;  | Ammunition (range 40/160), silent, light, reload 20 |
 | _Martial Blasters_|||||
 | &emsp;ARC caster          | 2,400 cr&nbsp;&nbsp;| 1d8 lightning | 10 lb&nbsp;&nbsp;  | Ammunition (range 30/120), burst 4, rapid 2, reload 4, special,<br> strength 11, two-handed |
-| &emsp;Blaster cannon      | 3,000 cr&nbsp;&nbsp;| 1d12 energy   | 36 lb&nbsp;&nbsp;  | Ammunition (range 100/400), auto, burst 2, reload 4, strength 15,<br> two-handed |
-| &emsp;Cycler rifle 		|   450 cr&nbsp;&nbsp;| 1d8 kinetic   | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), rapid 2, reload 8, two-handed |
 | &emsp;Disruptor pistol    | 4,000 cr&nbsp;&nbsp;| 1d8 acid      |  4 lb&nbsp;&nbsp;  | Ammunition (range 60/240), disintegrate 13, reload 16 |
 | &emsp;Disruptor rifle     | 7,000 cr&nbsp;&nbsp;| 1d10 acid     | 12 lb&nbsp;&nbsp;  | Ammunition (range 100/400), disintegrate 13, reload 1, strength 11,<br> two-handed |
+| &emsp;Flechette cannon     | 1,800 cr&nbsp;&nbsp;| — | 16 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 11, two-handed |
 | &emsp;Grenade launcher    |   800 cr&nbsp;&nbsp;| — | 10 lb&nbsp;&nbsp; | Ammunition (range 80/320), reload 1, strength 11, special, two-handed |
-| &emsp;Heavy bowcaster     | 3,100 cr&nbsp;&nbsp;| 1d12 energy   | 26 lb&nbsp;&nbsp;| Ammunition (range 60/240), burst 4, reload 8, strength 15, two-handed |
-| &emsp;Heavy repeater      | 6,400 cr&nbsp;&nbsp;| 2d4 energy    | 16 lb&nbsp;&nbsp;| Ammunition (range 80/320), auto, burst 4, rapid 2, reload 8, strength 15,<br> two-handed |
-| &emsp;Heavy shotgun       |   400 cr&nbsp;&nbsp;| 2d4 kinetic | 16 lb&nbsp;&nbsp; | Ammunition (range 30/120), burst 4, reload 12, strength 13, two-handed |
-| &emsp;Heavy slugpistol    | 1,750 cr&nbsp;&nbsp;   | 1d8 kinetic   |  5 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 2, reload 8, strength 13 |
-| &emsp;Hunting rifle       |   600 cr&nbsp;&nbsp;   | 1d12 kinetic  | 12 lb&nbsp;&nbsp;  | Ammunition (range 150/600), reload 4, strength 13, two-handed |
 | &emsp;Incinerator pistol  |2,500 cr&nbsp;&nbsp;| 1d6 fire      | 5 lb&nbsp;&nbsp;| Ammunition (range 60/240), disintegrate 13, reload 12, strength 11 |
 | &emsp;Incinerator sniper  | 6,600 cr&nbsp;&nbsp;   | 1d10 fire     | 10 lb&nbsp;&nbsp;  | Ammunition (range 150/600), disintegrate 13, reload 2, strength 13,<br> two-handed
 | &emsp;IWS                 | 7,200 cr&nbsp;&nbsp;   | —             | 12 lb&nbsp;&nbsp;  | Special, strength 13, two-handed |
@@ -422,12 +395,12 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;Lightbow            |  400 cr&nbsp;&nbsp;|2d6 energy       |16 lb&nbsp;&nbsp;  |Ammunition (range 60/240), mighty, piercing 1, reload 4, strength 11,<br> two-handed| 
 | &emsp;Nightstinger rifle  | 1,200 cr&nbsp;&nbsp;| 1d12 energy  | 15 lb&nbsp;&nbsp;| Ammunition (range 120/480), silent, reload 2, strength 13, two-handed |
 | &emsp;Railgun             | 6,300 cr&nbsp;&nbsp;   | 2d6 kinetic   | 24 lb&nbsp;&nbsp;  | Ammunition (range 150/600), piercing 1, reload 1, strength 15,<br> two-handed |
-| &emsp;Revolver 		    |   750 cr&nbsp;&nbsp;| 1d8 kinetic | 4 lb&nbsp;&nbsp; | Ammunition (range 30/120), rapid 6, reload 6, strength 11 |
-| &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| — | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, strength 13, special, two-handed |
+| &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| — | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, special, strength 13, two-handed |
 | &emsp;Rotary cannon       | 9,800 cr&nbsp;&nbsp;   | 2d6 energy    | 76 lb&nbsp;&nbsp;  | Ammunition (range 100/400), auto, burst, rapid, special, strength 19,<br> two-handed |
 | &emsp;Sonic pistol 		|   650 cr&nbsp;&nbsp;| 1d6 sonic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 12 |
 | &emsp;Sonic rifle 	    |   800 cr&nbsp;&nbsp;   | 1d8 sonic     | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), reload 12, two-handed |
-| &emsp;Subrepeater 	    | 1,200 cr&nbsp;&nbsp;   | 1d6 energy    |  4 lb&nbsp;&nbsp;  | Ammunition (range 30/120), auto, rapid 8, light, reload 16 |
+| &emsp;Shatter cannon      | 1,300 cr&nbsp;&nbsp;   | 1d10 kinetic   | 24 lb&nbsp;&nbsp;  | Ammunition (range 80/320), burst 4, reload 8, silent,<br> strength 15, two-handed |
+| &emsp;Shatter rifle       | 1,200 cr&nbsp;&nbsp;   | 1d10 kinetic  | 15 lb&nbsp;&nbsp;  | Ammunition (range 120/480), silent, reload 2, strength 13, two-handed |
 | &emsp;Vapor projector     | 1,600 cr&nbsp;&nbsp;| — | 14 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 11, two-handed |
 
 </div>
@@ -452,7 +425,7 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 | &emsp;Guard shoto         |1,350 cr&nbsp;&nbsp;|1d4 energy|3 lb&nbsp;&nbsp;|Defensive 1, finesse, light, luminous|
 | &emsp;Lightaxe            |1,800 cr&nbsp;&nbsp;|1d10 energy|10 lb&nbsp;&nbsp;|Heavy, luminous, two-handed |
 | &emsp;Lightfist           |1,200 cr&nbsp;&nbsp;|1d4 energy|2 lb&nbsp;&nbsp;|Disruptive, disguised, fixed, light, luminous |
-| &emsp;Lightglaive         |1,900 cr&nbsp;&nbsp;|1d10 energy|10 lb&nbsp;&nbsp;|Dexterity 13, heavy, luminous, reach, two-handed |
+| &emsp;Lightglaive         |1,900 cr&nbsp;&nbsp;|1d12 energy|10 lb&nbsp;&nbsp;|Dexterity 13, luminous, reach, two-handed |
 | &emsp;Retrosaber          |  800 cr&nbsp;&nbsp;|2d4 energy|8 lb&nbsp;&nbsp;|Keen 1, luminous, special, vicious 1 |
 | &emsp;Sith saber          |2,400 cr&nbsp;&nbsp;|1d8 energy|3 lb&nbsp;&nbsp;|Dexterity 11, hidden, keen 1, luminous, versatile (1d10) |
 
@@ -497,103 +470,208 @@ This section describes items that have special rules or require further explanat
 
 ### Ammunition
 
-#### Blight Cartridge
-A blight cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d6 poison damage and is poisoned until the start of its next turn. On a successful save, a creature takes half damage and isn't poisoned.
+#### Corrosive Cartridge
+A corrosive cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw, taking 1d8 acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. 
 
 #### Cryo Cell
-A cryo cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 cold damage has its speed reduced by 5 feet until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+A cryo cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+
+#### Deafening Calibrator
+As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the sonorous 13 property. If it already has the sonorous property, its sonorous number increases by 1, to a maximum of 18.
 
 #### Deafening Cell
 A deafening cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d6 sonic damage and is deafened until the start of your next turn. On a successful save, a creature takes half damage and isn't deafened. 
 
-#### Disruptor Cartridge
-A disruptor cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw, taking 1d6 acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. 
+#### Deafening Collimator
+As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the sonorous 13 property. If it already has the sonorous property, its sonorous number increases by 1, to a maximum of 18.
 
-#### Flux Collimator
-As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
+#### Deafening Dart
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Also on a hit, the creature must make a DC 13 Constitution saving throw, taking 1d4 sonic damage on a failed save. 
+
+Additionally, on a failed save, a creature is deafened for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 \columnbreak
 
-<div style='margin-top:28px'></div>
-
-#### Missile, Ion
-This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 13 Dexterity saving throw, taking 1d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
-
-#### Missile, Plasma
-This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
-
-#### Oscillation Calibrator
-As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
-
-#### Plasma Cell
-A plasma cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
-
-#### Power Generator
-Power generators energize the rotary cannon.
-
-#### Projector Canister, Corrosive
-When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
-
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
-
-\pagebreakNum
-
-#### Projector Tank, Carbonite
-When triggered, this vapor projector ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 2d4 cold damage and has its speed reduced by half until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
-
-#### Projector Tank, Corrosive
-When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 2d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
-
-#### Projector Tank, Flame
-When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.
-
-#### Rocket, Fragmentation
-This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d6 kinetic damage on a failed save or half as much on a successful one.
-
-#### Rocket, Ion
-This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d4 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
-
-#### Rocket, Plasma
-This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
-
-
+<div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	:--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Blight cartridge              	|	  36 cr	|	—	    |
+|	&emsp;Corrosive cartridge       	    |	  42 cr	|	—	    |
 |	&emsp;Cryo cell              	        |	 350 cr	|	1 lb	    |
+|	&emsp;Deafening calibrator    	            |	 550 cr	|	1 lb		|
 |	&emsp;Deafening cell         	        |	 425 cr	|	1 lb	    |
-|	&emsp;Disruptor cartridge       	    |	  42 cr	|	—	    |
-|	&emsp;Flux collimator                   |    180 cr	|	1 lb		|
-|	&emsp;Missile, ion	                    |	 140 cr	|	1/2 lb		|
-|	&emsp;Missile, plasma	                |	 160 cr	|	1/2 lb		|
-|	&emsp;Oscillation calibrator            |    170 cr	|	1 lb		|
-|	&emsp;Plasma cell              	        |	 275 cr	|	1 lb	    |
-|	&emsp;Power generator                   |  1,250 cr	|	5 lb		|
-|	&emsp;Projector canister, corrosive    	|	 450 cr	|	2 lb		|
-|	&emsp;Projector tank, carbonite	        |	 675 cr	|	3 lb		|
-|	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3 lb		|
-|	&emsp;Projector tank, flame    	        |	 650 cr	|	3 lb		|
-|	&emsp;Rocket, fragmentation	            |	 350 cr	|	2 lb		|
-|	&emsp;Rocket, ion             	        |	 475 cr	|	2 lb		|
-|	&emsp;Rocket, plasma          	        |	 535 cr	|	2 lb		|
-|	&emsp;Shocking cartridge         	    |	  28 cr	|	—	    |
-|	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
+|	&emsp;Deafening collimator    	            |	 575 cr	|	1 lb		|
+|	&emsp;Deafening dart              	        |	  70 cr	|	—	    |
+|	&emsp;Electrifying calibrator    	        |	 700 cr	|	1 lb		|
+|	&emsp;Electrifying cartridge         	    |	  28 cr	|	—	    |
+|	&emsp;Electrifying collimator    	        |	 725 cr	|	1 lb		|
+|	&emsp;Electrifying dart              	    |	  85 cr	|	—	    |
 
 </div>
 
 
 
-#### Shocking Cartridge
-A shocking cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
+#### Electrifying Calibrator
+As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the shocking 13 property. If it already has the shocking property, its shocking number increases by 1, to a maximum of 18.
+
+#### Electrifying Cartridge
+An electrifying cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d4 lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked.
+
+#### Electrifying Collimator
+As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the shocking 13 property. If it already has the shocking property, its shocking number increases by 1, to a maximum of 18.
+
+#### Electrifying Dart
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Also on a hit, the creature must make a DC 13 Dexterity saving throw, taking 1d4 lightning damage on a failed save. 
+
+Additionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+\pagebreak
+
+### Ammunition
+
+#### Gas Cartridge
+A gas cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d6 poison damage and is poisoned until the start of its next turn. On a successful save, a creature takes half damage and isn't poisoned.
+
+#### Flechette Clip, Fragmentation
+When triggered, this wrist launcher ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 13 Dexterity saving throw. A creature takes 1d10 kinetic damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+
+#### Flechette Clip, Ion
+When triggered, this wrist launcher ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 13 Dexterity saving throw. A creature takes 1d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+
+#### Flechette Clip, Plasma
+When triggered, this wrist launcher ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 13 Dexterity saving throw. A creature takes 1d10 energy damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+
+#### Flechette Mag, Fragmentation
+When triggered, this flechette cannon ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 13 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one. 
+
+\columnbreak
+
+<div class='classTable'>
+
+|	Item	|	Cost	|	Weight		|
+|	:--	|	--:	|	:--:		|
+|	_Ammunition_	|		|			|
+|	&emsp;Gas cartridge              	    |	  36 cr	|	—	    |
+|	&emsp;Flechette clip, fragmentation    	    |	 250 cr	|	2 lb		|
+|	&emsp;Flechette clip, ion    	            |	 300 cr	|	2 lb		|
+|	&emsp;Flechette clip, plasma    	        |	 275 cr	|	2 lb		|
+|	&emsp;Flechette mag, fragmentation    	    |	 550 cr	|	4 lb		|
+|	&emsp;Flechette mag, ion    	            |	 600 cr	|	4 lb		|
+|	&emsp;Flechette mag, plasma    	            |	 575 cr	|	4 lb		|
+|	&emsp;Flux collimator                   |    180 cr	|	1 lb		|
+|	&emsp;Incendiary cell              	        |	 275 cr	|	1 lb	    |
+
+</div>
+
+#### Flechette Mag, Ion
+When triggered, this flechette cannon ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 13 Dexterity saving throw. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
+
+#### Flechette Mag, Plasma
+When triggered, this flechette cannon ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 13 Dexterity saving throw. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one. 
+
+#### Flux Collimator
+As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
+
+#### Incendiary Cell
+An incendiary cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
+\pagebreak
+
+### Ammunition
+
+#### Missile, Incendiary
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
+#### Missile, Ion
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 13 Dexterity saving throw, taking 1d6 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
+
+#### Oscillation Calibrator
+As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.
+
+#### Panic Calibrator
+As an action, you can apply this calibrator to one vibroweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the neuralizing 13 property. If it already has the neuralizing property, its neuralizing number increases by 1, to a maximum of 18.
+
+#### Panic Collimator
+As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the neuralizing 13 property. If it already has the neuralizing property, its neuralizing number increases by 1, to a maximum of 18.
+
+#### Panic Dart
+This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Also on a hit, the creature must make a DC 13 Wisdom saving throw, taking 1d4 psychic damage on a failed save. 
+
+Additionally, on a failed save, a creature becomes frightened of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Power Generator
+Power generators energize the rotary cannon.
+
+\columnbreak
+
+<div class='classTable'>
+
+|	Item	|	Cost	|	Weight		|
+|	:--	|	--:	|	:--:		|
+|	_Ammunition_	|		|			|
+|	&emsp;Missile, incendiary	                |	 160 cr	|	1/2 lb		|
+|	&emsp;Missile, ion	                    |	 140 cr	|	1/2 lb		|
+|	&emsp;Oscillation calibrator            |    170 cr	|	1 lb		|
+|	&emsp;Panic calibrator    	                |	 850 cr	|	1 lb		|
+|	&emsp;Panic collimator    	                |	 875 cr	|	1 lb		|
+|	&emsp;Panic dart              	            |	 100 cr	|	—	    |
+|	&emsp;Power generator                   |  1,250 cr	|	5 lb		|
+|	&emsp;Projector canister, corrosive    	|	 300 cr	|	2 lb		|
+|	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3 lb		|
+
+</div>
+
+#### Projector Canister, Corrosive
+When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+
+#### Projector Tank, Corrosive
+When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 2d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. 
+
+\pagebreak
+
+### Ammunition
+#### Projector Tank, Cryo
+When triggered, this vapor projector ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Constitution saving throw. On a failed save, a creature takes 2d4 cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour.
+
+#### Projector Tank, Incendiary
+When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
+
+#### Rocket, Fragmentation
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d10 kinetic damage on a failed save or half as much on a successful one.
+
+#### Rocket, Incendiary
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 13 Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage.
+
+#### Rocket, Ion
+This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 13 Dexterity saving throw, taking 2d6 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
 
 #### Snare
 When hit by this wrist launcher ammunition, a Medium or smaller creature is restrained until it is freed. A snare has no effect on formless or Large or larger creatures. A creature can use its action to make a DC 13 Strength or Dexterity check (the target chooses the ability to use), freeing itself or another creature within its reach on a success. The snare has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the snare frees the creature without harming it and immediately ends the snare's effects.
 
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+\columnbreak
 
-\pagebreakNum
+<div class='classTable'>
+
+|	Item	|	Cost	|	Weight		|
+|	:--	|	--:	|	:--:		|
+|	_Ammunition_	|		|			|
+|	&emsp;Projector tank, cryo	        |	 675 cr	|	3 lb		|
+|	&emsp;Projector tank, incendiary    	        |	 650 cr	|	3 lb		|
+|	&emsp;Rocket, fragmentation	            |	 350 cr	|	2 lb		|
+|	&emsp;Rocket, incendiary          	        |	 535 cr	|	2 lb		|
+|	&emsp;Rocket, ion             	        |	 475 cr	|	2 lb		|
+|	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
+|	_Clothing_	|		|	
+|	&emsp;Clothes, clandestine     	|	 300 cr	|	7 lb		|
+|	&emsp;Sunshades                 |	  20 cr	|	—   		|
+|	_Communications_	|		|	
+|	&emsp;Personal translator     	|	 150 cr	|	1/2 lb		|
+|	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
+
+</div>
+
+
 
 ### Clothing
 #### Clothes, Clandestine
@@ -603,24 +681,36 @@ These clothes come with four hidden pockets, each of which can store up to 1 lb.
 These shades are worn over the eyes. While worn, you can no longer have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. However, while worn, you have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in dim light.
 
 ### Communications
-
 #### Personal Translator
 A personal translator is a hand held device that can translate verbal communications between up to five languages. The languages can be changed out while interfaced with a protocol droid or appropriate computer.
 
 #### Vocoder Mask
 A vocoder mask is worn over the nose and mouth of a creature, and can translate verbal communications between up to 15 languages. The languages can be changed out while interfaced with a protocol droid or appropriate computer.
 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
+
 ### Data Recording and Storage
 #### Credit Chip
 The credit chip is a small, flat card that features a security codeout and algorithm memory stripes. The chip can be preloaded with a specified number of credits, or it can draw directly from a specific account held by the user. The credit chip can be accessed with a pin, or by a DC 20 Intelligence (slicer's kit) check.
 
 ### Explosives
+#### Grenade, Corrosive
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Constitution saving throw. A creature takes 2d8 acid damage on a failed save, or half as much as on a successful one. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
-#### Grenade, Flash
-Flash grenades are hand-held explosive devices that release a blinding flash. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 13 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+#### Grenade, Cryo
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Constitution saving throw. A creature takes 2d6 cold damage on a failed save, or half as much as on a successful one. 
 
-#### Mine, Flash
-When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 13 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, they can repeat this save, ending the effect on a success.
+Additionally, on a failed save, a creature gains 1 slowed level for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Grenade, Deafening
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Constitution saving throw. A creature takes 2d6 sonic damage on a failed save, or half as much as on a successful one. 
+
+Additionally, on a failed save, a creature is deafened for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Grenade, Electrifying
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 \columnbreak
 
@@ -628,34 +718,101 @@ When you use your action to set it, this mine sets an imperceptible laser line e
 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
-|	_Clothing_	|		|	
-|	&emsp;Clothes, clandestine     	|	 300 cr	|	7 lb		|
-|	&emsp;Sunshades                 |	  20 cr	|	—   		|
-|	_Communications_	|		|	
-|	&emsp;Personal translator     	|	 150 cr	|	1/2 lb		|
-|	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
 |	_Data Recording and Storage_	|		|	
 |	&emsp;Credit chip     	|	 100 cr	|	—		|
 |	_Explosives_	|		|	
-|	&emsp;Grenade, flash	        |	 350 cr	|	1 lb		|
-|	&emsp;Mine, flash              	|	 600 cr	|	2 lb		|
+|	&emsp;Grenade, corrosive            |	 200 cr	|	1 lb		|
+|	&emsp;Grenade, cryo                 |	 325 cr	|	1 lb		|
+|	&emsp;Grenade, defeaning	        |	 225 cr	|	1 lb		|
+|	&emsp;Grenade, electrifying	        |	 300 cr	|	1 lb		|
+|	&emsp;Grenade, flash	            |	 350 cr	|	1 lb		|
+|	&emsp;Grenade, incendiary	        |	 275 cr	|	1 lb		|
+|	&emsp;Grenade, panic	            |	 375 cr	|	1 lb		|
 
 </div>
 
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
-\pagebreakNum
+
+#### Grenade, Flash
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Grenade, Incendiary
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, setting the ground in a 10-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.
+
+When a creature enters the fire or starts its turn there, it creature must make a DC 13 Dexterity saving throw. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one. 
+
+#### Grenade, Panic
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Wisdom saving throw. A creature takes 2d6 psychic damage on a failed save, or half as much as on a successful one. 
+
+Additionally, on a failed save, a creature becomes frightened of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+\pagebreak
+
+### Explosives
+#### Grenade, Stun
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 13 Constitution saving throw. On a failed save, a creature is stunned until the end of their next turn.
+
+Additionally, on a failed save, a creature is unconscious for 1 minute, until it takes damage, or until someone uses an action to shake or slap the creature awake. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Mine, Corrosive
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Constitution saving throw. A creature takes 2d8 acid damage on a failed save, or half as much as on a successful one. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+
+#### Mine, Cryo
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Constitution saving throw. A creature takes 2d6 cold damage on a failed save, or half as much as on a successful one. 
+
+Additionally, on a failed save, a creature gains 1 slowed level for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Mine, Deafening
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Constitution saving throw. A creature takes 2d6 sonic damage on a failed save, or half as much as on a successful one. 
+
+Additionally, on a failed save, a creature is deafened for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+\columnbreak
+
+<div class='classTable'>
+
+|	Item	|	Cost	|	Weight		|
+|	:--	|	--:	|	--:		|
+|	_Explosives_	|		|	
+|	&emsp;Grenade, stun  	            |	 250 cr	|	1 lb		|
+|	&emsp;Mine, corrosive              	|	 425 cr	|	2 lb		|
+|	&emsp;Mine, cryo              	    |	 625 cr	|	2 lb		|
+|	&emsp;Mine, deafening              	|	 450 cr	|	2 lb		|
+|	&emsp;Mine, electrifying            |	 550 cr	|	2 lb		|
+|	&emsp;Mine, flash              	    |	 600 cr	|	2 lb		|
+|	&emsp;Mine, ion              	    |	 525 cr	|	2 lb		|
+
+</div>
+
+#### Mine, Electrifying
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much as on a successful one. 
+
+Additionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Mine, Flash
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Mine, Ion
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Dexterity saving throw. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.
+
+\pagebreak
+
+### Explosives
+
+#### Mine, Panic
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Wisdom saving throw. A creature takes 2d6 psychic damage on a failed save, or half as much as on a successful one. 
+
+Additionally, on a failed save, a creature becomes frightened of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
+
+#### Mine, Plasma
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Dexterity saving throw. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one.
+
+#### Mine, Stun
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 13 Constitution saving throw. On a failed save, a creature is stunned until the end of their next turn.
+
+Additionally, on a failed save, a creature is unconscious for 1 minute, until it takes damage, or until someone uses an action to shake or slap the creature awake. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 ### Life Support
-
-#### Emergency Raft
-This raft comes packed in a 2-foot-long tube. When activated, the raft quickly deploys, expanding to full size in six seconds. The raft is 6 feet long and 3 feet wide, and can hold up to four Medium creatures not exceeding 800 lb. It comes with two collapsible oars with which to row. The raft can be collapsed and restored over the course of 1 minute.
-
-#### Emergency Rations (One day's)
-Emergency rations come in small pill form, provide all the necessary nourishment for one person for one day, and take up roughly one-tenth the space of field rations. 
-
-#### Emergency Shelter
-This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated power generator, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The shelter's power generator lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes.
 
 #### Underwater Respirator
 Underwater respirators are worn over the mouth and lower face. While worn, you can breath underwater, as the respirator filters the water to create breathable oxygen. The respirator functions for 1 hour per power cell (to a maximum of 2 hours) and can be recharged by a power source or replacing the power cells.
@@ -669,20 +826,23 @@ Water suits are sealed suits that prevent water from getting in or out. Addition
 
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
+|	_Explosives_	|		|	
+|	&emsp;Mine, panic              	    |	 700 cr	|	2 lb		|
+|	&emsp;Mine, plasma              	|	 250 cr	|	2 lb		|
+|	&emsp;Mine, stun              	    |	 475 cr	|	2 lb		|
 |	_Life Support_	|		|	
-|	&emsp;Emergency raft     	|	 250 cr	|	10 lb		|
-|	&emsp;Emergency rations (one day's)    	|	 25 cr	|	—		|
-|	&emsp;Emergency shelter    	|	 600 cr	|	15 lb		|
 |	&emsp;Underwater respirator    	|	 300 cr	|	1/2 lb		|
 |	&emsp;Water suit    	|	 1,500 cr	|	20 lb		|
 |	_Medical_	|		|	
 |	&emsp;Arm prosthesis     	|	 450 cr	|	 16 lb		|
-|	&emsp;Eye prosthesis     	|	 150 cr	|	1/2 lb		|
+|	&emsp;Ear prosthesis     	|	 100 cr	|	1/2 lb		|
+|	&emsp;Eye prosthesis     	|	 250 cr	|	1/2 lb		|
 |	&emsp;Facial prosthesis     |	 300 cr	|	  2 lb		|
 |	&emsp;Foot prosthesis     	|	 150 cr	|	  4 lb		|
 |	&emsp;Forearm prosthesis    |	 300 cr	|	  8 lb		|
-|	&emsp;Hand prosthesis     	|	 145 cr	|	  3 lb		|
+|	&emsp;Hand prosthesis     	|	 225 cr	|	  3 lb		|
 |	&emsp;Leg prosthesis     	|	 450 cr	|	 24 lb		|
+|	&emsp;Throat prosthesis    	|	 325 cr	|	  2 lb		|
 |	&emsp;Torso prosthesis     	|	 600 cr	|	 36 lb		|
 
 </div>
@@ -693,6 +853,8 @@ Water suits are sealed suits that prevent water from getting in or out. Addition
 These cybernetic augmentations don't count against the maximum cybernetic augmentations you can support, but they do count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table. Rules for installing augmentations can be found in chapter 7.
 
 ***Arm Prosthesis.*** This cybernetic augmentation replaces a single arm, forearm, and hand. 
+
+***Ear Prosthesis.*** This cybernetic augmentation replaces an ear.
 
 ***Eye Prosthesis.*** This cybernetic augmentation replaces an eye.
 
@@ -706,36 +868,29 @@ These cybernetic augmentations don't count against the maximum cybernetic augmen
 
 ***Leg Prosthesis.*** This cybernetic augmentation replaces a leg and a foot. 
 
+***Throat Prosthesis.*** This cybernetic augmentation replaces a throat, including a creature's voice, though it does not grant a creature the ability to speak beyond their species' capabilities. 
+
 ***Torso Prosthesis.*** This cybernetic augmentation replaces all or part of a damage torso. 
 
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
-
-\pagebreakNum
+\pagebreak
 
 ### Storage
 
 #### Camtono
-A camtono is a secured, handle container used for transporting valuable goods. The camtono features a keyed lock, which requires a DC 20 security kit to force open. It can hold up to 5 lb., not exceeding a volume of 1/4 cubic foot.
-
-#### Hovercart
-This repulsorcraft is designed to efficiently move large amounts of goods. It has a speed of 30 feet and can hold up to 2,000 lb., not exceeding a volume of 120 cubic feet.
+A camtono is a secured, handle container used for transporting valuable goods. The camtono features a keyed lock, which requires a DC 20 security kit to force open. It stores 5 lb., not exceeding 1/4 cubic foot.
 
 #### Smugglepack
-This backpack comes with a main compartment that can store up to 15 lb., not exceeding a volume of 1/2 cubic foot. Additionally, it has a hidden storage compartment that can hold up to 5 lb, not exceeding a volume of 1/4 cubic foot. Finding the hidden compartment requires a DC 15 Investigation check.
+This backpack comes with a main compartment that stores 15 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 5 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 15 Investigation check.
 
 ### Utilities
-
-#### Basic Computer Spike
+#### Computer Spike
 When you make an Intelligence (slicer's kit) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
-
-#### Basic Security Spike
-When you make an Intelligence (security kit) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
-
-#### Fire Extinguisher
-As an action, you can expend a use of the extinguisher to create a 15 foot cone of misty air which lasts for 6 seconds, snuffing out any unenhanced fires within range. Additionally, each creature within range must make a DC 13 Constitution saving throw. On a failed save, a creature is blinded until the start of their next turn. On a successful save, a creature becomes immune to this effect. An extinguisher can be used 5 times before it must be replenished at its original cost.
 
 #### Gravity Generator
 Gravity generators are special devices typically worn on belts that function as a portable, personal artificial gravity source. Activating or deactivating the belt requires a bonus action and, while active, you are able to move as if in a standard gravitational pull. The generator lasts for 10 minutes and can be recharged by a power source or replacing the power cell.
+
+#### Security Spike
+When you make an Intelligence (security kit) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.
 
 \columnbreak
 
@@ -745,55 +900,27 @@ Gravity generators are special devices typically worn on belts that function as 
 |	:--	|	--:	|	--:		|
 |	_Storage_	|		|	
 |	&emsp;Camtono     	    |	   750 cr	|	  3 lb		|
-|	&emsp;Hovercart     	|	 2,000 cr	|	150 lb		|
 |	&emsp;Smugglepack     	|	   400 cr	|	  6 lb		|
 |	_Utilities_	|		|	
-|	&emsp;Basic computer spike     	|	 145 cr	|	1/2 lb		|
-|	&emsp;Basic security spike     	|	 150 cr	|	1/2 lb		|
-|	&emsp;Fire extinguisher     	|	 170 cr	|	6 lb		|
+|	&emsp;Computer spike     	|	 145 cr	|	1/2 lb		|
 |	&emsp;Gravity generator     	|	 500 cr	|	3 lb		|
+|	&emsp;Security spike     	|	 150 cr	|	1/2 lb		|
+|	_Weapon and Armor Accessories_	|		|			|
+|	&emsp;Ammo-feed belt            |    450 cr	    |	1 lb		|
+|	&emsp;Holster                   |     75 cr	    |	2 lb		|
+|	&emsp;Power belt                |    400 cr	    |	1 lb		|
 
 </div>
 
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
-
-\pagebreakNum
-
 ### Weapon and Armor Accessories
+#### Ammo-feed Belt
+This belt has slots to hold 60 slug cartridges, and can be connected to directly fuel a single blaster weapon that uses slug cartridges. Once per turn, if the powered weapon would be reloaded, it can be done without using an action using any ammunition in the belt. Connecting or disconnecting a weapon takes an action. Replacing 10 slug cartridges takes an action.
 
 #### Holster
 A holster can be worn on the leg, hip, or back, and can be used to store a single weapon. You can draw a weapon stored in a holster without using an action. Once you've done so, you can't do so again until you store a weapon in the holster as an action.
 
 #### Power Belt
-This belt has slots to hold six power cells, and can be connected to directly power a single blaster weapon that uses power cells. Once per turn, if the powered weapon would be reloaded, it can be done without using an action. Connecting or disconnecting a weapon takes an action. Replacing an expended power cell takes an action.
-
-#### Propulsion Pack
-Propulsion packs enhance underwater movement. Activating or deactivating the propulsion pack requires a bonus action and, while active, you have a swimming speed of 30 feet. The propulsion pack lasts for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells.
-
-#### Repulsor Pack
-Repulsor packs are used to slow descent from a high elevation. Activating or deactivating the repulsor pack requires a bonus action and, while active, your rate of descent slow to 60 feet per round, and you ignore the effects of wind of less than moderate speed (no more than 10 mph). The repulsor pack lasts for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells.
-
-#### Shock Gloves
-A shock glove is a type of armored glove that is coated with a webbed lacing. When used for an attack, this webbing carries a charge that deals 1d4 lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an attack roll, using a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).
-
-#### Shoulder Cannon
-A shoulder cannon is a weapon mounted on a creature's shoulder with an integrated targeting interface that uses traditional power cells. When you would make a ranged weapon attack, you can fire this weapon instead. It has the ammunition (range 60/240), burst 4, and reload 4 properties, and deals 1d8 energy damage on a hit. The shoulder cannon has a proficiency bonus of +2 and a Dexterity score of 16, which are used instead of your proficiency bonus and Dexterity modifier when making attack and damage rolls with it.
-
-\columnbreak
-
-<div class='classTable'>
-
-|	Item	|	Cost	|	Weight		|
-|	:--	|	--:	|	:--:		|
-|	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Holster                   |     75 cr	|	2 lb		|
-|	&emsp;Power belt                |    400 cr	|	1 lb		|
-|	&emsp;Propulsion pack           |    400 cr	|	20 lb		|
-|	&emsp;Repulsor pack             |    300 cr	|	10 lb		|
-|	&emsp;Shock gloves	            |	 500 cr	|	1 lb		|
-|	&emsp;Shoulder cannon	            |	 3,200 cr	|	9 lb		|
-
-</div>
+This belt has slots to hold six power cells, and can be connected to directly power a single blaster weapon that uses power cells. Once per turn, if the powered weapon would be reloaded, it can be done without using an action using any ammunition in the belt. Connecting or disconnecting a weapon takes an action. Replacing an expended power cell takes an action.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -810,24 +937,39 @@ A shoulder cannon is a weapon mounted on a creature's shoulder with an integrate
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Blight cartridge              	|	  36 cr	|	—	    |
+|	&emsp;Corrosive cartridge       	    |	  42 cr	|	—	    |
 |	&emsp;Cryo cell              	        |	 350 cr	|	1 lb	    |
+|	&emsp;Deafening calibrator    	            |	 550 cr	|	1 lb		|
 |	&emsp;Deafening cell         	        |	 425 cr	|	1 lb	    |
-|	&emsp;Disruptor cartridge       	    |	  42 cr	|	—	    |
+|	&emsp;Deafening collimator    	            |	 575 cr	|	1 lb		|
+|	&emsp;Deafening dart              	        |	  70 cr	|	—	    |
+|	&emsp;Electrifying calibrator    	        |	 700 cr	|	1 lb		|
+|	&emsp;Electrifying cartridge         	    |	  28 cr	|	—	    |
+|	&emsp;Electrifying collimator    	        |	 725 cr	|	1 lb		|
+|	&emsp;Electrifying dart              	    |	  85 cr	|	—	    |
+|	&emsp;Gas cartridge              	    |	  36 cr	|	—	    |
+|	&emsp;Flechette clip, fragmentation    	    |	 250 cr	|	2 lb		|
+|	&emsp;Flechette clip, ion    	            |	 300 cr	|	2 lb		|
+|	&emsp;Flechette clip, plasma    	        |	 275 cr	|	2 lb		|
+|	&emsp;Flechette mag, fragmentation    	    |	 550 cr	|	4 lb		|
+|	&emsp;Flechette mag, ion    	            |	 600 cr	|	4 lb		|
+|	&emsp;Flechette mag, plasma    	            |	 575 cr	|	4 lb		|
 |	&emsp;Flux collimator                   |    180 cr	|	1 lb		|
+|	&emsp;Incendiary cell              	        |	 275 cr	|	1 lb	    |
+|	&emsp;Missile, incendiary	                |	 160 cr	|	1/2 lb		|
 |	&emsp;Missile, ion	                    |	 140 cr	|	1/2 lb		|
-|	&emsp;Missile, plasma	                |	 160 cr	|	1/2 lb		|
 |	&emsp;Oscillation calibrator            |    170 cr	|	1 lb		|
-|	&emsp;Plasma cell              	        |	 275 cr	|	1 lb	    |
+|	&emsp;Panic calibrator    	                |	 850 cr	|	1 lb		|
+|	&emsp;Panic collimator    	                |	 875 cr	|	1 lb		|
+|	&emsp;Panic dart              	            |	 100 cr	|	—	    |
 |	&emsp;Power generator                   |  1,250 cr	|	5 lb		|
-|	&emsp;Projector canister, corrosive    	|	 450 cr	|	2 lb		|
-|	&emsp;Projector tank, carbonite	        |	 675 cr	|	3 lb		|
+|	&emsp;Projector canister, corrosive    	|	 300 cr	|	2 lb		|
 |	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3 lb		|
-|	&emsp;Projector tank, flame    	        |	 650 cr	|	3 lb		|
+|	&emsp;Projector tank, cryo	        |	 675 cr	|	3 lb		|
+|	&emsp;Projector tank, incendiary    	        |	 650 cr	|	3 lb		|
 |	&emsp;Rocket, fragmentation	            |	 350 cr	|	2 lb		|
+|	&emsp;Rocket, incendiary          	        |	 535 cr	|	2 lb		|
 |	&emsp;Rocket, ion             	        |	 475 cr	|	2 lb		|
-|	&emsp;Rocket, plasma          	        |	 535 cr	|	2 lb		|
-|	&emsp;Shocking cartridge         	    |	  28 cr	|	—	    |
 |	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
 |	_Clothing_	|		|			|
 |	&emsp;Clothes, clandestine     	|	 300 cr	|	7 lb		|
@@ -837,43 +979,52 @@ A shoulder cannon is a weapon mounted on a creature's shoulder with an integrate
 |	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Credit chip     	    |	 100 cr	|	—		|
-|	_Explosives_	|		|			|
-|	&emsp;Grenade, flash	        |	 350 cr	|	1 lb		|
-|	&emsp;Mine, flash              	|	 600 cr	|	2 lb		|
-|	_Life Support_	|		|			|
-|	&emsp;Emergency raft     	            |	 250 cr	|	10 lb		|
-|	&emsp;Emergency rations (one day's)    	|	 25 cr	|	—		|
-|	&emsp;Emergency shelter    	            |	 600 cr	|	15 lb		|
-|	&emsp;Underwater respirator    	|	 300 cr	|	1/2 lb		|
-|	&emsp;Water suit    	|	 1,500 cr	|	20 lb		|
 
 |Item|Cost|Weight|
 |:--|--:|--:|
+|	_Explosives_	|		|			|
+|	&emsp;Grenade, corrosive            |	 200 cr	|	1 lb		|
+|	&emsp;Grenade, cryo                 |	 325 cr	|	1 lb		|
+|	&emsp;Grenade, defeaning	        |	 225 cr	|	1 lb		|
+|	&emsp;Grenade, electrifying	        |	 300 cr	|	1 lb		|
+|	&emsp;Grenade, flash	            |	 350 cr	|	1 lb		|
+|	&emsp;Grenade, incendiary	        |	 275 cr	|	1 lb		|
+|	&emsp;Grenade, panic	            |	 375 cr	|	1 lb		|
+|	&emsp;Grenade, stun  	            |	 250 cr	|	1 lb		|
+|	&emsp;Mine, corrosive              	|	 425 cr	|	2 lb		|
+|	&emsp;Mine, cryo              	    |	 625 cr	|	2 lb		|
+|	&emsp;Mine, deafening              	|	 450 cr	|	2 lb		|
+|	&emsp;Mine, electrifying            |	 550 cr	|	2 lb		|
+|	&emsp;Mine, flash              	    |	 600 cr	|	2 lb		|
+|	&emsp;Mine, ion              	    |	 525 cr	|	2 lb		|
+|	&emsp;Mine, panic              	    |	 700 cr	|	2 lb		|
+|	&emsp;Mine, plasma              	|	 250 cr	|	2 lb		|
+|	&emsp;Mine, stun              	    |	 475 cr	|	2 lb		|
+|	_Life Support_	|		|			|
+|	&emsp;Underwater respirator    	|	 300 cr	|	1/2 lb		|
+|	&emsp;Water suit    	|	 1,500 cr	|	20 lb		|
 |	_Medical_	|		|	
-|	&emsp;Arm prosthesis     	    |	 450 cr	|	 16 lb		|
-|	&emsp;Eye prosthesis     	    |	 150 cr	|	1/2 lb		|
-|	&emsp;Facial prosthesis    	    |	 300 cr	|	  2 lb		|
-|	&emsp;Foot prosthesis     	    |	 150 cr	|	  4 lb		|
-|	&emsp;Forearm prosthesis        |	 300 cr	|	  8 lb		|
-|	&emsp;Hand prosthesis     	    |	 145 cr	|	  3 lb		|
-|	&emsp;Leg prosthesis     	    |	 450 cr	|	 24 lb		|
-|	&emsp;Torso prosthesis     	    |	 600 cr	|	 36 lb		|
-|	_Storage_	|		|			|
-|	&emsp;Camtono     	            |	   750 cr	|	  3 lb		|
-|	&emsp;Hovercart     	        |	 2,000 cr	|	150 lb	|
-|	&emsp;Smugglepack     	        |	   400 cr	|	  6 lb		|
+|	&emsp;Arm prosthesis     	|	 450 cr	|	 16 lb		|
+|	&emsp;Ear prosthesis     	|	 100 cr	|	1/2 lb		|
+|	&emsp;Eye prosthesis     	|	 250 cr	|	1/2 lb		|
+|	&emsp;Facial prosthesis     |	 300 cr	|	  2 lb		|
+|	&emsp;Foot prosthesis     	|	 150 cr	|	  4 lb		|
+|	&emsp;Forearm prosthesis    |	 300 cr	|	  8 lb		|
+|	&emsp;Hand prosthesis     	|	 225 cr	|	  3 lb		|
+|	&emsp;Leg prosthesis     	|	 450 cr	|	 24 lb		|
+|	&emsp;Throat prosthesis    	|	 325 cr	|	  2 lb		|
+|	&emsp;Torso prosthesis     	|	 600 cr	|	 36 lb		|
+|	_Storage_	|		|	
+|	&emsp;Camtono     	    |	   750 cr	|	  3 lb		|
+|	&emsp;Smugglepack     	|	   400 cr	|	  6 lb		|
 |	_Utilities_	|		|	
-|	&emsp;Basic computer spike     	|	 145 cr	|	1/2 lb		|
-|	&emsp;Basic security spike     	|	 150 cr	|	1/2 lb		|
-|	&emsp;Fire extinguisher     	|	 170 cr	|	6 lb		|
+|	&emsp;Computer spike     	|	 145 cr	|	1/2 lb		|
+|	&emsp;Security spike     	|	 150 cr	|	1/2 lb		|
 |	&emsp;Gravity generator     	|	 500 cr	|	3 lb		|
 |	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Holster                   |     75 cr	|	2 lb		|
-|	&emsp;Power belt                |    400 cr	|	1 lb		|
-|	&emsp;Propulsion pack           |    400 cr	|	20 lb		|
-|	&emsp;Repulsor pack             |    300 cr	|	10 lb		|
-|	&emsp;Shock gloves	            |	 500 cr	|	1 lb		|
-|	&emsp;Shoulder cannon	        |	 3,200 cr	|	9 lb		|
+|	&emsp;Ammo-feed belt            |    450 cr	    |	1 lb		|
+|	&emsp;Holster                   |     75 cr	    |	2 lb		|
+|	&emsp;Power belt                |    400 cr	    |	1 lb		|
 
 </div>	
 
@@ -887,8 +1038,9 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 ##### Tools							
 |	Item		|	Cost	|	Weight	|
 |	:--		|	--:	|	--:	|
+|	_Artisan's implements_		|		|		|
+|	&emsp;Audiotech's implements                    |	550 cr	|   7 lb	|
 |	_Specialist's kit_		|		|		|
-|	&emsp;Audiotech's kit			                |	550 cr	|   7 lb	|
 |	&emsp;Artillerist's kit			                |	275 cr	|  11 lb	|
 |	&emsp;Archaeologist kit							|	125 cr	|	4 lb	|
 |	&emsp;Bioanalysis kit							|	 50 cr	|	3 lb	|
@@ -916,7 +1068,7 @@ This kit contains the necessary tools to create ammunition for blasters, as well
 This kit contains the necessary implements to harvest and scavenge ores and metals. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to harvest a raw material deposit, or to attempt to collect materials from an object.
 
 #### Spicer's Kit
-This kit contains the required accoutrement to refine materials in order to create illicit substances. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create or identify substances.
+This kit contains the required accoutrement to refine materials in order to create illicit substances. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create or identify spices.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -992,32 +1144,32 @@ If a creature abstains from consuming a substance for 24 hours, they can make a 
 The alcoholic beverages are presented in alphabetical order.
 
 #### Deuterium-pyro 
-This alcoholic beverage, favored amongst ruffians, features a terrible flavor and strong aftertaste. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+This alcoholic beverage, favored amongst ruffians, features a terrible flavor and strong aftertaste. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 #### Mummergy 
-Mummergy is a strong-smelling liquor derived from a plant of the same name. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Mummergy is a strong-smelling liquor derived from a plant of the same name. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 #### Novanian Grog
-This grog features a pungent odor and a strong kick. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+This grog features a pungent odor and a strong kick. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 #### Raava
-Raava is a traditional liquor breed from zsajhira berries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Raava is a traditional liquor breed from zsajhira berries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
 #### Spicebrew
-Spicebrew, a popular drink across the galaxy, is a tanned alcoholic beverage topped with foam. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Spicebrew, a popular drink across the galaxy, is a tanned alcoholic beverage topped with foam. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 #### Tihaar
-This colorless spirit, favored by Mandalorians, burns the mouth and throat when consumed. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Contitution, and for the duration their current and maximum hit points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+This colorless spirit, favored by Mandalorians, burns the mouth and throat when consumed. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d4. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 #### Tsiraki
-Tsiraki is a blue-colored alcoholic beverage crafted from fermented salakberries and pickling spices. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Tsiraki is a blue-colored alcoholic beverage crafted from fermented salakberries and pickling spices. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 #### Vayerbok
-Vayerbok is a thick, green, vegetable-based alcoholic beverage typically served hot.As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Vayerbok is a thick, green, vegetable-based alcoholic beverage typically served hot.As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 13 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 13 Wisdom saving throw to resist addiction.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -1030,22 +1182,22 @@ The spices are presented in alphabetical order.
 Refined andris crystal, a spice mined most commonly on Sevarcos II, sharpens a creature's mind when smoked. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
 
 #### Cilona
-Cilona, the active ingredient in deathsticks, is a hallucinogen that causes an ecstatic feeling that improves strength and endurance. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Cilona, the active ingredient in deathsticks, is a hallucinogen that causes an ecstatic feeling that improves strength. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
 
 #### Giggledust
-This sandy-brown powder causes everything to appear slightly humorous while enhancing a creature's nimbleness. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+This sandy-brown powder makes everything humorous while enhancing a creature's nimbleness. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
 
 #### Glitterstim
-A silvery-green webbing sharp to the touch, yet when liquidized causes a heightened mental state and pleasurable boost. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack 
+A silvery-green webbing sharp to the touch, yet when liquidized causes a heightened mental state and pleasurable boost. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 13 Constitution 
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
-roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+saving throw to resist addiction.
 
 #### Karrak
-A powerful painkiller, karrak allows creatures to continue through the most grievous injuries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Contitution, and for the duration their current and maximum hit points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+A powerful painkiller, karrak allows creatures to continue through the most grievous injuries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d4. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
 
 #### Muon Gold
 Muon gold is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
@@ -1054,7 +1206,7 @@ Muon gold is a lubricant-based spice that gives users intensified mental clarity
 Yaladai is a powerful stimulant that grants extreme clarity, improving relaxation and focus. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
 
 #### Yarrock
-Yarrock is a strong hallucinogen which is said to instill a creature with a clear vision of "the meaning of life", granting a boost to confidence. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
+Yarrock is a hallucinogen which is said to instill a creature with a clear vision of "the meaning of life", granting a boost to confidence. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 

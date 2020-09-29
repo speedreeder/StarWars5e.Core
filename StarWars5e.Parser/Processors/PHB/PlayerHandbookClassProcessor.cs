@@ -41,12 +41,14 @@ namespace StarWars5e.Parser.Processors.PHB
             {
                 var classTableLineSplit = classTableLine.Split('|');
 
-                var starWarsClass = new Class();
-                starWarsClass.Name = classTableLineSplit[1].Trim();
-                starWarsClass.Summary = classTableLineSplit[2].Trim();
-                starWarsClass.HitDiceDieTypeEnum = (DiceType)int.Parse(Regex.Match(classTableLineSplit[3], @"\d+").Value);
-                starWarsClass.PrimaryAbility = classTableLineSplit[4].Trim();
-                starWarsClass.SavingThrows = classTableLineSplit[5].Split('&').Select(s => s.Trim()).ToList();
+                var starWarsClass = new Class
+                {
+                    Name = classTableLineSplit[1].Trim(),
+                    Summary = classTableLineSplit[2].Trim(),
+                    HitDiceDieTypeEnum = (DiceType)int.Parse(Regex.Match(classTableLineSplit[3], @"\d+").Value),
+                    PrimaryAbility = classTableLineSplit[4].Trim(),
+                    SavingThrows = classTableLineSplit[5].Split('&').Select(s => s.Trim()).ToList()
+                };
 
                 var classLinesStart = lines.FindIndex(f => f.StartsWith($"## {starWarsClass.Name}"));
                 var nextClassName = classNames.ElementAtOrDefault(classNames.IndexOf(starWarsClass.Name) + 1);
@@ -80,7 +82,7 @@ namespace StarWars5e.Parser.Processors.PHB
                     starWarsClass.CasterTypeEnum = casterRatio.CasterTypeEnum;
                 }
 
-                classes.Add(ParseClass(classLines, starWarsClass, ContentType.Core));
+                classes.Add(ParseClass(classLines.CleanListOfStrings().ToList(), starWarsClass, ContentType.Core));
             }
 
             return Task.FromResult(classes);
@@ -172,14 +174,24 @@ namespace StarWars5e.Parser.Processors.PHB
 
                 if (starWarsClass.SkillChoices != null)
                 {
-                    starWarsClass.SkillChoicesList = starWarsClass.SkillChoices.Split($"{Localization.from} ")[1]
-                        .Split(",")
-                        .Select(c =>
+                    if (starWarsClass.SkillChoices.Contains(Localization.ChooseAny, StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        starWarsClass.SkillChoicesList = new List<string>
                         {
-                            c = c.RemoveWords(new []{Localization.and});
-                            return c.Trim();
-                        })
-                        .ToList();
+                            Localization.Any
+                        };
+                    }
+                    else
+                    {
+                        starWarsClass.SkillChoicesList = starWarsClass.SkillChoices.Split($"{Localization.from} ")[1]
+                            .Split(",")
+                            .Select(c =>
+                            {
+                                c = c.RemoveWords(new[] { Localization.and });
+                                return c.Trim();
+                            })
+                            .ToList();
+                    }
 
                     starWarsClass.NumSkillChoices = Regex.Match(starWarsClass.SkillChoices,
                             @$"{Localization.one}|{Localization.two}|{Localization.three}|{Localization.four}|{Localization.five}|{Localization.six}|{Localization.seven}|{Localization.eight}|{Localization.nine}")

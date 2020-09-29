@@ -18,6 +18,10 @@ namespace StarWars5e.Parser
         public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount,
             GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization, SearchServiceClient searchServiceClient)
         {
+            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount,
+                globalSearchTermRepository, localization);
+            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount,
+                globalSearchTermRepository, localization);
             var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount,
                 globalSearchTermRepository, localization);
             var monsterManualManager =
@@ -39,16 +43,16 @@ namespace StarWars5e.Parser
                 new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentTechPowersManager =
                 new ExpandedContentTechPowersManager(azureTableStorage, globalSearchTermRepository, localization);
-            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount,
-                globalSearchTermRepository, localization);
+            
             var referenceTableManager = new ReferenceTableManager(azureTableStorage, localization);
-            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount,
-                globalSearchTermRepository, localization);
+            
             var creditsManager = new CreditsManager(cloudStorageAccount, localization);
             var extendedContentEnhancedItemManager =
                 new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, localization);
 
             var referenceTables = await referenceTableManager.Parse();
+            await playerHandbookManager.Parse();
+            await wretchedHivesManager.Parse();
             await starshipManager.Parse(referenceTables);
             await monsterManualManager.Parse();
             await extendedContentSpeciesManager.Parse();
@@ -59,8 +63,6 @@ namespace StarWars5e.Parser
             await extendedContentCustomizationOptionsManager.Parse();
             await extendedContentTechPowersManager.Parse();
             await extendedContentForcePowersManager.Parse();
-            await wretchedHivesManager.Parse();
-            await playerHandbookManager.Parse();
             await creditsManager.Parse();
             await extendedContentEnhancedItemManager.Parse();
 

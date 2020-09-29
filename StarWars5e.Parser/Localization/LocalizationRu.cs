@@ -1005,6 +1005,10 @@ namespace StarWars5e.Parser.Localization
 
         public string ECClassificationSpices => throw new System.NotImplementedException();
 
+        public string ChooseAny => throw new System.NotImplementedException();
+
+        public string ECAmmunitionStartLine => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

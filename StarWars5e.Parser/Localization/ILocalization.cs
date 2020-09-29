@@ -187,6 +187,7 @@ namespace StarWars5e.Parser.Localization
         public string WeaponProperties { get; }
         public string ArmorProperties { get; }
         public string Fighter { get; }
+        public string ChooseAny { get; }
         #endregion
 
         #region WretchedHivesManager
@@ -433,6 +434,7 @@ namespace StarWars5e.Parser.Localization
         public string ECBlastersStartLine { get; }
         public string ECMartialLightweaponsStartLine { get; }
         public string ECMartialVibroweaponsStartLine { get; }
+        public string ECAmmunitionStartLine { get; }
         public string ECInterchangeableWeaponsSystemPattern { get; }
         public string ECStrengthRequirementPattern { get; }
         public string ECClassificationMartialBlasters { get; }

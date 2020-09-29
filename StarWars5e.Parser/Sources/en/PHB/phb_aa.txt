@@ -33,15 +33,15 @@ Some special abilities and environmental hazards, such as and the long-term effe
 |Level|Effect|
 |:--:|:--|
 |1|Disadvantage on ability checks|
-|2|Speed halved|
+|2|1 slowed level|
 |3|Disadvantage on attack rolls and saving throws|
 |4|Hit point maximum halved|
-|5|Speed reduced to 0|
+|5|4 slowed levels|
 |6|Death|
 
-If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.
+If an already exhausted creature suffers another effect that causes exhaustion, its current exhaustion level increases by the amount specified in the effect's description.
 
-A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.
+A creature suffers the effect of its current exhaustion level as well as all lower levels. For example, a creature suffering level 2 exhaustion has 1 slowed level and has disadvantage on ability checks.
 
 \columnbreak
 
@@ -54,7 +54,7 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 - The creature can't willingly move closer to the source of its fear.
 
 #### Grappled
-- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.
+- A grappled creature has 4 slowed levels.
 - The condition ends if the grappler is incapacitated (see the condition).
 - The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect.
 
@@ -92,20 +92,35 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 - An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.
 
 #### Restrained
-- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.
+- A restrained creature has 4 slowed levels.
 - Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.
 - The creature has disadvantage on Dexterity saving throws.
 
 #### Shocked
-- A shocked creature's speed is reduced by half.
-- The creature can't take reactions.
+- A shocked creature can't take reactions
+- On its turn, a shocked creature can take either an action or a bonus action, but not both.
+
+#### Slowed
+Some abilities, effects, and hazards can lead to a special condition called slowed. Slowed is measured in four levels. An effect can give a creature one or more levels of slowed, as specified in the effect's description.
+
+##### Slowed Level
+|Level|Effect|
+|:--:|:--|
+|1|Speed reduced by 15 feet|
+|2|Speed reduced by 25 feet|
+|3|Speed reduced by 30 feet|
+|4|Speed reduced to 0, and can't benefit from any bonus to speed|
+
+If an already slowed creature suffers another effect that causes it to be slowed, its current slowed level increases by the amount specified in the effect's description.
+
+An effect that removes slowed reduces its level as specified in the effect's description, with all slowed effects ending if a creature's slowed level is reduced below 1.
+
+\columnbreak
 
 #### Stunned
 - A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.
 - The creature automatically fails Strength and Dexterity saving throws.
 - Attack rolls against the creature have advantage. 
-
-\columnbreak
 
 #### Unconscious
 - An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings
@@ -114,9 +129,9 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 - Attack rolls against the creature have advantage.
 - Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.
 
-<img src='https://www.gmbinder.com/images/YGhTN0s.png' style='position:absolute;bottom:0px;right:-150px;width:640px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/YGhTN0s.png' style='position:absolute;bottom:0px;right:-100px;width:560px;z-index:1000;' />
 
-<img src='https://www.gmbinder.com/images/KVp5cb2.png' style='position:absolute;bottom:0px;left:0px;width:500px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/KVp5cb2.png' style='position:absolute;bottom:0px;left:20px;width:415px;z-index:1000;' />
 
 <div class='footnote'>APPENDIX A | CONDITIONS</div>
 

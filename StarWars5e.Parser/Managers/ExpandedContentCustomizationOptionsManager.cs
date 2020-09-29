@@ -54,51 +54,51 @@ namespace StarWars5e.Parser.Managers
                 Console.WriteLine("Failed to upload EC feats.");
             }
 
-            try
-            {
-                var ecFightingStyles =
-                    await _expandedContentCustomizationOptionsFightingStyleProcessor.Process(
-                        _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
+            //try
+            //{
+            //    var ecFightingStyles =
+            //        await _expandedContentCustomizationOptionsFightingStyleProcessor.Process(
+            //            _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
 
-                foreach (var fightingStyle in ecFightingStyles)
-                {
-                    fightingStyle.ContentSourceEnum = ContentSource.EC;
+            //    foreach (var fightingStyle in ecFightingStyles)
+            //    {
+            //        fightingStyle.ContentSourceEnum = ContentSource.EC;
 
-                    var fightingStyleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingStyle.Name, GlobalSearchTermType.FightingStyle, ContentType.ExpandedContent,
-                        $"/characters/fightingStyles/?search={fightingStyle.Name}");
-                    _globalSearchTermRepository.SearchTerms.Add(fightingStyleSearchTerm);
-                }
+            //        var fightingStyleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingStyle.Name, GlobalSearchTermType.FightingStyle, ContentType.ExpandedContent,
+            //            $"/characters/fightingStyles/?search={fightingStyle.Name}");
+            //        _globalSearchTermRepository.SearchTerms.Add(fightingStyleSearchTerm);
+            //    }
 
-                await _tableStorage.AddBatchAsync<FightingStyle>($"fightingStyles{_localization.Language}", ecFightingStyles,
-                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-            }
-            catch (StorageException)
-            {
-                Console.WriteLine("Failed to upload EC fighting styles.");
-            }
+            //    await _tableStorage.AddBatchAsync<FightingStyle>($"fightingStyles{_localization.Language}", ecFightingStyles,
+            //        new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            //}
+            //catch (StorageException)
+            //{
+            //    Console.WriteLine("Failed to upload EC fighting styles.");
+            //}
 
-            try
-            {
-                var ecFightingMasteries =
-                    await _expandedContentCustomizationOptionsFightingMasteryProcessor.Process(
-                        _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
+            //try
+            //{
+            //    var ecFightingMasteries =
+            //        await _expandedContentCustomizationOptionsFightingMasteryProcessor.Process(
+            //            _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
 
-                foreach (var fightingMastery in ecFightingMasteries)
-                {
-                    fightingMastery.ContentSourceEnum = ContentSource.EC;
+            //    foreach (var fightingMastery in ecFightingMasteries)
+            //    {
+            //        fightingMastery.ContentSourceEnum = ContentSource.EC;
 
-                    var fightingMasterySearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingMastery.Name, GlobalSearchTermType.FightingMastery, ContentType.ExpandedContent,
-                        $"/characters/fightingMasteries/?search={fightingMastery.Name}");
-                    _globalSearchTermRepository.SearchTerms.Add(fightingMasterySearchTerm);
-                }
+            //        var fightingMasterySearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingMastery.Name, GlobalSearchTermType.FightingMastery, ContentType.ExpandedContent,
+            //            $"/characters/fightingMasteries/?search={fightingMastery.Name}");
+            //        _globalSearchTermRepository.SearchTerms.Add(fightingMasterySearchTerm);
+            //    }
 
-                await _tableStorage.AddBatchAsync<FightingStyle>($"fightingMasteries{_localization.Language}", ecFightingMasteries,
-                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-            }
-            catch (StorageException)
-            {
-                Console.WriteLine("Failed to upload EC fighting masteries.");
-            }
+            //    await _tableStorage.AddBatchAsync<FightingStyle>($"fightingMasteries{_localization.Language}", ecFightingMasteries,
+            //        new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            //}
+            //catch (StorageException)
+            //{
+            //    Console.WriteLine("Failed to upload EC fighting masteries.");
+            //}
         }
     }
 }

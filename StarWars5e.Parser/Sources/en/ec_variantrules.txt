@@ -1,12 +1,34 @@
 
 
+<div class='wide'> 
+
+# Wounds
+
+</div>
+
+When a character is reduced to 0 hit points, begins making death saving throws, and has hit points restored, they can return to the battle no worse for the wear. Using this variant rule, you can add an additional layer to make falling to 0 hit points more threatening.
+
+### Gaining Wounds
+When a character is reduced to 0 hit points, that character must make a DC 10 Constitution saving throw. On a success, nothing happens, but the DC of this saving throw for that character increases by 5, cumulatively, until they complete a short or long rest or fail the saving throw, at which point the DC resets to 10. On a failed save, the character suffers 1 wounded level. 
+
+On a success or a failure, a creature immediately gains one death saving throw failure for each wounded level it has. 
+
+For instance, if a character with no wounded levels is reduced to 0 hit points and fails their Constitution saving throw, they gain 1 wounded level, and they then gain 1 death saving throw failure for their 1 wounded level.
+
+Alternatively, if a character with 2 wounded levels is reduced to 0 hit points and succeeds on their Constitution saving throw, they don't gain a wounded level, but they then gain 2 death saving throw failures for their 2 wounded levels. If they take damage, or fail the death saving throw they make at the start of their next turn, they immediately die.
+
+### Clearing Wounds
+A character loses all wounded levels when they are restored to their hit point maximum, whether through consumables, powers, resting, or other means.
+
+\pagebreak
+
 <div class='wide'>
 
 # Critical Saving Throws
 
 </div>
 
-Unlike attack rolls, which can have critical misses and critical failures, saving throws don't have critical failures or successes. Using this variant rule, you can allow critical successes and failures on saving throws.
+Unlike attack rolls, which have critical hits and critical misses, saving throws don't have critical successes or failures. Using this variant rule, you can allow critical successes and failures on saving throws.
 
 ### Critical Success
 When a creature rolls a 20 on their saving throw against an effect, they automatically succeed on the saving throw, even if the result of their save would not meet or exceed the save DC. Additionally, if they would suffer any effects on a successful save, such as half damage, they instead suffer no effects.
@@ -16,12 +38,12 @@ When a creature rolls a 1 on their saving throw against an effect, they automati
 
 \columnbreak
 
-#### Features That Grant Critical Saves
+### Features That Grant Critical Saves
 Certain features, such as the Explosives fighting style or the Heavy Weapon Specialization feat, grant the ability for certain saving throws to deal critical damage. If you are using this variant rule, instead have them expand the critical hit range by 1. For instance, while using this variant rule, a character with the Explosives fighting style would have a critical hit range of 2 on their grenades. Consequently, creatures that roll a 1 or a 2 on the saving throw against their grenades would critically fail their saves.
 
 Additionally, you can consider allowing weapons with the keen property to increase the critical hit range of their burst or rapid properties.
 
-#### Saving Throw Checks
+### Saving Throw Checks
 If you use the Saving Throw Checks variant, you would instead allow effects to critically hit or critically miss, as appropriate.
 
 \pagebreak
@@ -35,8 +57,6 @@ If you use the Saving Throw Checks variant, you would instead allow effects to c
 When you spend at least 10 minutes performing an activity that requires an ability check, that check has consequences for failure, and you don't have disadvantage on the check, you can choose to make that check carefully, colloquially called "taking 10". If you do so, you treat the check as if you had rolled a 10 on the d20. For instance, if you are crafting an item, during resolution you make an Intelligence check with the appropriate tools to determine your d100 Roll Modifier. Instead of rolling the d20, you can make a careful check and take 10, treating the check as if you'd rolled a 10, adding your Intelligence modifier and proficiency bonus, if you are proficient with the tools.
 
 If you would have advantage on the check, you can instead take 15. 
-
-If using the Compound Advantage variant rule, if you have superadvantage on a check, you can take 18. If you have hyperadvantage on a check, you can instead take 20.
 
 \pagebreak
 
@@ -599,11 +619,9 @@ ___
 - **Unarmored Defense:** +1 bonus to AC while not wearing armor or wielding a shield.
 - **Light Armor:** +1 bonus to Dexterity saving throws while wearing light armor.
 - **Medium Armor:** +1 bonus to Constitution saving throws while wearing medium armor.
-- **Heavy Armor:** -1 kinetic and energy damage taken from unenhanced weapons while wearing heavy armor.
+- **Heavy Armor:** -1 damage taken from weapons while wearing heavy armor. If this would reduce the damage to 0, the damage is instead reduced to 1.
 
 For instance, at 1st level, a draethos operative with a 16 in Dexterity would have +6 to Dexterity saving throws instead of +5 while wearing light armor, while a wookiee berserker with a 14 in Dexterity and a 16 in Constitution would have an Armor Class of 16 while unarmored, instead of 15. A character should only gain each bonus once.
-
-
 
 \columnbreak
 
@@ -1185,7 +1203,7 @@ You have mastered rending your foes' weapons, leaving them impotent and vulnerab
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome characters—and their players—take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
 
-When a character rolls a 20 on an attack roll with a weapon that is capable of removing a limb, such as a lightweapon or vibroweapon, have them roll an additional d20. If they roll a 20 on the second d20 roll, they successfully remove a limb from a creature, or potentially slay them outright.
+When a character scores a critical hit with a weapon that is capable of removing a limb, such as a lightweapon or vibroweapon, have them roll an additional d20. If they roll a 20 on the second d20 roll, they successfully remove a limb from a creature, or potentially slay the creature outright.
 
 The character should then roll percentile dice and consult the Dismemberment table below.
 
@@ -1194,14 +1212,16 @@ The character should then roll percentile dice and consult the Dismemberment tab
 |d100|Result|
 |:--|:--|
 |&nbsp;01-<br>&nbsp;40|You remove a hand. If the creature has more than one hand, determine which hand you cut off randomly.|
-|&nbsp;41-<br>&nbsp;70|You remove both hands. If the creature has more than two hands, determine which hand you cut off randomly.|
+|&nbsp;41-<br>&nbsp;70|You remove both hands. If the creature has more than two hands, determine which hands you cut off randomly.|
 |&nbsp;71-<br>&nbsp;90|You remove a leg. The creature's speed is halved if it has at least one more leg. Otherwise, its speed is reduced to 0 and it is knocked prone.|
 |&nbsp;91-<br>&nbsp;98|You remove both legs. If the creature has more than two legs, its speed is halved. Otherwise, its speed is reduced to 0 and it is knocked prone.|
 |&nbsp;99-<br>&nbsp;100|You remove a head. The creature dies if it can't survive without the lost head.|
 
 If a creature is immune to the damage dealt by the weapon, it can not be dismembered by that weapon. If the creature is resistant to the damage dealt by that weapon, when you roll the second d20 to determine whether or not you remove a limb, you do so with disadvantage.
 
-If you roll a result on the Dismemberment table, and the creature lacks the chosen limb, you instead deal additional damage equal to the attack's governing ability score modifier. 
+If you roll a result on the Dismemberment table, and the creature lacks the chosen limb, you instead deal additional damage equal to the attack's governing ability modifier. 
+
+A creature with legendary actions can use its Legendary Resistance to avoid dismemberment, instead taking the additional damage equal to the attack's governing ability modifier.
 
 \columnbreak
 

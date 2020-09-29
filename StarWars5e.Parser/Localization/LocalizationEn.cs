@@ -187,22 +187,21 @@ namespace StarWars5e.Parser.Localization
         public string WeaponProperties => "Weapon Properties";
         public string ArmorProperties => "Armor Properties";
         public string Fighter => "Fighter";
+        public string ChooseAny => "Choose any";
+
         #endregion
 
         #region WretchedHivesManager
         public List<(string name, string startLine, int occurence)> WretchedHivesWeaponProperties => new List<(string name, string startLine, int occurence)>
         {
-            ("Auto", "#### Auto", 1),
             ("Defensive", "#### Defensive", 1),
             ("Dire", "#### Dire", 1),
             ("Disarming", "#### Disarming", 1),
-            ("Disguised", "#### Disguised", 1),
             ("Disintegrate", "#### Disintegrate", 1),
             ("Disruptive", "#### Disruptive", 1),
             ("Keen", "#### Keen", 1),
             ("Mighty", "#### Mighty", 1),
             ("Piercing", "#### Piercing", 1),
-            ("Rapid", "#### Rapid", 1),
             ("Shocking", "#### Shocking", 1),
             ("Silent", "#### Silent", 2),
             ("Vicious", "#### Vicious", 1)
@@ -242,8 +241,10 @@ namespace StarWars5e.Parser.Localization
         public List<(string name, string startLine, int occurence)> PlayerHandbookWeaponProperties => new List<(string name, string startLine, int occurence)>
         {
             ("Ammunition", "#### Ammunition", 1),
+            ("Auto", "#### Auto", 1),
             ("Burst", "#### Burst", 1),
             ("Dexterity", "#### Dexterity", 1),
+            ("Disguised", "#### Disguised", 1),
             ("Double", "#### Double", 1),
             ("Finesse", "#### Finesse", 1),
             ("Fixed", "#### Fixed", 1),
@@ -252,6 +253,7 @@ namespace StarWars5e.Parser.Localization
             ("Light", "#### Light", 2),
             ("Luminous", "#### Luminous", 1),
             ("Range", "#### Range", 1),
+            ("Rapid", "#### Rapid", 1),
             ("Reach", "#### Reach", 1),
             ("Reload", "#### Reload", 1),
             ("Returning", "#### Returning", 1),
@@ -509,6 +511,7 @@ namespace StarWars5e.Parser.Localization
         public string ECBlastersStartLine => "##### Blasters";
         public string ECMartialLightweaponsStartLine => "_Martial Lightweapons_";
         public string ECMartialVibroweaponsStartLine => "_Martial Vibroweapons_";
+        public string ECAmmunitionStartLine => "_Ammunition_";
         public string ECInterchangeableWeaponsSystemPattern => @"####\s+Interchangeable\s+Weapons\s+System";
         public string ECStrengthRequirementPattern => @"[,]*\s+?:([sS]trength\s+\d)";
         public string ECClassificationMartialBlasters => @"_\s*Martial\s*Blaster[s]?\s*_";
