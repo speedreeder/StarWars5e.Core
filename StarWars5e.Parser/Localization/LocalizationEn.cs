@@ -324,7 +324,9 @@ namespace StarWars5e.Parser.Localization
         #endregion
 
         #region PlayerHandbookEquipmentProcessor
-        public string PHBBlastersTableStart => "##### Blasters";
+        public string PHBSimpleBlastersTableStart => "_Simple Blasters_";
+        public string PHBMartialBlastersTableStart => "_Martial Blasters_";
+
         public string PHBVibroweaponsTableStart => "##### Vibroweapons";
         public string PHBLightweaponsTableStart => "##### Lightweapons";
         public string PHBArmorAndShieldsTableStart => "##### Armor and Shields";

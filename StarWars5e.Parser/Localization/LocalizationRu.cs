@@ -1009,6 +1009,10 @@ namespace StarWars5e.Parser.Localization
 
         public string ECAmmunitionStartLine => throw new System.NotImplementedException();
 
+        public string PHBSimpleBlastersTableStart => throw new System.NotImplementedException();
+
+        public string PHBMartialBlastersTableStart => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

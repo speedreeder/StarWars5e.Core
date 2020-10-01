@@ -254,7 +254,9 @@ namespace StarWars5e.Parser.Localization
         #endregion
 
         #region PlayerHandbookEquipmentProcessor
-        public string PHBBlastersTableStart { get; }
+        public string PHBSimpleBlastersTableStart { get; }
+        public string PHBMartialBlastersTableStart { get; }
+
         public string PHBVibroweaponsTableStart { get; }
         public string PHBLightweaponsTableStart { get; }
         public string PHBArmorAndShieldsTableStart { get; }
