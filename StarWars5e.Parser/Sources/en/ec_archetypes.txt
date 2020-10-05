@@ -71,6 +71,7 @@
 |&emsp;Inquisitor Technique     |
 |&emsp;Mastermind Technique     |
 |&emsp;Predator Technique       |
+|&emsp;Teleportation Technique  |
 |Sentinel||
 |&emsp;Path of Communion        |
 |&emsp;Path of the Corsair      |
@@ -265,7 +266,7 @@ While some berserkers are content to surrender to their rage, others prefer a mo
 When you choose this approach at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
 #### Tech Powers Known
-You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Industrial Approach Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+You learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Industrial Approach Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
 
 #### Tech Points
 You have a number of tech points equal to half of your berserker level (rounded up), as shown in the Tech Points column of the Industrial Approach Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
@@ -324,26 +325,26 @@ At 14th level, when you are reduced to 0 hit points but not killed outright, and
 ##### Industrial Approach Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
-|  3rd |  4 |  2 | 1st |
+|  3rd |  3 |  2 | 1st |
 |  4th |  4 |  2 | 1st |
 |  5th |  5 |  3 | 1st |
-|  6th |  5 |  3 | 1st |
-|  7th |  6 |  4 | 2nd |
-|  8th |  6 |  4 | 2nd |
-|  9th |  7 |  5 | 2nd |
-| 10th |  7 |  5 | 2nd |
-| 11th |  8 |  6 | 2nd |
-| 12th |  8 |  6 | 2nd |
-| 13th |  9 |  7 | 3rd |
-| 14th |  9 |  7 | 3rd |
-| 15th | 10 |  8 | 3rd |
-| 16th | 10 |  8 | 3rd |
-| 17th | 11 |  9 | 4th |
-| 18th | 11 |  9 | 4th |
-| 19th | 12 | 10 | 4th |
-| 20th | 12 | 10 | 4th |
+|  6th |  6 |  3 | 1st |
+|  7th |  7 |  4 | 2nd |
+|  8th |  8 |  4 | 2nd |
+|  9th |  9 |  5 | 2nd |
+| 10th | 10 |  5 | 2nd |
+| 11th | 11 |  6 | 2nd |
+| 12th | 12 |  6 | 2nd |
+| 13th | 13 |  7 | 3rd |
+| 14th | 14 |  7 | 3rd |
+| 15th | 15 |  8 | 3rd |
+| 16th | 16 |  8 | 3rd |
+| 17th | 17 |  9 | 4th |
+| 18th | 18 |  9 | 4th |
+| 19th | 19 | 10 | 4th |
+| 20th | 20 | 10 | 4th |
 
-</div> 
+</div>
 
 <img src='https://www.gmbinder.com/images/nOm7Msc.png' style='position:absolute;bottom:0px;right:-170px;width:1200px;z-index:1000' />
 
@@ -655,7 +656,7 @@ You install a second beam port into your modified lightsaber. Your modified ligh
 
 #### Adegan Crystal
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 11th level and +3 at 17th level.
+You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Advanced Blastsaber 
 _**Prerequisite:** 15th level_<br>
@@ -688,7 +689,7 @@ On your turn, when you make an attack roll with your modified lightsaber, you ca
 
 #### Beam Gem Lens
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 11th level and +3 at 17th level.
+You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Biometric Safety Measures
 A security system is installed into the hilt of your lightweapon. When a creature other than you attempts to activate your lightweapon, the activation fails. Additionally, the creature attempting to activate must make on a Constitution saving throw or take lightning damage equal to engineer level, and become shocked until the start of its next turn. On a successful save the creature takes half damage and is not shocked. Regardless of success or failure, the creature drops your modified lightsaber.
@@ -1280,7 +1281,7 @@ The radius of your songs increases to 120 feet. Additionally, any tech power you
 
 #### Magnifying Device
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 11th level and +3 at 17th level.
+While using your harness as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
@@ -1326,7 +1327,7 @@ This feature's damage increases by 1d4 when you reach 5th level (2d4), 11th leve
 
 #### Shock Mount
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to your tech save DC. This bonus increases to +2 at 11th level and +3 at 17th level.
+While using your instrument as a tech focus, you gain a +1 bonus to your tech save DC. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Simple Melodies
 When you are holding your modified instrument, and not actively playing a song, any tech power that you could cast that could have its damage type altered by your Potent Amplitude feature can be cast as if used with Potent Amplitude. 
@@ -1406,11 +1407,11 @@ If a modification has prerequisites, you must meet them to install it. You can i
 
 #### Biochemist's Amplifer
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 11th level and +3 at 17th level.
+While using your biochemist's pack as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Biochemist's Inhibitor
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to your tech save DC. This bonus increases to +2 at 11th level and +3 at 17th level.
+While using your biochemist's pack as a tech focus, you gain a +1 bonus to your tech save DC. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Chemical Counteragents
 You may choose one type of damage that benefits from your Biochemist's Touch and Potent Mixtures features. While wearing your modified biochemist's pack you have resistance to that type of damage.
@@ -1430,11 +1431,15 @@ Additionally, while your detachable distributor is within 100 feet of you, when 
 #### Drone Distribution System
 You upgrade your distributor, interfacing it with the target of your *tracker droid interface* power. When you use your action to activate your distributor, while your tracker droid is within 100 feet of you, you can choose to have your tracker droid deliver the mixture. Your tracker droid must use its reaction to deliver the mixture.
 
-You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You 
+
+
 
 \columnbreak
 
 <div style=margin-top:23px></div>
+
+regain all expended uses when you complete a short or long rest.
 
 #### Expanded Chemicals: Combustibles
 _**Prerequisite:** 5th level_<br>
@@ -1458,11 +1463,13 @@ Additionally, when you use your Invigorating Mixture to grant temporary hit poin
 You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Strength saving throw. If the creature is Large or larger, it has advantage on the saving throw. On a failed save, a creature gains 4 slowed levels until the start of your next turn. As an action on their turn, an affected creature can repeat this saving throw, ending the effect on a success. 
 
 #### Expanded Mixtures: Blinding
-You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Constitution saving throw. On a failed save, a creature is blinded until the start of your next turn.
+You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Constitution saving throw. On a failed save, a creature 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
 \pagebreak
+
+is blinded until the start of your next turn.
 
 #### Expanded Mixtures: Hallucinogenic
 You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make an Intelligence saving throw. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the end of your next turn. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success. 
@@ -1482,7 +1489,7 @@ You install a wrist mounted injection apparatus into your modified biochemist's 
 When you hit with the weapon, you can activate your distributor to deploy one of your mixtures. If you do so, the target has disadvantage on the saving throw against your mixture.
 
 #### Inoculation
-You gain immunity to the poisoned and diseased conditions.
+You gain immunity to the poisoned and disease.
 
 #### Integrated EVA Functionality
 You make several additions to your modified biochemist's pack, you are protected from hazardous conditions, as if wearing an EVA suit, for as long as you are wearing your modified biochemist's pack.
@@ -1492,13 +1499,13 @@ _**Prerequisite:** 9th level_<br>
 You add a special dispersal system to your modified biochemist's pack. This system slowly disperses small amounts of kolto in the air. If creatures spend the entirety of a long rest within 30 feet of you, they regain all expended Hit Dice, instead of only half. Additionally, they are cured of any poisons or diseases that are suffering from.
 
 #### Long-Range Distribution System
-You upgrade your distributor, improving the range. When you use your action to activate your distributor, you can choose to increase the range to 60 feet.
+You upgrade your distributor, improving the range. When you use your action to activate your distributor, 
 
 \columnbreak
 
-<div style='margin-top:16px'></div>
+you can choose to increase the range to 60 feet.
 
-&emsp;You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.
 
 #### Luminous Gel
 You've added a light-emitting gel to your modified biochemist's pack. As an action, you can coat an item, object, or location up to 5-foot-square with this gel. When you do so, the gel sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The gel lasts for 1 hour before losing its potency. You can end this effect as a bonus action.
@@ -1598,7 +1605,7 @@ You further fine tune your Explosive Amplifier. When a creature takes fire damag
 
 #### Arakyd Vector
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 11th level and +3 at 17th level.
+While using your wristpad as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 #### Augmented Explosive
 You can augment a single grenade, mine, or thermal detonator to regain its charge. An augmented explosive can only be used by you, and it uses your tech save DC instead of its own. Once you've activated an explosive, it can't be activated again until you finish a short or long rest.
@@ -1607,7 +1614,7 @@ You can select this modification multiple times. Each time you do so, you can ma
 
 #### Belasco Dynamics
 _**Prerequisite:** 5th level_<br>
-You gain a +1 bonus to your tech save DC. This bonus increases to +2 at 11th level and +3 at 17th level.
+While using your wristpad as a tech focus, you gain a +1 bonus to your tech save DC. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 \columnbreak
 
@@ -1772,26 +1779,26 @@ Beginning at 7th level, your constant blur of motion and attacks becomes an unen
 <div class='classTable'>
 
 ##### Adept Specialist Forcecasting
-| Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level|
+| Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
-|  3rd |  4 |  3 | 1st |
-|  4th |  5 |  4 | 1st |
-|  5th |  6 |  5 | 1st |
-|  6th |  7 |  6 | 1st |
-|  7th |  8 |  7 | 2nd |
-|  8th |  9 |  8 | 2nd |
-|  9th | 10 |  9 | 2nd |
-| 10th | 11 | 10 | 2nd |
-| 11th | 12 | 11 | 2nd |
-| 12th | 13 | 12 | 2nd |
-| 13th | 14 | 13 | 3rd |
-| 14th | 15 | 14 | 3rd |
-| 15th | 16 | 15 | 3rd |
-| 16th | 17 | 16 | 3rd |
-| 17th | 18 | 17 | 4th |
-| 18th | 18 | 18 | 4th |
-| 19th | 19 | 19 | 4th |
-| 20th | 19 | 20 | 4th |
+| 3rd| 4| 3|1st|
+| 4th| 6| 4|1st|
+| 5th| 7| 5|1st|
+| 6th| 8| 6|1st|
+| 7th|10| 7|2nd|
+| 8th|11| 8|2nd|
+| 9th|12| 9|2nd|
+|10th|13|10|2nd|
+|11th|14|11|2nd|
+|12th|15|12|2nd|
+|13th|17|13|3rd|
+|14th|18|14|3rd|
+|15th|19|15|3rd|
+|16th|20|16|3rd|
+|17th|22|17|4th|
+|18th|23|18|4th|
+|19th|24|19|4th|
+|20th|25|20|4th|
 
 </div>
 
@@ -2397,26 +2404,26 @@ At 6th level, you can cast the *phasestrike* force power without expending force
 <div class='classTable'>
 
 ##### Aing-Tii Order Forcecasting
-| Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level|
-|:---:|:---:|:--:|:---:|
-| 3rd | 4 | 3 | 1st |
-| 4th | 5 | 4 | 1st |
-| 5th | 6 | 5 | 1st |
-| 6th | 7 | 6 | 1st |
-| 7th | 8 | 7 | 2nd |
-| 8th | 9 | 8 | 2nd |
-| 9th | 10 | 9 | 2nd |
-| 10th | 11 | 10 | 2nd |
-| 11th | 12 | 11 | 2nd |
-| 12th | 13 | 12 | 2nd |
-| 13th | 14 | 13 | 3rd |
-| 14th | 15 | 14 | 3rd |
-| 15th | 16 | 15 | 3rd |
-| 16th | 17 | 16 | 3rd |
-| 17th | 18 | 17 | 4th |
-| 18th | 18 | 18 | 4th |
-| 19th | 19 | 19 | 4th |
-| 20th | 19 | 20 | 4th |
+| Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level |
+|:---:|:---:|:---:|:---:|
+| 3rd| 4| 3|1st|
+| 4th| 6| 4|1st|
+| 5th| 7| 5|1st|
+| 6th| 8| 6|1st|
+| 7th|10| 7|2nd|
+| 8th|11| 8|2nd|
+| 9th|12| 9|2nd|
+|10th|13|10|2nd|
+|11th|14|11|2nd|
+|12th|15|12|2nd|
+|13th|17|13|3rd|
+|14th|18|14|3rd|
+|15th|19|15|3rd|
+|16th|20|16|3rd|
+|17th|22|17|4th|
+|18th|23|18|4th|
+|19th|24|19|4th|
+|20th|25|20|4th|
 
 </div>
 
@@ -2475,10 +2482,10 @@ At 17th level, you've gained the knowledge to temporarily inhibit a creature's f
 ## Kage Order
 Monks of the Kage Order, known as Kage warriors, have mastered fighting in darkness, using that which others fear as a weapon against them. Kage warriors learn tricks to create darkness where none exists, fighting using their intuition rather than relying on sight.
 
-### Conjure Darkness
-Beginning when you choose this order at 3rd level, you learn to create a number of small devices that create enhanced darkness. Over the course of a short or long rest, you can create a number of devices equal to your Wisdom or Charisma modifier (your choice). Your devices can only be used by you, and they lose their potency at the end of your next short or long rest.
+### Darkness Charges
+Beginning when you choose this order at 3rd level, you learn to create a number of small charges that create enhanced darkness. Over the course of a short or long rest, you can create a number of charges equal to your Wisdom or Charisma modifier (your choice). Your charges can only be used by you, and they lose their potency at the end of your next short or long rest.
 
-Once per turn, when you would make a weapon attack or unarmed strike, you can instead throw one of your devices. Your devices have a range equal to 30 feet + your Strength modifier x 5. You can throw a device at a point you can see within range. The devices create a pocket of darkness in a 10-foot radius sphere centered on that point. The darkness spreads around corners. It lasts for 1 minute or until an enhanced source of brigiht light dispells it.
+Once per turn, when you would make a weapon attack or unarmed strike, you can instead throw one of your charges. Your charges have a range equal to 30 feet + your Strength modifier x 5. You can throw a device at a point you can see within range. The charges create a pocket of darkness in a 10-foot radius sphere centered on that point. The darkness spreads around corners. It lasts for 1 minute or until an enhanced source of brigiht light dispells it.
 
 ### Disruptive Shock
 At 6th level, once per turn, when you hit a creature with a melee weapon attack when you have advantage, or it fails a saving throw against an effect that you control, you can choose to roll a Martial Arts die and deal additional psychic damage equal to the<br> amount rolled. 
@@ -2830,7 +2837,7 @@ You gain proficiency in astrotech's implements.
 When you choose this practice at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
 #### Tech Powers Known
-You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+You learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
 
 #### Tech Points
 You have a number of tech points equal to half of your operative level (rounded up), as shown in the Tech Points column of the Saboteur Practice Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
@@ -2894,26 +2901,26 @@ Starting at 13th level, as a bonus action on your turn, you can expend one or mo
 ##### Saboteur Practice Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
-|  3rd |  4 |  2 | 1st |
+|  3rd |  3 |  2 | 1st |
 |  4th |  4 |  2 | 1st |
 |  5th |  5 |  3 | 1st |
-|  6th |  5 |  3 | 1st |
-|  7th |  6 |  4 | 2nd |
-|  8th |  6 |  4 | 2nd |
-|  9th |  7 |  5 | 2nd |
-| 10th |  7 |  5 | 2nd |
-| 11th |  8 |  6 | 2nd |
-| 12th |  8 |  6 | 2nd |
-| 13th |  9 |  7 | 3rd |
-| 14th |  9 |  7 | 3rd |
-| 15th | 10 |  8 | 3rd |
-| 16th | 10 |  8 | 3rd |
-| 17th | 11 |  9 | 4th |
-| 18th | 11 |  9 | 4th |
-| 19th | 12 | 10 | 4th |
-| 20th | 12 | 10 | 4th |
+|  6th |  6 |  3 | 1st |
+|  7th |  7 |  4 | 2nd |
+|  8th |  8 |  4 | 2nd |
+|  9th |  9 |  5 | 2nd |
+| 10th | 10 |  5 | 2nd |
+| 11th | 11 |  6 | 2nd |
+| 12th | 12 |  6 | 2nd |
+| 13th | 13 |  7 | 3rd |
+| 14th | 14 |  7 | 3rd |
+| 15th | 15 |  8 | 3rd |
+| 16th | 16 |  8 | 3rd |
+| 17th | 17 |  9 | 4th |
+| 18th | 18 |  9 | 4th |
+| 19th | 19 | 10 | 4th |
+| 20th | 20 | 10 | 4th |
 
-</div> 
+</div>
 
 ### Sabotage
 At 17th level, you gain the ability to sabotage a tech power in the process of being cast. When a hostile creature casts a tech power, and you are the target of the tech power or within its area of effect, you can use your reaction to force that creature to make an Intelligence saving throw against your tech save DC. On a successful save, the power is cast as normal.
@@ -3504,7 +3511,7 @@ Across the galaxy one can find numerous pseudonyms and false identities belongin
 When you choose this pursuit at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
 #### Tech Powers Known
-You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Slicer Pursuit Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+You learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Slicer Pursuit Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
 
 #### Tech Points
 You have a number of tech points equal to half of your scholar level (rounded up), as shown in the Tech Points column of the Slicer Pursuit Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
@@ -3546,26 +3553,26 @@ Additionally, when the target of your Critical Analysis casts a tech power, you 
 ##### Slicer Pursuit Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
-|  3rd |  4 |  2 | 1st |
+|  3rd |  3 |  2 | 1st |
 |  4th |  4 |  2 | 1st |
 |  5th |  5 |  3 | 1st |
-|  6th |  5 |  3 | 1st |
-|  7th |  6 |  4 | 2nd |
-|  8th |  6 |  4 | 2nd |
-|  9th |  7 |  5 | 2nd |
-| 10th |  7 |  5 | 2nd |
-| 11th |  8 |  6 | 2nd |
-| 12th |  8 |  6 | 2nd |
-| 13th |  9 |  7 | 3rd |
-| 14th |  9 |  7 | 3rd |
-| 15th | 10 |  8 | 3rd |
-| 16th | 10 |  8 | 3rd |
-| 17th | 11 |  9 | 4th |
-| 18th | 11 |  9 | 4th |
-| 19th | 12 | 10 | 4th |
-| 20th | 12 | 10 | 4th |
+|  6th |  6 |  3 | 1st |
+|  7th |  7 |  4 | 2nd |
+|  8th |  8 |  4 | 2nd |
+|  9th |  9 |  5 | 2nd |
+| 10th | 10 |  5 | 2nd |
+| 11th | 11 |  6 | 2nd |
+| 12th | 12 |  6 | 2nd |
+| 13th | 13 |  7 | 3rd |
+| 14th | 14 |  7 | 3rd |
+| 15th | 15 |  8 | 3rd |
+| 16th | 16 |  8 | 3rd |
+| 17th | 17 |  9 | 4th |
+| 18th | 18 |  9 | 4th |
+| 19th | 19 | 10 | 4th |
+| 20th | 20 | 10 | 4th |
 
-</div> 
+</div>
 
 ### Additional Maneuvers
 Lastly at 3rd level, you gain access to new maneuvers which reflect your understanding of tech casting. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
@@ -4346,6 +4353,44 @@ Starting at 11th level, when you hit a creature with a weapon attack, and the cr
 At 15th level, when you use your Predator's Resolve feature, a number of friendly creatures you choose up to your Intelligence modifier that you can see within 30 feet of you also gain the benefits of the feature.
 
 <img src='https://www.gmbinder.com/images/TidlOHN.png' style='position:absolute;bottom:0px;left:-5px;width:650px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+## Teleportation Technique
+&emsp;&nbsp;&nbsp;Whether through experimentation or discovery of<br> &emsp;&nbsp;&nbsp;an ancient technology, followers of the<br> &emsp;&nbsp;&nbsp;Teleportation Technique have learned to create<br> &emsp;&nbsp;&nbsp;brief teleportation portals, allowing them to<br> &emsp;&nbsp;&nbsp;maneuver and attack both quickly and<br> &emsp;&nbsp;&nbsp;unpredictably throughout the battlefield.
+
+### Personal Teleporter
+When you choose this technique at 3rd level, you can use portable teleporters as a bonus action, instead of an action. 
+
+Additionally, while you are wielding a tech focus, you can use your bonus action to create a pair of linked portals: one portal appears in a space within 5 feet of you, and the other portal appears in an unoccupied space you can see up to 30 feet away. These portals last until the start of your next turn, and they are large enough to accommodate Medium and smaller creatures and objects. Portals take the appearance of an elongated, shimmering mirror, and looking through a portal, a creature can see through the linked portal as if looking through a window. A creature or object who passes through a portal immediately appears in a space within 5 feet of the linked portal. You can use your reaction to end your portals early. If a creature is partially within your portals, it is shunted back to the space it previously occupied and it must make a Dexterity saving throw against your a tech save DC. On a failed save, it takes energy damage equal to your scout level + your Intelligence modifier.
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest. At the beginning of each of your turns while you have a pair of portals active, you can expend a use of this feature to extend the duration of the portals until the start of your next turn (no action required).
+
+The distance at which you can create portals increases at higher levels. It increases to 60 feet at 5th level, 90 feet at 9th level, 150 feet at 13th level, 300 feet at 17th level, and 1,000 feet at 20th level.
+
+### Mark of the Teleporter
+Also at 3rd level, on your turn, when you deal damage to the target of your Ranger's Quarry, and either you, your weapon, or the source of your damage have passed through your portals on this turn, when you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Intelligence modifier (rounded up) in this way.
+
+### Residual Warp
+Beginning at 7th level, when you use your Personal Teleporter feature, you can place your portal in a place you've visited in the last 10 minutes, provided you can remember it, as opposed to a place you can see. That place must still be within range of your teleporter.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Quantum Entanglement
+Starting at 11th level, when you use your Personal Teleporter feature, you can place the portal that you would normally place within 5 feet of you in a place you can see within your Personal Teleporter's range. If that space is occupied by a Huge or smaller creature or a Medium or smaller unsecured object, it must make a Dexterity saving throw against your tech save DC. An object automatically fails this saving throw, and a creature can choose to fail. On a failed save, a Medium or smaller creature or object falls through the portal, immediately appearing in a space within 5 feet of the linked portal and falling prone. A Large or Huge creature instead falls prone without moving.
+
+### Reprisal
+At 15th level, when you would be affected by a weapon or tech power that requires a Dexterity saving throw or attack roll and would affect only you, you can use your reaction to instantaneously create a pair of portals to redirect that power to another target within 30 feet. If the weapon or power required a melee or ranged attack roll, make a melee or ranged tech attack roll against the new target, as appropriate. If it required a Dexterity saving throw, the new target must make a Dexterity saving throw against your tech save DC.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/759409539362586664/thinkingwithportals2.png' style='position:absolute;bottom:12px;right:35px;width:420px;z-index:1000;' />
+
+<img src='https://media.discordapp.net/attachments/555380018310676492/760874686032248832/thinkingwithportals_leggy.png?width=240&height=703' style='position:absolute;top:75px;left:60px;width:35px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
