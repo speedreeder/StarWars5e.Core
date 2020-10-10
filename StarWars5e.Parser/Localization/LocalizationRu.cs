@@ -1013,6 +1013,12 @@ namespace StarWars5e.Parser.Localization
 
         public string PHBMartialBlastersTableStart => throw new System.NotImplementedException();
 
+        public string WHDataRecordingAndStorageStartLine => throw new System.NotImplementedException();
+
+        public string WHExplosivesStartLine => throw new System.NotImplementedException();
+
+        public string WHArtisansImplementsStartLine => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

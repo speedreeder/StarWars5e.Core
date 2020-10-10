@@ -410,6 +410,10 @@ namespace StarWars5e.Parser.Localization
         public string WHAmmunitionStartLine { get; }
         public string WHMedicalStartLine { get; }
         public string WHAlcoholicBeveragesStartLine { get; }
+        public string WHDataRecordingAndStorageStartLine { get; }
+        public string WHExplosivesStartLine { get; }
+        public string WHArtisansImplementsStartLine { get; }
+
         #endregion
 
         #region ExpandedContentArchetypeProcessor
@@ -586,7 +590,6 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableStartingLineStarshipSizeMaximumSuites { get; }
         public string ReferenceTableStartingLineStarshipSizeSuiteCapacity { get; }
         public string ReferenceTableStartingLineCyberneticAugmentationSideEffects { get; }
-
         #endregion
     }
 }

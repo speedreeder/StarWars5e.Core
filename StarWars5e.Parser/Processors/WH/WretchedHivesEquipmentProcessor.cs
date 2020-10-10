@@ -19,10 +19,12 @@ namespace StarWars5e.Parser.Processors.WH
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseArmor(lines, Localization.WHArmorAndShieldsStartLine, ContentType.Core));
 
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHSpecialistsKitStartLine, true, 1, ContentType.Core));
-            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHAmmunitionStartLine, true, 2, ContentType.Core));
-            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHMedicalStartLine, true, 2, ContentType.Core));
-
+            
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHAmmunitionStartLine, true, 5, ContentType.Core));
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHExplosivesStartLine, true, 4, ContentType.Core));
             equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHAlcoholicBeveragesStartLine, true, 1, ContentType.Core));
+            equipmentList.AddRange(await expandedContentEquipmentProcessor.ParseOtherEquipment(lines, Localization.WHArtisansImplementsStartLine, true, 1, ContentType.Core));
+
             return equipmentList;
         }
     }

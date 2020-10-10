@@ -484,6 +484,9 @@ namespace StarWars5e.Parser.Localization
         public string WHAmmunitionStartLine => "_Ammunition_";
         public string WHMedicalStartLine => "_Medical_";
         public string WHAlcoholicBeveragesStartLine => "_Alcoholic beverages_";
+        public string WHDataRecordingAndStorageStartLine => "_Data Recording And Storage_";
+        public string WHExplosivesStartLine => "_Explosives_";
+        public string WHArtisansImplementsStartLine => "_Artisan's implements_";
 
         #endregion
 

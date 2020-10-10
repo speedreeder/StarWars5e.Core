@@ -33,6 +33,7 @@
 |&emsp;Enhancement Specialist   |
 |&emsp;Mounted Specialist       |
 |&emsp;Praetorian Specialist    |
+|&emsp;Totem Specialist         |
 |Guardian||
 |&emsp;Ataru Form               |
 |&emsp;Jar'Kai Form             |
@@ -2075,6 +2076,92 @@ Once you've used this feature, you can't use it again until you finish a long re
 
 \pagebreak
 
+## Totem Specialist
+Those fighters who become Totem Specialists tap into a primal attunement to the Force, applying tribal ceremony to create powerful talismans that enhance their abilities.
+
+### Bonus Proficiencies
+You gain proficiency with your choice of artist's implements or jeweler's implements.
+
+### Totem Creation
+When you choose this specialty at 3rd level, you've learned to create powerful talismans infused with the Force. Your totems can take the form of sigils painted directly onto your equipment, or adornments attached to it, as you see fit. Regardless of the form they take, only you can benefit from them. You learn two totems of your choice, which are detailed under "Totems" below. When you complete a long rest, you can replace one totem you know with a different one.
+
+When you finish a long rest, you can touch a number of weapons, armor, or shields equal to the number of totems you know, affixing a different totem to each object. Your totem remains affixed until you finish a long rest, and an object can only bear one totem at a time. You must be wielding or wearing the object to benefit from a totem affixed to it.
+
+Each totem can be invoked to grant an effect. Once you've invoked a totem in this way, you can't do so again until you complete a short or long rest.
+
+### Totem Options
+The totems are listed in alphabetical order. If a totem requires a saving throw, the DC = 8 + your proficiency bonus + your Wisdom or Charisma modifier (your choice). 
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+#### Totem of the Acklay
+This totem evokes the ferocity of an acklay, granting you advantage on Intelligence (Nature) checks and Charisma (Intimidation) checks.
+
+Additionally, you can invoke the totem as a bonus action. For 10 minutes, your carrying capacity and the weight you can push, drag, or lift doubles, and your Strength score increases by 2. This increase can cause your score to exceed 20. 
+
+#### Totem of the Hawk
+This totem is inspired by the visage of a hawk, granting you advantage on Intelligence (Investigation) checks, and darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.
+
+Additionally, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the totem and force the creature to make a Constitution saving throw by emitting a powerful sound. Unless the save succeeds, the creature is dazed, suffering from the Charmed condition. While charmed in this way, the creature has a speed of 0 and is incapacitated. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the totem, you can't do so again until you finish a short or long rest. A deaf creature automatically succeeds on its saving throw.
+
+#### Totem of the Loth-wolf
+This totem emulates the near etherealness of a loth-wolf, granting you advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.
+
+Additionally, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the totem and cause that attack to target a different creature within 30 feet of you (other than the attacker) that you can see, using the same roll. This ability can transfer the attack regardless of the attack's range. 
+
+#### Totem of the Rancor
+This totem bestows a resilience reminiscent of a mighty rancor, granting you advantage on saving throws against being poisoned and resistance to poison damage.
+
+Additionally, you can invoke the totem as a bonus action, gaining resistance to energy and kinetic damage for 1 minute. 
+
+#### Totem of the Sarlacc
+This totem channels the experience of an ancient sarlacc, granting you expertise in any tool in which you are proficient.
+
+Additionally, when you hit a creature with a weapon attack, you can invoke the totem to summon the tentacles of the creature: The target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the tentacles, the target takes 2d6 acid damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, tearing free on a success.
+
+<img src='https://www.gmbinder.com/images/qCmCdNi.png' style='position:absolute;bottom:0px;left:-10px;width:480px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
+<div style='margin-top:23px'></div>
+
+#### Totem of the Vornskr
+With this totem you are able to access the Force-enhanced senses of the vornskr, granting you advantage on Wisdom (Survival) checks, and you can't be surprised as long as you are not incapacitated.
+
+Additionally, you can invoke the totem as a bonus action to enter a state of hyper awareness for 1 minute or until you're incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. 
+
+### Totemic Might 
+Also at 3rd level, you can channel the power of your Force awareness temporarily. As a bonus action, you can gain the following benefits for 1 minute. You can invoke a totem as a part of this same bonus action.
+- Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.
+- You have advantage on Strength checks<br> and Strength saving throws.
+- Your weapon attacks deal an extra<br> 1d6 damage.
+
+This effect ends early if you are<br> incapacitated or die. You can use<br> this feature twice. You regain all<br> expended uses of it when you<br> finish a long rest.
+
+### Guardian Spirit
+Beginning at 7th level, you learn<br> to invoke your totems to protect<br> your allies. When another<br> creature you can see within<br> 60 feet of you is hit by an<br> attack roll, you can use your<br> reaction to grant a bonus to<br> the creature's AC against<br> that attack. The bonus equals<br> 1 + your Wisdom or Charisma<br> modifier (your choice, minimum<br> of +2).
+
+### Primal Avatar
+At 10th level, you learn a third totem.<br> Additionally, the bonus damage of your<br> Totemic Might feature increases to 1d8. Lastly,<br> you have advantage on Lore checks you make<br> about tribal cultures.
+
+\columnbreak
+
+### Spirit Guide
+Starting at 15th level, you can invoke each of your totems twice, instead of once. You regain all expended uses when you finish a short or long rest.
+
+### Blessing of the Tree of Light
+At 18th level, you learn how to share your totem's power with your allies. When you use your Totemic Might feature, you can choose one willing creature you can see within 60 feet of you. The chosen creature<br> also gains the benefits of your Totemic Might feature.<br> If you are incapacitated or killed, this effect immediately ends for both of you.
+
+<img src='https://www.gmbinder.com/images/MuHNLvq.png' style='position:absolute;bottom:-130px;right:0px;width:800px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
 ## Ataru Form
 Ataru Form, also know as Aggression Form, is a kinetically active form that relies on speed, acrobatics, and power. Those guardians who focus on Ataru Form utilize high energy tactics to confuse and distract their opponents, quickly moving about the battlefield.
 
@@ -2093,12 +2180,12 @@ Lastly at 3rd level, you gain the following Channel the Force option.
 When a creature makes a melee attack roll against you, you can expend a use of your Channel the Force and your reaction to jump 10 feet in a direction of your choice, imposing disadvantage on the roll. This movement does not provoke opportunity attacks. You can wait until after the attack roll is made, but before the DM determines whether the attack hits.
 
 ### Hawk-Bat Swoop
-At 7th level, you gain the ability to move along vertical surfaces without falIing during the move. If you end your turn in the air, you fall immediately to the ground.
+Starting at 7th level, you gain the ability to move along vertical surfaces without falIing during the move. If you end your turn in the air, you fall immediately to the ground.
 
 Additionally, you no longer take damage when falling from a distance no greater than your walking speed.
 
 ### Whirlwind Attack
-At 15th level, you can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+By 15th level, you can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.
 
 \columnbreak
 
@@ -2106,7 +2193,7 @@ At 15th level, you can use your action to make melee attacks against any number 
 
 ### Master of Aggression
 At 20th level, your presence on the field of battle is as a graceful blur of deadly blades and daring acrobatics. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
-- You have resistance to kinetic and energy damage from unenhanced weapons.
+- You have resistance to kinetic, energy, and ion damage from weapons.
 - When an ally within 30 feet of you takes the Attack action, they can make one additional attack as a part of that same action.
 - When you hit a creature with a weapon attack, you can move up to 10 feet. This movement does not provoke opportunity attacks.
 
@@ -2136,10 +2223,10 @@ Lastly at 3rd level, you gain the following Channel the Force option.
 Once per turn, when you miss with a melee weapon attack, you can expend a use of your Channel the Force to immediately make another melee weapon attack against the same target (no action required).
 
 ### Eye of the Storm
-Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Channel the Force, to a maximum of your Wisdom or Charisma modifier (your choice, minimum of one). 
+Starting at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Channel the Force, to a maximum of your Wisdom or Charisma modifier (your choice, minimum of one). 
 
 ### Rising Whirlwind
-Starting at 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw. A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding two light- or vibro-weapons, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn't already include that modifier.
+By 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw (DC = 8 + your bonus to attacks with your weapon). A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding separate two light- or vibro-weapons in each hand with which you are proficient, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn't already include that modifier.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
@@ -2149,7 +2236,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 ### Master of Domination
 At 20th level, you are a whirlwind of strikes, eviscerating all who step within your reach. Your Strength and Dexterity scores increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
-- You have resistance to kinetic and energy damage from unenhanced weapons.
+- You have resistance to kinetic, energy, and ion damage from weapons.
 - When you hit a creature with a melee weapon attack, you have advantage on the next melee weapon attack roll you make against that creature, and that creature provokes an opportunity attack from you even if they take the Disengage action before leaving your reach until the end of your next turn.
 - Creatures provoke an opportunity attack from you when they enter your reach.
 
@@ -2195,7 +2282,7 @@ When you reduce the damage dealt by a force power to 0 using the *saber reflect*
 \pagebreak
 
 ### Fury
-At 7th level, you gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vapaad.
+Starting at 7th level, you gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vapaad.
 
 #### Relentless 
 You have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.
@@ -2204,7 +2291,7 @@ You have advantage on initiative checks, and gain a 10 foot bonus to your speed 
 When a hostile creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
 
 ### Vengeance
-Starting at 15th level, you gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.
+By 15th level, you gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.
 
 #### Devastating Critical
 When you score a critical hit with a melee weapon attack, you gain a bonus to that weapon's damage<br> roll equal to your guardian level.
@@ -2248,10 +2335,10 @@ Lastly at 3rd level, you gain the following<br> Channel the Force option.
 When you hit a creature with a melee weapon attack, you can expend a use of your Channel the Force (no action required)  to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The creature must make a Strength saving throw. On a failed save, it drops the object you choose. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet.
 
 ### Unpredictable Motion
-Beginning at 7th level, while you are wielding a melee weapon, opportunity attacks against you are made at disadvantage.
+Starting at 7th level, while you are wielding a melee weapon, opportunity attacks against you are made at disadvantage.
 
 ### Sarlaac Sweep
-Starting at 15th level, when a creature moves to within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. If the attack hits, you can attempt to damage another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength or Dexterity modifier (your choice). The damage is of the same type dealt by the original attack.
+By 15th level, when a creature moves to within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. If the attack hits, you can attempt to damage another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength or Dexterity modifier (your choice). The damage is of the same type dealt by the original attack.
 
 \columnbreak
 
@@ -2259,7 +2346,7 @@ Starting at 15th level, when a creature moves to within 5 feet of you, you can u
 
 ### Master of Determination
 At 20th level, the erratic fluidity of your movement confounds even the most determined of foes. Your Strength or Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
-- You have resistance to kinetic and energy damage from unenhanced weapons.
+- You have resistance to kinetic, energy, and ion damage from weapons.
 - Attack rolls made against you can't have advantage.
 - When more than one creature is within 5 feet of you, you gain a bonus to your Armor Class equal to the number of creatures within 5 feet of you, up to your Wisdom or Charisma modifier (your choice, minimum of one).
 - When you use your Sarlaac Sweep feature, you have advantage on the attack roll, and you can apply the bonus damage to every creature within 5 feet of you.
@@ -2297,16 +2384,16 @@ When an opponent within 5 feet of you<br> makes a melee attack against you,<br> 
 <div style='margin-top:28px'></div>
 
 ### Unwavering Self
-Beginning at 7th level, if you fail a Strength, Dexterity, or Constitution saving throw, you can reroll the die. You must use the new roll.
+Starting at 7th level, if you fail a Strength, Dexterity, or Constitution saving throw, you can reroll the die. You must use the new roll.
 
 Once you've used this feature, you must complete a long rest before you can use it again. At 15th level you can use this feature twice between long rests.
 
 ### Unhindered Charge
-Starting at 15th level, when you move at least 10 feet before making a melee weapon attack, you deal additional damage equal to your Strength modifier.
+By 15th level, when you move at least 10 feet before making a melee weapon attack, you deal additional damage equal to your Strength modifier.
 
 ### Master of Persistence
 At 20th level, you are an unrelenting force on the field of battle. Your Strength and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
-- You have resistance to kinetic and energy damage from unenhanced weapons.
+- You have resistance to kinetic, energy, and ion damage from weapons.
 - You ignore effects that would reduce your speed.
 - Once per turn, when you push a creature, you can move up to 10 feet as a part of this push without provoking opportunity attacks. If you end this movement within 5 feet of that creature, you can<br> make one melee weapon attack (no action required).
 
@@ -2336,10 +2423,10 @@ Lastly at 3rd level, you gain the following Channel the Force option.
 When you are hit with a melee weapon attack, and you are wielding a lightweapon with which you are proficient, you can use your reaction and expend a use of your Channel the Force to add your Wisdom or Charisma modifier (your choice, minimum of +1) to your AC for that attack, potentially causing the attack to miss you.
 
 ### Duplicitous Force
-Beginning at 7th level, when you make a Dexterity (Sleight of Hand) check, you gain a bonus to that check equal to your Wisdom or Charisma modifier (your choice, minimum of one).
+Starting at 7th level, when you make a Dexterity (Sleight of Hand) check, you gain a bonus to that check equal to your Wisdom or Charisma modifier (your choice, minimum of one).
 
 ### Pass the Blade
-Starting at 15th level, when a creature misses you with an attack, you gain temporary hit points equal to your Wisdom or Charisma modifier (your choice, minimum of one), and you add your Wisdom or Charisma modifier (your choice, minimum of one) to the first melee weapon attack and damage rolls you make against that creature before the end of your next turn. 
+By 15th level, when a creature misses you with an attack, you gain temporary hit points equal to your Wisdom or Charisma modifier (your choice, minimum of one), and you add your Wisdom or Charisma modifier (your choice, minimum of one) to the first melee weapon attack and damage rolls you make against that creature before the end of your next turn. 
 
 \columnbreak
 
@@ -2347,7 +2434,7 @@ Starting at 15th level, when a creature misses you with an attack, you gain temp
 
 ### Master of Deception
 At 20th level, your skill with a lightweapon is both mesmerizing and confounding. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
-- You have resistance to kinetic and energy damage from unenhanced weapons.
+- You have resistance to kinetic, energy, and ion damage from weapons.
 - Your attack rolls can't suffer from disadvantage.
 - Whenever a creature misses you with a melee attack, it takes 5 energy damage.
 - Whenever a creature hits you with a melee attack, it takes damage equal to half of the damage you take from the attack.
@@ -4371,7 +4458,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 The distance at which you can create portals increases at higher levels. It increases to 60 feet at 5th level, 90 feet at 9th level, 150 feet at 13th level, 300 feet at 17th level, and 1,000 feet at 20th level.
 
 ### Mark of the Teleporter
-Also at 3rd level, on your turn, when you deal damage to the target of your Ranger's Quarry, and either you, your weapon, or the source of your damage have passed through your portals on this turn, when you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Intelligence modifier (rounded up) in this way.
+Also at 3rd level, on your turn, when you deal damage to the target of your Ranger's Quarry, and either you, your weapon, or the source of your damage have passed through your portals on this turn, when you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Intelligence modifier (rounded up, minimum of one) in this way.
 
 ### Residual Warp
 Beginning at 7th level, when you use your Personal Teleporter feature, you can place your portal in a place you've visited in the last 10 minutes, provided you can remember it, as opposed to a place you can see. That place must still be within range of your teleporter.
@@ -4388,9 +4475,9 @@ At 15th level, when you would be affected by a weapon or tech power that require
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
-<img src='https://cdn.discordapp.com/attachments/469499280994992128/759409539362586664/thinkingwithportals2.png' style='position:absolute;bottom:12px;right:35px;width:420px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/qpp67Av.png' style='position:absolute;bottom:12px;right:35px;width:420px;z-index:1000;' />
 
-<img src='https://media.discordapp.net/attachments/555380018310676492/760874686032248832/thinkingwithportals_leggy.png?width=240&height=703' style='position:absolute;top:75px;left:60px;width:35px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/edA6oHo.png' style='position:absolute;top:75px;left:60px;width:35px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
