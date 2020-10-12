@@ -208,8 +208,8 @@ namespace StarWars5e.Parser.Processors.PHB
                 starWarsClass.StartingWealthVariant = classLines.ElementAtOrDefault(variantWealthLine)?.Split('|')
                     .ElementAtOrDefault(2)?.Trim();
 
-                var classFeatureText = string.Join("\r\n", classLines.Skip(variantWealthLine + 1).ToList());
                 var archetypeStartLine = classLines.FindIndex(variantWealthLine, f => f.StartsWith("## "));
+                var classFeatureText = string.Join("\r\n", classLines.Skip(variantWealthLine + 1).Take(archetypeStartLine - (variantWealthLine + 1)).ToList());
 
                 starWarsClass.Features = ParseFeatures(classLines.Skip(variantWealthLine + 1).Take(archetypeStartLine - (variantWealthLine + 1)).ToList(), starWarsClass.Name, FeatureSource.Class, ContentType.Core);
                 starWarsClass.ClassFeatureText = classFeatureText;
