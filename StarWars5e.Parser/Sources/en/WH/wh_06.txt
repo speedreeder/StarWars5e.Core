@@ -6,12 +6,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he combination of ability scores, species, class, and</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; background defines your character's capabilities in the game, and the personal details you create set your character apart from every other character. Even within your class and species, you have options to fine-tune what your character can do. But this chapter is for players who—with the GM's permission—want to go a step further.
 
-This chapter defines two optional sets of rules for customizing your character: multiclassing and feats. Multiclassing lets you combine classes together, and feats are special options you can choose instead of increasing your ability s cores as you gain levels. Your GM decides whether these options are available in a campaign.
+This chapter expands on feats, which are special options you can choose instead of increasing your ability scores as you gain levels. Your GM decides whether these options are available in a campaign.
 
 #### Class Weapon Proficiencies
 Certain classes—berserker, consular, engineer, fighter, guardian, and scout—have proficiency in all of a type of weapon. For instance, fighters are proficient in all blasters and all vibroweapons. Consequently, fighters have proficiency in all blasters and vibroweapons present in Chapter 5. Other classes—monks, operatives, scholars, and sentinels—have proficiency in a certain set of weapons. For each of these classes, they gain proficiency in only certain weapons, as shown below in the Weapon Proficiencies by Class table:
-
-\columnbreak
 
 ##### Weapon Proficiencies by Class
 |Class|Weapon Proficiencies|
@@ -27,97 +25,12 @@ Certain classes—berserker, consular, engineer, fighter, guardian, and scout—have
 |Scout|All blasters, all vibroweapons|
 |Sentinel|Simple vibroweapons, simple lightweapons, bolas, chained dagger, chained lightdagger, electrobaton, electrostaff, guard shoto, lightfist, riot baton, riot shocker, vibroshield, vibroknife, vibrotonfa, war hat, wristblade|
 
-#### Weapons by Specialist Feat
-Many of these weapons are appropriate options for weapon specialist feats. You can see which weapon is governed by which feat below.
-
-<div class='wide' style='position:absolute;bottom:60px;left:75px;width:687px;column-count:3'>
-
-|Weapon|Specialist feat|
-|:--|:--|
-|	ARC caster	|	Heavy Weapon	|
-|	Blaster cannon	|	Heavy Weapon	|
-|	Bo-rifle	|	Trip Weapon	|
-|	Bolas	|	Trip Weapon	|
-|	Bolt-thrower	|	Rifle	|
-|	Canesaber	|	Blade	|
-|	Carbine rifle	|	Rifle	|
-|	Chained dagger	|	Trip Weapon	|
-|	Chained lightdagger	|	Trip Weapon	|
-|	Claymore saber	|	Crushing Weapon	|
-|	Crossguard saber	|	Blade	|
-|	Cycler rifle	|	Heavy Weapon	|
-|	Disruptor pistol	|	Sidearm	|
-|	Disruptor rifle	|	Rifle	|
-|	Dual-phase saber	|	Blade	|
-|	Electrobaton	|	Trip Weapon	|
-|	Electrohammer	|	Crushing Weapon	|
-|	Electroprod	|	Blade	|
-|	Electrostaff	|	Trip Weapon	|
-|	Electrovoulge	|	Polearm	|
-|	Energy bow	|	Rifle	|
-|	Grenade launcher	|	Heavy Weapon	|
-
-|Weapon|Specialist feat|
-|:--|:--|
-|	Guard shoto	|	Blade	|
-|	Handwraps	|	Blade	|
-|	Heavy bowcaster	|	Heavy Weapon	|
-|	Heavy repeater	|	Rifle	|
-|	Heavy shotgun	|	Heavy Weapon	|
-|	Heavy slugpistol	|	Sidearm	|
-|	Incinerator pistol	|	Sidearm	|
-|	Incinerator sniper	|	Rifle	|
-|	Ion carbine	|	Rifle	|
-|	IWS	|	Heavy Weapon	|
-|	Light repeater	|	Rifle	|
-|	Lightaxe	|	Crushing Weapon	|
-|	Lightbow	|	Rifle	|
-|	Lightfist	|	Blade	|
-|	Lightglaive	|	Polearm	|
-|	Hunting rifle	|	Rifle	|
-|	Mancatcher	|	Trip Weapon	|
-|	Needler	|	Sidearm	|
-|	Nightstinger rifle	|	Rifle	|
-|	Railgun	|	Rifle	|
-|	Retrosaber	|	Blade	|
-|	Revolver	|	Sidearm	|
-|	Riot baton	|	Trip Weapon	|
-
-|Weapon|Specialist feat|
-|:--|:--|
-|	Riot shocker	|	Trip Weapon	|
-|	Rocket launcher	|	Heavy Weapon	|
-|	Rotary cannon	|	Heavy Weapon	|
-|	Sith saber	|	Crushing Weapon	|
-|	Slugpistol	|	Sidearm	|
-|	Sonic pistol	|	Sidearm	|
-|	Sonic rifle	|	Rifle	|
-|	Subrepeater	|	Sidearm	|
-|	Tranquilizer rifle	|	Rifle	|
-|	Vapor projector	|	Heavy Weapon	|
-|	Vibroclaw	|	Blade	|
-|	Vibroclaymore	|	Crushing Weapon	|
-|	Vibrocutter	|	Crushing Weapon	|
-|	Vibrohammer	|	Crushing Weapon	|
-|	Vibroknife	|	Blade	|
-|	Vibroshield	|	Blade	|
-|	Vibrotonfa	|	Blade	|
-|	War hat	|	Trip Weapon	|
-|	Warsword	|	Crushing Weapon	|
-|	Wristblade	|	Blade	|
-|	Wristblaster	|	Sidearm	|
-|	Wristsaber	|	Blade	|
-
-</div>
-
-\pagebreakNum
+\columnbreak
 
 ## Feats
 A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
 
 You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
-
-The feats presented in this chapter should be considered valid options for background feats.
 
 ### Augmented Cyborg
 You've experimented with cybernetic augmentations, granting the following benefits: 
@@ -136,6 +49,18 @@ _**Prerequisite:** Type droid_<br>
 You've been customized beyond other droids of the same model, granting the following benefits: 
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - Choose one droid customization of standard rarity from Appendix A. That customization is installed and doesn't count against the maximum droid customizations you can support, but it does count towards your maximum parts as shown in the Droid Size Maximum Parts table in Chapter 7.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+### Investigative Attunement
+_**Prerequisite:** 4th level_<br>
+You've spent a significant amount of time appraising and testing enhanced items. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- Your maximum attunement increases by 1.
+- You have advantage on ability checks made to identify items.
+- Once per long rest, you can choose one object that you must touch for 10 minutes. If it is an enhanced or modified item, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any powers are affecting the item and what they are. If the item was created by a power, you learn which power created it.
 
 ### Mariner
 You've spent an exorbitant amount of time in water. You gain the following benefits:
@@ -158,6 +83,8 @@ Despite being short of stature, your size has no impact on your strength and vir
 - Your speed increases by 5 feet.
 - You lose the Undersized special trait.
 
+\columnbreak
+
 ### Shard Modification
 _**Prerequisite:** Type droid_<br>
 You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:
@@ -172,3 +99,7 @@ Despite falling below knee height of other species, your size has less impact on
 - Your speed increases by 5 feet.
 - You lose the Pintsized special trait, and you are no longer limited to +3 when determing your bonus to attack and damasge rolls for weapon attacks using Strength due to the Puny special trait.
 - You gain the Undersized special trait: ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two-hands.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum

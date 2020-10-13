@@ -29,7 +29,7 @@ namespace StarWars5e.Parser.Processors.PHB
                 if (!featsLines[i].StartsWith("### ")) continue;
 
                 var featStartIndex = i;
-                var featEndIndex = featsLines.FindIndex(i + 1, f => f.StartsWith("### "));
+                var featEndIndex = featsLines.FindIndex(i + 1, f => f.StartsWith("##"));
 
                 var featLines = featsLines.Skip(featStartIndex);
                 if (featEndIndex != -1)

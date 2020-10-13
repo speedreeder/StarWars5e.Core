@@ -15,18 +15,18 @@ Rarity provides a rough measure of an item's power relative to other enhanced it
 |Rarity|Character Level|Identification DC|
 |:--:|:--:|:--:|
 |<font style="color:#4a5568">Standard</font>|1st or higher|10|
-|<font style="color:green">Premium</font>|1st or higher|15|
-|<font style="color:blue">Prototype</font>|5th or higher|20|
-|<font style="color:purple">Advanced</font>|9th or higher|25|
-|<font style="color:#dd6b20">Legendary</font>|13th or higher|30|
-|<font style="color:red">Artifact</font>|17th or higher|35|
+|<font style="color:green">Premium</font>|1st or higher|14|
+|<font style="color:blue">Prototype</font>|5th or higher|18|
+|<font style="color:purple">Advanced</font>|9th or higher|22|
+|<font style="color:#dd6b20">Legendary</font>|13th or higher|26|
+|<font style="color:red">Artifact</font>|17th or higher|30|
 
 If your campaign allows for trade in enhanced items, rarity can also help you set prices for them. As the GM, you determine the value of an individual enhanced item based on its rarity. Suggested values are provided in the Enhanced Item Rarity table. The value of a consumable, such as a medpac or stimpac, is typically half the value of a permanent item of the same rarity.
 
 ### Identifying Enhanced Items
-Some enhanced items have properties not readily distinguishable to the naked eye. Identifying such an item requires use of the *analyze* tech power or inspection with the appropriate tools.
+Some enhanced items have properties not readily distinguishable to the naked eye. Identifying such an item requires use of the *analyze* or *telemetry* power, or inspection with the appropriate tools.
 
-If a player is proficient in the appropriate type of tools (e.g. armstech's tools for a blaster or vibroweapon), they can make a check with them to identify the properties of an enhanced item over the course of a short rest. To use this benefit, you must have the tools, and the enhanced item must be within reach. The DC is found above in the Enhanced Item Rarity and Identification table.
+If a player is proficient in the appropriate type of tools, as shown in the Item by Tools table on page \_\_\_, they can make a check with the tools to identify the properties of an enhanced item over the course of a short rest. To use this benefit, they must have the tools, and the enhanced item must be within reach. The DC is found above in the Enhanced Item Rarity and Identification table.
 
 \columnbreak
 
@@ -65,7 +65,7 @@ Items that don't fall in one of the other categories are considered adventuring 
 ### Armor
 Unless an armor's description says otherwise, armor must be worn for its enhanced properties to function.
 
-Some suits of enhanced armor specify the type of armor they are, such as durasteel armor or combat suit, or the category in which they fall, such as light or heavy armor. If an enhanced armor doesn't specific its armor type, you may choose the type or determine it randomly.
+Some suits of enhanced armor specify the type of armor they are, such as durasteel armor or combat suit, or the category in which they fall, such as light or heavy armor. If an enhanced armor doesn't specify its armor type, you may choose the type or determine it randomly.
 
 ### Consumables
 Typically, consumables are single use (unless the description says otherwise). Once a consumable is used, it takes effect immediately and is rendered useless.
@@ -88,12 +88,14 @@ The value of consumables, due to their impermanent nature, is typically half tha
 
 ***Substances.*** Substances are often illicit, such as spice or death sticks, or legal and common, like beer or wine. Substances confer a benefit at risk of addiction. Substances are discussed further later in this chapter.
 
-### Cybernetic Augmentations
-Cybernetic augmentations are enhancements built in to biological creatures, such as beasts or humanoids. They come in the form of replacements, which replace a physical body part, or enhancements, which simply augment a creature. Cybernetic augmentations are discussed further later in this chapter.
+***Technology.*** Technology consumables are used to enhance interactions with technology and other uses, including repairing droids and constructs.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
+
+### Cybernetic Augmentations
+Cybernetic augmentations are enhancements built in to biological creatures, such as beasts or humanoids. They come in the form of replacements, which replace a physical body part, or enhancements, which simply augment a creature. Cybernetic augmentations are discussed further later in this chapter.
 
 ### Droid Customizations
 Droid customizations are items that can enhance a droid in some way. They come in the form of parts, which replace a physical droid part, or protocols, which enhance the droid's functions in some way. Droid customizations are discussed later in this chapter.
@@ -114,9 +116,6 @@ Some enhanced items come with vacant slots for item modifications, which improve
 Like armor, unless the description says otherwise, the shield must be actively wielded for its enhanced properties to function.
 
 Some shields specify the category in which they fall, such as light shield generator or any heavy shield. If an enhanced shield doesn't specify its category, you may choose the category or determine it randomly.
-
-### Relics
-The majority of relics—art, jewels, and sculptures—are scarce, highly sought after items of immense worth. Some relics offer the blueprints to craft items, while others occasionally contain hidden secrets.
 
 ### Weapons
 Whether crafted for a nefarious or benevolent purpose, weapons are among the most coveted of enhanced items.
@@ -223,9 +222,9 @@ Alternatively, you can determine the value of enhanced items randomly. To do so,
 |<font style="color:blue">Prototype</font>|250 cr&emsp;&emsp;&emsp;&emsp;|
 |<font style="color:purple">Advanced</font>|1,000 cr&emsp;&emsp;&emsp;&emsp;|
 |<font style="color:#dd6b20">Legendary</font>|5,000 cr&emsp;&emsp;&emsp;&emsp;|
-|<font style="color:red">Artifact</font>|10,000 cr&emsp;&emsp;&emsp;&emsp;|
+|<font style="color:red">Artifact</font>|25,000 cr&emsp;&emsp;&emsp;&emsp;|
 
-If item value falls below the base threshold for that rarity, instead use the base for that rarity. For instance, if I want to determine the value of a prototype item, I first roll percentile dice twice. I get the results of 63 and 22, so I keep the 63 since it's the higher number. I then multiply that number by the value modifier for prototype (250 cr), ending up with an item value of 15,750 cr (63 x 250 cr). If I instead had rolled 11 and 16 on the percentile dice rolls, however, I would have ended up with an item value of 4,000 cr (16 x 250 cr). Since this falls below the minimum value threshold for prototype items (5,000 cr), you should instead use the minimum.
+If item value falls below the base threshold for that rarity, you might instead use the base for that rarity. For instance, if I want to determine the value of a prototype item, I first roll percentile dice twice. I get the results of 63 and 22, so I keep the 63 since it's the higher number. I then multiply that number by the value modifier for prototype (250 cr), ending up with an item value of 15,750 cr (63 x 250 cr). If I instead had rolled 11 and 16 on the percentile dice rolls, however, I would have ended up with an item value of 4,000 cr (16 x 250 cr). Since this falls below the minimum value threshold for prototype items (5,000 cr), you could instead use the minimum.
 
 > As a further option to reflect the availability of enhanced items in your campaign, you can apply up to a +10 penalty for a scarce setting, or up to a -10 bonus for a setting where enhanced items are more common, when resolving the d100 roll determining enhanced item values, as appropriate. 
 
@@ -329,11 +328,11 @@ The following modification slots are unique to blasters.
 #### Clothing Modifications
 The following modification slots are unique to clothing.
 
-***Weave.*** Weave modifications offer a bonus to fortitude saving throws or damage with weapons.
+***Weave.*** Weave modifications offer a bonus to Strength and Constitution saving throws or damage with weapons.
 
-***Inlay.*** Inlay modifications offer a bonus to reflex saving throws or damage with tech powers.
+***Inlay.*** Inlay modifications offer a bonus to Dexterity and Intelligence saving throws or damage with tech powers.
 
-***Pattern.*** Inlay modifications offer a bonus to will saving throws or damage with force powers.
+***Pattern.*** Inlay modifications offer a bonus to Wisdom and Charisma saving throws or damage with force powers.
 
 ***Stitching.*** These modifications offer a new feature to an article of clothing.
 
@@ -342,13 +341,13 @@ The following modification slots are unique to focus generators.
 
 ***Emitter.*** Emitter modifications augment a focus generator's bonus to force attack rolls.
 
-***Conductor.*** Conductor modifications augment a focus generator's bonus to force save DCs.
-
-***Channel and Cycler.*** These modifications offer a new feature to focus generators.
-
 \columnbreak
 
 <div style='margin-top:23px'></div>
+
+&emsp;***Conductor.*** Conductor modifications augment a focus generator's bonus to force save DCs.
+
+***Channel and Cycler.*** These modifications offer a new feature to focus generators.
 
 #### Lightweapon Modifications
 The following modification slots are unique to lightweapons.
@@ -386,14 +385,14 @@ The following modification slots are unique to<br> wristpads.
 
 ***Amplifier and Dataport.*** These modifications offer a new feature to wristpads.
 
-<img src='https://www.gmbinder.com/images/aeyZesI.png' style='position:absolute;bottom:5px;right:90px;width:670px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/aeyZesI.png' style='position:absolute;bottom:-5px;right:90px;width:660px;z-index:1000' />
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 
 \pagebreakNum
 
 #### Color Crystals
-In addition to the modifications unique to themselves, all lightweapons come with a slot for a color crystal. Typically, newly created lightweapons come with one of the more common color variants, such as green, blue, or red. Occasionally, a character might come across a more scarce color crystal. When determining what color crystal a lightweapon comes with, the GM can choose for the player, or have the player make a universal forcecasting ability check. The result of the check affects the color of the crystal, as shown below in the Forcecasting Color Crystal Modifier table.
+In addition to the modifications unique to themselves, all lightweapons come with a slot for a color crystal. Typically, newly created lightweapons come with one of the more common color variants, such as green, blue, or red. Occasionally, a character might come across a more scarce color crystal. When determining what color crystal a lightweapon comes with, the GM can choose for the player, or have the player make a universal forcecasting ability check with proficiency. The result of the check affects the color of the crystal, as shown below in the Forcecasting Color Crystal Modifier table.
 
 ##### Forcecasting Color Crystal Modifier
 |Forcecasting<br> Ability Check DC|d100 Roll<br>Item modifier|
@@ -445,16 +444,16 @@ Augments are intended to offer features universal across items, such as an incre
 
 You can't have two of the same augment in a single chassis, but you can have multiples of an augment, each in its own chassis.
 
-***Installing Augments in Other Items.*** Additionally, a character proficient in tinker's tools can add modification slots for augments to items that lack them. First, the character must spend one uninterrupted hour tinkering with the item, which can be done over a short rest, with their tinker's tools. The character must then make an ability check with tinker's tools. On a result of less than 20, the item gains no augment slots, and you must wait 24 hours before you can try again. On a result of 20 or higher, the item gains one vacant augment slot. On a result of 30 or higher, the item gains two augment slots. Adding augment slots to an item causes that item to require attunement, if it didn't already. An item can't support augmentations of higher rarity than the item's rarity.
+***Installing Augments in Other Items.*** Additionally, a character proficient in tinker's implements can add modification slots for augments to items that lack them. First, the character must spend one uninterrupted hour tinkering with the item, which can be done over a short rest, with their tinker's implements. The character must then make an ability check with tinker's implements. On a result of less than 20, the item gains no augment slots, and you must wait 24 hours before you can try again. On a result of 20 or higher, the item gains one vacant augment slot. On a result of 30 or higher, the item gains two augment slots. Adding augment slots to an item causes that item to require attunement, if it didn't already. An item can't support augmentations of higher rarity than the item's rarity.
 
 #### Variant: Common Modifications
-Modifying equipment is a common expectation of adventurers foraying through the worlds of *Star Wars*. This rule treats all potential modifiable items—that is, the eight categories listed below—as unmodified standard rarity chassis. For example, every blaster you find while adventuring, or for sale in a market, comes with vacant modification slots for targeting, barrel, core, and attachment modifications.
+Modifying equipment is a common expectation of adventurers foraying through the worlds of *Star Wars*. This rule treats all potential modifiable items—that is, the eight categories listed in this chapter—as unmodified standard rarity chassis. For example, every unenhanced blaster you find while adventuring, or for sale in a market, comes with vacant modification slots for targeting, barrel, core, and attachment modifications.
 
 Additionally, all modifications of standard rarity should be available for purchase from vendors without using the Buying Enhanced Items downtime activity.
 
 > Note that all chassis of premium or higher rarity should still be treated as enhanced items for the purposes of distribution.
 
-<img src='https://vignette.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335' style='position:absolute;bottom:-25px;right:100px;width:285px;z-index:1000;' />
+<img src='https://vignette.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335' style='position:absolute;bottom:-20px;right:100px;width:270px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 
@@ -464,7 +463,7 @@ Additionally, all modifications of standard rarity should be available for purch
 Some characters are dissatisfied with their inborn gifts, while some are simply looking to augment their natural prowess. The less fortunate, however, might find themselves missing a limb. For all of these characters, cybernetic augmentations suit a purpose.
 
 ### Augmenting Creatures
-Augmenting a creature with cybernetic enhancements requires three key components: a valid target for the augmentation, an augmentation to install, and biotech's tools. A creature can only be modified by someone with proficiency in biotech's tools.
+Augmenting a creature with cybernetic enhancements requires three key components: a valid target for the augmentation, an augmentation to install, and biotech's implements. A creature can only be modified by someone with proficiency in biotech's implements.
 
 #### Valid Targets
 Typically, only beasts and humanoids are valid targets for augmentations. A creature can support a number of cybernetic augmentations equal to their proficiency bonus.
@@ -501,14 +500,14 @@ In addition to the side effects associated with each augmentation, your body und
 <div style='margin-top:28px'></div>
 
 ### Installing Augmentations
-In addition to the time and cost requirement, installing an augmentation requires an ability check with biotech's tools. The DC for the check is determined by the rarity of the augmentation being installed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
+In addition to the time and cost requirement, installing an augmentation requires an ability check with biotech's implements. The DC for the check is determined by the rarity of the augmentation being installed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
 
 On a success, the augmentation is correctly installed. On a failure, the augmentation is not installed, the time and credits are spent, and you must wait 24 hours before you can try again. Additionally, on a failure, the recipient suffers another effect, depending on the type of augmentation installed:
 - **Enhancement:** On a failure, the recipient suffers one level of exhaustion.
-- **Replacement:** On a failure, the recipient loses the ability to use the part being replaced for a period of time equal to the time it would take to install the replacement. For instance, to install an arm replacement in a Huge creature it takes 40 hours, performed over five days. If, at the end of the five day period, the installer fails the ability check with biotech's tools, the Huge creature loses the ability to use that arm for five days. 
+- **Replacement:** On a failure, the recipient loses the ability to use the part being replaced for a period of time equal to the time it would take to install the replacement. For instance, to install an arm replacement in a Huge creature it takes 40 hours, performed over five days. If, at the end of the five day period, the installer fails the ability check with biotech's implements, the Huge creature loses the ability to use that arm for five days. 
 
 ### Removing Augmentations
-Removing an augmentation takes half the time and credits it would to install, and requires an ability check with biotech's tools. The DC for the check is determined by the rarity of the augmentation being removed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
+Removing an augmentation takes half the time and credits it would to install, and requires an ability check with biotech's implements. The DC for the check is determined by the rarity of the augmentation being removed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
 
 On a success, the augmentation is removed and salvaged. On a failure, the augmentation is removed but destroyed.
 
@@ -531,7 +530,7 @@ Replacements are prosthetic or artificial units intended to replace limbs and da
 Droids vary in form and function. Beyond simply their droid classification and subtype, many droids—or their owners—crave further customizability. Droid customizations are designed for this purpose.
 
 ### Customizing Droids
-Customizing a droid with droid-specific equipment requires three key components: a droid with a valid slot for the equipment, a piece of equipment to install, and astrotech's tools. A droid can only be customized by someone with proficiency in astrotech's tools.
+Customizing a droid with droid-specific equipment requires three key components: a droid with a valid slot for the equipment, a piece of equipment to install, and astrotech's implements. A droid can only be customized by someone with proficiency in astrotech's implements.
 
 #### Valid Targets
 Only droids are valid targets for droid customizations. A droid's motor can support two droid customizations, and can be upgraded to support up to six customizations. 
@@ -575,12 +574,12 @@ For instance, to upgrade a Medium droid's motor from 2 slots to 3 slots, it take
 The installer works 8 hours a day. It costs 100 credits per hour if the operation is performed by an NPC.
 
 ### Installing Customizations
-In addition to the time and cost requirement, installing a customization requires an ability check with astrotech's tools. The DC for the check is determined by the rarity of the customization being installed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
+In addition to the time and cost requirement, installing a customization requires an ability check with astrotech's implements. The DC for the check is determined by the rarity of the customization being installed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
 
 On a success, the customization is correctly installed. On a failure, the customization is not installed, the time and credits are spent, and you must wait 24 hours before you can try again. 
 
 ### Removing Customizations
-Removing a customization takes half the time and credits it would to install, and requires an ability check with astrotech's tools. The DC for the check is determined by the rarity of the customization being removed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
+Removing a customization takes half the time and credits it would to install, and requires an ability check with astrotech's implements. The DC for the check is determined by the rarity of the customization being removed, as shown in the Installation/Removal DC by Rarity table on page \_\_\.
 
 On a success, the customization is removed and salvaged. On a failure, the customization is removed but destroyed.
 
@@ -588,20 +587,10 @@ On a success, the customization is removed and salvaged. On a failure, the custo
 Two major categories of droid customizations exist in the galaxy: parts and protocols. 
 
 #### Parts
-Parts typically enhance or replace the features of a droid. Additional arms, integrated shield generators or weapons, or built-in repulsor lifts. A droid is limited in the number of part customizations they can have by their size, as shown below in the Droid Size Maximum Parts table.
-
-##### Droid Size Maximum Parts
-| Droid Size | Maximum Parts |
-|:----:|:--:|
-| Tiny  |1|
-| Small |2|
-| Medium |3|
-| Large |4|
-| Huge |5|
-| Gargantuan |6|
+Parts typically enhance or replace the features of a droid. Additional arms, integrated shield generators or weapons, or built-in repulsor lifts.
 
 #### Protocols
-Protocols bestow new abilities or improvements on the target droid. Typically, they take the shape of systems improvements and offer no visible indicator that they exist.
+Protocols bestow new abilities or improvements on the target droid. Typically, they take the shape of systems improvements and offer no visible indication that they exist.
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 

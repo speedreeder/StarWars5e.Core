@@ -148,7 +148,7 @@ ___
 - Flaming Shots
 - Greater Hologram
 - Greater Light
-- Greater Translocation Program
+- Greater Translation Program
 - Invisibility to Cameras
 - Kolto Cloud
 - Protection from Energy
@@ -379,8 +379,6 @@ When the creature drops to 0 hit points, it reverts to its original form, and an
 
 The creature is considered a valid target for the *tracker droid interface* power.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
-
 ___
 > ## Servant
 >*Tiny construct, unaligned*
@@ -402,6 +400,14 @@ ___
 > **Circuitry.** The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.
 > ### Actions
 > ***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 feet, one target. *Hit* 5 (1d4 + 3) kinetic damage.
+
+<div class='footnote'>CHAPTER 12 | TECH POWERS</div>
+
+\pagebreakNum
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
 
 #### Bacta Pack
 _1st-level tech power_
@@ -2471,7 +2477,7 @@ ___
 
 Up to three creatures of your choice that you can see within range must make Dexterity saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you can target one additional creature and the die increases by one step (from d4 to d6, d6 to d8, or d8 to d10) for each slot level above 1st.
+***Overcharge Tech.*** When you cast this power with a tech slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
 
 #### Stack the Deck
 _1st-level tech power_
@@ -2482,7 +2488,7 @@ ___
 
 You boost up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the power ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you can target one additional creature and the die increases by one step (from d4 to d6, d6 to d8, or d8 to d10) for each slot level above 1st.
+***Overcharge Tech.*** When you cast this power with a tech slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
 
 #### Storming Shot
 _At-will tech power_

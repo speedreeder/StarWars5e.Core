@@ -24,7 +24,7 @@ namespace StarWars5e.Parser.Processors
                 if (!lines[i].StartsWith("### ")) continue;
 
                 var featStartIndex = i;
-                var featEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("### "));
+                var featEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("##"));
 
                 var featLines = lines.Skip(featStartIndex);
                 if (featEndIndex != -1)

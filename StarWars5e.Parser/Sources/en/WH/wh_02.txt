@@ -415,6 +415,8 @@ The Enhanced Item Ingredients table below suggests the challenge rating of a cre
 
 &emsp;In addition to facing a specific creature, creating an item comes with a credit cost covering other materials, tools, and so on, equal to half the item's value. If all the above requirements are met, the character can attempt to craft the object.
 
+> Consider waiving the rare ingredients for item modifications and consumables of standard and premium rarity.
+
 ### Resolution
 After collecting all the necessary resources and spending the requisite amount of time, a character potentially crafts the item(s). For each item being crafted, the character makes an Intelligence check with the appropriate artisan's tools, and consults the Crafting Roll Modifier table below. If multiple craftsmen worked on the item, use the ability scores and relevant proficiencies for the most skilled amongst them.
 
@@ -523,7 +525,7 @@ Sometimes it pays to be bad. This activity gives a character the chance to make 
 A character must spend one workweek and at least 250 cr gathering information on potential targets before committing the intended crime.
 
 ### Resolution
-The character must make at least one, but up to three checks, and then consult the Crime Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Dexterity (Sleight of Hand), Dexterity (Stealth), Intelligence (security kit), or Intelligence (slicer's kit) check, as appropriate to the crime they attempt. Each check can only be made once.
+The character must make at least one, but up to three checks, and then consult the Crime Roll Modifier table below. If the character makes more than one check, they can choose the highest value amongst all checks made. However, for each check made beyond the first, the DC for each tier increases by 5. The player can choose to make a Dexterity (Sleight of Hand), Dexterity (Stealth), Intelligence (forgery kit), Intelligence (security kit), or Intelligence (slicer's kit) check, as appropriate to the crime they attempt. Each check can only be made once.
 
 ##### Crime Roll Modifier
 |Ability <br>Check DC|d100 Roll<br> Modifier|

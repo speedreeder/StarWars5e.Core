@@ -1,9 +1,42 @@
 
 # Changelog
 
+### 10/13/2020
+
+#### Chapter 5
+- The absorptive armor property is now damage reduction for weapons.
+- New weapon properties: Autotarget, brutal, neuralizing, switch, sonorous.
+- The disintegrate weapon property now has a scalable DC.
+- Effects that reduced speed instead now reference the new slowed condition.
+- Shocking now calls for a Dexterity saving throw instead of Constitution to align with similar features.
+- Handwraps removed as equipment and reintroduced as an enhanced item better suited to my intent.
+- Generic prosthetics no longer count towards your maximum cybernetic augmentations.
+
+#### Chapter 6
+- Some feats were shifted here from the PHB.
+- The following feats have been deprecated: Archaeologist, Artillerist, Bioanalyst, Brewmaster, Geneticist, Luthier, Scavenger, Slythmonger, Wildcatter.
+
+#### Chapter 7
+- When determining item values randomly, you are no longer forced to use the minimum of the value range should you randomly get a price lower.
+- Eliminated "relic" enhanced item type. Consolidated current relics into adventuring gear.
+- Removed Droid Size Part caps.
+
+#### Chapter 8
+- Updated many of the tools to integrate the deprecated feat features.
+- Added a table to show what items are crafted by what tools.
+
+#### Appendix A
+- More enhanced items.
+- Restructured and reordered this appendix.
+- Many of the class enhanced items and augments have been updated to align with the class changes. All have been upgraded to prototype rarity.
+
+#### And, as always
+- Minor text fixes.
+
 ### 2/18/2020
+
 #### Throughout
-- Some chapters have been shifted around. All of the enhanced item chaptersï¿½enhanced items, modifiable items, cybernetic augmentations, and droid customizationsï¿½have been consolidated into chapter 7.
+- Some chapters have been shifted around. All of the enhanced item chapters—enhanced items, modifiable items, cybernetic augmentations, and droid customizations—have been consolidated into chapter 7.
 
 #### Chapter 2
 - New downtime activities: Espionage and Training.

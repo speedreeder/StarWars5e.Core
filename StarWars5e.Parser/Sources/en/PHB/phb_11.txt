@@ -574,7 +574,7 @@ ___
 
 Up to three creatures of your choice that you can see within range must make Charisma saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, you can target one additional creature and the die increases by one step (from d4 to d6, d6 to d8, or d8 to d10) for each slot level above 1st.
+***Force Potency.*** When you cast this power with a force slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -1698,13 +1698,13 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous 
 
-You return a dead creature you touch to life, provided that it has been dead no longer than 1 hour. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with all its hit points.		
+You return a dead creature you touch to life, provided that it has been dead no longer than 1 hour. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with all its hit points. This power has no effect on droids or constructs.	
 
 This power also neutralizes any poisons and cures diseases that affected the creature at the time it died. 
 
 This power closes all mortal wounds and restores any missing body parts.	
 
-Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest,  the penalty is reduced by 1 until it disappears.
+Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
 #### Improved Saber Throw
 _2nd-level universal power_
@@ -2008,9 +2008,9 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous 
 
-You return a dead creature you touch to life, provided that it has been dead no longer than 1 day. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with all its hit points.	
+You return a dead creature you touch to life, provided that it has been dead no longer than 1 day. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with all its hit points. This power has no effect on droids or constructs.
 
-This power closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The power replaces damaged or missing organs and limbs. This power has no effect on droids or constructs.
+This power closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The power replaces damaged or missing organs and limbs.
 
 #### Master Saber Throw
 _7th-level universal power_
@@ -2295,7 +2295,7 @@ ___
 - **Range:** Touch 
 - **Duration:** Instantaneous 
 
-You touch a creature and end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.
+You touch a creature and end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned. This power has no effect on droids or constructs.
 
 #### Revitalize
 _5th-level light side power_
@@ -2305,13 +2305,13 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous 
 
-You return a dead creature you touch to life, provided that it has been dead no longer than 10 minutes. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.	
+You return a dead creature you touch to life, provided that it has been dead no longer than 10 minutes. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point. This power has no effect on droids or constructs.
 
 This power also neutralizes any poisons and cures diseases that affected the creature at the time it died. 
 
 This power closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the power automatically fails.
 
-Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears. This power has no effect on droids or constructs.
+Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears. 
 
 #### Ruin
 _7th-level dark side power_
@@ -2775,13 +2775,13 @@ ___
 - **Range:** Self
 - **Duration:** 1 hour 
 
-You shift your vision to see through use of the Force, giving you the ability to see things as they actually are. 
+You shift your vision to see through use of the Force, 
 
 \columnbreak
 
 <div style='margin-top:16px'></div>
 
-For the duration, you have truesight and notice secret doors hidden by powers, all out to a range of 120 feet.
+giving you the ability to see things as they actually are. For the duration, you have truesight and notice secret doors hidden by powers, all out to a range of 120 feet.
 
 #### Turbulence
 _At-will light side power_
@@ -2804,7 +2804,7 @@ ___
 
 You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the power ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
 
-***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, you can target one additional creature and the die increases by one step (from d4 to d6, d6 to d8, or d8 to d10) for each slot level above 1st.
+***Force Potency.*** When you cast this power with a force slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
 
 #### Wall of Light
 _6th-level light side power_
