@@ -54,6 +54,31 @@ namespace StarWars5e.Parser.Managers
                 Console.WriteLine("Failed to upload EC feats.");
             }
 
+            try
+            {
+                var expandedContentCustomizationOptionsLightsaberFormsProcessor = new ExpandedContentCustomizationOptionsLightsaberFormsProcessor();
+
+                var ecLightsaberForms =
+                    await expandedContentCustomizationOptionsLightsaberFormsProcessor.Process(
+                        _ecCustomizationOptionsFileName, _localization, ContentType.ExpandedContent);
+
+                foreach (var lightsaberForm in ecLightsaberForms)
+                {
+                    lightsaberForm.ContentSourceEnum = ContentSource.EC;
+
+                    var lightsaberFormSearchTerm = _globalSearchTermRepository.CreateSearchTerm(lightsaberForm.Name, GlobalSearchTermType.LightsaberForm, ContentType.ExpandedContent,
+                        $"/characters/lightsaberForms/?search={lightsaberForm.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(lightsaberFormSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<LightsaberForm>($"lightsaberForms{_localization.Language}", ecLightsaberForms,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload EC fighting styles.");
+            }
+
             //try
             //{
             //    var ecFightingStyles =

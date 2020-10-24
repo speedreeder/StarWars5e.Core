@@ -49,6 +49,7 @@
         Rule,
         FightingMastery,
         FightingStyle,
-        LightsaberForm
+        LightsaberForm,
+        ExpandedContent
     }
 }

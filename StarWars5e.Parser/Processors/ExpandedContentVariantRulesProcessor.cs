@@ -65,6 +65,10 @@ namespace StarWars5e.Parser.Processors
                 {
                     variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleDismembermentStartingLetter);
                 }
+                if (name == Localization.ECVariantRuleCompoundAdvantage)
+                {
+                    variantLines[2] = variantLines[2].Insert(0, Localization.ECVariantRuleCompoundAdvantageStartingLetter);
+                }
 
                 variantRule.ChapterName = name;
                 variantRule.ContentMarkdown = string.Join("\r\n", variantLines.Skip(1).ToList());

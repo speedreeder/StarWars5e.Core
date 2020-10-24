@@ -36,6 +36,8 @@ namespace StarWars5e.Parser
                 new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentVariantRulesManager =
                 new ExpandedContentVariantRulesManager(cloudStorageAccount, localization, globalSearchTermRepository);
+            var expandedContentManager =
+                new ExpandedContentManager(cloudStorageAccount, localization, globalSearchTermRepository);
             var extendedContentCustomizationOptionsManager =
                 new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository,
                     localization);
@@ -60,6 +62,7 @@ namespace StarWars5e.Parser
             await extendedContentEquipmentManager.Parse();
             await extendedContentArchetypesManager.Parse();
             await extendedContentVariantRulesManager.Parse();
+            await expandedContentManager.Parse();
             await extendedContentCustomizationOptionsManager.Parse();
             await extendedContentTechPowersManager.Parse();
             await extendedContentForcePowersManager.Parse();
@@ -106,7 +109,7 @@ namespace StarWars5e.Parser
                     "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures", "weaponProperties",
                     "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules",
                     "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU", "fightingStyle",
-                    "fightingMastery"
+                    "fightingMastery", "expanded-content"
                 };
                 var dataVersions = dataNames.Select(d => new DataVersion
                 {

@@ -1,4 +1,4 @@
-
+# Customization Options
 
 ## Feats
 A feat represents a talent or an area of expertise that gives character special capabilities. It embodies training, experience, and abilities beyond what a class provides. At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
@@ -73,6 +73,92 @@ Choose one from force- or tech-casting. You've mastered your chosen casting type
 - Once per turn, when you cast a power that doesn't require an ability check, attack roll, or saving throw, but requires a die roll, you can choose the maximum or minimum on the die (your choice). If the power requires rolling multiple dice, you can only affect a number of them equal to half your proficiency bonus (rounded up) in this way. Once you've used this feature on a power, you can't affect that power again until you complete a short or long rest.
 
 You can select this feat twice. Each time you do so, you must choose a different casting type.
+
+\pagebreak
+
+#### Weapons by Specialist Feat
+Many of these weapons are appropriate options for weapon specialist feats. You can see which weapon is governed by which feat below.
+
+<div class='wide' style='position:absolute;bottom:60px;left:75px;width:687px;column-count:3'>
+
+|Weapon|Specialist feat|
+|:--|:--|
+|	ARC caster	|	Heavy Weapon	|
+|	Blaster cannon	|	Heavy Weapon	|
+|	Bo-rifle	|	Trip Weapon	|
+|	Bolas	|	Trip Weapon	|
+|	Bolt-thrower	|	Rifle	|
+|	Canesaber	|	Blade	|
+|	Carbine rifle	|	Rifle	|
+|	Chained dagger	|	Trip Weapon	|
+|	Chained lightdagger	|	Trip Weapon	|
+|	Claymore saber	|	Crushing Weapon	|
+|	Crossguard saber	|	Blade	|
+|	Cycler rifle	|	Heavy Weapon	|
+|	Disruptor pistol	|	Sidearm	|
+|	Disruptor rifle	|	Rifle	|
+|	Dual-phase saber	|	Blade	|
+|	Electrobaton	|	Trip Weapon	|
+|	Electrohammer	|	Crushing Weapon	|
+|	Electroprod	|	Blade	|
+|	Electrostaff	|	Trip Weapon	|
+|	Electrovoulge	|	Polearm	|
+|	Energy bow	|	Rifle	|
+|	Grenade launcher	|	Heavy Weapon	|
+
+|Weapon|Specialist feat|
+|:--|:--|
+|	Guard shoto	|	Blade	|
+|	Heavy bowcaster	|	Heavy Weapon	|
+|	Heavy repeater	|	Rifle	|
+|	Heavy shotgun	|	Heavy Weapon	|
+|	Heavy slugpistol	|	Sidearm	|
+|	Incinerator pistol	|	Sidearm	|
+|	Incinerator sniper	|	Rifle	|
+|	Ion carbine	|	Rifle	|
+|	IWS	|	Heavy Weapon	|
+|	Light repeater	|	Rifle	|
+|	Lightaxe	|	Crushing Weapon	|
+|	Lightbow	|	Rifle	|
+|	Lightfist	|	Blade	|
+|	Lightglaive	|	Polearm	|
+|	Hunting rifle	|	Rifle	|
+|	Mancatcher	|	Trip Weapon	|
+|	Needler	|	Sidearm	|
+|	Nightstinger rifle	|	Rifle	|
+|	Railgun	|	Rifle	|
+|	Retrosaber	|	Blade	|
+|	Revolver	|	Sidearm	|
+|	Riot baton	|	Trip Weapon	|
+
+|Weapon|Specialist feat|
+|:--|:--|
+|	Riot shocker	|	Trip Weapon	|
+|	Rocket launcher	|	Heavy Weapon	|
+|	Rotary cannon	|	Heavy Weapon	|
+|	Sith saber	|	Crushing Weapon	|
+|	Slugpistol	|	Sidearm	|
+|	Sonic pistol	|	Sidearm	|
+|	Sonic rifle	|	Rifle	|
+|	Subrepeater	|	Sidearm	|
+|	Tranquilizer rifle	|	Rifle	|
+|	Vapor projector	|	Heavy Weapon	|
+|	Vibroclaw	|	Blade	|
+|	Vibroclaymore	|	Crushing Weapon	|
+|	Vibrocutter	|	Crushing Weapon	|
+|	Vibrohammer	|	Crushing Weapon	|
+|	Vibroknife	|	Blade	|
+|	Vibroshield	|	Blade	|
+|	Vibrotonfa	|	Blade	|
+|	War hat	|	Trip Weapon	|
+|	Warsword	|	Crushing Weapon	|
+|	Wristblade	|	Blade	|
+|	Wristblaster	|	Sidearm	|
+|	Wristsaber	|	Blade	|
+
+</div>
+
+\pagebreakNum
 
 ### Blade Specialist
 _**Prerequisite:** 4th level_<br>
@@ -245,3 +331,36 @@ You have the presence of the most affluent of leaders, granting the following be
 - As an action, you can attempt to distract up to five creatures you can see within 30 feet of you. Each creature must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). Any creature immune to being charmed is unaffected. If you or your companions are fighting a creature, it has advantage on the saving throw. On a failed save, for the next minute, a creature has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the effect ends or until the target can no longer see or hear you. The feature ends early if you are incapacitated.
 
 \pagebreak
+
+## Lightsaber Forms
+Certain class features, Formfighting Style, or Formfighting Mastery, offer your choice of lightsaber forms. You can't take a lightsaber form option more than once, even if you later get to choose again.
+
+In addition to the forms presented in the Player's Handbook, you may choose your lightsaber forms from the following options or roll on the table below to determine them randomly.
+
+<div style='column-count:2'>
+
+|d11|Lightsaber Form|
+|:--:|:--|
+|1|Ataru|
+|2|Jar'Kai|
+|3|Juyo/Vapaad|
+|4|Makashi|
+|5|Niman|
+
+|d11|Lightsaber Form|
+|:--:|:--|
+|6|Shien/Djem So|
+|7|Shii-Cho|
+|8|Soresu|
+|9|Sokan|
+|10|Trakata|
+|11|Ysannanite|
+
+</div>
+
+Each known form can be adopted on your turn by using your bonus action.
+
+#### Ysannanite Form
+As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting. 
+
+Additionally, until the end of your next turn, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. 

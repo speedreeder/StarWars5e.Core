@@ -13,9 +13,12 @@ namespace StarWars5e.Parser.Processors
     {
         public ILocalization Localization;
 
+        public List<string> FileNames;
+
         public async Task<List<T>> Process(List<string> locations, ILocalization localization)
         {
             Localization = localization;
+            FileNames = locations;
             var lines = await ReadInternalFile(locations, localization);
             
             var blocks = await FindBlocks(lines);
@@ -25,6 +28,8 @@ namespace StarWars5e.Parser.Processors
         public async Task<List<T>> Process(List<string> locations, ILocalization localization, ContentType contentType)
         {
             Localization = localization;
+            FileNames = locations;
+
             var lines = await ReadInternalFile(locations, localization);
 
             var blocks = await FindBlocks(lines, contentType);

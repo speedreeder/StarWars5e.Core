@@ -560,6 +560,7 @@ namespace StarWars5e.Parser.Localization
         public string ECVariantRuleAdvancedAdvantage => "Advanced Advantage";
         public string ECVariantRuleLightsaberForms => "Lightsaber Forms";
         public string ECVariantRuleDismemberment => "Dismemberment";
+        public string ECVariantRuleCompoundAdvantage => "Compound Advantage";
         public string ECVariantRuleForceAlignmentStartingLetter => "T";
         public string ECVariantRuleDestinyStartingLetter => "D";
         public string ECVariantRuleStarshipDestinyStartingLetter => "S";
@@ -567,6 +568,7 @@ namespace StarWars5e.Parser.Localization
         public string ECVariantRuleAdvancedAdvantageStartingLetter => "T";
         public string ECVariantRuleLightsaberFormsStartingLetter => "T";
         public string ECVariantRuleDismembermentStartingLetter => "S";
+        public string ECVariantRuleCompoundAdvantageStartingLetter => "T";
         #endregion
 
         #region MonsterManualProcessor

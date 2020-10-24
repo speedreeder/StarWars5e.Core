@@ -1019,6 +1019,10 @@ namespace StarWars5e.Parser.Localization
 
         public string WHArtisansImplementsStartLine => throw new System.NotImplementedException();
 
+        public string ECVariantRuleCompoundAdvantage => throw new System.NotImplementedException();
+
+        public string ECVariantRuleCompoundAdvantageStartingLetter => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

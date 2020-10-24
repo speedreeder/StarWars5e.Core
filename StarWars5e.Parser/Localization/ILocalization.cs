@@ -490,6 +490,9 @@ namespace StarWars5e.Parser.Localization
         public string ECVariantRuleLightsaberFormsStartingLetter { get; }
         public string ECVariantRuleDismemberment { get; }
         public string ECVariantRuleDismembermentStartingLetter { get; }
+        public string ECVariantRuleCompoundAdvantage { get; }
+        public string ECVariantRuleCompoundAdvantageStartingLetter { get; }
+
         #endregion
 
         #region MonsterManualProcessor

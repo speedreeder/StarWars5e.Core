@@ -33,7 +33,7 @@ namespace StarWars5e.Parser.Processors.WH
             foreach (var enhancedItemLine in enhancedItemLineStarts)
             {
                 var startIndex = lines.IndexOf(enhancedItemLine);
-                var endIndex = lines.FindIndex(startIndex + 1, f => f.StartsWith("####"));
+                var endIndex = lines.FindIndex(startIndex + 1, f => f.StartsWith("#"));
 
                 var enhancedItemLines = lines.Skip(startIndex).Take(endIndex - startIndex).CleanListOfStrings().ToList();
                 if (endIndex == -1)
