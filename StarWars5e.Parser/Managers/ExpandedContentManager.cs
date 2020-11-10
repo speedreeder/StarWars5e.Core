@@ -18,8 +18,8 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly List<string> _expandedContentFileNames = new List<string>
         {
-            "ec_archetypes.txt", "ec_backgrounds.txt", "ec_customization_options.txt", "ec_enhanced_items.txt",
-            "ec_equipment.txt", "ec_force_powers.txt", "ec_species.txt", "ec_tech_powers.txt", "ec_variantrules.txt"
+            "ec_02.txt", "ec_03.txt", "ec_04.txt", "ec_enhanced_items.txt",
+            "ec_05.txt", "ec_06.txt", "ec_11.txt", "ec_12.txt", "ec_variantrules.txt"
         };
         private readonly ILocalization _localization;
 

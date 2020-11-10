@@ -15,7 +15,7 @@ namespace StarWars5e.Parser.Managers
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
-        private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_equipment.txt" };
+        private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_05.txt" };
         private readonly ILocalization _localization;
 
         public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)

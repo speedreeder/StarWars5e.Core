@@ -27,7 +27,10 @@ namespace StarWars5e.Parser.Processors
             }
 
             var expandedContent = new ChapterRules();
-            var name = lines[0].Split('#')[1].Trim();
+
+            var nameLineIndex = lines.FindIndex(f => f.StartsWith("# "));
+
+            var name = lines[nameLineIndex].Split('#')[1].Trim();
 
             expandedContent.ChapterName = name;
             expandedContent.ContentMarkdown = string.Join("\r\n", lines.Skip(1).ToList());

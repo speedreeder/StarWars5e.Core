@@ -1,8 +1,15 @@
+
+
 # Archetypes
 
 <div class='classTable wide' style='column-count:2'>
 
-# Table of Contents
+<div class='wide'>
+
+##### Table of Contents
+
+</div>
+
 ||
 |:--|
 |Berserker||
@@ -18,6 +25,7 @@
 |&emsp;Way of Endurance         |
 |&emsp;Way of Manipulation      |
 |&emsp;Way of Negation          |
+|&emsp;Way of Technology        |
 |&emsp;Way of Telekinetics      |
 |&emsp;Way of the Seer          |
 |Engineer||
@@ -230,7 +238,7 @@ You can use this feature a number of times equal to your Strength modifier (a mi
 \pagebreak
 
 ## Frenzied Approach
-For some berserkers, rage is a means to an endï¿½that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+For some berserkers, rage is a means to an end—that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 ### Frenzy
 When you choose this approach at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (as described in appendix A).
@@ -532,6 +540,38 @@ At 14th level, when you use your Force Deflection feature, you can cause a rippl
 At 18th level, when you use a Force-Empowered Casting option, you can spend a power surge to use it without spending additional force points. 
 
 <img src='https://www.gmbinder.com/images/pq3knax.png' style='position:absolute;bottom:-95px;right:-60px;width:1050px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
+
+\pagebreak
+
+## Way of Technology
+While many Forcewielders eschew the use of technology, other choose to embrace it. Those consulars who follow the Way of Technology pair their mastery of the Force with the versatility of technology, applying the knowledge in tandem to perform unseen feats.
+ 
+### Fundamentals of Mechu-deru
+Starting when you choose this tradition at 3rd level, you've dabbled in adapting your use of the Force, melding it with technology. You gain proficiency in the Technology skill, as well as simple blasters. When you cast a force power that calls for a melee weapon attack, and you are wielding a blaster with which you are proficient, you can instead make a ranged weapon attack, as long as the target is within your weapon's normal range.
+
+Additionally, you've learned to manipulate the Force to be able to manipulate technology when it couldn't previously. When you cast a force power that could not affect droids or constructs, you can choose to have it affect droids or constructs. If it would affect multiple targets, you must expend additional uses of this feature for each additional target. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
+
+### Techcasting Secrets
+At 6th level, you've learned to mimic technological effects. Choose two tech powers of 1st level. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the consular table.
+
+At 10th level, you learn two additional tech powers of 1st or 2nd level. At 14th level, you learn two tech powers of 1st-3rd level, and at 18th level, you learn two tech powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of the same level.
+
+### Ionized Weave
+Beginning at 10th level, when you cast a damage-dealing force power that requires a force attack or saving throw, you can spend force points to cause that power to instead deal ion damage. The number of force points equals half the power's level (round down, minimum of one). If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. 
+
+\columnbreak
+
+<div style='margin-top:27px'></div>
+
+### Force Circuitry
+At 14th level, when you use your action to cast a force power, and you use your Fundamentals of Mechu-deru feature as a part of that casting, you can use your bonus action to cast one of the tech powers you know, as long as that power has a casting time of 1 action or bonus action.
+
+### Mechu-deru Mastery
+Starting at 18th level, you can cast one 5th-level tech power of your choice at its base level. The power counts as a universal force power for you, and you do not require force points to cast this power. Once you've done so, you can't do so again until you complete a long rest.
+
+<img src='https://www.gmbinder.com/images/WrotCbm.png' style='position:absolute;bottom:28px;right:25px;width:535px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | CONSULAR</div>
 
@@ -1163,7 +1203,7 @@ Your droid can see through illusions and detect invisibility within 30 feet, as 
 Those engineers who choose the Audiotech Engineering focus on using a specially modified instrument to use music to assist their allies and disrupt their enemies.
 
 ### Bonus Proficiencies
-When you choose this discipline at 3rd level, you gain proficiency in three musical instruments and audiotech's implements. Additionally, when you engage in crafting with audiotechï¿½s implements, the rate at which you craft doubles.
+When you choose this discipline at 3rd level, you gain proficiency in three musical instruments and audiotech's implements. Additionally, when you engage in crafting with audiotech’s implements, the rate at which you craft doubles.
 
 ### Modified Instrument
 Also at 3rd level, you learn to modify an instrument utilizing your audiotech knowledge. Over the course of a long rest, you can modify an instrument. You must have the instrument and audiotech's implements in order to perform this modification.
@@ -2488,7 +2528,7 @@ At 20th level, you've mastered the unity between blaster and blade. Your Dexteri
 - When you hit a creature with a ranged weapon attack, you have advantage on the next melee weapon attack you make against that creature. When you hit a creature with a melee weapon attack, you have advantage on the next ranged weapon attack you make against that creature.
 - When you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of one) in this way.
 
-<img src='https://i.imgur.com/YeXkOtP.png' style='position:absolute;bottom:10px;right:50px;width:314px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/YeXkOtP.png' style='position:absolute;bottom:10px;right:50px;width:314px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
@@ -2571,7 +2611,7 @@ At 11th level, when you take the Attack action, you can teleport up to 10 feet b
 If you attack at least two different creatures with the action, you can make one additional attack against a third creature (no action required).
 
 ### Iridescent Strikes
-Starting at 17th level, when you use your action to cast a force power, you can spend 2 focus points to teleport to a space within 5 feet of a creature affected by the power and make two unarmed attacks against that creature as a bonus action.
+Starting at 17th level, when you use your action to cast a force power, you can spend 2 focus points to teleport to a space within 5 feet of a creature affected by the power and make two unarmed strikes against that creature as a bonus action.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 
@@ -2670,7 +2710,7 @@ At 17th level, when you make multiple weapon attacks with thrown weapons against
 \pagebreak
 
 ## Trickster Order
-Monks of the Trickster Order embody the archetypal role of the "trickster"ï¿½ one who seemingly bumbles their way into good fortune. They employ a unique fighting style composed of slips, trips, and falls to confuse and frustrate their enemies to no end. Whether your movements are actual foibles on your part or calculated strokes, they will surely leave others guessing long after your time is past.
+Monks of the Trickster Order embody the archetypal role of the "trickster"— one who seemingly bumbles their way into good fortune. They employ a unique fighting style composed of slips, trips, and falls to confuse and frustrate their enemies to no end. Whether your movements are actual foibles on your part or calculated strokes, they will surely leave others guessing long after your time is past.
 
 ### Bumbling Technique
 When you choose this order at 3rd level, your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. When you make a Charisma (Performance) check, you gain a bonus to the check equal to half your Wisdom modifier (rounded down, minimum of +1) if it doesn't already include that modifier.
@@ -2706,7 +2746,7 @@ Monks of the Whills Order hold the secrets of the Force sacred, and dedicate the
 ### Flurry of Light
 At 3rd level, you gain proficiency in blaster pistols, blaster rifle, ion blaster, ion rifle, and the lightbow, which are your Whills weapons and are monk weapons for you. When you are wielding a Whills weapon, you gain the following benefits:
 - Your Whills weapons count as melee weapons for you, and when you make a melee weapon attack with them, you deal kinetic damage equal to your Martial Arts Damage Die.
-- When you would make an unarmed attack<br> using your Martial Arts bonus action<br> or as a part of<br> your<br> Flurry of Blows, you can instead attack with a Whills weapon you are wielding. You roll a d4 in place of the normal damage of your Whills weapon when attacking in this way. This die changes as you gain monk levels, as shown in the Martial Arts column of the monk table.
+- When you would make an unarmed strike<br> using your Martial Arts bonus action<br> or as a part of<br> your<br> Flurry of Blows, you can instead attack with a Whills weapon you are wielding. You roll a d4 in place of the normal damage of your Whills weapon when attacking in this way. This die changes as you gain monk levels, as shown in the Martial Arts column of the monk table.
 - When you would make a ranged weapon attack with a Whills weapon, you can instead reload the weapon.
 
 ### The Force is With You
@@ -2739,7 +2779,7 @@ Those operatives who choose the Disabling Practice utilize a variety of pushes, 
 ### Clinch Strike
 When you choose this practice at 3rd level, you learn how to discourage, debilitate, and harm your enemies. You gain the following benefits while you aren't wearing heavy armor or wielding a medium or heavy shield:
 - Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
-- You can deal Sneak Attack damage when making an unarmed strike. Additionally, you don't need advantage on your unarmed attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.
+- You can deal Sneak Attack damage when making an unarmed strike. Additionally, you don't need advantage on your attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.
 - You can use the bonus action granted by your Cunning Action to make an unarmed strike against a creature you are grappling.
 
 ### Skilled Grappler
@@ -2776,7 +2816,7 @@ You attempt to throw your target to the ground. The target must make a Dexterity
 Beginning at 9th level you learn to manipulate the body of a grappled target to make attacks against you more difficult to land. Moving a grappled creature the same size as you or smaller no longer halves your speed, and when a creature grappled by you would grant you half cover, you instead have three-quarters cover. Additionally, when you are hit by an attack while grappling a creature, you can use your reaction to force that attack to instead hit the grappled creature.
 
 ### Kiss the Wall
-Starting at 13th level, you can use your surroundings to further punish the target of your grapple. When you roll a 1 or 2 on a Sneak Attack damage die for an unarmed attack you make against a creature grappled by you, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+Starting at 13th level, you can use your surroundings to further punish the target of your grapple. When you roll a 1 or 2 on a Sneak Attack damage die for an unarmed strike you make against a creature grappled by you, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
 
 ### Neck Snap
 At 17th level, you learn how to immediately remove your grappled opponent from the fight. As an action, you can force a creature grappled by you to make a Constitution saving throw. On a failed save, if the creature has 100 hit points or fewer, it dies. If the target has more than 100 hit points, it immediately takes &emsp;&emsp;&emsp;10d10 kinetic damage. This damage can't be &emsp;&emsp;&emsp;&emsp;&emsp;reduced in any way.
@@ -3121,7 +3161,7 @@ Your tracker droid companion has a 30 foot flying speed.
 #### Camouflage Module
 You install a camouflage module in your tracker droid. You tracker droid can turn on its stealth field to become invisible. While it is invisible, anything it is carrying or wearing is also invisible. It becomes visible when it turns off the field. Turning the field on or off requires an action.
 
-Deduct the time your tracker droid is invisible, in increments of 1 minute, from the moduleï¿½s maximum duration of 2 hours. After 2 hours of use, the module ceases to function. For every uninterrupted period of 12 hours the module goes unused, it regains 1 hour of use.
+Deduct the time your tracker droid is invisible, in increments of 1 minute, from the module’s maximum duration of 2 hours. After 2 hours of use, the module ceases to function. For every uninterrupted period of 12 hours the module goes unused, it regains 1 hour of use.
 
 #### Darkvision Optics
 Your tracker droid has darkvision to a range of 60 feet. If your tracker droid already has darkvision, this modification increases its range by 30 feet.
@@ -3138,7 +3178,7 @@ _**Prerequisite:** Pintsized Arms_ or _Undersized Arms_<br>
 Your tracker droid gains two additional arms which they can use independently of one another. Your tracker droid can only gain the benefit of items held by two of its arms at any given time, and once per round it can switch which arms it is benefiting from (no action required).
 
 #### Heavy Plating
-Your tracker droid companionï¿½s armor class becomes 14.
+Your tracker droid companion’s armor class becomes 14.
 
 #### Interfaced Assistance Protocol
 _**Prerequisite:** 5th level_<br>
@@ -3179,10 +3219,10 @@ Your tracker droid companion has advantage on Wisdom (Perception) checks that re
 Your tracker droid can cut through 1-inch-thick glass at a rate of 3 inches per round.
 
 #### Light Plating
-Your tracker droid companionï¿½s armor class becomes 11 + itï¿½s Dexterity modifier.
+Your tracker droid companion’s armor class becomes 11 + it’s Dexterity modifier.
 
 #### Medium Plating
-Your tracker droid companionï¿½s armor class becomes 13 + itï¿½s Dexterity modifier, to a maximum of +2.
+Your tracker droid companion’s armor class becomes 13 + it’s Dexterity modifier, to a maximum of +2.
 
 #### Pintsized Arms
 _**Prerequisite:** Size Tiny_<br>
@@ -3207,7 +3247,7 @@ Your tracker droid gets an integrated scomp link which it can use to interface w
 Your tracker droid learns the *alarm* tech power. It can cast it once, without the use of a wristpad and without spending tech points, and it regains the ability to do so when it finishes a long rest. Intelligence is your techcasting ability for this power.
 
 #### Size: Small
-Your tracker droid companionï¿½s size is Small. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d6, its shockprod damage die becomes a d4, and itï¿½s walking speed increases to 25.
+Your tracker droid companion’s size is Small. Its hit points increase by an amount equal to its level + 1, its Hit Die becomes a d6, its shockprod damage die becomes a d4, and it’s walking speed increases to 25.
 
 #### Spider Legs
 Your tracker droid has a climbing speed equal to its walking speed. Additionally, your tracker droid has advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.
@@ -3791,7 +3831,7 @@ Many academics develop an affinity for nature, studying the vast fauna that inha
 Those scholars who choose the Zoologist Pursuit capitalize on their knowledge of animals, developing a strong bond with a companion with whom they gain an advantage on the battlefield.
 
 ### Wilderness Expert
-When you choose this pursuit at 3rd level, you gain proficiency your choice of Animal Handling or Nature skills. Additionally, when you make a Wisdom (Animal Handling) check, you gain a bonus to the check equal to your Intelligence modifier.
+When you choose this pursuit at 3rd level, you gain proficiency in Animal Handling. Additionally, when you make a Wisdom (Animal Handling) check, you gain a bonus to the check equal to your Intelligence modifier.
 
 ### Beast Companion
 Also at 3rd level, you learn to employ all the knowledge you've accumulated to forge a powerful bond with your own personal beast companion.
@@ -4644,7 +4684,7 @@ At 18th level, you no longer suffer the frailty of old age, and you can't be age
 There is power in diversity unknown to those of narrow mind. Those sentinels who follow the Path of Synthesis blend their intricate mastery of the Force with their understanding of technology, creating unique effects to overcome their obstacles.
 
 ### Techcasting Secrets
-Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel table. You still require the aid of a wristpad for these powers.
+Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel table. 
 
 At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 17th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of no higher than the level determined by this feature.
 
@@ -4726,6 +4766,9 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 ## Path of Witchcraft
 The Force connects all living things. Those sentinels who follow the Path of Witchcraft use that connection to summon the aid of nature, both beasts and the elements, adapting them to their will.
 
+### Bonus Proficiencies
+You gain proficiency in the Animal Handling skill.
+
 ### Wild Power
 Starting when you choose this calling at 3rd level, you learn the *enfeeble* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of one) to damage rolls with it.
 
@@ -4746,11 +4789,11 @@ Additionally, while your beast companion is within 5 feet of you, you gain the f
 - When you use a Force-Empowered Self option to increase your speed or armor class, you can instead grant this bonus to your beast companion. 
 - You and your beast companion can communicate telepathically, though your beast companion can only communicate in and understand simple concepts.
 
-This radius increases to 10 feet at 7th level, 20 feet at 13th level, and 30 feet at 18th level.
-
 \columnbreak
 
 <div style='margin-top:28px'></div>
+
+&emsp;This radius increases to 10 feet at 7th level, 20 feet at 13th level, and 30 feet at 18th level.
 
 ### Nature's Vigor
 At 7th level, you've learned to attune your senses with nature. If you spend at least 1 minute meditating while in nature, you gain the following benefits for 1 hour:
@@ -4774,7 +4817,7 @@ At 18th level, you've learned to command the elements to summon a fierce storm i
 - You have resistance to energy, lightning, and necrotic damage.
 - Whenever a hostile creature enters this radius or starts its turn there, it takes 10 lightning damage.
 
-This effect ends early if you are incapacitated or die. Once you use this feature, you canï¿½t use it again until you finish a long rest.
+This effect ends early if you are incapacitated or die. Once you use this feature, you can’t use it again until you finish a long rest.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 

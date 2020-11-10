@@ -16,7 +16,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_species.txt" };
+        private readonly List<string> _ecSpeciesFileName = new List<string> { "ec_02.txt" };
         private readonly ILocalization _localization;
 
         public ExpandedContentSpeciesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)

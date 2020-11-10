@@ -14,7 +14,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly List<string> _ecBackgroundsFileName = new List<string> {"ec_backgrounds.txt"};
+        private readonly List<string> _ecBackgroundsFileName = new List<string> {"ec_04.txt"};
         private readonly ILocalization _localization;
 
         public ExpandedContentBackgroundsManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)

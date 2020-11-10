@@ -16,7 +16,7 @@ namespace StarWars5e.Parser.Managers
         private readonly ExpandedContentCustomizationOptionsFeatProcessor _expandedContentCustomizationOptionsFeatProcessor;
         private readonly ExpandedContentCustomizationOptionsFightingStyleProcessor _expandedContentCustomizationOptionsFightingStyleProcessor;
         private readonly ExpandedContentCustomizationOptionsFightingMasteryProcessor _expandedContentCustomizationOptionsFightingMasteryProcessor;
-        private readonly List<string> _ecCustomizationOptionsFileName = new List<string> { "ec_customization_options.txt" };
+        private readonly List<string> _ecCustomizationOptionsFileName = new List<string> { "ec_06.txt" };
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
 

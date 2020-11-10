@@ -31,8 +31,9 @@ namespace StarWars5e.Parser.Processors
             for (var i = 0; i < lines.Count; i++)
             {
                 if (!Regex.IsMatch(lines[i], @"^>\s*##\s+")) continue;
-                
-                var speciesEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("> ## ") || f.StartsWith(">## "));
+
+                //var speciesEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("> ## ") || f.StartsWith(">## ") || f.start);
+                var speciesEndIndex = lines.FindIndex(i + 1, f => Regex.IsMatch(f, @"^>\s*##\s+"));
                 var speciesLines = lines.Skip(i).CleanListOfStrings().ToList();
                 if (speciesEndIndex != -1)
                 {

@@ -37,6 +37,13 @@
     <None Remove="Sources\ec_species.txt" />
     <None Remove="Sources\ec_variantrules.txt" />
     <None Remove="Sources\en\Credits.txt" />
+    <None Remove="Sources\en\ec_02.txt" />
+    <None Remove="Sources\en\ec_03.txt" />
+    <None Remove="Sources\en\ec_04.txt" />
+    <None Remove="Sources\en\ec_05.txt" />
+    <None Remove="Sources\en\ec_06.txt" />
+    <None Remove="Sources\en\ec_11.txt" />
+    <None Remove="Sources\en\ec_12.txt" />
     <None Remove="Sources\en\ec_archetypes.txt" />
     <None Remove="Sources\en\ec_backgrounds.txt" />
     <None Remove="Sources\en\ec_customization_options.txt" />
@@ -207,14 +214,14 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Sources\en\Credits.txt" />
-    <EmbeddedResource Include="Sources\en\ec_archetypes.txt" />
-    <EmbeddedResource Include="Sources\en\ec_backgrounds.txt" />
-    <EmbeddedResource Include="Sources\en\ec_customization_options.txt" />
+    <EmbeddedResource Include="Sources\en\ec_02.txt" />
+    <EmbeddedResource Include="Sources\en\ec_03.txt" />
+    <EmbeddedResource Include="Sources\en\ec_04.txt" />
+    <EmbeddedResource Include="Sources\en\ec_05.txt" />
+    <EmbeddedResource Include="Sources\en\ec_06.txt" />
+    <EmbeddedResource Include="Sources\en\ec_11.txt" />
+    <EmbeddedResource Include="Sources\en\ec_12.txt" />
     <EmbeddedResource Include="Sources\en\ec_enhanced_items.txt" />
-    <EmbeddedResource Include="Sources\en\ec_equipment.txt" />
-    <EmbeddedResource Include="Sources\en\ec_force_powers.txt" />
-    <EmbeddedResource Include="Sources\en\ec_species.txt" />
-    <EmbeddedResource Include="Sources\en\ec_tech_powers.txt" />
     <EmbeddedResource Include="Sources\en\ec_variantrules.txt" />
     <EmbeddedResource Include="Sources\en\FAQ.txt" />
     <EmbeddedResource Include="Sources\en\mm.txt" />

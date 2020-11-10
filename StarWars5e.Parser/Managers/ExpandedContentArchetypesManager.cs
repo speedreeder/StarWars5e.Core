@@ -17,7 +17,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly ITableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_archetypes.txt" };
+        private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_03.txt" };
         private readonly ILocalization _localization;
 
         public ExpandedContentArchetypesManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
