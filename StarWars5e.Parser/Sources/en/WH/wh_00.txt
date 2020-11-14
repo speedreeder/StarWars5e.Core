@@ -12,11 +12,13 @@ This book is designed to add another significant layer to your SW5e experience. 
 
 <br>
 
-**Game Master (GM):** As you enter the teeming marketplace, you see merchants of all types peddling wares, trying to entice the flowing traffic. As you move further into the crowd, one of the vendors catches your attention as they hail you.
+**Game Master (GM):** As you enter the teeming marketplace in a disreputable sector of Nar Shaddaa, you see merchants of all types peddling wares, trying to entice the flowing traffic. As you move further into the crowd, one of the vendors catches your attention as they hail you.
 
 **Drew (playing Dash):** I'm going to check out what they have for sale.
 
 **Rickey (playing Vinto):** I'm going to keep an eye on the crowd to make sure our things aren't stolen.
+
+**Erik (playing Kodo):** ...
 
 </div>
 
@@ -36,9 +38,15 @@ Unlike a game of make-believe, SW5e gives structure to the stories, a way of det
 
 **GM:** Sure!
 
-**Rickey (rolling a d20):** Ugh. Seven.
+**Rickey (rolling a d20):** Eight. I hate this die!
 
 **GM:** You see many trinkets and baubles but nothing catches your eye. And Drew, Dash is watching the crowd?
+
+**Drew:** Yup!
+
+**GM:** Okay. Eric, what's Kodo doing?
+
+**Eric:** ...
 
 </div>
 
@@ -74,43 +82,26 @@ But if your players want to explore cities more indepth, this book is designed t
 
 **Chapters 7-8** include the rules for enhanced items and tools, including how to implement them in your game and give tools more weight.
 
-### Wretched Hives, Engineers, and You
-Engineers have a lot of interaction and overlap with this book. These guidelines help exist to merge the overlap.
+### Careful Checks
+When you spend at least 10 minutes performing an activity that requires an ability check, that check has consequences for failure, and you don't have disadvantage on the check, you can choose to make that check carefully, colloquially called "taking 10". If you do so, you treat the check as if you had rolled a 10 on the d20. For instance, if you are crafting an item, during resolution you make an Intelligence check with the appropriate tools to determine your d100 Roll Modifier. Instead of rolling the d20, you can make a careful check and take 10, treating the check as if you'd rolled a 10, adding your Intelligence modifier and proficiency bonus, if you are proficient with the tools.
 
-#### Crafting and Blueprints
-If adopting this book with the intention of utilizing crafting, any class with proficiency in a tool should know a number of standard rarity blueprints no greater than half their character level, rounded up. Engineers should instead know a number equal to their level. Additionally, engineers can learn blueprints that exist as part of their archetype's modifications.
+If you would have advantage on the check, you can instead take 15. 
 
-#### Armormech and Armstech
-For armormech, armstech, and other similar archetypes that focus on modifying an item—specifically, armor, blasters, clothing, focus generators, lightweapons, shields, vibroweapons, or wristpads—use the following rules.
-
-***Modifications.*** Some engineer modifications have a counterpart in this book. For instance, armstech's Burst Core modification exists in Appendix A, but Booming Strikes does not. Consequently, an engineer can craft a Burst Core that can be used by anyone using this book's crafting rules, but not Booming Strikes. The engineer must meet the archetype's level requirements for a modification before it can craft it using this book's crafting rules. If the modification presented in this book is different than that of the archetype feature, you should instead use this book's modification.
-
-***Chassis.*** Engineer chassis can use *Wretched Hives* modifications of any rarity. These modifications do count towards their maximum modification slots, but do not reduce their maximum tech points. Additionally, an engineer's chassis is differently limited than normal item chassis. For instance, an armstech's blaster can
+### Crafting and Blueprints
+If crafting is intended to be integral to your game, your player's characters should start with—and learn over time—the blueprints to craft enhanced items over time. All characters with proficiency in a tool know how to craft all unenhanced items that are governed by that tool. Additionally, a character with proficiency in a tool knows a number of blueprints equal to half their level (rounded up). A character with expertise instead knows a number of blueprints equal to their level. Whenever a character gains a level, they can exchange one blueprint they know for another one. A character can only know standard blueprints at 1st level, but can learn higher rarity blueprints as they gain increase in levels. A character can learn premium blueprints starting at 5th level, prototype at 9th level, advanced at 13th level, legendary at 17th level, and artifact at 20th level. As GM, you can allow player's to choose their own blueprints, or you can choose for them. If a character has proficiency in multiple tools, they 
 
 \columnbreak
 
- support one targeting and barrel, but any number of cores and attachments. Additionally, it can support up to three augments.
+determine their known blueprints for each tool separately.
 
-#### Astrotech
-Like armormech and armstech, some astrotech modifications exist in this book, while others do not. For instance, Four-Armed Combatant exists in Appendix A, but Martial Protocol does not. Additionally, when installing *Wretched Hives* droid customizations in your droid companion, they count towards your maximum modification slots, but do not reduce your maximum tech points.
+For instance, a 3rd-level character with proficiency in armstech's implements knows how to create all unenhanced blasters and vibroweapons, as well as up to two enhanced blasters or vibroweapons of standard rarity. A 5th-level character with expertise, however, can know up to five enhanced blasters or vibroweapons of premium rarity or lower.
 
-#### Other Archetypes
-Some archetypes, such as Augmented Approach berserker, thematically use rules that exist in *Wretched Hives.* Their archetype features should not use the rules presented here.
-
-## How to Play
-Generally, the rules in this book use the same mechanics already encountered. The GM still describes the environment, and the players describe what they want to do. The GM then narrates the results of of the adventurers' actions.
-
-### Game Dice
-The game uses the same polyhedral dice with different numbers of sides, referenced in the same fashion; the different dice are referred to by the letter d followed by the number of sides: d4, d6, d8, d10, d12, d20, and d100. 
-
-### Advantage and Disadvantage
-Advantage and disadvantage function identically; with advantage, you roll two dice and take the higher value, while with the disadvantage you roll two dice and take the lesser.
-
-### Specific Beats General
-In the same vein, while some chapters contain broad strokes for the game's rules, others reference specific actions or activities that that override these rules, creating an exception to how the rest of the game works. Remember this: if a specific rule contradicts a general rule, the specific rule wins.
-
-### Round Down
-There's one more general rule you need to know at the outset. Whenever you divide a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater, unless otherwise specified.
+### Engineers
+Many engineer archetypes are built around modifying a specific item. For instance, armstech engineer is focused entirely on modifying and upgrading blasters and vibroweapons. If you have any of these engineers are the table, while using this book, you'll want to include the following rules:
+- Engineer's class-specific chassis are not restricted to using mods of a certain rarity. For instance, if a 4th-level armstech engineer comes across an artifact rarity blaster modification, and they are skilled enough to install it, they can benefit from it.
+- Engineer's class-specific chassis are not restricted to only one of each modification type, but if that modification adds a bonus, such as +1 to attack rolls, or the keen 1 property, the total of that bonus across the item can not exceed half the engineer's proficiency bonus (rounded up). For instance, an 5th-level armstech engineer who uses a modified blaster can use three attachments, instead of only one. 
+- Engineer's class-specific chassis can include a number of augments up to half their proficiency bonus (rounded up), which count towards their total modifications. For instance, a 4th-level engineer, with a proficiency bonus of +2, can have only one augment in their item.
+- Engineer's class-specific chassis only ever count as one attunement, regardless of the rarity of the modifications inside it.
 
 ## What It Brings
 *Wretched Hives* is designed to be an *in addition to* rather than *instead of*. If you implement some—or all—of these rules, however, you create more powerful adventuring parties. The rules included here add an additional level of customization to characters. All of the rules work in conjunction with each other, but are generally not interdependent; use as much or as little as you like.

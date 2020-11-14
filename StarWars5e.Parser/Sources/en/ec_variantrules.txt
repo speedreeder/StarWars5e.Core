@@ -1,4 +1,38 @@
-# Variant Rules
+
+
+<div class='wide'> 
+
+# Longer Rests
+
+</div>
+
+SW5e offers greater character customization than traditional 5e, and ultimately yields more powerful characters. If you find yourself struggling to challenge your party, consider using the following variant rule to make them stretch their resources.
+
+### Quick Rest
+A quick rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.
+
+A character can spend one or more Hit Dice at the end of a quick rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. Whenever a character spends a Hit Die to regain hit points, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll.
+
+### Short Rest
+A short rest is a period of extended downtime, at least 8 hours long, during which a character sleeps for at least 6 hours and performs light activity, such as reading, talking, eating, or standing watch, for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—fighting, casting powers, at least 4 hours of walking, or similar adventuring activity—the characters must restart the rest to benefit from it.
+
+At the end of a short rest, a character regains missing hit points up to half their hit point maximum (rounded up). A character can then spend one or more Hit Dice, up to the character's maximum number of Hit Dice, which is equal to the character's level. Whenever a character spends a Hit Die to regain hit points, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll.
+
+A character can't benefit from more than one short rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits.
+
+\columnbreak
+
+### Long Rest
+A long rest is a period of extended downtime, at least 2 days long, during which a character sleeps for at least 6 hours each day, and performs light activity, such as reading, talking, eating, or standing watch during the remainder of the long rest. If the rest is interrupted by a period of strenuous activity—fighting, casting powers, at least 4 hours of walking, or similar adventuring activity—the characters must restart the rest to benefit from it.
+
+At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them (minimum of one).
+
+A character can't benefit from more than one long rest in a 7-day period, and a character must have at least 1 hit point at the start of the rest to gain its benefits.
+
+### Power Durations and Other Effects
+Certain powers, such as *battle precognition* or *force barrier*, are powers that are intended to be cast once or twice per adventuring day. Since long rests are now once per week instead of once per day, consider increasing the duration of these powers to 24 hours, or even up to three days, as you deem appropriate.
+
+\pagebreak
 
 <div class='wide'> 
 
@@ -9,13 +43,9 @@
 When a character is reduced to 0 hit points, begins making death saving throws, and has hit points restored, they can return to the battle no worse for the wear. Using this variant rule, you can add an additional layer to make falling to 0 hit points more threatening.
 
 ### Gaining Wounds
-When a character is reduced to 0 hit points, that character must make a DC 10 Constitution saving throw. On a success, nothing happens, but the DC of this saving throw for that character increases by 5, cumulatively, until they complete a short or long rest or fail the saving throw, at which point the DC resets to 10. On a failed save, the character suffers 1 wounded level. 
+When a character is reduced to 0 hit points, that character must make a DC 10 Constitution saving throw. On a success, nothing happens, but the DC of this saving throw for that character increases by 5, cumulatively, until they complete a short or long rest or fail the saving throw, at which point the DC resets to 10. On a failed save, the character suffers 1 wounded level. On a success or a failure, a creature immediately gains one death saving throw failure for each wounded level it has. 
 
-On a success or a failure, a creature immediately gains one death saving throw failure for each wounded level it has. 
-
-For instance, if a character with no wounded levels is reduced to 0 hit points and fails their Constitution saving throw, they gain 1 wounded level, and they then gain 1 death saving throw failure for their 1 wounded level.
-
-Alternatively, if a character with 2 wounded levels is reduced to 0 hit points and succeeds on their Constitution saving throw, they don't gain a wounded level, but they then gain 2 death saving throw failures for their 2 wounded levels. If they take damage, or fail the death saving throw they make at the start of their next turn, they immediately die.
+For instance, if a character with no wounded levels is reduced to 0 hit points and fails their Constitution saving throw, they gain 1 wounded level, and they then gain 1 death saving throw failure for their 1 wounded level. Alternatively, if a character with 2 wounded levels is reduced to 0 hit points and succeeds on their Constitution saving throw, they don't gain a wounded level, but they then gain 2 death saving throw failures for their 2 wounded levels. If they take damage, or fail the death saving throw they make at the start of their next turn, they immediately die.
 
 ### Clearing Wounds
 A character loses all wounded levels when they are restored to their hit point maximum, whether through consumables, powers, resting, or other means.
@@ -31,10 +61,10 @@ A character loses all wounded levels when they are restored to their hit point m
 Unlike attack rolls, which have critical hits and critical misses, saving throws don't have critical successes or failures. Using this variant rule, you can allow critical successes and failures on saving throws.
 
 ### Critical Success
-When a creature rolls a 20 on their saving throw against an effect, they automatically succeed on the saving throw, even if the result of their save would not meet or exceed the save DC. Additionally, if they would suffer any effects on a successful save, such as half damage, they instead suffer no effects.
+When a creature rolls a 20 on their saving throw against an effect, they automatically succeed on the saving throw, even if the result of their save would not meet or exceed the save DC. Additionally, if they would suffer any effects on a successful save, such as half damage, they treat the effect's damage as if it had rolled the minimum.
 
 ### Critical Failure
-When a creature rolls a 1 on their saving throw against an effect, they automatically fail the saving throw, even if the result of their save would meet or exceed the save DC. Additionally, if the effect would deal damage, the source of the effect gets to roll the effect's damage dice twice and add them together, as with a critical hit.
+When a creature rolls a 1 on their saving throw against an effect, they automatically fail the saving throw, even if the result of their save would meet or exceed the save DC. Additionally, if the effect would deal damage, they treat the effect's damage as if it had rolled the maximum.
 
 \columnbreak
 
@@ -44,7 +74,7 @@ Certain features, such as the Explosives fighting style or the Heavy Weapon Spec
 Additionally, you can consider allowing weapons with the keen property to increase the critical hit range of their burst or rapid properties.
 
 ### Saving Throw Checks
-If you use the Saving Throw Checks variant, you would instead allow effects to critically hit or critically miss, as appropriate.
+If you use the Saving Throw Checks variant, you would instead allow effects to critically succeed if they would critically hit, and critically fail if they would critically miss, as appropriate.
 
 \pagebreak
 
@@ -475,7 +505,7 @@ Whenever a bond-mate makes an ability check or attack roll with advantage due to
 When a bond-mate casts a force power, they can cast it as if they are standing within 5 feet of their bond-mate. If the power requires a target, and that target is not their bond-mate, they must be aware of the target's presence and location in order to target them with this power.
 
 #### 7th Tier
-When a bond-mate casts a power of 1st-level or that targets only themself, they can also target their bond-mate. 
+When a bond-mate casts a power of 1st-level or higher that targets only themself, they can also target their bond-mate. 
 
 #### 8th Tier
 Whenever a bond-mate is reduced to 0 hit points, but not killed outright, the other bond-mate can use their reaction to cause them to drop to 1 hit point instead. 
@@ -519,7 +549,7 @@ With this rule, instead of rolling the damage dice twice, you instead maximize t
 
 </div>
 
-Some weaponsï¿½specifically lightweaponsï¿½can be used in a variety of ways. For instance, the iconic scenes with Darth Maul using his doublesaber, but with only one blade extended. Or more recently with Cal Kestis in Jedi: Fallen Order, where you could adjust from doublesaber fighting to single saber fighting, or vice versa, on the fly. If you want the option to combine weapons in this fashion, consider the following variant rule.
+Some weapons—specifically lightweapons—can be used in a variety of ways. For instance, the iconic scenes with Darth Maul using his doublesaber, but with only one blade extended. Or more recently with Cal Kestis in Jedi: Fallen Order, where you could adjust from doublesaber fighting to single saber fighting, or vice versa, on the fly. If you want the option to combine weapons in this fashion, consider the following variant rule.
 
 ### Weapon Combination
 Combining weapons requires three key components: the two weapons you want to combine, and the appropriate tools. Two weapons can only be combined by someone proficient with appropriate tools, as shown in the Item Specific Tools table in Wretched Hives.
@@ -596,7 +626,7 @@ The third action a character can take is to feint. When a character chooses to f
 Once each party has chosen their action, they should each make an attack roll, with advantage or disadvantage as appropriate. The winner of the contest strikes a blow or scores a point, as appropriate.
 
 #### Ties
-Generally, ties should either award a point to both partiesï¿½or no points to either partyï¿½at the discretion of the GM.
+Generally, ties should either award a point to both parties—or no points to either party—at the discretion of the GM.
 
 ### Strikes
 How many strikes a character can take varies based on the lethality of the contest. You might grant each party a potential three strikes if sparring, or you might give them each strikes equal to their Constitution modifier in a lethal contest, or even strikes equal to their proficiency bonus in a fight for honor. 
@@ -639,13 +669,13 @@ Additionally, consider allowing those species that have natural weapons to use t
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ypically, multiple instances of advantage or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; disadvantage don't stack; you either have it or you don't, and if you have both, you essentially have neither. This variant rule is designed to allow sources of advantageï¿½and disadvantageï¿½to stack, to a maximum of three times.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ypically, multiple instances of advantage or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; disadvantage don't stack; you either have it or you don't, and if you have both, you essentially have neither. This variant rule is designed to allow sources of advantage—and disadvantage—to stack, to a maximum of three times.
 
 When you have two sources of advantage, you instead have **superadvantage**, which allows you to roll two additional d20s when you make your ability check, attack roll, or saving throw, and take the highest of the three dice. If you have three sources of advantage, however, you instead have **hyperadvantage**, which allows you to roll three additionals d20s and take the highest of the four. Consequently, if you have two sources of disadvantage, you instead have **superdisadvantage**, and if you have three sources of disadvantage, you have **hyperdisadvantage**, rolling three and four d20s, respectively, and taking the lowest.
 
-Additionally, advantage and disadvantage no longer completely cancel each other out. Instead, if you have two sources of advantage and one source of disadvantage, you instead have one source of advantage. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantageï¿½superadvantageï¿½when you make your attack roll. If the creature is heavily obscured from you, however, you would have disadvantage on the attack roll, shifting you from superadvantage to advantage.
+Additionally, advantage and disadvantage no longer completely cancel each other out. Instead, if you have two sources of advantage and one source of disadvantage, you instead have one source of advantage. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantage—superadvantage—when you make your attack roll. If the creature is heavily obscured from you, however, you would have disadvantage on the attack roll, shifting you from superadvantage to advantage.
 
-Each source of advantage or disadvantage must be unique. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantageï¿½superadvantageï¿½when you make your attack roll. If another ally also takes the Help action, however, you still only have two unique sources of advantage, thus granting only superadvantage.
+Each source of advantage or disadvantage must be unique. For instance, if you are hidden from a creature, and an ally within 5 feet of it takes the Help action, you would have two sources of advantage—superadvantage—when you make your attack roll. If another ally also takes the Help action, however, you still only have two unique sources of advantage, thus granting only superadvantage.
 
 > Some customization options, such as the Supreme Accuracy feat, grant bonuses if you would have advantage. If you elect to use this variant rule, adjust these customization options to instead grant an additional source of advantage if you would already have advantage. For instance, if you have the Supreme Accuracy feat, if you have no source of advantage, you gain no benefit from the second bullet of the feat. If you have a source of advantage, however, the feat instead grants you superadvantage (or potentially hyperadvantage if you have an additional source of advantage).
 
@@ -1201,7 +1231,7 @@ You have mastered rending your foes' weapons, leaving them impotent and vulnerab
 
 <img src='https://www.gmbinder.com/images/SEqkLS8.png' style='position:absolute;top:90px;left:75px;width:38px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome charactersï¿½and their playersï¿½take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ome characters—and their players—take great<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pleasure in using their weapons to potentially maim their foes. If you want to add an additional layer to combat, consider using this variant rule.
 
 When a character scores a critical hit with a weapon that is capable of removing a limb, such as a lightweapon or vibroweapon, have them roll an additional d20. If they roll a 20 on the second d20 roll, they successfully remove a limb from a creature, or potentially slay the creature outright.
 
