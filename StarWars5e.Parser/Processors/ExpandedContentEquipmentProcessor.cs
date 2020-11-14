@@ -35,7 +35,6 @@ namespace StarWars5e.Parser.Processors
             var equipmentList = new List<Equipment>();
             List<string> tableLines;
 
-
             if (tableNameIsStartingCategory)
             {
                 var tableStart = lines.FindNthIndex(f => f.Contains(tableName), tableNameOccurence);
@@ -71,7 +70,7 @@ namespace StarWars5e.Parser.Processors
                     try
                     {
                         weapon.Weight = weightMatch.Success ? weightMatch.Value : "0";
-                        weapon.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
+                        weapon.Properties = Regex.Split(tableLineSplit[5], @",\s*(?![^()]*\))").Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
                         weapon.PropertiesMap = weapon.Properties.ToDictionary(

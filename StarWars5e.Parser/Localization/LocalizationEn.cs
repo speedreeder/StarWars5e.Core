@@ -194,6 +194,8 @@ namespace StarWars5e.Parser.Localization
         #region WretchedHivesManager
         public List<(string name, string startLine, int occurence)> WretchedHivesWeaponProperties => new List<(string name, string startLine, int occurence)>
         {
+            ("Autotarget", "#### Autotarget", 1),
+            ("Brutal", "#### Brutal", 1),
             ("Defensive", "#### Defensive", 1),
             ("Dire", "#### Dire", 1),
             ("Disarming", "#### Disarming", 1),
@@ -201,9 +203,12 @@ namespace StarWars5e.Parser.Localization
             ("Disruptive", "#### Disruptive", 1),
             ("Keen", "#### Keen", 1),
             ("Mighty", "#### Mighty", 1),
+            ("Neuralizing", "#### Neuralizing", 1),
             ("Piercing", "#### Piercing", 1),
             ("Shocking", "#### Shocking", 1),
             ("Silent", "#### Silent", 2),
+            ("Sonorous", "#### Sonorous", 1),
+            ("Switch", "#### Switch", 1),
             ("Vicious", "#### Vicious", 1)
         };
         public List<(string name, string startLine, int occurence)> WretchedHivesArmorProperties => new List<(string name, string startLine, int occurence)>
@@ -226,6 +231,7 @@ namespace StarWars5e.Parser.Localization
             ("Magnetic", "#### Magnetic", 1),
             ("Obscured", "#### Obscured", 1),
             ("Powered", "#### Powered", 1),
+            ("Reactive", "#### Regulated", 1),
             ("Regulated", "#### Regulated", 1),
             ("Reinforced", "#### Reinforced", 1),
             ("Responsive", "#### Responsive", 1),
