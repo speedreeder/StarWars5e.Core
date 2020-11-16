@@ -24,12 +24,13 @@ namespace StarWars5e.Parser.Managers
             _localization = localization;
         }
 
-        public async Task Parse()
+        public async Task<List<Power>> Parse()
         {
+            var forcePowers = new List<Power>();
             try
             {
                 var forcePowersProcessor = new ExpandedContentForcePowersProcessor();
-                var forcePowers = await forcePowersProcessor.Process(_ecForcePowersFileName, _localization);
+                forcePowers = await forcePowersProcessor.Process(_ecForcePowersFileName, _localization);
 
                 foreach (var forcePower in forcePowers)
                 {
@@ -43,12 +44,13 @@ namespace StarWars5e.Parser.Managers
 
                 await _tableStorage.AddBatchAsync<Power>($"powers{_localization.Language}", forcePowers,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
-
             }
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload EC force powers.");
             }
+
+            return forcePowers;
         }
     }
 }

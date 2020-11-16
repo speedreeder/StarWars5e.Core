@@ -369,13 +369,16 @@ namespace StarWars5e.Parser.Processors
                         }
                     }
 
+                    var descriptionFinal = string
+                        .Join(" ", new List<string>(singleBehaviorLines.Skip(1)) {baseLine.Split("**")[2].Trim()})
+                        .RemoveMarkdownCharacters();
+
                     var monsterBehavior = new MonsterBehavior
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
                         Name = name.RemoveMarkdownCharacters(),
-                        Description = string
-                            .Join(" ", new List<string>(singleBehaviorLines.Skip(1)) {baseLine.Split("**")[2].Trim()})
-                            .RemoveMarkdownCharacters(),
+                        Description = descriptionFinal,
+                        DescriptionWithLinks = descriptionFinal,
                         Restrictions = restrictions
                     };
 
@@ -403,11 +406,53 @@ namespace StarWars5e.Parser.Processors
                         }
                     }
 
+                    var descriptionFinal = string
+                        .Join(" ", new List<string>(singleBehaviorLines.Skip(1)) { baseLine.Split("**")[2].Trim() })
+                        .RemoveMarkdownCharacters();
+
+                    var descriptionWithLinks = descriptionFinal;
+
+                    var castingLevels = new List<string>
+                    {
+                        Localization.AtWill, Localization.FirstLevel, Localization.SecondLevel, Localization.ThirdLevel,
+                        Localization.FourthLevel, Localization.FifthLevel, Localization.SixthLevel,
+                        Localization.SeventhLevel, Localization.EighthLevel, Localization.NinthLevel
+                    };
+                    castingLevels.AddRange(castingLevels.Select(c => c.Replace(' ', '-')).ToList());
+
+                    if (name.Contains("casting", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        var lines = new List<string>(singleBehaviorLines);
+
+                        for (var j = 0; j < lines.Count; j++)
+                        {
+                            var c = castingLevels.FirstOrDefault(c => Regex.IsMatch(lines[j], @"^>\s*.*:", RegexOptions.IgnoreCase));
+                            if (c != null)
+                            {
+                                var powerLineSplit = lines[j].Split(':');
+                                var powers = powerLineSplit[1].RemoveMarkdownCharacters().Split(',')
+                                    .Select(s => s.Trim());
+                                var powersUpdated = new List<string>();
+                                foreach (var power in powers)
+                                {
+                                    powersUpdated.Add($"[{power}](#{Uri.EscapeUriString(power)})");
+                                }
+
+                                lines[j] = $"{powerLineSplit[0]}: *{string.Join(", ", powersUpdated)}*";
+                            }
+                        }
+
+                        descriptionWithLinks = string
+                            .Join("\r\n", lines)
+                            .RemoveMarkdownCharacters();
+                    }
+
                     var monsterBehavior = new MonsterBehavior
                     {
                         MonsterBehaviorTypeEnum = behaviorType,
-                        Name = name,
-                        Description = string.Join(" ", description).RemoveMarkdownCharacters(),
+                        Name = name.RemoveMarkdownCharacters(),
+                        Description = descriptionFinal,
+                        DescriptionWithLinks = descriptionWithLinks,
                         Restrictions = restrictions
                     };
 

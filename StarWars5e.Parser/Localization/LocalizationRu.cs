@@ -1023,6 +1023,26 @@ namespace StarWars5e.Parser.Localization
 
         public string ECVariantRuleCompoundAdvantageStartingLetter => throw new System.NotImplementedException();
 
+        public string AtWill => throw new System.NotImplementedException();
+
+        public string FirstLevel => throw new System.NotImplementedException();
+
+        public string SecondLevel => throw new System.NotImplementedException();
+
+        public string FourthLevel => throw new System.NotImplementedException();
+
+        public string FifthLevel => throw new System.NotImplementedException();
+
+        public string ThirdLevel => throw new System.NotImplementedException();
+
+        public string SixthLevel => throw new System.NotImplementedException();
+
+        public string SeventhLevel => throw new System.NotImplementedException();
+
+        public string EighthLevel => throw new System.NotImplementedException();
+
+        public string NinthLevel => throw new System.NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

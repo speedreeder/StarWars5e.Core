@@ -24,24 +24,25 @@ namespace StarWars5e.Parser.Managers
             _localization = localization;
         }
 
-        public async Task Parse()
+        public async Task<List<Power>> Parse()
         {
+            var techPowers = new List<Power>();
             try
             {
                 var techPowersProcessor = new ExpandedContentTechPowersProcessor();
-                var forcePowers = await techPowersProcessor.Process(_ecTechPowersFileName, _localization);
+                techPowers = await techPowersProcessor.Process(_ecTechPowersFileName, _localization);
 
-                foreach (var forcePower in forcePowers)
+                foreach (var techPower in techPowers)
                 {
-                    forcePower.ContentSourceEnum = ContentSource.EC;
+                    techPower.ContentSourceEnum = ContentSource.EC;
 
-                    var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(forcePower.Name,
+                    var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(techPower.Name,
                         GlobalSearchTermType.ForcePower, ContentType.ExpandedContent,
-                        $"/characters/techPowers/?search={forcePower.Name}");
+                        $"/characters/techPowers/?search={techPower.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                 }
 
-                await _tableStorage.AddBatchAsync<Power>($"powers{_localization.Language}", forcePowers,
+                await _tableStorage.AddBatchAsync<Power>($"powers{_localization.Language}", techPowers,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
 
             }
@@ -49,6 +50,8 @@ namespace StarWars5e.Parser.Managers
             {
                 Console.WriteLine("Failed to upload EC force powers.");
             }
+
+            return techPowers;
         }
     }
 }

@@ -81,7 +81,7 @@ namespace StarWars5e.Parser.Managers
             };
         }
 
-        public async Task Parse()
+        public async Task<List<Power>> Parse()
         {
             try
             {
@@ -299,12 +299,13 @@ namespace StarWars5e.Parser.Managers
                 Console.WriteLine("Failed to upload PHB classes.");
             }
 
+            var powers = new List<Power>();
             try
             {
 
                 var playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor(_localization);
 
-                var powers =
+                powers =
                     await playerHandbookPowersProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_11.txt") || p.Equals("PHB.phb_12.txt"))
                         .ToList(), _localization);
                 
@@ -492,6 +493,8 @@ namespace StarWars5e.Parser.Managers
             //        variantRuleName.pathOverride);
             //    _globalSearchTermRepository.SearchTerms.Add(variantRuleSearchTerm);
             //}
+
+            return powers;
         }
     }
 }

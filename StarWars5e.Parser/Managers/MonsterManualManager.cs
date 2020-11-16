@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
+using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Monster;
 using StarWars5e.Parser.Localization;
@@ -33,11 +36,12 @@ namespace StarWars5e.Parser.Managers
             };
         }
 
-        public async Task Parse()
+        public async Task Parse(List<Power> powers)
         {
             try
             {
                 var monsters = await _monsterProcessor.Process(_mmFileName, _localization);
+                var powerNames = powers.Select(p => p.Name).OrderBy(p => p);
 
                 foreach (var monster in monsters)
                 {
@@ -46,6 +50,17 @@ namespace StarWars5e.Parser.Managers
                     var monsterSearchTerm = _globalSearchTermRepository.CreateSearchTerm(monster.Name,
                         GlobalSearchTermType.Monster, ContentType.Core, $"/rules/snv/monsters/{monster.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(monsterSearchTerm);
+
+                    //foreach (var behavior in monster.Behaviors.Where(b =>
+                    //    b.Name.Contains("casting", StringComparison.OrdinalIgnoreCase)))
+                    //{
+                    //    foreach (var power in powers.Where(p => behavior.DescriptionWithLinks.Contains(p.Name, StringComparison.InvariantCultureIgnoreCase)))
+                    //    {
+                    //        behavior.DescriptionWithLinks = Regex.Replace(behavior.DescriptionWithLinks,
+                    //            $@"([ :*,]+)({power.Name})([\s:*,]*)", $"$1[{power.Name}](#{Uri.EscapeUriString(power.Name)})$3",
+                    //            RegexOptions.IgnoreCase);
+                    //    }
+                    //}
                 }
 
                 await _tableStorage.AddBatchAsync<Monster>($"monsters{_localization.Language}", monsters,

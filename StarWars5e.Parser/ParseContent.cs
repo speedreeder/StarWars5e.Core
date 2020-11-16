@@ -53,10 +53,12 @@ namespace StarWars5e.Parser
                 new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, localization);
 
             var referenceTables = await referenceTableManager.Parse();
-            await playerHandbookManager.Parse();
+            var powers = await playerHandbookManager.Parse();
+            powers.AddRange(await extendedContentTechPowersManager.Parse());
+            powers.AddRange(await extendedContentForcePowersManager.Parse());
             await wretchedHivesManager.Parse();
             await starshipManager.Parse(referenceTables);
-            await monsterManualManager.Parse();
+            await monsterManualManager.Parse(powers);
             await extendedContentSpeciesManager.Parse();
             await extendedContentBackgroundManager.Parse();
             await extendedContentEquipmentManager.Parse();
@@ -64,8 +66,6 @@ namespace StarWars5e.Parser
             await extendedContentVariantRulesManager.Parse();
             await expandedContentManager.Parse();
             await extendedContentCustomizationOptionsManager.Parse();
-            await extendedContentTechPowersManager.Parse();
-            await extendedContentForcePowersManager.Parse();
             await creditsManager.Parse();
             await extendedContentEnhancedItemManager.Parse();
 

@@ -596,7 +596,16 @@ namespace StarWars5e.Parser.Localization
         public string MonsterBehaviorActions => "Actions";
         public string MonsterBehaviorReactions => "Reactions";
         public string MonsterHitSplitPattern => @"\*Hit[:]*\*|Hit:";
-
+        public string AtWill => "At Will";
+        public string FirstLevel => "1st Level";
+        public string SecondLevel => "2nd Level";
+        public string ThirdLevel => "3rd Level";
+        public string FourthLevel => "4th Level";
+        public string FifthLevel => "5th Level";
+        public string SixthLevel => "6th Level";
+        public string SeventhLevel => "7th Level";
+        public string EighthLevel => "8th Level";
+        public string NinthLevel => "9th Level";
 
         #endregion
 

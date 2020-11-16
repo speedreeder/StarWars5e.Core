@@ -593,6 +593,16 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableStartingLineStarshipSizeMaximumSuites { get; }
         public string ReferenceTableStartingLineStarshipSizeSuiteCapacity { get; }
         public string ReferenceTableStartingLineCyberneticAugmentationSideEffects { get; }
+        string AtWill { get; }
+        string FirstLevel { get; }
+        string SecondLevel { get; }
+        string FourthLevel { get; }
+        string FifthLevel { get; }
+        string ThirdLevel { get; }
+        string SixthLevel { get; }
+        string SeventhLevel { get; }
+        string EighthLevel { get; }
+        string NinthLevel { get; }
         #endregion
     }
 }
