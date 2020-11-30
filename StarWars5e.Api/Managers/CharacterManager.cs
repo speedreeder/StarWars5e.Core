@@ -31,7 +31,7 @@ namespace StarWars5e.Api.Managers
                 var character = new Character
                 {
                     JsonData = await blob.DownloadTextAsync(),
-                    Id = blob.Name,
+                    Id = blob.Name.Split('/')[1].Split('.')[0],
                     UserId = userId
                 };
                 characters.Add(character);
@@ -59,6 +59,14 @@ namespace StarWars5e.Api.Managers
                 Id = characterRequest.Id,
                 UserId = userId
             };
+        }
+
+        public async Task DeleteCharacterForUser(string userId, string characterId)
+        {
+            var blobContainer = _cloudBlobClient.GetContainerReference("characters");
+            var blob = blobContainer.GetBlockBlobReference($"{userId}/{characterId}.json");
+
+            await blob.DeleteIfExistsAsync();
         }
 
         private async Task<List<IListBlobItem>> ListBlobsAsync(CloudBlobDirectory directory)

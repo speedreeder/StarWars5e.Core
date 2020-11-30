@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
@@ -21,6 +22,26 @@ namespace StarWars5e.Api.Controllers
             _characterManager = characterManager;
         }
 
+        [HttpDelete("{characterId}")]
+        public async Task<ActionResult<IEnumerable<Character>>> Delete(string characterId)
+        {
+            var owner = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrWhiteSpace(owner))
+            {
+                return BadRequest("User not found.");
+            }
+
+            if (string.IsNullOrWhiteSpace(characterId) || !Guid.TryParse(characterId, out _))
+            {
+                return BadRequest("Invalid character Id.");
+            }
+
+            await _characterManager.DeleteCharacterForUser(owner, characterId);
+
+            return Ok();
+        }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Character>>> Get()
         {
@@ -28,7 +49,7 @@ namespace StarWars5e.Api.Controllers
 
             if (string.IsNullOrWhiteSpace(owner))
             {
-                return BadRequest();
+                return BadRequest("User not found.");
             }
 
             var characters = await _characterManager.GetCharactersForUserAsync(owner);
@@ -45,7 +66,12 @@ namespace StarWars5e.Api.Controllers
 
             if (string.IsNullOrWhiteSpace(userId))
             {
-                return BadRequest();
+                return BadRequest("No userId found.");
+            }
+
+            if (string.IsNullOrWhiteSpace(characterRequest.Id) || !Guid.TryParse(characterRequest.Id, out _))
+            {
+                return BadRequest("Invalid character Id.");
             }
 
             var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId);
