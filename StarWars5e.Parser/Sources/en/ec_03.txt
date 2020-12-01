@@ -33,6 +33,7 @@
 |&emsp;Astrotech Engineering    |
 |&emsp;Audiotech Engineering    |
 |&emsp;Biochem Engineering      |
+|&emsp;Biotech Engineering      |
 |&emsp;Cybertech Engineering    |
 |Fighter||
 |&emsp;Adept Specialist         |
@@ -69,6 +70,7 @@
 |&emsp;Sawbones Practice        |
 |&emsp;Scrapper Practice        |
 |Scholar||
+|&emsp;Archaeologist Pursuit    |
 |&emsp;Chef Pursuit             |
 |&emsp;Explorer Pursuit         |
 |&emsp;Geneticist Pursuit       |
@@ -174,6 +176,8 @@ ___
 </div>
 
 ___
+
+&emsp;You can use these features a combined total of twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Bracing Strike
 You gain temporary hit points equal to your rage damage bonus. If the target is grappled by you, you instead gain temporary hit points equal to twice your rage damage bonus.
@@ -287,7 +291,7 @@ Many tech powers can be overcharged, consuming more tech points to create a grea
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;You may only cast tech powers at<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;4th-level once. You regain the<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ability to do so after a long rest.
 
 #### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Techcasting Ability
-Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.
+Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.
 
 ___
 
@@ -1583,6 +1587,220 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 \pagebreak
 
+## Biotech Engineering
+Those engineers who choose the Biotech Engineering discipline focus on the skill of modifying and upgrading the body through the use of cybernetic limbs and implants.
+
+### Bonus Proficiencies
+When you choose this discipline at 3rd level you gain proficiency in biotech's implements. Additionally, when you engage in crafting with biotech's implements, the rate at which you craft doubles.
+
+### Modified Self
+Also at 3rd level, you've learned to make modifications to your body, cybernetically augmenting yourself. Over the course of a long rest, you can modify yourself with cybernetic augmentations. You must have biotech's implements in order to perform this modification.
+
+While you have at least one cybernetic augmentation installed, your body counts as a tech focus for your tech powers. Additionally, you have 4 modification slots, and you gain more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+
+Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
+
+### Quick-Release Stimulant
+Lastly at 3rd level, when you are dealt damage by an attack while you have at least one cybernetic augmentation installed, you can use your reaction and expend one use of your Potent Aptitude to reduce the damage you take. The damage is reduced by an amount equal to 1d10 + your Constitution modifier + your engineer level. If you reduce the damage to 0, you can gain temporary hit points equal to the remaining damage reduction.
+
+### Overclock Body
+Beginning at 6th level, you've learned to use your body as a conduit for your tech powers. When you cast a tech power, you can choose to pay up to half the cost of the tech power using your hit points instead of your tech points. When you do so, your maximum hit points are reduced by the same amount. This effect is cumulative, and it lasts until you complete a long rest.
+
+### More Machine Than Man
+At 14th level, while you have temporary hit points, when you are subjected to an effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Focused Augmentation
+Starting at 18th level, you add your Intelligence modifier to Constitution saving throws you make to maintain concentration.
+
+Additionally, when you cast a power that requires concentration and would affect only one target, you can target an additional creature with that power.
+
+<img src='https://www.gmbinder.com/images/Je8QEgo.png' style='position:absolute;bottom:20px;right:25px;width:420px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
+
+### Biotech Modifications
+If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
+
+#### Active Camouflage Core
+_**Prerequisite:** 13th level_<br>
+As an action, you can activate this augmentation to cast the *infiltrate* tech power targeting yourself. Intelligence is your tech casting ability for this power, and if you cast it using this augmentation, it does not require concentration.
+
+#### Anti-Dazzle Ocular Implant
+This augmentation replaces your eyes.
+
+You are immune to the blinded condition, and you can enable or disable your ability to see anytime. Additionally, your eyes are equipped with a holorecorder device. You can perfectly recall anything you've seen in the last 7 days.
+
+#### Auto-Defibrillator 
+_**Prerequisite:** 5th level_<br>
+_**Prerequisite:** Hardy Torso Prothesis_<br>
+The Constitution score of your Hardy Torso Prosthesis increases by 2. Additionally, when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.
+
+#### Brawny Arm Prosthesis
+This augmentation replaces an arm.
+
+When you make an ability check, attack roll, or saving throw using Strength using only this arm, your Strength score is treated as 15. When you make an ability check, attack roll, or saving throw using Strength using more than just this arm, you take the average of the arm's Strength score and your own.
+
+You can choose this modification multiple times.
+
+#### Celerity Leg Prosthesis
+This augmentation replaces both legs.
+
+When determining your bonus to AC and saving throws from Dexterity, your Dexterity score is treated as 15. Additionally, you can substitute this score for your own whenever you make an ability check or attack roll that uses your legs. If your Dexterity score is already equal to or greater than 15, it has no effect on you.
+
+#### Detachable Eye
+This augmentation replaces an eye.
+
+As an action, you can remove or replace this eye. While removed, the eye sprouts eight small legs, has a speed of 15 feet, an AC of 10, and 1 hit point. If it dies, you can't use it again until you complete a long rest. As an action on each of your turns, you can move the eye up to its speed as long as it is within 30 feet of you. You can see through both the detached eye and your remaining eye at the same time, or you can use your action to see through only one eye or the other.
+
+You can choose this modification multiple times.
+
+#### Detachable Hand
+This augmentation replaces a hand.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+&emsp;As an action, you can attach or detach this hand. While detached, the hand has a speed of 15 feet, an AC of 10, and 1 hit point. If it dies, you can't use it again until you complete a long rest. As an action on each of your turns, you can control the hand as long as it is within 30 feet of you. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a container. You can move the hand up to its speed each time you use it.
+
+You can choose this modification multiple times.
+
+#### Frailcasting Inhibitor
+_**Prerequisite:** 5th level_<br>
+While using your body as a tech focus, you gain a +1 bonus to the tech save DC of powers you cast that requires a Strength or Constitution saving throw. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+#### Hardy Torso Prosthesis
+This augmentation replaces your torso.
+
+Your Constitution score becomes 13. If your Constitution score is already equal to or greater than 13, it has no effect on you. Additionally, you have advantage on saving throws against poison.
+
+#### Harpoon Hand
+This augmentation replaces a hand.
+
+You modify your hand, granting it the ability to transform into a harpoon. With this hand, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d6 kinetic damage. This attack can target a surface, object, or creature.
+
+A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.
+
+While the harpoon is deployed, you can use your bonus action to activate the reel, pulling yourself to the location if the target is larger than you. A creature or object your size or smaller is pulled to you. Alternatively, you can opt to release the cable (no action required).
+
+Once you've used this feature, you can't use your hand again until you recover and reinsert it as an action.
+
+You can choose this modification multiple times.
+
+#### Integrated Subdermal Armor
+_**Prerequisite:** 5th level_<br>
+When you aren't wearing armor, your AC becomes 13 + your Dexterity modifier.
+
+#### Iridonian Grav-lev Hand
+This augmentation replaces a hand.
+
+Your unarmed strikes with this arm deal 1d4 ion damage, and your carrying capacity and the weight you can push, drag, or lift doubles. Additionally, you deal double damage to energy-based structures with your unarmed strikes.
+
+You can choose this modification multiple times.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
+
+#### Magnetic Forearm Enhancement
+This augmentation replaces a forearm.
+
+Unarmed strikes with this hand have the reach property.
+
+You can choose this modification multiple times.
+
+#### Mighty Prowess Enabler 
+_**Prerequisite:** 5th level_<br>
+_**Prerequisite:** Brawny Arm Prothesis_<br>
+The Strength score of your Brawny Arm Prosthesis increases by 2. Additionally, you are considered proficient with any weapon you wield with this arm. If the weapon requires two hands to use, and you are not already proficient with it, you only add half your proficiency bonus to attack rolls you make with it, unless you wield it with two of these arms. 
+
+You can choose this modification multiple times, but only once per arm.
+
+#### Nighthawk Ocular Implant
+This augmentation replaces your eyes.
+
+You can activate or deactivate this implant as a bonus action. While active, you gain darkvision to a range of 120 feet.
+
+#### Powered Harpoon Hand
+_**Prerequisite:** 9th level_<br>
+_**Prerequisite:** Harpoon Hand_<br>
+While your harpoon hand is deployed, when you cast a tech power with a range of touch, your hand can deliver the power as if it had cast it.
+
+#### Rendcasting Inhibitor
+_**Prerequisite:** 5th level_<br>
+While using your body as a tech focus, you gain a +1 bonus to the tech save DC of powers you cast that requires a Dexterity or Intelligence saving throw. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+#### Skills Enhancement Package
+_**Prerequisite:** 13th level_<br>
+When you make an ability check using a skill you are proficient in, you can roll a d4 and add the result to your total.
+
+#### Sound Dampeners
+This augmentation replaces your ears.
+
+You are immune to the deafened condition, and you can enable or disable your ability to hear anytime. Additionally, your ears are equipped with a person translator that allows you to understand up to 15 languages different, however, you cannot speak them. The languages can be changed out while interfaced with a protocol droid or appropriate computer.
+
+#### Surveillance Implant
+This augmentation replaces your face.
+
+This implant includes a headcomm with a scrambler that automatically encodes messages sent to a specified recipient commlink or receiver.
+
+#### Survival and Surveillance Implant
+_**Prerequisite:** 9th level_<br>
+This augmentation replaces your eyes and face.
+
+This implant contains several tools for long-term survival and reconnaissance. As a bonus action, you 
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+can activate one of the below modes that enable you to use several of these tools at once. Activating a different mode deactivates any currently active mode. 
+- **Communications Mode:** This communications suite includes a headcomm with a scrambler that automatically encodes messages sent to a specified recipient commlink or receiver. While this mode is active, you cannot be deafened.
+- **Interceptor Mode:** This is a jamming and electronic warfare suite that includes a comm jammer, a holotrace device and pocket scrambler.
+- **Respirator Mode:** This includes a basic respirator that grants advantage on saving throws made to avoid being poisoned and resistance to poison damage. 
+
+#### Swift Gait Attuner 
+_**Prerequisite:** 5th level_<br>
+_**Prerequisite:** Celerity Leg Prothesis_<br>
+The Dexterity score of your Celerity Leg Prosthesis increases by 2. Additionally, you gain proficiency in Dexterity saving throws.
+
+#### Vector Amplifier
+_**Prerequisite:** 5th level_<br>
+While using your body as a tech focus, you gain a +1 bonus to melee tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+#### Vector Rangefinder
+_**Prerequisite:** 5th level_<br>
+While using your body as a tech focus, you gain a +1 bonus to ranged tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+#### Voice Synthesizer
+_**Prerequisite:** 5th level_<br>
+This augmentation replaces your throat.
+
+This augmentation allows you to synthesize and perfectly mimic any voice that you have heard in the last month, and the synthesizer can translate verbal communications between up to 5 languages. The languages can be changed out while interfaced with a protocol droid or appropriate computer. Additionally, you can add your Intelligence modifier to any Charisma (Deception) check made to lie to another creature.
+
+#### Weapon Integration
+This augmentation replaces a forearm.
+
+You can integrate a single weapon that weighs no more than 8 lb. into your forearm. While integrated, you can use a bonus action to hide or reveal the weapon, which can only be used while revealed. While hidden, the weapon has the hidden property. While revealed, the weapon has the fixed property.
+
+You can choose this modification multiple times.
+
+#### Withercasting Inhibitor
+_**Prerequisite:** 5th level_<br>
+While using your body as a tech focus, you gain a +1 bonus to the tech save DC of powers you cast that requires a Wisdom or Charisma saving throw. This bonus increases to +2 at 9th level and +3 at 13th level.
+
+\columnbreak
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
+
+\pagebreak
+
 ## Cybertech Engineering
 Those engineers who choose the Cybertech Engineering discipline focus on the ability to craft reusable consumables and items that augment and complement their techcasting abilities.
 
@@ -1786,7 +2004,7 @@ You may only cast force powers at 4th-level once. You regain the ability to do s
 <div style='margin-top:28px'></div>
 
 #### Forcecasting Ability
-Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. In addition, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
+Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. Additionally, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
 
 ___
 
@@ -2052,7 +2270,7 @@ Finally, mounting or dismounting a creature or vehicle costs you only 5 feet of 
 ### Unwavering Mark
 Lastly at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are incapacitated or you die, or if someone else marks the creature. While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you.
 
-In addition, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attacks weapon deals extra damage to the target equal to half your fighter level.
+Additionally, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attacks weapon deals extra damage to the target equal to half your fighter level.
 
 Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
@@ -2552,7 +2770,7 @@ Many force powers can be overpowered, consuming more force points to create a gr
 You may only cast force powers at 4th-level once. You regain the ability to do so after a long rest.
 
 #### Forcecasting Ability
-Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. In addition, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
+Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. Additionally, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
 
 ___
 
@@ -3022,7 +3240,7 @@ Many tech powers can be overcharged, consuming more tech points to create a grea
 You may only cast tech powers at 4th-level once.<br> You regain the ability to do so after a long rest.
 
 #### Techcasting Ability
-Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. In addition, you<br> use your Intelligence modifier when setting the<br> saving throw DC for a tech power you cast and when making an attack roll with one.
+Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you<br> use your Intelligence modifier when setting the<br> saving throw DC for a tech power you cast and when making an attack roll with one.
 
 ___
 
@@ -3279,7 +3497,7 @@ Those operatives who choose the Sawbones Practice have studied the humanoid body
 ### General Practice
 When you choose this practice at 3rd level, you gain proficiency in Medicine, and you can use your Intelligence modifier instead of your Wisdom modifier for checks made with it.
 
-Additionally, you can expend one use of a medkit to help revitalize your wounded allies during a short rest. If you or any friendly creatures within 30 feet of you regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
+Additionally, you can expend one use of a traumakit to help revitalize your wounded allies during a short rest. If you or any friendly creatures within 30 feet of you regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
 
 The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
 
@@ -3312,7 +3530,7 @@ You attempt to hamper the target's movement. The target must make a Constitution
 <div style='margin-top:27px'></div>
 
 ### Swift Surgery
-Beginning at 9th level, you know how to quickly patch up wounds, given the right tools. You are able to use a medkit or administer a medpac as a bonus action, and when you use a medkit to stabilize a dying creature, that creature also regains a number of hitpoints equal to your Intelligence modifier.
+Beginning at 9th level, you know how to quickly patch up wounds, given the right tools. You are able to use a traumakit or administer a medpac as a bonus action, and when you use a traumakit to stabilize a dying creature, that creature also regains a number of hitpoints equal to your Intelligence modifier.
 
 ### Dosage Control
 Starting at 13th level, your knowledge of medicine allows you to partition and ration healing supplies very effectively, without impacting its potency. Over the course of 1 hour, which can be done during a rest, you can carefully measure and mark out dosages of a medpac within reach. The medpac can now be used twice before it is consumed.
@@ -3378,6 +3596,190 @@ Starting at 13th level, when you make a Charisma (Intimidation) or Charisma (Per
 <img src='https://www.gmbinder.com/images/GHT4jiF.png' style='position:absolute;bottom:0px;right:-64px;width:950px;;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
+
+\pagebreak
+
+## Archaeologist Pursuit
+Archaeologists are those who study the remnants of historical civilizations. Those scholars who choose the Archaeologist Pursuit are driven by a desire to uncover the past, forming a connection to the lives of those that came before, and unlocking within themselves a connection not just to history, but to the Force itself.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Bonus Proficiencies
+You gain proficiency with archaeologist kits and in the Lore skill.
+
+### Forcecasting
+When you choose this pursuit at 3rd level, you have learned powers from your studies of civilizations that were also once close to the Force. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.
+
+#### Force Powers Known
+You learn 4 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the Archaeologist Pursuit Forcecasting table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.
+
+#### Force Points
+You have a number of force points equal to your scholar level, as shown in the Force Points column of the Archaeologist Pursuit Forcecasting table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.
+
+#### Max Power Level
+Many force powers can be overpowered, consuming more force points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Archaeologist Pursuit Forcecasting table.
+
+You may only cast force powers at 4th-level once. You regain the ability to do so after a long rest.
+
+#### Forcecasting Ability
+Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. Additionally, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
+
+___
+
+<div align="center">
+
+**Force save DC** = 8 + your proficiency bonus +<br>your forcecasting ability modifier
+
+___
+
+**Force attack modifier** = your proficiency bonus +<br>your forcecasting ability modifier
+
+</div>
+
+___
+
+
+<img src='https://www.gmbinder.com/images/j5SvJ37.png' style='position:absolute;bottom:17px;left:2px;width:600px;z-index:1000;transform:scaleX(-1)' />
+
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+### Archaic Diagnostics
+Also at 3rd level, when you are the target of your Critical Analysis feature, you can use Intelligence instead of Wisdom or Charisma as your forcecasting ability modifier.
+
+### Additional Maneuvers
+Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into ancient civilizations. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
+
+#### Force Resonance
+Immediately after you deal damage to a target with a force attack, you can expend a superiority die and target a second creature that you can see within 30 feet of the first creature. Roll the die, and the second creature takes force damage equal to the roll + your forcecasting modifier. 
+
+#### Fortune and Glory 
+When you would make a weapon attack against a target within 30 feet, you can instead manipulate the Force to expend a superiority die and make a Sleight of Hand check using your universal forcecasting ability to plant something on the target, conceal an object on the target, lift the target's purse, or take something from its pocket. Roll the superiority die, and add the result to the check.
+
+#### Fossil Fueled
+When you would spend force points to cast a force power, you can instead expend a superiority die to cast the power. When you do so, you take necrotic damage equal to the number rolled + your universal forcecasting modifier + twice the power's level. This damage cannot be reduced in any way. 
+
+For each additional time you use this maneuver without taking a short or long rest, roll an additional superiority die of damage.
+
+#### One with the Force
+Once per turn, when you make a Constitution saving throw to maintain concentration on a force power, you can expend a superiority die and add the number rolled to the saving throw.
+
+#### Overwhelming Wit
+Once per round, when a creature succeeds on a force power you cast or your class feature that requires a Wisdom or Charisma saving throw, you can expend a superiority die to make a universal forcecasting ability check with proficiency, substituting the result of the roll for the save DC for that power.
+
+#### Mind over Midichlorians
+When you are forced to make a saving throw against a force power or effect you can see, you can expend a superiority die to change the saving throw to an Intelligence saving throw.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Archaeologist Pursuit Forcecasting
+| Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level |
+|:---:|:---:|:---:|:---:|
+| 3rd| 4| 3|1st|
+| 4th| 6| 4|1st|
+| 5th| 7| 5|1st|
+| 6th| 8| 6|1st|
+| 7th|10| 7|2nd|
+| 8th|11| 8|2nd|
+| 9th|12| 9|2nd|
+|10th|13|10|2nd|
+|11th|14|11|2nd|
+|12th|15|12|2nd|
+|13th|17|13|3rd|
+|14th|18|14|3rd|
+|15th|19|15|3rd|
+|16th|20|16|3rd|
+|17th|22|17|4th|
+|18th|23|18|4th|
+|19th|24|19|4th|
+|20th|25|20|4th|
+
+</div>
+
+#### Short Round
+When you cast a force power of 1st-level or higher that has a casting time of 1 action, you can expend a superiority die to change the casting time to 1 bonus action for this casting.
+
+#### Strikeforce 
+When you make a melee weapon attack against a creature, you can expend one superiority die and add the number rolled to the attack roll. On a hit, the target takes additional force damage equal to the number rolled. 
+
+#### You Call This Archaeology?
+When you or a friendly creature that you can see reduces a hostile creature to 0 hit points, you can use your reaction and expend a superiority die to give yourself or that friendly creature temporary hit points equal to the number rolled + your universal forcecasting modifier.
+
+### Force Carving
+Beginning at 6th level, you have unlocked more control over the Force, allowing you to choose wisely who it affects. When you cast a force power that affects other creatures that you can see, you can choose a number 
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+<div style='margin-top:16px'></div>
+
+of them equal to 1 + the power's level. The chosen creatures automatically succeed on their saving throws against the power, and they take no damage if they would normally take half damage on a successful save.
+
+### Psychometric Analysis
+Starting at 9th level, your strength in the Force and your ability to read the objects around you intensifies. You can use your Critical Analysis to analyze an object of Huge size or smaller that you can see within range. When you do so, you learn whether or not the object is enhanced, cursed, and how old it is. 
+
+Additionally, you can end your Critical Analysis on the object (no action required) to ask it a single question and receive an answer, usually in the form of an auditory or visual hallucination. For example, touching the rusted, broken remains of a lightsaber and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to the ground on that spot. An object “questioned” in this way can only provide information relating to its past. The GM has the final say on what objects can be questioned, and to what extent.
+
+You can use this feature four times. You gain an additional use at 13th and 17th level. You regain all expended uses when you complete a long rest.
+
+### Knowledge is Power
+Once you've reached 17th level, you gain the ability to steal the knowledge of how to cast a power from another forcecaster. When a hostile creature casts a force power that affects a friendly creature within range of your Critical Analysis feature, and you use your reaction target that friendly creature with your Critical Analysis feature, you can force the creature casting the power to make a Wisdom or Charisma saving throw (your choice) against your universal force save DC. On a successful save, the power is cast as normal.
+
+On a failed save, you negate the power's effects, and you steal the knowledge of that power if it is at least 1st level and of a level you can cast. For the next 8 hours, you know the power and can cast it using your force points. The creature cannot cast that power again until the 8 hours have passed.
+
+Once you've used this feature, you cannot use it again until you finish a long rest.
+
+### Discoveries (Archaeologist)
+When you select this pursuit, you gain access to new discoveries which reflect your studies into historical civilations. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
+
+#### Archive Research
+Your expeditions have turned up a bevy of knowledge on the force. You learn three at-will force powers of your choice, which don't count against your number of force powers known.
+
+\columnbreak
+
+#### Force Combat Knowledge
+Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. When you are the target of your Critical Analysis, you use your choice of your Intelligence or Strength modifier for the attack and damage rolls with simple lightweapons. You must use the same modifier for both rolls.
+
+Additionally, you gain knowledge of one lightsaber form of your choice.
+
+#### It Belongs in a Museum
+Your knowledge of antiquities is unparalleled. When you make an Intelligence (Lore) check or an ability check with your archaeologist kit, you may treat any roll of a 9 or lower as a 10.
+
+#### Localized Survey
+_**Prerequisite:** 13th level_<br>
+Your affinity for the force allows you to key in to the recent past of an area you enter. When you would expend a use of your Psychometric Analysis, you can instead choose to target your immediate vicinity (up to a 50-foot cube) and investigate for at least 1 minute. For each minute you investigate, you see visions of recent events in the area going back a number of days equal to your scholar level, you learn about one significant event, beginning with the most recent. 
+
+You can investigate in this way for a number of minutes equal to your scholar level and must maintain concentration during that time, as if you were concentrating on a power. 
+
+Once you've used this feature, you can't use it again until you complete a short or long rest.
+
+#### Making This Up As You Go
+_**Prerequisite:** 17th level_<br>
+You may now cast force powers at 4th-level twice between rests. 
+
+#### Telekinetic Ministrations
+_**Prerequisite:** 9th level_<br>
+You can cast the *telekinesis* force power at 5th level without spending force points.
+
+Once you've used this feature, you must complete a long rest before you can use it again.
+
+#### The Years and the Mileage
+Your archaeological studies have taken you all across the galaxy. While you are the target of your Critical Analysis feature, you can use your universal forcecasting ability instead of Wisdom when making Insight or Survival checks.
+
+#### Tomb of the Ancients
+_**Prerequisite:** 5th level_<br>
+As a reaction when you take damage, you can entomb yourself in the Force until the end of your next turn. For the duration, you have resistance to the triggering damage, you gain temporary hit points equal to 1d10 + your universal forcecasting ability modifier + your scholar level to potentially absorb the attack, and your speed is reduced to 0.
+
+Once you've used this feature, you can't use it again until you finish a short or long rest. 
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
 \pagebreak
 
@@ -3555,7 +3957,7 @@ You treat one-quarter cover as half cover, half cover as three-quarters cover, a
 #### Dungeon Explorer
 You have advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks to locate any secret doors or traps, and you have resistance to damage dealt by traps.
 
-In addition, you can use your Sage Advice feature to teach friendly creatures about various types of traps, following the same rules of that feature. When you do so, the chosen creatures have resistance to damage dealt by traps.
+Additionally, you can use your Sage Advice feature to teach friendly creatures about various types of traps, following the same rules of that feature. When you do so, the chosen creatures have resistance to damage dealt by traps.
 
 #### Galactic Explorer
 _**Prerequisite:** 9th level_<br>
@@ -3681,6 +4083,9 @@ You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on 
 ## Slicer Pursuit
 Across the galaxy one can find numerous pseudonyms and false identities belonging to the hackers and cyber-infiltrators that call the world of electronics home. Those scholars who choose the Slicer Pursuit put their impressive intellectual prowess to work in the field of technology, to ends both benevolent and malicious.
 
+### Bonus Proficiencies
+You gain proficiency with the slicer's kit.
+
 ### Techcasting
 When you choose this pursuit at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
@@ -3696,7 +4101,7 @@ Many tech powers can be overcharged, consuming more tech points to create a grea
 You may only cast tech powers at 4th-level once. You regain the ability to do so after a long rest.
 
 #### Techcasting Ability
-Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.
+Intelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.
 
 ___
 
@@ -3717,8 +4122,6 @@ You use a wristpad (found in chapter 5 of the Player's Handbook) as a tech focus
 
 ### Systems Hijack
 Also at 3rd level, when the target of your Critical Analysis is a droid or construct, or wearing or holding a techcasting focus, that creature is a viable target for any tech powers with you cast with a range of touch.
-
-Additionally, when the target of your Critical Analysis casts a tech power, you can use your reaction to identify the tech power being cast, and at what level.
 
 \columnbreak
 
@@ -3748,6 +4151,8 @@ Additionally, when the target of your Critical Analysis casts a tech power, you 
 
 </div>
 
+&emsp;Additionally, when the target of your Critical Analysis casts a tech power, you can use your reaction to identify the tech power being cast, and at what level.
+
 ### Additional Maneuvers
 Lastly at 3rd level, you gain access to new maneuvers which reflect your understanding of tech casting. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
 
@@ -3758,13 +4163,15 @@ When a creature makes a saving throw against a tech power you cast, you may expe
 When you cast a tech power of 1st-level or higher that has a casting time of 1 action, you can expend a superiority die to change the casting time to 1 bonus action for this casting.
 
 #### Firewall
-When you or an ally you can see within 60 feet make a saving throw against a tech power, you can use your reaction to expend a superiority die, adding the number rolled to the result of that saving throw.
+When you or an ally you can see within 60 feet make a saving throw against a tech power, you can use your 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
 \pagebreak
 
 <div style='margin-top:23px'></div>
+
+reaction to expend a superiority die, adding the number rolled to the result of that saving throw.
 
 #### Hacked Communications
 As an action, you may expend a superiority die, and choose any number of creatures that you can see within 60 feet of you that have commlinks, headcomms, or other such communications devices. Each creature must succeed on a Constitution saving throw or take sonic damage equal to the number rolled on the dice + your Intelligence modifier (minimum of one). Additionally, on a failed save, their communication devices are disabled until rebooted.
@@ -4277,7 +4684,9 @@ You know two maneuvers of your choice, which are detailed under "Maneuvers" belo
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
 
 #### Superiority Dice
-You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the Deadeye Technique Focused Superiority table. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the Deadeye Technique Focused Superiority table. This die changes as you gain scout levels, as shown in the Focused Superiority column of the Deadeye Technique Focused Superiority table. A superiority die is expended when you use it. 
+
+You regain all of your expended superiority dice when you finish a short or long rest.
 
 #### Saving Throws
 Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
@@ -4654,14 +5063,14 @@ At 18th level, when a creature fails the saving throw against your Force-Empower
 In the distant reaches of the galaxy obscure knowledge and forgotten secrets of the Force can sometimes be found. While other Force-sensitive may find themselves touched by this secret knowledge of the Force, those sentinels who follow the Path of Etherealness instead find themselves grabbed. Held onto by mysterious aspects of the Force that refuse to let go, these sentinels find themselves able to manipulate the universe around them.
 
 ### Aberrant Resilience
-Starting when you choose this calling at 3rd level, you learn the *resistance* force power, which does not count against your total powers known. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, this power no longer requires concentration for you when you target yourself with it, and the power's d4 increases to d6 at 5th level, d8 at 11th level, and d10 at 17th level.
+Starting when you choose this calling at 3rd level, you learn the *resistance* force power, which does not count against your total powers known. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, this power no longer requires concentration for you when you target yourself with it.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
 ### Force-Empowered Kinesis
-Also at 3rd level, your connection to the Force allows you to briefly become incorporeal. When you use a Force-Empowered Self feature, until the end of your turn, you can move through other creatures and objects as if they are difficult terrain. If you end this movement inside a solid object or creature, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. This damage can't be reduced or negated in any way.
+Also at 3rd level, your connection to the Force allows you to briefly become incorporeal. When you use a Force-Empowered Self option, until the end of your turn, you can move through other creatures and objects as if they are difficult terrain. If you end this movement inside a solid object or creature, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. This damage can't be reduced or negated in any way.
 
 ### Out of Touch
 At 7th level, as an action, you can step out of sync with the rest of the universe for 1 minute. At the start of each of your turns, roll a d20. If you roll 11 or higher, you and everything your are wearing or carrying are completely invisible to all beings, except for those with truesight. On a roll of 10 or lower, you instead appear as an indistinguishably blurred form roughly your normal height and weight, though a being with truesight sees you normally. Regardless of your appearance, for the duration, your speed doubles, you gain a flying speed equal to your walking speed, and you can move through creatures and objects willingly though you can not affect them and they can not affect you. You can end this feature early on your turn (no action required). When this effect ends, if you are inside a solid object or creature, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. 
@@ -4672,7 +5081,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 By 13th level, you have advantage on attack rolls you make against creatures if you haven't dealt damage to them or affected them with a force power since the start of your previous turn.
 
 ### Aberrant Self
-At 18th level, you no longer suffer the frailty of old age, and you can't be aged abnormally. You can still die of old age, however. In addition, you no longer need food or water, and you no longer need to sleep. Lastly, the first time you take damage on each of your turns, you can roll your Kinetic Combat die and reduce the damage by that amount.
+At 18th level, you no longer suffer the frailty of old age, and you can't be aged abnormally. You can still die of old age, however. Additionally, you no longer need food or water, and you no longer need to sleep. Lastly, the first time you take damage on each of your turns, you can roll your Kinetic Combat die and reduce the damage by that amount.
 
 <img src='https://www.gmbinder.com/images/U2oBpf4.png' style='position:absolute;bottom:0px;left:-70px;width:610px;;z-index:1000' />
 
