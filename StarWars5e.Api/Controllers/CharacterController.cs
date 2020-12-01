@@ -45,6 +45,8 @@ namespace StarWars5e.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Character>>> Get()
         {
+            HttpContext.VerifyUserHasAnyAcceptedScope("api.readCharacterData");
+
             var owner = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
             if (string.IsNullOrWhiteSpace(owner))
