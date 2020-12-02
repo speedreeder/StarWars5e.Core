@@ -71,7 +71,7 @@ namespace StarWars5e.Api.Controllers
                 return BadRequest("No userId found.");
             }
 
-            if (string.IsNullOrWhiteSpace(characterRequest.Id) || !Guid.TryParse(characterRequest.Id, out _))
+            if (!string.IsNullOrWhiteSpace(characterRequest.Id) && !Guid.TryParse(characterRequest.Id, out _))
             {
                 return BadRequest("Invalid character Id.");
             }
