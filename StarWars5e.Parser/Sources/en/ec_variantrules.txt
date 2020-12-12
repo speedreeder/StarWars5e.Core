@@ -2,6 +2,43 @@
 
 <div class='wide'> 
 
+# Alternative At-Wills and Extra Attack
+
+</div>
+
+One of my many gripes with 5e is that its cantrips scale with character level. I find that this doesn't make sense both mechanically and logically; if I multiclass 2 levels of fighter and 3 levels of warlock, I don't magically get Extra Attack, but for some reason I can create two beams when I cast *eldritch blast*. If you want to try alternative at-will power scaling, consider this variant rule.
+
+### Caster Level
+Instead of having at-will powers that improve at 5th, 11th, and 17th *character* level, instead have them scale at 5th, 11th, and 17th *caster* level. Caster level is, effectively, what you're calculating when you are determining your Max Power Level while multiclassing. 
+
+To determine your caster level, you divide your class's potential Max Power Level by 9, and then multiply the result by your number of levels in that class. That number is your caster level. For the full-caster classes—consular and engineer—this will be the same as your level in that class. For other casting classes and archetypes, your caster level will be lower than your level in that class.
+
+When multiclassing, you determine your caster level by dividing each class's potential Max Power Level by 9, multiplying the result by the number of levels in that class, adding the results for each class together, and rounding down the final result. For instance, if you have four levels in Marauder Approach berserker (1.77) and three levels in guardian (1.67), your caster level is 3.
+
+### Results
+Ultimately, the results of this variant rule mean that a 20th-level fighter who took the Force-Sensitive feat and the *shock* force power is no longer as potent with *shock* as a 20th-level consular. Both mechanically and flavorfully, this aligns to me. Additionally, it means the consular who focuses on the Force is also better with their at-will powers than an equal level guardian or sentinel, which again makes more sense mechanically and flavorfully. 
+
+> ##### Favored At-Wills
+> Some archetypes, such as most sentinel archetypes or Soresu guardian, are built around a specific at-will. Your GM might consider letting characters of that archetype use native scaling. However, if adopting this variant rule, they should only scale with class level in this way, rather than character level.
+
+\columnbreak
+
+### Multiclassing Extra Attack
+If using this variant rule, you might consider allowing characters who multiclass in classes with the Extra Attack feature to add their class levels together to gain that feature. Their combined level in those classes must satisfy the level requirement in both classes to receive this benefit, however. 
+
+For instance, a character with 2 levels in fighter and 3 levels in berserker would be eligible for Extra Attack, since their combined levels would meet the 5th-level requirement for Extra Attack in both classes. 
+
+On the other hand, a character with 2 levels in fighter and 3 levels in armormech engineer, would not be eligible for Extra Attack, since their combined levels levels don't meet the 6th-level requirement for Extra Attack in armormech engineer. If that character gains an additional level in either class, or a level in another class with the Extra Attack feature, however, they would now meet the requirements for Extra Attack in all three classes, and thus would gain the feature.
+
+If a class or archetype has a restriction to their Extra Attack feature, such as armormech engineer requiring that you are wearing your modified armor or wielding your modified shield to gain the benefit, the character must meet that requirement to gain the benefits of Extra Attack while multiclassing.
+
+#### Greater Extra Attack
+No characters should receive the Greater Extra Attack feature through this multiclassing variant, since that feature is exclusive to fighter.
+
+\pagebreak
+
+<div class='wide'> 
+
 # Longer Rests
 
 </div>
