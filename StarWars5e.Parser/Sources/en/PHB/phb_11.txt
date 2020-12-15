@@ -574,7 +574,7 @@ ___
 
 Up to three creatures of your choice that you can see within range must make Charisma saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-***Force Potency.*** When you cast this power with a force slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
+***Force Potency.*** When you cast this power with a force slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to d6, d8, and d10, respectively.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -953,7 +953,7 @@ ___
 - **Range:** Self
 - **Duration:** Concentration, up to 1 hour 
 
-You become invisible until the power ends. Anything you are wearing or carrying is invisible as long as it is on your person. The power ends if you attack or cast a power.
+You become invisible until the power ends. Anything you are wearing or carrying is invisible as long as it is on your person. The power ends if you attack, cast a power, or otherwise take a hostile action.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -1009,9 +1009,7 @@ ___
 - **Range:** 30 feet
 - **Duration:** Instantaneous
 
-You select a weapon or object being worn or carried by a Large or smaller creature within range. The creature must make a Strength or Dexterity saving throw (the creature chooses the ability to use). If the item is being worn, this save is made with disadvantage. On a failed save, the creature takes 1d4 force damage and the item is pulled directly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
-
-This power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+You select a weapon or object being worn or carried by a Large or smaller creature within range. The creature must make a Strength or Dexterity saving throw (the creature chooses the ability to use). If the item is being carried, this save is made with advantage. On a failed save, the item is pulled directly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
 
 #### Force Enlightenment
 _2nd-level light side power_
@@ -1341,7 +1339,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** 1 hour
 
-You receive a vision of the future through the Force, giving you or one willing creature you can see within range a chance to change fate. When the chosen creature makes an attack roll, an ability check, or a saving throw before the power ends, it can dismiss this power on itself to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this power on itself to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled. 
+You receive a vision of the future through the Force, giving you or one willing creature you can see within range a chance to change fate. When the chosen creature makes an ability check, an attack roll, or a saving throw before the power ends, it can dismiss this power on itself to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this power on itself to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled. 
 
 If the original d20 roll has advantage or disadvantage, the creature rolls the additional d20 after advantage or disadvantage has been applied to the original roll.
 
@@ -1716,9 +1714,7 @@ ___
 
 As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power's range, otherwise the power fails. 
 
-On a hit, the target takes 2d8 damage of the same type as the weapon's damage and must make a 
-
-Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target's next turn deals an additional 1d10 force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect.
+On a hit, the target takes 2d8 damage of the same type as the weapon's damage and must make a Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target's next turn deals an additional 1d10 force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect.
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the force damage increases by 1d10 for each slot level above 2nd.
 
@@ -2251,7 +2247,7 @@ _At-will light side power_
 ___
 - **Casting Time:** 1 action
 - **Range:** Touch
-- **Duration:** Instanteous
+- **Duration:** Instantaneous
 
 You strike a creature with the righteous fury of the Force. Make a melee force attack against the target, if the attack hits, the target takes force damage depending on its alignment: a dark-aligned creature takes 1d12 force damage, a balanced creature takes 1d10 force damage, and a light-aligned creature takes 1d8 force damage.
 
@@ -2804,7 +2800,7 @@ ___
 
 You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the power ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
 
-***Force Potency.*** When you cast this power with a force slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
+***Force Potency.*** When you cast this power with a force slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to d6, d8, and d10, respectively.
 
 #### Wall of Light
 _6th-level light side power_

@@ -60,8 +60,6 @@ The GM might require you to use an action for any of these activities when it ne
 
 \pagebreakNum
 
-<div style='margin-top:23px'></div>
-
 #### Other Activity on Your Turn
 Lastly, your turn can include a variety of flourishes that require neither your action nor your move.
 
@@ -86,9 +84,7 @@ You can communicate however you are able, through brief utterances and gestures,
 > - don a mask
 > - pull the hood of your cloak up and over your head
 > - put your ear to a door
-> - kick a small stone
 > - turn a key in a lock
-> - tap the floor with a 10-foot pole
 > - hand an item to another character
 
 ### Reactions
@@ -105,13 +101,20 @@ Your movement can include jumping, climbing, and swimming. These different modes
 
 The "Special Types of Movement'' section in Chapter 8 gives the particulars for jumping, climbing, and swimming.
 
+#### Actions That Grant Movement
+If an action, bonus action, or reaction allows you to move as part of its effects, this additional movement does not count towards your speed. If it does not require an action, however, it does count towards your speed.  
+
 \columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;For example, if a creature uses the Ataru lightsaber form, since adopting that form uses a bonus action, it does not count towards the creature's speed. A Path of Focus sentinel's Blade Dance feature, however, does count towards it speed since it doesn't use an action.
 
 ### Breaking Up Your Move
 You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
 
 #### Moving Between Attacks
-If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Extra Attack feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again.
+If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter with the Extra Attack feature who has a speed of 25 feet could move 10 feet, attack, move 15 feet, and then attack again.
 
 #### Using Different Speeds
 If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.
@@ -128,7 +131,7 @@ Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are exa
 ### Being Prone
 Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in appendix A.
 
-You can **drop prone** without using any of your speed. **Standing up** takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
+You can **drop prone** without using any of your speed. **Standing up** takes more effort, costing an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
 
 To move while prone, you must **crawl** or use powers that teleport. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement.
 
@@ -312,7 +315,7 @@ In a fight, everyone is constantly watching for enemies to drop their guard. You
 
 You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.
 
-You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy.
+You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something unwillingly moves you without using your movement, action, bonus action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy. However, you do provoke an opportunity attack if a power such as *force jump*, or an ally's Formation fighting style feature, causes you to move out of an enemies' reach, unless that feature says otherwise.
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
@@ -357,7 +360,7 @@ If a weapon has the thrown property, you can throw the weapon, instead of making
 ## Cover
 Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.
 
-There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.
+There are four degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.
 
 A target with **one-quarter cover** has a +2 bonus to AC and Dexterity saving throws. A target has one-quarter cover if an obstacle blocks at least one-fourth of its body, such as a thin pillar.
 
@@ -389,9 +392,9 @@ When attacking with a **weapon,** you add your ability modifier—the same modifie
 If a power or other effect deals damage to **more than one target** at the same time, roll the damage once for all of them. For example, when an engineer casts *explosion*, the power's damage is rolled once for all creatures caught in the blast.
 
 #### Critical Hits
-When you score a critical hit, you get to roll all of the attack's damage dice twice, including any additional dice such as the operative's Sneak Attack feature, and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
+When you score a critical hit, you get to roll all of the attack's damage dice twice, including any additional damage dice, and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
 
-***Critical Hit Range.*** The critical hit range of a weapon determines on what d20 results a weapon scores a critical hit. Typically, a weapon has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the weapon scores a critical hit on a roll of 19 or 20.
+***Critical Hit Range.*** The critical hit range of a weapon determines on what d20 results a weapon scores a critical hit. Typically, a weapon has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the weapon scores a critical hit on a roll of 19 or 20. A critical hit range cannot exceed 5, scoring a critical hit on 16-20.
 
 #### Damage Types
 Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.

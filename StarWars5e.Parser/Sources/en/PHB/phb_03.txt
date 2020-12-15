@@ -96,7 +96,7 @@ What led you to take up the adventuring life? Were you lured to settled planets 
 #### Quick Build
 You can make a berserker quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the mercenary background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -110,15 +110,15 @@ You can make a berserker quickly by following these suggestions. First, put your
 |	 3rd	|	+2	|	Danger Sense, Berserker Approach        |	3	|	+2	| 2 |
 |	 4th	|	+2	|	Ability Score Improvement   	        |	3	|	+2	| 2 |
 |	 5th	|	+3	|	Extra Attack                            |	3	|	+2	| 2 |
-|	 6th	|	+3	|	Path feature                	        |	4	|	+2	| 2 |
+|	 6th	|	+3	|	Approach feature                	    |	4	|	+2	| 2 |
 |	 7th	|	+3	|	Feral Impulse	                        |	4	|	+2	| 3 |
 |	 8th	|	+3	|	Ability Score Improvement   	        |	4	|	+2	| 3 |
 |    9th	|	+4	|	Brutal Critical (one die)	            |	4	|	+3	| 3 |
-|	10th	|	+4	|	Path Feature	                        |	4	|	+3	| 3 |
+|	10th	|	+4	|	Approach feature	                    |	4	|	+3	| 3 |
 |	11th	|	+4	|	Relentless Rage	                        |	4	|	+3	| 3 |
 |	12th	|	+4	|	Ability Score Improvement   	        |	5	|	+3	| 3 |
 |	13th	|	+5	|	Brutal Critical (two dice)    	        |	5	|	+3	| 4 |
-|	14th	|	+5	|	Path Feature                	        |	5	|	+3	| 4 |
+|	14th	|	+5	|	Approach feature                	    |	5	|	+3	| 4 |
 |	15th	|	+5	|	Persistent Rage	                        |	5	|	+3	| 4 |
 |	16th	|	+5	|	Ability Score Improvement   	        |	5	|	+4	| 4 |
 |	17th	|	+6	|	Brutal Critical (three dice)	        |	6	|	+4	| 5 |
@@ -166,7 +166,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Berserker |   5d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -180,9 +180,9 @@ While raging, you gain the following benefits:
 
 If you are able to cast powers, you can't cast them or concentrate on them while raging.
 
-Your rage lasts for 1 minute. It ends early if you are knocked unconscious, you don heavy armor, or if your turn ends and you haven't attacked a hostile creature or taken damage since your last turn. You can also end your rage on your turn as a bonus action.
+Your rage lasts for 1 minute. It ends early if you are knocked unconscious, you don heavy armor, or if your turn ends and you haven't taken a hostile action or taken damage since your last turn. You can also end your rage on your turn as a bonus action.
 
-Once you have raged the number of times shown for your berserker level in the Rages column of the berserker table, you must finish a long rest before you can rage again.
+You can enter a rage a number of times as shown for your berserker level in the Rages column of the berserker table. You regain all expended uses when you complete a long rest.
 
 ### Unarmored Defense
 Also at 1st level, while you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.
@@ -235,7 +235,7 @@ At 20th level, you embody the power of the wilds. Your Strength or Dexterity sco
 
 Additionally, you can enter rage an unlimited number of times, and entering rage no longer requires your bonus action.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -310,7 +310,7 @@ For berserkers, rage is an internal<br> reservoir where pain, grief, and<br> ang
 
 <img src='https://www.gmbinder.com/images/gb8mhq2.png' style='position:absolute;bottom:0px;right:70px;width:325px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -342,7 +342,7 @@ When you choose this approach at 3rd level, you gain proficiency in martial blas
 
 <img src='https://www.gmbinder.com/images/ahaCpxp.png' style='position:absolute;bottom:-12px;left:-48px;width:630px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -385,15 +385,15 @@ ___
 <div style='margin-top:27px'></div>
 
 ### Furious Force
-Also at 3rd level, you can cast force powers while raging as long as the power's casting time is no more than 1 action, the power does not require concentration, and you are not wearing heavy armor or wielding a medium or heavy shield. While raging, you add your rage damage to damage rolls from force powers you cast. If a force power damages more than one target, you may only apply your rage damage to one of the targets. 
+Also at 3rd level, you can cast force powers while raging as long as the power's casting time is no more than 1 action, the power does not require concentration, and you are not wearing heavy armor or wielding a medium or heavy shield. While raging, you add your rage damage to damage rolls from force powers you cast that require a force attack or saving throw. If a force power damages more than one target, you may only apply your rage damage to one of them. 
 
-Casting force powers during rage counts as attacking for the purposes of maintaining rage, and you can use your Reckless Attack feature to gain advantage when casting a force power that requires an attack roll.
+Casting force powers during rage counts as attacking for the purposes of maintaining rage, and you can use your Reckless Attack feature to gain advantage when casting a force power that requires a force attack.
 
 <img src='https://www.gmbinder.com/images/0ndBugv.png' style='position:absolute;bottom:27px;right:-384px;width:455px;z-index:1000;' />
 
 <img src='https://www.gmbinder.com/images/tVrUTNS.png' style='position:absolute;bottom:27px;right:-230px;width:845px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -442,7 +442,7 @@ At 14th level, you can expel the might of your rage all at once to unleash a dev
 
 <img src='https://www.gmbinder.com/images/0ndBugv.png' style='position:absolute;bottom:27px;left:-75px;width:455px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -466,7 +466,7 @@ At 14th level, the precision with which you act during your rage causes you to b
 
 <img src='https://www.gmbinder.com/images/WTnjBcN.png' style='position:absolute;bottom:-20px;right:-48px;width:550px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -500,7 +500,7 @@ Once you've used this feature, you must complete a long rest before you can use 
 
 <img src='https://www.gmbinder.com/images/Fztc5iP.png' style='position:absolute;bottom:6px;left:-153px;width:835px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
 \pagebreakNum
 
@@ -535,7 +535,7 @@ While creating your consular, consider your personal philosophy in regards to th
 #### Quick Build
 You can make a consular quickly by following these suggestions. First, make Wisdom or Charisma your highest ability score, followed by Dexterity. Second, choose the Jedi or Sith background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -603,7 +603,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Consular  |   5d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -644,9 +644,9 @@ Also at 1st level, you have learned to regain some of your energy by briefly med
 \columnbreak
 
 ### Force-Empowered Casting
-At 2nd level, you gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two of the following Empowerment options of your choice. You gain another one at 10th and 17th level.
+At 2nd level, you gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two of the following Force-Empowered Casting options of your choice. You gain another one at 10th and 17th level.
 
-You can use only one Empowerment option on a power when you cast it, unless otherwise noted.
+You can use only one Force-Empowered Casting option on a power when you cast it, unless otherwise noted.
 
 #### Careful Power
 When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from the power's full force. To do so, you spend 1 additional force point and choose a number of those creatures up to your Wisdom or Charisma modifier (your choice, minimum of one). A chosen creature automatically succeeds on its saving throw against the power.
@@ -654,7 +654,7 @@ When you cast a power that forces other creatures to make a saving throw, you ca
 #### Distant Power
 When you cast a power that has a range of 5 feet or greater, you can spend 1 additional force point to double the range of the power.
 
-When you cast a power that has a range of touch, you can spend 1 additional force point to make the range of the power 30 feet.
+Alternatively, when you cast a power that has a range of touch, you can spend 1 additional force point to make the range of the power 30 feet.
 
 #### Extended Power
 When you cast a power that has a duration of 1 minute or longer, you can spend 1 additional force point to double its duration, to a maximum duration of 24 hours.
@@ -665,7 +665,7 @@ When you cast a power that forces a creature to make a saving throw to resist it
 #### Improved Power
 When you roll damage for a power, you can spend 1 additional force point to reroll a number of the damage dice up to your Wisdom or Charisma modifier (your choice, minimum of one). You must use the new rolls.
 
-You can use Improved Power even if you have already used a different Empowerment option during the casting of the power.
+You can use Improved Power even if you have already used a different Force-Empowered Casting option during the casting of the power.
 
 #### Lingering Power
 When you cast a power that requires concentration to maintain you can choose to spend 3 additional force points. If you do, when you lose concentration on the power, the power will not end until the end of your next turn.
@@ -673,7 +673,7 @@ When you cast a power that requires concentration to maintain you can choose to 
 #### Pinpoint Power 
 When you cast a power that allows you to force creatures in an area to make a saving throw you can instead spend 1 force point and make a ranged force attack against a single target that would be in the range. On a hit the target suffers the effects as though they failed their saving throw.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -683,13 +683,20 @@ When you cast a power that allows you to force creatures in an area to make a sa
 When you cast a power that has a casting time of 1 action, you can spend 2 additional force points to change the casting time to 1 bonus action for this casting.
 
 #### Refocused Power 
-When you are forced to make a Constitution saving throw to maintain concentration on a power you can use your reaction and spend 2 force points to automatically succeed on the saving throw. You can use this option even if you have already used a different Empowerment option during the casting of the power. 
+When you are forced to make a Constitution saving throw to maintain concentration on a power you can use your reaction and spend 2 force points to automatically succeed on the saving throw.
+
+You can use Refocused Power even if you have already used a different Force-Empowered Casting option during the casting of the power.
+
+#### Seeking Power
+If you miss with a force power that calls for an attack roll, you can spend 2 force points to reroll the attack. You must use the new roll.
+
+You can use Seeking Power even if you have already used a different Force-Empowered Casting option during the casting of the power.
 
 #### Twinned Power
 When you cast a power that targets only one creature and doesn't have a range of self, you can spend a number of additional force points equal to the power's level to target a second creature in range with the same power (1 force point if the power is at-will).
 
 ### Force Shield
-Also at 2nd level, you learn how to defend yourself purely through your strength with the Force. When you are hit by an attack, you can use your reaction to shroud yourself in Force energy. Until the start of your next turn, you have a bonus to AC equal to your Wisdom or Charisma modifier (your choice, a minimum of +1). This includes the triggering attack.
+Also at 2nd level, you learn how to defend yourself purely through your strength with the Force. When you are hit by an attack, you can use your reaction to shroud yourself in Force energy. Until the start of your next turn, you have a bonus to AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1). This includes the triggering attack.
 
 You can use this feature twice. You gain an additional use at 5th, 11th, and 17th level in this class. You regain all expended uses when you finish a long rest.
 
@@ -716,14 +723,14 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### One with the Force
 At 20th level, your attunement to the Force is absolute. Your Wisdom or Charisma score increases by 4, and your maximum for this score increases by 4. Additionally, you gain mastery over a single force power, and can cast it with little effort. Choose one 3rd-level force power that you know as your signature power. You can cast it once at 3rd level without expending force points. When you do so, you can't do so again until you finish a short or long rest.
 
-&emsp;If you want to cast it at a higher level, you must<br> &emsp;&emsp;expend force points as normal.
+If you want to cast it at a higher level, you must expend force points as normal.
 
-## &nbsp;Consular Traditions
+## Consular Traditions
 Different consulars select different traditions, called Ways, to follow as they hone their powers. Your tradition grants you features at 3rd, 6th, 10th, 14th, and 18th level.
 
-<img src='https://www.gmbinder.com/images/BYdyPsr.png' style='position:absolute;bottom:0px;left:0px;width:520px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/BYdyPsr.png' style='position:absolute;bottom:0px;left:0px;width:410px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -757,7 +764,7 @@ Starting at 18th level, you have advantage on saving throws against force powers
 
 <img src='https://www.gmbinder.com/images/KuUWgUr.png' style='position:absolute;bottom:-100px;right:-380px;width:1063px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -767,10 +774,10 @@ Of all of the dark arts of the Force, little can match the spectacle and devasta
 ### Shocking Affinity
 When you choose this tradition at 3rd level, when you cast a force power that deals lightning damage, you can use Wisdom or Charisma as your forcecasting ability for it.
 
-Additionally, when you cast a damage dealing force power that requires an attack roll or saving throw, you can cause that power to instead deal lightning damage. If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. If you hit with the power, or the target fails the power's saving throw, affected creatures become *shocked* until the start of your next turn. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
+Additionally, when you cast a damage-dealing force power that requires a force attack or saving throw, you can cause that power to instead deal lightning damage. If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. If you hit with the power, or the target fails the power's saving throw, affected creatures become *shocked* until the start of your next turn. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
 
 ### Potent Lightning
-At 6th level you add your Wisdom or Charisma modifier (your choice, a minimum of +1) to any damage you deal with force powers that deal lightning damage that don't already include that modifier.
+At 6th level you add your governing ability modifier (minimum of +1) to any damage you deal with force powers that deal lightning damage that don't already include that modifier.
 
 ### Blistering Rebuke
 Beginning at 10th level, when a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. On a failed save, the creature takes 1d10 plus your consular level lightning damage, is pushed back 10 feet, and becomes *shocked* until the end of their next turn. On a successful save, the creature takes half as much damage and isn't moved or *shocked*.
@@ -781,13 +788,13 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 At 14th level, you gain resistance to lightning damage. Additionally, force powers you cast ignore resistance to lightning damage.
 
 ### Unlimited Power
-Starting at 18th level, you can increase the power of your simpler lightning force powers. When you cast a<br> &emsp;&emsp;force power of 6th-level or lower that deals<br> &emsp;&emsp;lightning damage, you can deal maximum damage<br> &emsp;&emsp;with that power.
+Starting at 18th level, you can increase the power of your simpler lightning force powers. When you cast a<br> &emsp;&emsp;force power of 1st through 6th level that deals<br> &emsp;&emsp;lightning damage, you can deal maximum damage<br> &emsp;&emsp;with that power.
 
 &emsp;&emsp;&emsp;&emsp;You can use this feature with no adverse<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;effects a number of times equal to<br> &emsp;&emsp;&emsp;&emsp;&emsp;your Wisdom or Charisma modifier (your<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;choice, a minimum of once). If you use<br> &emsp;&emsp;&emsp;this feature beyond this before you finish a long<br> &emsp;&emsp;&emsp;rest, you take 2d12 necrotic damage for each<br> &emsp;&emsp;&emsp;&emsp;level of the power, immediately after you cast<br> &emsp;&emsp;&emsp;&emsp;&emsp;it. Each time you use this feature again<br> &emsp;&emsp;&emsp;&emsp;&emsp;before finishing a long rest, the necrotic<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;damage per power level increases by<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1d12. This damage can not<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;be reduced in any way.
 
 <img src='https://www.gmbinder.com/images/6tuXtEr.png' style='position:absolute;bottom:-13px;left:-33px;width:565px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -797,7 +804,7 @@ The rejuvenating power of the Force is incredible, and the consular is the maste
 ### Disciple of Life
 When you choose this tradition at 3rd level, when you cast a force power that restores hit points, you can use Wisdom or Charisma as your forcecasting ability for it. 
 
-Additionally, whenever you use a power of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the power's level.
+Additionally, whenever you use a force power of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the power's level.
 
 ### Preserve Life
 At 6th level, as an action, you can channel the Force and evoke healing energy that restores a number of hit points equal to five times your consular level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half its hit point maximum. This feature has no effect on droids or constructs.
@@ -821,7 +828,7 @@ Starting at 18th level, when you would normally roll one or more dice to restore
 
 <img src='https://www.gmbinder.com/images/Aceclyv.png' style='position:absolute;bottom:0px;right:-100px;width:700px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -870,7 +877,7 @@ Creatures that interact with you must make a Wisdom saving throw against your un
 
 <img src='https://www.gmbinder.com/images/wOcpE22.png' style='position:absolute;bottom:23px;left:-70px;width:395px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
 \pagebreakNum
 
@@ -905,7 +912,7 @@ While creating your engineer character, consider what your primary skill set is 
 #### Quick Build
 You can make an engineer quickly by following these<br> suggestions. First, make Intelligence your highest<br> ability score. Your next-highest score should be<br> Constitution. Second, choose the scientist<br> background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -919,7 +926,7 @@ You can make an engineer quickly by following these<br> suggestions. First, make
 |	 3	|	+2	|	Engineering Discipline                      |	 9	|	  6	|	2nd	| d4| 4 |
 |	 4	|	+2	|	Ability Score Improvement					|	10	|	  8	|	2nd	| d4| 4 |
 |	 5	|	+3	|	Quick Thinking    	                        |	12	|	 10	|	3rd	| d6| 5 |
-|	 6	|	+3	|	Engineering Discipline feature				|	13	|	 12	|	3rd	| d6| 5 |
+|	 6	|	+3	|	Discipline feature				            |	13	|	 12	|	3rd	| d6| 5 |
 |	 7	|	+3	|	—                       					|	15	|	 14	|	4th	| d6| 5 |
 |	 8	|	+3	|	Ability Score Improvement               	|	16	|	 16	|	4th	| d6| 5 |
 |	 9	|	+4	|	—											|	18	|	 18	|	5th	| d8| 6 |
@@ -927,11 +934,11 @@ You can make an engineer quickly by following these<br> suggestions. First, make
 |	11	|	+4	|	—                       					|	21	|	 22	|	6th	| d8| 7 |
 |	12	|	+4	|	Ability Score Improvement					|	22	|	 24	|	6th	| d8| 7 |
 |	13	|	+5	|	—											|	23	|	 26	|	7th	|d10| 8 |
-|	14	|	+5	|	Engineering Discipline feature				|	24	|	 28	|	7th	|d10| 8 |
+|	14	|	+5	|	Discipline feature				            |	24	|	 28	|	7th	|d10| 8 |
 |	15	|	+5	|	Infuse Item (+3)        				    |	25	|	 30	|	8th	|d10| 8 |
 |	16	|	+5	|	Ability Score Improvement					|	26	|	 32	|	8th	|d10| 8 |
 |	17	|	+6	|	—											|	27	|	 34	|	9th	|d12| 9 |
-|	18	|	+6	|	Engineering Discipline feature				|	28	|	 36	|	9th	|d12| 9 |
+|	18	|	+6	|	Discipline feature				            |	28	|	 36	|	9th	|d12| 9 |
 |	19	|	+6	|   Ability Score Improvement					|	29	|	 38	|	9th	|d12| 9 |
 |	20	|	+6	|	Tech Mastery								|	30	|	 40	|	9th	|d12| 9 |
 
@@ -974,7 +981,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Engineer  |   6d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1010,7 +1017,7 @@ ___
 ___
 
 #### Techcasting Focus
-You use a wristpad (found in chapter 5) or your tool proficiencies granted by this class as a techcasting focus for your tech powers.
+You use a wristpad (found in chapter 5) or your tool proficiencies granted by this class as a tech focus for your tech powers.
 
 ### Potent Aptitude
 Also at 1st level, your technological experience lends you an uncommon insight that you can use to bolster your allies. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Potent Aptitude die, a d4. This die changes as you gain engineer levels, as shown in the Potent Aptitude column of the engineer table.
@@ -1048,7 +1055,7 @@ Additionally, when you roll initiative and have no uses of Potent Aptitude left,
 ## Engineering Disciplines
 The wide range of tool applications gives birth to well defined distinctions between different engineering disciplines. Each discipline focuses on maximizing the personal use of a certain tool. Your discipline grants you features at 3rd, 6th, 14th, and 18th level.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1087,7 +1094,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 
 <img src='https://www.gmbinder.com/images/68MyqCJ.png' style='position:absolute;bottom:28px;left:-33px;width:570px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1158,7 +1165,7 @@ _**Prerequisite:** 5th level, Armor_<br>
 You enhance your suit, making it difficult to move. As a bonus action, you can anchor your feet to the ground. While anchored, your speed is 0, you have advantage on Strength checks and Strength saving throws, and your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.
 
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1234,7 +1241,7 @@ You modify your modified armor gauntlet with a blaster weapon with which you are
 _**Prerequisite:** Armor_<br>
 You can integrate a single weapon that weighs no more than 8 lb. into your armor. While integrated, that weapon gains the hidden property. Additionally, you have advantage on Strength saving throws to avoid being disarmed.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1275,7 +1282,7 @@ Starting at 18th level, when you use your Targeting Matrix feature, and the tech
 
 <img src='https://www.gmbinder.com/images/96P54SK.png' style='position:absolute;bottom:14px;right:-80px;width:685px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1355,7 +1362,7 @@ _**Prerequisite:** 5th level_<br>
 _**Prerequisite:** Jagged Oscillator_<br>
 Your weapon's critical hit range increases by 1.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1435,7 +1442,7 @@ As a bonus action, you can coat your weapon in a thin layer of poison for 1 minu
 
 Once you've used this feature, you must complete a long rest before you can use it again.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1474,7 +1481,7 @@ Starting at 18th level, when a creature who has one of your barriers within 30 f
 
 <img src='https://www.gmbinder.com/images/rMiCs3H.png' style='position:absolute;bottom:-5px;left:130px;width:280px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1534,7 +1541,7 @@ You can cast the *override interface* tech power at 5th level without spending t
 Once you've used this feature, you must complete a long rest before you can use it again.
 
 #### Jet Pack
-You add integrate a jet pack into your gadgeteer harness to grant you temporary, limited flight. Activating or deactivating the jets requires a bonus action and, while active, you have a flying speed of 30 feet. 
+You integrate a jet pack into your gadgeteer harness to grant you temporary, limited flight. Activating or deactivating the jets requires a bonus action and, while active, you have a flying speed of 30 feet. 
 
 The jet pack last for 1 minute before deactivating. Once the jets have been activated, they can't be activated again until you finish a short or long rest.
 
@@ -1562,7 +1569,7 @@ _**Prerequisite:** 9th level_<br>
 _**Prerequisite:** Wrist-Mounted Grappling Hook_<br>
 While your wrist-mounted grappling hook is deployed, when you cast a tech power with a range of touch, your hook can deliver the power as if it had cast it.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1628,7 +1635,7 @@ While the hook is deployed, you can use your bonus action to activate the reel, 
 
 Once you've used this feature, you can't use it again until you recover and reinsert the hook as an action.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1643,7 +1650,7 @@ Also at 3rd level, you learn to enhance your tinker's implements with unstable s
 
 Whenever you cast a tech power of 1st level or higher while wielding your tinkercannon, you risk unexpected complications. Your GM can have you roll a d20. If you roll a 1, roll on the Unstable Engineering Surge table to create a random effect. 
 
-Additionally, your tinkercannon come equipped with 4 overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Unstable Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and each time you do so in<br> excess of your proficiency bonus (resetting<br> on a long rest) your maximum tech points<br> is reduced by 1 until you complete a long<br> rest. You regain all expended overrides<br> when you complete a long rest.
+Additionally, your tinkercannon come equipped with four overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Unstable Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and each time you do so in<br> excess of your proficiency bonus (resetting<br> on a long rest) your maximum tech points<br> is reduced by 1 until you complete a long<br> rest. You regain all expended overrides<br> when you complete a long rest.
 
 ### Unstable Volley
 Lastly at 3rd level, while<br> wielding your tinkercannon,<br> as a bonus action you can<br> expend one use of your Potent<br> Aptitude to launch a volley of<br> unstable energy at a surface<br> located within 30 feet of you<br> that you can see. This energy<br> adheres to the surface for 1<br> minute, after which it erupts.<br> As a part of this bonus <br>action, or as a bonus<br> action on a following<br> turn, you can cause the<br> energy to erupt early.<br> Each creature within<br> 5 feet of it must make a<br> Dexterity saving throw<br> against your tech save DC.<br> A creature takes 1d6 lightning damage on a<br> failed save, or half as much on a successful<br> one. 
@@ -1653,7 +1660,7 @@ The range at which you can launch<br> your volley increases to 60 feet at 9th<br
 This damage increases when you reach certain levels in this class, increasing to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.
 
 ### Creative Destruction
-Beginning at 6th level, you can add your Intelligence modifier (a minimum of +1) to any damage you deal with tech powers and class features. If the tech power or class feature would damage multiple creatures, you can only deal this additional damage to one of them.
+Beginning at 6th level, you can add your governing ability modifier (minimum of +1) to any damage you deal with tech powers and class features that don't already include that modifier. If the tech power or class feature would damage multiple creatures, you can only deal this additional damage to one of them.
 
 If you choose to deal this additional damage, your GM can have you roll on the Unstable Engineering Surge table.
 
@@ -1665,7 +1672,7 @@ Starting at 18th level, the harmful energies of your tech powers and class featu
 
 <img src='https://www.gmbinder.com/images/x1HwRx9.png' style='position:absolute;bottom:0px;right:-10px;width:640px;z-index:1000' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1735,7 +1742,7 @@ Starting at 18th level, the harmful energies of your tech powers and class featu
 
 </div>
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | ENGINEER</div>
 
 \pagebreakNum
 
@@ -1768,33 +1775,33 @@ You can make a fighter quickly by following these<br> suggestions. First, make S
 
 <img src='https://www.gmbinder.com/images/8KgLf2V.png' style='position:absolute;top:92px;right:10px;width:665px;z-index:1000' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
 <div class='classTable wide'>
 
 ##### The Fighter
-|	Level	|	Proficiency Bonus	|	Features	|   Martial<br> Superiority | Superiority<br> Dice    | Maneuvers<br> Known |	
+|	Level	|	Proficiency Bonus	|	Features	|   Combat<br> Superiority | Superiority<br> Dice    | Maneuvers<br> Known |	
 |	:--:	|	:--:	|	:--	|   :--:    |   :--:    |   :--:    |
 |	 1st	|	+2	|	Fighting Style, Second Wind	                        |—|—|—|
 |	 2nd	|	+2	|	Action Surge (one use), Combat Superiority        	| d4|2|2|
-|	 3rd	|	+2	|	Fighting Mastery, Fighter Specialty	            | d4|2|2|
+|	 3rd	|	+2	|	Fighting Mastery, Fighter Specialty	                | d4|2|2|
 |	 4th	|	+2	|	Ability Score Improvement                       	| d4|2|2|
 |	 5th	|	+3	|	Extra Attack                                    	| d6|2|2|
 |	 6th	|	+3	|	Ability Score Improvement                       	| d6|2|2|
-|	 7th	|	+3	|	Fighter Specialty feature                       	| d6|3|3|
+|	 7th	|	+3	|	Specialty feature                       	        | d6|3|3|
 |	 8th	|	+3	|	Ability Score Improvement                       	| d6|3|3|
 |	 9th	|	+4	|	Indomitable (one use)                               | d8|3|3|
-|	10th	|	+4	|	Fighter Specialty feature                       	| d8|3|3|
+|	10th	|	+4	|	Specialty feature                       	        | d8|3|3|
 |	11th	|	+4	|	Greater Extra Attack                               	| d8|4|4|
 |	12th	|	+4	|	Ability Score Improvement                       	| d8|4|4|
 |	13th	|	+5	|	Indomitable (two uses)                          	|d10|4|4|
 |	14th	|	+5	|	Ability Score Improvement                       	|d10|4|4|
-|	15th	|	+5	|	Fighter Specialty feature	                        |d10|5|5|
+|	15th	|	+5	|	Specialty feature	                                |d10|5|5|
 |	16th	|	+5	|	Ability Score Improvement                       	|d10|5|5|
 |	17th	|	+6	|	Action Surge (two uses), Indomitable (three uses)	|d12|5|5|
-|	18th	|	+6	|	Fighter Specialty feature                       	|d12|5|5|
+|	18th	|	+6	|	Specialty feature                       	        |d12|5|5|
 |	19th	|	+6	|	Ability Score Improvement                       	|d12|5|5|
 |	20th	|	+6	|	Master of Combat                                	|d12|5|5|
 
@@ -1838,7 +1845,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Fighter   |	8d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -1864,7 +1871,9 @@ You learn two maneuvers of your choice, which are detailed under "Maneuvers" bel
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
 
 #### Superiority Dice
-You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the fighter table. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the fighter table. This die changes as you gain fighter levels, as shown in the Combat Superiority column of the scholar table. A superiority die is expended when you use it. 
+
+You regain all of your expended superiority dice when you finish a short or long rest.
 
 #### Saving Throws
 Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
@@ -1912,7 +1921,7 @@ When you hit a creature with a weapon attack, you can expend one superiority die
 
 That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -1974,7 +1983,7 @@ Additionally, you can attack four times, instead of once, whenever you take the 
 ## Fighter Specialties
 Different fighters choose different approaches to perfecting their fighting prowess. The fighter specialty you choose to emulate reflects your approach. Your specialty grants you features at 3rd, 7th, 10th, 15th, and 18th level.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -1984,7 +1993,7 @@ Those fighters who choose to become Assault Specialists focus on the development
 ### Brute Force
 When you choose this specialty at 3rd level, once per turn, when you deal damage with a weapon, you can deal an additional 1d4 damage of the same type as the weapon's damage. If this damage would affect multiple creatures, you can only apply this damage bonus to one of them.
 
-This damage increases to 1d6 at 5th level, 1d8 at 9th level, 1d10 and 13th level, and 1d12 at 17th level.
+This damage increases to 1d6 at 5th level, 1d8 at 9th level, 1d10 at 13th level, and 1d12 at 17th level.
 
 ### Remarkable Athlete
 Also at 3rd level, you can add half your proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
@@ -2003,7 +2012,7 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 <img src='https://www.gmbinder.com/images/erxRoFA.png' style='position:absolute;bottom:12px;right:-255px;width:1020px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -2021,20 +2030,20 @@ When you choose this specialty at 3rd level, you have learned to use the heft of
 Also at 3rd level, you know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the heavy or strength properties that doesn't already include that modifier.
 
 ### Maximum Output
-Beginning at 7th level, when you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks. If you do so, you deal additional damage the first time you hit with an attack roll before the end of your next turn. For each attack you forgo in this fashion, you deal extra damage equal to 1d12 + half your fighter level (rounded down). If you miss with the first attack roll you make before the end of your next turn, you instead deal normal weapon damage.
+Beginning at 7th level, when you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks. If you do so, the first time you deal damage with the weapon before the start of your next turn, you deal additional damage of the same type as the weapon's damage. If this instance would deal damage to multiple creatures, you can only apply this additional damage to one of them. For each attack you forgo, you deal additional damage equal to 1d12 + half your fighter level (rounded down). If you miss with the first attack roll you make before the end of your next turn, or one target succeeds on the saving throw against your weapon's burst or rapid property, you instead deal normal weapon damage.
 
 ### Straight Through
 At 10th level, when you score a critical hit on your turn while wielding a weapon with the heavy or strength properties, you can make one weapon attack against a creature within 5 feet of the target using your reaction.
 
 ### Overwhelm
-Starting at 15th level, when you use your Second Wind while wielding a weapon with the heavy or strength properties, if you hit with the first attack roll you make before the end of your next turn, you treat the hit as a critical hit. If you miss with the first attack roll you<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;make before the end of your next turn,<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;you instead treat the miss as a hit.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Starting at 15th level, when you use your<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Second Wind while wielding a weapon<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;with the heavy or strength properties, if<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;you hit with the first attack roll you<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;make, or if one creatures fails the<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;saving throw against your<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;weapon's burst or rapid property,<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;before the end of your next turn,<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;you treat the hit as a critical hit. If<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;you miss with the first attack roll<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;you make before the end of your<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;next turn, or one target succeeds on<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the saving throw against your<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;weapon's burst or rapid<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;property, you instead deal<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;normal weapon damage.
 
-### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Pure Performance
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;At 18th level, attack rolls you make<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;while wielding a weapon with the<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;heavy or strength properties<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;can't suffer from disadvantage.
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Pure<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Performance
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;At 18th level, attack<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;rolls you make while<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;wielding a weapon<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;with the heavy or<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;strength properties<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;can't suffer from<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;disadvantage.
 
 <img src='https://www.gmbinder.com/images/0MwwE14.png' style='position:absolute; bottom:0px; left:10px; width:650px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -2072,7 +2081,7 @@ ___
 ___
 
 #### Techcasting Focus
-You use a wristpad (found in chapter 5) as a techcasting focus for your tech powers.
+You use a wristpad (found in chapter 5) as a tech focus for your tech powers.
 
 ### Stay in Formation
 Also at 3rd level, you can take the Guard action as a bonus action on your turn.
@@ -2117,7 +2126,7 @@ Starting at 15th level, you can extend the benefit of your Indomitable feature t
 ### Greater Inspiring Surge
 At 18th level, you can choose two allies within 60 feet of you, rather than one, when you using your Inspiring Surge feature.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -2190,7 +2199,7 @@ At 18th level, once per round, when you would roll a Superiority Die, you can in
 
 <img src='https://www.gmbinder.com/images/iIVXSKe.png' style='position:absolute;bottom:0px;left:-30px;width:475px;;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
@@ -2225,7 +2234,7 @@ While creating your guardian, consider your attraction to the Force and its most
 #### Quick Build
 You can make a guardian quickly by following these suggestions. First, make Strength your highest ability score, followed by Constitution. Second, choose the Jedi or Sith background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2294,7 +2303,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Guardian  |	8d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2364,7 +2373,7 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2372,7 +2381,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 By 6th level, the Force flowing through you makes you immune to poison and disease.
 
 ### Improved Force-Empowered Strikes
-By 11th level, you are so in tune with the Force that all your melee weapon strikes carry the power of the Force with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Strikes with an attack, you add this damage to the extra damage of your Force-Empowered Strikes. The damage is the same type as the weapon's damage.
+By 11th level, you are so in tune with the Force that all your melee weapon strikes carry the power of the Force with them. Whenever you hit a creature with a melee weapon attack, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Strikes with an attack, you add this damage to the extra damage of your Force-Empowered Strikes. The damage is the same type as the weapon's damage.
 
 \columnbreak
 
@@ -2410,7 +2419,7 @@ Different guardians focus on different lightsaber styles, called Forms, as they 
 
 <img src='https://www.gmbinder.com/images/F1iR9gg.png' style='position:absolute;bottom:24px;left:15px;width:480px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2457,7 +2466,7 @@ This effect ends early if<br> you are incapacitated or die.<br> Once you've used
 
 <img src='https://www.gmbinder.com/images/7D6BGbm.png' style='position:absolute;bottom:0px;right:-5px;width:668px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2496,7 +2505,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <img src='https://www.gmbinder.com/images/O0yLCKg.png' style='position:absolute;bottom:-23px;left:-70px;width:558px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2527,7 +2536,7 @@ On your turn, you can expend a use of your Channel the Force (no action required
 
 <img src='https://www.gmbinder.com/images/CjyN1px.png' style='position:absolute;bottom:28px;right:35px;width:363px;z-index:1000' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2565,7 +2574,7 @@ At 20th level, your might overwhelms even the most implacable of foes. Your Stre
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2611,7 +2620,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <img src='https://www.gmbinder.com/images/os8Mt8S.png' style='position:absolute;bottom:24px;right:-80px;width:730px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
@@ -2654,7 +2663,7 @@ As a result of the structured life of a monastic community and the discipline re
 #### Quick Build
 You can make a monk quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. Second, choose the agent background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -2668,18 +2677,18 @@ You can make a monk quickly by following these suggestions. First, make Dexterit
 |	3rd	|+2	|	Unarmored Movement, Deflect Missiles, Monastic Order|	d4	|	3	|   2   |+10 ft.|
 |	4th	|+2	|	Ability Score Improvement, Slow Fall	            |	d4	|	4	|   2   |+10 ft.|
 |	5th	|+3	|	Extra Attack, Stunning Strike	                    |	d6	|	5	|   2   |+15 ft.|
-|	6th	|+3	|	Enhanced Strikes, Monastic Order feature	        |	d6	|	6	|   2   |+15 ft.|
+|	6th	|+3	|	Enhanced Strikes, Order feature	                    |	d6	|	6	|   2   |+15 ft.|
 |	7th	|+3	|	Evasion, Stillness of Mind	                        |	d6	|	7	|   3   |+15 ft.|
 |	8th	|+3	|	Ability Score Improvement	                        |	d6	|	8	|   3   |+15 ft.|
 |	9th	|+4	|	Unarmored Movement Improvement	                    |	d8	|	9	|   3   |+20 ft.|
 |	10th|+4	|	Ability Score Improvement	                        |	d8	|	10	|   3   |+20 ft.|
-|	11th|+4	|	Monastic Order feature	                            |	d8	|	11	|   3   |+20 ft.|
+|	11th|+4	|	Order feature	                                    |	d8	|	11	|   3   |+20 ft.|
 |	12th|+4	|	Ability Score Improvement   	                    |	d8	|	12	|   3   |+20 ft.|
 |	13th|+5	|	Purity of Body	                                    |	d10	|	13	|   4   |+25 ft.|
 |	14th|+5 |	Diamond Soul	                                    |	d10	|	14	|   4   |+25 ft.|
 |	15th|+5	|	Timeless Vessel	                                    |	d10	|	15	|   4   |+25 ft.|
 |	16th|+5	|	Ability Score Improvement	                        |	d10	|	16	|   4   |+25 ft.|
-|	17th|+6	|	Monastic Order feature	                            |	d12	|	17	|   5   |+30 ft.|
+|	17th|+6	|	Order feature	                                    |	d12	|	17	|   5   |+30 ft.|
 |	18th|+6 |	Empty Body	                                        |	d12	|	18	|   5   |+30 ft.|
 |	19th|+6	|	Ability Score Improvement	                        |	d12	|	19	|   5   |+30 ft.|
 |	20th|+6	|	Perfect Self	                                    |	d12	|	20	|   5   |+30 ft.|
@@ -2723,7 +2732,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Monk      |	4d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -2767,7 +2776,7 @@ ___
 ___
 
 #### Flurry of Blows
-When you make your Martial Arts bonus action unarmed strike, you can spend 1 focus point to make an additional unarmed strike (no action required). At 11th level, you can instead spend 2 focus points to make two additional unarmed strikes.
+When you make your Martial Arts bonus action attack, you can spend 1 focus point to make an additional unarmed strike (no action required). At 11th level, you can instead spend 2 focus points to make two additional unarmed strikes.
 
 #### Patient Defense
 When you use your bonus action to Disengage, you can spend 1 focus point to also Dodge (no action required). At 11th level, you can instead spend 2 focus points to Dodge and gain an additional reaction until the start of your next turn. You can only take one reaction per turn.
@@ -2788,7 +2797,7 @@ Also at 3rd level, you can use your reaction to deflect a projectile when you ar
 
 If you reduce the damage to 0, and the damage is kinetic, energy, or ion, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 focus point to make a ranged attack as you deflect the projectile, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the projectile counts as a monk weapon for the attack.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -2850,7 +2859,7 @@ You gain a limited ability to manipulate the Force. See chapter 10 for the gener
 
 ***Forcecasting Ability.*** You use your focus ability whenever a power refers to your forcecasting ability. If a power you cast with focus points calls for a saving throw, you use your focus save DC. If a power you cast with focus points calls for an attack roll, you use your focus attack modifier.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -2916,12 +2925,12 @@ You can use Intelligence instead of Wisdom or Charisma when determining your Una
 You can use your choice of Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls of your unarmed strikes and monk weapons. You must use the same modifier for both rolls.
 
 #### Vow of the Versatile
-When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can instead make a weapon attack with a monk weapon you are wielding.
+When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can instead make a melee weapon attack with a monk weapon you are wielding.
 
 ## Monastic Orders
 Orders of monastic pursuit are common in the locales scattered across the galaxy. Each order is based in a specific culture and is mutually exclusive, despite relying on the same basic techniques. Your order grants you features at 3rd, 6th, 11th, and 17th level.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -2956,7 +2965,7 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 
 <img src='https://www.gmbinder.com/images/5JR9GaI.png' style='position:absolute;bottom:4px;right:-40px;width:750px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -2994,7 +3003,7 @@ At 17th level, your mastery of weapons grants you extraordinary accuracy. If you
 
 <img src='https://www.gmbinder.com/images/WActKA4.png' style='position:absolute;bottom:6px;left:-280px;width:920px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -3017,7 +3026,7 @@ At 17th level, whenever you use your Instinctive<br> Leap feature, you can leap 
 
 <img src='https://www.gmbinder.com/images/y7y9lEX.png' style='position:absolute;bottom:-3px;right:-305px;width:1050px;transform:scaleX(-1);z-index:1000' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -3042,7 +3051,7 @@ At 17th level, as an action, you conjure a blade of spirit energy and strike one
 
 <img src='https://www.gmbinder.com/images/R0ZTJew.png' style='position:absolute;bottom:24px;left:-10px;width:685px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
 \pagebreakNum
 
@@ -3077,7 +3086,7 @@ While creating your operative character, consider how you first started on your 
 #### Quick Build
 You can make an operative quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Intelligence or Charisma. Second, choose the gambler background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3148,7 +3157,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Operative |	7d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3219,7 +3228,7 @@ You can hold your breath twice as long as you are normally able to, and take hal
 _**Prerequisite:** 7th level_<br>
 When you finish a short or long rest, roll a d20 and record the number rolled. Once before your next short or long rest, you can replace any attack roll, saving throw, or ability check made by you or a creature within 5 feet of you with this roll. You must choose to do so before the roll. 
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3230,14 +3239,12 @@ You adopt a particular style of fighting as your specialty. Choose one of the fi
 You ignore unenhanced difficult terrain, and when you would use your action to break free of an effect that is grappling or restraining you, you can instead use your bonus action.
 
 #### Guerrilla's Exploit
-You only need 4 hours of sleep to gain the benefit of a long rest.
-
-Additionally, you have advantage on saving throws against exhaustion.
+You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits. Lastly, you have advantage on saving throws against exhaustion.
 
 #### Learner's Exploit
 You gain proficiency in a skill and a tool, or two tools.
 
-You can select this discovery multiple times, each time choosing a new skill and a tool, or two new tools.
+You can select this exploit multiple times, each time choosing a new skill and a tool, or two new tools.
 
 #### Mentor's Exploit
 _**Prerequisite:** 13th level_<br>
@@ -3287,7 +3294,7 @@ Choose from the following. You must be proficient in the skill in order to take 
 ***Wrestle (Athletics).*** You attempt to grab and pin a creature within 5 feet of you with at least one free hand. The target must be no more than one size larger than you. Make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If your check succeeds, the target is both grappled and restrained by you. If the target stops being grappled, it also stops being restrained. If your check fails, you can't use this feature on this target again for 1 hour.
 
 #### Technologist's Exploit
-Choose one 1st-level tech power. You learn that power and can cast it at its lowest level without expending tech points and without the use of a wristpad. Once you cast it in this way, you must finish a long rest before you can cast it again. Your techcasting ability for this power is Intelligence.
+You learn and can cast one 1st-level tech power once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for this power.
 
 You can select this exploit multiple times. Each time you do so, you must choose a different power.
 
@@ -3299,7 +3306,7 @@ You can select this exploit multiple times. Each time you do so, you must choose
 ## Operative Practices
 Operatives have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different operatives steer those talents in varying directions, embodied by the different operative practices. Your practice grants you features at 3rd, 9th, 13th, and 17th level.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3338,8 +3345,8 @@ You attempt to nimbly roll away. You immediately move 10 feet in a direction of 
 ### Supreme Sneak
 Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn. Additionally, as long as you aren't incapacitated, you no longer take damage from falling less than 100 feet, and have resistance to falling damage.
 
-### Improved Aerial Agility
-Starting at 13th level, your Aerial Agility feature improves and you gain the following benefits:
+### Aerial Agility
+Starting at 13th level, your agility in the air grants you the following benefits:
 - When you move, you can instead take 3 short movements by flying.
 - Whenever you end your flying movement and you are within 5 feet of a climbable surface, you can grab onto that surface as though you were climbing upon it.
 
@@ -3350,7 +3357,7 @@ Additionally, you learn to utilize the momentum of your fall to make deadly vert
 
 <img src='https://www.gmbinder.com/images/rBgHouo.png' style='position:absolute;bottom:26px;left:135px;width:295px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3394,7 +3401,7 @@ ___
 
 <img src='https://www.gmbinder.com/images/jMmQQuW.png' style='position:absolute;bottom:-2px;right:30px;width:640px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3480,7 +3487,7 @@ You attempt to blind the target. The target must make a Constitution saving thro
 You attempt to knock the target prone. The target must make a Strength saving throw or be knocked prone.  
 
 #### Hampering Shot
-You attempt to hobble the enemy's movement. The target must make a Dexterity saving throw. If it fails, its movement speed is reduced by half and it makes Dexterity saving throws with disadvantage until the end of its next turn.
+You attempt to hobble the enemy's movement. The target must make a Dexterity saving throw. If it fails, it gains 1 slowed level and it has disadvantage on Dexterity saving throws until the end of its next turn.
 
 ### Spinning Flourish
 Beginning at 9th level you can flourish your weapon in an intimidating or charming manner. As an action, you can cause one creature within 60 feet to make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier). On a failed save, the target is charmed or frightened by you (your choice) until the end of your next turn. 
@@ -3499,7 +3506,7 @@ Once you've used this feature, you must complete a short or long rest before you
 
 <img src='https://www.gmbinder.com/images/XjjiVJp.png' style='position:absolute;bottom:8px;right:-115px;width:730px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3550,7 +3557,7 @@ At 17th level, you've learned to capitalize when you have the advantage. When yo
 
 <img src='https://www.gmbinder.com/images/PdcqYka.png' style='position:absolute;bottom:7px;left:-90px;width:534px;transform:scalex(-1);z-index:1000' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
 \pagebreakNum
 
@@ -3585,7 +3592,7 @@ As you create a scholar, it's important to think of where<br> you gained your kn
 #### Quick Build
 You can make a scholar quickly by following these suggestions. First, make Intelligence your highest ability score. Your next-highest score should be Dexterity. Second, choose the noble background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -3655,7 +3662,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Scholar   |	6d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -3727,7 +3734,7 @@ Also at 1st level, you are able to analyze a target, develop a plan on how to be
 - When you analyze a hostile creature, your attack and damage rolls made with weapons with the finesse property or blaster weapons against that target may use your Intelligence modifier instead of Strength or Dexterity.
 - When you analyze a friendly creature, the target can end your Critical Analysis on them (no action required) to add your Intelligence modifier to one attack roll, ability check, or saving throw. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -3790,7 +3797,7 @@ You gain proficiency with improvised weapons, and they gain the finesse property
 
 You can use your Sage Advice feature to give friendly creatures improvised weapon proficiency if they don't already have it, following the same rules of that feature as if it were a skill or tool. The friendly creatures retain this proficiency for the entire duration instead.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -3831,23 +3838,21 @@ When you make an Intelligence (Lore) or Intelligence (Nature) skill check that l
 When you make a saving throw to resist charm and fear effects, you may add your Intelligence modifier to the roll.
 
 #### Running on Fumes
-You only need 4 hours of sleep to gain the benefit of a long rest.
-
-Additionally, you have advantage on saving throws against exhaustion.
+You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits. Lastly, you have advantage on saving throws against exhaustion.
 
 #### Survival Expert
 When you make a Survival skill check, you may use your Intelligence modifier instead of your Wisdom modifier.
 
 Additionally, you have advantage on saving throws against poison.
 
+\columnbreak
+
 #### Targeted Analysis
 _**Prerequisite:** 5th level_<br>
 Your attack rolls against the target of your Critical Analysis feature cannot suffer from disadvantage.
 
-\columnbreak
-
 #### Tech Amateur
-Choose one 1st-level tech power. You learn that power and can cast it at its lowest level without expending tech points and without the use of a wristpad. Once you cast it in this way, you must finish a long rest before you can cast it again. Your techcasting ability for this power is Intelligence.
+You learn and can cast one 1st-level tech power once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for this power.
 
 You can select this discovery multiple times. Each time you do so, you must choose a different power.
 
@@ -3857,11 +3862,15 @@ You can communicate simple ideas with any creature with an Intelligence score of
 ## Academic Pursuits
 Your pursuit is a representation of which fields you have studied or how you practically apply your knowledge. Your pursuit grants you features at 3rd, 6th, 9th, and 17th level.
 
-<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:17px;right:-120px;width:740px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:18px;right:-100px;width:715px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
+
+<br>
+
+\columnbreak
 
 ## Doctor Pursuit
 Doctors study the medical, anatomical, and biological sciences. Those scholars who choose the Doctor Pursuit use their knowledge to mend their allies on the field and deal crippling blows with surgical precision.
@@ -3869,8 +3878,8 @@ Doctors study the medical, anatomical, and biological sciences. Those scholars w
 ### Medical Practitioner
 When you choose this pursuit at 3rd level, you gain proficiency with biochemist's kits and your choice of Medicine or Nature skills. Additionally, when you make a Wisdom (Medicine) check, you gain a bonus to the check equal to your Intelligence modifier.
 
-### Remote Healer
-Also at 3rd level, you have learned to deploy medicine from a range. When you use a maneuver targeting an ally that is the target of your Critical Analysis feature, that maneuver's range becomes 30 feet.
+### &emsp;Remote Healer
+&emsp;&emsp;Also at 3rd level, you have learned to deploy<br> &emsp;&emsp;medicine from a range. When you use a maneuver<br> &emsp;targeting an ally that is the target of your Critical Analysis feature, that maneuver's range becomes 30 feet.
 
 ### Additional Maneuvers
 Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into the medical arts. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
@@ -3887,9 +3896,9 @@ As an action, you can expend one superiority die to inject a creature you can to
 #### Neuroblock
 When you make an attack roll, you can expend a superiority die and add it to the attack roll. On a hit, the creature's next attack has disadvantage and it cannot regain hit points until the start of your next turn.
 
-<img src='https://www.gmbinder.com/images/AUdzKBb.png' style='position:absolute;bottom:28px;right:0px;width:430px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/AUdzKBb.png' style='position:absolute;bottom:28px;left:30px;width:430px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -3901,8 +3910,6 @@ As an action, you can expend a superiority die to purge the toxins from a creatu
 
 #### Smelling Salts
 As a bonus action, you can expend a superiority die to heal a creature you can touch by a number of hit points equal to the number rolled.
-
-\columnbreak
 
 #### Transfusion
 Once per turn when you hit a creature with a finesse melee weapon, you can expend a superiority to give you or an ally that is within 5 feet of the creature a transfusion. Add the superiority dice to the damage you deal. You or your ally gain hit points equivalent to the damage you deal to the creature. 
@@ -3920,7 +3927,11 @@ Additionally, whenever you expend superiority dice to restore hit points or gran
 ### Resuscitate
 Starting at 9th level, through your medical studies you have learned to delay seemingly inevitable death. As a bonus action, you can stabilize a creature you can touch that has 0 hit points. 
 
-Additionally, as an action, you can tend to a creature you can touch that has died since the end of your last turn. The creature immediately regains 1 hit point and stabilizes. Once you've used this feature, you must complete a short or long rest before you can use it again.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;Additionally, as an action, you can tend to a creature you can touch that has died since the end of your last turn. The creature immediately regains 1 hit point and stabilizes. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Panacea
 Once you've reached 17th level, you've developed the formula to concoct a cure-all miracle solution: a panacea. Over the course of 10 minutes, you can expend rare medical supplies worth 1,000 cr to create your panacea in a simple syringe. The panacea retains its potency for 24 hours. As a bonus action, a creature can use the panacea. Alternatively, as an action, they can administer it to another creature within 5 feet.
@@ -3929,9 +3940,9 @@ The target has its exhaustion level reduced by one and regains all of its hit po
 
 Once you create a panacea, you can't create another until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/4U4G7Xq.png' style='position:absolute;bottom:7px;left:-130px;width:590px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/4U4G7Xq.png' style='position:absolute;bottom:8px;right:-10px;width:560px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -3994,7 +4005,7 @@ This die increases when you reach certain levels in this class: 1d6 at 5th level
 | 19 | The creature's movement speed is increased by 15 feet, and opportunity attacks on them have disadvantage. |
 | 20 | The creature gains 10d10 hit points, and they feel happy and carefree. |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -4095,7 +4106,7 @@ Whenever you roll a 7 on an ability check or saving throw, you can reroll the ab
 
 <img src='https://www.gmbinder.com/images/NBFvh3V.png' style='position:absolute;bottom:-50px;right:25px;width:370px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -4138,7 +4149,7 @@ As a reaction when you make a<br> saving throw against an effect<br> you can see
 
 <img src='https://www.gmbinder.com/images/ZA5SjCf.png' style='position:absolute;bottom:14px;right:-80px;width:630px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -4205,7 +4216,7 @@ You can add half your proficiency bonus (rounded down) to any Charisma check you
 #### Tyrant's Ferocity
 You have advantage on any attack against a creature that is charmed by you or frightened of you.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -4247,7 +4258,7 @@ When you hit a creature with a weapon attack, you can expend one superiority die
 
 <img src='https://www.gmbinder.com/images/Nx2laNk.png' style='position:absolute;bottom:16px;right:-150px;width:758px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -4310,7 +4321,7 @@ You learn to command your allies to victory from afar. Your Critical Analysis ra
 
 <img src='https://www.gmbinder.com/images/N4eG6QM.png' style='position:absolute;bottom:0px;left:75px;width:375px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
 \pagebreakNum
 
@@ -4351,7 +4362,7 @@ What made you join up with a band of adventurers? Do you find it challenging to 
 #### Quick Build
 You can make a scout quickly by following these suggestions. First, make Strength or Dexterity your highest ability modifier, depending on whether you want to focus on melee combat or on ranged weapons (or finesse weapons). Your next-highest score should be Intelligence. Second, choose the bounty hunter background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4422,7 +4433,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Scout     |	8d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4476,7 +4487,7 @@ ___
 ___
 
 #### Techcasting Focus
-You use a wristpad (found in chapter 5) as a techcasting focus for your tech powers.
+You use a wristpad (found in chapter 5) as a tech focus for your tech powers.
 
 ### Fighting Style
 Also at 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6. You can't take a fighting style option more than once, even if you later get to choose again.
@@ -4498,7 +4509,7 @@ At 6th level, choose two of your skill proficiencies, or one of skill proficienc
 
 At 14th level, you can choose another two proficiencies (in skills or tools) to gain this benefit.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4560,7 +4571,7 @@ At the start of each of your turns, you can choose to gain a climbing and swimmi
 ## Scout Techniques
 Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Your technique grants you features at 3rd, 7th, 11th, and 15th level.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4596,7 +4607,7 @@ If your barrier's hit points are reduced to 0, any Projected Barrier features im
 <div style='margin-top:28px'></div>
 
 #### Projected Sphere
-You create a protective spherical barrier barrier in a 5-foot-radius sphere a point you can see within 30 feet that lasts until the start of your next turn. Creatures within the barrier have three-quarters cover from attacks originating from outside the barrier. You can maintain the barrier by spending an additional barrier hit point at the start of each of your turns (no action required).
+You create a protective spherical barrier in a 5-foot-radius sphere a point you can see within 30 feet that lasts until the start of your next turn. Creatures within the barrier have three-quarters cover from attacks originating from outside the barrier. You can maintain the barrier by spending an additional barrier hit point at the start of each of your turns (no action required).
 
 #### Projected Maelstrom
 You create an unstable energy maelstrom in a 5-foot cube at a point you can see within 30 feet that lasts until the start of your next turn. A creature takes 4d4 energy damage when it enters the area for the first time on a turn or starts its turn there. You can maintain the barrier by spending an additional barrier hit point at the start of each of your turns (no action required). 
@@ -4616,7 +4627,7 @@ At 15th level, when your personal<br> barrier takes damage, you can have it<br> 
 
 <img src='https://www.gmbinder.com/images/MKEbu4z.png' style='position:absolute;bottom:19px;right:0px;width:270px;z-index:950;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4677,7 +4688,7 @@ When an attacker that you can see hits you with an attack, you can use your reac
 
 <img src='https://www.gmbinder.com/images/vyRjX3r.png' style='position:absolute;bottom:0px;left:0px;width:500px;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4704,7 +4715,7 @@ At 15th level, if the target of your Ranger's<br> Quarry feature forces you to m
 
 <img src='https://www.gmbinder.com/images/XQCbhQJ.png' style='position:absolute;bottom:20px;right:-197px;width:935px;transform:scaleX(-1);z-index:1000' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4734,7 +4745,7 @@ At 15th level, whenever a creature attacks you and does not have advantage, you 
 
 <img src='https://www.gmbinder.com/images/2P5Z0ak.png' style='position:absolute;bottom:24px;right:-180px;width:880px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SCOUT</div>
 
 \pagebreakNum
 
@@ -4769,7 +4780,7 @@ While creating your sentinel, consider your personal philosophy in regards to th
 #### Quick Build
 You can make a sentinel quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom or Charisma. Second, choose the Jedi or Sith background.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -4839,7 +4850,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 |	:--			|	--:			|
 |   &emsp;Sentinel  |	6d4 x 100 cr&emsp;  |
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -4908,7 +4919,7 @@ Starting at 10th level, you have fully learned how to meld your physical self wi
 
 ### Enlightened Evasion
 When you reach 15th level, when you are subjected to a damage-dealing effect that forces you to make a saving throw, you can spend 2 force points to add your Wisdom or Charisma modifier (your choice, minimum of one) to the saving throw if doesn't already include that modifier. If you do so, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. You can wait until after you roll the d20 to use this feature, but you must decide before the GM says whether the roll succeeds or fails.
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -4950,9 +4961,9 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, t
 Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced darkness, and you gain blindsight to 10 feet.
 
 #### Ideal of the Steadfast
-When you would make a melee weapon attack roll, you can instead force the target to make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier + any bonuses to melee weapon attack rolls). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit.
+When you would make a melee weapon attack roll, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit.
 
-Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, when a creature succeeds on the saving throw, they take half the normal weapon damage, and when a creature rolls a 1 on the saving throw, they take damage as if suffering a critical hit.
+Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, when a creature succeeds on the saving throw, they take half the normal weapon damage, and when a creature rolls a 1 on the saving throw, they treat the damage as if you had rolled the maximum.
 
 #### Ideal of the Titan
 You gain proficiency in medium armor.
@@ -4972,7 +4983,7 @@ Additionally, as an action, you can manifest this ideal in a brief surge of ener
 ## Sentinel Callings
 Different sentinels select different callings, called Paths, to follow as they hone their powers. Your calling grants you features at 3rd, 7th, 13th, and 18th level.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -5002,7 +5013,7 @@ At 18th level, when a creature hits you with an attack while within 5 feet of yo
 
 <img src='https://www.gmbinder.com/images/DSR5EWH.png' style='position:absolute;bottom:12px;left:16px;width:800px;;z-index:1000;transform:scaleX(-1)' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -5016,7 +5027,7 @@ At 18th level, when a creature hits you with an attack while within 5 feet of yo
 The ways of the Force can reveal themselves to a sentinel through intense concentration and, most importantly, focus. Those sentinels who follow the Path of Focus use debilitating bursts of lightsaber strikes and force powers to exhaust their foes, crushing any hopes they had of mounting an effective defense.
 
 ### Focused Burst
-Starting when you choose this calling at 3rd level, you learn the *burst* force power, which does not count against your total powers known. Additionally, you can use all three Force-Empowered Self options when you cast it as your action. If more than one creature would be affected, and you use your Double Strike feature, only one creature takes the additional damage. Finally, you add your Wisdom or Charisma modifier (your choice, a minimum of +1) to damage rolls with it, and creatures that succeed on their saving throw take half damage, instead of none.
+Starting when you choose this calling at 3rd level, you learn the *burst* force power, which does not count against your total powers known. Additionally, you can use all three Force-Empowered Self options when you cast it as your action. If more than one creature would be affected, and you use your Double Strike feature, only one creature takes the additional damage. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of +1) to damage rolls with it, and creatures that succeed on their saving throw take half damage, instead of none.
 
 ### Blade Dance
 Also at 3rd level, when you deal damage to a creature within 5 feet of you, you can move up to 10 feet without provoking opportunity attacks.
@@ -5030,7 +5041,7 @@ By 13th level, whenever you use a Force-Empowered Self feature, you may instead 
 ### &emsp;&nbsp;&nbsp;&nbsp;Master Strike
 &emsp;&emsp;&emsp;&emsp;At 18th level, your bursts can overpower even<br>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; the fiercest of foes. Once on your turn,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; when a creature takes damage from <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; you three times, you can force it to<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; make a Constitution saving throw<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; against your universal force<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; save DC. On a failed save,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; it becomes stunned<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; until the end of its<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; next turn.
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -5038,7 +5049,7 @@ By 13th level, whenever you use a Force-Empowered Self feature, you may instead 
 Some few master their weapon in ways that differ from their peers. Those sentinels who follow the Path of the Forceblade channel the Force into their weapon, forming a unique connection that grants you greater control over the weapon; it becomes an extension of their will.
 
 ### Phasethrow
-Starting when you choose this calling at 3rd level, you learn the *saber throw* force power, which does not count against your total powers known. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use all three Force-Empowered Self options when you cast it as your action and hit a target. Finally, when you hit a creature within with the *saber throw* force power, you deal additional damage equal to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1) if it doesn’t already include that modifier.
+Starting when you choose this calling at 3rd level, you learn the *saber throw* force power, which does not count against your total powers known. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use all three Force-Empowered Self options when you cast it as your action and hit a target. Finally, when you hit a creature within with the *saber throw* force power, you deal additional damage equal to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1) if it doesn't already include that modifier.
 
 ### Forceblade Bond
 Also at 3rd level, you learn how to bond with a light- or vibro-weapon through the Force, making it part of you.
@@ -5067,7 +5078,7 @@ At 18th level, you've mastered controlling your forceblade with your mind, using
 
 <img src='https://www.gmbinder.com/images/O1BiqgC.png' style='position:absolute;bottom:10px;right:-60px;width:710px;transform:scaleX(-1);z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum
 
@@ -5093,6 +5104,6 @@ At 18th level, your training has taught you advanced techniques while you maneuv
 
 <img src='https://www.gmbinder.com/images/k2IV7lG.png' style='position:absolute;bottom:15px;right:-330px;width:1080px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 3 | CLASSES</div>
+<div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
 \pagebreakNum

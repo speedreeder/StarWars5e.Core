@@ -53,7 +53,7 @@ You add together the Hit Dice granted by all your classes to form your pool of H
 ### Proficiency Bonus
 Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table in chapter 1, not your level in a particular class. For example, if you are a fighter 3/operative 2, you have the proficiency bonus of a 5th-level character, which is +3.
 
-If a class feature or feat allows you to forgo your proficiency bonus, you may only do so once.
+If a feature or feat allows you to forgo your proficiency bonus, you may only do so once.
 
 ### Proficiencies
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multiclassing Proficiencies table.
@@ -98,16 +98,16 @@ You determine your available force or tech points by adding together the amount 
 If you have both force and tech points, you keep your pools separate, and they can only be used to fuel force or tech powers, respectively.
 
 #### Max Power Level
-When multiclassing, you determine your max power level by dividing each class's potential Max Power Level by 9, multiply the result by the number of levels in that class, add the results for each class together (rounding down the final result), and consulting the Multiclass Max Power Level table below. 
+When multiclassing, you determine your Max Power Level by dividing each class's potential Max Power Level by 9, multiplying the result by the number of levels in that class, adding the results for each class together (rounding down the final result), and consulting the Multiclass Max Power Level table below. 
 
-For instance, if you have four levels in Marauder Approach berserker (1.77) and three levels in guardian (1.67), you count as a 3rd-level character when determining your max power level, which is 2. While you don't know any 2nd-level powers, you can cast powers you know at that level.
+For instance, if you have four levels in Marauder Approach berserker (1.77) and three levels in guardian (1.67), you count as a 3rd-level character when determining your Max Power Level, which is 2. While you don't know any 2nd-level powers, you can cast powers you know at that level.
 
-If you have both force- and tech-casting, you determine your max power levels separately, and they can only be used to cast force or tech powers, respectively.
+If you have both force- and tech-casting, you determine your Max Power Levels separately, and they can only be used to cast force or tech powers, respectively.
 
 ##### Multiclass Max Power Level
 <div style='column-count:2'>
 
-|Level|Slot<br> Level|
+|Caster<br> Level|Slot<br> Level|
 |:---:|:--:|
 | 1st|1st|
 | 2nd|1st|
@@ -120,7 +120,7 @@ If you have both force- and tech-casting, you determine your max power levels se
 | 9th|5th|
 |10th|5th|
 
-|Level|Slot<br> Level|
+|Caster<br> Level|Slot<br> Level|
 |:---:|:--:|
 |11th|6th|
 |12th|6th|
@@ -194,7 +194,7 @@ You've spent a lifetime fighting, with the scars to prove it. You gain the follo
 - When you roll a 19 or a 20 on the d20 for a death saving throw, you regain 1 hit point. 
 - When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you've used this ability, you must complete a long rest before you can use it again.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -258,7 +258,7 @@ You have a natural gift for performing and competing. Select one gaming set or m
 
 You can select this feat multiple times. Each time you do so, you must choose a different gaming set or musical instrument.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -271,17 +271,17 @@ Every blow that hits your enemies make you feel closer to victory, making you sh
 ### Feigned Confidence
 You've spent years pretending you know what you're doing, gaining the following benefits:
 - Increase your Charisma score by 1, to a maximum of 20.
-- When you would make an ability check that doesn't add your proficiency bonus, you can first make a DC 15 (Charisma) Deception check. On a success, you can add your proficiency bonus to the check. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
+- When you would make an ability check with a skill or tool that doesn't add your proficiency bonus, you can first make a DC 15 Charisma (Deception) check. On a success, you can add your proficiency bonus to the initial ability check. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.
 
 ### Fighting Master
 _**Prerequisite:** 4th level_<br>
-You've mastered a particular style of fighting. Choose one of the fighting mastery options, detailed earlier in this chapter. You can select this feat multiple times. You can't take a fighting mastery option more than once, even if you later get to choose again.
+You've mastered a particular style of fighting. Choose one of the fighting mastery options, detailed later in this chapter. You can select this feat multiple times. You can't take a fighting mastery option more than once, even if you later get to choose again.
 
 ### Fighting Stylist
 _**Prerequisite:** 4th level_<br>
 You adopt a particular style of fighting as your specialty, gaining the following benefits:
 - Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
-- Choose one of the fighting style options, detailed earlier in this chapter. 
+- Choose one of the fighting style options, detailed later in this chapter. 
 
 You can select this feat multiple times. You can't take a fighting style option more than once, even if you later get to choose again.
 
@@ -297,7 +297,7 @@ You can select this feat multiple times. Each time you do so, you must choose a 
 
 ### Force of Personality
 Rooms never go unalerted to your presence, and the strength of your personality make others lose focus on their own social game. Powers and other effects infrequently override your force of will. You gain the following benefits:
-- Your Charisma score increase by 1, to a maximum of 20.
+- Increase your Charisma score by 1, to a maximum of 20.
 - You can use your Charisma modifier instead of your Wisdom modifier when making Insight checks.
 - When you would make a Wisdom saving throw, you can instead make a Charisma saving throw. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you complete a long rest.
 
@@ -311,7 +311,7 @@ Your strength and virility rarely go unnoticed, often to the point of distractio
 - You can use your Strength modifier instead of your Constitution modifier when making Constitution checks.
 - When you would make a Constitution saving throw, you can instead make a Strength saving throw. You can use this feature a number of times equal to your Strength modifier. You regain all expended uses of this feature when you complete a long rest.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -333,7 +333,6 @@ You are an able medic, allowing you to mend wounds quickly and get your allies b
 - As an action, you can spend one use of a traumakit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points again in this way until it finishes a short or long rest.
 
 ### Heavily Armored
-_**Prerequisite:** 4th level_<br>
 _**Prerequisite:** Proficiency with medium armor_<br>
 You have trained to master the use of heavy armor, gaining the following benefits:
 - Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
@@ -361,7 +360,6 @@ You have a mind that can track time, direction, and detail with uncanny precisio
 - You can accurately recall anything you have seen or heard within the past month.
 
 ### Lightly Armored
-_**Prerequisite:** 4th level_<br>
 You have trained to master the use of light armor, gaining the following benefits:
 - Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
 - You gain proficiency with light armor. If you are already proficient with light armor, instead while you are wearing light armor, your speed increases by 5 feet.
@@ -372,9 +370,9 @@ You can take this feat twice.
 You have studied languages and codes, gaining the following benefits:
 - Increase your Intelligence score by 1, to a maximum of 20.
 - You learn three languages of your choice.
-- You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use a power to decipher it.
+- You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC = your Intelligence score + your proficiency bonus), or they use a power to decipher it.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -410,7 +408,6 @@ You are exceptionally speedy and agile. You gain the following benefits:
 \columnbreak
 
 ### Moderately Armored
-_**Prerequisite:** 4th level_<br>
 _**Prerequisite:** Proficiency with light armor_<br>
 You have trained to master the use of medium armor, gaining the following benefits: 
 - Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.
@@ -436,7 +433,7 @@ You hone your senses until they become razor sharp. You gain the following benef
 - You gain proficiency in the Perception skill. If you are already proficient in it, you instead gain expertise in it. 
 - Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -467,6 +464,11 @@ You've trained relentless to lead your allies on the field of battle, gaining th
 Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits: 
 - Increase your Dexterity score by 1, to a maximum of 20. 
 - You gain proficiency in the Sleight of Hand skill. If you are already proficient in it, you instead gain expertise in it. 
+
+\columnbreak 
+
+<div style='margin-top:23px'></div>
+
 - As a bonus action, you can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket. 
 
 ### Quick-Witted
@@ -492,7 +494,7 @@ You've mastered a quick tongue to aid your allies. You gain the following benefi
 - Increase your Charisma score by 1, to a maximum of 20.
 - Once per short or long rest, when an ally makes an attack roll, an ability check or a saving throw, you can spend your reaction to give them advantage on the roll.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -503,7 +505,7 @@ You have focused training with a specific tool. Select one type of specialist's 
 - You can attempt ability checks with the chosen kit without the kit present, but you have disadvantage on the check when you do so.
 - Whenever you make an ability check with the chosen kit and you don't have disadvantage on the check, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least 1 minute on the check.
 
-&emsp;You can select this feat multiple times. Each time you do so, you must choose a different specialist's kit.
+You can select this feat multiple times. Each time you do so, you must choose a different specialist's kit.
 
 ### Stealthy 
 You know how best to hide, gaining the following benefits: 
@@ -525,7 +527,7 @@ You master wilderness lore, gaining the following benefits:
 - You learn the *alarm* tech power. You can cast it once, using supplies scavenged around you, without the use of a wristpad and without spending tech points, and you regain the ability to do so when you finish a long rest. 
 
 ### Tech Dabbler
-You know two at-will tech powers. When you reach 3rd level, you learn and can cast one 1st-level tech power once per long rest. When you reach 5th level, you learn and can cast one 2nd-level tech power once per long rest. Your techcasting ability is Intelligence. You do not require use of a tech focus for these powers.
+You know two at-will tech powers. When you reach 3rd level, you learn and can cast one 1st-level tech power once per long rest. When you reach 5th level, you learn and can cast one 2nd-level tech power once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers. Additionally, you lose the Tech-Impaired special trait if you have it.
 
 ### Techie
 You master the theory and practice of technology, gaining the following benefits: 
@@ -553,7 +555,7 @@ You have practiced extensively with a variety of weapons, gaining the following 
 
 You can take this feat twice. 
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
 \pagebreakNum
 
@@ -634,7 +636,7 @@ You are skilled at fighting with two weapons. While you are wielding separate we
 
 <img src='https://www.gmbinder.com/images/96gFNkx.png' style='position:absolute;bottom:-187px;left:150px;width:350px;z-index:1000;transform:scaleX(-1)'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
 
 \pagebreakNum
 
@@ -652,7 +654,7 @@ You are skilled at fighting without the confines of armor. While you are wearing
 #### Explosives Style
 You are skilled at fighting with explosives. You gain the following benefits:
 - You can throw grenades with your bonus action, instead of your action. If you could already throw grenades as a bonus action, you can instead do so as a reaction on your turn.
-- When a creature rolls a 1 on the saving throw against an ammunition or explosive you control, it takes damage as if suffering a critical hit.
+- When a creature rolls a 1 on the saving throw against an ammunition or explosive you control, they treat the effect's damage as if it had rolled the maximum.
 
 #### Formation Style
 You are skilled at fighting with a partner. While an ally is within 5 feet of you, you gain the following benefits:
@@ -663,13 +665,13 @@ You are skilled at fighting with a partner. While an ally is within 5 feet of yo
 \columnbreak
 
 #### Formfighting Style
-_**Prerequisite:** The ability to cast force powers_
+_**Prerequisite:** The ability to cast force powers_<br>
 You are skilled at the basics of the known forms of lightsaber combat. You gain the following benefits:
 - You learn three lightsaber forms, detailed later in this chapter.
 - Once on each of your turns, you can draw or stow a lightweapon without using your object interaction.
 
 #### Great Weapon Style
-You are skilled at putting the weight of a weapon to your advantage. While you are wielding a melee weapon with the two-handed property with which you are proficient, you gain the following benefits:
+You are skilled at putting the weight of a weapon to your advantage. While you are wielding a light- or vibro-weapon with the two-handed property with which you are proficient, you gain the following benefits:
 - When you roll a 1 or 2 on a weapon damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2.
 - Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
 
@@ -680,7 +682,7 @@ You are skilled at maneuvering across the battlefield. You gain the following be
 
 #### Gunning Style
 You are skilled at using blasters in unique ways. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
-- When a creature rolls a 1 on the saving throw against the burst or rapid property, or a specialized power cell or slug cartridge, that you control, it takes damage as if suffering a critical hit.
+- When a creature rolls a 1 on the saving throw against the burst or rapid property, or a specialized power cell or slug cartridge, that you control, they treat the effect's damage as if it had rolled the maximum.
 - When you use the burst property of a weapon, you can instead spray a line 20 feet long and 5 feet wide within range with shots. 
 - When you use the rapid property of a weapon, when you roll the weapon's damage dice twice, you can double one set of the weapon's damage dice and forgo the other instead of adding them together.
 
@@ -689,7 +691,7 @@ You are skilled at fighting while mounted. You gain the following benefits:
 - Mounting a vehicle or beast only uses 5 feet of your movement, provided you can reach it.
 - You can force an attack targeted at your mount to target you instead, provided you are a valid target for that attack.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
 
 \pagebreakNum
 
@@ -699,7 +701,7 @@ You are skilled at using your momentum to your advantage. You gain the following
 - When you attempt to trip a creature, instead of making a Strength (Athletics) check, you can instead make a melee weapon attack roll. If you are wielding your weapon in two hands, you make this attack roll with advantage.
 
 #### Sentinel Style
-You are skilled at techniques that take advantage of every drop in any enemy's guard. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
+You are skilled at techniques that take advantage of every drop in any enemy's guard. While you are wielding a light- or vibro-weapon with which you are proficient, you gain the following benefits:
 - Creatures provoke an opportunity attack when they move to within your reach or move 5 feet or greater while within your reach.
 - When you hit a creature that is no more than one size larger than you with an opportunity attack, the creature gains 4 slowed levels until the end of the current turn.
 
@@ -713,6 +715,7 @@ You are skilled with blaster weapons and can make shots that others find difficu
 You are skilled at using your shield to defend your allies as well as yourself. While you are wielding a shield with which you are proficient, you gain the following benefits:
 - If you are wielding a heavy shield, you are no longer required to wield a weapon with the light property in the other hand.
 - You can use a bonus action to try to shove or trip a creature within 5 feet of you with your shield.
+- When you use a shield as an improvised weapon, you are considered proficient in it.
 
 #### Snapshot Style
 You are skilled at getting up close and personal with blaster weapons. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
@@ -738,7 +741,7 @@ You are skilled at using weapons in different ways. While you are wielding a mel
 - When you miss with a melee weapon attack on your turn while wielding a weapon in one hand, you can use your bonus action to attempt to shove or trip that creature. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this ability check.
 - Grasping a versatile weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
 
 \pagebreakNum
 
@@ -810,7 +813,7 @@ You've mastered fighting from unseen angles, gaining an advantage over your foes
 
 <img src='https://www.gmbinder.com/images/FDyoTLU.png' style='position:absolute;bottom:0px;right:20px;width:420px;z-index:1000;'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
@@ -847,7 +850,7 @@ You've mastered fighting without the confines of armor, treating combat as an el
 
 <img src='https://www.gmbinder.com/images/yEz1l4I.png' style='position:absolute;bottom:0px;left:0px;width:555px;z-index:1000;transform:scaleX(-1)'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
@@ -864,15 +867,15 @@ You've mastered fighting with a partner, learning to move and act as a single un
 - When you take the Guard action, the guarded ally has advantage on Dexterity saving throws that would affect only them while guarded.
 
 #### Formfighting Mastery
-_**Prerequisite:** The ability to cast force powers_
-You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with grace. You gain the following benefits:
+_**Prerequisite:** The ability to cast force powers_<br>
+You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with unparalleled grace. You gain the following benefits:
 - You learn three lightsaber forms, detailed later in this chapter. If you already know at least three lightsaber forms, you instead learn the remaining forms.
 - Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, you can engage in one of your lightsaber forms without using your bonus action. If that form lets you make an attack, that attack is also made without your proficiency bonus.
 - Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original attack roll would hit the second creature, it takes damage equal to twice your proficiency bonus.
 
 #### Great Weapon Mastery
-You've mastered putting the weight of a weapon to your advantage, letting its momentum empower your strikes. While you are wielding a melee weapon with the two-handed property with which you are proficient, you gain the following benefits:
-- On your turn, when you score a critical hit or reduce a creature to 0 hit points with a melee weapon, you can make one melee weapon attack as a bonus action.
+You've mastered putting the weight of a weapon to your advantage, letting its momentum empower your strikes. While you are wielding a light- or vibro-weapon with the two-handed property with which you are proficient, you gain the following benefits:
+- On your turn, when you score a critical hit or reduce a creature to 0 hit points with a melee weapon attack, you can make one melee weapon attack as a bonus action.
 - When you miss with a melee weapon attack, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll. On a hit, this attack deals kinetic damage equal to your Strength modifier.
 - Before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.
 - While wielding the weapon in two hands, you have advantage on ability checks and saving throws to avoid being disarmed.
@@ -886,7 +889,7 @@ You've mastered maneuvering across the battlefield, sliding through openings tha
 
 <img src='https://www.gmbinder.com/images/FUrb2LF.png' style='position:absolute;bottom:0px;right:10px;width:450px;z-index:1000;transform:scaleX(-1)'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
@@ -901,18 +904,18 @@ You've mastered using blasters in unique ways, controlling the battlefield. Whil
 You've mastered the art of fighting while mounted, moving seamlessly with your companion. While you are mounted on a vehicle or controlled beast, you gain the following benefits:
 - Once per turn, you can choose to have advantage on a melee weapon attack roll against an unmounted creature that is smaller than your mount. If the attack hits, you deal additional damage equal to your proficiency bonus.
 - If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, you can use your reaction to have it instead take no damage if it succeeds on the saving throw, and only half damage if it fails.
-- While mounted on a vehicle, you can use your bonus action instead of your action to take one of the vehicle's actions available to you. You can't take the same action twice in one turn.
+- While mounted on a vehicle, you can use your<br> bonus action instead of your action to take one of<br> the vehicle's actions available to you. You can't<br> take the same action twice in one turn.
 - While mounted on a controlled beast, you can use your bonus action to have your mount make a single attack against a creature within its range.
 
 #### Onslaught Mastery
 You've mastered using your momentum to your advantage, effectively pummeling creatures into submission and keeping them down once they fall. You gain the following benefits:
-- When a creature falls prone within 5 feet of you, you can use your reaction to make an attack with an unarmed strike or melee weapon.
+- When a creature falls prone within 5 feet of you, you can use your reaction to make a melee weapon attack or an unarmed strike.
 - When you would have advantage on a melee weapon attack due to a creature being prone, you can reroll one of the dice once.
 - When a prone creature within 5 feet of you attempts to stand, they provoke an opportunity attack from you.
 - Once on each of your turns, if you move at least 10 feet in a straight line towards a creature before hitting it with a melee weapon attack, you deal additional damage equal to your proficiency bonus.
 
 #### Sentinel Mastery
-You've mastered techniques to take advantage of every drop in any enemy's guard; in tight spaces you are indomitable. While you are wielding a melee weapon with which you are proficient, you gain the following benefits:
+You've mastered techniques to take advantage of every drop in any enemy's guard; in tight spaces you are indomitable. While you are wielding a light- or vibro-weapon with which you are proficient, you gain the following benefits:
 - Creatures within your reach provoke opportunity attacks from you even if they take the Disengage action.
 - You can use a bonus action to enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you have a number of special reactions equal to your proficiency bonus that you can only use to make opportunity attacks. You can only take one reaction per turn.
 - When you take the Dodge action, once per round, you can take two reactions on the same turn, instead of only one.
@@ -923,9 +926,9 @@ You've mastered blaster weapons and can easily make shots that others find impos
 - Your ranged weapon attacks ignore one-quarter and half cover against targets 30 feet or greater from you. If your ranged weapon attacks would already ignore one-quarter and half cover against targets 30 feet or greater from you, they now also ignore three-quarters cover.
 - Before you make an attack with a blaster weapon against a target 30 feet or greater from you, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.
 
-<img src='https://www.gmbinder.com/images/BgQXy6W.png' style='position:absolute;bottom:0px;left:90px;width:350px;z-index:1000;transform:scaleX(-1)'/>
+<img src='https://www.gmbinder.com/images/BgQXy6W.png' style='position:absolute;bottom:0px;left:75px;width:350px;z-index:1000;transform:scaleX(-1)'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
@@ -958,14 +961,14 @@ You've mastered fighting with double-bladed weapons, using both ends to devastat
 - Before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage.
 
 #### Versatile Mastery
-You've mastered using weapons in different ways, altering your attack patterns mid-swing. While you are wielding a melee weapon with the versatile property with which you are proficient and no other weapons, you gain the following benefits:
+You've mastered using weapons in different ways, altering your attack patterns mid-swing. While you are wielding a light- or vibro-weapon with the versatile property with which you are proficient and no other weapons, you gain the following benefits:
 - When you are the target of a melee weapon attack, you can immediately use your reaction to make a melee weapon attack against the target without your proficiency bonus. On a hit, the target suffers the attack's normal effects, and you impose disadvantage on the triggering roll.
 - Once per turn, when you make an attack roll while wielding a weapon in two hands, you can attempt to follow up on the attack. If the attack hits, the creature must make a Strength saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, the creature is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.
 - Once per turn, when you make an attack roll while wielding a weapon in one hand, the target is wielding a shield, and your other hand is empty, you can use your other hand to pull down the shield (no action required). If you do so, the creature gains no benefit to armor class from its shield for that attack.
 
 <img src='https://www.gmbinder.com/images/6dLNEvJ.png' style='position:absolute;bottom:-90px;right:-45px;width:520px;z-index:1000;transform:scaleX(-1)'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
@@ -1038,6 +1041,6 @@ As a part of the bonus action to adopt this form, you can flourish your weapon t
 
 <img src='https://www.gmbinder.com/images/Alc3ckr.png' style='position:absolute;bottom:0px;left:-120px;width:620px;z-index:1000;'/>
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | LIGHTSABER FORMS</div>
 
 \pagebreakNum

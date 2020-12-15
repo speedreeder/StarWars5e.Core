@@ -37,7 +37,7 @@ When a character casts a power, he or she expends a number of points based on th
 Finishing a long rest restores any expended force points, and finishing a short or long rest restores any expended tech points (see chapter 8 for the rules on resting).
 
 > ##### Casting in Armor
-> Because of the mental focus and precise gestures required for force- and tech-casting, you must be proficient with the armor you are wearing to cast a power. You are otherwise too distracted and physically hampered by your armor for force- or tech-casting.
+> Because of the mental focus and precise gestures required for force- and tech-casting, you must be proficient with the armor you are wearing to cast a power. You are otherwise too distracted and hampered by your armor for force- or tech-casting.
 
 #### Casting a Power at a Higher Level
 When a caster casts a power using at a higher level than the power's normal level, the power assumes the higher level for that casting. For instance, if Umara casts *project* at 2nd-level, she uses three force points and that *project* is 2nd level. 
@@ -67,7 +67,10 @@ Many powers have more powerful effects when cast at a higher level, as indicated
 </div>
 
 #### At-Will Powers
-An at-will power is one that can be cast without expending force or tech points. Repeated practice has fixed the power in the caster's mind. An at-will power's level is 0.
+An at-will power is one that can be cast without expending force or tech points. An at-will power's level is 0.
+
+### Casting Focuses
+While forcecasting doesn't require a focus to cast force powers, techcasting requires that you have a tech focus in order to cast tech powers.
 
 <div class='footnote'>CHAPTER 10 | FORCE- AND TECH-CASTING</div>
 
@@ -194,11 +197,3 @@ For example, if two consulars cast *guidance* on the same target, that character
 <div class='footnote'>CHAPTER 10 | FORCE- AND TECH-CASTING</div>
 
 \pagebreakNum
-
-<style>
-  .phb#p29:after { display:none; }
-</style>
-
-<img src='https://cdn.discordapp.com/attachments/590617717761900555/593874554955497483/luke-force.jpg' class='cover-image' style="position:absolute; left:-350px; width:1860px;" />
-
-\pagebreak

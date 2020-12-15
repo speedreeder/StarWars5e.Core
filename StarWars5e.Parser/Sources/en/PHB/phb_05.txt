@@ -176,17 +176,17 @@ Assault armor improved on battle armor, with the benefit of micro-hydraulics tha
 Heavy exoskeletons are virtually the heaviest armor acquirable during the Galactic War. It is ideal for extreme combat situations that involved direct damage and also offers a very good level of protection in sacrifice of dexterity. Some consider it claustrophobic but that was the trade-off for safety.
 
 ### Shields
-Shields come in varying weights, sizes, and materials. Light shields are smaller and mounted to the forearm, while medium and large shields are held in hand. You can only benefit from one shield at a time.
+Shields come in varying weights, sizes, and materials. Light shields are smaller and mounted to the forearm, while medium and heavy shields are held in hand. You can only benefit from one shield at a time.
 
 ***Physical Shields.*** Physical shields are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier. 
 
-***Shield Generators.*** Shield generators are made almost entirely of energy barriers. Medium and large shield generators have a physical handheld component from which the barrier emanates; medium shield generators are orbs that are slightly larger than a fist, while large shield generators project from a large cross.
+***Shield Generators.*** Shield generators are made almost entirely of energy barriers. Medium and heavy shield generators have a physical handheld component from which the barrier emanates; medium shield generators are orbs that are slightly larger than a fist, while heavy shield generators project from a large cross.
 
 #### Light Shields
 A light shield is generally affixed to the forearm. While a light shield does not fill the hand slot, you gain no benefit from it while the hand is full. You gain no benefit from a light shield while wielding a weapon with the heavy property.
 
 #### Medium Shields
-A medium shield was a common defensive technology that protect the user from blaster fire, the elements, or other hazards. Medium shields are used in conjunction with any one-handed weapon.
+A medium shield is a common defensive technology that protects the user from blaster fire, the elements, or other hazards. Medium shields are used in conjunction with any one-handed weapon.
 
 #### Heavy Shields
 Heavy shields are much larger and more cumbersome, but they offer more protection than their smaller counterparts. Their obtrusive size, however, makes them unwieldy, requiring the use of a one-handed weapon with the light property in the other hand.
@@ -290,7 +290,7 @@ This weapon can be used with one or two hands. A damage value in parentheses app
 When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
 #### Fixed
-A weapon with the fixed property does not fill the hand slot, but you can't use the weapon while the hand is full. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.
+A weapon with the fixed property does not fill the hand slot, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon.
 
 #### Heavy
 When you hit with an attack roll using Strength with this weapon, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1).
@@ -459,7 +459,7 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 | &emsp;Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light|
 | &emsp;Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse |
 | &emsp;Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
-| &emsp;Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, special, thrown (range 15)|
+| &emsp;Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, finesse, special, thrown (range 15)|
 | &emsp;Techblade			|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, light|
 | &emsp;Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic)	|
 | &emsp;Vibroaxe			|  300 cr&nbsp;&nbsp;|1d10 kinetic		|11 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
@@ -552,7 +552,7 @@ Slug cartridges are ammunition for blaster weapons that deal kinetic damage. Whe
 
 ### Communications
 #### Commlink
-Commlinks are standard handheld communication devices, fitted with microphones and receivers. A standard, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference.
+Commlinks are standard handheld communication devices, fitted with microphones and receivers. Standard, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference.
 
 #### Comm Jammer
 A comm jammer is a device used to scramble communications. A comm jammer can block transmissions from unenhanced communications devices in a 100 foot radius.
@@ -652,7 +652,6 @@ Mines can be set to detonate when a creature comes within up to 15 feet of it or
 
 When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution saving throw. The creature takes 2d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
 
-
 \columnbreak
 
 <div class='classTable'>
@@ -670,9 +669,6 @@ When a creature enters the fog or starts its turn there, it creature must make a
 |	&emsp;Thermal detonator	            |  2,000 cr	|	1 lb		|
 
 </div>	
-
-<div style='margin-top:52px'></div>
-
 
 #### Mine, Incendiary
 Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.
@@ -716,7 +712,6 @@ As an action, you can use the poison in this vial to coat one vibroweapon, one s
 
 #### Repair Kit
 A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of.
-
 
 \columnbreak
 
@@ -773,7 +768,7 @@ A pouch stores 6 lb., not exceeding 1/5 cubic foot.
 ### Utilities
 
 #### Binders
-Binders can used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 14 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. Breaking the binders requires a DC 20 Strength check. Escaping them requires a DC 20 Dexterity check. A set of binders comes with one key. Without the key, unlocking the binders requires a DC 15 security kit to force open. Binders have an AC of 10 and 15 hit points. Destroying the binders frees the creature without harming it.
+Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 14 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. Breaking the binders requires a DC 20 Strength check. Escaping them requires a DC 20 Dexterity check. A set of binders comes with one key. Without the key, unlocking the binders requires a DC 15 security kit to force open. Binders have an AC of 10 and 15 hit points. Destroying the binders frees the creature without harming it.
 
 #### Chronometer
 A chronometer is a device that measures and keeps linear time.
@@ -850,18 +845,18 @@ Installing a restraining bolt takes 1 minute. The droid must make a DC 14 Consti
 A bandolier is worn across the chest. It has 12 slots that can each hold a single item that weighs less than 2 lb, such as a vibrodagger, a fragmentation grenade, or a power cell. Once per turn, drawing an item from a bandolier does not require your object interaction.
 
 #### Bipod
-A bipod is a device mounted to a two-handed blaster weapon to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on ranged weapons with the strength property while you are prone, and your speed is reduced to 0.
+A bipod is a device mounted to a two-handed blaster weapon to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on ranged weapons with the strength property while you are prone, and your speed is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon.
 
 #### Friction-Grip Gear
-A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking<br> speed.<br><br>
+A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking speed.
 
 <div style='margin-top:233px'></div>
 
 #### Jetpack 
-Jetpacks are personal aerial transportation devices that allow the operator to fly into and through the air with great mobility. Activating or deactivating the jetpack requires a bonus action and, while active, you have a flying speed of 30 feet. The jetpack last for 1 minute per power cell (to a maximum<br> of 10 minutes) and can be<br> recharged by a power<br> source or replacing the<br> power cells.
+Jetpacks are personal aerial transportation devices that allow the operator to fly into and through the air with great mobility. Activating or deactivating the jetpack requires a bonus action and, while active, you have a flying speed of 30 feet. The jetpack last for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells.
 
 #### Remote Detonator 
-A small handhold device<br> with a single button, used<br> to activate explosives. Over<br> the course of 1 minute, you<br> can pair the detonator with<br> up to two mines within 10 feet.<br> As an action, you can remotely<br> detonate all of the paired mines.<br> You must be within 30 feet of the<br> mines to detonate them.
+A small handhold device<br> with a single button, used<br> to activate explosives. Over<br> the course of 1 minute, you<br> can pair the detonator with<br> up to two mines within 10<br> feet. As an action, you can<br> remotely detonate all of the<br> paired mines. You must be<br> within 30 feet of the mines to<br> detonate them.
 
 \columnbreak
 
@@ -892,11 +887,11 @@ Stealth field generators are special devices typically worn on belts that functi
 A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1 lb each) without increasing<br> their total encumbrance.
 
 #### Tripod
-A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<br> increased stability. Over the course of 1<br> minute, you can deploy or collapse<br> the tripod. While deployed, you<br> ignore the Strength requirement on<br> ranged weapons with the strength<br> property, and your speed is<br> reduced to 0.
+A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer increased<br> stability. Over the course of 1 minute,<br> you can deploy or collapse the<br> tripod. While deployed, you ignore<br> the Strength requirement on blaster<br> weapons with the strength property,<br> and your speed is reduced to 0. <br>Additionally, while deployed, you<br> have a +10 bonus to ability checks<br> and saving throws to avoid being<br> disarmed of the weapon.
 
-<img src='https://www.gmbinder.com/images/cgGUzvl.png' style='position:absolute;top:358px;right:420px;width:340px;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/cgGUzvl.png' style='position:absolute;top:405px;left:80px;width:320px;transform:scaleX(-1)' />
 
-<img src='https://www.gmbinder.com/images/TW0FhNf.png' style='position:absolute;top:730px;right:358px;width:300px;' />
+<img src='https://www.gmbinder.com/images/TW0FhNf.png' style='position:absolute;bottom:30px;left:180px;width:265px;' />
 
 <img src='https://www.gmbinder.com/images/VVpqaIT.png' style='position:absolute;bottom:18px;right:-12px;width:280px;transform:scaleX(-1);z-index:1000' />
 

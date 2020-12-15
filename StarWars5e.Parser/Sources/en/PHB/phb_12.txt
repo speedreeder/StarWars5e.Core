@@ -373,12 +373,6 @@ ___
 
 You touch one Tiny, unenhanced object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and gains little arms and legs, becoming a creature under your control until the power ends or the creature drops to 0 hit points. See the stat block for its statistics. 
 
-As a bonus action, you can nonverbally command the creature if it is within 120 feet of you. (If you control multiple creatures with this power, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a code cylinder, stand watch, or stack some small objects. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.
-
-When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.
-
-The creature is considered a valid target for the *tracker droid interface* power.
-
 ___
 > ## Servant
 >*Tiny construct, unaligned*
@@ -401,13 +395,13 @@ ___
 > ### Actions
 > ***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 feet, one target. *Hit* 5 (1d4 + 3) kinetic damage.
 
-<div class='footnote'>CHAPTER 12 | TECH POWERS</div>
+As a bonus action, you can nonverbally command the creature if it is within 120 feet of you. (If you control multiple creatures with this power, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a code cylinder, stand watch, or stack some small objects. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.
 
-\pagebreakNum
+When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.
 
-<div style='margin-top:16px'></div>
+The creature is considered a valid target for the *tracker droid interface* power.
 
-&emsp;***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
+***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
 
 #### Bacta Pack
 _1st-level tech power_
@@ -466,7 +460,7 @@ ___
 - **Range:** 100 feet
 - **Duration:** 1 hour
 
-An immobile, Invisible, cube-shaped prison composed of energy springs into existence around an area you choose within range. The prison can be a cage or a solid box as you choose.
+An immobile, invisible, cube-shaped prison composed of energy springs into existence around an area you choose within range. The prison can be a cage or a solid box as you choose.
 
 A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart.
 
@@ -489,7 +483,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 minute
 
-You empower a blaster weapon you are holding. For the duration, you can reload the weapon once per turn without using an action, and as a bonus action on each of your turns you can make one attack with the weapon.
+You empower a blaster weapon you are holding. For the duration, you can reload the weapon once on each of your turns without using an action, and as a bonus action on each of your turns you can make one attack with the weapon.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.
 
@@ -710,9 +704,9 @@ ___
 - **Range:** Self (15-foot cone)
 - **Duration:** Instantaneous
 
-A wave of cold energy spreads out from you. Each creature in a 15-foot cone must make a Constitution saving throw. On a failed save, a creature takes 2d6 cold damage and gains a level of slowed until the end of its next turn. On a success, it takes half as much damage, and suffers no additional effect.
+A wave of cold energy spreads out from you. Each creature in a 15-foot cone must make a Constitution saving throw. On a failed save, a creature takes 2d6 cold damage and gains 1 slowed level until the end of its next turn. On a success, it takes half as much damage, and suffers no additional effect.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st. At 3rd level or above, the speed reduction increases to 20 feet. At 5th level or above, the speed reduction increases to 30 feet.
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st. At 3rd level or above, a creature gains 2 slowed levels on a failed save. At 5th level or above, a creature gains 3 slowed levels on a failed save. At 7th level or above, a creature gains 4 slowed levels on a failed save.
 
 #### Darkvision
 _2nd-level tech power_
@@ -744,7 +738,7 @@ A wind of 10mph disperses the cloud after 4 rounds. A wind of 20mph disperses it
 _1st-level tech power_
 ___
 - **Casting Time:** 1 action
-- **Range:** 30 feet
+- **Range:** Self
 - **Duration:** Concentration, up to 1 hour
 
 You gain insight into an encrypted message you are holding when you cast this power, granting you advantage on ability checks you make to decipher the document. 
@@ -1471,7 +1465,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 hour
 
-A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target attacks or casts a power.
+A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target attacks, casts a power, or otherwise take a hostile action.
 
 ***Overcharge Tech.*** You can target one additional creature for each slot level above 2nd.
 
@@ -1563,9 +1557,9 @@ ___
 - **Range:** 60 feet (5-foot cube)
 - **Duration:** Concentration, up to 1 minute
 
-You establish a mobile first aid station that radiates kolto and performs minor repairs in a 5-foot cube you can see within range.
+You establish a mobile first aid station that radiates kolto in a 5-foot cube you can see within range.
 
-Until the power ends, whenever you or a creature you can see moves into the station's space for the first time on a turn or starts its turn there, you can cause the station to restore 1d6 hit points to that creature (no action required). The station can heal a number of times equal to 1 + your techcasting ability modifier (minimum of twice). After healing that number of times, the station disintegrates.
+Until the power ends, whenever you or a creature you can see moves into the station's space for the first time on a turn or starts its turn there, you can cause the station to restore 1d6 hit points to that creature (no action required). The station can heal a number of times equal to 1 + your techcasting ability modifier (minimum of twice). After healing that number of times, the station disintegrates. This power has no effect on droids or constructs.
 
 As a bonus action on your turn, you can move the station up to 30 feet to a space you can see.
 
@@ -1770,7 +1764,7 @@ ___
 - **Range:** 30 feet
 - **Duration:** Concentration, up to 1 minute
 
-You imbue a willing droid or construct with heightened speed and maneuverability. Until the power ends, the target's speed is doubled, it gains a +2 bonus to AC, and it has advantage on Dexterity saving throws. 
+You imbue a willing droid with heightened speed and maneuverability. Until the power ends, the target's speed is doubled, it gains a +2 bonus to AC, and it has advantage on Dexterity saving throws. 
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you can target one additional droid or construct for each slot level above 2nd.
 
@@ -2477,7 +2471,7 @@ ___
 
 Up to three creatures of your choice that you can see within range must make Dexterity saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-***Overcharge Tech.*** When you cast this power with a tech slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
+***Overcharge Tech.*** When you cast this power with a tech slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to d6, d8, and d10, respectively.
 
 #### Stack the Deck
 _1st-level tech power_
@@ -2488,7 +2482,7 @@ ___
 
 You boost up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the power ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
 
-***Overcharge Tech.*** When you cast this power with a tech slot of 2nd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd level or higher, the die size increases for every two slot levels above 1st (d6 at 3rd level, d8 at 5th level, d10 at 7th level).
+***Overcharge Tech.*** When you cast this power with a tech slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to d6, d8, and d10, respectively.
 
 #### Storming Shot
 _At-will tech power_
