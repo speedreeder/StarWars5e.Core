@@ -75,6 +75,7 @@
 |:--|--:|
 |	Ortolan         	|
 |	Pa'lowick           |
+|	Patrolian           |
 |	Pau'an	            |
 |	Pyke	            |
 |	Quarren	            |
@@ -160,8 +161,7 @@ As an abyssin, you have the following special traits.
 
 ***Alignment.*** Abyssin's violent and anarchic upbringing cause them to tend toward the dark side, though there are exceptions.
 
-***Size.*** Abyssin stand around 6 feet tall and weigh between 200 and 400 lbs. Regardless of your position in that range,
-your size is Medium.
+***Size.*** Abyssin stand around 6 feet tall and weigh between 200 and 400 lbs. Regardless of your position in that range, your size is Medium.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
@@ -1001,10 +1001,10 @@ Chadra-Fan names do not vary significantly based on sex. Surnames are clan based
 
 \columnbreak
 
-<div style='margin-top:265px'></div>
+<div style='margin-top:235px'></div>
 
 ### Chadra-Fan Traits
-As a Chadra-Fan, you have the following special traits.
+As a chadra-fan, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and your Charisma score increases by<br> 1.
 
@@ -1024,13 +1024,13 @@ As a Chadra-Fan, you have the following special traits.
 
 ***Tinker.*** You have proficiency with tinker's implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, emit an onerous smell for 1 minute. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it.
 
-***Trance.*** Chadra-Fan only require 2 hours of sleep a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+***Trance.*** You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits.
 
 ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Chadra-Fan. The Chadra-Fan language is characterized as being nasally and squeaky.
 
-<img src='https://www.gmbinder.com/images/o7JpUfj.png' style='position:absolute;top:42px;right:125px;width:200px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/o7JpUfj.png' style='position:absolute;top:42px;right:129px;width:180px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -1357,7 +1357,7 @@ ___
 > |***Homeworld***|  |Munto Codru|
 > |***Language***|  |Codruese|
 
-<div style='margin-top:35px'></div>
+<div style='margin-top:40px'></div>
 
 ### Biology and Appearance
 Codru-Ji are humanoids generally near-human in their adult appearances, save for their four arms. While their hair, eye, and skin pigmentations tend towards earthen hues, brighter colorations such as blonde hair or blue eyes, though uncommon, also exist. Rarer still, some adults maintain a light coat of fur or elongated, pointed ears. These eccentric attributes result from their unusual childhood forms.
@@ -1378,10 +1378,10 @@ Codru-Ji names are often kept to two syllables. Clan names are appended to the g
 
 \columnbreak
 
-<div style='margin-top:460px'></div>
+<div style='margin-top:445px'></div>
 
 ### Codru-Ji Traits
-As a Codru-Ji, you have the following special traits.
+As a codru-ji, you have the following special traits.
 
 ***Ability Score Increase.*** Your Charisma score increases by 2, and your Constitution score increases by 1.
 
@@ -1401,11 +1401,11 @@ As a Codru-Ji, you have the following special traits.
 
 ***Natural Grappler.*** Whenever you make a Strength (Athletics) check to grapple you are considered to have expertise in the Athletics skill.
 
-***Trance.*** Codru-Ji sleep lightly, standing and semiconscious, for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+***Trance.*** You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Codruese, which has a solemn and stately cadence to it.
 
-<img src='https://www.gmbinder.com/images/uLDGz5m.png' style='position:absolute;top:37px;right:112px;width:242px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/uLDGz5m.png' style='position:absolute;top:37px;right:112px;width:235px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2287,7 +2287,7 @@ ___
 > |***Homeworld***|&nbsp;&nbsp;|Geonosis|
 > |***Language***|&nbsp;&nbsp;|Geonosian|
 
-<div style='margin-top:19px'></div>
+<div style='margin-top:24px'></div>
 
 ### Biology and Appearance
 Geonosians have a hard chitin exoskeleton that provided protection from physical impacts and bouts of radiation that occasionally shower their world. Geonosians are strong despite their thin builds, and are capable of constructing massive hives and factories in concert. The head of a Geonosian is elongated and large with their skulls ridged on the top and by the side where they have bulbous, thick-lidded eyes. Both are physically strong and covered with bony ridges which protected their arms, legs, and vital organs. 
@@ -2306,10 +2306,10 @@ Geonosian names are usually harsh sounding. Lower castes don't get surnames. Upp
 
 \columnbreak
 
-<div style='margin-top:521px'></div>
+<div style='margin-top:506px'></div>
 
 ### Geonosian Traits
-As a Geonosian, you have the following special traits.
+As a geonosian, you have the following special traits.
 
 ***Ability Score Increase.*** You Dexterity score increases by 2, and your Constitution or Intelligence score increases by 1.
 
@@ -2325,13 +2325,13 @@ As a Geonosian, you have the following special traits.
 
 ***Exoskeleton.*** You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.
 
-***Flight.*** You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.
+***Flight.*** You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half.
 
-***Geonosian Weaponry.*** You have proficiency in simple blasters.
+***Geonosian Weaponry.*** You have proficiency in blasters that deal sonic damage.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Geonosian. The Geonosian language consists of click consonants through use of a Geonosians' dual mandibles. This makes it difficult for other species to learn to speak it.
 
-<img src='https://www.gmbinder.com/images/1crsxzt.png' style='position:absolute;top:-79px;right:-13px;width:600px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/1crsxzt.png' style='position:absolute;top:-79px;right:-13px;width:584px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2630,6 +2630,7 @@ ___
 > |Ortolan|Grovel, Cower, and Beg|
 > |Quarren|Keen Hearing|
 > |Pa'lowick|Hold Breath<br> Snout|
+> |Patrolian|Darkvision|
 > |Pau'an|Darkvision|
 > 
 > |||
@@ -3825,7 +3826,7 @@ Lasat names tend to be melodic, with the occasionally harsh tone sprinkled in. S
 <div style='margin-top:485px'></div>
 
 ### Lasat Traits
-As a Lasat, you have the following special traits.
+As a lasat, you have the following special traits.
 
 ***Ability Score Increase.*** Your Strength score increases by 2, and your Charisma score increases by<br> 1.
 
@@ -3837,7 +3838,7 @@ As a Lasat, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Bo-rifle Training.*** You have proficiency with blaster rifles and vibrostaffs.
+***Bo-rifle Training.*** You have proficiency with blaster rifles, bo-rifles, and vibrostaffs.
 
 ***Climbing.*** You have a climbing speed of 30 feet.
 
@@ -3977,7 +3978,7 @@ Miraluka names are generally two syllables. Miraluka don't use surnames, as they
 <div style='margin-top:517px'></div>
 
 ### Miraluka Traits
-As a Miraluka, you have the following special traits.
+As a miraluka, you have the following special traits.
 
 ***Ability Score Increase.*** Your Wisdom score increases by 2, and your Charisma score increases<br> by 1.
 
@@ -4048,7 +4049,7 @@ Mirialan names are typically concise and rarely more than two syllables. Surname
 <div style='margin-top:516px'></div>
 
 ### Mirialan Traits
-As a Mirialan, you have the following special traits.
+As a mirialan, you have the following special traits.
 
 ***Ability Score Increase.*** Your Dexterity score increases by 2, and your Intelligence score increases by 1.
 
@@ -4196,7 +4197,7 @@ Muun names are typically clear and concise, rarely containing more than two syll
 <div style='margin-top:501px'></div>
 
 ### Muun Traits
-As a Muun, you have the following special traits.
+As a muun, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score<br> increases by 2, and your Charisma score increases by<br> 1.
 
@@ -4344,7 +4345,7 @@ Noghri names vary from short to long, with female names being typically softer. 
 <div style='margin-top:440px'></div>
 
 ### Noghri Traits
-As an Noghri, you have the following special traits.
+As a noghri, you have the following special traits.
 
 ***Ability Score Increase.*** Your Dexterity score increases by 2, and your Strength score increases by 1.
 
@@ -4421,7 +4422,7 @@ Ortolan names are generally short with big sounds. Female names are typically so
 <div style='margin-top:355px'></div>
 
 ### Ortolan Traits
-As a Ortolan, you have the following special traits.
+As an ortolan, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and your Charisma score increases by<br> 1.
 
@@ -4534,6 +4535,91 @@ As a pa'lowick, you have the following special traits:
 \pagebreak
 
 ___
+> ## Patrolian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Blue-purple to green|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Light to dark red|
+> |***Distinctions***|  |Fin-like limbs, pastel-color scales|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |2'8"|+2d4"|
+> |***Weight***|  |35 lb.|x1 lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Patrolia|
+> |***Language***|  |Patrolian|
+
+<div style='margin-top:38px'></div>
+
+### Biology and Appearance
+Patrolians are fish-like in appearance, covered in pale, pastel-colored scales and possessing numerous fins on their long limbs and face, as well as a notable dorsal fin which often require modified clothing to accommodate. 
+
+Thanks to their gills, patrolians are perfectly comfortable breathing underwater as well as on land, and their physiology is also notoriously resistant to electric shocks—both likely throwbacks to evolution on their native homeworld of Patrolia.
+
+### Society and Culture
+Patrolians are a notably innovative and resourceful species, and many of their number have found their way into roles in the construction, maintenance and sale of technology. 
+
+Unfortunately, patrolians tend to pursue these businesses in a shady manner, and most tend to operate such ventures in the criminal underworld, working as bounty hunters, thieves, fences, slicers and other such technically-demanding criminal roles. 
+
+This inclination towards crime stems from their homeworld, which is perpetually stalled in a state of economic decay due to wartime. With the advent of multiple wars fought in the system, different armies continue to see the aquatic world as a strategic bulwark in the region. Because of this, patrolians have to find work not only off-world, but typically in fields not falling under governmental purview; unfortunately, criminal activities are the most common path. 
+
+### Names
+Patrolian names are usually multisyllabic and sing-songy with lots of open vowels and few fricatives. Patrolians are not known to use family names or other surnames.
+
+**Male Names.** Dalladu, Feddi, Nogagai, Teconica
+
+**Female Names.** Kakeda, Machibido, Rinimma, Talla
+
+\columnbreak
+
+<div style='margin-top:339px'></div>
+
+### Patrolian Traits
+As a patrolian, you have the following special traits.
+
+***Ability Score Increase.*** Your Intelligence score increases by 2, and your Dexterity or Charisma score increases by 1.
+
+***Age.*** Patrolians reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Patrolians' greedy, scheming nature causes them to tend toward the dark side, though there are exceptions.
+
+***Size.*** Patrolians typically stand just over 3 feet tall and generally weigh about 40 lbs. Regardless of your position in that range, your size is Small.
+
+***Speed.*** Your base walking speed is 25 feet.
+
+***Amphibious.*** You can breathe air and water.
+
+***Conniving.*** You have proficiency in Deception or Stealth (your choice). 
+
+***Darkvision.*** Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Electrical Resistance.*** Patrolians are notably capable of shrugging off electricity. You have resistance to lightning damage.
+
+***Specialist.*** You have proficiency in one specialist's kit of your choice.
+
+***Swim.*** You have a swimming speed of 25 feet.
+
+***Technician.*** You are proficient in the Technology skill.
+
+***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Patrolian. Patrolian is a high-energy language, consisting mostly of gurgles and skittish vocalizations. Patrolian, even when spoken on land, sounds like it's being spoken underwater. 
+
+<img src='https://vignette.wikia.nocookie.net/starwars/images/7/77/Robonino-TCWCE.png/revision/latest?cb=20170612124601' style='position:absolute;top:40px;right:150px;width:180px;transform:scaleX(1)' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
 > ## Pau'an
 > ___
 > #### Visual Characteristics
@@ -4578,7 +4664,7 @@ Pau'an names are fairly simple, and generally melodic. Surnames are familial.
 <div style='margin-top:415px'></div>
 
 ### Pau'an Traits
-As a Pau'an, you have the following special traits.
+As a pau'an, you have the following special traits.
 
 ***Ability Score Increase.*** Your Wisdom score increases by 2, and your Constitution score increases by 1. 
 
@@ -4887,7 +4973,7 @@ Rattataki names are harsh sounding and short. Surnames are familial, though many
 <div style='margin-top:531px'></div>
 
 ### Rattataki Traits
-As a Rattataki, you have the following special traits.
+As a rattataki, you have the following special traits.
 
 ***Ability Score Increase.*** Your Wisdom score increases by 2, and your Dexterity or Intelligence score increases by 1.
 
@@ -4938,7 +5024,7 @@ ___
 > |***Homeworld***|&nbsp;&nbsp;|Rishi|
 > |***Language***|&nbsp;&nbsp;|Rishii|
 
-<div style='margin-top:36px'></div>
+<div style='margin-top:41px'></div>
 
 ### Biology and Appearance
 Rishii are a sentient, avian species of carnivores which possess two legs ending in four-toed feet, two arms, a tail, and a head. The species' two arms consist of feathered wings ending in nimble humanoid hands, capable of manipulating tools. The wings grant the Rishii the ability to fly at great speeds, which is their method of travel equivalent to running in land-based species. A Rishii's head contained a beak between two yellow eyes framed by a large brow. Rishii were capable of mimicking anything said to them perfectly, and also possessed extremely strong senses, particularly hearing and sight. 
@@ -4951,10 +5037,10 @@ As with much of their speech, Rishii names include clicks, trills, and whistles 
 
 \columnbreak
 
-<div style='margin-top:516px'></div>
+<div style='margin-top:506px'></div>
 
 ### Rishii Traits
-As a Rishii, you have the following special traits.
+As a rishii, you have the following special traits.
 
 ***Ability Score Increase.*** Your Dexterity score increases by 2, and your Constitution score increases by 1.
 
@@ -4966,15 +5052,15 @@ As a Rishii, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Flight.*** You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.
+***Flight.*** You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half.
 
 ***Keen Hearing and Sight.*** You have advantage on Wisdom (Perception) checks that rely on hearing or sight.
 
 ***Mimicry.*** You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.
 
-***Languages.*** You can speak, read, and write Galactic<br> Basic and Rishii. Rishii's clicks, trills, and whistles are<br> difficult for outsiders to learn without the aid of a<br> protocol droid, and so Rishii often feel comfortable<br> speaking to eachother in the language in front of<br> others.
+***Languages.*** You can speak, read, and write Galactic Basic and Rishii. Rishii's clicks, trills, and whistles are difficult for outsiders to learn without the aid of a protocol droid, and so Rishii often feel comfortable speaking to eachother in the language in front of others.
 
-<img src='https://www.gmbinder.com/images/BuOJWlZ.png' style='position:absolute;top:47px;right:-78px;width:531px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/BuOJWlZ.png' style='position:absolute;top:47px;right:-78px;width:522px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -5178,7 +5264,7 @@ Shistavanen first names typically sound graceful, while their surnames are more 
 <div style='margin-top:400px'></div>
 
 ### Shistavanen Traits
-As a Shistavanen, you have the following special traits.
+As a shistavanen, you have the following special traits.
 
 ***Ability Score Increase.*** Your Strength score increases by 2, and your Constitution score increases<br> by 1.
 
@@ -5251,7 +5337,7 @@ Squibs combine their first and last names, which are familial, into one long, hy
 <div style='margin-top:234px'></div>
 
 ### Squib Traits
-As a Squib, you have the following special traits.
+As a squib, you have the following special traits.
 
 ***Ability Score Increase.*** Your Charisma score increases by 2, and your Dexterity score increases by 1.
 
@@ -5407,7 +5493,7 @@ Male names are typically longer than female names. Surnames are based on Warren-
 <div style='margin-top:516px'></div>
 
 ### Sullustan Traits
-As a Sullustan, you have the following special traits.
+As a sullustan, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and your Dexterity score increases by 1.
 
@@ -5482,7 +5568,7 @@ Talz names are fairly gutteral and are characterized by their harsh nature. Fema
 <div style='margin-top:486px'></div>
 
 ### Talz Traits
-As a Talz, you have the following special traits.
+As a talz, you have the following special traits.
 
 ***Ability Score Increase.*** Your Strength score<br> increases by 2, and your Wisdom score increases<br> by 1.
 
@@ -5619,7 +5705,7 @@ Thisspiasian names typically are composed of two similar sounding syllables. Sur
 
 \columnbreak
 
-<div style='margin-top:370px'></div>
+<div style='margin-top:340px'></div>
 
 ### Thisspiasian Traits
 As a thisspiasian, you have the following special traits.
@@ -5644,11 +5730,11 @@ As a thisspiasian, you have the following special traits.
 
 ***Prehensile Tail.*** You have supreme control over your tail and can use it to manipulate objects as well as your hands. 
 
-***Trance.*** Thisspiasians only require 2 hours of sleep a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+***Trance.*** You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Thisspiasian. Thisspiasian is a complex language characterized by its interlocking sentences and heavy use of sibilants.
 
-<img src='https://www.gmbinder.com/images/GZQ97jw.png' style='position:absolute;top:35px;right:110px;width:247px;transform:scaleX(1)' />
+<img src='https://www.gmbinder.com/images/GZQ97jw.png' style='position:absolute;top:35px;right:110px;width:229px;transform:scaleX(1)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -5697,7 +5783,7 @@ Togorian names tend to be short and primal-sounding. Female names tend to includ
 <div style='margin-top:491px'></div>
 
 ### Togorian Traits
-As a Togorian, you have the following special traits.
+As a togorian, you have the following special traits.
 
 **Ability Score Increase.** Your Strength score increases by 2, and your Dexterity or Constitution score increases by 1.
 
@@ -5769,10 +5855,10 @@ Toydarian names are fairly simple and guttural, but a few harsher elements can b
 
 \columnbreak
 
-<div style='margin-top:385px'></div>
+<div style='margin-top:370px'></div>
 
 ### Toydarian Traits
-As a Toydarian, you have the following special traits.
+As a toydarian, you have the following special traits.
 
 ***Ability Score Increase.*** Your Charisma score increases by 2, and your Intelligence score increases by 1.
 
@@ -5788,7 +5874,7 @@ As a Toydarian, you have the following special traits.
 
 ***Closed Mind.*** Toydarian brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers.
 
-***Flight.*** You have a flying speed of 25 feet. To use this speed, you can't be wearing medium or heavy armor.
+***Flight.*** You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half.
 
 ***Shrewd Demeanor.*** You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice.
 
@@ -5796,7 +5882,7 @@ As a Toydarian, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic, Huttese, and Toydarian.
 
-<img src='https://www.gmbinder.com/images/WqVdcz3.png' style='position:absolute;top:47px;right:18px;width:421px;Transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/WqVdcz3.png' style='position:absolute;top:47px;right:18px;width:403px;Transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -5851,7 +5937,7 @@ Ugnaught names are generally concise. Female names sound more cheerful. Surnames
 <div style='margin-top:159px'></div>
 
 ### Ugnaught Traits
-As a Ugnaught, you have the following special traits.
+As an ugnaught, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and your Strength score increases by 1.
 
@@ -5932,7 +6018,7 @@ Umbaran names are typically no more than one or two syllables. Surnames are fami
 <div style='margin-top:365px'></div>
 
 ### Umbaran Traits
-As an Umbaran, you have the following special traits.
+As an umbaran, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and your Charisma or Wisdom score increases by 1. 
 
@@ -6009,7 +6095,7 @@ Verpine had variable naming customs. Not all Verpines adopt surnames. Male and f
 <div style='margin-top:506px'></div>
 
 ### Verpine Traits
-As a Verpine, you have the following special traits.
+As a verpine, you have the following special traits.
 
 ***Ability Score Increase.*** Your Intelligence score increases by 2, and your Constitution score increases by 1.
 
@@ -6078,7 +6164,7 @@ All Voss have two short names, connected by a hyphen, with the family name being
 <br><div style='margin-top:415px'></div>
 
 ### Voss Traits
-As a Voss, you have the following special traits.
+As a voss, you have the following special traits.
 
 ***Ability Score Increase.*** Your Wisdom score<br> increases by 2, and your Constitution score increases<br> by 1.
 
@@ -6155,7 +6241,7 @@ Vurk names are traditionally two to three syllables. Female names typically end 
 <div style='margin-top:515px'></div>
 
 ### Vurk Traits
-As a Vurk, you have the following special traits.
+As a vurk, you have the following special traits.
 
 ***Ability Score Increase.*** Your Wisdom score<br> increases by 2, and your Constitution score increases<br> by 1.
 
@@ -6226,7 +6312,7 @@ Yevetha names are sharp and are kept to one syllable, not varying significantly 
 <br><div style='margin-top:400px'></div>
 
 ### Yevetha Traits
-As a Yevetha, you have the following special traits.
+As a yevetha, you have the following special traits.
 
 ***Ability Score Increase.*** Your Strength score<br> increases by 2, and your Intelligence score increases by<br> 1.
 
@@ -6299,7 +6385,7 @@ Zeltron names often have an air of mystique to them, to evoke sensuality. For a 
 <div style='margin-top:426px'></div>
 
 ### Zeltron Traits
-As a Zeltron, you have the following special traits.
+As a zeltron, you have the following special traits.
 
 ***Ability Score Increase.*** Your Charisma score<br> increases by 2, and your Constitution score increases<br> by 1.
 
