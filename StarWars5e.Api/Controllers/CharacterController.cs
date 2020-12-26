@@ -80,5 +80,33 @@ namespace StarWars5e.Api.Controllers
 
             return Ok(newCharacter);
         }
+
+        [HttpPost("multiple")]
+        public async Task<ActionResult<Character>> PostMultipleCharacters(PostCharactersRequest postCharactersRequest)
+        {
+            HttpContext.VerifyUserHasAnyAcceptedScope("api.writeCharacterData");
+
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrWhiteSpace(userId))
+            {
+                return BadRequest("No userId found.");
+            }
+
+            var characters = new List<Character>();
+            foreach (var characterRequest in postCharactersRequest.CharacterRequests)
+            {
+                if (!string.IsNullOrWhiteSpace(characterRequest.Id) && !Guid.TryParse(characterRequest.Id, out _))
+                {
+                    return BadRequest("Invalid character Id.");
+                }
+
+                var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId);
+
+                characters.Add(newCharacter);
+            }
+
+            return Ok(characters);
+        }
     }
 }
