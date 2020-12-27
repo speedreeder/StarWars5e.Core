@@ -16,13 +16,23 @@ namespace StarWars5e.Api.Managers
             _cloudBlobClient = cloudBlobClient;
         }
 
+        public async Task<List<IListBlobItem>> GetRawCharacterBlobsAsync(string userId)
+        {
+            var blobContainer = _cloudBlobClient.GetContainerReference("characters");
+            var directory = blobContainer.GetDirectoryReference(userId);
+
+            var characterBlobs = await ListBlobsAsync(directory);
+
+            return characterBlobs;
+        }
+
         public async Task<IEnumerable<Character>> GetCharactersForUserAsync(string userId)
         {
             var blobContainer = _cloudBlobClient.GetContainerReference("characters");
             var directory = blobContainer.GetDirectoryReference(userId);
             var characters = new List<Character>();
 
-            var characterBlobs = await ListBlobsAsync(directory);
+            var characterBlobs = await GetRawCharacterBlobsAsync(userId);
 
             foreach (var characterBlob in characterBlobs)
             {

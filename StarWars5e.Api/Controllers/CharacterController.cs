@@ -76,6 +76,13 @@ namespace StarWars5e.Api.Controllers
                 return BadRequest("Invalid character Id.");
             }
 
+            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(userId);
+
+            if (currentCharactersForUser.Count >= 20)
+            {
+                return BadRequest("User already has 20 characters saved");
+            }
+
             var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId);
 
             return Ok(newCharacter);
