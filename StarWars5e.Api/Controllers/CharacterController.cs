@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
@@ -80,7 +81,7 @@ namespace StarWars5e.Api.Controllers
 
             if (currentCharactersForUser.Count >= 20)
             {
-                return BadRequest("User already has 20 characters saved");
+                return BadRequest("User already has 20 characters saved.");
             }
 
             var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId);
@@ -100,15 +101,30 @@ namespace StarWars5e.Api.Controllers
                 return BadRequest("No userId found.");
             }
 
-            var characters = new List<Character>();
-            foreach (var characterRequest in postCharactersRequest.CharacterRequests)
+            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(userId);
+
+            if (currentCharactersForUser.Count >= 20)
             {
-                if (!string.IsNullOrWhiteSpace(characterRequest.Id) && !Guid.TryParse(characterRequest.Id, out _))
+                return BadRequest("User already has 20 characters saved.");
+            }
+
+            var characters = new List<Character>();
+
+            var numberOfCharactersToAdd =
+                20 - currentCharactersForUser.Count < postCharactersRequest.CharacterRequests.Count
+                    ? 20 - currentCharactersForUser.Count
+                    : postCharactersRequest.CharacterRequests.Count;
+
+            foreach (var postCharacterRequest in postCharactersRequest.CharacterRequests.Take(numberOfCharactersToAdd))
+            {
+                if (!string.IsNullOrWhiteSpace(postCharacterRequest.Id) &&
+                    !Guid.TryParse(postCharacterRequest.Id, out _))
                 {
                     return BadRequest("Invalid character Id.");
                 }
 
-                var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId);
+                var newCharacter =
+                    await _characterManager.SaveCharacterAsync(postCharacterRequest, userId);
 
                 characters.Add(newCharacter);
             }
