@@ -7,6 +7,7 @@
         WH,
         SnV,
         SotG,
-        EC
+        EC,
+        Community
     }
 }
