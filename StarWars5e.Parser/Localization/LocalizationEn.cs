@@ -231,7 +231,7 @@ namespace StarWars5e.Parser.Localization
             ("Magnetic", "#### Magnetic", 1),
             ("Obscured", "#### Obscured", 1),
             ("Powered", "#### Powered", 1),
-            ("Reactive", "#### Regulated", 1),
+            ("Reactive", "#### Reactive", 1),
             ("Regulated", "#### Regulated", 1),
             ("Reinforced", "#### Reinforced", 1),
             ("Responsive", "#### Responsive", 1),
