@@ -447,7 +447,7 @@ namespace StarWars5e.Parser.Processors.PHB
                 {
                     exists = featureLevels.Where(f => featureTextLines[i].Contains(f.Item1)).ToList();
                     i++;
-                } while (i < featureTextLines.Count - 1 && !exists.Any());
+                } while (i <= featureTextLines.Count - 1 && !exists.Any());
 
                 if (exists.Any())
                 {

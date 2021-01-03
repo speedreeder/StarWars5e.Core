@@ -2,7 +2,7 @@
 
 <div class='wide'>
 
-# Called Shots
+## Called Shots
 
 </div>
 
@@ -26,7 +26,7 @@ When you hit with a called shot, you can choose to deal normal weapon damage and
 
 <div class='wide'> 
 
-# Bonus Proficiencies
+## Bonus Proficiencies
 
 </div>
 
@@ -51,7 +51,7 @@ If a character wants to instead use their points to gain expertise in a skill, t
 
 <div class='wide'> 
 
-# Alternative At-Wills and Extra Attack
+## Alternative At-Wills and Extra Attack
 
 </div>
 
@@ -88,7 +88,7 @@ No characters should receive the Greater Extra Attack feature through this multi
 
 <div class='wide'> 
 
-# Longer Rests
+## Longer Rests
 
 </div>
 
@@ -122,7 +122,7 @@ Certain powers, such as *battle precognition* or *force barrier*, are powers tha
 
 <div class='wide'> 
 
-# Wounds
+## Wounds
 
 </div>
 
@@ -140,7 +140,7 @@ A character loses all wounded levels when they are restored to their hit point m
 
 <div class='wide'>
 
-# Critical Saving Throws
+## Critical Saving Throws
 
 </div>
 
@@ -166,7 +166,7 @@ If you use the Saving Throw Checks variant, you would instead allow effects to c
 
 <div class='wide'>
 
-# Careful Checks
+## Careful Checks
 
 </div>
 
@@ -178,7 +178,7 @@ If you would have advantage on the check, you can instead take 15.
 
 <div class='wide'>
 
-# Replacing Powers
+## Replacing Powers
 
 </div>
 
@@ -218,7 +218,7 @@ When attempting to replace a power, if the character currently has a vacant powe
 
 <div class='wide'>
 
-# Exertion
+## Exertion
 
 </div>
 
@@ -238,7 +238,7 @@ When a character exerts themselves, they immediately lose hit points equal to th
 
 <div class='wide'>
 
-# Simplified Styles and Masteries
+## Simplified Styles and Masteries
 
 </div>
 
@@ -373,7 +373,7 @@ You've mastered the art of using weapons in different ways, altering your attack
 
 <div class='wide'>
 
-# Tactical Initiative
+## Tactical Initiative
 
 </div>
 
@@ -403,7 +403,7 @@ When a tactical group loses contact with each other, or if the tactical group ch
 
 <div class='wide'>
 
-# Alternative Armor
+## Alternative Armor
 
 </div>
 
@@ -472,7 +472,7 @@ Work with your GM to determine how other AC calculations, such as the *battle pr
 
 <div class='wide'>
 
-# Aging
+## Aging
 
 </div>
 
@@ -522,7 +522,7 @@ in their 70's, lanniks at about 750, and hutts over the age of 900. When a chara
 
 <div class='wide'>
 
-# Force-Bond
+## Force-Bond
 
 </div>
 
@@ -619,7 +619,7 @@ Sometimes, creatures might want to end their Force-bond, whether the bond was cr
 
 <div class='wide'>
 
-# Crueler Criticals
+## Crueler Criticals
 
 </div>
 
@@ -631,7 +631,7 @@ With this rule, instead of rolling the damage dice twice, you instead maximize t
 
 <div class='wide'>
 
-# Combination Weapons
+## Combination Weapons
 
 </div>
 
@@ -682,7 +682,7 @@ When you would attempt to combine an additional weapon, you can instead attempt 
 
 <div class='wide'>
 
-# Dueling
+## Dueling
 
 </div>
 
@@ -721,7 +721,7 @@ How many strikes a character can take varies based on the lethality of the conte
 
 <div class='wide'>
 
-# Overlapping Features
+## Overlapping Features
 
 </div>
 
@@ -749,9 +749,12 @@ Many species come with higher unarmed strike damage, such as twi'lek or zabrak, 
 
 Additionally, consider allowing those species that have natural weapons to use those weapons in place of their unarmed strikes, as appropriate.
 
+### Situational Expertise
+Certain special traits, such as the aqualish Arms Dealer trait, give expertise in a skill in a certain situation. If you would already have expertise in that situation, instead treat this feature as if it gave advantage.
+
 \pagebreak
 
-# Compound Advantage
+## Compound Advantage
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
@@ -775,17 +778,17 @@ If you would have superadvantage on a careful check, you can instead take 18. If
 
 <div class='wide'>
 
-# Flanking
+## Flanking
 
 </div>
 
-When multiple creatures within 5 feet of another creature engage it in combat, that creature may become flanked. This variant rule offers mechanical boons to flanking that work alongside Advanced Advantage, but can be used completely separately.
+When multiple creatures within 5 feet of another creature engage it in combat, that creature may become flanked. This variant rule offers mechanical boons to flanking separate from simple advantage.
 
-A target who is **one-quarter flanked** suffers a -2 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A target is one-quarter flanked if it is at least one-fourth surrounded, either to a side, above, or below.
+A creature who is **one-quarter flanked** suffers a -2 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A creature is one-quarter flanked if it is at least one-fourth surrounded, either to a side, above, or below.
 
-A target who is **half flanked** suffers a -3 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A target is half flanked if it is at least half surrounded, either to a side, above, or below.
+A creature who is **half flanked** suffers a -3 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A creature is half flanked if it is at least half surrounded, either to a side, above, or below.
 
-A target who is **three-quarters flanked** suffers a -5 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A target is three-quarters flanked if it is at least three-quarters surrounded, either to a side, above, or below.
+A creature who is **three-quarters flanked** suffers a -5 penalty to AC and Dexterity saving throws against sources within 5 feet of it. A creature is three-quarters flanked if it is at least three-quarters surrounded, either to a side, above, or below.
 
 > Alternatively, you can have players add a +2, +3, or +5 bonus to their attack rolls against creatures who are one-quarter, half, or three-quarters flanked, respectively, by them. Additionally, if you use the Saving Throws Checks variant, you can instead have them add a +2, +3, or +5 bonus to their Dexterity saving throw checks against creatures who are one-quarter, half, or three-quarters flanked, respectively, by them.
 
@@ -1351,7 +1354,7 @@ A creature with legendary actions can use its Legendary Resistance to avoid dism
 
 <div class='wide'>
 
-# Defense Rolls
+## Defense Rolls
 
 </div> 
 
@@ -1373,9 +1376,10 @@ If the defense roll comes up a 1 on the d20, then the attack is a critical hit. 
 Similarly, a 20 on the defense roll would automatically be a successful dodge, regardless of the attack save DC.
 
 \pagebreak
+
 <div class='wide'>
 
-# Saving Throw Checks
+## Saving Throw Checks
 
 </div>
 
@@ -1396,7 +1400,7 @@ If the defender would normally have advantage on the saving roll, you instead ap
 
 <div class='wide'>
 
-# Simplified Forcecasting
+## Simplified Forcecasting
 
 </div>
 
@@ -1408,7 +1412,7 @@ For new players, this might be too complicated. Consider letting them instead ch
 
 <div class='wide'>
 
-# Force and Tech Prowess
+## Force and Tech Prowess
 
 </div>
 
@@ -1418,7 +1422,7 @@ When you fail an ability check, if you added your proficiency bonus to the check
 
 <div class='wide'>
 
-# ASI and a Feat
+## ASI and a Feat
 
 </div>
 
@@ -1430,7 +1434,7 @@ Now, this is going to create more powerful players, which means you need to pit 
 
 <div class='wide'>
 
-# Milestone Leveling
+## Milestone Leveling
 
 </div>
 
@@ -1440,7 +1444,7 @@ I won't delve too far into this. The simplified version is that instead of recei
 
 <div class='wide'>
 
-# Bonus Action Consumables
+## Bonus Action Consumables
 
 </div>
 
@@ -1450,7 +1454,7 @@ Most consumables require an action to use, which makes sense when applying them 
 
 <div class='wide'>
 
-# Hunted
+## Hunted
 
 </div>
 

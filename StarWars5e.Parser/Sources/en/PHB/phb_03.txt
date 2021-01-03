@@ -12,7 +12,7 @@ Your class gives you a variety of special features, such as a fighter's mastery 
 
 \columnbreak
 
-Adventurers sometimes advance in more than one class. An operative might switch direction in life and become an engineer. A berserker might discover latent force sensitivity and dabble in the guardian class while continuing to advance as a berserker. Sith purebloods are known to combine martial mastery with force training and advance as fighters and consulars simultaneously. Optional rules for combining classes in this way, called multiclassing, appear in chapter 6.
+&emsp;Adventurers sometimes advance in more than one class. An operative might switch direction in life and become an engineer. A berserker might discover latent force sensitivity and dabble in the guardian class while continuing to advance as a berserker. Sith purebloods are known to combine martial mastery with force training and advance as fighters and consulars simultaneously. Optional rules for combining classes in this way, called multiclassing, appear in chapter 6.
 
 > Many classes and archetypes add material costs to obtain features integral to the class while most others don't. Your GM can choose to waive the time and cost component if they choose to do so.
 >
@@ -774,7 +774,13 @@ Of all of the dark arts of the Force, little can match the spectacle and devasta
 ### Shocking Affinity
 When you choose this tradition at 3rd level, when you cast a force power that deals lightning damage, you can use Wisdom or Charisma as your forcecasting ability for it.
 
-Additionally, when you cast a damage-dealing force power that requires a force attack or saving throw, you can cause that power to instead deal lightning damage. If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. If you hit with the power, or the target fails the power's saving throw, affected creatures become *shocked* until the start of your next turn. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
+Additionally, when you cast a damage-dealing force power that requires a force attack or saving throw, you can cause that power to instead deal lightning damage. If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. If 
+
+\columnbreak
+
+<div style='margin-top:27px'></div>
+
+you hit with the power, or the target fails the power's saving throw, affected creatures become *shocked* until the start of your next turn. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.
 
 ### Potent Lightning
 At 6th level you add your governing ability modifier (minimum of +1) to any damage you deal with force powers that deal lightning damage that don't already include that modifier.
@@ -1022,7 +1028,13 @@ You use a wristpad (found in chapter 5) or your tool proficiencies granted by th
 ### Potent Aptitude
 Also at 1st level, your technological experience lends you an uncommon insight that you can use to bolster your allies. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Potent Aptitude die, a d4. This die changes as you gain engineer levels, as shown in the Potent Aptitude column of the engineer table.
 
-Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.
 
 A creature can have only one Potent Aptitude die at a time.
 
@@ -1132,7 +1144,13 @@ You gain a +1 bonus to AC against melee attacks. This bonus increases to +2 at 9
 
 #### Collapsible Suit
 _**Prerequisite:** 5th level, Armor_<br>
-Your modified armor can collapse into a case for easy storage. When transformed this way the armor is indistinguishable from a normal case and weighs 1/3 its normal weight. As an action you can don or doff the armor, allowing it to transform as needed.
+Your modified armor can collapse into a case for easy storage. When transformed this way the armor is indistinguishable from a normal case and weighs one-
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+third its normal weight. As an action you can don or doff the armor, allowing it to transform as needed.
 
 #### Darkvision Visor
 _**Prerequisite:** Armor_<br>
@@ -1401,7 +1419,13 @@ You modify your weapon to be more effective against barriers. Your weapon deals 
 #### Shocking Harpoon
 _**Prerequisite:** 9th level_<br>
 _**Prerequisite:** Harpoon Reel_<br>
-After hitting a creature with the harpoon fire mode, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target with a range of touch. If the power requires an attack roll, you have advantage. If the target requires a saving throw, the target has disadvantage. 
+After hitting a creature with the harpoon fire mode, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target with a range of touch. If the power 
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+requires an attack roll, you have advantage. If the target requires a saving throw, the target has disadvantage. 
 
 Once you've used this feature, you can't use it again until you recover the harpoon.
 
@@ -1457,7 +1481,11 @@ Also at 3rd level, you learn to create and modify adventuring gear utilizing you
 
 Your gadgeteer harness is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your gadgeteer harness has 4 modification slots to which you can affix gadgets, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
-Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
 ### Projected Barrier
 Lastly at 3rd level, as a bonus action while wearing your gadgeteer harness, you can expend a use of your Potent Aptitude to project a barrier on a friendly creature you can see within 30 feet. A creature can only have one barrier active at a time.
@@ -1602,7 +1630,7 @@ _**Prerequisite:** 9th level_<br>
 _**Prerequisite:** Wrist-Mounted Grappling Hook_<br>
 After hitting a creature with your grappling hook, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target with a range of touch. If the power requires an attack roll, you have advantage. If the target requires a saving throw, the target has disadvantage. 
 
-Once you've used this feature, you can't use it again until you recover the harpoon.
+Once you've used this feature, you can't use it again until you recover the hook.
 
 \columnbreak
 
@@ -1643,7 +1671,7 @@ Once you've used this feature, you can't use it again until you recover and rein
 Those engineers who choose the Unstable Engineering discipline create and use untested combinations, resulting in powerful—and often unpredictable—effects.
 
 ### Bonus Proficiencies
-When you choose this discipline at 3rd level, you gain proficiency in a set of implements of your choice. Additionally, when you engage in crafting with tinker's implements, the rate at which you craft doubles.
+When you choose this discipline at 3rd level, you gain proficiency in your choice of artisan's implements. Additionally, when you engage in crafting with tinker's implements, the rate at which you craft doubles.
 
 ### Modified Tinkercannon
 Also at 3rd level, you learn to enhance your tinker's implements with unstable science, modifying them into a harness with a cannon. Over the course of a long rest, you can modify your tinker's implements to create a tinkercannon. You must have tinker's implements in order to perform this modification.
@@ -1657,7 +1685,11 @@ Lastly at 3rd level, while<br> wielding your tinkercannon,<br> as a bonus action
 
 The range at which you can launch<br> your volley increases to 60 feet at 9th<br> level, and 120 feet at 17th level.
 
-This damage increases when you reach certain levels in this class, increasing to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;This damage increases when you reach certain levels in this class, increasing to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.
 
 ### Creative Destruction
 Beginning at 6th level, you can add your governing ability modifier (minimum of +1) to any damage you deal with tech powers and class features that don't already include that modifier. If the tech power or class feature would damage multiple creatures, you can only deal this additional damage to one of them.
@@ -2134,10 +2166,10 @@ At 18th level, you can choose two allies within 60 feet of you, rather than one,
 Those fighters who choose to become Tactical Specialists employ martial techniques passed down through generations. To a Tactical Specialist, combat is an academic field, sometimes including subjects beyond battle such as armstech or armormech. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Tactical Specialty, but those who do are well-rounded fighters of great skill and knowledge.
 
 ### Bonus Proficiencies
-You gain proficiency with one type of artisan's implements of your choice.
+When you choose this specialty at 3rd level, you gain proficiency in your choice of artisan's implements.
 
 ### Improved Combat Superiority
-When you choose this specialty at 3rd level, your tactical skill in combat improves, granting bonuses to your Combat Superiority.
+Also at 3rd level, your tactical skill in combat improves, granting bonuses to your Combat Superiority.
 
 #### Improved Maneuvers 
 You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Specialist Combat Superiority table.
@@ -2146,17 +2178,10 @@ You know four maneuvers of your choice, instead of two, and you earn more at hig
 You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Tactical Specialist Combat Superiority table.
 
 ### Signature Maneuver
-Also at 3rd level, you choose a maneuver you know from this class as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round.
+Lastly at 3rd level, you choose a maneuver you know from this class as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round.
 
 ### Know Your Enemy
-Beginning at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
-- Strength score
-- Dexterity score
-- Constitution score
-- Armor Class
-- Current hit points
-- Total class levels (if any)
-- Fighter class levels (if any)
+Beginning at 7th level, if you spend at least 1 minute observing or interacting with another creature outside 
 
 \columnbreak
 
@@ -2186,7 +2211,14 @@ Beginning at 7th level, if you spend at least 1 minute observing or interacting 
 
 </div>
 
-
+combat, you can learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
+- Strength score
+- Dexterity score
+- Constitution score
+- Armor Class
+- Current hit points
+- Total class levels (if any)
+- Fighter class levels (if any)
 
 ### Greater Signature Maneuver
 At 10th level, you can choose a second signature maneuver. 
@@ -2444,6 +2476,11 @@ If you reduce the damage to 0, you can immediately make a single melee weapon at
 
 ### Shatterpoint
 Starting at 7th level, if you spend at least 1<br> minute observing or interacting with<br> another creature outside combat,<br> you can use your connection to the<br> Force to sense their strengths<br> and weaknesses, and learn<br> certain information<br> about its capabilities<br> compared to your<br> own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
+
+\columnbreak
+
+<div style='margin-top:27px'></div>
+
 - Strength score
 - Dexterity score
 - Wisdom score
@@ -2477,7 +2514,13 @@ Niman Form, also known as Moderation Form, strikes a balance between bladework a
 When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Niman lightsaber form, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### The Way of the Rancor
-Also at 3rd level, as a bonus action, you can enter a balanced stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, when you use your action to cast a force power, you can make one melee weapon attack. Additionally, for the duration, you can use Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls of your melee weapon attacks. You must use the same modifier for both rolls.
+Also at 3rd level, as a bonus action, you can enter a balanced stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, when you use your action to cast a force power, you can make one melee weapon attack. Additionally, for the duration, you can use Wisdom or Charisma instead 
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+of Strength or Dexterity for the attack and damage rolls of your melee weapon attacks. You must use the same modifier for both rolls.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -2513,10 +2556,10 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 Shien/Djem So Form, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Shien/Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this form as your focus at 3rd level, you gain proficiency in heavy armor.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Shien/Djem So lightsaber form, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
+Additionally at 3rd level, you learn the basics of the chosen form. You gain the Shien/Djem So lightsaber form, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### The Way of the Krayt Dragon
 Also at 3rd level, as a bonus action, you can take a threatening stance for one minute. While in this stance, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
@@ -2582,10 +2625,10 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 Soresu Form, also known as Resilience Form, relies on tight bladework and subtle dodges to provide maximum defensive coverage, minimizing exposure to ranged weaponry. Those guardians who focus on Soresu Form use broad footwork to move around the playing field, making broad, short sweeping motions that protect the body.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this form as your focus at 3rd level, you gain proficiency in heavy armor.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Soresu lightsaber form, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get<br> to choose again.
+Additionally at 3rd level, , you learn the basics of the chosen form. You gain the Soresu lightsaber form, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than<br> once, even if you later get to choose again.
 
 ### The Way of the Mynock
 Also at 3rd level, as a bonus action, you can enter a defensive stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the *saber ward* power. When you do so, you have a number of special reactions equal to your proficiency bonus that you can only use to cast the *saber reflect* force power. You can only take<br> one reaction per turn.
@@ -2740,7 +2783,7 @@ In lieu of the equipment granted by your class and background, you can elect to 
 Beginning at 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are chakrams, techblades, and any simple vibroweapons that don't have the two-handed property.
 
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
-- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons. You must use the same modifier for both rolls.
+- Your unarmed strikes and monk weapons gain the finesse property.
 - You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the monk table.
 - You can use Dexterity instead of Strength whenever you would make a Strength (Athletics) check to grapple, shove, or trip a creature.
 - When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. 
@@ -2760,6 +2803,12 @@ You can spend these points to fuel various focus features. You start knowing thr
 When you spend a focus point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended focus back into yourself. You  must spend at least 30 minutes of the rest meditating to regain your focus points.
 
 You use your choice of Wisdom or Charisma for your focus ability. You use the chosen ability modifier whenever a feature refers to your focus ability. Additionally, you use the chosen ability modifier when making an attack with a focus feature or setting the saving throw DC for one.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+
 
 ___
 
@@ -3036,7 +3085,11 @@ Monks of the Nightsister Order utilize an innate Force-sensitivity to commune wi
 ### Ichor Lightning
 Beginning when you choose this order at 3rd level, you gain a new attack option that you can use with the Attack action. This special attack is a ranged focus attack with a range of 30 feet. You are proficient with it, and you add your focus ability modifier to its attack and damage rolls. Its damage is necrotic, and it uses your Martial Arts die for its damage die.
 
-When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can replace the attack with this one.
+\columnbreak
+
+<div style='margin-top:27px'></div>
+
+&emsp;When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can replace the attack with this one.
 
 When you reduce a creature to 0 hit points with this attack, you gain temporary hit points equal to your Wisdom or Charisma modifier + your monk level (your choice, minimum of one).
 
@@ -3261,7 +3314,11 @@ Choose from the following. You must be proficient in the skill in order to take 
 
 ***Angle (Perception).*** You attempt to predict the behavior of a humanoid you can see within 30 feet. Make a Wisdom (Perception) check contested by the target's Dexterity (Sleight of Hand) check. If your check succeeds, the first attack roll the target makes before the start of your next turn has disadvantage, and the first saving throw the creature makes before the start of your next turn has disadvantage. If your check fails, you can't use this feature on this target again for 1 hour.
 
-***Battle Cry (Intimidation).*** You attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If the target was already frightened of you, it must immediately drop whatever it is holding. On its next turn, if it is still frightened of you, it must take the Dash action and move away from you by the safest available route on its turn, unless there is nowhere to move. If your check fails, you can't use this feature on this target again for 1 hour.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Battle Cry (Intimidation).*** You attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If the target was already frightened of you, it must immediately drop whatever it is holding. On its next turn, if it is still frightened of you, it must take the Dash action and move away from you by the safest available route on its turn, unless there is nowhere to move. If your check fails, you can't use this feature on this target again for 1 hour.
 
 ***Charm (Persuasion).*** You attempt to convince one humanoid you can see within 30 feet that can hear and understand you. Make a Charisma (Persuasion) check contested by the target's Wisdom (Insight) check. If you have dealt damage to the creature in the last hour, it has advantage on the check. If your check succeeds, the target is charmed by you until the start of your next turn, and it has disadvantage on the first attack roll it makes against a creature before the end of its next turn. If your check fails, you can't use this feature on this target again for 1 hour.
 
@@ -3273,7 +3330,11 @@ Choose from the following. You must be proficient in the skill in order to take 
 
 ***Feint (Deception).*** You attempt to divert the attention of a target you can see within 30 feet. Make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. If your check succeeds, the first attack roll made against the target before the start of your next turn by someone other than you has advantage, and the target has disadvantage on the first saving throw they make against an effect caused by a creature other than you before the start of your next turn. If your check fails, the target can't be deceived by you in this way for 1 hour.
 
-***Hacktivate (Technology).*** You attempt to determine the weaknesses in a droid you can see within 30 feet. Make an Intelligence (Technology) check contested by the target's Intelligence (Technology) check. If your check succeeds, you have advantage on the next attack roll you make against the target before the end of your turn, and if you hit, you deal additional damage equal to your Intelligence modifier. If your check fails, you can't use this feature on this target again for 1 hour.
+<div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
+
+\pagebreakNum
+
+&emsp;***Hacktivate (Technology).*** You attempt to determine the weaknesses in a droid you can see within 30 feet. Make an Intelligence (Technology) check contested by the target's Intelligence (Technology) check. If your check succeeds, you have advantage on the next attack roll you make against the target before the end of your turn, and if you hit, you deal additional damage equal to your Intelligence modifier. If your check fails, you can't use this feature on this target again for 1 hour.
 
 ***Instruct (Investigation).*** You attempt to find a weakness in your target. Make an Intelligence (Investigation) check contested by the target's Charisma (Deception) check. If your check succeeds, if a friendly creature makes an attack roll against the target and they can see and hear you, you can use your reaction to grant them advantage on the roll. If you do so, and they hit, they deal additional damage equal to your bonus to Investigation checks. This damage is the same type as the attack's damage. If your check fails, you can't use this feature on this target again for 1 hour.
 
@@ -3287,7 +3348,9 @@ Choose from the following. You must be proficient in the skill in order to take 
 
 ***Snare (Survival).*** You attempt to cause a creature within 30 feet of you to stumble. Make a Wisdom (Survival) check contested by the target's Wisdom (Perception) check. If your check succeeds, and the target moves towards you before the start of your next turn, it gains 1 slowed level, and you can use your reaction to cause it to fall prone. If your check fails, you can't use this feature on this target again for 1 hour.
 
-***Spin (Piloting).*** You attempt to confound a piloted construct you can see within 30 feet. Make an Intelligence (Piloting) check contested by the target's Intelligence (Piloting) check. If your check succeeds, the target has disadvantage on attack rolls against you, and you have advantage on Dexterity saving throws against the target, until the start of your next turn. If your check fails, the target instead has advantage on attack rolls against you, and you have disadvantage on Dexterity saving throws against the target, until the start of your next turn.
+\columnbreak
+
+&emsp;***Spin (Piloting).*** You attempt to confound a piloted construct you can see within 30 feet. Make an Intelligence (Piloting) check contested by the target's Intelligence (Piloting) check. If your check succeeds, the target has disadvantage on attack rolls against you, and you have advantage on Dexterity saving throws against the target, until the start of your next turn. If your check fails, the target instead has advantage on attack rolls against you, and you have disadvantage on Dexterity saving throws against the target, until the start of your next turn.
 
 ***Study (Lore).*** You attempt to anticipate your target's action. Make an Intelligence (Lore) check contested by the target's Charisma (Deception) check. If your check succeeds, you have advantage on the first ability check, attack roll or saving throw you make against that creature before the end of your next turn. Alternatively, before the end of your next turn, you can use your reaction to grant disadvantage on the first ability check, attack roll, or saving throw the target makes against you. If your check fails, you instead have disadvantage on the first ability check, attack roll or saving throw you make against that creature before the end of your next turn.
 
@@ -3321,7 +3384,11 @@ Additionally, climbing no longer costs you extra movement, and you gain the abil
 ### Deft Hands
 Also at 3rd level, you learn a<br> number of techniques to<br> distract and confuse your<br> opponents. When you<br> deal Sneak Attack<br> damage, you may<br> choose to forgo<br> two of your<br> Sneak Attack<br> dice to perform<br> a deft hand<br> maneuver.
 
-Some of your aerial maneuvers require your target to make a saving throw to resist the deft hand maneuver's effects. The saving throw DC is as follows:
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;Some of your aerial maneuvers require your target to make a saving throw to resist the deft hand maneuver's effects. The saving throw DC is as follows:
 
 ___
 
@@ -3521,7 +3588,11 @@ Additionally, you gain proficiency with two martial blasters of your choice.
 ### Placed Shots
 Also at 3rd level, you perfect the art of placing distant shots for maximum effectiveness in debilitating and controlling your enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a placed shot. 
 
-Some of your placed shots require your target to make a saving throw to resist the placed shot's effects. The saving throw DC is calculated as follows: 
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;Some of your placed shots require your target to make a saving throw to resist the placed shot's effects. The saving throw DC is calculated as follows: 
 
 ___
 
@@ -3764,7 +3835,11 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### Multitasker
 Starting at 5th level, you can take a second reaction each round. You can only take one reaction per turn.
 
-Additionally, when a friendly creature you can see that can hear you is forced to make a saving throw, you can use your reaction to target them with your Critical Analysis feature.
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+&emsp;Additionally, when a friendly creature you can see that can hear you is forced to make a saving throw, you can use your reaction to target them with your Critical Analysis feature.
 
 ### Calm and Collected
 Beginning at 14th level, when you make a saving throw caused by an effect you can see, you may gain a bonus to the saving throw equal to your Intelligence modifier. 
@@ -4465,7 +4540,13 @@ You learn 4 tech powers of your choice, and you learn more at higher levels, as 
 You have a number of tech points equal to your scout level, as shown in the Tech Points column of the scout table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
 
 #### Max Power Level
-Many tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the scout table.
+Many tech powers can be overcharged, consuming 
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the scout table.
 
 You may only cast tech powers at 4th and 5th-level once. You regain the ability to do so after a long rest.
 
@@ -4579,10 +4660,10 @@ Scouts tend to share knowledge amongst them selves, focusing on specific techniq
 Some scouts find themselves far from civilization not to hunt, gather intelligence, or escape danger, but to venture forth simply to defend those unable to defend themselves. Followers of the Bulwark Technique make use of advanced technology to contain those that threaten the undeserving.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this technique at 3rd level, you gain proficiency in heavy armor.
 
 ### Personal Barrier
-When you choose this technique at 3rd level, you gain access to a powerful personal barrier. Whenever you complete a short or long rest, you create a barrier on yourself that lasts until you finish a short or long rest. That barrier has hit points equal to twice your scout level + your Intelligence modifier. Your barrier can never have hit points greater than twice your scout level + your Intelligence modifier.
+Also at 3rd level, you gain access to a powerful personal barrier. Whenever you complete a short or long rest, you create a barrier on yourself that lasts until you finish a short or long rest. That barrier has hit points equal to twice your scout level + your Intelligence modifier. Your barrier can never have hit points greater than twice your scout level + your Intelligence modifier.
 
 Whenever you take damage, the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.
 
@@ -4593,7 +4674,7 @@ Additionally, for as long as your barrier has hit points, you gain the following
 - Hostile creatures that hit you with melee attacks take energy damage equal to your Intelligence modifier (minimum of 1).
 
 ### Mark of the Bulwark
-Also at 3rd level, when the target of your Ranger's Quarry feature makes a melee attack against a friendly creature within 5 feet of you, you can use your reaction to force the attack to target you instead. If the attack hits, and your Personal Barrier has hit points, the attacking creature takes bonus damage equal to your Ranger's Quarry Damage Die.
+Lastly at 3rd level, when the target of your Ranger's Quarry feature makes a melee attack against a friendly creature within 5 feet of you, you can use your reaction to force the attack to target you instead. If the attack hits, and your Personal Barrier has hit points, the attacking creature takes bonus damage equal to your Ranger's Quarry Damage Die.
 
 ### Projected Barrier
 Beginning at 7th level, you've learned how to manipulate your barrier to create new effects. As an action, you can spend three of your barrier's hit points to create a unique effect. You have three such effects: Projected Sphere, Projected Maelstrom, and Projected Wave. When you use your Projected Barrier, you choose which effect to create.
@@ -4693,25 +4774,25 @@ When an attacker that you can see hits you with an attack, you can use your reac
 \pagebreakNum
 
 ## Slayer Technique
-Some scouts seek to learn the most about their foes and to capitalize on that knowledge. Follower of the Slayer Technique focus on identifying the strengths and weaknesses of their prey, taking advantage of that knowledge to vanquish their foes.
+Some scouts seek to learn the most about their foes and to capitalize on that knowledge. Followers of the Slayer Technique focus on identifying the strengths and weaknesses of their prey, taking advantage of that knowledge to vanquish their foes.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this technique at 3rd level,<br> you gain proficiency in heavy armor.
 
 ### Slayer's Pride
-When you choose this technique at 3rd level, you have advantage on saving throws against being frightened.
+Also at 3rd level, you have advantage on saving throws against being frightened.
 
 ### Mark of the Slayer
-Also at 3rd level, you immediately learn if the target of your Ranger's Quarry feature has any damage immunities, resistances, or vulnerabilities and what they are. Additionally, the first time you hit the target of your Ranger's Quarry feature with a weapon attack each turn, it takes extra damage equal to your Ranger's Quarry Damage Die. The damage is of the same type as the weapon's damage.
+Lastly at 3rd level, you immediately learn if the target of your Ranger's Quarry feature has any damage immunities, resistances, or vulnerabilities and what they are. Additionally, the first time you hit the target of your Ranger's Quarry feature with a weapon attack each turn, it takes extra damage equal to your Ranger's Quarry Damage Die. The damage is of the same type as the weapon's damage.
 
 ### Supernatural Defense
 Beginning at 7th level, whenever the target of your Ranger's Quarry forces you to make a saving throw, or whenever you make an ability check to escape that targets grapple, you can use your reaction and roll your Ranger's Quarry Damage Die, adding it to the roll.  
 
 ### Nemesis
-Starting at 11th level, when you score a critical hit or reduce a creature to 0 hit points on your turn, you<br> can use your bonus action to force one creature<br> of your choice that you can see within 30 feet<br> of you to make a Wisdom saving throw<br> against your tech save DC. On a failed<br> save, a creature becomes frightened of<br> you for 1 minute. At the end of each of<br> the creature's turns it repeats this saving<br> throw, ending the effect on a success.
+Starting at 11th level, when you score a critical hit<br> or reduce a creature to 0 hit points on your<br> turn, you can use your bonus action to force<br> one creature of your choice that you can see<br> within 30 feet of you to make a Wisdom<br> saving throw against your tech save DC.<br> On a failed save, a creature becomes<br> frightened of you for 1 minute. At the end<br> of each of the creature's turns it repeats this<br> saving throw, ending the effect on a success.
 
 ### Slayer's Counter
-At 15th level, if the target of your Ranger's<br> Quarry feature forces you to make a<br> saving throw, you can use your reaction<br> to make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, you automatically succeed on the saving throw, in addition to the attack's normal effects.
+At 15th level, if the target of your Ranger's<br> Quarry feature forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, you automatically succeed on the saving throw, in addition to the attack's normal effects.
 
 <img src='https://www.gmbinder.com/images/XQCbhQJ.png' style='position:absolute;bottom:20px;right:-197px;width:935px;transform:scaleX(-1);z-index:1000' />
 
@@ -4889,7 +4970,13 @@ ___
 Also at 1st level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.
 
 ### Force-Empowered Self
-Starting at 2nd level, your training allows you to harness the mystical energy of the Force throughout your body. When you hit a creature with a melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. Each effect uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You have three such effects: Deflection, Double Strike, and Slow Time. You can only use each effect once per turn, and you can only use one effect per hit.
+Starting at 2nd level, your training allows you to harness the mystical energy of the Force throughout your body. When you hit a creature with a melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. Each effect uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You have three such effects: Deflection, Double Strike, and 
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+Slow Time. You can only use each effect once per turn, and you can only use one effect per hit.
 
 #### Deflection
 You can roll a Kinetic Combat die and add it to your AC against one attack before the start of your next turn.

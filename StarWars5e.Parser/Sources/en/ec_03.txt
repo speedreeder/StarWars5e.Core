@@ -247,25 +247,27 @@ You can use this feature a number of times equal to your Strength modifier (a mi
 For some berserkers, rage is a means to an end—that end being violence. The Frenzied Approach is that of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 ### Frenzy
-When you choose this approach at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (as described in appendix A).
+When you choose this approach at 3rd level, you can go into a frenzy when you enter your rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one.
 
-When you finish a long rest, you reduce your exhaustion level by 2 rather than 1.<br> Additionally, any effect that removes<br> exhaustion reduces your exhaustion<br> by 1 additional level.
+The first time you use this feature, you suffer no ill effect. If you use this feature again before you finish<br> a long rest, you suffer one level of exhaustion<br> when your rage ends each time you use<br> it.
+
+When you finish a long rest, you<br> reduce your exhaustion level by 2,<br> instead of 1. Additionally, any<br> effect that removes exhaustion<br> reduces your exhaustion by 1<br> additional level.
 
 ### Maniacal Rage
-Also at 3rd level, while raging,<br> when you make a Charisma<br> (Intimidation) check, or a<br> creature makes a Wisdom<br> saving throw to avoid being<br> frightened of you, you add your Strength modifier to the check or save DC, as appropriate.
+Also at 3rd level, while raging, when you make a Charisma (Intimidation) check, or a creature makes a Wisdom saving throw to avoid being frightened of<br> you, you add your Strength modifier to the check or save DC, as appropriate.
 
 ### Mindless Rage
-At 6th level, you can't be charmed or frightened<br> while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
+At 6th level, you can't be charmed or frightened<br> while raging. If you are charmed or frightened<br> when you enter your rage, the effect is<br> suspended for the duration of the rage.
 
 ### Intimidating Presence
-Starting at 10th level, you can use your action<br> to frighten someone with your menacing<br> presence. When you do so, choose one creature<br> that you can see within 30 feet of you. If the<br> creature can see or hear you, it must succeed on<br> a Wisdom saving throw (DC = 8 + your proficiency<br> bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end<br> of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+Starting at 10th level, you can use your action to frighten someone with your menacing presence.<br> When you do so, choose one creature that you can<br> see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
 
 If the creature succeeds on its saving throw, it becomes immune to this feature for 24 hours.
 
 ### Retaliation
 At 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.
 
-<img src='https://www.gmbinder.com/images/zfue4ei.png' style='position:absolute;bottom:-15px;right:-165px;width:914px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/zfue4ei.png' style='position:absolute;bottom:-15px;right:-170px;width:914px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
@@ -659,10 +661,10 @@ Additionally, whenever a force power you cast pushes or pulls a creature, you ca
 With the Force, knowledge is most often passed from a master to an apprentice. Those consulars who follow the Way of Tutelage know the strength of working together exceeds that of working alone.
 
 ### Bonus Proficiencies
-You gain proficiency in your choice of Intimidation or Persuasion.
+When you choose this tradition at 3rd level, you gain proficiency in your choice of Intimidation or Persuasion.
 
 ### Humanoid Companion
-When you choose this tradition at 3rd level, you've taken an apprentice, gaining the services of your own humanoid companion.
+Also at 3rd level, you've taken an apprentice, gaining the services of your own humanoid companion.
 
 Create your humanoid companion as detailed in the Companions section of the Customization Options document for Expanded Content. 
 
@@ -1118,7 +1120,7 @@ You can integrate a single weapon that weighs no more than 8 lb. into your instr
 Those engineers who choose the Biochem Engineering discipline focus on utilizing their vast knowledge of medicine and chemistry to supply allies with potent healing and enemies with debilitating poisons and acids.
 
 ### Bonus Proficiencies
-When you choose this discipline at 3rd level you gain proficiency in the Medicine skill, biochemist's kits, and poisoner's kits. Additionally, when you engage in crafting with biochemist's kits and poisoner's kits, the rate at which you craft doubles.
+When you choose this discipline at 3rd level, you gain proficiency in the Medicine skill, biochemist's kits, and poisoner's kits. Additionally, when you engage in crafting with biochemist's kits and poisoner's kits, the rate at which you craft doubles.
 
 ### Modified Biochemist's Pack
 Also at 3rd level, you learn to modify and combine your biochemist's kit and poisoner's kit, creating a mobile laboratory using your chemistry expertise. Over the course of a long rest, you can create your modified biochemist's pack. You must have a biochemist's kit, a poisoner's kit, and materials in order to perform this modification.
@@ -1305,7 +1307,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 Those engineers who choose the Biotech Engineering discipline focus on the skill of modifying and upgrading the body through the use of cybernetic limbs and implants.
 
 ### Bonus Proficiencies
-When you choose this discipline at 3rd level you gain proficiency in biotech's implements. Additionally, when you engage in crafting with biotech's implements, the rate at which you craft doubles.
+When you choose this discipline at 3rd level, you gain proficiency in biotech's implements. Additionally, when you engage in crafting with biotech's implements, the rate at which you craft doubles.
 
 ### Modified Self
 Also at 3rd level, you've learned to make modifications to your body, cybernetically augmenting yourself. Over the course of a long rest, you can modify yourself with cybernetic augmentations. You must have biotech's implements in order to perform this modification.
@@ -2016,20 +2018,20 @@ At 18th level, you respond to danger with extraordinary vigilance. In combat, yo
 Those fighters who choose to become Praetorian Specialists seek perfection of both body and mind. These warriors master the art of warfare, and are often sought as bodyguards for the galaxy's elite. They are engines of destruction and resilience, able to fight on to their last breath.
 
 ### Bonus Proficiency
-When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Insight, Lore, Performance, or Persuasion. Alternatively, you learn one language of your choice.
+When you choose this specialty at 3rd level, you gain proficiency in one of the following skills of your choice: Insight, Lore, Performance, or Persuasion. Alternatively, you learn one language of your choice.
 
 ### Fighting Spirit
-Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on all weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of hit points increases when you reach certain levels in this class, increasing to 10 at<br> 10th level and 15 at 15th level.
+Also at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on all weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of hit points increases when you reach certain levels in this class, increasing to 10 at<br> 10th level and 15 at 15th level.
 
 You can use this feature three times.<br> You regain all expended uses when you<br> finish a long rest.
 
 ### Resilient Retainer
-Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.
+Beginning at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.
 
 Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
 
 ### Tireless Spirit
-Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.
+At 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.
 
 ### Rapid Strike
 Starting at 15th level, you learn to trade accuracy for swift strikes. If you take the Attack action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can do so no more than once per turn.
@@ -2039,7 +2041,7 @@ Starting at 15th level, you learn to trade accuracy for swift strikes. If you ta
 <div style='margin-top:28px'></div>
 
 ### Strength Before Death
-Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points.
+At 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points.
 
 Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -2053,10 +2055,10 @@ Once you've used this feature, you can't use it again until you finish a long re
 Those fighters who become Totem Specialists tap into a primal attunement to the Force, applying tribal ceremony to create powerful talismans that enhance their abilities.
 
 ### Bonus Proficiencies
-You gain proficiency with your choice of artist's implements or jeweler's implements.
+When you choose this specialty at 3rd level, you gain proficiency with your choice of artist's implements or jeweler's implements.
 
 ### Totem Creation
-When you choose this specialty at 3rd level, you've learned to create powerful talismans infused with the Force. Your totems can take the form of sigils painted directly onto your equipment, or adornments attached to it, as you see fit. Regardless of the form they take, only you can benefit from them. You learn two totems of your choice, which are detailed under "Totems" below. When you complete a long rest, you can replace one totem you know with a different one.
+Also at 3rd level, you've learned to create powerful talismans infused with the Force. Your totems can take the form of sigils painted directly onto your equipment, or adornments attached to it, as you see fit. Regardless of the form they take, only you can benefit from them. You learn two totems of your choice, which are detailed under "Totems" below. When you complete a long rest, you can replace one totem you know with a different one.
 
 When you finish a long rest, you can touch a number of weapons, armor, or shields equal to the number of totems you know, affixing a different totem to each object. Your totem remains affixed until you finish a long rest, and an object can only bear one totem at a time. You must be wielding or wearing the object to benefit from a totem affixed to it.
 
@@ -2094,7 +2096,7 @@ This totem channels the experience of an ancient sarlacc, granting you expertise
 
 Additionally, when you hit a creature with a weapon attack, you can invoke the totem to summon the tentacles of the creature: The target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the tentacles, the target takes 2d6 acid damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, tearing free on a success.
 
-<img src='https://www.gmbinder.com/images/qCmCdNi.png' style='position:absolute;bottom:0px;left:-10px;width:480px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/qCmCdNi.png' style='position:absolute;bottom:0px;left:-10px;width:470px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
@@ -2108,7 +2110,7 @@ With this totem you are able to access the Force-enhanced senses of the vornskr,
 Additionally, you can invoke the totem as a bonus action to enter a state of hyper awareness for 1 minute or until you're incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. 
 
 ### Totemic Might 
-Also at 3rd level, you can channel the power of your Force awareness temporarily. As a bonus action, you can gain the following benefits for 1 minute. You can invoke a totem as a part of this same bonus action.
+Lastly at 3rd level, you can channel the power of your Force awareness temporarily. As a bonus action, you can gain the following benefits for 1 minute. You can invoke a totem as a part of this same bonus action.
 - Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.
 - You have advantage on Strength checks<br> and Strength saving throws.
 - Your weapon attacks deal an extra<br> 1d6 damage.
@@ -2225,10 +2227,10 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 Juyo/Vapaad Form, also known as Ferocity Form, revels in the satisfaction of battle and victory. Those guardians who focus on Juyo/Vapaad Form channel their emotions into their fighting, making heavy, sweeping strikes.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this form as your focus at 3rd level, you gain proficiency in heavy armor.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Juyo/Vapaad lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
+Additionally at 3rd level, you learn the basics of the chosen form. You gain the Juyo/Vapaad lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### The Way of the Vornskr
 Also at 3rd level, as a bonus action, you can take a savage stance, designating one creature you can see within 10 feet of you as your prey for 1 minute. You have advantage on attack rolls against the creature. If the target drops to 0 hit points, you can use a bonus action on a subsequent turn to mark a new creature.
@@ -2336,10 +2338,10 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 Sokan Form, also known as Persistence Form, uses determined movements followed by swift strokes to keep their opponents' footing unsteady. Those guardians who focus on Persistence Form make use of the terrain, trying to maneuver their opponents into vulnerable areas before dispatching them.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this form as your focus at 3rd level, you gain proficiency in heavy armor.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Sokan lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
+Additionally at 3rd level, you learn the basics of the chosen form. You gain the Sokan lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### The Way of the Varactyl
 Also at 3rd level, as a bonus action, you can enter an unyielding stance for one minute. While in this stance, you have advantage on ability checks and saving throws to shove, trip, and avoid being moved, and you ignore difficult terrain. Additionally, once per turn, when you hit with a melee weapon attack, you can attempt to shove the target up to 10 feet away from you (no action required).
@@ -2347,10 +2349,10 @@ Also at 3rd level, as a bonus action, you can enter an unyielding stance for one
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
 
 ### Channel the Force
-Lastly at 3rd level, you gain the following<br> Channel the Force option.
+Lastly at 3rd level, you gain the<br> following Channel the Force option.
 
 #### High Ground Defense
-When an opponent within 5 feet of you<br> makes a melee attack against you,<br> you can use your reaction and<br> expend a use of your Channel the<br> Force to move to another space<br> within 5 feet of that creature<br> without provoking opportunity<br> attacks, imposing disadvantage<br> on the roll. If the attack misses,<br> you can attempt<br> to shove the<br> creature up to<br> 10 feet away from you as a<br> part of that same reaction.
+When an opponent within 5 feet of<br> you makes a melee attack against<br> you, you can use your reaction<br> and expend a use of your Channel<br> the Force to move to another<br> space within 5 feet of that<br> creature without provoking<br> opportunity attacks,<br> imposing<br> disadvantage<br> on the roll. If<br> the attack misses, you can<br> attempt to shove the creature<br> up to 10 feet away from you as a<br> part of that same reaction.
 
 \columnbreak
 
@@ -2424,10 +2426,10 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 Vonil/Ishu Form, also known as Unity Form, focuses on fighting in tandem with a partner as a warpair. Those guardians who focus on Vonil/Ishu Form utilize teamwork to move swiftly, strike quickly, and protect each other. 
 
 ### Bonus Proficiencies
-You gain proficiency in your choice of Intimidation or Persuasion.
+When you choose this form as your focus at 3rd level, you gain proficiency in your choice of Intimidation or Persuasion.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Vonil/Ishu lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
+Additionally at 3rd level, you learn the basics of the chosen form. You gain the Vonil/Ishu lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### Humanoid Companion
 Also at 3rd level, you've adopted a partner, gaining the services of your own humanoid companion.
@@ -2504,10 +2506,10 @@ This effect ends early if either you or your companion are incapacitated or die,
 Ysannanite Form, also know as the Unorthodox Form, pairs the use of lightsaber with blasters, seamlessly blending the two weapons to perform impressive feats. Those guardians who focus on the Ysannanite Form are able to cut enemies down as efficiently with blaster as with blade.
 
 ### Bonus Proficiencies
-You gain proficiency in simple blasters and martial blasters that lack the two-handed property.
+When you choose this form as your focus at 3rd level, you gain proficiency in simple blasters and martial blasters that lack the two-handed property.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Ysannanite lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
+Additionally at 3rd level, you learn the basics of the chosen form. You gain the Ysannanite lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### The Way of the Yerdua
 Also at 3rd level, as a bonus action, you can take a meditative stance for 1 minute, granting you supreme accuracy as you guide your shots to their target through the Force. While in this stance, you add your Wisdom or Charisma modifier (your choice, minimum of +1) to one ranged weapon attack and damage roll you make each turn. Additionally, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. 
@@ -3021,10 +3023,10 @@ At 17th level, your mastery of the blade lets you turn failure into success in c
 Those operatives who choose the Saboteur Practice enhance their fine-honed skills of stealth and agility with tech, using advanced technology with the aid of a tracker droid to sustain a longer assault.
 
 ### Bonus Proficiencies
-You gain proficiency in astrotech's implements.
+When you choose this practice at 3rd level, you gain proficiency in astrotech's implements.
 
 ### Techcasting
-When you choose this practice at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
+Also at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
 #### Tech Powers Known
 You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
@@ -3064,7 +3066,7 @@ You use a wristpad (found in chapter 5) as a techcasting focus for your tech pow
 \pagebreak
 
 ### Tracker Droid Companion
-Also at 3rd level, you learn to employ all the knowledge you've accumulated to create and customize your own  tracker droid companion.
+Lastly at 3rd level, you learn to employ all the knowledge you've accumulated to create and customize your own  tracker droid companion.
 
 Create your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
 
@@ -3242,10 +3244,10 @@ Archaeologists are those who study the remnants of historical civilizations. Tho
 <div style='margin-top:28px'></div>
 
 ### Bonus Proficiencies
-You gain proficiency with archaeologist kits and in the Lore skill.
+When you choose this pursuit at 3rd level, you gain proficiency with archaeologist kits and in the Lore skill.
 
 ### Forcecasting
-When you choose this pursuit at 3rd level, you have learned powers from your studies of civilizations that were also once close to the Force. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.
+Additionally at 3rd level, you have learned powers from your studies of civilizations that were also once close to the Force. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.
 
 #### Force Powers Known
 You learn 4 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the Archaeologist Pursuit Forcecasting table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.
@@ -3719,10 +3721,10 @@ You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on 
 Across the galaxy one can find numerous pseudonyms and false identities belonging to the hackers and cyber-infiltrators that call the world of electronics home. Those scholars who choose the Slicer Pursuit put their impressive intellectual prowess to work in the field of technology, to ends both benevolent and malicious.
 
 ### Bonus Proficiencies
-You gain proficiency with the slicer's kit.
+When you choose this pursuit at 3rd level, you gain proficiency with the slicer's kit.
 
 ### Techcasting
-When you choose this pursuit at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
+Additionally at 3rd level, you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
 #### Tech Powers Known
 You learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Slicer Pursuit Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
@@ -3985,10 +3987,10 @@ Rather than a single beast companion, you instead control multiple beasts that f
 While some scouts choose to foray alone, others like to have support. Followers of the Artillerist Technique master control of militant constructs, laying waste to the battlefield with their expertise
 
 ### Bonus Proficiencies
-You gain proficiency in artillerist's implements.
+When you choose this technique at 3rd level, you gain proficiency in artillerist's implements.
 
 ### Turret Companion
-When you choose this technique at 3rd level, you learn to apply your knowledge of artillery to construct and bond with your own portable turret.
+Also at 3rd level, you learn to apply your knowledge to construct and bond with your own portable turret.
 
 Create your turret companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have artillerist's implements in order to create your turret.
 
@@ -4008,7 +4010,7 @@ Both the range and radius<br> increase to 30 feet at 11th level,<br> and 60 feet
 <div style='margin-top:28px'></div>
 
 ### Mark of the Artillerist
-Also at 3rd level, once per round, when your turret deals damage to the target of your Ranger's Quarry, you can roll your Ranger's Quarry die and add it to the damage roll.
+Lastly at 3rd level, once per round, when your turret deals damage to the target of your Ranger's Quarry, you can roll your Ranger's Quarry die and add it to the damage roll.
 
 ### Crisis Management
 Beginning at 7th level, while you can see your turret, it can add half its proficiency bonus (rounded up) to any saving throws it makes that doesn't already include it.
@@ -4266,10 +4268,10 @@ At 15th level, your training has taught you to find and exploit weaknesses in yo
 Some scouts work in solitude, while others prefer the strength of a group. Followers of the Predator Technique find power lies with the pack; they distract their prey, while their allies go for the kill.
 
 ### Bonus Proficiencies
-You gain proficiency in heavy armor.
+When you choose this technique at 3rd level, you gain proficiency in heavy armor.
 
 ### Hunting Party
-When you choose this technique at 3rd level, when you take the Attack action on your turn, you can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack.
+Also at 3rd level, when you take the Attack action on your turn, you can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack.
 
 You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses of it when you finish a long rest.
 
@@ -4278,7 +4280,7 @@ You can use this feature a number of times equal to your Intelligence modifier (
 <div style='margin-top:28px'></div>
 
 ### Mark of the Predator
-Also at 3rd level, if the target of your Ranger's Quarry feature can see you, a number of friendly creatures you choose up to your Intelligence modifier have advantage on Dexterity (Stealth) checks made to hide from it.
+Lastly at 3rd level, if the target of your Ranger's Quarry feature can see you, a number of friendly creatures you choose up to your Intelligence modifier have advantage on Dexterity (Stealth) checks made to hide from it.
 
 ### Predator's Resolve
 Beginning at 7th level, you can use your action to gain the following benefits for 1 minute:
@@ -4535,13 +4537,13 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 The Force connects all living things. Those sentinels who follow the Path of Witchcraft use that connection to summon the aid of nature, both beasts and the elements, adapting them to their will.
 
 ### Bonus Proficiencies
-You gain proficiency in Animal Handling.
+Starting when you choose this calling at 3rd level, you gain proficiency in Animal Handling.
 
 ### Wild Power
-Starting when you choose this calling at 3rd level, you learn the *enfeeble* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of one) to damage rolls with it.
+Also at 3rd level, you learn the *enfeeble* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of one) to damage rolls with it.
 
 ### Beast Companion
-Also at 3rd level, you learn to create a powerful bond through the Force with your own  beast companion.
+Lastly at 3rd level, you learn to create a powerful bond through the Force with your own  beast companion.
 
 Create your beast companion as detailed in the Companions section of the Customization Options document for Expanded Content.
 
