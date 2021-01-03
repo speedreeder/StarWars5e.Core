@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Services;
+using Google.Apis.Sheets.v4;
 using Microsoft.Azure.Search;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +17,9 @@ namespace StarWars5e.Parser
 {
     public class Program
     {
+        private static readonly string[] Scopes = { SheetsService.Scope.SpreadsheetsReadonly };
+        private const string ApplicationName = "SW5E Sheets API";
+
         public static async Task Main(string[] args)
         {
             var config = new ConfigurationBuilder()
@@ -27,11 +34,31 @@ namespace StarWars5e.Parser
 
             var searchClient = new SearchServiceClient("sw5esearch", new SearchCredentials(config["SearchKey"]));
 
+            var clientSecrets = new ClientSecrets
+            {
+                ClientId = config["GoogleApiClientId"],
+                ClientSecret = config["GoogleApiClientSecret"]
+            };
+
+            var googleCredential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+                clientSecrets,
+                Scopes,
+                "user",
+                CancellationToken.None);
+
+            // Create Google Sheets API service.
+            var sheetsService = new SheetsService(new BaseClientService.Initializer
+            {
+                HttpClientInitializer = googleCredential,
+                ApplicationName = ApplicationName
+            });
+
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ITableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
                 .AddSingleton(globalSearchTermRepository)
                 .AddSingleton(searchClient)
+                .AddSingleton(sheetsService)
                 .BuildServiceProvider();
 
             var languages = config["Languages"].Split(',');

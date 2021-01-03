@@ -9,7 +9,7 @@
 |:---|---:|:---|-:|:---|
 | _Simple Blasters_|||||
 | _Martial Blasters_|||||
-| &emsp;Torpedo launcher        | 10,000 cr&nbsp;&nbsp;   | — | 25 lb&nbsp;&nbsp; | Ammunition (range 900/3,600), reload 1, special, strength 15,<br> two-handed |
+| &emsp;Torpedo launcher        | 10,000 cr&nbsp;&nbsp;   | — | 25 lb&nbsp;&nbsp; | Ammunition (range 1,200/3,600), reload 1, special, strength 15,<br> two-handed |
 
 ##### Lightweapons
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
@@ -18,7 +18,7 @@
 | _Martial Lightweapons_|||||
 | &emsp;Saber gauntlet         | 1,300 cr&nbsp;&nbsp; | 1d8 energy   |  2 lb&nbsp;&nbsp; | Finesse, fixed, luminous |
 | &emsp;Buster saber         | 7,777 cr&nbsp;&nbsp; | 1d12 energy   |  15 lb&nbsp;&nbsp; | Dexterity 19, heavy, keen 1, luminous, reach, two-handed, vicious 1 |
-| &emsp;Cross-saber         | 5,500 cr&nbsp;&nbsp; | 2d4 energy   |  13 lb&nbsp;&nbsp; | Dexterity 15, Double (2d4 energy), heavy, reach, two-handed | 
+| &emsp;Cross-saber         | 5,500 cr&nbsp;&nbsp; | 2d4 energy   |  13 lb&nbsp;&nbsp; | Dexterity 15, double (2d4 energy), heavy, luminous, reach, two-handed | 
 
 ##### Vibroweapons
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
@@ -44,7 +44,7 @@
 Weapons with special rules are described to below.
 
 #### Torpedo Launcher
-Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of torpedoes. Torpedo launchers have advantage on attack rolls against Gargantuan creatures and disadvantage on attack rolls again Large and smaller creatures. Unlike other weapons, the torpedo launcher can only be loaded using an action, and you don't add your Dexterity modifier to damage rolls you make with it.
+Rather than traditional power cells, the torpedo launcher fires specialized projectiles in the form of torpedoes. Torpedo launchers have advantage on attack rolls against Gargantuan creatures and disadvantage on attack rolls again Large and smaller creatures. Unlike other weapons, the torpedo launcher can only be loaded using an action, and you don't add your Dexterity modifier to damage rolls you make with it.
 
 Before firing the torpedo launcher, you must first use your action to deploy it. While deployed, your speed is reduced by half. You can collapse the torpedo launcher as a bonus action.
 
@@ -108,7 +108,7 @@ A pitcher stores 1 pint of liquid.
 A pot stores 1 pint of liquid.
 
 #### Sack
-A sak stores 30 oun, not exceeding 1 cubic foot. 
+A sack stores 30 ounces, not exceeding 1 cubic foot. 
 
 #### Tankard
 A tankard stores 1 pint of liquid.

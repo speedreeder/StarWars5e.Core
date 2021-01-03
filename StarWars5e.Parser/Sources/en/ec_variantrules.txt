@@ -1,5 +1,29 @@
 
 
+<div class='wide'>
+
+# Called Shots
+
+</div>
+
+Often times, in combat, characters might want to target a specific body part or feature of their target when making an attack. This is commonly referred to as a "called shot." If this is a mechanic you want to implement in your game, consider using the following variant rule.
+
+### Calling A Shot
+In order to make a called shot, you must first be making an attack roll with advantage. If you want to turn that attack into a called shot, you can choose to do so by forgoing that advantage. If you do so, and the attack hits, the hit becomes a called shot.
+
+### Effects
+When you hit with a called shot, you can choose to deal normal weapon damage and then roll a d100 to determine the effect of the shot randomly using the Called Shot Effects table below. Alternatively, you can choose to roll your damage dice twice and take the lesser total. If you do so, you can choose the effect you want to cause on the Called Shot Effects table below, instead of determining it randomly.
+
+##### Called Shot Effects
+|d100|Effect|
+|:--:|:--|
+|01-<br>45|***Leg Shot.*** The creature gains 1 slowed level until the end of its next turn.|
+|46-<br>90|***Arm Shot.*** The creature can not use an arm until the end of its next turn. If the creature has multiple arms, determine which arm is affected randomly.|
+|91-<br>95|***Scatter Shot.*** If the creature attempts to cast a power before the end of its next turn, it must first make a concentration check (DC = 10 + the power's level). On a failure, any resources are spent and the power immediately fails.|
+|96-<br>100|***Head Shot.*** The creature is blinded until the start of its next turn.|
+
+\pagebreak
+
 <div class='wide'> 
 
 # Bonus Proficiencies
@@ -18,7 +42,7 @@ If a character wants to instead use their points to gain expertise in a tool, th
 Each character can choose to spend their proficiency points at any time to gain proficiency in a language or tool. If they would do so in a moment when that language or proficiency would become relevant to the story, they must first justify how they already know that language or tool proficiency. For instance, if the party encounters a particular species from which they need to glean information, and they have no way to communicate with that species, one of your players might spend a proficiency point to learn the language that species speaks. In order to do so, however, they must first explain how they would know that language. Perhaps they grew up with a wandering member of that species who taught it to them? Or maybe they took this specific language as an elective during their education?
 
 ### Alternative Proficiencies
-Alternatively, you might allow your player's to spend their proficiency points to gain proficiency in weapons or armor. A character could spend 1 proficiency point to gain proficiency in a singular weapon, or 2 proficiency points to gain proficiency in a weapon category (all blasters, lightweapons, or vibroweapons). A character could also spend 2 proficiency points to gain proficiency in a type of armor. However, they would first need to have proficiency in the lesser armors. For instance, to gain proficiency in heavy armor, you must first have proficiency in medium armor. To gain proficiency in medium armor, you must first have proficiency in light armor.
+Alternatively, you might allow your players to spend their proficiency points to gain proficiency in weapons or armor. A character could spend 1 proficiency point to gain proficiency in a singular weapon, or 2 proficiency points to gain proficiency in a weapon category (all blasters, lightweapons, or vibroweapons). A character could also spend 2 proficiency points to gain proficiency in a type of armor. However, they would first need to have proficiency in the lesser armors. For instance, to gain proficiency in heavy armor, you must first have proficiency in medium armor. To gain proficiency in medium armor, you must first have proficiency in light armor.
 
 #### Skill Expertise
 If a character wants to instead use their points to gain expertise in a skill, the GM might allow them to spend 4 proficiency points to gain expertise in a skill in which they are already proficient.
@@ -1058,7 +1082,7 @@ Choosing a destiny can be handled in one of two ways: either the player can sele
 
 &emsp;A character with a destiny gains short-term benefits whenever they make significant progress towards fulfilling it, while a character who pursues goals that move them further away from their destiny suffers short-term negative effects. Conversely, a character without a destiny has nothing to gain and nothing to lose. A character may even fulfill one destiny and take on another.
 
-The GM and players should work together to determine a destiny's impact on a campaign. One or more destinies might form the driving force for an entire campaign, or the central focus of a short series of adventures. In one of these cases, the GM should present the characters with choices that regularly affect their destinies, giving them many opportunities to gain destiny bonuses and penalties. Destiny-based campaigns shuold culminate in a final adventure that allows characters to ultimately resolve their destinies, for better or for worse.
+The GM and players should work together to determine a destiny's impact on a campaign. One or more destinies might form the driving force for an entire campaign, or the central focus of a short series of adventures. In one of these cases, the GM should present the characters with choices that regularly affect their destinies, giving them many opportunities to gain destiny bonuses and penalties. Destiny-based campaigns should culminate in a final adventure that allows characters to ultimately resolve their destinies, for better or for worse.
 
 ## Destiny Points
 Destiny Points are a resource that a player can use to help fulfil whatever destiny has been set before their character. You either have a Destiny Point or you don't - you can't stockpile multiple Destiny Points for later use.
@@ -1085,7 +1109,7 @@ When a character fulfils their destiny, they gain permanent benefits. Sometimes 
 Spending a Destiny Point does not take an action and grants one of the following benefits:
 * Gain advantage on an attack roll, saving throw, or ability check.
 * Impose disadvantage on an enemy attack roll, saving throw, or ability check (even once the attack is resolved).
-* Act out of turn (thus changing yor position in the intiative order).
+* Act out of turn (thus changing your position in the initiative order).
 * Take damage that would otherwise harm another character within your reach.
 * Immediately gain 2 of a consumable class resource (rage, force points, tech points, superiority dice, or focus)
 

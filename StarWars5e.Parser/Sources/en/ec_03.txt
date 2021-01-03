@@ -128,13 +128,13 @@ At 14th level, while you are both raging and experiencing the high of a substanc
 The Bloodstorm Approach is said to have originated from the ancient wookiee Hroufrasnooohn clan (which loosely translates to Bloodstorm in Galactic Basic), whose warriors performed gravity-defying feats with their flying vibroaxes through a combination of unorthodox techniques and a mystical belief in their own abilities. A berserker who follows this approach can hurl their devastating weapons at enemies with such power and skill that it completely blurs the line between melee and ranged combat.
 
 ### Furious Throw
-When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. You may count your thrown weapon attacks as if they were melee weapon attacks for the purposes of your class features and feats, such as your Berserker Rage and Reckless Attack abilities.
+When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. When you throw a weapon with which you are proficient, you can benefit from your class features that only apply to melee weapon attacks, such as Rage or Reckless Attack.
 
 ### Returning Attacks
 Also at 3rd level, any weapon you throw can ricochet back to you at your command. When you make a thrown weapon attack, you may have the weapon fly back to your hand immediately after the attack.
 
 ### Throw Anything
-At 6th level, your strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a melee weapon that you have proficiency with, it gains the thrown property (range 20/60).
+At 6th level, your strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a light- or vibro-weapon with which you are proficient, it gains the thrown property (range 20/60).
 
 ### Fling People
 Starting at 10th level, you learn to throw creatures as easily as you throw your weapons. When you successfully grapple a creature, you may<br> immediately throw the creature:
@@ -150,9 +150,9 @@ If the creature is an opponent, you throw the target into any unoccupied space w
 <div style='margin-top:27px'></div>
 
 ### Raging Whirlwind
-At 14th level, you can send your weapon spinning into a gravity-defying whirlwind of pain. Once per rage as an action, you may throw a weapon with the thrown property to a point you choose within 60 feet. The weapon fills the air as a cyclone in a 10 foot radius sphere centered on that point. A creature takes damage equal to the thrown weapon's damage + your Strength modifier + your Rage Damage when it enter's the whirlwind's area for the first time on a turn or starts its turn there. This effect ends when you command the weapon to return to you as a free action or your rage ends.
+At 14th level, you can send your weapon spinning into a gravity-defying whirlwind of pain. Once per rage as an action, you may throw a weapon with the thrown property to a point you choose within 60 feet. The weapon fills the air as a cyclone in a 10 foot radius sphere centered on that point. A creature takes damage equal to the thrown weapon's damage + your Strength modifier + your Rage Damage when it enter's the whirlwind's area for the first time on a turn or starts its turn there. This effect ends when you command the weapon to return to you (no action required) or your rage ends.
 
-<img src='https://www.gmbinder.com/images/ZG0fURq.png' style='position:absolute;bottom:15px;right:-20px;width:525px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/ZG0fURq.png' style='position:absolute;bottom:15px;right:-20px;width:520px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
@@ -188,7 +188,7 @@ You gain temporary hit points equal to your rage damage bonus. If the target is 
 Your target must make a Constitution saving throw. On a failed save, the creature is deafened until the start of its next turn. If the target is grappled by you, it is instead incapacitated until the start of its next turn.
 
 #### Staggering Strike
-Your target must make a Strength or Dexterity saving throw (the target chooses the ability score to use). On a failed save, your target is pushed back 5 feet. If the target is grappled by you, it instead knocked prone.
+Your target must make a Strength or Dexterity saving throw (the target chooses the ability score to use). On a failed save, your target is pushed back 5 feet. If the target is grappled by you, it is instead knocked prone.
 
 ### Shattering Strikes
 At 6th level, your rage causes your strikes to overcome the hardest of materials. While raging, you gain the following benefits:
@@ -313,9 +313,9 @@ ___
 You use a wristpad (found in chapter 5 of the Player's Handbook) as a tech focus for your tech powers.
 
 ### Industrious Tech
-Also at 3rd level, you can cast tech powers while raging as long as the power's casting time is no more than 1 action, the power does not require concentration, and you are not wearing heavy armor or wielding a medium or heavy shield. While raging, you add your rage damage to damage rolls from tech powers you cast. If a tech power damages more than one target, you may only apply your rage damage to one of the targets. 
+Also at 3rd level, you can cast tech powers while raging as long as the power's casting time is no more than 1 action, the power does not require concentration, and you are not wearing heavy armor or wielding a medium or heavy shield. While raging, you add your rage damage to damage rolls from tech powers you cast that require a tech attack or saving throw. If a tech power damages more than one target, you may only apply your rage damage to one of them. 
 
-Casting tech powers during rage counts as attacking for the purposes of maintaining rage, and you can use your Reckless Attack feature to gain advantage when casting a tech power that requires an attack roll.
+Casting tech powers during rage counts as attacking for the purposes of maintaining rage, and you can use your Reckless Attack feature to gain advantage when casting a tech power that requires a tech attack.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
@@ -598,7 +598,7 @@ Additionally, you've learned to manipulate the Force to be able to manipulate te
 ### Techcasting Secrets
 At 6th level, you've learned to mimic technological effects. Choose two tech powers of 1st level. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the consular table.
 
-At 10th level, you learn two additional tech powers of 1st or 2nd level. At 14th level, you learn two tech powers of 1st-3rd level, and at 18th level, you learn two tech powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of the same level.
+At 7th level, you learn two additional tech powers of 1st or 2nd level. At 13th level, you learn two tech powers of 1st-3rd level, and at 17th level, you learn two tech powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of the same level.
 
 ### Ionized Weave
 Beginning at 10th level, when you cast a damage-dealing force power that requires a force attack or saving throw, you can spend force points to cause that power to instead deal ion damage. The number of force points equals half the power's level (round down, minimum of one). If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. 
@@ -735,7 +735,7 @@ The damage increases when you reach certain levels in this class, increasing to 
 ### Forcecasting Secrets
 Beginning at 6th level, your study of kyber crystals has awakened a latent force sensitivity. Choose two force powers of 1st level. The chosen powers count as tech powers for you, but are not included in the number in the Powers Known column of the engineer table.
 
-At 10th level, you learn two additional force powers of 1st or 2nd level. At 14th level, you learn two force powers of 1st-3rd level, and at 18th level, you learn two force powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of the same level.
+At 7th level, you learn two additional force powers of 1st or 2nd level. At 13th level, you learn two force powers of 1st-3rd level, and at 17th level, you learn two force powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of the same level.
 
 ### Disruptive Resonance
 At 14th level, when you hit a creature that is concentrating on a power with your modified lightsaber, the creature has disadvantage on the Constitution saving throw to maintain concentration. Additionally, on a failed save, the creature immediately takes psychic damage equal to your engineer level + your Intelligence modifier.
@@ -1816,7 +1816,7 @@ When you use your object interaction to stow a weapon, you can expend a use of y
 <div style='margin-top:28px'></div>
 
 ### Dervish
-Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Adaptive Fighting, to a maximum of your Strength or Dexterity modifier (your choice, minimum of one).
+Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain an expended use of your Adaptive Fighting.
 
 ### Resilient Fighting
 At 10th level, when you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn.
@@ -2196,7 +2196,7 @@ Lastly at 3rd level, you gain the following Channel the Force option.
 Once per turn, when you miss with a melee weapon attack, you can expend a use of your Channel the Force to immediately make another melee weapon attack against the same target (no action required).
 
 ### Eye of the Storm
-Starting at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Channel the Force, to a maximum of your Wisdom or Charisma modifier (your choice, minimum of one). 
+Starting at 7th level, when you score a critical hit with a melee weapon attack, you regain an expended use of your Channel the Force.
 
 ### Rising Whirlwind
 By 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw (DC = 8 + your bonus to attacks with your weapon). A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding separate two light- or vibro-weapons in each hand with which you are proficient, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn't already include that modifier.
@@ -2439,7 +2439,7 @@ If your companion dies, or you want to bond with a different one, you must first
 In addition to its traits and features, your companion gains additional benefits while it is bonded to you:
 - Your companion gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each trait in excess of your proficiency bonus, your force point maximum is reduced by 2.
 
-Lastly, while bonded and within 10 feet of you, when you or your companion are hit by dealt damage by an external effect, you can choose to have you or your companion gain resistance to that damage. If you do so, the other of the two takes the same damage. This damage can't be reduced or negated in any way.
+Lastly, while bonded and within 10 feet of you, when you or your companion are dealt damage by an external effect, you can choose to have you or your companion gain resistance to that damage. If you do so, the other of the two takes the same damage. This damage can't be reduced or negated in any way.
 
 At 11th level, your companion must be within 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.
 
@@ -2473,7 +2473,7 @@ Once per turn, when your companion is within 10 feet of you and it hits a creatu
 &emsp;At 11th level, your companion must be within 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.
 
 #### Shield
-When your companion is hit by a weapon attack while within 10 feet of you, you can use your reaction to attempt to divert the attack. When you do so, the damage your companion takes from the attack is reduced by 1d10 + your Wisdom or Charisma modifier (your choice) + your guardian level.
+When your companion is hit by a weapon attack while within 10 feet of you, you can use your reaction and expend a use of your Channel the Force to attempt to divert the attack. When you do so, the damage your companion takes from the attack is reduced by 1d10 + your Wisdom or Charisma modifier (your choice) + your guardian level.
 
 At 11th level, your companion must be within 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.
 
@@ -2494,7 +2494,7 @@ At 20th level, you and your companion are a paragon of harmony. Your Strength or
 
 This effect ends early if either you or your companion are incapacitated or die, or if your companion is ever more than 60 feet away from you. Once you've used this feature, you can't use it again until you complete a long rest.
 
-<img src='https://cdn.discordapp.com/attachments/555380018310676492/784117587612270623/knightofzakuul3.png' style='position:absolute;bottom:18px;left:0px;width:460px;z-index:1000' />
+<img src='https://media.discordapp.net/attachments/555380018310676492/784433700690591744/knightofzakuul3.png?width=349&height=678' style='position:absolute;bottom:18px;left:0px;width:460px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | GUARDIAN</div>
 
@@ -2507,7 +2507,7 @@ Ysannanite Form, also know as the Unorthodox Form, pairs the use of lightsaber w
 You gain proficiency in simple blasters and martial blasters that lack the two-handed property.
 
 ### Form Basics
-When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Ysannanite lightsaber form. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
+When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Ysannanite lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.
 
 ### The Way of the Yerdua
 Also at 3rd level, as a bonus action, you can take a meditative stance for 1 minute, granting you supreme accuracy as you guide your shots to their target through the Force. While in this stance, you add your Wisdom or Charisma modifier (your choice, minimum of +1) to one ranged weapon attack and damage roll you make each turn. Additionally, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. 
@@ -2523,11 +2523,13 @@ Once per turn, when you hit a creature with a ranged weapon attack, you can expe
 ### Improved Force-Empowered Shots
 Starting at 7th level, your familiarity with blaster weapons has granted you greater insight into their function and usage. Once on each of your turns, drawing or stowing a blaster no longer requires your object interaction. Additionally, you no longer require a free hand to reload.
 
-At 11th level, once per turn, when you hit a creature with a ranged weapon, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Shots with an attack, you add this damage to the extra damage of your Force-Empowered Shots. The damage is the same type as the weapon's damage.
+At 11th level, once per turn, when you hit a creature with a ranged weapon, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Shots with an attack, you add this damage to the extra 
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
+
+damage of your Force-Empowered Shots. The damage is the same type as the weapon's damage.
 
 ### Phasestorm
 By 15th level, you can use your action to dart across the battlefield, striking up to six such creatures that you can see within 30 feet. You immediately move to each creature in succession without provoking opportunity attacks, after which you return to the space in which you started. Each creature must make a Dexterity saving throw (DC = 8 + your bonus to attacks with your weapon). A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding separate weapons in each hand with which you are proficient, a creature makes this save with disadvantage, and takes additional damage equal to your Wisdom or Charisma modifier (your choice, minimum of one) on a failed save if the damage doesn't already include that modifier.
@@ -2540,7 +2542,9 @@ At 20th level, you've mastered the unity between blaster and blade. Your Dexteri
 - When you hit a creature with a ranged weapon attack, you have advantage on the next melee weapon attack you make against that creature. When you hit a creature with a melee weapon attack, you have advantage on the next ranged weapon attack you make against that creature.
 - When you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of one) in this way.
 
-<img src='https://www.gmbinder.com/images/YeXkOtP.png' style='position:absolute;bottom:10px;right:50px;width:314px;z-index:1000;' />
+This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.
+
+<img src='https://www.gmbinder.com/images/YeXkOtP.png' style='position:absolute;bottom:15px;right:100px;width:230px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
 
@@ -2756,7 +2760,7 @@ At 17th level, you gain the ability to make an overwhelming number of attacks ag
 Monks of the Whills Order hold the secrets of the Force sacred, and dedicate their lives to defending ancient  knowledge of the Force and its artifacts. They master the use of ranged weapons, often crafting their own weapons in respectful admiration of the Jedi tradition of crafting lightweapons.
 
 ### Flurry of Light
-At 3rd level, you gain proficiency in blaster pistols, blaster rifle, ion blaster, ion rifle, and the lightbow, which are your Whills weapons and are monk weapons for you. When you are wielding a Whills weapon, you gain the following benefits:
+At 3rd level, you gain proficiency in blaster pistols, blaster rifles, ion pistols, ion rifles, and the lightbow, which are your Whills weapons and are monk weapons for you. When you are wielding a Whills weapon, you gain the following benefits:
 - Your Whills weapons count as melee weapons for you, and when you make a melee weapon attack with them, you deal kinetic damage equal to your Martial Arts Damage Die.
 - When you would make an unarmed strike<br> using your Martial Arts bonus action<br> or as a part of<br> your<br> Flurry of Blows, you can instead attack with a Whills weapon you are wielding. You roll a d4 in place of the normal damage of your Whills weapon when attacking in this way. This die changes as you gain monk levels, as shown in the Martial Arts column of the monk table.
 - When you would make a ranged weapon attack with a Whills weapon, you can instead reload the weapon.
@@ -2938,7 +2942,7 @@ Choose another creature that you can see<br> within your reach. The creature mus
 <div style='margin-top:28px'></div>
 
 ### Flexible Body
-Beginning at 9th level, you are able to use your acrobatic talent to gain the upper hand in combat. You can use the bonus action granted by your Cunning Action to shove a creature. When you do so, you can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check. 
+Beginning at 9th level, you are able to use your acrobatic talent to gain the upper hand in combat. You can use the bonus action granted by your Cunning Action to shove or trip a creature. When you do so, you can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check. 
 
 Additionally, you now ignore difficult terrain, you can move through space occupied by hostile creatures, and you can squeeze through smaller spaces without expending extra movement.
 
@@ -3674,7 +3678,7 @@ You gain proficiency in Strength and Constitution saving throws. Additionally, y
 and when you deal damage with a weapon or unarmed strike, you can deal an additional 1d8 damage of the same type as the weapon's damage.
 
 #### Aspect of the Varactyl
-You gain proficiency in Dexterity and Intelligence saving throws. Additionally, your speed increases by 10 feet, you ignore effects that would reduce your speed, your attack rolls can't suffer from disadvantage, and creatures can't have advantage on attack rolls against you.
+You gain proficiency in Dexterity and Intelligence saving throws. Additionally, your speed increases by 10 feet, your attack rolls can't suffer from disadvantage, and creatures can't have advantage on attack rolls against you, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.
 
 ### Discoveries (Geneticist)
 When you select this pursuit, you gain access to new discoveries which reflect the changes you have caused your own body to undergo. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
@@ -3888,15 +3892,15 @@ This radius increases to 30 feet at 11th level, and 60 feet at 17th level.
 ### Additional Maneuvers
 Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into the biology and behavior of animals. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
 
-#### Loyal Bond
-Whenever you are hit with an attack, you can expend one superiority die to command your companion to immediately use its reaction and move up to its speed directly towards you. If it ends this movement within 5 feet of you, roll the superiority die. Your companion takes the damage instead of you, subtracting the amount you rolled from the total.
+#### Go Get 'Em
+While your companion is moving, you can expend a superiority die and add 5 times the number rolled to its movement speed.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
-#### Go Get 'Em
-While your companion is moving, you can expend a superiority die and add 5 times the number rolled to its movement speed.
+#### Loyal Bond
+Whenever you are hit with an attack, you can expend one superiority die to command your companion to immediately use its reaction and move up to its speed directly towards you. If it ends this movement within 5 feet of you, roll the superiority die. Your companion takes the damage instead of you, subtracting the amount you rolled from the total.
 
 #### Pin Down
 When your beast attempts to grapple or knock a creature prone, you can expend a superiority die to give it direction as long as it can see or hear you. Roll a superiority die and add it to your beast's Strength (Athletics) check.
@@ -3907,7 +3911,7 @@ As an action, you can expend a superiority die to improve your beast's defense. 
 #### Sic 'Em
 As an action, you can command your beast to savage a nearby enemy. Your beast can use its reaction to immediately move up to 10 feet and make one attack, adding the superiority dice to the damage roll on a hit.
 
-<img src='https://www.gmbinder.com/images/AlnLVfr.png' style='position:absolute;bottom:-3px;right:0px;width:520px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/AlnLVfr.png' style='position:absolute;bottom:0px;right:0px;width:476px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -3965,7 +3969,7 @@ Your beast companion gains the following benefits:
 If a creature makes a melee attack against you or your companion, and your companion is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.
 
 #### The More the Merrier
-_**Prerequisite:** Size Smaller or smaller beast_<br>
+_**Prerequisite:** Size Small or smaller beast_<br>
 Rather than a single beast companion, you instead control multiple beasts that function as a swarm. Your beast companion gains the following benefits:
 - Its size increases by two categories (from Tiny to Medium or Small to Large).
 - Its hit points increase by an amount equal to twice its level + 2.
@@ -4022,7 +4026,7 @@ At 15th level, when you use your Combat Tech feature, both you and your turret c
 \pagebreak
 
 ## Deadeye Technique
-Some scouts becomes legends written in blaster burns. Followers of the Deadeye Technique the art of the blaster shot and utilize their incredible focus to make shots that most would deem impossible. When everything depends on one shot, you want a Deadeye pulling the trigger.
+Some scouts becomes legends written in blaster burns. Followers of the Deadeye Technique perfect the art of the blaster shot and utilize their incredible focus to make shots that most would deem impossible. When everything depends on one shot, you want a Deadeye pulling the trigger.
 
 Due to their uncanny focus, Deadeyes can make shots that other marksmen would never dare to attempt. Deadeyes know how to make the most of ranged weapons and can use them to greater effect than other Scouts.
 
@@ -4063,7 +4067,7 @@ The maneuvers are presented in alphabetical order.
 When you hit a creature with a ranged weapon attack, you can expend a superiority die to cripple its movement. Add the number rolled to the damage of the ranged weapon attack. The creature must succeed on a Constitution saving throw or have its movement speed halved. At the end of each of its turns, the target can make a Constitution saving throw to end the effect.
 
 #### Daring Escape
-You can expend one superiority die to take the Disengage action as a bonus action until the end of your turn. Until the end of this turn, you have advantage on all Strength (Athletics) checks.
+You can expend one superiority die to take the Disengage action as a bonus action on your turn. Until the end of this turn, you have advantage on all Strength (Athletics) checks.
 
 #### Covering Fire
 When you hit a creature with a ranged weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. 
@@ -4186,7 +4190,7 @@ Across history, there have been those who live to hunt those who wield the Force
 ### Forcecasting Secrets
 When you choose this technique at 3rd level, you have learned secrets from a subtle attunement to the force. Choose two force powers of no higher level than your Max Power Level, as shown in the scout table. The chosen powers count as tech powers for you, but are not included in the number in the Powers Known column of the scout table.
 
-You learn two additional powers at 5th, 9th, and 13th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of no higher level than your Max Power Level.
+You learn two additional powers at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can choose one of the force powers you know and replace it with another force power of no higher level than your Max Power Level.
 
 ### Mark of the Inquisitor
 Also at 3rd level, when the target of your Ranger's Quarry feature is within 15 feet of you, you gain the following benefits:
@@ -4448,9 +4452,9 @@ At 18th level, you no longer suffer the frailty of old age, and you can't be age
 There is power in diversity unknown to those of narrow mind. Those sentinels who follow the Path of Synthesis blend their intricate mastery of the Force with their understanding of technology, creating unique effects to overcome their obstacles.
 
 ### Techcasting Secrets
-Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st-level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel table. 
+Starting when you choose this calling at 3rd level, you have learned to intersperse your training with an aptitude for technology. Choose two tech powers of 1st level or lower. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the sentinel table. 
 
-At 7th-level, you learn two tech powers of 2nd-level or lower. At 13th level, you learn two tech powers of 3rd-level or lower. At 17th level, you learn two tech powers of 4th-level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of no higher than the level determined by this feature.
+At 7th level, you learn two tech powers of 2nd level or lower. At 13th level, you learn two tech powers of 3rd level or lower. At 17th level, you learn two tech powers of 4th level or lower. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of no higher than the level determined by this feature.
 
 ### Synthetic Understanding
 Also at 3rd level, you've applied your newfound knowledge to broader pursuits. You gain proficiency in Technology or one tool of your choice.

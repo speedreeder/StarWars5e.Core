@@ -60,7 +60,7 @@ _**Prerequisite:** 4th level_<br>
 _**Prerequisite:** The ability to cast force or tech powers_<br>
 You've practiced casting powers more accurately from long range, learning techniques that give you the following benefits:
 - When you cast a power that requires you to make an attack roll, the power's range is doubled.
-- Your ranged force and tech attacks ignore half cover and three-quarters cover.
+- Your ranged force and tech attacks ignore one-quarter, half, and three-quarters cover.
 - You learn one at-will power that requires an attack roll. Your casting ability for this at-will power depends on the power list you chose from: Wisdom or Charisma (depending on power alignment) for force powers or Intelligence for tech powers.
 
 ### War Caster
@@ -248,7 +248,7 @@ You've developed a new fluidity to your training and practice, granting the foll
 _**Prerequisite:** at least 3 levels in guardian_<br>
 You've learned to adapt the Force in new ways, granting the following benefits:
 - Increase an ability score of your choice by 1, to a maximum of 20.
-- As a bonus action, you can expend a use of your Channel the Force to regain 2 force points.
+- As a bonus action, you can expend a use of your Channel the Force to regain 2 force points. You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you complete a long rest.
 
 \columnbreak
 
@@ -533,7 +533,7 @@ ___
 - **Type:** Beast
 - **Armor Class:** Your beast's armor class equals 10 + its Dexterity modifier.
 - **Barding:** Your beast requires proficiency in armor in order to have it made into barding for them, and if the your beast's size increases, the barding must be upgraded accordingly.
-- **Natural Weapon:** Your beast companion attacks with a natural weapon, such as claws or a bite. On a hit, it deals 1d4 kinetic damage.
+- **Natural Weapon:** Your beast companion attacks with a natural weapon, such as claws or a bite, with which it is proficient. On a hit, it deals 1d4 kinetic damage.
 - **Attitude:** The beast obeys your commands as best it can. It acts on your turn, and you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your beast acts on its own.
 
 ### Bestial Traits
@@ -575,7 +575,7 @@ Your beast companion learns one 2nd-level force power of your choice, and once p
 Your beast has advantage on Strength and Constitution saving throws against force powers.
 
 #### Force-Sensitive
-Your beast learns one at-will force power and one 1st-level force power, which it can cast at its lowest level once per long rest. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment). At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+Your beast learns one at-will force power and one 1st-level force power, which it can cast at its lowest level once per long rest. Your beast's forcecasting ability is Wisdom or Charisma (depending on power alignment). At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 <div class='footnote'>EXPANDED CONTENT | CUSTOMIZATION OPTIONS | COMPANION NATURES</div>
 
@@ -609,7 +609,7 @@ When your beast companion attempts to hide, it can opt to not move on its turn. 
 Your beast has advantage on Dexterity and Intelligence saving throws against force powers.
 
 #### Nimble Weapon
-Your beast companion can use Dexterity instead of Strength for its attack and damage rolls.
+Your beast companion's natural weapon gains the finesse property.
 
 #### Pack Tactics
 Your beast companion has advantage on an attack roll against a creature if at least one ally of your beast companion is within 5 feet of the creature and the ally isn't incapacitated.
@@ -867,7 +867,7 @@ While your droid has at least 3 arms free, it has a climbing speed equal to its 
 
 #### Heavy Plating
 _**Prerequisite:** Proficiency with medium armor_<br>
-Your droid gains proficiency in heavy armor. If your droid is already proficient in heavy armor, instead critical hits are treated as normal hits against it.
+Your droid gains proficiency in heavy armor. If your droid is already proficient in heavy armor, instead critical hits are treated as normal hits against it while heavy armor is integrated.
 
 #### Interface Protocol
 Your droid becomes a valid target for the *tracker droid interface* tech power.
@@ -957,7 +957,7 @@ You install a stun ray in your droid. The stun ray has 1 charge. As an action, y
 You can choose this trait multiple times. Each time you do so, the stun ray gains another charge, to a maximum of 3. The stun ray regains all expended charges after a long rest.
 
 #### Techcasting Protocol
-Your droid learns one at-will tech power and one 1st-level tech power, which it can cast at its lowest level once per long rest. Your droid's techcasting ability is Intelligence. At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+Your droid learns one at-will tech power and one 1st-level tech power, which it can cast at its lowest level once per long rest. Your droid's techcasting ability is Intelligence. At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Techcasting Protocol Mark II
 _**Prerequisite:** Techcasting Protocol_<br>
@@ -1132,7 +1132,7 @@ Your humanoid has advantage on Strength and Constitution saving throws against f
 \pagebreak
 
 #### Force-Sensitive
-Your humanoid one at-will force power and one 1st-level force power, which it can cast at its lowest level once per long rest. Your humanoid's forcecasting ability is Wisdom or Charisma (depending on power alignment). At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+Your humanoid one at-will force power and one 1st-level force power, which it can cast at its lowest level once per long rest. Your humanoid's forcecasting ability is Wisdom or Charisma (depending on power alignment). At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Four-Armed
 Your humanoid has four arms which it can use independently of one another. It can only gain the benefit of items held by two of its arms at any given time, and once per round it can switch which arms it is benefiting from (no action required).
@@ -1253,7 +1253,7 @@ Your humanoid learns one at-will tech power and one 1st-level tech power, which 
 
 <div style='margin-top:16px'></div>
 
-scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Tiny Terror
 _**Prerequisite:** Strength 13, size Tiny_<br>
@@ -1344,7 +1344,7 @@ While you are interfaced with your tracker droid via the *tracker droid interfac
 
 #### Interfaced Crafting Protocol
 _**Prerequisite:** 5th level_<br>
-While you are interfaced with your tracker droid via the *tracker droid interface* tech power, whenever you make an ability check using artisan's implements with which the you are also proficient, you have advantage on the check. If you already have advantage, you can instead reroll one of the dice once.
+While you are interfaced with your tracker droid via the *tracker droid interface* tech power, whenever you make an ability check using artisan's implements with which you are proficient, you have advantage on the check. If you already have advantage, you can instead reroll one of the dice once.
 
 <div class='footnote'>EXPANDED CONTENT | CUSTOMIZATION OPTIONS | COMPANION NATURES</div>
 
@@ -1409,7 +1409,7 @@ Your tracker droid companion's size is Small. Its hit points increase by an amou
 Your tracker droid has a climbing speed equal to its walking speed. Additionally, your tracker droid has advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.
 
 #### Storage
-Your tracker droid comes with a hidden storage compartment which can store up to 1 lb. Finding finding this hidden pocket requires a DC 15 Investigation check.
+Your tracker droid comes with a hidden storage compartment which can store up to 1 lb. Finding this hidden compartment requires a DC 15 Investigation check.
 
 #### Techcasting Range Protocol
 You can cast tech powers with a range of 5 feet or greater through your tracker droid while interfaced with it, but your tracker droid must be within 5 feet of the target of the power. This increases to 10 feet at 5th level, 20 feet at 9th level, 30 feet at 13th level, 60 feet at 17th level, and 120 feet at 20th level.
@@ -1457,7 +1457,7 @@ ___
 - **Type:** Construct
 - **Armor Class:** Your turret uses its Intelligence score for its Armor Class.
 - **Force Insensitive:** Your turret can not use force powers or take levels in forcecasting classes.
-- **Integrated Weaponry:** Your turret has an integrated vibroweapon and blaster with which it can make weapon attacks. Neither weapon can be removed while your turret is not disabled. Your turret's vibroweapon deals 1d8 kinetic damage on a hit. Your turret's blaster has the ammunition (range 100/400) and reload 20 properties, and it deals 1d6 kinetic or energy damage on it a hit, depending on its loaded ammunition. It can use both slug cartridges and power cells for ammunition. Your turret can't reload itself. You can choose which weapon your turret uses each time it attacks (no action required).
+- **Integrated Weaponry:** Your turret has an integrated vibroweapon and blaster with which it is proficient and can make weapon attacks. Neither weapon can be removed while your turret is not disabled. Your turret's vibroweapon deals 1d8 kinetic damage on a hit. Your turret's blaster has the ammunition (range 100/400) and reload 20 properties, and it deals 1d6 kinetic or energy damage on it a hit, depending on its loaded ammunition. It can use both slug cartridges and power cells for ammunition. Your turret can't reload itself. You can choose which weapon your turret uses each time it attacks (no action required).
 - **Turret Systems:** Your turret does not need to eat or drink. Additionally, your turret does not require a tech focus to cast tech powers.
 - **Attitude:** Your turret has a remote control, which you can use to direct it while within 120 feet of it (no action required). If you are incapacitated or absent, your turret takes no actions unless a trait says otherwise.
 
@@ -1554,7 +1554,7 @@ _**Prerequisite:** 13th level_<br>
 When a creature within 30 feet of you moves at least 5 feet, you can use your reaction to have your turret make a ranged weapon attack with its blaster against the creature. If the attack hits, the creature's speed is reduce by half until the start of your next turn.
 
 #### Turret Coverage
-As an action, you can have your turret anchor itself to the ground or recover itself. While anchored, its speed is reduce to 0, it has resistance to energy and kinetic damage, and it provides cover to creatures within 5 feet of it, depending on its size. A Small turret provides one-quarter cover, a Medium turret provides half cover, and a Large turret provides three-quarters cover. If an attack would miss a creature by an amount less than or equal to the bonus to AC granted by your turret's cover, your turret instead takes the damage. 
+As an action, you can have your turret anchor itself to the ground or recover itself. While anchored, its speed is reduce to 0, it has resistance to energy and kinetic damage, and it provides cover to creatures within 5 feet of it, depending on its size. A Small turret provides one-quarter cover, a Medium turret provides half cover, and a Large turret provides three-quarters cover. If an attack would miss a creature by an amount less than or equal to the bonus to AC granted by your turret's cover, and the attack would hit your turret, your turret instead takes the attack's damage. 
 
 <div class='footnote'>EXPANDED CONTENT | CUSTOMIZATION OPTIONS | COMPANION NATURES</div>
 
@@ -1726,7 +1726,7 @@ Beginning when your companion chooses this class at 3rd level, it has learned po
 #### Force Powers Known
 Your companion learns three force powers of its choice of no higher level than its Max Power Level. It may learn a force power at the same time it learns its prerequisite. 
 
-At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Force Points
 Your companion does not require force points. Instead, it can only cast powers at 1st-level twice. It regains all expended uses after completing a long rest.
@@ -1761,22 +1761,22 @@ Also at 3rd level, your companion learns how to defend itself purely through its
 Your companion can use this feature twice. It gains an additional use at 11th level. Your companion regains all expended uses when it finishes a long rest.
 
 ### Apprentice Forcecasting
-At 7th level, your companion's Max Power Level increases to 2nd, and it learns two additional powers. 
+At 7th level, your companion's Max Power Level increases to 2nd, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 2nd-level twice. It regains all expended uses after completing a long rest.
 
 ### Journeyman Forcecasting
-By 11th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers. 
+By 11th level, your companion's Max Power Level increases to 3rd, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 3rd-level twice. It regains all expended uses after completing a long rest.
 
 ### Adept Forcecasting
-At 15th level, your companion's Max Power Level increases to 4th, and it learns two additional powers. 
+At 15th level, your companion's Max Power Level increases to 4th, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 4th-level twice. It regains all expended uses after completing a long rest.
 
 ### Master Forcecasting
-As of 18th level, your companion's Max Power Level increases to 5th, and it learns two additional powers. 
+As of 18th level, your companion's Max Power Level increases to 5th, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 5th-level once. It regains the ability to do so after completing a long rest.
 
@@ -1804,7 +1804,7 @@ Beginning when your companion chooses this class at 3rd level, during its traini
 #### Tech Powers Known
 Your companion learns two tech powers of its choice of no higher level than its Max Power Level. 
 
-At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Tech Points
 Your companion does not require tech points. Instead, it can only cast powers at 1st-level once. It regains the ability to do so after completing a short or long rest.
@@ -1819,11 +1819,11 @@ ___
 
 <div align="center">
 
-**Force save DC** = 8 + its proficiency bonus + <br>its Intelligence modifier
+**Tech save DC** = 8 + its proficiency bonus + <br>its Intelligence modifier
 
 ___
 
-**Force attack modifier** = its proficiency bonus + <br>its Intelligence modifier
+**Tech attack modifier** = its proficiency bonus + <br>its Intelligence modifier
 
 </div>
 
@@ -1851,7 +1851,7 @@ At 7th level, your companion's Max Power Level increases to 2nd, and it learns t
 Additionally, your companion can cast powers at 2nd-level once. It regains the ability to do so after completing a short or long rest.
 
 ### Techcasting, Mark III
-By 11th level, your companion's Max Power Level increases to 3rd, and it learns one additional power.
+By 11th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers.
 
 Additionally, your companion can cast powers at 3rd-level once. It regains the ability to do so after completing a short or long rest.
 
@@ -1958,7 +1958,7 @@ Beginning when your companion chooses this class at 3rd level, it has learned po
 #### Force Powers Known
 Your companion learns three force powers of its choice of no higher level than its Max Power Level. It may learn a force power at the same time it learns its prerequisite. 
 
-At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Force Points
 Your companion does not require force points. Instead, it can only cast powers at 1st-level twice. It regains all expended uses after completing a long rest.
@@ -2001,7 +2001,7 @@ As an action, your companion can expend a use of its Channel the Force to sap th
 As a bonus action, your companion can expend a use of its Channel the Force and touch a beast or humanoid within 5 feet of it. That creature regains hit points equal to your companion's guardian level + its Wisdom modifier (minimum of one). Alternatively, if the beast or humanoid is poisoned or diseased, your companion neutralizes the poison or disease. If more than one poison or disease afflicts the target, your companion neutralizes one poison or disease that it knows is present, or it neutralizes one at random.
 
 ### Apprentice Forcecasting
-At 7th level, your companion's Max Power Level increases to 2nd, and it learns two additional powers. 
+At 7th level, your companion's Max Power Level increases to 2nd, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 2nd-level twice. It regains all expended uses after completing a long rest.
 
@@ -2012,7 +2012,7 @@ By 11th level, your companion can attack twice, instead of once, whenever it tak
 At 15th level, the Force flowing through your companion makes it immune to poison and disease.
 
 ### Journeyman Forcecasting
-As of 18th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers. 
+As of 18th level, your companion's Max Power Level increases to 3rd, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 3rd-level once. It regains the ability to do so after completing a long rest.
 
@@ -2232,7 +2232,7 @@ Beginning when your companion chooses this class at 3rd level, during its traini
 #### Tech Powers Known
 Your companion learns two tech powers of its choice of no higher level than its Max Power Level. 
 
-At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Tech Points
 Your companion does not require tech points. Instead, it can only cast powers at 1st-level once. It regains the ability to do so after completing a short or long rest.
@@ -2247,11 +2247,11 @@ ___
 
 <div align="center">
 
-**Force save DC** = 8 + its proficiency bonus + <br>its Intelligence modifier
+**Tech save DC** = 8 + its proficiency bonus + <br>its Intelligence modifier
 
 ___
 
-**Force attack modifier** = its proficiency bonus + <br>its Intelligence modifier
+**Tech attack modifier** = its proficiency bonus + <br>its Intelligence modifier
 
 </div>
 
@@ -2293,7 +2293,7 @@ If your companion is still hidden on its next turn, it can continue to remain mo
 Additionally, your companion can no longer be tracked by unenhanced means, unless it chooses to leave a trail.
 
 ### Techcasting, Mark III
-As of 18th level, your companion's Max Power Level increases to 3rd, and it learns one additional power.
+As of 18th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers.
 
 Additionally, your companion can cast powers at 3rd-level once. It regains the ability to do so after completing a long rest.
 
@@ -2321,7 +2321,7 @@ Beginning when your companion chooses this class at 3rd level, it has learned po
 #### Force Powers Known
 Your companion learns three force powers of its choice of no higher level than its Max Power Level. It may learn a force power at the same time it learns its prerequisite. 
 
-At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 18th level.
+At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level.
 
 #### Force Points
 Your companion does not require force points. Instead, it can only cast powers at 1st-level twice. It regains all expended uses after completing a long rest.
@@ -2354,7 +2354,7 @@ ___
 Also at 3rd level, your companion can add half its proficiency bonus, rounded down, to any ability check it makes that doesn't already include its proficiency bonus.
 
 ### Apprentice Forcecasting
-At 7th level, your companion's Max Power Level increases to 2nd, and it learns two additional powers. 
+At 7th level, your companion's Max Power Level increases to 2nd, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 2nd-level twice. It regains all expended uses after completing a long rest.
 
@@ -2362,12 +2362,12 @@ Additionally, your companion can cast powers at 2nd-level twice. It regains all 
 By 11th level, your companion can attack twice, instead of once, whenever it takes the Attack action on its turn.
 
 ### Journeyman Forcecasting
-At 15th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers. 
+At 15th level, your companion's Max Power Level increases to 3rd, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 3rd-level twice. It regains all expended uses after completing a long rest.
 
 ### Adept Forcecasting
-As of 18th level, your companion's Max Power Level increases to 4th, and it learns two additional powers. 
+As of 18th level, your companion's Max Power Level increases to 4th, and it learns three additional powers. 
 
 Additionally, your companion can cast powers at 4th-level once. It regains the ability to do so after completing a long rest.
 
