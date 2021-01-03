@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using StarWars5e.Models.Enums;
+using Attribute = StarWars5e.Models.Enums.Attribute;
 
 namespace StarWars5e.Parser.Localization
 {
@@ -188,6 +190,26 @@ namespace StarWars5e.Parser.Localization
         public string ArmorProperties => "Armor Properties";
         public string Fighter => "Fighter";
         public string ChooseAny => "Choose any";
+        public Tuple<string, int> FirstLevelNum => Tuple.Create("1st level", 1);
+        public Tuple<string, int>  SecondLevelNum => Tuple.Create("2nd level", 2);
+        public Tuple<string, int>  ThirdLevelNum => Tuple.Create("3rd level", 3);
+        public Tuple<string, int>  FourthLevelNum => Tuple.Create("4th level", 4);
+        public Tuple<string, int>  FifthLevelNum => Tuple.Create("5th level", 5);
+        public Tuple<string, int>  SixthLevelNum => Tuple.Create("6th level", 6);
+        public Tuple<string, int>  SeventhLevelNum => Tuple.Create("7th level", 7);
+        public Tuple<string, int>  EighthLevelNum => Tuple.Create("8th level", 8);
+        public Tuple<string, int>  NinthLevelNum => Tuple.Create("9th level", 9);
+        public Tuple<string, int>  TenthLevelNum => Tuple.Create("10th level", 10);
+        public Tuple<string, int>  EleventhLevelNum => Tuple.Create("11th level", 11);
+        public Tuple<string, int>  TwelfthLevelNum => Tuple.Create("12th level", 12);
+        public Tuple<string, int>  ThirteenthLevelNum => Tuple.Create("13th level", 13);
+        public Tuple<string, int>  FourteenthLevelNum => Tuple.Create("14th level", 14);
+        public Tuple<string, int>  FifteenthLevelNum => Tuple.Create("15th level", 15);
+        public Tuple<string, int>  SixteenthLevelNum => Tuple.Create("16th level", 16);
+        public Tuple<string, int>  SeventeenthLevelNum => Tuple.Create("17th level", 17);
+        public Tuple<string, int>  EighteenthLevelNum => Tuple.Create("18th level", 18);
+        public Tuple<string, int>  NineteenthLevelNum => Tuple.Create("19th level", 19);
+        public Tuple<string, int> TwentiethLevelNum => Tuple.Create("20th level", 20);
 
         #endregion
 

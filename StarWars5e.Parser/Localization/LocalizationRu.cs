@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Parser.Localization
@@ -1042,6 +1043,46 @@ namespace StarWars5e.Parser.Localization
         public string EighthLevel => throw new System.NotImplementedException();
 
         public string NinthLevel => throw new System.NotImplementedException();
+
+        public Tuple<string, int> FirstLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SecondLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> ThirdLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FourthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FifthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SixthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SeventhLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> EighthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> NinthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> TenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> EleventhLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> TwelfthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> ThirteenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FourteenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FifteenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SixteenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SeventeenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> EighteenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> NineteenthLevelNum => throw new NotImplementedException();
+
+        public Tuple<string, int> TwentiethLevelNum => throw new NotImplementedException();
 
         public string GetDeploymentTableStart(string deploymentName)
         {

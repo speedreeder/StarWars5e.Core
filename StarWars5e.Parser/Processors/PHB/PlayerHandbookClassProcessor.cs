@@ -391,7 +391,7 @@ namespace StarWars5e.Parser.Processors.PHB
             }
         }
 
-        public static List<Feature> ParseFeatures(List<string> featureTextLines, string sourceName, FeatureSource featureSource, ContentType contentType)
+        public List<Feature> ParseFeatures(List<string> featureTextLines, string sourceName, FeatureSource featureSource, ContentType contentType)
         {
             var features = new List<Feature>();
 
@@ -413,12 +413,49 @@ namespace StarWars5e.Parser.Processors.PHB
                     SourceEnum = featureSource,
                     Text = string.Join("\r\n", featureLines.Skip(1).CleanListOfStrings()),
                     PartitionKey = contentType.ToString(),
+                    SourceName = sourceName,
                     RowKey = $"{featureSource}-{sourceName}-{name}".Replace("/", string.Empty).Replace(@"\", string.Empty)
                 };
+
+                feature.Level = GetFeatureLevel(featureLines.Skip(1).CleanListOfStrings().ToList());
                 features.Add(feature);
             }
 
             return features;
+        }
+
+        private int? GetFeatureLevel(List<string> featureTextLines)
+        {
+            var featureLevels = new List<Tuple<string, int>>
+            {
+                Localization.FirstLevelNum, Localization.SecondLevelNum, Localization.ThirdLevelNum,
+                Localization.FourthLevelNum, Localization.FifthLevelNum, Localization.SixthLevelNum,
+                Localization.SeventhLevelNum, Localization.EighthLevelNum, Localization.NinthLevelNum,
+                Localization.TenthLevelNum, Localization.EleventhLevelNum, Localization.TwelfthLevelNum,
+                Localization.ThirteenthLevelNum, Localization.FourteenthLevelNum, Localization.FifteenthLevelNum,
+                Localization.SixteenthLevelNum, Localization.SeventeenthLevelNum, Localization.EighteenthLevelNum,
+                Localization.NineteenthLevelNum, Localization.TwentiethLevelNum
+            };
+
+            //var exists = featureLevels.Where(f => featureTextLines[0].Contains(f.Item1)).ToList();
+
+            if (featureTextLines.Any())
+            {
+                List<Tuple<string, int>> exists;
+                var i = 0;
+                do
+                {
+                    exists = featureLevels.Where(f => featureTextLines[i].Contains(f.Item1)).ToList();
+                    i++;
+                } while (i < featureTextLines.Count - 1 && !exists.Any());
+
+                if (exists.Any())
+                {
+                    return exists[0].Item2;
+                }
+            }
+
+            return null;
         }
     }
 }

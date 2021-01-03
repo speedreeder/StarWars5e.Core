@@ -63,7 +63,10 @@ namespace StarWars5e.Parser.Processors
                             .Take(archetypeLinesEnd - archetypeLinesStart);
                     }
 
-                    var playerHandbookClassProcessor = new PlayerHandbookClassProcessor(_classImageLus, _casterRatioLus);
+                    var playerHandbookClassProcessor = new PlayerHandbookClassProcessor(_classImageLus, _casterRatioLus)
+                    {
+                        Localization = Localization
+                    };
 
                     var starWarsClass = _classes.Single(c =>
                         c.Name.Equals(starWarsClassName, StringComparison.InvariantCultureIgnoreCase));

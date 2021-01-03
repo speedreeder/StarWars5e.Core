@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Parser.Localization
@@ -603,6 +604,26 @@ namespace StarWars5e.Parser.Localization
         string SeventhLevel { get; }
         string EighthLevel { get; }
         string NinthLevel { get; }
+        Tuple<string, int> FirstLevelNum { get; }
+        Tuple<string, int> SecondLevelNum { get; }
+        Tuple<string, int> ThirdLevelNum { get; }
+        Tuple<string, int> FourthLevelNum { get; }
+        Tuple<string, int> FifthLevelNum { get; }
+        Tuple<string, int> SixthLevelNum { get; }
+        Tuple<string, int> SeventhLevelNum { get; }
+        Tuple<string, int> EighthLevelNum { get; }
+        Tuple<string, int> NinthLevelNum { get; }
+        Tuple<string, int> TenthLevelNum { get; }
+        Tuple<string, int> EleventhLevelNum { get; }
+        Tuple<string, int> TwelfthLevelNum { get; }
+        Tuple<string, int> ThirteenthLevelNum { get; }
+        Tuple<string, int> FourteenthLevelNum { get; }
+        Tuple<string, int> FifteenthLevelNum { get; }
+        Tuple<string, int> SixteenthLevelNum { get; }
+        Tuple<string, int> SeventeenthLevelNum { get; }
+        Tuple<string, int> EighteenthLevelNum { get; }
+        Tuple<string, int> NineteenthLevelNum { get; }
+        Tuple<string, int> TwentiethLevelNum { get; }
         #endregion
     }
 }

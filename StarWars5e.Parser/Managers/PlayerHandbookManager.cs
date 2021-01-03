@@ -202,8 +202,6 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var featureLevels = (await _tableStorage.GetAllAsync<FeatureDataLU>("featureLevelLU")).ToList();
-
                 var classImageLus = await _tableStorage.GetAllAsync<ClassImageLU>("classImageLU");
                 var casterRatioLus = await _tableStorage.GetAllAsync<CasterRatioLU>("casterRatioLU");
                 var multiclassProficiencyLus =
@@ -243,15 +241,6 @@ namespace StarWars5e.Parser.Managers
                     {
                         var archetypeFeatures = archetypes.SelectMany(f => f.Features).ToList();
 
-                        foreach (var archetypeFeature in archetypeFeatures)
-                        {
-                            var featureLevel = featureLevels.SingleOrDefault(f => f.FeatureRowKey == archetypeFeature.RowKey);
-                            if (featureLevel != null)
-                            {
-                                archetypeFeature.Level = featureLevel.Level;
-                            }
-                        }
-
                         await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", archetypeFeatures,
                             new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                     }
@@ -276,15 +265,6 @@ namespace StarWars5e.Parser.Managers
                 try
                 {
                     var classFeatures = classes.SelectMany(f => f.Features).ToList();
-
-                    foreach (var classFeature in classFeatures)
-                    {
-                        var featureLevel = featureLevels.SingleOrDefault(f => f.FeatureRowKey == classFeature.RowKey);
-                        if (featureLevel != null)
-                        {
-                            classFeature.Level = featureLevel.Level;
-                        }
-                    }
 
                     await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", classFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });

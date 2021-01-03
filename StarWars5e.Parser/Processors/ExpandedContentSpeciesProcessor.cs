@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Lookup;
 using StarWars5e.Models.Monster;
@@ -108,6 +109,20 @@ namespace StarWars5e.Parser.Processors
                     trait.Name = traitLine.Split(asterisks.Value)[1].Trim().Replace(".", string.Empty);
                     trait.Description = traitLine.Split(asterisks.Value)[2].Trim().RemoveHtmlWhitespace();
                     species.Traits.Add(trait);
+                }
+
+                foreach (var speciesTrait in species.Traits)
+                {
+                    var feature = new Feature
+                    {
+                        Name = speciesTrait.Name,
+                        Text = speciesTrait.Description,
+                        RowKey = $"{FeatureSource.Species}-{name}-{speciesTrait.Name}",
+                        SourceName = name,
+                        SourceEnum = FeatureSource.Species,
+                        PartitionKey = contentType.ToString()
+                    };
+                    species.Features.Add(feature);
                 }
 
                 var sizeTrait = species.Traits.SingleOrDefault(t => t.Name == Localization.Size);

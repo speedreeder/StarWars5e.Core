@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StarWars5e.Models.Monster
+﻿namespace StarWars5e.Models.Monster
 {
     public class Trait
     {

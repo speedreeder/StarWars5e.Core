@@ -15,5 +15,7 @@ namespace StarWars5e.Models
             get => SourceEnum.ToString();
             set => SourceEnum = Enum.Parse<FeatureSource>(value);
         }
+        public string SourceName { get; set; }
+        public string Metadata { get; set; }
     }
 }

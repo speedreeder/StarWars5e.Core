@@ -52,17 +52,6 @@ namespace StarWars5e.Parser.Managers
                 {
                     var archetypeFeatures = archetypes.SelectMany(f => f.Features).ToList();
 
-                    var featureLevels = (await _tableStorage.GetAllAsync<FeatureDataLU>("featureDataLU")).ToList();
-
-                    foreach (var archetypeFeature in archetypeFeatures)
-                    {
-                        var featureLevel = featureLevels.SingleOrDefault(f => f.FeatureRowKey == archetypeFeature.RowKey);
-                        if (featureLevel != null)
-                        {
-                            archetypeFeature.Level = featureLevel.Level;
-                        }
-                    }
-
                     var dupes = archetypeFeatures
                         .GroupBy(i => i.RowKey)
                         .Where(g => g.Count() > 1)
