@@ -32,34 +32,42 @@ namespace StarWars5e.Parser
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
             var globalSearchTermRepository = new GlobalSearchTermRepository();
 
-            var searchClient = new SearchServiceClient("sw5esearch", new SearchCredentials(config["SearchKey"]));
-
-            var clientSecrets = new ClientSecrets
-            {
-                ClientId = config["GoogleApiClientId"],
-                ClientSecret = config["GoogleApiClientSecret"]
-            };
-
-            var googleCredential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
-                clientSecrets,
-                Scopes,
-                "user",
-                CancellationToken.None);
-
-            // Create Google Sheets API service.
-            var sheetsService = new SheetsService(new BaseClientService.Initializer
-            {
-                HttpClientInitializer = googleCredential,
-                ApplicationName = ApplicationName
-            });
-
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ITableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
-                .AddSingleton(globalSearchTermRepository)
-                .AddSingleton(searchClient)
-                .AddSingleton(sheetsService)
-                .BuildServiceProvider();
+                .AddSingleton(globalSearchTermRepository);
+            
+            if (!string.IsNullOrWhiteSpace(config["GoogleApiClientId"]))
+            {
+                var clientSecrets = new ClientSecrets
+                {
+                    ClientId = config["GoogleApiClientId"],
+                    ClientSecret = config["GoogleApiClientSecret"]
+                };
+
+                var googleCredential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+                    clientSecrets,
+                    Scopes,
+                    "user",
+                    CancellationToken.None);
+
+                // Create Google Sheets API service.
+                var sheetsService = new SheetsService(new BaseClientService.Initializer
+                {
+                    HttpClientInitializer = googleCredential,
+                    ApplicationName = ApplicationName
+                });
+
+                serviceProvider.AddSingleton(sheetsService);
+            }
+
+            if (!string.IsNullOrWhiteSpace(config["SearchKey"]))
+            {
+                var searchClient = new SearchServiceClient("sw5esearch", new SearchCredentials(config["SearchKey"]));
+                serviceProvider.AddSingleton(searchClient);
+            }
+
+            var serviceProviderBuilt = serviceProvider.BuildServiceProvider();
 
             var languages = config["Languages"].Split(',');
 
@@ -81,9 +89,10 @@ namespace StarWars5e.Parser
 
                 var stringsClass = LocalizationFactory.Get(languageEnum);
 
-                await ParseContent.Parse(serviceProvider.GetService<ITableStorage>(),
-                    serviceProvider.GetService<CloudStorageAccount>(),
-                    serviceProvider.GetService<GlobalSearchTermRepository>(), stringsClass, serviceProvider.GetService<SearchServiceClient>());
+                await ParseContent.Parse(serviceProviderBuilt.GetService<ITableStorage>(),
+                    serviceProviderBuilt.GetService<CloudStorageAccount>(),
+                    serviceProviderBuilt.GetService<GlobalSearchTermRepository>(), stringsClass,
+                    serviceProviderBuilt.GetService<SearchServiceClient>());
             }
         }
     }

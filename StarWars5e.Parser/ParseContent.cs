@@ -71,8 +71,11 @@ namespace StarWars5e.Parser
 
             try
             {
-                var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository, localization, searchServiceClient);
-                await searchManager.Upload();
+                if (searchServiceClient != null)
+                {
+                    var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository, localization, searchServiceClient);
+                    await searchManager.Upload();
+                }
             }
             catch (StorageException)
             {
