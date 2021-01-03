@@ -15,6 +15,7 @@ using StarWars5e.Models.Species;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
 using StarWars5e.Parser.Processors.PHB;
+using StarWars5e.Parser.Processors.PHB.FeatureOptions;
 using Wolnik.Azure.TableStorage.Repository;
 
 namespace StarWars5e.Parser.Managers
@@ -172,6 +173,26 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB backgrounds.");
+            }
+
+            try
+            {
+                var playerHandbookFighterManeuversProcessor = new PlayerHandbookFighterManeuversProcessor();
+                var playerHandbookScholarManeuversProcessor = new PlayerHandbookScholarManeuversProcessor();
+
+                var fighterManeuvers = await playerHandbookFighterManeuversProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+                        .ToList(), _localization);
+                var scholarManeuvers = await playerHandbookScholarManeuversProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+                        .ToList(), _localization);
+
+                await _tableStorage.AddBatchAsync<FeatureOption>($"featureOptions{_localization.Language}", fighterManeuvers,
+                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                await _tableStorage.AddBatchAsync<FeatureOption>($"featureOptions{_localization.Language}", scholarManeuvers,
+                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload feature options.");
             }
 
             try
