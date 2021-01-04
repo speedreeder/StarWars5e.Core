@@ -177,16 +177,9 @@ namespace StarWars5e.Parser.Managers
             try
             {
                 var playerHandbookFeatureOptionsProcessor = new PlayerHandbookFeatureOptionsProcessor();
-                List<string> pageNames = new List<string> { "PHB.phb_03.txt" };
-                List<string> allPageLines = new List<string>();
 
-                foreach(string pageName in pageNames)
-                {
-                    allPageLines.AddRange(_phbFilesNames.Where(p => p.Equals(pageName))
-                        .ToList());
-                }
-
-                var featureOptions = await playerHandbookFeatureOptionsProcessor.Process(allPageLines, _localization);
+                var featureOptions = await playerHandbookFeatureOptionsProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+                        .ToList(), _localization);
 
                 await _tableStorage.AddBatchAsync<FeatureOption>($"featureOptions{_localization.Language}", featureOptions,
                  new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });

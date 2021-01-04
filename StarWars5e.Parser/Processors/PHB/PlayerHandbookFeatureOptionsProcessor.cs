@@ -1,7 +1,5 @@
 ﻿using StarWars5e.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace StarWars5e.Parser.Processors.PHB
@@ -18,6 +16,10 @@ namespace StarWars5e.Parser.Processors.PHB
             featureOptions.AddRange(parseOptions(page, "Guardian", "Guardian Auras"));
             featureOptions.AddRange(parseOptions(page, "Scout", "Hunter's Prey"));
             featureOptions.AddRange(parseOptions(page, "Consular", "Force-Empowered Casting"));
+            featureOptions.AddRange(parseOptions(page, "Engineer", "Armormech Modifications"));
+            featureOptions.AddRange(parseOptions(page, "Engineer", "Armstech Modifications"));
+            featureOptions.AddRange(parseOptions(page, "Engineer", "Gadgeteer Contraptions"));
+          //featureOptions.AddRange(parseOptions(page, "Engineer", "Unstable Modifications"));
 
             return Task.FromResult(featureOptions);
         }
@@ -48,12 +50,17 @@ namespace StarWars5e.Parser.Processors.PHB
                     var nextOptionStartIndex = optionsLines.FindIndex(i+1, f => f.StartsWith("#"))-1;
                     var numTextLines = nextOptionStartIndex - i;
                     featureOption.Name = optionsLines[i].Replace("#", "").Trim();
-                    featureOption.Text = "";
-                    
+
+                    var textLines = new List<string>();
                     for (var x = 1; x < numTextLines; x++)
                     {
-                        featureOption.Text += optionsLines[i + x];
+                        if (!optionsLines[i + x].StartsWith("_") && !optionsLines[i + x].StartsWith("<") && !optionsLines[i + x].StartsWith("\\"))
+                        {
+                            textLines.Add(optionsLines[i + x]);
+                        }
                     }
+                    featureOption.Text = string.Join("\r\n", textLines);
+
                     featureOption.Feature = $"Class-{className}-{optionType}" ;
                     featureOption.RowKey = $"{className}-{optionType}-{featureOption.Name}";
                     featureOption.PartitionKey = "Core";
