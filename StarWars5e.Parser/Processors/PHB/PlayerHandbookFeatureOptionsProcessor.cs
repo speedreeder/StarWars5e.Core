@@ -4,27 +4,27 @@ using System.Threading.Tasks;
 
 namespace StarWars5e.Parser.Processors.PHB
 {
-    class PlayerHandbookFeatureOptionsProcessor : BaseProcessor<FeatureOption>
+    public class PlayerHandbookFeatureOptionsProcessor : BaseProcessor<FeatureOption>
     {
         public override Task<List<FeatureOption>> FindBlocks(List<string> page)
         {
             List<FeatureOption> featureOptions = new List<FeatureOption>();
-            featureOptions.AddRange(parseOptions(page, "Fighter", "Maneuvers"));
-            featureOptions.AddRange(parseOptions(page, "Scholar", "Maneuvers"));
-            featureOptions.AddRange(parseOptions(page, "Scholar", "Discoveries"));
-            featureOptions.AddRange(parseOptions(page, "Sentinel", "Sentinel Ideals"));
-            featureOptions.AddRange(parseOptions(page, "Guardian", "Guardian Auras"));
-            featureOptions.AddRange(parseOptions(page, "Scout", "Hunter's Prey"));
-            featureOptions.AddRange(parseOptions(page, "Consular", "Force-Empowered Casting"));
-            featureOptions.AddRange(parseOptions(page, "Engineer", "Armormech Modifications"));
-            featureOptions.AddRange(parseOptions(page, "Engineer", "Armstech Modifications"));
-            featureOptions.AddRange(parseOptions(page, "Engineer", "Gadgeteer Contraptions"));
+            featureOptions.AddRange(ParseOptions(page, "Fighter", "Maneuvers"));
+            featureOptions.AddRange(ParseOptions(page, "Scholar", "Maneuvers"));
+            featureOptions.AddRange(ParseOptions(page, "Scholar", "Discoveries"));
+            featureOptions.AddRange(ParseOptions(page, "Sentinel", "Sentinel Ideals"));
+            featureOptions.AddRange(ParseOptions(page, "Guardian", "Guardian Auras"));
+            featureOptions.AddRange(ParseOptions(page, "Scout", "Hunter's Prey"));
+            featureOptions.AddRange(ParseOptions(page, "Consular", "Force-Empowered Casting"));
+            featureOptions.AddRange(ParseOptions(page, "Engineer", "Armormech Modifications"));
+            featureOptions.AddRange(ParseOptions(page, "Engineer", "Armstech Modifications"));
+            featureOptions.AddRange(ParseOptions(page, "Engineer", "Gadgeteer Contraptions"));
           //featureOptions.AddRange(parseOptions(page, "Engineer", "Unstable Modifications"));
 
             return Task.FromResult(featureOptions);
         }
 
-        private List<FeatureOption> parseOptions(List<string> lines, string className, string optionType)
+        private List<FeatureOption> ParseOptions(List<string> lines, string className, string optionType)
         {
             var featureOptions = new List<FeatureOption>();
             var classStartIndex = lines.FindIndex(0, f => f.Contains("CHAPTER 3 | CLASSES | " + className.ToUpper()));
