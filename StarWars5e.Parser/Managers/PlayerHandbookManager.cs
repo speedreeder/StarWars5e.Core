@@ -176,6 +176,21 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
+                var playerHandbookFeatureOptionsProcessor = new PlayerHandbookFeatureOptionsProcessor();
+
+                var featureOptions = await playerHandbookFeatureOptionsProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt"))
+                        .ToList(), _localization);
+
+                await _tableStorage.AddBatchAsync<FeatureOption>($"featureOptions{_localization.Language}", featureOptions,
+                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException se)
+            {
+                Console.WriteLine($"Failed to upload feature options. {se}");
+            }
+
+            try
+            {
                 var speciesImageUrlsLus = await _tableStorage.GetAllAsync<SpeciesImageUrlLU>("speciesImageUrlsLU");
                 var playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor(speciesImageUrlsLus.ToList());
 
