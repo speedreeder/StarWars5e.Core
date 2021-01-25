@@ -210,6 +210,26 @@ namespace StarWars5e.Parser.Localization
         public Tuple<string, int>  EighteenthLevelNum => Tuple.Create("18th level", 18);
         public Tuple<string, int>  NineteenthLevelNum => Tuple.Create("19th level", 19);
         public Tuple<string, int> TwentiethLevelNum => Tuple.Create("20th level", 20);
+        public Tuple<string, int> FirstNum => Tuple.Create("1st", 1);
+        public Tuple<string, int> SecondNum => Tuple.Create("2nd", 2);
+        public Tuple<string, int> ThirdNum => Tuple.Create("3rd", 3);
+        public Tuple<string, int> FourthNum => Tuple.Create("4th", 4);
+        public Tuple<string, int> FifthNum => Tuple.Create("5th", 5);
+        public Tuple<string, int> SixthNum => Tuple.Create("6th", 6);
+        public Tuple<string, int> SeventhNum => Tuple.Create("7th", 7);
+        public Tuple<string, int> EighthNum => Tuple.Create("8th", 8);
+        public Tuple<string, int> NinthNum => Tuple.Create("9th", 9);
+        public Tuple<string, int> TenthNum => Tuple.Create("10th", 10);
+        public Tuple<string, int> EleventhNum => Tuple.Create("11th", 11);
+        public Tuple<string, int> TwelfthNum => Tuple.Create("12th", 12);
+        public Tuple<string, int> ThirteenthNum => Tuple.Create("13th", 13);
+        public Tuple<string, int> FourteenthNum => Tuple.Create("14th", 14);
+        public Tuple<string, int> FifteenthNum => Tuple.Create("15th", 15);
+        public Tuple<string, int> SixteenthNum => Tuple.Create("16th", 16);
+        public Tuple<string, int> SeventeenthNum => Tuple.Create("17th", 17);
+        public Tuple<string, int> EighteenthNum => Tuple.Create("18th", 18);
+        public Tuple<string, int> NineteenthNum => Tuple.Create("19th", 19);
+        public Tuple<string, int> TwentiethNum => Tuple.Create("20th", 20);
 
         #endregion
 

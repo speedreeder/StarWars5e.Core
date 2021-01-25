@@ -407,55 +407,77 @@ namespace StarWars5e.Parser.Processors.PHB
                         .Take(nextFeatureNameLineIndex - currentFeatureNameLineIndex).RemoveEmptyLines().ToList();
 
                 var name = featureLines[0].Split("# ")[1].Trim();
-                var feature = new Feature
-                {
-                    Name = name,
-                    SourceEnum = featureSource,
-                    Text = string.Join("\r\n", featureLines.Skip(1).CleanListOfStrings()),
-                    PartitionKey = contentType.ToString(),
-                    SourceName = sourceName,
-                    RowKey = $"{featureSource}-{sourceName}-{name}".Replace("/", string.Empty).Replace(@"\", string.Empty)
-                };
+                
 
-                feature.Level = GetFeatureLevel(featureLines.Skip(1).CleanListOfStrings().ToList());
-                features.Add(feature);
+                var levels = GetFeatureLevels(featureLines.Skip(1).CleanListOfStrings().ToList());
+
+                foreach (var level in levels)
+                {
+                    var feature = new Feature
+                    {
+                        Name = name,
+                        SourceEnum = featureSource,
+                        Text = string.Join("\r\n", featureLines.Skip(1).CleanListOfStrings()),
+                        PartitionKey = contentType.ToString(),
+                        SourceName = sourceName,
+                        Level = level,
+                        RowKey = $"{featureSource}-{sourceName}-{name}-{level}".Replace("/", string.Empty)
+                            .Replace(@"\", string.Empty)
+                    };
+
+                    features.Add(feature);
+                }
             }
 
             return features;
         }
 
-        private int? GetFeatureLevel(List<string> featureTextLines)
+        private List<int> GetFeatureLevels(List<string> featureTextLines)
         {
             var featureLevels = new List<Tuple<string, int>>
             {
-                Localization.FirstLevelNum, Localization.SecondLevelNum, Localization.ThirdLevelNum,
-                Localization.FourthLevelNum, Localization.FifthLevelNum, Localization.SixthLevelNum,
-                Localization.SeventhLevelNum, Localization.EighthLevelNum, Localization.NinthLevelNum,
-                Localization.TenthLevelNum, Localization.EleventhLevelNum, Localization.TwelfthLevelNum,
-                Localization.ThirteenthLevelNum, Localization.FourteenthLevelNum, Localization.FifteenthLevelNum,
-                Localization.SixteenthLevelNum, Localization.SeventeenthLevelNum, Localization.EighteenthLevelNum,
-                Localization.NineteenthLevelNum, Localization.TwentiethLevelNum
+                Localization.FirstNum, Localization.SecondNum, Localization.ThirdNum,
+                Localization.FourthNum, Localization.FifthNum, Localization.SixthNum,
+                Localization.SeventhNum, Localization.EighthNum, Localization.NinthNum,
+                Localization.TenthNum, Localization.EleventhNum, Localization.TwelfthNum,
+                Localization.ThirteenthNum, Localization.FourteenthNum, Localization.FifteenthNum,
+                Localization.SixteenthNum, Localization.SeventeenthNum, Localization.EighteenthNum,
+                Localization.NineteenthNum, Localization.TwentiethNum
             };
 
-            //var exists = featureLevels.Where(f => featureTextLines[0].Contains(f.Item1)).ToList();
+            var levels = new List<int>();
 
-            if (featureTextLines.Any())
+            var levelsTextSplit = featureTextLines[0].Split(',');
+
+            featureLevels.Reverse();
+
+            foreach (var levelSplit in levelsTextSplit)
             {
-                List<Tuple<string, int>> exists;
-                var i = 0;
-                do
-                {
-                    exists = featureLevels.Where(f => featureTextLines[i].Contains(f.Item1)).ToList();
-                    i++;
-                } while (i <= featureTextLines.Count - 1 && !exists.Any());
+                var levelLine = featureLevels.FirstOrDefault(f => levelSplit.Contains(f.Item1));
 
-                if (exists.Any())
+                if (levelLine != null)
                 {
-                    return exists[0].Item2;
+                    levels.Add(levelLine.Item2);
                 }
             }
 
-            return null;
+            return levels;
+
+            //if (featureTextLines.Any())
+            //{
+            //    List<Tuple<string, int>> exists;
+            //    var i = 0;
+            //    do
+            //    {
+            //        exists = featureLevels.Where(f => featureTextLines[i].Contains(f.Item1)).ToList();
+            //        i++;
+            //    } while (i <= featureTextLines.Count - 1 && !exists.Any());
+
+            //    if (exists.Any())
+            //    {
+            //        return exists[0].Item2;
+            //    }
+            //}
         }
     }
 }

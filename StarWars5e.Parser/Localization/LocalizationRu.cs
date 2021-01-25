@@ -1084,6 +1084,46 @@ namespace StarWars5e.Parser.Localization
 
         public Tuple<string, int> TwentiethLevelNum => throw new NotImplementedException();
 
+        public Tuple<string, int> FirstNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SecondNum => throw new NotImplementedException();
+
+        public Tuple<string, int> ThirdNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FourthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FifthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SixthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SeventhNum => throw new NotImplementedException();
+
+        public Tuple<string, int> EighthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> NinthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> TenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> EleventhNum => throw new NotImplementedException();
+
+        public Tuple<string, int> TwelfthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> ThirteenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FourteenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> FifteenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SixteenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> SeventeenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> EighteenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> NineteenthNum => throw new NotImplementedException();
+
+        public Tuple<string, int> TwentiethNum => throw new NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

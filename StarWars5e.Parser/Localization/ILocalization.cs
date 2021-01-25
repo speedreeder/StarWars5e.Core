@@ -624,6 +624,26 @@ namespace StarWars5e.Parser.Localization
         Tuple<string, int> EighteenthLevelNum { get; }
         Tuple<string, int> NineteenthLevelNum { get; }
         Tuple<string, int> TwentiethLevelNum { get; }
+        Tuple<string, int> FirstNum { get; }
+        Tuple<string, int> SecondNum { get; }
+        Tuple<string, int> ThirdNum { get; }
+        Tuple<string, int> FourthNum { get; }
+        Tuple<string, int> FifthNum { get; }
+        Tuple<string, int> SixthNum { get; }
+        Tuple<string, int> SeventhNum { get; }
+        Tuple<string, int> EighthNum { get; }
+        Tuple<string, int> NinthNum { get; }
+        Tuple<string, int> TenthNum { get; }
+        Tuple<string, int> EleventhNum { get; }
+        Tuple<string, int> TwelfthNum { get; }
+        Tuple<string, int> ThirteenthNum { get; }
+        Tuple<string, int> FourteenthNum { get; }
+        Tuple<string, int> FifteenthNum { get; }
+        Tuple<string, int> SixteenthNum { get; }
+        Tuple<string, int> SeventeenthNum { get; }
+        Tuple<string, int> EighteenthNum { get; }
+        Tuple<string, int> NineteenthNum { get; }
+        Tuple<string, int> TwentiethNum { get; }
         #endregion
     }
 }

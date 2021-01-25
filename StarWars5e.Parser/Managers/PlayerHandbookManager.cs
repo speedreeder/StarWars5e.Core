@@ -256,6 +256,11 @@ namespace StarWars5e.Parser.Managers
                     {
                         var archetypeFeatures = archetypes.SelectMany(f => f.Features).ToList();
 
+                        var dupes = archetypeFeatures
+                            .GroupBy(i => i.RowKey)
+                            .Where(g => g.Count() > 1)
+                            .Select(g => g.Key);
+
                         await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", archetypeFeatures,
                             new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
                     }
@@ -263,11 +268,6 @@ namespace StarWars5e.Parser.Managers
                     {
                         Console.WriteLine($"Failed to upload PHB archetype features: {se}");
                     }
-
-                    var dupes = archetypes
-                        .GroupBy(i => i.RowKey)
-                        .Where(g => g.Count() > 1)
-                        .Select(g => g.Key);
 
                     await _tableStorage.AddBatchAsync<Archetype>($"archetypes{_localization.Language}", archetypes,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
@@ -280,6 +280,11 @@ namespace StarWars5e.Parser.Managers
                 try
                 {
                     var classFeatures = classes.SelectMany(f => f.Features).ToList();
+
+                    var dupes = classFeatures
+                        .GroupBy(i => i.RowKey)
+                        .Where(g => g.Count() > 1)
+                        .Select(g => g.Key);
 
                     await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", classFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
