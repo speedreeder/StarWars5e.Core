@@ -1,6 +1,4 @@
-using System;
-using Microsoft.WindowsAzure.Storage.Table;
-using StarWars5e.Models.Enums;
+using Microsoft.Azure.Cosmos.Table;
 
 namespace StarWars5e.Models
 {

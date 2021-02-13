@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage.Blob;
+using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models;
@@ -10,52 +13,63 @@ namespace StarWars5e.Api.Managers
 {
     public class ChapterRuleManager : IChapterRuleManager
     {
-        private readonly CloudBlobClient _cloudBlobClient;
+        private readonly IConfiguration _configuration;
 
-        public ChapterRuleManager(CloudBlobClient cloudBlobClient)
+        public ChapterRuleManager(IConfiguration configuration)
         {
-            _cloudBlobClient = cloudBlobClient;
+            _configuration = configuration;
         }
 
         public async Task<List<ChapterRules>> GetChapterRulesFromBlobContainer(string containerName, Language language)
         {
-            var container = _cloudBlobClient.GetContainerReference($"{containerName}-{language}");
+            var blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], $"{containerName}-{language}");
 
-            var exists = await container.ExistsAsync();
-
-            if (!exists)
+            if (!await blobContainerClient.ExistsAsync())
             {
-                container = _cloudBlobClient.GetContainerReference($"{containerName}-{Language.en}");
+                blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], $"{containerName}-{Language.en}");
             }
 
             var chapterRules = new List<ChapterRules>();
-            BlobContinuationToken blobContinuationToken = null;
-            do
+            var chapterBlobs = new List<BlobItem>();
+
+            await foreach (var blob in blobContainerClient.GetBlobsAsync())
             {
-                var results = await container.ListBlobsSegmentedAsync(null, blobContinuationToken);
-                blobContinuationToken = results.ContinuationToken;
-                foreach (var item in results.Results)
-                {
-                    var blob = new CloudBlockBlob(item.Uri, container.ServiceClient);
-                    var chapterRule = JsonConvert.DeserializeObject<ChapterRules>(await blob.DownloadTextAsync());
-                    chapterRules.Add(chapterRule);
-                }
-            } while (blobContinuationToken != null);
+                chapterBlobs.Add(blob);
+            }
+
+            foreach (var chapterBlob in chapterBlobs)
+            {
+                var blobClient = blobContainerClient.GetBlobClient(chapterBlob.Name);
+
+                var stream = new MemoryStream();
+                await blobClient.DownloadToAsync(stream);
+
+                stream.Seek(0, SeekOrigin.Begin);
+
+                var chapterRule = JsonConvert.DeserializeObject<ChapterRules>(await new StreamReader(stream).ReadToEndAsync());
+                chapterRules.Add(chapterRule);
+            }
 
             return chapterRules;
         }
 
         public async Task<ChapterRules> GetChapterRuleFromBlobContainer(string containerName, string chapterName, Language language)
         {
-            var container = _cloudBlobClient.GetContainerReference($"{containerName}-{language}");
-            var exists = await container.ExistsAsync();
+            var blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], $"{containerName}-{language}");
 
-            if (!exists)
+            if (!await blobContainerClient.ExistsAsync())
             {
-                container = _cloudBlobClient.GetContainerReference($"{containerName}-{Language.en}");
+                blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], $"{containerName}-{Language.en}");
             }
-            var blob = container.GetBlockBlobReference(chapterName);
-            var chapterRule = JsonConvert.DeserializeObject<ChapterRules>(await blob.DownloadTextAsync());
+
+            var blobClient = blobContainerClient.GetBlobClient(chapterName);
+
+            var stream = new MemoryStream();
+            await blobClient.DownloadToAsync(stream);
+
+            stream.Seek(0, SeekOrigin.Begin);
+
+            var chapterRule = JsonConvert.DeserializeObject<ChapterRules>(await new StreamReader(stream).ReadToEndAsync());
 
             return chapterRule;
         }

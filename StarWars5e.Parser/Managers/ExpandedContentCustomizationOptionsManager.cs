@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
+using Microsoft.Azure.Cosmos.Table;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class ExpandedContentCustomizationOptionsManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly ExpandedContentCustomizationOptionsFeatProcessor _expandedContentCustomizationOptionsFeatProcessor;
         private readonly ExpandedContentCustomizationOptionsFightingStyleProcessor _expandedContentCustomizationOptionsFightingStyleProcessor;
         private readonly ExpandedContentCustomizationOptionsFightingMasteryProcessor _expandedContentCustomizationOptionsFightingMasteryProcessor;
@@ -20,7 +20,7 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
 
-        public ExpandedContentCustomizationOptionsManager(ITableStorage tableStorage,
+        public ExpandedContentCustomizationOptionsManager(IAzureTableStorage tableStorage,
             GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;

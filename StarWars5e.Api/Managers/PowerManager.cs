@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage.Table;
+using Microsoft.Azure.Cosmos.Table;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Api.Storage;
 using StarWars5e.Models;

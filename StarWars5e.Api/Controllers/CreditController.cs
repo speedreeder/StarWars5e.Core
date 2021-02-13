@@ -1,7 +1,8 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
+using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.Extensions.Configuration;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Api.Controllers
@@ -10,31 +11,33 @@ namespace StarWars5e.Api.Controllers
     [ApiController]
     public class CreditController : ControllerBase
     {
-        private readonly CloudBlobClient _cloudBlobClient;
+        private readonly IConfiguration _configuration;
 
-        public CreditController(CloudBlobClient cloudBlobClient)
+        public CreditController(IConfiguration configuration)
         {
-            _cloudBlobClient = cloudBlobClient;
+            _configuration = configuration;
         }
 
         [HttpGet]
         public async Task<ActionResult<string>> Get(Language language = Language.en)
         {
-            var container = _cloudBlobClient.GetContainerReference($"credits-{language}");
-            var exists = await container.ExistsAsync();
+            var blobContainerClient =
+                new BlobContainerClient(_configuration["StorageAccountConnectionString"], $"credits-{language}");
+            var exists = await blobContainerClient.ExistsAsync();
 
             if (!exists)
             {
-                container = _cloudBlobClient.GetContainerReference($"credits-{Language.en}");
+                blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"],
+                    $"credits-{Language.en}");
             }
 
-            var blockBlob = container.GetBlockBlobReference("credits.txt");
+            var blob = blobContainerClient.GetBlobClient("credits.txt");
 
             var stream = new MemoryStream();
-            await blockBlob.DownloadToStreamAsync(stream);
+            await blob.DownloadToAsync(stream);
 
             stream.Seek(0, SeekOrigin.Begin);
-            var creditsString = new StreamReader(stream).ReadToEnd();
+            var creditsString = await new StreamReader(stream).ReadToEndAsync();
 
             return Ok(creditsString);
         }

@@ -1,24 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
+using Microsoft.Azure.Cosmos.Table;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class ExpandedContentEquipmentManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_05.txt" };
         private readonly ILocalization _localization;
 
-        public ExpandedContentEquipmentManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+        public ExpandedContentEquipmentManager(IAzureTableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;

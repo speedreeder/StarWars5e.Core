@@ -305,7 +305,8 @@ namespace StarWars5e.Parser.Processors.PHB
                     ClassName = starWarsClass.Name
                 };
 
-                var archetypeTableStart = archetypeLines.FindIndex(f => f.StartsWith("|"));
+                var archetypeTableStart = archetypeLines.FindIndex(f =>
+                    f.StartsWith("|") && f.Contains("level", StringComparison.InvariantCultureIgnoreCase));
                 if (archetypeTableStart != -1)
                 {
                     var archetypeTableEnd = archetypeLines.FindIndex(archetypeTableStart, f => f.Equals(string.Empty));

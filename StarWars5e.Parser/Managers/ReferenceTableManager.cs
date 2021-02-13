@@ -3,13 +3,13 @@ using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class ReferenceTableManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly IBaseProcessor<ReferenceTable> _referenceTableProcessor;
         private readonly List<string> _referenceTableFileNames = new List<string> {
             "PHB.phb_-1.txt", "PHB.phb_00.txt", "PHB.phb_01.txt", "PHB.phb_02.txt", "PHB.phb_03.txt", "PHB.phb_04.txt",
@@ -20,7 +20,7 @@ namespace StarWars5e.Parser.Managers
         };
         private readonly ILocalization _localization;
 
-        public ReferenceTableManager(ITableStorage tableStorage, ILocalization localization)
+        public ReferenceTableManager(IAzureTableStorage tableStorage, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _localization = localization;

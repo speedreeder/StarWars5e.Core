@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Identity.Web.Resource;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Character;
@@ -17,10 +19,12 @@ namespace StarWars5e.Api.Controllers
     public class CharacterController : ControllerBase
     {
         private readonly ICharacterManager _characterManager;
+        private readonly IConfiguration _configuration;
 
-        public CharacterController(ICharacterManager characterManager)
+        public CharacterController(ICharacterManager characterManager, IConfiguration configuration)
         {
             _characterManager = characterManager;
+            _configuration = configuration;
         }
 
         [HttpDelete("{characterId}")]
@@ -77,8 +81,9 @@ namespace StarWars5e.Api.Controllers
                 return BadRequest("Invalid character Id.");
             }
 
-            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(userId);
+            var blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], "characters");
 
+            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(blobContainerClient, userId);
             if (currentCharactersForUser.Count >= 20)
             {
                 return BadRequest("User already has 20 characters saved.");
@@ -101,7 +106,8 @@ namespace StarWars5e.Api.Controllers
                 return BadRequest("No userId found.");
             }
 
-            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(userId);
+            var blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], "characters");
+            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(blobContainerClient, userId);
 
             if (currentCharactersForUser.Count >= 20)
             {

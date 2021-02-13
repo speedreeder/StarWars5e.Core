@@ -2,16 +2,19 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Azure;
+using Azure.Search.Documents;
+using Azure.Search.Documents.Indexes;
+using Azure.Storage.Blobs;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
-using Microsoft.Azure.Search;
+using Microsoft.Azure.Cosmos.Table;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.WindowsAzure.Storage;
 using StarWars5e.Models.Enums;
 using StarWars5e.Parser.Localization;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser
 {
@@ -31,11 +34,13 @@ namespace StarWars5e.Parser
             
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
             var globalSearchTermRepository = new GlobalSearchTermRepository();
+            var cloudBlobClient = new BlobServiceClient(config["StorageAccountConnectionString"]);
 
             var serviceProvider = new ServiceCollection()
-                .AddSingleton<ITableStorage>(tableStorage)
+                .AddSingleton<IAzureTableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
-                .AddSingleton(globalSearchTermRepository);
+                .AddSingleton(globalSearchTermRepository)
+                .AddSingleton(cloudBlobClient);
             
             if (!string.IsNullOrWhiteSpace(config["GoogleApiClientId"]))
             {
@@ -51,7 +56,6 @@ namespace StarWars5e.Parser
                     "user",
                     CancellationToken.None);
 
-                // Create Google Sheets API service.
                 var sheetsService = new SheetsService(new BaseClientService.Initializer
                 {
                     HttpClientInitializer = googleCredential,
@@ -63,8 +67,17 @@ namespace StarWars5e.Parser
 
             if (!string.IsNullOrWhiteSpace(config["SearchKey"]))
             {
-                var searchClient = new SearchServiceClient("sw5esearch", new SearchCredentials(config["SearchKey"]));
-                serviceProvider.AddSingleton(searchClient);
+                var searchIndexClient = new SearchIndexClient(new Uri("https://sw5esearch.search.windows.net"),
+                    new AzureKeyCredential(config["SearchKey"]));
+                //var searchClient = new SearchClient(new Uri("https://sw5esearch.search.windows.net"),
+                //    "searchterms-index",
+                //    new AzureKeyCredential(config["SearchKey"]));
+                var searchIndexerClient = new SearchIndexerClient(new Uri("https://sw5esearch.search.windows.net"),
+                    new AzureKeyCredential(config["SearchKey"]));
+
+                //serviceProvider.AddSingleton(searchClient);
+                serviceProvider.AddSingleton(searchIndexClient);
+                serviceProvider.AddSingleton(searchIndexerClient);
             }
 
             var serviceProviderBuilt = serviceProvider.BuildServiceProvider();
@@ -89,10 +102,9 @@ namespace StarWars5e.Parser
 
                 var stringsClass = LocalizationFactory.Get(languageEnum);
 
-                await ParseContent.Parse(serviceProviderBuilt.GetService<ITableStorage>(),
+                await ParseContent.Parse(serviceProviderBuilt, serviceProviderBuilt.GetService<IAzureTableStorage>(),
                     serviceProviderBuilt.GetService<CloudStorageAccount>(),
-                    serviceProviderBuilt.GetService<GlobalSearchTermRepository>(), stringsClass,
-                    serviceProviderBuilt.GetService<SearchServiceClient>());
+                    serviceProviderBuilt.GetService<GlobalSearchTermRepository>(), stringsClass);
             }
         }
     }

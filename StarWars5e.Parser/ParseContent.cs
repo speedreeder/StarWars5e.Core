@@ -3,27 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Microsoft.Azure.Search;
-using Microsoft.WindowsAzure.Storage;
+using Azure.Search.Documents.Indexes;
+using Microsoft.Azure.Cosmos.Table;
+using Microsoft.Extensions.DependencyInjection;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Managers;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser
 {
     public static class ParseContent
     {
-        public static async Task Parse(ITableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization, SearchServiceClient searchServiceClient)
+        public static async Task Parse(IServiceProvider serviceProvider, IAzureTableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount,
+            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
-            var playerHandbookManager = new PlayerHandbookManager(azureTableStorage, cloudStorageAccount,
-                globalSearchTermRepository, localization);
-            var wretchedHivesManager = new WretchedHivesManager(azureTableStorage, cloudStorageAccount,
-                globalSearchTermRepository, localization);
-            var starshipManager = new StarshipsOfTheGalaxyManager(azureTableStorage, cloudStorageAccount,
-                globalSearchTermRepository, localization);
+            var playerHandbookManager = new PlayerHandbookManager(serviceProvider, localization);
+            var wretchedHivesManager = new WretchedHivesManager(serviceProvider, localization);
+            var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider, localization);
             var monsterManualManager =
                 new MonsterManualManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentSpeciesManager =
@@ -35,9 +33,9 @@ namespace StarWars5e.Parser
             var extendedContentArchetypesManager =
                 new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentVariantRulesManager =
-                new ExpandedContentVariantRulesManager(cloudStorageAccount, localization, globalSearchTermRepository);
+                new ExpandedContentVariantRulesManager(serviceProvider, localization);
             var expandedContentManager =
-                new ExpandedContentManager(cloudStorageAccount, localization, globalSearchTermRepository);
+                new ExpandedContentManager(serviceProvider, localization);
             var extendedContentCustomizationOptionsManager =
                 new ExpandedContentCustomizationOptionsManager(azureTableStorage, globalSearchTermRepository,
                     localization);
@@ -45,10 +43,8 @@ namespace StarWars5e.Parser
                 new ExpandedContentForcePowersManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentTechPowersManager =
                 new ExpandedContentTechPowersManager(azureTableStorage, globalSearchTermRepository, localization);
-            
             var referenceTableManager = new ReferenceTableManager(azureTableStorage, localization);
-            
-            var creditsManager = new CreditsManager(cloudStorageAccount, localization);
+            var creditsManager = new CreditsManager(serviceProvider, localization);
             var extendedContentEnhancedItemManager =
                 new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, localization);
 
@@ -71,9 +67,11 @@ namespace StarWars5e.Parser
 
             try
             {
+                var searchServiceClient = serviceProvider.GetService<SearchIndexClient>();
+
                 if (searchServiceClient != null)
                 {
-                    var searchManager = new SearchManager(azureTableStorage, globalSearchTermRepository, localization, searchServiceClient);
+                    var searchManager = new SearchManager(serviceProvider, localization);
                     await searchManager.Upload();
                 }
             }

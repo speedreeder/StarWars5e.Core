@@ -1,6 +1,6 @@
 ﻿using System;
-using Microsoft.Azure.Search;
-using Microsoft.WindowsAzure.Storage.Table;
+using Azure.Search.Documents.Indexes;
+using Microsoft.Azure.Cosmos.Table;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Search
@@ -22,7 +22,7 @@ namespace StarWars5e.Models.Search
             set => LanguageEnum = Enum.Parse<Language>(value);
         }
 
-        [IsSearchable]
+        [SearchableField]
         public string SearchText { get; set; }
         public string SearchKey { get; set; }
     }

@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Blob;
+using Azure.Storage.Blobs;
+using Microsoft.Azure.Cosmos.Table;
+using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.EnhancedItems;
@@ -13,19 +16,19 @@ using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
 using StarWars5e.Parser.Processors.PHB;
 using StarWars5e.Parser.Processors.WH;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class WretchedHivesManager
     {
-        private readonly ITableStorage _tableStorage;
-        private readonly CloudBlobContainer _cloudBlobContainer;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly IBaseProcessor<ChapterRules> _wretchedHivesChapterRulesProcessor;
         private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly WretchedHivesEquipmentProcessor _wretchedHivesEquipmentProcessor;
+        private readonly BlobContainerClient _blobContainerClient;
 
         private readonly List<string> _whFilesName = new List<string>
         {
@@ -34,17 +37,16 @@ namespace StarWars5e.Parser.Managers
         };
         private readonly ILocalization _localization;
 
-        public WretchedHivesManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+        public WretchedHivesManager(IServiceProvider serviceProvider, ILocalization localization)
         {
-            _tableStorage = tableStorage;
-            _globalSearchTermRepository = globalSearchTermRepository;
+            _tableStorage = serviceProvider.GetService<IAzureTableStorage>();
+            _globalSearchTermRepository = serviceProvider.GetService<GlobalSearchTermRepository>();
             _localization = localization;
             _wretchedHivesEquipmentProcessor = new WretchedHivesEquipmentProcessor();
-            _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(globalSearchTermRepository);
+            _wretchedHivesChapterRulesProcessor = new WretchedHivesChapterRulesProcessor(_globalSearchTermRepository);
 
-            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"wretched-hives-rules-{_localization.Language}");
+            var blobServiceClient = serviceProvider.GetService<BlobServiceClient>();
+            _blobContainerClient = blobServiceClient.GetBlobContainerClient($"wretched-hives-rules-{_localization.Language}");
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, _localization.WretchedHivesWeaponProperties);
 
@@ -57,13 +59,17 @@ namespace StarWars5e.Parser.Managers
             {
                 var rules = await _wretchedHivesChapterRulesProcessor.Process(_whFilesName, _localization);
 
-                await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+                await _blobContainerClient.CreateIfNotExistsAsync();
                 foreach (var chapterRules in rules)
                 {
                     var json = JsonConvert.SerializeObject(chapterRules);
-                    var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+                    var blobClient = _blobContainerClient.GetBlobClient($"{chapterRules.ChapterName}.json");
 
-                    await blob.UploadTextAsync(json);
+                    var content = Encoding.UTF8.GetBytes(json);
+                    using (var ms = new MemoryStream(content))
+                    {
+                        await blobClient.UploadAsync(ms, true);
+                    }
                 }
             }
             catch (StorageException)

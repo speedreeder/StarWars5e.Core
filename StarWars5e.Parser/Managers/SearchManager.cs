@@ -1,27 +1,30 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Azure.Search;
+using Azure.Search.Documents.Indexes;
+using Microsoft.Extensions.DependencyInjection;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Search;
 using StarWars5e.Parser.Localization;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class SearchManager
     {
-        private readonly ITableStorage _tableStorage;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
-        private readonly SearchServiceClient _searchServiceClient;
+        private readonly SearchIndexClient _searchIndexClient;
+        private readonly SearchIndexerClient _searchIndexerClient;
 
-        public SearchManager(ITableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization, SearchServiceClient searchServiceClient)
+        public SearchManager(IServiceProvider serviceProvider, ILocalization localization)
         {
-            _tableStorage = tableStorage;
-            _globalSearchTermRepository = globalSearchTermRepository;
+            _tableStorage = serviceProvider.GetService<IAzureTableStorage>();
+            _globalSearchTermRepository = serviceProvider.GetService<GlobalSearchTermRepository>();
             _localization = localization;
-            _searchServiceClient = searchServiceClient;
+            _searchIndexClient = serviceProvider.GetService<SearchIndexClient>();
+            _searchIndexerClient = serviceProvider.GetService<SearchIndexerClient>();
         }
 
         public async Task Upload()
@@ -51,13 +54,17 @@ namespace StarWars5e.Parser.Managers
                     s.PartitionKey == ContentType.Core.ToString()),
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.Insert });
 
-            var index = await _searchServiceClient.Indexes.GetAsync("searchterms-index");
+            var index = await _searchIndexClient.GetIndexAsync("searchterms-index");
+            await _searchIndexClient.DeleteIndexAsync("searchterms-index");
 
-            await _searchServiceClient.Indexes.DeleteAsync("searchterms-index");
+            await _searchIndexClient.CreateIndexAsync(index);
 
-            await _searchServiceClient.Indexes.CreateAsync(index);
+            var oldIndexer = await _searchIndexerClient.GetIndexerAsync("searchterms-indexer");
+            await _searchIndexerClient.DeleteIndexerAsync(oldIndexer);
 
-            await _searchServiceClient.Indexers.RunAsync("searchterms-indexer");
+            await _searchIndexerClient.CreateIndexerAsync(oldIndexer);
+
+            await _searchIndexerClient.RunIndexerAsync("searchterms-indexer");
         }
     }
 }

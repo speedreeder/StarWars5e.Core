@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Blob;
+using Azure.Storage.Blobs;
+using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -13,8 +16,6 @@ namespace StarWars5e.Parser.Managers
 {
     public class ExpandedContentManager
     {
-        private readonly CloudBlobContainer _cloudBlobContainer;
-        private readonly ExpandedContentProcessor _expandedContentProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly List<string> _expandedContentFileNames = new List<string>
         {
@@ -22,15 +23,16 @@ namespace StarWars5e.Parser.Managers
             "ec_05.txt", "ec_06.txt", "ec_11.txt", "ec_12.txt", "ec_variantrules.txt"
         };
         private readonly ILocalization _localization;
+        private readonly BlobContainerClient _blobContainerClient;
 
-        public ExpandedContentManager(CloudStorageAccount cloudStorageAccount, ILocalization localization, GlobalSearchTermRepository globalSearchTermRepository)
+        public ExpandedContentManager(IServiceProvider serviceProvider, ILocalization localization)
         {
-            _localization = localization;
-            _globalSearchTermRepository = globalSearchTermRepository;
-            _expandedContentProcessor = new ExpandedContentProcessor();
+            _globalSearchTermRepository = serviceProvider.GetService<GlobalSearchTermRepository>();
 
-            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"expanded-content-{_localization.Language}");
+            _localization = localization;
+
+            var blobServiceClient = serviceProvider.GetService<BlobServiceClient>();
+            _blobContainerClient = blobServiceClient.GetBlobContainerClient($"expanded-content-{_localization.Language}");
         }
 
         public async Task Parse()
@@ -39,7 +41,8 @@ namespace StarWars5e.Parser.Managers
 
             foreach (var ecFile in _expandedContentFileNames)
             {
-                var extendedContent = await _expandedContentProcessor.Process(new List<string> {ecFile}, _localization);
+                var expandedContentProcessor = new ExpandedContentProcessor();
+                var extendedContent = await expandedContentProcessor.Process(new List<string> {ecFile}, _localization);
 
                 if (extendedContent.SingleOrDefault() != null)
                 {
@@ -47,13 +50,17 @@ namespace StarWars5e.Parser.Managers
                 }
             }
 
-            await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+            await _blobContainerClient.CreateIfNotExistsAsync();
             foreach (var ec in extendedContentChapters)
             {
                 var json = JsonConvert.SerializeObject(ec);
-                var blob = _cloudBlobContainer.GetBlockBlobReference($"{ec.ChapterName}.json");
+                var blobClient = _blobContainerClient.GetBlobClient($"{ec.ChapterName}.json");
 
-                await blob.UploadTextAsync(json);
+                var content = Encoding.UTF8.GetBytes(json);
+                using (var ms = new MemoryStream(content))
+                {
+                    await blobClient.UploadAsync(ms, true);
+                }
 
                 var searchTerm = _globalSearchTermRepository.CreateSearchTerm(ec.ChapterName, GlobalSearchTermType.ExpandedContent,
                     ContentType.ExpandedContent, $"/rules/expandedContent/{ec.ChapterName}");

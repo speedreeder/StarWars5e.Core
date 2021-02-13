@@ -39,10 +39,10 @@
 |	Falleen	            |
 |	Felucian        	|
 |	Flesh Raider       	|
+|	Gand            	|
 
 |||
 |:--|--:|
-|	Gand            	|
 |	Geonosian       	|
 |	Givin	            |
 |	Gotal	            |
@@ -50,6 +50,7 @@
 |	Half-Human          |
 |	Harch	            |
 |	Herglic	            |
+|	Ho'Din	            |
 |	Hutt	            |
 |	Iktotchi	        |
 |	Kage	            |
@@ -315,7 +316,7 @@ As an aleena, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 25 feet.
 
-***Bite.*** Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d4 + your Strength modifier. Additionally, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
+***Bite.*** Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage. Lastly, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
 
 ***Cosmopolitan.*** You have proficiency in Lore.
 
@@ -556,7 +557,7 @@ As an arcona, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Claws.*** Your sharp talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier.
+***Claws.*** Your sharp talons are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
 
 ***Clever.*** You have proficiency in one Intelligence skill of your choice. 
 
@@ -876,7 +877,7 @@ As a barabel, you have the following special traits.
 
 ***Prehensile Tail.*** You have supreme control over your tail and can use it to manipulate objects as well as your hands.
 
-***Tooth and Nail.*** Your sharp teeth and claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier. Additionally, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
+***Tooth and Nail.*** Your sharp teeth and claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage. Lastly, as a bonus action, you can perform a special claw attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Barabel. The Barabel language is characterized by its barks and hisses.
 
@@ -1174,7 +1175,7 @@ As a Chevin, you have the following special traits.
 
 ***Nomadic.*** You are proficient in Survival.
 
-***Thick Skull.*** Your skull is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d6 + your Strength modifier kinetic damage.
+***Thick Skull.*** Your skull is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Chevin. The Chevin language is characterized by grunts and low-pitched rumblings. Chevin typically have deep voices, even when speaking Basic.
 
@@ -1245,7 +1246,7 @@ As a chironian, you have the following special traits.
 
 ***Equine Build.*** You count as one size larger when determining your carrying capacity and the weight you can push or drag. Additionally, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot. Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount.
 
-***Hooves and Horns.*** Your hooves (and depending on your age, horns) are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Hooves and Horns.*** Your hooves (and depending on your age, horns) are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Powerful Charge.*** If you move at least 10 feet in a straight line before hitting with a melee weapon attack, you can attempt to trip the target prone as part of the same attack. Once you use this trait, you can’t use it again until you finish a short or long rest.
 
@@ -1478,7 +1479,7 @@ As a colicoid, you have the following special traits.
 
 ***Natural Armor.*** Due to your carapace and the shape of your body, you are ill-suited to wearing armor. Your carapace provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.
 
-***Stinger.*** Your stinger is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d4 + your Strength modifier.
+***Stinger.*** Your stinger is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Colicoid. The Colicoid language uses sounds produced by the antennae and jointed legs of the colicoids, including humming sounds and clicks, which makes it difficult for other species to speak.
 
@@ -1549,7 +1550,7 @@ As a dashade, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Claws.*** Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Claws.*** Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Force Contention.*** Due to their unique physiology, dashade hardiness allows them to overcome use of the Force. You have advantage on Strength and Constitution saving throws against force powers.
 
@@ -1630,7 +1631,7 @@ As a defel, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 25 feet.
 
-***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
@@ -1788,7 +1789,7 @@ As a dug, you have the following special traits.
 
 ***Courageous.*** You have advantage on saving throws against being frightened.
 
-***Fisticuffs.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Fisticuffs.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Fury of the Small.*** When you damage a creature with an attack or a power and the creature's size is larger than yours, you can cause the attack or power to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.
 
@@ -1869,7 +1870,7 @@ As an Echani, you have the following special traits.
 
 ***Allies of the Force.*** Whenever you make a Wisdom (Insight) check against someone you know to wield the Force, you are considered to have expertise in the Insight skill.
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d6 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d6 kinetic damage and have the finesse property.
 
 ***Echani Art.*** If a humanoid you can see makes a melee weapon attack, you can use your reaction to make a Wisdom (Insight) check against the target's Charisma (Deception). On a success you learn one of the following traits about that creature: it's Strength, Dexterity or Constitution score; bonus to Strength, Dexterity or Constitution saving throws; armor class; or current hit points. On a failure, the target becomes immune to this feature for one day. You can use this ability a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses on a long rest.
 
@@ -2603,6 +2604,7 @@ ___
 > |Gungan|Martial Proficiency|
 > |Harch|Venomous Fangs|
 > |Herglic|Toughness|
+> |Ho'Din|Second Heart|
 > |Iktotchi|Precognition|
 > |Ithorian|Hold Breath|
 > |Jawa|Grovel, Cower, and Beg|
@@ -2631,10 +2633,10 @@ ___
 > |Quarren|Keen Hearing|
 > |Pa'lowick|Hold Breath<br> Snout|
 > |Patrolian|Darkvision|
-> |Pau'an|Darkvision|
 > 
 > |||
 > |:--:|:--:|
+> |Pau'an|Darkvision|
 > |Pyke|Mercantile<br> Notorious Slavers|
 > |Rataka|Darkvision|
 > |Rattataki|Surprise Attack|
@@ -2774,7 +2776,7 @@ As a Harch, you have the following special traits:
 
 ***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Bite.*** Your fangs are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d4 + your Strength modifier kinetic damage. Additionally, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can't use this feature again until you complete a short or long rest.
+***Bite.*** Your fangs are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage. Lastly, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can't use this feature again until you complete a short or long rest.
 
 ***Six-Armed.*** Harch have six arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).
 
@@ -2858,6 +2860,87 @@ As a herglic, you have the following special traits:
 ***Languages.*** You can speak, read, and write Galactic Basic and Herglese. Herglese has a clear and commanding cadence, drawing the attention of those who hear it.
 
 <img src='https://www.gmbinder.com/images/d03mAPr.png' style='position:absolute;top:42px;right:12px;width:470px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Ho'din
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Green, yellow, blue, orange|
+> |***Hair Color***|  |Red-violet|
+> |***Eye Color***|  |Black|
+> |***Distinctions***|  |Snake-like "hair", suction-cupped fingers|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |7'10"|+2d12"|
+> |***Weight***|  |150 lb.|x(2d6) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Moltok|
+> |***Language***|  |Ho'Din|
+
+<div style='margin-top:39px'></div>
+
+### Biology and Appearance
+Ho'dins are tall humanoids with multi-colored skin, naturally webbed and suction cup-tipped fingers and toes, and temperature-sensing red-violet "snake hair". Ho'dins are, on average, over nine feet tall—nearly a full head taller than wookiees. Renowned throughout the galaxy as botanists and healers, the ho'din claim an ancestry derived from the plants of their home planet, Moltok—in fact, "ho'din" translates as "walking flower" in Galactic Basic. They are, in fact, reptilian, as their natural climbing skills and cold-bloodedness seem to indicate, and boast a second heart to enhance their survivability. Their "snake hair" is temperature-sensitive, allowing ho'din to sense changes in ambient temperature.
+
+### Society and Culture
+Ho'dins are known to be self-conscious and vain, particularly when it comes to their looks and their work, and do not take criticism or insults well. Their religion, Dinante Fli'R, is centered around worshipping and communing with nature, a trait that has sent many ho'din out into the galaxy to rejuvenate damaged planets. The ho'din have an aversion to technology and avoid surface mining and manufacturing, opting instead to dwell in trees. They have learned to make incredibly advanced pharmaceuticals and gardens using their botanical skills to concoct natural medicines, some of which have cured plagues on distant worlds. The title of "Master Gardener" is one of high esteem and great respect in ho'din society.
+
+### Names
+Ho'din names are quite diverse. Some names look complicated and difficult to pronounce, while others are quite simple. Surnames are familial.
+
+**Male Names.** Baji, Gra'tau, Iwo, Oojoh, Thrung, Vala
+
+**Female Names.** Chela, Kutu, Lohje, Par'tah, Sirta, Tal
+
+**Surnames.** Alewune, Kulko, Oolos, Plett, Ustu, Wen
+
+\columnbreak
+
+<div style='margin-top:354px'></div>
+
+### Ho'Din Traits
+As a ho'din, you have the following special traits.
+
+***Ability Score Increase.*** Your Intelligence score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Ho'din reach adulthood in their early 30s and live up to 120 years.
+
+***Alignment.*** Ho'dins' benevolent nature causes them to tend toward the light side, though there are exceptions.
+
+***Size.*** Ho'din are taller than most species, typically standing 8 to 10 feet tall and generally weighing about 275 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet. 
+
+***Biological Specialists.*** You have proficiency with Medicine or Survival (your choice).
+
+***Cold Sensitivity.*** You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme cold.
+
+***Crafters.*** You have proficiency with with one artisan's implements of your choice.
+
+***Naturalist.*** You have proficiency in the Nature skill.
+
+***Rain Forest Dweller.*** Growing up in the rain forests of Moltok has left an impact. You don't treat forest terrain as difficult terrain.
+
+***Reptilian Senses.*** Whenever you make a Wisdom (Perception) check related to sensing heat, you are considered to have expertise in the Perception skill.
+
+***Second Heart.*** When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
+
+***Treeclimber.*** You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.
+
+***Languages.*** You can speak, read, and write Galactic Basic, and Ho'Din. Ho'Din consists of croaks and hisses. Its written form includes characters derived from the shapes of Moltok flora. The Ho'Din lexicon includes a great amount of plant-based idioms and metaphors.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/795061834104700928/HOE-removebg-preview.png' style='position:absolute;top:45px;right:130px;width:231px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -3007,7 +3090,7 @@ As an Iktotchi, you have the following special traits.
 
 ***Telepathy.*** You can communicate telepathically with creatures within 30 feet of you. You must share a language with the target in order to communicate in this way.
 
-***Horns.*** Your horns are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Horns.*** Your horns are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Pilot.*** You have proficiency in the Piloting skill.
 
@@ -3088,7 +3171,7 @@ As a kage, you have the following special traits.
 
 ***Superior Darkvision.*** You've lived most of your life without direct sunlight. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Weapon Training.*** Kage are adept warriors. You are proficient with the electroprod and electrostaff.
 
@@ -3317,7 +3400,7 @@ As a karkarodon, you have the following special traits.
 
 ***Amphibious.*** You can breathe air and water.
 
-***Bite.*** Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d6 + your Strength modifier. Additionally, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
+***Bite.*** Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage. Lastly, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
 
 ***Swim.*** You have a swimming speed of 30 feet.
 
@@ -4065,7 +4148,7 @@ As a mirialan, you have the following special traits.
 
 ***Surprise Attack.*** If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Mirialan.
 
@@ -4365,7 +4448,7 @@ As a noghri, you have the following special traits.
 
 ***Strong-Legged.*** When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Honorghran. Honorghran is characterized by its scratchy, gutteral sounds.
 
@@ -4500,7 +4583,7 @@ Pa'lowick names tend to grow longer as the family tree grows older, with each ge
 
 \columnbreak
 
-<div style='margin-top:265px'></div>
+<div style='margin-top:280px'></div>
 
 ### Pa'lowick Traits
 As a pa'lowick, you have the following special traits:
@@ -4520,15 +4603,15 @@ As a pa'lowick, you have the following special traits:
 
 ***Proud Performer.*** Pa'lowick are best known for the energy they can bring to a singing performance. Whenever you make a Charisma (Performance) check involving singing, you are considered to have expertise in the Performance skill.
 
-***Snout.*** You have supreme control over your snout and can use it to manipulate objects as well as your hands. Additionally, your snout is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d4 + your Strength modifier kinetic damage.
+***Snout.*** You have supreme control over your snout and can use it to manipulate objects as well as your hands. Additionally, your snout is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
 
-***Sonic Scream.*** As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain one use of this feature when you finish a long rest.
+***Sonic Scream.*** As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.
 
 ***Swim.*** You have a swimming speed of 30 feet.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Lowickese. Lowickese requires the user to purse their lips and blow air, and is considered amusing by other species.
 
-<img src='https://www.gmbinder.com/images/m4n05we.png' style='position:absolute;top:45px;right:160px;width:136px;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/m4n05we.png' style='position:absolute;top:45px;right:160px;width:143px;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -4791,7 +4874,7 @@ ___
 > |***Homeworld***|&nbsp;&nbsp;|Mon Cala|
 > |***Language***|&nbsp;&nbsp;|Quarrenese|
 
-<div style='margin-top:37px'></div>
+<div style='margin-top:42px'></div>
 
 ### Biology and Appearance
 The Quarren are squid-like with four facial tentacles which protrude from their lower jaw. They have a pair of deep, turquoise eyes and finned hands with suction-tipped fingers. As an amphibious species, they are strong swimmers. They are also bipedal beings that can walk and sit upright. In the two long protrusions that extended from either side of their faces, Quarren have gill-like structures that are actually hearing organs. The Quarren are also capable of spitting out clouds of ink as a defensive measure.
@@ -4810,7 +4893,7 @@ Quarren names are typically harsh. Male and female names do not significantly de
 
 \columnbreak
 
-<div style='margin-top:395px'></div>
+<div style='margin-top:430px'></div>
 
 ### Quarren Traits
 As a quarren, you have the following special traits.
@@ -4831,7 +4914,7 @@ As a quarren, you have the following special traits.
 
 ***Darkvision.*** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Ink Cloud.*** As an action, you can expel ink in a 10-foot cone. When you do so, each creature in the area of the exhalation must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature is blinded until the end of its next turn. This ability has no effect on constructs. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain one use of this feature when you finish a long rest.
+***Ink Cloud.*** As an action, you can expel ink in a 10-foot cone. When you do so, each creature in the area of the exhalation must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature is blinded until the end of its next turn. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.
 
 ***Keen Hearing.*** You have advantage on Wisdom (Perception) checks that rely on hearing.
 
@@ -4839,7 +4922,7 @@ As a quarren, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Quarrenese. The Quarrenese language is characterized by its garbled nature that evokes an image of speaking underwater.
 
-<img src='https://www.gmbinder.com/images/Yba4pV1.png' style='position:absolute;top:57px;right:67px;width:328px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/Yba4pV1.png' style='position:absolute;top:57px;right:67px;width:358px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -4908,7 +4991,7 @@ As a rakata, you have the following special traits.
 
 ***Cannibalize.*** If you spend at least 1 minute devouring the corpse of a beast or humanoid, you gain temporary hit points equal to your Constitution modifier. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
-***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
@@ -4991,7 +5074,7 @@ As a rattataki, you have the following special traits.
 
 ***Surprise Attack.*** If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Rattataki. Rattataki is known for have an inordinate amount of curses.
 
@@ -5203,7 +5286,7 @@ As a selkath, you have the following special traits.
 
 **Amphibious.** You can breathe air and water.
 
-***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls. Additionally, as a bonus action, you can perform a special claw attack. On a hit, the target suffers the attack's normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can't use this feature again until you complete a short or long rest.
+***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage and have the finesse property. Lastly, as a bonus action, you can perform a special claw attack. On a hit, the target suffers the attack's normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can't use this feature again until you complete a short or long rest.
 
 **Gift of the Progenitor.** You know the *temporary boost* at-will tech power. When you reach 3rd level, you learn and can cast the *kolto pack* tech power once per day. When you reach 5th level, you learn and can cast the *kolto cloud* tech power once per day. Your techcasting ability is Intelligence. You do not require use of a wristpad for these powers. 
 
@@ -5284,7 +5367,7 @@ As a shistavanen, you have the following special traits.
 
 ***Regenerative.*** When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.
 
-***Tooth and Nail.*** Your fangs and claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Tooth and Nail.*** Your fangs and claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Shistavanen. The Shistavanen language is characterized by its barks and growls. 
 
@@ -5343,17 +5426,17 @@ As a squib, you have the following special traits.
 
 ***Age.*** Squibs reach adulthood at nine years of age and live an average of sixty-five years.
 
-***Alignment.*** Squibs' cheerful nature causes them to<br> tend toward the light side, though there are<br> exceptions.
+***Alignment.*** Squibs' cheerful nature causes them to tend toward the light side, though there are exceptions.
 
 ***Size.*** Squibs typically stand 3 to 3 and a half feet tall and weigh around 50 lbs. Regardless of your position in that range, your size is Small.
 
 ***Speed.*** Your base walking speed is 25 feet.
 
-***Bite.*** Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d4 + your Strength modifier.
+***Bite.*** Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
 
 ***Business Savvy.*** A common trait of all Squibs is their desire and love of haggling. Squibs believe a deal is done when both sides believe they got the better of the other. Whenever you make a Charisma (Persuasion) check involving haggling you are considered to have expertise in the Persuasion skill.
 
-***Flexible Cheeks.***  Squibs have flexible cheeks in<br> which they can store small goods. You can store up to<br> two items that weigh a combined total of no more than<br> 2 lb. in your cheeks, and you have advantage on<br> Dexterity (Sleight of Hand) checks made to conceal<br> them.
+***Flexible Cheeks.***  Squibs have flexible cheeks in which they can store small goods. You can store up to two items that weigh a combined total of no more than 2 lb. in your cheeks, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal them.
 
 ***Hide.*** Your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.
 
@@ -5438,7 +5521,7 @@ As a ssi-ruu, you have the following special traits.
 
 ***Thick Skin.*** You have tough, scaly skin and prefer not to wear clothes. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. 
 
-***Tooth and Nail.*** Your fangs and claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Tooth and Nail.*** Your fangs and claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Ssi-ruuvi. Ssi-ruuvi is a language of musical whistles, honks and clicks, and is nigh impossible for humans and similar species to speak.
 
@@ -5720,7 +5803,7 @@ As a thisspiasian, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier.
+***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
 
 ***Cultured.*** You have proficiency in the Lore skill.
 
@@ -5795,7 +5878,7 @@ As a togorian, you have the following special traits.
 
 **Speed.** Your base walking speed is 30 feet.
 
-***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 **Savage Attacks.** When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
 
@@ -5949,7 +6032,7 @@ As an ugnaught, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 25.
 
-***Bite.*** Your tusks are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Bite.*** Your tusks are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Crafters.*** You have proficiency in one tool of your choice.
 
@@ -6259,7 +6342,7 @@ As a vurk, you have the following special traits.
 
 ***Darkvision.*** Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Head Crest.*** Your head crest is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d6 + your Strength modifier kinetic damage.
+***Head Crest.*** Your head crest is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Swim.*** You have a swimming speed of 30 feet.
 
@@ -6326,7 +6409,7 @@ As a yevetha, you have the following special traits.
 
 ***Aggressive.*** As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.
 
-***Arm Blades.*** Your retractable dewclaws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.
+***Arm Blades.*** Your retractable dewclaws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.
 
 ***Toughness.*** Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. 
 
@@ -6476,11 +6559,11 @@ As a Zygerrian, you have the following special traits.
 
 ***Acrobatic.*** You have proficiency in Acrobatics.
 
-***Claws.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Claws.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Darkvision.*** You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Notorious Slavers.*** Whenever you make an ability<br> check related to the buying, selling, or controlling of<br> slaves, you are considered proficient in the check. If<br> you would already be proficient, you instead have<br> expertise.
+***Notorious Slavers.*** Whenever you make an ability check related to the buying, selling, or controlling of slaves, you are considered proficient in the check. If you would already be proficient, you instead have expertise.
 
 ***Reputation for Cruelty.*** You are proficient in Intimidation, as well as the saberwhip and vibrowhip.
 

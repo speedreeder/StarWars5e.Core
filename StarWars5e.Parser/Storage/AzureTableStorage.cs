@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Azure.Cosmos.Table;
 
-namespace StarWars5e.Api.Storage
+namespace StarWars5e.Parser.Storage
 {
     internal class AzureTableStorage : IAzureTableStorage
     {

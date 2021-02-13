@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Blob;
+using Azure.Storage.Blobs;
+using Microsoft.Azure.Cosmos.Table;
+using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -12,15 +15,13 @@ using StarWars5e.Models.Starship;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
 using StarWars5e.Parser.Processors.SOTG;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class StarshipsOfTheGalaxyManager
     {
-        private readonly ITableStorage _tableStorage;
-        private readonly CloudBlobContainer _cloudBlobContainer;
-
+        private readonly IAzureTableStorage _tableStorage;
         private readonly IBaseProcessor<StarshipDeployment> _starshipDeploymentProcessor;
         private readonly IBaseProcessor<StarshipEquipment> _starshipEquipmentProcessor;
         private readonly IBaseProcessor<StarshipModification> _starshipModificationProcessor;
@@ -28,6 +29,7 @@ namespace StarWars5e.Parser.Managers
         private readonly IBaseProcessor<StarshipVenture> _starshipVentureProcessor;
         private readonly IBaseProcessor<ChapterRules> _starshipChapterRulesProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
+        private readonly BlobContainerClient _blobContainerClient;
 
         private readonly ILocalization _localization;
 
@@ -37,21 +39,20 @@ namespace StarWars5e.Parser.Managers
             "SOTG.sotg_07.txt", "SOTG.sotg_08.txt", "SOTG.sotg_09.txt", "SOTG.sotg_10.txt", "SOTG.sotg_aa.txt", "SOTG.sotg_changelog.txt"
         };
 
-        public StarshipsOfTheGalaxyManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount,
-            GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+        public StarshipsOfTheGalaxyManager(IServiceProvider serviceProvider, ILocalization localization)
         {
             _localization = localization;
-            _tableStorage = tableStorage;
-            _globalSearchTermRepository = globalSearchTermRepository;
+            _tableStorage = serviceProvider.GetService<IAzureTableStorage>();
+            _globalSearchTermRepository = serviceProvider.GetService<GlobalSearchTermRepository>();
             _starshipDeploymentProcessor = new StarshipDeploymentProcessor();
             _starshipEquipmentProcessor = new StarshipEquipmentProcessor();
             _starshipModificationProcessor = new StarshipModificationProcessor();
             _starshipSizeProcessor = new StarshipSizeProcessor();
             _starshipVentureProcessor = new StarshipVentureProcessor();
-            _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor(globalSearchTermRepository);
+            _starshipChapterRulesProcessor = new StarshipChapterRulesProcessor(_globalSearchTermRepository);
 
-            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"starships-rules-{_localization.Language}");
+            var blobServiceClient = serviceProvider.GetService<BlobServiceClient>();
+            _blobContainerClient = blobServiceClient.GetBlobContainerClient($"starships-rules-{_localization.Language}");
         }
 
         public async Task Parse(List<ReferenceTable> referenceTables = null)
@@ -71,13 +72,18 @@ namespace StarWars5e.Parser.Managers
                         }
                     }
                 }
-                await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+
+                await _blobContainerClient.CreateIfNotExistsAsync();
                 foreach (var chapterRules in rules)
                 {
                     var json = JsonConvert.SerializeObject(chapterRules);
-                    var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+                    var blobClient = _blobContainerClient.GetBlobClient($"{chapterRules.ChapterName}.json");
 
-                    await blob.UploadTextAsync(json);
+                    var content = Encoding.UTF8.GetBytes(json);
+                    using (var ms = new MemoryStream(content))
+                    {
+                        await blobClient.UploadAsync(ms, true);
+                    }
                 }
             }
             catch (StorageException)

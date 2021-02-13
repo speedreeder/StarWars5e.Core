@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Azure.Cosmos.Table;
 
-namespace StarWars5e.Api.Storage
+namespace StarWars5e.Parser.Storage
 {
     public interface IAzureTableStorage
     {

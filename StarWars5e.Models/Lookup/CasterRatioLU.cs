@@ -1,5 +1,5 @@
 ﻿using System;
-using Microsoft.WindowsAzure.Storage.Table;
+using Microsoft.Azure.Cosmos.Table;
 using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Models.Lookup

@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Blob;
+using Azure.Storage.Blobs;
+using Microsoft.Azure.Cosmos.Table;
+using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using StarWars5e.Models;
 using StarWars5e.Models.Background;
@@ -15,14 +18,13 @@ using StarWars5e.Models.Species;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
 using StarWars5e.Parser.Processors.PHB;
-using Wolnik.Azure.TableStorage.Repository;
+using StarWars5e.Parser.Storage;
 
 namespace StarWars5e.Parser.Managers
 {
     public class PlayerHandbookManager
     {
-        private readonly ITableStorage _tableStorage;
-        private readonly CloudBlobContainer _cloudBlobContainer;
+        private readonly IAzureTableStorage _tableStorage;
         private readonly PlayerHandbookEquipmentProcessor _playerHandbookEquipmentProcessor;
         private readonly PlayerHandbookBackgroundsProcessor _playerHandbookBackgroundsProcessor;
         private readonly PlayerHandbookChapterRulesProcessor _playerHandbookChapterRulesProcessor;
@@ -31,6 +33,7 @@ namespace StarWars5e.Parser.Managers
         private readonly ArmorPropertyProcessor _armorPropertyProcessor;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
+        private readonly BlobContainerClient _blobContainerClient;
 
         private readonly List<string> _phbFilesNames = new List<string>
         {
@@ -41,23 +44,24 @@ namespace StarWars5e.Parser.Managers
 
         public List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> ReferenceNames;
 
-        public PlayerHandbookManager(ITableStorage tableStorage, CloudStorageAccount cloudStorageAccount, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+        public PlayerHandbookManager(IServiceProvider serviceProvider,
+            ILocalization localization)
         {
-            _tableStorage = tableStorage;
+            _tableStorage = serviceProvider.GetService<IAzureTableStorage>();
+            _globalSearchTermRepository = serviceProvider.GetService<GlobalSearchTermRepository>();
 
             _playerHandbookEquipmentProcessor = new PlayerHandbookEquipmentProcessor();
             _playerHandbookBackgroundsProcessor = new PlayerHandbookBackgroundsProcessor();
-            _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(globalSearchTermRepository);
+            _playerHandbookChapterRulesProcessor = new PlayerHandbookChapterRulesProcessor(_globalSearchTermRepository);
             _playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(localization);
-            _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
+
+            var blobServiceClient = serviceProvider.GetService<BlobServiceClient>();
+            _blobContainerClient = blobServiceClient.GetBlobContainerClient($"player-handbook-rules-{_localization.Language}");
 
             _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, _localization.PlayerHandbookWeaponProperties);
 
             _armorPropertyProcessor = new ArmorPropertyProcessor(ContentType.Core, _localization.PlayerHandbookArmorProperties);
-
-            var cloudBlobClient = cloudStorageAccount.CreateCloudBlobClient();
-            _cloudBlobContainer = cloudBlobClient.GetContainerReference($"player-handbook-rules-{_localization.Language}");
 
             ReferenceNames = new List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)>
             {
@@ -433,13 +437,17 @@ namespace StarWars5e.Parser.Managers
                 var rules =
                     await _playerHandbookChapterRulesProcessor.Process(_phbFilesNames, _localization);
 
-                await _cloudBlobContainer.CreateIfNotExistsAsync(BlobContainerPublicAccessType.Off, null, null);
+                await _blobContainerClient.CreateIfNotExistsAsync();
                 foreach (var chapterRules in rules)
                 {
                     var json = JsonConvert.SerializeObject(chapterRules);
-                    var blob = _cloudBlobContainer.GetBlockBlobReference($"{chapterRules.ChapterName}.json");
+                    var blobClient = _blobContainerClient.GetBlobClient($"{chapterRules.ChapterName}.json");
 
-                    await blob.UploadTextAsync(json);
+                    var content = Encoding.UTF8.GetBytes(json);
+                    using (var ms = new MemoryStream(content))
+                    {
+                        await blobClient.UploadAsync(ms, true);
+                    }
                 }
             }
             catch (StorageException)
