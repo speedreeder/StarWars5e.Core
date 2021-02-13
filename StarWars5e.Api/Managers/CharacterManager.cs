@@ -82,7 +82,7 @@ namespace StarWars5e.Api.Managers
 
             var content = Encoding.UTF8.GetBytes(characterRequest.JsonData);
             await using var ms = new MemoryStream(content);
-            await blobClient.UploadAsync(ms);
+            await blobClient.UploadAsync(ms, true);
 
             return new Character
             {
