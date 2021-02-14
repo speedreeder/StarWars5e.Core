@@ -3,7 +3,6 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Azure;
-using Azure.Search.Documents;
 using Azure.Search.Documents.Indexes;
 using Azure.Storage.Blobs;
 using Google.Apis.Auth.OAuth2;
@@ -69,13 +68,9 @@ namespace StarWars5e.Parser
             {
                 var searchIndexClient = new SearchIndexClient(new Uri("https://sw5esearch.search.windows.net"),
                     new AzureKeyCredential(config["SearchKey"]));
-                //var searchClient = new SearchClient(new Uri("https://sw5esearch.search.windows.net"),
-                //    "searchterms-index",
-                //    new AzureKeyCredential(config["SearchKey"]));
                 var searchIndexerClient = new SearchIndexerClient(new Uri("https://sw5esearch.search.windows.net"),
                     new AzureKeyCredential(config["SearchKey"]));
 
-                //serviceProvider.AddSingleton(searchClient);
                 serviceProvider.AddSingleton(searchIndexClient);
                 serviceProvider.AddSingleton(searchIndexerClient);
             }
