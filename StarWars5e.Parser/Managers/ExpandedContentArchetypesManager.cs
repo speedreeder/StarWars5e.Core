@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Azure.Cosmos.Table;
+using Microsoft.Extensions.DependencyInjection;
 using StarWars5e.Models;
 using StarWars5e.Models.Class;
 using StarWars5e.Models.Enums;
@@ -17,14 +18,16 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly IAzureTableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly List<string> _ecArchetypesFileName = new List<string> { "ec_03.txt" };
+        private readonly List<string> _ecArchetypesFileName = new() { "ec_03.txt" };
         private readonly ILocalization _localization;
+        private readonly FeatureRepository _featureRepository;
 
-        public ExpandedContentArchetypesManager(IAzureTableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
+        public ExpandedContentArchetypesManager(IServiceProvider serviceProvider, ILocalization localization)
         {
-            _tableStorage = tableStorage;
-            _globalSearchTermRepository = globalSearchTermRepository;
+            _tableStorage = serviceProvider.GetService<IAzureTableStorage>();
+            _globalSearchTermRepository = serviceProvider.GetService<GlobalSearchTermRepository>();
             _localization = localization;
+            _featureRepository = serviceProvider.GetService<FeatureRepository>();
         }
 
         public async Task Parse()
@@ -59,6 +62,8 @@ namespace StarWars5e.Parser.Managers
 
                     await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", archetypeFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+                    _featureRepository.Features.AddRange(archetypeFeatures);
                 }
                 catch (StorageException se)
                 {

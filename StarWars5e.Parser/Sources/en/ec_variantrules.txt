@@ -4,6 +4,38 @@
 
 \pagebreak
 
+<div class='wide'>
+
+## Elevation
+
+</div>
+
+One aspect of 5e that has been more-or-less untouched is the concept of using elevation to your advantage beyond just creatures not being able to reach you. This variant rule offers mechanical boons to encourage utilizing elevation as a tactical device. Elevation grants a bonus called dominance, which comes in three levels.
+
+A creature has **dominance** over another creature if it is at least 10 feet above that creature vertically, and at least 10 feet away from that creature horizontally. While a creature has dominance over another, it has a +2 bonus to ranged attack rolls against the dominated creature, and the dominated creature suffers a -2 penalty to Dexterity saving throws against effects the creature dominating it controls. Additionally, a creature with dominance has a +2 bonus to AC and Dexterity saving throws against a creature it is dominating.
+
+A creature has **superdominance** over another creature if it is at least 20 feet above that creature vertically, and at least 20 feet away from that creature horizontally. While a creature has superdominance over another, it has a +3 bonus to ranged attack rolls against the superdominated creature, and the superdominated creature suffers a -3 penalty to Dexterity saving throws against effects the creature dominating it controls. Additionally, a creature with superdominance has a +3 bonus to AC and Dexterity saving throws against a creature it is dominating.
+
+A creature has **hyperdominance** over another creature if it is at least 30 feet above that creature vertically, and at least 30 feet away from that creature horizontally. While a creature has hyperdominance over another, it has a +5 bonus to ranged attack rolls against the hyperdominated creature, and the hyperdominated creature suffers a -5 penalty to Dexterity saving throws against effects the creature dominating it controls. Additionally, a creature with hyperdominance has a +5 bonus to AC and Dexterity saving throws against a creature it is dominating.
+
+A creature can only benefit from one level of dominance at a time for each creature it would be dominating, but it can have different levels of dominance for different creatures. For instance, if a creature is 30 feet above another creature both vertically and horizontally, it is hyperdominating that creature. If it is 20 feet above another creature vertically and 15 feet horizontally, it is only dominating the third creature instead of superdominating, since both values exceed 10 feet, but not 20.
+
+\columnbreak
+
+### Advantage and Disadvantage
+If a creature has advantage, it can choose to forgo that advantage when making an attack to increase its domination level by one against its target until the end of its turn. For instance, if a creature has advantage and is 20 feet above another creature both vertically and horizontally, it is superdominating that creature. The creature can choose to forgo its advantage to instead hyperdominate the creature until the end of its turn.
+
+If a creature is suffering from disadvantage, it can't dominate another creature regardless of how far away from that creature it is, horizontally or vertically.
+
+### Cover
+If a creature would be dominating another creature, and it also has cover from that creature, the bonus to AC and Dexterity saving throws don't stack. Instead, the dominating creature gains the higher of the two bonuses. For instance, if a creature is dominating another creature, and it also has half cover from that creature, it only gains the +3 bonus to AC and Dexterity saving throws against that creature. However, if the dominated creature has a feature that allows it to ignore the benefit of cover, such as Sharpshooter Mastery, the dominating creature would still gain the +2 benefit from dominating the other creature.
+
+Conversely, if a creature is both dominated by another creature, and it has cover from that creature, you don't add the bonus and penalty together. Instead, you reduce a creatures dominance by one for each level of cover it has. For instance, if a creature is superdominated by a creature, but it also has one-quarter cover from that creature, it is instead just dominated. If the creature that is dominating it has a feature that allows it to ignore the benefit of cover, such as a Sharpshooter Mastery, however, the creature is still superdominated since the creature dominating it isn't affected by the cover.
+
+<div class='footnote'>Written by Gali</div>
+
+\pagebreak
+
 <div class='wide'> 
 
 ## Gestalt and Dichotomous Characters

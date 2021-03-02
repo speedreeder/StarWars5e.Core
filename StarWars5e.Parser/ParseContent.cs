@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Azure.Search.Documents.Indexes;
 using Microsoft.Azure.Cosmos.Table;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using StarWars5e.Models;
 using StarWars5e.Models.Enums;
@@ -16,7 +17,7 @@ namespace StarWars5e.Parser
 {
     public static class ParseContent
     {
-        public static async Task Parse(IServiceProvider serviceProvider, IAzureTableStorage azureTableStorage, CloudStorageAccount cloudStorageAccount,
+        public static async Task Parse(IServiceProvider serviceProvider, IAzureTableStorage azureTableStorage,
             GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             var playerHandbookManager = new PlayerHandbookManager(serviceProvider, localization);
@@ -25,13 +26,13 @@ namespace StarWars5e.Parser
             var monsterManualManager =
                 new MonsterManualManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentSpeciesManager =
-                new ExpandedContentSpeciesManager(azureTableStorage, globalSearchTermRepository, localization);
+                new ExpandedContentSpeciesManager(serviceProvider, localization);
             var extendedContentBackgroundManager =
                 new ExpandedContentBackgroundsManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentEquipmentManager =
                 new ExpandedContentEquipmentManager(azureTableStorage, globalSearchTermRepository, localization);
             var extendedContentArchetypesManager =
-                new ExpandedContentArchetypesManager(azureTableStorage, globalSearchTermRepository, localization);
+                new ExpandedContentArchetypesManager(serviceProvider, localization);
             var extendedContentVariantRulesManager =
                 new ExpandedContentVariantRulesManager(serviceProvider, localization);
             var expandedContentManager =
@@ -95,6 +96,23 @@ namespace StarWars5e.Parser
                 }
 
                 Console.WriteLine("Failed to upload search terms.");
+            }
+
+            try
+            {
+                var features = serviceProvider.GetService<FeatureRepository>()?.Features;
+                var sheetOperations = new SheetOperations(serviceProvider);
+
+                if (features != null && serviceProvider.GetService<IConfiguration>()?["FeaturesSheetId"] != null)
+                {
+                    var featureSheetData = features.Select(c => new List<object> { c.RowKey, c.Level } as IList<object>).ToList();
+                    await sheetOperations.UpdateFeatureSheetAsync(featureSheetData);
+                    Console.WriteLine("Successfully wrote features to Features Parsed sheet.");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Failed to write features to sheet.");
             }
 
             try

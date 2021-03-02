@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="google_credentials.json" />
     <None Remove="Sources\Credits.txt" />
     <None Remove="Sources\EC_Archetypes.md" />
     <None Remove="Sources\ec_archetypes.txt" />
@@ -213,6 +214,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="google_credentials.json" />
     <EmbeddedResource Include="Sources\en\Credits.txt" />
     <EmbeddedResource Include="Sources\en\ec_02.txt" />
     <EmbeddedResource Include="Sources\en\ec_03.txt" />
@@ -380,7 +382,7 @@
   <ItemGroup>
     <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.0.2" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.8.0" />
-    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.49.0.2175" />
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.50.0.2231" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />

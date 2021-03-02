@@ -34,8 +34,9 @@ namespace StarWars5e.Parser.Managers
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
         private readonly ILocalization _localization;
         private readonly BlobContainerClient _blobContainerClient;
+        private readonly FeatureRepository _featureRepository;
 
-        private readonly List<string> _phbFilesNames = new List<string>
+        private readonly List<string> _phbFilesNames = new()
         {
             "PHB.phb_-1.txt", "PHB.phb_00.txt", "PHB.phb_01.txt", "PHB.phb_02.txt", "PHB.phb_03.txt", "PHB.phb_04.txt",
             "PHB.phb_05.txt", "PHB.phb_06.txt", "PHB.phb_07.txt", "PHB.phb_08.txt", "PHB.phb_09.txt", "PHB.phb_10.txt",
@@ -83,6 +84,8 @@ namespace StarWars5e.Parser.Managers
                 ( localization.Ventures, GlobalSearchTermType.Reference, "/starships/ventures"),
                 ( localization.AdditionalVariantRules, GlobalSearchTermType.Reference, "/rules/variantRules"),
             };
+
+            _featureRepository = serviceProvider.GetService<FeatureRepository>();
         }
 
         public async Task<List<Power>> Parse()
@@ -187,21 +190,21 @@ namespace StarWars5e.Parser.Managers
 
                 await _tableStorage.AddBatchAsync<FeatureOption>($"featureOptions{_localization.Language}", featureOptions,
                  new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
             }
             catch (StorageException se)
             {
                 Console.WriteLine($"Failed to upload feature options. {se}");
             }
 
+            var speciesImageUrlsLus = await _tableStorage.GetAllAsync<SpeciesImageUrlLU>("speciesImageUrlsLU");
+            var playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor(speciesImageUrlsLus.ToList());
+
+            var species =
+                await playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
+                    .ToList(), _localization);
             try
             {
-                var speciesImageUrlsLus = await _tableStorage.GetAllAsync<SpeciesImageUrlLU>("speciesImageUrlsLU");
-                var playerHandbookSpeciesProcessor = new PlayerHandbookSpeciesProcessor(speciesImageUrlsLus.ToList());
-
-                var species =
-                    await playerHandbookSpeciesProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_02.txt"))
-                        .ToList(), _localization);
-
                 foreach (var specie in species)
                 {
                     specie.ContentSourceEnum = ContentSource.PHB;
@@ -217,6 +220,20 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB species.");
+            }
+
+            try
+            {
+                var specieFeatures = species.SelectMany(f => f.Features).ToList();
+
+                await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", specieFeatures,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+
+                _featureRepository.Features.AddRange(specieFeatures);
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload EC species.");
             }
 
             try
@@ -267,6 +284,7 @@ namespace StarWars5e.Parser.Managers
 
                         await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", archetypeFeatures,
                             new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                        _featureRepository.Features.AddRange(archetypeFeatures);
                     }
                     catch (StorageException se)
                     {
@@ -292,6 +310,7 @@ namespace StarWars5e.Parser.Managers
 
                     await _tableStorage.AddBatchAsync<Feature>($"features{_localization.Language}", classFeatures,
                         new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+                    _featureRepository.Features.AddRange(classFeatures);
                 }
                 catch (StorageException se)
                 {
@@ -306,7 +325,6 @@ namespace StarWars5e.Parser.Managers
             var powers = new List<Power>();
             try
             {
-
                 var playerHandbookPowersProcessor = new PlayerHandbookPowersProcessor(_localization);
 
                 powers =

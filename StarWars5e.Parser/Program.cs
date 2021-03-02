@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using System.Threading;
+using System.Reflection;
 using System.Threading.Tasks;
 using Azure;
 using Azure.Search.Documents.Indexes;
@@ -19,9 +19,6 @@ namespace StarWars5e.Parser
 {
     public class Program
     {
-        private static readonly string[] Scopes = { SheetsService.Scope.SpreadsheetsReadonly };
-        private const string ApplicationName = "SW5E Sheets API";
-
         public static async Task Main(string[] args)
         {
             var config = new ConfigurationBuilder()
@@ -32,33 +29,32 @@ namespace StarWars5e.Parser
             var tableStorage = new AzureTableStorage(config["StorageAccountConnectionString"]);
             
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
-            var globalSearchTermRepository = new GlobalSearchTermRepository();
             var cloudBlobClient = new BlobServiceClient(config["StorageAccountConnectionString"]);
+
+            var globalSearchTermRepository = new GlobalSearchTermRepository();
+            var featureRepository = new FeatureRepository();
 
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<IAzureTableStorage>(tableStorage)
                 .AddSingleton(storageAccount)
                 .AddSingleton(globalSearchTermRepository)
-                .AddSingleton(cloudBlobClient);
-            
-            if (!string.IsNullOrWhiteSpace(config["GoogleApiClientId"]))
-            {
-                var clientSecrets = new ClientSecrets
-                {
-                    ClientId = config["GoogleApiClientId"],
-                    ClientSecret = config["GoogleApiClientSecret"]
-                };
+                .AddSingleton(featureRepository)
+                .AddSingleton(cloudBlobClient)
+                .AddSingleton<IConfiguration>(config);
 
-                var googleCredential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
-                    clientSecrets,
-                    Scopes,
-                    "user",
-                    CancellationToken.None);
+            await using var googleCredStream = Assembly.GetExecutingAssembly()
+                .GetManifestResourceStream("StarWars5e.Parser.google_credentials.json");
+
+            if (googleCredStream != null && googleCredStream.Length > 0)
+            {
+                await using var stream = Assembly.GetExecutingAssembly()
+                    .GetManifestResourceStream("StarWars5e.Parser.google_credentials.json");
+                var googleCredential = GoogleCredential.FromStream(stream).CreateScoped(SheetsService.ScopeConstants.Spreadsheets);
 
                 var sheetsService = new SheetsService(new BaseClientService.Initializer
                 {
                     HttpClientInitializer = googleCredential,
-                    ApplicationName = ApplicationName
+                    ApplicationName = "SW5E Sheets API"
                 });
 
                 serviceProvider.AddSingleton(sheetsService);
@@ -98,7 +94,6 @@ namespace StarWars5e.Parser
                 var stringsClass = LocalizationFactory.Get(languageEnum);
 
                 await ParseContent.Parse(serviceProviderBuilt, serviceProviderBuilt.GetService<IAzureTableStorage>(),
-                    serviceProviderBuilt.GetService<CloudStorageAccount>(),
                     serviceProviderBuilt.GetService<GlobalSearchTermRepository>(), stringsClass);
             }
         }
