@@ -196,23 +196,23 @@ When detonated, the breaching charge explodes in a 15-foot cone. Each creature w
 
 #### Binders (Fine)
 _**Adventuring gear**, <font style="color:green">**premium**</font>_<br>
-Binders can used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 16 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 22 Strength check. Escaping them requires a DC 22 Dexterity check. Without the key, unlocking the camtono requires a DC 18 security kit to force open. Binders have an AC of 11 and 30 hit points. Destroying the binders frees the creature without harming it.
+Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 16 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 22 Strength check. Escaping them requires a DC 22 Dexterity check. Without the key, unlocking the binders requires a DC 18 security kit to force open. Binders have an AC of 11 and 30 hit points. Destroying the binders frees the creature without harming it.
 
 #### Binders (Improved)
 _**Adventuring gear**, <font style="color:blue">**prototype**</font>_<br>
-Binders can used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 18 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 24 Strength check. Escaping them requires a DC 24 Dexterity check. Without the key, unlocking the camtono requires a DC 21 security kit to force open. Binders have an AC of 12 and 45 hit points. Destroying the binders frees the creature without harming it.
+Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 18 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 24 Strength check. Escaping them requires a DC 24 Dexterity check. Without the key, unlocking the binders requires a DC 21 security kit to force open. Binders have an AC of 12 and 45 hit points. Destroying the binders frees the creature without harming it.
 
 #### Binders (Superior)
 _**Adventuring gear**, <font style="color:purple">**advanced**</font>_<br>
-Binders can used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 20 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 26 Strength check. Escaping them requires a DC 26 Dexterity check. Without the key, unlocking the camtono requires a DC 24 security kit to force open. Binders have an AC of 13 and 60 hit points. Destroying the binders frees the creature without harming it.
+Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 20 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 26 Strength check. Escaping them requires a DC 26 Dexterity check. Without the key, unlocking the binders requires a DC 24 security kit to force open. Binders have an AC of 13 and 60 hit points. Destroying the binders frees the creature without harming it.
 
 #### Binders (Exceptional)
 _**Adventuring gear**, <font style="color:#db6220">**legendary**</font>_<br>
-Binders can used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 22 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 28 Strength check. Escaping them requires a DC 28 Dexterity check. Without the key, unlocking the camtono requires a DC 27 security kit to force open. Binders have an AC of 14 and 75 hit points. Destroying the binders frees the creature without harming it.
+Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 22 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 28 Strength check. Escaping them requires a DC 28 Dexterity check. Without the key, unlocking the binders requires a DC 27 security kit to force open. Binders have an AC of 14 and 75 hit points. Destroying the binders frees the creature without harming it.
 
 #### Binders (Champion)
 _**Adventuring gear**, <font style="color:red">**artifact**</font>_<br>
-Binders can used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 24 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 30 Strength check. Escaping them requires a DC 30 Dexterity check. Without the key, unlocking the camtono requires a DC 30 security kit to force open. Binders have an AC of 15 and 90 hit points. Destroying the binders frees the creature without harming it.
+Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 24 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. A set of binders comes with one key. Breaking the binders requires a DC 30 Strength check. Escaping them requires a DC 30 Dexterity check. Without the key, unlocking the binders requires a DC 30 security kit to force open. Binders have an AC of 15 and 90 hit points. Destroying the binders frees the creature without harming it.
 
 
 
@@ -3210,205 +3210,219 @@ This weapon gains the dire 1 and vicious 2 properties. If it already has either 
 
 <br>
 
-#### Autotargeting Light Interface
+#### Smart Light Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the light property.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the light property.
 
-#### Autotargeting Light Interface Mark II
+#### Smart Light Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the light property.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the light property.
 
-#### Autotargeting Dire Light Interface
+#### Smart Dire Light Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and light properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and light properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
 
-#### Autotargeting Keen Light Interface
+#### Smart Keen Light Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and light properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and light properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
 
-#### Autotargeting Light Piercing Interface
+#### Smart Light Piercing Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the light and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the light and piercing 1 properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
 
-#### Autotargeting Light Vicious Interface
+#### Smart Light Vicious Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the light and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the light and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Burst Interface
+#### Smart Burst Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additonally, it gains the burst property, with a burst number equal to its reload number. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Burst Interface Mark II
+#### Smart Burst Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additonally, it gains the burst property, with a burst number equal to its reload number. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Burst Interface (Champion)
+#### Smart Burst Interface (Champion)
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to one-half its reload number (rounded up). If it already has the burst property, the burst number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the burst property, the burst number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Burst Dire Interface
+#### Smart Burst Dire Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additonally, it gains the burst property, with a burst number equal to its reload number. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
 
-#### Autotargeting Burst Keen Interface
+#### Smart Burst Keen Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additonally, it gains the burst property, with a burst number equal to its reload number. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
 
-#### Autotargeting Burst Piercing Interface
+#### Smart Burst Piercing Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additonally, it gains the burst property, with a burst number equal to its reload number. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
 
-#### Autotargeting Burst Vicious Interface
+#### Smart Burst Vicious Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additonally, it gains the burst property, with a burst number equal to its reload number. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2. Lastly, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Rapid Interface
+#### Smart Rapid Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Rapid Interface Mark II
+#### Smart Rapid Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Rapid Interface (Champion)
+#### Smart Rapid Interface (Champion)
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-fourth its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-eighth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-fourth its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-eighth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Dire Rapid Interface
+#### Smart Dire Rapid Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3. Lastly, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3. Lastly, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Keen Rapid Interface
+#### Smart Keen Rapid Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3. Lastly, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3. Lastly, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Piercing Rapid Interface
+#### Smart Piercing Rapid Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3. Lastly, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3. Lastly, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2.
 
-#### Autotargeting Vicious Rapid Interface
+#### Smart Vicious Rapid Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up). If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2. Lastly, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+_**Prerequisite:** Blaster that uses cells or cartridges_<br>
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the rapid property, with a rapid number equal to one-half its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-fourth its reload number (rounded up), to a minimum of 2. Lastly, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Disintegration Interface
+#### Smart Disintegration Interface
 _**Blaster modification** (core), <font style="color:blue">**prototype**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate 13 property. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate 13 property. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18.
 
-#### Autotargeting Disintegration Interface Mark II
+#### Smart Disintegration Interface Mark II
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate 13 property. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate 13 property. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18.
 
-#### Autotargeting Dire Disintegration Interface
+#### Smart Dire Disintegration Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and disintegrate properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and disintegrate properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18.
 
-#### Autotargeting Disintegration Keen Interface
+#### Smart Disintegration Keen Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate and keen 1 properties. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate and keen 1 properties. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
 
-#### Autotargeting Disintegration Piercing Interface
+#### Smart Disintegration Piercing Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate and piercing 1 properties. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate and piercing 1 properties. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
 
-#### Autotargeting Disintegration Vicious Interface
+#### Smart Disintegration Vicious Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate and vicious 1 properties. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the disintegrate and vicious 1 properties. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Silent Interface
+#### Smart Silent Interface
 _**Blaster modification** (core), <font style="color:blue">**prototype**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the silent property.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the silent property.
 
-#### Autotargeting Silent Interface Mark II
+#### Smart Silent Interface Mark II
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the silent property.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the silent property.
 
-#### Autotargeting Dire Silent Interface
+#### Smart Dire Silent Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and silent properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and silent properties. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
 
-#### Autotargeting Keen Silent Interface
+#### Smart Keen Silent Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and silent properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and silent properties. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
 
-#### Autotargeting Piercing Silent Interface
+#### Smart Piercing Silent Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 and silent properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 and silent properties. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
 
-#### Autotargeting Assassination Interface
+#### Smart Assassination Interface
 _**Blaster modification** (core), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the silent and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the silent and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Pulsator Interface
+#### Smart Pulsator Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and keen 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
 
-#### Autotargeting Rylith Interface
+#### Smart Rylith Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
 
-#### Autotargeting Splitter Interface
+#### Smart Splitter Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
 
-#### Autotargeting Penetrating Interface
+#### Smart Penetrating Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and piercing 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
 
-#### Autotargeting Goring Interface
+#### Smart Goring Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
 
-#### Autotargeting Savage Interface
+#### Smart Savage Interface
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 and vicious 1 properties. If it already has either of these properties, that property's value increases by 1, to a maximum of 3.
 
-#### Autotargeting Dire Interface
+#### Smart Dire Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
 
-#### Autotargeting Dire Interface Mark II
+#### Smart Dire Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 1 property. If it already has the dire property, its dire number increases by 1, to a maximum of 3.
 
-#### Autotargeting Dire Interface (Devastating)
+#### Smart Dire Interface (Devastating)
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the dire 2 property. If it already has the dire property, its dire number increases by 2, to a maximum of 3.
 
-#### Autotargeting Keen Interface
+#### Smart Keen Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
 
-#### Autotargeting Keen Interface Mark II
+#### Smart Keen Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 1 property. If it already has the keen property, its keen number increases by 1, to a maximum of 3.
 
-#### Autotargeting Keen Interface (Devastating)
+#### Smart Keen Interface (Devastating)
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3.
 
-#### Autotargeting Piercing Interface
+#### Smart Piercing Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
 
-#### Autotargeting Piercing Interface Mark II
+#### Smart Piercing Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3.
 
-#### Autotargeting Piercing Interface (Devastating)
+#### Smart Piercing Interface (Devastating)
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3.
 
-#### Autotargeting Vicious Interface
+#### Smart Vicious Interface
 _**Blaster modification** (core), <font style="color:purple">**advanced**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Vicious Interface Mark II
+#### Smart Vicious Interface Mark II
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (18, +4) property. If it already has the autotarget property, it's autotarget numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+This weapon gains the smart (18, +4) property. If it already has the smart property, its smart numbers increase by +4 and +3, respectively, to a maximum of 20 and +6. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
-#### Autotargeting Vicious Interface (Devastating)
+#### Smart Vicious Interface (Devastating)
 _**Blaster modification** (core), <font style="color:red">**artifact**</font>_<br>
-This weapon gains the autotarget (16, +2) property. If it already has the autotarget property, it's autotarget numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
+This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6. Additionally, it gains the vicious 2 property. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
 
 \pagebreak
 
@@ -3841,11 +3855,11 @@ This weapon gains the hidden and piercing 2 properties. If it already has the pi
 
 #### Collapsible Vicious Hilt
 _**Lightweapon modification** (hilt), <font style="color:blue">**prototype**</font>_<br>
-This weapon gains 
+This weapon gains the hidden and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
 #### Collapsible Vicious Hilt (Exceptional)
 _**Lightweapon modification** (hilt), <font style="color:#dd6b20">**legendary**</font>_<br>
-This weapon gains the hidden and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.the hidden and vicious 1 properties. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
+This weapon gains the hidden and vicious 2 properties. If it already has the vicious property, its vicious number increases by 2, to a maximum of 3.
 
 #### Defensive Lightweight Stabilizer Frame
 _**Lightweapon modification** (hilt), <font style="color:red">**artifact**</font>_<br>
@@ -4233,7 +4247,7 @@ You gain a +3 bonus to attack rolls made with this weapon. Additionally, it gain
 
 #### Barbed Grip (Lethal)
 _**Vibroweapon modification** (grip), <font style="color:#dd6b20">**legendary**</font>_<br>
-You gain a +2 bonus to attack rolls made with this weapon. Additionally, it
+You gain a +2 bonus to attack rolls made with this weapon. Additionally, it gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3.
 
 #### Biting Grip
 _**Vibroweapon modification** (grip), <font style="color:blue">**prototype**</font>_<br>

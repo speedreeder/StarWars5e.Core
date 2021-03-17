@@ -7,6 +7,8 @@
         Weapon,
         Ammunition,
         Hyperdrive,
-        Navcomputer
+        Navcomputer,
+        Reactor,
+        PowerCoupling
     }
 }

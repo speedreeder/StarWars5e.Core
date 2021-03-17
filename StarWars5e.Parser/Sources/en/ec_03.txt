@@ -46,9 +46,10 @@
 |&emsp;Praetorian Specialist    |
 |&emsp;Totem Specialist         |
 |Guardian||
+|&emsp;Aqinos Form              |
 |&emsp;Ataru Form               |
 |&emsp;Jar'Kai Form             |
-|&emsp;Juyo/Vapaad Form         |
+|&emsp;Juyo/Vaapad Form         |
 |&emsp;Shii-Cho Form            |
 |&emsp;Sokan Form               |
 |&emsp;Trakata Form             |
@@ -280,7 +281,7 @@ When you finish a long rest, you<br> reduce your exhaustion level by 2,<br> inst
 
 ### Maniacal Rage
 _**Frenzied Approach:** 3rd level_<br>
-While raging, when you make a Charisma (Intimidation) check, or a creature makes a Wisdom saving throw to avoid being frightened of you, you add your Strength modifier to the check or save DC, as appropriate.
+While raging, you have advantage on Charisma (Intimidation) checks.
 
 ### Mindless Rage
 _**Frenzied Approach:** 6th level_<br>
@@ -288,7 +289,7 @@ You can't be charmed or frightened while raging.<br> If you are charmed or frigh
 
 ### Intimidating Presence
 _**Frenzied Approach:** 10th level_<br>
-You can use your action to frighten someone with<br> your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+You can use your action to frighten someone with<br> your menacing presence. When you do so, choose<br> one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you. While raging, you add double your proficiency bonus to the save DC, instead of your normal proficiency bonus.
 
 If the creature succeeds on its saving throw, it becomes immune to this feature for 24 hours.
 
@@ -645,7 +646,7 @@ Your thoughts can't be read by telepathy or other means unless you allow it. You
 
 ### Clarity of Vision
 _**Way of the Seer:** 18th level_<br>
-Yhe visions in your dreamsintensify and paint a more<br> &emsp;&emsp;&emsp;accurate picture inyour mind of what is to come.<br> &emsp;&emsp;&emsp;You roll three d20s for your Force Visions feature, rather than two. 
+The visions in your dreams intensify and paint a more<br> &emsp;&emsp;&emsp;accurate picture in your mind of what is to come.<br> &emsp;&emsp;&emsp;You roll three d20s for your Force Visions feature, rather than two. 
 
 <img src='https://www.gmbinder.com/images/gqzswlS.png' style='position:absolute;bottom:-120px;left:57px;width:545px;z-index:1000;' />
 
@@ -799,7 +800,7 @@ You gain proficiency in artificer's implements, and with the lightsaber simple l
 _**Artificer Engineering:** 3rd and 9th level_<br>
 You learn to modify an unenhanced lightsaber utilizing your artificer knowledge. Over the course of a long rest, you can modify your lightsaber. You must have the lightsaber and artificer's implements in order to perform this modification.
 
-Your modified lightsaber is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified lightsaber has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your modified lightsaber is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified lightsaber has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -964,7 +965,7 @@ Create your droid companion as detailed in the Companions section of the Customi
 
 In addition to its traits and features, your droid companion gains additional benefits while it is bonded to you:
 - Your droid is a valid target of the *tracker droid interface* tech power.
-- Your droid gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each droid trait in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of droid traits equal to half your Intelligence modifier (rounded up, minimum of one).
+- Your droid gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each droid trait in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of droid traits equal to half your Intelligence modifier (rounded up, minimum of one).
 
 Lastly, while bonded and within 10 feet of you, when you would use your action to cast a 1st-level tech power, you can instead have your droid companion cast it. You still expend tech points as normal, and if the power requires concentration, it still uses your concentration. Your droid companion must use its action, and it uses its tech attack modifier and tech save DC instead of your own. At 5th level, your droid can cast 2nd-level tech powers in this way. This increases to 3rd-level powers at 9th level, 4th-level powers at 13th level, and 5th-level powers at 17th level. When you cast a power, you consume a number of uses of this feature equal to that power's level.
 
@@ -982,9 +983,9 @@ When your droid makes an attack roll, you can use your reaction to expend one us
 
 ### Direct Controller
 _**Astrotech Engineering:** 6th level_<br>
-Your mastery of droids improves your ability to manipulate them when you cast a power that could affect only droids or constructs, and you only affect droids with the power, you can choose to treat the power as if cast at your Max Power Level.
+Your mastery of droids improves your ability to manipulate them. When you cast a power that could affect only droids or constructs, and you only affect droids with the power, you can choose to treat the power as if cast at your Max Power Level.
 
-You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
+You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a long rest.
 
 ### Coordinated Attack
 _**Astrotech Engineering:** 14th level_<br>
@@ -1011,7 +1012,7 @@ You gain proficiency in three musical instruments and audiotech's implements. Ad
 _**Audiotech Engineering:** 3rd level_<br>
 You learn to modify an instrument utilizing your audiotech knowledge. Over the course of a long rest, you can modify an instrument. You must have the instrument and audiotech's implements in order to perform this modification.
 
-Your modified instrument is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified instrument has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your modified instrument is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified instrument has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -1125,7 +1126,7 @@ The radius of your songs increases to 120 feet. Additionally, any tech power you
 
 #### Magnifying Device
 _**Prerequisite:** 5th level_<br>
-While using your harness as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
+While using your instrument as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
@@ -1206,7 +1207,7 @@ You gain proficiency in the Medicine skill, biochemist's kits, and poisoner's ki
 _**Biochem Engineering:** 3rd level_<br>
 You learn to modify and combine your biochemist's kit and poisoner's kit, creating a mobile laboratory using your chemistry expertise. Over the course of a long rest, you can create your modified biochemist's pack. You must have a biochemist's kit, a poisoner's kit, and materials in order to perform this modification.
 
-Your biochemist's pack is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified biochemist's pack has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your biochemist's pack is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified biochemist's pack has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -1227,7 +1228,7 @@ Your distributor emits a cloud of poison. The target must make a Constitution sa
 
 ### Biochemist's Touch
 _**Biochem Engineering:** 3rd level_<br>
-Wenever you grant temporary hit points, or deal acid or poison damage using a tech power or class feature, you may expend one use of your Potent Aptitude to increase the potency. When you do so, the amount of temporary hit points you grant or damage you deal is increased by the amount rolled on the die. The damage is the same type as the original damage.
+Whenever you grant temporary hit points, or deal acid or poison damage using a tech power or class feature, you may expend one use of your Potent Aptitude to increase the potency. When you do so, the amount of temporary hit points you grant or damage you deal is increased by the amount rolled on the die. The damage is the same type as the original damage.
 
 ### Potent Mixtures
 _**Biochem Engineering:** 6th level_<br>
@@ -1334,7 +1335,7 @@ You install a wrist mounted injection apparatus into your modified biochemist's 
 When you hit with the weapon, you can activate your distributor to deploy one of your mixtures. If you do so, the target has disadvantage on the saving throw against your mixture.
 
 #### Inoculation
-You gain immunity to the poisoned and disease.
+You gain immunity to the poisoned and disease conditions.
 
 #### Integrated EVA Functionality
 You make several additions to your modified biochemist's pack, you are protected from hazardous conditions, as if wearing an EVA suit, for as long as you are wearing your modified biochemist's pack.
@@ -1396,7 +1397,7 @@ You gain proficiency in biotech's implements. Additionally, when you engage in c
 _**Biotech Engineering:** 3rd level_<br>
 You've learned to make modifications to your body, cybernetically augmenting yourself. Over the course of a long rest, you can modify yourself with cybernetic augmentations. You must have biotech's implements in order to perform this modification.
 
-While you have at least one cybernetic augmentation installed, your body counts as a tech focus for your tech powers. Additionally, you have 4 modification slots, and you gain more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+While you have at least one cybernetic augmentation installed, your body counts as a tech focus for your tech powers. Additionally, you have 4 modification slots, and you gain more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -1454,7 +1455,9 @@ You can choose this modification multiple times.
 #### Celerity Leg Prosthesis
 This augmentation replaces both legs.
 
-When determining your bonus to AC and saving throws from Dexterity, your Dexterity score is treated as 15. Additionally, you can substitute this score for your own whenever you make an ability check or attack roll that uses your legs. If your Dexterity score is already equal to or greater than 15, it has no effect on you.
+When determining your bonus to AC and saving throws from Dexterity, your Dexterity score is treated as 15. If your Dexterity score is already equal to or greater than 15, it has no effect on you.
+
+Additionally, you can substitute this score for your own whenever you make an ability check or attack roll that uses your legs. 
 
 #### Detachable Eye
 This augmentation replaces an eye.
@@ -1481,7 +1484,7 @@ While using your body as a tech focus, you gain a +1 bonus to the tech save DC o
 #### Hardy Torso Prosthesis
 This augmentation replaces your torso.
 
-Your Constitution score becomes 13. If your Constitution score is already equal to or greater than 13, it has no effect on you. Additionally, you have advantage on saving throws against poison.
+Your Constitution score becomes 13. Additionally, you have advantage on saving throws against poison.
 
 #### Harpoon Hand
 This augmentation replaces a hand.
@@ -1544,7 +1547,7 @@ When you make an ability check using a skill you are proficient in, you can roll
 #### Sound Dampeners
 This augmentation replaces your ears.
 
-You are immune to the deafened condition, and you can enable or disable your ability to hear anytime. Additionally, your ears are equipped with a person translator that allows you to understand up to 15 languages different, however, you cannot speak them. The languages can be changed out while interfaced with a protocol droid or appropriate computer.
+You are immune to the deafened condition, and you can enable or disable your ability to hear anytime. Additionally, your ears are equipped with a personal translator that allows you to understand up to 15 different languages, however, you cannot speak them. The languages can be changed out while interfaced with a protocol droid or appropriate computer.
 
 #### Surveillance Implant
 This augmentation replaces your face.
@@ -1701,7 +1704,7 @@ You gain proficiency in cybertech's implements. Additionally, when you engage in
 _**Cybertech Engineering:** 3rd level_<br>
 You learn modify gadgets and wristpads utilizing your cybertech knowledge. Over the course of a long rest, you can modify your wristpad. You must have a wristpad and cybertech's implements in order to perform this modification.
 
-Your wristpad requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified wristpad has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).
+Your wristpad requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified wristpad has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).
 
 Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.
 
@@ -2229,9 +2232,9 @@ You can use this feature three times.<br> You regain all expended uses when you<
 
 ### Resilient Retainer
 _**Praetorian Specialist:** 7th level_<br>
-Your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.
+Your discipline and attention to detail allow you to excel in social situations. You gain proficiency in Persuasion.
 
-Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
+Additionally, your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
 
 ### Tireless Spirit
 _**Praetorian Specialist:** 10th level_<br>
@@ -2350,12 +2353,80 @@ You learn how to share your totem's power with your allies. When you use your To
 
 \pagebreak
 
+## Aqinos Form
+Aqinos Form, also know as Adaptation Form, is named after a Jedi Master who sought to merge technology with Force use. Those guardians who focus on Aqinos Form adopt these tenets to employ clever exploits using technology and the aid of a droid companion.
+
+### Bonus Proficiencies
+_**Aqinos Form:** 3rd level_<br>
+You gain proficiency in astrotech's implements and the Technology skill.
+
+### Form Basics
+_**Aqinos Form:** 3rd level_<br>
+You gain the Aqinos lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form. 
+
+### Techcasting Secrets
+_**Aqinos Form:** 3rd level_<br>
+You have learned to blend your technological aptitude with the Force. Choose two tech powers of no higher level than your Max Power Level, as shown in the guardian table. The chosen powers count as both universal force powers and tech powers for you, but are not included in the number in the Powers Known column of the guardian table.
+
+You learn two additional powers at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of no higher level than your Max Power Level.
+
+### Droid Companion
+_**Aqinos Form:** 3rd, 11th, and 17th level_<br>
+You learn to employ all the knowledge you've accumulated to create, customize, and bond with your own droid companion.
+
+Create your droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
+
+If your companion is irreparably destroyed, or you want a companion, you must first break the bond with your current companion. Bonding with a new companion takes 8 hours spent in an appropriate location. You may only have one companion at a time.
+
+In addition to its traits and features, your droid companion gains additional benefits while it is bonded to you:
+- Your companion is a valid target of the *tracker droid interface* tech power.
+- Your companion gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each companion trait in excess of your proficiency bonus, your force point maximum is reduced by 2. Over the course of a long rest, you can replace or remove a number of companion traits equal to half your Intelligence modifier (rounded up, minimum of one).
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;Lastly, while bonded and within 10 feet of you, your companion can cast the tech powers you know without expending tech points. If your companion casts an at-will power in this way, it does not scale normally at higher levels. Instead, if it would scale at 5th level, it instead scales at 11th level, and if it would scale at 11th level, it instead scales at 17th level. If your companion casts a power of 2nd-level or higher, it consumes a number of uses of this feature equal to that power's level.
+
+At 11th level, your droid companion must be within 30 feet of you to benefit from this feature. At 17th level, your droid companion must be within 60 feet.
+
+You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you finish a long rest.
+
+### Channel the Force
+_**Aqinos Form:** 7th level_<br>
+You learn your choice of the Cause Harm or Lend Aid Channel the Force options, and when you use either of these options, you gain additional benefits.
+
+#### Cause Harm
+You can choose to deal ion damage instead of necrotic.
+
+#### Lend Aid
+Droids and constructs are now valid targets.
+
+### Adaptive Calibration
+_**Aqinos Form:** 15th level_<br>
+When you reduce a hostile creature to 0 hit points with a tech power, or you restore hit points to a friendly creature that is at 0 hit points with a tech power, you regain an expended use of your Channel the Force, and you gain temporary force points equal to the power's level.
+
+### Master of Adaptation
+_**Aqinos Form:** 20th level_<br>
+Your masteries of the Force and technology have achieved equilibrium. Your Constitution and Wisdom or Charisma (your choice) scores increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
+- You have resistance to ion damage, and you can't have disadvantage on saving throws against ion or lightning damage.
+- You can't have disadvantage on attack rolls you make as a part of a tech power, and enemies can't have advantage on saving throws against your tech powers.
+- You add your governing ability modifier (minimum of +1) to any damage or healing you do with tech powers you cast that don't already include that modifier.
+
+While you are conscious and your droid is within 60 feet of you and conscious, it also gains these benefits.
+
+This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | GUARDIAN</div>
+
+\pagebreak
+
 ## Ataru Form
 Ataru Form, also know as Aggression Form, is a kinetically active form that relies on speed, acrobatics, and power. Those guardians who focus on Ataru Form utilize high energy tactics to confuse and distract their opponents, quickly moving about the battlefield.
 
 ### Form Basics
 _**Ataru Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Ataru lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
+You gain the Ataru lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
 
 ### The Way of the Hawk-Bat
 _**Ataru Form:** 3rd level_<br>
@@ -2404,7 +2475,7 @@ Jar'Kai Form, also known as Domination Form, utilizes two weapons to overwhelm t
 
 ### Form Basics
 _**Jar'Kai Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Jar'Kai lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
+You gain the Jar'Kai lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
 
 ### The Way of the Acklay
 _**Jar'Kai Form:** 3rd level_<br>
@@ -2448,19 +2519,19 @@ This effect ends early if you are incapacitated or die. Once you use this featur
 
 \pagebreak
 
-## Juyo/Vapaad Form
-Juyo/Vapaad Form, also known as Ferocity Form, revels in the satisfaction of battle and victory. Those guardians who focus on Juyo/Vapaad Form channel their emotions into their fighting, making heavy, sweeping strikes.
+## Juyo/Vaapad Form
+Juyo/Vaapad Form, also known as Ferocity Form, revels in the satisfaction of battle and victory. Those guardians who focus on Juyo/Vaapad Form channel their emotions into their fighting, making heavy, sweeping strikes.
 
 ### Bonus Proficiencies
-_**Juyo/Vapaad Form:** 3rd level_<br>
+_**Juyo/Vaapad Form:** 3rd level_<br>
 You gain proficiency in heavy armor.
 
 ### Form Basics
-_**Juyo/Vapaad Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Juyo/Vapaad lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
+_**Juyo/Vaapad Form:** 3rd level_<br>
+You gain your choice of the Juyo or Vaapad lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know the chosen form, you can instead choose another lightsaber form.
 
 ### The Way of the Vornskr
-_**Juyo/Vapaad Form:** 3rd level_<br>
+_**Juyo/Vaapad Form:** 3rd level_<br>
 As a bonus action, you can take a savage stance, designating one creature you can see within 10 feet of you as your prey for 1 minute. You have advantage on attack rolls against the creature. If the target drops to 0 hit points, you can use a bonus action on a subsequent turn to mark a new creature.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
@@ -2470,8 +2541,8 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 <div style='margin-top:28px'></div>
 
 ### Channel the Force
-_**Juyo/Vapaad Form:** 3rd level_<br>
-You gain one of the following Channel the Force options. Choose Snap Aggression for Juyo or Assertive Defense for Vapaad.
+_**Juyo/Vaapad Form:** 3rd level_<br>
+You gain one of the following Channel the Force options. Choose Snap Aggression for Juyo or Assertive Defense for Vaapad.
 
 #### Snap Aggression
 If you are surprised at the start of combat and aren't incapacitated, you can expend a use of your Channel the Force to act normally on your first turn.
@@ -2486,8 +2557,8 @@ When you reduce the damage dealt by a force power to 0 using the *saber reflect*
 \pagebreak
 
 ### Fury
-_**Juyo/Vapaad Form:** 7th level_<br>
-You gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vapaad.
+_**Juyo/Vaapad Form:** 7th level_<br>
+You gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vaapad.
 
 #### Relentless 
 You have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.
@@ -2496,8 +2567,8 @@ You have advantage on initiative checks, and gain a 10 foot bonus to your speed 
 When a hostile creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
 
 ### Vengeance
-_**Juyo/Vapaad Form:** 15th level_<br>
-You gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.
+_**Juyo/Vaapad Form:** 15th level_<br>
+You gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vaapad.
 
 #### Devastating Critical
 When you score a critical hit with a melee weapon attack, you gain a bonus to that weapon's damage<br> roll equal to your guardian level.
@@ -2510,7 +2581,7 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 \columnbreak
 
 ### Master of Ferocity
-_**Juyo/Vapaad Form:** 20th level_<br>
+_**Juyo/Vaapad Form:** 20th level_<br>
 You are a paragon of extraordinary martial prowess. Your Strength and Dexterity scores increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:
 - You have resistance to all damage.
 - When you take the Attack action on your turn, you can make one additional attack as part of that action.
@@ -2529,7 +2600,7 @@ Shii-Cho Form, also known as Determination Form, uses wild, unpredictable attack
 
 ### Form Basics
 _**Shii-Cho Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Shii-Cho lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
+You gain the Shii-Cho lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
 
 ### The Way of the Sarlaac
 _**Shii-Cho Form:** 3rd level_<br>
@@ -2581,7 +2652,7 @@ You gain proficiency in heavy armor.
 
 ### Form Basics
 _**Sokan Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Sokan lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
+You gain the Sokan lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
 
 ### The Way of the Varactyl
 _**Sokan Form:** 3rd level_<br>
@@ -2630,7 +2701,7 @@ Trakata Form, also known as Deception Form, capitalizes on a lightweapon's abili
 
 ### Form Basics
 _**Trakata Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Trakata lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
+You gain the Trakata lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.
 
 ### The Way of the Monkey-Lizard
 _**Trakata Form:** 3rd level_<br>
@@ -2682,7 +2753,7 @@ You gain proficiency in your choice of Intimidation or Persuasion.
 
 ### Form Basics
 _**Vonil/Ishu Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Vonil/Ishu lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form.
+You gain your choice of the Vonil or Ishu lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know the chosen form, you can instead choose another lightsaber form.
 
 ### Humanoid Companion
 _**Vonil/Ishu Form:** 3rd, 11th, and 17th level_<br>
@@ -2767,7 +2838,7 @@ You gain proficiency in simple blasters and martial blasters that lack the two-h
 
 ### Form Basics
 _**Ysannanite Form:** 3rd level_<br>
-You learn the basics of the chosen form. You gain the Ysannanite lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form.
+You gain the Ysannanite lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form.
 
 ### The Way of the Yerdua
 _**Ysannanite Form:** 3rd level_<br>
@@ -2786,7 +2857,7 @@ Once per turn, when you hit a creature with a ranged weapon attack, you can expe
 _**Ysannanite Form:** 7th level_<br>
 Your familiarity with blaster weapons has granted you greater insight into their function and usage. Once on each of your turns, drawing or stowing a blaster no longer requires your object interaction. Additionally, you no longer require a free hand to reload.
 
-At 11th level, once per turn, when you hit a creature with a ranged weapon, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Shots with an attack, you add this damage to the extra damage of your Force-Empowered Shots. The damage is the same type as the weapon's damage.
+At 11th level, once per turn, when you hit a creature with a ranged weapon attack, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Shots with an attack, you add this damage to the extra damage of your Force-Empowered Shots. The damage is the same type as the weapon's damage.
 
 \columnbreak
 
@@ -2948,7 +3019,7 @@ Monks of the Kage Order, known as Kage warriors, have mastered fighting in darkn
 _**Kage Order:** 3rd level_<br>
 You learn to create a number of small charges that create enhanced darkness. Over the course of a short or long rest, you can create a number of charges equal to your Wisdom or Charisma modifier (your choice). Your charges can only be used by you, and they lose their potency at the end of your next short or long rest.
 
-Once per turn, when you would make a weapon attack or unarmed strike, you can instead throw one of your charges. Your charges have a range equal to 30 feet + your Strength modifier x 5. You can throw a device at a point you can see within range. The charges create a pocket of darkness in a 10-foot radius sphere centered on that point. The darkness spreads around corners. It lasts for 1 minute or until an enhanced source of brigiht light dispells it.
+Once per turn, when you would make a weapon attack or unarmed strike, you can instead throw one of your charges. Your charges have a range equal to 30 feet + your Strength modifier x 5. You can throw a device at a point you can see within range. The charges create a pocket of darkness in a 10-foot radius sphere centered on that point. The darkness spreads around corners. It lasts for 1 minute or until an enhanced source of bright light dispells it.
 
 ### Disruptive Shock
 _**Kage Order:** 6th level_<br>
@@ -2979,7 +3050,7 @@ Monks of the Kyuzo Order turn weapon throwing into a true art form. Inspired by 
 
 ### Intercept
 _**Kyuzo Order:** 3rd level_<br>
-You gain proficiency in vibroweapons with<br> the thrown property and they become monk<br> weapons for you. Additionally, when you throw an improvised weapon, you are considered proficient in it, and it use your Martial Arts die instead of its 1d4. 
+You gain proficiency in vibroweapons with<br> the thrown property and they become monk<br> weapons for you. Additionally, when you throw an improvised weapon, you are considered proficient in it, and it uses your Martial Arts die instead of its 1d4. 
 
 Additionally, you've learned to use thrown weapons to intercept projectiles traveling towards your allies. When you are wielding a weapon with which you are<br> proficient, and a creature within your weapon's<br> normal thrown range is hit by a ranged<br> attack, you can use your reaction to throw<br> your weapon to intercept the projectile. When<br> you do so, the damage the creature takes from<br> the attack is reduced by 1d10 + your Dexterity<br> modifier + your monk level. If the weapon has<br> the returning property, it then returns to your<br> hand.
 
@@ -3021,7 +3092,7 @@ This range increases to 30 feet at 11th level and 60 feet at 17th level.
 Additionally, as a bonus action on your turn, you can spend 1 focus point to conjure a weapon made of<br> one of the four elements—air, earth, fire, or<br> wind—which lasts for 1 minute. Your weapon<br> takes an appearance of your choice, it can only<br> be used by you, and you can't be disarmed of it<br> while you are conscious. You are proficient in this weapon, which counts as a monk weapon for you<br> and uses your Martial Arts die for its damage rolls.<br> You can only have one of these weapons at a time,<br> and if you summon a new one the old one<br> immediately disappears.
 
 #### Air
-Your whistling weapon has the thrown property with a range of 20/60, and deals sonic damage on a hit. Additionally, when you hit a creature with the weapon, it is deafened until the end of its next turn.
+Your whistling weapon has the returning property, the thrown property with a range of 20/60, and deals sonic damage on a hit. Additionally, when you hit a creature with the weapon, it is deafened until the end of its next turn.
 
 #### Earth
 Your earthen weapon takes the form of stone, and deals kinetic damage on a hit. Additionally, when you hit a creature with it, you can force the target to make a Strength saving throw. On a failed save, the target is pushed back 5 feet. Lastly, while active, you can use Strength instead of Dexterity when determining your AC, as long as it doesn't already include that modifier.
@@ -3198,7 +3269,7 @@ Monks of the Trickster Order embody the archetypal role of the "trickster"— one 
 
 ### Bumbling Technique
 _**Trickster Order:** 3rd level_<br>
-Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. When you make a Charisma (Performance) check, you gain a bonus to the check equal to half your Wisdom modifier (rounded down, minimum of +1) if it doesn't already include that modifier.
+Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You gain proficiency in Performance.
 
 Additionally, you learn how to twist and turn quickly. Whenever you use your bonus action to make an unarmed strike, creatures you hit can't make opportunity attacks against you, and your speed increases by 10 feet until the end of your turn.
 
@@ -3272,7 +3343,7 @@ Those operatives who choose the Disabling Practice utilize a variety of pushes, 
 _**Disabling Practice:** 3rd level_<br>
 You learn how to discourage, debilitate, and harm your enemies. You gain the following benefits while you aren't wearing heavy armor or wielding a medium or heavy shield:
 - Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
-- You can deal Sneak Attack damage when making an unarmed strike. Additionally, you don't need advantage on your attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.
+- You don't need advantage on your attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.
 - You can use the bonus action granted by your Cunning Action to make an unarmed strike against a creature you are grappling.
 
 ### Skilled Grappler
@@ -3627,7 +3698,7 @@ You learn to employ all the knowledge you've accumulated to create and customize
 Create your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
 
 In addition to its traits and features, your tracker droid companion gains an additional benefit while it is bonded to you:
-- Your tracker droid gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each droid trait in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of droid traits equal to half your Intelligence modifier (rounded up, minimum of one).
+- Your tracker droid gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each droid trait in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of droid traits equal to half your Intelligence modifier (rounded up, minimum of one).
 
 Lastly, when you cast a tech power of 1st-level or higher that would affect only one target, and your tracker droid companion is bonded and within 10 feet of you or your target, your tracker droid companion can use its reaction to increase the level at which you are casting your power by 1. This feature can increase a power's level above your Max Power Level, and using this feature does not cost additional tech points.
 
@@ -3727,7 +3798,7 @@ You attempt to hamper the target's movement. The target must make a Constitution
 
 ### Swift Surgery
 _**Sawbones Practice:** 9th level_<br>
-You know how to quickly patch up wounds, given the right tools. You are able to use a traumakit or administer a medpac as a bonus action, and when you use a traumakit to stabilize a dying creature, that creature also regains a number of hitpoints equal to your Intelligence modifier.
+You know how to quickly patch up wounds, given the right tools. You are able to use a traumakit or administer a medpac as a bonus action, and when you use a traumakit to stabilize a dying creature, that creature also regains a number of hit points equal to your Intelligence modifier.
 
 ### Dosage Control
 _**Sawbones Practice:** 13th level_<br>
@@ -3752,13 +3823,13 @@ Those operatives who choose the Scrapper Practice don't have the time or patienc
 
 ### Back Blast
 _**Scrapper Practice:** 3rd level_<br>
-Ysou gain proficiency in all blasters with the burst or rapid property that lack the two-handed property. Additionally, when a creature fails a saving throw against the burst or rapid property of a weapon you control and with which you are proficient, you can apply your Sneak Attack damage to one creature dealt damage in this way as long as that creature didn't have advantage on the save.
+You gain proficiency in all blasters with the burst or rapid property that lack the two-handed property. Additionally, when a creature fails a saving throw against the burst or rapid property of a weapon you control and with which you are proficient, you can apply your Sneak Attack damage to one creature dealt damage in this way as long as that creature didn't have advantage on the save.
 
 When you reach 9th level in this class, when multiple creatures fail a saving throw against the burst property of a weapon you control and with which you are proficient, you can divide your Sneak Attack dice amongst the targets as you see fit.
 
 ### Upper Hand
 _**Scrapper Practice:** 3rd level_<br>
-You learn to user underhanded tactics to gain the upper hand. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to perform an upper hand technique.
+You learn to use underhanded tactics to gain the upper hand. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to perform an upper hand technique.
 
 Some of your upper hand techniques require your target to make a saving throw to resist the technique's effects. The saving throw DC is calculated as follows: 
 
@@ -3791,13 +3862,13 @@ When a creature moves to within 5 feet of you, you can use your reaction to move
 
 ### Hostile Negotiations
 _**Scrapper Practice:** 13th level_<br>
-When you make a Charisma (Intimidation) or Charisma (Persuasion)  check, you gain a bonus to the check equal to half your Dexterity modifier (rounded down) if it doesn't already include that modifier. 
+You gain proficiency in Intimidation or Persuasion. Additionally, while you are wielding a weapon with which you are proficient, you can't have disadvantage on Charisma (Intimidation) and Charisma (Persuasion) checks, and if the target would make a contested check, they can't have advantage on it.
 
 ### Double Tap
 _**Scrapper Practice:** 17th level_<br>
 You can deal Sneak Attack damage twice per turn, but you can't deal more than your total Sneak Attack dice to a single target per turn.
 
-<img src='https://www.gmbinder.com/images/GHT4jiF.png' style='position:absolute;bottom:0px;right:10px;width:820px;;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/GHT4jiF.png' style='position:absolute;bottom:0px;right:20px;width:770px;;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
@@ -3810,9 +3881,9 @@ Archaeologists are those who study the remnants of historical civilizations. Tho
 
 <div style='margin-top:28px'></div>
 
-### Bonus Proficiencies
+### Studious Excavator
 _**Archaeologist Pursuit:** 3rd level_<br>
-You gain proficiency with archaeologist kits and in the Lore skill.
+You gain proficiency with archaeologist kits and in the Lore skill. Additionally, you can't have disadvantage on checks you make with them.
 
 ### Forcecasting
 _**Archaeologist Pursuit:** 3rd level_<br>
@@ -3847,7 +3918,7 @@ ___
 ___
 
 
-<img src='https://www.gmbinder.com/images/j5SvJ37.png' style='position:absolute;bottom:17px;left:12px;width:580px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/j5SvJ37.png' style='position:absolute;bottom:17px;left:-130px;width:580px;z-index:1000;' />
 
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
@@ -3856,7 +3927,7 @@ ___
 
 ### Archaic Diagnostics
 _**Archaeologist Pursuit:** 3rd level_<br>
-When you are the target of your Critical Analysis feature, you can use Intelligence instead of Wisdom or Charisma as your forcecasting ability modifier.
+When you are the target of your Critical Analysis feature, you can use Critical Analysis modifier instead of Wisdom or Charisma as your forcecasting ability modifier.
 
 ### Additional Maneuvers
 _**Archaeologist Pursuit:** 3rd level_<br>
@@ -3956,7 +4027,7 @@ Your expeditions have turned up a bevy of knowledge on the force. You learn thre
 \columnbreak
 
 #### Force Combat Knowledge
-Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. When you are the target of your Critical Analysis, you use your choice of your Intelligence or Strength modifier for the attack and damage rolls with simple lightweapons. You must use the same modifier for both rolls.
+Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. When you are the target of your Critical Analysis, you use your choice of your Critical Analysis or Strength modifier for the attack and damage rolls with simple lightweapons. You must use the same modifier for both rolls.
 
 Additionally, you gain knowledge of one lightsaber form of your choice.
 
@@ -3999,7 +4070,7 @@ Without it empires fall, armies dissolve into nothingness, and species are forgo
 
 ### Culinary Knowledge
 _**Chef Pursuit:** 3rd level_<br>
-You gain proficiency with chef's kits and your choice of Nature or Survival skills.
+You gain proficiency with chef's kits and your choice of the Nature or Survival skills. Additionally, you can't have disadvantage on checks you make with them.
 
 ### Emergency Supplements
 _**Chef Pursuit:** 3rd level_<br>
@@ -4009,37 +4080,35 @@ Once you've used this feature, you must complete a short or long rest before you
 
 ### Additional Maneuvers
 _**Chef Pursuit:** 3rd level_<br>
-You gain access to new maneuvers which reflect the progress of your studies into the culinary arts. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
-
-You may only perform one maneuver that is used during a long or short rest at a time.
+You gain access to new maneuvers which reflect the progress of your studies into the culinary arts. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order. You may only use one maneuver that during a short or long rest at a time.
 
 #### Allergens
 As a bonus action while preparing or touching food, you may expend a superiority die and add to it an irritating allergen. At the start of each of its turns, a creature that consumes this food must make a Constitution saving throw. On a failed save, it subtracts half the result of your superiority die (rounded down, minimum of one) from the first ability check, attack roll, or saving throws it makes before the start of its next turn. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
 
 #### Brain Food
-At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature gains a number of temporary force or tech points (their choice) equal to the number you roll on the superiority die. When an affected creature casts a force or tech power, the temporary force or tech points are spent first. An affected target can only benefit from one source of temporary force or tech points at a time, and they last until they're depleted or until the affected target completes their next short or long rest. This maneuver has no effect on droids or constructs.
+At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your maneuver modifier (minimum of one), if they ate food you prepared. Each creature gains a number of temporary force or tech points (their choice) equal to the number you roll on the superiority die. When an affected creature casts a force or tech power, the temporary force or tech points are spent first. An affected target can only benefit from one source of temporary force or tech points at a time, and they last until they're depleted or until the affected target completes their next short or long rest. This maneuver has no effect on droids or constructs.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
 #### Debilitants
-As a bonus action when preparing or touching food, you may expend a superiority die and add to it a subtle poison. Any creature that consumes this food must make a Constitution saving throw. On a failed save, their hit point maximum is reduced by an amount equal to twice the number rolled on your superiority die + your Intelligence modifier. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
+As a bonus action when preparing or touching food, you may expend a superiority die and add to it a subtle poison. Any creature that consumes this food must make a Constitution saving throw. On a failed save, their hit point maximum is reduced by an amount equal to twice the number rolled on your superiority die + your maneuver modifier. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
 
 #### Energizers
-At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature has their walking speed increased by 10 until the end of their next short or long rest. This maneuver has no effect on droids or constructs.
+At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your maneuver modifier (minimum of one), if they ate food you prepared. Each creature has their walking speed increased by 10 until the end of their next short or long rest. This maneuver has no effect on droids or constructs.
 
 #### Enhancers
-At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Once before the end of their next short or long rest, affected targets may add the result of the superiority die to a damage roll that would affect only one target. This maneuver has no effect on droids or constructs.
+At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your maneuver modifier (minimum of one), if they ate food you prepared. Once before the end of their next short or long rest, affected targets may add the result of the superiority die to a damage roll that would affect only one target. This maneuver has no effect on droids or constructs.
 
 #### Health Food
-At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature gains a number of temporary hit points equal to twice the number you roll on the superiority die. This maneuver has no effect on droids or constructs.
+At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your maneuver modifier (minimum of one), if they ate food you prepared. Each creature gains a number of temporary hit points equal to twice the number you roll on the superiority die. This maneuver has no effect on droids or constructs.
 
 #### Muscle Relaxants
 As a bonus action while preparing or touching food, you may expend a superiority die and add to it a fast acting muscle relaxant. At the start of each of its turns, a creature that consumes this food must make a Constitution saving throw. On a failed save, it subtracts the result of your superiority die from the first damage roll it makes before the start of its next turn. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.
 
 #### Supplements
-At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Once before the end of their next short or long rest, affected targets may add the result of the superiority die to one ability check, attack roll, or saving throw. The creature can wait until after it rolls the d20 before deciding to use this feature, but must decide before the DM says whether the roll succeeds or fails. This maneuver has no effect on droids or constructs.
+At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your maneuver modifier (minimum of one), if they ate food you prepared. Once before the end of their next short or long rest, affected targets may add the result of the superiority die to one ability check, attack roll, or saving throw. The creature can wait until after it rolls the d20 before deciding to use this feature, but must decide before the DM says whether the roll succeeds or fails. This maneuver has no effect on droids or constructs.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -4048,7 +4117,7 @@ At the end of a short or long rest you may expend a superiority die and choose a
 <div style='margin-top:23px'></div>
 
 #### Vitamins
-At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature gains proficiency in Constitution saving throws until the end of their next short or long rest. If a creature was already proficient in Constitution saving throws, they instead become proficient in a saving throw of your choice. This maneuver has no effect on droids or constructs.
+At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your maneuver modifier (minimum of one), if they ate food you prepared. Each creature gains proficiency in Constitution saving throws until the end of their next short or long rest. If a creature was already proficient in Constitution saving throws, they instead become proficient in a saving throw of your choice. This maneuver has no effect on droids or constructs.
 
 ### Balanced Diet
 _**Chef Pursuit:** 6th level_<br>
@@ -4064,7 +4133,7 @@ The extra hit points increase when you reach certain levels in this class: to 1d
 _**Chef Pursuit:** 17th level_<br>
 You have developed a signature feast that is the purest distillation of your knowledge and talent as a chef.
 
-Over the course of a long rest, you can expend rare culinary supplies worth 1,000 cr to create your feast, which can feed a number of creatures equal to twice your Intelligence modifier. Any creature partaking in the feast gains the following benefits:
+Over the course of a long rest, you can expend rare culinary supplies worth 1,000 cr to create your feast, which can feed a number of creatures equal to twice your Critical Analysis modifier. Any creature partaking in the feast gains the following benefits:
 - It is cured of all poisons and disease, and becomes immune to poison and disease.
 - It makes Wisdom saving throws to avoid being frightened with advantage.
 - Its hit point maximum and current hit points increase by 2d10.
@@ -4095,7 +4164,7 @@ Over the course of a long or short rest, you may utilize an additional maneuver 
 Any food you prepare over a short or long rest carries with it an additional cooling effect. Creatures that consume it are considered adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide, until the end of the creature's next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes fire damage before the end of their next short or long rest, they are considered resistant to the damage.
 
 #### Secret Ingredient
-If you or any friendly creature that has consumed food made by you during their last short or long rest gains temporary hit points, the number of temporary hit points they gain increases by an amount equal to your Intelligence modifier.
+If you or any friendly creature that has consumed food made by you during their last short or long rest gains temporary hit points, the number of temporary hit points they gain increases by an amount equal to your Critical Analysis modifier.
 
 #### Spice of Life
 Any food you prepare over a short or long rest carries with it an additional warming effect. Creatures that consume it are considered adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide, until the end of the creature's next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes cold damage before the end of their next short or long rest, they are considered resistant to the damage.
@@ -4111,23 +4180,23 @@ The explorer strives to navigate past the known to discover new planets, forgott
 
 ### Focused Navigator
 _**Explorer Pursuit:** 3rd level_<br>
-You gain proficiency in two of the Perception,<br> Piloting, Survival, and Acrobatics skills.
+You gain proficiency in two of the Perception,<br> Piloting, Survival, and Acrobatics skills.<br> Additionally, you can't have disadvantage on<br> checks you make with them.
 
 ### Surveyed Area
 _**Explorer Pursuit:** 3rd level_<br>
-You can now use your Critical Analysis feature<br> on a 15-foot cube area within 60 feet<br> of you that you can see. You<br> can treat any creatures<br> inside this cube as if they<br> are the target of your Critical<br> Analysis feature, and when a creature<br> ends your Critical Analysis feature on themself,<br> it does not end this effect for other creatures in your Surveyed Area. 
+You can now use your Critical<br> Analysis feature on a<br> 15-foot cube area within 60<br> feet of you that you can see. You<br> can treat any creatures inside this cube<br> as if they are the target of your Critical Analysis<br> feature, and when a creature ends your Critical Analysis feature on themself, it does not end this effect for other creatures in your Surveyed Area. 
 
 ### Additional Maneuvers
 _**Explorer Pursuit:** 3rd level_<br>
 You gain access to new maneuvers which reflect your studies in maps and hidden routes. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
 
 #### Effective Flanking
-Whenever you use your Critical Analysis ability, you can expend a superiority die to make all creatures of your choice affected by Critical Analysis to make a Wisdom saving throw. If at least one creature fails the save, roll a superiority die. 
+Whenever you use your Critical Analysis, you can expend a superiority die to make all creatures of your choice affected by Critical Analysis to make a Wisdom saving throw. If at least one creature fails the save, roll a superiority die. 
 
 On a failed save, the number rolled is added to both the attack and damage roll for the first attack against the creature before the start of your next turn.
 
 #### Encouraging Pace
-You can use a bonus action to expend a superiority die. When you do so, a number of friendly creatures equal to your Intelligence modifier can immediately use their reaction to move a number of feet equal to 5 times the number rolled on the superiority die.
+You can use a bonus action to expend a superiority die. When you do so, a number of friendly creatures equal to your maneuver modifier can immediately use their reaction to move a number of feet equal to 5 times the number rolled on the superiority die.
 
 #### No Escape
 Whenever you or a creature you can see makes an opportunity attack, you can expend a superiority die. If the attack hits, roll the superiority die and add the result to the damage roll. Additionally, the affected creature's movement speed becomes 0 until the start of its next turn.
@@ -4152,7 +4221,7 @@ On a failure, they take damage equal to the roll and their movement speed become
 Whenever an opportunity attack targets a friendly creature other than you that is in an area targeted by your Critical Analysis feature, you can expend a superiority die. The creature can use its reaction to make a single weapon attack, adding the superiority die roll to the attack roll. 
 
 #### Wrestle and Drag
-When you or a creature that is the target of your Critical Analysis makes an Strength (Athletics) check to grapple or shove a creature, you can expend a superiority die and add it to the roll. Until the end of your turn, you can drag the grappled creature with you without your speed being halved. Additionally, if you move at least 5 feet, the creature takes damage for each foot moved up to an amount equal to half your Scholar level + your Intelligence modifier.
+When you or a creature that is the target of your Critical Analysis makes an Strength (Athletics) check to grapple or shove a creature, you can expend a superiority die and add it to the roll. Until the end of your turn, you can drag the grappled creature with you without your speed being halved. Additionally, if you move at least 5 feet, the creature takes damage for each foot moved up to an amount equal to half your Scholar level + your maneuver modifier.
 
 ### Field Advantage
 _**Explorer Pursuit:** 6th level_<br>
@@ -4175,7 +4244,7 @@ When you select this pursuit, you gain access to new discoveries which reflect y
 
 #### Cover Adept
 _**Prerequisite:** 12th level_<br>
-You treat one-quarter cover as half cover, half cover as three-quarters cover, and three-quarters cover as full cover. Additionally, while you are in cover, Dexterity (Stealth) checks you make gain a bonus equal to your Intelligence modifier (minimum of +1).
+You treat one-quarter cover as half cover, half cover as three-quarters cover, and three-quarters cover as full cover. Additionally, while you are in cover, Dexterity (Stealth) checks you make gain a bonus equal to your Critical Analysis modifier (minimum of +1).
 
 #### Dungeon Explorer
 You have advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks to locate any secret doors or traps, and you have resistance to damage dealt by traps.
@@ -4184,7 +4253,7 @@ Additionally, you can use your Sage Advice feature to teach friendly creatures a
 
 #### Galactic Explorer
 _**Prerequisite:** 9th level_<br>
-When you make a Piloting (Intelligence) skill check and may add your proficiency bonus to the check, treat any roll of 9 or lower as if you had rolled a 10. 
+When you make an Intelligence (Piloting) check and add your proficiency bonus to the check, treat any roll of 9 or lower as if you had rolled a 10. 
 
 #### Grappling Hunter
 _**Prerequisite:** 5th level_<br>
@@ -4192,10 +4261,10 @@ Attack rolls that you make against creatures that you are grappling have advanta
 
 #### High Ground
 _**Prerequisite:** 5th level_<br>
-Once per turn, when you or a friendly creature hits a creature that is a target of your Critical Analysis feature, it takes additional damage equal to your half Intelligence modifier (minimum of +1). 
+Once per turn, when you or a friendly creature hits a creature that is a target of your Critical Analysis feature, it takes additional damage equal to half your Critical Analysis modifier (rounded down, minimum of +1). 
 
 #### No Stone Left Unturned
-When you make a Wisdom (Perception) or Investigation (Intelligence) check to find a hidden creature that is inside the area that is targeted by your Critical Analysis feature, you do so with advantage. 
+When you make a Wisdom (Perception) or Intelligence (Investigation) check to find a hidden creature that is inside the area that is targeted by your Critical Analysis feature, you do so with advantage. 
 
 #### Versatile Explorer
 You can hold your breath twice as long as you are normally able to, and take half as much damage from fall damage.
@@ -4209,27 +4278,27 @@ Throughout the galaxy there exists scientists who focus on unraveling the myster
 
 ### Genesplicer's Methods
 _**Geneticist Pursuit:** 3rd level_<br>
-You gain proficiency with geneticist's implements and your choice of Medicine or Survival skills. 
+You gain proficiency with geneticist's implements and your choice of Medicine or Survival skills. Additionally, you can't have disadvantage on checks you make with them.
 
 ### Mutagenic Analysis
 _**Geneticist Pursuit:** 3rd level_<br>
-While you are the target of your Critical Analysis feature, you can add half your Intelligence modifier (rounded down, minimum of one) to any saving throw you make that doesn't already include that modifier. 
+While you are the target of your Critical Analysis feature, you can add half your Critical Analysis modifier (rounded down, minimum of one) to any saving throw you make that doesn't already include that modifier. 
 
 ### Additional Maneuvers
 _**Geneticist Pursuit:** 3rd level_<br>
 You gain access to new maneuvers which reflect the changes your body has undergone. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
 
 #### Acid Burst
-When you take the Attack action on your turn, you can replace one of your attacks with a sudden and violent expulsion of acidic fluid. You expend a superiority die, and cause all creatures within a 15-foot cone to make a Dexterity saving throw. On a failed save, they take damage equal to the number rolled on your superiority die plus your Intelligence modifier.
+When you take the Attack action on your turn, you can replace one of your attacks with a sudden and violent expulsion of acidic fluid. You expend a superiority die, and cause all creatures within a 15-foot cone to make a Dexterity saving throw. On a failed save, they take damage equal to the number rolled on your superiority die plus your maneuver modifier.
 
 #### Charging Attack
-If you move at least 10 feet towards your target before successfully hitting them with a melee attack, you may expend a superiority die, causing the target to take additional damage equal to the result, and forcing it<br> to make a Strength saving throw. On a failed save <br>the creature is knocked prone.
+If you move at least 10 feet towards your target before successfully hitting them with a melee attack, you may expend a superiority die, causing the target to take additional damage equal to the result, and forcing<br> it to make a Strength saving throw. On a failed<br> save the creature is knocked prone.
 
 #### Electrical Discharge
 When you succeed on a check to initiate or<br> maintain a grapple, you can expend a<br> superiority die. The creature takes lightning<br> damage equal to the amount rolled on the die.
 
 #### Rampage
-When you reduce a creature to 0 hit points, you<br> can use your bonus action to expend a superiority<br> die and move up to half your speed. If you end this<br> movement within 5 feet of a creature, you can<br> make a single melee attack against that<br> creature, adding the result of the<br> superiority die to the attack roll.
+When you reduce a creature to 0 hit points, you can use your bonus action to expend a superiority<br> die and move up to half your speed. If you<br> end this movement within 5 feet of a<br> creature, you can make a single<br> melee weapon attack against<br> that creature, adding the result<br> of the superiority die to the<br> attack roll.
 
 \columnbreak
 
@@ -4245,8 +4314,8 @@ When you hit a creature with a melee attack, you may expend a superiority die to
 _**Geneticist Pursuit:** 6th level_<br>
 When you target yourself with your Critical Analysis feature, you can choose to undergo a mutagenic transformation. Your form shifts, exaggerating and strengthening your geneticist discoveries for 1 hour. You gain the following benefits:
 - You can attack twice, instead of once, whenever you take the Attack action on your turn.
-- Your Strength score becomes equal to your Intelligence score.
-- You gain a bonus to your AC equal to half your Intelligence modifier (rounded down, minimum of +1) if it doesn't already include that modifier.
+- Your Strength score becomes equal to your Critical Analysis score.
+- You gain a bonus to your AC equal to half your Critical Analysis modifier (rounded down, minimum of +1) if it doesn't already include that modifier.
 
 You can end this effect early on your turn as a bonus action. This effect ends early if you are incapacitated or die. You can use this feature twice. You regain all expended uses of it when you finish a long rest.
 
@@ -4272,13 +4341,13 @@ You gain proficiency in Strength and Constitution saving throws. Additionally, y
 and when you deal damage with a weapon or unarmed strike, you can deal an additional 1d8 damage of the same type as the weapon's damage.
 
 #### Aspect of the Varactyl
-You gain proficiency in Dexterity and Intelligence saving throws. Additionally, your speed increases by 10 feet, your attack rolls can't suffer from disadvantage, and creatures can't have advantage on attack rolls against you, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.
+You gain proficiency in Dexterity and Intelligence saving throws. Additionally, your speed increases by 10 feet, your attack rolls can't suffer from disadvantage, creatures can't have advantage on attack rolls against you, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.
 
 ### Geneticist Discoveries
 When you select this pursuit, you gain access to new discoveries which reflect the changes you have caused your own body to undergo. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order. 
 
 #### Adapted Hide
-When you aren't wearing armor, your AC is 13 + your Dexterity modifier. Additionally, you are adapted to hot or cold climates (your choice), as described in chapter 5 of the Dungeon Master's Guide. When you undergo your mutagenic transformation, you add your full Intelligence modifier, instead of half, to your AC for the duration.
+When you aren't wearing armor, your AC is 13 + your Dexterity modifier. Additionally, you are adapted to hot or cold climates (your choice), as described in chapter 5 of the Dungeon Master's Guide. When you undergo your mutagenic transformation, you add your full Critical Analysis modifier, instead of half, to your AC for the duration.
 
 #### Atmospheric Adaptation
 You can breathe air and water. When you undergo your mutagenic transformation, you no longer need to breathe, and you can survive up to one hour within the vacuum of space for the duration.
@@ -4294,7 +4363,7 @@ Your carrying capacity and the weight you can push, drag, or lift doubles. If it
 You sprout a pair of winged arms. You gain a flying speed equal to half your walking speed. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required). When you undergo your mutagenic transformation, your flying speed increases to your full walking speed, and you can use your bonus action to take the Dash action for the duration.
 
 #### Mutagenic Hardiness
-Your hit point maximum increases by a number equal to your level, and it increases by 1 every time you gain a level. When you undergo your mutagenic transformation, and at the beginning of each of your turns, you gain temporary hit points equal to your half your scholar level (rounded down) + your Intelligence modifier for the duration.
+Your hit point maximum increases by a number equal to your level, and it increases by 1 every time you gain a level. When you undergo your mutagenic transformation, and at the beginning of each of your turns, you gain temporary hit points equal to your half your scholar level (rounded down) + your Critical Analysis modifier for the duration.
 
 #### Predatory Senses
 You have darkvision out to 60 feet. If you already have darkvision, its range instead increases by 30 feet. When you undergo your mutagenic transformation, you gain advantage on Wisdom (Perception) checks that rely on smell for the duration. Additionally, you can track creatures that have left a scent in the last 24 hours.
@@ -4303,18 +4372,18 @@ You have darkvision out to 60 feet. If you already have darkvision, its range in
 You gain a burrowing speed equal to your walking speed and you can tunnel through solid rock at a rate of 1 foot per round. In order to use this speed, you must have two free hands. When you undergo your mutagenic transformation, you gain tremorsense out to 30 feet for the duration. You can detect and pinpoint the origin of vibrations within a specific radius, provided that monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.
 
 #### Unnatural Weaponry
-You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on a hit. You can use your choice of your Strength, Dexterity, or Intelligence modifier for the attack and damage rolls. You must use the same modifier for both rolls. When you undergo your mutagenic transformation, your unarmed strikes increase to a d6 and are considered enhanced for the duration. Additionally, you deal an additional 1d4 acid, lightning, or poison damage when you hit with them.
+You sprout claws or some other natural weapon. Your unarmed strikes deal 1d4 kinetic damage, and you can use your choice of your Strength, Dexterity, or Critical Analysis modifier for the attack and damage rolls. You must use the same modifier for both rolls. When you undergo your mutagenic transformation, your unarmed strikes increase to a d6 and are considered enhanced for the duration. Additionally, you deal an additional 1d4 acid, lightning, or poison damage when you hit with them.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
 \pagebreak
 
 ## Occultist Pursuit
-Occultists research the obscure practitioners of mystical arts, from witches to shamans to sorcerers. Those scholars who choose the Occultist Pursuit learn to harness these magics to bewitch and confound their enemeies. 
+Occultists research the obscure practitioners of mystical arts, from witches to shamans to sorcerers. Those scholars who choose the Occultist Pursuit learn to harness these magics to bewitch and confound their enemies. 
 
-### Rancor's Disposition
+### Theurgic Research
 _**Occultist Pursuit:** 3rd level_<br>
-When you use a scholar class feature, or a feature of this archetype, and that feature references your Intelligence modifier or score, you can substitute your choice of Wisdom or Charisma instead.
+You gain proficiency in the Lore and Nature skills. Additionally, you can't have disadvantage on checks you make with them.
 
 ### Curse of Objurgation 
 _**Occultist Pursuit:** 3rd level_<br>
@@ -4352,14 +4421,14 @@ When another creature attempts to charm or frighten you or an ally you can see w
 When a creature you can see within 30 feet of you is reduced to 0 hit points, you can use your reaction and expend a superiority die to give that creature a final act of aggression. That creature can immediately move a number of feet equal to 5 times the result of the die and make a single weapon attack against a target of your choice within its attack range, adding the die to the attack roll.
 
 #### Water of Life
-When an allied creature within 30 feet that you can see takes damage, you can use a reaction and expend a superiority die and roll it. The ally regains a number of hit points equal to the roll + your Intelligence modifier.
+When an allied creature within 30 feet that you can see takes damage, you can use a reaction and expend a superiority die and roll it. The ally regains a number of hit points equal to the roll + your maneuver modifier.
 
 #### Wracking Torment
 When a hostile creature you can see within 30 feet would take damage from an effect you or a friendly creature controls, you can use your reaction and expend a superiority die to temporarily weaken their resilience against it. Until the end of the turn, the target loses resistance to the damage types of the triggering attack or power.
 
 ### Heightened Hex
 _**Occultist Pursuit:** 6th level_<br>
-When you use your Curse of Objurgation feature, each time the cursed creature deals damage to you or an allied creature you can see within 5 feet of you, the creature takes psychic damage equal to twice your Intelligence modifier (minimum of 2).
+When you use your Curse of Objurgation feature, each time the cursed creature deals damage to you or an allied creature you can see within 5 feet of you, the creature takes psychic damage equal to twice your Critical Analysis modifier (minimum of 2).
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -4411,7 +4480,7 @@ Additionally, when a creature attempts to use a power like *remove curse* or oth
 When you select this pursuit, you gain access to new discoveries which reflect your research on the occult. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
 
 #### Arcane Membrane
-You can add half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1) to any Intelligence (Lore) or Intelligence (Nature) checks you make.
+You have advantage on Intelligence (Lore) or Intelligence (Nature) checks.
 
 #### Evil Eye
 _**Prerequisite:** 5th level_<br>
@@ -4443,9 +4512,9 @@ At the end of a long rest, you can choose one creature you can see within 30 fee
 ## Slicer Pursuit
 Across the galaxy one can find numerous pseudonyms and false identities belonging to the hackers and cyber-infiltrators that call the world of electronics home. Those scholars who choose the Slicer Pursuit put their impressive intellectual prowess to work in the field of technology, to ends both benevolent and malicious.
 
-### Bonus Proficiencies
+### Hacker's Disposition
 _**Slicer Pursuit:** 3rd level_<br>
-You gain proficiency with the slicer's kit.
+You gain proficiency with slicer's kits and in the Technology skill. Additionally, you can't have disadvantage on checks you make with them.
 
 ### Techcasting
 _**Slicer Pursuit:** 3rd level_<br>
@@ -4483,7 +4552,9 @@ ___
 You use a wristpad (found in chapter 5 of the Player's Handbook) as a tech focus for your tech powers.
 
 ### Systems Hijack
-Also at 3rd level, when the target of your Critical Analysis is a droid or construct, or wearing or holding a techcasting focus, that creature is a viable target for any tech powers with you cast with a range of touch.
+Also at 3rd level, when the target of your Critical Analysis is a droid or construct, or wearing or holding a
+
+
 
 \columnbreak
 
@@ -4513,7 +4584,9 @@ Also at 3rd level, when the target of your Critical Analysis is a droid or const
 
 </div>
 
-&emsp;Additionally, when the target of your Critical Analysis casts a tech power, you can use your reaction to identify the tech power being cast, and at what level.
+techcasting focus, that creature is a viable target for any tech powers with you cast with a range of touch.
+
+Additionally, when the target of your Critical Analysis casts a tech power, you can use your reaction to identify the tech power being cast, and at what level.
 
 ### Additional Maneuvers
 _**Slicer Pursuit:** 3rd level_<br>
@@ -4525,17 +4598,15 @@ When a creature makes a saving throw against a tech power you cast, you may expe
 #### Fast Access Programs
 When you cast a tech power of 1st-level or higher that has a casting time of 1 action, you can expend a superiority die to change the casting time to 1 bonus action for this casting.
 
-#### Firewall
-When you or an ally you can see within 60 feet make a saving throw against a tech power, you can use your 
-
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
 \pagebreak
 
-reaction to expend a superiority die, adding the number rolled to the result of that saving throw.
+#### Firewall
+When you or an ally you can see within 60 feet make a saving throw against a tech power, you can use your reaction to expend a superiority die, adding the number rolled to the result of that saving throw.
 
 #### Hacked Communications
-As an action, you may expend a superiority die, and choose any number of creatures that you can see within 60 feet of you that have commlinks, headcomms, or other such communications devices. Each creature must succeed on a Constitution saving throw or take sonic damage equal to the number rolled on the dice + your Intelligence modifier (minimum of one). Additionally, on a failed save, their communication devices are disabled until rebooted.
+As an action, you may expend a superiority die, and choose any number of creatures that you can see within 60 feet of you that have commlinks, headcomms, or other such communications devices. Each creature must succeed on a Constitution saving throw or take sonic damage equal to the number rolled on the dice + your maneuver modifier (minimum of one). Additionally, on a failed save, their communication devices are disabled until rebooted.
 
 #### Overcapacity Powers
 When you cast a tech power of 1st-level or higher, you may expend a superiority die to cast the power at a higher level, provided is does not exceed your Maximum Power Level. Roll the superiority die, and add it to the level at which you are casting the power. You can choose to cast it at this new power level or lower.
@@ -4560,11 +4631,11 @@ Once you've used this feature, you must complete a long rest before you can use 
 _**Slicer Pursuit:** 17th level_<br>
 You know how to quickly activate anti-tech subroutines you have encoded into your wristpad. You can cast the *diminish tech* and *tech override* powers at 3rd level without expending tech points. If the target is the target of your Critical Analysis, you have advantage on the techcasting ability check for these powers.
 
-You can use this feature a number of time equal to half your Intelligence modifier (rounded down, a 
-
 \columnbreak
 
-minimum of once). You regain all expended uses when you finish a long rest.
+<div style='margin-top:16px'></div>
+
+&emsp;You can use this feature a number of time equal to half your Critical Analysis modifier (rounded down, a minimum of once). You regain all expended uses when you finish a long rest.
 
 ### Slicer Discoveries
 When you select this pursuit, you gain access to new discoveries which reflect your understanding of tech casting. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
@@ -4605,7 +4676,7 @@ Those scholars who choose the Zoologist Pursuit capitalize on their knowledge of
 
 ### Wilderness Expert
 _**Zoologist Pursuit:** 3rd level_<br>
-You gain proficiency in Animal Handling. Additionally, when you make a Wisdom (Animal Handling) check, you gain a bonus to the check equal to your Intelligence modifier.
+You gain proficiency in Animal Handling, and you have advantage on Wisdom (Animal Handling) checks. Additionally, you can't have disadvantage on Wisdom (Animal Handling) checks.
 
 ### Beast Companion
 _**Zoologist Pursuit:** 3rd, 11th, and 17th level_<br>
@@ -4616,7 +4687,7 @@ Create your beast companion as detailed in the Companions section of the Customi
 In addition to its traits and features, your beast companion gains additional benefits while it is bonded to you:
 - Your beast gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each beast trait in excess of your proficiency bonus, your number of available Hit Dice that can be spend to restore hit points is reduced by 1.
 
-Lastly, while bonded and within 10 feet of you, your beast companion gains a bonus to ability checks, armor class, attack rolls, damage rolls, and saving throws equal to half your Intelligence modifier (rounded up, minimum of +1).
+Lastly, while bonded and within 10 feet of you, your beast companion gains a bonus to ability checks, armor class, attack rolls, damage rolls, and saving throws equal to half your Critical Analysis modifier (rounded up, minimum of +1).
 
 This radius increases to 30 feet at 11th level, and 60 feet at 17th level.
 
@@ -4660,7 +4731,7 @@ _**Zoologist Pursuit:** 6th level_<br>
 Your beast companion's strikes count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage. Additionally, when your beast makes an attack roll, ability check, or saving throw, you may expend a superiority die and apply the benefits of a maneuver you know from this class, as if you had taken the action yourself.
 
 ### Bestial Agility
-_**Zoologist Pursuit:** 3rd level_<br>
+_**Zoologist Pursuit:** 9th level_<br>
 Your beast's reflexes and agility allow it to move with a burst of speed. When your beast moves on its turn in combat, it can double its speed until the end of the turn. Once its used this feature, it can't use it again until it moves 0 feet on one of its turns.
 
 ### Feral Ferocity
@@ -4668,7 +4739,7 @@ _**Zoologist Pursuit:** 17th level_<br>
 You have learned how to push your beast beyond its limits. If your beast is within 30 feet of you and can see or hear you, you can command it to enter a furious state. While raging, your beast gains the following benefits:
 - Your beast has advantage on Strength checks and Strength saving throws if it is size Medium or larger.
 - Your beast has advantage on Dexterity checks and Dexterity saving throws if it is size Small or smaller.
-- When your beast hits with an attack, it deals bonus damage equal to your Intelligence modifier.
+- When your beast hits with an attack, it deals bonus damage equal to your Critical Analysis modifier.
 - Your beast has resistance to kinetic and energy damage.
 
 Your beast's furious state lasts for 1 minute. It ends early if your beast is knocked unconscious. You can end your beast's furious state as a bonus action.
@@ -4731,7 +4802,7 @@ Create your turret companion as detailed in the Companions section of the Custom
 
 In addition to its traits and features, your turret companion gains additional benefits while it is bonded to you:
 - Your turret is a valid target of the *tracker droid interface* tech power.
-- Your turret gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each turret trait in excess of your proficiency bonus, your tech point maximum is<br> reduced by 1. Over the course of a long<br> rest, you can replace or remove a<br> number of turret traits equal to half<br> your Intelligence modifier (rounded<br> up, minimum of one).
+- Your turret gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each turret trait in excess of your proficiency bonus, your tech point maximum is<br> reduced by 1. Over the course of a long<br> rest, you can install, replace, or remove a<br> number of turret traits equal to half<br> your Intelligence modifier (rounded<br> up, minimum of one).
 - When you would make a weapon<br> attack, you can let your turret make<br> a weapon attack instead.
 
 Lastly, while your turret<br> is bonded, within 10 feet<br> of you, and the target of<br> your *tracker droid interface*<br> tech power, when you cast a<br> tech power with a range of 5<br> feet or greater, you can cast it as if<br> you were in your turret's space, and<br> the range increases to 10 feet if it<br> isn't greater.
@@ -4877,10 +4948,8 @@ Attack rolls made against you on your turn are made with disadvantage.
 </div>
 
 ### Shoot First
-_**Deadeye Technique:** 11th level_<br>
-You have learned that the person who shoots first is often the one who walks out alive. When you make a ranged weapon attack against a creature that has not yet acted during your first turn in combat and you have advantage on the roll, you can reroll one of the dice once.
-
-Additionally, on a hit, you deal an extra 1d6 damage of the same type as the weapon.
+_**Deadeye Technique:** 11th, 13th, and 17th level_<br>
+You have learned that the person who shoots first is often the one who walks out alive. When you make a ranged weapon attack against a creature that has not yet acted during your first turn in combat and you have advantage on the roll, you can reroll one of the dice once. Additionally, on a hit, you deal an extra 1d8 damage of the same type as the weapon. This damage increases to 1d10 at 13th level and 1d12 at 17th level.
 
 ### Overwatch
 _**Deadeye Technique:** 15th level_<br>
@@ -5175,7 +5244,7 @@ There may come a time when a sentinel finds themselves stranded, hunted, or in a
 
 ### Scavenger's Reach
 _**Path of the Corsair:** 3rd level_<br>
-You learn the *force disarm* force power, which does not count against your total powers known. Additionally, you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.
+You learn the *force disarm* force power, which does not count against your total powers known. Additionally, you can use Deflection and Slow Time Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* force power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.
 
 ### Corsair Weapons
 _**Path of the Corsair:** 3rd level_<br>

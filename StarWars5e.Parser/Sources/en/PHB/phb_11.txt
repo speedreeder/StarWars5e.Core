@@ -890,16 +890,6 @@ This power bolsters your allies with toughness and resolve. Choose up to three c
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.
 
-#### Force Blur
-_2nd-level universal power_
-___
-- **Prerequisite:** Force Mask 
-- **Casting Time:** 1 action
-- **Range:** Self
-- **Duration:** Concentration, up to 1 minute
-
-You use the Force to weave an illusion that blurs your form, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.
-
 #### Force Blind/Deafen
 _2nd-level light side power_
 ___
@@ -923,6 +913,18 @@ You use the Force to emit a blinding flash of light from your hand. Roll 6d10, t
 Starting with the creature that has the lowest current hit points, each creature affected by this power is blinded until the power ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for the creature to be affected.
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.
+
+\columnbreak
+
+#### Force Blur
+_2nd-level universal power_
+___
+- **Prerequisite:** Force Mask 
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** Concentration, up to 1 minute
+
+You use the Force to weave an illusion that blurs your form, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.
 
 #### Force Body
 _1st-level universal power_
@@ -1636,7 +1638,7 @@ ___
 - **Range:** Self (30-foot radius)
 - **Duration:** Instantaneous 
 
-You emit a violent scream imbued with the power of the Force. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw. On a failed save, a creature take 5d6 psychic damage, 5d6 sonic damage, is deafened, and is knocked prone. On a successful save, it takes half as much damage and isn't deafened or knocked prone.
+You emit a violent scream imbued with the power of the Force. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw. On a failed save, a creature take 5d6 psychic damage, 5d6 sonic damage, is deafened until the end of its next turn, and is knocked prone. On a successful save, it takes half as much damage and isn't deafened or knocked prone.
 
 #### Improved Heal
 _5th-level light side power_

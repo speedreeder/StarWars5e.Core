@@ -1,0 +1,345 @@
+
+
+# Chapter 9: Combat
+
+<img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:76px;width:35px' />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s the light freighter exits hyperspace, it finds<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; itself in the middle of a snubfighter skirmish. Immediately, the pilot begins evasive maneuvers while hollering for help. One crewmember hops into the copilot seat while two more run to opposite sides of the craft to man the gun batteries. Three of the snubfighters -- now identified as TIE fighters -- turn towards this new opponent and open fire, but the blasts dissipiate ineffectually on the freighter's shields. The freighter's two gunners, now in place, open fire on the assaulting craft. One takes the blasts directly to the cockpit and explodes in a blaze, while the other is hit on a solar panel and spins off out of control into the distance. The third attempts to pass overhead, but the copilot takes a shot from the freighter's slaved railgun and destroys the fighter in a single stroke.
+
+This chapter provides the rules you need for your characters and their craft to engage in space combat, whether it is a brief skirmish or an extended conflict. Throughout this chapter, the rules address you, the player or GM. The GM controls all the other ships and nonplayer characters involved in space combat, and each other player controls either their own ship or a function of your ship. "You" can also mean the character or ship you control.
+
+## The Order of Combat
+A typical combat encounter is a clash between two sides, a flurry of cannon shots and ship maneuvers. The game organizes the chaos of combat into a cycle of rounds and turns. A **round** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **turn.** The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.
+
+### Surprise
+An assault carrier exits hyperspace and immediately begins firing on its prey. Fighters rapidly exit bays to support and protect the craft. Their opponents, caught unawares, are slow to respond and take significant damage before mounting their defense. In this situation, one side of the battle gained surprise over the other.
+
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any ship that doesn't notice a threat is surprised at the start of the encounter.
+
+If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
+
+\columnbreak
+
+<div style='margin-top:20px'></div>
+
+> ##### Combat Step By Step
+> **&emsp;1. Determine surprise.** The GM determines whether anyone involved in the combat encounter is surprised.
+> 
+> **2. Establish positions.** The GM decides where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
+> 
+> **3. Roll initiative.** Everyone involved in the combat encounter rolls initiative normally, determining the order of combatants' turns.
+> 
+> **4. Take turns.** Each participant in the battle takes a turn in initiative order.
+> 
+> **5. Begin the next round.** When everyone involved in the combat has had a turn, the round ends. Repeat step 4 until the fighting stops.
+
+### Your Role On Your Turn
+Your abilities depend on where you are deployed during space combat. In a snubfighter, you control all aspects of your craft: movement and maneuvering, weapons, operation, and engines. In a larger craft, however, your abilities are dependent on your role in the ship. You may be a gunner, a pilot, or a support crew member. The amount of control you have varies accordingly.
+
+The "Movement and Position" section later in this chapter gives the rules for your move.
+
+#### Actions
+The actions available to you depend on where you are deployed at a given time. You might be firing a weapon, manipulating the engines, or interacting with a control panel. 
+
+#### Bonus Actions
+Various class or deployment features, powers, and other abilities let you take an additional action on your turn called a bonus action. You can only take a bonus action if some feature gives you one, and you can only take one bonus action on each of your turns.
+
+#### Other Activity on Your Turn
+Your turn can include a variety of flourishes that require neither your action nor your move.
+
+You can communicate however you are able, through brief utterances and gestures, as you take your turn.
+
+You can also interact with one object or feature of the environment for free, during either your move or your action.
+
+#### Reactions
+Certain features allow you to take a reaction. A reaction is an instant response to a trigger of some kind, which can occur any turn.
+
+When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+## Movement and Position
+In combat, ships are in constant motion, often using movement and position to gain the upper hand.
+
+On your turn, you can move a distance up to your speed. You can use as much or as little of your speed as you like on your turn, following the rules here.
+
+Sometimes it's important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: **flying speed** and **turning speed**. 
+
+### Flying Speed
+**Flying speed** is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels, it expends one foot from its speed.
+
+### Turning Speed
+**Turning speed** determines how maneuverable your ship is. In order for your ship to turn 90 degrees, you must spend an amount of your **flying speed**. The amount you must spend equals your **turning speed**. For instance, if your ship has a **flying speed** of 350 feet, and a **turning speed** of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your **flying speed**, and then turn 90 degrees to starboard, spending 100 feet of your **flying speed**, leaving 100 feet of movement remaining.
+
+A ship can turn more or less than 90 degrees on its turn, by spending a proportionate amount of movement.
+
+> #### Variant: Playing on a Grid
+> If you play out a combat using a square grid and miniatures or other tokens, follow these rules.
+> 
+> ***Squares.*** Each square on the grid represents 50 feet.
+> 
+> ***Speed.*** Rather than moving foot by foot, move square by square on the grid. This means you use your speed in 50-foot segments. This is particularly easy if you translate your speed into squares by dividing the speed by 50. For example, a speed of 300 feet translates into a speed of 6 squares.
+> 
+> If you use a grid often, consider writing your speed in squares on your character sheet.
+> 
+> ***Entering a Square.*** To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to the square you're in (discussed below). 
+> 
+> ***Corners.*** Diagonal movement can't cross the corner of an asteroid or other terrain feature that fills its space.
+> 
+> ***Ranges.*** To determine the range on a grid between two things—whether ships or objects—start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
+>
+> ***Diagonals.*** When measuring range or moving diagonally, the first diagonal square counts as 50 feet, but the second diagonal square counts as 100 feet. This pattern of 50 feet and then 100 feet continues whenever you're counting diagonally, even if you move horizontally or vertically between different bits of diagonal movement. For instance, a ship might move one square diagonally (50 feet), then three squares straight (150 feet), and then another square diagonally (100 feet) for a total movement of 300 feet.
+
+\columnbreak
+
+<div style='margin-top:26px'></div>
+
+### Breaking Up Your Move
+You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 300 feet, you can move 100 feet, take your action, and then move 200 feet.
+
+#### Moving Between Attacks
+If you take an action that includes more than one ship attack, you can break up your movement even further by moving between those attacks. For example, a ship that can make two attacks and that has a speed of 300 feet could move 100 feet, make an attack, move 200 feet, and then attack again.
+
+### Difficult Terrain
+Combat rarely takes place in featureless terrain. Asteroid fields, mountain ranges, tight formations—the setting of a typical fight contains difficult terrain.
+
+Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain.
+
+The space of another ship, whether hostile or not, counts as difficult terrain.
+
+### Moving Around Other Ships
+You can move through a nonhostile ship's space. In contrast, you can move through a hostile ship's space only if the ship is at least two sizes Larger or smaller than you. Remember that another ship's space is difficult terrain for your ship.
+
+Whether a ship is a friend or an enemy, you can't willingly end your move in its space.
+
+### Ship Size
+Each ship takes up a different amount of space. The Size Categories table shows how much space a ship of a particular size controls in combat. Objects sometimes use the same categories.
+
+#### Size Categories
+|Size|Space|
+|:--|:--|
+|Tiny|Up to 25 ft.|
+|Small|25 to 50 ft.|
+|Medium|50 to 250 ft.|
+|Large|250 to 2,500 ft.|
+|Huge|2,500 to 25,000 ft.|
+|Gargantuan|25,000 ft. or larger|
+
+> #### Variant: Sizes on a Grid
+> If you play out combat using a square grid and miniatures or other tokens, consider scaling down the sizes of ships. A Tiny or Small ship should take up 1 square, while a Medium ship takes up 2. A Large ship takes up 4 squares, a Huge 8, and a Gargantuan 16.
+
+#### Space
+A ship's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium ship isn't 100 feet wide, for example, but it does control a space that wide.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+## Actions in Combat
+When you take your action on your turn, you can take one of the actions presented here (as appropriate for your deployment), an action you gained from your class, specialization, or some other feature, or an action that you improvise. 
+
+When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
+
+### Attack
+The most common action to take in combat is the Attack action. With this action, you can make an attack (or attacks) with one ship weapon you can reach. See the "Making an Attack" section for the rules that govern attacks. Once a ship weapon has been fired, it can't be fired again until the start of the deployed gunners turn. Only a deployed gunner can take the Attack action.
+
+### Cast a Power
+As normal, you can cast force or tech powers. You can not target a hostile creature with a power unless you are aware of their presence and location. Any deployed crew member take the Cast a Power action.
+
+### Direct
+When you take the Direct action, the creature gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature within 5 feet of you in attacking another target. If your ally attacks the target before the start of your next turn, the first attack roll is made with advantage. Only a deployed coordinator can take the Direct action.
+
+### Evade
+When you take the Evade action, you make an Intelligence (Piloting) check contested by a target's Intelligence (Piloting) check. On a success, the first attack roll the target makes against you before the start of your next turn has disadvantage. On a failure, the first attack roll made by your ship against the target before the start of your next turn has disadvantage. Only a deployed pilot can take the Evade action.
+
+### Hide
+When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide your ship, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter. Only a deployed pilot can take the Hide action.
+
+### Interfere
+You can attempt to interfere with another creature within 1,000 feet that is deployed on a ship, if you are aware of their presence and location, in the attempt of a task. When you take the Interfere action, you make an Intelligence (Technology) check contested by the
+
+\columnbreak
+
+<div style='margin-top:29px'></div>
+
+target's Intelligence (Technology) check. If you succeed, the subject has disadvantage on the next ability check or attack roll it makes before the start of your next turn. Only a deployed operator can take the Interfere action.
+
+### Patch
+You can attempt to patch up damage a ship has taken, using one of its Hit Dice. When you take the Patch action, you make an Intelligence (Mechanic's Kit) check (DC = 10 or half the ship's missing hit points, whichever number is higher). On a failure, you roll the Hit Die twice and take the lesser amount. On a success you roll the Hit Die normally. Only a deployed mechanic can take the Patch action.
+
+### Ram
+You can attempt to ram another ship while flying through its space. As an action, you can force the opposing pilot to make a Dexterity saving throw (DC = 8 + the pilot's proficiency bonus + the ship's Strength modifier). On a failed save, both you and the target ship take kinetic damage equal to two of your ship's Hit Dice + your ship's Strength modifier. If your ship has shield points remaining, your ship instead takes half this damage. If the target ship is larger than your ship, it has disadvantage on the saving throw. If the target ship is smaller than your ship, it instead has advantage. Only a deployed pilot can take the Ram action.
+
+### Ready
+Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction. Any deployment can take the Ready action.
+
+First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger. For instance, "When the starfighter comes into range, I'll shoot it with my railgun." 
+
+When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.
+
+### Search
+When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check. Any deployment can take the Search action.
+
+### Use an Object
+When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn. Any deployment can take the Use an Object action.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+## Making an Attack
+Whether you're shooting your laser cannons or a railgun, an attack has a simple structure.
+
+**1. Choose a target.** Pick a target within your attack's range: a ship, an object, or a location.
+
+**2. Determine modifiers.** The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
+
+**3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
+
+### Attack Rolls
+When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20, add your proficiency bonus (if proficient), the ship's Dexterity modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits. 
+
+If you are proficient with any martial weapons, you are considered proficient with a ship's weapons.
+
+#### Rolling 1 or 20
+Sometimes fate blesses or curses a gunner, causing the novice to hit and the veteran to miss. 
+
+If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. In addition, the attack is a critical hit, as explained later in this chapter.
+
+If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
+
+#### Range
+You can make ranged attacks only against targets within a specified range.
+
+Ship weaponry typically has two ranges. The value of these ranges depends on the type of weapon (primary, secondary, or tertiary), as described in Chapter 5.
+
+#### Ranged Attacks in Close combat
+Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a ship weapon, a power, you have disadvantage on the attack roll if you are within 50 feet of your target.
+
+### Firing Arc
+Ships have a firing arc, which is determined by the hardpoint on which they are mounted. Fixed hardpoints offer a limited firing arc, while turret hardpoints have an unlimited firing arc.
+
+#### Limited Firing Arc
+Many weapons, such as forward- or rear-mounted laser cannons, can only fire in a single direction, indicated by a limited firing arc. These weapons can
+
+\columnbreak
+
+<div style='margin-top:29px'></div>
+
+only fire at targets within a cone, with the weapon's fixed hardpoint as the cone's point of origin. The cone's width at a given point along its length is equal to that points distance from the point of origin. 
+
+#### Unlimited Firing Arc
+Weapons with an unlimited firing arc can fire at any target within range and line of sight.
+
+### Saving Throws
+While many weapons utilize an attack roll, tertiary and quaternary weapons, as well as primary and secondary weapons on Large and larger ships, instead call for a saving throw. The saving throw is calculated as follows:
+
+___
+
+<div align='center'>
+
+**Weapon save DC** = 8 + the gunner's proficiency bonus (if proficient) + the ship's Dexterity modifier
+
+</div>
+
+___
+
+### Damage Rolls
+Each ship weapon specifies the damage it deals. You roll the damage die or dice, add the ship's Strength modifier, and apply the damage to your target. Higher quality weapons, special abilities, and other factors can grant a bonus to damage.
+
+#### Critical Hits
+When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
+
+#### Damage Types
+Starship combat relies on four different damage types.
+
+***Energy.*** The most common type of damage done by primary ship weapons, dealing normal damage to armor and shields.
+
+***Kinetic.*** The most common type of damage done by secondary ship weapons, dealing normal damage to armor and shields. Additionally, when ships collide with eachother or debris, they deal kinetic damage.
+
+***Pulse.*** Pulse damage is more effective against shields than armor. Shields take double damage from pulse weapons, while armor takes half.
+
+***Thermite.*** Thermite damage is more effective against armor than shields. Armor takes double damage from thermite weapons, while shields take half.
+
+### Damage Resistance and Vulnerability
+Some ships might have resistance or vulnerability to a damage type. If a ship has resistance to a damage type, damage of that type is halved against it. If a ship has vulnerability to a damage type, damage of that type is doubled against it.
+
+Resistance, and then vulnerability, are applied after all other modifiers to damage. Multiple instances of resistance or vulnerability that affect the same damage type count only as one instance.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+## Cover
+Asteroids, ships, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.
+
+There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a ship that gives half cover and an asteroid that gives three-quarters cover, the target has three-quarters cover.
+
+A target with **half cover** has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of it. 
+
+A target with **three-quarters cover** has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is covered by an obstacle. 
+
+A target with **total cover** can't be targeted directly by an attack, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
+
+\columnbreak
+
+## Damage and Repairs
+Space combat is lethal, and players always run a risk by engaging in it. A well placed cannon shot, a proton torpedo, or a seismic charge all have the potential to damage, or outright destroy, a ship.
+
+### Hit Points
+Hit points represent a ship's hull integrity. A ship's current hit points (usually just called hit points) can be any number from the ship's hit point maximum down to 0. This number changes frequently as a ship takes damage or receives repairs.
+
+Whenever a ship takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a ship's capabilities until the ship drops to 0 hit points.
+
+### Shield Points
+Often, a ship will have a buffer of energy called a shield. Ship's equipped in such a way of shield points in addition to hit points.
+
+Whenever a ship with shield points takes damage, the shield takes the damage instead. If this damage reduces the ship's shield points to 0, the hull takes any remaining damage. For instance, if your ship has 5 shield points and takes 7 damage, your ship loses its shield points and then take 2 damage to your ship's hit points.
+
+### Repairs
+Damage to hulls is permanent until repaired. Small repairs can happen while the ship is still in space, but significant repairs require docking in an appropriate location, as discussed in Chapter 8.
+
+When a ship receives repairs of any kind, hit points regained are added to its current hit points. A ship's hit points can't exceed its hit point maximum.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+### Dropping to 0 Hit Points
+When a ship is reduced to 0 hit points, it is either destroyed or disabled. If the ship is not instantly destroyed, the ship suffers 1 level of system damage and becomes disabled.
+
+> ##### Describing the Effects of Damage
+> GMs describe hit point loss in different ways. When your ship's current hit point total is half or more of your hit point maximum, it typically shows no signs of damage. When it drops below half its hit point maximum, you show signs of wear, such as electrical fires or dislodged machinery. An attack that reduces your ship to 0 hit points strikes directly, leaving a massive hole or otherwise disables the ship.
+
+#### Instantly Destroyed
+Massive damage can destroy a ship instantly. When damage reduces a ship to 0 hit points and there is damage remaining, the ship explodes if the remaining damage equals or exceeds its hit point point maximum.
+
+#### Destruction Saving Throws
+At the start of the pilot's turn, if the ship has 0 hit points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn't tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success has no effect by itself; on your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
+
+***Rolling 1 or 20.*** When you make a destruction saving throw and roll a 1 on the d20, it counts as two failures, causing 2 levels of system damage. If you roll a 20 on the d20, your ship regains 1 hit point.
+
+***Damage at 0 Hit Points.*** If your ship takes any damage while it has 0 hit points, it suffers 1 level of system damage. If the damage is from a critical hit, it suffers 2 levels of system damage instead. If the damage equals or exceeds its hit point maximum, it is instantly destroyed.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
+#### Stabilizing a Ship
+The best way to stablize a ship with 0 hit points is to repair it. If repairs are unavailable, the ship can at least be stabilized so that it isn't killed by a failed destruction saving throw.
+
+A deployed mechanic can use their action to attempt repairs on a disabled ship and attempt to stabilize it, which requires a successful DC 10 Intelligence (Mechanic's Kit) check.
+
+A **stable** ship doesn't make destruction saving throws, even though it has 0 hit points, but it does remain disabled. The ship stops being stable, and must start making destruction saving throws again, if it takes any damage. A stable ship that isn't repaired regains 1 hit point after 1d4 hours.
+
+#### Ships and Destruction
+Most GMs have a ship explode the instant it drops to 0 hit points, rather than disabling it and having it make destruction saving throws. Special ships are common exceptions; the GM might have them be disabled and follow the same rules as player ships.
+
+### Disabling a Ship
+Sometimes an attacker wants to incapacitate a ship, rather than destroy it. When an attacker reduces a ship to 0 hit points with a primary weapon, the attacker can disable the ship. The attacker can make this choice the instant the damage is dealt. The ship is disabled and stable.
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum

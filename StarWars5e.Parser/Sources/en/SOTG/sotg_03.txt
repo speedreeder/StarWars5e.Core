@@ -4,7 +4,7 @@
 
 <img src='https://www.gmbinder.com/images/4mYR4C0.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;haracters are nothing without their ships, which<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; serve as a great source of inspiration and motivation for their adventures. The starship can even be the adventure itself.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;haracters are nothing without their ships, which<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;serve as a great source of inspiration and motivation for their adventures. The starship can even be the adventure itself.
 
 The first step is acquisition.
 
@@ -20,7 +20,7 @@ The most nefarious (and frankly most enjoyable) way to acquire a starship is to 
 ### Purchasing
 The most common method of acquiring a ship is by purchasing. The cost of a brand new "stock" starship can be found below, on the Starship Size Stock Cost table.
 
-#### Starship Size Stock Cost
+##### Starship Size Stock Cost
 | Starship Size | Tier 0 Cost&emsp;&emsp;&emsp;|
 |:----:|----:|
 | Tiny  | 10,000 cr&emsp;&emsp;&emsp;&emsp;|
@@ -46,10 +46,10 @@ Alternatively, the party may be granted the favor of working for a specific weal
 As a less appealing (but potentially more interesting) option, the party could seek out a loan shark or an affluent gangster to finance a ship's acquisition. This usually requires less money up front, but requires steeper loan payments (typically 10% of the starship's cost each month for 3 years).
 
 ### Building a Ship
-Some players might prefer to build a ship instead. Building a ship is generally cheaper than buying it, but requires substantially more effort and patience; building takes time and necessitates use of a shipyard and a substantial workforce. If players elect to build a stock starship instead of purchasing one, it requires half the cost of the finished ship in facilities, labor costs, and raw materials. Additionally, it requires a minimum workforce as shown below on the Starship Size Construction Workforce table.
+Building a ship is generally cheaper than buying it, but requires substantially more effort and patience; building takes time and necessitates use of a shipyard and a substantial workforce. If players elect to build a stock starship instead of purchasing one, it requires half the cost of the finished ship in facilities, labor costs, and raw materials. Additionally, it requires a minimum workforce as shown below on the Starship Size Building Workforce table. Ship construction also has a maximum practical workforce equal to five times its minimum.
 
-#### Starship Size Construction Workforce
-| Starship Size | Minimum Workforce |
+##### Starship Size Building Workforce
+| Starship<br> Size | Minimum<br> Workforce |
 |:----:|:----:|
 | Tiny  | 3 |
 | Small  | 5 |
@@ -72,30 +72,31 @@ ___
 
 For instance, to build a Small ship, with a workforce of 5, would take 20 days. To build a Huge ship, with a workforce of 1,000, however, would take 200 days [100,000,000 / (500 x 1,000)].
 
-It is assumed that each member of the workforce works 8 hours per day.
+It is assumed each member of the workforce works 8 hours per day.  A workforce more than double the min-imum workforce must work in shifts for further gains.
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
 ## Upgrading a Starship
-Once the party has acquired a ship, they can upgrade it over time. Upgrading a ship is a matter of workforce, time, and skill. This assumes the starship you are upgrading is otherwise fully functional (has no missing hit points or damaged systems), the requisite resources and tools are freely available, and you are docked at a spaceport or shipyard. Under less optimal conditions the time, money and skill required could be increased by as much as 100%, and the GM may decide that an upgrade is impossible in these circumstances.
+Once the party has acquired a ship, they can upgrade it over time. Upgrading a ship is a matter of workforce, time, and skill. This assumes the starship you are upgrading is otherwise fully functional (has no missing hull points or damaged systems), the requisite resources and tools are freely available, and you are docked at a spaceport or shipyard. Under less optimal conditions the time, money and skill required could be increased by as much as 100%, and the GM may decide that an upgrade is impossible in these circumstances.
 
-In addition to the cost of modifications and equipment, players can invest credits into their starships, eventually hitting certain thresholds that improve the tier of the ship.  Achieving higher tiers requires scarcer materials, restricted schematics, and master craftsmen; consequently, it costs more credits As a player increases the tier of their starship, they unlock additional Hit Dice, additional modification slots, and unique size-specific features. The number of credits a party must invest in their ship varies based on the tier they are trying to obtain, as show below in the Base Upgrade Cost by Tier table.
+In addition to the cost of modifications and equipment, players can invest credits into their starships, eventually hitting certain thresholds that improve the tier of the ship.  Achieving higher tiers requires scarcer materials, restricted schematics, and master craftsmen; consequently, it costs more credits As a player increases the tier of their starship, they unlock additional Hull and Shield Dice, and unique size-specific features. The number of credits a party must invest in their ship varies based on the tier they are trying to obtain, as show below in the Base Upgrade Cost by Tier table.
 
-#### Base Upgrade Cost by Tier
-| Starship Tier | Cost in Credits |
-|:----:|:----:|
-| 1 | 3,900 |
-| 2 | 77,500 |
-| 3 | 297,000 |
-| 4 | 620,000 |
-| 5 | 1,150,000 |
+##### Base Upgrade Cost by Tier
+| Tier | Cost in Credits | Description of Rarity |
+|:----:|:----:|:----|
+| 0 | 0         | Mass Production (Standard) |
+| 1 | 3,900     | Modified (Premium) |
+| 2 | 77,500    | Fully Customized (Prototype) |
+| 3 | 297,000   | Highly Sophisticated (Advanced) |
+| 4 | 620,000   | State of the Art (Legendary) |
+| 5 | 1,150,000 | Unique (Artifact) |
 
 ### Cost Modifiers
 It costs more to upgrade the hull of a capital ship than the hull of a starfighter; bigger starships are simply costlier to improve. Consequently, each starship has a cost modifier depending on the ship's size, as shown in the Starship Size Upgrade Cost table below, which is multiplied by the value for that tier in the Base Upgrade Cost by Tier table.
 
-#### Starship Size Upgrade Cost
+##### Starship Size Upgrade Cost
 | Starship Size | Cost Modifier |
 |:----:|:-------------|
 | Tiny  |&emsp;&emsp;x 0.5 |
@@ -103,22 +104,22 @@ It costs more to upgrade the hull of a capital ship than the hull of a starfight
 | Medium |&emsp;&emsp;x 2 |
 | Large |&emsp;&emsp;x 10 |
 | Huge |&emsp;&emsp;x 100 |
-| Gargantuan |&emsp;&emsp;x 1,000 |
+| Gargantuan |&emsp;&emsp;x 1,000 | 
 
 For instance, to upgrade a Small size ship from Tier 0 to Tier 1, it costs 3,900 credits. To upgrade a Huge size ship from Tier 2 to Tier 3, however, it costs 29,700,000 (297,000 x 100).
 
-\columnbreak
+\columnbreak 
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div> 
 
 ### Upgrade Workforce
 Additionally, bigger ships require more people to perform these upgrades. For a Small ship, a single person can do everything necessary (though additional workers will reduce the time taken), while a Medium or larger ship requires a more extensive workforce, as shown below in the Starship Size Upgrade Workforce table below.
 
-#### Starship Size Upgrade Workforce
+##### Starship Size Upgrade Workforce
 | Starship Size | Minimum Workforce |
 |:----:|:----:|
-| Tiny  | 2 |
-| Small  | 3 |
+| Tiny  | 1 |
+| Small  | 1 |
 | Medium  | 5 |
 | Large  | 50 |
 | Huge | 500 |
@@ -152,43 +153,69 @@ Once players have upgraded a ship to tier 1 or higher, they unlock additional fe
 
 \pagebreakNum
 
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/779047423506251826/latest.png' style='position:absolute;top:-100px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div style='margin-top:550px'></div> 
+
 ## Tiny Ships
 
-<span style="font-variant: small-caps">flavor text</span>  
+<span style="font-variant: small-caps">As the droid fighter ducked and weaved through flying </span>  
+blaster bolts and dodged the occasional flak, its optical sensors continued to become more and more occluded as they accumulated a dark haze of dust and smoke.  Switching to active radar systems, the droid continued to relentlessly pursue its target: the fleeing Jedi and its small padawn that was barely larger than a youngling. Not that it mattered.  Whether either target continued to draw breath a few seconds from now didn't really matter to the droid.  Of course, that cessation was its goal, but it didn't really care about that goal...it's just what it was doing.  What it had to do.  But not exactly what it *wanted* to do.  The droid passed power from its fully charged weapon's capacitors into its guns, which blazed to life and spewed plasma towards the small child's back.  It was a perfect shot.  How could it not be.  That's what it did.  Then the Jedi's own plasma weapon flared as it darted across the youngling's back, deflecting the droid's blasts directly back at it.  Of course, *that* is what *Jedi's* did.  And as the bolts tore through the droid ship's hull, into its main computer banks, across its power banks and out its engines, the droid's final computations let it know that it was plummeting to the earth at terminal velocity.  It's just what it was doing.  What it now had to do.  But not exactly what it *wanted* to do.
 
+\columnbreak
+
+<div style='margin-top:572px'></div>
+
+The small drone slips silently past the blockade, scanning the defensive formations as it goes.  The only chance to save the people on embattled Neth-Feeno was to coordinate a supply drop with them.  This little, remote-controlled stealth ship was their only hope.  It had to reach the surface to get the plan and maps through.  Then it had to return with a full readout of the defenses.  Only then could a distracting assault be planned to cover the air drop.  As the tiny craft floated past the final sensor pod mounted right next to the final turret canon, the monitoring crew let out a sigh, and wiped sweat from their brows.  As their screens, already more static than signal, winked out as the craft's transmissions were cut-off as it passed completely into the black-out zone, the team leader turned to his squad and said, "May the force be with us today."
 
 One thing all Tiny starships have in common is that they are unmanned. Sometimes they are controlled remotely, but more often they are controlled by droids.
+
+\pagebreakNum
+
+<img src='https://cdn.discordapp.com/attachments/702243796599177216/781703060916535296/Droid_Trifighter2.png' style='position:absolute;top:050px;right:160px;width:500px;z-index:1000;transform:rotate(25deg)scaleX(-1)' />
+
+<div style='margin-top:382px'></div>
+
+
 
 ## Starship Features
 As a Tiny starship, it gains the following starship features at tier 0.
 
-#### Ability Scores
+#### Ability Score Adjustments
 ___
-- **Strength at Tier 0:** 8 (-1)
-- **Dexterity at Tier 0:** 18 (+4)
-- **Constitution at Tier 0:** 8 (-1)
+- **Dexterity** +4
+- **Constitution** -4
 
-#### Hit Points
+#### Hull Points
 ___
-- **Hit Dice at Tier 0:** 1d4
-- **Hit Points for 1st Hit Die:** 4 + your ship's Constitution modifier
-- **Hit Points for subsequent Hit Die:** 1d4 (or 3) + your ship's Constitution modifier per Hit Die after 1st
+- **Hull Dice at Tier 0:** 1d4
+- **Hull Points for 1st Hull Die:** 4 + your ship's Constitution modifier
+- **Hull Points for subsequent Hull Die:** 1d4 (or 3) + your ship's Constitution modifier per Hull Die after 1st
+
+#### Shield Points
+___
+- **Shield Dice at Tier 0:** 1d4
+- **Shield Points for 1st Shield Die:** 4 + your ship's Strength modifier
+- **Shield Points for subsequent Shield Die:** 1d4 (or 3) + your ship's Strength modifier per Shield Die after 1st
 
 #### Modifications
 ___
 - **Maximum Suite Systems:** —
-- **Modification Slots at Tier 0:** 2
-- **Stock Modifications:** Droid Brain
+- **Base Modification Capacity:** 10
+- **Stock Modifications:** Droid Brain, Makeshift
 
-#### Proficiencies
+#### Proficiently Equipped
 ___
-- **Saving Throws:** Dexterity
+- **Saving Throws:** Dexterity, Intelligence
 
 #### Equipment
 ___
-- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor
+- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor.  Your choice of fuel cell reactor, ionization reactor, or power core reactor.  Your choice of direct power coupling, distributed power coupling, or hub & spoke power coupling.
 
 \columnbreak
+
+<div style='margin-top:382px'></div>
 
 <div class='classTable'>
 
@@ -207,58 +234,86 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can't increase your Strength or Constitution above 20, or your Dexterity above 26, with this feature.
+At 1st tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Dexterity above 20, or your Dexterity above 24, with this feature.
 
-#### Additional Hit Dice
-Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+#### Additional Hull and Shield Dice
+Your ship gains 1 additional Hull Die and one additional Shield Die. It gains 1 additional Hull Die and one additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).
 
-#### Additional Modifications
-Your ship gains 1 additional modification slot. It gains 1 additional modification slot at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
+<img src='https://i.pinimg.com/originals/c7/c5/87/c7c5879a7505d20a89532de9e0866594.jpg' style='position:absolute;top:00px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div style='margin-top:600px'></div> 
+
 ## Small Ships
 
-<span style="font-variant: small-caps">flavor text</span>  
+<span style="font-variant: small-caps">As the fighters cover his approach, Zik Beskin activates his </span>  
+targeting computer and ignores the explosions surrounding him, instead Focusing on the Destroyer's shield generator.  It had to come down soon, or this fight was lost. Arsix, behind him, beeps and whirs, preparing the ion pulse missiles for the attack run, pre-warming their engines and arming the warheads.  Together a long time now, Beskin and Arsix had spilled their share of blood and oil, respectively, for the Rebellion--usually just while improving their ancient Y-wing. But today, the blood and oil spilt wouldn't be their own.  As Zik let fly a pair of missiles, he knew they would find their target. Today wasn't over just yet.
 
-Bomber
+ 
 
-Interceptor
+This was her fourth sortie of the day, and Sheena was tired.  The terrorists just kept coming.  Every time she was about to shut her eyes a new wave of the Rebels came.  And every time they did, she rushed to her TIE Interceptor and joined the alert fighters to take the fighters down before they could blow a hole in the planet's defenses.  Every time they retreated before suffering heavy losses.  But every time they came back.  This last time she had decided to just nap in the cramp-
 
-Strike Fighter
+\columnbreak
 
-overview
+<div style='margin-top:624px'></div>
+
+ ed cockpit, so when the claxon rang out, she and her ship were basically ready to fly.  This time she was go-ing to end them quickly.  As she repeatedly squeezed her trigger, she executed Koiogran turns and snap rolls galore, her laser blasts striking true, and the debris of A-wings, X-wings, and B-Wings--along with some frozen traitor remains--floated in space the next few days.  At night, she leaned back against her beau, sipping some wine and watch-ing the beautiful streaks of light cross the sky as, piece by piece, the wreckage burned up in the atmosphere during reentry.
+
+R5-S1 locked down the loose stabilizer with his gripper arm as he angled the X-Wing's deflector shields.  This ship took a firm gripper to get under control, but R5-S1 was up to the task.  As his pilot, Veets, fired his last blast from the overheating cannons on the deployed s-foils, R5-S1 did the work of cooling off the guns, spooling up the hyperdrive, and running the calculations for lightspeed.  It was time to go.
+
+Small ships have a tiny crew, often only a pilot and perhaps an astromech, but often strike above their weight class, a threat to small and large ships alike.
+
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
 
 ## Starship Features
 As a Small starship, it gains the following starship features at tier 0.
 
-#### Ability Scores
+#### Ability Score Adjustments
 ___
-- **Strength at Tier 0:** 10 (+0)
-- **Dexterity at Tier 0:** 16 (+3)
-- **Constitution at Tier 0:** 10 (+0)
+- **Dexterity** +2
+- **Constitution** -2
 
-#### Hit Points
+#### Role
 ___
-- **Hit Dice at Tier 0:** 3d6
-- **Hit Points for 1st Hit Die:** 6 + your ship's Constitution modifier
-- **Hit Points for subsequent Hit Die:** 1d6 (or 4) + your ship's Constitution modifier per Hit Die after 1st
+- **Bomber:** +1 Wisdom
+- **Interceptor:** +1 Dexterity
+- **Scout:** +1 Intelligence
+- **Scrambler:** +1 Charisma
+- **Shuttle:** +1 Constitution 
+- **Strike Fighter:** +1 Strength
+
+#### Hull Points
+___
+- **Hull Dice at Tier 0:** 3d6
+- **Hull Points for 1st Hull Die:** 6 + your ship's Constitution modifier
+- **Hull Points for subsequent Hull Die:** 1d6 (or 4) + your ship's Constitution modifier per Hull Die after 1st
+
+#### Shield Points
+___
+- **Shield Dice at Tier 0:** 3d6
+- **Shield Points for 1st Shield Die:** 6 + your ship's Strength modifier
+- **Shield Points for subsequent Shield Die:** 1d6 (or 4) + your ship's Strength modifier per Shield Die after 1st
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** —
-- **Modification Slots at Tier 0:** 5
-- **Stock Modifications:** One Fixed Hardpoint
+- **Maximum Suites (minimum of 0):** -1 + your ship's Constitution modifier
+- **Base Modification Capacity:** 20
+- **Stock Modifications:** One Fixed Hardpoint, Your choice of Astromech Socket or Flight Computer
 
-#### Proficiencies
+
+#### Proficiently Equipped
 ___
-- **Saving Throws:** Strength or Dexterity
+- **Saving Throws:** Strength, Dexterity
 
 #### Equipment
 ___
-- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor
+- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; your choice of fuel cell reactor, ionization reactor, or power core reactor; your choice of direct power coupling, distributed power coupling, or hub & spoke power coupling.
 
 \columnbreak
 
@@ -267,7 +322,7 @@ ___
 ##### Small Ships
 | Tier |  Features |
 |:---:|:---|
-| 1st |  Starship Improvements, Astromech Synergy | 
+| 1st |  Starship Improvements, Pinpoint Strike | 
 | 2nd |  Role Specialization, Retro Thrusters |  
 | 3rd |  Versatile Snubfighter, Maneuvering Jets |  
 | 4th |  Role Mastery, Standing By |  
@@ -279,22 +334,21 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can't increase your Strength or Constitution above 20, or your Dexterity above 24, with this feature.
+At 1st tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Dexterity above 20, or your Dexterity above 22, with this feature.
 
-#### Additional Hit Dice
-Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+#### Additional Hull and Shield Dice
+Your ship gains 1 additional Hull Die and one additional Shield Die. It gains 1 additional Hull Die and one additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).
 
-#### Additional Modifications
-Your ship gains 1 additional modification slot. It gains 1 additional modification slot at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+### Pinpoint Strike
+Also at 1st tier, your starship gains the ability to slip underneath the shields of an enemy ship.
 
-### Astromech Synergy
-Also at 1st tier, your starship gains an interface slot suited for an astromech droid. 
+When your ship occupies the same square occupied by a target ship and the pilot makes an attack roll, as a reaction, the pilot can, before rolling the attack, roll a Pinpoint Strike die, which is a d4, and add it to the attack roll.  If the attack requires a saving throw instead, you may subtract the Pinpoint Strike die from the target's save result.  On a hit, the attack deals normal damage that bypasses any shields and directly hits the hull of the target ship. This feature can only be used by the pilot, and it can only be used once per round.
 
-While an astromech droid occupies the interface slot, they function as a deployed crew member, rolling their own initiative and taking their own actions as long as they are not incapacitated. Additionally, deployed crew members can draw on it to enhance one action they take. When a deployed crew member makes an ability check, attack roll, or saving throw, they can roll an Astromech Synergy die, which is a d4, and add it to the roll. This feature can only be used by one deployed crew member, and it can only be used once per round.
+Your ship’s Pinpoint Strike die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.
 
-Your ship's Astromech Synergy die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.
+This feature can be used a number of times equal to your ship’s tier. All expended uses are regained when the ship recharges.
 
-This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/780517294508998716/latest.png' style='position:absolute;bottom:45px;left:20px;width:430px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
@@ -309,8 +363,14 @@ Your ship gains a +1 bonus to damage rolls with ship weapons.
 #### Interceptor
 Your ship's flying speed increases by 50 feet.
 
+#### Scout
+Your ship gains a +1 bonus to Wisdom (Scan) and Intelligence (Probe) checks.
+
+#### Scrambler
+Your ship's crew can use interfere as a bonus action.
+
 #### Shuttle
-Your ship gains one suite system of your choice, which does not count against its total modifications. Your Starship Size Suite Capacity is 2. If the capacity of a suite would be less than 1, it is 1 for you.
+Your ship gains one suite system of your choice at no cost. Your Starship Size Suite Capacity is 2. 
 
 #### Strike Fighter
 Your ship gains a +1 bonus to the attack rolls and save DCs of its ship weapons.
@@ -318,29 +378,37 @@ Your ship gains a +1 bonus to the attack rolls and save DCs of its ship weapons.
 ### Retro Thrusters
 Also at 2nd tier, when an attacker that a deployed pilot or operator can see deals damage to your ship with a weapon, they can use their reaction to immediately move the ship up to 50 feet in a direction of their choice, halving the damage your ship takes. The orientation of the ship does not change.
 
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+Once this feature has been used, it can't be used again until the ship recharges.
 
 ### Versatile Snubfighter
 Starting at 3rd tier, when a deployed crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A deployed crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
 
-This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship is refitted.
 
 ### Maneuvering Jets
 Also at 3rd tier, your ship can add half of its Dexterity modifier (rounded down, minimum of one) to its armor class.
-
-\columnbreak
 
 ### Role Mastery
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
 
 #### Bomber
-Starships two or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.
+Starships one or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.
 
 #### Interceptor
 Your ship's turning speed decreases by 50 feet. If this would decrease your ship's turning speed to 0, instead your ship's flying speed increases by 50 feet.
 
+\columnbreak
+
+<div style='margin-top:22px'></div>
+
+#### Scout
+Your ship gains a +2 bonus to Intelligence (astrogation) checks and enemy ships have disadvantage on Wisdom (scan) checks to detect your ship entering and exiting hyperspace.
+
+#### Scrambler
+Your ship gains a +2 bonus to Charisma (interference) checks.
+
 #### Shuttle
-Your ship gains one suite system of your choice, which does not count against its total modifications. Your Starship Size Suite Capacity is 2. If the capacity of a suite would be less than 1, it is 1 for you.
+Your ship gains one suite system of your choice at no cost. Your Starship Size Suite Capacity is 2.
 
 #### Strike Fighter
 Your ship's shield regeneration rate is doubled.
@@ -348,57 +416,100 @@ Your ship's shield regeneration rate is doubled.
 ### Standing By
 Also at 4th tier, your ship can be pushed beyond its normal limits for a moment. On their turn, a deployed crew member can take one additional action on top of their regular action and a possible bonus action.
 
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+Once this feature has been used, it can't be used again until the ship recharges.
 
 ### Paragon Snubfighter
-As of 5th tier, your starship is a the best in its class. Your ship's Strength, Dexterity, or Constitution score increases by 2. Its maximum for this score increases by 2.
+As of 5th tier, your starship is the best in its class. Choose from the following:
+
+#### Bomber
+Your ship's Wisdom score increases by 2.  It's maximum for this score increases by 2.
+
+#### Interceptor
+Your ship's Dexterity score increases by 2.  It's maximum for this score increases by 2.
+
+#### Scout
+Your ship's Intelligence score increases by 2.  It's maximum for this score increases by 2.
+
+#### Scrambler
+Your ship's Charisma score increases by 2.  It's maximum for this score increases by 2.
+
+#### Shuttle
+Your ship's Constitution score increases by 2.  It's maximum for this score increases by 2..
+
+#### Strike Fighter
+Your ship's Strength score increases by 2.  It's maximum for this score increases by 2.
 
 ### A Leaf on the Wind
 Also at 5th tier, when your ship, or a deployed crew member, makes an ability check, attack roll, or saving throw, a deployed crew member can use their reaction to treat the amount rolled on the d20 as a 20.
 
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+Once this feature has been used, it can't be used again until the ship recharges.
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
+<img src='https://cdnb.artstation.com/p/assets/images/images/027/414/707/4k/quan-ta-view-1-final.jpg?1591469737' style='position:absolute;top:00px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div style='margin-top:500px'></div> 
+
 ## Medium Ships
-<span style="font-variant: small-caps">The freighter shudders with the blasts of cannon fire. Despite</span> its maneuvers, the pilot can't quite shake the pursuit. Finally, just as the ship's shields dissipate, the pilot makes the gut call, jettisoning the illicit cargo. As it distracts and hampers the followers, the freighter shifts power to the thrusters and quickly flies away.
+<span style="font-variant: small-caps">The freighter shudders with the blasts of cannon fire. Despite</span> its maneuvers, the pilot can't quite shake the pursuit. The technician's efforts to reinforce the shields are failing.  The mechanic is pumping the reactor for every scrap of energy it can generate. The operator is frantically making the final few calculations for the jump to hyperspace.  Finally, just as the ship's shields dissipate, the pilot makes the gut call, jettisoning the illicit cargo. As it distracts and hampers the followers, the freighter shifts power to the thrusters and quickly flies away.
 
-As the pirates activate their tractor beam to attempt to capture the weaponless frigate and its exotic wares, the gunboat escort intercedes. It flies in the line of the tractor, breaking the lock on the frigate, and unleashes a terrible volley of cannon fire. The pirates, incapable of standing such a salvo, disable the tractor beam and retreat.
+As the pirates activate their tractor beam to attempt to capture the weaponless frigate and its exotic wares, the gunboat escort intercedes. It flies in the line of the tractor, breaking the lock on the frigate, and unleashes a volley of cannon fire. The pirates, incapable of with-standing the salvo, drop the tractor beam and retreat.  As the gunboat pursues to be sure the pirates don't come back for a second bite at the apple, the crew finally locks on target and unleashes a long-range night-stinger missile, putting a permanent end to the pirates' illicit and unwelcome activities.
 
-The atmosphere set, the captain invites his guests into the cantina. Fully aware of the effect the opulent room has on the unprepared, he gestures for the starry-eyed visitors to sit across from him. He indicates for the server to bring drinks, as he casually leans back and puts his feet on the table, confident that this deal will go in his favor.
+\columnbreak
+
+<div style='margin-top:524px'></div> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;The captain invites his guests into his well-stocked cantina. He eyes the opposition as they take in his ship, assessing their reactions and noting their expressions.  Fully aware of the effect the opulent room has on the unprepared, he easily stifles his grin and gestures for the starry-eyed vis-itors to sit across from him. He indicates for the server to bring drinks as he casually leans back and puts his feet on the table, confident this deal will go his way.  He presses a button on the tiny remote in his hand, causing hidden panels to slide away and reveal his mostly-legal wares.  "So," he says, "just how many of these do you need, and where will I deliver them?"
 
 Medium ships are the bread and butter of the close-knit group. They are large enough to accommodate all of the immediate needs of a crew, while at the same time being small enough to feel cozy.
+
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
 
 ## Starship Features
 As a Medium starship, it gains the following starship features at tier 0.
 
-#### Ability Scores
+#### Ability Score Adjustments
 ___
-- **Strength at Tier 0:** 12 (+1) 
-- **Dexterity at Tier 0:** 14 (+2)
-- **Constitution at Tier 0:** 12 (+1)
+- **None**
 
-#### Hit Points
+#### Role
 ___
-- **Hit Dice at Tier 0:** 5d8
-- **Hit Points for 1st Hit Die:** 8 + your ship's Constitution modifier
-- **Hit Points for subsequent Hit Die:** 1d8 (or 5) + your ship's Constitution modifier per Hit Die after 1st
+- **Courier:** +1 Dexterity
+- **Freighter:** +1 Constitution
+- **Gunboat:** +1 Strength
+- **Missile Boat:** +1 Wisdom
+- **Navigator:** +1 Intelligence
+- **Yacht:** +1 Charisma
+
+#### Hull Points
+___
+- **Hull Dice at Tier 0:** 5d8
+- **Hull Points for 1st Hull Die:** 8 + your ship's Constitution modifier
+- **Hull Points for subsequent Hull Die:** 1d8 (or 5) + your ship's Constitution modifier per Hull Die after 1st
+
+#### Shield Points
+___
+- **Shield Dice at Tier 0:** 5d8
+- **Shield Points for 1st Shield Die:** 8 + your ship's Strength modifier
+- **Shield Points for subsequent Shield Die:** 1d8 (or 5) + your ship's Strength modifier per Shield Die after 1st
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** 4
-- **Modification Slots at Tier 0:** 10
+- **Maximum Suites (minimum of 0):** 3 + your ship's Constitution modifier
+- **Base Modification Capacity:** 30
 - **Stock Modifications:** Hyperdrive Slot, and your choice of one Barracks, Living Quarters, or Luxury Quarters suite
 
-#### Proficiencies
+#### Proficiently Equipped
 ___
-- **Saving Throws:** Your choice of Strength, Dexterity, or Constitution
+- **Saving Throws:** Your choice of two.
 
 #### Equipment
 ___
-- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; and a class 15 hyperdrive
+- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; your choice of fuel cell reactor, ionization reactor, or power core reactor; your choice of direct power coupling, distributed power coupling, or hub & spoke power coupling; a class 15 hyperdrive.
 
 \columnbreak
 
@@ -419,13 +530,11 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can't increase your Strength or Constitution above 20, or your Dexterity above 22, with this feature.
+At 1st tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores above 20, with this feature.
 
-#### Additional Hit Dice
-Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+#### Additional Hull and Shield Dice
+Your ship gains 1 additional Hull Die and one additional Shield Die. It gains 1 additional Hull Die and one additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).
 
-#### Additional Modifications
-Your ship gains 2 additional modification slots. It gains 2 additional modification slots at 2nd tier (4), 3rd tier (6), 4th tier (8), and 5th tier (10).
 
 ### Evasive Maneuvers
 Also at 1st tier, when a deployed pilot rolls for initiative, they can immediately move the ship. This movement happens before the initiative order is determined.
@@ -434,7 +543,10 @@ The amount the ship moves is determined by rolling an Evasive Maneuvers die, whi
 
 Your ship's Evasive Maneuvers die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.
 
-This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship is refitted.
+
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/780503253494005800/unknown-removebg-preview.png' style='position:absolute;bottom:30px;left:27px;width:480px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
@@ -443,17 +555,23 @@ This feature can be used a number of times equal to<br> 2 x your ship's tier. Al
 ### Role Specialization
 At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.
 
+#### Courier
+Your ship's flying speed increases by 50 feet.
+
 #### Freighter
-Your ship gains the Storage Compartment modification, which does not count against its total modifications or suite systems. Additionally, your ship's base cargo capacity increases to 50 tons.
+Your ship gains the Storage Compartment modification at no cost, which does not count against its total suite systems. Additionally, your ship's base cargo capacity increases to 50 tons.
 
 #### Gunboat
-Your ship gains a Fixed Hardpoint modification, which does not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+Your ship gains a Fixed Hardpoint modification at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+
+#### Missile Boat
+Starships one or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.
 
 #### Navigator
-Your ship gains the Navcomputer Slot modification, which does not count against its total modifications. Additionally, if a deployed operator fails an astrogation check, they can roll twice on the Hyperspace Mishaps table and choose either total.
+Your ship gains the Navcomputer modification at no cost. Additionally, if a crew member must roll on the Hyperspace Mishaps table, they can roll twice and choose either total.
 
 #### Yacht
-Your ship gains the Recreation modification, which does not count against its total modifications or suite systems. Additionally, while hosting guests on your ship, they have disadvantage on Intelligence and Wisdom checks.
+Your ship gains the Recreation modification at no cost, which does not count against its total suite systems. Additionally, while hosting guests on your ship, they have disadvantage on Intelligence and Wisdom checks.
 
 ### Nimble Starship
 Also at 2nd tier, your ship can add half its Dexterity modifier (minimum of one) to any saving throw it makes that doesn't already include that modifier.
@@ -461,21 +579,29 @@ Also at 2nd tier, your ship can add half its Dexterity modifier (minimum of one)
 ### Versatile Transport
 Starting at 3rd tier, when a deployed crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A deployed crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
 
-This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship is refitted.
 
 ### Hold Together
-Also at 3rd tier, when your ship takes damage while at 0 hit points, it makes a Destruction saving throw, instead of automatically failing.
-
-\columnbreak
+Also at 3rd tier, when your ship takes damage while at 0 hull points, it makes a Destruction saving throw, instead of automatically failing.
 
 ### Role Mastery
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
+
+\columnbreak
+
+<div style='margin-top:22px'></div>
+
+#### Courier
+Your ship gains the Backup Hyperdrive modification at no cost.  Any installed hyperdrive operates as one of the next faster class.  If you have a class 0.5 hyperdrive installed, it acts as a 0.4 hyperdrive. 
 
 #### Freighter
 When your ship fails a Strength or Dexterity saving throw, a deployed crew member can use their reaction to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the saving throw and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the saving throw. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes difficult terrain for 1 minute.
 
 #### Gunboat
 Once per round, a deployed gunner can roll the weapon damage dice one additional time when determining the extra damage for a critical hit with a ship attack.
+
+#### Missile Boat
+When firing a tertiary or quaternary weapon, you can load each weapon with multiple types of munitions up to your reload number and select which to fire when you take the attack action with that weapon.
 
 #### Navigator
 Your ship has resistance to damage from environmental effects, and advantage on saving throws to resist the effects of environmental effects.
@@ -486,57 +612,84 @@ You have advantage Charisma checks made against those who can see your ship.
 ### Adaptive Armor
 Also at 4th tier, when your ship is hit with an attack roll, a deployed pilot can add the ship's Constitution modifier to AC, potentially causing the attack to miss.
 
-This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship is refitted.
 
 ### Paragon Transport
-As of 5th tier, your starship is a the best in its class. Two of your ship's Strength, Dexterity, or Constitution score (your choice) increases by 2. Its maximum for these scores increases by 2.
+As of 5th tier, your starship is the best in its class.  Two of your ship's ability scores increase by 2.  It's maximums for these scores increase by two.
 
 ### Best Ship in the 'Verse
 Also at 5th tier, as an action, a deployed crew member can give the ship resistance to unenhanced damage from ship weapons for 1 minute.
 
-This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship recharges.
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
+<img src='https://pm1.narvii.com/6448/42b84d4738db67482537037b00b3c8e106de1c4b_hq.jpg' style='position:absolute;top:00px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div style='margin-top:480px'></div> 
+
 ## Large Ships
-<span style="font-variant: small-caps">Trapped in the capital ship's tractor beam, the ambassador</span> frigate moves slowly towards the cruiser. Finally, bringing all the power the ship has to bare, the frigate is able to break the hold of the tractor beam and regain its trajectory, slowly but surely increasing the distance, before finally escaping the planet's moon and being able to jump to hyperspace.
+<span style="font-variant: small-caps">Trapped in the capital ship's tractor beam, the ambassador</span> frigate moves slowly towards the cruiser. The crew struggles to squeeze more power out of their reactor while the few marines on board take positions next to the hatches, wiping sweat from their brows as they check and re-check their weapons. Finally, bringing all the power the ship has to bare, the frigate is able to break the hold of the tractor beam and regain its trajectory, slowly but surely increasing the distance, before finally escaping the planet's moon and being able to jump to hyperspace.  Shouts of joy echo down the ship's corridors and extra rations are ordered in celebration.
 
-Corvette
+Engines burning brightly, the corvette sprints through the blockade, trying to minimize the amount of fire its meager shields will have to absorb.  Top and bottom turrets swivel to port, unleashing return fire against inbound interceptors.  The ground drops from under everyone's feet as the artificial gravity systems flicker for a second as a pulse weapon detonates nearby.  The high-pitched, distant whine of the reactor is barely audible over commands issuing from the bridge.  The visual readouts indicated that they were now past the picket line, and the interceptors appeared to be breaking off, unsure of their ability to take on the much larger ship without the support of their battle stations.  They'd made it.  Looking back at the scopes, the coordinator's head hung down.  They'd been the only ones to do so.
 
-Picket Ship
+\columnbreak
 
-overview
+<div style='margin-top:504px'></div> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;As the Pelta-Class Picket ship danced between the larger destroyers and dreadnaughts, it continued its near constant barrage of heavy laser cannon fire, interspersed with individual launches of concussion missiles and proton torpedoes directed at vulnerable parts of the opposing fleet.  If too many of those enemy guns came to bear on the the Pelta, it would be in trouble, but it's speed and it's relatively limited firepower made it a less-than juicy target.  For now.  But that is exactly what it's captain needed.  Just a few more clicks and they would be in a perfect flanking position, able to pound the engines of the flag ship as soon as it's shields were brought down by the bombing squad beginning their run now.
+
+Large ships occupy the pinnacle of size for most private owner/operators in the galaxy.  Large ships require an extensive crew and are costly to maintain, but can pack quite a punch and may house various suites and operation centers that allow the ship to operate as an impressive and mobile base of operations for wealthy individuals and successful adventurers.
+
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
 
 ## Starship Features
 As a Large starship, it gains the following starship features at tier 0.
 
-#### Ability Scores
+#### Ability Score Adjustments
 ___
-- **Strength at Tier 0:** 14 (+2) 
-- **Dexterity at Tier 0:** 12 (+1)
-- **Constitution at Tier 0:** 14 (+2)
+- **Dexterity** -2
+- **Constitution** +2
 
-#### Hit Points
+#### Role
 ___
-- **Hit Dice at Tier 0:** 7d10
-- **Hit Points for 1st Hit Die:** 10 + your ship's Constitution modifier
-- **Hit Points for subsequent Hit Die:** 1d10 (or 6) + your ship's Constitution modifier per Hit Die after 1st
+- **Ambassador:** +1 Charisma and +1 Constitution
+- **Corvette:** +1 Strength and +1 Dexterity
+- **Cruiser:** +1 Wisdom and +1 Strength
+- **Explorer:** +1 Dexterity and +1 Intelligence
+- **Picket Ship:** +1 Dexterity and +1 Wisdom
+- **Ship's Tender** +1 Constitution and +1 Strength
+
+#### Hull Points
+___
+- **Hull Dice at Tier 0:** 7d10
+- **Hull Points for 1st Hull Die:** 10 + your ship's Constitution modifier
+- **Hull Points for subsequent Hull Die:** 1d10 (or 6) + your ship's Constitution modifier per Hull Die after 1st
+
+#### Shield Points
+___
+- **Shield Dice at Tier 0:** 7d10
+- **Shield Points for 1st Shield Die:** 10 + your ship's Strength modifier
+- **Shield Points for subsequent Shield Die:** 1d10 (or 6) + your ship's Strength modifier per Shield Die after 1st
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** 8
-- **Modification Slots at Tier 0:** 15
-- **Stock Modifications:** Hyperdrive Slot, Navcomputer Slot, and your choice of two Barracks, Living Quarters, or Luxury Quarters suites
+- **Maximum Suites (minimum of 0):** 3 + 2x your ship's Constitution modifier
+- **Base Modification Capacity:** 50
+- **Stock Modifications:** Hyperdrive Slot, Navcomputer, and your choice of two Barracks, Living Quarters, or Luxury Quarters suites
 
-#### Proficiencies
+
+#### Proficiently Equipped
 ___
-- **Saving Throws:** Your choice of Strength or Constitution
+- **Saving Throws:** Wisdom and your choice of Strength or Constitution
 
 #### Equipment
 ___
-- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; a class 15 hyperdrive; and a basic navcomputer
+- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; your choice of fuel cell reactor, ionization reactor, or power core reactor; your choice of direct power coupling, distributed power coupling, or hub & spoke power coupling; and a class 15 hyperdrive.
 
 \columnbreak
 
@@ -557,13 +710,11 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can't increase your Strength or Constitution above 22, or your Dexterity above 20, with this feature.
+At 1st tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Constitution above 20, or your Constitution above 22, with this feature.
 
-#### Additional Hit Dice
-Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+#### Additional Hull and Shield Dice
+Your ship gains 1 additional Hull Die and 1 additional Shield Die. It gains 1 additional Hull Die and 1 additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).
 
-#### Additional Modifications
-Your ship gains 3 additional modification slots. It gains 3 additional modification slots at 2nd tier (6), 3rd tier (9), 4th tier (12), and 5th tier (15).
 
 ### Blockade Runner
 Also at 1st tier, your starship gains the ability to react to damage from large ships. 
@@ -572,7 +723,9 @@ As a reaction to being hit with an attack roll from a Large or larger ship, a de
 
 Your ship's Blockade Runner die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.
 
-This feature can be used a number of times equal to<br> 3 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to<br> 3 x your ship's tier. All expended uses are regained when the ship is refitted.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/780959647968002088/162-1625390_corellian-corvette-removebg-preview.png' style='position:absolute;bottom:33px;left:55px;width:620px;z-index:1000;transform:rotate(-0deg)scalex(-1)' />
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
@@ -582,31 +735,37 @@ This feature can be used a number of times equal to<br> 3 x your ship's tier. Al
 At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.
 
 #### Ambassador
-Your ship gains a Luxury Quarters suite, which does not count against its total modifications or suite systems. Additionally, while hosting guests on your ship, crew members have advantage on Charisma checks made against them.
+Your ship gains a Luxury Quarters suite at no cost, which does not count against its total suite systems. Additionally, while hosting guests on your ship, crew members have advantage on Charisma checks made against them.
 
 #### Corvette
-Your ship gains a Fixed Hardpoint modification, which does not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+Your ship gains a Fixed Hardpoint modification at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+
+#### Cruiser
+Starships one or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.
 
 #### Explorer
-Your ship gains the Enhanced Scanner modification, which does not count against its total modifications. Additionally, the range of its scanners is increased by 1,000 feet.
+Your ship gains the Scanner, Premium modification at no cost. Additionally, the range of its scanners is increased by 1,000 feet.
 
 #### Picket Ship
-Your ship gains a Point Defense System, which does not count against its total modifications. Additionally, the damage of your point defense systems increases to 2d8, from 2d6.
+Your ship can install a single Point Defense System in a hardpoint.  This hardpoint may be modified to include more than a single limited firing arc.
+
+#### Ship's Tender
+Your ship gains a Fuel Storage modification at no cost, which does not count against its total suite systems.
 
 ### Concentrated Fire
-Also at 2nd tier, once per turn, when a ship of size Larger or larger makes a saving throw to avoid this ship's weapons, and it failed a saving throw to avoid an allied ship of size Large or larger's weapons since the end of its last turn, it has disadvantage on the saving throw. If it already had disadvantage, it must instead reroll one of the dice once (your choice).
+Also at 2nd tier, once per turn, when you attack a ship of size Large or larger, and it was previously hit by an allied ship of size Large or larger's weapons since the end of its last turn, you have advantage on the attack. If you already had disadvantage, you may instead reroll one of the dice once (your choice).
 
 ### Versatile Frigate
-Starting at 3rd tier, when a deployed crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A deployed crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
+Starting at 3rd tier, when a crew member makes an ability check, attack roll, or saving throw with the ship, they can use their reaction to have advantage on the roll. A crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
 
-This feature can be used a number of times equal to<br> 3 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
-
-### Heavy Cannon
-Also at 3rd tier, your ship is equipped with a forward-mounted heavy cannon at its helm. As an action, a deployed gunner can fire the heavy cannon. The heavy cannon has a limited firing arc, normal range of 1,000 feet and a long range of 2,000 feet, can be fired twice, and it deals 3d10 energy damage on a hit. Attack rolls made with the heavy cannon have a +1 bonus.
-
-This weapon does not count towards your ship's maximum number of hardpoints.
+This feature can be used a number of times equal to<br> 3 x your ship's tier. All expended uses are regained when the ship is refitted.
 
 \columnbreak
+
+### Super-Heavy Turbolaser Battery
+Also at 3rd tier, your ship is equipped with a forward-mounted special version of a Turbolaser.  Your ship is considered to meet this weapon's constitution requirement regardless of your ship's constitution ability score.  The damage dealt by this Turbolaser is 3d12.
+
+This weapon does not utilize or count as a weapon hardpoint.
 
 ### Role Mastery
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
@@ -617,20 +776,26 @@ Your ship has advantage on saving throws to avoid being rammed or tractored.
 #### Corvette
 Your ship's flying speed increases by 50 feet. 
 
+#### Cruiser
+When firing a tertiary or quaternary weapon, you can load each weapon with multiple types of munitions up to your reload number and select which to fire when you take the attack action with that weapon.
+
 #### Explorer
 Your ship can detect ships moving through hyperspace with its scanners, and it ignores environmental effects that would impact its scanners.
 
 #### Picket Ship
-The range of your point defense systems increases by 100 feet. Additionally, Large or smaller ships have disadvantage on saving throws against your point defense systems.
+The close and long ranges of your point defense systems increase by 100 feet. Additionally, Large or smaller ships have disadvantage on saving throws against your point defense systems.
+
+#### Ship's Tender
+Your ship gains the Nano-Droid Distributor modification at no cost. Additionally, the range of its effects is increased by 400 feet.
 
 ### Tactical Retreat
-Also at 4th tier, when a deployed operator rolls a 1 on an Intelligence (Technology) check to calculate astrogation, or a Constitution saving throw to maintain the hyperdrive booting, they can reroll the die. They must use the new roll.
+Also at 4th tier, when a crew member rolls a 1 on an Intelligence (Astrogation) check to calculate astrogation, or a Constitution saving throw to maintain the hyperdrive booting, they can reroll the die. They must use the new roll.
 
 ### Paragon Frigate
-As of 5th tier, your starship is a the best in its class. Your ship's Strength, Dexterity, and Constitution scores increase by 2. Its maximum for these scores increases by 2.
+As of 5th tier, your starship is a the best in its class. Three of your ship's ability scores increase by 2. Its maximum for these scores increases by 2.
 
 ### Spinal Mount
-Also at 5th tier, once on each deployed gunners' turn, they can add the ship's Strength modifier to the attack roll or the damage roll of an attack it makes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
+Also at 5th tier, once on each crew member's turn, they can add the ship's Strength modifier to the attack roll or the ship's Intelligence modifier to the damage roll of an attack it makes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
 
 \columnbreak
 
@@ -638,43 +803,70 @@ Also at 5th tier, once on each deployed gunners' turn, they can add the ship's S
 
 \pagebreakNum
 
+<img src='https://pbs.twimg.com/media/C78Qj2PXgAAde7N.jpg' style='position:absolute;top:00px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div style='margin-top:630px'></div>
+
 ## Huge Ships
-<span style="font-variant: small-caps">The battleship's shields flickers as it absorbs the blows of the</span>  attacking fighters. It continues inexorably past them, approaching the fragile medical frigate they scramble to protect, before unleashing a fierce volley and snapping it in half.
+<span style="font-variant: small-caps">The battleship's shields flicker as it absorbs the blows of the</span>  attacking fighters. It continues inexorably past them as it's point-defense system peppers it's vicinity with blaster fire to ward them off.  As it a approaches the fragile medical frigate the fighters scramble to protect, its gunners lock on to the target before unleashing a fierce volley of turbolaser fire and snapping it in half.   
 
-As the carrier leaves hyperspace, snubfighters deploy in formations and move to intercept. Before the enemy craft has the opportunity to respond, the fighters fall upon them, quickly decimating their ranks.
+As the carrier leaves hyperspace, snubfighters deploy from its hangars in formations and move to intercept the space station's patrol fighters. Before the enemy craft have the opportunity to respond, the fighters fall upon them, quickly decimating their ranks. But before the snubfighters had even left the carrier, a second wave of small bombers had been prepping for takeoff.  As they spew forth from the hangars, they quickly lock on to the space station and launch proton bombs, pulverizing the station in minutes.
 
-With the command given, the operator activates the interdictor's gravity well projectors. Accompanied by a low-pitched hum, the gravity well projectors power up. Minutes pass for the ship uneventfully, until finally a frigate lurches unceremoniously out of hyperspace into realspace in front of them. The ship then activates its tractor beam, trapping its quarry.
+\columnbreak
+
+<div style='margin-top:654px'></div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;With the command given, the operator activates the interdictor's gravity well projectors. the lights inside dim almost imperceptibly as huge amounts of power is drawn from the reactor core and supplemental capacitors to the projectors.  Accompanied by a low-pitched hum, the gravity well projectors power up. Minutes pass for the ship uneventfully, until finally a frigate lurches unceremoniously out of hyperspace into realspace in front of them. The ship then activates its tractor beam, trapping its quarry.
 
 Huge starships, regardless of their specific purpose, are the backbone of any military. They provide a mobile base of operations and function as a staging ground for the faction that controls them.
+
+
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
 
 ## Starship Features
 As a Huge starship, it gains the following starship features at tier 0.
 
-#### Ability Scores
+#### Ability Score Adjustments
 ___
-- **Strength at Tier 0:** 16 (+3) 
-- **Dexterity at Tier 0:** 10 (+0)
-- **Constitution at Tier 0:** 16 (+3)
+- **Dexterity** -4
+- **Constitution** +4
 
-#### Hit Points
+#### Role
 ___
-- **Hit Dice at Tier 0:** 9d12
-- **Hit Points for 1st Hit Die:** 12 + your ship's Constitution modifier
-- **Hit Points for subsequent Hit Die:** 1d12 (or 7) + your ship's Constitution modifier per Hit Die after 1st
+- **Battleship:** +1 Wisdom and +1 Strength
+- **Carrier:** +1 Charisma and +1 Intelligence
+- **Colonizer:** +1 Constitution and +1 Intelligence
+- **Command Ship:** +1 Charisma and +1 Wisdom
+- **Interdictor:** +1 Dexterity and +1 Strength
+- **Juggernaut:** +1 Constitution and +1 Strength 
+
+#### Hull Points
+___
+- **Hull Dice at Tier 0:** 9d12
+- **Hull Points for 1st Hull Die:** 12 + your ship's Constitution modifier
+- **Hull Points for subsequent Hull Die:** 1d12 (or 7) + your ship's Constitution modifier per Hull Die after 1st
+
+#### Shield Points
+___
+- **Shield Dice at Tier 0:** 9d12
+- **Shield Points for 1st Shield Die:** 12 + your ship's Strength modifier
+- **Shield Points for subsequent Shield Die:** 1d12 (or 7) + your ship's Strength modifier per Shield Die after 1st
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** 15
-- **Modification Slots at Tier 0:** 20
-- **Stock Modifications:** Enhanced Scanner, Hyperdrive Slot, Navcomputer Slot, Escape Pod suite, and your choice of four Barracks, Living Quarters, or Luxury Quarters suites
+- **Maximum Suites (minimum of 0):** 6 + 3x your ship's Constitution modifier
+- **Base Modification Capacity:** 60
+- **Stock Modifications:** Scanner, Premium; Hyperdrive Slot; Navcomputer; Escape Pod suite; and your choice of four Barracks, Living Quarters, or Luxury Quarters suites
 
-#### Proficiencies
+#### Proficiently Equipped
 ___
-- **Saving Throws:** Your choice of Strength or Constitution
+- **Saving Throws:** Wisdom and your choice of Strength or Constitution
 
 #### Equipment
 ___
-- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; a class 15 hyperdrive; and a basic navcomputer
+- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; your choice of fuel cell reactor, ionization reactor, or power core reactor; your choice of direct power coupling, distributed power coupling, or hub & spoke power coupling; and a class 15 hyperdrive.
 
 \columnbreak
 
@@ -695,22 +887,22 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can't increase your Strength or Constitution above 24, or your Dexterity above 20, with this feature.
+At 1st tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Constitution above 20, or your Constitution above 24, with this feature.
 
-#### Additional Hit Dice
-Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+#### Additional Hull and Shield Dice
+Your ship gains 2 additional Hull Dice and 2 additional Shield Dice. It gains 2 additional Hull Dice and 2 additional Shield Dice at 2nd tier (4, each), 3rd tier (6, each), 4th tier (8, each), and 5th tier (10, each).
 
-#### Additional Modifications
-Your ship gains 4 additional modification slots. It gains 4 additional modification slots at 2nd tier (8), 3rd tier (12), 4th tier (16), and 5th tier (20).
 
 ### Damage Control
-Also at 1st tier, your starship gains the ability to mitigate damage from ships.
+Also at 1st tier, your starship gains the ability to automatically mitigate damage from ships.
 
-Once per turn, as a reaction to being dealt damage by a ship weapon, a deployed crew member can use their reaction and roll a Damage Control die, which is a d4, and subtract it from the damage roll.
+Once per turn, as a reaction to being dealt damage by a ship weapon, a crew member can use their reaction and roll a Damage Control die, which is a d4, and subtract it from the damage roll.
 
 Your ship's Damage Control die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.
 
-This feature can be used a number of times equal to<br> 4 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to<br> 4 x your ship's tier. All expended uses are regained when the ship undergoes refitting.
+
+<img src='https://scandinaviantraveler.com/sites/default/files/styles/inline_large/public/mon-calamari-mc80-home-one-star-cruiser-806x200.png?itok=5DbkQ7LU' style='position:absolute;bottom:80px;left:45px;width:750px;z-index:1000;transform:scaleX(1)' />
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
@@ -720,31 +912,37 @@ This feature can be used a number of times equal to<br> 4 x your ship's tier. Al
 At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.
 
 #### Battleship
-Your ship gains two Fixed Hardpoint modifications, which do not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+Your ship gains two Fixed Hardpoint modifications at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
 
 #### Carrier
-Your ship gains two Docking Bay suites, which do not count against its total modifications or suite systems. Additionally, the capacity of your docking bays are doubled.
+Your ship gains two Docking Bay suites at no cost, which do not count against its total suite systems. Additionally, the capacity of your docking bays are doubled.
 
 #### Colonizer
-Your ship gains two Barracks suites, which do not count against its total modifications or suite systems. Additionally, saving throws against poison and disease on your ship are made with advantage.
+Your ship gains two Barracks suites at no cost, which do not count against its total suite systems. Additionally, saving throws against poison and disease on your ship are made with advantage.
+
+#### Command Ship
+Your ship gains the Comms Package, Premium and Command Center suite modifications at no cost. Additionally, you have advantage on Charisma (Impress) checks. 
 
 #### Interdictor 
-Your ship gains the Tractor Beam and Gravity Well Projector modifications, which do not count against its total modifications. Additionally, ships of Large size or smaller have disadvantage on saving throws against your tractor beams.
+Your ship gains the Tractor Beam and Gravity Well Projector modifications at no cost. Additionally, ships of Huge size or smaller have disadvantage on saving throws against your tractor beams.
+
+#### Juggernaut
+Your hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 hull points.
 
 ### Staging Ground
 Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crew members or troopers deploy, they have advantage on their first ability check, attack roll, or saving throw they make before the end of their next long rest. Once a crew member or troop has benefited from this feature, they can not benefit from it again until they complete a long rest.
 
 ### Versatile Cruiser
-Starting at 3rd tier, when a deployed crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A deployed crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
+Starting at 3rd tier, when a crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
 
-This feature can be used a number of times equal to<br> 4 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
-
-### Capital Railgun
-Also at 3rd tier, your ship is equipped with a forward-mounted railgun at its helm. As an action, a deployed gunner can fire the capital railgun. The capital railgun has a limited firing arc, a close range of 3,000 feet and a normal range of 6,000 feet, can be fired once per round, and it deals 6d10 energy damage on a hit. Attack rolls made with the capital railgun have a +2 bonus.
-
-This weapon does not count towards your ship's maximum number of hardpoints.
+This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship undergoes recharging.
 
 \columnbreak
+
+### Capital Railgun
+Also at 3rd tier, your ship is equipped with a forward-mounted special version of a Heavy Slug Railgun at its helm.  Your ship is considered to meet this weapon's constitution requirement regardless of your ship's constitution ability score.  The damage dealt by this Heavy Slug Railgun is 7d12.
+
+This weapon does not utilize or count as a weapon hardpoint.
 
 ### Role Mastery
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
@@ -753,68 +951,110 @@ At 4th tier, you master a particular style of design for your ship. Choose from 
 When a deployed gunner rolls a 1 or 2 on the on a damage die for a primary or secondary weapon, they can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
 
 #### Carrier
-When ships are deployed from your carrier, they have advantage on the first ability check, attack roll, or saving throw they make before the end of their next maintenance. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes maintenance.
+When ships are deployed from your carrier, they have advantage on the first ability check, attack roll, or saving throw they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting.
 
 #### Colonizer
 Your ship's fuel capacity, as shown in the Starship Size Fuel Capacity table, doubles. Additionally, while traveling in realspace, your ship consumes half the amount of fuel.
 
+#### Command Ship
+Your ship gains the Comms Package, Premium, and Comms Package, Prototype modifications at no cost. Additionally, you have advantage on Charisma (Menace) checks. 
+
 #### Interdictor
-Ships of Huge size or smaller have disadvantage on the saving throws against your tractor beams. If they already have disadvantage, you can instead force them to reroll one of the dice once.
+Ships of all sizes have disadvantage on the saving throws against your tractor beams. Additionally, you can force ships of Large size and smaller to reroll one of the dice once.
+
+#### Juggernaut
+When you deal damage on a ram, the damage you inflict on other ships increases by +2 per hull die of your ship.
 
 ### Broadside
-Also at 4th tier, once on each of their turns, when a deployed gunner makes a ship attack, they can make another attack with the same weapon against a different ship that is within 100 feet of the original target and within range of their weapon.
+Also at 4th tier, once on each of their turns, when a crew member makes a ship attack, they can make another attack with the same weapon against a different ship that is within 100 feet of the original target and within range of their weapon.
 
 ### Paragon Cruiser
-As of 5th tier, your starship is a the best in its class. Your ship's Strength, Dexterity, or Constitution score increases by 4, and the other two ability scores increase by 2. Its maximum for this score increases by 4, and for the other two ability scores by 2.
-
-### Capital Ship
-Also at 5th tier, a deployed coordinator can, as a bonus action, delegate a plan of action to the crew. The ship can immediately move up to its flying speed, and up to five deployed crew members on that ship can use their reaction to immediately take an action.
-
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+As of 5th tier, your starship is the best in its class. One of your ship's ability scores increases by 4, and its maximum for this score increase by 4.  Another two ability scores increase by 2, and its maximum for these scores increase by 2.
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
+### Capital Ship
+Also at 5th tier, a crew member can, as a bonus action, delegate a plan of action to the crew. The ship can immediately move up to its flying speed, and up to five crew members on that ship can use their reaction to immediately take an action.
+
+Once this feature has been used, it can't be used again until the ship recharges.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/781573142291546162/latest.png' style='position:absolute;bottom:280px;left:-20px;width:950px;z-index:1000;transform:rotate(-35deg)' />
+
+
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
+
+<img src='https://images3.alphacoders.com/823/thumb-1920-82379.jpg' style='position:absolute;top:0px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
+
+<div style='margin-top:650px'></div> 
+
 ## Gargantuan Ships
-<span style="font-variant: small-caps">The smaller ships retreat into the shadow of the blockade</span> ship, fleeing an overwhelming foe. As the dreadnoughts shields envelope them, they quickly turn and spring on their pursuers, utilizing the bulwarks shields as they unleash all of the firepower they have to bear.
+<span style="font-variant: small-caps">The smaller ships retreat into the shadow of the blockade</span> ship, fleeing an overwhelming foe. As the dread-nought's shields envelope them, they quickly turn and spring on their pursuers, utilizing the bulwark's shields as they unleash all of the firepower they have to bear.  Meanwhile, the blockade ship unleashes a storm of electromagnetic energy from its antenna array, cutting of communications between enemy ships, effectively isolating the incoming forces from their distant fleet and from each other.
 
-In the center of the fleet, the command ship surveys the battlefield. Wherever the line wavers, the command ship quickly directs ships to reinforce. Finally, the formations of the enemy flag, and the command ship directs the fleet to capitalize on their failure.
+In the center of the fleet, the command ship surveys the battlefield. Wherever the line wavers, the command ship quickly directs ships to reinforce. Finally, the formations of the enemy flag, and the command ship directs the fleet to capitalize on their failure as it determines and uploads targeting coordinates to its torpedo ships.
 
-The warship looms ominously over the battlefield as the two opposing armies crash. Despite the efforts of the enemy line, the warship closes into firing range of the capital ships, finally unleashing its devastating arsenal.
+\columnbreak
+
+<div style='margin-top:674px'></div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;The warship looms ominously over the battlefield as the two opposing armies crash. Despite the efforts of the enemy line, the warship closes into firing range of the capital ships.  Having already determined an ordered targeting precedence, the operating crew confirms final firing solutions for the gunners as they charge up the main super-weapon on the prow of the ship.  It unleashes its first devastating blast as the rest of its arsenal begins to lance out at secondary targets nearby.
 
 Gargantuan ships are the dreadnoughts that strike fear into the hearts of the faithless. They are the embodiment of indomitable might: a symbol of total and complete control.
 
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
+
+
 ## Starship Features
-As a Gargantuan starship, it gains the following starship features at tier 0.
+As a Gargantuan starship, it gains the<br> following starship features at tier 0.
 
-#### Ability Scores
+#### Ability Score Adjustments
 ___
-- **Strength at Tier 0:** 18 (+4) 
-- **Dexterity at Tier 0:** 8 (-1)
-- **Constitution at Tier 0:** 18 (+4)
+- **Dexterity** -6
+- **Constitution** +6
 
-#### Hit Points
+#### Role
 ___
-- **Hit Dice at Tier 0:** 11d20
-- **Hit Points for 1st Hit Die:** 20 + your ship's Constitution modifier
-- **Hit Points for subsequent Hit Die:** 1d20 (or 11) + your ship's Constitution modifier per Hit Die after 1st
+- **Blockade Ship:** +1 Dexterity and +1 Strength
+- **Flag Ship:** +1 Charisma and +1 Wisdom
+- **Industrial Center:** +1 Constitution and +1 Strength
+- **Mobile Metropolis:** +1 Constitution and +1 Wisdom
+- **Researcher:** +1 Intelligence and +1 Wisdom
+- **Warship:** +1 Wisdom and +1 Strength 
+
+#### Hull Points
+___
+- **Hull Dice at Tier 0:** 11d20
+- **Hull Points for 1st Hull Die:** 20 + your ship's Constitution modifier
+- **Hull Points for subsequent Hull Die:** 1d20 (or 11) + your ship's Constitution modifier per Hull Die after 1st
+
+#### Shield Points
+___
+- **Shield Dice at Tier 0:** 11d20
+- **Shield Points for 1st Shield Die:** 20 + your ship's Strength modifier
+- **Shield Points for subsequent Shield Die:** 1d20 (or 11) + your ship's Strength modifier per Shield Die after 1st
 
 #### Modifications
 ___
-- **Maximum Suite Systems:** 30
-- **Modification Slots at Tier 0:** 25
-- **Stock Modifications:** Emergency Generator, Enhanced Communications, Enhanced Scanner, Hyperdrive Slot, Navcomputer Slot, Surge Protector, Docking Bay and Escape Pod suites, and your choice of eight Barracks, Living Quarters, or Luxury Quarters suites
+- **Maximum Suite Systems (minimum of 0):** 10 + 4x your ship's Constitution modifier
+- **Base Modification Capacity:** 70
+- **Stock Modifications:** Emergency Generator; Comms Package, Premium; Scanner, Premium; Hyperdrive Slot; Navcomputer; Surge Protector, Docking Bay and Escape Pod suites, and your choice of eight Barracks, Living Quarters, or Luxury Quarters suites
 
-#### Proficiencies
+#### Proficiently Equipped
 ___
-- **Saving Throws:** Your choice of Strength or Constitution
+- **Saving Throws:** Wisdom and your choice of Strength or Constitution
 
 #### Equipment
 ___
-- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; a class 15 hyperdrive; and a basic navcomputer
+- **Starting Equipment:** Your choice of deflection armor, lightweight armor, or reinforced armor; your choice of fuel cell reactor, ionization reactor, or power core reactor; your choice of direct power coupling, distributed power coupling, or hub & spoke power coupling; and a class 15 hyperdrive.
+
 
 \columnbreak
+
 
 <div class='classTable'>
 
@@ -833,22 +1073,24 @@ ___
 Beginning when your ship reaches 1st tier, it gains the following benefits:
 
 #### Ability Score Improvement
-You can increase your ship's Strength, Dexterity, or Constitution score by 2, or you can increase two of these ability scores by 1. At 2nd, 3rd, 4th, and 5th tier you may increase one ability score of your choice by 1. As normal, you can't increase your Strength or Constitution above 26, or your Dexterity above 20, with this feature.
+At 1st tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Constitution above 20, or your Constitution above 26, with this feature.
 
-#### Additional Hit Dice
-Your ship gains 1 additional Hit Die. It gains 1 additional Hit Die at 2nd tier (2), 3rd tier (3), 4th tier (4), and 5th tier (5).
+#### Additional Hull and Shield Dice
+Your ship gains 2 additional Hull Dice and 2 additional Shield Dice. It gains 2 additional Hull Dice and 2 additional Shield Dice at 2nd tier (4, each), 3rd tier (6, each), 4th tier (8, each), and 5th tier (10, each).
 
-#### Additional Modifications
-Your ship gains 5 additional modification slots. It gains 5 additional modification slots at 2nd tier (10), 3rd tier (15), 4th tier (20), and 5th tier (25).
 
 ### Superior Firepower
 Also at 1st tier, your starship's firepower can overwhelm larger ships.
 
-When a deployed gunner deals damage to a Large or larger ship with a ship weapon, the gunner can increase the damage by rolling a Superior Firepower die, which is a d4, and add it to the damage roll (no action required).
+When a crew member deals damage to a Large or larger ship with a ship weapon, the crew member can increase the damage by rolling a Superior Firepower die, which is a d4, and add it to the damage roll (no action required).
 
 Your ship's Superior Firepower die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.
 
-This feature can be used a number of times equal to<br> 5 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+This feature can be used a number of times equal to<br> 3 x your ship's tier. All expended uses are regained when the ship undergoes recharging.
+
+<img src='https://www.firefoxccmods.com/enciclopedia/img/ssd/vizconde.png' style='position:absolute;bottom:-35px;left:100px;width:620px;z-index:1000;transform:rotate(-20deg)scalex(1)' />
+
+
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
@@ -858,33 +1100,39 @@ This feature can be used a number of times equal to<br> 5 x your ship's tier. Al
 At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.
 
 #### Blockade Ship 
-Your ship gains the Emergency Generator and Power Backup modifications, which do not count against its total modifications. Additionally, your ships shields extend further around it. Whenever a friendly ship would take damage while within 500 feet of your ship, if the source of that damage is more than 500 feet away from your ship and your ship's shields are active, your ship's shields instead take that damage. If the damage reduces your ship's shields to 0, the protected ship takes any remaining damage.
+Your ship gains the Emergency Generator and Power Backup modifications at no cost. Additionally, your ships shields extend further around it. Whenever a friendly ship would take damage while within 500 feet of your ship, if the source of that damage is more than 500 feet away from your ship and your ship's shields are active, your ship's shields instead take that damage. If the damage reduces your ship's shields to 0, the protected ship takes any remaining damage.
 
-#### Command Ship
-Your ship gains the Command Center suite and Tractor Beam modifications, which do not count against its total modifications or suite systems. Additionally, when a coordinator deployed in a command center takes the Direct action, the target of the Direct action can reroll one of the dice once.
+#### Flag Ship
+Your ship gains the Command Center suite and Tractor Beam modifications at no cost, which do not count against its total suite systems. Additionally, when a crew member deployed in a command center takes the Direct action, the target of the Direct action can reroll one of the dice once.
+
+#### Industrial Center
+Your ship gains two Workshop modifications at no cost, which do not count against its total suite systems.  Additionally, the speed at which goods are crafted in your workshops is doubled.
+
+#### Mobile Metropolis
+Your ship gains a Living Quarters suite and a Recreation suite at no cost, which do not count against its total suite systems. Additionally, the capacity of your Living Quarters are doubled.
 
 #### Researcher 
-Your ship gains the Laboratory and Workshop modifications, which do not count against its total modifications or suite systems. Additionally, Intelligence (Lore) checks on your ship are made with advantage.
+Your ship gains the Laboratory and Workshop modifications at no cost, which do not count against its total suite systems. Additionally, Intelligence (Lore) checks on your ship are made with advantage.
 
 #### Warship
-Your ship gains two Fixed Hardpoint modifications, which do not count against its total modifications. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
+Your ship gains two Fixed Hardpoint modifications at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.
 
 ### Prime Doctrine
-Also at 2nd tier, your starship strikes fear in your enemies. When a deployed coordinator rolls initiative, they can attempt to frighten other ships. Each crew member deployed on a hostile ship must make a Wisdom saving throw (DC = 8 + the coordinator's proficiency bonus + their Charisma modifier). On a failed save, affected crew members have disadvantage on the first ability check, attack roll, or saving throw they make each round for 1 minute. At the end of each of their turns, they repeat this save, ending this effect on a success. Additionally, on a successful save, they become immune to this feature for one day.
+Also at 2nd tier, your starship strikes fear in your enemies. When crew members roll initiative, one crew member can attempt to frighten other ships. Each crew member deployed on a hostile ship must make a Wisdom saving throw contested by a Charisma (Menace) check. On a failed save, affected crew members have disadvantage on the first ability check, attack roll, or saving throw they make each round for 1 minute. At the end of each of their turns, they repeat this save, ending this effect on a success. Additionally, on a successful save, they become immune to this feature for one day.
 
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
-
-### Versatile Dreadnought
-Starting at 3rd tier, when a deployed crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A deployed crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
-
-This feature can be used a number of times equal to<br> 5 x your ship's tier. All expended uses are regained when the ship undergoes maintenance.
+Once this feature has been used, it can't be used again until the ship recharges.
 
 \columnbreak
 
-### Superweapon
-Also at 3rd tier, your ship is equipped with a superweapon. As an action, a deployed operator can activate the superweapon, which has a limited firing arc, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity saving throw (DC = 8 + the operator's proficiency bonus + the ship's Strength modifier). On a failed save, a ship takes 10d10 energy damage, or half as much on a successful one.
+### Versatile Dreadnought
+Starting at 3rd tier, when a crew member makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A crew member can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.
 
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+This feature can be used a number of times equal to<br> 2 x your ship's tier. All expended uses are regained when the ship recharges.
+
+### Superweapon
+Also at 3rd tier, your ship is equipped with a superweapon. As an action, a deployed operator can activate the superweapon, which has a limited firing arc, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity saving throw (DC = 8 + the crew member's proficiency bonus + the ship's Strength modifier). On a failed save, a ship takes 15d10 energy damage, or half as much on a successful one.
+
+Once this feature has been used, it can't be used again until the ship recharges.
 
 ### Role Mastery
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
@@ -892,57 +1140,75 @@ At 4th tier, you master a particular style of design for your ship. Choose from 
 #### Blockade Ship
 Your ship's shield regeneration rate doubles.
 
-#### Command Ship
-A deployed coordinator can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying speed, and up to five deployed crew members on that ship can use their reaction to immediately take an action.
+#### Flag Ship
+A coordinator deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying speed, and up to five crew members on that ship can use their reaction to immediately take an action.
 
-Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+Once this feature has been used, it can't be used again until the ship recharges.
+
+#### Industrial Center
+Your ship gains two Docking Bay suites at no cost, which do not count against its total suite systems. Additionally, the capacity of your docking bays are doubled.
+
+#### Mobile Metropolis
+Your ship's fuel capacity, as shown in the Starship Size Fuel Capacity table, and storage capacity, as shown in the Starship Size Storage Capacity table, doubles. Additionally, while traveling in realspace, your ship consumes half the amount of fuel as normal.
 
 #### Researcher 
 When you use your ship's Superweapon, you can alter its functionality. Instead of dealing damage, ships who fail a saving throw are blinded, shocked, and shocked for 1 minute. Ships who succeed on the saving throw suffer these effects until the start of the deployed operator's next turn, instead.
-
-#### Warship
-When a deployed gunner on your ship rolls the maximum on a damage die for a ship weapon, they can roll an additional die.
-
-### Citadel
-Also at 4th tier, the capacity for all of your suites is doubled. Additionally, your starship's maximum capacity for fuel and consumables doubles, and civilians, crew members, and troopers aboard your starship have advantage on Constitution saving throws made to avoid Exhaustion.
-
-### Paragon Dreadnought
-As of 5th tier, your starship is a the best in its class. Two of your ship's Strength, Dexterity, or Constitution score (your choice) increase by 4, and the other ability score increases by 2. Its maximum for the chosen scores increases by 4, and for the other ability score by 2.
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 
 \pagebreakNum
 
+<div style='margin-top:24px'></div>
+
+#### Warship
+When a deployed gunner on your ship rolls the maximum on a damage die for a ship weapon, they can roll an additional die.
+
+### Citadel
+Also at 4th tier, the capacity for all of your suites is doubled.  If a suite type's capacity was already doubled, its size is instead tripled from its standard size. Additionally, your starship's maximum capacity for fuel and consumables doubles, and civilians, crew members, and troopers aboard your starship have advantage on Constitution saving throws made to avoid Exhaustion.  If the capacity for fuel and/or consumables was already double its standard amount, it is now triple its original capacity.
+
+
+\columnbreak
+
+### Paragon Dreadnought
+As of 5th tier, your starship is the best in its class. Two of your ship's ability scores increase by 4, and its maximum for these scores increase by 4.  Another ability score increases by 2, and its maximum for this score increases by 2.
+
+
 ### Devastator
-Also at 5th tier, as an action, a deployed crew member can give the ship the following benefits for 1 minute:
+Also at 5th tier, as an action, a single crew member can give the ship the following benefits for 1 minute:
 - Your ship has resistance to all damage.
 - Your ship's ship attacks score a critical hit on a roll of 19 or 20 on the d20.
 
-This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes maintenance.
+This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes refitting.
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/780914392702648330/latest.png' style='position:absolute;bottom:160px;left:45px;width:750px;z-index:1000;transform:scaleX(1)' />
+
+<div class='footnote'>CHAPTER 3 | STARSHIPS</div>
+
+\pagebreakNum
 
 ## Variant: Space Stations
 Players may decide they want to invest in a space station. Only size categories Large and larger are appropriate for space stations. If players elect to own a space station instead of—or in addition to—a starship, use the following rules. 
 
 #### Armor Class
-When calculating a space station's armor class, use the operator's Technology instead of of the pilot's Piloting, by taking the station's size base armor class (as shown in the Starship Size Base Armor Class table on page 56), add the deployed operator's Intelligence (Technology) modifier, and any applicable bonuses. For example, a Large station has a base armor class of 7. If the operator has an Intelligence of 16, a proficiency bonus of +2, proficiency in Technology, and the station is using deflection armor, his station has an armor class of 12. You do not require proficiency in Technology to attempt to operate a space station.
+When calculating a space station's armor class, space stations receive a -2 penalty to their AC.
 
 #### Stock Modifications
-Your space station comes with the Central Computer universal system in addition to the other stock modifications.
+Your space station comes with the Central Computer, Makeshift universal system in addition to the other stock modifications.
 
 #### Flying Speed and Turning Speed
 The station's flying speed become 50 feet and it's turning speed becomes 100 feet, regardless of any bonuses or penalties. The station's flying speed and turning speed can never be increased or decreased.
 
-#### Hit Points Per Hit Die
-For each Hit Die a space station has, it gains 2 additional hit points.
+#### Hull Points Per Hull Die
+For each Hull Die a space station has, it gains 2 additional hull points.
 
 #### Hyperspace Travel
 Your travel time in hyperspace is doubled.
 
-#### Modification Slots at Tier 0
-The modification slots at tier 0 doubles. For instance, while a Large ship has 15 modification slots at tier 0, a Large station instead has 30 modification slots.
+#### Modification Installation DC
+Space Stations have a -10 adjustment to the DC to install a modification.
 
 #### Starship Size Maximum Suites
-The maximum number of suites a station can have (as shown in the Starship Size Maximum Suites table on page 43) doubles. For instance, while a Large ship has a maximum of 8 suites, a Large station instead has a maximum of 16 suites.
+The maximum number of suites a station can have (based on their size and constitution modifier) doubles. For instance, a Large ship with a 17 constitution (+3) has a maximum of 9 suites, and a Large station with the same constitution score instead has a maximum of 18 suites.
 
 \columnbreak
 
@@ -953,19 +1219,21 @@ When players upgrade a space station to certain tier levels, they can choose fro
 At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.
 
 #### Space Station (Large) 
-Your station gains the Premium Central Computer modification, which does not count against its total modifications. Additionally, when a deployed crew member on your station has to make an Intelligence (Technology) check, if their bonus to Technology checks is less than that of the station's artificial intelligence, they can instead use the artificial intelligence's bonus to Technology checks.
+Your station gains the Central Computer, Makeshift modification at no cost. Additionally, when a crew member on your station has to make an Intelligence (Technology) check, if their Intelligence modifier is less than that of the station's Intelligence modifier, they can instead use the station's Intelligence modifier to Technology checks.
 
 #### Space Station (Huge) 
-Your station gains the Premium Central Computer and Enhanced Communications modifications, which do not count against its total modifications. Additionally, when a deployed crew member on your station has to make an Intelligence (Technology) check, if their bonus to Technology checks is less than that of the station's artificial intelligence, they can instead use the artificial intelligence's bonus to Technology checks.
+Your station gains the Central Computer, Makeshift; Central Computer, Mark 1; and Comms Package, Premium modifications at no cost. Additionally, when a crew member on your station has to make an Intelligence (Technology) check, if their Intelligence modifier is less than that of the station's Intelligence modifier, they can instead use the station's Intelligence modifier to Technology checks.
 
 #### Space Station (Gargantuan) 
-Your station gains the Premium Central Computer and Improved Communications modifications, which do not count against its total modifications. Additionally, when a deployed crew member on your station has to make an Intelligence (Technology) check, if their bonus to Technology checks is less than that of the station's artificial intelligence, they can instead use the artificial intelligence's bonus to Technology checks.
+Your station gains the Central Computer, Makeshift; Central Computer, Mark 1; and Comms Package, Prototype modifications at no cost. Additionally, when a crew member on your station has to make an Intelligence (Technology) check, if their Intelligence modifier is less than that of the station's Intelligence modifier, they can instead use the station's Intelligence modifier to Technology checks.
 
 ### Role Mastery
 At 4th tier, you master a particular style of design for your ship. Choose from the following.
 
 #### Space Station (All Sizes)
-When a deployed crew member on your station is targeted by the Interfere action, they have advantage on the Intelligence (Technology) check made to contest it. If they already have advantage, they can instead reroll one of the dice once.
+When a crew member on your station is targeted by the Interfere action, they have advantage on the ship's Wisdom saving throw made to avoid it. If they already have advantage, they can instead reroll one of the dice once.
+
+<img src='https://i.pinimg.com/originals/85/8f/dd/858fdde5c037c136af97d0d20e752f65.png' style='position:absolute;bottom:40px;left:40px;width:420px;z-index:1000;transform:rotate(-15deg)scalex(1)' />
 
 <div class='footnote'>CHAPTER 3 | STARSHIPS</div>
 

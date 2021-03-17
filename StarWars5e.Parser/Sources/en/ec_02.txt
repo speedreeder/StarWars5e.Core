@@ -75,6 +75,7 @@
 
 |||
 |:--|--:|
+|	Nothoiin          	|
 |	Ortolan         	|
 |	Pa'lowick           |
 |	Patrolian           |
@@ -705,7 +706,7 @@ Arkanian names are simultaneously dignified and succinct. Surnames are familial.
 
 \columnbreak
 
-<div style='margin-top:385px'></div>
+<div style='margin-top:340px'></div>
 
 ### Arkanian Traits
 As an arkanian, you have the following special traits.
@@ -720,11 +721,13 @@ As an arkanian, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Arkanian Brilliance.*** Whenever you make an Intelligence ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You can choose to do this after the check is rolled, but before the DM determines if you've passed or failed the check. You cannot do so again until you complete a short or long rest.
+***Arkanian Brilliance.*** Whenever you make an ability check, attack roll, or saving throw using Intelligence, you can choose to add 1d4 to the result. You can choose to do this after the check is rolled, but before the DM determines if you've passed or failed the check. You cannot do so again until you complete a short or long rest.
+
+***Crafters.*** You have proficiency in one tool of your choice.
 
 ***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Honed Mind.*** You have advantage on Intelligence, Wisdom, and Charisma saving throws.
+***Honed Mind.*** You have advantage on Intelligence, Wisdom, and Charisma saving throws against force and tech powers.
 
 ***Infrared Sight.*** Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.
 
@@ -732,7 +735,7 @@ As an arkanian, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Arkanian. Arkanian, when spoken, has an airy tone, and is regarded as one of the most difficult written languages to learn.
 
-<img src='https://www.gmbinder.com/images/J6Brglm.png' style='position:absolute;top:33px;right:50px;width:370px' />
+<img src='https://www.gmbinder.com/images/J6Brglm.png' style='position:absolute;top:33px;right:65px;width:330px' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -807,7 +810,7 @@ As a balosar, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Balosur. Balosur is known by its throaty rasps and deep vocalizations, and is considered crude as a written language.
 
-<img src='https://www.gmbinder.com/images/Lm4fmbM.png' style='position:absolute;top:45px;right:2px;width:271px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/Lm4fmbM.png' style='position:absolute;top:45px;right:2px;width:266px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -953,11 +956,11 @@ As a baragwin, you have the following special traits.
 
 ***Travelers.*** You have proficiency in the Survival skill.
 
-***Weapon Developers.*** Baragwin are famous throughout the galaxy for their quality arms manufacturing. You have proficiency with armstech's implements or munitions kits.
+***Weapon Developers.*** Baragwin are famous throughout the galaxy for their quality arms manufacturing. You have proficiency with armstech's implements, munitions kits, or two weapons of your choice.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Baragwinian. Baragwinian is a deep language with low rumbling vocalizations. The baragwin themselves, however, are not especially fond of this language. Most of them learn the languages used on whatever planet they were born, so Baragwinian is not very common. Baragwinian is still considered useful as a trade language, however.
 
-<img src='https://www.gmbinder.com/images/EFD00RQ.png' style='position:absolute;top:14px;right:100px;width:270px;transform:scaleX(1)' />
+<img src='https://www.gmbinder.com/images/09zb41x.png' style='position:absolute;top:14px;right:100px;width:270px;transform:scaleX(1)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2706,6 +2709,7 @@ ___
 > |Nautolan|Darkvision|
 > |Neimoidian|Darkvision|
 > |Noghri|Keen Smell|
+> |Nothoiin|Heightened Reflexes|
 > |Ortolan|Grovel, Cower, and Beg|
 > |Quarren|Keen Hearing|
 > |Pa'lowick|Hold Breath<br> Snout|
@@ -2715,7 +2719,7 @@ ___
 > |:--:|:--:|
 > |Pau'an|Darkvision|
 > |Pyke|Mercantile<br> Notorious Slavers|
-> |Rataka|Darkvision|
+> |Rakata|Darkvision|
 > |Rattataki|Surprise Attack|
 > |Rishii|Keen Hearing and Sight|
 > |Rodian|Darkvision|
@@ -3738,12 +3742,12 @@ ___
 ### Biology and Appearance
 Kushibans are four-limbed lagomorphs native to the planet Kushibah. They are diminutive, unimposing, and typically weaker than most humanoids, but they are also quite difficult to track due to their natural speed and stealth.
 
-While Kushibans are quadrupeds, their forepaws are as manipulative as traditional hands. While Kushibans can walk on two legs, they typically run around on four feet since they can move significantly faster that way. 
+While Kushibans are quadrupeds, their forepaws are as manipulative as traditional hands. While kushibans can walk on two legs, they typically run around on four feet since they can move significantly faster that way. 
 
 Kushibans are inherently cute and fuzzy, and more nefarious species often attempt to take them as slaves. Kushibans are social and do not take well to slavery, and they typically don't live long in solitude or captivity. 
 
 ### Society and Culture
-Kushibans live in a simple, peaceful society on the non-<br>industrialized, lush green planet of Kushibah in the Outer Rim. Kushibans are typically kind a generous, with a playful sense of humor and a penchant for practical jokes. However, if betrayed or angered, Kushibans can be cruel or vindictive, and they have little patience for bullies, simpletons, and misanthropes.
+Kushibans live in a simple, peaceful society on the non-<br>industrialized, lush green planet of Kushibah in the Outer Rim. Kushibans are typically kind and generous, with a playful sense of humor and a penchant for practical jokes. However, if betrayed or angered, Kushibans can be cruel or vindictive, and they have little patience for bullies, simpletons, and misanthropes.
 
 ### Names
 Kushiban names are a single word combining both their first and familial names.
@@ -4530,6 +4534,85 @@ As a noghri, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Honorghran. Honorghran is characterized by its scratchy, gutteral sounds.
 
 <img src='https://www.gmbinder.com/images/SczLueA.jpg' style='position:absolute;top:30px;right:97px;width:256px;mix-blend-mode:darken' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Nothoiin
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  | Golden |
+> |***Hair Color***|  | Blond, brown, light brown |
+> |***Eye Color***|  | Brown |
+> |***Distinctions***|  | Near-human, flaky golden skin, skilled pilots |
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'8"|+2d10"|
+> |***Weight***|  |110 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  | Nothoiin |
+> |***Language***|  | Notho |
+
+<div style='margin-top:85px'></div>
+
+### Biology and Appearance
+Near-humans possessing golden, flaky skin, nothoiins feature fair to brown hair with brown eyes and typically have physical heights and builds common to humans.  Nothoiins' appearance has earned their species the nickname of "Goldskins."
+
+### Society and Culture
+Although nothoiins hail from their eponymous homeworld and star system in the Anoat Sector, they are ubiquitous throughout the Greater Javin Region and Corporate Sectors.  Their history of interstellar exploration and colonization was facilitated by their species' natural spacefaring abilities in both piloting and navigation and necessitated by their home planet's periodically harsh, dry climate.  Droughts on Nothoiin can last for decades, and the wildfires they foster have served as one of the primary factors behind the limited development of the planet's economy beyond the ur-diamond mining industry, which produces the system's chief export.  
+
+Large-scale emigration from Nothoiin has led members of its native species to seek careers as pilots, navigators, and operatives in numerous criminal enterprises.  Various nothoiin colonies have given rise to a number of different governmental systems running the gamut from representative democracies to autocracies.
+
+### Names
+Nothoiin typically receive a gendered given name and a familial surname.
+
+**Male Names.** Amrosio, Jado, Kosimas, Troov
+
+**Female Names.** Elayah, Giranti, Lorinah, Sil
+
+**Surnames.** Caban, Mordu, Plintus, Starstrider
+
+\columnbreak
+
+<div style='margin-top:340px'></div>
+
+### Nothoiin Traits
+As a nothoiin, you have the following special traits.
+
+***Ability Score Increase.*** Your Intelligence score increases by 2, and your Dexterity score increases by 1.
+
+***Age.***  Nothoiin reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Nothoiins tend toward no particular alignment. The best and worst are found among them.
+
+***Size.*** Nothoiins typically stand between 5 and 6 feet tall and weigh 150 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Born Pilots.*** Nothoiins demonstrate seemingly innate piloting abilities from a very young age.  You have proficiency in the Piloting skill.
+
+***Expert Navigators.*** You are considered to have expertise in Wisdom (Survival) checks made to navigate.
+
+***Galactic Traveler.*** You have proficiency in the Lore skill.
+
+***Heightened Reflexes.*** Whenever you make a Dexterity ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+***Major Miners.*** Nothoiins have intimate knowledge of ur-diamond mining and refinement practices.  You gain proficiency in your choice of jeweler's implements, scavenging kit, or archaeologist kit.
+
+***Starship Specialists.*** Whenever you make an Intelligence (Technology) check related to starships, you are considered to have expertise in the Technology skill.
+
+***Languages.*** You can speak, read, and write Galactic Basic and one language of your choice. You can also communicate via Notho, a native hand language developed by hunters living in the Nothoiin plains.  Usage of Notho is exceedingly rare outside Nothoiin culture.
+
+<img src='https://www.gmbinder.com/images/NkubbUY.png' style='position:absolute;top:25px;right:90px;width:267px;transform:scaleX(-)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

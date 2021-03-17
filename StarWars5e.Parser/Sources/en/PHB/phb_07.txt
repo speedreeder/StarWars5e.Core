@@ -34,6 +34,9 @@ To determine an ability modifier without consulting the table, subtract 10 from 
 
 Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
 
+## Advantage and Disadvantage
+Sometimes a special ability or power tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
+
 \columnbreak
 
 ##### Ability Scores and Modifiers
@@ -64,16 +67,20 @@ Because ability modifiers affect almost every attack roll, ability check, and sa
 
 </div>
 
-## Advantage and Disadvantage
-Sometimes a special ability or power tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
-
-If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
+&emsp;If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
 
 If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
+
+When you make a roll with advantage or disadvantage, only the d20 is rolled twice. Any additional dice, such as the d4 granted by the *resistance* force power, are only rolled once.
 
 When you have advantage or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an ability check and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.
 
 You usually gain advantage or disadvantage through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
+
+### Advantage on Other Rolls
+Though less common, advantage and disadvantage can occur on other types of rolls as well. When you have advantage or disadvantage on a roll, as with a d20, you roll the dice twice, using the higher of the two results with advantage, and using the lower of the two results if you have disadvantage. If a roll has multiple dice, you roll the dice together and treat the results separately.
+
+For instance, the second bullet of the Weapon Expert feat grants conditional advantage on a weapon's damage roll once per turn, provided you meet the criteria for that advantage. If any additional dice would be added to the damage roll, such as the operative's Sneak Attack feature or the scout's Ranger's Quarry, those additional dice are only rolled once.
 
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
@@ -91,18 +98,16 @@ By the same token, if a feature or effect allows you to multiply your proficienc
 In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
 
 ### Expertise
-Certain features, such as the Expertise class feature or Ace Pilot feat, let you double your proficiency bonus with a given skill or tool proficiency, granting expertise in that skill or tool. As usual, you can only gain expertise in a skill or tool once.
+Certain features, such as the Expertise class feature or Ace Pilot feat, grant expertise in a skill or tool, letting you double your proficiency bonus with that skill or tool. As usual, you can only gain expertise in a skill or tool once.
+
+Far less common, though still possible, a creature can gain expertise in a saving throw. Creatures cannot gain expertise in weapons, however.
 
 ## Ability Checks
 An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
 
-For every ability check, the GM decides which of the 4 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows common DCs.
+For every ability check, the GM decides which of the 4 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class (DC). The more difficult a task, the higher its DC. The Ability Check DCs table shows common DCs.
 
-To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the<br> total to the DC. If the total equals or<br> exceeds the DC, the ability check is a<br> success-the creature overcomes<br> the challenge at hand. Otherwise,<br> it's a failure, which means the char-<br>acter or monster makes no progress<br> toward the objective or makes progr-<br>ess combined with a setback<br> determined by the GM.
-
-\columnbreak
-
-<div style='margin-top:26px'></div>
+To make an ability check, roll a d20 and<br> add the relevant ability modifier. As with<br> other d20 rolls, apply bonuses and<br> penalties, and compare the total to<br> the DC. If the total equals or<br> exceeds the DC, the ability check is a<br> success—the creature overcomes the<br> challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM.
 
 ### Contests
 Sometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.
@@ -114,7 +119,7 @@ If the contest results in a tie, the situation remains the same as it was before
 ##### Ability Check DCs
 |Task Difficulty|	DC|
 |:--|:--:|
-|Very easy|	5|
+|Very easy| 5|
 |Easy|	10|
 |Medium|	15|
 |Hard	|20|
@@ -126,6 +131,9 @@ If the contest results in a tie, the situation remains the same as it was before
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
 \pagebreakNum
+
+### Additional Dice
+When making an ability check, attack roll, or saving throw, some features grant an additional die when you make the d20 roll. If multiple features would grant an additional die in such a way, you can only benefit from one of them when you make the d20 roll (you choose which effect to use). For instance, if a creature is forced to make a saving throw, and it is benefiting from both a Potent Aptitude die and the *resistance* force power, it can only use the additional die granted by one of those effects.
 
 ### Skills
 Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character ~ creation, and a monster's skill proficiencies appear in the monster's stat block.)
@@ -140,13 +148,13 @@ The skills related to each ability score are shown in the following list. (No sk
 - **Wisdom**: Animal handling, Insight, Medicine, Perception, Survival
 - **Charisma**: Deception, Intimidation, Performance, Persuasion
 
-Sometimes, the GM might ask for an ability check using a specific skill—for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
-
-For example, if a character attempts to climb up a dangerous cliff. the Dungeon Master might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a<br> Strength check.
+Sometimes, the GM might ask for an ability check using a specific skill—for example, &emsp;&emsp;"Make a Wisdom (Perception) check." At &emsp;&emsp;&emsp;&emsp;other times, a player might ask the GM if prof- &emsp;&emsp;&emsp;&emsp;iciency in a particular skill applies to a check. In &emsp;&emsp;either case, proficiency in a skill means an &emsp;&emsp;&emsp;&emsp;&emsp;individual can add his or her proficiency bonus &emsp;&emsp;&emsp;&emsp;to ability checks that involve that skill. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Without proficiency in the skill, the &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;individual makes a normal ability&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; check.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
+
+For example, if a character attempts to climb up a dangerous cliff. the Dungeon Master might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
 
 #### Variant: Skills with Other Abilities
 Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. 
@@ -162,7 +170,7 @@ Here's how to determine a character's total for a passive check:
 
 For example. if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14.
 
-The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration rules in chapter 8.
+The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration<br> rules in chapter 8.
 
 <img src='https://www.gmbinder.com/images/z1RhM1r.png' style='position:absolute;bottom:-60px;right:0px;width:840px;z-index:1000;' />
 

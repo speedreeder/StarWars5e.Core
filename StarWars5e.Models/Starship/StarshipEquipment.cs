@@ -53,5 +53,9 @@ namespace StarWars5e.Models.Starship
         public int Reload { get; set; }
         public string Properties { get; set; }
         public string Description { get; set; }
+        public string FuelCostsModifier { get; set; }
+        public string PowerDiceRecover { get; set; }
+        public string CentralStorageCapacity { get; set; }
+        public string SystemStorageCapacity { get; set; }
     }
 }

@@ -154,6 +154,11 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
+                var dupes = equipment
+                    .GroupBy(i => i.RowKey)
+                    .Where(g => g.Count() > 1)
+                    .Select(g => g.Key);
+
                 foreach (var starshipEquipment in equipment)
                 {
                     starshipEquipment.ContentSourceEnum = ContentSource.SotG;
@@ -165,6 +170,8 @@ namespace StarWars5e.Parser.Managers
                         case StarshipEquipmentType.Ammunition:
                         case StarshipEquipmentType.Hyperdrive:
                         case StarshipEquipmentType.Navcomputer:
+                        case StarshipEquipmentType.PowerCoupling:
+                        case StarshipEquipmentType.Reactor:
                             var equipmentSearchTerm = _globalSearchTermRepository.CreateSearchTerm(starshipEquipment.Name, GlobalSearchTermType.StarshipEquipment, ContentType.Core,
                                 $"/starships/equipment?search={starshipEquipment.Name}");
                             _globalSearchTermRepository.SearchTerms.Add(equipmentSearchTerm);
@@ -182,7 +189,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipEquipment>($"starshipEquipment{_localization.Language}", equipment,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException)
+            catch (StorageException e)
             {
                 Console.WriteLine("Failed to upload SOTG equipment.");
             }
@@ -218,7 +225,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<StarshipModification>($"starshipModifications{_localization.Language}", modifications,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException)
+            catch (StorageException e)
             {
                 Console.WriteLine("Failed to upload SOTG modifications.");
             }

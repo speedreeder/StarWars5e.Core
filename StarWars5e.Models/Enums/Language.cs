@@ -11,6 +11,8 @@ namespace StarWars5e.Models.Enums
         [Description("Spanish")]
         sp,
         [Description("Russian")]
-        ru
+        ru,
+        [Description("Gungan")]
+        gu
     }
 }

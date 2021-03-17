@@ -28,9 +28,13 @@ namespace StarWars5e.Parser.Processors.SOTG
             var hugeWeaponsEndIndex = lines.FindIndex(hugeWeaponStartIndex, string.IsNullOrWhiteSpace);
             var hugeWeaponTableLines = lines.Skip(hugeWeaponStartIndex).Take(hugeWeaponsEndIndex - hugeWeaponStartIndex).ToList();
 
-            var ammunitionTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGAmmunitionTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
-            var ammunitionTableEndIndex = lines.FindIndex(ammunitionTableStartIndex, string.IsNullOrWhiteSpace);
-            var ammunitionTableLines = lines.Skip(ammunitionTableStartIndex).Take(ammunitionTableEndIndex - ammunitionTableStartIndex).ToList();
+            var tertiaryAmmunitionTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGTertiaryAmmunitionTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var tertiaryAmmunitionTableEndIndex = lines.FindIndex(tertiaryAmmunitionTableStartIndex, string.IsNullOrWhiteSpace);
+            var tertiaryAmmunitionTableLines = lines.Skip(tertiaryAmmunitionTableStartIndex).Take(tertiaryAmmunitionTableEndIndex - tertiaryAmmunitionTableStartIndex).ToList();
+
+            var quaternaryAmmunitionTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGQuaternaryAmmunitionTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var quaternaryAmmunitionTableEndIndex = lines.FindIndex(quaternaryAmmunitionTableStartIndex, string.IsNullOrWhiteSpace);
+            var quaternaryAmmunitionTableLines = lines.Skip(quaternaryAmmunitionTableStartIndex).Take(quaternaryAmmunitionTableEndIndex - quaternaryAmmunitionTableStartIndex).ToList();
 
             var hyperdriveTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGHyperdrivesTableStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
             var hyperdriveTableEndIndex = lines.FindIndex(hyperdriveTableStartIndex, string.IsNullOrWhiteSpace);
@@ -40,12 +44,18 @@ namespace StarWars5e.Parser.Processors.SOTG
             var navcomputerTableEndIndex = lines.FindIndex(navcomputerTableStartIndex, string.IsNullOrWhiteSpace);
             var navcomputerTableLines = lines.Skip(navcomputerTableStartIndex).Take(navcomputerTableEndIndex - navcomputerTableStartIndex).ToList();
 
+            var reactorsAndPowerCouplingsTableStartIndex = lines.FindIndex(f => f.Contains(Localization.SOTGReactorsTableStartingLineFuelCosts, StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var reactorsAndPowerCouplingsEndIndex = lines.FindIndex(reactorsAndPowerCouplingsTableStartIndex, string.IsNullOrWhiteSpace);
+            var reactorsAndPowerCouplingsTableLines = lines.Skip(reactorsAndPowerCouplingsTableStartIndex).Take(reactorsAndPowerCouplingsEndIndex - reactorsAndPowerCouplingsTableStartIndex).ToList();
+
             starshipEquipment.AddRange(CreateArmorAndShields(armorTableLines, lines));
             starshipEquipment.AddRange(CreateWeapons(smallWeaponTableLines, true));
             starshipEquipment.AddRange(CreateWeapons(hugeWeaponTableLines, false));
-            starshipEquipment.AddRange(CreateAmmunition(ammunitionTableLines, lines));
+            starshipEquipment.AddRange(CreateAmmunition(tertiaryAmmunitionTableLines, lines));
+            starshipEquipment.AddRange(CreateAmmunition(quaternaryAmmunitionTableLines, lines));
             starshipEquipment.AddRange(CreateHyperdrives(hyperdriveTableLines));
             starshipEquipment.AddRange(CreateNavcomputers(navcomputerTableLines));
+            starshipEquipment.AddRange(CreateReactorsAndPowerCouplings(reactorsAndPowerCouplingsTableLines, lines));
 
             return Task.FromResult(starshipEquipment);
         }
@@ -144,8 +154,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                         Name = weaponColumns[1].RemoveHtmlWhitespace().Trim(),
                         Cost = int.Parse(weaponColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands),
                         DamageType = weaponColumns[4].Split(' ')[1].Trim(),
-                        AttacksPerRound = int.Parse(weaponColumns[6]),
-                        Properties = weaponColumns[7]
+                        Properties = weaponColumns[5]
                     };
 
                     var damage = Regex.Matches(weaponColumns[4], @"-?\d+");
@@ -160,26 +169,20 @@ namespace StarWars5e.Parser.Processors.SOTG
                         weapon.DamageDieModifier = int.Parse(damage[2].Value);
                     }
 
-                    var reloadIndex = weaponColumns[7].IndexOf(Localization.reload, StringComparison.InvariantCultureIgnoreCase);
+                    var reloadIndex = weaponColumns[5].IndexOf(Localization.reload, StringComparison.InvariantCultureIgnoreCase);
                     if (reloadIndex != -1)
                     {
-                        var checkForReload = Regex.Match(weaponColumns[7].Substring(reloadIndex), @"-?\d+");
+                        var checkForReload = Regex.Match(weaponColumns[5].Substring(reloadIndex), @"-?\d+");
                         if (checkForReload.Success)
                         {
                             weapon.Reload = int.Parse(checkForReload.Value);
                         }
                     }
 
-                    var attackBonusMatch = Regex.Match(weaponColumns[5], @"-?\d+");
-                    if (attackBonusMatch.Success)
-                    {
-                        weapon.AttackBonus = int.Parse(attackBonusMatch.Value);
-                    }
-
-                    var rangeIndex = weaponColumns[7].IndexOf(Localization.range, StringComparison.InvariantCultureIgnoreCase);
+                    var rangeIndex = weaponColumns[5].IndexOf(Localization.range, StringComparison.InvariantCultureIgnoreCase);
                     if (rangeIndex != -1)
                     {
-                        var shortRangeMatch = Regex.Match(weaponColumns[7].Substring(rangeIndex),
+                        var shortRangeMatch = Regex.Match(weaponColumns[5].Substring(rangeIndex),
                             @"[0-9]+(,[0-9]+)*");
                         weapon.ShortRange = int.Parse(shortRangeMatch.Value, NumberStyles.AllowThousands);
                         weapon.LongRange = int.Parse(shortRangeMatch.NextMatch().Value, NumberStyles.AllowThousands);
@@ -199,13 +202,14 @@ namespace StarWars5e.Parser.Processors.SOTG
             var categoryLineIndexes = ammunitionTableLines.Where(s => s.StartsWith("|_")).Select(ammunitionTableLines.IndexOf).ToList();
             foreach (var categoryLineIndex in categoryLineIndexes)
             {
-                var weaponCategory = GetStarshipWeaponCategoryFromString(ammunitionTableLines[categoryLineIndex]
-                    .Replace("|", string.Empty).Replace("_", string.Empty).Trim());
                 var ammunitionLines = categoryLineIndex == categoryLineIndexes.Last()
                     ? ammunitionTableLines.Skip(categoryLineIndex + 1).Take(ammunitionTableLines.Count - categoryLineIndex - 1)
                         .ToList()
                     : ammunitionTableLines.Skip(categoryLineIndex + 1)
                         .Take(categoryLineIndexes[categoryLineIndexes.IndexOf(categoryLineIndex) + 1] - categoryLineIndex - 1).ToList();
+
+                ammunitionLines = ammunitionLines.Select(a => a.RemoveHtmlWhitespace()).ToList();
+
                 foreach (var ammunitionLine in ammunitionLines)
                 {
                     var ammunitionColumns = ammunitionLine.Split('|');
@@ -215,9 +219,8 @@ namespace StarWars5e.Parser.Processors.SOTG
                         ContentType = ContentType.Core.ToString(),
                         RowKey = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
                         TypeEnum = StarshipEquipmentType.Ammunition,
-                        StarshipWeaponCategoryEnum = weaponCategory,
                         Name = ammunitionColumns[1].RemoveHtmlWhitespace().Trim(),
-                        Cost = int.Parse(ammunitionColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands)
+                        Cost = int.TryParse(ammunitionColumns[2].Trim().Replace(" cr", string.Empty), NumberStyles.AllowThousands, null, out var cost) ? cost : 0
                     };
 
                     var ammunitionDescriptionStart = allLines.FindIndex(f => f.Contains($"#### {ammunition.Name}", StringComparison.InvariantCultureIgnoreCase));
@@ -251,7 +254,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                     RowKey = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Hyperdrive,
                     Name = hyperdriveColumns[1].RemoveHtmlWhitespace().Trim(),
-                    Cost = int.Parse(hyperdriveColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands),
+                    Cost = int.TryParse(hyperdriveColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands, null, out var cost) ? cost : 0,
                     HyperDriveClass = doubleArray[0]
                 };
                 hyperdriveList.Add(hyperdrive);
@@ -275,13 +278,83 @@ namespace StarWars5e.Parser.Processors.SOTG
                     RowKey = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
                     TypeEnum = StarshipEquipmentType.Navcomputer,
                     Name = navcomputerColumns[1].RemoveHtmlWhitespace().Trim(),
-                    Cost = int.Parse(navcomputerColumns[2].Replace(" cr", string.Empty).Trim(), NumberStyles.AllowThousands),
+                    Cost = int.TryParse(navcomputerColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands, null, out var cost) ? cost : 0,
                     NavcomputerBonus = navcomputerBonusMatch.Success ? int.Parse(navcomputerBonusMatch.Value) : 0
                 };
                 navcomputerList.Add(navcomputer);
             }
 
             return navcomputerList;
+        }
+
+        private IEnumerable<StarshipEquipment> CreateReactorsAndPowerCouplings(List<string> reactorsTableLines, List<string> allLines)
+        {
+            var reactorsAndPowerCouplings = new List<StarshipEquipment>();
+
+            var reactorsStart = reactorsTableLines.FindIndex(f => f.Contains(Localization.SOTGReactorsTableReactorsStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
+            var powerCouplingsStart =
+                reactorsTableLines.FindIndex(f => f.Contains(Localization.SOTGReactorsTablePowerCouplingsStartingLine, StringComparison.InvariantCultureIgnoreCase)) + 1;
+
+            var reactorLines = reactorsTableLines.Skip(reactorsStart).Take(powerCouplingsStart - reactorsStart - 1);
+            var powerCouplingLines = reactorsTableLines.Skip(powerCouplingsStart);
+
+            foreach (var reactorLine in reactorLines)
+            {
+                var reactorColumns = reactorLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
+                var reactor = new StarshipEquipment
+                {
+                    PartitionKey = ContentType.Core.ToString(),
+                    ContentType = ContentType.Core.ToString(),
+                    RowKey = reactorColumns[1],
+                    TypeEnum = StarshipEquipmentType.Reactor,
+                    Name = reactorColumns[1],
+                    Cost = int.TryParse(reactorColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands, null, out var cost) ? cost : 0,
+                    FuelCostsModifier = Regex.IsMatch(reactorColumns[3], @"^\s*-\s*$") ? null : reactorColumns[3],
+                    PowerDiceRecover = Regex.IsMatch(reactorColumns[4], @"^\s*-\s*$") ? null : reactorColumns[4],
+                    CentralStorageCapacity = Regex.IsMatch(reactorColumns[5], @"^\s*-\s*$") ? null : reactorColumns[5],
+                    SystemStorageCapacity = Regex.IsMatch(reactorColumns[6], @"^\s*-\s*$") ? null : reactorColumns[6]
+                };
+
+                var reactorDescriptionStart = allLines.FindIndex(f => f.Contains($"#### {reactor.Name}", StringComparison.InvariantCultureIgnoreCase));
+                if (reactorDescriptionStart != -1)
+                {
+                    var reactorDescriptionEnd = allLines.FindIndex(reactorDescriptionStart, string.IsNullOrWhiteSpace);
+                    reactor.Description = string.Join("\r\n", allLines.Skip(reactorDescriptionStart + 1)
+                        .Take(reactorDescriptionEnd - (reactorDescriptionStart + 1)).CleanListOfStrings());
+                }
+
+                reactorsAndPowerCouplings.Add(reactor);
+            }
+
+            foreach (var powerCouplingLine in powerCouplingLines)
+            {
+                var powerCouplingColumns = powerCouplingLine.Split('|').Select(s => s.RemoveHtmlWhitespace().Trim()).ToList();
+                var powerCoupling = new StarshipEquipment
+                {
+                    PartitionKey = ContentType.Core.ToString(),
+                    ContentType = ContentType.Core.ToString(),
+                    RowKey = powerCouplingColumns[1],
+                    TypeEnum = StarshipEquipmentType.PowerCoupling,
+                    Name = powerCouplingColumns[1],
+                    Cost = int.TryParse(powerCouplingColumns[2].Replace(" cr", string.Empty), NumberStyles.AllowThousands, null, out var cost) ? cost : 0,
+                    FuelCostsModifier = Regex.IsMatch(powerCouplingColumns[3], @"^\s*-\s*$") ? null : powerCouplingColumns[3],
+                    PowerDiceRecover = Regex.IsMatch(powerCouplingColumns[4], @"^\s*-\s*$") ? null : powerCouplingColumns[4],
+                    CentralStorageCapacity = Regex.IsMatch(powerCouplingColumns[5], @"^\s*-\s*$") ? null : powerCouplingColumns[5],
+                    SystemStorageCapacity = Regex.IsMatch(powerCouplingColumns[6], @"^\s*-\s*$") ? null : powerCouplingColumns[6]
+                };
+
+                var powerCouplingDescriptionStart = allLines.FindIndex(f => f.Contains($"#### {powerCoupling.Name}", StringComparison.InvariantCultureIgnoreCase));
+                if (powerCouplingDescriptionStart != -1)
+                {
+                    var powerCouplingDescriptionEnd = allLines.FindIndex(powerCouplingDescriptionStart, string.IsNullOrWhiteSpace);
+                    powerCoupling.Description = string.Join("\r\n", allLines.Skip(powerCouplingDescriptionStart + 1)
+                        .Take(powerCouplingDescriptionEnd - (powerCouplingDescriptionStart + 1)).CleanListOfStrings());
+                }
+
+                reactorsAndPowerCouplings.Add(powerCoupling);
+            }
+
+            return reactorsAndPowerCouplings;
         }
 
         private StarshipWeaponCategory GetStarshipWeaponCategoryFromString(string weaponCategoryText)

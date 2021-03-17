@@ -11,7 +11,7 @@ namespace StarWars5e.Models.Utils
             var cleanListOfStrings = source.ToList();
             if (!cleanListOfStrings.Any()) return cleanListOfStrings;
             var output = cleanListOfStrings.Where(s =>
-                    !(s.StartsWith("<") && (Regex.IsMatch(s, @">\s*$") 
+                    !(s.StartsWith("<") && (Regex.IsMatch(s, @">\s*$") && !s.StartsWith("<span")
                     || Regex.IsMatch(s, @"^\s+$"))) && !s.StartsWith("\\") && !Regex.IsMatch(s, @"^\s*\."))
                 .Select(s =>
                     removeHtmlWhitespace

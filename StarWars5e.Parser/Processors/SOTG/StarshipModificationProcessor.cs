@@ -61,7 +61,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
                     Name = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
-                    Prerequisites = modificationLines.Where(s => s.StartsWith($"_{Localization.Prerequisite}",
+                    Prerequisites = modificationLines.Where(s => s.StartsWith($"_**{Localization.Prerequisite}",
                             StringComparison.InvariantCultureIgnoreCase)).Select(s =>
                             s.Substring(s.IndexOf(' ') + 1).Replace("_", string.Empty).Replace("<br>", string.Empty))
                         .ToList(),
@@ -71,7 +71,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                             !s.StartsWith('/') &&
                             !s.StartsWith('<') &&
                             !s.StartsWith('#') &&
-                            !s.StartsWith($"_{Localization.Prerequisite}", StringComparison.InvariantCultureIgnoreCase)))
+                            !s.StartsWith('_')))
                 };
 
                 modifications.Add(modification);

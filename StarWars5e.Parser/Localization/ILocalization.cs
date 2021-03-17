@@ -337,11 +337,16 @@ namespace StarWars5e.Parser.Localization
         public string SOTGArmorTableStartingLineShieldRegeneration { get; }
         public string SOTGSmallWeaponsTableStartingLine { get; }
         public string SOTGHugeWeaponsTableStartingLine { get; }
-        public string SOTGAmmunitionTableStartingLine { get; }
+        public string SOTGTertiaryAmmunitionTableStartingLine { get; }
+        public string SOTGQuaternaryAmmunitionTableStartingLine { get; }
+
         public string SOTGHyperdrivesTableStartingLine { get; }
         public string SOTGNavcomputerTableStartingLine { get; }
         public string SOTGArmorTableArmorStartingLine { get; }
         public string SOTGArmorTableShieldsStartingLine { get; }
+        public string SOTGReactorsTableStartingLineFuelCosts { get; }
+        public string SOTGReactorsTableReactorsStartingLine { get; }
+        public string SOTGReactorsTablePowerCouplingsStartingLine { get; }
         #endregion
 
         #region StarshipModificationProcessor

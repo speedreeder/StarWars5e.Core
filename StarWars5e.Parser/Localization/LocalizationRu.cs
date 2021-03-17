@@ -1124,6 +1124,16 @@ namespace StarWars5e.Parser.Localization
 
         public Tuple<string, int> TwentiethNum => throw new NotImplementedException();
 
+        public string SOTGTertiaryAmmunitionTableStartingLine => throw new NotImplementedException();
+
+        public string SOTGQuaternaryAmmunitionTableStartingLine => throw new NotImplementedException();
+
+        public string SOTGReactorsTableStartingLineFuelCosts => throw new NotImplementedException();
+
+        public string SOTGReactorsTableReactorsStartingLine => throw new NotImplementedException();
+
+        public string SOTGReactorsTablePowerCouplingsStartingLine => throw new NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

@@ -20,6 +20,8 @@ namespace StarWars5e.Parser
         public static async Task Parse(IServiceProvider serviceProvider, IAzureTableStorage azureTableStorage,
             GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
+            var configuration = serviceProvider.GetService<IConfiguration>();
+
             var playerHandbookManager = new PlayerHandbookManager(serviceProvider, localization);
             var wretchedHivesManager = new WretchedHivesManager(serviceProvider, localization);
             var starshipManager = new StarshipsOfTheGalaxyManager(serviceProvider, localization);
@@ -103,9 +105,12 @@ namespace StarWars5e.Parser
                 var features = serviceProvider.GetService<FeatureRepository>()?.Features;
                 var sheetOperations = new SheetOperations(serviceProvider);
 
-                if (features != null && serviceProvider.GetService<IConfiguration>()?["FeaturesSheetId"] != null)
+                if (features != null && serviceProvider.GetService<IConfiguration>()?["FeaturesSheetId"] != null &&
+                    configuration != null &&
+                    configuration["FeatureLanguages"].Split(',').Contains(localization.Language.ToString()))
                 {
-                    var featureSheetData = features.Select(c => new List<object> { c.RowKey, c.Level } as IList<object>).ToList();
+                    var featureSheetData = features.Select(c => new List<object> {c.RowKey, c.Level} as IList<object>)
+                        .ToList();
                     await sheetOperations.UpdateFeatureSheetAsync(featureSheetData);
                     Console.WriteLine("Successfully wrote features to Features Parsed sheet.");
                 }

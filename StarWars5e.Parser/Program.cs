@@ -26,7 +26,7 @@ namespace StarWars5e.Parser
                 .AddUserSecrets<Program>()
                 .Build();
 
-            var tableStorage = new AzureTableStorage(config["StorageAccountConnectionString"]);
+            var tableStorage = new AzureTableStorage(config["StorageAccountConnectionString"], true);
             
             var storageAccount = CloudStorageAccount.Parse(config["StorageAccountConnectionString"]);
             var cloudBlobClient = new BlobServiceClient(config["StorageAccountConnectionString"]);

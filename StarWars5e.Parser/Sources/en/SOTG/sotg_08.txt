@@ -4,9 +4,9 @@
 
 <img src='https://www.gmbinder.com/images/XSXXqiB.png' style='position:absolute;top:90px;left:71px;width:39px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iving through an asteroid field, docking in a<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; space port, or simply exploring the wild blue yonder, are the things that *Star Wars* adventures are made of. Your character, with the aid of their ship, might explore wild space, undertake dangerous smuggling missions, or dispatch pirate ships. And if all goes well, your character will survive to claim rich rewards before embarking on a new adventure.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iving through an asteroid field, docking in a<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;space port, or simply exploring the wild blue yonder, are the things that *Star Wars* adventures are made of. Your character, with the aid of their ship, might explore wild space, undertake dangerous smuggling missions, or dispatch pirate ships. And if all goes well, your character will survive to claim rich rewards before embarking on a new adventure.
 
-This chapter covers the basics of adventuring in space, from the mechanics of movement to the acquisition of the ship itself. The rules for maintenance are also in this chapter, along with a discussion of the activities your characters might pursue between adventures.
+This chapter covers the basics of adventuring in space, from the mechanics of movement to the acquisition of the ship itself. The rules for repair are also in this chapter, along with a discussion of the activities your characters might pursue between adventures.
 
 Whether adventurers are exploring uncharted territories or a complicated relationship with a criminal organization, the game follows a natural rhythm, as outlined in the book's introduction:
 
@@ -19,6 +19,7 @@ ___
 **3. The GM narrates the results of their actions.**
 
 ___
+
 
 Typically, the GM uses a map as an outline of the adventure, tracking the characters' progress as they explore enclave corridors or wilderness regions.
 
@@ -34,7 +35,7 @@ The transponder code is built into the ship's sublight engines, making any attem
 
 \columnbreak
 
-<br>
+<div style='margin-top:200px'></div>
 
 > ##### The Bureau of Ships and Services
 > The Bureau of Ships and Services (BoSS) is a long-standing, impartial, third-party galactic organization that manages all data related to the massive number of starships present in the galaxy. The BoSS has stood for thousands of years due to their ability to stay neutral in conflicts.
@@ -48,6 +49,8 @@ Starships are equipped with basic systems that allow for communication in realsp
 
 ### HoloNet
 The Holonet is an instantaneous communication system that allows planets to stay in contact despite the vast distances between them. A HoloNet transceiver transmits and receives information through hyperspace, allowing information to travel millions of times faster than the speed of light. Hyperwave transceivers are embedded at strategic locations, constantly relaying information throughout the galaxy. This networks allows for instantaneous three-dimensional holographic communications at virtually any distance, making it one of the primary means of communication. Government agencies, such as the military, typically maintain their own encrypted circuits on the HoloNet. Some experienced slicers have been able to access these encrypted channels, though it required access to a government compound for the requisite codes.
+
+<img src='https://i.imgur.com/d0nrJBo.png.jpg' style='position:absolute;top:90px;right:85px;width:300px;'>
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 
@@ -91,7 +94,7 @@ A ship can turn more or less than 90 degrees on its turn, by spending a proporti
 If a ship's **turning speed** exceeds its **flying speed**, treat its **turning speed** as equal to its **flying speed**.
 
 #### Travel Pace
-While traveling in realspace, a starship can move at a normal, fast, or slow pace. While traveling at a fast pace, your starship's flying speed is doubled, but your starship—and its crew—have disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks. While traveling at a slow pace, your flying speed is halved, but you can travel stealthily. A fast pace makes a ship less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the "Activity While Traveling" section later in this chapter for more information).
+While traveling in realspace, a starship can move at a normal, fast, or slow pace. While traveling at a fast pace, your starship's flying speed is doubled, but your starshipï¿½and its crewï¿½have disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks. While traveling at a slow pace, your flying speed is halved, but you can travel stealthily. A fast pace makes a ship less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the "Activity While Traveling" section later in this chapter for more information).
 
 You can use the following Sample Realspace Travel Times table to determine travel times in realspace for an average starship traveling at a normal pace.
 
@@ -111,7 +114,7 @@ You can use the following Sample Realspace Travel Times table to determine trave
 #### Difficult Terrain
 The travel speeds given in the Travel Pace table assume unobstructed terrain. But adventurers often face narrow canyons, tight formations, or other difficult terrain.
 
-You move at half speed in difficult terrain—moving 1 foot in difficult terrain costs 2 feet of speed—so you can cover only half the normal distance in a minute, an hour, or a day.
+You move at half speed in difficult terrainï¿½moving 1 foot in difficult terrain costs 2 feet of speedï¿½so you can cover only half the normal distance in a minute, an hour, or a day.
 
 #### Activity While Traveling
 As adventurers travel on their starship, they need to remain alert for danger, and some characters might perform other tasks to help the group's journey.
@@ -154,7 +157,7 @@ Characters who turn their attention to other tasks as the group travels are not 
 ### Travel in Hyperspace
 The fastest way to travel long distances in space is through hyperspace. When a starship engages its hyperdrive, it accelerates beyond the speed of light and enters hyperspace. A starship in hyperspace can't communicate with ships in realspace. It is effectively cut off from realspace while in hyperspace.
 
-Large objects that generate significant gravity, such as planets and stars, produce what is known as a "mass shadow" that projects into hyerspace. Collision with a mass shadow can have catastrophic repercussions. Hyperdrives have built-in safeguards that prevent a ship from jumping to hyperspace while inside of a mass shadow, causing a ship to immediately revert to realspace if the mass shadow is detected. Interdiction vesssels use gravity well generators to keep ships from activating their hyperdrives. Some pirates have been known to drag asteroids into hyperspace lanes in order to drag prey out of hyperspace.
+Large objects that generate significant gravity, such as planets and stars, produce what is known as a "mass shadow" that projects into hyperspace. Collision with a mass shadow can have catastrophic repercussions. Hyperdrives have built-in safeguards that prevent a ship from jumping to hyperspace while inside of a mass shadow, causing a ship to immediately revert to realspace if the mass shadow is detected. Interdiction vessels use gravity well generators to keep ships from activating their hyperdrives. Some pirates have been known to drag asteroids into hyperspace lanes in order to drag prey out of hyperspace.
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 
@@ -165,49 +168,70 @@ While traveling in hyperspace, a starship travels at a set speed as determined b
 
 The galaxy at large is divided into territories, which are in turn subdivided into sectors. Traveling from one planet to another in the same sector takes less time than traveling from one planet to another in a different sector of the same territory. Consequently, traveling to a planet in a different territory takes even longer.
 
-You can use the following Sample Hyperspace Travel Times table below to determine travel times. These times assume a class 1 hyperdrive.
-
-#### Sample Hyperspace Travel Times
-|Distance|Time Required|
-|:--|--:|
-|Planet in same sector|1-2 days|
-|Planet in different sector in same territory|3-6 days|
-|Planet in different territory|7-14 days|
+You can use the Base Hyperspace Travel Times table to determine travel times. These times assume a class 1 hyperdrive.
 
 #### Detecting Hyperspace Travel
 When a starship enters or exits hyperspace, it generates a short burst of radiation. Any facility with adequate sensor arrays can detect this radiation burst with a DC 20 Intelligence (Technology) check. Success would indicate that a ship entered or exited the system as well as the point of arrival or departure. If the result of the check is over 25, the angle of departure can be determined, indicating possible destinations.
 
 #### Astrogation
-Plotting a hyperspace course requires incredibly difficult calculations; normally, only a truly brilliant individual can perform this feat unaided. Before jumping to hyperspace, a ship must plot a course via astrogation. A deployed operator can calculate astronavigation with an Intelligence check. The DC of the check is determined by how long they spent calculating, as shown below in the Astrogation Time Taken table.
+Plotting a hyperspace course requires incredibly difficult calculations. Before jumping to hyperspace, a ship must plot a course via astrogation by completing 10 astrogation equations. When not under stress, a crew member can take 10 minutes to carefully make these calculations and check them, resulting in automatic success. When under duress, such as in combat situations, a crew member can calculate astronavigation with an Intelligence (Astrogation) check as an action on their turn, and then consults the Astrogation Results table.
 
-#### Astrogation Time Taken
-|Time Taken|DC|
-|:--|:--:|
-|10 minutes|10|
-|1 minute|20|
-|6 seconds|30|
+#### Astrogation Results
+|d20|	Result|
+|:--:|:--|
+|9 or lower | Your calculations fail, resulting in no completed equations.|
+|10-15 | Your calculations are adequate, resulting in one completed equation.|
+|16-20 | Your calculations include a breakthrough, resulting in two completed equations.|
+|21-25 | Your calculations are excellent, resulting in three completed equations.|
+|26-29 | Your calculations are masterful, resulting in four completed equations.|
+|30+   |Your calculations are perfect, resulting in five completed equations.|
 
 Additionally, the accuracy of the check is affected by how old the astrogation information is. If the astrogation information is less than a day old, the operator has advantage on the check. If the information is older than a week, however, they have disadvantage on the check.
 
-On a success, the operator accurately charts the hyperspace jump. Failing this check, however, results in a hyperspace mishap (see the Hyerspace Mishaps table below).
+You may choose to take a -5 penalty to your Intelligence (Astrogation) before making them in order to reduce your travel time by 24 hours; if this would reduce the travel time to less than 24 hours, you instead reduce the remaining travel time by one-half, to a minimum of 1 hour.  You must restart your calculations if you change this course choice.
 
-\columnbreak
+Alternatively, you may gain a +5 bonus on your Intelligence (Astrogation) checks if you voluntarily double the travel time.
 
-<div style='margin-top:16px'></div>
+<img src='https://i.pinimg.com/originals/2c/e6/9d/2ce69d7343e3101d628122c45957c4dc.jpg' style='position:absolute;top:60px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
 
 &emsp;**The BoSS:** In addition to their duties of regulating information regarding ship ownership, they BoSS also maintains a database of astrogation information. Each time a ship docks in a major spaceport, they can update their astrogation data for a 150 credit fee. Astrogation data is routinely updated and is rarely more than a week old.
 
 #### Hyperspace Hazards
-Traveling through hyperspace can be incredibly dangerous. If a starship is disabled because of a poorly plotted hyperspace course, the GM usually chooses the point at which the ship drops out of hyperspace at random. GMs looking for a more in-depth description of a hyperspace mishap can consult the table below.
+A jump to hyperspace can always be rushed, being made before all ten equations are completed, but such travel can be incredibly dangerous. If a starship is disabled because of a poorly plotted hyperspace course, the GM usually chooses the point at which the ship drops out of hyperspace at random. GMs looking for a more in-depth description of a hyperspace mishap can consult the table below.  For every complete equation, add 1 to your roll on the table below. If you roll a 1 on your die, you roll again on the table in addition to suffering the indicated penalty.  If you make a jump without *any* calculations and roll a 20, your ship comes out of hyperspace unscathed, but in a completely unknown location.
 
-#### Hyperspace Mishaps
-|D20&emsp;|Result|
+#### Detecting Hyperspace Travel
+When a starship enters or exits hyperspace, it generates a short burst of radiation. Any facility with adequate sensor arrays can detect this radiation burst with a DC 20 Wisdom (Scan) check. Success would indicate that a ship entered or exited the system as well as the point of arrival or departure. With a successful DC 25 Intelligence (Probe) check, the angle of departure can be determined, indicating possible destinations.
+
+\pagebreak
+
+<div class='classTable wide'>
+
+##### Base Hyperspace Travel Times (Hours)   
+|***Region <br>Traveling from***|**Deep<br> Core**|**Core**|**Colonies**|**Inner<br> Rim**|**Expansion <br>Region**|**Mid <br>Rim**|**Outer<br> Rim**|**Wild<br> Space**|**Unknown<br> Regions**|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|**Deep Core**       | 12| 18| 24| 48| 72| 96|120|144|168|
+|**Core**            | 24|  6| 24| 36| 60| 84| 96|120|144|
+|**Colonies**        | 48| 24| 12| 24| 48| 72| 96|120| 96|
+|**Inner Rim**       | 72| 36| 24| 18| 24| 48| 72| 96| 72|
+|**Expansion Region**| 96| 60| 48| 24| 24| 24| 48| 72| 96|
+|**Mid Rim**         |120| 84| 72| 48| 24| 36| 24| 48| 72|
+|**Outer Rim**       |144| 96| 96| 72| 48| 24| 48| 24| 60|
+|**Wild Space**      |168|120|120| 96| 72| 48| 24| 12|120|
+|**Unknown Regions** |192|144| 96| 72| 60| 72| 96|120| 48|
+
+</div>
+
+##### Hyperspace Mishaps
+|&nbsp;&nbsp;d20&nbsp;&nbsp;|Result|
 |:--:|:--|
-|1-5|Internal computer systems overload. Technology checks aboard the starship are made with disadvantage until the ship undergoes maintenance.
-|6-10|Intense gravity warps the vessel's structual integrity. Piloting checks are made with disadvantage until the ship undergoes maintenance.
-|11-15|Starship collides with small debris. The ship's hull immediately takes kinetic damage equal to one-tenth of its max HP, and shields regenerate at half their normal rate until the ship undergoes maintenance.
-|16-19|The hyperdrive suffers a catastrophic failure, and is rendered unusable until the ship undergoes maintenance.
-|20|Reroll on the above table twice|
+|1-2    | The hyperdrive suffers a catastrophic failure, and is rendered unusable until the ship is refitted.|
+|3-5  | The ship collides with significant debris, its hull immediately taking kinetic damage equal to one-tenth of its max HP, and shields regenerate at half their normal rate until the ship is refitted.|
+|6-8  | Intense gravity warps the vessel's structural integrity.  The ship's AC is reduced by 2 until the ship is refitted.|
+|9-11  | The ship passes through an unexpected gravity field, causing structural stress. Maneuver checks are made with disadvantage until the ship is refitted.|
+|12-14  | The ship passes too close to a supernova, overloading computer systems with solar radiation. Intelligence checks aboard the ship have disadvantage until the ship is refitted.|
+|15-17  | The ship passes through an uncharted dust cloud, clogging sensors and communications equipment. Scan and Probe checks aboard the ship are made with disadvantage until the ship is refitted. |
+|18-19    | The ship encounters dumped cargo, setting off a collision alarm. The Pilot must make a DC 15 Constitution save.  On a failure, the ship takes 3 hull dice of damage;  the ship takes half damage on a suc-<br>cess. The cargo is salvageable, it consists of 10d10 tons of cargo, each with a value of 10d10x10 credits.|
+|20+    |   The ship suffers no adverse consequences.|
 
 ### Landing Gear
 All ships, regardless of size, come with integrated landing gear, complete with magnetic clamps. A ship can use its landing gear to bind itself another ship of a larger size. The landing gear can be engaged remotely from the cockpit, or manually in the event of primary system failure.
@@ -215,9 +239,9 @@ All ships, regardless of size, come with integrated landing gear, complete with 
 ### Movement in Zero Gravity
 In some circumstances, such as prolonged power failure, or movement in space outside of the ship, a character might find themselves moving in zero gravity.
 
-While in zero gravity, a character has a flying speed equal to their walking speed, and zero gravity is treated as difficult terrain.
+While in zero gravity, creatures can move in any direction. Zero gravity is treated as difficult terrain.
 
-If a character already had a flying speed, they instead do not treat zero gravity as difficult terrain.
+If a character has a flying speed, whether granted by an item or as a special trait, they do not treat zero gravity as difficult terrain.
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 
@@ -226,10 +250,10 @@ If a character already had a flying speed, they instead do not treat zero gravit
 ## Crew Capacity
 Ships have a minimum and maximum crew capacity determined by their size, modifications, and determined use. Most Small fighters, for instance, have a single crew member controlling all aspects of the ship. Medium ships, however, might have a crew of half a dozen, while larger ships have crews in the hundreds to hundreds of thousands. Regardless, ships have a minimum number of required crew members, as shown below on the Starship Size Minimum Crew table.
 
-#### Starship Size Minimum Crew
+##### Starship Size Minimum Crew
 |Starship Size|Minimum Crew|
 |:--:|:--:|
-|Tiny|—|
+|Tiny|ï¿½|
 |Small|1|
 |Medium|1|
 |Large|200|
@@ -251,61 +275,54 @@ While deployed in only one deployment, it is assumed you can have access to all 
 Starship exploration involves delving into the potentially dangerous, uncharted territory. The rules in this section cover some of the most important ways in which adventurers, and their ships, interact with the environment. The Dungeon Master's Guide has rules covering more unusual situations.
 
 ### Vision and Light
-The most fundamental tasks of starfaring—noticing danger, finding hidden objects, and hitting an enemy ship in combat, to name just a few—rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
+The most fundamental tasks of starfaringï¿½noticing danger, finding hidden objects, and hitting an enemy ship in combat, to name just a fewï¿½rely heavily on a ship's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.
 
-A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, dust clouds, or electrical storms, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
+A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, dust clouds, or electrical storms, ships have disadvantage on Wisdom (Scan) checks.
 
-A **heavily obscured** area-such as darkness, opaque gases, or dense asteroids-blocks vision entirely. A creature in a heavily obscured area effectively suffers from the blinded condition (see appendix A).
+A **heavily obscured** area-such as darkness, opaque gases, or dense asteroids-blocks vision entirely. A ship in a heavily obscured area effectively suffers from the blinded condition (see appendix A).
 
 The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.
 
-**Bright light** lets most creatures see normally. 
+**Bright light** lets most ships see normally. 
 
 **Dim light**, also called shadows, creates a lightly obscured area. An area of dim light is usually a boundary between a source of bright light, and surrounding darkness. 
 
 **Darkness** creates a heavily obscured area. 
 
 #### Blindsight
-A deployed operator on a starship equipped with an enhanced scanner can perceive their surroundings without relying on sight, within a specific radius. 
+Crew members on a starship equipped with an enhanced scanner (Scanner, Premium) can perceive their surroundings without relying on sight, within a specific radius. 
 
 #### Truesight
-More advanced scanners offer truesight, allowing a deployed operator to detect starships that are completely invisible. Truesight allows a starship's scanners to automatically detect visual illusions and the deployed operator succeed on saving throws against them.
+More advanced scanners (Scanner, Renowned) offer truesight, allowing crew members to detect starships that are completely invisible. Truesight allows a starship's scanners to automatically detect visual illusions and succeed on saving throws against them.
+
+<img src='https://www.pinclipart.com/picdir/big/72-725686_bulldozer-clipart-construction-project-asteroids-transparent-background-png.png' style='position:absolute;bottom:30px;right:60px;width:400px;z-index:1000;filter:brightness(100%)contrast(100%) grayscale(0%)hue-rotate(0deg) opacity(100%)saturate(100%)sepia(0%);transform:scalex(1)' />
+
+<img src='https://www.sharecg.com/images/original/104367.jpg' style='position:absolute;bottom:0px;right:60px;width:700px;z-index:1000;filter:brightness(100%)contrast(100%) grayscale(0%)hue-rotate(0deg) opacity(100%)saturate(100%)sepia(0%);transform:scalex(1)' />
+
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 
 \pagebreakNum
 
-## Repairs and Maintenance  
-Over time, wear and tear on a ship accrues, forcing adventurers to temporarily abandon their pursuits to conduct repairs, and eventually maintenance. 
+## Recharging and Refitting  
+Over time, wear and tear on a ship accrues, forcing adventurers to temporarily abandon their pursuits to recharge and refit their ships. 
 
-### Repairs
-As long as a ship has a deployed mechanic, they can conduct makeshift repairs without having to dock the ship. Conducting repairs  requires a workforce as shown in the Starship Size Equipment Workforce table on page 55, and takes an amount of time depending on the size of starship, as shown in the Starship Size Repair Time table below.
+### Recharging
+As long as a ship has the requisite crew, they can conduct makeshift repairs and the systems of the ship can reset and recharge themselves without the ship having to dock. Recharging the ship requires a workforce as shown in the Starship Size Equipment Workforce table on page 55, and takes 1 hour.
 
-#### Starship Size Repair Time
-|Starship Size|Time&nbsp;&nbsp;|
-|:--|--:|
-|Tiny|1 hour|
-|Small|2 hours|
-|Medium|8 hours|
-|Large|1 day|
-|Huge|2 days|
-|Gargantuan|1 week|
+If conducting repairs is interrupted for more than an hour, the workforce must begin recharging again for the ship to gain any benefit from it.
 
-If conducting repairs is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting powers, or similar adventuring activity—the workforce must begin repairs again for the ship to gain any benefit from it.
+Once recharging is completed, a deployed mechanic can attempt to spend one or more Hull Dice by making an Intelligence (Mechanic's kit) check. On a roll of 10 or less, you have disadvantage on the Hull Dice roll. On a roll of 11 to 20, you roll the Hull Die normally. On a roll of 21 or higher, you have advantage on the Hull Dice roll.
 
-Once repairs are conducted, a deployed mechanic can attempt to spend one or more Hit Dice, up to the starship's maximum number of Hit Dice, by making an Intelligence (Mechanic's kit) check. On a roll of 10 or less, you roll the Hit Die twice and take the lesser amount. On a roll of 11 to 20, you roll the Hit Die normally. On a roll of 21 or higher, you roll the Hit Die twice and take the greater amount.
+For each Hull Die spent in this way, the mechanic rolls the the die and adds the ship's Constitution modifier to it. The starship regains hull points equal to the total. The mechanic can decide to spend an additional Hull Die after each roll.
 
-For each Hit Dice spent in this way, the mechanic rolls the the die and adds the ship's Constitution modifier to it. The starship regains hit points equal to the total. The mechanic can decide to spend an additional Hit Die after each roll. 
+Additionally, all shield points and Shield Dice are restored at the end of the recharging period. 
 
-### Maintenance
-Maintenance is a period of extended downtime that requires docking at a spaceport or shipyard. Maintenance costs a number of credits proportionate to the number of hit points missing. The amount is 10 credits per hit point multiplied by the Starship Size Upgrade Cost table on page 22. Conducting maintenance requires a workforce as shown in the Starship Size Upgrade Workforce table on page 22, and takes an amount of time depending on the size of starship, as shown in the Starship Size Maintenance Time table below.
+### Refitting
+Refitting is a period of extended downtime that requires docking at a spaceport or shipyard. Refitting costs a number of credits proportionate to the number of hull dice missing. The amount is 100 credits per hull die multiplied by the Starship Size Upgrade Cost table on page 22. Refitting requires a workforce as shown in the Starship Size Upgrade Workforce table on page 22, and takes an amount of time depending on the size of starship, as shown in the Starship Size Refitting Time table below.
 
-\columnbreak
-
-<div style='margin-top:26px'></div>
-
-#### Starship Size Maintenance Time
-|Starship Size|Time&nbsp;&nbsp;|
+#### Starship Size Refitting Time
+|Starship Size|Time  |
 |:--|--:|
 |Tiny|4 hours|
 |Small|8 hours|
@@ -314,14 +331,14 @@ Maintenance is a period of extended downtime that requires docking at a spacepor
 |Huge|1 week|
 |Gargantuan|1 month|
 
-If conducting maintenance is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting powers, or similar adventuring activity—the workforce must begin maintenance again for the ship to gain any benefit from it.
+At the end of refitting, a ship regains all lost hull and shield points, expended Hull Dice and Shield Dice, and its system damage level is reduced by 1. 
 
-At the end of maintenance, a ship regains all lost hit points and Hit Dice, and its system damage level is reduced by 1. 
+<img src='https://i.pinimg.com/originals/ae/2a/fa/ae2afaec8d70104b93d98a2e13e5a024.jpg' style='position:absolute;bottom:-118px;right:00px;width:840px;z-index:1000; transform:scalex(1);filter:drop-shadow(0 0 10px rgba(13, 153, 204, 0.7))' />
 
 #### Repairing the "Used" Condition
-If the ship was "used" at the start of maintenance, the foremost mechanic can make a DC 30 Intelligence (Mechanic's Kit) check. On a success, the cost of maintenance is increased, and the ship is no longer "used".
+If the ship was "used" at the start of refitting, the foremost mechanic can make a DC 30 Intelligence (Mechanic's Kit) check. On a success, the cost of refitting is increased, and the ship is no longer "used".
 
-Repairing "used" costs a number of credits proportionate to the ship's maximum number of hit points. The amount is 10 credits per hit point multiplied by the Starship Size Upgrade Cost table on page 22. 
+Repairing "used" costs a number of credits proportionate to the ship's maximum number of hull points. The amount is 10 credits per hull point multiplied by the Starship Size Upgrade Cost table on page 22. 
 
 ### Primary System Failure
 In some instances, primary systems can experience failure. When primary systems fail, an integrated emergency back up will activate. This back up can continue running the starship, provided there is adequate fuel, for 24 hours. At the end of the 24-hour period, primary systems fail, causing all electrical systems, including life support to fail. 
@@ -329,9 +346,9 @@ In some instances, primary systems can experience failure. When primary systems 
 Once a ship's primary systems, all functionality of the ship ceases to function. If the ship can be towed to a shipyard, it can still be repaired, however.
 
 #### Repairing Primary Systems
-If the ship's primary systems had failed at the start of maintenance, they can be repaired during that maintenance, increasing the cost but not the time.
+If the ship's primary systems had failed at the start of refitting, they can be repaired during that refitting, increasing the cost but not the time.
 
-Repairing primary systems costs a number of credits proportionate to the ship's maximum number of hit points. The amount is 10 credits per hit point multiplied by the Starship Size Upgrade Cost table on page 22. 
+Repairing primary systems costs a number of credits proportionate to the ship's maximum number of hull points. The amount is 10 credits per hull point multiplied by the Starship Size Upgrade Cost table on page 22. 
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 

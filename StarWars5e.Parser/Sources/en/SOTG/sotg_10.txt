@@ -1,7 +1,5 @@
 
 
-\pagebreak
-
 # Chapter 10: Generating Encounters
 
 <img src='https://www.gmbinder.com/images/4mYR4C0.png' style='position:absolute;top:90px;left:75px;width:30px' />
@@ -32,7 +30,7 @@ Finally, the players might have to task of obtaining something during a starship
 ## Build Interesting Battlefields
 Another key element of good space combat encounters is creating combat arenas that are interesting. Certainly, encounters involving two groups of ships engaging one another in open space can be fun, but adding a certain element of environmental challenge to the encounter makes it much more memorable. Perhaps while fleeing, the characters must fly through an asteroid belt wrought with peril, their pursuit detonating asteroids in an attempt to disable them. Just as in character-scale combat, adding terrain features to space battles creates more lively combat sequences that require creativity and tactical thinking on the part of the players.
 
-<div class='footnote'>PART 3 | GENERATING ENCOUNTERS</div>
+<div class='footnote'>CHAPTER 10 | GENERATING ENCOUNTERS</div>
 
 \pagebreakNum
 
@@ -41,15 +39,15 @@ Another key element of good space combat encounters is creating combat arenas th
 The presence of environmental obstacles also creates a more dynamic battlefield, adding another dimension to the placement and movement of starships. Terrain challenges in space combat necessitate movement and encourage players to be more creative in their actions. The following terrain hazards can be part of any space combat sequence.
 
 ### Asteroids, Debris,<br> and Enclosed Terrain
-Space is a lot less empty than one might think, and an environment that contains asteroids, debris, or enclosure is difficult to move through and can potentially damage a starship. Moving through the space of an object hazard is requires an Intelligence (Piloting) check, with a DC equal to the size of the obstacle, as shown in the DC column below. On a failure, the ship takes kinetic damage equal to the Damage column.
+Space is a lot less empty than one might think, and an environment that contains asteroids, debris, or enclosure is difficult to move through and can potentially damage a starship. Moving through the space of an object hazard requires an Intelligence (Piloting) check, with a DC equal to the size of the obstacle, as shown in the DC column below. On a failure, the ship takes kinetic damage equal to the Damage column.
 
 |Size|DC|Damage|
 |:--|:--:|--:|
-|Tiny|5|1d6&nbsp;&nbsp;&nbsp;|
-|Small|10|2d6&nbsp;&nbsp;&nbsp;|
-|Medium|15|3d6&nbsp;&nbsp;&nbsp;|
-|Large|20|4d6&nbsp;&nbsp;&nbsp;|
-|Huge|25|5d6&nbsp;&nbsp;&nbsp;|
+|Tiny|10|1d6&nbsp;&nbsp;&nbsp;|
+|Small|14|2d6&nbsp;&nbsp;&nbsp;|
+|Medium|18|3d6&nbsp;&nbsp;&nbsp;|
+|Large|22|4d6&nbsp;&nbsp;&nbsp;|
+|Huge|26|5d6&nbsp;&nbsp;&nbsp;|
 |Gargantuan|30|6d6&nbsp;&nbsp;&nbsp;|
 
 ### Damaging Environment
@@ -78,53 +76,6 @@ Similarly, limiting the perception or communication of combatants can add an air
 
 > Encounter Creation needs to be rewritten. It will require a decent amount of maff on my end, so it's not ready yet. For the time being, have your GM use common sense to dictate what is an appropriate encounter.
 
-<div class='footnote'>PART 3 | GENERATING ENCOUNTERS</div>
+<div class='footnote'>CHAPTER 10 | GENERATING ENCOUNTERS</div>
 
 \pagebreakNum
-
-<div style='margin-top:450px;'></div>
-
-<div align='center'>
-
-# This Page Left Intentionally Blank
-
-</div>
-
-<div style='margin-top:25px'></div>
-
-<div align ='center' class='wide'>
-
-##### For Encounter Generation Calculation
-
-</div>
-
-<div class='footnote'>PART 3 | GENERATING ENCOUNTERS</div>
-
-\pagebreakNum
-
-## Creating an Encounter
-Typically, when generating character-scale encounters, you are measuring the power of your players (as represented by their levels) against the combined challenge rating of their opponents. Starships, however, do not level up in the same way that players do. Instead, when the player's acquire a ship, that ship has an assigned challenge rating (CR). When generating an encounter for your players' starship, you want to try to match the CR's XP value against the combined XP of their opponents. In an instance where either side of the encounter has multiple ships, you have to adjust the net XP using an encounter multiplier.
-
-<div style='column-count:2'>
-
-|Number of<br> Ships|Multiplier|
-|:--:|:--:|
-|1|x1|
-|2|x1.5|
-|3-6|x2|
-
-|Number of<br> Ships|Multiplier|
-|:--:|:--:|
-|7-10|x2.5|
-|11-14|x3|
-|15 or more|x4|
-
-</div>
-
-If both sides have multiple ships, subtract the lesser amount from the greater, and use the new value to calculate the multiplier for the larger side.
-
-Over time, your ship's CR may increase, by way of ship upgrades or a better Piloting skill.
-
-<div class='footnote'>PART 3 | GENERATING ENCOUNTERS</div>
-
-<div class='pageNumber auto'></div>

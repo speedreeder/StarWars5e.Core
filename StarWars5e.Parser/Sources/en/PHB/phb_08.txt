@@ -170,8 +170,6 @@ Many creatures in the worlds of Star Wars, especially those that dwell undergrou
 
 \pagebreakNum
 
-<div style='margin-top:26px'></div>
-
 #### Truesight
 A creature with truesight can, out to a specific range, see in normal and enhanced darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by a power.
 
@@ -187,9 +185,13 @@ A character needs one gallon of water per day, or two gallons per day if the wea
 ### Interacting with Objects
 A character's interaction with objects in an environment is often simple to resolve in the game. The player tells the GM that his or her character is doing something, such a moving a lever, and the GM describes what, if anything happens. For example, a character might decide to pull a lever, which might, in turn, open a door, cause a room to flood with water, or open a secret door in a nearby wall. If the lever is rusted in position, though, a character might need to force it. In such a situation, the GM might call for a Strength check to see whether the character can wrench the lever into place. The GM sets the DC for any such check based on the difficulty of the task.
 
-Characters can also damage objects with their weapons and powers. Objects are immune to poison and sonic damage, but otherwise they can be affected by physical attacks and powers much like creatures can. The GM determines an object's Armor Class and hit points, and might decide that certain objects have resistance or immunity to certain kinds of attacks. (It's hard to cut a rope with a club, for example.) Objects always fail Strength and Dexterity saving throws, and they are immune to effects that require other saves. When an object drops to 0 hit points, it breaks. A character can also attempt a Strength check to break an object. The GM sets the DC for any such check.
+Characters can also damage objects with their weapons and powers. Objects are immune to necrotic, poison, and psychic damage, but otherwise they can be affected by physical attacks and powers much like creatures can. Generally, objects are immune to any conditions that are illogical, such as charmed or frightened. The GM determines an object's Armor Class and hit points, and might decide that certain objects have resistance or immunity to certain kinds of attacks. (It's hard to cut a rope with a club, for example.) Objects always fail Strength, Dexterity, and Constitution saving throws, and they are immune to effects that require other saves. When an object drops to 0 hit points, it breaks. A character can also attempt a  
 
 \columnbreak
+
+<div style='margin-top:16px'></div>
+
+Strength check to break an object. The GM sets the DC for any such check.
 
 ## Social Interaction
 Exploring dungeons, overcoming obstacles, and slaying monsters are key parts of D&D adventures. No less important, though, are the social interactions that adventurers have with other inhabitants of the world.

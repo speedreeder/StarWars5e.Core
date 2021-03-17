@@ -455,13 +455,18 @@ namespace StarWars5e.Parser.Localization
         #region StarshipEquipmentProcessor
         public string SOTGArmorTableStartingLineArmorClass => "|Armor Class";
         public string SOTGArmorTableStartingLineShieldRegeneration => "|Shield Regeneration";
-        public string SOTGSmallWeaponsTableStartingLine => "##### Ship Weapons (Small)";
-        public string SOTGHugeWeaponsTableStartingLine => "##### Ship Weapons (Huge)";
-        public string SOTGAmmunitionTableStartingLine => "##### Ammunition";
+        public string SOTGSmallWeaponsTableStartingLine => "##### Ship Weapons (Tiny-Large)";
+        public string SOTGHugeWeaponsTableStartingLine => "##### Ship Weapons (Huge-Gargantuan)";
+        public string SOTGTertiaryAmmunitionTableStartingLine => "##### Tertiary Ammunition";
+        public string SOTGQuaternaryAmmunitionTableStartingLine => "##### Quaternary Ammunition";
+
         public string SOTGHyperdrivesTableStartingLine => "##### Hyperdrives";
         public string SOTGNavcomputerTableStartingLine => "##### Navcomputer";
         public string SOTGArmorTableArmorStartingLine => "_armor_";
         public string SOTGArmorTableShieldsStartingLine => "_shields_";
+        public string SOTGReactorsTableStartingLineFuelCosts => "|Fuel Costs";
+        public string SOTGReactorsTableReactorsStartingLine => "_Reactor_";
+        public string SOTGReactorsTablePowerCouplingsStartingLine => "_Power coupling_";
         #endregion
 
         #region StarshipModificationProcessor

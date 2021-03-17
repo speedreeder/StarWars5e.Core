@@ -44,7 +44,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                     PartitionKey = ContentType.Core.ToString(),
                     RowKey = ventureLines[i].Substring(ventureLines[i].IndexOf(' ') + 1).Trim(),
                     Name = ventureLines[i].Substring(ventureLines[i].IndexOf(' ') + 1).Trim(),
-                    Prerequisites = currentVentureLines.Where(s => s.StartsWith($"_{Localization.Prerequisite}",
+                    Prerequisites = currentVentureLines.Where(s => s.StartsWith($"_**{Localization.Prerequisite}",
                             StringComparison.InvariantCultureIgnoreCase)).Select(s =>
                             s.Substring(s.IndexOf(' ') + 1).Replace("_", string.Empty).Replace("<br>", string.Empty))
                         .ToList(),
@@ -53,8 +53,7 @@ namespace StarWars5e.Parser.Processors.SOTG
                             !string.IsNullOrWhiteSpace(s) &&
                             !s.StartsWith('/') &&
                             !s.StartsWith('<') &&
-                            !s.StartsWith('#') &&
-                            !s.StartsWith($"_{Localization.Prerequisite}", StringComparison.InvariantCultureIgnoreCase)))
+                            !s.StartsWith('#')))
                 };
 
                 ventureList.Add(venture);

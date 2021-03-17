@@ -234,13 +234,13 @@ Cathar names can sound both melodic and fairly gutteral, but they almost always 
 
 **Male Names.** Crurbirr, Isyrr, Nynorr, Suro, Tukarr 
 
-**Female Names.** Cuwin, Jyvohr, Mulahr, Solyri, 
+**Female Names.** Cuwin, Jyvohr, Mulahr, Solyri
 
 **Surnames.** Jin, Ki, Mak, Rhir, Ta
 
 \columnbreak
 
-<div style='margin-top:471px'></div>
+<div style='margin-top:501px'></div>
 
 ### Cathar Traits
 As a cathar, you have the following special traits.
@@ -255,7 +255,7 @@ As a cathar, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Cat's Claws.*** You have a climbing speed of 20 feet. Additionally, your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Cat's Claws.*** You have a climbing speed of 20 feet. Additionally, your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Cat's Talent.*** You have proficiency in the Perception and Stealth skills.
 
@@ -265,7 +265,7 @@ As a cathar, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Catharese.
 
-<img src='https://www.gmbinder.com/images/n6K5gK6.png' style='position:absolute;top:48px;right:25px;width:367px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/n6K5gK6.png' style='position:absolute;top:48px;right:25px;width:389px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -307,7 +307,7 @@ Cerean male first names are often hyphenated, while females are not. Surnames ar
 
 **Male Names.** Ji-Cheelia, Ki-Adi, Pick-toh, Sauli-Fanz
 
-**Female Names.** Dreash, Kilniavy, Melm, Rharoth, 
+**Female Names.** Dreash, Kilniavy, Melm, Rharoth
 
 **Surnames.** Codux, Emkom, Kyureft, Lonnik, Mundi
 
@@ -476,7 +476,7 @@ As a devaronian, you have the following special traits.
 
 ***Two Livered.*** Devaronians have two livers, which makes them adept at filtering toxins. You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).
 
-***Languages.*** You can speak, read, and write Galactic Basic and Devaronese. Devaronese is characterized by grunts and grumbles. It is rare to hear a Devaronian speak it any where other than their homeworld of Devaron.
+***Languages.*** You can speak, read, and write Galactic Basic and Devaronese. Devaronese is characterized by grunts and grumbles. It is rare to hear a Devaronian speak it anywhere other than their homeworld of Devaron.
 
 <img src='https://www.gmbinder.com/images/6JPkpel.png' style='position:absolute;top:55px;right:62px;width:348px;z-index:1000' />
 
@@ -502,7 +502,7 @@ ___
 > #### Creation Characteristics
 > |||
 > |:--|:--|
-> |***Manufacturer***|Cybot Galactica<br>Industrial Automaton|
+> |***Manufacturer***|Cybot Galactica, <br>Industrial Automaton|
 > |***Primary Language***|Varies based on location|
 
 > #### Players as Droids
@@ -588,7 +588,7 @@ ___
 > #### Creation Characteristics
 > |||
 > |:--|:--|
-> |***Manufacturer***|Aratech Repulsor Company<br>Industrial Automaton|
+> |***Manufacturer***|Aratech Repulsor Company, <br>Industrial Automaton|
 > |***Primary Language***|Binary|
 
 > #### Players as Droids
@@ -648,7 +648,7 @@ As a class II droid, you have the following special traits.
 
 ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.
 
-***Languages.*** You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it.
+***Languages.*** You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak them.
 
 <img src='https://www.gmbinder.com/images/lMZ4tex.png' style='position:absolute;top:28px;right:147px;width:64px;z-index:1000' />
 
@@ -676,7 +676,7 @@ ___
 > #### Creation Characteristics
 > |||
 > |:--|:--|
-> |***Manufacturer***|Cybot Galactica<br>Industrial Automaton|
+> |***Manufacturer***|Cybot Galactica, <br>Industrial Automaton|
 > |***Primary Language***|Varies based on location|
 
 > #### Players as Droids
@@ -762,7 +762,7 @@ ___
 > #### Creation Characteristics
 > |||
 > |:--|:--|
-> |***Manufacturer***|Holowan Mechanicals<br>Uxiol Droid Manufacturing|
+> |***Manufacturer***|Holowan Mechanicals, <br>Uxiol Droid Manufacturing|
 > |***Primary Language***|Galactic Basic|
 
 > #### Players as Droids
@@ -846,7 +846,7 @@ ___
 > #### Creation Characteristics
 > |||
 > |:--|:--|
-> |***Manufacturer***|Cybot Galactica<br>Industrial Automaton|
+> |***Manufacturer***|Cybot Galactica, <br>Industrial Automaton|
 > |***Primary Language***|Binary|
 
 > #### Players as Droids
@@ -1354,7 +1354,7 @@ As an Ithorian, you have the following special traits.
 
 ***Sonic Resistance.*** Ithorians have resistance to sonic damage.
 
-***Sonic Scream.*** As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain one use of this feature when you finish a long rest.
+***Sonic Scream.*** As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.
 
 ***Languages.*** You can speak, read, and write Ithorese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.
 
@@ -1427,7 +1427,7 @@ As a jawa, you have the following special traits.
 
 ***Grovel, Cower, and Beg.*** As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.
 
-***Tech Dabbler.*** You know the *ion blast* at-will tech power. When you reach 3rd level, you learn and can cast the *repair droid* tech power once per long rest. When you reach 5th level, you learn and can cast the *hold droid* tech power once per long rest. Your techcasting ability is Intelligence. You do not require use of a wristpad for these powers.
+***Tech Dabbler.*** You know the *ion blast* at-will tech power. When you reach 3rd level, you learn and can cast the *repair droid* tech power once per long rest. When you reach 5th level, you learn and can cast the *hold droid* tech power once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers.
 
 ***Thieves.*** You have proficiency in Sleight of Hand.
 
@@ -1712,7 +1712,7 @@ Female names tend to be longer than male names. Surnames are familial.
 
 \columnbreak
 
-<div style='margin-top:516px'></div>
+<div style='margin-top:533px'></div>
 
 ### Rodian Traits
 As a rodian, you have the following special traits.
@@ -1735,9 +1735,9 @@ As a rodian, you have the following special traits.
 
 ***Keen Hearing and Smell.*** You have advantage on Wisdom (Perception) checks that involve hearing or smell.
 
-***Languages.*** You can speak, read, and write Galactic Basic and Rodese. Rodians can communicate with eachother using pheromones. Force-sensitives can detect this communication, though they can't understand it.
+***Languages.*** You can speak, read, and write Galactic Basic and Rodese. Rodians can communicate with each other using pheromones. Force-sensitives can detect this communication, though they can't understand it.
 
-<img src='https://www.gmbinder.com/images/ALqyUgO.png' style='position:absolute;top:57px;right:85px;width:246px' />
+<img src='https://www.gmbinder.com/images/ALqyUgO.png' style='position:absolute;top:57px;right:85px;width:253.5px' />
 
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
@@ -1877,11 +1877,11 @@ As a togruta, you have the following special traits.
 
 ***Darkvision.*** Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Montral Reception.*** You have tremorsense out to 30 feet. You can detect and pinpoint the origin of vibrations within a specific radius, provided that you and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures
+***Montral Reception.*** You have tremorsense out to 30 feet. You can detect and pinpoint the origin of vibrations within a specific radius, provided that you and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.
 
 ***Wild Hunters.*** You have proficiency with the Survival skill.
 
-***Languages.*** You can speak, read, and write Galactic Basic and Togruti. Togruti is an ornate language characterized by trills and long vowel sounds which are modified by subtle tremors in the togruta's head-tails. This language is heavily influenced by Basic, but also incorporates some native idioms, which caused Basic-speaking togruta to use seemingly strange<br> expressions.
+***Languages.*** You can speak, read, and write Galactic Basic and Togruti. Togruti is an ornate language characterized by trills and long vowel sounds which are modified by subtle tremors in the togruta's head-tails. This language is heavily influenced by Basic, but also incorporates some native idioms, which cause Basic-speaking togruta to use seemingly strange<br> expressions.
 
 <img src='https://www.gmbinder.com/images/odpeG7I.png' style='position:absolute;top:50px;right:110px;width:242px;z-index:1000' />
 
@@ -2025,7 +2025,7 @@ As a Tusken, you have the following special traits.
 
 ***Intimidating Roar.*** Once per day, you can cast the *fear* force power. Charisma is your forcecasting ability for this power.
 
-***Survivors of the Sands.*** You are proficient in Survival. Additionally, you don't treat desert terrain as difficult terrain. Lastly, you are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.
+***Survivors of the Sands.*** You are proficient in Survival. Additionally, you don't treat desert terrain as difficult terrain. Lastly, you have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.
 
 ***Tusken Weaponry.*** You have proficiency with the slugthrower and vibromace. 
 
@@ -2077,7 +2077,7 @@ Twi'lek names combine their first name and a clan name into a single name, rathe
 
 \columnbreak
 
-<div style='margin-top:456px'></div>
+<div style='margin-top:501px'></div>
 
 ### Twi'lek Traits
 As a twi'lek, you have the following special traits.
@@ -2098,11 +2098,11 @@ As a twi'lek, you have the following special traits.
 
 ***Natural Antitoxins.*** You have advantage on saving throws against poison and disease, and you have resistance against poison damage (explained in Chapter 9).
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Twi'leki. You can communicate non-verbally with other twi'leks through a complex language of subtle head-tail motions.
 
-<img src='https://www.gmbinder.com/images/B5LmpQ6.png' style='position:absolute;top:-20px;right:80px;width:227.2px' />
+<img src='https://www.gmbinder.com/images/B5LmpQ6.png' style='position:absolute;top:-20px;right:80px;width:245.5px' />
 
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
@@ -2173,7 +2173,7 @@ As a weequay, you have the following special traits.
 
 ***Keen Smell.*** You have advantage on Wisdom (Perception) checks that rely on smell.
 
-***Tanned.*** You have tough, leathery skin. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.
+***Tanned.*** You have tough, leathery skin. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Sriluurian. You can communicate with other Weequay within 30 feet without speaking through use of pheromones. Force attuned individuals can detect the communication but can't understand it.
 
@@ -2206,7 +2206,7 @@ ___
 > |***Homeworld***|&nbsp;&nbsp;|Kashyyyk|
 > |***Language***|&nbsp;&nbsp;|Shyriiwook|
 
-<div style='margin-top:53px'></div>
+<div style='margin-top:55px'></div>
 
 ### Biology and Appearance
 Wookiees are a tall species of furry giants from the planet Kashyyyk, who can grow to a height of over eight feet. They are covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably came in shades of brown, black, gray, and white. The species has two sexes, female and male. The latter grows long beards in adult life. Wookiee eye colors are usually blue, green, yellow, golden, brown, or red.
@@ -2223,7 +2223,7 @@ Wookiee names are diverse; some names are simple and short while others are long
 
 \columnbreak
 
-<div style='margin-top:385px'></div>
+<div style='margin-top:400px'></div>
 
 ### Wookiee Traits
 As a wookiee, you have the following special traits.
@@ -2238,11 +2238,11 @@ As a wookiee, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier.
+***Claws.*** Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
 
 ***Darkvision.*** Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 
-***Hide.*** You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.
+***Hide.*** You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, you have advantage on Constitution saving throws made to avoid exhaustion due to extreme cold.
 
 ***Powerful Build.*** Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.
 
@@ -2250,7 +2250,7 @@ As a wookiee, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Shyriiwook. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.
 
-<img src='https://www.gmbinder.com/images/ZUQ5ISz.png' style='position:absolute;top:25px;right:73px;width:262px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/ZUQ5ISz.png' style='position:absolute;top:25px;right:63px;width:270px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
@@ -2276,7 +2276,7 @@ ___
 > #### Sociocultural Characteristics
 > ||||
 > |:--|:--|:--|
-> |***Homeworld***|&nbsp;&nbsp;|Iridonia or Dathomir|
+> |***Homeworlds***|&nbsp;&nbsp;|Iridonia, Dathomir|
 > |***Language***|&nbsp;&nbsp;|Zabraki|
 
 <div style='margin-top:36px'></div>
@@ -2300,7 +2300,7 @@ Zabrak names are usually derived from the animals living on their planet. Zabrak
 
 \columnbreak
 
-<div style='margin-top:455px'></div>
+<div style='margin-top:500px'></div>
 
 ### Zabrak Traits
 As a zabrak, you have the following special traits.
@@ -2323,11 +2323,11 @@ As a zabrak, you have the following special traits.
 
 ***Second Heart.*** When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
 
-***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+***Unarmed Combatant.*** Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Zabraki.
 
-<img src='https://www.gmbinder.com/images/TXlLpKD.png' style='position:absolute;top:53px;right:25px;width:380px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/TXlLpKD.png' style='position:absolute;top:53px;right:25px;width:416px;z-index:1000' />
 
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
