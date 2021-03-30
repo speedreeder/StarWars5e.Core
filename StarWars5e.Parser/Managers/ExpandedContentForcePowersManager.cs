@@ -14,7 +14,7 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly IAzureTableStorage _tableStorage;
         private readonly GlobalSearchTermRepository _globalSearchTermRepository;
-        private readonly List<string> _ecForcePowersFileName = new List<string> { "ec_12.txt" };
+        private readonly List<string> _ecForcePowersFileName = new() { "ec_12.txt" };
         private readonly ILocalization _localization;
 
         public ExpandedContentForcePowersManager(IAzureTableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)

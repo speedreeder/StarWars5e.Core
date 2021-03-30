@@ -11,7 +11,8 @@ namespace StarWars5e.Parser.Managers
     {
         private readonly IAzureTableStorage _tableStorage;
         private readonly IBaseProcessor<ReferenceTable> _referenceTableProcessor;
-        private readonly List<string> _referenceTableFileNames = new List<string> {
+        private readonly List<string> _referenceTableFileNames = new()
+        {
             "PHB.phb_-1.txt", "PHB.phb_00.txt", "PHB.phb_01.txt", "PHB.phb_02.txt", "PHB.phb_03.txt", "PHB.phb_04.txt",
             "PHB.phb_05.txt", "PHB.phb_06.txt", "PHB.phb_07.txt", "PHB.phb_08.txt", "PHB.phb_09.txt", "PHB.phb_10.txt",
             "PHB.phb_11.txt", "PHB.phb_12.txt", "PHB.phb_aa.txt", "PHB.phb_ab.txt","SOTG.sotg_00.txt", "SOTG.sotg_01.txt",

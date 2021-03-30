@@ -42,6 +42,7 @@
 |&emsp;Blademaster Specialist   |
 |&emsp;Demolitions Specialist   |
 |&emsp;Enhancement Specialist   |
+|&emsp;Exhibition Specialist    |
 |&emsp;Mounted Specialist       |
 |&emsp;Praetorian Specialist    |
 |&emsp;Totem Specialist         |
@@ -659,19 +660,19 @@ While many Forcewielders eschew the use of technology, other choose to embrace i
  
 ### Fundamentals of Mechu-deru
 _**Way of Technology:** 3rd level_<br>
-Starting when you choose this tradition at 3rd level, you've dabbled in adapting your use of the Force, melding it with technology. You gain proficiency in the Technology skill, as well as simple blasters. When you cast a force power that calls for a melee weapon attack, and you are wielding a blaster with which you are proficient, you can instead make a ranged weapon attack, as long as the target is within your weapon's normal range.
+You've dabbled in adapting your use of the Force, melding it with technology. You gain proficiency in the Technology skill, as well as simple blasters. When you cast a force power that calls for a melee weapon attack, and you are wielding a blaster with which you are proficient, you can instead make a ranged weapon attack, as long as the target is within your weapon's normal range.
 
 Additionally, you've learned to manipulate the Force to be able to manipulate technology when it couldn't previously. When you cast a force power that could not affect droids or constructs, you can choose to have it affect droids or constructs. If it would affect multiple targets, you must expend additional uses of this feature for each additional target. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
 
 ### Techcasting Secrets
 _**Way of Technology:** 6th, 7th, 13th, and 17th level_<br>
-At 6th level, you've learned to mimic technological effects. Choose two tech powers of 1st level. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the consular table.
+You've learned to mimic technological effects. Choose two tech powers of 1st level. The chosen powers count as universal force powers for you, but are not included in the number in the Powers Known column of the consular table.
 
 At 7th level, you learn two additional tech powers of 1st or 2nd level. At 13th level, you learn two tech powers of 1st-3rd level, and at 17th level, you learn two tech powers of 1st-4th level. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of the same level.
 
 ### Ionized Weave
 _**Way of Technology:** 10th level_<br>
-When you cast a damage-dealing force power that requires a force attack or saving throw, you can spend force points to cause that power to instead deal ion damage. The number of force points equals half the power's level (round down, minimum of one). If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. 
+When you cast a damage-dealing force power that requires a force attack or saving throw, you can spend force points to cause that power to instead deal ion damage. The number of force points equals half the power's level (round down, minimum of one). If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving<br> throw. 
 
 \columnbreak
 
@@ -2163,6 +2164,64 @@ Your enhanced ammunition is available whenever battle starts. If you roll initia
 ### Ammunition Upgrades
 _**Enhancement Specialist:** 18th level_<br>
 Your ammunition enhancements improve.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Exhibition Specialist
+
+</div>
+
+Those fighters who choose to become Exhibition Specialists can't help but show off. Even where there isn't an audience, these warriors take command of the battlefield as though it were a stage.
+
+### Bonus Proficiencies
+_**Exhibition Specialist:** 3rd level_<br>
+You gain proficiency in one Charisma skill of your choice.
+
+### In The Spotlight
+_**Exhibition Specialist:** 3rd level_<br>
+You can overwhelm an opponent with your unique blend of skill and style. As a bonus action, you can choose one creature you can see within 30 feet of you. The target is marked for 1 minute. While the target is marked, you gain the following benefits:
+- You can add half your Charisma modifier (minimum of one) to any weapon damage roll you make against the marked target that doesn't already include that modifier.
+- Your critical hit range against the marked target increases by 1.
+- If the marked target is reduced to 0 hit points, you regain hit points equal to your fighter level + your Charisma modifier (minimum of 1).
+
+This effect ends early if you're incapacitated or die. Once you've used this feature, you can't use it again until you finish a short or long rest. 
+
+### Showoff
+_**Exhibition Specialist:** 3rd, 5th, 9th, 13th, and 17th level_<br>
+You're a master at dazzling your friends and enemies alike. When you would make a Strength, Dexterity, Constitution, or Charisma  check, you can roll a d4 and add it to the roll. On a success, you can immediately choose a number of creatures within 30 feet of you that can see you up to your Charisma modifier (no action required, minimum of one). Each creature must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be charmed by you. This effects ends on a target after 1 minute, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies. If a target succeeds on this saving throw, the target has no hint you tried to charm it.
+
+This die increases to 1d6 at 5th level, 1d8 at 9th level, 1d10 at 13th level, and 1d12 at 17th level.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Glory Kill
+_**Exhibition Specialist:** 7th level_<br>
+As you defeat your enemies in combat, you can weaken the morale of other foes or bolster the resolve of your allies alike. When you score a critical hit or reduce a creature to 0 hit points, you can choose one or more creatures that you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). Each of the chosen 
+
+\columnbreak
+
+creatures are affected by one of the following effects of your choice:
+- The creature gains temporary hit points equal to 1d6 + your Charisma modifier (minimum of 1 temporary hit point).
+- The creature must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the start of your next turn.
+
+### Glorious Defense
+_**Exhibition Specialist:** 15th level_<br>
+Your glory on the battlefront can misdirect attacks. When a creature you can see hits you with an attack roll, you can use your reaction to gain a bonus to AC against that attack, potentially causing it to miss you. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction.
+
+### The Beauty of Violence
+_**Exhibition Specialist:** 18th level_<br>
+You've perfected a fighting style that allows you to stylishly dominate the field of battle. When you mark a creature with your In The Spotlight feature, you can enhance it. For the duration of the mark, you gain the following additional benefits:
+- You can add your full Charisma modifier, instead of half, to any weapon damage roll you make against the marked target that doesn't already include that modifier.
+- You can add half your Charisma modifier (minimum of one) to any weapon attack roll you make against the marked target that doesn't already include that modifier.
+- If the marked target is reduced to 0 hit points, you can use your reaction to mark a new creature within 30 feet of you. The duration of the new mark is equal to the remaining duration of the existing mark.
+
+This effect ends early if<br> you're incapacitated or die. Once you've<br> used this feature, you can't use it<br> again until you finish a long rest. 
+
+<img src='https://www.gmbinder.com/images/TPUYOZz.png' style='position:absolute;bottom:11px;right:-10px;width:400px;z-index:1000'/>
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
@@ -3693,7 +3752,7 @@ You use a wristpad (found in chapter 5) as a techcasting focus for your tech pow
 
 ### Tracker Droid Companion
 _**Saboteur Practice:** 3rd level_<br>
-You learn to employ all the knowledge you've accumulated to create and customize your own  tracker droid companion.
+You learn to employ all the knowledge you've accumulated to create and customize your own tracker droid companion.
 
 Create your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
 
@@ -3704,7 +3763,7 @@ Lastly, when you cast a tech power of 1st-level or higher that would affect only
 
 At 11th level, your tracker droid companion must be within 30 feet of you or your target to benefit from this feature. At 17th level, your tracker droid companion must be within 60 feet.
 
-You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
+You can use this feature a number of times equal to your proficiency bonus, as shown in the operative table. You regain all expended uses when you complete a long rest.
 
 ### Powered Ambush
 _**Saboteur Practice:** 9th level_<br>
