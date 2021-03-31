@@ -660,7 +660,7 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableNameMulticlassingPrerequisites => "Multiclassing Prerequisites";
         public string ReferenceTableNameMulticlassingProficiencies => "Multiclassing Proficiencies";
         public string ReferenceTableNameStarshipSizeStockCost => "Starship Size Stock Cost";
-        public string ReferenceTableNameStarshipSizeConstructionWorkforce => "Starship Size Construction Workforce";
+        public string ReferenceTableNameStarshipSizeBuildingWorkforce => "Starship Size Construction Workforce";
         public string ReferenceTableNameBaseUpgradeCostByTier => "Base Upgrade Cost by Tier";
         public string ReferenceTableNameStarshipSizeUpgradeCost => "Starship Size Upgrade Cost";
         public string ReferenceTableNameStarshipSizeUpgradeWorkforce => "Starship Size Upgrade Workforce";
@@ -698,7 +698,7 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableStartingLineMulticlassingPrerequisites => "#### Multiclassing Prerequisites";
         public string ReferenceTableStartingLineMulticlassingProficiencies => "### Multiclassing Proficiencies";
         public string ReferenceTableStartingLineStarshipSizeStockCost => "#### Starship Size Stock Cost";
-        public string ReferenceTableStartingLineStarshipSizeConstructionWorkforce => "#### Starship Size Construction Workforce";
+        public string ReferenceTableStartingLineStarshipSizeBuildingWorkforce => "#### Starship Size Construction Workforce";
         public string ReferenceTableStartingLineBaseUpgradeCostByTier => "#### Base Upgrade Cost by Tier";
         public string ReferenceTableStartingLineStarshipSizeUpgradeCost => "#### Starship Size Upgrade Cost";
         public string ReferenceTableStartingLineStarshipSizeUpgradeWorkforce => "#### Starship Size Upgrade Workforce";
@@ -738,6 +738,30 @@ namespace StarWars5e.Parser.Localization
         public string SOTGReactorsTableReactorsStartingLine => throw new NotImplementedException();
 
         public string SOTGReactorsTablePowerCouplingsStartingLine => throw new NotImplementedException();
+
+        public string ReferenceTableNameDeploymentRankPrestige => throw new NotImplementedException();
+
+        public string ReferenceTableNameModificationCapacityByShipSize => throw new NotImplementedException();
+
+        public string ReferenceTableNameModificationGradeInstallationByShipTier => throw new NotImplementedException();
+
+        public string ReferenceTableNameBaseHyperspaceTravelTimes => throw new NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeRefittingTime => throw new NotImplementedException();
+
+        public string ReferenceTableNameStarshipSlowedLevel => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineDeploymentRankPrestige => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationCapacityByShipSize => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationGradeInstallationByShipTier => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineBaseHyperspaceTravelTimes => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeRefittingTime => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSlowedLevel => throw new NotImplementedException();
 
         #endregion
     }

@@ -531,7 +531,7 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableNameMulticlassingPrerequisites { get; }
         public string ReferenceTableNameMulticlassingProficiencies { get; }
         public string ReferenceTableNameStarshipSizeStockCost { get; }
-        public string ReferenceTableNameStarshipSizeConstructionWorkforce { get; }
+        public string ReferenceTableNameStarshipSizeBuildingWorkforce { get; }
         public string ReferenceTableNameBaseUpgradeCostByTier{ get; }
         public string ReferenceTableNameStarshipSizeUpgradeCost { get; }
         public string ReferenceTableNameStarshipSizeUpgradeWorkforce { get; }
@@ -561,6 +561,14 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableNameStarshipSizeMaximumSuites { get; }
         public string ReferenceTableNameStarshipSizeSuiteCapacity { get; }
         public string ReferenceTableNameCyberneticAugmentationSideEffects { get; }
+        public string ReferenceTableNameDeploymentRankPrestige { get; }
+        public string ReferenceTableNameModificationCapacityByShipSize { get; }
+        public string ReferenceTableNameModificationGradeInstallationByShipTier { get; }
+        public string ReferenceTableNameBaseHyperspaceTravelTimes { get; }
+        public string ReferenceTableNameStarshipSizeRefittingTime { get; }
+        public string ReferenceTableNameStarshipSlowedLevel { get; }
+
+
         public string ReferenceTableStartingLineAbilityScorePointCost { get; }
         public string ReferenceTableStartingLineAbilityScoresAndModifiers { get; }
         public string ReferenceTableStartingLineXPByLevel { get; }
@@ -569,7 +577,7 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableStartingLineMulticlassingPrerequisites { get; }
         public string ReferenceTableStartingLineMulticlassingProficiencies { get; }
         public string ReferenceTableStartingLineStarshipSizeStockCost { get; }
-        public string ReferenceTableStartingLineStarshipSizeConstructionWorkforce { get; }
+        public string ReferenceTableStartingLineStarshipSizeBuildingWorkforce { get; }
         public string ReferenceTableStartingLineBaseUpgradeCostByTier { get; }
         public string ReferenceTableStartingLineStarshipSizeUpgradeCost { get; }
         public string ReferenceTableStartingLineStarshipSizeUpgradeWorkforce { get; }
@@ -599,6 +607,15 @@ namespace StarWars5e.Parser.Localization
         public string ReferenceTableStartingLineStarshipSizeMaximumSuites { get; }
         public string ReferenceTableStartingLineStarshipSizeSuiteCapacity { get; }
         public string ReferenceTableStartingLineCyberneticAugmentationSideEffects { get; }
+        public string ReferenceTableStartingLineDeploymentRankPrestige { get; }
+        public string ReferenceTableStartingLineModificationCapacityByShipSize { get; }
+        public string ReferenceTableStartingLineModificationGradeInstallationByShipTier { get; }
+        public string ReferenceTableStartingLineBaseHyperspaceTravelTimes { get; }
+        public string ReferenceTableStartingLineStarshipSizeRefittingTime { get; }
+        public string ReferenceTableStartingLineStarshipSlowedLevel { get; }
+
+
+
         string AtWill { get; }
         string FirstLevel { get; }
         string SecondLevel { get; }

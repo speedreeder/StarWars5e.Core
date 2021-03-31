@@ -808,7 +808,7 @@ namespace StarWars5e.Parser.Localization
 
         public string ReferenceTableNameStarshipSizeStockCost => throw new System.NotImplementedException();
 
-        public string ReferenceTableNameStarshipSizeConstructionWorkforce => throw new System.NotImplementedException();
+        public string ReferenceTableNameStarshipSizeBuildingWorkforce => throw new System.NotImplementedException();
 
         public string ReferenceTableNameBaseUpgradeCostByTier => throw new System.NotImplementedException();
 
@@ -884,7 +884,7 @@ namespace StarWars5e.Parser.Localization
 
         public string ReferenceTableStartingLineStarshipSizeStockCost => throw new System.NotImplementedException();
 
-        public string ReferenceTableStartingLineStarshipSizeConstructionWorkforce => throw new System.NotImplementedException();
+        public string ReferenceTableStartingLineStarshipSizeBuildingWorkforce => throw new System.NotImplementedException();
 
         public string ReferenceTableStartingLineBaseUpgradeCostByTier => throw new System.NotImplementedException();
 
@@ -1133,6 +1133,30 @@ namespace StarWars5e.Parser.Localization
         public string SOTGReactorsTableReactorsStartingLine => throw new NotImplementedException();
 
         public string SOTGReactorsTablePowerCouplingsStartingLine => throw new NotImplementedException();
+
+        public string ReferenceTableNameDeploymentRankPrestige => throw new NotImplementedException();
+
+        public string ReferenceTableNameModificationCapacityByShipSize => throw new NotImplementedException();
+
+        public string ReferenceTableNameModificationGradeInstallationByShipTier => throw new NotImplementedException();
+
+        public string ReferenceTableNameBaseHyperspaceTravelTimes => throw new NotImplementedException();
+
+        public string ReferenceTableNameStarshipSizeRefittingTime => throw new NotImplementedException();
+
+        public string ReferenceTableNameStarshipSlowedLevel => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineDeploymentRankPrestige => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationCapacityByShipSize => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineModificationGradeInstallationByShipTier => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineBaseHyperspaceTravelTimes => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSizeRefittingTime => throw new NotImplementedException();
+
+        public string ReferenceTableStartingLineStarshipSlowedLevel => throw new NotImplementedException();
 
         public string GetDeploymentTableStart(string deploymentName)
         {

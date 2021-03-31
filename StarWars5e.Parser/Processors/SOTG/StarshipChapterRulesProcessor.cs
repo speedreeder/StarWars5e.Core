@@ -77,9 +77,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter5Lines, 5, Localization.SOTGChapter5Title,
                 "equipment"));
 
-            var chapter6EndIndex = lines.FindIndex(lines.FindIndex(chapter6StartIndex, f => f == Localization.SOTGVenturesStart),
-                f => f.StartsWith("### "));
-            var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter6EndIndex - chapter6StartIndex)
+            var chapter6Lines = lines.Skip(chapter6StartIndex).Take(chapter7StartIndex - chapter6StartIndex)
                 .CleanListOfStrings().ToList();
             if (Localization.Language == Language.en) chapter6Lines[2] = chapter6Lines[2].Insert(0, "T");
             chapters.Add(CreateStarshipChapterRulesAndSearchTerms(chapter6Lines, 6, Localization.SOTGChapter6Title,

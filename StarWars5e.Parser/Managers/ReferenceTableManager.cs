@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using StarWars5e.Models;
 using StarWars5e.Parser.Localization;
@@ -31,6 +32,12 @@ namespace StarWars5e.Parser.Managers
         public async Task<List<ReferenceTable>> Parse()
         {
             var tables = await _referenceTableProcessor.Process(_referenceTableFileNames, _localization);
+
+            var dupes = tables
+                .GroupBy(i => i.RowKey)
+                .Where(g => g.Count() > 1)
+                .Select(g => g.Key);
+
             await _tableStorage.AddBatchAsync<ReferenceTable>($"referenceTables{_localization.Language}", tables,
                 new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             return tables;
