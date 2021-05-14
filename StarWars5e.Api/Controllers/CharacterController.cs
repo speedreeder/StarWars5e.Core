@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Identity.Web.Resource;
 using StarWars5e.Api.Interfaces;
 using StarWars5e.Models.Character;
+using StarWars5e.Models.Enums;
 
 namespace StarWars5e.Api.Controllers
 {
@@ -21,10 +22,15 @@ namespace StarWars5e.Api.Controllers
         private readonly ICharacterManager _characterManager;
         private readonly IConfiguration _configuration;
 
+        private readonly int _characterLimitPerUser;
+
         public CharacterController(ICharacterManager characterManager, IConfiguration configuration)
         {
             _characterManager = characterManager;
             _configuration = configuration;
+
+            _characterLimitPerUser =
+                int.TryParse(configuration["CharacterLimitPerUser"], out var intValue) ? intValue : 50;
         }
 
         [HttpDelete("{characterId}")]
@@ -83,13 +89,25 @@ namespace StarWars5e.Api.Controllers
 
             var blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], "characters");
 
-            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(blobContainerClient, userId);
-            if (currentCharactersForUser.Count >= 20)
+            var permission = CharacterPermissionLevel.Owner;
+            if (!string.IsNullOrWhiteSpace(characterRequest.Id))
             {
-                return BadRequest("User already has 20 characters saved.");
+                permission =
+                    await _characterManager.CheckCharacterPermissionLevelForUser(characterRequest.Id, userId);
+
+                if (permission != CharacterPermissionLevel.Owner && permission != CharacterPermissionLevel.Write)
+                {
+                    return BadRequest("User does not have permission to change this character.");
+                }
             }
 
-            var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId);
+            var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(blobContainerClient, userId);
+            if (currentCharactersForUser.Count >= _characterLimitPerUser)
+            {
+                return BadRequest($"User already has {_characterLimitPerUser} characters saved.");
+            }
+
+            var newCharacter = await _characterManager.SaveCharacterAsync(characterRequest, userId, permission);
 
             return Ok(newCharacter);
         }
@@ -109,16 +127,16 @@ namespace StarWars5e.Api.Controllers
             var blobContainerClient = new BlobContainerClient(_configuration["StorageAccountConnectionString"], "characters");
             var currentCharactersForUser = await _characterManager.GetRawCharacterBlobsAsync(blobContainerClient, userId);
 
-            if (currentCharactersForUser.Count >= 20)
+            if (currentCharactersForUser.Count >= _characterLimitPerUser)
             {
-                return BadRequest("User already has 20 characters saved.");
+                return BadRequest($"User already has {_characterLimitPerUser} characters saved.");
             }
 
             var characters = new List<Character>();
 
             var numberOfCharactersToAdd =
-                20 - currentCharactersForUser.Count < postCharactersRequest.CharacterRequests.Count
-                    ? 20 - currentCharactersForUser.Count
+                _characterLimitPerUser - currentCharactersForUser.Count < postCharactersRequest.CharacterRequests.Count
+                    ? _characterLimitPerUser - currentCharactersForUser.Count
                     : postCharactersRequest.CharacterRequests.Count;
 
             foreach (var postCharacterRequest in postCharactersRequest.CharacterRequests.Take(numberOfCharactersToAdd))
@@ -129,8 +147,20 @@ namespace StarWars5e.Api.Controllers
                     return BadRequest("Invalid character Id.");
                 }
 
+                var permission = CharacterPermissionLevel.Owner;
+                if (!string.IsNullOrWhiteSpace(postCharacterRequest.Id))
+                {
+                    permission =
+                        await _characterManager.CheckCharacterPermissionLevelForUser(postCharacterRequest.Id, userId);
+
+                    if (permission != CharacterPermissionLevel.Owner && permission != CharacterPermissionLevel.Write)
+                    {
+                        return BadRequest($"User does not have permission to change character {postCharacterRequest.Id}.");
+                    }
+                }
+
                 var newCharacter =
-                    await _characterManager.SaveCharacterAsync(postCharacterRequest, userId);
+                    await _characterManager.SaveCharacterAsync(postCharacterRequest, userId, permission);
 
                 characters.Add(newCharacter);
             }
