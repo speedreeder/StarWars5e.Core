@@ -1,13 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AzureFunctionsVersion>v3</AzureFunctionsVersion>
     <UserSecretsId>03aae69e-bda4-4e32-9e27-096c952372ae</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Luminis.AzureStorageBackup" Version="1.6.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.15.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.11" />
+    <PackageReference Include="TheByteStuff.AzureTableUtilities" Version="5.4.0-pre" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
