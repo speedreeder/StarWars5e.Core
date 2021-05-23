@@ -90,12 +90,16 @@
 |&emsp;Illusionist Technique    |
 |&emsp;Inquisitor Technique     |
 |&emsp;Mastermind Technique     |
+|&emsp;Mechanist Technique      |
+|&emsp;Mechanist Technique (Companion)      |
 |&emsp;Predator Technique       |
 |&emsp;Teleportation Technique  |
+|&emsp;Triage Technique         |
 |Sentinel||
 |&emsp;Path of Communion        |
 |&emsp;Path of the Corsair      |
 |&emsp;Path of Ethereality      |
+|&emsp;Path of Meditation       |
 |&emsp;Path of Synthesis        |
 |&emsp;Path of Tenacity         |
 |&emsp;Path of Witchcraft       |
@@ -5154,6 +5158,193 @@ Your training has taught you to find and exploit weaknesses in your prey. As a b
 
 \pagebreak
 
+<div class='wide'>
+
+## Mechanist Technique
+
+</div>
+
+Some scouts are peerless inventors, skilled at working with droids and other forms of technology. Followers of the Mechanist Technique make up for the weakness of organics with the strength and purity of their creations.
+
+### Improved Techcasting
+_**Mechanist Technique:** 3rd level_<br>
+Your command of techcasting improves.
+
+#### Improved Tech Powers Known
+You know 7 tech powers of your choice, instead of 5, and you learn more at higher levels, as shown in the Tech Powers Known column of the Mechanist Technique Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+
+#### Improved Tech Points
+You have a number of tech points equal to one and a half times your scout level (rounded down), instead of your scout level, as shown in the Tech Points column of the Mechanist Technique Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
+
+#### Improved Max Power Level
+Your Max Power Level becomes 2nd, instead of 1st, and it increases at higher levels, as shown in the Mechanist Technique Techcasting table.
+
+You may only cast tech powers at 5th, 6th, and 7th-level once, instead of 4th and 5th. You regain the ability to do so after a long rest.
+
+### Mark of the Mechanist
+_**Mechanist Technique:** 3rd level_<br>
+As a bonus action, you can cause the target of your Ranger's Quarry to emit an ion pulse, as long as the target is within 60 feet of you. The target, and any creatures within 5 feet of it, must make a Constitution saving throw against your tech save DC. On a failed save, roll your Ranger's Quarry die; each creature takes ion damage equal to the amount rolled.
+
+<img src='https://www.gmbinder.com/images/2DWzzeB.png' style='position:absolute;transform:scaleX(1);bottom:-40px;right:-90px;width:700px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+### Potent Tech
+_**Mechanist Technique:** 7th level_<br>
+You can use your ingenuity to bolster yourself or an ally. As an action, you can touch one creature (which can be yourself) and confer one of the following benefits of your choice to that creature:
+- For 10 minutes, the creature can roll a d3 whenever making an attack roll or an ability check and add the number rolled to the d20 roll. Once a creature receives this benefit, that creature can't receive it again until it finishes a short or long rest.
+- Roll a d4. The creature regains a number of tech points equal to the result. Once a creature receives this benefit, that creature can't receive it again until it finishes a long rest.
+
+You can use this feature a number of times equal to your proficiency bonus for the scout class, and you regain all expended uses when you finish a long rest.
+
+### High Voltage
+_**Mechanist Technique:** 11th level_<br>
+You are used to working with electronics and have learned to increase their potency, while becoming inured to their dangers. You gain resistance to ion and lightning damage.
+
+Additionally, whenever you deal ion damage to a creature, you can spend a tech point to force the creature to make a Constitution saving throw. On a failed save, it is stunned until the end of your next turn.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Mechanist Technique Techcasting
+| Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
+|:---:|:---:|:---:|:---:|
+|  3rd |  7 |  4 | 2nd |
+|  4th |  8 |  6 | 2nd |
+|  5th |  9 |  7 | 2nd |
+|  6th | 11 |  9 | 3rd |
+|  7th | 12 | 10 | 3rd |
+|  8th | 13 | 12 | 3rd |
+|  9th | 15 | 13 | 4th |
+| 10th | 16 | 15 | 4th |
+| 11th | 17 | 16 | 5th |
+| 12th | 18 | 18 | 5th |
+| 13th | 19 | 19 | 5th |
+| 14th | 20 | 21 | 6th |
+| 15th | 21 | 22 | 6th |
+| 16th | 22 | 24 | 6th |
+| 17th | 23 | 25 | 7th |
+| 18th | 24 | 27 | 7th |
+| 19th | 25 | 28 | 7th |
+| 20th | 26 | 30 | 7th |
+
+</div>
+
+### Command Droid
+_**Mechanist Technique:** 15th level_<br>
+You can reprogram a droid and bring it under your control. As an action, you can touch one droid that you can see that is the target of your Ranger's Quarry. That creature must make a Intelligence saving throw against your tech save DC. If it succeeds, you can't use this feature on it again for 24 hours. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.
+
+Intelligent droids are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.
+
+<img src='https://www.gmbinder.com/images/UIwaVgQ.png' style='position:absolute;transform:scaleX(1);bottom:0px;left:5px;width:500px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Mechanist Technique (Companion)
+
+</div>
+
+Some scouts are peerless inventors, skilled at working with droids and other forms of technology. Followers of the Mechanist Technique utilize the assistance of a tracker droid companion to make up for the weakness of organics with the strength and purity of their creations.
+
+### Bonus Proficiencies
+_**Mechanist Technique:** 3rd level_<br>
+You gain proficiency in astrotech’s implements.
+
+### Improved Techcasting
+_**Mechanist Technique:** 3rd level_<br>
+Your command of techcasting improves.
+
+#### Improved Tech Powers Known
+You know 7 tech powers of your choice, instead of 5, and you learn more at higher levels, as shown in the Tech Powers Known column of the Mechanist Technique Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+
+#### Improved Tech Points
+You have a number of tech points equal to one and a half times your scout level (rounded down), instead of your scout level, as shown in the Tech Points column of the Mechanist Technique Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
+
+#### Improved Max Power Level
+Your Max Power Level becomes 2nd, instead of 1st, and it increases at higher levels, as shown in the Mechanist Technique Techcasting table.
+
+You may only cast tech powers at 5th, 6th, and 7th-level once, instead of 4th and 5th. You regain the ability to do so after a long rest.
+
+### Tracker Droid Companion
+_**Mechanist Technique:** 3rd level_<br>
+You learn to employ all the knowledge you've accumulated to create and customize your own tracker droid companion.
+
+Create your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
+
+In addition to its traits and features, your tracker droid companion gains an additional benefit while it is bonded to you:
+- Your tracker droid gains two additional traits. It<br> gains one more additional trait when you reach 11th level in this class. For each droid trait in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of droid traits equal to half your Intelligence modifier (rounded up, minimum of one).
+
+<img src='https://www.gmbinder.com/images/2DWzzeB.png' style='position:absolute;transform:scaleX(1);bottom:-40px;right:-90px;width:700px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+<div style='margin-top:400px'></div>
+
+&emsp;Lastly, while your tracker droid companion is bonded and within 10 feet of you, you can use your action to learn the location of any droid or construct, tech focus, tech power or enhanced item within 60 feet of you or your tracker droid that isn't behind total cover. When you sense a tech power in this way, you learn what the power is.
+
+At 11th level, your tracker droid companion must be within 30 feet of you or your target to benefit from this feature. At 17th level, your tracker droid companion must be within 60 feet.
+
+You can use this feature a number of times equal to 1 + your Intelligence modifier. When you finish a long rest, you regain all expended uses.
+
+### Mark of the Mechanist
+_**Mechanist Technique:** 3rd level_<br>
+As a bonus action, you can cause the target of your Ranger's Quarry to emit an ion pulse, as long as the target is within 60 feet of you. The target, and any creatures within 5 feet of it, must make a Constitution saving throw against your tech save DC. On a failed save, roll your Ranger's Quarry die; each creature takes ion damage equal to the amount rolled.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Mechanist Technique Techcasting
+| Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
+|:---:|:---:|:---:|:---:|
+|  3rd |  7 |  4 | 2nd |
+|  4th |  8 |  6 | 2nd |
+|  5th |  9 |  7 | 2nd |
+|  6th | 11 |  9 | 3rd |
+|  7th | 12 | 10 | 3rd |
+|  8th | 13 | 12 | 3rd |
+|  9th | 15 | 13 | 4th |
+| 10th | 16 | 15 | 4th |
+| 11th | 17 | 16 | 5th |
+| 12th | 18 | 18 | 5th |
+| 13th | 19 | 19 | 5th |
+| 14th | 20 | 21 | 6th |
+| 15th | 21 | 22 | 6th |
+| 16th | 22 | 24 | 6th |
+| 17th | 23 | 25 | 7th |
+| 18th | 24 | 27 | 7th |
+| 19th | 25 | 28 | 7th |
+| 20th | 26 | 30 | 7th |
+
+</div>
+
+### High Voltage
+_**Mechanist Technique:** 11th level_<br>
+You are used to working with electronics and have learned to increase their potency, while becoming inured to their dangers. You gain resistance to ion and lightning damage.
+
+Additionally, whenever you deal ion damage to a creature, you can spend a tech point to force the creature to make a Constitution saving throw. On a failed save, it is stunned until the end of your next turn.
+
+### Command Droid
+_**Mechanist Technique:** 15th level_<br>
+You can reprogram a droid and bring it under your control. As an action, you can touch one droid that you can see that is the target of your Ranger's Quarry. That creature must make a Intelligence saving throw against your tech save DC. If it succeeds, you can't use this feature on it again for 24 hours. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.
+
+Intelligent droids are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.
+
+<img src='https://www.gmbinder.com/images/kbZvch9.png' style='position:absolute;transform:scaleX(1);top:18px;left:5px;width:500px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
 ## Predator Technique
 Some scouts work in solitude, while others prefer the strength of a group. Followers of the Predator Technique find power lies with the pack; they distract their prey, while their allies go for the kill.
 
@@ -5240,6 +5431,51 @@ Once you've used this feature, you must complete a short or long rest before you
 <img src='https://www.gmbinder.com/images/qpp67Av.png' style='position:absolute;bottom:22px;right:85px;width:300px;z-index:1000;' />
 
 <img src='https://www.gmbinder.com/images/edA6oHo.png' style='position:absolute;top:75px;left:60px;width:35px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
+
+\pagebreak
+
+## Triage Technique
+With every conflict comes death and destruction. Followers of the Triage Technique excel at keeping their comrades in the fight with quick thinking and fast-acting medicine.
+
+### Triage Training
+_**Triage Technique:** 3rd level_<br>
+You gain proficiency in the Medicine skill. 
+
+Additionally, when you would use your action to make an ability check to stabilize a creature, expend a use of a traumakit, or use a medpac, you can instead use your bonus action.
+
+### Mark of Triage 
+_**Triage Technique:** 3rd level_<br>
+You learn new ways to use your Ranger's Quarry. 
+- While a hostile creature is the target of your Ranger's Quarry, you always know any conditions it is suffering from, and you know at roughly what percentage its current hit points is relative to its maximum. Additionally, if the target is within 60 feet of you, when it is forced to make a Constitution saving throw, you can use your reaction to force it to make the roll with disadvantage. Once you've used this feature, you must complete a short or long rest before you can use it again.
+- While a friendly creature is the target of your Ranger's Quarry, you have advantage on Wisdom (Medicine) checks made to stabilize it. Additionally, if the target is within 60 feet of you, you can use your bonus action and roll your Ranger's Quarry and either restore hit points equal to the amount rolled, or grant temporary hit points equal to the amount rolled. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
+
+### Double Dose
+_**Triage Technique:** 7th level_<br>
+Your application of medicine does not interfere with your own ability to recover from injuries. When you restore hit points or grant temporary hit points to another creature with a tech power or class feature, you recover the same amount of hit points or gain the same number of temporary hit points. 
+
+You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you complete a long rest.
+
+### Experimental Infusion
+_**Triage Technique:** 11th level_<br>
+When you target a creature with your Ranger's Quarry, you can grant one of the following additional effects of your choice:
+- ***Adrenaline/Tranquilizer.*** The creature's movement speed is doubled until the end of its next turn. Alternatively, it gains a level of slowed until the end of its next turn.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+- ***Focus/Dizziness.*** The creature has either advantage or disadvantage (your choice) on the first ability check, attack roll, or saving throw it makes within the next minute.
+- ***Toughen/Weaken.*** The creature gains temporary hit points equal to your scout level, which last for 1 minute. Alternatively, the creature must make a Constitution saving throw against your tech save DC. On a failure, it takes psychic damage equal to your scout level and it can't regain hit points until the start of your next turn.
+
+You can use each feature once. You regain any expended uses when you complete a short or long rest.
+
+### Cure-All
+_**Triage Technique:** 15th level_<br>
+Your healing becomes even more potent. When you restore hit points to a creature as a bonus action using your Mark of Triage feature, you can also end one of the following conditions afflicting it: blinded, deafened, diseased, paralyzed, or poisoned.
+
+<img src='https://www.gmbinder.com/images/i9YaACg.png' style='position:absolute;bottom:23px;right:30px;width:412px;z-index:1000;transform:scaleX(-1)'/>
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCOUT</div>
 
@@ -5365,6 +5601,54 @@ _**Path of Ethereality:** 18th level_<br>
 You no longer suffer the frailty of old age, and you can't be aged abnormally. You can still die of old age, however. Additionally, you no longer need food or water, and you no longer need to sleep. Lastly, the first time you take damage on each of your turns, you can roll your Kinetic Combat die and reduce the damage by that amount.
 
 <img src='https://www.gmbinder.com/images/U2oBpf4.png' style='position:absolute;bottom:0px;left:-70px;width:610px;;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
+
+## Path of Meditation
+Throughout the Force, there is both symphonic harmony, and discordant chaos. Those sentinels who follow the Path of Meditation embody these concepts, empowering their allies and hindering their enemies through the use of the ancient Force technique of battle meditation.
+
+### Sage Counsel
+_**Path of Meditation:** 3rd level_<br>
+You learn the *guidance* force power, which does not count against your total powers known. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, this power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12).
+
+### Force-Empowered Allies
+_**Path of Meditation:** 3rd level_<br>
+While you are concentrating on a power that benefits a friendly creature other than you, you gain new ways to utilize your Force-Empowered Self features. Each option costs 1 force point, and you can only target a creature that is benefiting from a power you cast.
+
+#### Deflection
+When an ally is hit with an attack roll, you can use your reaction and roll a Kinetic Combat die to add it to your ally's AC, potentially causing the attack to miss.
+
+#### Double Strike
+When an ally hits with an attack roll, you can use your reaction and roll a Kinetic Combat die to deal additional damage of the same type as the attack.
+
+#### Slow Time
+When an ally moves on their turn, you can use your reaction and roll a Kinetic Combat die to increase their speed by 5 x the amount rolled until the end of the turn.
+
+### Unbreakable Focus
+_**Path of Meditation:** 7th level_<br>
+Once per long rest, you can cast the *battle meditation* force power at its base level without expending force points. While concentrating on *battle meditation*, at the start of each of your turns, the power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12).
+
+Additionally, whenever you make a Constitution saving throw to maintain concentration on a force power, you can treat a d20 roll of 9 or lower as a 10.
+
+### Turbulent Presence
+_**Path of Meditation:** 13th level_<br>
+Once per long rest, you can cast the *improved battle meditation* force power at its base level without expending force points. While concentrating on *improved battle meditation*, at the start of each of your turns, the power's die increases by one step (from d6 to d8, d8 to d10, or d10 to d12).
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;Additionally, once per round, when a creature rolls a bonus or penalty die from an effect you control, you can have them roll the die with advantage or disadvantage (your choice).
+
+### Legendary Battle Meditation
+_**Path of Meditation:** 18th level_<br>
+Once per long rest, you can cast the *master battle meditation* force power without expending force points. While concentrating on *master battle meditation*, at the start of each of your turns, the power's die increases by one step (from d8 to d10, or d10 to d12).
+
+Additionally, you gain a second reaction each round that you can only use for your Force-Empowered Allies feature. You can only take one reaction per turn.
+
+<img src='https://www.gmbinder.com/images/FnJLXn8.png' style='position:absolute;bottom:28px;right:0px;width:380px;;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 

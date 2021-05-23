@@ -570,6 +570,7 @@ namespace StarWars5e.Parser.Localization
         public string ECMartialLightweaponsStartLine => "_Martial Lightweapons_";
         public string ECMartialVibroweaponsStartLine => "_Martial Vibroweapons_";
         public string ECAmmunitionStartLine => "_Ammunition_";
+        public string ECStorageStartLine => "_Storage_";
         public string ECInterchangeableWeaponsSystemPattern => @"####\s+Interchangeable\s+Weapons\s+System";
         public string ECStrengthRequirementPattern => @"[,]*\s+?:([sS]trength\s+\d)";
         public string ECClassificationMartialBlasters => @"_\s*Martial\s*Blaster[s]?\s*_";

@@ -763,6 +763,8 @@ namespace StarWars5e.Parser.Localization
 
         public string ReferenceTableStartingLineStarshipSlowedLevel => throw new NotImplementedException();
 
+        public string ECStorageStartLine => throw new NotImplementedException();
+
         #endregion
     }
 }

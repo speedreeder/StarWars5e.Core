@@ -13,6 +13,7 @@
 |||
 |:--|--:|
 |	Abyssin        	    |
+|	Advozse         	|
 |	Aing-Tii        	|
 |	Aleena              |
 |	Anomid        	    |
@@ -67,6 +68,7 @@
 |	Lannik          	|
 |	Lasat	            |
 |	Lurmen	            |
+|	Mikkian         	|
 |	Miraluka        	|
 |	Mirialan        	|
 |	Mustafarian         |
@@ -180,6 +182,79 @@ As an abyssin, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Abyssin. Abyssin uses mainly growls and grunts that many species consider primitive. The written form of language uses only a small number of simple hieroglyphs.
 
 <img src='https://www.gmbinder.com/images/7FVX3ZX.png' style='position:absolute;top:45px;right:110px;width:223px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Advozse
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Green, brown, muddy yellow, or tan|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Black or red|
+> |***Distinctions***|  |Large eyes, single horn on head, pointed ears|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'9"|+2d6"|
+> |***Weight***|  |100 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Riflor|
+> |***Language***|  |Advb|
+
+<div style='margin-top:40px'></div>
+
+### Biology and Appearance
+Advozsec evolved from herbivorous reptile-analogs which fed on the vegetation known to form around Riflor's hot springs. Evolving into a class of reptomammal, advozsec have a single horn at the crown of their heads, four digits on each hand and foot, pointed ears, and large eyes. Advozsec are strictly vegetarian, unable to properly digest meat. The geothermal hot springs that appear on their homeworld forced the species to evolve thick skin in order to survive. The large eyes of the advozsec are adaptations to the clouds of volcanic ash which darken Riflor's skies. 
+
+### Society and Culture
+Since so much of the sunlight on Riflor is blocked by volcanic eruptions, advozsec tend to settle near geothermal springs for heat. Unfortunately, these springs also tend to be in geologically unstable regions, and anything built near them is often destroyed or abandoned due to eruptions or groundquakes. As a result, the advozse people ended up having little attachment to material goods or long-term plans, and developed a pessimistic, selfish, and even paranoid outlook on life. This facet of their culture remained long after contact with the Galactic Republic gave them access to modern construction techniques allowing for more permanent buildings. Seeing financial stability as the only truly achievable stability one could find in life, the advozsec constantly strive to accumulate as much monetary wealth as they can in a lifetime in order to have the ability to rebuild when the worst happens.
+
+### Names
+Advozsec have simple names that do not distinguish between genders, using familiar surnames.
+
+**First Names.** Dleck, Fjemm, Gorde, Rollar, Xon
+
+**Surnames.** Ghantere, Leventraim, Timack, Vy, Zimda
+
+\columnbreak
+
+<div style='margin-top:415px'></div>
+
+### Advozse Traits
+As an advozse, you have the following special traits.
+
+***Ability Score Increase.*** Your Constitution score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Advozsec reach adulthood in their late teens and typically live for over half a century.
+
+***Alignment.*** Advozsec's paranoid and pessimistic nature causes them to tend towards balanced alignments, particularly lawful balanced, though there are exceptions.
+
+***Size.*** Advozsec typically stand 5 to 6 feet tall and generally weigh about 130 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Darkvision*** Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Hide.*** You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.
+
+***Horn.*** Your sharp horn is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.
+
+***Lava Dweller.*** Your body is well accustomed to extreme heat, giving you resistance to fire damage.
+
+***Vigilant.*** When you would roll initiative, you can choose to have advantage on the roll. Once you've done so, you must complete a short or long rest before you can do so again.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Advb. Advb sounds quick and aggressive. It's incredibly rare to find a non-advozsec speaking Advb, some linguists even considering it all but a dead language. 
+
+<img src='https://www.gmbinder.com/images/Kq8wLLZ.png' style='position:absolute;top:25px;right:75px;width:199px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -412,7 +487,7 @@ As an anomid, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic through the use of your vocalizer. You can also use Anomid Sign Language, which is an elaborate language requiring six-fingered hands.
 
-<img src='https://66.media.tumblr.com/bb49d805f5bead11d88a54c8e968359e/331540579174218f-da/s540x810/c206aa332c1c53d30423ef4dbf1c17d70dfdb734.png' style='position:absolute;top:45px;right:146px;width:160px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/qQvZOKy.png' style='position:absolute;top:45px;right:146px;width:160px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -2722,6 +2797,7 @@ ___
 > |||
 > |:--:|:--:|
 > |Abyssin|Savage Attacks|
+> |Advosze|Darkvision|
 > |Aing-Tii|Armored Plates|
 > |Aleena|Racer's Reflexes|
 > |Anomid|Tech Resistance|
@@ -2755,11 +2831,11 @@ ___
 > |Flesh Raider|Darkvision|
 > |Gamorrean|Savage Attacks|
 > |Gand|Lungless|
-> |Geonosian|Geonosian Weaponry|
-> |Givin|Vacuum Sealed|
 > 
 > |||
 > |:--:|:--:|
+> |Geonosian|Geonosian Weaponry|
+> |Givin|Vacuum Sealed|
 > |Gotal|Natural Empathy|
 > |Gran|Keen Sight|
 > |Gungan|Martial Proficiency|
@@ -2782,6 +2858,7 @@ ___
 > |Lannik|Force Attunement|
 > |Lasat|Powerful Build|
 > |Lurmen|Rolling Agility|
+> |Mikkian|Keen Hearing|
 > |Miraluka|Force Sight|
 > |Mirialan|Spiritual|
 > |Mon Calamari|Darkvision|
@@ -2794,10 +2871,10 @@ ___
 > |Ortolan|Grovel, Cower, and Beg|
 > |Quarren|Keen Hearing|
 > |Pa'lowick|Hold Breath<br> Snout|
-> |Patrolian|Darkvision|
 > 
 > |||
 > |:--:|:--:|
+> |Patrolian|Darkvision|
 > |Pau'an|Darkvision|
 > |Pyke|Mercantile<br> Notorious Slavers|
 > |Rakata|Darkvision|
@@ -4171,6 +4248,77 @@ As a lurmen, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Lurmese. Lurmese is a name collectively given to the various tribal languages spoken by the lurmen people. While each language is distinct, shared phrases allow translation between dialects. 
 
 <img src='https://www.gmbinder.com/images/twbUZ4y.png' style='position:absolute;top:45px;right:110px;width:183px;transform:scaleX(-1);mix-blend-mode:darken;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Mikkian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Green, pink, red, blue, or yellow|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Blue or Black|
+> |***Distinctions***|  |Numerous head-tendrils, acute senses of sight and hearing|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'9"|+2d6"|
+> |***Weight***|  |100 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Mikkia|
+> |***Language***|  |Mikkian|
+
+<div style='margin-top:40px'></div>
+
+### Biology and Appearance
+Mikkians are a species of brightly colored humanoids. The mikkians' most distinctive feature are their motile head-tendrils, with the number, form, and pattern varying between individuals. These head-tendrils primarily serve as sensory organs, particularly detecting sound as a replacement for an ear common in other species. Mikkian head-tendrils also could detect other information, such as humidity, temperature, magnetic direction and radiation. This radiation detection can be detected to the extent that mikkians can "see" light and dark, although their eyes are still their primary visual organs. 
+
+### Society and Culture
+Mikkians place kinship and integrity above all. In fact, their honesty can come across as blunt or even rude to other sentients. Conversely, mikkians often have trouble adjusting to the more flexible views of other races. Their complex code of honor encompass all things in life, with a particular insistance on matters of warfare. Although they respect warrior traditions, the Mikkians nevertheless value discipline and honor over victory or physical might.
+
+Different religious traditions exist among the Mikkians, but belief in the Force plays a central role in all of them. In Mikkian society, their head-tendrils have important cultural significance, and as such tendril-reading is used by Mikkian mystics to predict their future. Every facet of the head-tendril contributes to that meaning.
+
+### Names
+Mikkian names are often short and disyllabic, with a melodic quality to them. Mikkians typically don't use surnames, though some may adopt them. 
+
+**Male Names.** Cage, Fedlas, Mekko, Sakas 
+
+**Female Names.** Beyra, Fenvar, Tiplee, Zelna 
+
+\columnbreak
+
+<div style='margin-top:566px'></div>
+
+### Mikkian Traits
+As a mikkian, you have the following special traits.
+
+***Ability Score Increase.*** Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.
+
+***Age.*** Mikkian reach adulthood in their late teens and live a little over a century.
+
+***Alignment.*** Mikkian's honor and integrity based culture causes them to tend toward lawful alignments, though there are exceptions.
+
+***Size.*** Mikkian typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Blindsight.*** Mikkian can perceive the world around them through heat and radiation. You have blindsight out to 30 feet. If another trait would grant you blindsight, the range is increased by half as many feet.
+
+***Keen Hearing.*** Your head-tendrils provide a keen awareness of your surroundings. You have advantage on Wisdom (Perception) checks that involve hearing.
+
+***Bureaucratic.*** You have proficiency with Persuasion or Intimidation (your choice).
+
+***Languages.*** You can speak, read, and write Galactic Basic and Mikkian. Mikkian is a melodic, flowing tongue made up of several ancient dialects.
+
+<img src='https://www.gmbinder.com/images/6sJKi2x.png' style='position:absolute;top:25px;right:40px;width:231px;transform:scaleX(-);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

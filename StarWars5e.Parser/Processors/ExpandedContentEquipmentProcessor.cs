@@ -26,6 +26,7 @@ namespace StarWars5e.Parser.Processors
             equipment.AddRange(await ParseWeapons(lines, Localization.ECMartialLightweaponsStartLine, true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseWeapons(lines, Localization.ECMartialVibroweaponsStartLine, true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseOtherEquipment(lines, Localization.ECAmmunitionStartLine, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseOtherEquipment(lines, Localization.ECStorageStartLine, true, 1, ContentType.ExpandedContent));
 
             return equipment;
         }
