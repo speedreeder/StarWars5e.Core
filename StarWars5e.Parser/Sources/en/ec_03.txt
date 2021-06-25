@@ -65,6 +65,7 @@
 |&emsp;Kage Order               |
 |&emsp;Kyuzo Order              |
 |&emsp;Kro Var Order            |
+|&emsp;Teras Kasi Order         |
 |&emsp;Trickster Order          |
 |&emsp;Whills Order             |
 |Operative||
@@ -2213,6 +2214,10 @@ creatures are affected by one of the following effects of your choice:
 - The creature gains temporary hit points equal to 1d6 + your Charisma modifier (minimum of 1 temporary hit point).
 - The creature must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the start of your next turn.
 
+### Relentless Competitor
+_**Exhibition Specialist:** 10th level_<br>
+Once on each of your turns, you can regain a use of your Action Surge (no action required). If you do so, you immediately suffer one level of exhaustion.
+
 ### Glorious Defense
 _**Exhibition Specialist:** 15th level_<br>
 Your glory on the battlefront can misdirect attacks. When a creature you can see hits you with an attack roll, you can use your reaction to gain a bonus to AC against that attack, potentially causing it to miss you. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction.
@@ -2226,7 +2231,7 @@ You've perfected a fighting style that allows you to stylishly dominate the fiel
 
 This effect ends early if<br> you're incapacitated or die. Once you've<br> used this feature, you can't use it<br> again until you finish a long rest. 
 
-<img src='https://www.gmbinder.com/images/TPUYOZz.png' style='position:absolute;bottom:11px;right:-10px;width:400px;z-index:1000'/>
+<img src='https://www.gmbinder.com/images/TPUYOZz.png' style='position:absolute;bottom:11px;right:-10px;width:300px;z-index:1000'/>
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
@@ -3323,6 +3328,58 @@ As an ultimate display of your mastery of the elements, you can spend 5 focus po
 - You create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.
 - You create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 1d10 kinetic damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.
 - You create a 15-foot cone of ice shards extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution save throw. A creature takes 2d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Teras Kasi Order
+
+</div>
+
+Monks of the Teras Kasi Order are the ultimate masters of unarmed martial arts combat. They learn techniques to draw focus from the defeat of their enemies, resist the mental assaults of the Force, and unleash powerful rushes of strikes to subdue their foes.
+
+### Forredari Stance
+_**Teras Kasi Order:** 3rd level_<br>
+Your honed focus allows you to enter a stance of mental fortification and power. You can use your bonus action to enter this stance. When you do so, you unleash a flurry of blows on creatures of your choice that you can see within 10 feet of you. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage.
+
+This stance lasts for 1 minute. While you are in this stance, you gain the following benefits:
+- **Death Weave.** When you reduce a creature to 0 hit points, you gain temporary hit points equal to your Wisdom or Charisma modifier (your choice) + half your monk level (rounded down, minimum of 1).
+- **Gundark Slap.** Once on each of your turns, when you hit a creature with an unarmed strike or a monk weapon, you can choose to make it unable to take reactions until the end of your next turn.
+- **Sleeping Krayt.** You can use your Wisdom or Charisma modifier (your choice) instead of Strength whenever you would make a Strength check or a Strength saving throw. Additionally, you have advantage on saving throws against being charmed or frightened.
+
+These effects end early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
+
+While you have no remaining uses of this feature, you can instead expend 1 focus point to use it. When you do so, your maximum focus points are reduced by 1 until you complete a long rest.
+
+### Steel Hands Form
+_**Teras Kasi Order:** 6th level_<br>
+You can draw upon<br> your focus to utilize an<br> array of practiced<br> techniques to strike<br> your opponents with<br> precision and power.<br> You can use your<br> bonus action to enter<br> this stance, and<br> when you do so,<br> you can also enter<br> your Forredari<br> Stance as a part of<br> this same bonus<br> action. This form<br> lasts for 1 minute.<br> While you are in this<br> stance, you gain the<br> following benefits:
+
+\columnbreak
+
+- **Charging Wampa.** Once per round, when you are forced to make a saving throw against a force power, your movement speed increases by 10 feet until the end of your next turn.
+- **Nexu Grin.** When a creature you can see within 10 feet of you casts a force power that requires a force attack roll against you or an an allied creature, you can use your reaction and expend 1 focus point to impose disadvantage on the attack roll. If the attack misses, and the higher of the two d20 rolls would also miss, the creature cannot cast that force power again until it completes a short or long rest.
+- **Screaming Squill.** Once per turn, when you hit a creature that is concentrating on a force power and it makes a Constitution saving throw to maintain concentration, the DC for the check equals your focus save DC, unless the DC for the Constitution saving throw would be higher.
+
+These effects end early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
+
+While you have no remaining uses of this feature, you can instead expend 1 focus point to use it. When you do so, your maximum focus points are reduced by 1 until you complete a long rest.
+
+### Matter Over Mind
+_**Teras Kasi Order:** 11th level_<br>
+You tap into the greater power of your focus. While both your Forredari Stance and your Steel Hands Form are active, you gain the following benefits:
+- **Dancing Dragonsnake.** When you take force, lightning, or necrotic damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom or Charisma modifier (your choice) + your monk level.
+- **Aryx Slash.** Once on each of your turns, when you hit a target with an unarmed strike or monk weapon, you can roll a Martial Arts die and deal additional psychic damage equal to the amount rolled.
+- **Piercing Gaze.** When you would make an Insight check against a creature you know to wield the Force, you can use either your Wisdom or Charisma modifier for the roll, and you are considered to have expertise in the Insight skill. If you would already have expertise in the check, you instead have advantage on the roll. 
+
+### Spitting Rawl
+_**Teras Kasi Order:** 17th level_<br>
+You have learned to harness your strikes in a blistering fury. On your turn, when a creature takes damage from you three times, you can make up to three additional unarmed strikes against the creature (no action required). The first additional unarmed strike costs 1 focus point and deals 1d12 additional psychic damage on a hit, and each unarmed strike after the first costs 1 additional focus point and deals 1d12 additional psychic damage on a hit, cumulatively.
+
+<img src='https://www.gmbinder.com/images/MjQYflG.png' style='position:absolute;bottom:-22px;left:182px;width:260px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | MONK</div>
 

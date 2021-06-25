@@ -74,10 +74,11 @@
 |	Mustafarian         |
 |	Muun	            |
 |	Neimoidian      	|
-|	Noghri          	|
+|	Nikto          	    |
 
 |||
 |:--|--:|
+|	Noghri          	|
 |	Nothoiin          	|
 |	Ortolan         	|
 |	Pa'lowick           |
@@ -2866,14 +2867,15 @@ ___
 > |Muun|Second Heart|
 > |Nautolan|Darkvision|
 > |Neimoidian|Darkvision|
+> |Nikto|Adaptation|
 > |Noghri|Keen Smell|
 > |Nothoiin|Heightened Reflexes|
 > |Ortolan|Grovel, Cower, and Beg|
 > |Quarren|Keen Hearing|
-> |Pa'lowick|Hold Breath<br> Snout|
 > 
 > |||
 > |:--:|:--:|
+> |Pa'lowick|Hold Breath<br> Snout|
 > |Patrolian|Darkvision|
 > |Pau'an|Darkvision|
 > |Pyke|Mercantile<br> Notorious Slavers|
@@ -4684,6 +4686,83 @@ As a neimoidian, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Pak Pak. Pak Pak is often considered an elegant-sounding language by those who hear it. It consists of husky sighs and guttural ululations.
 
 <img src='https://www.gmbinder.com/images/krJ6D9A.jpg' style='position:absolute;top:40px;right:90px;width:300px;mix-blend-mode:darken' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Nikto
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Varies by subspecies|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Black|
+> |***Distinctions***|  |Leathery skin, subspecies|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'9"|+2d6"|
+> |***Weight***|  |90 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Kintan|
+> |***Language***|  |Nikto, Huttese|
+
+<div style='margin-top:35px'></div>
+
+### Biology and Appearance
+Nikto are reptilian humanoids that are noted for their leathery skin. They hold a limited range of facial expressions because they lack the necessary anatomical infrastructure. Their eyes are covered by a protective membrane, being a thin transparent pellicle that protects their eyes underwater and during windstorms. As a result, they are noted for their "staring" eyes and a seemingly blank expression which leads to many underestimating nikto intelligence.
+
+### Society and Culture
+Although lacking in personal charisma, nikto posses a single-minded tenacity that makes them excellent followers. Their lives made nikto cunning combatants. Most nikto are content with a life of servitude as in their eyes a life in slavery was preferable to the hardship and toil on their homeworld. Not all nikto work for the hutts though most free members of their kind were formerly enslaved. Whilst nikto are known to escape from their master, most tend to fall into service of another hutt who "inherited" them according to custom should their previous employer die. However, some escaped nikto did instead use some opportunities to genuinely become free beings. Any such emancipated nikto have to be constantly on guard as they risked capture by hutt-employed slavers who return their prey to their "rightful owners". In addition, they lacked charisma and preferred to follow orders instead of giving them. As a result, the Nikto were most identified with their Hutt masters.
+
+### Names
+Nikto names are very complex, hard to pronounce, and harsh sounding. Name length also differs a lot, longer names having apostrophes or dashes. Their names are unisex, with surnames being familiar and optional. 
+
+**First Names.** Jydabaum, N'rok'ratu, Sussa, Vydgish
+
+**Surnames.** Gozorc, Irtitt, Qegmarg, Umpluurg
+
+\columnbreak
+
+<div style='margin-top:74px'></div>
+
+### Nikto Traits
+As a nikto, you have the following special traits.
+
+***Ability Score Increase.*** Your Constitution score increases by 2, and one other ability score of your choice increases by 1.
+
+***Age.*** Nikto reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Nikto's self-sufficient and clever nature causes them to tend toward balanced alignments, though there are exceptions.
+
+***Size.*** Nikto typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Hide.*** You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.
+
+***Protective Membrane.*** You have advantage on saving throws against being blinded.
+
+***Radiation Resistant.*** The dying star nearby their homeworld makes nikto naturally used to radiation. You have resistance to necrotic damage.
+
+***Languages.*** You can speak, read, and write Galactic Basic, Nikto, and Huttese. Nikto is spoken with sharp syllables with a deep and rumbling cadence.
+
+***Adaptation.*** The frequent radiation bursts from the nearby dying star caused the nikto to mutate and adapt into different subspecies over time, specialized for different environments. Choose one of the following adaptations:
+___
+- **Esral'sa'Nikto (Mountain)**<br> ***Acute Hearing.*** Whenever you make a Wisdom (Perception) check related to hearing, you are considered to have expertise in the Perception skill.<br> ***Cold Adaptation.*** You have advantage on Constitution saving throws made to avoid exhaustion due to extreme cold.
+- **Gluss'sa'Nikto (Pale)**<br> ***Hold Breath.*** You can hold your breath for up to 15 minutes at a time.<br> ***Swim.*** You have a swimming speed of 30 feet.
+- **Kadas'sa'Nikto (Green)**<br> ***Claws.*** Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.<br> ***Forest Dweller.*** You don't treat forest terrain as difficult terrain.<br> ***Treeclimber.*** You have a climbing speed of 30 feet.
+- **Kajain'sa'Nikto (Red)**<br> ***Heat Adaptation.*** You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.<br> ***Survivor.*** You have proficiency in the Survival skill.
+- **M'shento'su'Nikto (Southern)**<br> ***Darkvision.*** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+<img src='https://www.gmbinder.com/images/aHB5qPb.png' style='position:absolute;top:25px;right:135px;width:158px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
