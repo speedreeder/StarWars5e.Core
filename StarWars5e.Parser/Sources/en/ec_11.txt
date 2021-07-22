@@ -7,16 +7,21 @@
 #### At-Will
 ___
 - Break
+- <div style="color:blue">Defensive Technique</div>
 
 #### 1st-level
 ___
 - Force Current
+- Tapas
+- Telepathic Link
 
 #### 2nd-level
 ___
 - Battle Mind
+- <div style="color:red">Kinetite</div>
 - <div style="color:red">Probe Mind</div>
 - Pull Earthward
+- Wakefulness
 
 #### 3rd-level
 ___
@@ -66,6 +71,19 @@ You inflict 10 force damage to an object you can see within range that is not be
 
 This power’s kinetic damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4), and the power’s force damage also increases by 10 at each of these levels.
 
+#### Defensive Technique
+_At-will light side power_
+___
+- **Casting Time:** 1 action
+- **Range:** Varies
+- **Duration:** 1 round
+
+As part of the action used to cast this power, you must make a melee weapon attack against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you ward yourself from it through the Force.
+
+If the target forces you to make a saving throw before the start of your next turn, the target takes an additional 1d6 psychic damage, and you can roll 1d4 and add the number rolled to your saving throw. The power then ends.
+
+The power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d6 psychic damage to the target, and the psychic damage the target takes for forcing you to make a saving throw increases to 2d6. Both damage rolls increase by 1d6 at 11th level and 17th level.
+
 #### Force Current
 _1st-level universal power_
 ___
@@ -77,6 +95,22 @@ ___
 When you cast this power, you raise your hand and unleash a burst of Force energy. Each creature in a 15-foot cone must make a Strength saving throw. On a failed save, a creature takes 3d6 force damage and, if it is Large or smaller, is also pushed back 5 feet. On a successful save, a creature takes half as much damage and isn't pushed. All Medium or smaller objects that are not worn or carried within the area of effect are also pushed 5 feet.
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st. For each slot 2 levels higher than 1st, you can add an additional 5 feet to the push.
+
+#### Kinetite
+_2nd-level dark side power_
+___
+- **Prerequisite:** Sustained Lightning
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Concentration, up to 1 minute
+
+A 5-foot-diameter sphere of compressed lightning appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one.
+
+As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make a Dexterity saving throw, taking 2d6 kinetic damage on a failed save or half as much damage on a successful one, and the sphere stops moving this turn.
+
+When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+
+***Force Potency.*** When you cast this power with a force slot of 3rd level or higher, both the lightning and kinetic damage increase by 1d6 for each slot level above 2nd.
 
 #### Probe Mind
 _2nd-level dark side power_
@@ -112,6 +146,40 @@ ___
 
 Choose one creature you can see within range. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the power’s duration. An airborne creature affected by this power descends at 60 feet per round until it reaches the ground or the power ends.
 
-<div class='footnote'>Force powers by Hugehuman</div>
+#### Tapas
+_1st-level universal power_
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** 24 hours
 
-\pagebreak
+You use the Force to inure yourself to the elements. For the duration, you are considered adapted to hot and cold climates.
+
+#### Telepathic Link
+_1st-level universal power_
+___
+- **Prerequisite:** Force Whisper
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** Concentration, up to 10 minutes
+
+You establish a telepathic link with one willing creature you touch. Until the power ends, whenever you and the target can see each other, each of you can communicate with the other via telepathy.
+
+You don't need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. The creature can respond to you telepathically as well, but it must understand at least one language in order to communicate this way. This power has no effect on droids or constructs.
+
+***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the duration increases to Concentration, up to 1 hour, and if either you or the creature you are linked to are surprised, while both of you can see each other, the surprised creature can still act normally on its first turn in combat, as if it were not surprised.
+
+#### Wakefulness
+_2nd-level universal power_
+___
+- **Prerequisite:** Breath Control
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** Concentration, up to 8 hours
+
+You use the Force to control your body's functions. For the duration, you gain the following benefits:
+
+- You ignore the effects of any levels of exhaustion you have. 
+- You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch. 
+
+If you still have any levels of exhaustion when this power ends, you must make a DC 15 Constitution saving throw. On a failed save, you gain one additional level of exhaustion.

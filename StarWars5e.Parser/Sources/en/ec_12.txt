@@ -8,17 +8,21 @@
 ___
 - Itemize
 - Stinger
+- Tri-Shot
 
 #### 1st-level
 ___
+- Aid Droid
 - Cryogenic Blow
 
 #### 2nd-level
 ___
+- Alter Self
 - Spectrum Discharge
 
 #### 3rd-level
 ___
+- Mutate/Augment
 
 #### 4th-level
 ___
@@ -44,6 +48,32 @@ ___
 
 \pagebreak
 
+#### Aid Droid
+_1st-level tech power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 feet
+- **Duration:** Instantaneous
+
+Choose one droid or construct that you can see within range. The target can immediately use its reaction to regain hit points equal to 1d6 + your techcasting ability modifier.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st.
+
+#### Alter Self
+*2nd-level tech power*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:**  Concentration, up to 1 hour
+
+You alter your form with tech. When you cast the power, choose one of the following options, the effects of which last for the duration of the power. While the power lasts, you can end one option as an action to gain the benefits of a different one.
+
+***Aquatic Adaptation.*** You adapt your body to an aquatic environment. You can breathe underwater and gain a swimming speed equal to your walking speed.
+
+***Change Appearance.*** You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another species (an organic species cannot appear as a droid, or vice versa), though none of your statistics change. You can also alter your vocal cords, enabling you to speak a language you know, but otherwise would be incapable of speaking. You also can’t appear as a creature of a different size than you, and your basic shape stays the same; if you’re bipedal, you can’t use this power to become quadrupedal, for instance. At any time for the duration of the power, you can use your action to change your appearance in this way again.
+
+***Natural Weapons.*** You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your damage die for your unarmed strikes increases by one step (from 1 to d4, d4 to d6, or d6 to d8). Your unarmed strikes are considered enhanced and you have a +1 bonus to attack and damage rolls with them.
+
 #### Cryogenic Blow
 _1st-level tech power_
 ___
@@ -54,15 +84,6 @@ ___
 The next time you hit a creature with a weapon attack during this power's duration, the attack deals an extra 1d6 cold damage to the target. The target must make a Strength saving throw. On a failed save, it gains a level of slowed for the duration. At the start of each of its turns, the target can repeat the saving throw, ending the effect on itself on a success.
 
 ***Overcharge Tech.*** If you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
-
-#### Itemize
-_At-will tech power_
-___
-- **Casting Time:** 1 action
-- **Range:** 30 feet
-- **Duration:** Instantaneous
-
-You instantly learn the exact quantity of one type of item within 30 feet of you. It must be a type of item that you've handled in the past; you can't, for example, use *itemize* to find out how many *BKGs* are nearby if you've never handled such a weapon. The object being itemized must also be reasonably specific. You can learn how many meilooruns are nearby, for example, but not how much fruit.
 
 #### Fabricate
 _4th-level tech power_
@@ -77,6 +98,35 @@ For example, you can fabricate a wooden bridge from a clump of trees, a rope fro
 Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the power is commensurate with the quality of the raw materials.
 
 Creatures or enhanced items can't be created by this power. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of tool used to craft such objects.
+
+#### Itemize
+_At-will tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Duration:** Instantaneous
+
+You instantly learn the exact quantity of one type of item within 30 feet of you. It must be a type of item that you've handled in the past; you can't, for example, use *itemize* to find out how many *BKGs* are nearby if you've never handled such a weapon. The object being itemized must also be reasonably specific. You can learn how many meilooruns are nearby, for example, but not how much fruit.
+
+#### Mutate/Augment
+_3rd-level tech power_
+___
+- Casting Time: 1 action
+- Range: Self
+- Duration: Concentration, up to 10 minutes
+
+You alter your body with tech, temporarily gaining new properties which last for the duration. You can select three of the following properties. You cannot select a property more than once, unless that property says otherwise.
+- Your body becomes more flexible. You have advantage on ability checks and saving throws against effects that would grapple or restrain you, and your movement is unaffected by difficult terrain or squeezing.
+- You grow one additional appendage. This appendage serves as an arm and a hand, though it can take the shape of a limb, tentacle, or similar appendage. You can select this property twice to grow a maximum number of two appendages. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).
+- You sprout antennae that give you tremorsense out to a range of 30 feet.
+- You extend the length of your limbs. When you make a melee attack or attempt to grapple, shove, or trip a creature on your turn, your reach for it is 5 feet greater than normal.
+- You gain a burrowing speed equal to your walking speed.
+- Your flesh hardens. Your AC can't be less than 16, regardless of what kind of armor you're wearing.
+- You can gain the benefits of any one option of the _alter self_ power. You can select this property multiple times to gain the benefits of multiple options of the _alter self_ power, choosing a different option each time.
+- You gain the effect of the _magnetic hold_ power, but you can affix to and move along any surface, instead of only metallic surfaces. You have a climbing speed equal to your walking speed.
+- You can gain any one effect of the _force enlightenment_ power.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd.
 
 #### Spectrum Discharge
 _2nd-level tech power_
@@ -119,6 +169,14 @@ Furthermore, hazards of the following types cannot physically pass through the b
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th.
 
-<div class='footnote'>Tech powers by Hugehuman</div>
+#### Tri-Shot
+_At-will tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Instantaneous
 
-\pagebreak
+Choose up to three creatures within range, none of whom can be more than 10 feet apart. If you choose three creatures, each target must succeed on a Dexterity saving throw or take 1d4 energy damage. If you choose two creatures, each target takes 1d6 energy damage on a failed save instead. If you choose only one creature, the target takes 1d8 energy damage on a failed save.
+
+This power's damage increases by one die when you reach 5th level (two dice), 11th level (three dice), and 17th level (four dice).
+
