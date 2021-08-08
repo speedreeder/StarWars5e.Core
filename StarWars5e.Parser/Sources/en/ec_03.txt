@@ -82,6 +82,7 @@
 |Scholar||
 |&emsp;Archaeologist Pursuit    |
 |&emsp;Chef Pursuit             |
+|&emsp;Detective Pursuit        |
 |&emsp;Explorer Pursuit         |
 |&emsp;Geneticist Pursuit       |
 |&emsp;Occultist Pursuit        |
@@ -107,6 +108,7 @@
 |&emsp;Path of Synthesis        |
 |&emsp;Path of Tenacity         |
 |&emsp;Path of Witchcraft       |
+|&emsp;Path of Witchcraft (Companion)          |
 
 </div>
 
@@ -3739,7 +3741,7 @@ Those operatives who choose the Disabling Practice utilize a variety of pushes, 
 ### Clinch Strike
 _**Disabling Practice:** 3rd level_<br>
 You learn how to discourage, debilitate, and harm your enemies. You gain the following benefits while you aren't wearing heavy armor or wielding a medium or heavy shield:
-- Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
+- Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8), and you can apply your Sneak Attack damage when you hit with an unarmed strike.
 - You don't need advantage on your attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.
 - You can use the bonus action granted by your Cunning Action to make an unarmed strike against a creature you are grappling.
 
@@ -3753,7 +3755,7 @@ ___
 
 <div align="center">
 
-**Grapple Technique save DC** = 8 + your proficiency bonus + <br>your Strength modifier
+**Grapple Technique save DC** = 8 + your proficiency bonus + your Strength modifier
 
 </div>
 
@@ -4424,9 +4426,7 @@ Your expeditions have turned up a bevy of knowledge on the force. You learn thre
 \columnbreak
 
 #### Force Combat Knowledge
-Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. When you are the target of your Critical Analysis, you use your choice of your Critical Analysis or Strength modifier for the attack and damage rolls with simple lightweapons. You must use the same modifier for both rolls.
-
-Additionally, you gain knowledge of one lightsaber form of your choice.
+Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. Additionally, you gain knowledge of one lightsaber form of your choice.
 
 #### It Belongs in a Museum
 Your knowledge of antiquities is unparalleled. When you make an Intelligence (Lore) check or an ability check with your archaeologist kit, you may treat any roll of a 9 or lower as a 10.
@@ -4567,6 +4567,119 @@ If you or any friendly creature that has consumed food made by you during their 
 Any food you prepare over a short or long rest carries with it an additional warming effect. Creatures that consume it are considered adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide, until the end of the creature's next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes cold damage before the end of their next short or long rest, they are considered resistant to the damage.
 
 <img src='https://www.gmbinder.com/images/2qofkgK.png' style='position:absolute;bottom:0px;left:173px;width:285px;transform:scaleX(-1);z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Detective Pursuit
+
+</div>
+
+Some individuals learn to hone their instincts to investigate and discover that which others can't see. Those scholars who choose the Detective Pursuit train themselves to see the things that others miss, gaining a unique—and powerful—perspective.
+
+### Martial Training
+_**Detective Pursuit:** 3rd level_<br>
+You gain proficiency in martial vibroweapons and the Investigation skill. Additionally, you can't have disadvantage on checks you make with it.
+
+### Intelligent Applications
+_**Detective Pursuit:** 3rd level_<br>
+When you analyze a hostile creature with your Critical Analysis, you can use your Critical Analysis modifier with any weapon, as long as it does not have the heavy or special properties.
+
+### Additional Maneuvers 
+_**Detective Pursuit:** 3rd level_<br>
+You gain access to new maneuvers which reflect your investigative prowess. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.
+
+#### Calling Card
+As a bonus action, you can expend a superiority die to throw a sonic charge at the target of your Critical Analysis feature. When you do so, the target and each creature of your choice within 5 feet of it must make Dexterity saving throws, taking sonic damage on a failure. The sonic damage equals the number rolled. To use this maneuver, you must be able to see the target, and it must be within 30 feet of you.
+
+#### Disarming Attack
+When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object<br> you choose. The object lands at its feet.
+
+#### Inner Strength
+As an action, you can expend and roll one<br> superiority die, gaining temporary hit points<br> equal to the result of the roll + your maneuver modifier.
+
+#### One With Shadows
+When you are in an area of dim light or<br> darkness, you can use your action and<br> expend one superiority die to become<br> invisible until you move or take a hostile<br> action.
+
+\columnbreak
+
+#### Rattle
+On your turn, when you hit with a weapon attack, you can use a bonus action and expend and roll one superiority die to menace your target, dealing extra psychic damage equal to to the amount rolled and forcing it to succeed on a Wisdom saving throw or be frightened of you until the end of your next turn. As an action, the creature can make a Wisdom check to steel its resolve and end this condition.
+
+#### Tenacity
+As a bonus action, you can expend and roll a superiority die and move to an unoccupied space you can see up to a distance equal to 5 x the result of the roll. If you begin this movement hidden from a creature, and you end this movement in a space that could be hidden from the creature, this movement does not reveal your presence to that creature.
+
+#### Vanity
+If the target of your Critical Analysis is reduced to 0 hit points, you can expend and roll a superiority die, regaining a number of hit points equal to the result of the roll + your maneuver modifier.
+
+#### World on Fire
+On your turn, when you hit with a weapon attack, you can use a bonus action to expend and roll one superiority die to ignite phosphorescent powder on your target, dealing extra fire damage equal to the result of the roll. Additionally, the target sheds dim light in a 5-foot radius and can't become invisible until the end of your next turn, and becomes visible if it was already invisible. 
+<img src='https://www.gmbinder.com/images/WC5CnvQ.png' style='position:absolute;bottom:-7px;right:30px;width:540px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
+
+\pagebreak
+
+### Extra Attack
+_**Detective Pursuit:** 6th level_<br>
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+### Sharp Instincts
+_**Detective Pursuit:** 9th level_<br>
+Once on each of your turns, when you hit the target of your Critical Analysis with a melee weapon attack, you can make a Wisdom (Insight) check contested by the target's Charisma (Deception) check. If you win the contest, you deal an additional 1d8 damage to the target, which is the same type as the weapon's damage
+
+This die increases to d10 at 13th level and d12 at 17th level.
+
+### Discombobulate
+_**Detective Pursuit:** 17th level_<br>
+When you use a scholar maneuver on a hostile creature, you can force that target to make a Wisdom saving throw against your maneuver save DC. On a failed save, the target is stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+Once you use this feature, you can't do so again until you finish a short or long rest.
+
+\columnbreak
+
+### Detective Discoveries
+When you select this pursuit, you gain access to new discoveries which reflect your investigative prowess. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.
+
+#### Athletic
+You gain your choice of a climbing, crawling, or swimming speed equal to your walking speed.
+
+#### Brawler Adept
+_**Prerequisite:** 5th level_<br>
+Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8). Additionally, your unarmed strikes and count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.
+
+#### Eye for Attire
+_**Prerequisite:** 5th level_<br>
+As an action, you can touch a suit of armor that isn't being worn or carried by a hostile creature and instantly don it, provided you aren't wearing armor already.
+
+#### Eye for Detail
+You take the Search action as a bonus action.
+
+#### Ear for Deceit
+Whenever you make a Wisdom (Insight) check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8.
+
+#### Fighting Style
+You adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6 of the Player's Handbook.
+
+#### Scrapper's Armor
+_**Prerequisite:** 5th level_<br>
+You gain proficiency in medium armor. If you are already proficient in medium armor, you instead gain proficiency in heavy armor.
+
+#### Steady Eye
+_**Prerequisite:** 9th level_<br>
+On your turn, you can reduce your speed by half to gain advantage on Wisdom (Perception) or Intelligence (Investigation) checks until the end of the turn. You can not use this feature if you have moved more than half your speed this turn.
+
+#### Thirst for Justice
+When you reduce a hostile creature to 0 hit points, but don't kill it outright, you gain temporary hit points equal to your scholar level, which last for 1 minute.
+
+#### Unerring Eye
+_**Prerequisite:** 15th level_<br>
+You can see the true form of any shapechanger or creature concealed by illusion while the creature is within 30 feet of you and within line of sight.
+
+<img src='https://www.gmbinder.com/images/5V6CiAg.png' style='position:absolute;bottom:3px;left:100px;width:295px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -6141,7 +6254,69 @@ You can use this feature a number of times equal to your Wisdom or Charisma modi
 
 \pagebreak
 
+<div class='wide'>
+
 ## Path of Witchcraft
+
+</div>
+
+The Force connects all living things. Those sentinels who follow the Path of Witchcraft use that connection to summon the aid of nature, both spirits and the elements, adapting them to their will.
+
+### Wild Power
+_**Path of Witchcraft:** 3rd level_<br>
+You learn the *enfeeble* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of one) to damage rolls with it.
+
+### Ichor Conjuring
+_**Path of Witchcraft:** 3rd and 11th level_<br>
+You learn to call on the spirits of beasts and grant them ichorous form. Once on each of your turns, when you cast a force power and deal necrotic damage to a creature, you can conjure a familiar within 5 feet of it (no action required). The familiar takes the form of a humanoid or beast made of green, glowing smoke, and it lasts for 1 minute, until you dismiss it as a bonus action, until you manifest another spirit, or until you're incapacitated or die.
+
+Your familiar has an AC equal to your universal force save DC, 1 hit point, and immunity to all conditions. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you regardless of its appearance, and it occupies its own space. On your turn, you can mentally command the familiar to move up to 30 feet in any direction (no action required). If your familiar is ever more than 30 feet from you at the end of your turn, it is destroyed. While you have a familiar, you gain the following benefits:
+- As a bonus action, you can use your magicks to teleport, swapping places with your familiar at a cost of 15 feet of your movement, regardless of the distance between the two of you.
+- When you take the Attack action on your turn, any attack you make with that action can originate from your space or the familiar's space. You make this choice for each attack.
+- When a creature that you can see within 5 feet of your familiar moves at least 5 feet away from it, you can use your reaction to make an opportunity attack against that creature as if you were in the familiar's space.
+
+Starting at 11th level, you can summon your<br> familiar when you deal damage with any force<br> power, instead of just necrotic. Additionally,<br> you can summon your familiar when you use<br> a Force-Empowered Self option on your turn.
+
+\columnbreak
+
+### Nature's Vigor
+_**Path of Witchcraft:** 7th level_<br>
+You've learned to attune your senses with nature. If you spend at least 1 minute meditating while in nature, you gain the following benefits for 1 hour:
+- You ignore difficult terrain caused by nature.
+- You can understand plants within 30 feet of you. They can telepathically communicate simple ideas to you, including memories from within the past day.
+- You can command plants within 30 feet of you to create difficult terrain, or other tasks at the GM's discretion (no action required).
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+### Waters of Life
+_**Path of Witchcraft:** 13th level_<br>
+You've learned to absorb the fleeting magicks of your familiar. When your familiar is destroyed by taking damage, you can choose to grant temporary hit points equal to 2d8 + your Wisdom or Charisma modifier (your choice) to one friendly creature of your choice you can see within 30 feet.
+
+You can use this feature a number of times equal to your proficiency bonus, as shown in the sentinel table. You regain all expended uses when you finish a long rest.
+
+### Stormcaller
+_**Path of Witchcraft:** 18th level_<br>
+You've learned to command the elements to summon a fierce storm in a 30-foot radius around you. As an action, you can gain the following benefits for 1 minute:
+- You gain a flying speed equal to your walking speed.
+- You have resistance to energy, lightning, and necrotic damage.
+- Whenever a hostile creature enters this radius for the first time on a turn or starts its turn there, it takes 10 lightning damage.
+
+This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
+
+<img src='https://www.gmbinder.com/images/lhY2uuG.png' style='position:absolute;bottom:0px;left:264px;width:215px;z-index:1000;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/zJp52Jo.png' style='position:absolute;bottom:0px;right:0px;width:294px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Path of Witchcraft (Companion)
+
+</div>
+
 The Force connects all living things. Those sentinels who follow the Path of Witchcraft use that connection to summon the aid of nature, both beasts and the elements, adapting them to their will.
 
 ### Bonus Proficiencies
@@ -6163,13 +6338,12 @@ In addition to its traits and features, your beast companion gains an additional
 
 Lastly, while bonded and within 10 feet of you, your beast companion gains the following benefits:
 - When you use a Force-Empowered Self option to increase your speed or armor class, you can instead grant this bonus to your beast companion. 
-- You and your beast companion can communicate telepathically, though your beast companion can only communicate in and understand simple concepts.
-
-This radius increases to 30 feet at 11th level, and 60 feet at 17th level.
 
 \columnbreak
 
-<div style='margin-top:28px'></div>
+- You and your beast companion can communicate telepathically, though your beast companion can only communicate in and understand simple concepts.
+
+This radius increases to 30 feet at 11th level, and 60 feet at 17th level.
 
 ### Nature's Vigor
 _**Path of Withcraft:** 7th level_<br>
@@ -6184,8 +6358,8 @@ Once you've used this feature, you must complete a short or long rest before you
 _**Path of Withcraft:** 13th and 17th level_<br>
 Your bond with your beast companion strengthens, granting the following benefits while your beast companion is within 30 feet of you:
 - When you cast a force power that targets only yourself, and your beast companion is within range, you can also target your beast companion with that power. 
-- If you have darkvision and your beast doesn't, your beast gains it with the same radius. If your beast has darkvision and you don't, you gain it with the same radius. If you both have darkvision, you both use the larger radius, which then increases by 30 feet.
-- If you have advantage on Perception checks and your beast doesn't, your beast gains advantage on Perception checks. If your beast has advantage on Perception checks and you don't, you gain advantage on Perception checks. If you both have advantage on Perception checks, when either of you makes a Perception check with advantage, you can reroll one of the dice once.
+- If you or your beast have darkvision and the other doesn't, the other gains it with the same radius. If you both have darkvision, you both use the larger radius of the two, which then increases by 30 feet.
+- If you or your beast have advantage on Perception checks and the other doesn't, the other gains advantage on Perception checks. If you both have advantage on Perception checks, when either of you makes a Perception check with advantage, you can reroll one of the dice once.
 
 This radius increases to 60 feet at 17th level.
 
@@ -6194,9 +6368,11 @@ _**Path of Withcraft:** 18th level_<br>
 You've learned to command the elements to summon a fierce storm in a 30-foot radius around you. As an action, you can gain the following benefits for 1 minute:
 - You gain a flying speed equal to your walking speed.
 - You have resistance to energy, lightning, and necrotic damage.
-- Whenever a hostile creature enters this radius or starts its turn there, it takes 10 lightning damage.
+- Whenever a hostile creature enters this radius for the first time on a turn or starts its turn there, it takes 10 lightning damage.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
+
+<img src='https://www.gmbinder.com/images/Hk9DXGZ.png' style='position:absolute;bottom:0px;left:0px;width:377px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 

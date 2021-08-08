@@ -98,6 +98,7 @@
 |	Talz            	|
 |	Tarasin            	|
 |	Thisspiasian       	|
+|	Tognath           	|
 |	Togorian           	|
 |	Toydarian       	|
 |	Ugnaught	        |
@@ -2832,10 +2833,10 @@ ___
 > |Flesh Raider|Darkvision|
 > |Gamorrean|Savage Attacks|
 > |Gand|Lungless|
+> |Geonosian|Geonosian Weaponry|
 > 
 > |||
 > |:--:|:--:|
-> |Geonosian|Geonosian Weaponry|
 > |Givin|Vacuum Sealed|
 > |Gotal|Natural Empathy|
 > |Gran|Keen Sight|
@@ -2872,10 +2873,10 @@ ___
 > |Nothoiin|Heightened Reflexes|
 > |Ortolan|Grovel, Cower, and Beg|
 > |Quarren|Keen Hearing|
+> |Pa'lowick|Hold Breath<br> Snout|
 > 
 > |||
 > |:--:|:--:|
-> |Pa'lowick|Hold Breath<br> Snout|
 > |Patrolian|Darkvision|
 > |Pau'an|Darkvision|
 > |Pyke|Mercantile<br> Notorious Slavers|
@@ -2893,6 +2894,7 @@ ___
 > |Talz|Darkvision|
 > |Tarasin|Sa'tosin Sense|
 > |Thisspiasian|Prehensile Tail|
+> |Tognath|Hide|
 > |Togorian|Toughness|
 > |Togruta|Darkvision|
 > |Toydarian|Closed Mind|
@@ -6286,6 +6288,77 @@ As a thisspiasian, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Thisspiasian. Thisspiasian is a complex language characterized by its interlocking sentences and heavy use of sibilants.
 
 <img src='https://www.gmbinder.com/images/GZQ97jw.png' style='position:absolute;top:35px;right:110px;width:229px;transform:scaleX(1)' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Tognath
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Tan or cream|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |White|
+> |***Distinctions***|  |Breathing apparatus, endo and exoskeletons|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'5"|+2d6"|
+> |***Weight***|  |105 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Yar Togna|
+> |***Language***|  |Tognath|
+
+<div style='margin-top:35px'></div>
+
+### Biology and Appearance
+Tognath are a sentient species native to Yar Togna. Yar Togna is a foul-smelling, high-gravity planet with a toxic, fume-saturated atmosphere. As a result, tognath wear a breathing apparatus to process the oxygen content in a planet's atmosphere. The tognath have a striking look thanks to their insectoid and mammalian characteristics; another factor is their having both an endo- and exoskeleton. They also possess a very primitive nervous system, which provides them with immunity to most pain (a helpful trait in combat). Tognath begin life as larvae born from egg clutches hatched in a suspension jelly, and latch onto one of their parents, feeding directly from their bloodstream. While in that jelly, two or more eggs (not necessarily from the same parent) sometimes graft together, thus creating a bond that continues throughout the life of the eggmates. Six months later, parents visit a nursery tree, where the young detatch from them and spin a cocoon. Within, the offspring undergo a metamorphosis, developing both their skeletons to resist the high gravity and pressures of Yar Togna.
+
+### Society and Culture
+Tognath live in stilted homes with lava channels near the main mountain range of Yar Togna, where they have access to mountain springwater. Most of tognath society believes that mate selection and egg laying should occur late in life, after having dedicated most of one's prime years to a career. This means that parents are generally retired and dote on their children relentlessly, often homeschooling them after their transformation. 
+
+### Names
+Tognath use generally simple, nongendered names, without bothering with surnames.
+
+**First Names.** Darjia, Essec, Irion, Tathak
+
+<br><div style='margin-top:310px'></div>
+
+### Tognath Traits
+As a tognath, you have the following special traits.
+
+***Ability Score Increase.*** Your Strength, Dexterity, and Constitution scores increase by 1.
+
+***Age.*** Tognath reach adulthood by 10 and live less than a century.
+
+***Alignment.*** Tognath are famously dedicated and hard workers, causing them to tend towards balanced alignments, though there are exceptions.
+
+***Size.*** Tognath typically stand 6 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Crafters.*** You have proficiency with with one set of artisan's implements of your choice.
+
+***Exoskeleton.*** You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.
+
+***Foreign Biology.*** You cannot breathe oxygen. The tognath have created a breathing apparatus to negate the negative effects of living in an oxygen rich environment, but if your mask is removed while you are in such an environment, you lose consciousness.
+
+***Life in the Void.*** You can survive for one hour within the vacuum of space. You have resistance to necrotic damage.
+
+***Primitive Nerves.*** Because of their primitive nervous systems, tognath are immune to most pain, letting them shrug off major injuries. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. Once you've used this trait, you can't use it again until you finish a short or long rest.
+
+***Vocalizer.*** Tognath vocal cords are not made for oxygen rich environments, and rely on a vocalizer to communicate effectively with other species. If your vocalizer is removed or destroyed, your voice becomes quiet and difficult to understand.
+
+***Languages.*** You can speak, read, and write Tognath. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.
+
+<img src='https://www.gmbinder.com/images/QbFVKuY.png' style='position:absolute;top:25px;right:120px;width:218px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
