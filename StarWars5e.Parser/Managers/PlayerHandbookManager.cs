@@ -394,7 +394,7 @@ namespace StarWars5e.Parser.Managers
                     lightsaberForm.ContentSourceEnum = ContentSource.PHB;
 
                     var lightsaberFormSearchTerm = _globalSearchTermRepository.CreateSearchTerm(lightsaberForm.Name, GlobalSearchTermType.LightsaberForm, ContentType.Core,
-                        $"/characters/lightsaberForms/?search={lightsaberForm.Name}");
+                        $"/characters/customizationOptions/lightsaberForms/?search={lightsaberForm.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(lightsaberFormSearchTerm);
                 }
 
@@ -416,7 +416,7 @@ namespace StarWars5e.Parser.Managers
                     fightingStyle.ContentSourceEnum = ContentSource.PHB;
 
                     var fightingStyleSearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingStyle.Name, GlobalSearchTermType.FightingStyle, ContentType.Core,
-                        $"/characters/fightingStyles/?search={fightingStyle.Name}");
+                        $"/characters/customizationOptions/fightingStyles/?search={fightingStyle.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(fightingStyleSearchTerm);
                 }
 
@@ -438,7 +438,7 @@ namespace StarWars5e.Parser.Managers
                     fightingMastery.ContentSourceEnum = ContentSource.PHB;
 
                     var fightingMasterySearchTerm = _globalSearchTermRepository.CreateSearchTerm(fightingMastery.Name, GlobalSearchTermType.FightingMastery, ContentType.Core,
-                        $"/characters/fightingMasteries/?search={fightingMastery.Name}");
+                        $"/characters/customizationOptions/fightingMasteries/?search={fightingMastery.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(fightingMasterySearchTerm);
                 }
 

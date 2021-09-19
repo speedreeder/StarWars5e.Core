@@ -31,12 +31,6 @@ You have learned to bifurcate your attention while concentrating on powers, lear
 - At the end of each of your turns where you have two powers you are concentrating on, you must make a Constitution saving throw (DC equals 10 + the number of complete rounds you've been concentrating on two powers). On a failure, you lose concentration for both powers. You can drop concentration on one of your powers during your turn as a free action to avoid this saving throw.
 - Any time you would be forced to make a Constitution saving throw to maintain concentration due to taking damage, the DC equals 10 + both powers' levels combined, or half the damage you take, whichever number is higher. On a failure, you lose concentration on both powers.
 
-### Martial Adept
-_**Prerequisite:** 4th level_<br>
-You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:
-- You learn two maneuvers of your choice from among those available to the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
-- If you already have superiority dice, you gain one more; otherwise, you have two superiority dice, which are d4s. These dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain all of your expended superiority dice when it finishes a short or long rest.
-
 ### Mounted Caster
 _**Prerequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
 You are trained in the use of powers while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:
@@ -71,210 +65,6 @@ Choose one from force- or tech-casting. You've mastered your chosen casting type
 - Once per turn, when you cast a power that doesn't require an ability check, attack roll, or saving throw, but requires a die roll, you can choose the maximum or minimum on the die (your choice). If the power requires rolling multiple dice, you can only affect a number of them equal to half your proficiency bonus (rounded up) in this way. Once you've used this feature on a power, you can't affect that power again until you complete a short or long rest.
 
 You can select this feat twice. Each time you do so, you must choose a different casting type.
-
-\pagebreak
-
-#### Weapons by Specialist Feat
-Many of these weapons are appropriate options for weapon specialist feats. You can see which weapon is governed by which feat below.
-
-<div class='wide' style='position:absolute;bottom:60px;left:75px;width:687px;column-count:3'>
-
-|Weapon|Specialist feat|
-|:--|:--|
-|	ARC caster	|	Heavy Weapon	|
-|	Blaster cannon	|	Heavy Weapon	|
-|	Bo-rifle	|	Trip Weapon	|
-|	Bolas	|	Trip Weapon	|
-|	Bolt-thrower	|	Rifle	|
-|	Canesaber	|	Blade	|
-|	Carbine rifle	|	Rifle	|
-|	Chained dagger	|	Trip Weapon	|
-|	Chained lightdagger	|	Trip Weapon	|
-|	Claymore saber	|	Crushing Weapon	|
-|	Crossguard saber	|	Blade	|
-|	Cycler rifle	|	Heavy Weapon	|
-|	Disruptor pistol	|	Sidearm	|
-|	Disruptor rifle	|	Rifle	|
-|	Dual-phase saber	|	Blade	|
-|	Electrobaton	|	Trip Weapon	|
-|	Electrohammer	|	Crushing Weapon	|
-|	Electroprod	|	Blade	|
-|	Electrostaff	|	Trip Weapon	|
-|	Electrovoulge	|	Polearm	|
-|	Energy bow	|	Rifle	|
-|	Grenade launcher	|	Heavy Weapon	|
-
-|Weapon|Specialist feat|
-|:--|:--|
-|	Guard shoto	|	Blade	|
-|	Heavy bowcaster	|	Heavy Weapon	|
-|	Heavy repeater	|	Rifle	|
-|	Heavy shotgun	|	Heavy Weapon	|
-|	Heavy slugpistol	|	Sidearm	|
-|	Incinerator pistol	|	Sidearm	|
-|	Incinerator sniper	|	Rifle	|
-|	Ion carbine	|	Rifle	|
-|	IWS	|	Heavy Weapon	|
-|	Light repeater	|	Rifle	|
-|	Lightaxe	|	Crushing Weapon	|
-|	Lightbow	|	Rifle	|
-|	Lightfist	|	Blade	|
-|	Lightglaive	|	Polearm	|
-|	Hunting rifle	|	Rifle	|
-|	Mancatcher	|	Trip Weapon	|
-|	Needler	|	Sidearm	|
-|	Nightstinger rifle	|	Rifle	|
-|	Railgun	|	Rifle	|
-|	Retrosaber	|	Blade	|
-|	Revolver	|	Sidearm	|
-|	Riot baton	|	Trip Weapon	|
-
-|Weapon|Specialist feat|
-|:--|:--|
-|	Riot shocker	|	Trip Weapon	|
-|	Rocket launcher	|	Heavy Weapon	|
-|	Rotary cannon	|	Heavy Weapon	|
-|	Sith saber	|	Crushing Weapon	|
-|	Slugpistol	|	Sidearm	|
-|	Sonic pistol	|	Sidearm	|
-|	Sonic rifle	|	Rifle	|
-|	Subrepeater	|	Sidearm	|
-|	Tranquilizer rifle	|	Rifle	|
-|	Vapor projector	|	Heavy Weapon	|
-|	Vibroclaw	|	Blade	|
-|	Vibroclaymore	|	Crushing Weapon	|
-|	Vibrocutter	|	Crushing Weapon	|
-|	Vibrohammer	|	Crushing Weapon	|
-|	Vibroknife	|	Blade	|
-|	Vibroshield	|	Blade	|
-|	Vibrotonfa	|	Blade	|
-|	War hat	|	Trip Weapon	|
-|	Warsword	|	Crushing Weapon	|
-|	Wristblade	|	Blade	|
-|	Wristblaster	|	Sidearm	|
-|	Wristsaber	|	Blade	|
-
-</div>
-
-\pagebreakNum
-
-### Blade Specialist
-_**Prerequisite:** 4th level_<br>
-You master the doubleblade, doublesaber, doubleshoto, doublesword, hidden blade, lightdagger, lightfoil, lightsaber, martial lightsaber, shotosaber, techblade, vibroblade, vibrodagger, and vibrorapier. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- As a bonus action, you can take a parrying stance. While you are in this stance and you aren't wielding a shield, you gain a bonus to AC equal to half your proficiency bonus (rounded up) until the start of your next turn.
-- Your critical hit range increases by 1.
-
-### Crushing Weapon Specialist
-_**Prerequisite:** 4th level_<br>
-You master the greatsaber, techaxe, techstaff, vibroaxe, vibroknuckler, vibromace, and vibrosword. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- Whenever you have advantage on an attack roll and hit, and the lower of the two d20 rolls would also hit, you can attempt to knock the target prone. If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability). If you win the contest, the target is knocked prone.
-- Once per round, when you use your reaction to make a melee weapon attack, you have advantage on the attack roll. 
-
-### Heavy Weapon Specialist
-_**Prerequisite:** 4th level_<br>
-You master the assault cannon, bowcaster, scattergun, and shotgun. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- When a creature rolls a 1 on the saving throw against one of these weapons, they treat the effect's damage as if it had rolled the maximum. If a creature would already treat the effect's damage as if it had rolled the maximum when it rolls a 1 on this weapon's saving throw, it instead does so on a roll of 1 or 2.
-- Whenever you score a critical hit against a creature that is holding an object, you can attempt to disarm the target. If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or it drops an object of your choice at its feet. 
-
-### Polearm Specialist
-_**Prerequisite:** 4th level_<br>
-You master the lightsaber pike, saberspear, vibrolance, vibropike, and vibrospear. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- When you take the Attack action, you can use a bonus action to make a melee attack with the opposite end of the weapon. The weapon's damage die for this attack is a d4, and the attack deals kinetic damage. If the weapon has the reach property, the bonus action attack does not benefit from this property.
-- When you take the Attack action, you can choose to forgo one of your attacks. If you do so, your reach increases by 5 feet until the start of your next turn.
-
-### Rifle Specialist
-_**Prerequisite:** 4th level_<br>
-You master the use of blaster carbine, blaster rifle, ion rifle, sniper rifle, and slugthrower. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- Whenever you have advantage on an attack roll and hit, and the lower of the two d20 rolls would also hit, you can attempt to snare the target. If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or gains 1 slowed level until the end of it's next turn. 
-- When a creature you can see misses you with an attack roll, you can use your reaction to Disengage and move up to half your speed. You must end this movement further away from the creature than you started.
-
-### Sidearm Specialist 
-_**Prerequisite:** 4th level_<br>
-You master the blaster pistol, heavy pistol, hold out, ion pistol, light pistol, and wrist launcher. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- You learn to load and fire your weapon more efficiently. You can now reload these weapons using your object interaction. You must have one free hand to reload.
-- Whenever you score a critical hit against a living creature that has a head, you can attempt to daze the target. If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or be stunned until the end of its next turn.
-
-### Trip Weapon Specialist
-_**Prerequisite:** 4th level_<br>
-You master the chakram, light ring, net, saberwhip, vibrobaton, vibrostaff, and vibrowhip. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
-- You gain a +1 bonus to the weapon's attack rolls.
-- As a bonus action on your turn, you can extend your weapon to sweep around and pull down an opponent's shield. Until the end of that creature's next turn, it gains no benefit to armor class from its shield.
-- When you score a critical hit with the weapon or hit with an opportunity attack using the weapon, you can attempt to trip the opponent as well. If the target is no more than one size larger (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your choice of either your Strength or Dexterity modifier) or be knocked prone.
-
-\pagebreak
-
-## Class-Specific Feats
-Some players might find their class missing a little something. These feats are designed to give characters who focus on a single class a little more identity.
-
-### Relentless Pursuer
-_**Prerequisite:** At least 3 levels in berserker_<br>
-You've harnessed a new level of persistence, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- When a creature ends its turn within 15 feet of you, you can use your reaction to move up to half your speed to a space closer to the creature. This movement doesn't provoke opportunity attacks.
-
-### Meditative Mindfulness
-_**Prerequisite:** At least 3 levels in consular_<br>
-You've delved to new depths during your meditation, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- When you complete a long rest, you can choose one of the force powers you know and replace it with another force power, as long as that power is not of a higher level than your Max Power Level. 
-
-### Expert Potency
-_**Prerequisite:** At least 3 levels in engineer_<br>
-You've obtained new ways to assist your allies, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- When a creature has a Potent Aptitude die from you and casts a power, they can roll the die and add the number rolled to one damage or healing roll of the power. If the power would damage or heal multiple targets, this bonus only applies to one of them. The Potent Aptitude die is then lost.
-
-### Adaptive Training
-_**Prerequisite:** At least 3 levels in fighter_<br>
-You've developed a new fluidity to your training and practice, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- Whenever you complete a long rest, you can replace a fighting style you know with another style available. You can't take a Fighting Style option more than once, even if you later get to choose again.
-
-### Serene Resolve
-_**Prerequisite:** At least 3 levels in guardian_<br>
-You've learned to adapt the Force in new ways, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- As a bonus action, you can expend a use of your Channel the Force to regain 2 force points. You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you complete a long rest.
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-### Focused Vitality
-_**Prerequisite:** At least 3 levels in monk_<br>
-You've learned to harness you focus to restore yourself, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- As an action, you can spend 2 focus points and a roll a Martial Arts die. You regain a number of hit points equal to the amount rolled + your Wisdom or Charisma modifier (your choice, a minimum of one).
-
-### Precision Applications
-_**Prerequisite:** At least 3 levels in operative_<br>
-You've honed your skills to fine edge, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- You can use the bonus action granted by your Cunning Action to carefully aim your next attack. You gain advantage on your next attack roll before the end of your current turn. You can't use this feature if you have moved during this turn, and using this feature reduces your speed to 0 until the end of your current turn.
-
-### Versatile Design
-_**Prerequisite:** At least 3 levels in scholar_<br>
-You've learned to approach problems from new angles, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- When you complete a long rest, you can choose one of the maneuvers you know and replace it with another one.
-
-### Tireless Outrider
-_**Prerequisite:** At least 3 levels in scout_<br>
-You've pushed yourself past the limits of your endurance, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- As an action, you can reduce your exhaustion level by 1 and give yourself a number of temporary hit points equal to 1d10 + your Intelligence modifier. Once you've used this feature, you must complete a short or long rest before you can use it again.
-
-### Kinetic Stoicism 
-_**Prerequisite:** At least 3 levels in sentinel_<br>
-You've developed a preternatural focus, granting the following benefits:
-- Increase an ability score of your choice by 1, to a maximum of 20.
-- Once per turn, whenever you roll a Kinetic Combat die, you can roll the die twice and take either result.
 
 \pagebreak
 
@@ -327,56 +117,6 @@ You have the presence of the most affluent of leaders, granting the following be
 - You gain proficiency in Charisma saving throws. If you are already proficient in them, you instead gain expertise in them.
 - While you are conscious, up to five friendly creatures within 30 feet of you who can see or hear you and who can understand you can gain a bonus to one Intelligence, Wisdom, or Charisma saving throw they make equal to your Charisma modifier. Once they've done so, they can't do so again until they finish a short or long rest.
 - As an action, you can attempt to distract up to five creatures you can see within 30 feet of you. Each creature must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). Any creature immune to being charmed is unaffected. If you or your companions are fighting a creature, it has advantage on the saving throw. On a failed save, for the next minute, a creature has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the effect ends or until the target can no longer see or hear you. This ends early if you are incapacitated or die.
-
-\pagebreak
-
-## Lightsaber Forms
-Certain class features, Formfighting Style, or Formfighting Mastery, offer your choice of lightsaber forms.
-
-In addition to the forms presented in the Player's Handbook, you may choose your lightsaber forms from the following options or roll on the table below to determine them randomly.
-
-<div style='column-count:2'>
-
-|d12|Lightsaber Form|
-|:--:|:--|
-|1|Aqinos|
-|2|Ataru|
-|3|Djem So|
-|4|Ishu|
-|5|Jar'Kai|
-|6|Juyo|
-|7|Makashi|
-|8|Niman|
-
-|d12|Lightsaber Form|
-|:--:|:--|
-|9|Shien|
-|10|Shii-Cho|
-|11|Soresu|
-|12|Sokan|
-|13|Trakata|
-|14|Vaapad|
-|15|Vonil|
-|16|Ysannite|
-
-</div>
-
-Each known form can be adopted on your turn by using your bonus action.
-
-#### Aqinos Form
-_**Prerequisite:** The ability to cast tech powers_<br>
-As a part of the bonus action to adopt this form, if you cast a tech power of 1st level or higher as your action, but no higher than half your Max Power Level (rounded up), you can make one melee weapon attack.
-
-#### Ishu Form
-If there is a friendly creature within 15 feet of you, you can move up to 10 feet without provoking opportunity attacks. You must end this movement within 5 feet of the friendly creature.
-
-#### Vonil Form
-If you took the Attack action before adopting this form, you can direct one of your allies to strike a creature you hit with an attack. Choose a friendly creature that can see or hear you and is within 5 feet of the creature you hit with an attack. That creature can immediately use its reaction to make one weapon attack against the same creature.
-
-#### Ysannanite Form
-As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting. 
-
-Additionally, until the end of your next turn, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. 
 
 \pagebreak
 
@@ -434,7 +174,7 @@ Both you and your companion roll initiative, but you act together on the lesser 
 ## Companion Natures
 Certain class features grant a specific companion nature, while the Companion Keeper feat offers your choice of companion nature. You must meet a companion nature's requirement in order to choose that companion. You may only have one active companion at a time.
 
-> #### Alternative Companions
+> #### Alternative Companion Nature
 > Your archetype feature may grant you one type of companion, whereas your character can be better realized utilizing a different companion. For instance, an astrotech engineer might prefer to have a tracker droid over one of the larger droid options. Work with your GM to determine if a different companion is better suited, and mechanically appropriate, to your character's identity. 
 
 &emsp;You may choose your companion's nature from the following options or roll on the table below to determine it randomly. 
@@ -447,15 +187,13 @@ Certain class features grant a specific companion nature, while the Companion Ke
 |2|Beast|
 |3|Droid|
 |4|Humanoid|
-|5|Spirit|
 
 |d10|Companion Nature|
 |:--:|:--|
+|5|Spirit|
 |6|Thrall|
 |7|Tracker Droid|
 |8|Turret|
-|9|Vehicle|
-|10||
 
 </div>
 
@@ -468,7 +206,9 @@ If your companion is irreparably destroyed, or you want a different companion, y
 <div style='margin-top:28px'></div>
 
 #### Aberrant Companion
-_**Prerequisite:**_<br>
+_**Prerequisite:** Proficient with alchemy kits_<br>
+
+> Aberrant companions are part of a WIP scholar archetype.
 
 #### Beast Companion
 _**Prerequisite:** Proficiency in Animal Handling_<br>
@@ -491,7 +231,6 @@ Through happenstance or misfortune, you gain the curiosity of a spirit companion
 #### Thrall Companion
 _**Prerequisite:** The ability to cast force powers_<br>
 
-
 > Undead thralls are part of a WIP consular archetype.
 
 #### Tracker Droid Companion
@@ -499,14 +238,8 @@ _**Prerequisite:** The ability to cast tech powers_<br>
 Through fabrication of your own or purchase from a vendor, you gain the assistance of a tracker droid companion.
 
 #### Turret Companion
-_**Prerequisite:** Proficiency with artillerist's implements_<br>
+_**Prerequisite:** Proficiency with artillerist's kit_<br>
 Through construction of your own or coopting someone else's, you gain the use of a turret companion.
-
-#### Vehicle Companion
-_**Prerequisite:** Proficiency with mechanic's kits_<br>
-Through construction of your own or repair of another, you gain the utility of a vehicle companion.
-
-> Vehicle companions will be part of an engineer archetype, and a rework of the Mounted Specialist fighter.
 
 <div class='footnote'>EXPANDED CONTENT | CUSTOMIZATION OPTIONS | COMPANIONS</div>
 

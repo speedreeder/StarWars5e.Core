@@ -55,6 +55,7 @@
     <None Remove="Sources\en\ec_tech_powers.txt" />
     <None Remove="Sources\en\ec_variantrules.txt" />
     <None Remove="Sources\en\FAQ.txt" />
+    <None Remove="Sources\en\GGG\ggg_06.txt" />
     <None Remove="Sources\en\mm.txt" />
     <None Remove="Sources\en\PHB\phb_-1.txt" />
     <None Remove="Sources\en\PHB\phb_00.txt" />
@@ -280,6 +281,7 @@
     <EmbeddedResource Include="Sources\en\ec_enhanced_items.txt" />
     <EmbeddedResource Include="Sources\en\ec_variantrules.txt" />
     <EmbeddedResource Include="Sources\en\FAQ.txt" />
+    <EmbeddedResource Include="Sources\en\GGG\ggg_06.txt" />
     <EmbeddedResource Include="Sources\en\mm.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_-1.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_00.txt" />

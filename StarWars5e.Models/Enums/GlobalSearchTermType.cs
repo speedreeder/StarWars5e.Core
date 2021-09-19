@@ -50,6 +50,11 @@
         FightingMastery,
         FightingStyle,
         LightsaberForm,
-        ExpandedContent
+        ExpandedContent,
+        ClassImprovement,
+        MulticlassImprovement,
+        SplashclassImprovement,
+        WeaponFocus,
+        WeaponSupremacy
     }
 }

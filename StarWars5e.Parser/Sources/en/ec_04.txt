@@ -26,18 +26,20 @@
 |Faction Merchant           |
 |Far Traveler               |
 |Farmer                     |
+|Folk Hero                  |
 
 |||
 |:--|--:|
-|Folk Hero                  |
 |Gladiator                  |
 |Hermit                     |
 |Holonet Technician         |
+|Imperial Knight            |
 |Jensaarai                  |
 |Laborer                    |
 |Lawyer                     |
 |Office Worker              |
 |Racer                      |
+|Scavenger                    |
 |Servant                    |
 |Student                    |
 |Teacher                    |
@@ -53,7 +55,7 @@
 ## Addict
 You hammer down your fifth bottle of the night, do your last bit of snuff, and bid farewell to the seedy cantina barman. You stagger onto the streets and find a nearby alley in which you empty the night's contents. To many, the next morning's hangovers would be hell. To you, they're a ritual.
 ___
-- **Skill Proficiencies:** Choose two from Deception, Performance, Persuasion, Sleight of Hand
+- **Skill Proficiencies:** Choose two from Deception, Performance, Persuasion, and Sleight of Hand
 - **Tool Proficiencies:** Your choice of any gaming set, brewer's kit, or spicer's kit
 - **Languages:** One of your choice
 - **Equipment:** A chance cube set, a sabaac deck, 2 days field rations, a flask or belt pouch containing your addiction, a set of common clothes, a bedroll, and a belt pouch containing 25 cr
@@ -517,7 +519,7 @@ Clones are trained from birth to be the perfect soldier; over time, they also de
 |1|**Responsibility.** I do what I must and obey just authority. (Lawful)|
 |2|**Might.** Strength, not compassion, wins battles. (Dark)|
 |3|**Republic.** My brothers, the Republic, or people are all that matter. (Any)|
-|4|**Greater Light.** We fight not for ourselves, but for countless of others that can't fight for themselves. (Light)|
+|4|**Greater Good.** We fight not for ourselves, but for countless of others that can't fight for themselves. (Light)|
 |5|**Freedom.** Tyrants must not be allowed to oppress the people. (Chaotic)|
 |6|**Live and Let Live.** Ideals aren't worth killing or going to war over. (Neutral)|
 
@@ -814,7 +816,7 @@ Crime lords might seem like villains on the surface, and many of them are villai
 You are a part of one of the many Force-sensitive clans on Dathomir. You and your sisters, under the guidance of the Clan Mother, form powerful connections with one another and the untamed wilds of the planet. Your people are a matriarchal society of warriors who train in the art of war and the usage of both muscle and the Force in combat. While all clans have their own set of rules regarding Force usage, all the clans held one rule above all others: *"Never Concede to Evil."*
 
 ___
-- **Skill Proficiencies:** Choose two from Acrobatics, Animal Handling, Lore, or Nature
+- **Skill Proficiencies:** Choose two from Acrobatics, Animal Handling, Lore, and Nature
 - **Tool Proficiencies:** Bioanalysis kit
 - **Languages:** One of your choice
 - **Equipment:** A copy of your clan's book of laws, a set of traveler's clothes, and a pouch containing 150 cr
@@ -1648,7 +1650,7 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 You worked to keep the holonet up and running, whether being employed directly by an institution or indirectly by people across the galaxy. Your work has allowed you to uncover secrets most would never know existed. 
 ___
 - **Skill Proficiencies:** Choose two from Insight, Investigation, Stealth, and Technology
-- **Tool Proficiencies:** Choose two from Mechanic's Kit, Security Kit, and Slicer's Kit
+- **Tool Proficiencies:** Choose two from mechanic's kit, security kit, and slicer's kit
 - **Equipment:** A set of common clothes, an old transceiver antennae, two tools of your choice, and a belt pouch containing 50 cr
 
 #### Employment Type
@@ -1745,13 +1747,96 @@ Holonets technicians vary from boring officer worker to criminal information bro
 
 \pagebreak
 
+<div class='wide'>
+
+## Imperial Knight
+
+</div>
+
+You are an Imperial Knight, a Force-wielding protector of the Fel Empire. Your order combines the teachings of the Jedi with the creed of the Royal Guard of old, using the Force as a powerful and respected tool with which to serve the Force as embodied by your Emperor. Imperial Knights do not share the philosophies of the Jedi with regards to the Force and its light side, and are well aware of the dangers of the dark side, dutifully rejecting its use and temptations. 
+
+While Imperial Knights wield and construct their own lightsabers, they assign them no ceremonial value, treating them as nothing more than tools. As such, almost all lightsabers of the Imperial Knights look the same, with uniform hilt design and signature silver blades. These blades are produced by synthetic crystals similar to the red variety used by the Sith, created with knowledge from Emperor Palpatine's *Book of Anger*, but in a process bereft of the dark side. Imperial Knights are also recognized by their crimson armor emblazoned with the insignia of the Empire and ideally crafted of lightsaber-resistant materials.
+___
+- **Skill Proficiencies:** Choose two from Athletics, Intimidation, Perception, or Piloting.
+- **Tools:** Armormech's implements and artificer's implements.
+- **Equipment:** a revised copy of the *Book of Anger*, an Imperial insignia, a black cape with a hood, and a belt pouch containing 100 cr.
+
+### Feature: Will of the Emperor
+The authority granted by your position is easily acknowledged even by those who don't recognize the Imperial Knights. Though they might not know you, common citizens will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Brawny|
+|2|Threatening|
+|3|Perceptive|
+|4|Ace Pilot|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Crafter|
+|6|Force-Sensitive|
+|7|Armor Expert|
+|8|Weapon Expert|
+
+</div>
+
+#### Suggested Characteristics
+Imperial Knights are warriors first, not negotiators. Their bonds are shaped by the great value they put in teamwork with their fellow Knights, as well as their loyalty to their Emperor. Their flaws may lie in their hubris, sense of superiority, or overzealousness in banishing the dark side. Some Knights hold ideals that lie beyond their order, for better or worse.
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|If a crisis comes, my place will be at the Emperor's side.|
+|2|I dislike my title. It is only there to make me seem more important than I am.|
+|3|I do not lead. I only advise.|
+|4|Some things are more important than the life of any one person—including mine.|
+|5|I will not bend, I will not break, I will not serve.|
+|6|I will not strike an enemy down in anger.|
+|7|I can do whatever needs to be done!|
+|8|I've wanted to test myself against the Sith!|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Duty.** We serve with honor and if we are asked to sacrifice our honor as our duty, then we are betrayed. (Lawful)|
+|2|**Loyalty.** I do not understand, sire. But I will obey. (Lawful)|
+|3|**Faith.** I will not stray from the true path. I feel the responsibility that comes with wielding the Force now more than ever. (Light)|
+|4|**Prudence.** Where I come from, we at least hear someone out before we shoot them. (Neutral)|
+|5|**Pride.** We are Imperial Knights. There are none better. (Any)|
+|6|**Strategy.** A tiny fever wasp can carry death into places where a Krayt dragon cannot go. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|Our duty is to the Force as embodied by the Emperor.|
+|2|There is a person I care more about than my vows as a Knight or my loyalty to the Empire.|
+|3|I might, by strength of my own will, develop my own creations.|
+|4|I will not allow another who has risen in my defense to be killed!|
+|5|My friend is not the most orthodox of Knights. I've learned a lot from her.|
+|6|I had a mentor, who was willing to sacrifice himself for the greater good.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|My passion is my strength—my passion is my weakness. So my Master always told me.|
+|2|It was by the will of the Force my accident maimed me.|
+|3|Sometimes we must sacrifice those who need us for the greater good.|
+|4|The penalty for desertion has always been death.|
+|5|I envy the freedom of others, but I'm not walking away from my responsibilities.|
+|6|I can no longer be a Knight. I've become... something else.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
 ## Jensaarai
 You are a Jensaarai, a Force user who has come to understand the failings of both Jedi inactivity and Sith malevolence. While they wield lightsabers, a true mark of skill among the Jensaarai is the crafting of their armor. Each suit is perfectly unique to the wearer, and is frequently (but not always) adorned and shaped to represent an animal that the Jensaarai finds kinship with, up to and potentially including additional mounted weapons or sensors to further emulate that creature.
 
 While the Jensaarai train in, and will use dark side powers when necessary, they seek to avoid true corruption. They are not evil, nor are they wholly good either. They are anti-heroes, and well-practiced in this craft. In addition, the Jensaarai train in more than the lightsaber, employing whatever tools are at hand to best fit the job.
 ___
 - **Skill Proficiencies:** Choose two from Insight, Intimidation, Lore, and Perception
-- **Tool Proficiencies:** Armormech's Tools
+- **Tool Proficiencies:** Armormech's implements
 - **Languages:** One of your choice
 - **Equipment:** A set of common clothes including a robe, a sturdy knife, and a belt pouch containing 150 cr
 
@@ -2216,6 +2301,107 @@ Racers are usually competitive and often fearless. They can lead a whirlwind of 
 |4|Once I start drinking, it's hard for me to stop.|
 |5|Once someone questions my courage, I never back down no matter how dangerous the situation.|
 |6|Waiting around makes me antsy. I'd rather do something stupid than do nothing at all.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+## Scavenger
+You are experienced with collecting lost or abandoned items or recovering wreckage from the aftermath of large scale conflicts or natural disasters. Scavengers sole occupation is to salvage anything they can find that they can reuse or sell for much needed credits.  
+___
+- **Skill Proficiencies:** Choose two from Persuasion, Sleight of Hand, Survival, and Technology
+- **Tool Proficiencies:** Your choice of archaeologist kit, jeweler's implements, mechanic's kit, or scavenging kit
+- **Languages:** One of your choice
+- **Equipment:** A set of common clothes with a hood, 2 days field rations, mechanic's goggles, a bedroll, and a pouch containing 200 cr
+
+#### Scavenger Specialty
+
+<div style='column-count:2'>
+
+|d8|Specialty|
+|:---:|:----------:|
+|1|Droid Scavenger|
+|2|Ship Scavenger|
+|3|Junk Dealer|
+|4|Scrapper|
+
+|d8|Specialty|
+|:---:|:----------:|
+|5|Collector|
+|6|Trader|
+|7|Clean-up|
+|8|Fence|
+
+</div>
+
+### Feature: Rugged Survivalist 
+Scavengers due to their line of work have an eye for spotting useful or even valuable parts of technology or artifacts. You can easily spot the best place to scavenge the most valuable parts.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Silver-Tongued|
+|2|Loremaster|
+|3|Quick-Fingered|
+|4|Techie|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Specialist|
+|6|Crafter|
+|7|Linguist|
+|8|Tech Dabbler|
+
+</div>
+
+#### Suggested Characteristics
+Scavengers are usually self-employed while searching for the next piece of technology or random junk to sell for profit or merely for survival.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I am quiet, reserved, and focused on my work. It takes a lot for me to raise my voice or object outside of my job.|
+|2|If I find an intact piece of technology, I'll be focused on how many credits I can get by salvaging it.|
+|3|When I find myself in a trove full of technology, I'm thinking of a way to use them for profit.|
+|4|I look down on people that do not like getting their hands dirty.|
+|5|I like making friends, those who don't like widening their circle are fools.|
+|6|I am polite around my customers or patrons, though I am harsh toward my fellow Scavengers.|
+|7|I am slow to trust people as in my line of work; it's every individual for themselves.|
+|8|If there is a lost individual that is in need, I will always lend a hand.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Honor.** I don’t steal from other in or outside of the trade. (Lawful)|
+|2|**Independence.** I do not work well with others, I work alone. (Chaotic)|
+|3|**Charity.** I use the credits I gain to help those less fortunate. (Light)|
+|4|**Greed.** I will do whatever it takes to get more credits. (Dark)|
+|5|**Community.** I’m loyal to my friends and fellow Scavengers. (Neutral)|
+|6|**Hope.** I hope to one day get enough money to start a new life in the stars. (Neutral)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|I carry with me a unique piece of technology unknown to me, but I keep it as a good luck charm.|
+|2|My fellow scavengers mean the world to me.|
+|3|I unintentionally killed someone by stealing their property. I hope to redeem myself for it.|
+|4|I used to work for a horrible employer that abused their power; I will take my revenge on any who bully others.|
+|5|I'm working off the debt I owe to a wealthy benefactor.|
+|6|Someone I loved died because of a mistake I made. That will never happen again.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|When I see something valuable, I can’t think about anything but how to make a profit from it.|
+|2|When faced with a choice between money and my friends, I usually choose the money.|
+|3|If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.|
+|4|I have a "tell" that reveals when I'm lying.|
+|5|I turn tail and run when things look bad.|
+|6|I tend to hold people who work normal jobs in contempt.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 

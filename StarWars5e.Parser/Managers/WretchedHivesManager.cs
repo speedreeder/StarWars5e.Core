@@ -9,12 +9,12 @@ using Microsoft.Azure.Cosmos.Table;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using StarWars5e.Models;
+using StarWars5e.Models.CustomizationOptions;
 using StarWars5e.Models.EnhancedItems;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Localization;
 using StarWars5e.Parser.Processors;
-using StarWars5e.Parser.Processors.PHB;
 using StarWars5e.Parser.Processors.WH;
 using StarWars5e.Parser.Storage;
 
@@ -200,8 +200,8 @@ namespace StarWars5e.Parser.Managers
 
             try
             {
-                var playerHandbookFeatProcessor = new PlayerHandbookFeatProcessor(_localization);
-                var feats = await playerHandbookFeatProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization);
+                var featProcessor = new WretchedHivesFeatProcessor();
+                var feats = await featProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization);
 
                 foreach (var feat in feats)
                 {
@@ -218,6 +218,50 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload WH feats.");
+            }
+
+            try
+            {
+                var weaponFocusProcessor = new WeaponFocusProcessor();
+                var weaponFocuses = await weaponFocusProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization, ContentType.Core);
+
+                foreach (var weaponFocus in weaponFocuses)
+                {
+                    weaponFocus.ContentSourceEnum = ContentSource.WH;
+
+                    var weaponFocusSearchTerm = _globalSearchTermRepository.CreateSearchTerm(weaponFocus.Name, GlobalSearchTermType.WeaponFocus, ContentType.Core,
+                        $"/characters/customizationOptions/weaponFocuses/?search={weaponFocus.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(weaponFocusSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<WeaponFocus>($"weaponFocuses{_localization.Language}", weaponFocuses,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload WH weapon focuses.");
+            }
+
+            try
+            {
+                var weaponSupremacyProcessor = new WeaponSupremacyProcessor();
+                var weaponSupremacies = await weaponSupremacyProcessor.Process(new List<string> { "WH.wh_06.txt" }, _localization, ContentType.Core);
+
+                foreach (var weaponSupremacy in weaponSupremacies)
+                {
+                    weaponSupremacy.ContentSourceEnum = ContentSource.WH;
+
+                    var weaponSupremacySearchTerm = _globalSearchTermRepository.CreateSearchTerm(weaponSupremacy.Name, GlobalSearchTermType.WeaponSupremacy, ContentType.Core,
+                        $"/characters/customizationOptions/weaponSupremacies/?search={weaponSupremacy.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(weaponSupremacySearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<WeaponSupremacy>($"weaponSupremacies{_localization.Language}", weaponSupremacies,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload WH weapon supremacies.");
             }
         }
     }

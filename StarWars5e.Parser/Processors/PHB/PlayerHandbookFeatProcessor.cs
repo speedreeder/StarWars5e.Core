@@ -17,6 +17,7 @@ namespace StarWars5e.Parser.Processors.PHB
         {
             Localization = localization;
         }
+
         public override Task<List<Feat>> FindBlocks(List<string> lines)
         {
             var feats = new List<Feat>();

@@ -50,6 +50,7 @@ namespace StarWars5e.Parser
             var creditsManager = new CreditsManager(serviceProvider, localization);
             var extendedContentEnhancedItemManager =
                 new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, localization);
+            var gggManager = new GggManager(serviceProvider, localization);
 
             var referenceTables = await referenceTableManager.Parse();
             var powers = await playerHandbookManager.Parse();
@@ -67,6 +68,7 @@ namespace StarWars5e.Parser
             await extendedContentCustomizationOptionsManager.Parse();
             await creditsManager.Parse();
             await extendedContentEnhancedItemManager.Parse();
+            await gggManager.Parse();
 
             try
             {
@@ -132,8 +134,9 @@ namespace StarWars5e.Parser
                     "enhancedItems", "equipment", "feats", "features", "monsters", "powers", "referenceTables", "species", "starshipBaseSizes",
                     "starshipDeployments", "starshipEquipment", "starshipModifications", "starshipVentures", "weaponProperties",
                     "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules",
-                    "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU", "fightingStyle",
-                    "fightingMastery", "expanded-content"
+                    "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU", "fightingStyles",
+                    "fightingMasteries", "expanded-content", "lightsaberForms", "classImprovements", "multiclassImprovements", "splashclassImprovements",
+                    "weaponFocuses", "weaponSupremacies"
                 };
                 var dataVersions = dataNames.Select(d => new DataVersion
                 {
