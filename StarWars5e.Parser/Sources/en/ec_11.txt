@@ -8,16 +8,21 @@
 ___
 - Break
 - <div style="color:blue">Defensive Technique</div>
+- Pyrokinesis
 
 #### 1st-level
 ___
 - Force Current
+- Force Intuition
+- Heighten Senses
+- <div style="color:blue">Land Stride</div>
 - Tapas
 - Telepathic Link
 
 #### 2nd-level
 ___
 - Battle Mind
+- Improved Pyrokinesis
 - <div style="color:red">Kinetite</div>
 - <div style="color:red">Probe Mind</div>
 - Pull Earthward
@@ -28,6 +33,7 @@ ___
 
 #### 4th-level
 ___
+- Greater Pyrokinesis
 
 #### 5th-level
 ___
@@ -37,6 +43,7 @@ ___
 
 #### 7th-level
 ___
+- Master Pyrokinesis
 
 #### 8th-level
 ___
@@ -96,6 +103,54 @@ When you cast this power, you raise your hand and unleash a burst of Force energ
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st. For each slot 2 levels higher than 1st, you can add an additional 5 feet to the push.
 
+#### Force Intuition
+_1st-level universal power_
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** 8 hours
+
+Your senses attune to your environment for the duration, allowing you to see things before they happen, and react even faster than normal. For the duration, you can use your forcecasting ability modifier in place of your Dexterity modifier when you make initiative checks, if the check doesn't already include that modifier. 
+
+In addition, once during the duration of this power, if you are surprised at the start of combat, rather than being completely unable to act, you can still use a reaction, and take an action on your first turn in combat. This action can be used only to take one of the following actions: Dash, Disengage, Dodge, Hide, or Use an Object.
+
+#### Greater Pyrokinesis
+_4th-level universal power_
+___
+- **Prerequisite:** Improved Pyrokinesis
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Duration:** Concentration, up to 1 minute
+
+You create a wall of Force-enhanced fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. 
+
+When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 energy damage, or half as much damage on a successful save. 
+
+One side of the wall, selected by you when you cast this power, deals 5d8 energy damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.
+
+***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
+
+#### Heighten Senses
+_1st-level universal power_
+___
+- **Casting Time:** 1 reaction, which you take when you would roll initiative
+- **Range:** Self
+- **Duration:** 1 round
+
+Through the Force, you sense a sudden shift in your environment, and can seize on it with great speed. You gain advantage on your initiative check, and until the end of your first turn in combat, your walking speed increases by 30 feet.
+
+#### Improved Pyrokinesis
+_2nd-level universal power_
+___
+- **Prerequisite:** Pyrokinesis
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Duration:** Instantaneous
+
+A line of roaring Force-enhanced flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 energy damage on a failed save, or half as much damage on a successful one.
+
+***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+
 #### Kinetite
 _2nd-level dark side power_
 ___
@@ -111,6 +166,27 @@ As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere 
 When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 
 ***Force Potency.*** When you cast this power with a force slot of 3rd level or higher, both the lightning and kinetic damage increase by 1d6 for each slot level above 2nd.
+
+#### Land Stride
+_1st-level light side power_
+___
+- **Casting Time:** 1 action
+- **Range:** Self (40-foot radius)
+- **Duration:** 8 hours
+
+You align yourself with nature, making traversing natural environments far easier. For the duration, your movement and that of creatures of your choice within 40 feet of you can't be slowed by natural terrain, such as mud, rocky ground, vines, or tall grass. Climbing still costs double normal movement. A creature that receives this bonus leaves behind no traces of its passage.
+
+#### Master Pyrokinesis
+_7th-level universal power_
+___
+- **Prerequisite:** Greater Pyrokinesis
+- **Casting Time:** 1 action
+- **Range:** 150 feet
+- **Duration:** Instantaneous
+
+A storm made up of sheets of roaring, Force-enhanced flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity saving throw. It takes 7d10 energy damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one cube is affected only once.
+
+The flame damages objects in the area and ignites flammable objects that aren't being worn or carried.
 
 #### Probe Mind
 _2nd-level dark side power_
@@ -145,6 +221,19 @@ ___
 - **Duration:** Concentration, up to 1 minute
 
 Choose one creature you can see within range. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the power’s duration. An airborne creature affected by this power descends at 60 feet per round until it reaches the ground or the power ends.
+
+#### Pyrokinesis
+_At-will universal power_
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Concentration, up to 1 minute
+
+By stimulating air molecules, you create a zone of Force-enhanced fire on ground that you can see within range. Until the power ends, the enhanced fire fills a 5-foot cube. Any creature in the fire's space when you cast the power must succeed on a Dexterity saving throw or take 1d8 energy damage. A creature must also make the saving throw when it moves into the fire's space for the first time on a turn or ends its turn there.
+
+The fire ignites flammable objects in its area that aren't being worn or carried.
+
+The power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
 #### Tapas
 _1st-level universal power_

@@ -37,7 +37,7 @@ namespace StarWars5e.Parser.Managers
                     techPower.ContentSourceEnum = ContentSource.EC;
 
                     var forcePowerSearchTerm = _globalSearchTermRepository.CreateSearchTerm(techPower.Name,
-                        GlobalSearchTermType.ForcePower, ContentType.ExpandedContent,
+                        GlobalSearchTermType.TechPower, ContentType.ExpandedContent,
                         $"/characters/techPowers/?search={techPower.Name}");
                     _globalSearchTermRepository.SearchTerms.Add(forcePowerSearchTerm);
                 }

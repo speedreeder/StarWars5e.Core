@@ -6,19 +6,26 @@
 
 #### At-Will
 ___
+- Detonator
 - Itemize
 - Stinger
 - Tri-Shot
 
 #### 1st-level
 ___
+- Adrenaline
 - Aid Droid
+- Barrage
 - Cryogenic Blow
+- Delayed Detonator
 
 #### 2nd-level
 ___
 - Alter Self
+- Burst of Flame
+- Greater Energy Shield
 - Spectrum Discharge
+- Wire Tow
 
 #### 3rd-level
 ___
@@ -30,6 +37,7 @@ ___
 
 #### 5th-level
 ___
+- Skill Protocol
 
 #### 6th-level
 ___
@@ -47,6 +55,15 @@ ___
 </div>
 
 \pagebreak
+
+#### Adrenaline
+_1st-level tech power_
+___
+- **Casting Time:** 1 reaction, which you take when a creature within range that you can see would roll initiative
+- **Range:** 30 feet
+- **Duration:** Instantaneous
+
+You infuse one creature within range with a jittery burst of power, speeding its senses and reactions to the point of near precognition. The creature makes its initiative check with advantage.
 
 #### Aid Droid
 _1st-level tech power_
@@ -74,6 +91,28 @@ You alter your form with tech. When you cast the power, choose one of the follow
 
 ***Natural Weapons.*** You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your damage die for your unarmed strikes increases by one step (from 1 to d4, d4 to d6, or d6 to d8). Your unarmed strikes are considered enhanced and you have a +1 bonus to attack and damage rolls with them.
 
+#### Barrage
+_1st-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Duration:** Instantaneous
+
+You launch 4d6 tiny projectiles at up to four creatures you can see within range. The projectiles can be divided between the targets as desired. Each target must make a Dexterity saving throw. A target takes 1 kinetic damage per projectile, or half as much damage on a successful save.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you launch an additional 1d6 projectiles and can target one additional creature for each slot level above 1st.
+
+#### Burst of Flame
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot line)
+- **Duration:** Instantaneous
+
+You expel a burst of flame in a line 30 feet long and 5 feet wide, originating from you. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+
 #### Cryogenic Blow
 _1st-level tech power_
 ___
@@ -84,6 +123,28 @@ ___
 The next time you hit a creature with a weapon attack during this power's duration, the attack deals an extra 1d6 cold damage to the target. The target must make a Strength saving throw. On a failed save, it gains a level of slowed for the duration. At the start of each of its turns, the target can repeat the saving throw, ending the effect on itself on a success.
 
 ***Overcharge Tech.*** If you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+
+#### Delayed Detonator
+_1st-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** 1 round
+
+Choose a point you can see within range. You launch a detonator at that point, which remains there until the start of your next turn, when it explodes, ending the power. You can also use your reaction at any point during the power's duration to cause the detonator to explode early. When the detonator explodes, each creature within 5 feet of the point must make a Dexterity saving throw. A creature takes 1d8 fire damage and 1d8 kinetic damage on a failed save, or half as much damage on a successful one.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you can launch an additional detonator at another point you can see within range for each slot level above 1st. The detonators all explode simultaneously. A creature in the area of more than one detonator when they explode is only affected once.
+
+#### Detonator
+_At-will tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Insantaneous
+
+You launch a detonator at a creature. Make a ranged tech attack against a creature you can see within range. On a hit, the target takes 1d6 fire damage, and each creature within 5 feet of the target must make a Dexterity saving throw or take 1d4 fire damage.
+
+This power's damage increases by one die when you reach 5th level (2d6/2d4), 11th level (3d6/3d4), and 17th level (4d6/4d4).
 
 #### Fabricate
 _4th-level tech power_
@@ -98,6 +159,15 @@ For example, you can fabricate a wooden bridge from a clump of trees, a rope fro
 Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the power is commensurate with the quality of the raw materials.
 
 Creatures or enhanced items can't be created by this power. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of tool used to craft such objects.
+
+#### Greater Energy Shield
+_2nd-level tech power_
+___
+- **Casting Time:** 1 reaction, which you take when a creature you can see within range is hit by an attack or targeted by the *homing rockets* power
+- **Range:** 15 feet
+- **Duration:** 1 round
+
+An energy shield appears and protects the target. Until the start of the target's next turn, the target has a +5 bonus to AC, including against the triggering attack, and the target takes no damage from *homing rockets*.
 
 #### Itemize
 _At-will tech power_
@@ -127,6 +197,17 @@ You alter your body with tech, temporarily gaining new properties which last for
 - You can gain any one effect of the _force enlightenment_ power.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd.
+
+#### Skill Protocol
+_5th-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** Concentration, up to 1 hour
+
+You enhance a droid or construct's protocols. You touch one willing droid or construct and give it expertise in one tool or skill of your choice.
+
+You must choose a tool or skill in which the target is proficient and that isn't already benefiting from an effect, such as expertise, that doubles its proficiency bonus.
 
 #### Spectrum Discharge
 _2nd-level tech power_
@@ -180,3 +261,17 @@ Choose up to three creatures within range, none of whom can be more than 10 feet
 
 This power's damage increases by one die when you reach 5th level (two dice), 11th level (three dice), and 17th level (four dice).
 
+#### Wire Tow
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Duration:** Concentration, up to 1 minute
+
+You project a length of wire towards a foe to bring them within your grasp. Make a ranged tech attack against the target. On a hit, the target takes 2d10 kinetic damage, and you can pull it up to 25 feet closer to you. If you score a critical hit, the target is also knocked prone. If the target ends this movement within 5 feet of you and is no more than one size larger than you, the target is grappled by you for the duration.
+
+If a creature you grapple with this power uses its action to escape, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check against your tech save DC to do so.
+
+This power ends if the attack misses or the grapple ends.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
