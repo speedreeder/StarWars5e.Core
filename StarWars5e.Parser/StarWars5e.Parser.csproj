@@ -269,7 +269,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="google_credentials.json" />
     <EmbeddedResource Include="Sources\en\Credits.txt" />
     <EmbeddedResource Include="Sources\en\ec_02.txt" />
     <EmbeddedResource Include="Sources\en\ec_03.txt" />
