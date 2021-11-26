@@ -7,9 +7,11 @@
 #### At-Will
 ___
 - Detonator
+- Dismantle
 - Itemize
 - Stinger
 - Tri-Shot
+- Warp Strike
 
 #### 1st-level
 ___
@@ -18,17 +20,24 @@ ___
 - Barrage
 - Cryogenic Blow
 - Delayed Detonator
+- Jump
+- Jump Jet
+- Time Bomb
 
 #### 2nd-level
 ___
 - Alter Self
 - Burst of Flame
 - Greater Energy Shield
+- Irradiate
+- Jump Pad
+- Lesser Mislead
 - Spectrum Discharge
 - Wire Tow
 
 #### 3rd-level
 ___
+- Instant Translocation
 - Mutate/Augment
 
 #### 4th-level
@@ -44,6 +53,7 @@ ___
 
 #### 7th-level
 ___
+- Disassemble
 - Squad Shield
 
 #### 8th-level
@@ -146,6 +156,28 @@ You launch a detonator at a creature. Make a ranged tech attack against a creatu
 
 This power's damage increases by one die when you reach 5th level (2d6/2d4), 11th level (3d6/3d4), and 17th level (4d6/4d4).
 
+#### Disassemble
+_7th-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** Instantaneous
+
+One constructed object up to 100 lbs. in weight that you touch falls to pieces, separating into its component parts. For instance, a vibrosword separates into a blade, handle, oscillator, and guard, while a hovercart collapses into a repulsor engine, bolts, and metal panels. If the object is being worn, carried, or operated by a creature, the creature can make an Intelligence saving throw. On a successful save, the item is unaffected.
+
+#### Dismantle
+_At-will tech power_
+___
+- **Casting Time:** Special
+- **Range:** Touch
+- **Duration:** Instantaneous
+
+You break or tear an unenhanced structure or object you touch that is not being worn or carried by a creature other than you. The break or tear can be up to 1 foot in any dimension. When cast this in this way, this power has a casting time of 1 minute.
+
+Alternatively, you can touch a droid or construct when you cast this power. Make a melee tech attack against the target. On a hit, the target takes 1d6 energy damage. When cast in this way, this power has a casting time of 1 action.
+
+This power’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+
 #### Fabricate
 _4th-level tech power_
 ___
@@ -169,6 +201,28 @@ ___
 
 An energy shield appears and protects the target. Until the start of the target's next turn, the target has a +5 bonus to AC, including against the triggering attack, and the target takes no damage from *homing rockets*.
 
+#### Instant Translocation
+_3rd-level tech power_
+___
+- **Casting Time:** 1 reaction, which you take when you are hit by an attack
+- **Range:** Self
+- **Duration:** Instantaneous
+
+Your form shimmers in a holographic configuration and collapses as an attack begins to hit you. You have a +5 bonus to AC against the triggering attack. As part of the same reaction, you can then teleport to an unoccupied space within 30 feet of you, and can make one weapon attack with advantage against the attacker.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, the maximum teleport distance increases by 10 for each slot level above 3rd.
+
+#### Irradiate
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Duration:** Concentration, up to 1 minute
+
+A surge of radiation washes over a creature within range. The creature must make a Constitution saving throw. On a failed save, the target takes 3d10 necrotic damage and suffers one level of exhaustion, which lasts for the duration. On a successful save, the target takes half as much damage and does not suffer a level of exhaustion. A creature exhausted by this power can make a Constitution saving throw at the end of each of its turns. On a successful save, the power ends.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+
 #### Itemize
 _At-will tech power_
 ___
@@ -177,6 +231,50 @@ ___
 - **Duration:** Instantaneous
 
 You instantly learn the exact quantity of one type of item within 30 feet of you. It must be a type of item that you've handled in the past; you can't, for example, use *itemize* to find out how many *BKGs* are nearby if you've never handled such a weapon. The object being itemized must also be reasonably specific. You can learn how many meilooruns are nearby, for example, but not how much fruit.
+
+#### Jump
+_1st-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** 1 minute
+
+You touch a creature. The creature's jump distance is tripled until the power ends.
+
+#### Jump Jet
+_1st-level tech power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Duration:** Instantaneous
+
+You boost yourself through the air with a brief surge of repulsor energy. You can rise a number of feet equal to 20 x your techcasting ability modifier. You can also move a number of feet horizontally during any part of the movement equal to 5 x your techcasting ability modifier. At the end of the turn on which you cast this power, you float gently to the ground if you are still aloft.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you can rise an additional 20 feet, and move horizontally by another 5 feet for each slot level above 1st.
+
+#### Jump Pad
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Concentration, up to 1 minute
+
+You create a bouncy surface in a 5-foot square on a surface within range. When you cast the power, you can designate creatures that can safely use the jump pad. For the duration, whenever a creature you haven't chosen enters the affected area, it must make a Dexterity saving throw or be launched 10 feet upwards, and 5 feet horizontally in a random direction. To determine the direction, roll a d8 and assign a direction to each die face.
+
+While a creature you have chosen (or a creature that has succeeded its Dexterity saving throw) is in the area, it can use its reaction to jump with the aid of the bouncy surface. The creature's jump distance for this jump is multiplied by 5.
+
+#### Lesser Mislead
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** 1 round
+
+You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts until the end of your next turn, but the invisibility ends if you attack or cast a power.
+
+You can use your action to move your illusory double up to your speed and make it gesture, speak, and behave in whatever way you choose.
+
+As soon as it is attacked or would take damage, the double dissipates.
 
 #### Mutate/Augment
 _3rd-level tech power_
@@ -250,6 +348,19 @@ Furthermore, hazards of the following types cannot physically pass through the b
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th.
 
+#### Time Bomb
+_1st-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Duration:** Concentration, up to 1 minute
+
+Make a melee tech attack against a target you touch. On a miss, this power ends. On a hit, you deal 2d6 kinetic damage as you plant an explosive charge on the target's body. You can then detonate the charge as a bonus action, which ends this power. It deals 1d8 fire damage if detonated on the same turn. It deals 2d8 fire damage on your next turn, increasing by 1d8 for each round you do not detonate it, to a maximum of 6d8. If this power ends before you detonate the charge, the target takes no fire damage.
+
+A creature affected by this power can use an action to attempt to remove the detonator from its person, making a Strength or Dexterity check (the creature chooses the ability to use) against your tech save DC.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the kinetic damage increases by 1d6 for each slot level above 1st.
+
 #### Tri-Shot
 _At-will tech power_
 ___
@@ -260,6 +371,17 @@ ___
 Choose up to three creatures within range, none of whom can be more than 10 feet apart. If you choose three creatures, each target must succeed on a Dexterity saving throw or take 1d4 energy damage. If you choose two creatures, each target takes 1d6 energy damage on a failed save instead. If you choose only one creature, the target takes 1d8 energy damage on a failed save.
 
 This power's damage increases by one die when you reach 5th level (two dice), 11th level (three dice), and 17th level (four dice).
+
+#### Warp Strike
+_At-will tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** Varies
+- **Duration:** 1 round
+
+As part of the action used to cast this power, you must make a melee weapon attack against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack’s normal effects, and you can teleport to an unoccupied space of your choice within 10 feet of you. If you teleport to a space within 5 feet of the target, the target cannot take reactions until the end of its next turn.
+
+This power’s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d6 energy damage to the target. This extra energy damage increases to 2d6 at 11th level and 3d6 at 17th level.
 
 #### Wire Tow
 _2nd-level tech power_

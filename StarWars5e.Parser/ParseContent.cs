@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Azure.Search.Documents.Indexes;
+using Google.Apis.Sheets.v4;
 using Microsoft.Azure.Cosmos.Table;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -104,18 +105,22 @@ namespace StarWars5e.Parser
 
             try
             {
-                var features = serviceProvider.GetService<FeatureRepository>()?.Features;
-                var sheetOperations = new SheetOperations(serviceProvider);
-
-                if (features != null && serviceProvider.GetService<IConfiguration>()?["FeaturesSheetId"] != null &&
-                    configuration != null &&
-                    configuration["FeatureLanguages"].Split(',').Contains(localization.Language.ToString()))
+                if(serviceProvider.GetService<SheetsService>() != null)
                 {
-                    var featureSheetData = features.Select(c => new List<object> {c.RowKey, c.Level} as IList<object>)
-                        .ToList();
-                    await sheetOperations.UpdateFeatureSheetAsync(featureSheetData);
-                    Console.WriteLine("Successfully wrote features to Features Parsed sheet.");
+                    var features = serviceProvider.GetService<FeatureRepository>()?.Features;
+                    var sheetOperations = new SheetOperations(serviceProvider);
+
+                    if (features != null && serviceProvider.GetService<IConfiguration>()?["FeaturesSheetId"] != null &&
+                        configuration != null &&
+                        configuration["FeatureLanguages"].Split(',').Contains(localization.Language.ToString()))
+                    {
+                        var featureSheetData = features.Select(c => new List<object> { c.RowKey, c.Level } as IList<object>)
+                            .ToList();
+                        await sheetOperations.UpdateFeatureSheetAsync(featureSheetData);
+                        Console.WriteLine("Successfully wrote features to Features Parsed sheet.");
+                    }
                 }
+                
             }
             catch (Exception e)
             {

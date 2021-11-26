@@ -9,13 +9,17 @@ ___
 - Break
 - <div style="color:blue">Defensive Technique</div>
 - Pyrokinesis
+- Wall Run
 
 #### 1st-level
 ___
+- Agile Defense
 - Force Current
 - Force Intuition
 - Heighten Senses
+- Instinctive Movement
 - <div style="color:blue">Land Stride</div>
+- Saber Assault
 - Tapas
 - Telepathic Link
 
@@ -26,14 +30,17 @@ ___
 - <div style="color:red">Kinetite</div>
 - <div style="color:red">Probe Mind</div>
 - Pull Earthward
+- Saber Strike
 - Wakefulness
 
 #### 3rd-level
 ___
+- Art of Movement
 
 #### 4th-level
 ___
 - Greater Pyrokinesis
+- Saber Onslaught
 
 #### 5th-level
 ___
@@ -54,6 +61,33 @@ ___
 </div>
 
 \pagebreak
+
+#### Agile Defense
+_1st-level universal power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Duration:** Instantaneous
+
+As part of the action of casting this power, you take the Dodge action.
+
+#### Art of Movement
+_3rd-level universal power_
+___
+- **Prerequisite:** Instinctive Movement
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Duration:** Concentration, up to 10 minutes
+
+By letting the Force flow through you, you move with preternatural grace, leaping onto or over tall obstacles that impede others. Until the power ends, you gain the following benefits:
+- Your speed increases by 10 feet.
+- You have resistance to damage from falling.
+- Your jumping distance is tripled.
+- You gain a climbing speed equal to your walking speed, and you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. If you are on a vertical surface when you end your turn and are not using your hands to climb, you immediately fall unless you have some other means of remaining there.
+- Your movement is unaffected by difficult terrain or squeezing.
+- You ignore the effects of slowed levels under 3.
+
+Once before the power ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d10 force damage on a hit. Whether you hit or miss, you gain a flying speed equal to your walking speed until the end of that turn.
 
 #### Battlemind
 _2nd-level universal power_
@@ -151,6 +185,30 @@ A line of roaring Force-enhanced flame 30 feet long and 5 feet wide emanates fro
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
 
+#### Instinctive Movement
+_1st-level universal power_
+___
+- **Prerequisite:** Wall Run
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Duration:** 1 minute
+
+You enhance your movement with the Force, allowing you to traverse your environment with speed and acrobatic grace. When you cast this power, you gain two speed points. When you cast the power and as a bonus action on subsequent turns, you can expend a speed point, granting yourself all of the following benefits until the end of that turn:
+- Your speed increases by 5 feet. 
+- You have resistance to falling damage. 
+- You ignore difficult terrain. 
+- You have a climb speed equal to your walking speed. 
+- You add 10 feet to your long jump distance and 3 feet to your high jump distance. 
+- You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. 
+- You do not sink when moving over soft or brittle terrain, such as dust, silt, mud, snow, or thin ice. This effect does not allow you to move across liquid surfaces.
+- If you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack for the first time on the same turn, you deal an extra 1d4 damage with that attack.
+
+At the end of the turn, the benefits fade entirely until you spend another speed point. If these benefits end while you are still on a vertical surface, or anywhere else where you would normally fall or sink, you immediately fall or begin to sink unless you have some other means to remain there. 
+
+This power ends when its duration expires, when you cast this power again, or when you have spent all your speed points. When the power ends, any unspent speed points are lost.
+
+***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the extra damage increases by 1d4 for each slot level above 1st. In addition, if you cast this power with a force slot of 3rd level or higher, you gain one additional speed point for every two slot levels above 1st.
+
 #### Kinetite
 _2nd-level dark side power_
 ___
@@ -235,6 +293,46 @@ The fire ignites flammable objects in its area that aren't being worn or carried
 
 The power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
+#### Saber Assault
+_1st-level universal power_
+___
+- **Prerequisite:** Saber Ward
+- **Casting Time:** Special
+- **Range:** Self
+- **Duration:** 1 round
+
+The first time you take the Attack action during your turn, you can simultaneously cast this power to blend your melee weapon attacks with the use of the Force. For each successful hit you make with a melee weapon before the power ends, the target must make a Dexterity saving throw or have a new effect apply until the end of its next turn. Once you've made three weapon attacks, the power ends.
+
+- **1st Hit:** If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.
+- **2nd Hit:** If the target fails its saving throw, it takes 1d6 kinetic damage and cannot take reactions until after the end of its next turn.
+- **3rd Hit:** If the target fails its saving throw, it takes 2d6 kinetic damage and cannot take bonus actions during its next turn.
+
+***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by 1d6 for every two slot levels above 1st.
+
+#### Saber Onslaught
+_4th-level universal power_
+___
+- **Prerequisite:** Saber Strike
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** 1 turn
+
+You assume a battle stance. Until the end of your turn, your movement does not provoke opportunity attacks. Additionally, whenever you move, you can make one melee weapon attack against each creature you move within 5 feet of for the first time this turn. On a hit, the attack deals an extra 1d6 damage of the weapon's type, and the target must make a Strength saving throw. On a failed save, you can choose to either knock the target prone, or push it 5 feet away from you.
+
+***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by 1d6 for each slot level above 4th.
+
+#### Saber Strike
+_2nd-level universal power_
+___
+- **Prerequisite:** Saber Assault
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** Instantaneous
+
+As part of the action used to cast the power, you can move up to your speed and make one melee weapon attack. On a hit, the attack deals an extra 1d10 damage of the weapon's type. In addition, if you hit with the attack, the target must succeed on a Strength saving throw or be knocked prone.
+
+***Force Potency.*** When you cast this power using a force slot of 4th level or higher, the bonus weapon damage increases by 1d10 for every two slot levels above 2nd.
+
 #### Tapas
 _1st-level universal power_
 ___
@@ -272,3 +370,12 @@ You use the Force to control your body's functions. For the duration, you gain t
 - You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch. 
 
 If you still have any levels of exhaustion when this power ends, you must make a DC 15 Constitution saving throw. On a failed save, you gain one additional level of exhaustion.
+
+#### Wall Run
+_At-will universal power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Duration:** 1 turn
+
+Until the end of the turn, you have a climbing speed equal to your walking speed and you have advantage on Dexterity (Acrobatics) and Strength (Athletics) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing speed, you immediately fall unless you have some other means of remaining there.
