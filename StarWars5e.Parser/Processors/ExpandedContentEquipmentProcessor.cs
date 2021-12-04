@@ -14,9 +14,12 @@ namespace StarWars5e.Parser.Processors
 {
     public class ExpandedContentEquipmentProcessor : BaseProcessor<Equipment>
     {
+        private List<string> WeaponProperties = new List<string>();
         public ExpandedContentEquipmentProcessor(ILocalization localization)
         {
             Localization = localization;
+            WeaponProperties.AddRange(localization.PlayerHandbookWeaponProperties.Select(p => p.name));
+            WeaponProperties.AddRange(localization.WretchedHivesWeaponProperties.Select(w => w.name));
         }
         public override async Task<List<Equipment>> FindBlocks(List<string> lines)
         {
@@ -75,7 +78,7 @@ namespace StarWars5e.Parser.Processors
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
                         weapon.PropertiesMap = weapon.Properties.ToDictionary(
-                            s => WeaponPropertyConstant.WeaponProperties.FirstOrDefault(f =>
+                            s => WeaponProperties.FirstOrDefault(f =>
                                      s.Contains(f, StringComparison.InvariantCultureIgnoreCase)) ?? "", s => s);
 
                         var damageSplit = tableLineSplit[3].Replace("�", string.Empty).Trim().RemoveHtmlWhitespace().Split(' ');
