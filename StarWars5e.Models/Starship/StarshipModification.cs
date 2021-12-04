@@ -26,6 +26,7 @@ namespace StarWars5e.Models.Starship
             set => Prerequisites = JsonConvert.DeserializeObject<List<string>>(value);
 
         }
+        public int Grade { get; set; }
 
         public string Content { get; set; }
     }

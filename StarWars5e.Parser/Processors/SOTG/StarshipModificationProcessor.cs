@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Starship;
@@ -55,6 +56,8 @@ namespace StarWars5e.Parser.Processors.SOTG
                 var endIndex = systemLines.FindIndex(i + 1, x => x.StartsWith("### ", StringComparison.InvariantCultureIgnoreCase));
                 var modificationLines = systemLines.Skip(i).Take((endIndex == -1 ? systemLines.Count - 1 : endIndex) - i).ToList().CleanListOfStrings();
 
+                int grade = int.TryParse(Regex.Match(modificationLines.FirstOrDefault(s => s.Contains("Modification Grade", StringComparison.OrdinalIgnoreCase)) ?? "", @"\d+").Value, out grade) ? grade : 0;
+
                 var modification = new StarshipModification
                 {
                     TypeEnum = type,
@@ -71,7 +74,8 @@ namespace StarWars5e.Parser.Processors.SOTG
                             !s.StartsWith('/') &&
                             !s.StartsWith('<') &&
                             !s.StartsWith('#') &&
-                            !s.StartsWith('_')))
+                            !s.StartsWith('_'))),
+                    Grade = grade
                 };
 
                 modifications.Add(modification);
