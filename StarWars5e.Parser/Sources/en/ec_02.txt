@@ -1265,7 +1265,7 @@ As a caamasi, you have the following special traits.
 
 ***Keen Smell.*** You have advantage on Wisdom (Perception) checks that rely on smell.
 
-***Memnii Transfer.*** As an action, while touching a creature, you can initiate a memnii transfer. The creature must make a Intelligence saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier), a creature can choose to fail this saving throw if it wishes. On a failed save the target is stunned, and you can share vivid memories with the target as if they were their own for 1 minute or until your concentration ends (as if you were concentrating on a power). The transfer ends if you stop touching the target. At the end of each of its turns, the creature can repeat the saving throw to resist the transfer. On a success, the transfer ends. Otherwise, you may end the transfer on your turn (no action required). Once you've used this trait, you can't use it again until you finish a long rest. This feature has no effect on droids, constructs, or Force-Insensitive creatures.
+***Memnii Transfer.*** As an action, while touching a creature, you can initiate a memnii transfer. The creature must make an Intelligence saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier), a creature can choose to fail this saving throw if it wishes. On a failed save the target is stunned, and you can share vivid memories with the target as if they were their own for 1 minute or until your concentration ends (as if you were concentrating on a power). The transfer ends if you stop touching the target. At the end of each of its turns, the creature can repeat the saving throw to resist the transfer. On a success, the transfer ends. Otherwise, you may end the transfer on your turn (no action required). Once you've used this trait, you can't use it again until you finish a long rest. This feature has no effect on droids, constructs, or Force-Insensitive creatures.
 
 ***Scholarly.*** You have proficiency in the Insight skill.
 
@@ -1792,7 +1792,7 @@ As a colicoid, you have the following special traits.
 
 ***Closed Mind.*** Colicoid brains have an unusual composition which gives them a natural defense against the Force. You have advantage on Wisdom and Charisma saving throws against force powers.
 
-***Defensive Ball.*** You are able to curl into a rolling ball for extra protection. When you take the Dash action while you aren't wielding a shield, you gain a bonus to AC equal to half your proficiency bonus (rounded up) until the start of your next turn. 
+***Defensive Ball.*** You are able to curl into a rolling ball for extra protection. When you take the Dash action while you aren't wielding a shield, you gain a bonus to AC equal to half your proficiency bonus until the start of your next turn. 
 
 ***Natural Armor.*** Due to your carapace and the shape of your body, you are ill-suited to wearing armor. Your carapace provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.
 
@@ -2965,7 +2965,7 @@ ___
 > |Bith|Detail Oriented|
 > |Bothan|Naturally Stealth|
 > |Caamasi|Keen Smell|
-> |Cathar|Feline Agility|
+> |Cathar|Leonine Agility|
 > |Cerean|Closed Mind|
 > |Chadra-Fan|Second Heart|
 > |Chagrian|Darkvision|
@@ -3013,7 +3013,7 @@ ___
 > |Kubaz|Darkvision|
 > |Kushiban|Grovel, Cower, and Beg|
 > |Kyuzo|Darkvision|
-> |Lannik|Force Attunement|
+> |Lannik|Closed Mind|
 > |Lasat|Powerful Build|
 > |Lurmen|Rolling Agility|
 > |Mikkian|Keen Hearing|
@@ -4286,7 +4286,7 @@ As a Kushiban, you have the following special traits.
 
 ***Mask of the Wild.*** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
 
-***Nimble Agility.*** Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
+***Nimble Agility.*** Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
 
 ***Stealthy.*** You are proficient in the Stealth skill.
 
@@ -4588,7 +4588,7 @@ As a lurmen, you have the following special traits.
 
 ***Prehensile Tail and Feet.*** You have supreme control over your tail and feet and can use them to manipulate objects as well as your hands. 
 
-***Rolling Agility.*** As a lurmen, you can run on all fours, or curl into a ball, to move quickly along the ground. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. 
+***Rolling Agility.*** As a lurmen, you can run on all fours, or curl into a ball, to move quickly along the ground. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. 
 
 ***Treeclimber.*** You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing. 
 
@@ -6221,7 +6221,7 @@ ___
 Squibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an<br> olfactory organ, able to pick up scents at a distance<br> and ascertain intrinsic details—such as penetrating<br> through a disguise or identifying a forgery—when<br> rubbed against. The species has both male and female<br> sexes, although non-Squibs often have difficulty<br> determining the sex of a Squib based on appearance<br> alone. Their mouths are full of forbidding, sharp, white<br> teeth, and their flexible cheeks were capable of storing<br> items.
 
 ### Society and Culture
-Squibs are friendly and cheerful to such an extent that, over time, they are considered quite annoying. Squibs are inherently curious, handling items with literal regard to care. They are unabashed pack rats, and they wear clothing for the excess storage rather than necessity. The Squibs' overconfidence is a defining trait. The typical Squib response to a threat is not to fight or flee, but to bluff and bluster, especially when not face-to-face. In person, their sharp teeth are their favored means of intimidation. Squibs believe that bargaining is the highest form of communication, and they believe haggling is more important than the goods themselves. A deal is a binding oath to Squibs, and they are incredibly loyal to their business partners.
+Squibs are friendly and cheerful to such an extent that, over time, they are considered quite annoying. Squibs are inherently curious, handling items with little regard to care. They are unabashed pack rats, and they wear clothing for the excess storage rather than necessity. The Squibs' overconfidence is a defining trait. The typical Squib response to a threat is not to fight or flee, but to bluff and bluster, especially when not face-to-face. In person, their sharp teeth are their favored means of intimidation. Squibs believe that bargaining is the highest form of communication, and they believe haggling is more important than the goods themselves. A deal is a binding oath to Squibs, and they are incredibly loyal to their business partners.
 
 ### Names
 Squibs combine their first and last names, which are familial, into one long, hyphenated name. They often go by nicknames derived from their full names. Male and female names do not significantly deviate.

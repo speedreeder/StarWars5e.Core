@@ -7,6 +7,30 @@ A feat represents a talent or an area of expertise that gives character special 
 
 You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
 
+### Improved Force-Sensitive
+_**Prerequisite:** The ability to cast 2nd-level force powers_<br>
+You know one at-will force power. Additionally, you know one 3rd-level force power, which you can cast once per long rest. Your forcecasting ability is Wisdom or Charisma (depending on power alignment).
+
+### Greater Force-Sensitive
+_**Prerequisite:** The ability to cast 3rd-level force powers_<br>
+You know one at-will force power. Additionally, you know one 4th-level force power, which you can cast once per long rest. Your forcecasting ability is Wisdom or Charisma (depending on power alignment).
+
+### Master Force-Sensitive
+_**Prerequisite:** The ability to cast 4th-level force powers_<br>
+You know one at-will force power. Additionally, you know one 5th-level force power, which you can cast once per long rest. Your forcecasting ability is Wisdom or Charisma (depending on power alignment).
+
+### Improved Tech Dabbler
+_**Prerequisite:** The ability to cast 2nd-level tech powers_<br>
+You know one at-will tech power. Additionally, you know one 3rd-level tech power, which you can cast once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers. 
+
+### Greater Tech Dabbler
+_**Prerequisite:** The ability to cast 3rd-level tech powers_<br>
+You know one at-will tech power. Additionally, you know one 4th-level tech power, which you can cast once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers. 
+
+### Master Tech Dabbler
+_**Prerequisite:** The ability to cast 4th-level tech powers_<br>
+You know one at-will tech power. Additionally, you know one 5th-level tech power, which you can cast once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers. 
+
 ### Companion Keeper
 _**Prerequisite:** 4th level_<br>
 You gain the services of a companion. Choose one of the companion nature options, detailed later in this chapter.
@@ -125,6 +149,8 @@ A companion is a creature who accompanies you on your adventures. It might take 
 
 > #### Companions In Your Game
 > Companions are not for the faint of heart. They add a significant power boost to a party, and can really bog down your game if their player's are not prepared. You might choose to allow your players to use the companion archetypes, but not the feats, vice versa, both options, or none. It's up to you.
+>
+> ***Starting Equipment.*** Companions generally don't start with any equipment, so it's up to the player to gear their companion. For the sake of modesty, humanoid companion should probably start with a set of basic clothing, as appropriate.
 >
 > ***Downtime Activities.*** Companions should not be able to perform downtime activities separately from their player's character. However, companions should be able to help others perform their downtime activities. Additionally, a player can choose to have their companion perform a downtime activity, though their character must spend their downtime helping the companion.
 >
@@ -844,7 +870,7 @@ Alert to the hidden traps and secret doors found in many dungeons, your companio
 #### Durable
 Hardy and resilient, your companion gains the following benefits:
 - When your companion rolls a Hit Die to regain hit points, the minimum number of hit points your companion can regain from the roll equals twice your companion's Constitution modifier (minimum of 2).
-- Your companion's hit point maximum increases by an amount equal to twice its level when you install this protocol. Whenever your companion gains a level thereafter, its hit point maximum increases by an additional 2 hit points.
+- Your companion's hit point maximum increases by an amount equal to twice its level when it chooses this trait. Whenever your companion gains a level thereafter, its hit point maximum increases by an additional 2 hit points.
 
 #### Enthralling Pheromones
 Your companion can use its pheromones to influence individuals of both sexes. Whenever your companion rolls a 1 on a Charisma (Persuasion) check, it can reroll the die and must use the new roll. Additionally, once per short or long rest, your companion can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs.
@@ -1579,7 +1605,7 @@ Once within the next 10 minutes, the creature can roll the die and add the numbe
 
 A creature can have only one Potent Aptitude die at a time.
 
-Your companion can use this feature a number of times equal to its Intelligence modifier (a minimum of once). It regains any expended uses when it finishes a long rest.
+Your companion can use this feature once. It gains an additional use at 5th and 13th level. It regains any expended uses when it finishes a short or long rest.
 
 ### Techcasting, Mark II
 At 7th level, your companion's Max Power Level increases to 2nd, and it learns two additional powers.
@@ -1900,7 +1926,7 @@ Your companion learns two maneuvers of its choice from those available to the sc
 Your companion learns an additional maneuver at 7th, 11th, and 15th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one.
 
 #### Superiority Dice
-Your companion has two superiority dice, which are d4s. A superiority die is expended when your companion uses it. Your companion regains all of its expended superiority dice when it finishes a short or long rest.
+Your companion has two superiority dice, which are d4s. This die increases to a d6 at 7th level and a d8 at 15th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended superiority dice when it finishes a short or long rest.
 
 Your companion gains an additional superiority die at 7th, 11th, and 15th level.
 

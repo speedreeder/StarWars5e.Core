@@ -624,7 +624,7 @@ When you cast a force power with a range of touch while Saber Storm is active, y
 
 ### Guarding Weapon
 _**Way of Manipulation:** 10th level_<br>
-You can direct your animated weapons to absorb damage while your Saber Storm is activate. When you take damage, you can use your reaction to expend one force slot to have your animated weapon intercept it, and reduce that damage to you by an amount equal to five times the force slot's level.
+You can direct your animated weapons to absorb damage while your Saber Storm is activate. When you take damage, you can use your reaction to expend a number of force points up to your proficiency bonus to have your animated weapon intercept it, and reduce that damage to you by an amount equal to five times the number of points spent.
 
 ### Isolate
 _**Way of Manipulation:** 14th level_<br>
@@ -1126,7 +1126,7 @@ While your targeting field is active, as an action, you can allow a number of al
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 #### Droid Restraints
-When you would install a restraining bolt, you can do so in half the time. Additionally, when determining the save DC of a restraining bolt you control, you can use your teech save DC, if it would be higher than the item's DC.
+When you would install a restraining bolt, you can do so in half the time. Additionally, when determining the save DC of a restraining bolt you control, you can use your tech save DC, if it would be higher than the item's DC.
 
 #### Flashlight Attachment
 You affix a targeted light to your electronic warfare platform. As a bonus action, you can toggle the light on or off. While on, your electronic warfare platform sheds bright light in a 60-foot cone.
@@ -1135,7 +1135,7 @@ You affix a targeted light to your electronic warfare platform. As a bonus actio
 
 <div style='margin-top:23px'></div>
 
-#### Frailcasting Controller
+#### Fadecasting Controller
 _**Prerequisite:** 5th level_<br>
 You gain a +1 bonus to the tech save DC of powers you cast that requires a Strength or Constitution saving throw. This bonus increases to +2 at 9th level and +3 at 13th level.
 
@@ -1297,7 +1297,7 @@ While your droid can see you, it has advantage on all saving throws.
 \pagebreak
 
 ## Audiotech Engineering
-Those engineers who choose the Audiotech Engineering focus on using a specially modified instrument to use music to assist their allies and disrupt their enemies.
+Those engineers who choose the Audiotech Engineering discipline focus on using a specially modified instrument to use music to assist their allies and disrupt their enemies.
 
 ### Bonus Proficiencies
 _**Audiotech Engineering:** 3rd level_<br>
@@ -1439,7 +1439,7 @@ Additionally, when you use your Battle Song Enhancement feature, you create a th
 
 #### Prototype Disruption Enhancement
 _**Prerequisite:** 9th level, Disruption Song Enhancement_<br>
-While playing your Song of Disruption, when a creature you can see that can hear you attempts to cast a power, you can use your reaction to cast the *tech override* power at 3rd level. When you cast this power using this feature, the power works against both tech and force powers, and when you make the techcasting ability check as a part of this casting, you add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+While playing your Song of Disruption, when a creature you can see that can hear you attempts to cast a power, you can use your reaction to cast the *tech override* power at 3rd level. When you cast this power using this feature, the power works against both tech and force powers, and when you make the techcasting ability check as a part of this casting, you your proficiency bonus to the check.
 
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
@@ -1772,7 +1772,7 @@ This augmentation replaces a hand.
 
 You can choose this modification multiple times.
 
-#### Frailcasting Inhibitor
+#### Fadecasting Inhibitor
 _**Prerequisite:** 5th level_<br>
 While using your body as a tech focus, you gain a +1 bonus to the tech save DC of powers you cast that requires a Strength or Constitution saving throw. This bonus increases to +2 at 9th level and +3 at 13th level.
 
@@ -2366,7 +2366,7 @@ Those fighters who choose to become Enhancement Specialists learn to apply their
 
 ### Studied Shooter
 _**Enhancement Specialist:** 3rd level_<br>
-You learn specialized theory typical for practitioners of the enhancement trade. You gain proficiency in your choice of the Lore or Technology skills. Additionally, you learn your choice of the *encrypted message* or *minor image* tech power. Intelligence is your techcasting ability for these powers.  
+You learn specialized theory typical for practitioners of the enhancement trade. You gain proficiency in your choice of the Lore or Technology skills. Additionally, you learn your choice of the *encrypted message* or *minor hologram* tech power. Intelligence is your techcasting ability for these powers.  
 
 ### Special Ammunition
 _**Enhancement Specialist:** 3rd level_<br>
@@ -2921,7 +2921,7 @@ You gain one of the following features. Choose Relentless for Juyo or Punishing 
 You have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.
 
 #### Punishing Charge 
-When a hostile creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
+When a hostile creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up to half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.
 
 ### Vengeance
 _**Juyo/Vaapad Form:** 15th level_<br>
@@ -3790,7 +3790,7 @@ You gain proficiency in blaster pistols, blaster rifles, ion pistols, ion rifles
 _**Whills Order:** 6th level_<br>
 As you channel the Force through you, you gain the following benefits:
 - You can use your Stunning Strike feature when you hit with a ranged weapon attack while you are wielding a Whills weapon. 
-- You can spend 1 focus point to ignore one-quarter and half cover with your Whills weapons. At 11th level, you can spend 2 focus points to ignore three quarters cover. At 17th level, you can spend 3 focus points to ignore total cover, as long as your target is not hidden from you. 
+- You can spend up to 3 focus points to reduce partial cover by one step (from three-quarters to half or half to one-quarter). If you reduce the target below one-quarter cover, you ignore cover bonuses entirely. At 17th level, you can spend 3 focus points to ignore total cover, as long as your target is not hidden from you. 
 - When you hit a creature with a Whills weapon, that creature has disadvantage on opportunity attacks against you until the start of your next turn.
 
 ### One With the Force
@@ -3836,7 +3836,7 @@ You inspire a friendly creature within 60 feet of you who can see or hear you an
 You use the authority your attacks carry to help your ally focus on the task at hand. Choose a creature within 60 feet of you who can see or hear you and that is currently charmed or frightened by the creature you would deal Sneak Attack damage to. The condition immediately ends on that creature.
 
 #### Bolstering Strike
-You choose a friendly creature within 60 feet of you who can see or hear you. If that creature hits the creature against which you forwent two Sneak Attack damage dice before the start of your next turn, they deal additional damage to the target equal to the maximum of the two Sneak Attack dice.
+You choose a friendly creature within 60 feet of you who can see or hear you. Once before the start of your next turn, if that creature hits the creature against which you forwent two Sneak Attack damage dice, they deal additional damage to the target equal to the maximum of the two Sneak Attack dice.
 
 \columnbreak
 
@@ -3870,7 +3870,7 @@ Those operatives who choose the Disabling Practice utilize a variety of pushes, 
 ### Clinch Strike
 _**Disabling Practice:** 3rd level_<br>
 You learn how to discourage, debilitate, and harm your enemies. You gain the following benefits while you aren't wearing heavy armor or wielding a medium or heavy shield:
-- Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8), and you can apply your Sneak Attack damage when you hit with an unarmed strike.
+- Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8), and you can apply your Sneak Attack damage when you hit with an unarmed strike even if it doesn't have the finesse property.
 - You don't need advantage on your attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.
 - You can use the bonus action granted by your Cunning Action to make an unarmed strike against a creature you are grappling.
 
@@ -3998,7 +3998,7 @@ Some operatives choose to master finesse and timing through performance art. Tho
 _**Performance Practice:** 3rd level_<br>
 Your training with music and dancing grants you certain benefits. You gain proficiency in the Performance skill and one musical instrument of your choice.
 
-Additionally, while you are you are not wearing armor or wielding a medium or heavy shield, you can add half your Charisma modifier to your AC as long as it doesn't already include that modifier.
+Additionally, while you are not wearing armor or wielding a medium or heavy shield, you can add half your Charisma modifier to your AC as long as it doesn't already include that modifier.
 
 ### Dazzling Steps
 _**Performance Practice:** 3rd level_<br>
@@ -4183,7 +4183,7 @@ _**Saboteur Practice:** 3rd level_<br>
 You have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.
 
 #### Tech Powers Known
-You learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
+You learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.
 
 #### Tech Points
 You have a number of tech points equal to half of your operative level, as shown in the Tech Points column of the Saboteur Practice Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.
@@ -4558,6 +4558,7 @@ Your expeditions have turned up a bevy of knowledge on the force. You learn thre
 Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. Additionally, you gain knowledge of one lightsaber form of your choice.
 
 #### It Belongs in a Museum
+_**Prerequisite:** 9th level_<br>
 Your knowledge of antiquities is unparalleled. When you make an Intelligence (Lore) check or an ability check with your archaeologist kit, you may treat any roll of a 9 or lower as a 10.
 
 #### Localized Survey
@@ -5248,7 +5249,7 @@ When you or an ally you can see within 60 feet make a saving throw against a tec
 As an action, you may expend a superiority die, and choose any number of creatures that you can see within 60 feet of you that have commlinks, headcomms, or other such communications devices. Each creature must succeed on a Constitution saving throw or take sonic damage equal to the number rolled on the dice + your maneuver modifier (minimum of one). Additionally, on a failed save, their communication devices are disabled until rebooted.
 
 #### Overcapacity Powers
-When you cast a tech power of 1st-level or higher, you may expend a superiority die to cast the power at a higher level, provided is does not exceed your Maximum Power Level. Roll the superiority die, and add it to the level at which you are casting the power. You can choose to cast it at this new power level or lower.
+When you cast a tech power of 1st-level or higher, you may expend a superiority die to cast the power at a higher level, provided it does not exceed your Maximum Power Level. Roll the superiority die, and add it to the level at which you are casting the power. You can choose to cast it at this new power level or lower.
 
 #### Runtime Extension
 When a tech power you cast with a duration of 1 minute or longer reaches the end of its duration, you may expend a superiority die to extend the duration of the power a number of rounds equal to the number rolled on your superiority die.
@@ -5350,7 +5351,7 @@ When your beast attempts to grapple or knock a creature prone, you can expend a 
 As an action, you can expend a superiority die to improve your beast's defense. Roll the die and add it to your beast's AC until the beginning of your next turn.
 
 #### Sic 'Em
-As an action, you can command your beast to savage a nearby enemy. Your beast can use its reaction to immediately move up to 10 feet and make one attack, adding the superiority dice to the damage roll on a hit.
+As an action, you can expend a superiority die and command your beast to savage a nearby enemy. Your beast can use its reaction to immediately move up to 10 feet and make one attack, adding the superiority dice to the damage roll on a hit.
 
 <img src='https://www.gmbinder.com/images/AlnLVfr.png' style='position:absolute;bottom:-4px;right:-20px;width:546px;z-index:1000;' />
 
@@ -5359,7 +5360,7 @@ As an action, you can command your beast to savage a nearby enemy. Your beast ca
 \pagebreak
 
 #### Spine-Chilling Howls
-As an action, you can expend one superiority die to command your beast to frighten another creature. The target must then succeed on a Wisdom saving throw against your Maneuver save DC or become frightened of both you and your beast for 1 minute.
+As an action, you can expend one superiority die to command your beast to frighten another creature. The target must then succeed on a Wisdom saving throw against your Maneuver save DC or become frightened of both you and your beast for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 #### Wild Senses
 Whenever you make a Wisdom (Perception) or a Wisdom (Survival) check, you can request the aid of your beast by expending a superiority die, adding the number rolled to the check. You can use this maneuver before or after making the ability check, but before the results of the ability check are determined.
@@ -5395,7 +5396,7 @@ When you make a Charisma (Intimidation) check against a creature that can see yo
 When you make a Charisma (Persuasion) check against a creature that can see your beast companion, and your companion is size Small or Tiny, you make the check with advantage.
 
 #### Holocam Attachment
-You have learned how to safely attach a holocam on the head of the companion. You learn the *tracker droid interface* tech power, and your beast becomes a valid target of this power.
+You have learned how to safely attach a holocam on the head of the companion. You learn the *tracker droid interface* tech power, your beast becomes a valid target of this power, and when you cast this power targeting your beast, you do so without spending tech points. You require use of a wristpad for this power.
 
 #### Neat Tricks
 _**Prerequisite:** 5th level_<br>
@@ -5415,7 +5416,7 @@ If a creature makes a melee attack against you or your companion, and your compa
 #### The More the Merrier
 _**Prerequisite:** Size Small or smaller beast_<br>
 Rather than a single beast companion, you instead control multiple beasts that function as a swarm. Your beast companion gains the following benefits:
-- Its size increases by two categories (from Tiny to Medium or Small to Large).
+- Its effective size increases by two categories (from Tiny to Medium or Small to Large).
 - Its hit points increase by an amount equal to twice its level + 2.
 - It can only be mounted by creatures at least three size categories smaller than it, instead of one.
 - It can occupy another creature's space and vice versa, and it can move through any opening large enough for a creature two size categories smaller than it.
@@ -5535,7 +5536,7 @@ When you use your Combat Tech feature, both you and your turret can each make on
 \pagebreak
 
 ## Deadeye Technique
-Some scouts becomes legends written in blaster burns. Followers of the Deadeye Technique perfect the art of the blaster shot and utilize their incredible focus to make shots that most would deem impossible. When everything depends on one shot, you want a Deadeye pulling the trigger.
+Some scouts become legends written in blaster burns. Followers of the Deadeye Technique perfect the art of the blaster shot and utilize their incredible focus to make shots that most would deem impossible. When everything depends on one shot, you want a Deadeye pulling the trigger.
 
 Due to their uncanny focus, Deadeyes can make shots that other marksmen would never dare to attempt. Deadeyes know how to make the most of ranged weapons and can use them to greater effect than other Scouts.
 
@@ -6109,7 +6110,7 @@ You can use each feature once. You regain any expended uses when you complete a 
 
 ### Cure-All
 _**Triage Technique:** 15th level_<br>
-Your healing becomes even more potent. When you restore hit points to a creature as a bonus action using your Mark of Triage feature, you can also end one of the following conditions afflicting it: blinded, deafened, diseased, paralyzed, or poisoned.
+Your healing becomes even more potent. When you restore hit points or grant temporary hit points to a creature as a bonus action using your Mark of Triage feature, you can also end one of the following conditions afflicting it: blinded, deafened, diseased, paralyzed, or poisoned.
 
 <img src='https://www.gmbinder.com/images/i9YaACg.png' style='position:absolute;bottom:23px;right:30px;width:412px;z-index:1000;transform:scaleX(-1)'/>
 
@@ -6449,15 +6450,15 @@ This effect ends early if you are incapacitated or die. Once you've used this fe
 The Force connects all living things. Those sentinels who follow the Path of Witchcraft use that connection to summon the aid of nature, both beasts and the elements, adapting them to their will.
 
 ### Bonus Proficiencies
-_**Path of Withcraft:** 3rd level_<br>
+_**Path of Witchcraft:** 3rd level_<br>
 You gain proficiency in Animal Handling.
 
 ### Wild Power
-_**Path of Withcraft:** 3rd level_<br>
+_**Path of Witchcraft:** 3rd level_<br>
 You learn the *enfeeble* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use all three Force-Empowered Self options when you cast it as your action and the target fails its save. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of one) to damage rolls with it.
 
 ### Beast Companion
-_**Path of Withcraft:** 3rd, 11th, and 17th level_<br>
+_**Path of Witchcraft:** 3rd, 11th, and 17th level_<br>
 You learn to create a powerful bond through the Force with your own  beast companion.
 
 Create your beast companion as detailed in the Companions section of the Customization Options document for Expanded Content.
@@ -6475,7 +6476,7 @@ Lastly, while bonded and within 10 feet of you, your beast companion gains the f
 This radius increases to 30 feet at 11th level, and 60 feet at 17th level.
 
 ### Nature's Vigor
-_**Path of Withcraft:** 7th level_<br>
+_**Path of Witchcraft:** 7th level_<br>
 You've learned to attune your senses with nature. If you spend at least 1 minute meditating while in nature, you gain the following benefits for 1 hour:
 - You ignore difficult terrain caused by nature.
 - You can understand plants within 30 feet of you. They can telepathically communicate simple ideas to you, including memories from within the past day.
@@ -6484,7 +6485,7 @@ You've learned to attune your senses with nature. If you spend at least 1 minute
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Beastwarden
-_**Path of Withcraft:** 13th and 17th level_<br>
+_**Path of Witchcraft:** 13th and 17th level_<br>
 Your bond with your beast companion strengthens, granting the following benefits while your beast companion is within 30 feet of you:
 - When you cast a force power that targets only yourself, and your beast companion is within range, you can also target your beast companion with that power. 
 - If you or your beast have darkvision and the other doesn't, the other gains it with the same radius. If you both have darkvision, you both use the larger radius of the two, which then increases by 30 feet.
@@ -6493,7 +6494,7 @@ Your bond with your beast companion strengthens, granting the following benefits
 This radius increases to 60 feet at 17th level.
 
 ### Stormcaller
-_**Path of Withcraft:** 18th level_<br>
+_**Path of Witchcraft:** 18th level_<br>
 You've learned to command the elements to summon a fierce storm in a 30-foot radius around you. As an action, you can gain the following benefits for 1 minute:
 - You gain a flying speed equal to your walking speed.
 - You have resistance to energy, lightning, and necrotic damage.

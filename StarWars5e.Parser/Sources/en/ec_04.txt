@@ -13,6 +13,7 @@
 |||
 |:--|--:|
 |Addict                     |
+|Archaeologist              |
 |Barbarian                  |
 |City Watch                 |
 |Clone                      |
@@ -158,6 +159,112 @@ Addicts can be rude and uncouth, wearing their addiction visibly, or they might 
 |4|What? I don't have a problem. You're the one with the problem!|
 |5|It looks like my drug, so it should be safe to take right?|
 |6|I'm never myself when I'm on it.|
+
+<div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Archaeologist
+
+</div>
+
+An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains – their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms.
+___
+- **Skill Proficiencies:** Choose two from Investigation, Lore, Perception, or Survival
+- **Tool Proficiencies:** Surveyor's implements or scavenging kit
+- **Languages:** One of your choice
+- **Equipment:** A case containing a physical or digital map to a ruin or dungeon, a lantern, a vibropick, a set of traveler's clothes, a shovel, a two-person tent, a trinket recovered from a dig site, and a pouch containing 250 cr
+
+#### Dust Digger
+Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough credits to buy proper adventuring gear, you have held onto an item that has great emotional value to you. You can determine your signature item or determine it randomly below.
+
+<div style='column-count:2'>
+
+|d8|Signature Item|
+|:---:|:----------:|
+|1|10-foot pole|	
+|2|Hat|
+|3|Hammer|	
+|4|Lantern|
+
+|d8|Signature Item|
+|:---:|:----------:|
+|5|Medallion|
+|6|Prybar|
+|7|Shovel|
+|8|Whip|
+
+</div>
+
+### Feature: Historical Knowledge
+When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were jedi, sith, hutts, rakata, or some other known species or civilization. Additionally, you can readily determine the value of ancient art.
+
+### Background Feat
+As a further embodiment of the experience and training of your background, you can choose from the following feats:
+
+<div style='column-count:2'>
+
+|d8|Feat|
+|:--:|:--:|
+|1|Investigator|
+|2|Loremaster|
+|3|Perceptive|
+|4|Survivalist|
+
+|d8|Feat|
+|:--:|:--:|
+|5|Crafter|
+|6|Specialist|
+|7|Linguist|
+|8|Dungeon Delver|
+
+</div>
+
+#### Suggested Characteristics
+Few archaeologists can resist the lure of an unexplored ruin or dungeon, particularly if such a site is the source of legends or is rumored to contain noteworthy relics. Whatever their motivations, they combine the likes of a dutiful historian with those of a dogged scoundrel.
+
+
+\columnbreak
+
+|d8|Personality Trait|
+|:---:|:---------|
+|1|I love a good puzzle or mystery.|
+|2|I'm a pack rat who never throws anything away.|
+|3|Fame is more important to me than money.|
+|4|I have no qualms about stealing from the dead.|
+|5|I'm happier in a dusty old tomb than I am in the centers of civilization.|
+|6|Traps don't make me nervous. Idiots who trigger traps make me nervous.|
+|7|I might fail, but I will never give up.|
+|8|You might think I'm a scholar, but I love a good brawl. These fists were made for punching.|
+
+|d6|Ideal|
+|:---:|:---------|
+|1|**Preservation.** That artifact belongs in a museum. (Light)|
+|2|**Greed.** I won't risk my life for nothing. I expect some kind of payment. (Any)|
+|3|**Death Wish.** Nothing is more exhilarating than a narrow escape from the jaws of death. (Chaotic)|
+|4|**Dignity.** The dead and their belongings deserve to be treated with respect. (Lawful)|
+|5|**Immortality.** All my exploring is part of a plan to find the secret of everlasting life. (Any)|
+|6|**Danger.** With every great discovery comes grave danger. The two walk hand in hand. (Any)|
+
+|d6|Bond|
+|:---:|:----------|
+|1|Ever since I was a child, I've heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books.|
+|2|I want to find my mentor, who disappeared on an expedition some time ago.|
+|3|I have a friendly rival. Only one of us can be the best, and I aim to prove it's me.|
+|4|I won't sell an art object or other treasure that has historical significance or is one of a kind.|
+|5|I'm secretly in love with the wealthy patron who sponsors my archaeological exploits.|
+|6|I hope to bring prestige to an library, a museum, or a university.|
+
+|d6|Flaw|
+|:---:|:----------|
+|1|I have a secret fear of some common wild animal, and in my work, I see them everywhere.|
+|2|I can't leave a room without searching it for secret doors.|
+|3|When I'm not exploring dungeons or ruins, I get jittery and impatient.|
+|4|I have no time for friends or family. I spend every waking moment thinking about and preparing for my next expedition.|
+|5|When given the choice of going left or right, I always go left.|
+|6|I can't sleep except in total darkness.|
 
 <div class='footnote'>EXPANDED CONTENT | BACKGROUNDS</div>
 
@@ -435,7 +542,7 @@ A clone's demeanor often, though not always, matches that of their DNA-Donor. Is
 |:---:|:----------|
 |1|I secretly believe that everyone is beneath me. |
 |2|I write exceptionally bad poetry and recite it at inopportune times.| 
-|3|I spend money freely and live life to the fullest, knowing that tomorrow I might die.|
+|3|I struggle with individuality, those who see me as unique I would die for.|
 |4|Every social situation I'm in seems to lead to my asking rude personal questions.|
 |5|I have trouble trusting in my allies.|
 |6|I invest so much time into planning that I can't bring myself to deviate from the plan, even when it is needed.|
@@ -1844,7 +1951,7 @@ ___
 ### Feature: Depths of Duality
 Due to the corruption of the Jedi training done to the pre-Jensaarai, you have a unique insight into both the Light and Dark side of the Force, as well as its history, applications, and techniques in a scholarly manner.
 
-You fully understand concepts, and can recall key information, However, if the research was hidden from the public and you have not had experience working with it, you can only partially understand it. You also recognize well-known Jedi Masters and Sith Lords by their works and marks.
+You are well versed in the above concepts, and can recall key information related to them. However, if the research was hidden from the public and you have not had experience working with it, you can only partially understand it. You also recognize well-known Jedi Masters and Sith Lords by their works and marks.
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
