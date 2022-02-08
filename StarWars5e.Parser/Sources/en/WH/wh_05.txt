@@ -457,6 +457,108 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 
 \pagebreakNum
 
+<div class='wide'>
+
+## Focuses
+
+</div>
+
+For both force- and tech-casting, there exist focuses which are used to channel their respective powers. While focus generators are optional for forcecasters, techcasters are required to have a focus in order to cast their powers. Wristpads are traditionally worn on the wrist and do not require a hand to activate, while focus generators generally take the form of a small scepter or crystal that is traditionally held in the hand.
+
+### Focus Proficiency
+Unlike weapons and armor, no proficiency is required to use focuses. Instead, you need the ability to forcecast for focus generators and the ability to techcast for wristpads.
+
+> #### Variant: Alternative Focuses
+> While traditionally there are only two types of focuses—focus generators and wristpads—certain class features and enhanced items unlock the ability to use an alternative item type. If a character wants to use something else as their focus, such as a lightsaber or a heavy shield, consider allowing them to do so. Later in this chapter, you'll find rules to add casting properties to unenhanced focuses. As GM, you can consider extending these rules to weapons and armor, or even tools for your engineer, as you deem appropriate.
+>
+> Additionally, there are a significant number of focus generator and wristpad modifications that grant these properties. If a player wants to use an alternative focus, consider allowing them to use focus generator and wristpad modifications to in place of the normal modifications for the item they're using as a focus. If they do so, the DC to install or remove a modification, as shown on page \_\_\_, is increased by 5. You should also consider allowing engineers to install these mods in their archetype focus, even if there is no existing chassis for that item.
+
+\columnbreak
+
+### Casting Properties
+Some focuses have special properties related to their use, as shown in the Data Recording and Storage subsection of the Adventuring Gear section.
+
+#### Absorbing
+While using this item as your focus, when you take damage from any source, you can reduce that damage by an amount up to the absorptive number, provided you have a number of force or tech points equal to half the damage absorbed. When you do so, you lose half the damage taken in force or tech points.
+
+#### Accessing
+While using this item as your focus, you gain access to a number of new powers (chosen by the GM) of a combined total no greater than the access number. The powers count as known by you, and you can't unlearn the powers.
+
+#### Amplifying
+While using this item as your focus, your critical hit range with melee force or tech attacks increases by an amount equal to the amplifying number.
+
+#### Bolstering 
+_**Prerequisite:** Focus generator property_<br>
+While using this item as your focus, your maximum force points increase by the bolstering number.
+
+#### Constitution
+While using an item with this property as your focus, you gain no benefit from any additional properties the item has unless your Constitution score meets or exceeds the constitution number.
+
+#### Dispelling
+While using this item as your focus, your level of proficiency in force- or tech-casting ability checks increases by a number of steps equal to the empowered number (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreak
+
+#### Elongating 
+While using this item as your focus, when you cast a power that affects a cylinder, the height of the cylinder increases by an amount equal to the elongating number, and the radius of the cylinder increases by an amount equal to half the elongating number.
+
+#### Enlarging
+While using this item as your focus, when you cast a power that affects a cube, the length of each side of the cube increases by an amount equal to the enlarging number.
+
+#### Expanding
+While using this item as your focus, when you cast a power that affects a cone, the length of that cone increases by an amount equal to the expanding number.
+
+#### Extending 
+While using this item as your focus, when you cast a power that affects a line, the length of the line increases by an amount equal to the extending number, and the width of the line increases by an amount equal to half the extending number.
+
+#### Fading
+While using this item as your focus, the critical fail range of force or tech powers that require a Strength or Constitution saving throw increases by an amount equal to the fading number.
+
+#### Focused
+While using this item as your focus, you can't have disadvantage on Constitution saving throws to maintain concentration.
+
+#### Increasing
+While using this item as your focus, when you cast a power that has a range of 5 feet or greater, the range of that power increases by an amount equal to the increasing number.
+
+> #### Adding Casting Properties to Focuses
+> Each of these properties can be used to create a new unenhanced focus generator wristpad. When generating new focuses for player character use, each positive property should be offset by a level of Constitution, and each property should increase the of the focus by 1,000 cr. This cost scales by the number of properties and it is in addition to the base cost of the time. For instance, a wristpad with one positive property and the Constitution 11 property would cost 1,600 cr (1,000 cr for the positive property + 600 for the base cost of the wristpad). A wristpad with two positive properties and the Constitution 13 property, however, would cost 3,600 cr (1,000 cr for the first property, 2,000 cr for the second property, and 600 for the base cost of the wristpad). GMs can generate new focuses in this way, similar to how the Weapon Calculator can be used to generate new weapons at the discretion of the GM. Unenhanced focuses can't exceed 1 level in a single property.
+
+\columnbreak
+
+#### Inflating 
+While using this item as your focus, when you cast a power that affects a sphere, the radius of the sphere increases by an amount equal to the inflating number.
+
+#### Mitigating 
+While using this item as your focus, using the Ready action to cast a force or tech power no longer requires concentration. You can only have one instance of this feature active at a time. Additionally, if the power would not be released, and the power was 1st level or higher, the cost of the power is reduced by a number of points equal to the mitigating number, to a minimum of 1.
+
+#### Ranging
+While using this item as your focus, your critical hit range with ranged force or tech attacks increases by an amount equal to the ranging number.
+
+#### Rending
+While using this item as your focus, the critical fail range of force or tech powers that require a Dexterity or Intelligence saving throw increases by an amount equal to the rending number.
+
+#### Repelling
+While using this item as your focus, your powers are no longer automatically dispelled or interrupted. Instead, the DC to interrupt or dispel your powers is equal to 10 + the power's level, or 8 + half your proficiency bonus + your casting modifier for that power, whichever is greater.
+
+#### Storing
+While using this item as your focus, you can store 1st-level or higher powers of a combined total no greater than the storing number within the focus for later use. You can cast a power into this item while touching it. The power has no effect other than to be stored in the item. If the item can't hold the power, the power is expended without effect. You can cast any power stored in it at its base level, causing the power to no longer be stored, freeing up the space.
+
+#### Surging 
+_**Prerequisite:** Wristpad property_<br>
+While using this item as your focus, your maximum tech points increase by the surging number.
+
+#### Withering
+While using this item as your focus, the critical fail range of force or tech powers that require a Wisdom or Charisma saving throw increases by an amount equal to the withering number.
+
+> #### Variant: Focus Properties and<br> &emsp;Features
+> Many of these properties could affect class features. Consider extending those properties to benefit those features, as appropriate.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
+
 ## Adventuring Gear
 This section describes items that have special rules or require further explanation.
 
@@ -690,6 +792,15 @@ A vocoder mask is worn over the nose and mouth of a creature, and can translate 
 #### Credit Chip
 The credit chip is a small, flat card that features a security code and algorithm memory stripes. The chip can be preloaded with a specified number of credits, or it can draw directly from a specific account held by the user. The credit chip can be accessed with a pin, or by a DC 15 slicer's kit check.
 
+#### Focus Generator
+A focus generator is a handheld object, typically comprised of a crystal set inside a small translucent rod, that is used to help forcecasters learn to focus on their powers.
+
+#### Repelling Wristpad
+This wristpad has the repelling and constitution 11 properties.
+
+#### Storing, Withering Focus Generator
+This focus generator has the storing 1, withering 1, and constitution 13 properties.
+
 ### Explosives
 
 #### Grenade, Corrosive
@@ -711,6 +822,9 @@ Additionally, on a failed save, a creature gains 1 slowed level for 1 minute. At
 |	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
 |	_Data Recording and Storage_	|		|	
 |	&emsp;Credit chip     	|	 100 cr	|	—		|
+|	&emsp;Focus generator           |	 200 cr	|	1 lb		|
+|	&emsp;Repelling wristpad       	|  1,600 cr	|	2 lb		|
+|	&emsp;Storing, withering focus generator          |	 3,200 cr	|	1 lb		|
 |	_Explosives_	|		|	
 |	&emsp;Grenade, corrosive            |	 200 cr	|	1 lb		|
 |	&emsp;Grenade, cryo                 |	 325 cr	|	1 lb		|
@@ -987,6 +1101,9 @@ Additionally, your rocketpack comes with an integrated rocket launcher with the 
 |	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Credit chip     	    |	 100 cr	|	—		|
+|	&emsp;Focus generator           |	 200 cr	|	1 lb		|
+|	&emsp;Repelling wristpad       	|  1,600 cr	|	2 lb		|
+|	&emsp;Storing, withering focus generator          |	 3,200 cr	|	1 lb		|
 
 |Item|Cost|Weight|
 |:--|--:|--:|

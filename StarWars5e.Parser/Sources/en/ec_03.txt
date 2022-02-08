@@ -15,6 +15,8 @@
 |Berserker||
 |&emsp;Addicted Approach        |
 |&emsp;Armored Approach         |
+|&emsp;Beastmaster Approach     |
+|&emsp;Beastmaster Approach (Companion)      |
 |&emsp;Bloodstorm Approach      |
 |&emsp;Brawling Approach        |
 |&emsp;Cyclone Approach         |
@@ -45,6 +47,8 @@
 |&emsp;Demolitions Specialist   |
 |&emsp;Enhancement Specialist   |
 |&emsp;Exhibition Specialist    |
+|&emsp;Fireteam Specialist      |
+|&emsp;Fireteam Specialist (Companion)     |
 |&emsp;Mounted Specialist       |
 |&emsp;Praetorian Specialist    |
 |&emsp;Totem Specialist         |
@@ -201,6 +205,103 @@ If you are raging, you add your rage damage bonus<br> &emsp;&emsp;&emsp;&emsp;&e
 <img src='https://cdn.discordapp.com/attachments/469499280994992128/907999093081653258/Thibbledorf_Pwent-removebg-preview.png' style='position:absolute;bottom:3px;right:236px;width:370px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Beastmaster Approach
+
+</div>
+
+Many berserkers feel a primal attunement to nature. For berserkers of the Beastmaster Approach, that attunement manifests itself in bestial marks and manifestations that grant the berserker newfound abilities.
+
+### Bestial Fury
+_**Beastmaster Approach:** 3rd level_<br>
+While raging, you have advantage on any Wisdom (Perception) or Wisdom (Survival) checks.
+
+Additionally, once on each of your turns while raging, you can mark a creature you can see as your prey for the duration of your rage (no action required). When you do so, once per turn when you deal damage to the creature with a weapon attack, you deal an additional 1d4 damage of the same type. Once per turn when the creature deals damage to you with a weapon attack, you take an additional 1d4 damage of the same type. This die increases to d6 at 5th level, d8 at 9th level, d10 at 13th level, and d12 at 17th level. You can only have one creature marked in this way at a time.
+
+### Pack Tactics
+_**Beastmaster Approach:** 3rd level_<br>
+When you have advantage on an attack roll against a creature, another enemy of the creature is within 5 feet of it, that enemy isn't incapacitated, you can reroll one of the dice once.
+
+\columnbreak
+
+### Animalistic Momentum
+_**Beastmaster Approach:** 6th level_<br>
+You gain a your choice of a climbing or swimming speed equal to your walking speed. Additionally, you gain an effect while raging based on your choice of speed:
+- If you chose a climbing speed, you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+- If you chose a swimming speed, you can use your bonus action to Dash or Disengage while in water.
+
+### Lick Wounds
+_**Beastmaster Approach:** 10th level_<br>
+Whenever you reduce a creature to 0 hit points while raging, you gain a number of temporary hit points equal to your berserker level, which last for the duration of your rage.
+
+### Hunter's Call
+_**Beastmaster Approach:** 14th and 17th level_<br>
+When you enter your rage, you can choose up to 5 allies that you can see within 30 feet of you. You gain 5 temporary hit points for each creature. For the duration of your rage, once on each of their turns, an affected ally can add your rage damage bonus to a weapon attack's damage roll.
+
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a long rest.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
+
+<img src='https://www.gmbinder.com/images/YqU2kRu.png' style='position:absolute;bottom:10px;left:200px;width:500px;z-index:1000;'/>
+
+\pagebreak
+
+<div class='wide'>
+
+## Beastmaster Approach (Companion)
+
+</div>
+
+Many berserkers feel a primal attunement to nature. For berserkers of the Beastmaster Approach, that attunement manifests itself in a bond with a beast companion that accompanies a berserker on his journey.
+
+### Bonus Proficiencies
+_**Beastmaster Approach:** 3rd level_<br>
+You gain proficiency in Animal Handling.
+
+### Beast Companion
+_**Beastmaster Approach:** 3rd, 11th, and 17th level_<br>
+You learn to capitalize on a primal attunement to nature to forge a powerful bond with your own beast companion.
+
+Create your beast companion as detailed in the Companions section of the Customization Options document for Expanded Content. 
+
+In addition to its traits and features, your beast companion gains additional benefits while it is bonded to you:
+- Your beast gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each beast trait in excess of your proficiency bonus, your number of available Hit Dice that can be spend to restore hit points is reduced by 1.
+
+Lastly, while bonded and within 10 feet of you, your beast companion gains the benefits of one of your chosen instincts. If that instinct relies on raging, your beast companion gains the benefits of that instinct while you are raging.
+
+At 11th level, your companion must be within 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.
+
+### Pack Tactics
+_**Beastmaster Approach:** 3rd level_<br>
+When you have advantage on an attack roll against a creature your companion has dealt damage since the start of your last turn, you can reroll one of the dice once. When your companion has advantage on an attack roll against a creature you've dealt damage since the start of your last turn, it can reroll one of the dice once.
+
+\columnbreak
+
+### Animalistic Momentum
+_**Beastmaster Approach:** 6th, 11th, and 17th level_<br>
+Your bond with your beast companion strengthens, granting the following benefits while your beast companion is within 10 feet of you:
+- If you or your beast have a climbing or swimming speed and the other doesn't, the other gains it with the same speed. If you both have the a climbing or swimming speed, you both use the larger speed of the two, which then increases by 5 feet.
+- Whenever your beast deals damage to a hostile creature you can see on your turn, it counts as you taking a hostile action for the purposes of maintaining your rage.
+
+This radius increases to 30 feet at 11th level 60 feet at 17th level.
+
+### Lick Wounds
+_**Beastmaster Approach:** 10th level_<br>
+Whenever your companion reduces a creature to 0 hit points while you are raging, it gains a number of temporary hit points equal to your berserker level, which last for the duration of your rage.
+
+### Hunter's Call
+_**Beastmaster Approach:** 14th and 17th level_<br>
+When you enter your rage, you can choose up to 5 allies that you can see within 30 feet of you. You gain 5 temporary hit points for each creature. For the duration of your rage, once on each of their turns, an affected ally can add your rage damage bonus to a weapon attack's damage roll.
+
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a long rest.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/932073076378714112/Bantha_Rider_BRVP-removebg-preview.png' style='position:absolute;bottom:4px;left:140px;width:640px;z-index:1000;'/>
 
 \pagebreak
 
@@ -2520,6 +2621,176 @@ You've perfected a fighting style that allows you to stylishly dominate the fiel
 This effect ends early if<br> you're incapacitated or die. Once you've<br> used this feature, you can't use it<br> again until you finish a long rest. 
 
 <img src='https://www.gmbinder.com/images/TPUYOZz.png' style='position:absolute;bottom:11px;right:-10px;width:300px;z-index:1000'/>
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Fireteam Specialist
+
+</div>
+
+When charging onto the frontlines of the galaxy's harshest conflicts, it pays to have people you can trust at your side. Those fighters who choose to become Fireteam Specialists command the respect and loyalty of those beside them by guiding their squad through thick and thin.
+
+### Improved Combat Superiority
+_**Fireteam Specialist:** 3rd level_<br>
+Your tactical skill in combat improves, granting bonuses to your Combat Superiority.
+
+#### Improved Maneuvers 
+You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Specialist Combat Superiority table.
+
+#### Improved Superiority Dice
+You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Fireteam Specialist Combat Superiority table.
+
+### Lead By Example
+_**Fireteam Specialist:** 3rd level_<br>
+Once per turn, when an ally that can see or hear you attacks a creature that you can see, you can expend a superiority die and enhance that ally's attack, using one of the maneuvers that you know.
+
+### Rally the Troops
+_**Fireteam Specialist:** 7th level_<br>
+When you use your Second Wind feature, you can choose up to three allies within 60 feet of you that can see or hear you. Each ally gains temporary hit points equal to your fighter level.
+
+You can choose an additional ally at 9th, 13th, and 17th level.
+
+### On Your Six
+_**Fireteam Specialist:** 10th level_<br>
+You can use your bonus action to begin a coordinated maneuver with an ally who is within 5 feet of you. For the next minute, while you and the chosen ally are within 5 feet of each other and neither of you are wielding a shield, you each gain a bonus to AC equal to half your proficiency bonus.
+
+When the chosen ally moves on their turn, you can use your reaction to move with them. You must end this movement within 5 feet of the ally, and this movement can't exceed your speed.
+
+This effect ends early if either you or your ally are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Fireteam Specialist<br> Combat Superiority
+| Level | Superiority<br> Dice | Maneuvers<br> Known |
+|:---:|:---:|:---:|:---:|
+|  3rd | 4 | 4 |
+|  4th | 4 | 4 | 
+|  5th | 4 | 4 |
+|  6th | 4 | 4 | 
+|  7th | 6 | 6 | 
+|  8th | 6 | 6 | 
+|  9th | 6 | 6 | 
+| 10th | 6 | 6 |
+| 11th | 8 | 8 | 
+| 12th | 8 | 8 | 
+| 13th | 8 | 8 | 
+| 14th | 8 | 8 | 
+| 15th |10 |10 | 
+| 16th |10 |10 | 
+| 17th |10 |10 | 
+| 18th |10 |10 | 
+| 19th |10 |10 | 
+| 20th |10 |10 | 
+
+</div>
+
+### Tactical Advice
+_**Fireteam Specialist:** 15th level_<br>
+Over the course of one minute, you can share knowledge with up to five allies. For the next hour, the chosen creatures gain all of your weapon and armor proficiencies, and a single use of your Indomitable feature. 
+
+You can choose an additional ally at 17th level.
+
+Once you've used this feature, you can't use it again until you complete a long rest. 
+
+### No Soldier Left Behind
+_**Fireteam Specialist:** 18th level_<br>
+While under the effects of On Your Six, if either you or your ally are reduced to 0 hit points, you can end On Your Six to have them drop to 1 hit point instead. When you do so, the effects of On Your Six persist until the start of your next turn.
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Fireteam Specialist (Companion)
+
+</div>
+
+When charging onto the frontlines of the galaxy's harshest conflicts, it pays to have people you can trust at your side. Those fighters who choose to become Fireteam Specialists work in tandem with a companion, becoming more than either could be on their own.
+
+### Bonus Proficiencies
+_**Fireteam Specialist:** 3rd level_<br>
+You gain proficiency in your choice of the Persuasion or Intimidation skill.
+
+### Improved Combat Superiority
+_**Fireteam Specialist:** 3rd level_<br>
+Your tactical skill in combat improves, granting bonuses to your Combat Superiority.
+
+#### Improved Maneuvers 
+You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Specialist Combat Superiority table.
+
+#### Improved Superiority Dice
+You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Fireteam Specialist Combat Superiority table.
+
+### Humanoid Companion
+_**Fireteam Specialist:** 3rd, 11th, and 17th level_<br>
+You've been assigned a squadmate who is under your command, gaining a humanoid companion.
+
+Create your humanoid companion as detailed in the Companions section of the Customization Options document for Expanded Content.
+
+In addition to its traits and features, your companion gains additional benefits while it is bonded to you:
+
+- Your companion gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each trait in excess of your proficiency bonus, your number of Hit Dice that can be spent to restore hitpoints is reduced by 1.
+
+Lastly, while your companion is bonded to you and within 10 feet of you, your companion can uses your superiority dice and maneuvers as if it knows them.
+
+This radius increases to 30 feet at 11th level, and 60 feet at 17th level. 
+
+### Rally the Troops
+_**Fireteam Specialist:** 7th level_<br>
+When you use your Second Wind feature while your companion is within 10 feet of you, your companion regains hit points and gains temporary hit points equal to your fighter level.
+
+This radius increases to 30 feet at 11th level, and 60 feet at 17th level. 
+
+### On Your Six
+_**Fireteam Specialist:** 10th level_<br>
+While your companion is within 5 feet of you, you can use your bonus action to begin a coordinated 
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Fireteam Specialist<br> Combat Superiority
+| Level | Superiority<br> Dice | Maneuvers<br> Known |
+|:---:|:---:|:---:|:---:|
+|  3rd | 4 | 4 |
+|  4th | 4 | 4 | 
+|  5th | 4 | 4 |
+|  6th | 4 | 4 | 
+|  7th | 6 | 6 | 
+|  8th | 6 | 6 | 
+|  9th | 6 | 6 | 
+| 10th | 6 | 6 |
+| 11th | 8 | 8 | 
+| 12th | 8 | 8 | 
+| 13th | 8 | 8 | 
+| 14th | 8 | 8 | 
+| 15th |10 |10 | 
+| 16th |10 |10 | 
+| 17th |10 |10 | 
+| 18th |10 |10 | 
+| 19th |10 |10 | 
+| 20th |10 |10 | 
+
+</div>
+
+maneuver. For the next minute, while you and your companion are within 5 feet of each other and neither of you are wielding a shield, you each gain a bonus to AC equal to half your proficiency bonus.
+
+This effect ends early if either you or your companion are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.
+
+### Indomitable in Tandem
+_**Fireteam Specialist:** 15th level_<br>
+When you and your companion are both forced to make a saving throw against the same effect, and one—but not both—of you fails, you can expend a use of your Indomitable feature to instead have you both succeed.
+
+### No Soldier Left Behind
+_**Fireteam Specialist:** 18th level_<br>
+While under the effects of On Your Six, if either you or your companion are reduced to 0 hit points, you can end On Your Six to have them drop to 1 hit point instead. When you do so, the effects of On Your Six persist until the start of your next turn.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 

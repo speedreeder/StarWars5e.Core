@@ -109,3 +109,54 @@ Many engineer archetypes are built around modifying a specific item. For instanc
 <div class='footnote'>INTRODUCTION</div>
 
 \pagebreakNum
+
+#### Critical Successes
+When a creature critically succeeds on a saving throw against an effect that would deal damage, they treat the effect's damage as if it had rolled the minimum.
+
+***Critical Success Range.*** A creature's critical success range determines on what d20 results that creature critically succeeds on a save. Typically, a creature has a critical success range of 0, meaning a creature can't critically succeed on a saving throw. A critical success range of 1 would mean a creature critically succeeds on a saving throw if they roll a 20, while a critical success range of 2 means a creature critically succeeds on a saving throw if they roll a 19 or a 20. A critical success range cannot exceed 4, causing a creature to critically succeed on a 17-20.
+
+#### Critical Failures
+When a creature critically fails a saving throw against an effect that would deal damage, they treat the effect's damage as if it had rolled the maximum.
+
+***Critical Fail Range.*** The critical fail range of an effect determines on what d20 results a creature critically fails a save. Typically, effects have a critical fail range of 0, meaning a creature can't critically fail a saving throw. A critical fail range of 1 would mean a creature critically fails on a saving throw if they roll a 1, while a critical fail range of 2 means a creature critically fails a saving throw if they roll a 1 or a 2. A critical fail range cannot exceed 4, causing creatures to critically fail on a 1-4.
+
+Certain effects, such as Explosives Style, cause creatures to take maximum damage if they roll a 1 on the saving throw. Such effects should be treated as a critical fail range of 1.
+
+> #### Variant: Rolling 1 or 20
+> In addition to critical failures and successes, you can consider adding the following rule as well.
+>
+> If the d20 roll for a saving throw is a 20, a creature automatically succeeds on the saving throw, even if the result of their save would not meet or exceed the save DC, and they treat the save as a critical success.
+>
+> If the d20 roll for a saving throw is a 1, a creature automatically fails the saving throw, even if the result of their save would meet or exceed the save DC, and they treat the save as a critical failure.
+
+#### Critical Hits
+When you score a critical hit, you get to roll all of the attack's damage dice twice, including any additional damage dice, and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
+
+***Critical Hit Range.*** The critical hit range of a weapon determines on what d20 results a weapon scores a critical hit. Typically, a weapon has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the weapon scores a critical hit on a roll of 19 or 20. A critical hit range cannot exceed 5, scoring a critical hit on 16-20.
+
+\columnbreak
+
+### Tiers of Proficiency 
+In addition to the two tiers of proficiency present in the Player's Handbook—proficiency and expertise—Wretched Hives introduces four new tiers of proficiency: trained, mastery, high mastery, and grand mastery. Additionally, the six tiers of proficiency now form an established hierarchy, from trained to grand mastery. Progressing from one tier to the next is not a given, however; if you're proficient in a skill, and you gain that proficiency again from another source, you do not automatically gain expertise. Instead, in these instances, you can choose another proficiency of the same type, as discussed in Chapter 4 of the Player's Handbook.
+
+#### Trained
+Trained lets you add half your proficiency bonus. Certain features, such as the Led by the Force class feature, grant this tier of proficiency. A character can be trained in skills, tools, saving throws, and weapons.
+
+> When a character becomes proficient in a skill or tool, they can instead choose to become trained in two skills or two tools, respectively. If a feature or feat would grant expertise in a skill or tool in which you are proficient, you would instead become proficient in the two skills or tools in which you became trained.
+
+#### Proficient
+Proficient lets you add your proficiency bonus. Proficiency can be obtained in skills, tools, saving throws, and weapons.
+
+#### Expertise
+Expertise lets you add twice your proficiency bonus. Expertise can be obtained in skills, tools, and saving throws.
+
+#### Mastery
+Mastery lets you add twice your proficiency bonus. Additionally, you always have advantage with mastery. Mastery can be obtained in skills, tools, and saving throws.
+
+#### High Mastery
+High mastery lets you add twice your proficiency bonus. Additionally, you always have advantage with mastery, and when you make a roll with advantage at this tier of proficiency, you can reroll one of the dice once. You must use the new roll. High mastery can be obtained in skills, tools, and saving throws.
+
+#### Grand Mastery
+Grand mastery lets you add twice your proficiency bonus. Additionally, you always have advantage with mastery, and when you make a roll with advantage at this tier of proficiency, you can reroll each of the dice once. You must use the new roll for each die. Grand mastery can be obtained in skills, tools, and saving throws.
+
+\pagebreakNum
