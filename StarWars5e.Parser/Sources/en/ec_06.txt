@@ -7,6 +7,65 @@ A feat represents a talent or an area of expertise that gives character special 
 
 You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
 
+### Total Reconstruction
+_**Prerequisite:** Type beast or humanoid_<br>
+You are more machine than man. While repaired in a similar configuration as your own species, you are subject to the following changes:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- Choose one class of droid (class I-V or tracker). You count as the chosen creature type in addition to your other type.
+- You are resistant to necrotic and poison damage, and are immune to poison and disease.
+- You do not need to eat or drink. Additionally, you no longer require a tech focus to cast tech powers.
+- You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.
+- You can not sense the Force, use force powers, or take levels in forcecasting classes.
+- You are no longer a valid target for cybernetic augmentations or genetic mutations. However, you are now a valid target for droid customizations.
+
+### Double-Weapon Casting
+_**Prequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
+You've learned to blend your prowess with twinblades with your casting. You gain the following benefits:
+- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+- When you use your action to Cast a Power that calls for a weapon attack and attack with a weapon with the light and double properties while wielding it in two hands, you can use your bonus action to engage in Double-Weapon Fighting. All the rules of Double-Weapon Fighting still apply to you.
+
+### Two-Weapon Casting
+_**Prequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
+You've learned to better combine your dual wielding with your powers. You gain the following benefits:
+- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+- When you use your action to Cast a Power that calls for a weapon attack and attack with a light weapon that you're holding in one hand, you can use your bonus action to engage in Two-Weapon Fighting. All the rules of Two-Weapon Fighting still apply to you.
+
+### Dutifully Deployed
+You've developed an aptitude for a particular deployment on a starship. You gain the following benefits:
+- Increase an ability score of your choice by 1, to a maximum of 20.
+- You gain 1 rank in a deployment of your choice. This rank does not count towards or affect your prestige.
+- The maximum number of ranks you can gain in deployments increases by 1. You can still only gain 5 ranks in a deployment.
+
+### Adaptable Fading
+_**Prequisite:** 4th level_<br>
+You can easily overthrow an enemy's fortitude. You gain the following benefits:
+- Increase your Strength or Constitution score by 1, to a maximum of 20.
+- When you make an attack roll using your Strength, you can choose to add half your Constitution modifier to the attack roll. Alternatively, when you would make an attack roll using Constitution, you can add half your Strength modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
+- When an effect you control would call for a Strength saving throw, you can instead have it call for a Constitution saving throw. Alternatively, when an effect you control would call for a Constitution saving throw, you can instead have it call for a Strength saving throw. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
+
+### Flexible Rending
+_**Prequisite:** 4th level_<br>
+You are adept at overwhelming an opponent's reflexes. You gain the following benefits:
+- Increase your Dexterity or Intelligence score by 1, to a maximum of 20.
+- When you make an attack roll using your Dexterity, you can choose to add half your Intelligence modifier to the attack roll. Alternatively, when you would make an attack roll using Intelligence, you can add half your Dexterity modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
+- When an effect you control would call for a Dexterity saving throw, you can instead have it call for a Intelligence saving throw. Alternatively, when an effect you control would call for a Intelligence saving throw, you can instead have it call for a Dexterity saving throw. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
+
+### Versatile Withering
+_**Prequisite:** 4th level_<br>
+You have learned to easily overcome an adversary's will. You gain the following benefits:
+- Increase your Wisdom or Charisma score by 1, to a maximum of 20.
+- When you make an attack roll using your Wisdom, you can choose to add half your Charisma modifier to the attack roll. Alternatively, when you would make an attack roll using Charisma, you can add half your Wisdom modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
+- When an effect you control would call for a Wisdom saving throw, you can instead have it call for a Charisma saving throw. Alternatively, when an effect you control would call for a Charisma saving throw, you can instead have it call for a Wisdom saving throw. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
+
+### Muscled Menace
+_**Prerequisite:** Strength 13, size Medium_<br>
+Despite being of otherwise average size, your might extends beyond that of your peers. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20.
+- Your speed increases by 5 feet.
+- You can't add more than +3 when determining your bonus to AC from your Dexterity.
+- You can't add more than +3 when determing your bonus to Dexterity saving throws from Dexterity.
+- You gain the Oversized special trait: ***Oversized.*** Light- and vibro-weapons that lack the dexterity or light property are considered to have the heavy property for you. The strength number for blasters is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely. 
+
 ### Improved Force-Sensitive
 _**Prerequisite:** The ability to cast 2nd-level force powers_<br>
 You know one at-will force power. Additionally, you know one 3rd-level force power, which you can cast once per long rest. Your forcecasting ability is Wisdom or Charisma (depending on power alignment).
@@ -183,6 +242,9 @@ Your companion's level equals your own, and each time you gain a level, so does 
 
 #### Proficiency Bonus
 Your companion's proficiency bonus is equal to that of a player character of the same level, as shown in the follower table.
+
+> #### Starting Equipment
+> Generally speaking, companions are not intended to start with any equipment; it is up to you to outfit them as you deem appropriate. Humanoid companions should probably at least have clothing, however.
 
 ### Companions in Combat
 In combat, companions generally behave as a player character would, with the following differences.
