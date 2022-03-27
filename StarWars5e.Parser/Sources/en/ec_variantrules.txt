@@ -6,6 +6,54 @@
 
 <div class='wide'>
 
+## Ammunition Sizes
+
+</div>
+
+For the sake of simplicity, ammunition is shared amongst weapons that deal the same damage type. For instance, all blasters that deal kinetic damage utilize slug cartridges, while all blasters that deal energy, ion, or other elemental damage types utilize power cells. If you dislike that an assault cannon and a blaster pistol utilize the same ammunition, consider the following variant rule.
+
+### Damage Dice Ammo Size
+Slug cartridges and power cells are each broken down into five size categories, from Tiny to Huge. These new sized ammunitions only fit in weapons that utilize certain damage values, as shown in the below table.
+
+|Ammo Size|Damage Dice|
+|:--:|:--:|
+|Tiny|d4|
+|Small|d6|
+|Medium|d8/2d4|
+|Large|d10
+|Huge|d12/2d6/3d4|
+
+For those weapons with alternative damage types, you'll want to treat their damage as one step higher. Ion damage should be two steps higher or twice the weapon's damage, whichever is lower.
+
+For instance, a blaster which deals 1d8 energy damage would use Medium power cells, while a blaster that deals 1d4 kinetic damage would use Tiny slug cartridges. A blaster that deals 1d4 fire damage, however, would use Small power cells (since we treat that damage as one step higher), as would a blaster that deals 1d3 ion damage (since we treat that damage as two steps higher).
+
+\columnbreak
+
+### Ammo Size Values and Weights
+Additionally, the value and weight of these sized munitions would scale, as shown in the table below.
+
+
+|	Item	|	Cost	|	Weight		|
+|	:--	|	--:	|	--:		|
+|	_Ammunition_	|		|			|
+|	&emsp;Power cell (Tiny)            	    |	  3 cr	|	1/4 lb		|
+|	&emsp;Power cell (Small)            	|	  5 cr	|	1/2 lb		|
+|	&emsp;Power cell (Medium)            	|	  10 cr	|	1 lb		|
+|	&emsp;Power cell (Large)            	|	  20 cr	|	2 lb		|
+|	&emsp;Power cell (Huge)                	|	  50 cr	|	5 lb		|
+|	&emsp;Slug cartridge (Tiny)             |	   1/2 cr	|	—		|
+|	&emsp;Slug cartridge (Small)            |	   1 cr	|	—		|
+|	&emsp;Slug cartridge (Medium)           |	   2 cr	|	—		|
+|	&emsp;Slug cartridge (Large)            |	   4 cr	|	1/4	lb	|
+|	&emsp;Slug cartridge (Huge)             |	   10 cr	|	1/2 lb		|
+
+> #### Powered by Power Cells
+> Items that are powered by power cells, such as jetpacks or glowrods, would utilize Medium power cells.
+
+\pagebreak
+
+<div class='wide'>
+
 ## Alternate Casting
 
 </div>
@@ -850,7 +898,7 @@ For instance, a 3rd-level character decides they want to combine a greatsaber an
 When the character reaches 5th level, they decide they want to add a lightwhip to the mix. They obtain a lightwhip, and attempt to combine it with their current weapon over the course of an hour with their artificer's tools. At the end of the hour, however, they only roll an 8 on the check, failing to combine the third weapon. They must wait until tomorrow to try again.
 
 #### Blasters
-Rather than combining multiple blasters, you can instead integrate a wrist launcher attachment to the weapon, as long as the weapon lacks the fixed property. This attachment can fire all wrist launcher ammunition with a range of 20/40, or it can fire grenades with a range of 40/80. This attachment has a reload value of 2, it can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). Each ammunition must be reloaded separately.
+Unlike light- and vibro-weapons, you can't combine multiple blasters. Instead, you can integrate a wrist launcher attachment to a blaster, as long as the weapon lacks the fixed property. This attachment can fire all wrist launcher ammunition with a range of 20/40, or it can fire grenades with a range of 40/80. This attachment has a reload value of 2, it can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). Each ammunition must be reloaded separately.
 
 When you would attempt to combine an additional weapon, you can instead attempt to increase this attachment's reload property by making an ability check with the appropriate tool and consulting the Combination/Separation DC by Weapons table.
 
