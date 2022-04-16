@@ -180,7 +180,7 @@ As a bothan, you have the following special traits.
 
 ***Naturally Stealthy.*** You can attempt to hide even when you are obscured only by a creature that is your size or larger than you.
 
-***Nimble Escape.*** You can take the Disengage or Hide action as a bonus action on each of its turns.
+***Nimble Escape.*** You can take the Disengage or Hide action as a bonus action on each of your turns.
 
 > While bothans are suitable for many classes, they most iconically fit as operatives. The ***Nimble Escape*** special trait heavily overlaps with the operative's ***Cunning Action*** feature, however, making this species/class combination counterintuitive. If, during the character creation part of your game, a player decides to make a bothan operative, consider letting them use the following feature instead:
 >
@@ -1662,7 +1662,7 @@ As a Nautolan, you have the following special traits.
 
 ***Swim.*** You have a swimming speed of 30 feet.
 
-***Languages.*** You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; that Nautolans find this annoying.
+***Languages.*** You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; Nautolans find this annoying.
 
 <img src='https://www.gmbinder.com/images/dpFVpaX.jpg' style='position:absolute;top:47px;right:27px;width:395px;mix-blend-mode:darken' />
 
@@ -2332,3 +2332,11 @@ As a zabrak, you have the following special traits.
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
 \pagebreakNum
+
+<style>
+  .phb#p39:after { display:none; }
+</style>
+
+<img src='https://www.gmbinder.com/images/2ETxkMF.png' style="position:absolute; right:-400px; bottom:0px; width:2600px;" />
+
+\pagebreak

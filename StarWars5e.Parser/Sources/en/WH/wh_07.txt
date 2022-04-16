@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he ability to plunder enhanced items from the hoards</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of conquered pirates, or discover them in long-lost Sith tombs is an experience players expect. Such items grant capabilities a character could rarely have otherwise, or they complement their owner's capabilities in wondrous ways.
 
 ### Rarity
-Each enhanced item has a rarity: standard, premium, prototype, advanced, legendary, or artifact. Standard enhanced items, such as a medpac, are the most plentiful. Some legendary items, such as a Baragwin Stealth Unit, are more rare. The game assumes that the secrets of creating the most powerful items arose centuries ago and were then gradually lost as a result of wars or mishaps. Even premium items can't be easily created. Thus, many enhanced items are unique and well-preserved relics.
+Each enhanced item has a rarity: standard, premium, prototype, advanced, legendary, or artifact. Standard enhanced items are the most plentiful. Consequently, higher rarity items are more scarce. The game assumes that the secrets of creating the most powerful items arose centuries ago and were then gradually lost as a result of wars or mishaps. Even premium items can't be easily created. Thus, many enhanced items are unique and well-preserved relics.
 
 Rarity provides a rough measure of an item's power relative to other enhanced items. Each rarity corresponds to a character level, as shown below in the Enhanced Item Rarity and Identification table. A character doesn't typically find a prototype enhanced item, for instance, until 5th-level or later. That said, rarity shouldn't get in the way of your campaign's story. If you want the darksaber to fall into the hands of 1st-level character, so be it. No doubt a great story will arise from that event.
 
@@ -26,7 +26,7 @@ If your campaign allows for trade in enhanced items, rarity can also help you se
 ### Identifying Enhanced Items
 Some enhanced items have properties not readily distinguishable to the naked eye. Identifying such an item requires use of the *analyze* or *telemetry* power, or inspection with the appropriate tools.
 
-If a player is proficient in the appropriate type of tools, as shown in the Item by Tools table on page \_\_\_, they can make a check with the tools to identify the properties of an enhanced item over the course of a short rest. To use this benefit, they must have the tools, and the enhanced item must be within reach. The DC is found above in the Enhanced Item Rarity and Identification table.
+If a player is proficient in the appropriate type of tools, as shown in the Tools by Item table on page \_\_\_, they can make a check with the tools to identify the properties of an enhanced item over the course of a short rest. To use this benefit, they must have the tools, and the enhanced item must be within reach. The DC is found above in the Enhanced Item Rarity and Identification table.
 
 \columnbreak
 
@@ -188,6 +188,13 @@ In the future, if you choose an item of a rarity that's not available in the cur
 ### Choosing Items Piecemeal
 If you prefer a more free-form method of choosing enhanced items, simply select each enhanced item you want to give out; then, when th e characters acquire one, deduct it from the Enhanced Items by Rarity tables in your notes. Whenever you do so, start with the lowest level tier, and deduct the item from the first number you come across in the appropriate rarity column for the item, whether it's minor or major. If that tier doesn't have a number greater than 0 for that rarity, go up a tier until you find one that does, and deduct the enhanced item from that number. Following this process, you will zero out each row of the table in order, going from the lowest levels to the highest.
 
+> #### Generating New Enhanced Items
+> As a GM, you can easily generate new enhanced items by combining the effects of two like items, provided those items have the same type and subtype (if present). For instance, you could combine the effects of two item modification (augments) to create a new, higher rarity augment, but you couldn't combine the effects of a shield and a suit of armor to create a new item in this way.
+>
+> When you do so, you want to combine the rarities of the items whose effects you are combining by assigning a point value to each item. A standard item has a value of 1, premium has a value of 2, and so on up to an artifact's value of 6. Add the points for the items you are combining to determine the new item's rarity. For instance, if you combine the effects a premium (2 points) augment with a prototype (3 points) augment, you end up with a new legendary augment due to the combined total of 5 points. You can't exceed 6 points when combining objects in this way.
+> 
+> If the two items you are combining confer a like bonus, such as a bonus to attack rolls or the save DC of force powers, that bonus should not exceed +3. If the items already include rules governing the maximum value that item could provide, such as a keen weapon modification, you would instead follow the guidelines provided by that item.
+
 ### Overstocking an Adventure
 The enhanced item tables in this chapter are based on the number of items the characters are expected to receive, not the number of items that are available in an adventure. When creating or modifying an adventure, assume that the characters won't find all of the items you place in it, unless most of the loot is in easy-to-find locations.
 
@@ -199,7 +206,7 @@ The enhanced item tables in this chapter are based on the number of items the ch
 ### Enhanced Item Values
 The value of an enhanced item varies depending on the rarity of the item, as shown below in the Enhanced Item Value by Rarity table.
 
-Using the Enhanced Item Value by Rarity table, you then assign prices to the available items, based on their rarity. Halve the price of any consumable item, such as a medpac or explosive, or item modification, such as a blaster barrel or armor overlay, when using the table to determine an asking price.
+Using the Enhanced Item Value by Rarity table, you then assign prices to the available items, based on their rarity. Halve the price of any consumable item, such as a medpac or explosive, or item modification when using the table to determine an item's value.
 
 ##### Enhanced Item Value by Rarity
 |Rarity|Value|
@@ -226,7 +233,9 @@ Alternatively, you can determine the value of enhanced items randomly. To do so,
 
 If item value falls below the base threshold for that rarity, you might instead use the base for that rarity. For instance, if I want to determine the value of a prototype item, I first roll percentile dice twice. I get the results of 63 and 22, so I keep the 63 since it's the higher number. I then multiply that number by the value modifier for prototype (250 cr), ending up with an item value of 15,750 cr (63 x 250 cr). If I instead had rolled 11 and 16 on the percentile dice rolls, however, I would have ended up with an item value of 4,000 cr (16 x 250 cr). Since this falls below the minimum value threshold for prototype items (5,000 cr), you could instead use the minimum.
 
-> As a further option to reflect the availability of enhanced items in your campaign, you can apply up to a +10 penalty for a scarce setting, or up to a -10 bonus for a setting where enhanced items are more common, when resolving the d100 roll determining enhanced item values, as appropriate. 
+> To reflect the availability of enhanced items in your campaign, you can apply a penalty or bonus, as appropriate to your setting, when resolving the d100 roll determining enhanced item values. 
+
+When determining the value for an enhanced item that has an unenhanced version, such as a medpac or a blaster rifle, instead of replacing with the value determined by the rolls above, add the result to the unenhanced item's value.
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 
@@ -251,18 +260,16 @@ Every item chassis comes with at least four modification slots, increasing to si
 |<font style="color:#dd6b20">Legendary</font>|6|
 |<font style="color:red">Artifact</font>|6|
 
-Every modifiable item chassis shares the same four slots, determined by their type, as shown in the Available Modification Slots table below. Prototype and advanced modifiable item chassis also have one augment slot, in addition to the four base slots for their type, while legendary and artifact modifiable item chassis have two augment slots. A modifiable item chassis is only considered enhanced if it has at least one modification installed.
+Every modifiable item chassis has four base slots, determined by its type. Prototype and advanced modifiable item chassis also have one augment slot in addition to the four base slots for their type, while legendary and artifact have two. A modifiable item chassis only requires attunement and is considered enhanced if it has at least one modification installed.
 
 A modifiable item chassis can only include modifications of the same rarity or a lesser rarity. For instance, if you have a prototype modifiable item chassis, you can modify it with standard, premium, and prototype modifications. However, the item's nature does not allow it to support higher rarity modifications.
 
 #### Installing Modifications
-Installing a modification takes one hour and requires an ability check with the appropriate tool, as shown in the Item Specific Tools table on page \_\_\_. The DC for the check is determined by the rarity of the modification being installed, as shown below in the 
+Installing a modification takes one hour and requires an ability check with the appropriate tool, as shown in the Item Specific Tools table on page \_\_\_. The DC for the check is determined by the rarity of the modification being installed, as shown below in the Installation/Removal DC by Rarity table.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
-
-Installation/Removal DC by Rarity table.
 
 ##### Installation/Removal DC by Rarity
 |Rarity|Installation/Removal DC|
@@ -284,108 +291,11 @@ On a success, the modification is removed and salvaged. On a failure, the modifi
 <div style='margin-top:18px'></div>
 
 ### Upgrading Modifiable Item Chassis
-Modifiable item chassis can have their rarity upgraded over time. An item can only be upgraded by someone proficient with the appropriate tools, and it can only be upgraded one rarity step at a time. Modifying a chassis takes eight hours and requires an ability check with the appropriate tool. The DC for the check is determined by the rarity to which the chassis is being upgraded, as shown in the Installation/Removal DC by Rarity table on page \_\_\_. Additionally, upgrading the rarity of a chassis requires an appropriate rare material, as discussed in the Crafting downtime activity. Upgrading a modifiable item chassis has no effect on any modifications currently installed in the chassis.
+Modifiable item chassis can have their rarity upgraded over time. An item can only be upgraded by someone proficient with the appropriate tools, and it can only be upgraded one rarity step at a time. Modifying a chassis takes eight hours and requires an ability check with the appropriate tool. The DC for the check is determined by the rarity to which the chassis is being upgraded, as shown in the Installation/Removal DC by Rarity table above. Additionally, upgrading the rarity of a chassis requires an appropriate rare material, as discussed in the Crafting downtime activity. Upgrading a modifiable item chassis has no effect on any modifications currently installed in the chassis.
 
 On a success, the modifiable item chassis is upgraded to the new rarity. On a failure, the modifiable item chassis is not upgraded, you must wait 24 hours before you can try again, and you must roll a d20. If you roll a 1 on the d20, one currently installed modification is destroyed. If the chassis has more than one modification installed, the GM should determine which modification is destroyed randomly.
 
-<div class='classTable wide' style='position:absolute;bottom:20px;left:75px;width:687px'>
-
-##### Available Modification Slots
-|Armor|Blaster|Clothing|Focus Generator|Lightweapon|Shield|Vibroweapon|Wristpad|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Overlay|Targeting|Weave|Emitter|Lens|Overlay|Grip|Processor|
-|Underlay|Barrel|Inlay|Conductor|Crystal|Underlay|Edge|Motherboard|
-|Reinforcement|Core|Pattern|Channel|Cell|Reinforcement|Oscillator|Amplifier|
-|Armoring|Attachment|Stitching|Cycler|Hilt|Shielding|Guard|Dataport|
-
-</div>
-
-<div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
-
-\pagebreakNum
-
-### Modifications by Item Type
-The modifications available varies for each individual item type. For instance, a blaster always has four modification slots—targeting, barrel, core, and attachment—and up to two augment slots, determined by its rarity. Augments are universal across all modifiable items, while targeting, barrel, core, and attachment are unique to blasters.
-
-#### Armor Modifications
-Armor shares three of their modification slots with shields, while one is unique.
-
-***Overlay.*** Overlay modifications augment armor and shield's bonus to melee AC.
-
-***Underlay.*** Underlay modifications augment armor and shield's bonus to ranged AC.
-
-***Reinforcement and Armoring.*** Reinforcement is shared by armor and shields while armoring is unique to armor. These modifications offer a new feature to armor, or enhance an existing one.
-
-#### Blaster Modifications
-The following modification slots are unique to blasters.
-
-***Targeting.*** Targeting modifications augment a blaster's bonus to attack rolls. 
-
-***Barrel.*** Barrel modifications augment a blaster's bonus to damage rolls. 
-
-***Core and Attachment.*** These modifications offer a new feature to a blaster, or enhance an existing one.
-
-#### Clothing Modifications
-The following modification slots are unique to clothing.
-
-***Weave.*** Weave modifications offer a bonus to Strength and Constitution saving throws or damage with weapons.
-
-***Inlay.*** Inlay modifications offer a bonus to Dexterity and Intelligence saving throws or damage with tech powers.
-
-***Pattern.*** Inlay modifications offer a bonus to Wisdom and Charisma saving throws or damage with force powers.
-
-***Stitching.*** These modifications offer a new feature to an article of clothing.
-
-#### Focus Generator Modifications
-The following modification slots are unique to focus generators.
-
-***Emitter.*** Emitter modifications augment a focus generator's bonus to force attack rolls.
-
-\columnbreak
-
-<div style='margin-top:23px'></div>
-
-&emsp;***Conductor.*** Conductor modifications augment a focus generator's bonus to force save DCs.
-
-***Channel and Cycler.*** These modifications offer a new feature to focus generators.
-
-#### Lightweapon Modifications
-The following modification slots are unique to lightweapons.
-
-***Lens.*** Lens modifications augment a lightweapon's bonus to attack rolls. 
-
-***Crystal.*** Crystal modifications augment a lightweapon's bonus to damage rolls.
-
-***Cell and Hilt.*** These modifications offer a new feature to a lightweapon, or enhance an existing one.
-
-#### Shield Modifications
-Shields share three of their modification slots with armor, while one is unique.
-
-***Overlay.*** Overlay modifications augment armor and shield's bonus to melee AC.
-
-***Underlay.*** Underlay modifications augment armor and shield's bonus to ranged AC.
-
-***Reinforcement and Shielding.*** Reinforcement is shared by armor and shields while shielding is unique to shields. These modifications offer a new feature to shields, or enhance an existing one.
-
-#### Vibroweapon Modifications
-The following modification slots are unique to<br> vibroweapons.
-
-***Grip.*** Grip modifications augment a vibroweapon's bonus to attack rolls. 
-
-***Edge.*** Edge modifications augment a vibroweapon's bonus to damage rolls. 
-
-***Oscillator and Guard.*** These modifications offer a new feature to a vibroweapon, or enhance an existing one.
-
-#### Wristpad Modifications
-The following modification slots are unique to<br> wristpads.
-
-***Processor.*** Processor modifications augment a wristpad's bonus to tech attack rolls.
-
-***Motherboard.*** Motherboard modifications augment a wristpad's bonus to tech save DC.
-
-***Amplifier and Dataport.*** These modifications offer a new feature to wristpads.
-
-<img src='https://www.gmbinder.com/images/aeyZesI.png' style='position:absolute;bottom:-5px;right:90px;width:660px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/aeyZesI.png' style='position:absolute;bottom:-5px;right:130px;width:580px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 
@@ -429,7 +339,7 @@ Once a player has made their forcecasting ability check to discover a lightweapo
 |   97|Bronze|
 |   98|Silver|
 |   99|White|
-|  100|Black|
+| 100+|Black|
 
 </div>
 
@@ -444,16 +354,16 @@ Augments are intended to offer features universal across items, such as an incre
 
 You can't have two of the same augment in a single chassis, but you can have multiples of an augment, each in its own chassis.
 
-***Installing Augments in Other Items.*** Additionally, a character proficient in tinker's implements can add modification slots for augments to items that lack them. First, the character must spend one uninterrupted hour tinkering with the item, which can be done over a short rest, with their tinker's implements. The character must then make an ability check with tinker's implements. On a result of less than 20, the item gains no augment slots, and you must wait 24 hours before you can try again. On a result of 20 or higher, the item gains one vacant augment slot. On a result of 30 or higher, the item gains two augment slots. Adding augment slots to an item causes that item to require attunement, if it didn't already. An item can't support augmentations of higher rarity than the item's rarity.
+***Installing Augments in Other Items.*** Additionally, a character proficient in tinker's implements can add modification slots for augments to items that lack them. First, the character must spend one uninterrupted hour tinkering with the item, which can be done over a short rest, with their tinker's implements. The character must then make an ability check with tinker's implements. On a result of less than 20, the item gains no augment slots, and you must wait 24 hours before you can try again. On a result of 20 or higher, the item gains one augment slot, to a maximum of one augment slot. On a result of 30 or higher, the item gains a two augment slots, to a maximum of two augment slots. Adding augment slots to an item causes that item to require attunement, if it didn't already. An item can't support augments of higher rarity than the item's rarity.
 
 #### Variant: Common Modifications
-Modifying equipment is a common expectation of adventurers foraying through the worlds of *Star Wars*. This rule treats all potential modifiable items—that is, the eight categories listed in this chapter—as unmodified standard rarity chassis. For example, every unenhanced blaster you find while adventuring, or for sale in a market, comes with vacant modification slots for targeting, barrel, core, and attachment modifications.
+Modifying equipment is a common expectation of adventurers foraying through the worlds of *Star Wars*. This rule treats all potential modifiable items—that is, the eight categories listed in this chapter—as unmodified standard rarity chassis. For example, every unenhanced blaster you find while adventuring, or for sale in a market, comes with vacant modification slots for blaster modifications.
 
-Additionally, all modifications of standard rarity should be available for purchase from vendors without using the Buying Enhanced Items downtime activity.
+Additionally, all modifications of standard rarity should be available for purchase from appropriate vendors without using the Buying Enhanced Items downtime activity.
 
 > Note that all chassis of premium or higher rarity should still be treated as enhanced items for the purposes of distribution.
 
-<img src='https://vignette.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335' style='position:absolute;bottom:-20px;right:100px;width:270px;z-index:1000;' />
+<img src='https://vignette.wikia.nocookie.net/starwars/images/5/5f/LightsaberCrystal-SWE.png/revision/latest?cb=20160911062335' style='position:absolute;bottom:-20px;right:100px;width:260px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 
@@ -587,10 +497,10 @@ On a success, the customization is removed and salvaged. On a failure, the custo
 Two major categories of droid customizations exist in the galaxy: parts and protocols. 
 
 #### Parts
-Parts typically enhance or replace the features of a droid. Additional arms, integrated shield generators or weapons, or built-in repulsor lifts.
+Parts typically enhance or replace the features of a droid. Additional arms, integrated shield generators or weapons, or built-in repulsor lifts. You can't have more parts than your Strength, Dexterity or Constitution modifier (your choice, minimum of one).
 
 #### Protocols
-Protocols bestow new abilities or improvements on the target droid. Typically, they take the shape of systems improvements and offer no visible indication that they exist.
+Protocols bestow new abilities or improvements on the target droid. Typically, they take the shape of systems improvements and offer no visible indication that they exist. You can't have more protocols than your Intelligence, Wisdom, or Charisma modifier (your choice, minimum of one).
 
 <div class='footnote'>CHAPTER 7 | ENHANCED ITEMS</div>
 

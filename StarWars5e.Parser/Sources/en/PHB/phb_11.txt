@@ -290,7 +290,11 @@ While the weapon is animated, on each of your turns you can use a bonus action t
 
 An enemy can attempt to gain control of the weapon by using its action to make a Strength (Athletics) check against your force save DC. On a success, the creature gains control of the weapon and the power ends.
 
-***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the weapon's damage increases by 1d8 for every two slot levels above 2nd.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the weapon's damage increases by 1d8 for every two slot levels above 2nd.
 
 #### Armor of Abeloth
 _1st-level dark side power_
@@ -345,7 +349,7 @@ ___
 - **Range:** Self (5-foot radius)
 - **Duration:** Concentration, up to 1 minute
 
-You exude an aura out to 5 feet that boosts the morale and overall battle prowess you and your allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to fight. 
+You exude an aura out to 5 feet that boosts the morale and overall battle prowess of you and your allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to fight. 
 
 Whenever you or a friendly creature within your meditation makes an attack roll or a saving throw, they can roll a d4 and add the number rolled to the attack roll or saving throw. 
 
@@ -399,6 +403,8 @@ You touch a creature, and that creature must succeed on a Wisdom saving throw or
 
 A remove curse power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect. This power has no effect on droids or constructs.
 
+***Force Potency.*** If you cast this power using a force slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a force slot of 5th Level or higher, the duration is 8 hours. If you use a force slot of 7th level or higher, the duration is 24 hours. If you use a 9th level force slot, the power lasts until it is dispelled. Using a force slot of 5th Level or higher grants a duration that doesn't require concentration.
+
 #### Breath Control
 _1st-level universal power_
 ___
@@ -410,6 +416,10 @@ You are able to slow your metabolism in such a way that you can stop breathing a
 
 For the duration, you have advantage on saving throws against being poisoned, resistance to poison damage, and you no longer need to breathe.
 
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
+
+\pagebreakNum
+
 #### Burst
 _At-will universal power_
 ___
@@ -420,10 +430,6 @@ ___
 You cause the earth to burst from beneath your feet. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d8 kinetic damage.
 
 This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
-
-<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
-
-\pagebreakNum
 
 #### Burst of Speed
 _1st-level universal power_
@@ -458,12 +464,15 @@ ___
 - **Duration:** Concentration, up to 1 minute 
 
 You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects.
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
 - You can suppress any effect causing a target to be charmed or frightened. When this power ends, any suppressed effect resumes, provided that its duration has not expired in the meantime. 
 - You can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a power or if it witnesses any of its friends being harmed. 
 
 When the power ends, the creature becomes hostile again, unless the GM rules otherwise.
-
-\columnbreak
 
 #### Choke
 _3rd-level dark side power_
@@ -610,7 +619,7 @@ Until the power ends, any attack you make deals an extra 1d8 necrotic damage whe
 
 Additionally, any creature of your choice that you can see that starts its turn within 10 feet of you gains 1 slowed level until the start of your next turn.
 
-***Force Potency.*** When you cast this power using a force slot of 4th level or higher, the extra damage increases by 1d8 for each slot level above 3rd.
+***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the extra damage increases by 1d8 for for every two slot levels above 3rd.
 
 #### Dark Shear
 _2nd-level dark side power_
@@ -623,7 +632,11 @@ You create a weapon of imperceptible Force energy that lasts until the power end
 
 If you drop the weapon or throw it, it disappears at the end of the turn. While the power lasts, you can use a bonus action to make the weapon reappear in your hand.
 
-***Force Potency.*** When you cast this power using a 3rd or 4th level force slot, the damage increases by 1d6 (3d6). At 5th or 6th level, the damage increases by 2d6 (4d6). At 7th level or higher, the damage increases by 3d6 (5d6). 
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Force Potency.*** When you cast this power using a 3rd or 4th level force slot, the damage increases by 1d6 (3d6). At 5th or 6th level, the damage increases by 2d6 (4d6). At 7th level or higher, the damage increases by 3d6 (5d6). 
 
 #### Dark Side Tendrils
 _1st-level dark side power_
@@ -647,7 +660,7 @@ Darkness spreads from a point you choose within range to fill a 15-foot-radius s
 
 If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness comes from the object and moves with it. Completely covering the source of the darkness with an opaque object blocks the darkness.
 
-If this power's area overlaps with light created by a 2nd-level power or lower, this power and the light are dispelled.
+If this power's area overlaps with light created by a 2nd-level power or lower, the light is dispelled.
 
 #### Death Field
 _8th-level dark side power_
@@ -657,7 +670,7 @@ ___
 - **Range:** 90 feet (30-foot cube)
 - **Duration:** Instantaneous
 
-You draw the life force from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature to 0, you gain temporary hit points equal to half the damage dealt. This power has no effect on droids or constructs.
+You draw the life force from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to half the damage dealt. This power has no effect on droids or constructs.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -739,7 +752,13 @@ While the target is charmed, you have a telepathic link with it as long as you a
 
 You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
 
-Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving throw succeeds, the power ends. 
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
+
+\pagebreakNum
+
+<div style='margin-top:16px'></div>
+
+&emsp;Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving throw succeeds, the power ends. 
 
 ***Force Potency.*** When you cast this power using a 6th-level force slot, the duration is 10 minutes. When you use a 7th-level force slot, the duration is 1 hour. When you use a force slot of 8th level or higher, the duration is 8 hours.
 
@@ -933,7 +952,7 @@ ___
 - **Range:** Self
 - **Duration:** 1 hour
 
-This power enables you to use your health to fuel your force powers. For the duration, when you cast a force power, half the cost is paid by your force points (rounded up) and half the cost is paid by your hit points (rounded down). Additionally, your maximum hit points are decreased by this amount while the power is active.
+This power enables you to use your health to fuel your force powers. For the duration, when you cast a force power, you can choose to pay up to half the cost of the force power using your hit points instead of your tech points. When you do so, your maximum hit points are reduced by the same amount until you complete a long rest.
 
 You may end this effect at any time. If you cast a force power that would reduce your hit points to 0, the power automatically fails and this effect ends.
 
@@ -998,7 +1017,13 @@ ___
 - **Range:** 120 feet
 - **Duration:** Concentration, up to 1 minute
 
-One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.
+One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. The 
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.
 
 The target can act normally on its turn if you choose no creature or if none are within its reach.
 
@@ -1075,7 +1100,7 @@ ___
 - **Range:** Self
 - **Duration:** Instantaneous
 
-Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see.
+Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see, provided you have a direct path to the space.
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, your jump distance increases by 5 feet for each slot level above 1st.
 
@@ -1112,7 +1137,7 @@ ___
 - **Range:** Self (60-foot cone)
 - **Duration:** Instantaneous
 
-Lightning arcs from your hands. Each creature in a 60-foot cone must make a Dexterity saving throw. A creatures takes 12d6 lightning damage on a failed save, or half as much on a successful one.
+Lightning arcs from your hands. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes 12d6 lightning damage on a failed save, or half as much on a successful one.
 
 ***Force Potency.*** When you cast this power using a force slot of 8th level or higher, the damage increases by 2d6 for each slot level above 7th.
 
@@ -1140,7 +1165,7 @@ ___
 
 Until the power ends or you use an action to dismiss it, you can disguise yourself through use of the Force in many ways. You can appear to be shorter or taller by about a foot and change the appearance of your body and weight, but you cannot change the basic structure of your body. This effect can include your clothes, weapons, and other belongings on your person.
 
-This effect is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature that uses its action to examine you can identify this effect with a successful Intelligence (Investigation) check against your force save DC. This power has no effect on droids or constructs.
+This effect is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature that uses its action to examine you can identify this effect with a successful Intelligence (Investigation) check against your force save DC. 
 
 #### Force Meld
 _5th-level universal power_
@@ -1192,7 +1217,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
-Choose one or more creatures or objects not being worn or carried within 60 feet that weigh up to a combined total of 15 pounds. The creatures or objects immediately move 60 feet in a direction of your choice. If the creatures or objects end this movement in the air, they immediately fall to the ground. If the creatures or objects collide with any one target during its travel, both the creatures or objects and the target take 3d8 kinetic damage. If the target is a creature, it must make a Dexterity saving throw. On a failed save, it takes 3d8 kinetic damage, or half as much on a successful one.
+Choose one or more creatures or objects not being worn or carried within 60 feet that weigh up to a combined total of 15 pounds. The creatures or objects immediately move 60 feet in a direction of your choice. If the creatures or objects end this movement in the air, they immediately fall to the ground. If the creatures or objects collide with any one target during its travel, both the creatures or objects and the target take 3d8 kinetic damage. If the target is a creature, it must make a Dexterity saving throw. On a failed save, it takes the kinetic damage, or half as much on a successful one.
 
 ***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the maximum weight increases by 15 pounds and the damage increases by 1d8 for each slot level above 1st.
 
@@ -1319,7 +1344,13 @@ ___
 - **Range:** 90 feet
 - **Duration:** Instantaneous
 
-You use the Force to move a Large or smaller creature or object not being worn or carried within range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 90 feet, a Small creature or object can be moved up to 60 feet, a Medium creature or object can be moved up to 30 feet, and a Large creature or object can be moved up to 10 feet. If at the end of this movement the creature or object strikes another creature or object, they both take 2d8 force damage.
+You use the Force to move a Large or smaller creature or object not being worn or carried within 
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 90 feet, a Small creature or object can be moved up to 60 feet, a Medium creature or object can be moved up to 30 feet, and a Large creature or object can be moved up to 10 feet. If at the end of this movement the creature or object strikes another creature or object, they both take 2d8 force damage.
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the range you can throw a creature or object increases by 10 feet, to a maximum of 90 feet, and the power's damage increases by 1d8.
 
@@ -1359,7 +1390,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 hour
 
-You touch an unenhanced weapon with which you are proficient. While you wield it for the duration, that weapon becomes an enhanced weapon with a +1 bonus to attack rolls and damage rolls. Additionally, you can use your forcecasting modifier instead of your Strength or Dexterity modifier for attacks and damage rolls when attacking with that weapon.
+You touch an unenhanced weapon with which you are proficient. While you wield it for the duration, that weapon becomes an enhanced weapon with a +1 bonus to attack rolls and damage rolls. Additionally, you can use your forcecasting ability modifier instead of your Strength or Dexterity modifier for attacks and damage rolls when attacking with that weapon.
 
 ***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the bonus increases to +2. When you use a force slot of 7th level or higher, the bonus increases to +3.
 
@@ -1478,7 +1509,11 @@ The hallucination includes sound, temperature, and other stimuli, also evident o
 
 The target can use its action to examine the hallucination with an Intelligence (Investigation) check against your force power save DC. If the check succeeds, the target realizes that the hallucination is an illusion, and the power ends.
 
-While a target is affected by the power, the target treats the hallucination as if it were real. The target rationalizes any illogical outcomes from interacting with the hallucination. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall - it was pushed, it slipped, or a strong wind might have knocked it off.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;While a target is affected by the power, the target treats the hallucination as if it were real. The target rationalizes any illogical outcomes from interacting with the hallucination. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall - it was pushed, it slipped, or a strong wind might have knocked it off.
 
 An affected target is so convinced of the hallucination's reality that it can even take damage from the illusion. A hallucination created to appear as a creature can attack the target. Similarly, a hallucination created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the hallucination can deal 1d6 psychic damage to the target if it is in the hallucination's area or within 5 feet of the hallucination, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.
 
@@ -1638,7 +1673,13 @@ ___
 - **Range:** Self (30-foot radius)
 - **Duration:** Instantaneous 
 
-You emit a violent scream imbued with the power of the Force. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw. On a failed save, a creature take 5d6 psychic damage, 5d6 sonic damage, is deafened until the end of its next turn, and is knocked prone. On a successful save, it takes half as much damage and isn't deafened or knocked prone.
+You emit a violent scream imbued with the power of the Force. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw. On a 
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+failed save, a creature take 5d6 psychic damage, 5d6 sonic damage, is deafened until the end of its next turn, and is knocked prone. On a successful save, it takes half as much damage and isn't deafened or knocked prone.
 
 #### Improved Heal
 _5th-level light side power_
@@ -1714,9 +1755,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
-As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power's range, otherwise the power fails. 
-
-On a hit, the target takes 2d8 damage of the same type as the weapon's damage and must make a Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target's next turn deals an additional 1d10 force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect.
+As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power's range, otherwise the power fails. On a hit, the target takes 2d8 damage of the same type as the weapon's damage and must make a Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target's next turn deals an additional 1d10 force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect. The weapon then immediately returns to your hand.
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the force damage increases by 1d10 for each slot level above 2nd.
 
@@ -1731,6 +1770,10 @@ ___
 This power assaults and twists creatures' minds, spawning delusions and provoking uncontrolled action. Each creature in a 30-foot-radius sphere centered on you must succeed on a Wisdom saving throw when you cast this power or be affected by it.
 
 An affected target can't take reactions and must roll a d8 at the start of each of its turns to determine its behavior for that turn. This power has no effect on constructs or droids.
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
 
 |d8&nbsp;&nbsp;|Behavior|
 |:--:|:--|
@@ -1794,7 +1837,7 @@ _2nd-level universal power_
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
-- **Duration:** Concentration, up to 1 minute
+- **Duration:** Concentration, up to 10 minutes
 
 Describe or name an object. You sense the direction to the object's location, as long as its within 1000 feet of you. If the object is in motion, you know the direction of its movement. The power can locate a specific object known to you, as long as you have seen it while within 30 feet of it. Alternatively, the power can locate the nearest object of a particular kind. This power can't locate an object if any thickness of lead blocks a direct path between you and the object.
 
@@ -1820,7 +1863,7 @@ ___
 - **Range:** 30 feet
 - **Duration:** Concentration, up to 1 minute
 
-A creature of your choice that you can see within range is overcome with a sense of dizziness and nausea, as you disturb its equilibrium with the Force. The creature must make a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration.
+A creature of your choice that you can see within range is overcome with a sense of dizziness and nausea, as you disturb its equilibrium with the Force. The creature must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration.
 
 At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the power ends. This power has no effect on droids or constructs.
 
@@ -1832,9 +1875,15 @@ ___
 - **Range:** 120 feet
 - **Duration:** Concentration, up to 1 minute
 
-You snag several objects using the Force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is was a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.
+You snag several objects using the Force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.
 
-As a bonus action, you can mentally direct any object controlled by this power. If you control multiple objects, you can command any or all of them at the same time. You decide what action the object will take and where it will move. The objects act at the end of your turn. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and kinetic damage determined by its size.
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
+
+\pagebreakNum
+
+<div style='margin-top:16px'></div>
+
+&emsp;As a bonus action, you can mentally direct any object controlled by this power. If you control multiple objects, you can command any or all of them at the same time. You decide what action the object will take and where it will move. The objects act at the end of your turn. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and kinetic damage determined by its size.
 
 |Size|		HP|	AC|	Attack|
 |:--|:--:|:--:|:--:|
@@ -1948,7 +1997,11 @@ Powers and other enhanced effects are suppressed in the sphere and can't protrud
 
 ***Enhanced Areas.*** The area of another power or enhanced effect, such as _force storm_, can't extend into the sphere. If the sphere overlaps an enhanced area, the part of the area that is covered by the sphere is suppressed.
 
-***Powers.*** Any active power or other enhanced effect on a creature or an object in the sphere is suppressed while the creature or object is in it.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Powers.*** Any active power or other enhanced effect on a creature or an object in the sphere is suppressed while the creature or object is in it.
 
 ***Enhanced Items.*** The properties and powers of enhanced items are suppressed in the sphere. For example, a +1 vibrosword in the sphere functions as an unenhanced vibrosword.
 
@@ -1968,7 +2021,7 @@ ___
 - **Range:** Self (60-foot radius)
 - **Duration:** Instantaneous
 
-You emit a cacophonous scream imbued with the power of the Force. Each creature you choose within 60 feet of you must succeed on a Constitution saving throw. On a failed save, a creature takes 6d6 psychic damage, 6d6 sonic damage, is deafened, knocked prone, and blinded for 1 minute. On a successful save, it takes half as much damage and isn't deafened, knocked prone, or blinded by this power. 
+You emit a cacophonous scream imbued with the power of the Force. Each creature you choose within 60 feet of you must succeed on a Constitution saving throw. On a failed save, a creature takes 6d6 psychic damage, 6d6 sonic damage, is deafened and blinded for 1 minute, and knocked prone. On a successful save, it takes half as much damage and isn't deafened, blinded, or knocked prone.
 
 A creature blinded by this power makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.
 
@@ -2103,7 +2156,11 @@ ___
 
 You touch a willing creature and put it into a cataleptic state that is indistinguishable from death. 
 
-For the power's duration, or until you use an action to touch the target and dismiss the power, the target appears dead to all outward inspection and to powers used to determine the target's status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the power, or becomes diseased or poisoned while under the power's effect, the disease and poison have no effect until the power ends. This power has no effect on droids or constructs.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;For the power's duration, or until you use an action to touch the target and dismiss the power, the target appears dead to all outward inspection and to powers used to determine the target's status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the power, or becomes diseased or poisoned while under the power's effect, the disease and poison have no effect until the power ends. This power has no effect on droids or constructs.
 
 #### Necrotic Charge
 _At-will dark side power_
@@ -2220,7 +2277,7 @@ ___
 - **Range:** Self
 - **Duration:** 10 minutes
 
-For the duration, you gain the ability to "communicate" telepathically with inanimate objects you touch. You can ask up to five questions and receive answers from objects, usually in the form of a auditory or visual hallucination. For example, touching the rusted, broken remains of a lightsaber and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to the ground on that spot. An object "questioned" in this way can only provide information relating to its past. The DM has the final say on what objects can be questioned, and to what extent.
+For the duration, you gain the ability to "communicate" telepathically with inanimate objects you touch. You can ask up to five questions and receive answers from objects, usually in the form of an auditory or visual hallucination. For example, touching the rusted, broken remains of a lightsaber and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to the ground on that spot. An object "questioned" in this way can only provide information relating to its past. The DM has the final say on what objects can be questioned, and to what extent.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -2251,7 +2308,7 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous
 
-You strike a creature with the righteous fury of the Force. Make a melee force attack against the target, if the attack hits, the target takes force damage depending on its alignment: a dark-aligned creature takes 1d12 force damage, a balanced creature takes 1d10 force damage, and a light-aligned creature takes 1d8 force damage.
+You strike a creature with the righteous fury of the Force. Make a melee force attack against the target, if the attack hits, the target takes force damage depending on its alignment: a dark-aligned creature takes 1d12 force damage, a balanced or unaligned creature takes 1d10 force damage, and a light-aligned creature takes 1d8 force damage.
 
 The power's damage increases by one die when you reach 5th, 11th, and 17th level.
 
@@ -2321,7 +2378,13 @@ ___
 
 You channel the dark side of the Force to desecrate a creature you can see within range, causing waves of intense pain to assail it. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the power has no effect on it. 
 
-While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a power, it must first succeed on a Constitution saving throw, or the casting fails and the power is wasted.
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
+
+\pagebreakNum
+
+<div style='margin-top:16px'></div>
+
+&emsp;While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a power, it must first succeed on a Constitution saving throw, or the casting fails and the power is wasted.
 
 A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends.
 
@@ -2332,7 +2395,7 @@ ___
 - **Range:** Self
 - **Duration:** Instantaneous 
 
-In response to being attacked, you raise your weapon to attempt to deflect. When you you use this power, the damage you take from the attack is reduced by 1d6. If you reduce the damage to 0, you're wielding a lightweapon or vibroweapon, and the damage is energy or ion, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 20 feet and a long range of 60 feet. On a hit, the target takes the triggering attack's normal damage. 
+In response to being attacked, you raise your weapon to attempt to deflect. When you use this power, the damage you take from the attack is reduced by 1d6. If you reduce the damage to 0, you're wielding a lightweapon or vibroweapon, and the damage is energy or ion, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 20 feet and a long range of 60 feet. On a hit, the target takes the triggering attack's normal damage. 
 
 The power's damage reduction increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
@@ -2394,7 +2457,7 @@ For the power's duration, your eyes become an inky void imbued with dread power.
 
 ***Panicked.*** The target is frightened of you. On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.
 
-***Sickened.*** The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends.
+***Sickened.*** The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Constitution saving throw. If it succeeds, the effect ends.
 
 <div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
 
@@ -2432,7 +2495,7 @@ For the duration, you sense the use of the Force, or its presence in an inanimat
 #### Sever Force
 _3rd-level universal power_
 ___
-- **Casting Time:** 1 reaction
+- **Casting Time:** 1 reaction, which you take when you see a creature within 60 feet of you casting a force power
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
@@ -2523,7 +2586,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 hour
 
-Your power with the Force deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the power ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill. 
+Your power with the Force deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the power ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.
 
 You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.
 
@@ -2822,7 +2885,13 @@ ___
 - **Range:** 300 feet
 - **Duration:** Concentration, up to 1 minute
 
-A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the power ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.
+A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the power ends, you can use your action to move 
+
+<div class='footnote'>CHAPTER 11 | FORCE POWERS</div>
+
+\pagebreakNum
+
+the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.
 
 A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes 10d6 kinetic damage on a failed save, or half as much damage on a successful one. Additionally, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become restrained in the whirlwind until the power ends. When a creature starts its turn restrained by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A restrained creature moves with the whirlwind and falls when the power ends, unless the creature has some means to stay aloft.
 
@@ -2844,7 +2913,11 @@ The basic use of this power is to duplicate any other light side or universal fo
 - You grant up to ten creatures you can see immunity to a single power or other specific enhanced effect for 8 hours. For instance, you could make yourself and all your companions immune to the Manifestation of Abeloth's Will ability.
 - You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, *will of the force* could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.
 
-You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This power might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary enhanced item or artifact might instantly transport you to the presence of the item's current owner.
+You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude 
+
+\columnbreak
+
+in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This power might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary enhanced item or artifact might instantly transport you to the presence of the item's current owner.
 
 The stress of casting this power to produce any effect other than duplicating another power weakens you. After enduring that stress, each time you cast a power until you finish a long rest, you take 1d10 necrotic damage per level of that power, which can't be reduced or prevented in any way. Additionally, your Strength drops to 3, if it isn't 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Additionally, there is a 33 percent chance that you are unable to cast *will of the force* ever again if you suffer this stress. Finally, if you are reduced to 0 hit points as a result of this necrotic damage, or at any point before you have fully recovered from the Strength reduction, you immediately die and cannot be resurrected as your body fades away, absorbed into the living Force.
 

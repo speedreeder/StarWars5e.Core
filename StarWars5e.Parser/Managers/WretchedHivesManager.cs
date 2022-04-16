@@ -82,6 +82,11 @@ namespace StarWars5e.Parser.Managers
                 var enhancedItemProcessor = new EnhancedItemProcessor(_localization);
                 var enhancedItems = await enhancedItemProcessor.Process(_whFilesName.Where(f => f.Equals("WH.wh_aa.txt")).ToList(), _localization);
 
+                var dupes = enhancedItems
+                        .GroupBy(i => i.RowKey)
+                        .Where(g => g.Count() > 1)
+                        .Select(g => g.Key);
+
                 foreach (var enhancedItem in enhancedItems)
                 {
                     enhancedItem.ContentSourceEnum = ContentSource.WH;
@@ -94,7 +99,7 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<EnhancedItem>($"enhancedItems{_localization.Language}", enhancedItems,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException)
+            catch (StorageException e)
             {
                 Console.WriteLine("Failed to upload WH enhanced items.");
             }

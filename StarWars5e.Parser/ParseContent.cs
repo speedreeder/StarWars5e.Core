@@ -52,6 +52,7 @@ namespace StarWars5e.Parser
             var extendedContentEnhancedItemManager =
                 new ExpandedContentEnhancedItemsManager(azureTableStorage, globalSearchTermRepository, localization);
             var gggManager = new GggManager(serviceProvider, localization);
+            var extendedContentManeuversManager = new ExpandedContentManeuversManager(azureTableStorage, globalSearchTermRepository, localization);
 
             var referenceTables = await referenceTableManager.Parse();
             var powers = await playerHandbookManager.Parse();
@@ -70,6 +71,7 @@ namespace StarWars5e.Parser
             await creditsManager.Parse();
             await extendedContentEnhancedItemManager.Parse();
             await gggManager.Parse();
+            await extendedContentManeuversManager.Parse();
 
             try
             {
@@ -122,7 +124,7 @@ namespace StarWars5e.Parser
                 }
                 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Failed to write features to sheet.");
             }
@@ -141,7 +143,7 @@ namespace StarWars5e.Parser
                     "player-handbook-rules", "starships-rules", "variant-rules", "wretched-hives-rules",
                     "characterAdvancementLU", "conditionsLU", "featureDataLU", "featureLevelLU", "skillsLU", "fightingStyles",
                     "fightingMasteries", "expanded-content", "lightsaberForms", "classImprovements", "multiclassImprovements", "splashclassImprovements",
-                    "weaponFocuses", "weaponSupremacies"
+                    "weaponFocuses", "weaponSupremacies", "maneuvers"
                 };
                 var dataVersions = dataNames.Select(d => new DataVersion
                 {

@@ -26,7 +26,7 @@ As you advance in levels, you might primarily remain a member of your original c
 \columnbreak
 
 ### Prerequisites
-To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, a fighter who decides to multiclass into the consular class must have either Strength or Dexterity and Wisdom scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores.
+To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, a berserker who decides to multiclass into the engineer class must have both Strength and Intelligence scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores.
 
 ##### Multiclassing Prerequisites
 |Class|&nbsp;&nbsp;|Ability Score Minimum|
@@ -51,15 +51,13 @@ You gain the hit points from your new class as described for levels after 1st. Y
 You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the fighter and the guardian have a d10, so if you are a fighter 5/guardian 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, keep track of them separately. If you are a fighter 5/operative 5, for example, you have five d10 Hit Dice and five d8 Hit Dice.
 
 ### Proficiency Bonus
-Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table in chapter 1, not your level in a particular class. For example, if you are a fighter 3/operative 2, you have the proficiency bonus of a 5th-level character, which is +3.
+Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table in chapter 1. For example, if you are a fighter 3/operative 2, you have the proficiency bonus of a 5th-level character, which is +3.
+
+If a feature or feat allows you to forgo your proficiency bonus, you may only do so once.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
-
-<div style='margin-top:19px'></div>
-
-If a feature or feat allows you to forgo your proficiency bonus, you may only do so once.
 
 ### Proficiencies
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multiclassing Proficiencies table.
@@ -79,25 +77,28 @@ When you gain a level in a class other than your first, you gain only some of th
 |Sentinel||Light armor, simple lightweapons, one skill from the class's list|
 
 ## Class Features
-When you gain a new level in a class, you get its features for that level. A few features, however, have additional rules when you're multiclassing: Extra Attack, Superiority Die, Unarmored Defense, and Force- or Tech-casting.
+When you gain a new level in a class, you get its features for that level. Some features, however, have additional rules when you're multiclassing, as shown below.
 
 ### Extra Attack
 If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make more than two attacks with this feature unless it says you do. 
 
-### Superiority Dice
-If you have levels in multiple classes that have superiority dice, you track the size and quantity of your superiority dice for each class separately, but you can use either classes' superiority dice to fuel the other classes' maneuvers.
+### Superiority and Maneuvers
+If you have levels in multiple classes that have superiority features:
+- **Maneuvers Known:** Choose your maneuvers from each class separately and then combine them into a single pool.
+- **Superiority Dice:** You add your superiority dice from each class together as a single pool.
+- **Die Size:** Add your levels in each class together and compare the total to any of your class's superiority table to determine the size of your superiority die.
 
 ### Unarmored Defense
 If you already have the Unarmored Defense feature, you can't gain it again from another class.
 
 ### Force- and Tech-casting
-Your capacity for force- and tech-casting depends partly on your combined levels in all your force- or tech-casting classes and partly on your individual levels in those classes. Once you have the force- or tech-casting feature from more than one class, use the rules below. If you multiclass but have the force- or tech-
+Your capacity for force- and tech-casting depends partly on your combined levels in all your force- or tech-casting classes and partly on your individual levels in those classes. Once you have the force- or tech-casting feature from more than one class, use the rules 
 
 \columnbreak
 
 <div style='margin-top:19px'></div>
 
-casting feature from only one class, you follow the rules as described in that class.
+below. If you multiclass but have the force- or tech-casting feature from only one class, you follow the rules as described in that class.
 
 #### Powers Known 
 You determine what powers you know and can prepare for each class individually, as if you were a single-classed member of that class. If you are a scout 4/consular 3, for example, you know 6 tech powers of no higher than 1st-level. As a 3rd-level consular, you know 11 force powers of no higher than 2nd-level.
@@ -258,7 +259,7 @@ You can take this feat multiple times. Each time you do so, you must choose a di
 You've practiced fighting while prone, gaining the following benefits:
 - Increase your Dexterity score by 1, to a maximum of 20.
 - You gain a crawling speed equal to your movement speed.
-- You no longer have disadvantage on ranged attack rolls against targets within 30 feet.
+- While prone, you no longer have disadvantage on ranged attack rolls against targets within 30 feet due to being prone.
 - When you attempt to hide on your turn while prone, you can opt to not move on that turn. If you avoid moving, you are considered lightly obscured. You lose this benefit if you move or stand up, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden. If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
@@ -335,7 +336,7 @@ You can take this feat multiple times.
 _**Prerequisite:** The ability to cast force powers_<br>
 You've learned to utilize your gift with the Force in a specific, unique way. You gain the following benefits
 - Increase your Wisdom or Charisma score by 1, to a maximum of 20. 
-- Choose a skill or tool in which you are proficient. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
+- Choose a skill or tool in which you are proficient. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to the check if it doesn't already include that modifier. You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a long rest.
 
 You can take this feat multiple times. Each time you do so, you must choose a different skill or tool.
 
@@ -483,7 +484,7 @@ You can take this feat multiple times. Each time you do so, you must choose a di
 
 ### Power Channeling
 _**Prerequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
-Choose one from force- or tech-casting. You've learned to cast powers of the chosen type with greater deliberation. Choose a number of powers you know of 1st level or higher equal to half your proficiency bonus (rounded down). When you cast one of the chosen powers, you can choose to spend an additional minute casting the power for each level of the power. If you do so, the cost of the power is reduced by half the number of points (rounded down). Casting a power in this way requires concentration (explained in chapter 10). If your concentration is broken, the power dissipates without taking effect. 
+Choose one from force- or tech-casting. You've learned to cast powers of the chosen type with greater deliberation. Choose a number of powers you know of 1st level or higher equal to half your proficiency bonus. When you cast one of the chosen powers, you can choose to spend an additional minute casting the power for each level of the power. If you do so, the cost of the power is reduced by half the number of points. Casting a power in this way requires concentration (explained in chapter 10). If your concentration is broken, the power dissipates without taking effect. 
 
 Whenever you gain a level in a class with casting of the chosen type, you can replace one of the chosen powers with another power of 1st level or higher you know.
 
@@ -528,7 +529,7 @@ You are specially modified droid used to house a shard. Shards are sentient crys
 <div style='margin-top:23px'></div>
 
 - Increase an ability score of your choice by 1, to a maximum of 20.
-- You lose the Force Insensitive special trait.
+- You lose the Force-Insensitive special trait.
 - You can cast the *sense force* force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.
 
 ### Silver-Tongued 
@@ -622,7 +623,7 @@ You can take this feat twice.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FEATS</div>
 
-\pagebreakNum
+\pagebreak
 
 ## Fighting Styles
 Certain class features, or the Fighting Stylist feat, offer your choice of fighting style. You can't choose a fighting style more than once, even if you later get to choose again.
@@ -631,47 +632,74 @@ You may choose your fighting style from the following options or roll on the tab
 
 <div style='column-count:2'>
 
-|d24|Fighting Style|
+|d32|Fighting Mastery|
 |:--:|:--|
 |1|Akimbo|
-|2|Berserk|
-|3|Brawler|
-|4|Covert|
-|5|Defense|
-|6|Disruption|
-|7|Dual Wield|
-|8|Duelist|
-|9|Equilibrium|
-|10|Explosives|
-|11|Formation|
-|12|Formfighting|
+|2|Area|
+|3|Assisting|
+|4|Berserk|
+|5|Blindfighting|
+|6|Brawler|
+|7|Counterstrike|
+|8|Covert|
+|9|Defense|
+|10|Disruption|
+|11|Dual Wield|
+|12|Duelist|
+|13|Equilibrium|
+|14|Explosives|
+|15|Formation|
+|16|Formfighting|
 
-|d24|Fighting Style|
+|d32|Fighting Mastery|
 |:--:|:--|
-|13|Great Weapon|
-|14|Guerrilla|
-|15|Gunning|
-|16|Mounted|
-|17|Onslaught|
-|18|Sentinel|
-|19|Sharpshooter|
-|20|Shield|
-|21|Snapshot|
-|22|Throwing|
-|23|Twin-Blade|
-|24|Versatile|
+|17|Great Weapon|
+|18|Guerrilla|
+|19|Gunning|
+|20|Mounted|
+|21|Onslaught|
+|22|Secured|
+|23|Sentinel|
+|24|Sharpshooter|
+|25|Shield|
+|26|Snapshot|
+|27|Split|
+|28|Spotting|
+|29|Superiority|
+|30|Throwing|
+|31|Twin-Blade|
+|32|Versatile|
 
 </div>
 
 #### Akimbo Style
-You are skilled at fighting with two blasters. While you are wielding separate weapons in each hand with which you are proficient, you gain the following benefits:
+You are skilled at fighting with two blasters. You gain the following benefits:
 - When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage roll of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.
 - Reloading a weapon no longer requires a free hand.
+
+#### Area Style
+You are skilled with weapons that affect an area. You gain the following benefits:
+- When a creature successfully saves against a flechette clip, flechette mag, projector canister, or projector tank, you can use your bonus action to force them to repeat the save.
+- When a creature rolls a 1 on the saving throw against a flechette clip, flechette mag, projector canister, or projector tank you control, they treat the effect's damage as if it had rolled the maximum.
+
+#### Assisting Style
+You are skilled at enabling your allies. You gain the following benefits:
+- You can take the Help action as a bonus action. If you could already take the Help action as a bonus action, you can instead take it as a reaction on your turn.
+- Creatures benefiting from your Help action can't have disadvantage on the affected ability check or attack roll.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
 
 #### Berserk Style
 You are skilled at returning pain to those who deliver it. You gain the following benefits: 
 - When you hit with a melee weapon attack using Strength, you deal additional damage equal to your Strength modifier if that creature dealt damage to you since the start of your last turn.
 - When you choose to let an attack that would miss you hit you instead, the creature rolls the damage as normal instead of choosing the maximum.
+
+#### Blindfighting Style
+You are skilled at fighting without sight. You gain the following benefits:
+- You gain blindsight out to 10 feet. If you already have blindsight, it instead increases by 10 feet.
+- You can use your bonus action to double the range of your blindsight until the start of your next turn.
 
 #### Brawler Style
 You are skilled at using your weight to your advantage. You gain the following benefits:
@@ -679,18 +707,23 @@ You are skilled at using your weight to your advantage. You gain the following b
 - Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).
 - When you take the Attack action and attempt to grapple, shove, or trip a creature, or make an attack against a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can use your bonus action to make an unarmed strike, grapple, shove, or trip against the same creature.
 
-\columnbreak
-
-<div style='margin-top:28px'></div>
+#### Counterstrike Style
+You are skilled at returning attacks at those who dare strike you. You gain the following benefits:
+- When you would provoke an opportunity attack on your turn, you can use your bonus action to force the creature to make the opportunity attack, if it can. If you do so, and the attack hits, the creature has disadvantage on the damage roll.
+- Creatures can't have advantage on attack rolls made against you during your turn.
 
 #### Covert Style
 You are skilled at fighting from unseen angles. You gain the following benefits:
 - You can take the Hide action as a bonus action. If you could already take the Hide action as a bonus action, you can instead take it as a reaction on your turn.
 - Creatures you've dealt damage to since the start of your last turn have disadvantage on Wisdom (Perception) checks made to find you.
 
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
+
+\pagebreakNum
+
 #### Defense Style
-You are skilled at the art of defending yourself. While you are wearing medium or heavy armor with which you are proficient, you gain the following benefits:
-- You can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, damage dealt to you by the target is reduced by an amount equal to half your Strength or Constitution modifier (your choice, rounded up, minimum of 1) while marked. You can only have one creature marked in this way at a time.
+You are skilled at the art of defending yourself. You gain the following benefits:
+- While you are wearing medium or heavy armor with which you are proficient, you can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, damage dealt to you by the target is reduced by an amount equal to half your Strength or Constitution modifier (your choice, minimum of one) while marked. You can only have one creature marked in this way at a time.
 - You have advantage on Strength checks and Strength saving throws to avoid being moved.
 
 #### Disruption Style
@@ -699,39 +732,33 @@ Choose one from force- or tech-casting. You are skilled at fighting and interfer
 - Once per round, when a hostile creature attempts to cast a power while within 5 feet of you, they must first make a Constitution saving throw as if to maintain concentration (DC = 10 + the power's level). On a failure, the power isn't cast and any points are wasted.
 
 #### Dual Wield Style
-You are skilled at fighting with two<br> weapons. While you are wielding<br> separate weapons in each hand<br> with which you are proficient, you<br> gain the following benefits:
-- When you engage in Two-Weapon<br> Fighting, you can add your ability<br> modifier to the damage roll of<br> your Two-Weapon Fighting<br> attack as long as it doesn't<br> already include that<br> modifier.
-- When you make an<br> opportunity<br> attack, you can<br> attack with both of<br> your weapons.
-
-<img src='https://www.gmbinder.com/images/96gFNkx.png' style='position:absolute;bottom:-189px;right:-20px;width:350px;z-index:1000;'/>
-
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
-
-\pagebreakNum
+You are skilled at fighting with two weapons. You gain the following benefits:
+- When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage roll of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.
+- When you make an opportunity attack, you can attack with both of your weapons.
 
 #### Duelist Style
-You are skilled in the art of fighting with a single weapon. While you are wielding a weapon in one hand with which you are proficient and no other weapons, you gain the following benefits:
-- You can use your bonus action to feint. If you do so, you must make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. On a success, you have advantage on the first attack roll you make against them before the start of your next turn.
-- When you miss with a weapon attack on your turn, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.
+You are skilled in the art of fighting with a single weapon. You gain the following benefits:
+- While you are wielding a weapon in one hand with which you are proficient and no other weapons, you can use your bonus action to feint. If you do so, you must make a Dexterity (Sleight of Hand) or Charisma (Deception) check (your choice) contested by the target's Wisdom (Insight) check. On a success, you have advantage on the first attack roll you make against them before the start of your next turn.
+- While you are wielding a weapon in one hand with which you are proficient and no other weapons, when you miss with a weapon attack on your turn, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.
 - Once on each of your turns, drawing or stowing a one-handed weapon no longer requires your object interaction.
 
+\columnbreak
+
 #### Equilibrium Style
-You are skilled at fighting without the confines of armor. While you are wearing light or no armor and not wielding a shield, you gain the following benefits:
-- You can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, you gain a bonus to AC and Dexterity saving throws against effects the target controls equal to half your Dexterity modifier (rounded up, minimum of +1) while marked. You can only have one creature marked in this way at a time.
+You are skilled at fighting without the confines of armor. You gain the following benefits:
+- While you are wearing light or no armor and not wielding a shield, you can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, you gain a bonus to AC and Dexterity saving throws against effects the target controls equal to half your Dexterity modifier (minimum of +1) while marked. You can only have one creature marked in this way at a time.
 - You have advantage on Dexterity checks and Dexterity saving throws to avoid being moved.
 
 #### Explosives Style
 You are skilled at fighting with explosives. You gain the following benefits:
-- You can throw grenades with your bonus action, instead of your action. If you could already throw grenades as a bonus action, you can instead do so as a reaction on your turn.
-- When a creature rolls a 1 on the saving throw against an ammunition or explosive you control, they treat the effect's damage as if it had rolled the maximum.
+- You can throw grenades and set mines with your bonus action, instead of your action. If you could already throw grenades and set mines as a bonus action, you can instead do so as a reaction on your turn.
+- When a creature rolls a 1 on the saving throw against a charge, grenade, mine, missile, or rocket you control, they treat the effect's damage as if it had rolled the maximum.
 
 #### Formation Style
-You are skilled at fighting with a partner. While an ally is within 5 feet of you, you gain the following benefits:
+You are skilled at fighting with a partner. You gain the following benefits:
 - You can take the Guard action as a bonus action. If you could already take the Guard action as a bonus action, you can instead take it as a reaction on your turn.
 - When you move on your turn, you can use a bonus action to allow a willing ally within 5 feet of you to move with you (no action required by the ally). The ally must end this movement within 5 feet of you, and this movement can't exceed the ally's speed.
 - When you choose to let an attack that would hit a guarded ally hit you instead, the creature rolls the damage as normal instead of choosing the maximum.
-
-\columnbreak
 
 #### Formfighting Style
 _**Prerequisite:** The ability to cast force powers_<br>
@@ -740,9 +767,13 @@ You are skilled at the basics of the known forms of lightsaber combat. You gain 
 - Once on each of your turns, you can draw or stow a lightweapon without using your object interaction.
 
 #### Great Weapon Style
-You are skilled at putting the weight of a weapon to your advantage. While you are wielding a light- or vibro-weapon with the two-handed property with which you are proficient, you gain the following benefits:
-- When you roll a 1 or 2 on a weapon damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2.
+You are skilled at putting the weight of a weapon to your advantage. You gain the following benefits:
+- While you are wielding a two-handed light- or vibro-weapon with which you are proficient, when you roll a 1 or 2 on a weapon damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2.
 - Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
+
+\pagebreakNum
 
 #### Guerrilla Style
 You are skilled at maneuvering across the battlefield. You gain the following benefits:
@@ -750,8 +781,8 @@ You are skilled at maneuvering across the battlefield. You gain the following be
 - When you take the Disengage action, you ignore unenhanced difficult terrain, and you have advantage on the first ability check or saving throw to avoid an effect that impairs your movement speed or forces you to move before the start of your next turn.
 
 #### Gunning Style
-You are skilled at using blasters in unique ways. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
-- When a creature rolls a 1 on the saving throw against the burst or rapid property, or a specialized power cell or slug cartridge, that you control, they treat the effect's damage as if it had rolled the maximum.
+You are skilled at using blasters in unique ways. You gain the following benefits:
+- When a creature rolls a 1 on the saving throw against your burst or rapid property, or a specialized power cell or slug cartridge, that you control, they treat the effect's damage as if it had rolled the maximum.
 - When you use the burst property of a weapon, you can instead spray a line 20 feet long and 5 feet wide within range with shots. 
 - When you use the rapid property of a weapon, when you roll the weapon's damage dice twice, you can double one set of the weapon's damage dice and forgo the other instead of adding them together.
 
@@ -760,14 +791,17 @@ You are skilled at fighting while mounted. You gain the following benefits:
 - Mounting a vehicle or beast only uses 5 feet of your movement, provided you can reach it.
 - You can force an attack targeted at your mount to target you instead, provided you are a valid target for that attack.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
-
-\pagebreakNum
-
 #### Onslaught Style
 You are skilled at using your momentum to your advantage. You gain the following benefits:
 - You can take the Dash action as a bonus action. If you could already take the Dash action as a bonus action, you can instead take it as a reaction on your turn.
-- When you attempt to trip a creature, you can make an attack roll against the target's AC instead of a contested check. If you are wielding your weapon in two hands, you make this attack roll with advantage.
+- When you would make an ability check to attempt to shove or trip a creature, you can make an attack roll against the target's AC instead of a contested check. If you are wielding your weapon in two hands, you make this attack roll with advantage.
+
+#### Secured Style
+You are skilled at fighting with weapons in atypical places. You gain the following benefits:
+- At the start of each of your turns while wielding a fixed weapon, you can choose to treat the weapon as a light shield until the start of your next turn. If you do so, you can't make attacks with the weapon for the duration.
+- You can benefit from fixed weapons while the hand is full.
+
+\columnbreak
 
 #### Sentinel Style
 You are skilled at techniques that take advantage of every drop in any enemy's guard. You gain the following benefits:
@@ -775,44 +809,60 @@ You are skilled at techniques that take advantage of every drop in any enemy's g
 - When you hit a creature that is no more than one size larger than you with an opportunity attack, the creature gains 4 slowed levels until the end of the current turn.
 
 #### Sharpshooter Style
-You are skilled with firing at distant targets. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
+You are skilled with firing at distant targets. You gain the following benefits:
 - You can use your bonus action to mark a target greater than 30 feet from you that you can see. If you do so, and that target moves at least 5 feet before the start of your next turn, they provoke an opportunity attack from you, and you can use a blaster weapon for that opportunity attack.
 - Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter cover, you ignore it entirely.
 - Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
 
 #### Shield Style
-You are skilled at using your shield to defend your allies as well as yourself. While you are wielding a shield with which you are proficient, you gain the following benefits:
-- You are no longer required to wield a weapon with the light property while also wielding a heavy shield.
+You are skilled at using your shield to defend your allies as well as yourself. You gain the following benefits:
+- You are no longer restricted to wielding light weapons while wielding a heavy shield.
 - You can use a bonus action to try to shove or trip a creature within 5 feet of you with your shield.
-- When you use a shield as an improvised weapon, you are considered proficient in it, light shields are considered to have the light property, and heavy shields are considered to have the heavy property.
+- When you use a shield as an improvised weapon, you are considered proficient in it, light shields are considered to have the light and fixed weapon properties, and heavy shields are considered to have the heavy weapon property.
 
 #### Snapshot Style
-You are skilled at getting up close and personal. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
+You are skilled at getting up close and personal. You gain the following benefits:
 - You no longer have disadvantage on ranged weapon attacks due to being within 5 feet of a hostile creature.
-
-\columnbreak
-
-<div style='margin-top:16px'></div>
-
 - Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter cover, you ignore it entirely.
 - When you roll a 1 on a blaster weapon damage die against a creature within 30 feet, you can reroll the die and must use the new roll, even if the new roll is a 1.
 - Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
 
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
+
+\pagebreakNum
+
+#### Spotting Style
+You are skilled at keeping track of your surroundings. You gain the following benefits:
+- You can take the Search action as a bonus action. If you could already take the Search action as a bonus action, you can instead take it as a reaction on your turn.
+- You have advantage on ability checks and saving throws to determine the nature of illusions. If you would already have advantage, you can instead reroll one of the dice once.
+
+#### Split Style
+You are skilled at fighting with interlocking weapons. You gain the following benefits:
+- When you engage in Double-Weapon Fighting, you can add your ability modifier to the attack roll of your Double-Weapon Fighting attack as long as it doesn't already include that modifier.
+- When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage roll of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.
+
+#### Superiority Style
+You are skilled at utilizing maneuvers to enhance your skills on the battlefield. You gain the following benefits:
+- You learn one maneuver, detailed in Chapter 13. Your maneuver ability is Strength Strength, Dexterity, or Constitution for physical maneuvers (your choice), your Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers. 
+- You gain one superiority die, which is a d4. This die changes as you gain levels: to d6 at 5th level, to d8 at 9th level, to d10 at 13th level, and to d12 at 17th level. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+
 #### Throwing Style
-You are skilled with the techniques of throwing weapons. While you are wielding a weapon with the thrown property with which you are proficient, you gain the following benefits:
+You are skilled with the techniques of throwing weapons. You gain the following benefits:
 - Whenever you make a ranged attack with a thrown weapon, you can immediately draw another weapon.
 - Whenever you make a ranged attack with a thrown weapon, you can move up to 5 feet without provoking opportunity attacks.
 - When you miss with a ranged attack with a thrown weapon, you can use your bonus action to repeat the attack against a creature within 15 feet and behind your initial target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.
 
+\columnbreak
+
 #### Twin-Blade Style
-You are skilled at fighting with double-bladed weapons. While you are wielding a weapon with the double property with which you are proficient, you gain the following benefits:
-- When you engage in Double-Weapon Fighting, you can add your ability modifier to the attack roll of your Double-Weapon Fighting attack.
-- When you attempt to shove a creature, you can make an attack roll against the target's AC instead of a contested check. If you are wielding your weapon in two hands, you make this attack roll with advantage.
+You are skilled at fighting with double-bladed weapons. You gain the following benefits:
+- When you engage in Double-Weapon Fighting, you can add your ability modifier to the attack roll of your Double-Weapon Fighting attack as long as it doesn't already include that modifier.
+- Grasping a double weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
 
 #### Versatile Style
-You are skilled at using weapons in different ways. While you are wielding a weapon with the versatile property with which you are proficient and no other weapons, you gain the following benefits:
-- When you miss with a melee weapon attack on your turn while wielding a weapon in two hands, you can use your bonus action to repeat the attack roll against the same target using one hand. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.
-- When you miss with a melee weapon attack on your turn while wielding a weapon in one hand, you can use your bonus action to attempt to shove or trip that creature. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this ability check.
+You are skilled at using weapons in different ways. You gain the following benefits:
+- When you miss with a melee weapon attack on your turn while wielding a versatile weapon with which you are proficient in two hands, you can use your bonus action to repeat the attack roll against the same target using one hand. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.
+- When you miss with a melee weapon attack on your turn while wielding a versatile weapon with which you are proficient in one hand, you can use your bonus action to attempt to shove or trip that creature. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this ability check.
 - Grasping a versatile weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING STYLES</div>
@@ -826,54 +876,86 @@ You may choose your fighting mastery from the following options or roll on the t
 
 <div style='column-count:2'>
 
-|d24|Fighting Mastery|
+|d32|Fighting Mastery|
 |:--:|:--|
 |1|Akimbo|
-|2|Berserk|
-|3|Brawler|
-|4|Covert|
-|5|Defense|
-|6|Disruption|
-|7|Dual Wield|
-|8|Duelist|
-|9|Equilibrium|
-|10|Explosives|
-|11|Formation|
-|12|Formfighting|
+|2|Area|
+|3|Assisting|
+|4|Berserk|
+|5|Blindfighting|
+|6|Brawler|
+|7|Counterstrike|
+|8|Covert|
+|9|Defense|
+|10|Disruption|
+|11|Dual Wield|
+|12|Duelist|
+|13|Equilibrium|
+|14|Explosives|
+|15|Formation|
+|16|Formfighting|
 
-|d24|Fighting Mastery|
+|d32|Fighting Mastery|
 |:--:|:--|
-|13|Great Weapon|
-|14|Guerrilla|
-|15|Gunning|
-|16|Mounted|
-|17|Onslaught|
-|18|Sentinel|
-|19|Sharpshooter|
-|20|Shield|
-|21|Snapshot|
-|22|Throwing|
-|23|Twin-Blade|
-|24|Versatile|
+|17|Great Weapon|
+|18|Guerrilla|
+|19|Gunning|
+|20|Mounted|
+|21|Onslaught|
+|22|Secured|
+|23|Sentinel|
+|24|Sharpshooter|
+|25|Shield|
+|26|Snapshot|
+|27|Split|
+|28|Spotting|
+|29|Superiority|
+|30|Throwing|
+|31|Twin-Blade|
+|32|Versatile|
 
 </div>
 
 #### Akimbo Mastery
-You've mastered fighting with two blasters, unleashing a volley of shots. While you are wielding separate weapons in each hand with which you are proficient, you gain the following benefits:
-- When you roll the maximum on a weapon damage die against a creature, that creature suffers a -1 penalty on the first attack roll it makes before the start of your next turn.
+You've mastered fighting with two blasters, unleashing a volley of shots. You gain the following benefits:
+- While you are wielding separate weapons in each hand with which you are proficient, when you roll the maximum on a weapon damage die against a creature, that creature suffers a -1 penalty on the first attack roll it makes before the start of your next turn.
 - You can engage in Two-Weapon Fighting even when the weapons you are wielding lack the light property.
 - You can reload two weapons when you would normally only be able to reload one.
-- When you take the Attack action, you can choose to attack swiftly at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to attack with a different weapon that you're holding in the other hand, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.
+- When you take the Attack action while you are wielding separate weapons in each hand with which you are proficient, you can choose to attack swiftly at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to attack with a different weapon that you're holding in the other hand, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
+#### Area Mastery
+You've mastered fighting with weapons that affect an area, easily overwhelming your foe's defenses. You gain the following benefits:
+- When determining the save DC of a flechette clip, flechette mag, projector canister, or projector tank you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.
+- Your flechette clips, flechette mags, projector canisters, and projector tanks reduce partial cover by one step (from three-quarters to half or half to one-quarter). If a creature has one-quarter cover, you ignore it entirely.
+- When using an ammunition or explosive that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus.
+
+#### Assisting Mastery
+You've mastered enabling your allies, boosting them to the dismay of your enemies. You gain the following benefits:
+- When you take the Help action and target an ally, you can choose to forgo up to half your speed. If you do so, when that ally makes its ability check to complete the task with advantage, it can reroll one of the dice once. You can not use this feature if you have moved more than half your speed this turn.
+- When you take the Help action and target an enemy, you can choose to forgo up to half your speed. If you do so, when an ally makes its attack roll against the creature with advantage, it can reroll one of the dice once. You can not use this feature if you have moved more than half your speed this turn.
+- Feature.
+- When you take the Help action, it has a range in feet equal to 5 x your proficiency bonus.
+
 #### Berserk Mastery
 You've mastered returning pain to those who deliver it, becoming a scourge on the battlefield. You gain the following benefits:
-- When a creature within 5 feet of you deals damage to you with a weapon or unarmed strike, you can use your reaction to make a melee weapon attack or unarmed strike against that creature. On a hit, you deal additional damage equal to your proficiency bonus.
 - When a creature scores a critical hit against you, you have advantage on the first attack you make against that creature before the end of your next turn. If you would already have advantage, you can instead reroll one of the dice once.
 - You have advantage on saving throws that would force you to act against your will, be frightened, or prevent you from attacking a creature.
+- When a creature within 5 feet of you deals damage to you with a weapon or unarmed strike, you can use your reaction to make a melee weapon attack or unarmed strike against that creature. On a hit, you deal additional damage equal to your proficiency bonus.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
+
+\pagebreakNum
+
+#### Blindfighting Mastery
+You've mastered fighting without sight, finding a home in the darkness that your enemies fear. You gain the following benefits:
+- Feature.
+- Once per round, when a creature would have disadvantage on an attack roll against you due to being blinded, they must reroll one of the dice once.
+- Once per round, when you would have advantage on an attack roll against a creature that is blinded, you can reroll one of the dice once.
+- You gain blindsight out to a number of feet equal to 5 x your proficiency bonus. If you already have blindsight, it instead increases by a number of feet equal to 5 x your proficiency bonus.
 
 #### Brawler Mastery
 You've mastered using your weight to your advantage, easily wrangling targets around. You gain the following benefits:
@@ -882,6 +964,15 @@ You've mastered using your weight to your advantage, easily wrangling targets ar
 - Your speed isn't halved by carrying a grappled creature who is the same size category as you or smaller. 
 - Once on each of your turns, when you hit a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can make an additional unarmed strike against the same target without the aid of your proficiency bonus (no action required).
 
+#### Counterstrike Mastery
+You've mastered returning attacks at those who dare strike you, effortless turning aside their blades while striking them with your own. You gain the following benefits:
+- Feature.
+- Feature.
+- When you roll a die to reduce the damage you take from a weapon, you have advantage on the die roll.
+- When you would be the target of a weapon attack, you can immediately use your reaction to make an opportunity attack against the target without your proficiency bonus. On a hit, the target suffers the attack's normal effects, and you impose disadvantage on the triggering roll.
+
+\columnbreak
+
 #### Covert Mastery
 You've mastered fighting from unseen angles, gaining an advantage over your foes. You gain the following benefits:
 - You can try to hide when you are lightly obscured from the creature from which you are hiding.
@@ -889,108 +980,98 @@ You've mastered fighting from unseen angles, gaining an advantage over your foes
 - When you are hidden from a creature and miss it with an unarmed strike or weapon attack, making the attack doesn't automatically reveal your position.
 - Once per turn, when you deal damage to a creature with an unarmed strike or weapon attack while hidden from it, you deal additional damage equal to your proficiency bonus.
 
-<img src='https://www.gmbinder.com/images/FDyoTLU.png' style='position:absolute;bottom:-105px;left:80px;width:450px;z-index:1000;'/>
+#### Defense Mastery
+You've mastered the art of defending yourself, treating your armor as a second skin. You gain the following benefits:
+- While you are wearing medium or heavy armor with which you are proficient, when a creature makes a melee attack against you while within your reach, whether the attack hits or misses, you can use your reaction to attempt to shove that creature up to 10 feet directly away from you.
+- The time it takes for you to don and doff armor is reduced by half.
+- While you are wearing medium or heavy armor with which you are proficient, damage that you take from weapons is reduced by an amount equal to your proficiency bonus. If this would reduce the damage to 0, the damage is instead reduced to 1.
+
+#### Disruption Mastery
+Choose one from force- or tech-casting. You've mastered fighting and interfering with casters of the chosen type, confounding their concentration. You gain the following benefits:
+- When a creature within 30 feet of you that you can see casts a power, they provoke an opportunity attack from you.
+- You have advantage on saving throws against powers cast by creatures you can see if you've dealt damage to them since the start of your last turn.
+- Whenever you force a creature to make a saving throw to maintain concentration, the DC for the saving throw increases by an amount equal to your proficiency bonus.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
-#### Defense Mastery
-You've mastered the art of defending yourself, treating your armor as a second skin. While you are wearing medium or heavy armor with which you are proficient, you gain the following benefits:
-- Damage that you take from weapons is reduced by an amount equal to your proficiency bonus. If this would reduce the damage to 0, the damage is instead reduced to 1.
-- When a creature makes a melee attack against you while within your reach, whether the attack hits or misses, you can use your reaction to attempt to shove that creature up to 10 feet directly away from you.
-- The time it takes for you to don and doff armor is reduced by half.
-
-#### Disruption Mastery
-Choose one from force- or tech-casting. You've mastered fighting and interfering with casters of the chosen type, confounding their concentration. You gain the following benefits:
-- When a creature within 30 feet of you that you can see casts a power, they provoke an opportunity attack from you.
-- Whenever you force a creature to make a saving throw to maintain concentration, the DC for the saving throw increases by an amount equal to your proficiency bonus.
-- You have advantage on saving throws against powers cast by creatures you can see if you've dealt damage to them since the start of your last turn.
-
 #### Dual Wield Mastery
-You've mastered fighting with two weapons, becoming a flurry of motion. While you are wielding separate weapons in each hand with which you are proficient, you gain the following benefits:
+You've mastered fighting with two weapons, becoming a flurry of motion. You gain the following benefits:
 - When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo one or more attacks. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn.
 - You can engage in Two-Weapon Fighting even when the weapons you are wielding lack the light property.
 - You can draw or stow two weapons when you would normally be able to draw or stow only one.
 - When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo your proficiency bonus. If you do so, you can make an additional attack with that weapon, also without your proficiency bonus. If you would normally make more than one attack with your bonus action, only one attack is made without your proficiency bonus.
 
-\columnbreak
-
 #### Duelist Mastery
-You've mastered the art of fighting with a single weapon, making one weapon feel like many. While you are wielding a weapon in one hand with which you are proficient and no other weapons, you gain the following benefits:
-- When you take the Attack action, you can choose to attack with haste at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to make an additional weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.
-- When a creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.
+You've mastered the art of fighting with a single weapon, making one weapon feel like many. You gain the following benefits:
 - You have advantage on ability checks and saving throws to avoid being disarmed.
+- While you are wielding a weapon in one hand with which you are proficient and no other weapons, when you take the Attack action, you can choose to attack with haste at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to make an additional weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.
+- While you are wielding a weapon in one hand with which you are proficient and no other weapons, when a creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.
 
 #### Equilibrium Mastery
-You've mastered fighting without the confines of armor, treating combat as an elegant dance. While you are wearing light or no armor and not wielding a shield, you gain the following benefits:
-- When a creature misses you with a weapon attack, you can use your reaction to make an unarmed strike or weapon attack against that creature without your proficiency bonus.
-- When a creature hits you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.
+You've mastered fighting without the confines of armor, treating combat as an elegant dance. You gain the following benefits:
 - If you are disarmed, you can use your reaction to immediately catch the weapon.
+- While you are wearing light or no armor and not wielding a shield, when a creature misses you with a weapon attack, you can use your reaction to make an unarmed strike or weapon attack against that creature without your proficiency bonus.
+- While you are wearing light or no armor and not wielding a shield, when a creature hits you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.
 
-<img src='https://www.gmbinder.com/images/yEz1l4I.png' style='position:absolute;bottom:0px;right:0px;width:555px;z-index:1000'/>
+\columnbreak
+
+#### Explosives Mastery
+You've mastered fighting with explosives, causing untold destruction. You gain the following benefits:
+- When determining the save DC of a charge, grenade, mine, missile, or rocket you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.
+- You have advantage on saving throws against charges, grenades, mines, missiles, and rockets you control.
+- When using a charge, grenade, mine, missile, or rocket that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus.
+
+#### Formation Mastery
+You've mastered fighting with a partner, learning to move and act as a single unit. You gain the following benefits:
+- When you take the Guard action, the guarded ally has advantage on Dexterity saving throws that would affect only them while guarded.
+- When a creature misses an ally within 5 feet of you with a weapon attack, you can use your reaction to make a weapon attack against that creature without your proficiency bonus.
+- When a creature hits an ally within 5 feet of you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.
+
+#### Formfighting Mastery
+_**Prerequisite:** The ability to cast force powers_<br>
+You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with unparalleled grace. You gain the following benefits:
+- You learn three lightsaber forms, detailed later in this chapter. If you already know at least three lightsaber forms, you instead learn seven lightsaber forms.
+- Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, you can engage in one of your lightsaber forms without using your bonus action. If that form lets you make an attack, that attack is also made without your proficiency bonus.
+- Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original attack roll would hit the second creature, it takes damage of the weapon's type equal to twice your proficiency bonus.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
-#### Explosives Mastery
-You've mastered fighting with explosives, causing untold destruction. You gain the following benefits:
-- When determining the save DC of an ammunition or explosive you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.
-- When using an ammunition or explosive that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus.
-- You have advantage on saving throws against ammunition and explosive you control.
-
-#### Formation Mastery
-You've mastered fighting with a partner, learning to move and act as a single unit. While an ally is within 5 feet of you, you gain the following benefits:
-- When a creature misses an ally within 5 feet of you with a weapon attack, you can use your reaction to make a weapon attack against that creature without your proficiency bonus.
-- When a creature hits an ally within 5 feet of you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.
-- When you take the Guard action, the guarded ally has advantage on Dexterity saving throws that would affect only them while guarded.
-
-#### Formfighting Mastery
-_**Prerequisite:** The ability to cast force powers_<br>
-You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with unparalleled grace. You gain the following benefits:
-
-\columnbreak
-
-<div style='margin-top:16px'></div>
-
-- You learn three lightsaber forms, detailed later in this chapter. If you already know at least three lightsaber forms, you instead learn seven lightsaber forms.
-- Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, you can engage in one of your lightsaber forms without using your bonus action. If that form lets you make an attack, that attack is also made without your proficiency bonus.
-- Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original attack roll would hit the second creature, it takes damage of the weapon's type equal to twice your proficiency bonus.
-
 #### Great Weapon Mastery
-You've mastered putting the weight of a weapon to your advantage, letting its momentum empower your strikes. While you are wielding a light- or vibro-weapon with the two-handed property with which you are proficient, you gain the following benefits:
+You've mastered putting the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:
 - On your turn, when you score a critical hit or reduce a creature to 0 hit points with a melee weapon attack, you can make one melee weapon attack as a bonus action.
-- When you miss with a melee weapon attack, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll. On a hit, this attack deals kinetic damage equal to your Strength modifier.
-- Before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.
-- While wielding the weapon in two hands, you have advantage on ability checks and saving throws to avoid being disarmed.
+- While you are wielding a two-handed light- or vibro-weapon with which you are proficient, when you miss with a melee weapon attack, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll. On a hit, this attack deals kinetic damage equal to your Strength modifier.
+- You have advantage on ability checks and saving throws to avoid being disarmed.
+- While you are wielding a two-handed light- or vibro-weapon with which you are proficient, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.
 
 #### Guerrilla Mastery
 You've mastered maneuvering across the battlefield, sliding through openings that others might not see. You gain the following benefits:
 - You can move through a hostile creature's space regardless of that creature's size.
 - When you hit a creature with an opportunity attack, you can move up to half your speed (no action required) without provoking opportunity attacks from that creature.
+- When a hostile creature moves to within 5 feet of you, you can use your reaction to Disengage and move up to half your speed. 
 - Once per turn, when you hit a creature with a weapon attack, another enemy of the creature is within 5 feet of it, and that enemy isn't incapacitated, you can deal additional damage equal to twice your proficiency bonus.
-- When a hostile creature moves to within 5 feet of you, you can use your reaction to Disengage and move up to half your speed. If you could already use your reaction to Disengage and move up to half your speed, you can instead move up to your full speed.
-
-<img src='https://www.gmbinder.com/images/FUrb2LF.png' style='position:absolute;bottom:-4px;left:0px;width:450px;z-index:1000;'/>
-
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
-
-\pagebreakNum
 
 #### Gunning Mastery
-You've mastered using blasters in unique ways, controlling the battlefield. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
+You've mastered using blasters in unique ways, controlling the battlefield. You gain the following benefits:
 - When a creature succeeds on the saving throw against the burst or rapid property of your weapon, they take damage equal to the weapon's governing ability modifier.
-- When you use the burst property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, each creature that fails the save takes additional damage equal to your proficiency bonus.
-- When you use the rapid property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, and the target fails the save, they take additional damage equal to twice your proficiency bonus.
 - You treat the strength number of weapons as one step lower (19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely.
+- When you use the burst property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, each creature that fails the save takes additional damage equal to your proficiency bonus.
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+- When you use the rapid property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, and the target fails the save, they take additional damage equal to twice your proficiency bonus.
 
 #### Mounted Mastery
-You've mastered the art of fighting while mounted, moving seamlessly with your companion. While you are mounted on a vehicle or controlled beast, you gain the following benefits:
-- Once per turn, you can choose to have advantage on a melee weapon attack roll against an unmounted creature that is smaller than your mount. If the attack hits, you deal additional damage equal to your proficiency bonus.
+You've mastered the art of fighting while mounted, moving seamlessly with your companion. You gain the following benefits:
 - If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, you can use your reaction to have it instead take no damage if it succeeds on the saving throw, and only half damage if it fails.
-- While mounted on a vehicle, you can use your bonus action instead of your action to take one of the vehicle's actions available to you. You can't take the same action twice in one turn.
-- While mounted on a controlled beast, you can use your bonus action to have your mount make a single attack against a creature within its range.
+- While mounted on a controlled beast, you can use your bonus action to have your mount make a single melee attack against a creature within its reach. If you could already use your bonus action to have your mount make an attack, you can instead do so as a reaction on your turn.
+- While mounted on a vehicle, you can take a vehicle action with your bonus action, instead of your action. If you could already take a vehicle action as a bonus action, you can instead do so as a reaction on your turn. You can't take the same action twice in one turn.
+- Once per turn, you can choose to have advantage on a melee weapon attack roll against an unmounted creature that is smaller than your mount. If the attack hits, you deal additional damage equal to your proficiency bonus.
 
 #### Onslaught Mastery
 You've mastered using your momentum to your advantage, effectively pummeling creatures into submission and keeping them down once they fall. You gain the following benefits:
@@ -999,64 +1080,98 @@ You've mastered using your momentum to your advantage, effectively pummeling cre
 - When a prone creature within 5 feet of you attempts to stand, they provoke an opportunity attack from you.
 - Once on each of your turns, if you move at least 10 feet in a straight line towards a creature immediately before hitting it with a melee weapon attack, you can deal additional damage equal to your proficiency bonus.
 
-\columnbreak
-
-#### Sentinel Mastery
-You've mastered techniques to take advantage of every drop in any enemy's guard; in tight spaces you are indomitable. While you are wielding a light- or vibro-weapon with which you are proficient, you gain the following benefits:
-- Creatures within your reach provoke opportunity attacks from you even if they take the Disengage action.
-- You can use a bonus action to enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you have a number of special reactions equal to your proficiency bonus that you can only use to make opportunity attacks. You can only take one reaction per turn.
-- When you take the Dodge action, once per round, you can take two reactions on the same turn, instead of only one. You can only take one reaction per trigger.
-
-#### Sharpshooter Mastery
-You've mastered blaster weapons and can easily make shots that others find impossible. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
-- Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.
-- Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter cover, you ignore it entirely.
-- Before you make an attack with a blaster weapon against a target greater than 30 feet from you, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.
-
-<img src='https://www.gmbinder.com/images/BgQXy6W.png' style='position:absolute;bottom:0px;right:85px;width:355px;z-index:1000;transform:scaleX(-1)'/>
-
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
 \pagebreakNum
 
+#### Secured Mastery
+You've mastered fighting with weapons in atypical places, seamlessly transitioning between your armaments. You gain the following benefits:
+- Feature.
+- Feature.
+- Once on each of your turns, when you miss an attack with a weapon that lacks the fixed property, you can make an additional attack against the same target with a fixed weapon without the aid of your proficiency bonus (no action required).
+- Once on each of your turns, when you would make a weapon attack with a fixed weapon, you can forgo the attack. If you do so, you can add your proficiency bonus to your AC against one attack that would hit you before the start of your next turn (no action required).
+
+#### Sentinel Mastery
+You've mastered techniques to take advantage of every drop in any enemy's guard; in tight spaces you are indomitable. You gain the following benefits:
+- Creatures within your reach provoke opportunity attacks from you even if they take the Disengage action.
+- When you take the Dodge action, once per round, you can take two reactions on the same turn, instead of only one. You can only take one reaction per trigger.
+- You can use a bonus action to enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you have a number of special reactions equal to your proficiency bonus that you can only use to make opportunity attacks. You can only take one reaction per turn.
+
+#### Sharpshooter Mastery
+You've mastered blaster weapons and can easily make shots that others find impossible. You gain the following benefits:
+- Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.
+- Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter cover, you ignore it entirely.
+- Before you make an attack against a target greater than 30 feet from you with a blaster weapon with which you are proficient, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.
+
 #### Shield Mastery
-You've mastered using a shield to defend your allies as well as yourself, strategically imposing your shield to capitalize on its protection. While you are wielding a shield with which you are proficient, you gain the following benefits:
+You've mastered using a shield to defend your allies as well as yourself, strategically imposing your shield to capitalize on its protection. You gain the following benefits:
 - If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a power or other harmful effect.
-- When a creature you can see damages you, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus.
-- When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, and you succeed on the saving throw, you can use your reaction to take no damage.
-
-#### Snapshot Mastery
-You've mastered getting up close and personal with blaster weapons, maintaining both rate of fire and accuracy. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:
-- When you take the Attack action targeting a creature within 30 feet, you can choose to attack rapidly at the expense of accuracy. Your ranged weapon attack is made without the aid of your proficiency bonus, but you can use your bonus action to make an additional ranged weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.
-- Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter cover, you ignore it entirely.
-- Other creatures provoke an opportunity attack from you when they move to within 30 feet of you, and you can make ranged weapon attacks with blaster weapons when making opportunity attacks.
-
-#### Throwing Mastery
-You've mastered the techniques of throwing weapons, readily blending the weapons with your movements. While you are wielding a weapon with the thrown property with which you are proficient, you gain the following benefits:
 
 \columnbreak
 
 <div style='margin-top:16px'></div>
 
+- While you are wielding a shield with which you are proficient, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, and you succeed on the saving throw, you can use your reaction to take no damage.
+- When a creature you can see damages you while you are wielding a shield with which you are proficient, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus.
+
+#### Snapshot Mastery
+You've mastered getting up close and personal with blaster weapons, maintaining both rate of fire and accuracy. You gain the following benefits:
+- Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter cover, you ignore it entirely.
+- Other creatures provoke an opportunity attack from you when they move to within 30 feet of you, and you can make ranged weapon attacks with blaster weapons when making opportunity attacks.
+- When you take the Attack action targeting a creature within 30 feet while you are wielding a blaster weapon with which you are proficient, you can choose to attack rapidly at the expense of accuracy. Your ranged weapon attack is made without the aid of your proficiency bonus, but you can use your bonus action to make an additional ranged weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.
+
+#### Spotting Mastery
+You've mastered keeping track of your surroundings, noticing things in detail that others miss entirely. You gain the following benefits:
+- You no longer have disadvantage on Wisdom (Perception) checks due to an area being lightly obscured in a 120 foot range. 
+- When a creature rolls a d20 to redirect an attack roll you make to an illusory duplicate, they have disadvantage on the roll.
+- When you take the Search action, you give off no indication that you are devoting your attention to finding something.
+- When you find a hidden creature using the Search action, it has disadvantage on any ability checks it makes to attempt Hide from you before the start of your next turn.
+
+- When you take the Search action, you have advantage on all ability checks, attack rolls, and saving throws made as a part of that search that occur within a radius in feet equal to 5 x your proficiency bonus.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
+
+\pagebreakNum
+
+#### Split Mastery
+You've mastered fighting with interlocking weapons, seamlessly transitioning between twin blades and dual wielding. You gain the following benefits:
+- Once on each of your turns, detaching or reattaching your interlocking weapon no longer requires your object interaction.
+- You can engage in Double- and Two-Weapon Fighting even when the weapons you are wielding lack the light property.
+- Before you make a melee weapon attack while you are wielding separate weapons in each hand with which you are proficient, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage.
+- When you use your bonus action to engage in Double-Weapon Fighting, you can choose to forgo your proficiency bonus. If you do so, you can make an additional attack with that weapon, also without your proficiency bonus. If you would normally make more than one attack with your bonus action, only one attack is made without your proficiency bonus.
+
+#### Superiority Mastery
+You've mastered utilizing maneuvers to enhance your skills on the battlefield, *expanded*. You gain the following benefits:
+- You learn one maneuver, detailed in Chapter 13. If you already know at least one maneuver, you instead learn three maneuvers. Your maneuver ability is Strength, Dexterity, or Constitution for physical maneuvers (your choice), your Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers. 
+- You gain one superiority die. If you already have at least one superiority die, you instead gain two additional superiority dice. Your superiority die is a d4, and it changes as you gain levels: to d6 at 5th level, to d8 at 9th level, to d10 at 13th level, and to d12 at 17th level. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+- When you use a maneuver on your turn that involves rolling a superiority die, you can use your bonus action to gain advantage on the superiority die roll.
+- Choose one maneuver you know. When you would use the chosen maneuver, you can use a d4 instead of expending a superiority die. You can do so a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.
+
+#### Throwing Mastery
+You've mastered the techniques of throwing weapons, readily blending the weapons with your movements. You gain the following benefits:
 - Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with thrown weapons.
-- Once on each of your turns, you can make a ranged weapon attack with a thrown weapon against a target within the weapon's normal range without the aid of your proficiency bonus (no action required).
 - When you hit a creature with a ranged attack with a thrown weapon, you have advantage on your next melee weapon attack against that creature before the end of your next turn.
-- Once per turn, you can draw a weapon with the thrown property without using your object interaction.
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+- Once per turn, you can draw a thrown weapon without using your object interaction.
+- Once on each of your turns, you can make a ranged weapon attack with a thrown weapon against a target within the weapon's normal range without the aid of your proficiency bonus (no action required).
 
 #### Twin-Blade Mastery
-You've mastered fighting with double-bladed weapons, using both ends to devastating effect. While you are wielding a weapon with the double property with which you are proficient, you gain the following benefits:
-- Whenever you roll the maximum on a weapon damage die against a creature, you gain a +1 bonus to the next attack roll you make against that creature before the end of your next turn.
+You've mastered fighting with double-bladed weapons, using both ends to devastating effect. You gain the following benefits:
+- While you are wielding a double weapon with which you are proficient, whenever you roll the maximum on a weapon damage die against a creature, you gain a +1 bonus to the next attack roll you make against that creature before the end of your next turn.
 - You can engage in Double-Weapon Fighting even when the weapon you are wielding lacks the light property.
-- Grasping a double weapon you are wielding in only one hand with your other hand no longer requires your object interaction.
-- Before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage.
+- Before you make a melee weapon attack while wielding a double weapon in two hands, you can choose to forgo your proficiency bonus. If the attack hits, you add one and a half times your proficiency bonus to the attack's damage.
+- Before you make a melee weapon attack while wielding a double weapon in one hand, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage.
 
 #### Versatile Mastery
-You've mastered using weapons in different ways, altering your attack patterns mid-swing. While you are wielding a light- or vibro-weapon with the versatile property with which you are proficient and no other weapons, you gain the following benefits:
-- When you are the target of a melee weapon attack, you can immediately use your reaction to make a melee weapon attack against the target without your proficiency bonus. On a hit, the target suffers the attack's normal effects, and you impose disadvantage on the triggering roll.
+You've mastered using weapons in different ways, altering your attack patterns mid-swing. You gain the following benefits:
 - Once per turn, when you make an attack roll while wielding a weapon in two hands, you can attempt to follow up on the attack. If the attack hits, the creature must make a Strength saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, the creature is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.
 - Once per turn, when you make an attack roll while wielding a weapon in one hand, the target is wielding a shield, and your other hand is empty, you can use your other hand to pull down the shield (no action required). If you do so, the creature gains no benefit to armor class from its shield for that attack.
-
-<img src='https://www.gmbinder.com/images/ElwVnUa.png' style='position:absolute;bottom:-92px;left:50px;width:590px;z-index:1000;transform:scaleX(-1)'/>
+- Before you make a melee weapon attack while wielding a versatile weapon in two hands, you can choose to forgo your proficiency bonus. If the attack hits, you add one and a half times your proficiency bonus to the attack's damage.
+- Before you make a melee weapon attack while wielding a versatile weapon in one hand, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | FIGHTING MASTERIES</div>
 
@@ -1101,7 +1216,7 @@ Each known form can be adopted on your turn by using your bonus action.
 
 #### Aqinos Form
 _**Prerequisite:** The ability to cast tech powers_<br>
-As a part of the bonus action to adopt this form, if you cast a tech power of 1st level or higher, but no higher than half your Max Power Level (rounded up), as your action you can make one melee weapon attack.
+As a part of the bonus action to adopt this form, if you cast a tech power of 1st level or higher, but no higher than half your Max Power Level, as your action you can make one melee weapon attack.
 
 #### Ataru Form
 As a part of the bonus action to adopt this form, you can leap up to 15 feet to an unoccupied space you can see.
@@ -1112,7 +1227,7 @@ As a part of the bonus action to adopt this form, if you took the Attack action 
 Until the start of your next turn, when a creature enters your reach or moves while within your reach, you can use your reaction to attempt to shove the creature. On a success, you shove the target 10 feet away from you, instead of only 5.
 
 #### Djem So Form
-Before the end of your next turn, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of +1) to one ability check or attack roll you make using Strength. 
+Before the end of your next turn, you can add half your Wisdom or Charisma modifier (your choice, minimum of +1) to one ability check or attack roll you make using Strength. 
 
 #### Ishu Form
 If there is a friendly creature within 15 feet of you, you can move up to 10 feet without provoking opportunity attacks. You must end this movement within 5 feet of the friendly creature.
@@ -1141,13 +1256,13 @@ Until the end of your next turn, you can use<br> Wisdom or Charisma instead of S
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | LIGHTSABER FORMS</div>
 
-\pagebreak
+\pagebreakNum
 
 #### Soresu Form
 The first time you take kinetic, energy, or ion damage from a weapon before the end of your next turn, that damage is reduced by half.
 
 #### Shien Form
-Before the end of your next turn, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of +1) to your AC against one attack. 
+Before the end of your next turn, you can add half your Wisdom or Charisma modifier (your choice, minimum of +1) to your AC against one attack. 
 
 #### Shii-Cho Form
 As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting.
@@ -1160,7 +1275,7 @@ Additionally, the first time you hit a Large or smaller creature within 5 feet o
 Until the start of your next turn, you ignore difficult terrain. Additionally, when an opponent makes a melee weapon attack against you, you can use your reaction to move to another space within 5 feet of that opponent without provoking opportunity attacks, imposing disadvantage on the triggering roll.
 
 #### Trakata Form
-As a part of the bonus action to adopt this form, you can flourish your weapon to attempt to distract an enemy you can see. Make a Dexterity (Sleight of Hand) check contested by a Wisdom (Perception) check of one creature that you can see within 5 feet of you. On a success, that creature has disadvantage on the next attack roll it makes against you.
+As a part of the bonus action to adopt this form, you can flourish your weapon to attempt to distract an enemy you can see. Make a Dexterity (Sleight of Hand) or Charisma (Deception) check (your choice) contested by a Wisdom (Perception) check of one creature that you can see within 5 feet of you. On a success, that creature has disadvantage on the next attack roll it makes against you.
 
 #### Trispzest Form 
 Once before the start of your next turn, you have advantage on a melee weapon attack against a creature that is frightened of you.
@@ -1169,7 +1284,7 @@ Once before the start of your next turn, you have advantage on a melee weapon at
 As a part of the bonus action to adopt this form, you can mask yourself with the force to attempt to hide from an enemy you can see. Make a Dexterity (Stealth) check contested by a Wisdom (Perception) check of one creature that you can see within 5 feet of you. On a success, you become invisible to that creature until the start of your next turn, or until you attack, cast a power, or otherwise take a hostile action against it.
 
 #### Vaapad Form
-Once before the start of your next turn, if you would have advantage on a melee weapon attack, you can choose to forgo the advantage. If you do so, you can make one melee weapon attack against the same target (no action required).
+Once before the start of your next turn, if you would have advantage on a melee weapon attack, you can choose to forgo the advantage. If you do so, you can make one melee weapon attack against the same target (no action required), also without advantage.
 
 #### Vonil Form
 If you took the Attack action before adopting this form, you can direct one of your allies to strike a creature you hit with an attack. Choose a friendly creature that can see or hear you and is within 5 feet of the creature you hit with an attack. That creature can immediately use its reaction to make one weapon attack against the same creature.
@@ -1186,4 +1301,4 @@ Until the start of your next turn, when a creature enters your reach or moves wh
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS | LIGHTSABER FORMS</div>
 
-\pagebreak
+\pagebreakNum

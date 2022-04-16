@@ -45,6 +45,7 @@
     <None Remove="Sources\en\ec_06.txt" />
     <None Remove="Sources\en\ec_11.txt" />
     <None Remove="Sources\en\ec_12.txt" />
+    <None Remove="Sources\en\ec_13.txt" />
     <None Remove="Sources\en\ec_archetypes.txt" />
     <None Remove="Sources\en\ec_backgrounds.txt" />
     <None Remove="Sources\en\ec_customization_options.txt" />
@@ -71,6 +72,7 @@
     <None Remove="Sources\en\PHB\phb_10.txt" />
     <None Remove="Sources\en\PHB\phb_11.txt" />
     <None Remove="Sources\en\PHB\phb_12.txt" />
+    <None Remove="Sources\en\PHB\phb_13.txt" />
     <None Remove="Sources\en\PHB\phb_aa.txt" />
     <None Remove="Sources\en\PHB\phb_ab.txt" />
     <None Remove="Sources\en\PHB\phb_changelog.txt" />
@@ -278,6 +280,7 @@
     <EmbeddedResource Include="Sources\en\ec_06.txt" />
     <EmbeddedResource Include="Sources\en\ec_11.txt" />
     <EmbeddedResource Include="Sources\en\ec_12.txt" />
+    <EmbeddedResource Include="Sources\en\ec_13.txt" />
     <EmbeddedResource Include="Sources\en\ec_enhanced_items.txt" />
     <EmbeddedResource Include="Sources\en\ec_variantrules.txt" />
     <EmbeddedResource Include="Sources\en\FAQ.txt" />
@@ -297,6 +300,7 @@
     <EmbeddedResource Include="Sources\en\PHB\phb_10.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_11.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_12.txt" />
+    <EmbeddedResource Include="Sources\en\PHB\phb_13.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_aa.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_ab.txt" />
     <EmbeddedResource Include="Sources\en\PHB\phb_changelog.txt" />

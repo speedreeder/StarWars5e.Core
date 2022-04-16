@@ -41,7 +41,7 @@ You've experimented with cybernetic augmentations, granting the following benefi
 _**Prerequisite:** Type droid_<br>
 You've been customized beyond other droids of the same model, granting the following benefits: 
 - Increase an ability score of your choice by 1, to a maximum of 20.
-- Choose one droid customization of standard rarity from Appendix A. That customization is installed and doesn't count against the maximum droid customizations you can support, but it does count towards your maximum parts as shown in the Droid Size Maximum Parts table in Chapter 7.
+- Choose one droid customization of standard rarity from Appendix A. That customization is installed and doesn't count against the maximum droid customizations you can support, but it does count towards your maximum parts or protocols, as appropriate.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
@@ -69,7 +69,7 @@ _**Prerequisite:** Strength 13, size Tiny_<br>
 Despite falling below knee height of other species, your size has less impact on your strength and virility. You gain the following benefits:
 - Increase your Strength score by 1, to a maximum of 20.
 - Your speed increases by 5 feet.
-- You lose the Pintsized special trait, and you are no longer limited to +3 when determing your bonus to attack and damasge rolls for weapon attacks using Strength due to the Puny special trait.
+- You lose the Pintsized special trait, and you are no longer limited to +3 when determining your bonus to attack and damage rolls for weapon attacks using Strength due to the Puny special trait.
 - You gain the Undersized special trait: ***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two-hands.
 
 ### Weapon Focused
@@ -108,7 +108,7 @@ You may choose your weapon focus from the following options or roll on the table
 |3|Crushing Weapon|
 |4|Heavy Weapon|
 
-|d8|weapon focus|
+|d8|Weapon Focus|
 |:--:|:--|
 |5|Polearm Weapon|
 |6|Rifle Weapon|
@@ -152,7 +152,9 @@ You've focused your combat training on polearm weapons. You gain the following b
 - You gain a +1 bonus to the weapon's damage rolls.
 - When you score a critical hit with the weapon, you can roll one additional weapon damage die.
 
-\pagebreak
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
 
 <div style='margin-top:16px'></div>
 
@@ -216,7 +218,9 @@ You've specialized your combat training with blade weapons. You gain the followi
 - Your critical hit range increases by 1.
 - When you take the Attack action, you can choose to forgo one or more attacks to **parry**. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn. If you could already parry, instead you can do so as your bonus action.
 
-\pagebreak
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
 
 #### Carbine Supremacy
 You've specialized your combat training with carbine weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
@@ -244,7 +248,9 @@ You've specialized your combat training with heavy weapons. You gain the followi
 - When a creature rolls a 1 on the saving throw against one of these weapons, they treat the effect's damage as if it had rolled the maximum. If a creature would already treat the effect's damage as if it had rolled the maximum when it rolls a 1 on this weapon's saving throw, it instead does so on a roll of 1 or 2.
 - When you take the Attack action, you can choose to forgo one or more attacks to **suppress**. For each attack you forgo, you expend ammunition equal to half your weapon's reload number (minimum of 2) and choose a 10-foot-cube area within your weapon's normal range. Each creature in the area that is no more than one size larger than you (your size or smaller if your weapon has the light property) must make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon) or become frightened of you until the end of their next turn. If you could already suppress, instead you can do so as your bonus action.
 
-\pagebreak
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
 
 #### Polearm Supremacy
 You've specialized your combat training with polearm weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
@@ -265,7 +271,7 @@ You've specialized your combat training with rifle weapons. You gain the followi
 #### Sidearm Supremacy
 You've specialized your combat training with sidearm weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
 - You gain a +1 bonus to the weapon's attack rolls.
-- Whenever you have advantage on an attack roll and hit and the lower of the two d20 rolls would also hit (or a creature has disadvantage on a saving throw and the higher of the two d20s would also fail), and the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your bonus to attacks with the weapon) or it drops an object of your choice. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
+- Whenever you have advantage on an attack roll and hit and the lower of the two d20 rolls would also hit (or a creature has disadvantage on a saving throw and the higher of the two d20s would also fail), and the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your bonus to attacks with the weapon) or it drops an object of your choice. If you have a free hand and the object is within your reach, you catch the object. Otherwise, it lands at your feet.
 - You can now reload these weapons using your reaction or object interaction, instead of just your action or bonus action. You must have one free hand to reload.
 - When you take the Attack action, you can choose to forgo one or more attacks to **daze** a creature. For each attack you forgo, you expend 2 ammunition and choose a creature that is no more than one size larger than you (your size or smaller if your weapon has the light property), has a head, and is within your weapon's normal range. The creature must succeed on a Constitution saving throw (DC = 8 + your bonus to attacks with the weapon) or become incapacitated until the end of its next turn or until it takes damage, whichever happens first.  If you could already daze, instead you can do so as your bonus action.
 
@@ -276,4 +282,6 @@ You've specialized your combat training with trip weapons. You gain the followin
 - You have advantage on Strength (Athletics) checks and attack rolls made to trip a creature.
 - When you take the Attack action, you can choose to forgo one or more attacks to **interrupt**. For each attack you forgo, one creature within your reach gains no benefit to armor class from its shield until the end of its next turn. If you could already interrupt, instead you can do so as your bonus action.
 
-\pagebreak
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum

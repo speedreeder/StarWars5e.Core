@@ -86,6 +86,8 @@ For instance, the second bullet of the Weapon Expert feat grants conditional adv
 
 \pagebreakNum
 
+&emsp;If granting advantage or disadvantage on a roll that would have negative consequences, rather than positive benefits, advantage and disadvantage should be reversed (as logic dictates). For instance, if a creature has a penalty die on a d20 roll, such as a d4 penalty die from the *denounce* force power, and they get disadvantage on that die roll, they should roll the d4 twice and take the higher roll, instead of the lower.
+
 ## Proficiency Bonus
 Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.
 
@@ -105,9 +107,9 @@ Far less common, though still possible, a creature can gain expertise in a savin
 ## Ability Checks
 An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
 
-For every ability check, the GM decides which of the 4 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class (DC). The more difficult a task, the higher its DC. The Ability Check DCs table shows common DCs.
+For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class (DC). The more difficult a task, the higher its DC. The Ability Check DCs table shows common DCs.
 
-To make an ability check, roll a d20 and<br> add the relevant ability modifier. As with<br> other d20 rolls, apply bonuses and<br> penalties, and compare the total to<br> the DC. If the total equals or<br> exceeds the DC, the ability check is a<br> success—the creature overcomes the<br> challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM.
+To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success—the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM.
 
 ### Contests
 Sometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.
@@ -126,14 +128,18 @@ If the contest results in a tie, the situation remains the same as it was before
 |Very hard	|25|
 |Nearly impossible|	30|
 
-<img src='https://www.gmbinder.com/images/gwye6qA.png' style='position:absolute;bottom:-19px;right:-80px;width:1040px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/gwye6qA.png' style='position:absolute;bottom:-40px;right:-180px;width:1040px;z-index:1000;' />
 
-<div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
-
-\pagebreakNum
+\pagebreak
 
 ### Additional Dice
-When making an ability check, attack roll, or saving throw, some features grant an additional die when you make the d20 roll. If multiple features would grant an additional die in such a way, you can only benefit from one of them when you make the d20 roll (you choose which effect to use). For instance, if a creature is forced to make a saving throw, and it is benefiting from both a Potent Aptitude die and the *resistance* force power, it can only use the additional die granted by one of those effects.
+When making an ability check, attack roll, or saving throw, some features grant an additional die when you make the d20 roll. If features would grant multiple additional dice in such a way, you can only benefit from one of them when you make the d20 roll (you choose which effect to use). For instance, if a creature is forced to make a saving throw, and it is benefiting from both a Potent Aptitude die and the *resistance* force power, it can only use the additional die granted by one of those effects. Conversely, the same is true for penalty dice.
+
+#### Variant: Additional Die Teamwork
+In some instances, a party might be relying on the outcome made by a single party member's ability check. If multiple party members could grant that character an additional die, while that character couldn't apply multiple dice to the roll, you might consider allowing them to use the larger die provided, and to roll the die with advantage.
+
+### Multiple Modifiers
+As with additional dice, when making an ability check, attack roll, or saving throw, some features might allow multiple modifiers being added to the check. In these cases, only two modifiers may be added to a roll. For instance, if a friendly creature makes a Constitution saving throw within range of a guardian's Aura of Presence, and that creature is also the target of a scholar's Critical Analysis, and they chose to end that Critical Analysis on themselves, they could add either that guardian's Wisdom modifier or the scholar's Intelligence modifier to their Constitution save, but not both.
 
 ### Skills
 Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character ~ creation, and a monster's skill proficiencies appear in the monster's stat block.)
@@ -146,13 +152,14 @@ The skills related to each ability score are shown in the following list. (No sk
 - **Dexterity**: Acrobatics, Sleight of Hand, Stealth
 - **Intelligence**: Investigation, Lore, Nature, Piloting, Technology
 - **Wisdom**: Animal handling, Insight, Medicine, Perception, Survival
-- **Charisma**: Deception, Intimidation, Performance, Persuasion
-
-Sometimes, the GM might ask for an ability check using a specific skill—for example, &emsp;&emsp;"Make a Wisdom (Perception) check." At &emsp;&emsp;&emsp;&emsp;other times, a player might ask the GM if prof- &emsp;&emsp;&emsp;&emsp;iciency in a particular skill applies to a check. In &emsp;&emsp;either case, proficiency in a skill means an &emsp;&emsp;&emsp;&emsp;&emsp;individual can add his or her proficiency bonus &emsp;&emsp;&emsp;&emsp;to ability checks that involve that skill. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Without proficiency in the skill, the &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;individual makes a normal ability&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; check.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
+
+- **Charisma**: Deception, Intimidation, Performance, Persuasion
+
+Sometimes, the GM might ask for an ability check using a specific skill—for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
 
 For example, if a character attempts to climb up a dangerous cliff. the Dungeon Master might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
 
@@ -170,9 +177,7 @@ Here's how to determine a character's total for a passive check:
 
 For example. if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14.
 
-The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration<br> rules in chapter 8.
-
-<img src='https://www.gmbinder.com/images/z1RhM1r.png' style='position:absolute;bottom:-60px;right:0px;width:840px;z-index:1000;' />
+The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration rules in chapter 8.
 
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
@@ -203,6 +208,11 @@ A Strength check can model any attempt to lift, push, pull, or break something, 
 
 - You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
 - You try to jump an unusually long distance or pull off a stunt midjump.
+
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
 - You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
 
 ***Other Strength Checks.*** The GM might also call for a Strength check when you try to accomplish tasks like the following:

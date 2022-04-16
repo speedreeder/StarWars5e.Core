@@ -55,6 +55,7 @@
         MulticlassImprovement,
         SplashclassImprovement,
         WeaponFocus,
-        WeaponSupremacy
+        WeaponSupremacy,
+        Maneuver
     }
 }

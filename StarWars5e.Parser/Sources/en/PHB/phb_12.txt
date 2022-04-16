@@ -108,6 +108,7 @@ ___
 - Electromesh
 - Energetic Burst
 - Enhance Droid
+- Flaming Shots
 - Frequency Scan
 - Glide
 - Hold Droid
@@ -117,10 +118,10 @@ ___
 - Lock
 - Magnetic Hold
 - Magnetic Field
-- Mirror Image
 
 \columnbreak
 ___
+- Mirror Image
 - Motivator Boost
 - Overheat
 - Paralyze Humanoid
@@ -145,7 +146,6 @@ ___
 - Enhance Weapon
 - Explosion
 - Fabricate Trap
-- Flaming Shots
 - Greater Hologram
 - Greater Light
 - Greater Translation Program
@@ -280,7 +280,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
-You emit a burst of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.
+You emit a burst of acid. Choose one creature within range that you can see, or choose two creatures within range that are within 5 feet of each other that you can see. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.
 
 This power's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
@@ -293,7 +293,11 @@ ___
 
 You produce a breeze full of stinging acid droplets. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d4 acid damage and is blinded until the end of your next turn. On a successful save, the creature takes half as much damage and isn't blinded.
 
-***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
 
 #### Acidic Strike
 _At-will tech power_
@@ -311,7 +315,7 @@ _1st-level tech power_
 ___
 - **Casting Time:** 1 minute
 - **Range:** 30 feet
-- **Duration:** 8 hours
+- **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the power ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the power, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. 
 
@@ -362,7 +366,11 @@ ___
 
 You take a sensory snapshot of a target within range. Your tech grants you a brief insight into the target's defenses. You have advantage on the next attack roll you make against the target before the end of your next turn.
 
-This power benefits additional attacks at higher levels: two attacks at 5th level, three attacks at 11th level, and four attacks at 17th level.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;This power benefits additional attacks at higher levels: two attacks at 5th level, three attacks at 11th level, and four attacks at 17th level.
 
 #### Autonomous Servant
 _3rd-level tech power_
@@ -372,14 +380,6 @@ ___
 - **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 You touch one Tiny, unenhanced object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and gains little arms and legs, becoming a creature under your control until the power ends or the creature drops to 0 hit points. See the stat block for its statistics. 
-
-As a bonus action, you can nonverbally command the creature if it is within 120 feet of you. (If you control multiple creatures with this power, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a code cylinder, stand watch, or stack some small objects. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.
-
-When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.
-
-The creature is considered a valid target for the *tracker droid interface* power.
-
-***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
 
 ___
 > ## Servant
@@ -403,6 +403,19 @@ ___
 > ### Actions
 > ***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 feet, one target. *Hit* 5 (1d4 + 3) kinetic damage.
 
+As a bonus action, you can nonverbally command the creature if it is within 120 feet of you. (If you control multiple creatures with this power, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a code cylinder, stand watch, or stack some small objects. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.
+
+When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.
+
+The creature is considered a valid target for the *tracker droid interface* power.
+
+<div class='footnote'>CHAPTER 12 | TECH POWERS</div>
+
+\pagebreakNum
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
 
 #### Bacta Pack
 _1st-level tech power_
@@ -413,7 +426,7 @@ ___
 
 You create a luminescent pack of bacta in any space, occupied or unoccupied, within range. The pack remains in its space until it is activated by any creature you choose. If the space you choose is occupied by a creature you have designated, it can use its reaction to immediately activate the pack; otherwise, a creature within 5 feet of the pack can use a bonus action to touch it and activate it.
 
-When the pack is activated by a designated creature, that creature regains hit points equal to 1d6 + your techcasting modifier, and the pack is consumed. If the power ends before the pack has been activated, it becomes useless and disintegrates. This power has no effect on droids or constructs.
+When the pack is activated by a designated creature, that creature regains hit points equal to 1d6 + your techcasting ability modifier, and the pack is consumed. If the power ends before the pack has been activated, it becomes useless and disintegrates. This power has no effect on droids or constructs.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you may either increase the healing of a single pack by 1d6 for each slot level above 1st, or create another pack in a separate space, with one additional pack for each slot level above 1st.
 
@@ -439,7 +452,11 @@ You touch a droid, construct, or a creature with a tech focus, and it must succe
 - While cursed, the target must make an Intelligence saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.
 - While the target is cursed, your attacks and powers deal an extra 1d8 lightning damage to the target.
 
-A *remove virus* power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;A *remove virus* power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
 
 **Overcharge Tech.** If you cast this power using a tech slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a tech slot of 5th level or higher, the duration is 8 hours. If you use a tech slot of 7th level or higher, the duration is 24 hours. If you use a 9th-level tech slot, the power lasts until it is dispelled. Using a tech slot of 5th level or higher grants a duration that doesn't require concentration.
 
@@ -519,7 +536,13 @@ ___
 - **Range:** 250 feet
 - **Duration:** Instantaneous
 
-You generate an explosion of cryogenic energy in a 60-foot-radius sphere centered on a point you can see within range. Each creature in the affected area must make a Constitution saving throw. On a failed save, the creature takes 8d6 + 20 cold damage and is restrained for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is restrained until the end of its next turn. 
+You generate an explosion of cryogenic energy in a 60-foot-radius sphere centered on a point you can see 
+
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+within range. Each creature in the affected area must make a Constitution saving throw. On a failed save, the creature takes 8d6 + 20 cold damage and is restrained for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is restrained until the end of its next turn. 
 
 As an action, a restrained creature can make a Strength check against your tech save DC, ending this effect on itself on a success.
 
@@ -541,9 +564,9 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a ranged weapon attack against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it ignites in flame. At the start of your next turn, the creature takes fire damage equal to your techcasting ability modifier. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames, the effect ends. 
+As part of the action used to cast this power, you must make a ranged weapon attack against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and is becomes ignited (your techcasting ability modifier). 
 
-This power's damage increases when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 fire damage to the target, and the damage at the start of your next turn increases to 1d4 + your tech casting ability modifier. Both damage rolls increase by 1d6 and 1d4, respectively, at 11th level and 17th level.
+This power's damage increases when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 fire damage to the target, and the ignited damage increases to 1d4 + your tech casting ability modifier. Both damage rolls increase by 1d6 and 1d4, respectively, at 11th level and 17th level.
 
 #### Concealed Caltrops
 _2nd-level tech power_
@@ -714,7 +737,7 @@ _2nd-level tech power_
 ___
 - **Casting Time:** 1 action
 - **Range:** Touch
-- **Duration:** 8 hours
+- **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.
 
@@ -779,7 +802,11 @@ ___
 
 Make a ranged tech attack against a creature within range. On a hit, the target takes 4d8 ion damage. Additionally, if the target has tech points, it must make an Intelligence saving throw. On a failed save, it loses 5 tech points, as though it expended a tech slot.
 
-***Overcharge Tech.*** When you cast this power with a tech slot of 4th level or higher, the ion damage increases by 1d8, and the amount of tech points lost increases by 1 for each slot level above 3rd.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Overcharge Tech.*** When you cast this power with a tech slot of 4th level or higher, the ion damage increases by 1d8, and the amount of tech points lost increases by 1 for each slot level above 3rd.
 
 #### Detect Enhancement
 _1st-level tech power_
@@ -838,9 +865,9 @@ A blast of corrosive energy emits from you. Choose a target within range.
 
 A creature targeted by this power must make a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 acid damage. If this damage reduces the target to 0 hit points, it is disintegrated.
 
-A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
-This power automatically disintegrates a Large or smaller object. If the target is a Huge or larger object, this power disintegrates a 10-foot-cube portion of it. 
+This power automatically disintegrates an unenhanced Large or smaller object. If the target is a Huge or larger object, this power disintegrates a 10-foot-cube portion of it. 
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th.
 
@@ -875,9 +902,11 @@ ___
 
 You emit a burst of electricity. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 lightning damage.
 
-This power's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
-
 \columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;This power's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
 #### Electromesh
 _2nd-level tech power_
@@ -953,7 +982,7 @@ ___
 
 A creature you touch gains 10 temporary hit points. While it has these hit points, the creature can add 1d4 to its saving throws. Any remaining temporary hit points are lost when the power ends.
 
-***Overcharge Tech.*** When you cast this power with a tech slot of 3rd level or higher, the target gains 5 additional temporary hit points for each slot level above 2nd. When you cast this power at 4th level or higher, the die size increases for every two slot levels above 3rd (d6 at 4th level, d8 at 6th level, d10 at 8th level).
+***Overcharge Tech.*** When you cast this power with a tech slot of 3rd level or higher, the target gains 5 additional temporary hit points for each slot level above 2nd. When you cast this power at 4th level or higher, the die size increases for every two slot levels above 2nd (d6 at 4th level, d8 at 6th level, d10 at 8th level).
 
 #### Energizing Aura
 _8th-level tech power_
@@ -1082,7 +1111,13 @@ When you create the trap, choose an explosive trap or a power trap:
 
 ***Explosive Trap.*** When triggered, the trap erupts in a 20-foot-radius sphere centered on the trap. The explosion spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or sonic damage on a failed saving throw (your choice when you create the trap), or half as much damage on a successful one.
 
-***Power Trap.*** You can store a prepared tech power of 3rd level or lower in the trap by casting it as part of creating the trap. The trap must target a single creature or an area. The power being stored has no immediate effect when cast in this way. When the trap is triggered, the stored power is cast. If the trap has a target, it targets the creature that triggered the trap. If the power affects an area, the area is centered on that creature. If the power requires concentration, it lasts until the end of its full duration.
+<div class='footnote'>CHAPTER 12 | TECH POWERS</div>
+
+\pagebreakNum
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Power Trap.*** You can store a prepared tech power of 3rd level or lower in the trap by casting it as part of creating the trap. The trap must target a single creature or an area. The power being stored has no immediate effect when cast in this way. When the trap is triggered, the stored power is cast. If the trap has a target, it targets the creature that triggered the trap. If the power affects an area, the area is centered on that creature. If the power requires concentration, it lasts until the end of its full duration.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, the damage of an explosive trap increases by 1d8 for each slot level above 3rd. If you create a power trap, you can store any power of up to the same level as the slot you use for this power.
 
@@ -1124,7 +1159,7 @@ The fire ignites any flammable objects in the area that aren't being worn or car
 ***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
 
 #### Flaming Shots
-_3rd-level tech power_
+_2nd-level tech power_
 ___
 - **Casting Time:** 1 action
 - **Range:** Touch
@@ -1306,7 +1341,7 @@ _5th-level tech power_
 ___
 - **Casting Time:** 1 action
 - **Range:** 30 feet
-- **Duration:** 8 hours 
+- **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 This power allows you to change the appearance of any number of creatures that you can see within range. You give each target you choose a new, illusory appearance. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this power.
 
@@ -1497,7 +1532,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
-You create a blast of ion energy. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d4 ion damage. 
+You create a blast of ion energy. Choose one creature within range that you can see, or choose two creatures within range that are within 5 feet of each other that you can see. A target must succeed on a Dexterity saving throw or take 1d4 ion damage. 
 
 This power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
@@ -1595,7 +1630,7 @@ _4th-level tech power_
 ___
 - **Casting Time:** 1 action
 - **Range:** Touch
-- **Duration:** 8 hours
+- **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 You touch a creature and grant it a small reserve of kolto. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the power ends. If the power is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the powers ends. This power has no effect on droids or constructs.
 
@@ -1921,7 +1956,7 @@ _9th-level tech power_
 ___
 - **Casting Time:** 1 minute
 - **Range:** Touch
-- **Duration:** 8 hours
+- **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 You touch a willing creature, granting them a limited AI companion that can predict the world around them. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
 
@@ -1932,7 +1967,7 @@ _1st-level tech power_
 ___
 - **Casting Time:** 1 minute
 - **Range:** Touch
-- **Duration:** 8 hours
+- **Duration:** 8 hours, or until the end of your next short or long rest; whichever happens first
 
 You touch a willing creature. For the duration, the target can add 1d8 to its initiative rolls.
 
@@ -1958,7 +1993,11 @@ You create an illusion of an object, a creature, or some other visible phenomeno
 
 When the condition you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes. After this time, the illusion can be activated again.
 
-The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.
 
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
 
@@ -2103,7 +2142,11 @@ A modified memory doesn't necessarily affect how the target behaves, particularl
 
 A *remove virus* or similar power cast on the target restores its true memory.
 
-***Overcharge Tech.*** If you cast this power using a tech slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level).
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Overcharge Tech.*** If you cast this power using a tech slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level).
 
 #### Rime Shot 
 _At-will tech power_
@@ -2260,7 +2303,7 @@ When commanded (no action required), *security protocols* creates the following 
 - Place *implant message* in two locations.
 - Place *debilitating gas* in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while *security protocols* lasts.
 
-The whole secured area radiates power. A *dimish tech* cast on a specific effect, if successful, removes only that effect.
+The whole secured area radiates power. A *diminish tech* cast on a specific effect, if successful, removes only that effect.
 
 You can create a permanently guarded and secured structure by casting this power there every day for one year.
 
@@ -2409,7 +2452,7 @@ ___
 - **Range:** Varies
 - **Duration:** 1 round
 
-As part of the action used to cast this power, you must make a ranged weapon attack against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a sonic barrier until the start of your next turn. If the target willingly moves before then, it immediately takes sonic damage equal to your techcasting modifier, becomes deafened until the start of your next turn, and the power ends.
+As part of the action used to cast this power, you must make a ranged weapon attack against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed in a sonic barrier until the start of your next turn. If the target willingly moves before then, it immediately takes sonic damage equal to your techcasting ability modifier, becomes deafened until the start of your next turn, and the power ends.
 
 This power's damage increases when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 sonic damage to the target, and the damage the target takes for moving increases to 1d6 + your techcasting ability modifier.  Both damage rolls increase by an additional 1d6 at 11th and 17th level.
 
@@ -2472,7 +2515,11 @@ ___
 
 Up to three creatures of your choice that you can see within range must make Dexterity saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-***Overcharge Tech.*** When you cast this power with a tech slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to d6, d8, and d10, respectively.
+\columnbreak
+
+<div style='margin-top:16px'></div>
+
+&emsp;***Overcharge Tech.*** When you cast this power with a tech slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to d6, d8, and d10, respectively.
 
 #### Stack the Deck
 _1st-level tech power_
@@ -2499,7 +2546,7 @@ The power's damage increases when you reach higher levels. At 5th level, the eff
 #### Stun Dart
 _8th-level tech power_
 ___
-- **Casting Time:** 1 ation
+- **Casting Time:** 1 action
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 
@@ -2599,7 +2646,7 @@ This power deals additional damage when you reach higher levels. At 5th level, t
 #### Tech Override
 _3rd-level tech power_
 ___
-- **Casting Time:** 1 reaction
+- **Casting Time:** 1 reaction, which you take when you see a creature within 60 feet of you casting a tech power
 - **Range:** 60 feet
 - **Duration:** Instantaneous
 

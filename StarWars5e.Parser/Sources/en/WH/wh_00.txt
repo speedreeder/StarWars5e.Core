@@ -4,7 +4,7 @@
 
 <img src='https://www.gmbinder.com/images/PqYzVdr.png' style='position:absolute;top:90px;left:75px;width:30px' />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he *Star Wars* 5th Edition roleplaying game is about</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vast worlds populated populated by myriad sites and species. It shares elements with childhood games of make-believe. Like those games, SW5e is driven by imagination. It's about picturing the expansive marketplace and seeing the different people's living their lives, and seeing how they might interact with the player's characters.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">he *Star Wars* 5th Edition roleplaying game is about</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vast worlds populated by myriad sites and species. It shares elements with childhood games of make-believe. Like those games, SW5e is driven by imagination. It's about picturing the expansive marketplace and seeing the different people's living their lives, and seeing how they might interact with the player's characters.
 
 This book is designed to add another significant layer to your SW5e experience. The rules are designed to work alongside the traditional SW5e ruleset, and so an experienced player should have no trouble jumping right into the book. For the less experienced-or more curious-player, this Introduction discusses the basics.
 
@@ -14,9 +14,9 @@ This book is designed to add another significant layer to your SW5e experience. 
 
 **Game Master (GM):** As you enter the teeming marketplace in a disreputable sector of Nar Shaddaa, you see merchants of all types peddling wares, trying to entice the flowing traffic. As you move further into the crowd, one of the vendors catches your attention as they hail you.
 
-**Drew (playing Dash):** I'm going to check out what they have for sale.
+**Rickey (playing Vinto):** I'm going to check out what they have for sale.
 
-**Rickey (playing Vinto):** I'm going to keep an eye on the crowd to make sure our things aren't stolen.
+**Drew (playing Dash):** I'm going to keep an eye on the crowd to make sure our things aren't stolen.
 
 **Erik (playing Kodo):** ...
 
@@ -97,9 +97,9 @@ determine their known blueprints for each tool separately.
 For instance, a 3rd-level character with proficiency in armstech's implements knows how to create all unenhanced blasters and vibroweapons, as well as up to two enhanced blasters or vibroweapons of standard rarity. A 5th-level character with expertise, however, can know up to five enhanced blasters or vibroweapons of premium rarity or lower.
 
 ### Engineers
-Many engineer archetypes are built around modifying a specific item. For instance, armstech engineer is focused entirely on modifying and upgrading blasters and vibroweapons. If you have any of these engineers are the table, while using this book, you'll want to include the following rules:
+Many engineer archetypes are built around modifying a specific item. For instance, armstech engineer is focused entirely on modifying and upgrading blasters and vibroweapons. If you have any of these engineers at the table, while using this book, you'll want to include the following rules:
 - Engineer's class-specific chassis are not restricted to using mods of a certain rarity. For instance, if a 4th-level armstech engineer comes across an artifact rarity blaster modification, and they are skilled enough to install it, they can benefit from it.
-- Engineer's class-specific chassis are not restricted to only one of each modification type, but if that modification adds a bonus, such as +1 to attack rolls, or the keen 1 property, the total of that bonus across the item can not exceed half the engineer's proficiency bonus (rounded up). For instance, an 5th-level armstech engineer who uses a modified blaster can use three attachments, instead of only one. 
+- Engineer's class-specific chassis are not restricted to only one of each modification, but if that modification adds a bonus, such as +1 to attack rolls, or the keen 1 property, the total of that bonus across the item can not exceed half the engineer's proficiency bonus (rounded up). 
 - Engineer's class-specific chassis can include a number of augments up to half their proficiency bonus (rounded up), which count towards their total modifications. For instance, a 4th-level engineer, with a proficiency bonus of +2, can have only one augment in their item.
 - Engineer's class-specific chassis only ever count as one attunement, regardless of the rarity of the modifications inside it.
 
@@ -109,32 +109,6 @@ Many engineer archetypes are built around modifying a specific item. For instanc
 <div class='footnote'>INTRODUCTION</div>
 
 \pagebreakNum
-
-#### Critical Successes
-When a creature critically succeeds on a saving throw against an effect that would deal damage, they treat the effect's damage as if it had rolled the minimum.
-
-***Critical Success Range.*** A creature's critical success range determines on what d20 results that creature critically succeeds on a save. Typically, a creature has a critical success range of 0, meaning a creature can't critically succeed on a saving throw. A critical success range of 1 would mean a creature critically succeeds on a saving throw if they roll a 20, while a critical success range of 2 means a creature critically succeeds on a saving throw if they roll a 19 or a 20. A critical success range cannot exceed 4, causing a creature to critically succeed on a 17-20.
-
-#### Critical Failures
-When a creature critically fails a saving throw against an effect that would deal damage, they treat the effect's damage as if it had rolled the maximum.
-
-***Critical Fail Range.*** The critical fail range of an effect determines on what d20 results a creature critically fails a save. Typically, effects have a critical fail range of 0, meaning a creature can't critically fail a saving throw. A critical fail range of 1 would mean a creature critically fails on a saving throw if they roll a 1, while a critical fail range of 2 means a creature critically fails a saving throw if they roll a 1 or a 2. A critical fail range cannot exceed 4, causing creatures to critically fail on a 1-4.
-
-Certain effects, such as Explosives Style, cause creatures to take maximum damage if they roll a 1 on the saving throw. Such effects should be treated as a critical fail range of 1.
-
-> #### Variant: Rolling 1 or 20
-> In addition to critical failures and successes, you can consider adding the following rule as well.
->
-> If the d20 roll for a saving throw is a 20, a creature automatically succeeds on the saving throw, even if the result of their save would not meet or exceed the save DC, and they treat the save as a critical success.
->
-> If the d20 roll for a saving throw is a 1, a creature automatically fails the saving throw, even if the result of their save would meet or exceed the save DC, and they treat the save as a critical failure.
-
-#### Critical Hits
-When you score a critical hit, you get to roll all of the attack's damage dice twice, including any additional damage dice, and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
-
-***Critical Hit Range.*** The critical hit range of a weapon determines on what d20 results a weapon scores a critical hit. Typically, a weapon has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the weapon scores a critical hit on a roll of 19 or 20. A critical hit range cannot exceed 5, scoring a critical hit on 16-20.
-
-\columnbreak
 
 ### Tiers of Proficiency 
 In addition to the two tiers of proficiency present in the Player's Handbook—proficiency and expertise—Wretched Hives introduces four new tiers of proficiency: trained, mastery, high mastery, and grand mastery. Additionally, the six tiers of proficiency now form an established hierarchy, from trained to grand mastery. Progressing from one tier to the next is not a given, however; if you're proficient in a skill, and you gain that proficiency again from another source, you do not automatically gain expertise. Instead, in these instances, you can choose another proficiency of the same type, as discussed in Chapter 4 of the Player's Handbook.
@@ -158,5 +132,7 @@ High mastery lets you add twice your proficiency bonus. Additionally, you always
 
 #### Grand Mastery
 Grand mastery lets you add twice your proficiency bonus. Additionally, you always have advantage with mastery, and when you make a roll with advantage at this tier of proficiency, you can reroll each of the dice once. You must use the new roll for each die. Grand mastery can be obtained in skills, tools, and saving throws.
+
+<div class='footnote'>INTRODUCTION</div>
 
 \pagebreakNum

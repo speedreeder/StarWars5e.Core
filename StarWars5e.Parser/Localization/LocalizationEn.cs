@@ -190,6 +190,8 @@ namespace StarWars5e.Parser.Localization
         public string ArmorProperties => "Armor Properties";
         public string Fighter => "Fighter";
         public string ChooseAny => "Choose any";
+        public string Maneuvers => "Maneuvers";
+        public string Maneuver => "Maneuver";
         public Tuple<string, int> FirstLevelNum => Tuple.Create("1st level", 1);
         public Tuple<string, int>  SecondLevelNum => Tuple.Create("2nd level", 2);
         public Tuple<string, int>  ThirdLevelNum => Tuple.Create("3rd level", 3);

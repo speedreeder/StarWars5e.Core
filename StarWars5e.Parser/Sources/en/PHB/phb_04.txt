@@ -120,6 +120,10 @@ Each background presented later in this chapter includes suggested characteristi
 #### Personality Traits
 Give your character two personality traits. Personality traits are small, simple ways to help you set your character apart from every other character. Your personality traits should tell you something interesting and fun about your character. They should be self-descriptions that are specific about what makes your character stand out. "I'm smart" is not a good trait, because it describes a lot of characters. "I've read every book I can get my hands on" tells you something specific about your character's interests and disposition.
 
+\columnbreak
+
+<div style='margin-top:23px'></div>
+
 Personality traits might describe the things your character likes, his or her past accomplishments, things your character dislikes or fears, your character's self-attitude or mannerisms, or the influence of his or her ability scores.
 
 A useful place to start thinking about personality traits is to look at your highest and lowest ability scores and define one trait related to each. Either one could be positive or negative: you might work hard to overcome a low score, for example, or be cocky about your high score.
@@ -189,7 +193,7 @@ Each background gives a character a starting feat. Feats are described in chapte
 A background contains suggested personal characteristics based on your background. You can pick characteristics, roll dice to determine them randomly, or use the suggestions as inspiration for characteristics of your own creation.
 
 ### Customizing a Background
-You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, a total of two tool proficiencies or languages, and a background feat from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend credits, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits, &nbsp;&emsp;&emsp;one ideal, one bond, and one flaw. If you can't find a &nbsp;&nbsp;&nbsp;feature that matches your desired background, work &nbsp;&nbsp;&nbsp;with your GM to create one.
+You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, a total of two tool proficiencies or languages, and a feat from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend credits, you can't also take the equipment package suggested &nbsp;&nbsp;&nbsp;&nbsp;for your class.) Finally, choose two personality traits, &nbsp;&emsp;&emsp;one ideal, one bond, and one flaw. If you can't find a &nbsp;&nbsp;&nbsp;feature that matches your desired background, work &nbsp;&nbsp;&nbsp;with your GM to create one.
 
 <img src='https://www.gmbinder.com/images/fCleZ2B.png' style='position:absolute;bottom:-30px;right:0px;width:855px;transform:scaleX(-1);z-index:1000;' />
 
@@ -795,7 +799,7 @@ Years of service in the City Watch have led to the rigid discipline most often s
 |:---:|:----------|
 |1|The monstrous enemy we faced in battle still leaves me quivering with fear.|
 |2|I have little respect for anyone who is not a proven warrior.|
-|3|I made a terrible mistake in battle cost many lives— and I would do anything to keep that mistake secret.|
+|3|I made a terrible mistake in battle that cost many lives, and I would do anything to keep that mistake secret.|
 |4|My hatred of my enemies is blind and unreasoning.|
 |5|I obey the law, even if the law causes misery.|
 |6|I'd rather eat my armor than admit when I'm wrong.|
@@ -844,7 +848,7 @@ As a further embodiment of the experience and training of your background, you c
 |:--:|:--:|
 |5|Linguist|
 |6|Crafter|
-|7|Healer|
+|7|Formfighting Dabbler|
 |8|Force-Sensitive|
 
 </div>
@@ -1012,7 +1016,7 @@ ___
 - **Equipment:** A uniform of your company (traveler's clothes in quality), an insignia of your rank, a gaming set (one of your choice), and a pouch containing the remainder of your last wages (100 cr)
 
 ### Feature: Mercenary Life
-You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the cantinas and feasthalls where mercenaries abide in any area, as long as you speak the language, and if you spend at least an hour in such a location you can come across one of the following bits of information: a job offer, significant rumor, referal to a skilled merchant, blacksmith, etc., or a hint towards the pursuit of your current quest. Additionally, you can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see "Practicing a Profession" under "Downtime Activities" in chapter 8 of the Player's Handbook).
+You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the cantinas and feasthalls where mercenaries abide in any area, as long as you speak the language, and if you spend at least an hour in such a location you can come across one of the following bits of information: a job offer, significant rumor, referral to a skilled merchant, blacksmith, etc., or a hint towards the pursuit of your current quest. Additionally, you can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see "Practicing a Profession" under "Downtime Activities" in chapter 8 of the Player's Handbook).
 
 ### Background Feat
 As a further embodiment of the experience and training of your background, you can choose from the following feats:
@@ -1673,7 +1677,7 @@ As a further embodiment of the experience and training of your background, you c
 |:--:|:--:|
 |5|Linguist|
 |6|Crafter|
-|7|Force of Personality|
+|7|Formfighting Dabbler|
 |8|Force-Sensitive|
 
 </div>
@@ -2014,3 +2018,11 @@ Spacers come from all walks of life, and the responsibilities of life aboard a s
 <div class='footnote'>CHAPTER 4 | PERSONALITY AND BACKGROUND</div>
 
 \pagebreakNum
+
+<style>
+  .phb#p25:after { display:none; }
+</style>
+
+<img src='https://www.gmbinder.com/images/2ETxkMF.png' style="position:absolute; left:-150px; bottom:0px; width:2600px;" />
+
+\pagebreak

@@ -19,13 +19,13 @@ You are more machine than man. While repaired in a similar configuration as your
 - You are no longer a valid target for cybernetic augmentations or genetic mutations. However, you are now a valid target for droid customizations.
 
 ### Double-Weapon Casting
-_**Prequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
+_**Prerequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
 You've learned to blend your prowess with twinblades with your casting. You gain the following benefits:
 - Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 - When you use your action to Cast a Power that calls for a weapon attack and attack with a weapon with the light and double properties while wielding it in two hands, you can use your bonus action to engage in Double-Weapon Fighting. All the rules of Double-Weapon Fighting still apply to you.
 
 ### Two-Weapon Casting
-_**Prequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
+_**Prerequisite:** 4th level, the ability to cast force or tech<br> &emsp;powers_<br>
 You've learned to better combine your dual wielding with your powers. You gain the following benefits:
 - Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 - When you use your action to Cast a Power that calls for a weapon attack and attack with a light weapon that you're holding in one hand, you can use your bonus action to engage in Two-Weapon Fighting. All the rules of Two-Weapon Fighting still apply to you.
@@ -37,21 +37,21 @@ You've developed an aptitude for a particular deployment on a starship. You gain
 - The maximum number of ranks you can gain in deployments increases by 1. You can still only gain 5 ranks in a deployment.
 
 ### Adaptable Fading
-_**Prequisite:** 4th level_<br>
+_**Prerequisite:** 4th level_<br>
 You can easily overthrow an enemy's fortitude. You gain the following benefits:
 - Increase your Strength or Constitution score by 1, to a maximum of 20.
 - When you make an attack roll using your Strength, you can choose to add half your Constitution modifier to the attack roll. Alternatively, when you would make an attack roll using Constitution, you can add half your Strength modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
 - When an effect you control would call for a Strength saving throw, you can instead have it call for a Constitution saving throw. Alternatively, when an effect you control would call for a Constitution saving throw, you can instead have it call for a Strength saving throw. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
 
 ### Flexible Rending
-_**Prequisite:** 4th level_<br>
+_**Prerequisite:** 4th level_<br>
 You are adept at overwhelming an opponent's reflexes. You gain the following benefits:
 - Increase your Dexterity or Intelligence score by 1, to a maximum of 20.
 - When you make an attack roll using your Dexterity, you can choose to add half your Intelligence modifier to the attack roll. Alternatively, when you would make an attack roll using Intelligence, you can add half your Dexterity modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
 - When an effect you control would call for a Dexterity saving throw, you can instead have it call for a Intelligence saving throw. Alternatively, when an effect you control would call for a Intelligence saving throw, you can instead have it call for a Dexterity saving throw. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
 
 ### Versatile Withering
-_**Prequisite:** 4th level_<br>
+_**Prerequisite:** 4th level_<br>
 You have learned to easily overcome an adversary's will. You gain the following benefits:
 - Increase your Wisdom or Charisma score by 1, to a maximum of 20.
 - When you make an attack roll using your Wisdom, you can choose to add half your Charisma modifier to the attack roll. Alternatively, when you would make an attack roll using Charisma, you can add half your Wisdom modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.
@@ -909,7 +909,7 @@ Your companion has advantage on Wisdom and Charisma saving throws against force 
 Your companion has a keen eyesight, especially in the dark. It can see in dim light within 60 feet of it as if it were bright light, and in darkness as if it were dim light. It can't discern color in darkness, only shades of gray.
 
 #### Defensive Ball
-Your companion is able to curl into a rolling ball for extra protection. When it takes the Dash action while it isn't wielding a shield, it gains a bonus to AC equal to have its proficiency bonus (rounded up) until the start of its next turn. 
+Your companion is able to curl into a rolling ball for extra protection. When it takes the Dash action while it isn't wielding a shield, it gains a bonus to AC equal to half its proficiency bonus (rounded up) until the start of its next turn. 
 
 #### Defiant
 When your companion or a creature it can see that can see and understand it makes an ability check, attack roll, or saving throw, your companion can roll a d4 and add it to their roll (no action required). It can use this before or after the roll, but before the GM determines the roll's outcome. Once your companion has used this feature, it must complete a short or long rest before it can use it again.
@@ -1395,7 +1395,7 @@ At 6th level, choose one of your companion's skill or tool proficiencies. It gai
 At 14th level, your companion gains expertise in another skill or tool.
 
 ### Companion Freedom
-Once your companion has reached 10th level, your companion no longer requires you to use your bonus action to allow it to take an action other than Dash, Disengage, Guard, or Hide.
+Once your companion has reached 10th level, your companion no longer requires you to use your bonus action to allow it to take an action other than Dash, Disengage, Dodge, Guard or Hide.
 
 ### Feat
 Also at 10th level, your companion gains one feat of your choice. Your companion<br> can't take a feat that would<br> grant them a companion.
@@ -1708,32 +1708,34 @@ Also at 3rd level, your companion can push itself beyond its normal limits for a
 Once your companion has used this feature, it must finish a short or long rest before it can use it again.
 
 ### Martial Superiority
-At 7th level, your companion has learned maneuvers that are fueled by special dice called superiority dice.
+At 7th level, your companion has learned maneuvers that are fueled by special dice called superiority dice. See chapter 13 of the Player's Handbook for the maneuvers list.
 
 #### Maneuvers
-Your companion learns two maneuvers of its choice from those available to the fighter class. Many maneuvers enhance an attack in some way. Your companion can use only one maneuver per attack, and it may only use each maneuver once per turn. 
+Your companion learns one maneuver of its choice. Many maneuvers enhance an attack in some way. Your companion can use only one maneuver per attack, and it may only use each maneuver once per turn.
 
-Your companion learns an additional maneuver at 11th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one.
+Your companion learns an additional maneuver at 5th, 9th, 13th, 15th, and 17th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one.
 
 #### Superiority Dice
-Your companion has two superiority dice, which are d6s. This die increases to a d8 at 15th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended superiority dice when it finishes a short or long rest.
+Your companion has one superiority dice, which is d4. This die increases to a d6 at 9th level and a d8 at 17th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended superiority dice when it finishes a short or long rest.
 
-Your companion gains an additional superiority die at 11th level.
+Your companion gains an additional superiority die at 9th and 17th level.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
-#### Saving Throws
-Some of your companion's maneuvers require its target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
+#### Maneuver Ability
+Your companion's maneuver ability varies based on the type of the maneuver it uses. It uses Strength, Dexterity, or Constitution for physical maneuvers (its choice), Intelligence, Wisdom, or Charisma for mental maneuvers (its choice), and an ability of its choice for general maneuvers. It uses this ability whenever a maneuver refers to its maneuver ability. Additionally, it uses this ability modifier when setting the saving throw DC for a maneuver it uses.
 
 ___
 
 <div align="center">
 
-**Maneuver save DC** = 8 + its proficiency bonus + <br>its Strength or Dexterity modifier (its choice)
+**Maneuver save DC** = 8 + your proficiency bonus + <br>your maneuver ability modifier
 
 </div>
+
+___
 
 ### Extra Attack
 By 11th level, your companion can attack twice, instead of once, whenever it takes the Attack action on its turn.
@@ -1970,41 +1972,39 @@ ___
 - **Skills:** Choose three from Deception, Insight, Intimidation, Investigation, Lore, Medicine, Nature, Persuasion, and Survival
 
 ### Academic Superiority
-Beginning when your companion chooses this class at 3rd level, your companion has learned maneuvers that are fueled by special dice called superiority dice.
+Beginning when your companion chooses this class at 3rd level, your companion has learned maneuvers that are fueled by special dice called superiority dice. See chapter 13 of the Player's Handbook for the maneuvers list.
 
 #### Maneuvers
-Your companion learns two maneuvers of its choice from those available to the scholar class. Many maneuvers enhance an attack in some way. Your companion can use only one maneuver per attack, and it may only use each maneuver once per turn.
+Your companion learns two maneuvers of its choice. Many maneuvers enhance an attack in some way. Your companion can use only one maneuver per attack, and it may only use each maneuver once per turn.
 
-Your companion learns an additional maneuver at 7th, 11th, and 15th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one.
+Your companion learns an additional maneuver at 5th, 7th, 9th, 11th, 13th, 15th, and 17th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one.
 
 #### Superiority Dice
-Your companion has two superiority dice, which are d4s. This die increases to a d6 at 7th level and a d8 at 15th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended superiority dice when it finishes a short or long rest.
+Your companion has two superiority dice, which are d4s. This die increases to a d6 at 9th level and a d8 at 17th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended superiority dice when it finishes a short or long rest.
 
-Your companion gains an additional superiority die at 7th, 11th, and 15th level.
+Your companion gains an additional superiority die at 5th, 9th, 13th, and 17th level.
 
-#### Saving Throws
-Some of your companion's maneuvers require its target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
+#### Maneuver Ability
+Your companion's maneuver ability varies based on the type of the maneuver it uses. It uses Strength, Dexterity, or Constitution for physical maneuvers (its choice), Intelligence, Wisdom, or Charisma for mental maneuvers (its choice), and an ability of its choice for general maneuvers. It uses this ability whenever a maneuver refers to its maneuver ability. Additionally, it uses this ability modifier when setting the saving throw DC for a maneuver it uses.
 
 ___
 
 <div align="center">
 
-**Maneuver save DC** = 8 + its proficiency bonus + <br>its Intelligence modifier
+**Maneuver save DC** = 8 + your proficiency bonus + <br>your maneuver ability modifier
 
 </div>
 
 ___
 
-
-### Critical Analysis
-Also at 3rd level, it is able to analyze a target, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a bonus action on its turn, your companion can analyze a target it can see within 60 feet of it. For the next minute, or until your companion analyzes another target, it gain the following benefits:
-- When your companion analyzes a hostile creature, its attack and damage rolls made with weapons with the finesse property or blaster weapons against that target may use its Intelligence modifier instead of Strength or Dexterity.
-
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
-- When your companion analyzes a friendly creature, the target can end your companion's Critical Analysis on them (no action required) to add its Intelligence modifier to one attack roll, ability check, or saving throw. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
+### Critical Analysis
+Also at 3rd level, it is able to analyze a target, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a bonus action on its turn, your companion can analyze a target it can see within 60 feet of it. For the next minute, or until your companion analyzes another target, it gain the following benefits:
+- When your companion analyzes a hostile creature, its attack and damage rolls made with weapons with the finesse property or blaster weapons against that target may use its Intelligence modifier instead of Strength or Dexterity.
+- When your companion analyzes a friendly creature, the target can end your companion's Critical Analysis on them (no action required) to add your companion's Intelligence modifier to one attack roll, ability check, or saving throw. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
 
 ### Discoveries
 At 7th level, your companion learns two discoveries from those available to the scholar class or any of the scholar's archetypes. 

@@ -1160,6 +1160,10 @@ namespace StarWars5e.Parser.Localization
 
         public string ECStorageStartLine => throw new NotImplementedException();
 
+        public string Maneuvers => throw new NotImplementedException();
+
+        public string Maneuver => throw new NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

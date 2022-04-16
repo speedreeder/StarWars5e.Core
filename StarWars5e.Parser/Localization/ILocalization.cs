@@ -189,6 +189,8 @@ namespace StarWars5e.Parser.Localization
         public string ArmorProperties { get; }
         public string Fighter { get; }
         public string ChooseAny { get; }
+        public string Maneuvers { get; }
+        public string Maneuver { get; }
         #endregion
 
         #region WretchedHivesManager

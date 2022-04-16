@@ -12,7 +12,7 @@ This chapter provides the rules you need for your characters and monsters to eng
 A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and force- or tech-casting. The game organizes the chaos of combat into a cycle of rounds and turns. A **round** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **turn.** The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.
 
 ### Surprise
-A band of adventurers sneaks up on a Mandalorian camp, springing from cover to attack them. Kath hounds patrol down a hallway, leasher to their handler, unnoticed by the adventurers until the hound smells one of them. In these situations, one side of the battle gains surprise over the other.
+A band of adventurers sneaks up on a Mandalorian camp, springing from cover to attack them. Kath hounds patrol down a hallway, leashed to their handler, unnoticed by the adventurers until the hound smells one of them. In these situations, one side of the battle gains surprise over the other.
 
 The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.
 
@@ -242,7 +242,7 @@ When you take the Hide action, you make a Dexterity (Stealth) check in an attemp
 > When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
 ### Ready
-Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction.
+Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.
 
 First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include "If the soldier steps on the trapdoor, I'll pull the lever that opens it," and "If the gamorrean steps next to me, I move away."
 
@@ -328,7 +328,7 @@ When you want to grab a creature or wrestle with it, you can use the Attack acti
 > #### Contests in Combat
 > Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat. The GM can use these contests as models for improvising others.
 
-The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, you try to seize the target by making a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see appendix A). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
+The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, which is occupied for the duration of the grapple, you try to seize the target by making a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see appendix A). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 
 ***Escaping a Grapple.*** A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.
 
@@ -351,10 +351,10 @@ You can make ranged attacks only against targets within a specified range. If a 
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.
 
 ### Double-Weapon Fighting
-When you take the Attack action and attack with a weapon with the light and double properties while wielding it in two hands, you can use a bonus action to attack with the other end of the weapon. You don't add your ability modifier to the attack roll of the bonus attack, unless that modifier is negative.
+When you take the Attack action and attack with a weapon with the light and double properties that you're wielding in two hands, you can use a bonus action to attack with the other end of the weapon. You don't add your ability modifier to the attack roll of the bonus attack, unless that modifier is negative.
 
 ### Two-Weapon Fighting
-When you take the Attack action and attack with a light weapon that you're holding in one hand, you can use a bonus action to attack with a different light weapon that you're holding in the other hand. You don't add your ability modifier to the damage roll of the bonus attack, unless that modifier is negative.
+When you take the Attack action and attack with a weapon with the light property that you're wielding in one hand, you can use a bonus action to attack with a different light weapon that you're wielding in the other hand. You don't add your ability modifier to the damage roll of the bonus attack, unless that modifier is negative.
 
 If a weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
 
@@ -409,13 +409,17 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ***Cold.*** The chill energy of carbonite and cryogenesis deal cold damage.
 
-***Energy.*** Energy damage is the damage dealt by blaster weapons, lightweapons, and other powers or abilities.
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;***Energy.*** Energy damage is the damage dealt by blaster weapons, lightweapons, and other powers or abilities.
 
 ***Fire.*** The concussive damage of an explosion or an open flame deal fire damage.
 
 ***Force.*** Certain force powers that channel the pure energy of the Force deal force damage. 
 
-***Ion.*** Ion damage is a special damage type that is most effective against droids and constructs. 
+***Ion.*** Ion damage is a special damage type that is most effective against droids and constructs. Simple electronics dealt ion damage are disabled until rebooted, unless that damage would destroy them outright. 
 
 ***Kinetic.*** Kinetic damage encompasses all physical damage commonly dealt by vibroweapons.
 
@@ -432,7 +436,7 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 ***True.*** True damage is not dealt by any specific source. Instead, effects that prevent or redirect damage cannot be used to counter the loss of life caused by true damage.
 
 ### Damage Resistance and Vulnerability
-Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.
+Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage type, damage of that type is reduced by half against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.
 
 Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to lightning damage as well as resistance to all force power damage, the damage of a *force lightning* is reduced by half, not reduced by three-quarters.
 
@@ -535,7 +539,7 @@ A trooper charging into battle on a dewback, an engineer casting powers from the
 An appropriately sized vehicle or a willing creature that is at least one size larger than you and that has an appropriate anatomy can serve as a mount, using the following rules.
 
 ### Mounting and Dismounting
-Once during your move, you can mount or dismount a vehicle creature that is within 5 feet of you. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a dewback. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0.
+Once during your move, you can mount or dismount a vehicle or willing creature that is within 5 feet of you. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a dewback. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0.
 
 If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same saving throw.
 
@@ -550,8 +554,16 @@ You can control a mount only if it has been trained to accept a rider. Domestica
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;In either case, if the mount provokes<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;an opportunity attack while you're on<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;it, the attacker can target you or the<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;mount.
 
-<img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:150px;width:440px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:152px;width:440px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+<style>
+  .phb#p25:after { display:none; }
+</style>
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/593986574891352084/sw-combat-scene.jpg' class='cover-image' style="position:absolute; left:0px; width:844px;" />
 
 \pagebreakNum

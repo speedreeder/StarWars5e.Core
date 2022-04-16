@@ -9,8 +9,8 @@ namespace StarWars5e.Parser.Processors.PHB
         public override Task<List<FeatureOption>> FindBlocks(List<string> page)
         {
             List<FeatureOption> featureOptions = new List<FeatureOption>();
-            featureOptions.AddRange(ParseOptions(page, "Fighter", "Maneuvers"));
-            featureOptions.AddRange(ParseOptions(page, "Scholar", "Maneuvers"));
+            //featureOptions.AddRange(ParseOptions(page, "Fighter", "Maneuvers"));
+            //featureOptions.AddRange(ParseOptions(page, "Scholar", "Maneuvers"));
             featureOptions.AddRange(ParseOptions(page, "Scholar", "Discoveries"));
             featureOptions.AddRange(ParseOptions(page, "Sentinel", "Sentinel Ideals"));
             featureOptions.AddRange(ParseOptions(page, "Guardian", "Guardian Auras"));
@@ -18,8 +18,7 @@ namespace StarWars5e.Parser.Processors.PHB
             featureOptions.AddRange(ParseOptions(page, "Consular", "Force-Empowered Casting"));
             featureOptions.AddRange(ParseOptions(page, "Engineer", "Armormech Modifications"));
             featureOptions.AddRange(ParseOptions(page, "Engineer", "Armstech Modifications"));
-            featureOptions.AddRange(ParseOptions(page, "Engineer", "Gadgeteer Contraptions"));
-          //featureOptions.AddRange(parseOptions(page, "Engineer", "Unstable Modifications"));
+            featureOptions.AddRange(ParseOptions(page, "Engineer", "Gadgeteer Modifications"));
 
             return Task.FromResult(featureOptions);
         }
@@ -31,7 +30,6 @@ namespace StarWars5e.Parser.Processors.PHB
             var optionsStartIndex = 0;
             if(optionType.Equals("Sentinel Ideals"))
             {
-                // why the fuck is FindLastIndex returning -1?
                 optionsStartIndex = lines.FindIndex(classStartIndex, f => f.StartsWith("### " + optionType));
                 optionsStartIndex = lines.FindIndex(optionsStartIndex+1, f => f.StartsWith("### " + optionType));
             }

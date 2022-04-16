@@ -40,7 +40,7 @@ namespace StarWars5e.Parser.Managers
         {
             "PHB.phb_-1.txt", "PHB.phb_00.txt", "PHB.phb_01.txt", "PHB.phb_02.txt", "PHB.phb_03.txt", "PHB.phb_04.txt",
             "PHB.phb_05.txt", "PHB.phb_06.txt", "PHB.phb_07.txt", "PHB.phb_08.txt", "PHB.phb_09.txt", "PHB.phb_10.txt",
-            "PHB.phb_11.txt", "PHB.phb_12.txt", "PHB.phb_aa.txt", "PHB.phb_ab.txt", "PHB.phb_changelog.txt"
+            "PHB.phb_11.txt", "PHB.phb_12.txt", "PHB.phb_13.txt", "PHB.phb_aa.txt", "PHB.phb_ab.txt", "PHB.phb_changelog.txt"
         };
 
         public List<(string name, GlobalSearchTermType globalSearchTermType, string pathOverride)> ReferenceNames;
@@ -83,6 +83,7 @@ namespace StarWars5e.Parser.Managers
                 ( localization.StarshipWeapons, GlobalSearchTermType.Reference, "/starships/weapons"),
                 ( localization.Ventures, GlobalSearchTermType.Reference, "/starships/ventures"),
                 ( localization.AdditionalVariantRules, GlobalSearchTermType.Reference, "/rules/variantRules"),
+                ( localization.Maneuvers, GlobalSearchTermType.Maneuver, "/characters/maneuvers"),
             };
 
             _featureRepository = serviceProvider.GetService<FeatureRepository>();
@@ -504,6 +505,30 @@ namespace StarWars5e.Parser.Managers
             catch (StorageException)
             {
                 Console.WriteLine("Failed to upload PHB armor properties.");
+            }
+
+
+            try
+            {
+                var maneuvers =
+                    await new ExpandedContentManeuversProcessor(_localization).Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_13.txt")).ToList(), _localization, ContentType.Core);
+
+                foreach (var maneuver in maneuvers)
+                {
+                    maneuver.ContentSourceEnum = ContentSource.PHB;
+
+                    var maneuverSearchTerm = _globalSearchTermRepository.CreateSearchTerm(maneuver.Name,
+                        GlobalSearchTermType.Maneuver, ContentType.Core,
+                        $"/characters/maneuvers/?search={maneuver.Name}");
+                    _globalSearchTermRepository.SearchTerms.Add(maneuverSearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<Maneuver>($"maneuvers{_localization.Language}", maneuvers,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB maneuvers.");
             }
 
             foreach (var referenceName in ReferenceNames)

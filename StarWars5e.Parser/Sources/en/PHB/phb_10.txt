@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-variant: small-caps">agic exists in the worlds of *Star Wars* in the form of</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; powers. This chapter provides the rules for casting these powers. There are two major sources of these power: the Force and technology. While multiple classes use the Force or technology to fuel their powers, there are only the two sources. Regardless, powers follow the rules here.
 
 ## What is a Power?
-A power is a discrete effect, a single shaping of the energies of the Force or a result of a technological formula, that creates a desired effect. In casting a power, a character carefully constructs the desired effect using the source of their power, and then releases it, all in the span of seconds.
+A power is a discrete enhanced effect, a single shaping of the energies of the Force or a result of a technological formula, that creates a desired effect. In casting a power, a character carefully constructs the desired effect using the source of their power, and then releases it, all in the span of seconds.
 
 Powers can be versatile tools, weapons, or protective wards. They can deal damage or undo it, impose or remove conditions (see appendix A), drain life energy away, and restore life to the dead.
 
@@ -30,7 +30,7 @@ Additionally, every time you learn a new power as a result of gaining a level, y
 \columnbreak
 
 ### Force and Tech Points
-Regardless of how many powers a caster knows or prepares, he or she can cast only a limited number of powers before resting. Manipulating the Force and channeling its energy into even a simple power is physically and mentally taxing, and higher-level powers are even more so. Thus, each casting class's description includes a table showing how many force or tech points a character can use at each character level. For example, the 3rd-level consular Umara has 12 force points.
+Regardless of how many powers a caster knows or prepares, he or she can cast only a limited number of powers before resting. Manipulating the Force and channeling its energy into even a simple power is physically and mentally taxing, and higher-level powers are even more so. Thus, each casting class's description includes a table showing how many force or tech points a character can use at each character level. For example, the 3rd-level consular Umara with 17 Wisdom has 15 force points.
 
 When a character casts a power, he or she expends a number of points based on the level of the power to create the slot to cast it. At-will powers always cost 0 points, while casting a power at any other level costs the power level + 1 points, as shown in the Power Level Point Cost table below. When Umara casts *project*, a 1st-level power, she spends two of her 12 force points, leaving 10 remaining.
 
@@ -93,7 +93,7 @@ For instance, to learn the *knight speed* force power you would first need to le
 Most powers require a single action to cast, but some powers require a bonus action, a reaction, or much more time to cast.
 
 #### Bonus Action
-A power cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the power, provided that you haven't already taken a bonus action this turn. You can't cast another power during the same turn, except for an at-will with a casting time of 1 action.
+A power cast with a bonus action is especially swift. You can only cast one 1st-level or higher power using your action or bonus action on each of your turns. Once you've done so, you can only cast at-will powers with your action or bonus action on this turn.
 
 #### Reactions
 Some powers can be cast as reactions. These powers take a fraction of a second to bring about and are cast in response to some event. If a power can be cast as a reaction, the power's description tells you exactly when you can do so.
@@ -110,7 +110,7 @@ The target of a power must be within the power's range. For a power like *shock*
 
 Most powers have ranges expressed in feet. Some power can target only a creature (including you) that you touch. Other powers, such as the *shield* power, affect only you. These powers have a range of self.
 
-Powers that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the power's effect must be you (see "Areas of Effect" later in the this chapter).
+Powers that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the power's effect must be you (see "Areas of Effect" later in this chapter).
 
 Once a power is cast, its effects aren't limited by its range, unless the power's description says otherwise.
 
@@ -174,7 +174,7 @@ A cylinder's point of origin is the center of a circle of a particular radius, a
 A cylinder's point of origin is included in the cylinder's area of effect.
 
 #### Line
-A line extends from its point of origin in a straight path up to its length and covers an area defined by its width. A line's point of origin is not included in the lines are of effect, unless you decide otherwise.
+A line extends from its point of origin in a straight path up to its length and covers an area defined by its width. A line's point of origin is not included in the line's area of effect, unless you decide otherwise.
 
 #### Sphere
 You select a sphere's point of origin, and the sphere extends outward from that point. The sphere's size is expressed as a radius in feet that extends from the point.
@@ -192,8 +192,16 @@ Some powers require the caster to make an attack roll to determine whether the p
 ### Combining Effects
 The effects of different powers add together while the durations of those powers overlap. The effects of the same power cast multiple times—or identical effects from separate powers—don't combine, however. Instead, the most potent effect~such as the highest bonus—from those castings applies while their durations overlap.
 
-For example, if two consulars cast *guidance* on the same target, that character gains the power's benefit only once; he or she doesn't get to roll two bonus dice. Alternatively, if a character is targeted by both *master speed* and *tactical advantage*, they only gain the benefits once.
+For example, if two consulars cast *guidance* on the same target, that character gains the power's benefit only once; he or she doesn't get to roll two bonus dice. Alternatively, if a character is targeted by both *knight speed* and *tactical advantage*, they only gain the benefits once.
 
 <div class='footnote'>CHAPTER 10 | FORCE- AND TECH-CASTING</div>
 
 \pagebreakNum
+
+<style>
+  .phb#p29:after { display:none; }
+</style>
+
+<img src='https://cdn.discordapp.com/attachments/590617717761900555/593874554955497483/luke-force.jpg' class='cover-image' style="position:absolute; left:-350px; width:1860px;" />
+
+\pagebreak

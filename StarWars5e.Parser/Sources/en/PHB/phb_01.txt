@@ -85,9 +85,7 @@ your proficiency bonus might be modified (doubled or halved, for example) before
 ### 3. Determine Ability Scores
 Much of what your character does in the game depends on his or her six abilities: **Strength**, **Dexterity**, **Constitution**, **Intelligence**, **Wisdom**, and **Charisma**. Each ability has a score, which is a number you record on your character sheet.
 
-The six abilities and their use in the game are described in the **Using Ability Scores** chapter. The Ability Score Summary table provides a quick reference for what qualities are measured by each ability, what species increases which abilities, and what classes consider each ability particularly important.
-
-You generate your character's six **ability scores** randomly. Roll four 6-sided dice and record the total of the highest three dice on a piece of scratch paper. Do this five more times, so that you have six numbers. If you want to save time or don't like the idea of randomly determining ability scores, you can use the following scores instead: 15, 14, 13, 12, 10, 8.
+The six abilities and their use in the game are described in the **Using Ability Scores** chapter. You generate your character's six **ability scores** randomly. Roll four 6-sided dice and record the total of the highest three dice on a piece of scratch paper. Do this five more times, so that you have six numbers. If you want to save time or don't like the idea of randomly determining ability scores, you can use the following scores instead: 15, 14, 13, 12, 10, 8.
 
 Now take your six numbers and write each number beside one of your character's six abilities to assign scores to Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Afterward, make any changes to your ability scores as a result of your species choice.
 
@@ -229,7 +227,7 @@ As your character goes on adventures and overcomes challenges, he or she gains e
 #### Class Features and Hit Dice
 When your character gains a level, his or her class often grants additional features, as detailed in the class description. Some of these features allow you to increase your ability scores, either increasing two scores by 1 each or increasing one score by 2. You can't increase an ability score above 20. In addition, every character's proficiency bonus increases at certain levels.
 
-Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitution modifier to the roll, and add the total to your hit point maximum. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up).
+Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitution modifier to the roll, and add the total to your hit point maximum (minimum of 1 hit point). Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up).
 
 ##### Character Advancement 
 
@@ -270,3 +268,11 @@ The Character Advancement table summarizes the XP you need to advance in levels 
 <div class='footnote'>CHAPTER 1 | STEP-BY-STEP CHARACTERS</div>
 
 \pagebreakNum
+
+<style>
+  .phb#p7:after { display:none; }
+</style>
+
+<img src='https://www.gmbinder.com/images/vIdLiKr.jpg' style="position:absolute; left:0px; top:-220px; width:840px;" />
+
+\pagebreak

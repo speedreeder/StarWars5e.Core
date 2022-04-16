@@ -8,9 +8,9 @@
 
 Allowing characters to pursue side interests between adventures also encourages players to become more invested in the campaign world(s). When a character owns a cantina in a city or spends time carousing with the locals, the character's player becomes more likely to respond to threats to the city and its inhabitants.
 
-As your campaign progressions, your players' characters will not only become more powerful, but also more influential and invested in the world. They might be inclined to undertake projects that require more time between adventures, such as building and maintaining a stronghold. As the party gains levels, you can add more downtime between adventures to give characters the time they need to pursue such interests. Whereas days or weeks might pass between low-level adventures, the amount of downtime between higher-level adventures might be measured in months or years.
+As your campaign progresses, your players' characters will not only become more powerful, but also more influential and invested in the world. They might be inclined to undertake projects that require more time between adventures, such as building and maintaining a stronghold. As the party gains levels, you can add more downtime between adventures to give characters the time they need to pursue such interests. Whereas days or weeks might pass between low-level adventures, the amount of downtime between higher-level adventures might be measured in months or years.
 
-Downtime activities are tasks that usually take a workweek (5 days) or longer to perform. These tasks can include buying or creating enhanced items, criminal activities, general carousing, or simply working a job. A character selects a downtime activity from among those available, and you, as GM, then follow the rules for the activity to resolve it, informing the player of the results and any complications that ensue.
+Downtime activities are tasks that usually take a workweek (five days of work plus two days of rest) or longer to perform. These tasks can include buying or creating enhanced items, criminal activities, general carousing, or simply working a job. A character selects a downtime activity from among those available, and you, as GM, then follow the rules for the activity to resolve it, informing the player of the results and any complications that ensue.
 
 ### Resources
 Each activity has a resource requirement, typically comprised of money and time, though some may have greater requirements. The required amount of money and time to perform an activity varies, as described in the activity's resource description.
@@ -18,7 +18,7 @@ Each activity has a resource requirement, typically comprised of money and time,
 ### Resolution
 The Resolution portion of each activity's description tells you how to resolve it. Many activities require an ability check, so be sure to note the character's relevant ability modifiers. Follow the steps in the activity, and determine the results.
 
-Most downtime activities require at least a workweek (5 days) to complete. Some activities require days, weeks (7 days), or even months (30 days). A character must spend at least 8 hours of each day engaged in the downtime activity for that day to count toward the activity's completion.
+Most downtime activities require at least a workweek to complete. Some activities require days, weeks (7 days), or even months (30 days). A character must spend at least 8 hours of each day engaged in the downtime activity for that day to count toward the activity's completion.
 
 For many downtime activities, the days of an activity don't need to be consecutive; you can spread them over a longer period of time than is required for the activity. But that period should be no more than twice as long as the required time, otherwise you risk introducing additional complications (see below), and possibly double the activity's costs to represent the inefficiency of the character's progress.
 
@@ -840,7 +840,7 @@ The character must make at least one, but up to three checks, and then consult t
 |25|+20|
 |30|+25|
 
-> The **d100 Roll Modifier** is added to the percentile dice rolled for the Gambling Results table, which is discussed below.
+> The **d100 Roll Modifier** is added to the percentile dice rolled for the Pit Fighting Results table, which is discussed below.
 
 For instance, if the character makes a Dexterity (Acrobatics) check, and the result is an 27, they can elect to keep that check, resulting in a +20 pit fighting roll modifier. If the result of the check was only 9, however, they can choose to then make an attack roll with one of their weapons. If the result of that attack roll is a 24, and the character elects to keep it, they receive a +10 pit fighting roll modifier, since the DC for each tier increased by 5 after the first check. If the character makes an Strength (Athletics) check with a result of 11, a Dexterity (Acrobatics) check with a result of 14, and finally an attack roll with one of their weapons, with a result of 18, they fail to meet a DC, since the DC for each tier increased by 5 for each subsequent check. In this instance, they lose all of their bouts, and suffer one level of exhaustion.
 
@@ -882,7 +882,7 @@ While pit fighting is a very fun and engaging activity for a character to partic
 \pagebreakNum
 
 ## Racing
-On my worlds, racing is a popular local pastime. For the accomplished pilot, racing is a great way to make credits and a name for yourself. However, racing is not for the faint of heart.
+On many worlds, racing is a popular local pastime. For the accomplished pilot, racing is a great way to make credits and a name for yourself. However, racing is not for the faint of heart.
 
 ### Resources
 This activity requires one workweek of effort and a 250 cr entry fee. If the character does not own an appropriate vehicle, they can rent one for 1,000 cr.
@@ -1140,17 +1140,14 @@ Receiving training requires you first find a teacher who is willing and capable 
 #### Language or Weapon
 Learning a new language or training in a new weapon takes 10 workweeks and costs 250 cr per workweek. During resolution, training in a language calls for an Intelligence check, while a weapon requires an attack roll with that weapon. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
 
-#### Tool Proficiency
-Learning to use a new tool takes 10 workweeks and costs the value of the tool in cr per workweek. During resolution, training in a new tool calls for an ability check appropriate to that tool, as determined by the GM. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
+#### Tool Training, Proficiency, or Expertise
+Learning to use a new tool takes 5, 10, or 20 workweeks for training, proficiency, or expertise, respectively and costs the value of the tool in cr per workweek. During resolution, training in a new tool calls for an ability check appropriate to that tool, as determined by the GM. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
 
-#### Tool Expertise
-Gaining expertise in a tool in which you are proficient takes 20 workweeks and costs the value of the tool in cr per workweek. During resolution, gaining expertise in a tool in which you are proficient requires an ability check with that tool.
+#### Skill Training, Proficiency, or Expertise
+Learning a new skill takes 5, 10, or 20 workweeks and costs at least 250 cr, 500 cr, or 1,000 cr per workweek for training, proficiency, or expertise, respectively. During resolution, training in a new skill calls for an ability check with that skill's governing ability score. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
 
-#### Skill Proficiency
-Learning a new skill takes 20 workweeks and costs at least 500 cr per workweek. During resolution, training in a new skill calls for an ability check with that skill's governing ability score. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
-
-#### Skill Expertise
-Gaining expertise in a skill in which you are proficient takes 30 workweeks and costs at least 1,000 cr per workweek. During resolution, gaining expertise in a skill in which you are proficient requires an ability check with that skill.
+#### Saving Throw Training or Proficiency
+Learning a new saving throw takes 10 or 20 workweeks and costs 750 cr or 1,500 cr per workweek for training or proficiency, respectively. During resolution, training in a new saving throw calls for an ability check with that saving throw's governing ability score.
 
 #### Feat
 Learning a new feat takes 40 workweeks and costs at least 2,000 cr per workweek. During resolution, training in a new feat calls for an ability check appropriate to that feat, as determined by the GM. If you are proficient in that saving throw, you add your proficiency bonus to the roll.
