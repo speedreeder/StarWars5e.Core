@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/StarWars5e.Api/bin/Debug/netcoreapp3.1/StarWars5e.Api.dll",
+            "program": "${workspaceFolder}/StarWars5e.Api/bin/Debug/net5.0/StarWars5e.Api.dll",
             "args": [],
             "cwd": "${workspaceFolder}/StarWars5e.Api",
             "stopAtEntry": false,
