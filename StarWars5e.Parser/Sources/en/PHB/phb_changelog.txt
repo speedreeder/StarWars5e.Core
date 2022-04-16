@@ -1,12 +1,113 @@
 # Changelog
 
+### 04/19/2022
+
+#### Introduction
+- The blanket rule of Round Down has been replaced with Round Appropriately. All verbiage regarding round up or round down in class features has been removed.
+- Defined ally, friendly creature, and hostile creature to maintain consistency across feature and power targets.
+
+#### Chapter 1
+- Added a "minimum of 1" to the Beyond 1st Level section to hit points gained upon level up.
+
+#### Chapter 3
+- Updated starting equipment for all ten classes.
+- Class and archetype features that had uses that scale with modifier have been updated to scale alongside proficiency bonus, but only within that class.
+- Superiority and Maneuvers have been overhauled. 
+- - Maneuvers are now in a single list like powers. 
+- - Maneuvers now have three types. The modifier you use for maneuvers varies by type.
+- - Superiority class features have been updated. Drastically more maneuvers known.
+
+##### Consular
+- Force-Empowered Casting options moved to the end of the class description to be consistent with other classes.
+
+##### Engineer
+- **Gadgeteer Engineering:** Split the +1 to attack and +1 to save DC mods to align with overarching changes.
+- **Gadgeteer Engineering:** The Recycled mods have been changed to long rest, instead of short or long.
+
+##### Fighter
+- As a part of the Invocation Initiative, fighters have had a new set of invocations baked into their class, replacing their 3rd level Fighting Mastery feature. Fighting Mastery has been moved to an invocation option.
+
+##### Scholar
+- Added a scholar discovery that grants proficiency in medium armor. 
+- Scholar maneuvers removed as a part of the Superiority and Maneuvers overhaul.
+- **Doctor Pursuit:** Renamed back to Physician Pursuit due to page shifting with the Superiority updates.
+- **Tactician Pursuit:** Updated Commander's Armor discovery to grant contingent heavy armor.
+
+##### Sentinel
+- Updated Force-Empowered Self. Deflection and Slow Time are no longer tied to making an attack. Each effect can only be used once per round. Archetypes updated accordingly.
+
+#### Chapter 4
+- Updated the Jedi and Sith backgrounds to include the new Formfighting Dabbler feat as a background feat option.
+
+#### Chapter 5
+- Updated the Wealth by Level table to add clarity.
+- Added an additional rule to the strength weapon property.
+- Updated the burst and rapid properties.
+- Two new weapon properties: interlocking and penetrating.
+- Ammunition weapon property has been deprecated and replaced with two new properties—power cell and slug cartridge—to indicate what ammunition the blaster uses in it's properties list.
+- Updated grenades from "as an action, you can throw" to "as an action, you can *prime and* throw" to make it clear that you *have* to use your action to activate a grenade (unless a specific feature says otherwise).
+- Shuffled around tools between the PHB, WH, and SnV. Moved information for trade goods to WH. Moved information for droids, mounts, and vehicles to SnV.
+
+> Will the dexterity property get the same update as the strength property?
+
+No. Currently, no blaster weapon properties grant benefits for wielding a one-handed weapon in two hands. This is not the case with light- and vibro-weapons, which can have the double and versatile properties.
+
+#### Chapter 6
+- Four new feats: Formfighting Dabbler, Power Channeling, Supreme Aptitude, and Supreme Durability.
+- Moved Climber, Mariner, Prone Combatant (renamed Commando), and Shard Modification from Wretched Hives to the Player's Handbook.
+- Consolidated the Heavily Armored, Lightly Armored, and Moderately Armored feats into a single feat: Armor Expert.
+- Eight new fighting style and mastery pairings:
+- **Area:** Area style and mastery are designed to enhance the playstyle of vapor projectors, flechette cannons, and certain wrist launcher ammos.
+- **Assisting:** This pairing is built around utilizing the Help action to assist allies.
+- **Blindfighting:** As the name suggests, this pairing is designed to enhance fighting without relying on sight.
+- **Counterstrike:** This pairing is built around striking enemies before they can hit you.
+- **Secured:** This fighting style and mastery pairing is built around weapons with the fixed property.
+- **Split:** This pairing is designed to optimized weapons with the new Interlocking property, which allows you to use the same weapons for Double- and Two-Weapon Fighting.
+- **Spotting:** This pairing is built around the Search action and uncovering hidden objects.
+- **Superiority:** This pairing is designed to unlock and enhance the use of maneuvers and superiority dice.
+- Updated/cleaned up the wording on a lot of the fighting styles and masteries.
+- Reduced the number of lightsaber forms you learned from Formfighting Mastery.
+- Explosive Style and Mastery language updated to mention the items they affect.
+- Explosive Style updated to also allow setting mines as a bonus action.
+- Added clarity to the second bullet of Onslaught Style that the attack can only replace a contested ability check. It would not affect saving throws.
+- Added some clarification to the final bullet of Sentinel Mastery.
+- Slightly nerfed the bullets of Sharpshooter Style, Sharpshooter Mastery, Snapshot Style, and Snapshot Mastery regarding cover.
+- Updated Sharpshooter Style and Mastery to work at greater than 30 feet to prevent overlap with Snapshot.
+- Updated the third bullet of Shield Style.
+- Removed the second bullet of Twin-Blade Style. Added into the second bullet of Onslaught Style.
+- Move the object interaction feature from Twin-Blade Mastery to Twin-Blade Style to be consistent with similar features.
+- Updated Twin-Blade Mastery's proficiency feature to scale if wielding in two hands.
+- Removed and replaced the existing proficiency bonus feature from Versatile Mastery. 
+- Rolled the EC lightsaber forms into the PHB, and increased the lightsaber forms to 20.
+- Changed Shii-Cho form to only work on creatures Large or smaller.
+
+#### Chapter 7
+- Added an in-text variant regarding the Additional Dice rule.
+- Added an additional rule regarding Multiple Modifiers.
+
+#### Chapter 10
+- Clarified the rules regarding bonus action casting.
+
+#### Chapter 12
+- Updated the duration of 8 hours tech powers to prevent abuse.
+
+#### Chapter 13
+- New chapter that includes all maneuvers as a part of the Superiority and Maneuvers overhaul.
+
+#### Appendix A
+- Updated the language regarding automatically failing saving throws for the paralyzed, petrified, stunned, and unconscious conditions.
+- Added three new conditions: corroded, ignited, and weakened.
+
+#### And, as always
+- Minor text fixes.
+
 ### 3/16/2021
 
 #### Throughout
 - Updated the wording of features that gave pseudo-advantage, such as the Weapon Expert feat, to align with the advantage changes in Chapter 7.
 
 #### Introduction
-- Updated the rules for advantage and disadvantage to apply to any type's of rolls.
+- Updated the rules for advantage and disadvantage to apply to any type of rolls.
 
 #### Chapter 2
 - Updated the language for all natural weapons and unarmed strikes, including EC.

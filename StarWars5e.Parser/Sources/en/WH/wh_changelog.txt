@@ -1,6 +1,41 @@
 
 # Changelog
 
+### 04/19/2022
+
+#### Introduction
+- Updated the rules for engineers regarding this book.
+- Codified critical saves as a baseline rule. However, saves can not natively crit; instead, this creates keywords that can be cited by features, customization options, and enhanced items.
+- Defined four new tiers of proficiency beyond proficient and expertise. While trained will have rules to obtain it naturally, the mastery tiers can only be obtained through enhanced items.
+
+#### Chapter 5
+- Added rules regarding multiple armor materials.
+- Updated the durafiber armor material to reduce strength number, or add lightweight, in conjunction with the agile property change.
+- In an effort to remove flat modifiers to ability checks, attack rolls, and saving throws, the agile, insulated, and powered armor properties have been reworked. Additionally, agile is no longer a valid shield property.
+- Magnetic armor property updated to a check instead of a save.
+- Obscured property can now be applied to shields.
+- Spiked armor property updated to align with the new shield bash feature from the Shield fighting style.
+- Piercing weapon property updated to be the opposite of dire.
+- Autotarget property renamed to Smart. Thanks, Cyberpunk 2077.
+- Shuffled around tools between the PHB, WH, and SnV. Moved information for trade goods from the PHB. 
+- Reduced the dice granted by substances from d4 to d3 to align with the change in Appendix A.
+
+#### Chapter 6
+- Moved Climber, Mariner, Prone Combatant (Renamed Commando), and Shard Modification from Wretched Hives to the Player's Handbook.
+
+#### Chapter 7
+- Removed the restricted slots from all modifications. For instance, instead of blasters having four slots that can each only house one type of blaster modification, all four of those slots can have any type of modifications.
+
+#### Chapter 8
+- Updated many of the tools to integrate the deprecated feat features, and add new ones.
+
+#### Appendix A
+- Burst and rapid mods now only work on blasters that use cells and cartridges, and have a minimum burst/rapid number of 2.
+- Reduced the dice granted by enhanced substances each by one step to align with the maximum sized bonus die of d12.
+
+#### And, as always
+- Minor text fixes.
+
 ### 10/13/2020
 
 #### Chapter 5
