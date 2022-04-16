@@ -31,8 +31,8 @@ namespace StarWars5e.Parser.Processors.PHB
             var classes = new List<Class>();
             lines = lines.CleanListOfStrings().ToList();
             var classTableStart = lines.FindIndex(f => f.Equals(Localization.PHBClassesTableStart));
-            var classTableEnd = lines.FindIndex(classTableStart, f => f.Equals(string.Empty));
-            var classTableLines = lines.Skip(classTableStart + 3).Take(classTableEnd - (classTableStart + 3)).ToList();
+            var classTableEnd = lines.FindIndex(classTableStart + 2, f => f.Equals(string.Empty));
+            var classTableLines = lines.Skip(classTableStart + 4).Take(classTableEnd - (classTableStart + 4)).ToList();
 
             var classNames = classTableLines.Select(s => s.Split('|')[1].Trim()).ToList();
             classNames.Sort();
