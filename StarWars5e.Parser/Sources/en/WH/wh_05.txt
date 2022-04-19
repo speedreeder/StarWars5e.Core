@@ -59,7 +59,10 @@ In addition to form and function, armor varies greatly based on material. Beyond
 
 </div>
 
-&emsp;Only physical shields can be crafted using alternative armor materials.
+&emsp;Only physical shields can be crafted using alternative armor materials. Additionally, barding can be created using alternative armor materials.
+
+#### Multiple Materials
+Armor and shields can be made using an amalgam of materials. Doing so increases the cost of the armor or shield for each material used in its creation, and the number of materials used can't exceed half the crafter's proficiency bonus, rounded up.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -77,7 +80,7 @@ Bone armor and shields have the barbed (1d4) and spiked (1d4) properties, respec
 Armor and shields made from crystadium has the absorptive 1 property, but also the rigid and imbalanced properties, respectively.
 
 #### Durafiber
-Durafiber armor and shields have the agile 1 property, but suffer a -1 penalty to Armor Class. 
+Durafiber armor and shields have their strength number reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, this removes the strength property from it entirely. If the armor or shield lacks the strength property, it instead gains the lightweight property. Additionally, durafiber armor and shields suffer a -1 penalty to Armor Class. 
 
 #### Duranium
 Armor and shields made from duranium gain the reactive 1 and responsive 1 properties, respectively, but also the cumbersome property.
@@ -109,91 +112,91 @@ Quadanium armor and shields gain the charging 1 property, but also the cumbersom
 Many armors and shield have special properties related to their use, as shown in the Armor table. You must be proficient in and wearing armor or wielding a shield to benefit from its special properties.
 
 #### Absorptive
-When you are wearing armor or wielding a shield with the absorptive property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1.
+When you are wearing armor or wielding a shield with this property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1.
 
 #### Agile
-While wearing armor or wielding a shield with the agile property, you gain a bonus to Dexterity checks and Dexterity saving throws equal to the agile number, and you gain a bonus to your speed equal to 5 x the agile number.
+While wearing armor or wielding a shield with this property, your Dexterity score becomes equal to the agile number. If your Dexterity is already equal to or greater than the agile number, it has no effect on you.
 
 #### Anchor
-A shield with the anchor property can be used to provide cover. As an action, you can anchor or recover the shield. While anchored, you gain no benefit from a shield, and it does not require the use of a hand. Instead, while anchored, a light shield provides one-quarter cover, a medium shield provides half cover, and a heavy shield provides three-quarters cover.
+A shield with this property can be used to provide cover. As an action, you can anchor or recover the shield. While anchored, you gain no benefit from a shield, and it does not require the use of a hand. Instead, while anchored, a light shield provides one-quarter cover, a medium shield provides half cover, and a heavy shield provides three-quarters cover.
 
 #### Avoidant
-When wearing armor or wielding a shield with the avoidant property and a creature makes an attack against you, the critical hit range decreases by an amount equal to the avoidant number, to a minimum of 1.
+When wearing armor or wielding a shield with this property and a creature makes an attack against you, the critical hit range decreases by an amount equal to the avoidant number, to a minimum of 1.
 
 #### Barbed
-When you succeed on a Strength (Athletics) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier.
+When you succeed on a Strength (Athletics) check to initiate or maintain a grapple while wearing armor with this property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier.
 
 #### Charging
-When you take damage while wearing armor or wielding a shield with the charging property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon's damage equal to the number of charges stored.
+When you take damage while wearing armor or wielding a shield with this property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon's damage equal to the number of charges stored, and the charges are expended.
 
 #### Concealing
-While wielding a shield with the concealing property, you have advantage on Dexterity (Stealth) checks that rely on sight.
+While wielding a shield with this property, you have advantage on Dexterity (Stealth) checks that rely on sight.
 
 #### Cumbersome
-While wearing armor or wielding a shield with the cumbersome property, your speed is reduced by 5.
+While wearing armor or wielding a shield with this property, your speed is reduced by 5.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
 #### Gauntleted
-While wearing armor with the gauntleted property, your unarmed strikes deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier.
+While wearing armor with this property, your unarmed strikes deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier.
 
 #### Imbalanced
-When you are critically hit while wielding this shield, you can't take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn.
+When you are critically hit while wielding a shield with this property, you can't take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn.
 
 #### Impermeable
-Armor with the impermeable property functions as an enviro-suit, flight suit, and water suit.
+Armor with this property functions as an enviro-suit, flight suit, and water suit.
 
 #### Insulated
-While wearing armor or wielding a shield with the insulated property, you gain a bonus to AC and saving throws against effects that would deal ion or lightning damage equal to the insulated number.
+When you make a saving throw against an effect that would deal ion or lightning damage while wearing armor or wielding a shield with this property, you can treat a d20 roll of below the insulated number as the insulated number.
 
 #### Interlocking
-While wielding a shield with the interlocking property within 5 feet of a friendly creature who is also wielding a shield with the interlocking property, you can both use your reactions to interlock the shields. While interlocked, both creatures gain a bonus to AC equal to the interlocking number. If at any point the creatures are more than 5 feet from eachother, the shields immediately de-interlock, and this effect ends.
+While wielding a shield with this property within 5 feet of a friendly creature who is also wielding a shield with this property, you can both use your reactions on either of your turns to interlock the shields. While interlocked, both creatures gain a bonus to AC equal to the interlocking number. If at any point the creatures are more than 5 feet from each other, the shields immediately de-interlock, and this effect ends.
 
 #### Lambent
-While wielding a shield with the lambent property, you can use a bonus action to activate or deactivate the shield's light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity (Stealth) checks made while the shield's light is active that rely on sight have disadvantage.
+While wielding a shield with this property, you can use a bonus action to activate or deactivate the shield's light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity (Stealth) checks made while the shield's light is active that rely on sight have disadvantage.
 
 #### Lightweight
-Armor and shields with the lightweight property have their weight reduced by half.
+Armor and shields with this property have their weight reduced by half.
 
 #### Magnetic 
-While you are wielding a shield with the magnetic property and a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength saving throw, DC equal to the magnetic number. On a failed save, the creature's weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed. 
+While you are wielding a shield with this property and a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength check, DC equal to the magnetic number. On a failed save, the creature's weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed.
 
 #### Obscured
-While wearing armor with the obscured property, electronic sensors and cameras have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks against you that rely on sight.
-
-#### Powered
-While wearing armor with the powered property, you gain a bonus to damage rolls using Strength, Strength checks, and Strength saving throws equal to the powered number.
+While wearing armor or wielding a shield with this property, electronic sensors and cameras have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks against you that rely on sight.
 
 \columnbreak
 
+#### Powered
+While wearing armor with this property, your Strength score becomes equal to the powered number. If your Strength is already equal to or greater than the powered number, it has no effect on you.
+
 #### Reactive
-When you are wearing armor with the reactive property and a creature hits you with an attack roll, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number.
+When you are wearing armor with this property and a creature hits you with an attack roll, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number.
 
 #### Regulated
-When you are wearing armor or wielding a shield with the regulated property and a creature rolls the maximum on a weapon damage die against you, they must reroll and use the new roll, even if the new roll is the maximum on the weapon damage die.
+When you are wearing armor or wielding a shield with this property and a creature rolls the maximum on a weapon damage die against you, they must reroll and use the new roll, even if the new roll is the maximum on the weapon damage die.
 
 #### Reinforced
-When you make a long jump while wearing armor with the reinforced property, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.
+When you make a long jump while wearing armor with this property, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.
 
 #### Responsive
-While you are wielding a shield with the responsive property and an attack misses you by an amount less than or equal to your bonus to AC from your shield, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the responsive number.
+While you are wielding a shield with this property and an attack misses you by an amount less than or equal to your bonus to AC from your shield, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the responsive number.
 
 #### Rigid
-While wearing armor with the rigid property, you add half your Dexterity modifier (rounded down), instead of your full Dexterity modifier, to Dexterity saving throws you make. If your Dexterity modifier is negative, you instead subtract the full modifier.
+While wearing armor with this property, you add half your Dexterity modifier (rounded down), instead of your full Dexterity modifier, to Dexterity saving throws you make. If your Dexterity modifier is negative, you instead subtract the full modifier.
 
 #### Silent
-While wearing armor with the silent property, you have advantage on Dexterity (Stealth) checks that rely on sound.
+While wearing armor with this property, you have advantage on Dexterity (Stealth) checks that rely on sound.
 
 #### Spiked
-When you succeed on a Strength (Athletics) check to shove or trip a creature while wielding a shield with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier.
+When you succeed on a Strength (Athletics) check to shove or trip a creature while wielding a shield with this property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a shield with this property as an improvised weapon, the damage increases by one step (from d4 to d6, d6 to d8, or d8 to 2d4).
 
 #### Steadfast 
-While wearing armor or wielding a shield with the steadfast property, you have advantage on Strength checks and Strength saving throws to avoid being moved.
+While wearing armor or wielding a shield with this property, you have advantage on Strength checks and Strength saving throws to avoid being moved.
 
 #### Versatile
-A shield with the versatile property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number.
+A shield with this property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -205,21 +208,21 @@ A shield with the versatile property can be used with one or two hands. While wi
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Armor|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
 |:---|---:|:---|-:|:---|
 |_Light Armor_	||||||
-|&emsp;Durafiber combat suit    |  1,100 cr&nbsp;&nbsp;|	10 + Dex modifier|10 lb&nbsp;&nbsp;|Agile 1|
-|&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13 lb&nbsp;&nbsp;|Silent|
-|&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
+|&emsp;Duranium combat suit     |  1,100 cr&nbsp;&nbsp;|	11 + Dex modifier|10.00 lb&nbsp;&nbsp;|Cumbersome, reactive 1|
+|&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13.00 lb&nbsp;&nbsp;|Silent|
+|&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13.00 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
 |_Medium Armor_	||||||
-|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|Insulated 1, strength 11|
-|&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25 lb&nbsp;&nbsp;|Regulated, strength 11|
-|&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
+|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20.00 lb&nbsp;&nbsp;|Insulated 1, strength 11|
+|&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25.00 lb&nbsp;&nbsp;|Regulated, strength 11|
+|&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45.00 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
 |_Heavy Armor_	||||||
-|&emsp;Duranium battle armor	|  6,750 cr&nbsp;&nbsp;|	16	|55 lb&nbsp;&nbsp;|Bulky, cumbersome, reactive 1, strength 13|
-|&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
-|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
+|&emsp;Durafiber battle armor	|  6,750 cr&nbsp;&nbsp;|	15	|55.00 lb&nbsp;&nbsp;|Bulky, strength 11|
+|&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60.00 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
+|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65.00 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
 |_Shield_		||||||
-|&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6 lb&nbsp;&nbsp;|Spiked (1d4)|
-|&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
-|&emsp;Quadanium heavy shield	|  2,000 cr&nbsp;&nbsp;|	+3	|36 lb&nbsp;&nbsp;|Charging 1, cumbersome, obtrusive, strength 15|
+|&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6.00 lb&nbsp;&nbsp;|Spiked (1d4)|
+|&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18.00 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
+|&emsp;Quadanium heavy shield	|  2,000 cr&nbsp;&nbsp;|	+3	|36.00 lb&nbsp;&nbsp;|Charging 1, cumbersome, obtrusive, strength 15|
 
 </div>	
 
@@ -227,7 +230,7 @@ A shield with the versatile property can be used with one or two hands. While wi
 In addition to armor varying across myriad planets, you might find new and unique types of weaponry available. Your weapon proficiencies reflect the tools you are most likely to use. The Weapons tables show additional weapons used in the worlds of *Star Wars*, their price and weight, the damage they deal when they hit, and any special properties they possess. 
 
 ### Weapon Proficiency
-Your species, class, and feats can grant you proficiency with certain weapons or categories of weapons. The three types of weapons—blaster, lightweapon, and vibroweapon, are further broken down into two categories—simple and martial.Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
+Your species, class, and feats can grant you proficiency with certain weapons or categories of weapons. The three types of weapons—blaster, lightweapon, and vibroweapon, are further broken down into two categories—simple and martial. Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
 
 Proficiency in these weapons is discussed further in Chapter 6.
 
@@ -238,24 +241,32 @@ Proficiency in these weapons is discussed further in Chapter 6.
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
-#### Autotarget
-This weapon ignores your Dexterity score and proficiency bonus. Two numbers appear in parentheses with the property—the first is the weapon's Dexterity score, and the second is the weapon's proficiency bonus. The weapon uses these values instead of yours when you make attack and damage rolls with it. If you lack proficiency with the weapon, the weapon does not benefit from its proficiency bonus.
-
-#### Brutal
-When you score a critical hit with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number.
-
-#### Defensive
-When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon.
+#### Biting
+This weapon's damage becomes acid. Additionally, when you would make a melee weapon attack with a weapon with the biting property, you can instead force the target to make a Constitution saving throw (DC = 8 + your bonus to attacks with the weapon, or the biting number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the first attack it makes before the end of its next turn has disadvantage. If damage dealt by this weapon reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
+#### Bright
+This weapon's damage becomes fire, and its luminous property sheds bright light in a 5-foot radius and dim light for an additional 5 feet while activated, instead of only dim light in a 5-foot radius. Additionally, when you would make a melee weapon attack with a weapon with the bright property, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon, or the bright number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature takes additional damage of the same type at the start of its next turn equal to your governing ability modifier.
+
+#### Brutal
+When you score a critical hit with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number.
+
+#### Corruption
+This weapon's damage becomes necrotic, and it loses the luminous property if it has it. Additionally, when you would make a melee weapon attack with a weapon with the corruption property, you can instead force the target to make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon, or the corruption number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature cannot regain hit points until the start of your next turn.
+
+#### Defensive
+When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon.
+
 #### Dire
-Before you make a weapon attack with a weapon with the dire property, you can choose to suffer a penalty to the attack roll up to the dire number. If you do so and you hit with it, you gain the same bonus to the damage roll.
+Before you make a weapon attack with a weapon with the dire property, you can choose to suffer a penalty to the attack roll up to the dire number. If you do so and you hit with it, you gain an equivalent bonus to the damage roll.
 
 #### Disarming
 When you score a critical hit with a weapon with the disarming property against a creature that is holding an object, you can attempt to disarm the target (no action required). If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your bonus to attacks with the weapon) or it drops an object of your choice at its feet.
+
+\columnbreak
 
 #### Disintegrate
 When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
@@ -273,15 +284,22 @@ When making an attack with a mighty weapon, you use your choice of your Strength
 When you hit a creature with a weapon with the neuralizing property, you can force it to make a Wisdom saving throw, DC equal to the neuralizing number. On a failed save, the creature takes an additional 1d4 psychic damage and becomes frightened of you until the start of its next turn.
 
 #### Piercing
-Before you make a weapon attack with a weapon with the piercing property, you can choose to suffer a penalty to the attack roll up to the piercing number. If you do so, you gain the same bonus to the next attack roll you make against the same target before the start of your next turn.
-
-\columnbreak
+Before you make a weapon attack with a weapon with the piercing property, you can choose to gain a bonus to the attack roll up to the piercing number. If you do so and you hit with it, you suffer an equivalent penalty to the damage roll.
 
 #### Shocking
 When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
 
 #### Silent
-When you make a ranged attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity (Stealth) check contested by your targets' Wisdom (Perception) check. On a success, you remain hidden.
+When you make a ranged weapon attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity (Stealth) check contested by your targets' Wisdom (Perception) check. On a success, you remain hidden.
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+
+\pagebreakNum
+
+<div style='margin-top:23px'></div>
+
+#### Smart
+This weapon ignores your Dexterity score and proficiency bonus. Two numbers appear in parentheses with the property—the first is the weapon's Dexterity score, and the second is the weapon's proficiency bonus. The weapon uses these values instead of yours when you make attack and damage rolls with it. If you lack proficiency with the weapon, the weapon does not benefit from its proficiency bonus.
 
 #### Sonorous
 When you hit a creature with a weapon with the sonorous property, you can force it to make a Constitution saving throw, DC equal to the sonorous number. On a failed save, the creature takes an additional 1d4 sonic damage and becomes deafened until the end of its next turn.
@@ -292,64 +310,30 @@ A weapon with the switch property can deal an alternate type of damage. A damage
 #### Vicious
 Whenever you deal damage with a weapon with the vicious property and roll the maximum on a weapon damage die, you gain a bonus to damage equal to the vicious number.
 
-### Special Weapons
-Weapons with special rules are described to below.
-
-#### ARC Caster
-When you score a critical hit with this weapon, a creature becomes shocked until the end of its next turn.
-
-#### Bolas
-A Large or smaller creature hit by a bolas is restrained until it is freed. A bolas has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Dexterity check, freeing itself or another creature within its reach on a success. The bolas has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the bolas frees the creature without harming it and immediately ends the bolas's effects. While a creature is restrained by a bolas, you can make no further attacks with it.
-
-Due to their unwieldy nature, bolas make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage.
-
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
-
-\pagebreakNum
-
-#### Bo-Rifle
-The bo-rifle is a lasat weapon most commonly carried by the Honor Guard of Lasan, which has the unique property of functioning as both a rifle and a staff. On your turn, you can use your object interaction to switch between modes, detailed below. 
-
-***Rifle.*** While in this mode, the weapon uses traditional power cells.
-
-***Staff.*** While in this mode, the weapon gains the shocking 13 property.
-
-#### Flechette Cannon
-The flechette cannon does not make attack rolls. Rather than traditional power cells, the flechette cannon uses specialized cannon tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). If you don't meet the flechette cannon's strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the flechette cannon, you must roll the damage dice twice and take the lesser total.
-
-#### Grenade Launcher
-Rather than traditional power cells, the grenade launcher fires grenades. When firing a grenade at long range, or if you don't meet the grenade launcher's strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the grenade launcher, you must roll the damage dice twice and take the lesser total.
-
-#### Interchangeable Weapons System
-The IWS is a heavy weapon that can fire in three different modes. On your turn, you can use your object interaction to switch between modes, detailed below. 
-
-***Antiarmor.*** While in this mode, rather than traditional power cells, the IWS fires grenades. When firing a grenade at long range, creatures within the radius of the grenade's explosion have advantage on the saving throw.
-
-***Blaster.*** While in this mode, the weapon uses traditional power cells.
-
-***Sniper.*** While in this mode, the weapon uses traditional power cells.
-
-#### Mancatcher
-When you would make a Strength (Athletics) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a melee weapon attack with it. If the attack hits, the creature becomes grappled by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage.
-
-#### Retrosaber
-The retrosaber is an ancient type of lightweapon that requires a power cell to function. Once four attacks have been made with a retrosaber, a character must replace the power cell using an action or bonus action (the character's choice). You must have one free hand to replace the power cell.
-
 \columnbreak
 
+### Special Weapons
+Weapons with special rules are described below.
+
+#### Flechette Cannon
+The flechette cannon does not make attack rolls. Rather than traditional power cells, the flechette cannon uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank’s effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you’re using as you fire it (no action required). If you don’t meet the flechette cannon’s strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the flechette cannon, you must roll the damage dice twice and take the lesser total.
+
+#### Grenade Launcher
+Rather than traditional power cells, the grenade launcher fires grenades. When firing a grenade at long range, or if you don’t meet the grenade launcher’s strength requirement, creatures within the radius of the grenade’s explosion have advantage on the saving throw. If you lack proficiency in the grenade launcher, you must roll the damage dice twice and take the lesser total.
+
 #### Rocket Launcher
-Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets. When firing a rocket at long range, or if you don't meet the rocket launcher's strength requirement, creatures within the radius of the rocket's explosion have advantage on the saving throw.
+Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets. When firing a rocket at long range, or if you don’t meet the rocket launcher’s strength requirement, creatures within the radius of the rocket’s explosion have advantage on the saving throw.
 
-#### Rotary Cannon
-Rather than traditional power cells, the rotary cannon uses specialized power generator that allow it to fire continuously for 10 minutes. Replacing a power generator takes an action.
-
-The rotary cannon requires the use of a tripod unless you meet its strength requirement, which is included in the price. Over the course of 1 minute, you can deploy or collapse the rotary cannon on the tripod. While deployed, your speed is reduced to 0.
+#### Shoulder Blaster
+Mounted by the shoulder slot, a shoulder blaster does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.
 
 #### Shoulder Cannon
 Mounted by the shoulder slot, a shoulder cannon does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.
 
 #### Vapor Projector
-The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). If you don't meet the vapor projector's strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the vapor projector, you must roll the damage dice twice and take the lesser total.
+The vapor projector does not make attack rolls. Rather than traditional power cells, the vapor projector uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. 
+
+Projector tanks require your target to make a saving throw to resist the tank’s effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you’re using as you fire it (no action required). If you don’t meet the vapor projector’s strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the vapor projector, you must roll the damage dice twice and take the lesser total.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -358,44 +342,39 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 <div class='classTable wide' style='position:absolute;bottom:20px;left:75px;width:687px'>
 
 ##### Blasters
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;Cost&nbsp;&nbsp;|Damage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
-| _Simple Blasters_|||||
-| &emsp;Bolt-thrower		|   500 cr&nbsp;&nbsp;| 1d10 kinetic | 14 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 2, silent, strength 11, two-handed |
-| &emsp;Energy bow		    | 300 cr&nbsp;&nbsp;| 1d6 energy    |  3 lb&nbsp;&nbsp;  | Ammunition (range 80/320), mighty, reload 12, silent, two-handed |
-| &emsp;Shatter pistol      | 800 cr&nbsp;&nbsp;     | 1d4 kinetic   |  3 lb&nbsp;&nbsp;  | Ammunition (range 40/160), silent, light, reload 20 |
-| &emsp;Switch carbine	    | 4,600 cr&nbsp;&nbsp;| 1d6 energy | 8 lb&nbsp;&nbsp; | Ammunition (range 60/240), reload 12, switch (1d4 acid)|
-| _Martial Blasters_|||||
-| &emsp;ARC caster          | 2,400 cr&nbsp;&nbsp;| 1d8 lightning | 10 lb&nbsp;&nbsp;  | Ammunition (range 30/120), burst 4, rapid 2, reload 4, special,<br> strength 11, two-handed |
-| &emsp;BKG                 | 9,000 cr&nbsp;&nbsp;   | 3d4 fire    | 42 lb&nbsp;&nbsp;    | Ammunition (range 120/480), auto, burst 2, disintegrate 13, reload 2,<br> strength 19, two-handed |
-| &emsp;Disruptor pistol    | 4,000 cr&nbsp;&nbsp;| 1d8 acid      |  4 lb&nbsp;&nbsp;  | Ammunition (range 60/240), disintegrate 13, reload 16 |
-| &emsp;Disruptor rifle     | 7,000 cr&nbsp;&nbsp;| 1d10 acid     | 12 lb&nbsp;&nbsp;  | Ammunition (range 100/400), disintegrate 13, reload 1, strength 11,<br> two-handed |
-| &emsp;Flechette cannon     | 1,800 cr&nbsp;&nbsp;| — | 16 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 11, two-handed |
-| &emsp;Grenade launcher    |   800 cr&nbsp;&nbsp;| — | 10 lb&nbsp;&nbsp; | Ammunition (range 80/320), reload 1, strength 11, special, two-handed |
-| &emsp;Hand blaster        | 1,500 cr&nbsp;&nbsp;   | 1d4 energy    | 2 lb&nbsp;&nbsp;   | Ammunition (range 40/160), keen 1, light, reload 12 |
-| &emsp;Incinerator pistol  |2,500 cr&nbsp;&nbsp;| 1d6 fire      | 5 lb&nbsp;&nbsp;| Ammunition (range 60/240), disintegrate 13, reload 12, strength 11 |
-| &emsp;Incinerator sniper  | 6,600 cr&nbsp;&nbsp;   | 1d10 fire     | 10 lb&nbsp;&nbsp;  | Ammunition (range 150/600), disintegrate 13, reload 2, strength 13,<br> two-handed
-| &emsp;IWS                 | 7,200 cr&nbsp;&nbsp;   | —             | 12 lb&nbsp;&nbsp;  | Special, strength 13, two-handed |
-| &emsp;&emsp;Antiarmor     |        —&nbsp;&nbsp;   | —             |     —&nbsp;&nbsp;  | Ammunition (range 60/240), reload 1, special |
-| &emsp;&emsp;Blaster       |        —&nbsp;&nbsp;   | 1d8 energy    |     —&nbsp;&nbsp;  | Ammunition (range 80/320), reload 12 |
-| &emsp;&emsp;Sniper        |        —&nbsp;&nbsp;   | 1d12 energy   |     —&nbsp;&nbsp;  | Ammunition (range 120/480), reload 4 |
-| &emsp;Lightbow            |  400 cr&nbsp;&nbsp;|2d6 energy       |16 lb&nbsp;&nbsp;  |Ammunition (range 60/240), mighty, piercing 1, reload 4, strength 11,<br> two-handed| 
-| &emsp;Nightstinger rifle  | 1,200 cr&nbsp;&nbsp;| 1d12 energy  | 15 lb&nbsp;&nbsp;| Ammunition (range 120/480), silent, reload 2, strength 13, two-handed |
-| &emsp;Railgun             | 6,300 cr&nbsp;&nbsp;   | 2d6 kinetic   | 24 lb&nbsp;&nbsp;  | Ammunition (range 150/600), piercing 1, reload 1, strength 15,<br> two-handed |
-| &emsp;Rocket launcher     | 2,400 cr&nbsp;&nbsp;| — | 20 lb&nbsp;&nbsp; | Ammunition (range 100/400), reload 1, special, strength 13, two-handed |
-| &emsp;Rotary cannon       | 9,800 cr&nbsp;&nbsp;   | 2d6 energy    | 76 lb&nbsp;&nbsp;  | Ammunition (range 100/400), auto, burst, rapid, special, strength 19,<br> two-handed |
-| &emsp;Sonic pistol 		|   650 cr&nbsp;&nbsp;| 1d6 sonic | 2 lb&nbsp;&nbsp; | Ammunition (range 40/160), reload 12 |
-| &emsp;Sonic rifle 	    |   800 cr&nbsp;&nbsp;   | 1d8 sonic     | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), reload 12, two-handed |
-| &emsp;Shatter cannon      | 1,300 cr&nbsp;&nbsp;   | 1d10 kinetic   | 24 lb&nbsp;&nbsp;  | Ammunition (range 80/320), burst 4, reload 8, silent,<br> strength 15, two-handed |
-| &emsp;Shatter rifle       | 1,200 cr&nbsp;&nbsp;   | 1d10 kinetic  | 15 lb&nbsp;&nbsp;  | Ammunition (range 120/480), silent, reload 2, strength 13, two-handed |
-| &emsp;Shoulder cannon     |  3,200 cr&nbsp;&nbsp;| 1d8 energy | 9 lb&nbsp;&nbsp; | Ammunition (range 60/240), autotarget (15, +2), burst 4, reload 4,<br> special |
-| &emsp;Switch cannon	    |  9,400 cr&nbsp;&nbsp;| 1d10 energy | 26 lb&nbsp;&nbsp; | Ammunition (range 80/320), burst 4, reload 8, strength 11,<br> switch (2d4 acid/cold/fire/lightning), two-handed|
-| &emsp;Switch pistol	    |  3,100 cr&nbsp;&nbsp;| 1d6 energy | 4 lb&nbsp;&nbsp; | Ammunition (range 40/160), light, reload 12, switch (1d4 fire)|
-| &emsp;Switch rifle	    |  5,500 cr&nbsp;&nbsp;| 1d8 energy | 12 lb&nbsp;&nbsp; | Ammunition (range 60/240), reload 8, switch (1d6 lightning),<br> two-handed|
-| &emsp;Switch sniper	    |  8,250 cr&nbsp;&nbsp;| 1d12 energy | 16 lb&nbsp;&nbsp; | Ammunition (range 120/480), reload 2, strength 13, switch (1d10 cold),<br> two-handed|
-| &emsp;Vapor projector     | 1,600 cr&nbsp;&nbsp;| — | 14 lb&nbsp;&nbsp; | Ammunition (range special), reload 5, special, strength 11, two-handed |
+|	_Simple Blasters_	|||||
+| &emsp;Cryo carbine        |1,250 cr&nbsp;&nbsp;   |1d6 cold |6.00 lb&nbsp;     |Power cell (range 45/180), reload 12, two-handed, vicious 1 |
+| &emsp;Cryo pistol         |750 cr&nbsp;&nbsp;     |1d4 cold |2.00 lb&nbsp;     |Power cell (range 30/120), reload 8, vicious 1 |
+| &emsp;Disruptor carbine   |1,450 cr&nbsp;&nbsp;   |1d8 acid |8.50 lb&nbsp;   |Power cell (range 60/240), disintegrate 13, reload 8, strength 11, <br>two-handed|
+| &emsp;Disruptor pistol    |750 cr&nbsp;&nbsp;     |1d6 acid |4.50 lb&nbsp;   |Power cell (range 45/180), disintegrate 13, reload 12, strength 11|
+| &emsp;Incinerator carbine |1,650 cr&nbsp;&nbsp;   |1d6 fire |7.50 lb&nbsp;   |Power cell (range 60/240), dire 1, disintegrate 13, reload 12, <br>strength 11, two-handed |
+| &emsp;Incinerator pistol  |1,250 cr&nbsp;&nbsp;   |1d4 fire |3.50 lb&nbsp;   |Power cell (range 40/160), dire 1, disintegrate 13, reload 16, <br>strength 11 |
+|	_Martial Blasters_	|||||
+| &emsp;BKG                 |2,750 cr&nbsp;&nbsp;   |3d4 energy     |19.00 lb&nbsp;    |Power cell (range 120/480), auto, burst 2, disintegrate 13, reload 2, <br>strength 19, two-handed, vicious 1|
+| &emsp;Chaingun            |1,325 cr&nbsp;&nbsp;   |2d4 kinetic    |10.50 lb&nbsp;  |Slug cartridge (range 80/320), auto, rapid 2, reload 8, strength 13, <br>two-handed, vicious 1 |
+| &emsp;Cryo Cannon         |3,300 cr&nbsp;&nbsp;   |2d4 cold       |12.50 lb&nbsp;  |Power cell (range 75/300), auto, burst 2, reload 4, strength 13, <br>two-handed, vicious 1 |
+| &emsp;Cryo Rifle          |2,400 cr&nbsp;&nbsp;   |2d4 cold       |10.50 lb&nbsp;  |Power cell (range 50/200), reload 4, strength 11, two-handed, vicious 1 |
+| &emsp;Disruptor rifle     |2,900 cr&nbsp;&nbsp;   |1d10 acid      |13.50 lb&nbsp;  |Power cell (range 60/240), disintegrate 13, reload 4, strength 13, <br>two-handed|
+| &emsp;Disruptor sniper    |3,300 cr&nbsp;&nbsp;   |1d12 acid      |15.00 lb&nbsp;    |Power cell (range 120/480), disintegrate 13, reload 2, strength 15, <br>two-handed|
+| &emsp;Flechette cannon    |2,300 cr&nbsp;&nbsp;   |—              |13.00 lb&nbsp;    |Ammunition (range special), reload 6, special, strength 13, two-handed |
+| &emsp;Grenade launcher    |1,800 cr&nbsp;&nbsp;   |—              |11.50 lb&nbsp;  |Ammunition (range 90/360), reload 16, special, strength 11, two-handed |
+| &emsp;Hand BKG            |1,550 cr&nbsp;&nbsp;   |1d10 energy    |10.00 lb&nbsp;    |Power cell (range 50/200), brutal 1, disintegrate 1, keen 1, reload 4, strength 15 |
+| &emsp;Hand blaster        |500 cr&nbsp;&nbsp;     |1d4 kinetic    |.50 lb&nbsp;   |Power cell (range 40/160), keen 1, light, reload 8 |
+| &emsp;Hand cannon         |1,300 cr&nbsp;&nbsp;   |1d10 kinetic   |10.50 lb&nbsp;  |Slug cartridge  (range 25/100), brutal 1, reload 8, strength 11, <br>two-handed |
+| &emsp;Incinerator rifle   |1,950 cr&nbsp;&nbsp;   |1d8 fire       |9.50 lb&nbsp;   |Power cell (range 80/320), dire 1, disintegrate 13, reload 8, <br>strength 11, two-handed |
+| &emsp;Incinerator sniper  |3,300 cr&nbsp;&nbsp;   |1d10 fire      |14.50 lb&nbsp;  |Power cell (range 120/480), dire 1, disintegrate 13, reload 2, <br>strength 15, two-handed |
+| &emsp;Lightbow            |1,800 cr&nbsp;&nbsp;   |2d6 energy     |14.00 lb&nbsp;    |Power cell (range 60/240), piercing 1, reload 2, strength 15, <br>two-handed |
+| &emsp;Railgun             |1,900 cr&nbsp;&nbsp;   |2d6 kinetic    |16.00 lb&nbsp;    |Slug cartridge (range 150/600), piercing 1, reload 2, strength 17, <br>two-handed |
+| &emsp;Rocket Launcher     |2,250 cr&nbsp;&nbsp;   |—              |14.00 lb&nbsp;    |Ammunition (range 150/600), reload 1, special, strength 13, <br>two-handed |
+| &emsp;Shoulder Blaster    |1,275 cr&nbsp;&nbsp;   |1d6 energy     |3.00 lb&nbsp;     |Power cell (range 40/160), rapid 4, reload 16, smart (15/+2), special |
+| &emsp;Shoulder Cannon     |1,625 cr&nbsp;&nbsp;   |1d8 energy     |8.50 lb&nbsp;   |Power cell (range 60/240), auto, burst 8, reload 8, smart (15/+2), special, strength 11 |
+| &emsp;Smart Cannon        |2,250 cr&nbsp;&nbsp;   |1d10 kinetic   |13.50 lb&nbsp;  |Slug cartridge (range 75/300), auto, burst 2, rapid 2, reload 4, <br>smart (15/+2), strength 15, two-handed |
+| &emsp;Smart Pistol        |1,075 cr&nbsp;&nbsp;   |1d6 kinetic    |4.00 lb&nbsp;     |Slug cartridge (range 40/160), piercing 1, rapid 2, reload 16, <br>smart (15/+2), strength 11 |
+| &emsp;Vapor Projector     |2,300 cr&nbsp;&nbsp;   |—              |13.00 lb&nbsp;    |Ammunition (range special), reload 6, special, strength 13, two-handed |
 
-</div>
+</div>	
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -404,54 +383,56 @@ The vapor projector does not make attack rolls. Rather than traditional power ce
 <div class='classTable wide' style='position:absolute;bottom:20px;left:75px;width:687px'>
 
 ##### Lightweapons
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
-| _Simple Lightweapons_|||||
-| &emsp;Canesaber           |700 cr&nbsp;&nbsp;|1d6 energy|5 lb&nbsp;&nbsp;|Disguised, finesse, luminous|
-| &emsp;Wristsaber          |1,000 cr&nbsp;&nbsp;|1d4 energy|2 lb&nbsp;&nbsp;|Finesse, fixed, light, luminous|
-| _Martial Lightweapons_|||||
-| &emsp;Chained lightdagger |1,700 cr&nbsp;&nbsp;|1d6 energy|6 lb&nbsp;&nbsp;|Disarming, finesse, luminous, reach, two-handed|
-| &emsp;Claymore saber      |2,100 cr&nbsp;&nbsp;|3d4 energy|9 lb&nbsp;&nbsp;|Dexterity 13, luminous, two-handed|
-| &emsp;Crossguard saber    |  950 cr&nbsp;&nbsp;|1d8 energy|3 lb&nbsp;&nbsp;|Defensive 1, dexterity 13, heavy, luminous, versatile (1d10)|
-| &emsp;Dual-phase saber    |1,400 cr&nbsp;&nbsp;|1d8 energy|4 lb&nbsp;&nbsp;|Dexterity 11, keen 1, luminous, versatile (1d10)|
-| &emsp;Guard shoto         |1,350 cr&nbsp;&nbsp;|1d4 energy|3 lb&nbsp;&nbsp;|Defensive 1, finesse, light, luminous|
-| &emsp;Lightaxe            |1,800 cr&nbsp;&nbsp;|1d10 energy|10 lb&nbsp;&nbsp;|Heavy, luminous, two-handed |
-| &emsp;Lightfist           |1,200 cr&nbsp;&nbsp;|1d4 energy|2 lb&nbsp;&nbsp;|Disruptive, disguised, fixed, light, luminous |
-| &emsp;Lightglaive         |1,900 cr&nbsp;&nbsp;|1d12 energy|10 lb&nbsp;&nbsp;|Dexterity 13, luminous, reach, two-handed |
-| &emsp;Retrosaber          |  800 cr&nbsp;&nbsp;|2d4 energy|8 lb&nbsp;&nbsp;|Keen 1, luminous, special, vicious 1 |
-| &emsp;Saberaxe	        |1,400 cr&nbsp;&nbsp;|1d8 energy|5 lb&nbsp;&nbsp;|Brutal 1|
-| &emsp;Sith saber          |2,400 cr&nbsp;&nbsp;|1d8 energy|3 lb&nbsp;&nbsp;|Dexterity 11, hidden, keen 1, luminous, versatile (1d10) |
+|	_Simple Lightweapons_	|||||||
+| &emsp;Saber-mace			|950 cr&nbsp;   |1d8 energy   |2.75 lb&nbsp;&nbsp;  |Brutal 1, dexterity 13, hidden, luminous, versatile (1d10) |
+| &emsp;Sickle-saber		|700 cr&nbsp;   |1d6 energy   |1.00 lb&nbsp;&nbsp;     |Dexterity 11, dire 1, hidden, light, luminous|
+|	_Martial Lightweapons_	|||||||
+| &emsp;Bite-saber			|1,800 cr&nbsp; |1d6 energy   |2.50 lb&nbsp;&nbsp;   |Biting 13, hidden, luminous, versatile (2d4)|
+| &emsp;Blight-saber		|1,800 cr&nbsp; |1d6 energy   |2.50 lb&nbsp;&nbsp;   |Corruption 13, hidden, luminous, versatile (2d4)|
+| &emsp;Bright-saber		|1,800 cr&nbsp; |1d6 energy   |2.50 lb&nbsp;&nbsp;   |Bright 13, hidden, luminous, versatile (2d4)|
+| &emsp;Broad-saber			|1,000 cr&nbsp; |2d4 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 13, dire 1, luminous, versatile (1d8)|
+| &emsp;Buster-saber		|2,900 cr&nbsp; |1d12 energy  |7.25 lb&nbsp;&nbsp;  |Brutal 1, dexterity 19, heavy, keen 1, luminous, reach, two-handed|
+| &emsp;Crossguard saber	|725 cr&nbsp;   |1d8 energy   |3.25 lb&nbsp;&nbsp;  |Defensive 1, dexterity 13, heavy, luminous, versatile (1d10)|
+| &emsp;Dual-phase saber	|1,250 cr&nbsp; |2d4 energy   |3.00 lb&nbsp;&nbsp;     |Dexterity 13, hidden, luminous, versatile (1d12), vicious 1|
+| &emsp;Guard shoto			|375 cr&nbsp;   |1d4 energy   |1.25 lb&nbsp;&nbsp;  |Defensive 1, finesse, hidden, light luminous|
+| &emsp;Light-glaive		|2,050 cr&nbsp; |1d10 energy  |5.75 lb&nbsp;&nbsp;  |Brutal 1, dexterity 13, luminous, reach, two-handed|
+| &emsp;Light-katana	    |925 cr&nbsp;   |1d8 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 11, hidden, luminous, piercing 1, versatile (1d10)|
+| &emsp;Light-nodachi	    |3,050 cr&nbsp; |3d4 energy   |4.50 lb&nbsp;&nbsp;   |Dexterity 17, luminous, piercing 1, two-handed, vicious 1 |
+| &emsp;Sith Saber			|925 cr&nbsp;   |2d4 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 11, hidden, keen 1, versatile (1d10) |
+| &emsp;Warsaber			|2,175 cr&nbsp; |2d6 energy   |4.25 lb&nbsp;&nbsp;  |Dexterity 15, reckless 1, two-handed, vicious 1 |
+
+<div style='margin-top:17px'></div>
 
 ##### Vibroweapons
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
-| _Simple Vibroweapons_|||||
-| &emsp;Vibroclaw           |  600 cr&nbsp;&nbsp;|1d4 kinetic|2 lb&nbsp;&nbsp;|Finesse, fixed, light|
-| &emsp;Vibrocutter			|  300 cr&nbsp;&nbsp;| 1d6 kinetic	|5 lb&nbsp;&nbsp;|Dexterity 11, heavy, vicious 1 |
-| _Martial Vibroweapons_|||||
-| &emsp;Bolas				|   70 cr&nbsp;&nbsp;|— 				|2 lb&nbsp;&nbsp;|Light, special, thrown (range 20/60)|
-| &emsp;Bo-rifle            |2,300 cr&nbsp;&nbsp;| — | 7 lb&nbsp;&nbsp;| Special, two-handed |
-| &emsp;&emsp;Rifle         |—&nbsp;&nbsp;|1d8 energy | —&nbsp;&nbsp; | Ammunition (range 100/400), reload 6 |
-| &emsp;&emsp;Staff         |—&nbsp;&nbsp;|1d8 kinetic | —&nbsp;&nbsp; | Double (1d8 kinetic), shocking 13 |
-| &emsp;Chained dagger      |  850 cr&nbsp;&nbsp;|1d6 kinetic|6 lb&nbsp;&nbsp;|Disarming, finesse, reach, two-handed|
-| &emsp;Disruptorshiv	|  900 cr&nbsp;&nbsp;| 1d4 kinetic | 1 lb&nbsp;&nbsp; | Disruptive, finesse, shocking 13|
-| &emsp;Echostaff	    |1,200 cr&nbsp;&nbsp;| 1d6 kinetic | 1 lb&nbsp;&nbsp; | Double (1d6 kinetic), finesse, sonorous 13|
-| &emsp;Electrobaton        |  650 cr&nbsp;&nbsp;|1d4 kinetic|3 lb&nbsp;&nbsp;|Finesse, light, shocking 13|
-| &emsp;Electroprod			|  500 cr&nbsp;&nbsp;|1d4 lightning|2 lb&nbsp;&nbsp;|Disruptive, shocking 13 |
-| &emsp;Electrohammer       |1,400 cr&nbsp;&nbsp;|2d4 kinetic|18 lb&nbsp;&nbsp;|Heavy, shocking 13, two-handed |
-| &emsp;Electrostaff        |1,100 cr&nbsp;&nbsp;|1d6 kinetic|6 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, shocking 13, two-handed|
-| &emsp;Electrovoulge       |1,300 cr&nbsp;&nbsp;|1d8 kinetic|15 lb&nbsp;&nbsp;|Reach, shocking 13, two-handed |
-| &emsp;Mancatcher			|  670 cr&nbsp;&nbsp;|1d8 kinetic|12 lb&nbsp;&nbsp;|Reach, special, two-handed|
-| &emsp;Nervebaton	    |1,500 cr&nbsp;&nbsp;| 1d6 kinetic | 1 lb&nbsp;&nbsp; | Disruptive, neuralizing 13|
-| &emsp;Vibrohammer         |1,400 cr&nbsp;&nbsp;|1d10 kinetic|16 lb&nbsp;&nbsp;|Heavy, two-handed |
-| &emsp;Vibroshield         |  900 cr&nbsp;&nbsp;|1d8 kinetic|7 lb&nbsp;&nbsp;|Defensive 1, fixed|
-| &emsp;Vibroknife			|  600 cr&nbsp;&nbsp;|1d4 kinetic|1 lb&nbsp;&nbsp;|Finesse, light, piercing 1 |
-| &emsp;Vibrotonfa			|1,000 cr&nbsp;&nbsp;|1d4 kinetic|2 lb&nbsp;&nbsp;|Defensive 1, finesse, light |
-| &emsp;War hat             |1,100 cr&nbsp;&nbsp;|1d6 kinetic|3 lb&nbsp;&nbsp;|Defensive 1, disguised, returning, thrown (range 30/90)|
-| &emsp;Warsword            |1,400 cr&nbsp;&nbsp;|2d6 kinetic|8 lb&nbsp;&nbsp;|Dexterity 13, two-handed, vicious 1 |
-| &emsp;Wristblade			|1,000 cr&nbsp;&nbsp;|1d6 kinetic|2 lb&nbsp;&nbsp;|Fixed, light |
+|	_Simple Vibroweapons_	|||||
+| &emsp;Diresword       |300 cr&nbsp;&nbsp;     |1d6 kinetic    |3.75 lb&nbsp;&nbsp;    |Dexterity 11, dire 1, heavy |
+| &emsp;Nerve-baton     |375 cr&nbsp;&nbsp;     |1d4 kinetic    |2.00 lb&nbsp;&nbsp;       |Disruptive, neuralizing 13 |
+| &emsp;Vibro-sabre     |300 cr&nbsp;&nbsp;     |1d6 kinetic    |1.75 lb&nbsp;&nbsp;    |Dexterity 11, keen 1, light|
+|	_Martial Vibroweapons_	|||||
+| &emsp;Dire Vibroblade |550 cr&nbsp;&nbsp;     |1d8 kinetic	|7.00 lb&nbsp;&nbsp;       |Dexterity 13, dire 1, versatile (1d10) |
+| &emsp;Echostaff       |600 cr&nbsp;&nbsp;     |1d6 kinetic	|5.00 lb&nbsp;&nbsp;       |Double (1d6 kinetic), finesse, sonorous 13 |
+| &emsp;Electro-baton   |275 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, light, shocking 13 |
+| &emsp;Electro-hammer  |950 cr&nbsp;&nbsp;     |1d10 kinetic	|8.75 lb&nbsp;&nbsp;    |Dexterity 11, Heavy, shocking 13, two-handed |
+| &emsp;Electro-staff   |600 cr&nbsp;&nbsp;     |1d6 kinetic	|5.00 lb&nbsp;&nbsp;       |Double (1d6 kinetic), finesse, shocking 13 |
+| &emsp;Vibro-battleaxe |1,200 cr&nbsp;&nbsp;   |1d12 kinetic	|10.00 lb&nbsp;&nbsp;      |Brutal 1, dexterity 13, heavy, two-handed |
+| &emsp;Vibro-buster    |1,850 cr&nbsp;&nbsp;   |1d12 kinetic	|13.25 lb&nbsp;&nbsp;   |Brutal 1, dexterity 19, heavy, keen 1, reach, two-handed |
+| &emsp;Vibro-flail     |500 cr&nbsp;&nbsp;     |2d4 kinetic	|4.75 lb&nbsp;&nbsp;    |Dexterity 11, reckless 1 |
+| &emsp;Vibro-glaive    |1,200 cr&nbsp;&nbsp;   |1d10 kinetic	|10.00 lb&nbsp;&nbsp;      |Brutal 1, dexterity 13, reach, two-handed |
+| &emsp;Vibro-hammer    |600 cr&nbsp;&nbsp;     |2d4 kinetic	|7.50 lb&nbsp;&nbsp;     |Heavy, two-handed, vicious 1 |
+| &emsp;Vibro-katana    |450 cr&nbsp;&nbsp;     |1d8 kinetic	|5.75 lb&nbsp;&nbsp;    |Dexterity 11, piercing 1, versatile (1d10) |
+| &emsp;Vibro-knife     |225 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, light, piercing 1 |
+| &emsp;Vibro-nodachi   |2,200 cr&nbsp;&nbsp;   |3d4 kinetic	|12.00 lb&nbsp;&nbsp;      |Dexterity 17, piercing 1, two-handed, versatile (1d10) |
+| &emsp;Vibro-shield    |325 cr&nbsp;&nbsp;     |1d8 kinetic	|3.75 lb&nbsp;&nbsp;    |Defensive 1, fixed |
+| &emsp;Vibro-stiletto  |250 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, keen 1, light, thrown (range 30/90) |
+| &emsp;Vibro-tonfa     |225 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Defensive 1, finesse, light |
+| &emsp;War hat         |350 cr&nbsp;&nbsp;     |1d6 kinetic	|3.25 lb&nbsp;&nbsp;    |Defensive 1, disguised, returning, thrown (range 30/90) |
+| &emsp;Warsword        |1,650 cr&nbsp;&nbsp;   |2d6 kinetic	|10.75 lb&nbsp;&nbsp;   |Dexterity 15, reckless 1, two-handed, vicious 1 |
 
-</div>
+</div>	
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -495,7 +476,7 @@ While using this item as your focus, your maximum force points increase by the b
 While using an item with this property as your focus, you gain no benefit from any additional properties the item has unless your Constitution score meets or exceeds the constitution number.
 
 #### Dispelling
-While using this item as your focus, your level of proficiency in force- or tech-casting ability checks increases by a number of steps equal to the empowered number (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
+While using this item as your focus, your level of proficiency in force- or tech-casting ability checks increases by a number of steps equal to the dispelling number (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -584,17 +565,17 @@ As an action, you can apply this collimator to one lightweapon within 5 feet, gr
 <div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
-|	:--	|	--:	|	:--:		|
+|	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
 |	&emsp;Corrosive cartridge       	    |	  42 cr	|	—	    |
-|	&emsp;Cryo cell              	        |	 350 cr	|	1 lb	    |
-|	&emsp;Deafening calibrator    	            |	 550 cr	|	1 lb		|
-|	&emsp;Deafening cell         	        |	 425 cr	|	1 lb	    |
-|	&emsp;Deafening collimator    	            |	 575 cr	|	1 lb		|
+|	&emsp;Cryo cell              	        |	 350 cr	|	1.00 lb	    |
+|	&emsp;Deafening calibrator    	            |	 550 cr	|	1.00 lb		|
+|	&emsp;Deafening cell         	        |	 425 cr	|	1.00 lb	    |
+|	&emsp;Deafening collimator    	            |	 575 cr	|	1.00 lb		|
 |	&emsp;Deafening dart              	        |	  70 cr	|	—	    |
-|	&emsp;Electrifying calibrator    	        |	 700 cr	|	1 lb		|
+|	&emsp;Electrifying calibrator    	        |	 700 cr	|	1.00 lb		|
 |	&emsp;Electrifying cartridge         	    |	  28 cr	|	—	    |
-|	&emsp;Electrifying collimator    	        |	 725 cr	|	1 lb		|
+|	&emsp;Electrifying collimator    	        |	 725 cr	|	1.00 lb		|
 
 </div>
 
@@ -627,30 +608,30 @@ Additionally, on a failed save, a creature is shocked for 1 minute. At the end o
 A gas cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes 1d6 poison damage and is poisoned until the start of its next turn. On a successful save, a creature takes half damage and isn't poisoned.
 
 #### Flechette Clip, Fragmentation
-When triggered, this wrist launcher ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d10 kinetic damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+When triggered, this wrist launcher ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d10 kinetic damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you have disadvantage on damage rolls with it
 
 #### Flechette Clip, Ion
-When triggered, this wrist launcher ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+When triggered, this wrist launcher ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted. If you lack proficiency in the wrist launcher, you have disadvantage on damage rolls with it
 
 #### Flechette Clip, Plasma
-When triggered, this wrist launcher ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d10 energy damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+When triggered, this wrist launcher ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d10 energy damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you have disadvantage on damage rolls with it
 
 \columnbreak
 
 <div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
-|	:--	|	--:	|	:--:		|
+|	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
 |	&emsp;Electrifying dart              	    |	  85 cr	|	—	    |
 |	&emsp;Gas cartridge              	        |	  36 cr	|	—	    |
-|	&emsp;Flechette clip, fragmentation    	    |	 250 cr	|	2 lb		|
-|	&emsp;Flechette clip, ion    	            |	 300 cr	|	2 lb		|
-|	&emsp;Flechette clip, plasma    	        |	 275 cr	|	2 lb		|
-|	&emsp;Flechette mag, fragmentation    	    |	 550 cr	|	4 lb		|
-|	&emsp;Flechette mag, ion    	            |	 600 cr	|	4 lb		|
-|	&emsp;Flechette mag, plasma    	            |	 575 cr	|	4 lb		|
-|	&emsp;Flux collimator                       |    180 cr	|	1 lb		|
+|	&emsp;Flechette clip, fragmentation    	    |	 250 cr	|	2.00 lb		|
+|	&emsp;Flechette clip, ion    	            |	 300 cr	|	2.00 lb		|
+|	&emsp;Flechette clip, plasma    	        |	 275 cr	|	2.00 lb		|
+|	&emsp;Flechette mag, fragmentation    	    |	 550 cr	|	4.00 lb		|
+|	&emsp;Flechette mag, ion    	            |	 600 cr	|	4.00 lb		|
+|	&emsp;Flechette mag, plasma    	            |	 575 cr	|	4.00 lb		|
+|	&emsp;Flux collimator                       |    180 cr	|	1.00 lb		|
 
 </div>
 
@@ -695,17 +676,17 @@ As an action, you can apply this collimator to one lightweapon within 5 feet, gr
 <div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
-|	:--	|	--:	|	:--:		|
+|	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Incendiary cell              	        |	 275 cr	|	1 lb	    |
-|	&emsp;Missile, incendiary	                |	 160 cr	|	1/2 lb		|
-|	&emsp;Missile, ion	                    |	 140 cr	|	1/2 lb		|
-|	&emsp;Oscillation calibrator            |    170 cr	|	1 lb		|
-|	&emsp;Panic calibrator    	                |	 850 cr	|	1 lb		|
-|	&emsp;Panic collimator    	                |	 875 cr	|	1 lb		|
+|	&emsp;Incendiary cell              	        |	 275 cr	|	1.00 lb	    |
+|	&emsp;Missile, incendiary	                |	 160 cr	|	.50 lb		|
+|	&emsp;Missile, ion	                    |	 140 cr	|	.50 lb		|
+|	&emsp;Oscillation calibrator            |    170 cr	|	1.00 lb		|
+|	&emsp;Panic calibrator    	                |	 850 cr	|	1.00 lb		|
+|	&emsp;Panic collimator    	                |	 875 cr	|	1.00 lb		|
 |	&emsp;Panic dart              	            |	 100 cr	|	—	    |
-|	&emsp;Power generator                   |  1,250 cr	|	5 lb		|
-|	&emsp;Projector canister, corrosive    	|	 300 cr	|	2 lb		|
+|	&emsp;Power generator                   |  1,250 cr	|	5.00 lb		|
+|	&emsp;Projector canister, corrosive    	|	 300 cr	|	2.00 lb		|
 
 </div>
 
@@ -718,7 +699,7 @@ Additionally, on a failed save, a creature becomes frightened of you for 1 minut
 Power generators energize the rotary cannon.
 
 #### Projector Canister, Corrosive
-When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total.
+When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. If you lack proficiency in the wrist launcher, you have disadvantage on damage rolls with it
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -746,17 +727,17 @@ This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally,
 <div class='classTable'>
 
 |	Item	|	Cost	|	Weight		|
-|	:--	|	--:	|	:--:		|
+|	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
-|	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3 lb		|
-|	&emsp;Projector tank, cryo	        |	 675 cr	|	3 lb		|
-|	&emsp;Projector tank, incendiary    	        |	 650 cr	|	3 lb		|
-|	&emsp;Rocket, fragmentation	            |	 350 cr	|	2 lb		|
-|	&emsp;Rocket, incendiary          	        |	 535 cr	|	2 lb		|
-|	&emsp;Rocket, ion             	        |	 475 cr	|	2 lb		|
-|	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
+|	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3.00 lb		|
+|	&emsp;Projector tank, cryo	        |	 675 cr	|	3.00 lb		|
+|	&emsp;Projector tank, incendiary    	        |	 650 cr	|	3.00 lb		|
+|	&emsp;Rocket, fragmentation	            |	 350 cr	|	2.00 lb		|
+|	&emsp;Rocket, incendiary          	        |	 535 cr	|	2.00 lb		|
+|	&emsp;Rocket, ion             	        |	 475 cr	|	2.00 lb		|
+|	&emsp;Snare                      	    |	 300  cr	|	2.00 lb	    |
 |	_Clothing_	|		|	
-|	&emsp;Clothes, clandestine     	|	 300 cr	|	7 lb		|
+|	&emsp;Clothes, clandestine     	|	 300 cr	|	7.00 lb		|
 |	&emsp;Sunshades                 |	  20 cr	|	—   		|
 
 </div>
@@ -770,10 +751,10 @@ When hit by this wrist launcher ammunition, a Medium or smaller creature is rest
 ### Clothing
 
 #### Clothes, Clandestine
-These clothes come with two hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 15 Investigation check.
+These clothes come with two hidden pockets, each of which can store up to 1.00 lb. Finding these hidden pockets requires a DC 15 Investigation check.
 
 #### Sunshades
-These shades are worn over the eyes. While worn, you can no longer have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. However, while worn, you have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in dim light.
+These shades are worn over the eyes. While worn, you can no longer have disadvantage due to direct sunlight on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. However, while worn, you have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in dim light.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -793,7 +774,7 @@ A vocoder mask is worn over the nose and mouth of a creature, and can translate 
 The credit chip is a small, flat card that features a security code and algorithm memory stripes. The chip can be preloaded with a specified number of credits, or it can draw directly from a specific account held by the user. The credit chip can be accessed with a pin, or by a DC 15 slicer's kit check.
 
 #### Focus Generator
-A focus generator is a handheld object, typically comprised of a crystal set inside a small translucent rod, that is used to help forcecasters learn to focus on their powers.
+A focus generator is a handheld object used to help forcecasters learn to focus on their powers.
 
 #### Repelling Wristpad
 This wristpad has the repelling and constitution 11 properties.
@@ -804,12 +785,10 @@ This focus generator has the storing 1, withering 1, and constitution 13 propert
 ### Explosives
 
 #### Grenade, Corrosive
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. A creature takes 2d8 acid damage on a failed save, or half as much as on a successful one. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. A creature takes 2d8 acid damage on a failed save, or half as much as on a successful one. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.
 
 #### Grenade, Cryo
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. A creature takes 2d6 cold damage on a failed save, or half as much as on a successful one. 
-
-Additionally, on a failed save, a creature gains 1 slowed level for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. A creature takes 2d6 cold damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, a creature gains 1 slowed level for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 \columnbreak
 
@@ -818,34 +797,34 @@ Additionally, on a failed save, a creature gains 1 slowed level for 1 minute. At
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Communications_	|		|	
-|	&emsp;Personal translator     	|	 150 cr	|	1/2 lb		|
-|	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
+|	&emsp;Personal translator     	|	 150 cr	|	.50 lb		|
+|	&emsp;Vocoder mask     	|	 450 cr	|	.50 lb		|
 |	_Data Recording and Storage_	|		|	
 |	&emsp;Credit chip     	|	 100 cr	|	—		|
-|	&emsp;Focus generator           |	 200 cr	|	1 lb		|
-|	&emsp;Repelling wristpad       	|  1,600 cr	|	2 lb		|
-|	&emsp;Storing, withering focus generator          |	 3,200 cr	|	1 lb		|
+|	&emsp;Focus generator           |	 200 cr	|	1.00 lb		|
+|	&emsp;Repelling wristpad       	|  1,600 cr	|	2.00 lb		|
+|	&emsp;Storing, withering focus generator          |	 3,200 cr	|	1.00 lb		|
 |	_Explosives_	|		|	
-|	&emsp;Grenade, corrosive            |	 200 cr	|	1 lb		|
-|	&emsp;Grenade, cryo                 |	 325 cr	|	1 lb		|
-|	&emsp;Grenade, defeaning	        |	 225 cr	|	1 lb		|
-|	&emsp;Grenade, electrifying	        |	 300 cr	|	1 lb		|
-|	&emsp;Grenade, flash	            |	 350 cr	|	1 lb		|
+|	&emsp;Grenade, corrosive            |	 200 cr	|	1.00 lb		|
+|	&emsp;Grenade, cryo                 |	 325 cr	|	1.00 lb		|
+|	&emsp;Grenade, deafening	        |	 225 cr	|	1.00 lb		|
+|	&emsp;Grenade, electrifying	        |	 300 cr	|	1.00 lb		|
+|	&emsp;Grenade, flash	            |	 350 cr	|	1.00 lb		|
 
 </div>
 
 #### Grenade, Deafening
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. A creature takes 2d6 sonic damage on a failed save, or half as much as on a successful one. 
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. A creature takes 2d6 sonic damage on a failed save, or half as much as on a successful one. 
 
 Additionally, on a failed save, a creature is deafened for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 #### Grenade, Electrifying
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much as on a successful one. 
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 lightning damage on a failed save, or half as much as on a successful one. 
 
 Additionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 #### Grenade, Flash
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. On a failed save, a creature is blinded for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -854,17 +833,17 @@ Grenades can be set to detonate on impact or with a timer that causes them to ex
 ### Explosives
 
 #### Grenade, Incendiary
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, setting the ground in a 10-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, setting the ground in a 10-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.
 
 When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one. 
 
 #### Grenade, Panic
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Wisdom saving throw. A creature takes 2d6 psychic damage on a failed save, or half as much as on a successful one. 
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Wisdom saving throw. A creature takes 2d6 psychic damage on a failed save, or half as much as on a successful one. 
 
 Additionally, on a failed save, a creature becomes frightened of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 #### Grenade, Stun
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. On a failed save, a creature is stunned until the end of their next turn.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Constitution saving throw. On a failed save, a creature is stunned until the end of their next turn.
 
 Additionally, on a failed save, a creature is unconscious for 1 minute, until it takes damage, or until someone uses an action to shake or slap the creature awake. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
@@ -878,13 +857,13 @@ Mines can be set to detonate when a creature comes within up to 15 feet of it or
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Explosives_	|		|	
-|	&emsp;Grenade, incendiary	        |	 275 cr	|	1 lb		|
-|	&emsp;Grenade, panic	            |	 375 cr	|	1 lb		|
-|	&emsp;Grenade, stun  	            |	 250 cr	|	1 lb		|
-|	&emsp;Mine, corrosive              	|	 425 cr	|	2 lb		|
-|	&emsp;Mine, cryo              	    |	 625 cr	|	2 lb		|
-|	&emsp;Mine, deafening              	|	 450 cr	|	2 lb		|
-|	&emsp;Mine, electrifying            |	 550 cr	|	2 lb		|
+|	&emsp;Grenade, incendiary	        |	 275 cr	|	1.00 lb		|
+|	&emsp;Grenade, panic	            |	 375 cr	|	1.00 lb		|
+|	&emsp;Grenade, stun  	            |	 250 cr	|	1.00 lb		|
+|	&emsp;Mine, corrosive              	|	 425 cr	|	2.00 lb		|
+|	&emsp;Mine, cryo              	    |	 625 cr	|	2.00 lb		|
+|	&emsp;Mine, deafening              	|	 450 cr	|	2.00 lb		|
+|	&emsp;Mine, electrifying            |	 550 cr	|	2.00 lb		|
 
 </div>
 
@@ -935,25 +914,25 @@ Additionally, on a failed save, a creature is unconscious for 1 minute, until it
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Explosives_	|		|	
-|	&emsp;Mine, flash              	    |	 600 cr	|	2 lb		|
-|	&emsp;Mine, ion              	    |	 525 cr	|	2 lb		|
-|	&emsp;Mine, panic              	    |	 700 cr	|	2 lb		|
-|	&emsp;Mine, plasma              	|	 250 cr	|	2 lb		|
-|	&emsp;Mine, stun              	    |	 475 cr	|	2 lb		|
+|	&emsp;Mine, flash              	    |	 600 cr	|	2.00 lb		|
+|	&emsp;Mine, ion              	    |	 525 cr	|	2.00 lb		|
+|	&emsp;Mine, panic              	    |	 700 cr	|	2.00 lb		|
+|	&emsp;Mine, plasma              	|	 250 cr	|	2.00 lb		|
+|	&emsp;Mine, stun              	    |	 475 cr	|	2.00 lb		|
 |	_Life Support_	|		|	
-|	&emsp;Underwater respirator    	|	 300 cr	|	1/2 lb		|
-|	&emsp;Water suit    	|	 1,500 cr	|	20 lb		|
+|	&emsp;Underwater respirator    	|	 300 cr	|	.50 lb		|
+|	&emsp;Water suit    	|	 1,500 cr	|	20.00 lb		|
 |	_Medical_	|		|	
-|	&emsp;Arm prosthesis     	|	 450 cr	|	 16 lb		|
-|	&emsp;Ear prosthesis     	|	 100 cr	|	1/2 lb		|
-|	&emsp;Eye prosthesis     	|	 250 cr	|	1/2 lb		|
-|	&emsp;Facial prosthesis     |	 300 cr	|	  2 lb		|
-|	&emsp;Foot prosthesis     	|	 150 cr	|	  4 lb		|
-|	&emsp;Forearm prosthesis    |	 300 cr	|	  8 lb		|
-|	&emsp;Hand prosthesis     	|	 225 cr	|	  3 lb		|
-|	&emsp;Leg prosthesis     	|	 450 cr	|	 24 lb		|
-|	&emsp;Throat prosthesis    	|	 325 cr	|	  2 lb		|
-|	&emsp;Torso prosthesis     	|	 600 cr	|	 36 lb		|
+|	&emsp;Arm prosthesis     	|	 450 cr	|	 16.00 lb		|
+|	&emsp;Ear prosthesis     	|	 100 cr	|	.50 lb		|
+|	&emsp;Eye prosthesis     	|	 250 cr	|	.50 lb		|
+|	&emsp;Facial prosthesis     |	 300 cr	|	  2.00 lb		|
+|	&emsp;Foot prosthesis     	|	 150 cr	|	  4.00 lb		|
+|	&emsp;Forearm prosthesis    |	 300 cr	|	  8.00 lb		|
+|	&emsp;Hand prosthesis     	|	 225 cr	|	  3.00 lb		|
+|	&emsp;Leg prosthesis     	|	 450 cr	|	 24.00 lb		|
+|	&emsp;Throat prosthesis    	|	 325 cr	|	  2.00 lb		|
+|	&emsp;Torso prosthesis     	|	 600 cr	|	 36.00 lb		|
 
 </div>
 
@@ -1000,7 +979,7 @@ These cybernetic augmentations don't count against the maximum cybernetic augmen
 A camtono is a secured, handle container used for transporting valuable goods. A camtono comes with one key. Without the key, unlocking the camtono requires a DC 15 security kit to force open. It stores 5 lb., not exceeding 1/4 cubic foot, has an AC of 10, and 15 hit points. Destroying the camtono risks damaging any goods stored inside.
 
 #### Smugglepack
-This backpack comes with a main compartment that stores 15 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 5 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 15 Investigation check.
+This backpack comes with a main compartment that stores 15.00 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 5 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 15 Investigation check.
 
 ### Utilities
 #### Computer Spike
@@ -1020,16 +999,16 @@ This belt has slots to hold 60 slug cartridges, and can be connected to directly
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Storage_	|		|	
-|	&emsp;Camtono     	    |	   750 cr	|	  3 lb		|
-|	&emsp;Smugglepack     	|	   400 cr	|	  6 lb		|
+|	&emsp;Camtono     	    |	   750 cr	|	  3.00 lb		|
+|	&emsp;Smugglepack     	|	   400 cr	|	  6.00 lb		|
 |	_Utilities_	|		|	
-|	&emsp;Computer spike     	|	 145 cr	|	1/2 lb		|
-|	&emsp;Security spike     	|	 150 cr	|	1/2 lb		|
+|	&emsp;Computer spike     	|	 145 cr	|	.50 lb		|
+|	&emsp;Security spike     	|	 150 cr	|	.50 lb		|
 |	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Ammo-feed belt            |    450 cr	    |	1 lb		|
-|	&emsp;Holster                   |     75 cr	    |	2 lb		|
-|	&emsp;Power belt                |    400 cr	    |	1 lb		|
-|	&emsp;Rocketpack	            | 10,000 cr	|	35 lb		|
+|	&emsp;Ammo-feed belt            |    450 cr	    |	1.00 lb		|
+|	&emsp;Holster                   |     75 cr	    |	2.00 lb		|
+|	&emsp;Power belt                |    400 cr	    |	1.00 lb		|
+|	&emsp;Rocketpack	            | 10,000 cr	|	35.00 lb		|
 
 </div>
 
@@ -1060,96 +1039,97 @@ Additionally, your rocketpack comes with an integrated rocket launcher with the 
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
 |	&emsp;Corrosive cartridge       	    |	  42 cr	|	—	    |
-|	&emsp;Cryo cell              	        |	 350 cr	|	1 lb	    |
-|	&emsp;Deafening calibrator    	            |	 550 cr	|	1 lb		|
-|	&emsp;Deafening cell         	        |	 425 cr	|	1 lb	    |
-|	&emsp;Deafening collimator    	            |	 575 cr	|	1 lb		|
+|	&emsp;Cryo cell              	        |	 350 cr	|	1.00 lb	    |
+|	&emsp;Deafening calibrator    	            |	 550 cr	|	1.00 lb		|
+|	&emsp;Deafening cell         	        |	 425 cr	|	1.00 lb	    |
+|	&emsp;Deafening collimator    	            |	 575 cr	|	1.00 lb		|
 |	&emsp;Deafening dart              	        |	  70 cr	|	—	    |
-|	&emsp;Electrifying calibrator    	        |	 700 cr	|	1 lb		|
+|	&emsp;Electrifying calibrator    	        |	 700 cr	|	1.00 lb		|
 |	&emsp;Electrifying cartridge         	    |	  28 cr	|	—	    |
-|	&emsp;Electrifying collimator    	        |	 725 cr	|	1 lb		|
+|	&emsp;Electrifying collimator    	        |	 725 cr	|	1.00 lb		|
 |	&emsp;Electrifying dart              	    |	  85 cr	|	—	    |
 |	&emsp;Gas cartridge              	    |	  36 cr	|	—	    |
-|	&emsp;Flechette clip, fragmentation    	    |	 250 cr	|	2 lb		|
-|	&emsp;Flechette clip, ion    	            |	 300 cr	|	2 lb		|
-|	&emsp;Flechette clip, plasma    	        |	 275 cr	|	2 lb		|
-|	&emsp;Flechette mag, fragmentation    	    |	 550 cr	|	4 lb		|
-|	&emsp;Flechette mag, ion    	            |	 600 cr	|	4 lb		|
-|	&emsp;Flechette mag, plasma    	            |	 575 cr	|	4 lb		|
-|	&emsp;Flux collimator                   |    180 cr	|	1 lb		|
-|	&emsp;Incendiary cell              	        |	 275 cr	|	1 lb	    |
-|	&emsp;Missile, incendiary	                |	 160 cr	|	1/2 lb		|
-|	&emsp;Missile, ion	                    |	 140 cr	|	1/2 lb		|
-|	&emsp;Oscillation calibrator            |    170 cr	|	1 lb		|
-|	&emsp;Panic calibrator    	                |	 850 cr	|	1 lb		|
-|	&emsp;Panic collimator    	                |	 875 cr	|	1 lb		|
+|	&emsp;Flechette clip, fragmentation    	    |	 250 cr	|	2.00 lb		|
+|	&emsp;Flechette clip, ion    	            |	 300 cr	|	2.00 lb		|
+|	&emsp;Flechette clip, plasma    	        |	 275 cr	|	2.00 lb		|
+|	&emsp;Flechette mag, fragmentation    	    |	 550 cr	|	4.00 lb		|
+|	&emsp;Flechette mag, ion    	            |	 600 cr	|	4.00 lb		|
+|	&emsp;Flechette mag, plasma    	            |	 575 cr	|	4.00 lb		|
+|	&emsp;Flux collimator                   |    180 cr	|	1.00 lb		|
+|	&emsp;Incendiary cell              	        |	 275 cr	|	1.00 lb	    |
+|	&emsp;Missile, incendiary	                |	 160 cr	|	.50 lb		|
+|	&emsp;Missile, ion	                    |	 140 cr	|	.50 lb		|
+|	&emsp;Oscillation calibrator            |    170 cr	|	1.00 lb		|
+|	&emsp;Panic calibrator    	                |	 850 cr	|	1.00 lb		|
+|	&emsp;Panic collimator    	                |	 875 cr	|	1.00 lb		|
 |	&emsp;Panic dart              	            |	 100 cr	|	—	    |
-|	&emsp;Power generator                   |  1,250 cr	|	5 lb		|
-|	&emsp;Projector canister, corrosive    	|	 300 cr	|	2 lb		|
-|	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3 lb		|
-|	&emsp;Projector tank, cryo	        |	 675 cr	|	3 lb		|
-|	&emsp;Projector tank, incendiary    	        |	 650 cr	|	3 lb		|
-|	&emsp;Rocket, fragmentation	            |	 350 cr	|	2 lb		|
-|	&emsp;Rocket, incendiary          	        |	 535 cr	|	2 lb		|
-|	&emsp;Rocket, ion             	        |	 475 cr	|	2 lb		|
-|	&emsp;Snare                      	    |	 300  cr	|	2 lb	    |
+|	&emsp;Power generator                   |  1,250 cr	|	5.00 lb		|
+|	&emsp;Projector canister, corrosive    	|	 300 cr	|	2.00 lb		|
+|	&emsp;Projector tank, corrosive  	    |	 625 cr	|	3.00 lb		|
+|	&emsp;Projector tank, cryo	        |	 675 cr	|	3.00 lb		|
+|	&emsp;Projector tank, incendiary    	        |	 650 cr	|	3.00 lb		|
+|	&emsp;Rocket, fragmentation	            |	 350 cr	|	2.00 lb		|
+|	&emsp;Rocket, incendiary          	        |	 535 cr	|	2.00 lb		|
+|	&emsp;Rocket, ion             	        |	 475 cr	|	2.00 lb		|
+|	&emsp;Snare                      	    |	 300  cr	|	2.00 lb	    |
 |	_Clothing_	|		|			|
-|	&emsp;Clothes, clandestine     	|	 300 cr	|	7 lb		|
+|	&emsp;Clothes, clandestine     	|	 300 cr	|	7.00 lb		|
 |	&emsp;Sunshades                 |	  20 cr	|	—   		|
 |	_Communications_	|		|			|
-|	&emsp;Personal translator     	|	 150 cr	|	1/2 lb		|
-|	&emsp;Vocoder mask     	|	 450 cr	|	1/2 lb		|
+|	&emsp;Personal translator     	|	 150 cr	|	.50 lb		|
+|	&emsp;Vocoder mask     	|	 450 cr	|	.50 lb		|
 |	_Data Recording and Storage_|		|			|
 |	&emsp;Credit chip     	    |	 100 cr	|	—		|
-|	&emsp;Focus generator           |	 200 cr	|	1 lb		|
-|	&emsp;Repelling wristpad       	|  1,600 cr	|	2 lb		|
-|	&emsp;Storing, withering focus generator          |	 3,200 cr	|	1 lb		|
+|	&emsp;Focus generator           |	 200 cr	|	1.00 lb		|
+|	&emsp;Repelling wristpad       	|  1,600 cr	|	2.00 lb		|
 
 |Item|Cost|Weight|
 |:--|--:|--:|
+|	_Data Recording and Storage_|		|			|
+|	&emsp;Storing, withering focus generator          |	 3,200 cr	|	1.00 lb		|
 |	_Explosives_	|		|			|
-|	&emsp;Grenade, corrosive            |	 200 cr	|	1 lb		|
-|	&emsp;Grenade, cryo                 |	 325 cr	|	1 lb		|
-|	&emsp;Grenade, defeaning	        |	 225 cr	|	1 lb		|
-|	&emsp;Grenade, electrifying	        |	 300 cr	|	1 lb		|
-|	&emsp;Grenade, flash	            |	 350 cr	|	1 lb		|
-|	&emsp;Grenade, incendiary	        |	 275 cr	|	1 lb		|
-|	&emsp;Grenade, panic	            |	 375 cr	|	1 lb		|
-|	&emsp;Grenade, stun  	            |	 250 cr	|	1 lb		|
-|	&emsp;Mine, corrosive              	|	 425 cr	|	2 lb		|
-|	&emsp;Mine, cryo              	    |	 625 cr	|	2 lb		|
-|	&emsp;Mine, deafening              	|	 450 cr	|	2 lb		|
-|	&emsp;Mine, electrifying            |	 550 cr	|	2 lb		|
-|	&emsp;Mine, flash              	    |	 600 cr	|	2 lb		|
-|	&emsp;Mine, ion              	    |	 525 cr	|	2 lb		|
-|	&emsp;Mine, panic              	    |	 700 cr	|	2 lb		|
-|	&emsp;Mine, plasma              	|	 250 cr	|	2 lb		|
-|	&emsp;Mine, stun              	    |	 475 cr	|	2 lb		|
+|	&emsp;Grenade, corrosive            |	 200 cr	|	1.00 lb		|
+|	&emsp;Grenade, cryo                 |	 325 cr	|	1.00 lb		|
+|	&emsp;Grenade, deafening	        |	 225 cr	|	1.00 lb		|
+|	&emsp;Grenade, electrifying	        |	 300 cr	|	1.00 lb		|
+|	&emsp;Grenade, flash	            |	 350 cr	|	1.00 lb		|
+|	&emsp;Grenade, incendiary	        |	 275 cr	|	1.00 lb		|
+|	&emsp;Grenade, panic	            |	 375 cr	|	1.00 lb		|
+|	&emsp;Grenade, stun  	            |	 250 cr	|	1.00 lb		|
+|	&emsp;Mine, corrosive              	|	 425 cr	|	2.00 lb		|
+|	&emsp;Mine, cryo              	    |	 625 cr	|	2.00 lb		|
+|	&emsp;Mine, deafening              	|	 450 cr	|	2.00 lb		|
+|	&emsp;Mine, electrifying            |	 550 cr	|	2.00 lb		|
+|	&emsp;Mine, flash              	    |	 600 cr	|	2.00 lb		|
+|	&emsp;Mine, ion              	    |	 525 cr	|	2.00 lb		|
+|	&emsp;Mine, panic              	    |	 700 cr	|	2.00 lb		|
+|	&emsp;Mine, plasma              	|	 250 cr	|	2.00 lb		|
+|	&emsp;Mine, stun              	    |	 475 cr	|	2.00 lb		|
 |	_Life Support_	|		|			|
-|	&emsp;Underwater respirator    	|	 300 cr	|	1/2 lb		|
-|	&emsp;Water suit    	|	 1,500 cr	|	20 lb		|
+|	&emsp;Underwater respirator    	|	 300 cr	|	.50 lb		|
+|	&emsp;Water suit    	|	 1,500 cr	|	20.00 lb		|
 |	_Medical_	|		|	
-|	&emsp;Arm prosthesis     	|	 450 cr	|	 16 lb		|
-|	&emsp;Ear prosthesis     	|	 100 cr	|	1/2 lb		|
-|	&emsp;Eye prosthesis     	|	 250 cr	|	1/2 lb		|
-|	&emsp;Facial prosthesis     |	 300 cr	|	  2 lb		|
-|	&emsp;Foot prosthesis     	|	 150 cr	|	  4 lb		|
-|	&emsp;Forearm prosthesis    |	 300 cr	|	  8 lb		|
-|	&emsp;Hand prosthesis     	|	 225 cr	|	  3 lb		|
-|	&emsp;Leg prosthesis     	|	 450 cr	|	 24 lb		|
-|	&emsp;Throat prosthesis    	|	 325 cr	|	  2 lb		|
-|	&emsp;Torso prosthesis     	|	 600 cr	|	 36 lb		|
+|	&emsp;Arm prosthesis     	|	 450 cr	|	 16.00 lb		|
+|	&emsp;Ear prosthesis     	|	 100 cr	|	.50 lb		|
+|	&emsp;Eye prosthesis     	|	 250 cr	|	.50 lb		|
+|	&emsp;Facial prosthesis     |	 300 cr	|	  2.00 lb		|
+|	&emsp;Foot prosthesis     	|	 150 cr	|	  4.00 lb		|
+|	&emsp;Forearm prosthesis    |	 300 cr	|	  8.00 lb		|
+|	&emsp;Hand prosthesis     	|	 225 cr	|	  3.00 lb		|
+|	&emsp;Leg prosthesis     	|	 450 cr	|	 24.00 lb		|
+|	&emsp;Throat prosthesis    	|	 325 cr	|	  2.00 lb		|
+|	&emsp;Torso prosthesis     	|	 600 cr	|	 36.00 lb		|
 |	_Storage_	|		|	
-|	&emsp;Camtono     	    |	   750 cr	|	  3 lb		|
-|	&emsp;Smugglepack     	|	   400 cr	|	  6 lb		|
+|	&emsp;Camtono     	    |	   750 cr	|	  3.00 lb		|
+|	&emsp;Smugglepack     	|	   400 cr	|	  6.00 lb		|
 |	_Utilities_	|		|	
-|	&emsp;Computer spike     	|	 145 cr	|	1/2 lb		|
-|	&emsp;Security spike     	|	 150 cr	|	1/2 lb		|
+|	&emsp;Computer spike     	|	 145 cr	|	.50 lb		|
+|	&emsp;Security spike     	|	 150 cr	|	.50 lb		|
 |	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Ammo-feed belt            |    450 cr	    |	1 lb		|
-|	&emsp;Holster                   |     75 cr	    |	2 lb		|
-|	&emsp;Power belt                |    400 cr	    |	1 lb		|
-|	&emsp;Rocketpack	            | 10,000 cr	|	35 lb		|
+|	&emsp;Ammo-feed belt            |    450 cr	    |	1.00 lb		|
+|	&emsp;Holster                   |     75 cr	    |	2.00 lb		|
+|	&emsp;Power belt                |    400 cr	    |	1.00 lb		|
+|	&emsp;Rocketpack	            | 10,000 cr	|	35.00 lb		|
 
 </div>	
 
@@ -1158,16 +1138,30 @@ Additionally, your rocketpack comes with an integrated rocket launcher with the 
 \pagebreakNum
 
 ## Tools
-A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools, which lets you add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. Like skills, proficiency with a tool allows you to add your proficiency bonus to checks you make with it. Unlike skills, you must have your tools present in order to make an ability check with them. 
+A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. Like skills, proficiency with a tool allows you to add your proficiency bonus to checks you make with it. Unlike skills, you must have your tools present in order to make an ability check with them. 
 
 The table shows examples of some of the most common types of tools. Each tool falls under one of four categories: artisan's implements, gaming sets, musical instruments, or specialist's kits. Each tool requires a separate proficiency. 
 
 #### Artisan's Implements
 Artisan's implements are predominantly designed for building and crafting things of permanent nature. Each set of implements focuses on a specific craft. 
 
+***Artist's Implements.*** Artist's implements encompasses any set of tools designed to create art.
+
 ***Audiotech's Implements.*** Audiotech's implements are for crafting and tuning musical instruments.
 
+***Constructor's Implements.*** Constructor's implements are for creating and fortifying structures.
+
+***Cybertech's Implements.*** Cybertech's implements are used for crafting and modifying wristpads.
+
 ***Geneticist's Implements.*** Geneticist's implements are for creating and grafting genetic mutations.
+
+***Jeweler's Implements.*** Jeweler's implements are used to appraise gemstones and create jewelry.
+
+***Surveyor's Implements.*** Surveyor's implements are used to create both physical and digital maps.
+
+***Synthweaver's Implements.*** Synthweaver's implements create and modify articles of clothing.
+
+***Writer's Implements.*** Writer's implements contains everything needed to create and publish physical and digital written works. 
 
 #### Gaming Sets
 This item encompasses a wide range of game pieces, including dice and/or decks of cards. A few common examples appear on the Tools table, but other kinds of gaming sets exist. 
@@ -1178,38 +1172,98 @@ Several of the most common types of musical instruments are shown on the table a
 #### Specialist's Kits
 Like artisan's implements, specialist's kits are need to pursue a craft or trade. Some specialist's kits are used to craft items that are impermanent, such as grenades, medpacs, or poisons while other tools are used to achieve a specific purpose, such as picking locks or creating a disguise.
 
-***Archaeologist Kit.*** This kit contains instruments used to carefully collect gems, relics, and other heirlooms. 
+***Alchemist's Kit.*** Alchemist's kits contains everything needed to enhance creatures and items with alchemy.
 
-***Artillerist's Kit.*** This kit contains all the necessary equipment to create, repair, and modify turrets. 
-
-***Bioanalysis Kit.*** This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by bioanalysts to harvest and store plants and herbs. 
-
-***Brewer's Kit.*** This kit contains a variety of devices and containers to adequately distill and house liquors and beers. 
-
-***Munitions Kit.*** This kit contains the necessary tools to create ammunition for blasters, as well as devices to hone lightweapons and vibroweapons.
+***Archaeologist Kit.*** Archelogist kits contains instruments used to collect gems and relics. 
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
+<div style='margin-top:28px'></div>
+
+&emsp;***Artillerist's Kit.*** Artillerist's kits contains all the necessary tools to create, repair, and modify turrets. 
+
+***Bioanalysis Kit.*** Bioanalysis kits contains a variety of instruments to harvest and store plants and herbs. 
+
+***Brewer's Kit.*** Brewer's kits contains a variety of devices and containers to adequately distill and house liquors and beers. 
+
+***Munitions Kit.*** Munitions kits contains the necessary tools to create ammunition for blasters, as well as devices to hone lightweapons and vibroweapons.
+
+***Scavenging Kit.*** Scavenging kits contains the necessary implements to harvest and scavenge ores and metals. 
+
+***Spicer's Kit.*** Spicer's kits contains the required tools to create and refine illicit substances.
 
 ##### Tools							
 |	Item		|	Cost	|	Weight	|
 |	:--		|	--:	|	--:	|
 |	_Artisan's implements_		|		|		|
-|	&emsp;Audiotech's implements                    |	550 cr	|   7 lb	|
-|	&emsp;Geneticist's implements                   |	900 cr	|   4 lb	|
+|	&emsp;Artist's implements			|	100 cr	|	5.00 lb	|
+|	&emsp;Audiotech's implements                    |	550 cr	|   7.00 lb	|
+|	&emsp;Constructor's implements		|	 100 cr	|	7.00 lb	|
+|	&emsp;Geneticist's implements                   |	900 cr	|   4.00 lb	|
+|	&emsp;Jeweler's implements		    |	250 cr	|  2.00 lb	|
+|	&emsp;Surveyor's implements			|	500 cr	|	6.00 lb	|
+|	&emsp;Synthweaver's implements		|	250 cr	|	2.00 lb	|
+|	&emsp;Writer's implements		|	200 cr	|	3.00 lb	|
+|	_Gaming set_		|		|		|
+|	&emsp;Chatta-ragul set				|	  450 cr	|	  11.00 lb 	|
+|	&emsp;Kirgatz set				|	  250 cr	|	  6.00 lb 	|
+|	_Musical instrument_		|		|		|
+|	&emsp;Bandfill					|	300 cr	|	2.00 lb	|
+|	&emsp;Chindinkalu horn			|	120 cr	|	7.00 lb	|
+|	&emsp;Fanfar					|	220 cr	|	4.00 lb	|
+|	&emsp;Fizzz						|	160 cr	|	3.00 lb	|
+|	&emsp;Kloo horn					|	330 cr	|	2.00 lb	|
+|	&emsp;Mandoviol					|   425 cr	|   1.00 lb	|
+|	&emsp;Shawm						|	 20 cr	|	1.00 lb	|
+|	&emsp;Slitherhorn				|	120 cr	|	2.00 lb	|
+|	&emsp;Traz					    |	300 cr	|	6.00 lb	|
+|	&emsp;Valahorn				    |	340 cr	|	4.00 lb	|
+|	&emsp;Xantha				    |	170 cr	|	7.00 lb	|
 |	_Specialist's kit_		|		|		|
-|	&emsp;Artillerist's kit			                |	275 cr	|  11 lb	|
-|	&emsp;Archaeologist kit							|	125 cr	|	4 lb	|
-|	&emsp;Bioanalysis kit							|	 50 cr	|	3 lb	|
-|	&emsp;Brewer's kit			                    |	200 cr	|	9 lb	|
-|   &emsp;Munitions kit                             |   425 cr  |   6 lb    |
-|	&emsp;Scavenging kit							|	 75 cr	|	4 lb	|
-|	&emsp;Spicer's kit			                    |	700 cr	|	4 lb	|
+|	&emsp;Alchemist's kit							|	500 cr	|	2.00 lb	|
+|	&emsp;Archaeologist kit							|	125 cr	|	4.00 lb	|
+|	&emsp;Artillerist's kit			                |	275 cr	|  11.00 lb	|
+|	&emsp;Bioanalysis kit							|	 50 cr	|	3.00 lb	|
+|	&emsp;Brewer's kit			                    |	200 cr	|	9.00 lb	|
+|   &emsp;Munitions kit                             |   425 cr  |   6.00 lb    |
+|	&emsp;Scavenging kit							|	 75 cr	|	4.00 lb	|
+|	&emsp;Spicer's kit			                    |	700 cr	|	4.00 lb	|
 
-***Scavenging Kit.*** This kit contains the necessary implements to harvest and scavenge ores and metals. 
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
-***Spicer's Kit.*** This kit contains the required accoutrement to refine materials in order to create illicit substances.
+\pagebreakNum
+
+\columnbreak
+
+## Trade Goods
+Trade is an essential part of the galactic economy. Many spacers make their living buying and selling goods along hyperspace routes that connect the galaxy's major worlds.
+
+A merchant may be chartered by an individual or a corporation to deliver goods to a certain port, or move goods along a specified route. During times of war, opportunities abound in the shipping of ammunition and medical supplies. Some traders, seeking to earn a quick profit, may resort to smuggling illegal or restricted cargo on behalf of one of the galaxy's many crime syndicates. The Trade Goods table shows the value of commonly exchanged goods.
+
+##### Trade Goods
+|	Cost	| &emsp;	| Goods	|
+|----: |:--:|:------------ |
+|	 100 cr	||	Animal, common	|
+|	 500 cr	||	Animal, livestock	|
+|  2,000 cr	||	Animal, uncommon	|
+|	 100 cr	||	Art. common	|
+|  1,000 cr	||	Art. quality	|
+| 10,000 cr ||	Art, precious	|
+|	 400 cr	||	Bacta, 1 gal	|
+|	  10 cr	||	Food, common (5 lbs)	|
+|	  20 cr	||	Food. quality (5 lbs)	|
+|	  50 cr	||	Food. exotic (5 lbs)	|
+| 10,000 cr ||	Gems, exotic (1 carat)	|
+|	 100 cr	||	Gems, semiprecious (1 carat)	|
+|  1,000 cr	||	Gems, precious (1 carat)	|
+|	  10 cr	||	Holovid	|
+|  2,500 cr	||	Metal, common (1 ton)	|
+|	 100 cr	||	Metal, semi-precious (1 lb)	|
+|  5,000 cr	||	Metal, precious (1 lb)	|
+|  1,500 cr	||	Ore. common (1 ton)	|
+|  2,000 cr	||	Spice, common (1 lb)	|
+|  5,000 cr	||	Spice, precious (1 lb)	|
+| 10,000 cr ||	Spice, illicit (1 lb)	|
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -1248,23 +1302,23 @@ Consuming substances regularly also risks becoming addicted to a substance. When
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Alcoholic beverages_	|		|			|
-| &emsp;Deuterium-pyro      |   80 cr  |  1/2 lb  |
-| &emsp;Mummergy            |   65 cr  |  1/2 lb  |
-| &emsp;Novanian grog       |   70 cr  |  1/2 lb  |
-| &emsp;Raava               |   95 cr  |  1/2 lb  |
-| &emsp;Spicebrew           |   90 cr  |  1/2 lb  |
-| &emsp;Tihaar              |   85 cr  |  1/2 lb  |
-| &emsp;Tsiraki             |   60 cr  |  1/2 lb  |
-| &emsp;Vayerbok            |   75 cr  |  1/2 lb  |
+| &emsp;Deuterium-pyro      |   80 cr  |  .50 lb  |
+| &emsp;Mummergy            |   65 cr  |  .50 lb  |
+| &emsp;Novanian grog       |   70 cr  |  .50 lb  |
+| &emsp;Raava               |   95 cr  |  .50 lb  |
+| &emsp;Spicebrew           |   90 cr  |  .50 lb  |
+| &emsp;Tihaar              |   85 cr  |  .50 lb  |
+| &emsp;Tsiraki             |   60 cr  |  .50 lb  |
+| &emsp;Vayerbok            |   75 cr  |  .50 lb  |
 |	_Spices_	|		|			|
-| &emsp;Andris              |   75 cr  |  1/8 lb  |
-| &emsp;Cilona              |   60 cr  |  1/8 lb  |
-| &emsp;Giggledust          |   80 cr  |  1/8 lb  |
-| &emsp;Glitterstim         |   95 cr  |  1/8 lb  |
-| &emsp;Karrak              |   90 cr  |  1/8 lb  |
-| &emsp;Muon gold           |   65 cr  |  1/8 lb  |
-| &emsp;Yaladai             |   70 cr  |  1/8 lb  |
-| &emsp;Yarrock             |   85 cr  |  1/8 lb  |
+| &emsp;Andris              |   75 cr  |  .25 lb  |
+| &emsp;Cilona              |   60 cr  |  .25 lb  |
+| &emsp;Giggledust          |   80 cr  |  .25 lb  |
+| &emsp;Glitterstim         |   95 cr  |  .25 lb  |
+| &emsp;Karrak              |   90 cr  |  .25 lb  |
+| &emsp;Muon gold           |   65 cr  |  .25 lb  |
+| &emsp;Yaladai             |   70 cr  |  .25 lb  |
+| &emsp;Yarrock             |   85 cr  |  .25 lb  |
 
 If an already addicted creature suffers another effect that causes addiction, its current level of addiction increases by the amount specified in the effect's description.
 
@@ -1285,32 +1339,32 @@ If a creature abstains from consuming a substance for 24 hours, they can make a 
 The alcoholic beverages are presented in alphabetical order.
 
 #### Deuterium-pyro 
-This alcoholic beverage, favored amongst ruffians, features a terrible flavor and strong aftertaste. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+This alcoholic beverage, favored amongst ruffians, features a terrible flavor and strong aftertaste. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 #### Mummergy 
-Mummergy is a strong-smelling liquor derived from a plant of the same name. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+Mummergy is a strong-smelling liquor derived from a plant of the same name. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 #### Novanian Grog
-This grog features a pungent odor and a strong kick. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+This grog features a pungent odor and a strong kick. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d3. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d3. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 #### Raava
-Raava is a traditional liquor breed from zsajhira berries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+Raava is a traditional liquor breed from zsajhira berries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
 #### Spicebrew
-Spicebrew, a popular drink across the galaxy, is a tanned alcoholic beverage topped with foam. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+Spicebrew, a popular drink across the galaxy, is a tanned alcoholic beverage topped with foam. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d3. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d3. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 #### Tihaar
-This colorless spirit, favored by Mandalorians, burns the mouth and throat when consumed. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d4. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+This colorless spirit, favored by Mandalorians, burns the mouth and throat when consumed. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d3 temporary hit points. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d3. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 #### Tsiraki
-Tsiraki is a blue-colored alcoholic beverage crafted from fermented salakberries and pickling spices. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+Tsiraki is a blue-colored alcoholic beverage crafted from fermented salakberries and pickling spices. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 #### Vayerbok
-Vayerbok is a thick, green, vegetable-based alcoholic beverage typically served hot. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
+Vayerbok is a thick, green, vegetable-based alcoholic beverage typically served hot. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -1320,16 +1374,16 @@ Vayerbok is a thick, green, vegetable-based alcoholic beverage typically served 
 The spices are presented in alphabetical order.
 
 #### Andris
-Refined andris crystal, a spice mined most commonly on Sevarcos II, sharpens a creature's mind when smoked. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+Refined andris crystal, a spice mined most commonly on Sevarcos II, sharpens a creature's mind when smoked. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Wisdom. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Wisdom. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 #### Cilona
-Cilona, the active ingredient in deathsticks, is a hallucinogen that causes an ecstatic feeling that improves strength. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+Cilona, the active ingredient in deathsticks, is a hallucinogen that causes an ecstatic feeling that improves strength. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 #### Giggledust
-This sandy-brown powder makes everything humorous while enhancing a creature's nimbleness. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+This sandy-brown powder makes everything humorous while enhancing a creature's nimbleness. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 #### Glitterstim
-A silvery-green webbing sharp to the touch, yet when liquidized causes a heightened mental state and pleasurable boost. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 14 Constitution 
+A silvery-green webbing sharp to the touch, yet when liquidized causes a heightened mental state and pleasurable boost. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 14 Constitution 
 
 \columnbreak
 
@@ -1338,16 +1392,16 @@ A silvery-green webbing sharp to the touch, yet when liquidized causes a heighte
 saving throw to resist addiction.
 
 #### Karrak
-A powerful painkiller, karrak allows creatures to continue through the most grievous injuries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d4 temporary hit points. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d4. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+A powerful painkiller, karrak allows creatures to continue through the most grievous injuries. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d3 temporary hit points. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d3. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 #### Muon Gold
-Muon gold is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d4. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d4. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+Muon gold is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by 2d3. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum tech points are reduced by 2d3. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 #### Yaladai
-Yaladai is a powerful stimulant that grants extreme clarity, improving relaxation and focus. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+Yaladai is a powerful stimulant that grants extreme clarity, improving relaxation and focus. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d3. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, their current and maximum force points are reduced by 2d3. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 #### Yarrock
-Yarrock is a hallucinogen which is said to instill a creature with a clear vision of "the meaning of life", granting a boost to confidence. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
+Yarrock is a hallucinogen which is said to instill a creature with a clear vision of "the meaning of life", granting a boost to confidence. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 14 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 14 Constitution saving throw to resist addiction.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 

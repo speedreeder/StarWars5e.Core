@@ -55,6 +55,15 @@ You've spent a significant amount of time appraising and testing enhanced items.
 - You have advantage on ability checks made to identify items.
 - Once per long rest, you can choose one object that you must touch for 10 minutes. If it is an enhanced or modified item, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any powers are affecting the item and what they are. If the item was created by a power, you learn which power created it.
 
+### Muscled Menace
+_**Prerequisite:** Strength 13, size Medium_<br>
+Despite being of otherwise average size, your might extends beyond that of your peers. You gain the following benefits:
+- Increase your Strength score by 1, to a maximum of 20.
+- Your speed increases by 5 feet.
+- You can't add more than +3 when determining your bonus to AC from your Dexterity.
+- You can't add more than +3 when determing your bonus to Dexterity saving throws from Dexterity.
+- You gain the Oversized special trait: ***Oversized.*** Light- and vibro-weapons that lack the dexterity or light property are considered to have the heavy property for you. The strength number for blasters is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely. 
+
 ### Savage Shorty
 _**Prerequisite:** Strength 13, size Small_<br>
 Despite being short of stature, your size has no impact on your strength and virility. You gain the following benefits:
@@ -118,7 +127,7 @@ You may choose your weapon focus from the following options or roll on the table
 </div>
 
 ### Weapon Classifications
-Each weapon has a classification, as shown in Weapons by Classification table later in this chapter, that determines which weapon focus it is governed by.
+Each weapon has a classification, as shown in Weapons by Class table later in this chapter, that determines which weapon focus it is governed by.
 
 #### Blade Focus
 You've focused your combat training on blade weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:
@@ -283,5 +292,164 @@ You've specialized your combat training with trip weapons. You gain the followin
 - When you take the Attack action, you can choose to forgo one or more attacks to **interrupt**. For each attack you forgo, one creature within your reach gains no benefit to armor class from its shield until the end of its next turn. If you could already interrupt, instead you can do so as your bonus action.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
+
+<div class='wide'>
+
+##### Weapons by Class
+
+</div>
+
+<div class='wide' style='column-count:4'>
+
+| Weapon | Class |
+|:---|:---|
+|	 Assault cannon        	|	 Heavy 	|
+|	 Beam rifle            	|	 Rifle 	|
+|	 Bite-saber            	|	 Blade 	|
+|	 BKG                   	|	 Heavy 	|
+|	 Blaster carbine       	|	 Carbine 	|
+|	 Blaster pistol        	|	 Sidearm 	|
+|	 Blaster rifle         	|	 Rifle 	|
+|	 Blight-saber          	|	 Blade 	|
+|	 Bowcaster             	|	 Heavy 	|
+|	 Bright-saber          	|	 Blade 	|
+|	 Broad-saber           	|	 Blade 	|
+|	 Buster saber          	|	 Crush 	|
+|	 Carbine rifle         	|	 Carbine 	|
+|	 Chaingun              	|	 Heavy 	|
+|	 Chakram           	|	 Trip 	|
+|	 Crossguard saber      	|	 Blade 	|
+|	 Cryo Cannon           	|	 Heavy 	|
+|	 Cryo Carbine          	|	 Carbine 	|
+|	 Cryo Pistol           	|	 Sidearm 	|
+|	 Cryo Rifle            	|	 Rifle 	|
+|	 Cycler rifle          	|	 Rifle 	|
+|	 Dire Vibroblade   	|	 Blade 	|
+|	 Diresword         	|	 Blade 	|
+|	 Disruptor Carbine     	|	 Carbine 	|
+|	 Disruptor Pistol      	|	 Sidearm 	|
+|	 Disruptor Rifle       	|	 Rifle 	|
+|	 Disruptor Sniper      	|	 Rifle 	|
+|	 Double-blade      	|	 Blade 	|
+|	 Double-saber          	|	 Blade 	|
+|	 Double-shoto          	|	 Blade 	|
+|	 Double-sword      	|	 Blade 	|
+|	 Dual-phase saber      	|	 Blade 	|
+|	 Echostaff         	|	 Polearm 	|
+|	 Electro-baton     	|	 Trip 	|
+
+| Weapon | Class |
+|:---|:---|
+|	 Electro-hammer    	|	 Crush 	|
+|	 Electro-staff     	|	 Polearm 	|
+|	 Flechette cannon      	|	 Heavy 	|
+|	 Great-saber           	|	 Crush 	|
+|	 Grenade launcher      	|	 Heavy 	|
+|	 Guard shoto           	|	 Trip 	|
+|	 Hand BKG              	|	 Heavy 	|
+|	 Hand blaster          	|	 Sidearm 	|
+|	 Hand cannon           	|	 Carbine 	|
+|	 Heavy blaster rifle   	|	 Heavy 	|
+|	 Heavy bowcaster       	|	 Heavy 	|
+|	 Heavy carbine         	|	 Carbine 	|
+|	 Heavy pistol          	|	 Sidearm 	|
+|	 Heavy repeater        	|	 Heavy 	|
+|	 Heavy shotgun         	|	 Heavy 	|
+|	 Heavy slugpistol      	|	 Sidearm 	|
+|	 Hidden blade      	|	 Trip 	|
+|	 Hold-out              	|	 Sidearm 	|
+|	 Hunting rifle         	|	 Rifle 	|
+|	 Incinerator Carbine   	|	 Carbine 	|
+|	 Incinerator Pistol    	|	 Sidearm 	|
+|	 Incinerator Rifle     	|	 Rifle 	|
+|	 Incinerator Sniper    	|	 Rifle 	|
+|	 Ion cannon            	|	 Heavy 	|
+|	 Ion carbine           	|	 Carbine 	|
+|	 Ion pistol            	|	 Sidearm 	|
+|	 Ion rifle             	|	 Rifle 	|
+|	 Light pistol          	|	 Sidearm 	|
+|	 Light Repeater        	|	 Carbine 	|
+|	 Light slugpistol      	|	 Sidearm 	|
+|	 Light-axe             	|	 Crush 	|
+|	 Light-blade           	|	 Blade 	|
+|	 Lightbow              	|	 Rifle 	|
+
+| Weapon | Class |
+|:---|:---|
+|	 Light-club            	|	 Crush 	|
+|	 Light-dagger          	|	 Trip 	|
+|	 Light-foil            	|	 Blade 	|
+|	 Light-glaive          	|	 Polearm 	|
+|	 Light-katana          	|	 Blade 	|
+|	 Light-lance           	|	 Polearm 	|
+|	 Light-nodachi         	|	 Polearm 	|
+|	 Lightsaber            	|	 Blade 	|
+|	 Martial lightsaber    	|	 Blade 	|
+|	 Nerve-baton       	|	 Trip 	|
+|	 Net               	|	 Trip 	|
+|	 Pike-saber            	|	 Polearm 	|
+|	 Railgun               	|	 Rifle 	|
+|	 Repeating blaster     	|	 Heavy 	|
+|	 Rocket Launcher       	|	 Heavy 	|
+|	 Rotary cannon         	|	 Heavy 	|
+|	 Saber-mace            	|	 Crush 	|
+|	 Saber-spear           	|	 Polearm 	|
+|	 Saber-whip            	|	 Trip 	|
+|	 Scattergun            	|	 Sidearm 	|
+|	 Shotgun               	|	 Carbine 	|
+|	 Shotosaber            	|	 Blade 	|
+|	 Shoulder Blaster      	|	 Sidearm 	|
+|	 Shoulder Cannon       	|	 Heavy 	|
+|	 Sickle-saber          	|	 Blade 	|
+|	 Sith saber            	|	 Blade 	|
+|	 Slugpistol            	|	 Sidearm 	|
+|	 Slugthrower           	|	 Rifle 	|
+|	 Smart Cannon          	|	 Heavy 	|
+|	 Smart Pistol          	|	 Sidearm 	|
+|	 Sniper rifle          	|	 Rifle 	|
+|	 Split-saber           	|	 Blade 	|
+|	 Subrepeater           	|	 Sidearm 	|
+
+| Weapon | Class |
+|:---|:---|
+|	 Tech-axe          	|	 Crush 	|
+|	 Tech-blade        	|	 Blade 	|
+|	 Tech-knife        	|	 Blade 	|
+|	 Tech-staff        	|	 Polearm 	|
+|	 Vapor Projector       	|	 Heavy 	|
+|	 Vibro-axe         	|	 Crush 	|
+|	 Vibro-battleaxe   	|	 Crush 	|
+|	 Vibro-blade       	|	 Blade 	|
+|	 Vibro-buster      	|	 Crush 	|
+|	 Vibro-dagger      	|	 Trip 	|
+|	 Vibro-dart        	|	 Trip 	|
+|	 Vibro-flail       	|	 Crush 	|
+|	 Vibro-glaive      	|	 Polearm 	|
+|	 Vibro-hammer      	|	 Crush 	|
+|	 Vibro-katana      	|	 Blade 	|
+|	 Vibro-knuckler    	|	 Trip 	|
+|	 Vibro-mace        	|	 Crush 	|
+|	 Vibro-nodachi     	|	 Polearm 	|
+|	 Vibro-pike        	|	 Polearm 	|
+|	 Vibro-rapier      	|	 Blade 	|
+|	 Vibro-sabre       	|	 Blade 	|
+|	 Vibro-shield      	|	 Crush 	|
+|	 Vibro-spear       	|	 Polearm 	|
+|	 Vibro-staff       	|	 Polearm 	|
+|	 Vibro-stiletto    	|	 Trip 	|
+|	 Vibro-sword       	|	 Blade 	|
+|	 Vibro-tonfa       	|	 Trip 	|
+|	 Vibro-whip        	|	 Trip 	|
+|	 War hat           	|	 Trip 	|
+|	 Warsaber              	|	 Crush 	|
+|	 Warsword          	|	 Crush 	|
+|	 Wrist blaster         	|	 Sidearm 	|
+|	 Wrist launcher        	|	 Sidearm 	|
+
+</div>
+
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum

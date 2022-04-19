@@ -66,9 +66,9 @@ As characters progress to higher levels, there is an expectation of increased we
 
 |Level|Wealth&emsp;&emsp;|
 |:--:|--:|
-|1st|1,000 cr&emsp;|
-|2nd|2,000 cr&emsp;|
-|3rd|3,500 cr&emsp;|
+|1st|—&emsp;&emsp;&emsp;|
+|2nd|1,000 cr&emsp;|
+|3rd|2,500 cr&emsp;|
 |4th|5,000 cr&emsp;|
 |5th|10,000 cr&emsp;|
 |6th|20,000 cr&emsp;|
@@ -106,16 +106,16 @@ The Armor table shows the cost, weight, and other properties of the common types
 <div style='margin-top:28px'></div>
 
 ### Armor and Shield Proficiency
-Anyone can put on a suit of armor or wield a shield. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can't force- or tech-cast.
+Anyone can put on a suit of armor or wield a shield. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor or wield a shield that you lack proficiency with, you have disadvantage on any ability check, attack roll, or saving throw that involves Strength or Dexterity, and you can't force- or tech-cast.
 
 If you have proficiency in armor, you have proficiency in the appropriate shield as well.
 
-> ##### Variant: Equipment Sizes
+> #### Variant: Equipment Sizes
 > In most campaigns, you can use or wear any equipment that you find on your adventures, within the bounds of common sense. For example, a burly wookiee won't fit in a jawa's combat suit, and an ugnaught would be swallowed up in a gamorrean's hooded cloak. 
 >
 > The GM can impose more realism. For example, a suit of armor made for one human might not fit another one without significant alterations, and a guard's uniform might be visibly ill-fitting when an adventurer tries to wear it as a disguise.
 >
-> Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armormech, synthweaver, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The GM can either roll 1d4x100 or determine the increase in cost based on the extent of the alterations required.
+> Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armormech, synthweaver, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The GM can either roll 1d4x10 or determine the increase in cost based on the extent of the alterations required.
 
 ### Armor Class (AC)
 Armor protects its wearer from attacks. The armor (and shield) you wear determines your armor class (AC).
@@ -124,13 +124,13 @@ Armor protects its wearer from attacks. The armor (and shield) you wear determin
 Many armors and shield have special properties related to their use, as shown in the Armor table.
 
 #### Bulky
-While wearing armor with the bulky property, you have disadvantage on Dexterity (Stealth) checks that rely on sound.
+While wearing armor with this property, you have disadvantage on Dexterity (Stealth) checks that rely on sound.
 
 #### Obtrusive
-While wielding a shield with the obtrusive property, you have disadvantage on Dexterity (Stealth) checks that rely on sight.
+While wielding a shield with this property, you have disadvantage on Dexterity (Stealth) checks that rely on sight.
 
 #### Strength
-While wearing armor or wielding a shield with the strength property, your speed is reduced by 10 unless you meet the strength requirement. 
+While wearing armor or wielding a shield with this property, your speed is reduced by 10 unless your Strength score meets or exceeds the strength number. 
 
 <img src='https://www.gmbinder.com/images/KulkaIH.png' style='position:absolute;bottom:15px;left:-254px;width:810px;z-index:1000;' />
 
@@ -203,8 +203,8 @@ Heavy shields are much larger and more cumbersome, but they offer more protectio
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Armor|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
 |:---|---:|:---|-:|:---|
 |_Light Armor_	||||||
-| &emsp;Combat suit      		|	 100 cr&nbsp;&nbsp;|	11 + Dex modifier|10 lb&nbsp;&nbsp;|—|
-| &emsp;Fiber armor		        |	 450 cr&nbsp;&nbsp;|	12 + Dex modifier|13 lb&nbsp;&nbsp;|—|
+| &emsp;Combat suit      		|	 100 cr&nbsp;&nbsp;|	11 + Dex modifier|10.00 lb&nbsp;&nbsp;|—|
+| &emsp;Fiber armor		        |	 450 cr&nbsp;&nbsp;|	12 + Dex modifier|13.00 lb&nbsp;&nbsp;|—|
 |_Medium Armor_	||||||
 | &emsp;Mesh armor		        |	 500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20 lb&nbsp;&nbsp;|—|
 | &emsp;Weave armor			    |  1,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25 lb&nbsp;&nbsp;|—|
@@ -214,12 +214,12 @@ Heavy shields are much larger and more cumbersome, but they offer more protectio
 | &emsp;Assault armor	        |  2,000 cr&nbsp;&nbsp;|	17	|60 lb&nbsp;&nbsp;|Bulky, strength 15|
 | &emsp;Heavy exoskeleton   	    |  9,000 cr&nbsp;&nbsp;|	18	|65 lb&nbsp;&nbsp;|Bulky, strength 17|
 |_Shield_		||||||
-| &emsp;Light physical shield    |     50 cr&nbsp;&nbsp;|	+1	| 6 lb&nbsp;&nbsp;|—|
-| &emsp;Light shield generator	|    125 cr&nbsp;&nbsp;|	+1	| 2 lb&nbsp;&nbsp;|—|
-| &emsp;Medium physical shield   |	 150 cr&nbsp;&nbsp;|	+2	|18 lb&nbsp;&nbsp;|Strength 13|
-| &emsp;Medium shield generator	|	 375 cr&nbsp;&nbsp;|	+2	| 6 lb&nbsp;&nbsp;|—|
-| &emsp;Heavy physical shield	|	 500 cr&nbsp;&nbsp;|	+3	|36 lb&nbsp;&nbsp;|Obtrusive, strength 15|
-| &emsp;Heavy shield generator	|  1,250 cr&nbsp;&nbsp;|	+3	|12 lb&nbsp;&nbsp;|—|
+| &emsp;Light physical shield    |     50 cr&nbsp;&nbsp;|	+1	| 6.00 lb&nbsp;&nbsp;|—|
+| &emsp;Light shield generator	|    125 cr&nbsp;&nbsp;|	+1	| 2.00 lb&nbsp;&nbsp;|—|
+| &emsp;Medium physical shield   |	 150 cr&nbsp;&nbsp;|	+2	|18.00 lb&nbsp;&nbsp;|Strength 13|
+| &emsp;Medium shield generator	|	 375 cr&nbsp;&nbsp;|	+2	| 6.00 lb&nbsp;&nbsp;|—|
+| &emsp;Heavy physical shield	|	 500 cr&nbsp;&nbsp;|	+3	|36.00 lb&nbsp;&nbsp;|Obtrusive, strength 15|
+| &emsp;Heavy shield generator	|  1,250 cr&nbsp;&nbsp;|	+3	|12.00 lb&nbsp;&nbsp;|—|
 
 </div>	
 
@@ -264,157 +264,155 @@ An object that bears no resemblance to a weapon deals 1d4 kinetic damage. If a c
 ### Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
-#### Ammunition
-You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. 
+#### Auto
+Weapons with this property can only fire in burst, penetrating, or rapid modes. If the weapon has any combination of burst, penetrating, and rapid modes, you choose which mode to use. You can only use one mode at a time.
 
 \columnbreak
 
-<div style='margin-top:26px'></div>
-
-#### Auto
-Automatic weapons can only fire in burst or rapid modes. If the weapon has both burst and rapid properties, you choose which mode to use. You can only use one mode at a time.
+<div style='margin-top:28px'></div>
 
 #### Burst
-When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save.
+When you would make a ranged weapon attack with a weapon with this property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use this property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save.
 
 #### Dexterity
-A weapon with this special property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. 
+A weapon with this property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. 
 
 #### Disguised
-You have advantage on Charisma (Deception) checks made to hide the nature of a disguised weapon.
+You have advantage on Charisma (Deception) checks made to hide the nature of a weapon with this property.
 
 #### Double
-This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with Double-Weapon Fighting. See the rules for Double-Weapon Fighting in chapter 9.
+A weapon with this property can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with Double-Weapon Fighting. See the rules for Double-Weapon Fighting in chapter 9.
 
 #### Finesse
-When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+When making an attack with a weapon with this property, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
 #### Fixed
-A weapon with the fixed property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon.
+A weapon with this property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon.
 
 #### Heavy
-When you hit with an attack roll using Strength with this weapon, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1).
+When you hit with an attack roll using Strength with a weapon with this property, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1).
 
 #### Hidden
-You have advantage on Dexterity (Sleight of Hand) checks made to conceal a hidden weapon.
+You have advantage on Dexterity (Sleight of Hand) checks made to conceal a weapon with this property.
 
-#### Light
-A light weapon is small and easy to handle, making it ideal for use when engaging in Double- or Two-Weapon Fighting. See the rules for Double- and Two-Weapon Fighting in chapter 9.
-
-#### Luminous
-A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage.
+#### Interlocking
+While wielding a weapon with the interlocking property, you can use your object interaction to detach the weapon into two separate weapons or reattach into a single weapon. While separated, each weapon has the same damage, damage type, combined value and weight, and properties (except for the double property) as the single weapon.
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
+#### Light
+A weapon with this property is small and easy to handle, making it ideal for use when engaging in Double- or Two-Weapon Fighting. See the rules for Double- and Two-Weapon Fighting in chapter 9.
+
+#### Luminous
+A weapon with this property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage.
+
+#### Penetrating 
+When you would make a ranged weapon attack with a weapon with this property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage.
+
+#### Power Cell
+Weapons with this property are fueled by power cells, which must be loaded in order to fire the weapon.
+
 #### Range
-A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+A weapon that can be used to make a ranged attack has this property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
 
 #### Rapid
-When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal. If the target is beyond normal range but within long range, it has advantage on the save.
+When you would make a ranged weapon attack with a weapon with this property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has advantage on the save.
 
 #### Reach
-This weapon adds 5 feet to your reach with it.
+A weapon with this property adds 5 feet to your reach with it.
 
 #### Reload
-A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice). You must have one free hand to reload.
+A number of shots equal to the reload number can be made with a weapon with this property. A character must then reload it using an action or a bonus action (their choice). You must have one free hand to reload.
 
 #### Returning 
-When you throw a weapon with the returning property, it automatically returns to your hand after the attack is complete, whether you hit or miss.
+When you throw a weapon with this property, it automatically returns to your hand after the attack is complete, whether you hit or miss.
 
-#### Special
-A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
-
-#### Strength
-A weapon with this special property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst or rapid property, you must meet the Strength requirement to use this feature.
-
-#### Thrown
-If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. 
+#### Slug Cartridge
+Weapons with this property fire slug cartridges, which must be loaded in order to fire the weapon.
 
 \columnbreak
 
+#### Special
+A weapon with this property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
+
+#### Strength
+A weapon with this property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst, penetrating, or rapid property, you must meet the Strength requirement to use this feature. If the weapon lacks the two-handed property, you can wield the weapon in two hands to temporarily reduce the strength number by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If this would reduce the strength number below 11, you ignore it entirely.
+
+#### Thrown
+Weapons with this property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. 
+
 #### Two-Handed
-This weapon requires two hands to use.
+A weapon with this property requires two hands to use.
 
 #### Versatile
-This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.	
+A weapon with this property can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.	
 
 ### Special Weapons
 Weapons with special rules are described below.
 
-#### Needler
-The needler includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 10 shots fired by the weapon.
-
 #### Net
 A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. The net has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the net frees the creature without harming it and immediately ends the net's effects. While a creature is restrained by a net, you can make no further attacks with it.
-
-#### Tranquilizer Rifle 
-The tranquilizer rifle includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 4 shots fired by the weapon.
 
 #### Vibrodart
 Due to their diminutive size, vibrodarts make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage.
 
-#### Vibrolance
-You have disadvantage when you use a vibrolance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.
-
 #### Wrist Launcher
 Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters. 
 
-<img src='https://www.gmbinder.com/images/VnnGzhK.png' style='position:absolute;bottom:0px;right:40px;width:760px;z-index:1000;' />
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
 <div class='classTable wide' style='position:absolute;bottom:20px;left:75px;width:687px'>
 
 ##### Blasters
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| &emsp;Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;Cost&nbsp;&nbsp;|Damage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Weight&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 |	_Simple Blasters_	|||||
-| &emsp;Blaster carbine		|  300 cr&nbsp;&nbsp;|1d6 energy		| 8 lb&nbsp;&nbsp;	|Ammunition (range 60/240), reload 16, two-handed |
-| &emsp;Bowcaster           |  400 cr&nbsp;&nbsp;|1d10 energy      |16 lb&nbsp;&nbsp;  |Ammunition (range 50/200), burst 4, reload 4, strength 11, two-handed|
-| &emsp;Ion carbine	  	    | 300 cr&nbsp;&nbsp;| 1d3 ion       |  8 lb&nbsp;&nbsp;  | Ammunition (range 60/240), reload 16, two-handed |
-| &emsp;Light pistol 		|  350 cr&nbsp;&nbsp;|1d4 energy		| 2 lb&nbsp;&nbsp;	|Ammunition (range 40/160), light, reload 12|
-| &emsp;Light repeater	    | 900 cr&nbsp;&nbsp;| 1d6 energy    | 12 lb&nbsp;&nbsp;  | Ammunition (range 60/240), auto, burst 8, reload 16, two-handed |
-| &emsp;Light slugpistol    | 250 cr&nbsp;&nbsp;     | 1d4 kinetic   |  2 lb&nbsp;&nbsp;  | Ammunition (range 40/160), hidden, light, reload 8 |
-| &emsp;Hold-out 			|  250 cr&nbsp;&nbsp;|1d4 energy		| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), hidden, light, reload 6|
-| &emsp;Needler			    | 275 cr&nbsp;&nbsp;| 1d4 kinetic   |  3 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 10, reload 20, special |
-| &emsp;Scattergun			|  200 cr&nbsp;&nbsp;|1d6 kinetic		| 3 lb&nbsp;&nbsp;	|Ammunition (range 20/80), burst 4, reload 4|
-| &emsp;Shotgun 			|  350 cr&nbsp;&nbsp;|2d4 kinetic		|12 lb&nbsp;&nbsp;	|Ammunition (range 30/120), burst 2, reload 4, strength 11, two-handed|
-| &emsp;Slugpistol          | 100 cr&nbsp;&nbsp;| 1d6 kinetic   |  3 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 8, reload 16, strength 11|
-| &emsp;Tranquilizer rifle  | 200 cr&nbsp;&nbsp;| 1d4 kinetic   | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), reload 4, two-handed, special |
-| &emsp;Wristblaster        | 250 cr&nbsp;&nbsp;| 1d4 energy    |  1 lb&nbsp;&nbsp;  | Ammunition (range 30/120), disguised, fixed, light, reload 12 |
-| &emsp;Wrist launcher		|  450 cr&nbsp;&nbsp;|—				| 1 lb&nbsp;&nbsp;	|Ammunition (range 30/120), fixed, reload 1, special	|
+| &emsp;Blaster carbine		|425 cr&nbsp;&nbsp;   |1d6 energy     |5.50 lb&nbsp;   |Power cell (range 70/280), reload 16, two-handed |
+| &emsp;Blaster pistol		|175 cr&nbsp;&nbsp;   |1d6 energy     |2.50 lb&nbsp;   |Power cell (range 50/200), reload 16|
+| &emsp;Bowcaster           |1,150 cr&nbsp;&nbsp; |1d10 energy    |11.00 lb&nbsp;    |Power cell (range 50/200), burst 4, reload 4, strength 13, two-handed|
+| &emsp;Hold-out 			|225 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Power cell (range 30/120), hidden, light, reload 8|
+| &emsp;Ion carbine	  	    |750 cr&nbsp;&nbsp;   |1d3 ion        |5.00 lb&nbsp;     |Power cell (range 60/240), reload 16, two-handed |
+| &emsp;Ion pistol			|250 cr&nbsp;&nbsp;   |1d3 ion        |1.00 lb&nbsp;     |Power cell (range 40/160), reload 16|
+| &emsp;Light pistol 		|250 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Power cell (range 40/160), light, reload 8|
+| &emsp;Light repeater      |625 cr&nbsp;&nbsp;   |1d6 energy     |6.00 lb&nbsp;     |Power cell (range 50/200), auto, rapid 5, reload 20, two-handed |
+| &emsp;Light slugpistol    |250 cr&nbsp;&nbsp;   |1d4 kinetic    |1.00 lb&nbsp;     |Slug cartridge (range 35/140), light, reload 8 |
+| &emsp;Scattergun			|625 cr&nbsp;&nbsp;   |1d6 kinetic    |2.00 lb&nbsp;     |Slug cartridge (range 30/120), burst 2, reload 8, strength 11|
+| &emsp;Shotgun 			|725 cr&nbsp;&nbsp;   |2d4 kinetic    |6.50 lb&nbsp;	|Slug cartridge (range 30/120), burst 2, reload 4, strength 11, two-handed|
+| &emsp;Slugpistol          |325 cr&nbsp;&nbsp;   |1d6 kinetic    |3.00 lb&nbsp;     |Slug cartridge (range 40/160), rapid 8, reload 16, strength 11|
+| &emsp;Wristblaster        |200 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Power cell (range 30/120), disguised, fixed, light, reload 8 |
+| &emsp;Wrist launcher		|400 cr&nbsp;&nbsp;   |—              |2.00 lb&nbsp;	    |Ammunition (range 30/120), fixed, reload 1, special|
 
-<div style='margin-top:71.5px'></div>
+<div style='margin-top:39px'></div>
 
-|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| &emsp;Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;Cost&nbsp;&nbsp;|Damage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Weight&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 |	_Martial Blasters_	|||||
-| &emsp;Assault cannon		|  500 cr&nbsp;&nbsp;|1d10 energy		|24 lb&nbsp;&nbsp;	|Ammunition (range 80/320), burst 4, reload 8, strength 11, two-handed|
-| &emsp;Blaster cannon      | 1,600 cr&nbsp;&nbsp;| 1d12 energy   | 36 lb&nbsp;&nbsp;  | Ammunition (range 100/400), auto, burst 2, reload 4, strength 15,<br> two-handed |
-| &emsp;Blaster pistol		|  200 cr&nbsp;&nbsp;|1d6 energy		| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
-| &emsp;Blaster rifle		|  400 cr&nbsp;&nbsp;|1d8 energy		|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
-| &emsp;Carbine rifle       |   800 cr&nbsp;&nbsp;| 1d8 energy    | 10 lb&nbsp;&nbsp;  | Ammunition (range 80/320), auto, rapid 3, reload 12, two-handed |
-| &emsp;Chaingun            | 1,500 cr&nbsp;&nbsp;   | 1d10 energy   | 42 lb&nbsp;&nbsp;  | Ammunition (range 60/240), auto, rapid 6, reload 12,<br> strength 15, two-handed |
-| &emsp;Cycler rifle 		|   450 cr&nbsp;&nbsp;| 1d8 kinetic   | 10 lb&nbsp;&nbsp;  | Ammunition (range 100/400), rapid 2, reload 8, two-handed |
-| &emsp;Heavy bowcaster     | 1,100 cr&nbsp;&nbsp;| 1d12 energy   | 26 lb&nbsp;&nbsp;| Ammunition (range 60/240), burst 4, reload 8, strength 15, two-handed |
-| &emsp;Heavy pistol		    |   300 cr&nbsp;&nbsp;|1d8 energy		| 4 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 12, strength 11|
-| &emsp;Heavy repeater      | 1,200 cr&nbsp;&nbsp;| 2d4 energy    | 16 lb&nbsp;&nbsp;| Ammunition (range 80/320), auto, burst 4, rapid 2, reload 8, strength 15,<br> two-handed |
-| &emsp;Heavy shotgun       |   400 cr&nbsp;&nbsp;| 2d4 kinetic | 16 lb&nbsp;&nbsp; | Ammunition (range 30/120), burst 4, reload 12, strength 13, two-handed |
-| &emsp;Heavy slugpistol    |   750 cr&nbsp;&nbsp;   | 1d8 kinetic   |  5 lb&nbsp;&nbsp;  | Ammunition (range 40/160), rapid 2, reload 8, strength 13 |
-| &emsp;Hunting rifle       |   600 cr&nbsp;&nbsp;   | 1d12 kinetic  | 12 lb&nbsp;&nbsp;  | Ammunition (range 150/600), reload 2, strength 13, two-handed |
-| &emsp;Ion pistol			|  200 cr&nbsp;&nbsp;|1d3 ion			| 3 lb&nbsp;&nbsp;	|Ammunition (range 40/160), reload 16|
-| &emsp;Ion rifle			|  400 cr&nbsp;&nbsp;|1d4 ion			|11 lb&nbsp;&nbsp;	|Ammunition (range 100/400), reload 12, two-handed|
-| &emsp;Repeating blaster   | 1,200 cr&nbsp;&nbsp;   | 2d4 energy    | 18 lb&nbsp;&nbsp;  | Ammunition (range 80/320), auto, burst 4, rapid 4, reload 8,<br> strength 13, two-handed |
-| &emsp;Revolver 		    |   750 cr&nbsp;&nbsp;| 1d8 kinetic | 4 lb&nbsp;&nbsp; | Ammunition (range 30/120), rapid 6, reload 6, strength 11 |
-| &emsp;Slugthrower 		|  350 cr&nbsp;&nbsp;|1d8 kinetic		|14 lb&nbsp;&nbsp;	|Ammunition (range 100/400), burst 6, reload 12, two-handed|
-| &emsp;Sniper rifle		|  750 cr&nbsp;&nbsp;|1d12 energy		|12 lb&nbsp;&nbsp;	|Ammunition (range 150/600), reload 2, strength 13, two-handed|
-| &emsp;Subrepeater 	    | 1,200 cr&nbsp;&nbsp;   | 1d6 energy    |  4 lb&nbsp;&nbsp;  | Ammunition (range 30/120), auto, rapid 8, light, reload 16 |
+| &emsp;Assault cannon		|1,550 cr&nbsp;&nbsp; |1d12 energy    |15.00 lb&nbsp;    |Power cell (range 90/360), burst 4, reload 4, strength 15, two-handed|
+| &emsp;Beam rifle	    	|1,850 cr&nbsp;&nbsp; |2d6 energy     |16.00 lb&nbsp;    |Power cell (range 150/600), penetrating 2, reload 2, strength 15, <br>two-handed|
+| &emsp;Blaster rifle		|525 cr&nbsp;&nbsp;   |1d8 energy     |7.50 lb&nbsp;   |Power cell (range 105/420), reload 12, two-handed|
+| &emsp;Carbine rifle       |925 cr&nbsp;&nbsp;   |1d8 energy     |8.50 lb&nbsp;   |Power cell (range 90/360), auto, rapid 3, reload 12, strength 11, <br>two-handed |
+| &emsp;Cycler rifle 		|825 cr&nbsp;&nbsp;   |1d8 kinetic    |7.50 lb&nbsp;   |Slug cartridge (range 90/360), rapid 2, reload 8, strength 11, two-handed |
+| &emsp;Heavy blaster rifle |1,025 cr&nbsp;&nbsp; |2d4 energy     |10.00 lb&nbsp;    |Power cell (range 100/400), rapid 2, reload 8, strength 13, two-handed |
+| &emsp;Heavy bowcaster     |1,750 cr&nbsp;&nbsp; |1d12 energy    |15.50 lb&nbsp;  |Power cell (range 90/360), burst 2, reload 4, strength 17, two-handed |
+| &emsp;Heavy carbine		|775 cr&nbsp;&nbsp;   |1d8 energy	    |7.50 lb&nbsp;   |Power cell (range 60/240), rapid 4, reload 16, strength 11|
+| &emsp;Heavy pistol		|300 cr&nbsp;&nbsp;   |1d8 energy	    |4.00 lb&nbsp;     |Power cell (range 45/180), reload 16|
+| &emsp;Heavy repeater      |1,225 cr&nbsp;&nbsp; |2d4 energy     |11.00 lb&nbsp;    |Power cell (range 80/320), auto, burst 4, rapid 4, reload 8, strength 13, <br>two-handed |
+| &emsp;Heavy shotgun       |1,125 cr&nbsp;&nbsp; |2d4 kinetic    |9.50 lb&nbsp;   |Slug cartridge (range 60/240), burst 2, reload 8, strength 13, two-handed |
+| &emsp;Heavy slugpistol    |375 cr&nbsp;&nbsp;   |1d8 kinetic    |3.50 lb&nbsp;   |Slug cartridge (range 30/120), rapid 8, reload 12 |
+| &emsp;Hunting rifle       |1,000 cr&nbsp;&nbsp; |1d10 kinetic   |11.00 lb&nbsp;    |Slug cartridge (range 125/500), reload 4, strength 11, two-handed |
+| &emsp;Ion cannon			|3,800 cr&nbsp;&nbsp; |1d10 ion	    |16.50 lb&nbsp;  |Power cell (range 90/360), auto, burst 4, reload 4, strength 15, <br>two-handed |
+| &emsp;Ion rifle			|1,150 cr&nbsp;&nbsp; |1d6 ion	    |8.00 lb&nbsp;     |Power cell (range 80/320), reload 8, two-handed|
+| &emsp;Repeating Blaster   |1,025 cr&nbsp;&nbsp; |1d8 energy     |9.00 lb&nbsp;     |Power cell (range 75/300), auto, burst 4, rapid 4, reload 8, strength 11, <br>two-handed |
+| &emsp;Rotary cannon       |1,500 cr&nbsp;&nbsp; |1d10 energy    |12.50 lb&nbsp;  |Power cell (range 75/300), auto, rapid 2, reload 8, strength 13, <br>two-handed |
+| &emsp;Slugthrower 		|525 cr&nbsp;&nbsp;   |1d8 kinetic    |7.50 lb&nbsp;   |Slug cartridge (range 105/420), reload 12, two-handed|
+| &emsp;Sniper rifle		|1,300 cr&nbsp;&nbsp; |1d12 energy    |13.50 lb&nbsp;  |Power cell (range 150/600), reload 2, strength 13, two-handed|
+| &emsp;Subrepeater 	    |625 cr&nbsp;&nbsp;   |1d6 energy     |4.00 lb&nbsp;     |Power cell (range 30/120), auto, rapid 4, light, reload 16, strength 11 |
 
 </div>	
-
-<img src='https://www.gmbinder.com/images/xU1hvdd.png' style='position:absolute;bottom:550px;right:165px;width:520px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -426,54 +424,53 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Lightweapons_	|||||||
-| &emsp;Lightclub			|  150 cr&nbsp;&nbsp;|1d10 energy		|5 lb&nbsp;&nbsp;|Luminous, two-handed|
-| &emsp;Lightdagger			|  100 cr&nbsp;&nbsp;|1d4 energy		|1 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (range 20/60)|
-| &emsp;Lightsaber			|  200 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d8)|
-| &emsp;Shotosaber			|  500 cr&nbsp;&nbsp;|1d6 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
+| &emsp;Light-blade         |375 cr&nbsp;&nbsp;   |1d4 energy    |1.00 lb&nbsp;&nbsp;     |Finesse, hidden, light, luminous|
+| &emsp;Light-club			|1,300 cr&nbsp;&nbsp; |1d10 energy	|3.75 lb&nbsp;&nbsp;|Dexterity 11, heavy, luminous, two-handed|
+| &emsp;Light-dagger		|425 cr&nbsp;&nbsp;   |1d4 energy	|1.00 lb&nbsp;&nbsp;   |Finesse, hidden, light, luminous, thrown (range 20/60)|
+| &emsp;Lightsaber			|450 cr&nbsp;&nbsp;   |1d6 energy	|2.25 lb&nbsp;&nbsp;|Hidden, luminous, versatile (2d4)|
+| &emsp;Light-lance	        |1,275 cr&nbsp;&nbsp; |2d4 energy	|4.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
+| &emsp;Saber-spear			|450 cr&nbsp;&nbsp;   |1d6 energy	|2.00 lb&nbsp;&nbsp;   |Luminous, thrown (range 20/60), versatile (2d4)|
 |	_Martial Lightweapons_	|||||||
-| &emsp;Doublesaber			|1,400 cr&nbsp;&nbsp;|1d8 energy		|4 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous|
-| &emsp;Doubleshoto			|1,250 cr&nbsp;&nbsp;|1d6 energy		|4 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous|
-| &emsp;Greatsaber			|1,000 cr&nbsp;&nbsp;|2d6 energy		|4 lb&nbsp;&nbsp;|Dexterity 11, luminous, two-handed|
-| &emsp;Lightfoil			|  500 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
-| &emsp;Light ring			|  500 cr&nbsp;&nbsp;|1d6 energy		|3 lb&nbsp;&nbsp;|Finesse, hidden, luminous, returning, thrown (range 30/90)	|
-| &emsp;Lightsaber pike		|  400 cr&nbsp;&nbsp;|1d10 energy		|6 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
-| &emsp;Martial lightsaber  |  300 cr&nbsp;&nbsp;|1d8 energy		|2 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
-| &emsp;Saberspear			|  450 cr&nbsp;&nbsp;|2d4 energy		|2 lb&nbsp;&nbsp;|Luminous|
-| &emsp;Saberwhip			|  300 cr&nbsp;&nbsp;|1d4 energy		|2 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
+| &emsp;Double-saber		|725 cr&nbsp;&nbsp;   |1d8 energy   |2.25 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous|
+| &emsp;Double-shoto		|700 cr&nbsp;&nbsp;   |1d6 energy   |1.75 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous|
+| &emsp;Great-saber			|1,725 cr&nbsp;&nbsp; |2d6 energy   |3.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, two-handed|
+| &emsp;Light-axe			|1,550 cr&nbsp;&nbsp; |1d12 energy  |3.75 lb&nbsp;&nbsp;|Dexterity 11, heavy, luminous, two-handed|
+| &emsp;Light-foil			|475 cr&nbsp;&nbsp;   |1d8 energy   |1.50 lb&nbsp;&nbsp; |Finesse, hidden, luminous|
+| &emsp;Martial lightsaber  |550 cr&nbsp;&nbsp;   |1d8 energy   |2.25 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
+| &emsp;Pike-saber			|1,675 cr&nbsp;&nbsp; |1d10 energy  |5.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
+| &emsp;Saber-whip			|750 cr&nbsp;&nbsp;   |1d4 energy   |3.50 lb&nbsp;&nbsp; |Finesse, hidden, luminous, reach|
+| &emsp;Shotosaber			|450 cr&nbsp;&nbsp;   |1d6 energy   |1.00 lb&nbsp;&nbsp;   |Finesse, hidden, light, luminous|
+| &emsp;Split-saber			|1,150 cr&nbsp;&nbsp; |1d8 energy   |2.00 lb&nbsp;&nbsp;   |Double (1d8 energy), light, luminous|
 
-<div style='margin-top:42px'></div>
+<div style='margin-top:16px'></div>
 
 ##### Vibroweapons
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Vibroweapons_	|||||
-| &emsp;Techaxe			    |   75 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Light, thrown (range 20/60)	|
-| &emsp;Vibrodagger			|   50 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, light, thrown (range 20/60)|
-| &emsp;Vibrodart			|    5 cr&nbsp;&nbsp;|1d4 kinetic		|1/4 lb&nbsp;&nbsp;|Finesse, special, thrown (range 20/60)	|
-| &emsp;Vibroknuckler		|   60 cr&nbsp;&nbsp;|1d6 kinetic		|2 lb&nbsp;&nbsp;|Hidden, light|
-| &emsp;Vibromace			|   80 cr&nbsp;&nbsp;|1d8 kinetic		|12 lb&nbsp;&nbsp;|Heavy, two-handed|
-| &emsp;Vibrostaff			|  100 cr&nbsp;&nbsp;|1d6 kinetic		|4 lb&nbsp;&nbsp;|Versatile (2d4)|
-| &emsp;Vibrospear			|  120 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Thrown (range 20/60), versatile (1d8)|
+| &emsp;Tech-axe			|75 cr&nbsp;&nbsp;   |1d6 kinetic   |1.00 lb&nbsp;&nbsp;   |Light, thrown (range 20/60)	|
+| &emsp;Vibro-dagger		|50 cr&nbsp;&nbsp;   |1d4 kinetic   |0.50 lb&nbsp;&nbsp; |Finesse, light, thrown (range 20/60)|
+| &emsp;Vibro-dart			|5 cr&nbsp;&nbsp;    |1d4 kinetic   |0.50 lb&nbsp;&nbsp; |Finesse, special, thrown (range 20/60)	|
+| &emsp;Vibro-knuckler		|75 cr&nbsp;&nbsp;   |1d6 kinetic   |1.25 lb&nbsp;&nbsp;|Hidden, light|
+| &emsp;Vibro-mace			|700 cr&nbsp;&nbsp;  |1d10 kinetic  |7.00 lb&nbsp;&nbsp;   |Dexterity 11, heavy, two-handed|
+| &emsp;Vibro-spear			|125 cr&nbsp;&nbsp;  |1d6 kinetic   |4.00 lb&nbsp;&nbsp;   |Thrown (range 20/60), versatile (2d4)|
+| &emsp;Vibro-staff			|500 cr&nbsp;&nbsp;  |1d8 kinetic   |4.25 lb&nbsp;&nbsp;|Versatile (2d4)|
 |	_Martial Vibroweapons_	|||||
-| &emsp;Chakram				|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, returning, thrown (range 30/90)	|
-| &emsp;Doubleblade      	|  625 cr&nbsp;&nbsp;|1d6 kinetic		|5 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light|
-| &emsp;Doublesword      	|  700 cr&nbsp;&nbsp;|1d8 kinetic		|5 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse |
-| &emsp;Hidden blade		|  200 cr&nbsp;&nbsp;|1d4 kinetic		|1 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
-| &emsp;Net					|  100 cr&nbsp;&nbsp;|— 				|3 lb&nbsp;&nbsp;|Light, finesse, special, thrown (range 15)|
-| &emsp;Techblade			|  250 cr&nbsp;&nbsp;|1d6 kinetic		|3 lb&nbsp;&nbsp;|Finesse, light|
-| &emsp;Techstaff    	    |  600 cr&nbsp;&nbsp;|2d4 kinetic		|8 lb&nbsp;&nbsp;|Double (2d4 kinetic)	|
-| &emsp;Vibroaxe			|  300 cr&nbsp;&nbsp;|1d10 kinetic		|11 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
-| &emsp;Vibrobaton			|  225 cr&nbsp;&nbsp;|2d4 kinetic		|4 lb&nbsp;&nbsp;|—|
-| &emsp;Vibroblade			|  150 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Versatile (1d10)|
-| &emsp;Vibrolance			|  100 cr&nbsp;&nbsp;|1d12 kinetic		|6 lb&nbsp;&nbsp;|Reach, special|
-| &emsp;Vibropike			|  200 cr&nbsp;&nbsp;|1d10 kinetic		|6 lb&nbsp;&nbsp;|Dexterity 11, reach, two-handed|
-| &emsp;Vibrorapier			|  250 cr&nbsp;&nbsp;|1d8 kinetic		|2 lb&nbsp;&nbsp;|Finesse|
-| &emsp;Vibrosword			|  500 cr&nbsp;&nbsp;|2d6 kinetic		|6 lb&nbsp;&nbsp;|Dexterity 11, two-handed|
-| &emsp;Vibrowhip			|  150 cr&nbsp;&nbsp;|1d4 kinetic		|3 lb&nbsp;&nbsp;|Finesse, reach|
+| &emsp;Chakram				|175 cr&nbsp;&nbsp;  |1d6 kinetic   |3.00 lb&nbsp;&nbsp;   |Finesse, returning, thrown (range 30/90)	|
+| &emsp;Double-blade      	|400 cr&nbsp;&nbsp;  |1d6 kinetic	|3.50 lb&nbsp;&nbsp; |Double (1d6 kinetic), finesse, light|
+| &emsp;Double-sword      	|450 cr&nbsp;&nbsp;  |1d8 kinetic	|5.50 lb&nbsp;&nbsp; |Double (1d8 kinetic), finesse |
+| &emsp;Hidden blade		|75 cr&nbsp;&nbsp;   |1d4 kinetic	|1.00 lb&nbsp;&nbsp;   |Finesse, fixed, hidden, light	|
+| &emsp;Net					|300 cr&nbsp;&nbsp;  |— 		    |3.00 lb&nbsp;&nbsp;   |Light, finesse, special, thrown (range 15)|
+| &emsp;Tech-blade			|100 cr&nbsp;&nbsp;  |1d6 kinetic	|1.50 lb&nbsp;&nbsp; |Finesse, light|
+| &emsp;Tech-staff    	    |650 cr&nbsp;&nbsp;  |2d4 kinetic	|5.25 lb&nbsp;&nbsp;|Dexterity 11, double (2d4 kinetic), light|
+| &emsp;Vibro-axe			|950 cr&nbsp;&nbsp;  |1d12 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
+| &emsp;Vibro-blade			|200 cr&nbsp;&nbsp;  |1d8 kinetic	|5.00 lb&nbsp;&nbsp;   |Versatile (1d10)|
+| &emsp;Vibro-pike			|950 cr&nbsp;&nbsp;  |1d10 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, reach, two-handed|
+| &emsp;Vibro-rapier		|150 cr&nbsp;&nbsp;  |1d8 kinetic	|3.50 lb&nbsp;&nbsp; |Finesse|
+| &emsp;Vibro-sword			|1,150 cr&nbsp;&nbsp;|2d6 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, two-handed|
+| &emsp;Vibro-whip			|275 cr&nbsp;&nbsp;  |1d4 kinetic	|3.50 lb&nbsp;&nbsp; |Finesse, reach|
 
 </div>	
-
-<img src='https://www.gmbinder.com/images/khRas0M.png' style='position:absolute;bottom:361px;right:160px;width:500px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -486,13 +483,13 @@ This section describes items that have special rules or require further explanat
 The starting equipment you get from your class includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.
  
 #### Burglar's Pack
-Costs 290 credits. Includes a backpack, two glow rods, a hydrospanner, a fusion cutter, a chronometer, a grappling hook, 5 days of field rations, and a canteen.
+Costs 290 credits. Includes a backpack, two glowrods, a hydrospanner, a fusion cutter, a chronometer, a grappling hook, 5 days of field rations, and a canteen.
  
 #### Diplomat's Pack
 Costs 330 credits. Includes a chest, a set of fine clothes, a datapad, 5 datacards, a stylus, 5 days of field rations, and a canteen.
 
 #### Dungeoneer's Pack
-Costs 320 credits. Includes a backpack, five glow rods, a fusion cutter, a grappling hook, a chronometer, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it.
+Costs 320 credits. Includes a backpack, five glowrods, a fusion cutter, a grappling hook, a chronometer, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it.
 
 #### Entertainer's Pack
 Costs 420 credits. Includes a backpack, a bedroll, two costumes, two glowrods, 5 days of field rations, a canteen, and a disguise kit.
@@ -521,10 +518,10 @@ This wrist launcher ammunition deals 1d6 kinetic damage on a hit.
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
 |	&emsp;Dart                  	        |	   5 cr	|	—		    |
-|	&emsp;Missile, fragmentation	        |	 100 cr	|	1/2 lb		|
-|	&emsp;Power cell            	        |	  10 cr	|	1 lb		|
-|	&emsp;Projector canister, cryo    	    |	 350 cr	|	2 lb		|
-|	&emsp;Projector canister, incendiary	|	 325 cr	|	2 lb		|
+|	&emsp;Missile, fragmentation	        |	 100 cr	|	.50 lb		|
+|	&emsp;Power cell            	        |	  10 cr	|	1.00 lb		|
+|	&emsp;Projector canister, cryo    	    |	 350 cr	|	2.00 lb		|
+|	&emsp;Projector canister, incendiary	|	 325 cr	|	2.00 lb		|
 |	&emsp;Slug cartridge                    |	   2 cr	|	—		    |
 
 </div>	
@@ -589,21 +586,21 @@ A datapad is a<br> small electronic<br> device used for the<br> input, storage a
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Communications_	|		|			|
-|	&emsp;Commlink	                |	  50 cr	|	1/2 lb		|
-|	&emsp;Comm jammer               |	 450 cr	|	3 lb		|
-|	&emsp;Headcomm	                |	 200 cr	|	1 lb		|
-|	&emsp;Holocomm	                |	 300 cr	|	2 lb		|
-|	&emsp;Holotrace device	        |  1,000 cr	|	5 lb		|
-|	&emsp;Pocket scrambler	        |	 800 cr	|	1 lb		|
+|	&emsp;Commlink	                |	  50 cr	|	.50 lb		|
+|	&emsp;Comm jammer               |	 450 cr	|	3.00 lb		|
+|	&emsp;Headcomm	                |	 200 cr	|	1.00 lb		|
+|	&emsp;Holocomm	                |	 300 cr	|	2.00 lb		|
+|	&emsp;Holotrace device	        |  1,000 cr	|	5.00 lb		|
+|	&emsp;Pocket scrambler	        |	 800 cr	|	1.00 lb		|
 |	_Data Recording and Storage_|		|			|
-|	&emsp;Code cylinder	            |	  20 cr	|	1/2 lb		|
+|	&emsp;Code cylinder	            |	  20 cr	|	.50 lb		|
 |	&emsp;Datacard	                |	   5 cr	|	—		|
-|	&emsp;Datacron              	|  1,000 cr	|	2 lb		|
-|	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
-|	&emsp;Holocron              	|  1,000 cr	|	2 lb		|
-|	&emsp;Holorecorder              |	 100 cr	|	1 lb		|
-|	&emsp;Stylus pen                |	  10 cr	|	1/2 lb		|
-|	&emsp;Wristpad              	|	 600 cr	|	2 lb		|
+|	&emsp;Datacron              	|  1,000 cr	|	2.00 lb		|
+|	&emsp;Datapad               	|	 100 cr	|	.50 lb		|
+|	&emsp;Holocron              	|  1,000 cr	|	2.00 lb		|
+|	&emsp;Holorecorder              |	 100 cr	|	1.00 lb		|
+|	&emsp;Stylus pen                |	  10 cr	|	.50 lb		|
+|	&emsp;Wristpad              	|	 600 cr	|	2.00 lb		|
 
 </div>	
 
@@ -631,26 +628,24 @@ A wristpad is a harness with an integrated datapad and holoprojector interface t
 
 ### Explosives
 #### Grenade, Fragmentation
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one.
 
 #### Grenade, Gas
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, filling the air in a 10-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, filling the air in a 10-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
 
 When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution saving throw. The creature takes 2d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
 
 #### Grenade, Ion
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. 
 
 #### Grenade, Plasma
-Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one.
+Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one.
 
 #### Mine, Fragmentation
 Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 14 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one.
 
 #### Mine, Gas
-Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach,<br> which arms at the start of your<br> next turn. When detonated, the<br> mine sets fills the air in a 15-foot-<br>radius sphere with yellow-green fog<br> for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
-
-When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution saving throw. The creature takes 2d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
+Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote 
 
 \columnbreak
 
@@ -659,18 +654,22 @@ When a creature enters the fog or starts its turn there, it creature must make a
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Explosives_	|		|			|
-|	&emsp;Grenade, fragmentation        |	 100 cr	|	1 lb		|
-|	&emsp;Grenade, gas           	    |	 300 cr	|	1 lb		|
-|	&emsp;Grenade, ion	                |	 250 cr	|	1 lb		|
-|	&emsp;Grenade, plasma	            |	 125 cr	|	1 lb		|
-|	&emsp;Mine, fragmentation   	    |	 200 cr	|	2 lb		|
-|	&emsp;Mine, gas              	    |	 625 cr	|	2 lb		|
-|	&emsp;Mine, incendiary             	|	 550 cr	|	2 lb		|
-|	&emsp;Thermal detonator	            |  2,000 cr	|	1 lb		|
+|	&emsp;Grenade, fragmentation        |	 100 cr	|	1.00 lb		|
+|	&emsp;Grenade, gas           	    |	 300 cr	|	1.00 lb		|
+|	&emsp;Grenade, ion	                |	 250 cr	|	1.00 lb		|
+|	&emsp;Grenade, plasma	            |	 125 cr	|	1.00 lb		|
+|	&emsp;Mine, fragmentation   	    |	 200 cr	|	2.00 lb		|
+|	&emsp;Mine, gas              	    |	 625 cr	|	2.00 lb		|
+|	&emsp;Mine, incendiary             	|	 550 cr	|	2.00 lb		|
+|	&emsp;Thermal detonator	            |  2,000 cr	|	1.00 lb		|
 
 </div>	
 
-<div style='margin-top:52px'></div>
+<div style='margin-top:37px'></div>
+
+detonator. As an action, you<br> can prime and set a mine on<br> a surface you can reach, which<br> arms at the start of your next turn.<br> When detonated, the mine fills the<br> air in a 15-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.
+
+When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution saving throw. The creature takes 2d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.
 
 #### Mine, Incendiary
 Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.
@@ -678,9 +677,9 @@ Mines can be set to detonate when a creature comes within up to 15 feet of it or
 When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one. 
 
 #### Thermal Detonator
-Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone. 
+Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone. 
 
-<img src='https://www.gmbinder.com/images/m2QdjNv.png' style='position:absolute;top:290px;right:70px;width:152px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/m2QdjNv.png' style='position:absolute;top:290px;right:70px;width:150px;z-index:1000' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -715,8 +714,7 @@ A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As 
 As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking 2d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Repair Kit
-A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of.
-
+A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three 
 
 \columnbreak
 
@@ -725,28 +723,29 @@ A repair kit included the basic tools needed to repair a droid after being damag
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Life Support_	|		|			|
-|	&emsp;Aquatic rebreather	    |	 100 cr	|	2 lb		|
-|	&emsp;Enviro-suit	            |  2,000 cr	|	15 lb		|
-|	&emsp;Flight suit           	|  1,000 cr	|	5 lb		|
-|	&emsp;Respirator	            |	 200 cr	|	1 lb	 	|
+|	&emsp;Aquatic rebreather	    |	 100 cr	|	2.00 lb		|
+|	&emsp;Enviro-suit	            |  2,000 cr	|	15.00 lb		|
+|	&emsp;Flight suit           	|  1,000 cr	|	5.00 lb		|
+|	&emsp;Respirator	            |	 200 cr	|	1.00 lb	 	|
 |	_Medical_	|		|			|
-|	&emsp;Antitoxkit	            |	 600 cr	|	4 lb		|
-|	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
-|	&emsp;Traumakit	                |	  50 cr	|	3 lb		|
-|	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
-|	&emsp;Poison           	        |    125 cr	|	1/2 lb		|
-|   &emsp;Repair kit                |	 750 cr	|	3 lb		|
+|	&emsp;Antitoxkit	            |	 600 cr	|	4.00 lb		|
+|	&emsp;Emergency battery         |	  70 cr	|   5.00 lb        |
+|	&emsp;Traumakit	                |	  50 cr	|	3.00 lb		|
+|	&emsp;Medpac    	            |	 300 cr	|	.50 lb		|
+|	&emsp;Poison           	        |    125 cr	|	.50 lb		|
+|   &emsp;Repair kit                |	 750 cr	|	3.00 lb		|
 |	_Storage_	|		|			|
-|	&emsp;Backpack              	|	  50 cr	|	5 lb		|
-|	&emsp;Canteen	                |	  10 cr	|	3 lb		|
-|	&emsp;Crate 	                |	  20 cr	|	70 lb		|
-|	&emsp;Chest	                    |	  50 cr	|	25 lb		|
-|	&emsp;Pouch	                    |	   5 cr	|	1 lb		|
+|	&emsp;Backpack              	|	  50 cr	|	5.00 lb		|
+|	&emsp;Canteen	                |	  10 cr	|	3.00 lb		|
+|	&emsp;Crate 	                |	  20 cr	|	70.00 lb		|
+|	&emsp;Chest	                    |	  50 cr	|	25.00 lb		|
+|	&emsp;Pouch	                    |	   5 cr	|	1.00 lb		|
 
 </div>	
 
 <div style='margin-top:-12px'></div>
 
+uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of.
 
 #### Traumakit
 A common traumakit can be stocked with bacta packs, and contains spray-bandages, bone stabilizers, antiseptics, and other essentials for the treatment of wounds. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. A traumakit can be used to stabilize 5 times before it must be restocked at its original cost.
@@ -765,7 +764,7 @@ A crate stores 40 gallons of liquid or 4 cubic feet of solid.
 A chest stores 300 lb., not exceeding 12 cubic feet. 
 
 #### Pouch
-A pouch stores 6 lb., not exceeding 1/5 cubic foot. 
+A pouch stores 6.00 lb., not exceeding 1/5 cubic foot. 
 
 <img src='https://www.gmbinder.com/images/GVHpzCM.png' style='position:absolute;bottom:543px;right:170px;width:140px;z-index:1000' />
 
@@ -785,7 +784,7 @@ A chronometer is a device that measures and keeps linear time.
 Ration packs consist of dry foods suitable for extended travel, and are used when other food is scarce. Each pack is divided into portions and can provide enough food for one person per day.
 
 #### Fusion Cutter
-A fusion cutter is a handheld cutting tool popular among technicians. It cut through almost any reinforced material, given enough time. The internal power cell supplies an hour's worth of continuous operation.
+A fusion cutter is a handheld cutting tool popular among technicians. It can cut through almost any reinforced material, given enough time. The internal power cell supplies an hour's worth of continuous operation.
 
 #### Glowrod
 Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The glowrod lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell. 
@@ -809,25 +808,25 @@ Macrobinoculars are handheld viewing devices that allow users to observe distant
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Utilities_	|		|			|
-|	&emsp;Bedroll	                |	  10 cr	|	7 lb	 	|
-|	&emsp;Blanket	                |	   5 cr	|	3 lb	 	|
-|	&emsp;Binders	                |	  50 cr	|	6 lb		|
-|	&emsp;Chronometer           	|	 100 cr	|	1 lb		|
-|	&emsp;Fibercord cable, 50 ft (rolled)	|	20 cr	|	2 lb		|
-|	&emsp;Field rations (one day's)	|	   5 cr	|	1 lb	 	|
-|	&emsp;Fusion cutter         	|	  25 cr	|	2 lb		|
-|	&emsp;Glowrod                  	|	  10 cr	|	2 lb		|
-|	&emsp;Grappling hook	        |	  50 cr	|	4 lb		|
-|	&emsp;Heat generator	        |	 400 cr	|	4 lb	 	|
-|	&emsp;Homing beacon 	        |	 450 cr	|	1 lb	 	|
-|	&emsp;Hydrospanner	            |	  10 cr	|	2 lb		|
-|	&emsp;Macrobinoculars	        |	 750 cr	|	1 lb		|
-|	&emsp;Mess kit	                |	  20 cr	|	1 lb		|
-|	&emsp;Mirror	                |	  50 cr	|	1/2 lb		|
-|	&emsp;Ram, portable	            |	  40 cr	|	35 lb		|
-|	&emsp;Restraining bolt      	|	 350 cr	|	1 lb		|
-|	&emsp;Shovel	                |	   7 cr	|	5 lb		|
-|	&emsp;Tent, two-person      	|	  20 cr	|	5 lb	 	|
+|	&emsp;Bedroll	                |	  10 cr	|	7.00 lb	 	|
+|	&emsp;Blanket	                |	   5 cr	|	3.00 lb	 	|
+|	&emsp;Binders	                |	  50 cr	|	6.00 lb		|
+|	&emsp;Chronometer           	|	 100 cr	|	1.00 lb		|
+|	&emsp;Fibercord cable, 50 ft (rolled)	|	20 cr	|	2.00 lb		|
+|	&emsp;Field rations (one day's)	|	   5 cr	|	1.00 lb	 	|
+|	&emsp;Fusion cutter         	|	  25 cr	|	2.00 lb		|
+|	&emsp;Glowrod                  	|	  10 cr	|	2.00 lb		|
+|	&emsp;Grappling hook	        |	  50 cr	|	4.00 lb		|
+|	&emsp;Heat generator	        |	 400 cr	|	4.00 lb	 	|
+|	&emsp;Homing beacon 	        |	 450 cr	|	1.00 lb	 	|
+|	&emsp;Hydrospanner	            |	  10 cr	|	2.00 lb		|
+|	&emsp;Macrobinoculars	        |	 750 cr	|	1.00 lb		|
+|	&emsp;Mess kit	                |	  20 cr	|	1.00 lb		|
+|	&emsp;Mirror	                |	  50 cr	|	.50 lb		|
+|	&emsp;Ram, portable	            |	  40 cr	|	35.00 lb		|
+|	&emsp;Restraining bolt      	|	 350 cr	|	1.00 lb		|
+|	&emsp;Shovel	                |	   7 cr	|	5.00 lb		|
+|	&emsp;Tent, two-person      	|	  20 cr	|	5.00 lb	 	|
 
 </div>	
 
@@ -850,10 +849,10 @@ Installing a restraining bolt takes 1 minute. The droid must make a DC 14 Consti
 
 ### Weapon and Armor Accessories
 #### Bandolier
-A bandolier is worn across the chest. It has 12 pockets that can each hold a single item that weighs less than 2 lb, such as a vibrodagger, a fragmentation grenade, or a power cell. Once per turn, drawing an item from a bandolier does not require your object interaction.
+A bandolier is worn across the chest. It has 12 pockets that can each hold a single item that weighs less than 2.00 lb, such as a vibrodagger, a fragmentation grenade, or a power cell. Once per turn, drawing an item from a bandolier does not require your object interaction.
 
 #### Bipod
-A bipod is a device mounted to a two-handed blaster weapon to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on ranged weapons with the strength property while you are prone, and your speed is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon.
+A bipod is a device mounted to a two-handed blaster weapon to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached blaster weapon with the strength property while you are prone, and your speed is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon.
 
 #### Friction-Grip Gear
 A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking speed.
@@ -873,15 +872,15 @@ A small handhold device<br> with a single button, used<br> to activate explosive
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Bandolier         	    |	 100 cr	|	2 lb		|
-|	&emsp;Bipod              	    |	 200 cr	|	2 lb		|
-|	&emsp;Friction-grip gear        |  2,000 cr	|	12 lb		|
-|	&emsp;Jetpack	                |  4,500 cr	|	20 lb		|
-|	&emsp;Remote detonator          |  	 150 cr	|	1 lb		|
-|	&emsp;Rocket boots	            |  2,500 cr	|	3 lb		|
-|	&emsp;Stealth field generator	|  8,000 cr	|	3 lb		|
-|	&emsp;Tracker utility vest	    |	 150 cr	|	3 lb		|
-|	&emsp;Tripod                    |	 450 cr	|	16 lb		|
+|	&emsp;Bandolier         	    |	 100 cr	|	2.00 lb		|
+|	&emsp;Bipod              	    |	 200 cr	|	2.00 lb		|
+|	&emsp;Friction-grip gear        |  2,000 cr	|	12.00 lb		|
+|	&emsp;Jetpack	                |  4,500 cr	|	20.00 lb		|
+|	&emsp;Remote detonator          |  	 150 cr	|	1.00 lb		|
+|	&emsp;Rocket boots	            |  2,500 cr	|	3.00 lb		|
+|	&emsp;Stealth field generator	|  8,000 cr	|	3.00 lb		|
+|	&emsp;Tracker utility vest	    |	 150 cr	|	3.00 lb		|
+|	&emsp;Tripod                    |	 450 cr	|	16.00 lb		|
 
 </div>	
 
@@ -892,10 +891,10 @@ Rocket boots are a form of rocket propulsion system affixed to a pair of boots i
 Stealth field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the power cell. This effect ends early if you make an attack or cast a force- or tech- power.
 
 #### Tracker Utility Vest
-A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1 lb each) without increasing<br> their total encumbrance.
+A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1.00 lb each) without increasing<br> their total encumbrance.
 
 #### Tripod
-A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer increased<br> stability. Over the course of 1 minute,<br> you can deploy or collapse the<br> tripod. While deployed, you ignore<br> the Strength requirement on blaster<br> weapons with the strength property,<br> and your speed is reduced to 0. <br>Additionally, while deployed, you<br> have a +10 bonus to ability checks<br> and saving throws to avoid being<br> disarmed of the weapon.
+A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<br> increased stability. Over the course of 1<br> minute, you can deploy or collapse the<br> tripod. While deployed, you ignore<br> the Strength requirement on the<br> attached blaster weapon with the<br> strength property, and your speed is<br> reduced to 0. Additionally, while<br> deployed, you have a +10 bonus to<br> ability checks and saving throws<br> to avoid being disarmed of the<br> weapon.
 
 <img src='https://www.gmbinder.com/images/cgGUzvl.png' style='position:absolute;top:405px;left:80px;width:320px;transform:scaleX(-1)' />
 
@@ -919,93 +918,93 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer 
 |	:--	|	--:	|	--:		|
 |	_Ammunition_	|		|			|
 |	&emsp;Dart                  	|	   5 cr	|	—		    |
-|	&emsp;Missile, fragmentation	|	 100 cr	|	1/2 lb		|
-|	&emsp;Power cell            	|	  10 cr	|	1 lb		|
-|	&emsp;Projector canister, cryo    	|	 350 cr	|	2 lb		|
-|	&emsp;Projector canister, incendiary	|	 325 cr	|	2 lb		|
+|	&emsp;Missile, fragmentation	|	 100 cr	|	.50 lb		|
+|	&emsp;Power cell            	|	  10 cr	|	1.00 lb		|
+|	&emsp;Projector canister, cryo    	|	 350 cr	|	2.00 lb		|
+|	&emsp;Projector canister, incendiary	|	 325 cr	|	2.00 lb		|
 |	&emsp;Slug cartridge            |	   2 cr	|	—		|
 |	_Clothing_	|		|			|
-|	&emsp;Clothes, common       	|	   5 cr	|	3 lb		|
-|	&emsp;Clothes, costume      	|	  50 cr	|	4 lb		|
-|	&emsp;Clothes, dress uniform	|	 100 cr	|	8 lb		|
-|	&emsp;Clothes, fine         	|	 150 cr	|	6 lb		|
-|	&emsp;Clothes, traveler's   	|	  20 cr	|	4 lb		|
+|	&emsp;Clothes, common       	|	   5 cr	|	3.00 lb		|
+|	&emsp;Clothes, costume      	|	  50 cr	|	4.00 lb		|
+|	&emsp;Clothes, dress uniform	|	 100 cr	|	8.00 lb		|
+|	&emsp;Clothes, fine         	|	 150 cr	|	6.00 lb		|
+|	&emsp;Clothes, traveler's   	|	  20 cr	|	4.00 lb		|
 |	_Communications_	|		|			|
-|	&emsp;Commlink	                |	  50 cr	|	1/2 lb		|
-|	&emsp;Comm jammer               |	 450 cr	|	3 lb		|
-|	&emsp;Headcomm	                |	 200 cr	|	1 lb		|
-|	&emsp;Holocomm	                |	 300 cr	|	2 lb		|
-|	&emsp;Holotrace device	        |  1,000 cr	|	5 lb		|
-|	&emsp;Pocket scrambler	        |	 800 cr	|	1 lb		|
+|	&emsp;Commlink	                |	  50 cr	|	.50 lb		|
+|	&emsp;Comm jammer               |	 450 cr	|	3.00 lb		|
+|	&emsp;Headcomm	                |	 200 cr	|	1.00 lb		|
+|	&emsp;Holocomm	                |	 300 cr	|	2.00 lb		|
+|	&emsp;Holotrace device	        |  1,000 cr	|	5.00 lb		|
+|	&emsp;Pocket scrambler	        |	 800 cr	|	1.00 lb		|
 |	_Data Recording and Storage_|		|			|
-|	&emsp;Code cylinder	            |	  20 cr	|	1/2 lb		|
+|	&emsp;Code cylinder	            |	  20 cr	|	.50 lb		|
 |	&emsp;Datacard   	            |	   5 cr	|	—		|
-|	&emsp;Datacron              	|  1,000 cr	|	2 lb		|
-|	&emsp;Datapad               	|	 100 cr	|	1/2 lb		|
-|	&emsp;Holocron              	|  1,000 cr	|	2 lb		|
-|	&emsp;Holorecorder              |	 100 cr	|	1 lb		|
-|	&emsp;Stylus pen                |	  10 cr	|	1/2 lb		|
-|	&emsp;Wristpad              	|	 600 cr	|	2 lb		|
+|	&emsp;Datacron              	|  1,000 cr	|	2.00 lb		|
+|	&emsp;Datapad               	|	 100 cr	|	.50 lb		|
+|	&emsp;Holocron              	|  1,000 cr	|	2.00 lb		|
+|	&emsp;Holorecorder              |	 100 cr	|	1.00 lb		|
+|	&emsp;Stylus pen                |	  10 cr	|	.50 lb		|
+|	&emsp;Wristpad              	|	 600 cr	|	2.00 lb		|
 |	_Explosives_	|		|			|
-|	&emsp;Grenade, fragmentation        |	 100 cr	|	1 lb		|
-|	&emsp;Grenade, gas           	    |	 300 cr	|	1 lb		|
-|	&emsp;Grenade, ion	                |	 250 cr	|	1 lb		|
-|	&emsp;Grenade, plasma	            |	 125 cr	|	1 lb		|
-|	&emsp;Mine, fragmentation   	    |	 200 cr	|	2 lb		|
-|	&emsp;Mine, gas              	    |	 625 cr	|	2 lb		|
-|	&emsp;Mine, incendiary             	|	 550 cr	|	2 lb		|
-|	&emsp;Thermal detonator	            |  2,000 cr	|	1 lb		|
+|	&emsp;Grenade, fragmentation        |	 100 cr	|	1.00 lb		|
+|	&emsp;Grenade, gas           	    |	 300 cr	|	1.00 lb		|
+|	&emsp;Grenade, ion	                |	 250 cr	|	1.00 lb		|
+|	&emsp;Grenade, plasma	            |	 125 cr	|	1.00 lb		|
+|	&emsp;Mine, fragmentation   	    |	 200 cr	|	2.00 lb		|
+|	&emsp;Mine, gas              	    |	 625 cr	|	2.00 lb		|
+|	&emsp;Mine, incendiary             	|	 550 cr	|	2.00 lb		|
+|	&emsp;Thermal detonator	            |  2,000 cr	|	1.00 lb		|
 |	_Life Support_	|		|			|
-|	&emsp;Aquatic rebreather	    |	 100 cr	|	2 lb		|
-|	&emsp;Enviro-suit	            |  2,000 cr	|	15 lb		|
-|	&emsp;Flight suit           	|  1,000 cr	|	5 lb		|
-|	&emsp;Respirator	            |	 200 cr	|	1 lb	 	|
+|	&emsp;Aquatic rebreather	    |	 100 cr	|	2.00 lb		|
+|	&emsp;Enviro-suit	            |  2,000 cr	|	15.00 lb		|
+|	&emsp;Flight suit           	|  1,000 cr	|	5.00 lb		|
+|	&emsp;Respirator	            |	 200 cr	|	1.00 lb	 	|
 
 |Item|Cost|Weight|
 |:--|--:|--:|
 |	_Medical_	|		|			|
-|	&emsp;Antitoxkit	            |	 600 cr	|	4 lb		|
-|	&emsp;Emergency battery         |	  70 cr	|   5 lb        |
-|	&emsp;Traumakit	                |	  50 cr	|	3 lb		|
-|	&emsp;Medpac    	            |	 300 cr	|	1/2 lb		|
-|	&emsp;Poison                	|    125 cr	|	1/2 lb		|
-|   &emsp;Repair kit                |	 750 cr	|	3 lb		|
+|	&emsp;Antitoxkit	            |	 600 cr	|	4.00 lb		|
+|	&emsp;Emergency battery         |	  70 cr	|   5.00 lb        |
+|	&emsp;Traumakit	                |	  50 cr	|	3.00 lb		|
+|	&emsp;Medpac    	            |	 300 cr	|	.50 lb		|
+|	&emsp;Poison                	|    125 cr	|	.50 lb		|
+|   &emsp;Repair kit                |	 750 cr	|	3.00 lb		|
 |	_Storage_	|		|			|
-|	&emsp;Backpack              	|	  50 cr	|	5 lb		|
-|	&emsp;Canteen	                |	  10 cr	|	3 lb		|
-|	&emsp;Chest	                    |	  50 cr	|	25 lb		|
-|	&emsp;Crate 	                |	  20 cr	|	70 lb		|
-|	&emsp;Pouch	                    |	   5 cr	|	1 lb		|
+|	&emsp;Backpack              	|	  50 cr	|	5.00 lb		|
+|	&emsp;Canteen	                |	  10 cr	|	3.00 lb		|
+|	&emsp;Chest	                    |	  50 cr	|	25.00 lb		|
+|	&emsp;Crate 	                |	  20 cr	|	70.00 lb		|
+|	&emsp;Pouch	                    |	   5 cr	|	1.00 lb		|
 |	_Utilities_	|		|			|
-|	&emsp;Bedroll	                |	  10 cr	|	7 lb	 	|
-|	&emsp;Blanket	                |	   5 cr	|	3 lb	 	|
-|	&emsp;Binders	                |	  50 cr	|	6 lb		|
-|	&emsp;Chronometer           	|	 100 cr	|	1 lb		|
-|	&emsp;Fibercord cable, 50 ft (rolled)	|	20 cr	|	2 lb		|
-|	&emsp;Field rations (one day's)	|	   5 cr	|	1 lb	 	|
-|	&emsp;Fusion cutter         	|	  25 cr	|	2 lb		|
-|	&emsp;Glowrod                  	|	  10 cr	|	2 lb		|
-|	&emsp;Grappling hook	        |	  50 cr	|	4 lb		|
-|	&emsp;Heat generator	        |	 400 cr	|	4 lb	 	|
-|	&emsp;Homing beacon 	        |	 450 cr	|	1 lb	 	|
-|	&emsp;Hydrospanner	            |	  10 cr	|	2 lb		|
-|	&emsp;Macrobinoculars	        |	 750 cr	|	1 lb		|
-|	&emsp;Mess kit	                |	  20 cr	|	1 lb		|
-|	&emsp;Mirror	                |	  50 cr	|	1/2 lb		|
-|	&emsp;Ram, portable	            |	  40 cr	|	35 lb		|
-|	&emsp;Restraining bolt      	|	 350 cr	|	1 lb		|
-|	&emsp;Shovel	                |	   7 cr	|	5 lb		|
-|	&emsp;Tent, two-person      	|	  20 cr	|	5 lb	 	|
+|	&emsp;Bedroll	                |	  10 cr	|	7.00 lb	 	|
+|	&emsp;Blanket	                |	   5 cr	|	3.00 lb	 	|
+|	&emsp;Binders	                |	  50 cr	|	6.00 lb		|
+|	&emsp;Chronometer           	|	 100 cr	|	1.00 lb		|
+|	&emsp;Fibercord cable, 50 ft (rolled)	|	20 cr	|	2.00 lb		|
+|	&emsp;Field rations (one day's)	|	   5 cr	|	1.00 lb	 	|
+|	&emsp;Fusion cutter         	|	  25 cr	|	2.00 lb		|
+|	&emsp;Glowrod                  	|	  10 cr	|	2.00 lb		|
+|	&emsp;Grappling hook	        |	  50 cr	|	4.00 lb		|
+|	&emsp;Heat generator	        |	 400 cr	|	4.00 lb	 	|
+|	&emsp;Homing beacon 	        |	 450 cr	|	1.00 lb	 	|
+|	&emsp;Hydrospanner	            |	  10 cr	|	2.00 lb		|
+|	&emsp;Macrobinoculars	        |	 750 cr	|	1.00 lb		|
+|	&emsp;Mess kit	                |	  20 cr	|	1.00 lb		|
+|	&emsp;Mirror	                |	  50 cr	|	.50 lb		|
+|	&emsp;Ram, portable	            |	  40 cr	|	35.00 lb		|
+|	&emsp;Restraining bolt      	|	 350 cr	|	1.00 lb		|
+|	&emsp;Shovel	                |	   7 cr	|	5.00 lb		|
+|	&emsp;Tent, two-person      	|	  20 cr	|	5.00 lb	 	|
 |	_Weapon and Armor Accessories_	|		|			|
-|	&emsp;Bandolier         	    |	 100 cr	|	2 lb		|
-|	&emsp;Bipod              	    |	 200 cr	|	2 lb		|
-|	&emsp;Friction-grip gear        |  2,000 cr	|	12 lb		|
-|	&emsp;Jetpack	                |  4,500 cr	|	20 lb		|
-|	&emsp;Remote detonator          |  	 150 cr	|	1 lb		|
-|	&emsp;Rocket boots	            |  2,500 cr	|	3 lb		|
-|	&emsp;Stealth field generator	|  8,000 cr	|	3 lb		|
-|	&emsp;Tracker utility vest	    |	 150 cr	|	3 lb		|
-|	&emsp;Tripod                    |	 450 cr	|	16 lb		|
+|	&emsp;Bandolier         	    |	 100 cr	|	2.00 lb		|
+|	&emsp;Bipod              	    |	 200 cr	|	2.00 lb		|
+|	&emsp;Friction-grip gear        |  2,000 cr	|	12.00 lb		|
+|	&emsp;Jetpack	                |  4,500 cr	|	20.00 lb		|
+|	&emsp;Remote detonator          |  	 150 cr	|	1.00 lb		|
+|	&emsp;Rocket boots	            |  2,500 cr	|	3.00 lb		|
+|	&emsp;Stealth field generator	|  8,000 cr	|	3.00 lb		|
+|	&emsp;Tracker utility vest	    |	 150 cr	|	3.00 lb		|
+|	&emsp;Tripod                    |	 450 cr	|	16.00 lb		|
 
 </div>	
 
@@ -1014,7 +1013,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer 
 \pagebreakNum
 
 ## Tools
-A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools, which lets you add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. Like skills, proficiency with a tool allows you to add your proficiency bonus to checks you make with it. Unlike skills, you must have your tools present in order to make an ability check with them. 
+A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, pick a lock, or slice into a computer. Your species, class, background, or feats give you proficiency with certain tools. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. Like skills, proficiency with a tool allows you to add your proficiency bonus to checks you make with it. Unlike skills, you must have your tools present in order to make an ability check with them. 
 
 The table shows examples of some of the most common types of tools. Each tool falls under one of four categories: artisan's implements, gaming sets, musical instruments, or specialist's kits. Each tool requires a separate proficiency. 
 
@@ -1023,27 +1022,17 @@ Artisan's implements are predominantly designed for building and crafting things
 
 ***Armormech's Implements.*** Armormech's implements are for crafting and repairing armor and shields.
 
-***Armstech's Implements.*** Armstech's implements are for crafting and repairing blasters and vibroweapons
+***Armstech's Implements.*** Armstech's implements are for crafting and repairing blasters and vibroweapons.
 
 ***Artificer's Implements.*** Artificer's implements are for creating lightweapons.
-
-***Artist's Implements.*** Artist's implements encompasses any set of tools designed to create art.
 
 ***Astrotech's Implements.*** Astrotech's implements are for crafting and modifying droids.
 
 ***Biotech's Implements.*** Biotech's implements are used to create cybernetic augmentations.
 
-***Constructor's Implements.*** Constructor's implements are for creating and fortifying structures.
-
 ***Cybertech's Implements.*** Cybertech's implements are used for crafting and modifying wristpads.
 
 ***Gadgeteer's Implements.*** Gadgeteer's implements are used for crafting many types of adventuring gear, such as jet packs or friction-grip gear.
-
-***Jeweler's Implements.*** Jeweler's implements are used to appraise gemstones and create jewelry.
-
-***Surveyor's Implements.*** Surveyor's implements are used to create both physical and digital maps.
-
-***Synthweaver's Implements.*** Synthweaver's implements create and modify articles of clothing.
 
 ***Tinker's Implements.*** Tinker's implements are general use tools that can craft small and versatile trinkets.
 
@@ -1058,7 +1047,11 @@ Like artisan's implements, specialist's kits are need to pursue a craft or trade
 
 ***Biochemist's Kit.*** Biochemist's kits are used to create and enhance medpacs and other healing implements.
 
-***Chef's Kit.*** Chef's kits are used to prepare food and identify food that might be spoiled or tampered with.
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+&emsp;***Chef's Kit.*** Chef's kits are used to prepare food and identify food that might be spoiled or tampered with.
 
 ***Demolitions Kit.*** Demolitions kits are used to create, enhance, and disarm explosives.
 
@@ -1072,182 +1065,43 @@ Like artisan's implements, specialist's kits are need to pursue a craft or trade
 
 ***Security Kit.*** Security kits are used to bypass physical locks.
 
-***Slicer's Kit.*** Slicer's kits can bypass computerized<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;defenses and locks.
+***Slicer's Kit.*** Slicer's kits can bypass computerized defenses and locks.
 
-<img src='https://www.gmbinder.com/images/QEJECTy.png' style='position:absolute;bottom:-10px;left:15px;width:800px;z-index:1000;transform:scaleX(-1)' />
-
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
-
-\pagebreakNum
-
-<div style='margin-top:26px'></div>
+***Trapper's Kit.*** Trapper's kits can create, disarm, and disassemble traps.
 
 ##### Tools							
 |	Item		|	Cost	|	Weight	|
 |	:--		|	--:	|	--:	|
 |	_Artisan's implements_		|		|		|
-|	&emsp;Armormech's implements			|	200 cr	|	8 lb	|
-|	&emsp;Armstech's implements			|	250 cr	|	9 lb	|
-|	&emsp;Artificer's implements			|	300 cr	|	5 lb	|
-|	&emsp;Artist's implements			|	100 cr	|	5 lb	|
-|	&emsp;Astrotech's implements			|	400 cr	|  12 lb	|
-|	&emsp;Biotech's implements     		|	450 cr	|	6 lb	|
-|	&emsp;Constructor's implements		|	 100 cr	|	7 lb	|
-|	&emsp;Cybertech's implements			|	500 cr	|  10 lb	|
-|	&emsp;Gadgeteer's implements			|	350 cr	|	7 lb	|
-|	&emsp;Jeweler's implements		    |	250 cr	|  2 lb	|
-|	&emsp;Surveyor's implements			|	500 cr	|	6 lb	|
-|	&emsp;Synthweaver's implements		|	250 cr	|	2 lb	|
-|	&emsp;Tinker's implements			|	500 cr	|  10 lb	|
-|	_Gaming set_		|		|		|
+|	&emsp;Armormech's implements			|	200 cr	|	8.00 lb	|
+|	&emsp;Armstech's implements			|	250 cr	|	9.00 lb	|
+|	&emsp;Artificer's implements			|	300 cr	|	5.00 lb	|
+|	&emsp;Astrotech's implements			|	400 cr	|  12.00 lb	|
+|	&emsp;Biotech's implements     		|	450 cr	|	6.00 lb	|
+|	&emsp;Cybertech's implements			|	500 cr	|  10.00 lb	|
+|	&emsp;Gadgeteer's implements			|	350 cr	|	7.00 lb	|
+|	&emsp;Tinker's implements			|	500 cr	|  10.00 lb	|
+|	_Gaming sets_		|		|		|
 |	&emsp;Chance cubes				|	  1 cr	|	  — 	|
-|	&emsp;Dejarik set				|	300 cr	|	8 lb	|
+|	&emsp;Dejarik set				|	300 cr	|	8.00 lb	|
 |	&emsp;Pazaak deck				|	100 cr	|	  —		|
 |	&emsp;Sabacc deck     			|	150 cr	|	  —		|
-|	_Musical instrument_		|		|		|
-|	&emsp;Bandfill					|	300 cr	|	2 lb	|
-|	&emsp;Chindinkalu horn			|	120 cr	|	7 lb	|
-|	&emsp;Drum						|	 60 cr	|	3 lb	|
-|	&emsp;Fanfar					|	220 cr	|	4 lb	|
-|	&emsp;Fizzz						|	160 cr	|	3 lb	|
-|	&emsp;Flute						|	 20 cr	|	1 lb	|
-|	&emsp;Kloo horn					|	330 cr	|	2 lb	|
-|	&emsp;Lute						|	350 cr	|	2 lb	|
-|	&emsp;Mandoviol					|   425 cr	|   1 lb	|
-|	&emsp;Ommni box					|	250 cr	|  10 lb	|
-|	&emsp;Slitherhorn				|	120 cr	|	2 lb	|
-|	&emsp;Shawm						|	 20 cr	|	1 lb	|
-|	&emsp;Traz					    |	300 cr	|	6 lb	|
-|	&emsp;Valahorn				    |	340 cr	|	4 lb	|
-|	&emsp;Xantha				    |	170 cr	|	7 lb	|
+|	_Musical instruments_		|		|		|
+|	&emsp;Drum						|	 60 cr	|	3.00 lb	|
+|	&emsp;Flute						|	 20 cr	|	1.00 lb	|
+|	&emsp;Lute						|	350 cr	|	2.00 lb	|
+|	&emsp;Ommni box					|	250 cr	|  10.00 lb	|
 |	_Specialist's kit_		|		|		|
-|	&emsp;Biochemist's kit		        |	500 cr	|	8 lb	|
-|	&emsp;Chef's kit                    |	 70 cr	|	8 lb	|
-|	&emsp;Demolitions kit				|	400 cr	|	4 lb	|
-|	&emsp;Disguise kit					|	250 cr	|	3 lb	|
-|	&emsp;Forgery kit					|	150 cr	|	5 lb	|
+|	&emsp;Biochemist's kit		        |	500 cr	|	8.00 lb	|
+|	&emsp;Chef's kit                    |	 70 cr	|	8.00 lb	|
+|	&emsp;Demolitions kit				|	400 cr	|	4.00 lb	|
+|	&emsp;Disguise kit					|	250 cr	|	3.00 lb	|
+|	&emsp;Forgery kit					|	150 cr	|	5.00 lb	|
 |	&emsp;Mechanic's kit				|	650 cr	|  25 lb	|
-|	&emsp;Poisoner's kit				|	500 cr	|	2 lb	|
-|	&emsp;Security kit					|	650 cr	|	3 lb	|
-|	&emsp;Slicer's kit					|	800 cr	|	6 lb	|
-
-\columnbreak
-
-## Trade Goods
-Trade is an essential part of the galactic economy. Many spacers make their living buying and selling goods along hyperspace routes that connect the galaxy's major worlds.
-
-A merchant may be chartered by an individual or a corporation to deliver goods to a certain port, or move goods along a specified route. During times of war, opportunities abound in the shipping of ammunition and medical supplies. Some traders, seeking to earn a quick profit, may resort to smuggling illegal or restricted cargo on behalf of one of the galaxy's many crime syndicates. The Trade Goods table shows the value of commonly exchanged goods.
-
-##### Trade Goods
-|	Cost	| &emsp;	| Goods	|
-|----: |:--:|:------------ |
-|	 100 cr	||	Animal, common	|
-|	 500 cr	||	Animal, livestock	|
-|  2,000 cr	||	Animal, uncommon	|
-|	 100 cr	||	Art. common	|
-|  1,000 cr	||	Art. quality	|
-| 10,000 cr ||	Art, precious	|
-|	 400 cr	||	Bacta, 1 gal	|
-|	  10 cr	||	Food, common (5 lbs)	|
-|	  20 cr	||	Food. quality (5 lbs)	|
-|	  50 cr	||	Food. exotic (5 lbs)	|
-| 10,000 cr ||	Gems, exotic (1 carat)	|
-|	 100 cr	||	Gems, semiprecious (1 carat)	|
-|  1,000 cr	||	Gems, precious (1 carat)	|
-|	  10 cr	||	Holovid	|
-|  2,500 cr	||	Metal, common (1 ton)	|
-|	 100 cr	||	Metal, semi-precious (1 lb)	|
-|  5,000 cr	||	Metal, precious (1 lb)	|
-|  1,500 cr	||	Ore. common (1 ton)	|
-|  2,000 cr	||	Spice, common (1 lb)	|
-|  5,000 cr	||	Spice, precious (1 lb)	|
-| 10,000 cr ||	Spice, illicit (1 lb)	|
-
-<img src='https://www.gmbinder.com/images/mZ7inBg.png' style='position:absolute;bottom:32px;right:5px;width:430px' />
-
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
-
-\pagebreakNum
-
-## Droids
-One common way to spend wealth is to purchase droids. Some droids are built for scouting, while others offer advanced skillsets. Protocol droids help communicate with foreign bodies, and combat droids can help supplement a budding force. The Droids table offers some choices for purchase.
-
-|Droid Designation|Cost|
-|:--|--:|
-|3PO Series Protocol Droid|5,500 cr|
-|B1-A Battle Droid|1,300 cr|
-|B1-X Battle Droid|2,600 cr|
-|Destroyer Droid|84,000 cr|
-|DUM Series Pit Droid|650 cr|
-|ID9 Seeker Droid|150 cr|
-|IG-86 Assassin Droid|22,400 cr|
-|HK Series Assassin Droid|212,000 cr|
-|R2 Series Astromech Droid|2,800 cr|
-
-## Mounts and Vehicles
-Mounts and vehicles are the two most common types of on-planet transport. 
-
-### Mounts
-A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's speed and base carrying capacity.
-
-An animal pulling a cart or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.
-
-Mounts other than those listed here are available in the worlds of *Star Wars*, but they are rare and not normally available for purchase, like aiwhas from Kamino. Acquiring such a mount is often an adventure in-and-of itself.
-
-Mounts are governed by Animal Handling proficiency.
-
-#### Barding
-Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost and weight of barding varies based on the size of the creature, as shown in the Tack, Harness, and Drawn Vehicles table.
-
-#### Saddles
-A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding an exotic mount.
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-##### Mounts and Other Animals
-|	Item			|	Cost	| &nbsp;&nbsp;	|	Speed	|	Carrying Capacity	|
-|	:--				|	--:		|:--:			|	:--:	|	--:					|
-|	Tauntaun		|	500 cr	|				|	50 ft.	|	480 lb	|
-|	Kaadu       	|	450 cr	|				|	40 ft.	|	620 lb	|
-|	Rancor  		| 2,000 cr	|				|	40 ft.	| 3,320 lb	|
-|	Sleen        	|	500 cr	|				|	40 ft.	|	740 lb	|
-|	Varactyl    	|   750 cr	|				|	60 ft.	| 2,200 lb	|
-|	Bantha			| 1,200 cr	|				|	40 ft.	| 8,000 lb	|
-|	Dewback  		|	900 cr	|				|	50 ft.	| 1,140 lb	|
-
-##### Tack, Harness, and Drawn Vehicles											
-|	Item		|	Cost	|	Weight	|				
-|	:--		|	--:	|	--:	|				
-|	Barding (Tiny)            	|	x 1/3  	|	x 1/2	|	
-|	Barding	(Small or Medium)  	|	x 1  	|	x 1	    |	
-|	Barding	(Large)            	|	x 3  	|	x 2	    |	
-|	Barding	(Huge)            	|	x 9  	|	x 4	    |	
-|	Barding	(Gargantuan)       	|	x 27  	|	x 8	    |				
-|	Bit and bridle	        	|	 20 cr	|	1 lb	|		
-|	Cart	                	|	150 cr	|	200 lb	|			
-|	Feed (per day)	        	|	  1 cr	|	10 lb	|				
-|	_Saddle_	               	|		    |	    	|				
-|	&emsp;	Exotic	|	600 cr	|	40 lb	|				
-|	&emsp;	Military|	200 cr	|	30 lb	|				
-|	&emsp;	Pack	|	 50 cr	|	15 lb	|				
-|	&emsp;	Riding	|	100 cr	|	25 lb	|				
-|	Saddlebags	            	|	 40 cr 	|	8 lb	|			
-|	Stabling (per day)		    |	  5 cr	|	—	    |				
-|	Wagon		                |	350 cr	|	400 lb	|	
-
-### Vehicles
-Vehicles are more common on civilized planets than animal mounts. Vehicles do not have access to barding and do not require saddles. Vehicles vary greatly based on price, speed, carrying capacity, personnel capacity, and armaments (if any). Below are some base costs for standard types of speeders. Vehicles are governed by Piloting proficiency.
-
-##### Vehicles											
-|	Item	    	|	Cost	    |	Speed	|
-|	:--	        	|	--:	        |	--:	    |
-|   Airspeeder      |  14,500 cr    |   750 mph |
-|   Landspeeder     |  10,000 cr    |   220 mph |
-|	Speederbike    	|	6,000 cr	|	300 mph	|	
-
-<img src='https://www.gmbinder.com/images/xMlAJr5.png' style='position:absolute;bottom:-190px;right:17px;width:550px;transform:scaleX(-1);z-index:1000' />
+|	&emsp;Poisoner's kit				|	500 cr	|	2.00 lb	|
+|	&emsp;Security kit					|	650 cr	|	3.00 lb	|
+|	&emsp;Slicer's kit					|	800 cr	|	6.00 lb	|
+|	&emsp;Trapper's kit					|	300 cr	|  12.00 lb	|
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -1278,7 +1132,13 @@ Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle mig
 You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into barns, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers. Violence, disease, and hunger follow you wherever you go. Other wretched people covet your armor, weapons, and adventuring gear, which represent a fortune by their standards. You are beneath the notice of most people.
 
 #### Squalid
-You live in a leaky stable, a mud-floored hut just outside town, or a vermin-infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed diseased.
+You live in a leaky stable, a mud-floored hut just outside town, or a vermin-infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and
+
+\columnbreak
+
+<div style='margin-top:26px'></div> 
+
+misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed diseased.
 
 #### Poor
 A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in a flophouse or in the common room above a cantina. You benefit from some legal protections, but you still have to contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, peddlers, thieves, mercenaries, and other disreputable types.

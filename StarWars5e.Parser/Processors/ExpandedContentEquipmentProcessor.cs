@@ -68,12 +68,15 @@ namespace StarWars5e.Parser.Processors
                         PartitionKey = contentType.ToString()
                     };
 
-                    var weightMatch = Regex.Match(tableLineSplit[4], @"\d+\s*\d*\/*\d*");
+                    //var weightMatch = Regex.Match(tableLineSplit[4], @"\d+\s*\d*\/*\d*");
+                    var weightMatch = double.TryParse(tableLineSplit[4].Split(' ')[0], NumberStyles.Number,  CultureInfo.InvariantCulture, out double weight);
                     weapon.Name = tableLineSplit[1].RemoveHtmlWhitespace().Trim();
                     weapon.RowKey = weapon.Name;
                     try
                     {
-                        weapon.Weight = weightMatch.Success ? weightMatch.Value.Trim() : "0";
+                        //weapon.Weight = weightMatch.Success ? weightMatch.Value.Trim() : "0";
+                        weapon.Weight = weight.ToString();
+
                         weapon.Properties = Regex.Split(tableLineSplit[5], @",\s*(?![^()]*\))").Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
@@ -181,8 +184,11 @@ namespace StarWars5e.Parser.Processors
                                 ? equipmentCategory
                                 : EquipmentCategory.Unknown;
 
-                        var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+\s*\d*\/*\d*");
-                        otherEquipment.Weight = weightMatch.Success ? weightMatch.Value.Trim() : "0";
+                        //var weightMatch = Regex.Match(otherEquipmentTableLineSplit[3], @"\d+\s*\d*\/*\d*");
+                        var weightMatch = double.TryParse(otherEquipmentTableLineSplit[3].Split(' ')[0], NumberStyles.Number, CultureInfo.InvariantCulture, out double weight);
+                        //otherEquipment.Weight = weightMatch.Success ? weightMatch.Value.Trim() : "0";
+                        otherEquipment.Weight = weight.ToString();
+
 
                         var otherEquipmentDescriptionStartLine =
                             lines.FindIndex(f =>
@@ -254,8 +260,13 @@ namespace StarWars5e.Parser.Processors
                             ? int.Parse(costMatch.Value, NumberStyles.AllowThousands)
                             : 0;
 
-                        var weightMatch = Regex.Match(tableLineSplit[4], @"\d+\s*\d*\/*\d*");
-                        armor.Weight = weightMatch.Success ? weightMatch.Value.Trim() : "0";
+                        //var weightMatch = Regex.Match(tableLineSplit[4], @"\d+\s*\d*\/*\d*");
+                        var weightMatch = double.TryParse(tableLineSplit[4].Split(' ')[0], NumberStyles.Number, CultureInfo.InvariantCulture, out double weight);
+
+                        //armor.Weight = weightMatch.Success ? weightMatch.Value.Trim() : "0";
+                        armor.Weight = weight.ToString();
+
+
                         armor.Properties = tableLineSplit[5].Split(',').Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();

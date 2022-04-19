@@ -238,8 +238,10 @@ namespace StarWars5e.Parser.Localization
         #region WretchedHivesManager
         public List<(string name, string startLine, int occurence)> WretchedHivesWeaponProperties => new List<(string name, string startLine, int occurence)>
         {
-            ("Autotarget", "#### Autotarget", 1),
+            ("Biting", "#### Biting", 1),
+            ("Bright", "#### Bright", 1),
             ("Brutal", "#### Brutal", 1),
+            ("Corruption", "#### Corruption", 1),
             ("Defensive", "#### Defensive", 1),
             ("Dire", "#### Dire", 1),
             ("Disarming", "#### Disarming", 1),
@@ -251,6 +253,7 @@ namespace StarWars5e.Parser.Localization
             ("Piercing", "#### Piercing", 1),
             ("Shocking", "#### Shocking", 1),
             ("Silent", "#### Silent", 2),
+            ("Smart", "#### Smart", 1),
             ("Sonorous", "#### Sonorous", 1),
             ("Switch", "#### Switch", 1),
             ("Vicious", "#### Vicious", 1)
@@ -290,7 +293,6 @@ namespace StarWars5e.Parser.Localization
         #region PlayerHandbookManager
         public List<(string name, string startLine, int occurence)> PlayerHandbookWeaponProperties => new List<(string name, string startLine, int occurence)>
         {
-            ("Ammunition", "#### Ammunition", 1),
             ("Auto", "#### Auto", 1),
             ("Burst", "#### Burst", 1),
             ("Dexterity", "#### Dexterity", 1),
@@ -300,13 +302,18 @@ namespace StarWars5e.Parser.Localization
             ("Fixed", "#### Fixed", 1),
             ("Heavy", "#### Heavy", 3 ),
             ("Hidden", "#### Hidden", 1),
+            ("Interlocking", "#### Interlocking", 1),
             ("Light", "#### Light", 2),
             ("Luminous", "#### Luminous", 1),
+            ("Penetrating", "#### Penetrating", 1),
+            ("Power Cell", "#### Power Cell", 1),
+
             ("Range", "#### Range", 1),
             ("Rapid", "#### Rapid", 1),
             ("Reach", "#### Reach", 1),
             ("Reload", "#### Reload", 1),
             ("Returning", "#### Returning", 1),
+            ("Slug Cartridge", "#### Slug Cartridge", 1),
             ("Special", "#### Special", 1),
             ("Strength", "#### Strength", 2),
             ("Thrown", "#### Thrown", 1),
