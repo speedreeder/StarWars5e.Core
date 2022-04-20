@@ -116,6 +116,7 @@ namespace StarWars5e.Parser.Processors.WH
                     var typeSplit = enhancedItemLines[1].Split(',')[0];
                     enhancedItem.Subtype = (typeSplit.Split('(').ElementAtOrDefault(1) ?? "").Trim().Replace("(", string.Empty)
                         .Replace(")", string.Empty).RemoveUnderscores();
+
                     if (typeSplit.ToLower().Contains(Localization.adventuringgear))
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.AdventuringGear;
@@ -165,9 +166,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.AdventuringGearTypeEnum = AdventuringGearType.Other;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.armormodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.armor))
                     {
-                        enhancedItem.TypeEnum = EnhancedItemType.ArmorModification;
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.reinforcement))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Reinforcement;
@@ -281,9 +282,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.DroidCustomizationTypeEnum = DroidCustomizationType.Other;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.focusgeneratormodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.focus))
                     {
-                        enhancedItem.TypeEnum = EnhancedItemType.FocusGeneratorModification;
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.cycler))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Cycler;
@@ -317,17 +318,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.FocusTypeEnum = FocusType.Other;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.itemmodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.wristpad))
                     {
                         enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
-                        if (typeSplit.Split('(')[1].ToLower().Contains(Localization.augment))
-                        {
-                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Augment;
-                        }
-                    }
-                    else if (typeSplit.ToLower().Contains(Localization.wristpadmodification))
-                    {
-                        enhancedItem.TypeEnum = EnhancedItemType.WristpadModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.dataport))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Dataport;
@@ -345,9 +338,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Processor;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.lightweaponmodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.lightweapon))
                     {
-                        enhancedItem.TypeEnum = EnhancedItemType.LightweaponModification;
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.lens))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Lens;
@@ -365,9 +358,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.PowerCell;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.vibroweaponmodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.vibroweapon))
                     {
-                        enhancedItem.TypeEnum = EnhancedItemType.VibroweaponModification;
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.edge))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Edge;
@@ -385,9 +378,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Grip;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.clothingmodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.clothing))
                     {
-                        enhancedItem.TypeEnum = EnhancedItemType.ClothingModification;
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.inlay))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Inlay;
@@ -397,9 +390,9 @@ namespace StarWars5e.Parser.Processors.WH
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Weave;
                         }
                     }
-                    else if (typeSplit.ToLower().Contains(Localization.blastermodification))
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification) && typeSplit.ToLower().Contains(Localization.blaster))
                     {
-                        enhancedItem.TypeEnum = EnhancedItemType.BlasterModification;
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
                         if (typeSplit.Split('(')[1].ToLower().Contains(Localization.barrel))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.Barrel;
@@ -415,6 +408,14 @@ namespace StarWars5e.Parser.Processors.WH
                         else if (typeSplit.Split('(')[1].ToLower().Contains(Localization.energycore))
                         {
                             enhancedItem.ItemModificationTypeEnum = ItemModificationType.EnergyCore;
+                        }
+                    }
+                    else if (typeSplit.ToLower().Contains(Localization.itemmodification))
+                    {
+                        enhancedItem.TypeEnum = EnhancedItemType.ItemModification;
+                        if (typeSplit.Split('(')[1].ToLower().Contains(Localization.augment))
+                        {
+                            enhancedItem.ItemModificationTypeEnum = ItemModificationType.Augment;
                         }
                     }
                     else if (typeSplit.ToLower().Contains($"**{Localization.shield}**"))

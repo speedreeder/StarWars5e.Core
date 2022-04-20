@@ -1164,6 +1164,10 @@ namespace StarWars5e.Parser.Localization
 
         public string Maneuver => throw new NotImplementedException();
 
+        public string wristpad => throw new NotImplementedException();
+
+        public string clothing => throw new NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

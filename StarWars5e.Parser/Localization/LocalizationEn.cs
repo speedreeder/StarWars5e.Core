@@ -113,6 +113,7 @@ namespace StarWars5e.Parser.Localization
         public string force => "force";
         public string itemmodification => "item modification";
         public string augment => "augment";
+        public string wristpad => "wristpad";
         public string wristpadmodification => "wristpad modification";
         public string dataport => "dataport";
         public string storage => "storage";
@@ -128,6 +129,7 @@ namespace StarWars5e.Parser.Localization
         public string vibratorcell => "vibrator cell";
         public string projector => "projector";
         public string grip => "grip";
+        public string clothing => "clothing";
         public string clothingmodification => "clothing modification";
         public string inlay => "inlay";
         public string weave => "weave";

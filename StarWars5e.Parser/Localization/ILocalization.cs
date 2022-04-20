@@ -669,6 +669,8 @@ namespace StarWars5e.Parser.Localization
         Tuple<string, int> NineteenthNum { get; }
         Tuple<string, int> TwentiethNum { get; }
         string ECStorageStartLine { get; }
+        string wristpad { get; }
+        string clothing { get; }
         #endregion
     }
 }
