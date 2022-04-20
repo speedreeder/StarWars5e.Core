@@ -20,7 +20,8 @@ namespace StarWars5e.Parser.Managers
         private readonly List<string> _expandedContentFileNames = new List<string>
         {
             "ec_02.txt", "ec_03.txt", "ec_04.txt", "ec_enhanced_items.txt",
-            "ec_05.txt", "ec_06.txt", "ec_11.txt", "ec_12.txt", "ec_variantrules.txt"
+            "ec_05.txt", "ec_06.txt", "ec_11.txt", "ec_12.txt", "ec_13.txt",
+            "ec_variantrules.txt"
         };
         private readonly ILocalization _localization;
         private readonly BlobContainerClient _blobContainerClient;
