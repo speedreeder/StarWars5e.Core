@@ -603,8 +603,8 @@ namespace StarWars5e.Parser.Localization
         public string ECClassificationMedical => @"_\s*Medical\s*_";
         public string ECClassificationStorage => @"_\s*Storage\s*_";
         public string ECClassificationArtisansImplements => @"_\s*Artisan's\s*implements\s*_";
-        public string ECClassificationGamingSet => @"_\s*Gaming\s*set\s*_";
-        public string ECClassificationMusicalInstrument => @"_\s*Musical\s*instrument\s*_";
+        public string ECClassificationGamingSet => @"_\s*Gaming\s*set[s]?\s*_";
+        public string ECClassificationMusicalInstrument => @"_\s*Musical\s*instrument[s]?\s*_";
         public string ECClassificationSpecialistsKit => @"_\s*Specialist's\s*kit\s*_";
         public string ECClassificationLightArmor => @"_\s*Light\s*Armor\s*_";
         public string ECClassificationMediumArmor => @"_\s*Medium\s*Armor\s*_";
