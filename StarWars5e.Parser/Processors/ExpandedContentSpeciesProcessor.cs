@@ -167,7 +167,7 @@ namespace StarWars5e.Parser.Processors
                     var alternateSplit = attributeIncreaseTrait.Description.Split(".");
                     foreach (var alternate in alternateSplit.Take(alternateSplit.Length - 1))
                     {
-                        var abilitiesSplit = alternate.Split(new []{ ", ", Localization.and }, StringSplitOptions.None);
+                        var abilitiesSplit = alternate.Split(new []{ ", and", Localization.and }, StringSplitOptions.None);
                         var abilityIncreases = new List<AbilityIncrease>();
                         foreach (var abilitySplit in abilitiesSplit)
                         {
