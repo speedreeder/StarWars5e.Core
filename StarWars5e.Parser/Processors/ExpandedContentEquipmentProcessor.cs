@@ -80,9 +80,15 @@ namespace StarWars5e.Parser.Processors
                         weapon.Properties = Regex.Split(tableLineSplit[5], @",\s*(?![^()]*\))").Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
+                        //weapon.PropertiesMap = weapon.Properties.ToDictionary(
+                        //    s => WeaponProperties.FirstOrDefault(f =>
+                        //             s.Split(" ", StringSplitOptions.RemoveEmptyEntries).Any(d => d.Equals(f, StringComparison.InvariantCultureIgnoreCase))) ?? "", s => s);
                         weapon.PropertiesMap = weapon.Properties.ToDictionary(
-                            s => WeaponProperties.FirstOrDefault(f =>
-                                     s.Contains(f, StringComparison.InvariantCultureIgnoreCase)) ?? "", s => s);
+                            s =>
+                                WeaponProperties.FirstOrDefault(f => !(f.Equals("light", StringComparison.OrdinalIgnoreCase) &&
+                                    s.Contains("lightning", StringComparison.OrdinalIgnoreCase)) &&
+                                    s.Contains(f, StringComparison.InvariantCultureIgnoreCase)) ?? "",
+                                s => s);
 
                         var damageSplit = tableLineSplit[3].Replace("�", string.Empty).Trim().RemoveHtmlWhitespace().Split(' ');
                         var damageNumberMatches =
