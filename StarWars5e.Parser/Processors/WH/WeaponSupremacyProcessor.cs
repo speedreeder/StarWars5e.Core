@@ -24,7 +24,7 @@ namespace StarWars5e.Parser.Processors.WH
                 if (!lines[i].StartsWith("#### ")) continue;
 
                 var weaponSupremacyStartIndex = i;
-                var weaponSupremacyEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("#### "));
+                var weaponSupremacyEndIndex = lines.FindIndex(i + 1, f => f.StartsWith("#"));
 
                 var weaponSupremacyLines = lines.Skip(weaponSupremacyStartIndex).Take(weaponSupremaciesEndIndex - weaponSupremacyStartIndex);
                 if (weaponSupremacyEndIndex != -1 && weaponSupremacyEndIndex < weaponSupremaciesEndIndex)
