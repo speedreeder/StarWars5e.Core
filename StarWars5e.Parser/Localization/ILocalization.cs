@@ -671,6 +671,8 @@ namespace StarWars5e.Parser.Localization
         string ECStorageStartLine { get; }
         string wristpad { get; }
         string clothing { get; }
+        string ECSimpleVibroweaponsStartLine { get; }
+        string ECSimpleLightweaponsStartLine { get; }
         #endregion
     }
 }

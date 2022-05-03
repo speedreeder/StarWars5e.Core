@@ -26,8 +26,8 @@ namespace StarWars5e.Parser.Processors
             var equipment = new List<Equipment>();
 
             equipment.AddRange(await ParseWeapons(lines, Localization.ECBlastersStartLine, false, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseWeapons(lines, Localization.ECMartialLightweaponsStartLine, true, 1, ContentType.ExpandedContent));
-            equipment.AddRange(await ParseWeapons(lines, Localization.ECMartialVibroweaponsStartLine, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECSimpleLightweaponsStartLine, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECSimpleVibroweaponsStartLine, true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseOtherEquipment(lines, Localization.ECAmmunitionStartLine, true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseOtherEquipment(lines, Localization.ECStorageStartLine, true, 1, ContentType.ExpandedContent));
 
@@ -80,9 +80,6 @@ namespace StarWars5e.Parser.Processors
                         weapon.Properties = Regex.Split(tableLineSplit[5], @",\s*(?![^()]*\))").Select(s => s.Trim().RemoveHtmlWhitespace().RemovePlaceholderCharacter())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .ToList();
-                        //weapon.PropertiesMap = weapon.Properties.ToDictionary(
-                        //    s => WeaponProperties.FirstOrDefault(f =>
-                        //             s.Split(" ", StringSplitOptions.RemoveEmptyEntries).Any(d => d.Equals(f, StringComparison.InvariantCultureIgnoreCase))) ?? "", s => s);
                         weapon.PropertiesMap = weapon.Properties.ToDictionary(
                             s =>
                                 WeaponProperties.FirstOrDefault(f => !(f.Equals("light", StringComparison.OrdinalIgnoreCase) &&

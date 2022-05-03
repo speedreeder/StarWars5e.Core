@@ -578,8 +578,10 @@ namespace StarWars5e.Parser.Localization
         #region ExpandedContentEquipmentProcessor
 
         public string ECBlastersStartLine => "##### Blasters";
+        public string ECSimpleLightweaponsStartLine => "_Simple Lightweapons_";
         public string ECMartialLightweaponsStartLine => "_Martial Lightweapons_";
         public string ECMartialVibroweaponsStartLine => "_Martial Vibroweapons_";
+        public string ECSimpleVibroweaponsStartLine => "_Simple Vibroweapons_";
         public string ECAmmunitionStartLine => "_Ammunition_";
         public string ECStorageStartLine => "_Storage_";
         public string ECInterchangeableWeaponsSystemPattern => @"####\s+Interchangeable\s+Weapons\s+System";

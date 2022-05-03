@@ -773,6 +773,10 @@ namespace StarWars5e.Parser.Localization
 
         public string clothing => throw new NotImplementedException();
 
+        public string ECSimpleVibroweaponsStartLine => throw new NotImplementedException();
+
+        public string ECSimpleLightweaponsStartLine => throw new NotImplementedException();
+
         #endregion
     }
 }
