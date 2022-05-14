@@ -673,6 +673,13 @@ namespace StarWars5e.Parser.Localization
         string clothing { get; }
         string ECSimpleVibroweaponsStartLine { get; }
         string ECSimpleLightweaponsStartLine { get; }
+        string ECExoticBlasters { get; }
+        string ECExoticLightweapons { get; }
+        string ECExoticVibroweapons { get; }
+        string ECClassificationExoticVibroweapons { get; }
+        string ECClassificationExoticLightweapons { get; }
+        string ECClassificationExoticBlasters { get; }
+        List<(string name, string startLine, int occurence)> ExpandedContentWeaponProperties { get; }
         #endregion
     }
 }

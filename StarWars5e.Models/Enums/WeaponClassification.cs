@@ -8,6 +8,9 @@
         SimpleVibroweapon,
         MartialVibroweapon,
         SimpleLightweapon,
-        MartialLightweapon
+        MartialLightweapon,
+        ExoticBlaster,
+        ExoticVibroweapon,
+        ExoticLightweapon
     }
 }

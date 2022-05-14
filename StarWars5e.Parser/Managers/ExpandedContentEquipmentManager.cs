@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Azure.Cosmos.Table;
+using StarWars5e.Models;
 using StarWars5e.Models.Enums;
 using StarWars5e.Models.Equipment;
 using StarWars5e.Parser.Localization;
@@ -17,12 +19,14 @@ namespace StarWars5e.Parser.Managers
 
         private readonly List<string> _ecEquipmentFileName = new List<string> { "ec_05.txt" };
         private readonly ILocalization _localization;
+        private readonly WeaponPropertyProcessor _weaponPropertyProcessor;
 
         public ExpandedContentEquipmentManager(IAzureTableStorage tableStorage, GlobalSearchTermRepository globalSearchTermRepository, ILocalization localization)
         {
             _tableStorage = tableStorage;
             _globalSearchTermRepository = globalSearchTermRepository;
             _localization = localization;
+            _weaponPropertyProcessor = new WeaponPropertyProcessor(ContentType.Core, _localization.ExpandedContentWeaponProperties);
         }
 
         public async Task Parse()
@@ -89,9 +93,29 @@ namespace StarWars5e.Parser.Managers
                 await _tableStorage.AddBatchAsync<Equipment>($"equipment{_localization.Language}", equipments,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
             }
-            catch (StorageException)
+            catch (StorageException e)
             {
                 Console.WriteLine("Failed to upload EC equipment.");
+            }
+
+            try
+            {
+                var weaponProperties =
+                    await _weaponPropertyProcessor.Process(_ecEquipmentFileName, _localization);
+
+                //var specialProperty = weaponProperties.SingleOrDefault(w => w.Name == "Special");
+                //if (specialProperty != null)
+                //{
+                //    specialProperty.Content =
+                //        "#### Special\r\nA weapon with the special property has unusual rules governing its use, explained in the weapon's description.";
+                //}
+
+                await _tableStorage.AddBatchAsync<WeaponProperty>($"weaponProperties{_localization.Language}", weaponProperties,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException)
+            {
+                Console.WriteLine("Failed to upload EC weapon properties.");
             }
         }
     }

@@ -777,6 +777,20 @@ namespace StarWars5e.Parser.Localization
 
         public string ECSimpleLightweaponsStartLine => throw new NotImplementedException();
 
+        public string ECExoticBlasters => throw new NotImplementedException();
+
+        public string ECExoticLightweapons => throw new NotImplementedException();
+
+        public string ECExoticVibroweapons => throw new NotImplementedException();
+
+        public string ECClassificationExoticVibroweapons => throw new NotImplementedException();
+
+        public string ECClassificationExoticLightweapons => throw new NotImplementedException();
+
+        public string ECClassificationExoticBlasters => throw new NotImplementedException();
+
+        public List<(string name, string startLine, int occurence)> ExpandedContentWeaponProperties => throw new NotImplementedException();
+
         #endregion
     }
 }

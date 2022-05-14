@@ -309,7 +309,6 @@ namespace StarWars5e.Parser.Localization
             ("Luminous", "#### Luminous", 1),
             ("Penetrating", "#### Penetrating", 1),
             ("Power Cell", "#### Power Cell", 1),
-
             ("Range", "#### Range", 1),
             ("Rapid", "#### Rapid", 1),
             ("Reach", "#### Reach", 1),
@@ -322,6 +321,13 @@ namespace StarWars5e.Parser.Localization
             ("Two-Handed", "#### Two-Handed", 1),
             ("Versatile", "#### Versatile", 1)
         };
+
+        public List<(string name, string startLine, int occurence)> ExpandedContentWeaponProperties => new List<(string name, string startLine, int occurence)>
+        {
+            ("Modal", "#### Modal", 3),
+            ("Specialized", "#### Specialized", 3)
+        };
+
         public List<(string name, string startLine, int occurence)> PlayerHandbookArmorProperties => new List<(string name, string startLine, int occurence)>
         {
             ("Bulky", "#### Bulky", 1),
@@ -582,6 +588,10 @@ namespace StarWars5e.Parser.Localization
         public string ECMartialLightweaponsStartLine => "_Martial Lightweapons_";
         public string ECMartialVibroweaponsStartLine => "_Martial Vibroweapons_";
         public string ECSimpleVibroweaponsStartLine => "_Simple Vibroweapons_";
+        public string ECExoticBlasters => "_Exotic Blasters_";
+        public string ECExoticLightweapons => "_Exotic Lightweapons_";
+        public string ECExoticVibroweapons => "_Exotic Vibroweapons_";
+
         public string ECAmmunitionStartLine => "_Ammunition_";
         public string ECStorageStartLine => "_Storage_";
         public string ECInterchangeableWeaponsSystemPattern => @"####\s+Interchangeable\s+Weapons\s+System";
@@ -592,6 +602,10 @@ namespace StarWars5e.Parser.Localization
         public string ECClassificationMartialLightweapons => @"_\s*Martial\s*Lightweapon[s]?\s*_";
         public string ECClassificationSimpleVibroweapons => @"_\s*Simple\s*Vibroweapon[s]?\s*_";
         public string ECClassificationMartialVibroweapons => @"_\s*Martial\s*Vibroweapon[s]?\s*_";
+        public string ECClassificationExoticVibroweapons => @"_\s*Exotic\s*Vibroweapon[s]?\s*_";
+        public string ECClassificationExoticLightweapons => @"_\s*Exotic\s*Lightweapon[s]?\s*_";
+        public string ECClassificationExoticBlasters => @"_\s*Exotic\s*Blaster[s]?\s*_";
+
         public string ECClassificationUtilities => @"_\s*Utilities\s*_";
         public string ECClassificationWeaponAndArmorAccessories => @"_\s*Weapon\s*and\s*Armor\s*Accessories\s*_";
         public string ECClassificationAmmunition => @"_\s*Ammunition\s*_";

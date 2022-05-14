@@ -115,6 +115,119 @@
 
 \pagebreak
 
+<div class='wide'>
+
+## Exotic Weapons
+
+</div>
+
+A new weapon tier succeeding simple and martial weapons, exotic weapons introduce new special weapons with unique capacities that can not be achieved by simple or martial weapons.
+
+### Proficiency
+In order to gain proficiency in an exotic weapon, you must first have proficiency in all simple and martial weapons within that category. For instance, before you can be come proficient with an exotic blaster, you would first need to be proficient in all simple and martial blasters. For modal exotics (discussed below), if the exotic has modes that would fall in two different weapon categories, you require proficiency all simple and martial weapons in both categories in order to gain proficiency in that exotic.
+
+### Types of Exotic Weapons
+Exotic weapons come in two major types: modal and specialized.
+
+#### Modal Exotics
+Modal exotics have the capacity to switch between modes, with each mode utilizing the damage and properties of an existing weapon, as indicated by the weapons included with the property. Switching between each mode can be achieved by using a character's object interaction on their turn.
+
+> #### Combination Weapons
+> This rule allows characters to combine lightweapons with other lightweapons and vibroweapons with other vibroweapons, granting modes that can be switched between on a character's turn by using their object interaction. Blasters, on the other hand, can gain an attachment that lets them load wrist launcher ammunition in addition to their base ammunition, granting them some limited additional effects.
+>
+> Modal exotics instead allow a blaster to have multiple modes that a character can switch between using their object interaction. Modal lightweapons and vibroweapons can grant a mode of a different weapon type, still using that object interaction to switch between. For instance, a modal exotic vibroweapon could have a separate blaster or lightweapon mode, instead of a vibroweapon mode.
+>
+> Additionally, modal exotics count as a number of weapons equal to their modes when using the Combination Weapons rule. For instance, an IWS has three modes and thus would count as three weapons. Adding the wrist launcher attachment to it would require a DC 20 ability check, as appropriate, and a proficiency bonus of +4. The attachment would only have a reload property of 1, in this instance, since the total reload number of this attachment combined with the number of weapon modes should not exceed what the total number of combined weapons could be, per the Combination/Separation DC by Weapons table.
+
+\columnbreak
+
+#### Specialized Exotics
+Specialized exotics, on the other hand, bypass the inherent base and cap to a weapon property. For instance, a weapon with the keen 1 property could not bypass keen 3, per the rules of weapon modifications. A specialized exotic, on the other hand, could potentially start with the keen 2 property, and have up to the keen 4 property. A specialized exotic weapon must have that property in order to bypass its base and cap, and a specialized exotic cannot bypass the base and cap of more than one property.
+
+***Biting.*** A specialized exotic lightweapon with this property gains a +2 bonus to its base and cap.
+
+***Bright.*** A specialized exotic lightweapon with this property gains a +2 bonus to its base and cap.
+
+***Brutal.*** A specialized exotic weapon with this property gains a +1 bonus to its base and cap.
+
+***Corrupting.*** A specialized exotic lightweapon with this property gains a +2 bonus to its base and cap.
+
+***Defensive.*** A specialized exotic light- or vibro-weapon with this property gains a +1 bonus to its base and cap.
+
+***Dire.*** A specialized exotic weapon with this property gains a +1 bonus to its base and cap.
+
+***Disintegrate.*** A specialized exotic blaster with this property gains a +2 bonus to its base and cap.
+
+***Keen.*** A specialized exotic weapon with this property gains a +1 bonus to its base and cap.
+
+***Neuralizing.*** A specialized exotic vibroweapon with this property gains a +2 bonus to its base and cap.
+
+***Piercing.*** A specialized exotic weapon with this property gains a +1 bonus to its base and cap.
+
+***Shocking.*** A specialized exotic vibroweapon with this property gains a +2 bonus to its base and cap.
+
+***Smart.*** A specialized exotic blaster with this property gains a (+2, 0) bonus to its base and cap.
+
+***Sonorous.*** A specialized exotic vibroweapon with this property gains a +2 bonus to its base and cap.
+
+***Vicious.*** A specialized exotic weapon with this property gains a +1 bonus to its base and cap.
+
+### Generating Exotics
+Exotics can be generated just like weapons using the weapon calculator, with the following variations.
+
+#### Modal
+___
+- **1.** Modal exotics take the highest weight of each its modes, and add half the weight of each of the other modes.
+- **2.** Modal exotics combine the value of each of its modes.
+
+#### Specialized
+___
+- **1.** Specialized exotics use the framework of a martial weapon of the appropriate category with an appropriate property.
+- **2.** Specialized exotics adds the specialized property value and weight a second time.
+
+### Exotic Weapon Chassis
+For modal exotics, each mode has separate modification slots, with the exception of augments; augments are shared across all weapon modes. Specialized exotics function like non-exotic weapons.
+
+\pagebreak
+
+<div class='classTable wide' style='position:absolute;bottom:20px;left:75px;width:687px'>
+
+##### Blasters
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| &emsp;Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties| 
+|:---|---:|:---|-:|:---|
+|	_Exotic Blasters_	|||||
+| &emsp;Bo-rifle		|  1,075 cr&nbsp;&nbsp;|—		| 8.75 lb&nbsp;&nbsp;	|Modal (blaster rifle and techstaff) |
+| &emsp;IWS           |  3,625 cr&nbsp;&nbsp;|—     |23.00 lb&nbsp;&nbsp;  |Modal (blaster rifle, grenade launcher, and sniper rifle)|
+| &emsp;Radrifle			|  1,575 cr&nbsp;&nbsp;| 1d6 necrotic|14.00 lb&nbsp;&nbsp;|Disintegrate 15, power cell (range 120/480), reload 8, specialized<br> (disintegrate), strength 13, two-handed|
+
+##### Lightweapons
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|:---|---:|:---|-:|:---|
+|	_Exotic Lightweapons_	|||||||
+| &emsp;Saberstaff		|  1,375 cr&nbsp;&nbsp;|—		| 6.50 lb&nbsp;&nbsp;	|Modal (double-saber and tech-staff) |
+| &emsp;Sunsaber	    |  1,875 cr&nbsp;&nbsp;|1d6 fire| 3.00 lb&nbsp;&nbsp;	|Bright 15, dexterity 11, hidden, specialized (bright), versatile (2d4)|
+
+##### Vibroweapons
+|Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|:---|---:|:---|-:|:---|
+|	_Exotic Vibroweapons_	|||||
+| &emsp;Bo-rifle		|  1,075 cr&nbsp;&nbsp;|—		| 8.75 lb&nbsp;&nbsp;	|Modal (blaster rifle and techstaff) |
+| &emsp;Neuronic whip	|    725 cr&nbsp;&nbsp;|1d4 kinetic		| 4.00 lb&nbsp;&nbsp;	|Reach, shocking 15, specialized (shocking)|
+| &emsp;Saberstaff		|  1,375 cr&nbsp;&nbsp;|—		| 6.50 lb&nbsp;&nbsp;	|Modal (double-saber and tech-staff) |
+
+</div>
+
+\pagebreak
+
+### Weapon Properties
+Many weapons have special properties related to their use, as shown in the Weapons table.
+
+#### Modal
+A weapon with this property can switch between modes. A list of weapons in parentheses appears with the property-the weapons between which an exotic weapon can be switched by using an object interaction.
+
+#### Specialized
+A weapon with this property bypasses the base and cap of certain properties. Another weapon property in parentheses with the property-the weapon property that the exotic bypasses the base and cap for.
+
 ### Special Weapons
 Weapons with special rules are described below.
 

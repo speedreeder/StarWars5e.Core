@@ -20,6 +20,7 @@ namespace StarWars5e.Parser.Processors
             Localization = localization;
             WeaponProperties.AddRange(localization.PlayerHandbookWeaponProperties.Select(p => p.name));
             WeaponProperties.AddRange(localization.WretchedHivesWeaponProperties.Select(w => w.name));
+            WeaponProperties.AddRange(localization.ExpandedContentWeaponProperties.Select(w => w.name));
         }
         public override async Task<List<Equipment>> FindBlocks(List<string> lines)
         {
@@ -28,6 +29,10 @@ namespace StarWars5e.Parser.Processors
             equipment.AddRange(await ParseWeapons(lines, Localization.ECBlastersStartLine, false, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseWeapons(lines, Localization.ECSimpleLightweaponsStartLine, true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseWeapons(lines, Localization.ECSimpleVibroweaponsStartLine, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECExoticBlasters, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECExoticLightweapons, true, 1, ContentType.ExpandedContent));
+            equipment.AddRange(await ParseWeapons(lines, Localization.ECExoticVibroweapons, true, 1, ContentType.ExpandedContent));
+
             equipment.AddRange(await ParseOtherEquipment(lines, Localization.ECAmmunitionStartLine, true, 1, ContentType.ExpandedContent));
             equipment.AddRange(await ParseOtherEquipment(lines, Localization.ECStorageStartLine, true, 1, ContentType.ExpandedContent));
 
@@ -102,6 +107,10 @@ namespace StarWars5e.Parser.Processors
                             weapon.Cost = int.Parse(costMatch.Value, NumberStyles.AllowThousands);
                             weapon.WeaponClassificationEnum = weaponClassification;
                             weapon.EquipmentCategoryEnum = EquipmentCategory.Weapon;
+
+                            if (weapon.WeaponClassification.ToString().Contains("exotic", StringComparison.OrdinalIgnoreCase)) {
+                                weapon.RowKey = $"{weapon.Name}_{weapon.WeaponClassification}";
+                            }
 
                             var weaponDescriptionStartLine =
                                 lines.FindIndex(f =>
@@ -337,6 +346,18 @@ namespace StarWars5e.Parser.Processors
             if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationMartialVibroweapons, RegexOptions.IgnoreCase))
             {
                 return WeaponClassification.MartialVibroweapon;
+            }
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationExoticBlasters, RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.ExoticBlaster;
+            }
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationExoticLightweapons, RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.ExoticLightweapon;
+            }
+            if (Regex.IsMatch(weaponClassificationLine, Localization.ECClassificationExoticVibroweapons, RegexOptions.IgnoreCase))
+            {
+                return WeaponClassification.ExoticVibroweapon;
             }
 
             return WeaponClassification.Unknown;

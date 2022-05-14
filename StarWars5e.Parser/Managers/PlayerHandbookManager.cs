@@ -479,12 +479,12 @@ namespace StarWars5e.Parser.Managers
                 var weaponProperties =
                     await _weaponPropertyProcessor.Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_05.txt")).ToList(), _localization);
 
-                var specialProperty = weaponProperties.SingleOrDefault(w => w.Name == "Special");
-                if (specialProperty != null)
-                {
-                    specialProperty.Content =
-                        "#### Special\r\nA weapon with the special property has unusual rules governing its use, explained in the weapon's description.";
-                }
+                //var specialProperty = weaponProperties.SingleOrDefault(w => w.Name == "Special");
+                //if (specialProperty != null)
+                //{
+                //    specialProperty.Content =
+                //        "#### Special\r\nA weapon with the special property has unusual rules governing its use, explained in the weapon's description.";
+                //}
 
                 await _tableStorage.AddBatchAsync<WeaponProperty>($"weaponProperties{_localization.Language}", weaponProperties,
                     new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
