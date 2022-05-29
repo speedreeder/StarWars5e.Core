@@ -1186,6 +1186,8 @@ namespace StarWars5e.Parser.Localization
 
         public List<(string name, string startLine, int occurence)> ExpandedContentWeaponProperties => throw new NotImplementedException();
 
+        public string Feat => throw new NotImplementedException();
+
         public string GetDeploymentTableStart(string deploymentName)
         {
             throw new System.NotImplementedException();

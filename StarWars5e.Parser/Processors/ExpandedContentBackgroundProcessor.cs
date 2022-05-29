@@ -101,8 +101,8 @@ namespace StarWars5e.Parser.Processors
                 background.FeatureText = string.Join("\r\n",
                     backgroundLines.Skip(featureLineStart + 1).Take(featureLineEnd - (featureLineStart + 1)));
 
-                var featTableLinesStart = backgroundLines.FindIndex(f => f.Contains(Localization.ECFeatStartLine));
-                var featTableDieType = Regex.Match(backgroundLines[featTableLinesStart], @"\d+").Value;
+                var featTableLinesStart = backgroundLines.FindIndex(f => f.Contains('|') && f.Contains(Localization.Feat));
+                var featTableDieType = Regex.Match(backgroundLines[featTableLinesStart], @"\s*\d+\s*").Value;
                 var featTableLinesEnd = backgroundLines.FindIndex(featTableLinesStart, f => Regex.IsMatch(f, @"\|\s*" + $"{featTableDieType}" + @"\s*\|"));
                 var featTableLines = backgroundLines.Skip(featTableLinesStart + 1).Take(featTableLinesEnd - featTableLinesStart)
                     .Where(f => Regex.IsMatch(f, @"^\|\s*\d"));

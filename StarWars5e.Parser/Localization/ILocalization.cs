@@ -33,6 +33,7 @@ namespace StarWars5e.Parser.Localization
         public string Level { get; }
         public string Prerequisite { get; }
         public string Feats { get; }
+        public string Feat { get; }
         public string Any { get; }
         public string ability { get; }
         public string Stun { get; }
@@ -437,7 +438,6 @@ namespace StarWars5e.Parser.Localization
         public string ECSkillProficienciesPattern { get; }
         public string ECSuggestedCharacteristicsStartLine { get; }
         public string ECFeatureStartLine { get; }
-        public string ECFeatStartLine { get; }
         public string ECPersonalityTraitsPattern { get; }
         public string ECIdealsPattern { get; }
         public string ECBondsPattern { get; }

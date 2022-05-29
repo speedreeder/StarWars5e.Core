@@ -34,6 +34,7 @@ namespace StarWars5e.Parser.Localization
         public string Level => "Level";
         public string Prerequisite => "Prerequisite";
         public string Feats => "Feats";
+        public string Feat => "Feat";
         public string Any => "Any";
         public string ability => "ability";
         public string Stun => "Stun";
@@ -573,7 +574,6 @@ namespace StarWars5e.Parser.Localization
         public string ECSkillProficienciesPattern => @"\*\*Skill Profic[i]?encies";
         public string ECSuggestedCharacteristicsStartLine => "#### Suggested Characteristics";
         public string ECFeatureStartLine => "### Feature";
-        public string ECFeatStartLine => "|Feat";
         public string ECPersonalityTraitsPattern => @"\|\s*Personality\s*Trait[s]?\s*\|";
         public string ECIdealsPattern => @"\|\s*Ideal[s]?\s*\|";
         public string ECBondsPattern => @"\|\s*Bond[s]?\s*\|";
