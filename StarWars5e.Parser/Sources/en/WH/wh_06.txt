@@ -8,22 +8,20 @@
 
 This chapter expands on feats, which are special options you can choose instead of increasing your ability scores as you gain levels. Your GM decides whether these options are available in a campaign.
 
-#### Class Weapon Proficiencies
-Certain classes—berserker, consular, engineer, fighter, guardian, and scout—have proficiency in all of a type of weapon. For instance, fighters are proficient in all blasters and all vibroweapons. Consequently, fighters have proficiency in all blasters and vibroweapons present in Chapter 5. Other classes—monks, operatives, scholars, and sentinels—have proficiency in a certain set of weapons. For each of these classes, they gain proficiency in only certain weapons, as shown below in the Weapon Proficiencies by Class table:
+### Fighting Styles and Masteries
+Wretched Hives introduces new ammunition types, such as the specialized power cells, or rockets. You'll want to extend the benefits of certain Fighting Styles and Fighting Masteries to these new munitions, as explained below.
 
-##### Weapon Proficiencies by Class
-|Class|Weapon Proficiencies|
-|:--|:--|
-|Berserker|All vibroweapons, simple blasters|
-|Consular|Simple lightweapons, simple vibroweapons|
-|Engineer|Simple blasters, simple vibroweapons|
-|Fighter|All blasters, all vibroweapons|
-|Guardian|All lightweapons, all vibroweapons|
-|Monk|Simple blasters, simple vibroweapons, bolas|
-|Operative|Simple vibroweapons, simple blasters, bolas, electrobaton, incinerator pistol, riot baton, riot shocker, sonic pistol, vibroknife, wristblade|
-|Scholar|Simple blasters, simple vibroweapons, electrobaton, incinerator pistol, sonic pistol, vibroknife|
-|Scout|All blasters, all vibroweapons|
-|Sentinel|Simple vibroweapons, simple lightweapons, bolas, chained dagger, chained lightdagger, electrobaton, electrostaff, guard shoto, lightfist, riot baton, riot shocker, vibroshield, vibroknife, vibrotonfa, war hat, wristblade|
+#### Explosives Style and Mastery
+You will want to extend the benefits of this pair to include rockets.
+
+#### Area Style and Mastery
+You will want to extend the benefits of this pair to include flechette clips, flechette mags, and projector tanks.
+
+#### Gunning Style and Mastery
+You'll want to extend the benefits of this pair to include specialized power cells and slug cartridges.
+
+### Class Proficiencies
+Certain classes, such as fighters or guardians, gain proficiency in all weapons within a specific category. For instance, fighters gain proficiency in all blasters and vibroweapons, and guardians gain proficiency in all lightweapons and vibroweapons. Monk, operative, scholar, and sentinel, on the other hand, only gain proficiency in martial weapons that meet certain criteria. If that criteria is met due to the use of an item or feature that add—or remove—a referenced property, this does not grant that class proficiency in the weapon. For instance, operatives gain proficiency in simple blasters, simple vibroweapons, martial blasters that lack the auto, special, strength, and two-handed properties, martial vibroweapons with the finesse property. If they add the finesse property to a vibroweapon, or remove the strength property from a blaster weapon, this would not grant the operative proficiency in that weapon.
 
 \columnbreak
 
@@ -33,6 +31,7 @@ A feat represents a talent or an area of expertise that gives character special 
 You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
 
 ### Augmented Cyborg
+_**Prerequisite:** Type beast or humanoid_<br>
 You've experimented with cybernetic augmentations, granting the following benefits: 
 - Increase an ability score of your choice by 1, to a maximum of 20.
 - Choose one cybernetic augmentation of standard rarity from Appendix A. That augmentation is installed and doesn't count against the maximum cybernetic augmentations you can support, but it does count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table in Chapter 7.
@@ -307,45 +306,45 @@ You've specialized your combat training with trip weapons. You gain the followin
 |:---|:---|
 |	 Assault cannon        	|	 Heavy 	|
 |	 Beam rifle            	|	 Rifle 	|
-|	 Bite-saber            	|	 Blade 	|
+|	 Bitesaber            	|	 Blade 	|
 |	 BKG                   	|	 Heavy 	|
 |	 Blaster carbine       	|	 Carbine 	|
 |	 Blaster pistol        	|	 Sidearm 	|
 |	 Blaster rifle         	|	 Rifle 	|
-|	 Blight-saber          	|	 Blade 	|
+|	 Blightsaber          	|	 Blade 	|
 |	 Bowcaster             	|	 Heavy 	|
-|	 Bright-saber          	|	 Blade 	|
-|	 Broad-saber           	|	 Blade 	|
-|	 Buster saber          	|	 Crush 	|
+|	 Brightsaber          	|	 Blade 	|
+|	 Broadsaber           	|	 Blade 	|
+|	 Buster saber          	|	 Crushing 	|
 |	 Carbine rifle         	|	 Carbine 	|
 |	 Chaingun              	|	 Heavy 	|
 |	 Chakram           	|	 Trip 	|
 |	 Crossguard saber      	|	 Blade 	|
-|	 Cryo Cannon           	|	 Heavy 	|
-|	 Cryo Carbine          	|	 Carbine 	|
-|	 Cryo Pistol           	|	 Sidearm 	|
-|	 Cryo Rifle            	|	 Rifle 	|
+|	 Cryo cannon           	|	 Heavy 	|
+|	 Cryo carbine          	|	 Carbine 	|
+|	 Cryo pistol           	|	 Sidearm 	|
+|	 Cryo rifle            	|	 Rifle 	|
 |	 Cycler rifle          	|	 Rifle 	|
-|	 Dire Vibroblade   	|	 Blade 	|
+|	 Dire vibroblade   	|	 Blade 	|
 |	 Diresword         	|	 Blade 	|
-|	 Disruptor Carbine     	|	 Carbine 	|
-|	 Disruptor Pistol      	|	 Sidearm 	|
-|	 Disruptor Rifle       	|	 Rifle 	|
-|	 Disruptor Sniper      	|	 Rifle 	|
-|	 Double-blade      	|	 Blade 	|
-|	 Double-saber          	|	 Blade 	|
-|	 Double-shoto          	|	 Blade 	|
-|	 Double-sword      	|	 Blade 	|
+|	 Disruptor carbine     	|	 Carbine 	|
+|	 Disruptor pistol      	|	 Sidearm 	|
+|	 Disruptor rifle       	|	 Rifle 	|
+|	 Disruptor sniper      	|	 Rifle 	|
+|	 Doubleblade      	|	 Blade 	|
+|	 Doublesaber          	|	 Blade 	|
+|	 Doubleshoto          	|	 Blade 	|
+|	 Doublesword      	|	 Blade 	|
 |	 Dual-phase saber      	|	 Blade 	|
 |	 Echostaff         	|	 Polearm 	|
-|	 Electro-baton     	|	 Trip 	|
+|	 Electrobaton     	|	 Trip 	|
 
 | Weapon | Class |
 |:---|:---|
-|	 Electro-hammer    	|	 Crush 	|
-|	 Electro-staff     	|	 Polearm 	|
+|	 Electrohammer    	|	 Crushing 	|
+|	 Electrostaff     	|	 Polearm 	|
 |	 Flechette cannon      	|	 Heavy 	|
-|	 Great-saber           	|	 Crush 	|
+|	 Great-saber           	|	 Crushing 	|
 |	 Grenade launcher      	|	 Heavy 	|
 |	 Guard shoto           	|	 Trip 	|
 |	 Hand BKG              	|	 Heavy 	|
@@ -361,10 +360,10 @@ You've specialized your combat training with trip weapons. You gain the followin
 |	 Hidden blade      	|	 Trip 	|
 |	 Hold-out              	|	 Sidearm 	|
 |	 Hunting rifle         	|	 Rifle 	|
-|	 Incinerator Carbine   	|	 Carbine 	|
-|	 Incinerator Pistol    	|	 Sidearm 	|
-|	 Incinerator Rifle     	|	 Rifle 	|
-|	 Incinerator Sniper    	|	 Rifle 	|
+|	 Incinerator carbine   	|	 Carbine 	|
+|	 Incinerator pistol    	|	 Sidearm 	|
+|	 Incinerator rifle     	|	 Rifle 	|
+|	 Incinerator sniper    	|	 Rifle 	|
 |	 Ion cannon            	|	 Heavy 	|
 |	 Ion carbine           	|	 Carbine 	|
 |	 Ion pistol            	|	 Sidearm 	|
@@ -372,84 +371,84 @@ You've specialized your combat training with trip weapons. You gain the followin
 |	 Light pistol          	|	 Sidearm 	|
 |	 Light Repeater        	|	 Carbine 	|
 |	 Light slugpistol      	|	 Sidearm 	|
-|	 Light-axe             	|	 Crush 	|
-|	 Light-blade           	|	 Blade 	|
+|	 Lightaxe             	|	 Crushing 	|
+|	 Lightblade           	|	 Blade 	|
 |	 Lightbow              	|	 Rifle 	|
 
 | Weapon | Class |
 |:---|:---|
-|	 Light-club            	|	 Crush 	|
-|	 Light-dagger          	|	 Trip 	|
-|	 Light-foil            	|	 Blade 	|
-|	 Light-glaive          	|	 Polearm 	|
-|	 Light-katana          	|	 Blade 	|
-|	 Light-lance           	|	 Polearm 	|
-|	 Light-nodachi         	|	 Polearm 	|
+|	 Lightclub            	|	 Crushing 	|
+|	 Lightdagger          	|	 Trip 	|
+|	 Lightfoil            	|	 Blade 	|
+|	 Lightglaive          	|	 Polearm 	|
+|	 Lightkatana          	|	 Blade 	|
+|	 Lightlance           	|	 Polearm 	|
+|	 Lightnodachi         	|	 Polearm 	|
 |	 Lightsaber            	|	 Blade 	|
 |	 Martial lightsaber    	|	 Blade 	|
-|	 Nerve-baton       	|	 Trip 	|
+|	 Nervebaton       	|	 Trip 	|
 |	 Net               	|	 Trip 	|
-|	 Pike-saber            	|	 Polearm 	|
+|	 Pikesaber            	|	 Polearm 	|
 |	 Railgun               	|	 Rifle 	|
 |	 Repeating blaster     	|	 Heavy 	|
-|	 Rocket Launcher       	|	 Heavy 	|
+|	 Rocket launcher       	|	 Heavy 	|
 |	 Rotary cannon         	|	 Heavy 	|
-|	 Saber-mace            	|	 Crush 	|
-|	 Saber-spear           	|	 Polearm 	|
-|	 Saber-whip            	|	 Trip 	|
+|	 Sabermace            	|	 Crushing 	|
+|	 Saberspear           	|	 Polearm 	|
+|	 Saberwhip            	|	 Trip 	|
 |	 Scattergun            	|	 Sidearm 	|
 |	 Shotgun               	|	 Carbine 	|
 |	 Shotosaber            	|	 Blade 	|
-|	 Shoulder Blaster      	|	 Sidearm 	|
-|	 Shoulder Cannon       	|	 Heavy 	|
-|	 Sickle-saber          	|	 Blade 	|
+|	 Shoulder blaster      	|	 Sidearm 	|
+|	 Shoulder cannon       	|	 Heavy 	|
+|	 Sicklesaber          	|	 Blade 	|
 |	 Sith saber            	|	 Blade 	|
 |	 Slugpistol            	|	 Sidearm 	|
 |	 Slugthrower           	|	 Rifle 	|
-|	 Smart Cannon          	|	 Heavy 	|
-|	 Smart Pistol          	|	 Sidearm 	|
+|	 Smart cannon          	|	 Heavy 	|
+|	 Smart pistol          	|	 Sidearm 	|
 |	 Sniper rifle          	|	 Rifle 	|
-|	 Split-saber           	|	 Blade 	|
+|	 Splitsaber           	|	 Blade 	|
 |	 Subrepeater           	|	 Sidearm 	|
 
 | Weapon | Class |
 |:---|:---|
-|	 Tech-axe          	|	 Crush 	|
-|	 Tech-blade        	|	 Blade 	|
-|	 Tech-knife        	|	 Blade 	|
-|	 Tech-staff        	|	 Polearm 	|
+|	 Techaxe          	|	 Crushing 	|
+|	 Techblade        	|	 Blade 	|
+|	 Techstaff        	|	 Polearm 	|
 |	 Vapor Projector       	|	 Heavy 	|
-|	 Vibro-axe         	|	 Crush 	|
-|	 Vibro-battleaxe   	|	 Crush 	|
-|	 Vibro-blade       	|	 Blade 	|
-|	 Vibro-buster      	|	 Crush 	|
-|	 Vibro-dagger      	|	 Trip 	|
-|	 Vibro-dart        	|	 Trip 	|
-|	 Vibro-flail       	|	 Crush 	|
-|	 Vibro-glaive      	|	 Polearm 	|
-|	 Vibro-hammer      	|	 Crush 	|
-|	 Vibro-katana      	|	 Blade 	|
-|	 Vibro-knuckler    	|	 Trip 	|
-|	 Vibro-mace        	|	 Crush 	|
-|	 Vibro-nodachi     	|	 Polearm 	|
-|	 Vibro-pike        	|	 Polearm 	|
-|	 Vibro-rapier      	|	 Blade 	|
-|	 Vibro-sabre       	|	 Blade 	|
-|	 Vibro-shield      	|	 Crush 	|
-|	 Vibro-spear       	|	 Polearm 	|
-|	 Vibro-staff       	|	 Polearm 	|
-|	 Vibro-stiletto    	|	 Trip 	|
-|	 Vibro-sword       	|	 Blade 	|
-|	 Vibro-tonfa       	|	 Trip 	|
-|	 Vibro-whip        	|	 Trip 	|
+|	 Vightaxe         	|	 Crushing 	|
+|	 Vightbattleaxe   	|	 Crushing 	|
+|	 Vightblade       	|	 Blade 	|
+|	 Vightbuster      	|	 Crushing 	|
+|	 Vightdagger      	|	 Trip 	|
+|	 Vightdart        	|	 Trip 	|
+|	 Vightflail       	|	 Crushing 	|
+|	 Vightglaive      	|	 Polearm 	|
+|	 Vighthammer      	|	 Crushing 	|
+|	 Vightkatana      	|	 Blade 	|
+|	 Vightknife        	|	 Blade 	|
+|	 Vightknuckler    	|	 Trip 	|
+|	 Vightmace        	|	 Crushing 	|
+|	 Vightnodachi     	|	 Polearm 	|
+|	 Vightpike        	|	 Polearm 	|
+|	 Vightrapier      	|	 Blade 	|
+|	 Vightsabre       	|	 Blade 	|
+|	 Vightshield      	|	 Crushing 	|
+|	 Vightspear       	|	 Polearm 	|
+|	 Vightstaff       	|	 Polearm 	|
+|	 Vightstiletto    	|	 Trip 	|
+|	 Vightsword       	|	 Blade 	|
+|	 Vighttonfa       	|	 Trip 	|
+|	 Vightwhip        	|	 Trip 	|
 |	 War hat           	|	 Trip 	|
-|	 Warsaber              	|	 Crush 	|
-|	 Warsword          	|	 Crush 	|
-|	 Wrist blaster         	|	 Sidearm 	|
+|	 Warsaber              	|	 Crushing 	|
+|	 Warsword          	|	 Crushing 	|
+|	 Wristblaster         	|	 Sidearm 	|
 |	 Wrist launcher        	|	 Sidearm 	|
 
 </div>
 
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum

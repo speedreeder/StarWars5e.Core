@@ -259,8 +259,8 @@ namespace StarWars5e.Parser.Processors.SOTG
                 {
                     var tableHeaderLine = chapterLines[tableHeaderLineIndex];
 
-                    var name = tableHeaderLine.RemoveHashtagCharacters().Trim();
-                    var repeatIndexes = chapterLines.FindAllIndexOf(f => Regex.IsMatch(f, $@"^#+\s*{name}"));
+                    var name = tableHeaderLine.RemoveHashtagCharacters().RemoveMarkdownCharacters().Trim();
+                    var repeatIndexes = chapterLines.FindAllIndexOf(f => Regex.IsMatch(f, $@"^#{{1,5}}\s*{name}"));
 
                     var instance = repeatIndexes.IndexOf(tableHeaderLineIndex) + 1;
 

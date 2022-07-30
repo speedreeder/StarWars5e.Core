@@ -62,8 +62,8 @@ namespace StarWars5e.Parser.Processors.SOTG
                 {
                     TypeEnum = type,
                     PartitionKey = ContentType.Core.ToString(),
-                    RowKey = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
-                    Name = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1),
+                    RowKey = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1).Trim(),
+                    Name = systemLines[i].Substring(systemLines[i].IndexOf(' ') + 1).Trim(),
                     Prerequisites = modificationLines.Where(s => s.StartsWith($"_**{Localization.Prerequisite}",
                             StringComparison.InvariantCultureIgnoreCase)).Select(s =>
                             s.Substring(s.IndexOf(' ') + 1).Replace("_", string.Empty).Replace("<br>", string.Empty))

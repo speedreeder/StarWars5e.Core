@@ -272,7 +272,7 @@ Weapons with this property can only fire in burst, penetrating, or rapid modes. 
 <div style='margin-top:28px'></div>
 
 #### Burst
-When you would make a ranged weapon attack with a weapon with this property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use this property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save.
+When you would make a ranged weapon attack with a weapon with this property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use this property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw.
 
 #### Dexterity
 A weapon with this property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. 
@@ -290,7 +290,7 @@ When making an attack with a weapon with this property, you use your choice of y
 A weapon with this property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon.
 
 #### Heavy
-When you hit with an attack roll using Strength with a weapon with this property, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1).
+When you hit with an attack roll using Strength with a weapon with this property, you deal additional damage equal to half your Strength modifier (minimum of +1).
 
 #### Hidden
 You have advantage on Dexterity (Sleight of Hand) checks made to conceal a weapon with this property.
@@ -309,7 +309,7 @@ A weapon with this property is small and easy to handle, making it ideal for use
 A weapon with this property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage.
 
 #### Penetrating 
-When you would make a ranged weapon attack with a weapon with this property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage.
+When you would make a ranged weapon attack with a weapon with this property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage. Alternatively, you can use this property to fire at a creature through partial cover. When you do so, you reduce the target's cover by one step (from three-quarters to half or half to one-quarter), rather than targeting a second creature.
 
 #### Power Cell
 Weapons with this property are fueled by power cells, which must be loaded in order to fire the weapon.
@@ -318,7 +318,7 @@ Weapons with this property are fueled by power cells, which must be loaded in or
 A weapon that can be used to make a ranged attack has this property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
 
 #### Rapid
-When you would make a ranged weapon attack with a weapon with this property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has advantage on the save.
+When you would make a ranged weapon attack with a weapon with this property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw.
 
 #### Reach
 A weapon with this property adds 5 feet to your reach with it.
@@ -326,13 +326,13 @@ A weapon with this property adds 5 feet to your reach with it.
 #### Reload
 A number of shots equal to the reload number can be made with a weapon with this property. A character must then reload it using an action or a bonus action (their choice). You must have one free hand to reload.
 
+\columnbreak
+
 #### Returning 
 When you throw a weapon with this property, it automatically returns to your hand after the attack is complete, whether you hit or miss.
 
 #### Slug Cartridge
 Weapons with this property fire slug cartridges, which must be loaded in order to fire the weapon.
-
-\columnbreak
 
 #### Special
 A weapon with this property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).
@@ -373,44 +373,44 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |	_Simple Blasters_	|||||
 | &emsp;Blaster carbine		|425 cr&nbsp;&nbsp;   |1d6 energy     |5.50 lb&nbsp;   |Power cell (range 70/280), reload 16, two-handed |
 | &emsp;Blaster pistol		|175 cr&nbsp;&nbsp;   |1d6 energy     |2.50 lb&nbsp;   |Power cell (range 50/200), reload 16|
-| &emsp;Bowcaster           |1,150 cr&nbsp;&nbsp; |1d10 energy    |11.00 lb&nbsp;    |Power cell (range 50/200), burst 4, reload 4, strength 13, two-handed|
-| &emsp;Hold-out 			|225 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Power cell (range 30/120), hidden, light, reload 8|
+| &emsp;Bowcaster           |1,150 cr&nbsp;&nbsp; |1d10 energy    |11.00 lb&nbsp;    |Burst 4, power cell (range 50/200), reload 4, strength 13, two-handed|
+| &emsp;Hold-out 			|225 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Hidden, light, power cell (range 30/120), reload 8|
 | &emsp;Ion carbine	  	    |750 cr&nbsp;&nbsp;   |1d3 ion        |5.00 lb&nbsp;     |Power cell (range 60/240), reload 16, two-handed |
 | &emsp;Ion pistol			|250 cr&nbsp;&nbsp;   |1d3 ion        |1.00 lb&nbsp;     |Power cell (range 40/160), reload 16|
-| &emsp;Light pistol 		|250 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Power cell (range 40/160), light, reload 8|
-| &emsp;Light repeater      |625 cr&nbsp;&nbsp;   |1d6 energy     |6.00 lb&nbsp;     |Power cell (range 50/200), auto, rapid 5, reload 20, two-handed |
-| &emsp;Light slugpistol    |250 cr&nbsp;&nbsp;   |1d4 kinetic    |1.00 lb&nbsp;     |Slug cartridge (range 35/140), light, reload 8 |
-| &emsp;Scattergun			|625 cr&nbsp;&nbsp;   |1d6 kinetic    |2.00 lb&nbsp;     |Slug cartridge (range 30/120), burst 2, reload 8, strength 11|
-| &emsp;Shotgun 			|725 cr&nbsp;&nbsp;   |2d4 kinetic    |6.50 lb&nbsp;	|Slug cartridge (range 30/120), burst 2, reload 4, strength 11, two-handed|
-| &emsp;Slugpistol          |325 cr&nbsp;&nbsp;   |1d6 kinetic    |3.00 lb&nbsp;     |Slug cartridge (range 40/160), rapid 8, reload 16, strength 11|
-| &emsp;Wristblaster        |200 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Power cell (range 30/120), disguised, fixed, light, reload 8 |
-| &emsp;Wrist launcher		|400 cr&nbsp;&nbsp;   |—              |2.00 lb&nbsp;	    |Ammunition (range 30/120), fixed, reload 1, special|
+| &emsp;Light pistol 		|250 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Light, power cell (range 40/160), reload 8|
+| &emsp;Light repeater      |625 cr&nbsp;&nbsp;   |1d6 energy     |6.00 lb&nbsp;     |Auto, power cell (range 50/200), rapid 5, reload 20, two-handed |
+| &emsp;Light slugpistol    |250 cr&nbsp;&nbsp;   |1d4 kinetic    |1.00 lb&nbsp;     |Light, reload 8, slug cartridge (range 35/140) |
+| &emsp;Scattergun			|625 cr&nbsp;&nbsp;   |1d6 kinetic    |2.00 lb&nbsp;     |Burst 2, reload 8, slug cartridge (range 30/120), strength 11|
+| &emsp;Shotgun 			|725 cr&nbsp;&nbsp;   |2d4 kinetic    |6.50 lb&nbsp;	|Burst 2, reload 4, slug cartridge (range 30/120), strength 11, two-handed|
+| &emsp;Slugpistol          |325 cr&nbsp;&nbsp;   |1d6 kinetic    |3.00 lb&nbsp;     |Rapid 8, reload 16, slug cartridge (range 40/160), strength 11|
+| &emsp;Wristblaster        |200 cr&nbsp;&nbsp;   |1d4 energy     |0.50 lb&nbsp;   |Disguised, fixed, light, power cell (range 30/120), reload 8 |
+| &emsp;Wrist launcher		|400 cr&nbsp;&nbsp;   |—              |2.00 lb&nbsp;	    |Fixed, reload 1, special (range 30/120)|
 
 <div style='margin-top:39px'></div>
 
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;Cost&nbsp;&nbsp;|Damage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Weight&nbsp;|Properties| 
 |:---|---:|:---|-:|:---|
 |	_Martial Blasters_	|||||
-| &emsp;Assault cannon		|1,550 cr&nbsp;&nbsp; |1d12 energy    |15.00 lb&nbsp;    |Power cell (range 90/360), burst 4, reload 4, strength 15, two-handed|
-| &emsp;Beam rifle	    	|1,850 cr&nbsp;&nbsp; |2d6 energy     |16.00 lb&nbsp;    |Power cell (range 150/600), penetrating 2, reload 2, strength 15, <br>two-handed|
+| &emsp;Assault cannon		|1,550 cr&nbsp;&nbsp; |1d12 energy    |15.00 lb&nbsp;    |Burst 4, power cell (range 90/360), reload 4, strength 15, two-handed|
+| &emsp;Beam rifle	    	|1,850 cr&nbsp;&nbsp; |2d6 energy     |16.00 lb&nbsp;    |Penetrating 2, power cell (range 150/600), reload 2, strength 15, <br>two-handed|
 | &emsp;Blaster rifle		|525 cr&nbsp;&nbsp;   |1d8 energy     |7.50 lb&nbsp;   |Power cell (range 105/420), reload 12, two-handed|
-| &emsp;Carbine rifle       |925 cr&nbsp;&nbsp;   |1d8 energy     |8.50 lb&nbsp;   |Power cell (range 90/360), auto, rapid 3, reload 12, strength 11, <br>two-handed |
-| &emsp;Cycler rifle 		|825 cr&nbsp;&nbsp;   |1d8 kinetic    |7.50 lb&nbsp;   |Slug cartridge (range 90/360), rapid 2, reload 8, strength 11, two-handed |
+| &emsp;Carbine rifle       |925 cr&nbsp;&nbsp;   |1d8 energy     |8.50 lb&nbsp;   |Auto, power cell (range 90/360), rapid 3, reload 12, strength 11, <br>two-handed |
+| &emsp;Cycler rifle 		|825 cr&nbsp;&nbsp;   |1d8 kinetic    |7.50 lb&nbsp;   |Rapid 2, reload 8, slug cartridge (range 90/360), strength 11, two-handed |
 | &emsp;Heavy blaster rifle |1,025 cr&nbsp;&nbsp; |2d4 energy     |10.00 lb&nbsp;    |Power cell (range 100/400), rapid 2, reload 8, strength 13, two-handed |
-| &emsp;Heavy bowcaster     |1,750 cr&nbsp;&nbsp; |1d12 energy    |15.50 lb&nbsp;  |Power cell (range 90/360), burst 2, reload 4, strength 17, two-handed |
-| &emsp;Heavy carbine		|775 cr&nbsp;&nbsp;   |1d8 energy	    |7.50 lb&nbsp;   |Power cell (range 60/240), rapid 4, reload 16, strength 11|
+| &emsp;Heavy bowcaster     |1,750 cr&nbsp;&nbsp; |1d12 energy    |15.50 lb&nbsp;  |Burst 2, power cell (range 90/360), reload 4, strength 17, two-handed |
+| &emsp;Heavy carbine        |775 cr&nbsp;&nbsp;   |1d8 energy        |7.50 lb&nbsp;   |Power cell (range 60/240), rapid 4, reload 16, strength 11, two-handed |
 | &emsp;Heavy pistol		|300 cr&nbsp;&nbsp;   |1d8 energy	    |4.00 lb&nbsp;     |Power cell (range 45/180), reload 16|
-| &emsp;Heavy repeater      |1,225 cr&nbsp;&nbsp; |2d4 energy     |11.00 lb&nbsp;    |Power cell (range 80/320), auto, burst 4, rapid 4, reload 8, strength 13, <br>two-handed |
-| &emsp;Heavy shotgun       |1,125 cr&nbsp;&nbsp; |2d4 kinetic    |9.50 lb&nbsp;   |Slug cartridge (range 60/240), burst 2, reload 8, strength 13, two-handed |
-| &emsp;Heavy slugpistol    |375 cr&nbsp;&nbsp;   |1d8 kinetic    |3.50 lb&nbsp;   |Slug cartridge (range 30/120), rapid 8, reload 12 |
-| &emsp;Hunting rifle       |1,000 cr&nbsp;&nbsp; |1d10 kinetic   |11.00 lb&nbsp;    |Slug cartridge (range 125/500), reload 4, strength 11, two-handed |
-| &emsp;Ion cannon			|3,800 cr&nbsp;&nbsp; |1d10 ion	    |16.50 lb&nbsp;  |Power cell (range 90/360), auto, burst 4, reload 4, strength 15, <br>two-handed |
+| &emsp;Heavy repeater      |1,225 cr&nbsp;&nbsp; |2d4 energy     |11.00 lb&nbsp;    |Auto, burst 4, power cell (range 80/320), rapid 4, reload 8, strength 13, <br>two-handed |
+| &emsp;Heavy shotgun       |1,125 cr&nbsp;&nbsp; |2d4 kinetic    |9.50 lb&nbsp;   |Burst 2, reload 8, slug cartridge (range 60/240), strength 13, two-handed |
+| &emsp;Heavy slugpistol    |375 cr&nbsp;&nbsp;   |1d8 kinetic    |3.50 lb&nbsp;   |Rapid 8, reload 12, slug cartridge (range 30/120)|
+| &emsp;Hunting rifle       |1,000 cr&nbsp;&nbsp; |1d10 kinetic   |11.00 lb&nbsp;    |Reload 4, slug cartridge (range 125/500), strength 11, two-handed |
+| &emsp;Ion cannon			|3,800 cr&nbsp;&nbsp; |1d10 ion	    |16.50 lb&nbsp;  |Auto, burst 4, power cell (range 90/360), reload 4, strength 15, <br>two-handed |
 | &emsp;Ion rifle			|1,150 cr&nbsp;&nbsp; |1d6 ion	    |8.00 lb&nbsp;     |Power cell (range 80/320), reload 8, two-handed|
-| &emsp;Repeating Blaster   |1,025 cr&nbsp;&nbsp; |1d8 energy     |9.00 lb&nbsp;     |Power cell (range 75/300), auto, burst 4, rapid 4, reload 8, strength 11, <br>two-handed |
-| &emsp;Rotary cannon       |1,500 cr&nbsp;&nbsp; |1d10 energy    |12.50 lb&nbsp;  |Power cell (range 75/300), auto, rapid 2, reload 8, strength 13, <br>two-handed |
-| &emsp;Slugthrower 		|525 cr&nbsp;&nbsp;   |1d8 kinetic    |7.50 lb&nbsp;   |Slug cartridge (range 105/420), reload 12, two-handed|
+| &emsp;Repeating blaster   |1,025 cr&nbsp;&nbsp; |1d8 energy     |9.00 lb&nbsp;     |Auto, burst 4, power cell (range 75/300), rapid 4, reload 8, strength 11, <br>two-handed |
+| &emsp;Rotary cannon       |1,500 cr&nbsp;&nbsp; |1d10 energy    |12.50 lb&nbsp;  |Auto, power cell (range 75/300), rapid 2, reload 8, strength 13, <br>two-handed |
+| &emsp;Slugthrower 		|525 cr&nbsp;&nbsp;   |1d8 kinetic    |7.50 lb&nbsp;   |Reload 12, slug cartridge (range 105/420), two-handed|
 | &emsp;Sniper rifle		|1,300 cr&nbsp;&nbsp; |1d12 energy    |13.50 lb&nbsp;  |Power cell (range 150/600), reload 2, strength 13, two-handed|
-| &emsp;Subrepeater 	    |625 cr&nbsp;&nbsp;   |1d6 energy     |4.00 lb&nbsp;     |Power cell (range 30/120), auto, rapid 4, light, reload 16, strength 11 |
+| &emsp;Subrepeater 	    |625 cr&nbsp;&nbsp;   |1d6 energy     |4.00 lb&nbsp;     |Auto, rapid 4, light, power cell (range 30/120), reload 16, strength 11 |
 
 </div>	
 
@@ -424,23 +424,23 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Lightweapons_	|||||||
-| &emsp;Light-blade         |375 cr&nbsp;&nbsp;   |1d4 energy    |1.00 lb&nbsp;&nbsp;     |Finesse, hidden, light, luminous|
-| &emsp;Light-club			|1,300 cr&nbsp;&nbsp; |1d10 energy	|3.75 lb&nbsp;&nbsp;|Dexterity 11, heavy, luminous, two-handed|
-| &emsp;Light-dagger		|425 cr&nbsp;&nbsp;   |1d4 energy	|1.00 lb&nbsp;&nbsp;   |Finesse, hidden, light, luminous, thrown (range 20/60)|
+| &emsp;Lightblade         |375 cr&nbsp;&nbsp;   |1d6 energy   |1.50 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
+| &emsp;Lightclub			|1,300 cr&nbsp;&nbsp; |1d10 energy	|3.75 lb&nbsp;&nbsp;|Dexterity 11, heavy, luminous, two-handed|
+| &emsp;Lightdagger		|425 cr&nbsp;&nbsp;   |1d4 energy	|1.00 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous, thrown (range 20/60)|
 | &emsp;Lightsaber			|450 cr&nbsp;&nbsp;   |1d6 energy	|2.25 lb&nbsp;&nbsp;|Hidden, luminous, versatile (2d4)|
-| &emsp;Light-lance	        |1,275 cr&nbsp;&nbsp; |2d4 energy	|4.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
-| &emsp;Saber-spear			|450 cr&nbsp;&nbsp;   |1d6 energy	|2.00 lb&nbsp;&nbsp;   |Luminous, thrown (range 20/60), versatile (2d4)|
+| &emsp;Lightlance	        |1,275 cr&nbsp;&nbsp; |2d4 energy	|4.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
 |	_Martial Lightweapons_	|||||||
-| &emsp;Double-saber		|725 cr&nbsp;&nbsp;   |1d8 energy   |2.25 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous|
-| &emsp;Double-shoto		|700 cr&nbsp;&nbsp;   |1d6 energy   |1.75 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous|
+| &emsp;Doublesaber		|725 cr&nbsp;&nbsp;   |1d8 energy   |2.25 lb&nbsp;&nbsp;|Double (1d8 energy), finesse, luminous|
+| &emsp;Doubleshoto		|700 cr&nbsp;&nbsp;   |1d6 energy   |1.75 lb&nbsp;&nbsp;|Double (1d6 energy), finesse, light, luminous|
 | &emsp;Great-saber			|1,725 cr&nbsp;&nbsp; |2d6 energy   |3.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, two-handed|
-| &emsp;Light-axe			|1,550 cr&nbsp;&nbsp; |1d12 energy  |3.75 lb&nbsp;&nbsp;|Dexterity 11, heavy, luminous, two-handed|
-| &emsp;Light-foil			|475 cr&nbsp;&nbsp;   |1d8 energy   |1.50 lb&nbsp;&nbsp; |Finesse, hidden, luminous|
+| &emsp;Lightaxe			|1,550 cr&nbsp;&nbsp; |1d12 energy  |3.75 lb&nbsp;&nbsp;|Dexterity 11, heavy, luminous, two-handed|
+| &emsp;Lightfoil			|475 cr&nbsp;&nbsp;   |1d8 energy   |1.50 lb&nbsp;&nbsp;|Finesse, hidden, luminous|
 | &emsp;Martial lightsaber  |550 cr&nbsp;&nbsp;   |1d8 energy   |2.25 lb&nbsp;&nbsp;|Hidden, luminous, versatile (1d10)|
-| &emsp;Pike-saber			|1,675 cr&nbsp;&nbsp; |1d10 energy  |5.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
-| &emsp;Saber-whip			|750 cr&nbsp;&nbsp;   |1d4 energy   |3.50 lb&nbsp;&nbsp; |Finesse, hidden, luminous, reach|
-| &emsp;Shotosaber			|450 cr&nbsp;&nbsp;   |1d6 energy   |1.00 lb&nbsp;&nbsp;   |Finesse, hidden, light, luminous|
-| &emsp;Split-saber			|1,150 cr&nbsp;&nbsp; |1d8 energy   |2.00 lb&nbsp;&nbsp;   |Double (1d8 energy), light, luminous|
+| &emsp;Pikesaber			|1,675 cr&nbsp;&nbsp; |1d10 energy  |5.25 lb&nbsp;&nbsp;|Dexterity 11, luminous, reach, two-handed|
+| &emsp;Saberwhip			|750 cr&nbsp;&nbsp;   |1d4 energy   |3.50 lb&nbsp;&nbsp;|Finesse, hidden, luminous, reach|
+| &emsp;Shotosaber			|450 cr&nbsp;&nbsp;   |1d6 energy   |1.00 lb&nbsp;&nbsp;|Finesse, hidden, light, luminous|
+| &emsp;Splitsaber         |1,500 cr&nbsp;&nbsp; |2d4 energy   |3 lb&nbsp;&nbsp;   |Double (2d4 energy), interlocking, luminous|
+| &emsp;Splitshoto         |1,150 cr&nbsp;&nbsp; |1d8 energy   |2.00 lb&nbsp;&nbsp;|Double (1d8 energy), interlocking, light, luminous|
 
 <div style='margin-top:16px'></div>
 
@@ -448,27 +448,27 @@ Rather than traditional power cells, the wrist launcher fires specialized projec
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Vibroweapons_	|||||
-| &emsp;Tech-axe			|75 cr&nbsp;&nbsp;   |1d6 kinetic   |1.00 lb&nbsp;&nbsp;   |Light, thrown (range 20/60)	|
-| &emsp;Vibro-dagger		|50 cr&nbsp;&nbsp;   |1d4 kinetic   |0.50 lb&nbsp;&nbsp; |Finesse, light, thrown (range 20/60)|
-| &emsp;Vibro-dart			|5 cr&nbsp;&nbsp;    |1d4 kinetic   |0.50 lb&nbsp;&nbsp; |Finesse, special, thrown (range 20/60)	|
-| &emsp;Vibro-knuckler		|75 cr&nbsp;&nbsp;   |1d6 kinetic   |1.25 lb&nbsp;&nbsp;|Hidden, light|
-| &emsp;Vibro-mace			|700 cr&nbsp;&nbsp;  |1d10 kinetic  |7.00 lb&nbsp;&nbsp;   |Dexterity 11, heavy, two-handed|
-| &emsp;Vibro-spear			|125 cr&nbsp;&nbsp;  |1d6 kinetic   |4.00 lb&nbsp;&nbsp;   |Thrown (range 20/60), versatile (2d4)|
-| &emsp;Vibro-staff			|500 cr&nbsp;&nbsp;  |1d8 kinetic   |4.25 lb&nbsp;&nbsp;|Versatile (2d4)|
+| &emsp;Techaxe			|75 cr&nbsp;&nbsp;   |1d6 kinetic   |1.00 lb&nbsp;&nbsp;|Light, thrown (range 25/75)	|
+| &emsp;Vibrodagger		|50 cr&nbsp;&nbsp;   |1d4 kinetic   |0.50 lb&nbsp;&nbsp;|Finesse, light, thrown (range 20/60)|
+| &emsp;Vibrodart			|5 cr&nbsp;&nbsp;    |1d4 kinetic   |0.50 lb&nbsp;&nbsp;|Finesse, special, thrown (range 20/60)	|
+| &emsp;Vibroknuckler		|75 cr&nbsp;&nbsp;   |1d6 kinetic   |1.25 lb&nbsp;&nbsp;|Hidden, light|
+| &emsp;Vibromace			|700 cr&nbsp;&nbsp;  |1d10 kinetic  |7.00 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
+| &emsp;Vibrospear			|125 cr&nbsp;&nbsp;  |1d6 kinetic   |4.00 lb&nbsp;&nbsp;|Thrown (range 25/75), versatile (2d4)|
+| &emsp;Vibrostaff			|100 cr&nbsp;&nbsp;  |1d6 kinetic   |4.00 lb&nbsp;&nbsp;|Versatile (2d4)|
 |	_Martial Vibroweapons_	|||||
-| &emsp;Chakram				|175 cr&nbsp;&nbsp;  |1d6 kinetic   |3.00 lb&nbsp;&nbsp;   |Finesse, returning, thrown (range 30/90)	|
-| &emsp;Double-blade      	|400 cr&nbsp;&nbsp;  |1d6 kinetic	|3.50 lb&nbsp;&nbsp; |Double (1d6 kinetic), finesse, light|
-| &emsp;Double-sword      	|450 cr&nbsp;&nbsp;  |1d8 kinetic	|5.50 lb&nbsp;&nbsp; |Double (1d8 kinetic), finesse |
-| &emsp;Hidden blade		|75 cr&nbsp;&nbsp;   |1d4 kinetic	|1.00 lb&nbsp;&nbsp;   |Finesse, fixed, hidden, light	|
-| &emsp;Net					|300 cr&nbsp;&nbsp;  |— 		    |3.00 lb&nbsp;&nbsp;   |Light, finesse, special, thrown (range 15)|
-| &emsp;Tech-blade			|100 cr&nbsp;&nbsp;  |1d6 kinetic	|1.50 lb&nbsp;&nbsp; |Finesse, light|
-| &emsp;Tech-staff    	    |650 cr&nbsp;&nbsp;  |2d4 kinetic	|5.25 lb&nbsp;&nbsp;|Dexterity 11, double (2d4 kinetic), light|
-| &emsp;Vibro-axe			|950 cr&nbsp;&nbsp;  |1d12 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
-| &emsp;Vibro-blade			|200 cr&nbsp;&nbsp;  |1d8 kinetic	|5.00 lb&nbsp;&nbsp;   |Versatile (1d10)|
-| &emsp;Vibro-pike			|950 cr&nbsp;&nbsp;  |1d10 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, reach, two-handed|
-| &emsp;Vibro-rapier		|150 cr&nbsp;&nbsp;  |1d8 kinetic	|3.50 lb&nbsp;&nbsp; |Finesse|
-| &emsp;Vibro-sword			|1,150 cr&nbsp;&nbsp;|2d6 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, two-handed|
-| &emsp;Vibro-whip			|275 cr&nbsp;&nbsp;  |1d4 kinetic	|3.50 lb&nbsp;&nbsp; |Finesse, reach|
+| &emsp;Chakram				|175 cr&nbsp;&nbsp;  |1d6 kinetic   |3.00 lb&nbsp;&nbsp;|Finesse, returning, thrown (range 30/90)	|
+| &emsp;Doubleblade      	|400 cr&nbsp;&nbsp;  |1d6 kinetic	|3.50 lb&nbsp;&nbsp;|Double (1d6 kinetic), finesse, light|
+| &emsp;Doublesword      	|450 cr&nbsp;&nbsp;  |1d8 kinetic	|5.50 lb&nbsp;&nbsp;|Double (1d8 kinetic), finesse |
+| &emsp;Hidden blade		|75 cr&nbsp;&nbsp;   |1d4 kinetic	|1.00 lb&nbsp;&nbsp;|Finesse, fixed, hidden, light	|
+| &emsp;Net					|300 cr&nbsp;&nbsp;  |— 		    |3.00 lb&nbsp;&nbsp;|Light, finesse, special, thrown (range 15)|
+| &emsp;Techblade			|100 cr&nbsp;&nbsp;  |1d6 kinetic	|1.50 lb&nbsp;&nbsp;|Finesse, light|
+| &emsp;Techstaff    	    |650 cr&nbsp;&nbsp;  |2d4 kinetic	|5.25 lb&nbsp;&nbsp;|Dexterity 11, double (2d4 kinetic), light|
+| &emsp;Vibroaxe			|950 cr&nbsp;&nbsp;  |1d12 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, heavy, two-handed|
+| &emsp;Vibroblade			|200 cr&nbsp;&nbsp;  |1d8 kinetic	|5.00 lb&nbsp;&nbsp;|Versatile (1d10)|
+| &emsp;Vibropike			|950 cr&nbsp;&nbsp;  |1d10 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, reach, two-handed|
+| &emsp;Vibrorapier		|150 cr&nbsp;&nbsp;  |1d8 kinetic	|3.50 lb&nbsp;&nbsp;|Finesse|
+| &emsp;Vibrosword			|1,150 cr&nbsp;&nbsp;|2d6 kinetic	|9.25 lb&nbsp;&nbsp;|Dexterity 11, two-handed|
+| &emsp;Vibrowhip			|275 cr&nbsp;&nbsp;  |1d4 kinetic	|3.50 lb&nbsp;&nbsp;|Finesse, reach|
 
 </div>	
 
@@ -549,16 +549,16 @@ Slug cartridges are ammunition for blaster weapons that deal kinetic damage. Whe
 
 ### Communications
 #### Commlink
-Commlinks are standard handheld communication devices, fitted with microphones and receivers. Standard, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference.
+commlinks are simple handheld communication devices, fitted with microphones and receivers. Basic, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference. The commlink lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell.
 
 #### Comm Jammer
-A comm jammer is a device used to scramble communications. A comm jammer can block transmissions from unenhanced communications devices in a 100 foot radius.
+A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature sending incoming or outgoing communications within range must succeed on a DC 15 Intelligence (Technology) check. On a failure, their communications are jammed until the comm jammer is deactivated or they move out of its range. The comm jammer lasts for 1 hour and can be recharged by connecting to a power source or by replacing the power cell.
 
-#### Headcomm
-A headcomm can be installed in a helmet or worn independently. It functions as a hands-free commlink.
+#### Commlink, Hands-Free
+A hands-free commlink functions as a commlink, but can be installed in a helmet or worn independently, such as on your head or ear.
 
 #### Holocomm
-A holocomm is a communications unit that utilizes<br> the HoloNet. It enables users to send and receive<br> messages through holographic-based transmission<br> networks.
+A holocomm is a communications unit that utilizes the HoloNet. It enables users to send and receive messages through holographic-based transmission networks.
 
 #### Holotrace Device
 A holotrace device is a wrist-worn gadget that can be used to trace a holographic transmission back to its source.
@@ -574,10 +574,10 @@ Code cylinders are security devices in the shape of short cylinders that contain
 A datacard or data disk is a flat, hand-held device used in conjunction with a datapad to store information.
 
 #### Datacron   
-A datacron is a type of holocron that can be accessed by non-Force-sensitives and are mainly used to store encrypted data. They are complete with an interactive projection<br> to access<br> the infor-<br>mation.
+A datacron is a type of holocron that can be accessed by non-Force-sensitives and are mainly used to store encrypted data. They are complete with an interactive projection to access the information.
 
 #### Datapad
-A datapad is a<br> small electronic<br> device used for the<br> input, storage and<br> displaying of inform-<br>ation. It features a<br> holoprojective surface<br> for 3D viewing. 
+A datapad is a small electronic device used for the input, storage and displaying of information. It features a holoprojective surface for 3D viewing. 
 
 \columnbreak
 
@@ -588,7 +588,7 @@ A datapad is a<br> small electronic<br> device used for the<br> input, storage a
 |	_Communications_	|		|			|
 |	&emsp;Commlink	                |	  50 cr	|	.50 lb		|
 |	&emsp;Comm jammer               |	 450 cr	|	3.00 lb		|
-|	&emsp;Headcomm	                |	 200 cr	|	1.00 lb		|
+|	&emsp;Commlink, hands-free      |	 200 cr	|	1.00 lb		|
 |	&emsp;Holocomm	                |	 300 cr	|	2.00 lb		|
 |	&emsp;Holotrace device	        |  1,000 cr	|	5.00 lb		|
 |	&emsp;Pocket scrambler	        |	 800 cr	|	1.00 lb		|
@@ -618,11 +618,9 @@ A stylus pen is designed to write on both solid surfaces and touch screen interf
 #### Wristpad
 A wristpad is a harness with an integrated datapad and holoprojector interface that fits on the forearm and includes self-charging battery packs.
 
-<img src='https://www.gmbinder.com/images/U4cHqYD.png' style='position:absolute;top:730px;left:135px;width:300px' />
+<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 <img src='https://www.gmbinder.com/images/NIczKet.png' style='position:absolute;top:590px;left:470px;width:255px' />
-
-<div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
 \pagebreakNum
 
@@ -687,17 +685,11 @@ Thermal detonators are unique in that can only be turned off by whoever turned t
 
 ### Life Support
 
-#### Aquatic Rebreather
-Aquatic breathers are breath masks designed to operate underwater. While worn, the wearer can breathe both air and water.
-
-#### Enviro-suit
-Environment suits, atmospheric suits, or EVA suits, are pressure suits that enabled wearers to survive and operate in zero gravity space and other dangerous conditions.
-
-#### Flight Suit
-Flight suits, or jumpsuits, are a type of outfit worn by pilots. They are worn in conjunction with flight helmets. They come in a variety of different colors and provide life support, and protect from hostile environments.
+#### Emergency Shelter
+This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated power generator, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The shelter's power generator lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes.
 
 #### Respirator
-A respirator, or breath mask, is a portable device that allowed an oxygen-breather to survive in low-oxygen atmospheres. Although not suitable for use in outer-space, these hands-free masks were essential equipment for deep-space travel that might require activity outside of a starship.
+A respirator, or breath mask, is a portable device that includes 1 hour's worth of oxygen. The respirator is designed to function in all environments.
 
 ### Medical Supplies
 
@@ -714,7 +706,7 @@ A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As 
 As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking 2d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying.
 
 #### Repair Kit
-A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three 
+A repair kit included the basic tools needed to repair a droid or construct after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal 
 
 \columnbreak
 
@@ -723,9 +715,7 @@ A repair kit included the basic tools needed to repair a droid after being damag
 |	Item	|	Cost	|	Weight		|
 |	:--	|	--:	|	--:		|
 |	_Life Support_	|		|			|
-|	&emsp;Aquatic rebreather	    |	 100 cr	|	2.00 lb		|
-|	&emsp;Enviro-suit	            |  2,000 cr	|	15.00 lb		|
-|	&emsp;Flight suit           	|  1,000 cr	|	5.00 lb		|
+|	&emsp;Emergency shelter    	        |	 600 cr	|	15.00 lb		|
 |	&emsp;Respirator	            |	 200 cr	|	1.00 lb	 	|
 |	_Medical_	|		|			|
 |	&emsp;Antitoxkit	            |	 600 cr	|	4.00 lb		|
@@ -736,23 +726,28 @@ A repair kit included the basic tools needed to repair a droid after being damag
 |   &emsp;Repair kit                |	 750 cr	|	3.00 lb		|
 |	_Storage_	|		|			|
 |	&emsp;Backpack              	|	  50 cr	|	5.00 lb		|
+|	&emsp;Bottle              	        |	  20 cr	|	1.00 lb		|
 |	&emsp;Canteen	                |	  10 cr	|	3.00 lb		|
 |	&emsp;Crate 	                |	  20 cr	|	70.00 lb		|
 |	&emsp;Chest	                    |	  50 cr	|	25.00 lb		|
+|	&emsp;Pitcher	                    |	   8 cr	|	2.00 lb		|
 |	&emsp;Pouch	                    |	   5 cr	|	1.00 lb		|
 
 </div>	
 
 <div style='margin-top:-12px'></div>
 
-uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of.
+to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of.
 
 #### Traumakit
-A common traumakit can be stocked with bacta packs, and contains spray-bandages, bone stabilizers, antiseptics, and other essentials for the treatment of wounds. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. A traumakit can be used to stabilize 5 times before it must be restocked at its original cost.
+A common traumakit is stocked with essentials for the treatment of wounds. A traumakit has five uses. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check. 
 
 ### Storage
 #### Backpack
 A backpack stores 30 lb., not exceeding 1 cubic foot. 
+
+#### Bottle
+A bottle stores 1 and 1/2 pints of liquid.
 
 #### Canteen
 A canteen stores 4 pints of liquid.
@@ -762,6 +757,9 @@ A crate stores 40 gallons of liquid or 4 cubic feet of solid.
 
 #### Chest
 A chest stores 300 lb., not exceeding 12 cubic feet. 
+
+#### Pitcher
+A pitcher stores 1 gallon of liquid.
 
 #### Pouch
 A pouch stores 6.00 lb., not exceeding 1/5 cubic foot. 
@@ -852,7 +850,7 @@ Installing a restraining bolt takes 1 minute. The droid must make a DC 14 Consti
 A bandolier is worn across the chest. It has 12 pockets that can each hold a single item that weighs less than 2.00 lb, such as a vibrodagger, a fragmentation grenade, or a power cell. Once per turn, drawing an item from a bandolier does not require your object interaction.
 
 #### Bipod
-A bipod is a device mounted to a two-handed blaster weapon to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached blaster weapon with the strength property while you are prone, and your speed is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon.
+A bipod is a device mounted to a two-handed blaster that lacks the fixed property to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached blaster with the strength property while you are prone, and your speed is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon.
 
 #### Friction-Grip Gear
 A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking speed.
@@ -888,19 +886,19 @@ A small handhold device<br> with a single button, used<br> to activate explosive
 Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 25 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cells.	
 
 #### Stealth Field Generator
-Stealth field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the power cell. This effect ends early if you make an attack or cast a force- or tech- power.
+Stealth field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the power cell. This effect ends early if you make an attack or cast a force or tech power.
 
 #### Tracker Utility Vest
 A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1.00 lb each) without increasing<br> their total encumbrance.
 
 #### Tripod
-A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<br> increased stability. Over the course of 1<br> minute, you can deploy or collapse the<br> tripod. While deployed, you ignore<br> the Strength requirement on the<br> attached blaster weapon with the<br> strength property, and your speed is<br> reduced to 0. Additionally, while<br> deployed, you have a +10 bonus to<br> ability checks and saving throws<br> to avoid being disarmed of the<br> weapon.
+A tripod is a device mounted to<br> a two-handed blaster that<br> lacks the fixed property<br> to offer increased stability.<br> Over the course of 1 minute, you can<br> deploy or collapse the tripod. While<br> deployed, you ignore the Strength<br> requirement on the attached blaster<br> with the strength property, and your<br> speed is reduced to 0. Additionally,<br> while deployed, you have a +10<br> bonus to ability checks and saving<br> throws to avoid being disarmed<br> of the weapon.
 
 <img src='https://www.gmbinder.com/images/cgGUzvl.png' style='position:absolute;top:405px;left:80px;width:320px;transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/TW0FhNf.png' style='position:absolute;bottom:30px;left:180px;width:265px;' />
 
-<img src='https://www.gmbinder.com/images/VVpqaIT.png' style='position:absolute;bottom:18px;right:-12px;width:280px;transform:scaleX(-1);z-index:1000' />
+<img src='https://www.gmbinder.com/images/VVpqaIT.png' style='position:absolute;bottom:18px;right:-12px;width:270px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>CHAPTER 5 | EQUIPMENT</div>
 
@@ -932,7 +930,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	_Communications_	|		|			|
 |	&emsp;Commlink	                |	  50 cr	|	.50 lb		|
 |	&emsp;Comm jammer               |	 450 cr	|	3.00 lb		|
-|	&emsp;Headcomm	                |	 200 cr	|	1.00 lb		|
+|	&emsp;Commlink, hands-free      |	 200 cr	|	1.00 lb		|
 |	&emsp;Holocomm	                |	 300 cr	|	2.00 lb		|
 |	&emsp;Holotrace device	        |  1,000 cr	|	5.00 lb		|
 |	&emsp;Pocket scrambler	        |	 800 cr	|	1.00 lb		|
@@ -955,9 +953,7 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	&emsp;Mine, incendiary             	|	 550 cr	|	2.00 lb		|
 |	&emsp;Thermal detonator	            |  2,000 cr	|	1.00 lb		|
 |	_Life Support_	|		|			|
-|	&emsp;Aquatic rebreather	    |	 100 cr	|	2.00 lb		|
-|	&emsp;Enviro-suit	            |  2,000 cr	|	15.00 lb		|
-|	&emsp;Flight suit           	|  1,000 cr	|	5.00 lb		|
+|	&emsp;Emergency shelter    	        |	 600 cr	|	15.00 lb		|
 |	&emsp;Respirator	            |	 200 cr	|	1.00 lb	 	|
 
 |Item|Cost|Weight|
@@ -967,13 +963,15 @@ A tripod is a device used<br> to mount a two-handed<br> blaster weapon to offer<
 |	&emsp;Emergency battery         |	  70 cr	|   5.00 lb        |
 |	&emsp;Traumakit	                |	  50 cr	|	3.00 lb		|
 |	&emsp;Medpac    	            |	 300 cr	|	.50 lb		|
-|	&emsp;Poison                	|    125 cr	|	.50 lb		|
+|	&emsp;Poison           	        |    125 cr	|	.50 lb		|
 |   &emsp;Repair kit                |	 750 cr	|	3.00 lb		|
 |	_Storage_	|		|			|
 |	&emsp;Backpack              	|	  50 cr	|	5.00 lb		|
+|	&emsp;Bottle              	        |	  20 cr	|	1.00 lb		|
 |	&emsp;Canteen	                |	  10 cr	|	3.00 lb		|
-|	&emsp;Chest	                    |	  50 cr	|	25.00 lb		|
 |	&emsp;Crate 	                |	  20 cr	|	70.00 lb		|
+|	&emsp;Chest	                    |	  50 cr	|	25.00 lb		|
+|	&emsp;Pitcher	                    |	   8 cr	|	2.00 lb		|
 |	&emsp;Pouch	                    |	   5 cr	|	1.00 lb		|
 |	_Utilities_	|		|			|
 |	&emsp;Bedroll	                |	  10 cr	|	7.00 lb	 	|

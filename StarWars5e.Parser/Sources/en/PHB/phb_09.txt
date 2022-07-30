@@ -14,7 +14,7 @@ A typical combat encounter is a clash between two sides, a flurry of weapon swin
 ### Surprise
 A band of adventurers sneaks up on a Mandalorian camp, springing from cover to attack them. Kath hounds patrol down a hallway, leashed to their handler, unnoticed by the adventurers until the hound smells one of them. In these situations, one side of the battle gains surprise over the other.
 
-The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter until the end of their first turn.
 
 If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
 
@@ -90,7 +90,9 @@ You can communicate however you are able, through brief utterances and gestures,
 ### Reactions
 Certain special abilities, powers, and situations allow you to take a special action called a reaction. A reaction, typically an instant response to a trigger of some kind, can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction.
 
-When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.
+When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction. 
+
+Certain features, such as the scholar's Multitasker, might grant you an additional reaction. If you have two or more reactions, you can only take one per turn.
 
 ## Movement and Position
 In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand.
@@ -99,16 +101,12 @@ On your turn, you can move a distance up to your speed. You can use as much or a
 
 Your movement can include jumping, climbing, and swimming. These different modes of movement can be combined with walking, or they can constitute your entire move. However you're moving, you deduct the distance of each part of your move from your speed until it is used up or until you are done moving.
 
-The "Special Types of Movement'' section in Chapter 8 gives the particulars for jumping, climbing, and swimming.
-
-#### Actions That Grant Movement
-If an action, bonus action, or reaction allows you to move as part of its effects, this additional movement does not count towards your speed. If it does not require an action, however, it does count towards your speed.  
+The "Special Types of Movement" section in Chapter 8 gives the particulars for jumping, climbing, and swimming.
 
 \columnbreak
 
-<div style='margin-top:16px'></div>
-
-&emsp;For example, if a creature uses the Ataru lightsaber form, since adopting that form uses a bonus action, it does not count towards the creature's speed. A Path of Focus sentinel's Blade Dance feature, however, does count towards it speed since it doesn't use an action.
+#### Actions That Grant Movement
+If an action, bonus action, or reaction allows you to move as part of its effects, this additional movement does not count towards your speed. If it does not require an action, however, it does count towards your speed.  
 
 ### Breaking Up Your Move
 You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
@@ -398,7 +396,7 @@ If a power or other effect deals damage to **more than one target** at the same 
 #### Critical Hits
 When you score a critical hit, you get to roll all of the attack's damage dice twice, including any additional damage dice, and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
 
-***Critical Hit Range.*** The critical hit range of a weapon determines on what d20 results a weapon scores a critical hit. Typically, a weapon has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the weapon scores a critical hit on a roll of 19 or 20. A critical hit range cannot exceed 5, scoring a critical hit on 16-20.
+***Critical Hit Range.*** The critical hit range of an effect determines on what d20 results that effect scores a critical hit. Typically, an effect has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the effect scores a critical hit on a roll of 19 or 20. A critical hit range cannot exceed 5, scoring a critical hit on 16-20.
 
 #### Damage Types
 Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
@@ -494,7 +492,7 @@ Most GMs have a monster die the instant it drops to 0 hit points, rather than ha
 Mighty villains and special nonplayer characters are common exceptions; the GM might have them fall unconscious and follow the same rules as player characters.
 
 ### Knocking a Creature Out
-Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee<br> weapon attack or blaster weapon<br> that deals ion or energy damage,<br> the attacker can knock the<br> creature out. The attacker can<br> make this choice the instant<br> the damage is dealt. The<br> creature falls<br> unconscious<br> and is <br>stable.
+Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee<br> weapon attack, or blaster weapon<br> that deals ion or energy damage,<br> the attacker can knock the<br> creature out. The attacker can<br> make this choice the instant<br> the damage is dealt. The<br> creature falls<br> unconscious<br> and is <br>stable.
 
 <img src='https://www.gmbinder.com/images/4Kf8o4R.png' style='position:absolute;bottom:0px;right:-20px;width:670px;z-index:1000;' />
 
@@ -557,13 +555,5 @@ You can control a mount only if it has been trained to accept a rider. Domestica
 <img src='https://www.gmbinder.com/images/xOYtlgQ.png' style='position:absolute;bottom:31px;right:152px;width:440px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
-
-\pagebreakNum
-
-<style>
-  .phb#p25:after { display:none; }
-</style>
-
-<img src='https://cdn.discordapp.com/attachments/469499280994992128/593986574891352084/sw-combat-scene.jpg' class='cover-image' style="position:absolute; left:0px; width:844px;" />
 
 \pagebreakNum

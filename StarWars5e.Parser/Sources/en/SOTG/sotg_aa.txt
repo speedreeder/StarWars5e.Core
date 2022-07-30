@@ -28,22 +28,21 @@ The following definitions specify what happens to a ship while it is subjected t
 
 #### Invisible
 - An invisible starship is impossible to see without the aid of powers or a special sense. For the purpose of hiding, the starship is heavily obscured. The starship's location can be detected by any noise it makes or any tracks it leaves.
-- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.
+- Attack rolls against the ship have disadvantage, and the ship's attack rolls have advantage.
 
 #### Shocked
 - A shocked starship can't take reactions.
-- On its turn, a shocked starship can take either an action or a bonus action, but not both.
+- On its turn, a crewmembers on a shocked starship can take either an action or a bonus action, but not both.
 
-#### Stalled
-- A stalled ship is disabled (see the condition).
-- Any active features controlled by the ship, such as a Tractor Beam or Gravity Well Projector, automatically end.
-- The ship automatically fails Strength and Dexterity saving throws.
-- Attack rolls against the ship have advantage.
-
-\columnbreak
 
 #### Slowed
 Some abilities, effects, and hazards can lead to a special condition called slowed. Slowed is measured in four levels. An effect can give a ship one or more levels of slowed, as specified in the effect’s description.
+
+If an already slowed ship suffers another effect that causes it to be slowed, its current slowed level increases by the amount specified in the effect’s description.
+
+An effect that removes slowed reduces its level as specified in the effect’s description, with all slowed effects ending if a ship’s slowed level is reduced below 1.
+
+\columnbreak
 
 ##### Slowed Level
 |Level	|Effect|
@@ -53,9 +52,6 @@ Some abilities, effects, and hazards can lead to a special condition called slow
 |3	|Speed reduced by 300 feet|
 |4	|Speed reduced to 0, and can’t benefit from any bonus to speed|
 
-If an already slowed ship suffers another effect that causes it to be slowed, its current slowed level increases by the amount specified in the effect’s description.
-
-An effect that removes slowed reduces its level as specified in the effect’s description, with all slowed effects ending if a ship’s slowed level is reduced below 1.
 
 #### Stalled
 - A stalled ship is disabled (see the condition).
@@ -80,13 +76,19 @@ Some special abilities, or when certain conditions are met, cause a ship to sust
 |5|Ship becomes permanently "used" (see the condition)|
 |6|Ship suffers catastrophic power failure. All primary systems fail.|
 
-If a ship with system damage suffers another effect that causes system damage, its current level of system damage increases by the amount specified in the effect's description.
 
+
+If a ship with system damage suffers another effect that causes system damage, its current level of system damage increases by the amount specified in the effect's description.
 A ship suffers the effect of its current level of system damage as well as all lower levels. For example, a ship suffering level 2 system damage 1 slowed level and disadvantage on ability checks.
 
 An effect that removes system damage reduces its level as specified in the effect's description, with all system damage effects (except for "used") ending if a ship's system damage level is reduced below 1.
 
+
 Finishing maintenance reduces a ship's system damage level by 1.
+
+<div class='footnote'>APPENDIX A | CONDITIONS</div>
+
+\pagebreakNum
 
 #### Tractored
 - A tractored ship has 4 slowed levels.

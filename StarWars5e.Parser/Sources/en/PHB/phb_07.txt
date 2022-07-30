@@ -139,12 +139,13 @@ When making an ability check, attack roll, or saving throw, some features grant 
 In some instances, a party might be relying on the outcome made by a single party member's ability check. If multiple party members could grant that character an additional die, while that character couldn't apply multiple dice to the roll, you might consider allowing them to use the larger die provided, and to roll the die with advantage.
 
 ### Multiple Modifiers
-As with additional dice, when making an ability check, attack roll, or saving throw, some features might allow multiple modifiers being added to the check. In these cases, only two modifiers may be added to a roll. For instance, if a friendly creature makes a Constitution saving throw within range of a guardian's Aura of Presence, and that creature is also the target of a scholar's Critical Analysis, and they chose to end that Critical Analysis on themselves, they could add either that guardian's Wisdom modifier or the scholar's Intelligence modifier to their Constitution save, but not both.
+As with additional dice, when making an ability check, attack roll, or saving throw, some features might allow multiple modifiers being added to the check. In these cases, only two modifiers may be added to a roll, and the same modifier can't be added twice unless an effect says so. For instance, if a friendly creature makes a Constitution saving throw within range of a guardian's Aura of Presence, and that creature is also the target of a scholar's Critical Analysis, and they chose to end that Critical Analysis on themselves, they could add either that guardian's Wisdom modifier or the scholar's Intelligence modifier to their Constitution save, but not both.
+
+> #### Applying During the d20 Roll
+> Some features, such as engineer's Potent Aptitude or scholar's Critical Analysis, allow a creature to choose to add an additional die or ability modifier to an ability check, attack roll, or saving throw. Unless the effect specifically says otherwise, it can be applied before or after the roll, but it must be applied before the GM determines whether the roll succeeds or fails.
 
 ### Skills
-Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character ~ creation, and a monster's skill proficiencies appear in the monster's stat block.)
-
-For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: Acrobatics, Sleight of Hand, and Stealth, respectively. So a character who has proficiency in the Stealth skill is particularly good at Dexterity checks related to sneaking and hiding.
+Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect.
 
 The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.
 
@@ -189,11 +190,9 @@ Sometimes two or more characters team up to attempt a task. The character who's 
 A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with security kits, so a character who lacks that proficiency can't help another character in that task. Moreover. a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.
 
 #### Group Checks
-When a number of individuals are trying to accomplish something as a group, the GM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't. 
+When a number of individuals are trying to accomplish something together, the GM might ask for a group ability check. In such a situation, the characters who are skilled at the task at hand help cover those who aren't. To make a group ability check,  everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.
 
-To make a group ability check,  everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.
-
-Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
+Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom (Survival) check to see if the characters can avoid the natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
 
 ## Using Each Ability
 Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.
@@ -208,14 +207,13 @@ A Strength check can model any attempt to lift, push, pull, or break something, 
 
 - You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
 - You try to jump an unusually long distance or pull off a stunt midjump.
+- You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
 
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
-- You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
-
-***Other Strength Checks.*** The GM might also call for a Strength check when you try to accomplish tasks like the following:
+&emsp;***Other Strength Checks.*** The GM might also call for a Strength check when you try to accomplish tasks like the following:
 
 - Force open a stuck, locked, or barred door
 - Break free of bonds
@@ -235,6 +233,9 @@ Your Strength score determines the amount of weight you can bear. The following 
 ***Push, Drag, or Lift.*** You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet.
 
 ***Size and Strength.*** Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature' carrying capacity and the amount it can push. drag, or lift. For a Tiny creature, halve these weights.
+
+#### Arm Equipment 
+Certain equipment, such as a wristpad, light shield, or fixed weapons, are worn on the forearm. A creature can only wield a number of such items on each forearm equal to half its Strength modifier (minimum of one item).
 
 #### Variant: Encumberance
 The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Strength column of the Armor table in chapter 5.

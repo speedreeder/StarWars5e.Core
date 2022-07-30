@@ -6,15 +6,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dventurers are extraordinary people, driven<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can't stand against.
 
-Deployments are roles your characters can fill that are not directly correlated with their class. A character can then specialize in a specific deployment, granting a variety of features, such as the gunner's gambits or the pilot's tactics. As you progress in your deployment specialization, you gain more powerful features, and some features improve. Each deployment specialization entry in this chapter includes a table summarizing the benefits you gain at every rank, and a detailed explanation of each one.
-
-Each ship has a number of deployments determined by its size and class. A TIE Fighter, for instance, only has a singe deployment, who controls all of the aspects of his fighter and is in charge of all roles. The Millennium
-
-<br> Falcon, however, has space for a pilot, two gunners, a mechanic, a technician, a coordinator, and an operator. Each deployment has specific tasks and abilities related to its function. 
-
-> Unlike classes, when players achieve the space portion of the game, they start at rank 0. Players should attempt to experience multiple roles to see which suits them best before choosing the one in which they will specialize.
+Deployments are roles your characters can fill that are not directly correlated with their class. A character can then specialize in a specific deployment, granting a variety of features, such as the gunner's gambits or the ace's tactics. As you progress in your deployment specialization, you gain more powerful features, and some features improve. Each deployment specialization entry in this chapter includes a table summarizing the benefits you gain at every rank, and a detailed explanation of each one.
 
 A character can fill multiple roles simultaneously, provided it can reach the appropriate equipment to utilize that deployment's features.
+
+Unlike classes, when players achieve the space portion of the game, they start at rank 0. Players should attempt to experience multiple roles to see which suits them best before choosing the one in which they will specialize.
 
 > When engaging in the space portion of a campaign, many class features work in conjunction with a ship deployment, while others don't. It is up to your GM to determine which is which.
 
@@ -25,20 +21,143 @@ A character can fill multiple roles simultaneously, provided it can reach the ap
 ##### Deployments
 |Deployment  |Description|
 |:--|:--|
+|Ace|Controls the movement and tactics of the ship|
 |Coordinator|Provides motivation and organization to the crew and between ships|
 |Gunner|Controls one or more weapon emplacements|
 |Mechanic|Controls the energy production and flow of the ship|
 |Operator|Uses ship systems to locate, monitor, interfere with, and disable the enemy|
-|Pilot|Controls the movement and tactics of the ship|
 |Technician|Coordinates the defenses of the ship including running the shield projectors|
 
 </div>
 
 <style>
-  .phb#p2:after { display:none; }
+  .phb#p1:after { display:none; }
 </style>
 
 <img src='https://www.gmbinder.com/images/OLqIigd.png' style='position:absolute;bottom:-10px;left:0px;width:840px;z-index:1000' />
+
+\pagebreakNum
+
+## Ace
+<span style="font-variant: small-caps">Frantically, the human pilot jukes his x-wing from side-to-side,</span> trying desperately to shake his tail. In a last ditch effort, the pilot hauls back on the yolk, inverting his fighter, before quickly snapping off two proton torpedoes and vaporizing his opponent.
+
+The sullustan maneuvers his B-Wing into position above the Star Destroyer's shield batteries before dropping his payload. As he turns his craft to flee, he takes one last glance over his shoulder, just in time to see the bombs detonate the shield generator in a massive eruption.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The twi'lek pilot immediately takes evasive maneuvers, dodging the incoming volley, before giving her ship's line of fire on the offenders.
+
+Regardless of their choice of career, their origin, and their species, all ace pilots share one thing in common; the love of flight. They thrive under pressure, be it a dogfight, a bombing run, or smuggler evading the law.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Ace
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, Piloting Procedure |
+| 2nd | I'll Try Spinning, Uncanny Dodge |
+| 3rd | Dependable Pilot, Cunning Avoidance |
+| 4th | That's a Good Trick, Evasion  |
+| 5th | Paragon Pilot, Ace Extraordinaire |
+
+</div>
+
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### Piloting Procedure
+Also at 1st rank, you learn tactics that are fueled by special dice called power dice.
+
+#### Tactics
+You learn two tactics of your choice, which are detailed under "Tactics" below. You can use only one tactic per turn, and you can only use each tactic once per round.
+
+You learn an additional tactic at 2nd, 3rd, 4th, and 5th rank in this deployment. Each time you learn a new tactic, you can also replace one tactic you know with a different one.
+
+#### Power Dice
+A power die is expended when you use it. Your ship must have a power die at the required system in order to use the tactic.  
+
+Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
+
+### Tactics
+The tactics are presented in alphabetical order.
+
+#### Attack Pattern Delta
+_**Power Die Location:** Engines_<br>
+When your ship makes a ship attack while there is a friendly ship within 100 feet of you, you can expend a power die to grant advantage to the roll. If the attack hits, add the result of the die to the attack's damage roll.
+
+
+#### Barrel Roll
+_**Power Die Location:** Engines_<br>
+When you are the target of an attack roll, you can expend a power die and attempt to maneuver out of the line of fire. Roll the die, take the result, and multiply it by 50. You immediately move that many feet in a direction of your choice. The orientation of your ship does not change.
+
+
+<img src='https://www.gmbinder.com/images/vmwsYtZ.png' style='position:absolute;bottom:4px;left:-110px;width:672px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+<div style='margin-top:23px'></div>
+
+
+#### Break the Lock
+_**Power Die Location:** Engines_<br>
+When the ship fails a Strength, Dexterity, or Constitution saving throw, as a reaction, you can expend a power die to attempt to recover. Roll the die and add the result to the saving throw.
+
+#### Defense Screen
+_**Power Die Location:** Engines_<br>
+As a bonus action, you can expend a power die and take a defensive formation as long as there is a friendly ship within 100 feet of you. When you do so, your AC increases by the amount rolled on the die until the start of your next turn.
+
+#### Skim the Surface
+_**Power Die Location:** Engines_<br>
+As a bonus action, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's flying speed increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn.
+
+#### Snap Roll
+_**Power Die Location:** Engines_<br>
+When you are hit by a ship attack, you can expend a power die and attempt to roll to mitigate the damage. When you do so, the damage you take from the attack is reduced by the amount rolled on the die.
+
+#### Starship Charge
+_**Power Die Location:** Engines_<br>
+When you take the Ram action, you can expend a power die to increase the damage. On a failed save, the target ship takes additional kinetic damage equal to the amount rolled on the die + your ship's Strength modifier. Your ship has resistance to the additional damage dealt by this tactic.
+
+#### Target Acquired
+_**Power Die Location:** Engines_<br>
+As a bonus action, you can expend a power die and hone in on a target you can see. The next attack roll made by your ship has advantage, and if the attack hits, add the result of the die to the attack's damage roll.
+
+### I'll Try Spinning
+At 2nd rank, when you use take the Dogfight action, you can choose to have all attacks against you from the target ship have disadvantage until the beginning of your ship's next turn.
+
+Once you've used this feature, you can't use it again until you finish a long rest.
+
+\columnbreak
+
+### Uncanny Dodge
+Also at 2nd rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack's damage against your ship.
+
+### Dependable Pilot
+Starting at 3rd rank, when you would make a Dexterity (Maneuvering) check while assigned as a pilot, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. You may use this feature a number of times equal to your ranks in Ace.  You regain all expended uses when you complete a long rest.
+
+### Cunning Avoidance
+Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make a Dexterity (Maneuvering) check, and instead use that value for your AC or saving throw.
+
+### That's a Good Trick
+At 4th rank, you can take a reaction to give disadvantage to an attack declared against your ship.
+
+Once you've used this feature, you can't use it again until you finish a long rest.
+
+### Evasion
+Also at 4th rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.
+
+### Paragon Pilot
+As of 5th tier, you are a paragon of your deployment. When you would expend a power die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Ace Extraordinaire
+Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Dexterity (Maneuvering) checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against your ship have disadvantage.
+
+Once you've used this feature, you can't use it again until you finish a short or long rest.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -47,7 +166,7 @@ A character can fill multiple roles simultaneously, provided it can reach the ap
 
 The Sith Lord maneuvers his interceptor into formation with his apprentices. Communicating through encrypted channels, he directs them to move outward to flank their quarry. As they converge from the sides, the Sith launches a debilitating volley, disrupting his prey's systems and readying the ship for capture.
 
-As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. As the twi'lek pilot begins evasive maneuvers, the human coordinator immediately jumps to action. He directs his crew towards their stations, while reaching out with the Force. As each of his respective crew members settles into their respective roles, he directs their actions to coincide, leading his team to victory.
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. As the twi'lek pilot begins evasive maneuvers, the human coordinator immediately jumps to action. He directs his crew towards their stations, while reaching out with the Force. As each of his respective crewmembers settles into their respective roles, he directs their actions to coincide, leading his team to victory.
 
 Without coordination, many a ship would fall to disorganization and a chaos. It is the job of the coordinator to facilitate communication and teamwork, and to keep his ship, or fleet, productive.
 
@@ -81,7 +200,7 @@ You learn an additional collaboration at 2nd, 3rd, 4th, and 5th rank in this dep
 #### Power Dice
 A power die is expended when you use it. Your ship must have a power die at the required system in order to use the collaboration.  
 
-Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of deployed crew members.  Your power die type is determined by your ship tier.
+Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
 
 ### Collaborations
 The collaborations are presented in alphabetical order.
@@ -102,7 +221,7 @@ On your turn, you can use your action and expend one power die to bolster the re
 
 #### Call for Backup
 _**Power Die Location:** Comms_<br>
-When a ship makes an attack roll against your ship, you can use your reaction and expend a power die and command another willing ally ship within 300 feet of the enemy ship to intercede. A crew member on that allied ship manning a weapon station must use their reaction to do so. The enemy ship is then forced to make an attack on the ally ship instead. If the attack misses, the crew member can immediately make a weapon attack against the enemy ship as a part of that same reaction. Roll the power die, and add the result to the ally's attack roll.
+When a ship makes an attack roll against your ship, you can use your reaction and expend a power die and command another willing ally ship within 300 feet of the enemy ship to intercede. A crewmember on that allied ship manning a weapon station must use their reaction to do so. The enemy ship is then forced to make an attack on the ally ship instead. If the attack misses, the crewmember can immediately make a weapon attack against the enemy ship as a part of that same reaction. Roll the power die, and add the result to the ally's attack roll.
 
 #### Head's Up
 _**Power Die Location:** Comms_<br>
@@ -132,7 +251,7 @@ At 2nd rank, when you take the Direct action, roll a d20. Note the number on the
 While you have an uplifting directive number, when an ally makes an ability check or attack roll affected by your Direct action, you can replace the result of a d20 roll with the value of the uplifting directive roll. You can use this feature before or after making the roll, but before any effects of the roll are determined. You can only have one uplifting directive roll at a time, and you lose any unused uplifting directive rolls when you complete a short or long rest.
 
 ### Inspiring Display
-Also at 2nd rank, you can inspire others through stirring words. You spend the next minute rallying your allies by giving an inspiring speech. You grant a number of ships up to your proficiency bonus temporary hull points equal to your Charisma modifier.  You also grant to a number of crew members up to your proficiency bonus from those ships one Inspiring Display die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Inspiring Display die, but must decide before the GM says whether the roll succeeds or fails. Once the Inspiring Display die is rolled, it is lost. A creature can have only one Inspiring Display die at a time.
+Also at 2nd rank, you can inspire others through stirring words. You spend the next minute rallying your allies by giving an inspiring speech. You grant a number of ships up to your proficiency bonus temporary hull points equal to your Charisma modifier.  You also grant to a number of crewmembers up to your proficiency bonus from those ships one Inspiring Display die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Inspiring Display die, but must decide before the GM says whether the roll succeeds or fails. Once the Inspiring Display die is rolled, it is lost. A creature can have only one Inspiring Display die at a time.
 
 Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -177,6 +296,14 @@ Finally, when a creature uses an Inspiring Display die, they take the maximum in
 \pagebreakNum
 
 
+<img src='https://www.sterlingsheehy.com/images/2015/08/The-Ghost-Crew-Toasts-Brad-Rau.jpg' style='position:absolute;bottom:0px;left:-480px;width:1676px;z-index:1000' />
+
+<div class='cover-header' style="font-family:SerifGothicStd-Black; font-size:28px; color:#222; text-shadow:none; margin-top:250px;">ART PAGE</div>
+
+\pagebreakNum
+
+
+
 ## Gunner
 <span style="font-variant: small-caps">The trandoshan bounty hunter hides in his assault craft</span> behind a nearby asteroid, patiently awaiting his prey. As it passes along its predetermined course, the trandoshan detonates the seismic charges, disintegrating the ship.
 
@@ -215,7 +342,7 @@ You learn an additional gambit at 2nd, 3rd, 4th, and 5th rank in this deployment
 #### Power Dice
 A power die is expended when you use it. Your ship must have a power die at the required system in order to use the gambit.  
 
-Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of deployed crew members.  Your power die type is determined by your ship tier.
+Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
 
 ### Gambits
 The gambits are presented in alphabetical order.
@@ -285,7 +412,7 @@ Also at 4th rank, you can choose a second Gunning Style option.
 ### Paragon Gunner
 At 5th rank, when you would expend a power die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
-Additionally, when you make an attack roll while deployed as a gunner, you can choose to make the roll a critical hit. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+Additionally, when you make a ship attack roll, you can choose to make the roll a critical hit. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Maximum Power
 Also at 5th rank, when you hit a ship with a ship attack, you can deal maximum damage with that attack. 
@@ -465,7 +592,7 @@ You learn an additional disruption at 2nd, 3rd, 4th, and 5th rank in this deploy
 #### Power Dice
 A power die is expended when you use it. Your ship must have a power die at the required system in order to use the disruption.  
 
-Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of deployed crew members.  Your power die type is determined by your ship tier.
+Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
 
 #### Saving Throws
 Some of your Disruptions require your target to make a saving throw to resist the disruption's effects. The saving throw DC is calculated as follows:
@@ -509,7 +636,7 @@ As an action, you may expend a power die, and choose any number of ships that yo
 
 #### Reactor Vulnerability
 _**Power Die Location:** Comms_<br>
-When a friendly ship hits a ship with a weapon attack, you can expend a superiority die as a reaction to temporarily destabilize the ship's reactor. Add the number rolled to the damage of the weapon attack and the ship must succeed on a Constitution saving throw or be shocked until the end of its next turn.
+When a friendly ship, including your own, hits a ship with a weapon attack, you can expend a superiority die as a reaction to temporarily destabilize the ship's reactor. Add the number rolled to the damage of the weapon attack and the ship must succeed on a Constitution saving throw or be shocked until the end of its next turn.
 
 #### Remote Sensors
 _**Power Die Location:** Sensors_<br>
@@ -517,59 +644,59 @@ Whenever you make a Wisdom (Scan) or an Intelligence (Probe) check, you can empl
 
 #### Sensor Blast
 _**Power Die Location:** Comms_<br>
-When a friendly ship hits a target with a weapon attack, you can expend one power die as a reaction to attempt to saturate the target's sensors. You add the power die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than your ship until the end of your next turn.
+When a friendly ship, including your own, hits a target with a weapon attack, you can expend one power die as a reaction to attempt to saturate the target's sensors. You add the power die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than your ship until the end of your next turn.
 
 #### Systems Block
 _**Power Die Location:** Comms_<br>
-When a friendly ship makes an attack roll, you can use your reaction and expend a power die and add it to the attack roll. On a hit, the target’s next attack has disadvantage and it cannot regain shield points until the start of your next turn.
-
-#### Targeted Strike
-_**Power Die Location:** Sensors_<br>
-When a friendly ship makes an attack against a target, you can use your reaction to expend a power die. You add the power die to the attack roll, and the damage roll if it hits. You can use this maneuver before or after the attack roll, but before the GM determines whether or not the attack hits.
+When a friendly ship, including yuor own, makes an attack roll, you can use your reaction and expend a power die and add it to the attack roll. On a hit, the target’s next attack has disadvantage and it cannot regain shield points until the start of your next turn.
 
 \columnbreak
 
+#### Targeted Strike
+_**Power Die Location:** Sensors_<br>
+When a friendly ship, including your own, makes an attack against a target, you can use your reaction to expend a power die. You add the power die to the attack roll, and the damage roll if it hits. You can use this maneuver before or after the attack roll, but before the GM determines whether or not the attack hits.
 
-### System Disruption
-At 2nd rank, as a bonus action while deployed as an operator, you can choose a ship that you can see within 1,000 feet and target its systems for disruption. For the next minute, or until you disrupt another target, you have advantage on any Wisdom (Scan) or Intelligence (Probe) check you make to find it.
 
-Additionally, when the ship makes an ability check, attack roll, or saving throw, you can use your reaction to disrupt the ship's functions. Roll a System Disruption die, which is a d6, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
+### System Disturbance
+At 2nd rank, as a bonus action, you can choose a ship that you can see within 1,000 feet and target its systems for disturbance. For the next minute, or until you disturb another target, you have advantage on any Wisdom (Scan) or Intelligence (Probe) check you make to find it.
 
-Your System Disruption die changes when you reach certain ranks in this deployment. The die becomes a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
+Additionally, when the ship makes an ability check, attack roll, or saving throw, you can use your reaction to disturb the ship's functions. Roll a System Disturbance die, which is a d6, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.
+
+Your System Disturbance die changes when you reach certain ranks in this deployment. The die becomes a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.
 
 ### Improved Interference
-Also at 2nd rank, when you use take the Interfere action, you have advantage on the Charisma (Interfere) check. If you already have advantage, you can instead reroll one of the dice once.
+Also at 2nd rank, when you take the Interfere action, you have advantage on the Charisma (Interfere) check. If you already have advantage, you can instead reroll one of the dice once.
 
-### Disrupted Defenses
-At 3rd rank, the first time the target of your System Disruption takes damage each round, it takes additional damage equal to your System Disruption die. The damage is of the same type dealt by the original attack.
+### Disturbed Defenses
+At 3rd rank, the first time the target of your System Disturbance takes damage each round, it takes additional damage equal to your System Disturbance die. The damage is of the same type dealt by the original attack.
 
 ### Threat Assessment
-Also at 3rd rank, as a bonus action, you can learn certain information about the capabilities of the target of your System Disruption. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to two of the following characteristics of your choice:
+Also at 3rd rank, as a bonus action, you can learn certain information about the capabilities of the target of your System Disturbance. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to two of the following characteristics of your choice:
 - An ability score
 - Armor Class
 - Current total hull and shield points
 - Total ship tiers (if any)
 - Total deployment ranks (if any)
 
-### Masterful Interference
-At 4th rank, when you take the Interfere action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on all ability checks or attack rolls it makes before the start of your next turn, instead of one.
-
 <div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
+### Masterful Interference
+At 4th rank, when you take the Interfere action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on all ability checks or attack rolls it makes before the start of your next turn, instead of one.
+
 ### Haywire
-Also at 4th rank, when you target a ship with your System Disruption feature, it must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, while it is the target of your System Disruption feature, the first time it makes an attack roll or a saving throw each round, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+Also at 4th rank, when you target a ship with your System Disturbance feature, it must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, while it is the target of your System Disturbance feature, the first time it makes an attack roll or a saving throw each round, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
 ### Paragon Operator
-As of 5th rank, you are a paragon of your deployment. When you would expend a Power die or a System Disruption die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+As of 5th rank, you are a paragon of your deployment. When you would expend a Power die or a System Disturbance die, you can use a d4 instead of expending a die. You can only use this feature once per round.
 
-Additionally, you regain all expended uses of your System Disruption feature when you finish a short or long rest.
+Additionally, you regain all expended uses of your System Disturbance feature when you finish a short or long rest.
 
-Lastly, when you would make an Interfere, Scan, or Probe check while deployed as an operator, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
+Lastly, when you would make an Interfere, Scan, or Probe check, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Overload Systems
-Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disruption. The ship must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, the target's flying speed reduced by half, it's turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it's shields no longer regenerate, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.
+Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disturbance. The ship must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, the target's flying speed reduced by half, it's turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it's shields no longer regenerate, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.
 
 The ship's pilot makes another Constitution saving throw at the end of its turns. On a successful save, the effect ends.
 
@@ -582,131 +709,13 @@ Once you've use this feature, you must finish a short or long rest before you ca
 \pagebreakNum
 
 
-<img src='https://www.sterlingsheehy.com/images/2015/08/The-Ghost-Crew-Toasts-Brad-Rau.jpg' style='position:absolute;bottom:0px;left:-480px;width:1676px;z-index:1000' />
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/989175546187505714/unknown.png' style='position:absolute;bottom:0px;left:0px;width:840px;z-index:1000' />
 
 <div class='cover-header' style="font-family:SerifGothicStd-Black; font-size:28px; color:#222; text-shadow:none; margin-top:250px;">ART PAGE</div>
 
 \pagebreakNum
 
-## Pilot
-<span style="font-variant: small-caps">Frantically, the human pilot jukes his x-wing from side-to-side,</span> trying desperately to shake his tail. In a last ditch effort, the pilot hauls back on the yolk, inverting his fighter, before quickly snapping off two proton torpedoes and vaporizing his opponent.
 
-The sullustan maneuvers his B-Wing into position above the Star Destroyer's shield batteries before dropping his payload. As he turns his craft to flee, he takes one last glance over his shoulder, just in time to see the bombs detonate the shield generator in a massive eruption.
-
-As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The twi'lek pilot immediately takes evasive maneuvers, dodging the incoming volley, before giving her ships line of fire on the offenders.
-
-Regardless of their choice of career, their origin, and their species, all pilots share one thing in common; the love of flight. They thrive under pressure, be it a dogfight, a bombing run, or smuggler evading the law.
-
-\columnbreak
-
-<div class='classTable'>
-
-##### The Pilot
-| Rank | Feature |
-|:---:|:---|
-| 1st | Venture, Piloting Procedure |
-| 2nd | I'll Try Spinning, Uncanny Dodge |
-| 3rd | Dependable Pilot, Cunning Avoidance |
-| 4th | That's a Good Trick, Evasion  |
-| 5th | Paragon Pilot, Pilot Extraordinaire |
-
-</div>
-
-
-### Venture
-Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
-
-### Piloting Procedure
-Also at 1st rank, you learn tactics that are fueled by special dice called power dice.
-
-#### Tactics
-You learn two tactics of your choice, which are detailed under "Tactics" below. You can use only one tactic per turn, and you can only use each tactic once per round.
-
-You learn an additional tactic at 2nd, 3rd, 4th, and 5th rank in this deployment. Each time you learn a new tactic, you can also replace one tactic you know with a different one.
-
-#### Power Dice
-A power die is expended when you use it. Your ship must have a power die at the required system in order to use the tactic.  
-
-Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of deployed crew members.  Your power die type is determined by your ship tier.
-
-### Tactics
-The tactics are presented in alphabetical order.
-
-#### Attack Pattern Delta
-_**Power Die Location:** Engines_<br>
-When your ship makes a ship attack while there is a friendly ship within 100 feet of you, you can expend a power die to grant advantage to the roll. If the attack hits, add the result of the die to the attack's damage roll.
-
-#### Break the Lock
-_**Power Die Location:** Engines_<br>
-When the ship fails a Strength, Dexterity, or Constitution saving throw, as a reaction, you can expend a power die to attempt to recover. Roll the die and add the result to the saving throw.
-
-<img src='https://www.gmbinder.com/images/vmwsYtZ.png' style='position:absolute;bottom:4px;left:-110px;width:672px;z-index:1000;transform:scaleX(-1)' />
-
-<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
-
-\pagebreakNum
-
-<div style='margin-top:23px'></div>
-
-#### Defense Screen
-_**Power Die Location:** Engines_<br>
-As a bonus action, you can expend a power die and take a defensive formation as long as there is a friendly ship within 100 feet of you. When you do so, your AC increases by the amount rolled on the die until the start of your next turn.
-
-#### Koiogran Turn
-_**Power Die Location:** Engines_<br>
-When you are the target of an attack roll, you can expend a power die and attempt to maneuver out of the line of fire. Roll the die, take the result, and multiply it by 50. You immediately move that many feet in a direction of your choice. The orientation of your ship does not change.
-
-#### Skim the Surface
-_**Power Die Location:** Engines_<br>
-As a bonus action, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's flying speed increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn.
-
-#### Snap Roll
-_**Power Die Location:** Engines_<br>
-When you are hit by a ship attack, you can expend a power die and attempt to roll to mitigate the damage. When you do so, the damage you take from the attack is reduced by the amount rolled on the die.
-
-#### Starship Charge
-_**Power Die Location:** Engines_<br>
-When you take the Ram action, you can expend a power die to increase the damage. On a failed save, the target ship takes additional kinetic damage equal to the amount rolled on the die + your ship's Strength modifier. Your ship has resistance to the additional damage dealt by this tactic.
-
-#### Target Acquired
-_**Power Die Location:** Engines_<br>
-As a bonus action, you can expend a power die and hone in on a target you can see. The next attack roll made by your ship has advantage, and if the attack hits, add the result of the die to the attack's damage roll.
-
-### I'll Try Spinning
-At 2nd rank, when you use take the Evade action, you can choose to have all attacks against you from a single ship have disadvantage until the beginning of your ship's next turn.
-
-Once you've used this feature, you can't use it again until you finish a long rest.
-
-\columnbreak
-
-### Uncanny Dodge
-Also at 2nd rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack's damage against your ship.
-
-### Dependable Pilot
-Starting at 3rd rank, when you would make a Dexterity (Maneuvering) check while assigned as a pilot, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. You may use this feature a number of times equal to your ranks in piloting.  You regain all expended uses when you complete a long rest.
-
-### Cunning Avoidance
-Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make a Dexterity (Maneuvering) check, and instead use that value for your AC or saving throw.
-
-### That's a Good Trick
-At 4th rank, you can take a reaction to give disadvantage to an attack declared against your ship.
-
-Once you've used this feature, you can't use it again until you finish a long rest.
-
-### Evasion
-Also at 4th rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.
-
-### Paragon Pilot
-As of 5th tier, you are a paragon of your deployment. When you would expend a power die, you can use a d4 instead of expending a die. You can only use this feature once per round.
-
-### Pilot Extraordinaire
-Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Dexterity (Maneuvering) checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against your ship have disadvantage.
-
-Once you've used this feature, you can't use it again until you finish a short or long rest.
-
-<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
-
-\pagebreakNum
 
 ## Technician
 <span style="font-variant: small-caps">Flinching occasionally as a blaster bolt hits the nearby</span> bulkhead, a Sullustan defense coordinator quickly orders back-up troopers to his position. He peers through his infrared goggles, filtering out the clouds of smoke, ignoring the shouts of his falling comrades as the enemy advances. He raises his own blaster, yelling with anger as the weapon tears into the opposing force. His ship would not be overtaken from within.  
@@ -746,7 +755,7 @@ You learn an additional stratagem at 2nd, 3rd, 4th, and 5th rank in this deploym
 #### Power Dice
 A power die is expended when you use it. Your ship must have a power die at the required system in order to use the stratagem.  
 
-Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of deployed crew members.  Your power die type is determined by your ship tier.
+Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
 
 ### Stratagems
 The stratagems are presented in alphabetical order.
@@ -771,7 +780,7 @@ When you are reduced to zero shields, as a reaction, you can expend a power die 
 
 #### Bring 'Em Back Up!
 _**Power Die Location:** Shields_<br>
-When you have no shields, as an action, you can expend one power die to use a shield die to bring your shields back online with a value equal to your ship's regeneration rate plus the amount rolled on the power die.
+When you have no shields, as an action, you can expend one power die to expend a shield die to bring your shields back online with a value equal to your ship's regeneration rate plus the amount rolled on the power die.
 
 #### Close Blast Doors
 _**Power Die Location:** Shields_<br>

@@ -67,6 +67,7 @@
 |	Kalloran            |
 |	Kaminoan        	|
 |	Karkarodon          |
+|	Kiffar	            |
 |	Killik	            |
 |	Klatooinian        	|
 |	Kubaz           	|
@@ -3250,6 +3251,7 @@ ___
 > |Kaminoan|Geneticist<br> Ultraviolet Sight|
 > |Karkarodon|Aggressive|
 > |Kel Dor|Darkvision|
+> |Kiffar|Nimble Reflexes|
 > |Killik|Carapace|
 > |Klatooinian|Wisdom of the Elders|
 > |Kubaz|Darkvision|
@@ -3573,7 +3575,7 @@ As a ho'din, you have the following special traits.
 
 ***Cold Sensitivity.*** You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme cold.
 
-***Crafters.*** You have proficiency with with one artisan's implements of your choice.
+***Crafters.*** You have proficiency with one artisan's implements of your choice.
 
 ***Naturalist.*** You have proficiency in the Nature skill.
 
@@ -4242,6 +4244,84 @@ As a karkarodon, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Karkaran. Karkaran is characterized by its fierce sounds.
 
 <img src='https://www.gmbinder.com/images/MFBrXRX.png' style='position:absolute;top:40px;right:12px;width:455px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Kiffar
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Light to dark tones|
+> |***Hair Color***|  |Black or brown|
+> |***Eye Color***|  |Orange, brown, green, blue, or gray|
+> |***Distinctions***|  |Near-human, rare psychometry ability|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |4'8"|+2d10"|
+> |***Weight***|  |115 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Kiffu, Kiffex|
+> |***Language***|  |Galactic Basic|
+
+<div style='margin-top:46px'></div>
+
+### Biology and Appearance
+The kiffar are very closely related to humans, enough that they can interbreed, though kiffar typically have darker hair. The biggest visual difference between the two is that the kiffar always wear tattoos, that represent their clan. Kiffar are more likely to be Force-sensitive, which is typically manifested in psychometry, a rare Force power that about one percent of the kiffar population can use. Using psychometry, kiffar can touch objects and receive visions from the Force that show them the object’s past. 
+
+### Society and Culture
+The kiffar reside on the planets of Kiffu and Kiffex. Kiffar are a people who value their own independence, staying out of galactic affairs and being ruled only by themselves. They see outsiders as dangerous and are generally nationalists. They are organized into clans, and clan heritage is very important to them. Their markings, which they call qukuuf, are passed down through the family maternally, but kiffar with a human mother will typically use their father’s tattoos. Conversely, clan membership is passed down paternally, and those with a human father can join their mother’s clan. The traditional colors of the facial tattoos are red, yellow, and green. Various patterns and designs are used to identify the clan. 
+
+Kiffu Guardians, also known as the Guardians of Kiffu, are an important kiffar institution that acts as a police force in their space. The Kiffu Guardians wear black armor, and they share a symbol with clan Vos, which is a gold five-pointed star outlined by a circle. 
+
+### Names
+Kiffar use names similar to those of humans, varying drastically clan by clan. Surnames are familiar. 
+
+**Male Names.** Kurros, Sathran, Vis, Ziflos
+
+**Female Names.** Grai, Iané, Kinnas, Sonti
+
+**Surnames.** Gov, Keffane, Mullisa, Vel
+
+\columnbreak
+
+<div style='margin-top:338px'></div>
+
+### Kiffar Traits
+As a kiffar, you have the following special traits.
+
+***Ability Score Increase.*** Your Strength or Dexterity score increases by 2, and your Wisdom or Charisma score increases by 1.
+
+***Age.*** Kiffar reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Kiffar are independent and free spirited, causing them to tend towards chaotic alignments, though there are exceptions.
+
+***Size.*** Kiffar vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Iron Will.*** You have advantage on saving throws against being charmed.
+
+***Nimble Reflexes.*** Kiffar are naturally adapted to avoiding the Force. You have advantage on Dexterity and Intelligence saving throws against force powers.
+
+***Tribal Warrior.*** You have proficiency with two vibroweapons of your choice.
+
+***Languages.*** You can speak, read, and write Galactic Basic and one extra language of your choice. Kiffar never had a tongue to call their own, using Galactic Basic as far back as their history goes.
+
+***Kiffar Heritage.*** A small percentage of the kiffar population are naturally Force-sensitive, able to read the memories contained within inanimate objects, while others train to become proud guardians of their home sector. You choose one of the following heritages: 
+___
+- **Paladin.** You have proficiency with light and medium armor as well as the electrobaton and one blaster of your choice. Additionally, you have proficiency in one of the following skills: Insight, Intimidation, Perception, or Survival.
+- **Sage.** You learn and can cast the *telemetry* force power once per long rest. When you reach 5th level, you learn and can cast the *psychometry* force power once per long rest. Wisdom or Charisma (your choice) is your forcecasting ability for these powers.
+
+<img src='https://www.gmbinder.com/images/V9nDhSd.png' style='position:absolute;top:5px;right:150px;width:187.5px;transform:scaleX(-1);z-index:100' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -4918,7 +4998,7 @@ As a massassi, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Sith. Sith is an agglutinative language, in which words or even phrases were made up of linear sequences of distinct meaningful units.
 
-<img src='https://cdn.discordapp.com/attachments/468814451085148160/800855663298347018/image0.jpg' style='position:absolute;top:45px;right:100px;width:283px;transform:scaleX(-1);mix-blend-mode:darken' />
+<img src='https://www.gmbinder.com/images/hxr7jhg.png' style='position:absolute;top:45px;right:100px;width:283px;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -7393,7 +7473,7 @@ As a tognath, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Crafters.*** You have proficiency with with one set of artisan's implements of your choice.
+***Crafters.*** You have proficiency with one set of artisan's implements of your choice.
 
 ***Exoskeleton.*** You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.
 

@@ -74,7 +74,29 @@ One of the most often-used complications is a time constraint. Placing a limit o
 
 Similarly, limiting the perception or communication of combatants can add an air of the unknown to an encounter. In addition to terrain that impairs visibility, you might include a jamming field that prohibits ships from communicating with each other, or a sensor scrambler that imposes disadvantage on Piloting checks as the ship's onboard computers struggle to clear out the interference.
 
-> Encounter Creation needs to be rewritten. It will require a decent amount of maff on my end, so it's not ready yet. For the time being, have your GM use common sense to dictate what is an appropriate encounter.
+
+### NPC INITIATIVE
+At the beginning of every combat, PC ships typically role group initiative.  NPC ships may be large in number and/or have huge numbers of NPCs manning them, so a GM should generally determine NPC initiative by rolling for each ship individually as follws.  Roll initiative by making a ship Dexterity check modified by the number given in the Initiative Size Modifier table below. 
+
+#### Initiative Size Modifier
+
+<div style='column-count:2'>
+
+|Ship Size|Initiative<br> Size Modifier|
+|:--:|:--:|
+|Tiny|	0|
+|Small|	-3|
+|Medium|-7|
+
+|Ship Size|Initiative<br> Size Modifier|
+|:--:|:--:|
+|Large	|-9|
+|Huge	|-10|
+|Gargantuan|-11|
+
+</div>
+
+> Encounter Creation and Ship Rating (analogous to Challenge Rating for creatures) needs to be rewritten. It will require a decent amount of maff on my end, so it's not ready yet. For the time being, have your GM use common sense to dictate what is an appropriate encounter.
 
 <div class='footnote'>CHAPTER 10 | GENERATING ENCOUNTERS</div>
 

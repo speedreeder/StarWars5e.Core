@@ -213,6 +213,11 @@ namespace StarWars5e.Parser.Managers
                     }
                 }
 
+                var dupes = modifications
+                    .GroupBy(i => i.RowKey)
+                    .Where(g => g.Count() > 1)
+                    .Select(g => g.Key);
+
                 foreach (var modification in modifications)
                 {
                     modification.ContentSourceEnum = ContentSource.SotG;

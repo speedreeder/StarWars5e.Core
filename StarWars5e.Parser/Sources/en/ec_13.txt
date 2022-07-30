@@ -6,6 +6,9 @@
 
 #### General
 ___
+-	Assess the Situation
+-	Daring Escape
+-	Deliberate Movement
 - Go Get 'Em
 - Loyal Bond
 - Pin Down
@@ -34,7 +37,11 @@ ___
 
 #### Agonizing Lethargy
 _**Mental maneuver**_<br>
-You can use an action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 necrotic damage for each attack it makes until the start of your next turn. A creature targeted by your Critical Analysis has disadvantage on the save.
+You can use an action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 necrotic damage for each attack it makes until the start of your next turn. 
+
+#### Assess the Situation
+_**General maneuver**_<br>
+You can expend one superiority die to make a Wisdom (Perception) or Intelligence (Investigation) check as a bonus action, adding the superiority die to the check.
 
 #### Befogging Ichor
 _**Mental maneuver**_<br>
@@ -44,13 +51,21 @@ You can use a bonus action to expend a superiority die. When you do so, choose a
 _**Mental maneuver**_<br>
 You can use a bonus action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you that is no more than one size larger than you. The target must succeed on a Strength saving throw or gain four slowed levels until the start of your next turn.
 
+#### Daring Escape
+_**General maneuver**_<br>
+You can expend one superiority die to take the Disengage action as a bonus action on your turn. Until the end of this turn, you have advantage on ability checks and saving throws to break effects that would grapple, restrain or slow you.
+
 #### Dark Transference
 _**Mental maneuver**_<br>
-When you hit the target of your Critical Analysis with an attack, you can expend a superiority die and roll it to attempt to siphon life from it. The target must make a Constitution saving throw. On a failed save, add the result to the damage roll, and you regain one expended Hit Die.
+When you hit a creature with an attack, you can expend a superiority die and roll it to attempt to siphon life from it. The target must make a Constitution saving throw. On a failed save, add the result to the damage roll, and you regain one expended Hit Die.
 
 #### Deathseek
 _**Mental maneuver**_<br>
-When an attack made against the target of your Critical Analysis that you can see would miss, you can use a reaction and expend a superiority die and roll it to force the creature to instead take the hit. The creature must make a Wisdom saving throw. On a failed save, the target takes the minimum damage the attack could have dealt plus additional damage equal to the roll.
+When an attack made against a hostile creature that you can see would miss, you can use a reaction and expend a superiority die and roll it to force the creature to instead take the hit. The creature must make a Wisdom saving throw. On a failed save, the target takes the minimum damage the attack could have dealt plus additional damage equal to the result of the superiority die.
+
+#### Deliberate Movement
+_**General maneuver**_<br>
+You can expend one superiority die to take the Dash action as a bonus action and ignore the effects of unenhanced difficult terrain until the end of your turn.
 
 #### Go Get 'Em
 _**General maneuver**_<br>

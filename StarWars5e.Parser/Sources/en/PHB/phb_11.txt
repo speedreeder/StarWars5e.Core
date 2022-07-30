@@ -952,7 +952,7 @@ ___
 - **Range:** Self
 - **Duration:** 1 hour
 
-This power enables you to use your health to fuel your force powers. For the duration, when you cast a force power, you can choose to pay up to half the cost of the force power using your hit points instead of your tech points. When you do so, your maximum hit points are reduced by the same amount until you complete a long rest.
+This power enables you to use your health to fuel your force powers. For the duration, when you cast a force power, you can choose to pay up to half the cost of the force power using your hit points instead of your force points. When you do so, your maximum hit points are reduced by the same amount until you complete a long rest.
 
 You may end this effect at any time. If you cast a force power that would reduce your hit points to 0, the power automatically fails and this effect ends.
 
@@ -1079,7 +1079,7 @@ ___
 - **Range:** Touch
 - **Duration:** 1 minute
 
-The crystal inside of a simple lightweapon or the material of a simple vibroweapon or an improvised weapon you are holding is imbued with the power of the Force. For the duration, you can use your forcecasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes enhanced, if it isn't already, and you become proficient with it, if you aren't already. The power ends if you cast it again or if you let go of the weapon.
+The crystal inside of a simple lightweapon or the material of a simple vibroweapon or an improvised weapon you are holding is imbued with the power of the Force. For the duration, you can use your forcecasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes 1d8. The weapon also becomes enhanced, if it isn't already, and you become proficient with it, if you aren't already. The power ends if you cast it again or if you let go of the weapon.
 
 #### Force Immunity
 _4th-level universal power_
@@ -1492,7 +1492,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 minute
 
-You touch one willing creature. Once before the power ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The power then ends.
+You touch one willing creature. Once before the power ends, the target can roll a d4 and add the number rolled to one ability check of its choice. The power then ends.
 
 This power's die increases at higher levels: to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.
 
@@ -2339,7 +2339,7 @@ ___
 - **Range:** Touch
 - **Duration:** Concentration, up to 1 minute
 
-You touch one willing creature. Once before the power ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The power then ends.
+You touch one willing creature. Once before the power ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. The power then ends.
 
 This power's die increases at higher levels: to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.
 

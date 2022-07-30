@@ -217,7 +217,7 @@ You can attack twice, instead of once, whenever you take the Attack action on yo
 
 ### Feral Impulse
 _**Berserker:** 7th level_<br>
-Your instincts are so honed that you have advantage on initiative rolls.
+Your instincts are so honed that you have advantage on Initiative checks.
 
 Additionally, if you are surprised at the start of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
 
@@ -341,7 +341,7 @@ You gain proficiency in martial blasters with the burst or rapid property. Addit
 ### Explosive
 _**Ballistic Approach:** 3rd and 9th level_<br>
 While raging, you gain the following benefits:
-- When you roll a 1 or 2 on a damage die for an attack made with a blaster weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+- When you roll a 1 or 2 on a damage die for an attack made with a blaster weapon, you can treat the result of the die as a 3.
 - You add your rage damage to damage rolls from ranged weapon attacks using Strength. 
 - At 9th level, when a creature rolls a 1 on a saving throw against your burst or rapid property, you can add your Brutal Critical dice to the damage.
 
@@ -363,6 +363,78 @@ When you use the burst property of a blaster with which are you proficient, you 
 
 \pagebreakNum
 
+## Cyclone Approach
+The Cyclone Approach empowers the berserker's ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a whirlwind of fury and steel, cleaving through hordes of enemies.
+
+### Dual Wielder
+_**Cyclone Approach:** 3rd level_<br>
+When you engage in Two-Weapon Fighting, you can add your Strength or Dexterity modifier (your choice) to the damage of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.
+
+### Double Swing
+_**Cyclone Approach:** 3rd level_<br>
+Once on each of your turns when you miss with an attack while raging, you can immediately make a melee weapon attack with a weapon wielded in a different hand. 
+
+### Twisting Winds
+_**Cyclone Approach:** 6th level_<br>
+Your unpredictable movement makes you harder to hit and pin down. When you make a saving throw or ability checks to avoid being knocked prone, pushed, grappled, or restrained, you can add your Strength or Dexterity modifier (your choice).
+
+\columnbreak
+
+<div style='margin-top:27px'></div>
+
+### Mighty Leap
+_**Cyclone Approach:** 10th level_<br>
+The distance you can jump is doubled, and you do not provoke attacks of opportunity if you leave a hostile creature's reach while jumping.
+
+### Tornado
+_**Cyclone Approach:** 14th and 17th level_<br>
+Once on each of your turns, you can become a tornado of attacks. When you take the Attack action on your turn, you can forgo one of your regular attacks to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. If you are wielding a separate melee weapon in each hand, each successful hit against a target deals damage equal to the damage dice of both weapons + your ability modifier + any other modifiers.
+
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest.
+
+<img src='https://www.gmbinder.com/images/N7AJIeU.png' style='position:absolute;bottom:-116px;right:0px;width:825px;z-index:1000;' />
+
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
+
+\pagebreak
+
+## Juggernaut Approach
+Certain berserkers find that the strongest offense is a good defense. Berserkers of the Juggernaut Approach wear the heaviest of armor not because they fear injury, but to strike fear in their hapless attackers.
+
+### Armored Brute
+_**Juggernaut Approach:** 3rd level_<br>
+You've learned to fight in the heaviest of armors, using your weight to your advantage. You gain proficiency in heavy armor, you can enter a rage while wearing heavy armor, and you can gain the benefits of your Rage feature while wearing heavy armor. 
+
+### Unstoppable Force
+_**Juggernaut Approach:** 3rd level_<br>
+Your momentum makes you nigh unstoppable. While raging, you can move through a hostile creature's space regardless of that creature's size. When you do so, you must make a Strength (Athletics) check contested by the target's Strength (Athletics) check. If you move at least 10 feet before moving through a hostile creature's space, and that creature is your size or smaller, they have disadvantage on the check. If you succeed, you don't treat the movement as difficult terrain, the creature is pushed 5 feet in a direction of your choice, and you don't provoke opportunity attacks from that creature until the end of your turn.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Raging Bulwark
+_**Juggernaut Approach:** 6th level_<br>
+Your imposing form acts as a shield for your allies. When a friendly creature you can see is<br> the target of a ranged attack, or forced to make a Dexterity saving throw, and you can see the source<br> of the effect, you can use your reaction to move up to half your speed towards the friendly creature. You must end this move closer to the ally than you started. If you end this movement between your ally and the source of the effect, you provide cover for the attack.
+
+Additionally, you provide three-quarters cover, instead of half-cover, to creatures of the same size category, and you provide full cover, instead of three-quarters cover, to creatures one size smaller than you.
+
+### Overwhelming Cleave
+_**Juggernaut Approach:** 10th level_<br>
+When you successfully push a creature into a surface or another creature while raging, the pushed creature takes kinetic damage equal to your Rage Damage. Additionally, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
+
+### Relentless Assault
+_**Juggernaut Approach:** 14th level_<br>
+You're able to charge in unerring bursts. As an action, you can charge up to twice your speed in a straight line without provoking opportunity attacks. Each creature within 5 feet of your path must make a Strength or Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier, the target chooses the ability they use use). On a failed save, a creature takes damage equal to your Strength modifier + your Rage damage and, if it is no more than one size category larger than you, is pushed back 5 feet in a direction of your choice. Creatures smaller than you make this save with disadvantage. When you end this movement, if a creature is within 5 feet of you, you can make one melee weapon attack (no action required). On a hit, the creature takes additional damage equal to your berserker level.
+
+Once you've used this feature, you must complete<br> a short or long rest before you can use it again.
+
+<img src='https://www.gmbinder.com/images/TRHOCmr.png' style='position:absolute;bottom:-55px;left:-20px;width:565px;z-index:1000'/>
+
+<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
+
+\pagebreak
+
 ## Marauder Approach
 Few things are more terrifying than being in the path of a Berserker who has learned the ways of the Force. Those who follow this path unlock something deep within them, a well of untamed power from the depths of their fury. When a marauder unleashes their rage, they channel their brute strength into primal might, and uses it to devastate his foes in a hail of fire, blades, and blood. Due to the uncontrolled nature of their powers, marauders have a dangerous predilection for the strength and raw power offered by the dark side, and many fall into it's clutches. Even those who do not are always temped by the voices of fury barely contained within.
 
@@ -382,7 +454,7 @@ Many force powers can be overpowered, consuming more force points to create a gr
 You may only cast force powers at 4th-level once. You regain the ability to do so after a long rest.
 
 #### Forcecasting Ability
-Your forcecasting ability varies based on the<br> alignment of the powers you cast. You use<br> Wisdom for light side powers, Charisma<br> for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability whenever a power refers to your forcecasting ability. Additionally, you use this ability modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
+Your forcecasting ability varies based on the<br> alignment of the powers you cast. You use<br> Wisdom for light side powers, Charisma for<br> dark side powers, and Wisdom or Charisma<br> for universal powers (your choice). You use this ability whenever a power refers to your forcecasting ability. Additionally, you use this ability modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.
 
 ___
 
@@ -461,72 +533,6 @@ You can expel the might of your rage all at once to unleash a devastating storm 
 <img src='https://www.gmbinder.com/images/tVrUTNS.png' style='position:absolute;bottom:27px;left:-600px;width:825px;z-index:1000;transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/0ndBugv.png' style='position:absolute;bottom:27px;left:-75px;width:455px;z-index:1000;' />
-
-<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
-
-\pagebreakNum
-
-## Precision Approach
-Some berserkers have learned to channel their rage into a method of increasing their focus and precision to supernatural levels. Those berserkers who choose the Precision Approach hone their rage to a fine point, becoming agile warriors who ruthlessly dispatch their foes.
-
-### Careful Steps
-_**Precision Approach:** 3rd level_<br>
-You gain skills that represent your precise movement. You gain proficiency in your choice of Acrobatics or Stealth. While raging, you have advantage on checks you make with the chosen skill.
-
-### Focused Rage
-_**Precision Approach:** 3rd level_<br>
-You hone your rage to a razor sharp focus. While raging, when you make a melee weapon attack using Dexterity, you add your rage damage to the damage roll. Additionally, you can use your Reckless Attack feature to give you advantage on melee weapon attacks using Dexterity during your turn.
-
-### Battle Anticipation
-_**Precision Approach:** 6th level_<br>
-While raging, your critical hit range with melee weapon attacks using Dexterity increases by 1.
-
-### Improved Danger Sense
-_**Precision Approach:** 10th level_<br>
-While raging, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage against effects that you can see, such as traps and powers, you are treated as proficient in the save, and you instead take no damage if you succeed on a saving throw, and only half damage if you fail.
-
-### Calm Within the Storm
-_**Precision Approach:** 14th level_<br>
-The precision with which you act during your rage causes you to become a storm of reactive lethality. When you use your Reckless Attack feature, you can make a number of opportunity attacks equal to your proficiency bonus without using your reaction, and when a creature within 5 feet of you misses you with an attack, you can use your reaction to make a melee weapon attack using Dexterity against that creature. You can only take one reaction per turn.
-
-<img src='https://www.gmbinder.com/images/WTnjBcN.png' style='position:absolute;bottom:-20px;right:-48px;width:550px;z-index:1000;' />
-
-<div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
-
-\pagebreakNum
-
-## Warchief Approach
-For some berserkers, it is their duty or birthright to lead their tribe and kin to battle and victory. The Warchief Approach is one forged from alliances, bonds, and strategy. In combat, your rages are less mindless, and more focused. Ignoring the distractions of unimportant events, your attention hones in on the battlefield and how best to direct and control it. You guide your allies' strikes, and your presence is enough to wash away their fatigue.
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-### Savage Diplomat
-_**Warchief Approach:** 3rd level_<br>
-Your path necessitates that you build relationships with others, for the betterment of your tribe or yourself. You gain proficiency in one of the following skills of your choice: Persuasion or Intimidation. You can choose to learn one language in place of the skill proficiency.
-
-### Commanding Rage
-_**Warchief Approach:** 3rd level_<br>
-You become more aware of your allies, and their intent when fighting at your side. While you are raging, when an ally within 10 feet of you makes an attack roll against an enemy, you can use your reaction to grant advantage to that attack and add your rage damage bonus to the damage roll, if the attack hits.
-
-You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
-
-### Inspiring Presence
-_**Warchief Approach:** 6th level_<br>
-Your mere presence on the battlefield rallies your allies. When you rage, choose up to 3 allies that you can see within 30 feet of you. Each creature gains temporary hit points equal to half your berserker level + your Charisma modifier (minimum of +1).
-
-### Raid Planning
-_**Warchief Approach:** 10th level_<br>
-You learn to flare up your allies' drive for combat, urging them to follow you into the fray. During a long rest, you tell sagas, sing battle songs, and give inspiring speeches. At the end of the long rest choose up to 5 creatures that can hear and understand you (which can include yourself) to add your Charisma modifier (minimum of +1) to their next initiative roll, and a 10 foot bonus to their speed on their first turn of combat.
-
-### War Chant
-_**Warchief Approach:** 14th level_<br>
-You have memorized the litanies, songs, and chants of your people and their dedication to war. When you enter a rage on your turn, you can enter a commanding rage for one minute. When you do so, during this turn and at the start of each of your turns, you have a number of special reactions equal to your proficiency bonus you can only use for your Commanding Rage feature. When you use Commanding Rage with these special reactions, they do not count against your uses of that feature. You can only use one reaction per turn. Additionally, during this rage, when an enemy within 10 feet of you makes an attack roll against an ally, you can use your reaction to reduce the attack by an amount equal to your Charisma modifier.
-
-Once you've used this feature, you must complete a long rest before you can use it again.
-
-<img src='https://www.gmbinder.com/images/Fztc5iP.png' style='position:absolute;bottom:6px;left:-210px;width:835px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
@@ -696,7 +702,7 @@ When you successfully cast a light side power, either your or the target's (your
 You can add both your Wisdom and Charisma modifier to your maximum number of force points, instead of just one.
 
 #### Bogan
-When you roll a 1 on a damage die for a dark side power, you can reroll the die and must use the new roll, even if the new roll is a 1. 
+When you roll a 1 or 2 on a damage die for a dark side power, you can treat the result of the die as a 3.
 
 ### Consular Tradition
 _**Consular:** 3rd, 6th, 10th, 14th, and 18th level_<br>
@@ -1093,7 +1099,7 @@ Your technological experience lends you an uncommon insight that you can use to 
 
 <div style='margin-top:23px'></div>
 
-Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. Once the Potent Aptitude die is rolled, it is lost.
 
 A creature can have only one Potent Aptitude die at a time.
 
@@ -1123,7 +1129,7 @@ You can increase one ability score by 2, or you can increase two ability scores 
 _**Engineer:** 20th level_<br>
 Your mastery of technology is unrivaled. Your Constitution and Intelligence scores increase by 2. Your maximum for those scores increases by 2.
 
-Additionally, when you roll initiative and have no uses of Potent Aptitude left, you regain one use.
+Additionally, when you roll Initiative and have no uses of Potent Aptitude left, you regain one use.
 
 ## Engineering Disciplines
 Each discipline focuses on maximizing the personal use of a certain tool. Your discipline grants you features at 3rd, 6th, 14th, and 18th level.
@@ -1265,7 +1271,7 @@ You modify your physical shield such that when a melee weapon attack misses you 
 
 #### Overload Shield
 _**Prerequisite:** Shield Generator_<br>
-You modify your shield generator to overload. As an action you can overload your shield. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength saving throw (their choice) against your tech save DC. On a failed save, they are pushed back 5 feet and knocked prone.
+You modify your shield generator to overload. As an action you can overload your shield. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength saving throw (their choice). On a failed save, they are pushed back 5 feet and knocked prone.
 
 You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a long rest.
 
@@ -1501,7 +1507,7 @@ Once you've used this feature, you can't use it again until you recover the harp
 
 #### Shocking Oscillator
 _**Prerequisite:** 9th level, Vibroweapon_<br>
-When you hit with the weapon, you can create an electronic burst. Each creature in a 15-foot cone centered on the creature you hit must make a Dexterity saving throw against your tech save DC, taking 1d8 lightning damage on a failed save or half as much on a successful one.
+When you hit with the weapon, you can create an electronic burst. Each creature in a 15-foot cone centered on the creature you hit must make a Dexterity saving throw, taking 1d8 lightning damage on a failed save or half as much on a successful one.
 
 Once you've used this feature, you must complete a long rest before you can use it again.
 
@@ -2031,7 +2037,7 @@ You can use this feature twice between long rests starting at 13th level and thr
 
 ### Greater Extra Attack
 _**Fighter:** 11th level_<br>
-You can attack three times, instead of once, whenever you take the Attack action on your turn.
+You can attack three times, instead of twice, whenever you take the Attack action on your turn.
 
 Additionally, when you use a bonus action to engage in Double- or Two-Weapon Fighting, you can make two attacks, instead of one.
 
@@ -2039,7 +2045,7 @@ Additionally, when you use a bonus action to engage in Double- or Two-Weapon Fig
 _**Fighter:** 20th level_<br>
 You are the master of combat. Your Strength or Dexterity score increases by 2, and your Constitution score increases by 2. Your maximum for those scores increases by 2.
 
-Additionally, you can attack four times, instead of once, whenever you take the Attack action on your turn.
+Additionally, you can attack four times, instead of three times, whenever you take the Attack action on your turn.
 
 <img src='https://www.gmbinder.com/images/4NMSS97.png' style='position:absolute;bottom:0px;right:80px;width:300px;z-index:1000;transform:scaleX(-1)' />
 
@@ -2048,10 +2054,10 @@ Additionally, you can attack four times, instead of once, whenever you take the 
 \pagebreakNum
 
 ### Fighter Strategies
-The strategies are presented in alphabetical order.
+The strategies are presented in alphabetical order. You can't take a strategy more than once.
 
 #### Cover Strategist
-You treat partial cover as one step higher (from one-quarter to half or half to three-quarters). While in cover, your attacks reduce partial cover by one step partial cover as one step lower (from three-quarters to half or half to one-quarter).
+You treat partial cover as one step higher (from one-quarter to half or half to three-quarters). While in cover, your attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter).
 
 \columnbreak
 
@@ -2059,6 +2065,7 @@ You treat partial cover as one step higher (from one-quarter to half or half to 
 
 #### Cunning Strategist
 Choose two from the following. You can perform each of the chosen options with your bonus action, instead of your action: 
+- Applying poison
 - Dash
 - Disengage
 - Guard
@@ -2076,7 +2083,7 @@ You only need 3 hours of sleep during a long rest to gain its benefits, instead 
 You've mastered a particular style of fighting. Choose one of the Fighting Mastery options, detailed in Chapter 6. 
 
 #### Lightweapon Strategist
-You gain proficiency in all lightweapons. Additionally, you no longer need the ability to cast force powers to learn lightsaber forms, and you learn one lightsaber form of your choice.
+You gain proficiency in all lightweapons. Additionally, you no longer need the ability to cast force powers to learn features that grant lightsaber forms, and you learn one lightsaber form of your choice.
 
 #### Maneuver Strategist
 You learn two additional maneuvers. When you complete a short rest, you can replace one of these maneuvers with another one. When you complete a long rest, you can replace both of these maneuvers with other ones.
@@ -2100,69 +2107,82 @@ Different fighters choose different approaches to perfecting their fighting prow
 Those fighters who choose to become Assault Specialists focus on the development of raw physical power honed to deadly perfection. Assault Specialists combine rigorous training with physical excellence to deal devastating blows.
 
 ### Brute Force
-_**Assault Specialist:** 3rd, 5th, 9th, 13th, and 17th level_<br>
-Once per turn, when you deal damage with a weapon, you can deal an additional 1d4 damage of the same type as the weapon's damage. If this damage would affect multiple creatures, you can only apply this damage bonus to one of them.
+_**Assault Specialist:** 3rd, 10th, and 16th level_<br>
+When you make a weapon attack, you gain a +2 bonus to the damage roll. This bonus increases to +3 at 10th level and +4 at 16th level.
 
-This damage increases to 1d6 at 5th level, 1d8 at 9th level, 1d10 at 13th level, and 1d12 at 17th level.
+### Improved Critical
+_**Assault Specialist:** 3rd level_<br>
+Your critical hit range with weapons increases by 1.
 
 ### Remarkable Athlete
-_**Assault Specialist:** 3rd level_<br>
+_**Assault Specialist:** 7th level_<br>
 You can add half your proficiency bonus to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
 
 ### Brutish Durability
-_**Assault Specialist:** 7th level_<br>
-Once per round, roll 1d6 and add the die to your saving throw total. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20. You can choose to use this feature before or after you make a saving throw, but you must decide before the GM says whether the save succeeds or fails.
+_**Assault Specialist:** 10th, 13th, and 17th level_<br>
+Once per round, you can roll a d8 and add the die to a saving throw you make. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20.
 
-### Additional Fighting Style
-_**Assault Specialist:** 10th level_<br>
-You can choose a second fighting style option.
+This die increases to a d10 at 13th level and a d12 at 17th level.
 
 ### Devastating Critical
 _**Assault Specialist:** 15th level_<br>
-When you score a critical hit with a weapon attack, you gain a bonus to that weapon's damage roll equal to your fighter level.
+When you score a critical hit with a weapon attack,<br> you gain a bonus to that weapon's damage roll equal to your fighter level.
 
 ### Survivor
 _**Assault Specialist:** 18th level_<br>
 You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half your hit points left. You don't gain this benefit if you have 0 hit points.
 
-<img src='https://www.gmbinder.com/images/erxRoFA.png' style='position:absolute;bottom:12px;right:-255px;width:1020px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/erxRoFA.png' style='position:absolute;bottom:12px;right:-265px;width:1020px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
-## Heavy Weapons Specialist
-Some manned instruments of war require their user to have superior physical prowess to overcome their weight and encumbrance. Those fighters who choose to become Heavy Weapons Specialists use their powerful bodies, and powerful armaments, to overwhelm their foes.
+## Blademaster Specialist
+Those fighters who choose to become Blademaster Specialists hone their focus to a blade's edge, becoming so in tune with their arsenal that it becomes both their weapon and their armor.
 
-### Rock Steady
-_**Heavy Weapons Specialist:** 3rd level_<br>
-You have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
+### Unarmored Defense
+_**Blademaster Specialist:** 3rd level_<br>
+While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Strength modifier.
 
-### My Little Friend Says Hello There
-_**Heavy Weapons Specialist:** 3rd level_<br>
-You know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the heavy or strength properties that doesn't already include that modifier.
+### Adaptive Fighting
+_**Blademaster Specialist:** 3rd level_<br>
+You've learned to make adaptations to your fighting style on the fly. You have three such effects: Change Up, Draw, and Stow. When you use your Adaptive Fighting, you choose which effect to create.
+
+You can use this features a number of times equal to your Strength or Dexterity modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.
+
+#### Change Up
+You can use your object interaction and expend a use of your Adaptive Fighting to change the Fighting Style option granted to you by your fighter class feature.
+
+#### Draw
+When you use your object interaction to draw one or more weapons, you can expend a use of your Adaptive Fighting (no action required) to increase your critical hit range by 1 with the weapon(s) until the start of your next turn.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
-### Maximum Output
-_**Heavy Weapons Specialist:** 7th level_<br>
-When you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks. If you do so, the first time you deal damage with the weapon before the start of your next turn, you deal additional damage of the same type as the weapon's damage. If this instance would deal damage to multiple creatures, you can only apply this additional damage to one of them. For each attack you forgo, you deal additional damage equal to 1d12 + half your fighter level. If you miss with the first attack roll you make before the end of your next turn, or one target succeeds on the saving throw against your weapon's burst or rapid property, you instead deal normal weapon damage.
+#### Stow
+When you use your object interaction to stow a weapon, you can expend a use of your Adaptive Fighting (no action required) to take the Disengage action.
 
-### Straight Through
-_**Heavy Weapons Specialist:** 10th level_<br>
-When you score a critical hit on your turn while wielding a weapon with the heavy or strength properties, you can make one weapon attack against a creature within 5 feet of the target using your reaction.
+### Dervish
+_**Blademaster Specialist:** 7th level_<br>
+When you score a critical hit with a melee weapon attack, you regain an expended use of your Adaptive Fighting.
 
-### Overwhelm
-_**Heavy Weapons Specialist:** 15th level_<br>
-When you use your Second Wind while wielding a weapon with the heavy or strength properties, if you hit with the first attack roll you make, or if one creatures fails the saving throw against your weapon's burst or rapid property, before the end of your next turn, you treat the hit as a critical hit. If you miss with the first attack roll you make before the end of your next turn, or one target succeeds on the saving throw against your weapon's burst or rapid property, you instead deal normal weapon damage.
+### Resilient Fighting
+_**Blademaster Specialist:** 10th level_<br>
+When you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn.
 
-### Pure Performance
-_**Heavy Weapons Specialist:** 18th level_<br>
-At 18th level, attack rolls you make while wielding a weapon with the heavy or strength properties can't suffer from disadvantage.
+### Adrenaline Rush
+_**Blademaster Specialist:** 15th level_<br>
+When you use your Action Surge feature, you can take an extra bonus action on top of the additional action.
 
-<img src='https://www.gmbinder.com/images/0MwwE14.png' style='position:absolute; bottom:0px; left:0px; width:530px;z-index:1000;transform:scaleX(-1)' />
+### Bladestorm
+_**Blademaster Specialist:** 18th level_<br>
+You can use your action to make a single melee weapon attack against each creature within your reach. Make a separate attack roll against each target. The first attack gains a +1 bonus to its attack roll, and each attack after the first gains an additional +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6. If you are wielding two light- or vibro-weapons, or a weapon with the double property, you also add this bonus to your damage rolls, and you can use your bonus action to engage in Double- or Two-Weapon Fighting.
+
+Once you've used this feature, you must complete a short or long rest before you can use it again.
+
+<img src='https://www.gmbinder.com/images/vLDR8kY.png' style='position:absolute;bottom:18px;left:65px;width:680px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
@@ -2281,13 +2301,13 @@ You know four maneuvers of your choice, instead of two, and you earn more at hig
 #### Improved Superiority Dice
 You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Tactical Specialist Combat Superiority table.
 
-### Signature Maneuver
+### Maneuver Versatility
 _**Tactical Specialist:** 3rd level_<br>
-You choose a maneuver you know from this class as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round.
+Choose two maneuvers you know. The chosen maneuvers count as general maneuvers for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know.
 
 ### Know Your Enemy
 _**Tactical Specialist:** 7th level_<br>
-If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn
+If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
 
 \columnbreak
 
@@ -2317,7 +2337,6 @@ If you spend at least 1 minute observing or interacting with another creature ou
 
 </div>
 
-certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
 - Strength score
 - Dexterity score
 - Constitution score
@@ -2326,19 +2345,19 @@ certain information about its capabilities compared to your own. The GM tells yo
 - Total class levels (if any)
 - Fighter class levels (if any)
 
-### Greater Signature Maneuver
+### Maneuver Adept
 _**Tactical Specialist:** 10th level_<br>
-You can choose a second signature maneuver. 
+Once per turn, when you roll below a four on a maneuver die, you can treat the die as if you'd rolled a four. This increase to five at 13th level and six at 17th level.
 
 ### Relentless
 _**Tactical Specialist:** 15th level_<br>
-When you roll initiative and have no Superiority Dice remaining, you regain 1 Superiority Die.
+When you roll Initiative and have no Superiority Dice remaining, you regain 1 Superiority Die.
 
 ### Maneuver Mastery
 _**Tactical Specialist:** 18th level_<br>
 Once per round, when you would roll a Superiority Die, you can instead choose the maximum.
 
-<img src='https://www.gmbinder.com/images/iIVXSKe.png' style='position:absolute;bottom:0px;left:15px;width:420px;;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/iIVXSKe.png' style='position:absolute;bottom:0px;left:45px;width:340px;;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
@@ -2550,7 +2569,7 @@ Whenever a creature who is frightened of you starts its turn within 5 feet of yo
 You and friendly creatures within 5 feet of you have advantage on saving throws against effects that would cause you to be charmed or frightened.
 
 #### Aura of Hatred
-You and friendly creatures within 5 feet of you gain a bonus to the first melee weapon damage rolls you make each round equal to your Charisma modifier (minimum of +1), as long as it doesn't already include that modifier. 
+You and friendly creatures within 5 feet of you gain a bonus to the first melee weapon damage rolls you make each round equal to your Charisma modifier (minimum of +1).
 
 #### Aura of Presence
 Whenever you or a friendly creature within 5 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Wisdom modifier (minimum of +1). 
@@ -2595,22 +2614,13 @@ When another creature damages you with a melee attack, you can expend a use of y
 
 If you reduce the damage to 0, you can immediately make a single melee weapon attack against that creature as a part of the reaction.
 
-### Shatterpoint
+### Force-Empowered Reflexes
 _**Makashi Form:** 7th level_<br>
-If you spend at least 1 minute observing or interacting with another creature outside combat, you can use your connection to the Force to sense their<br> strengths and weaknesses, and learn certain<br> information about its capabilities<br> compared to your own. The GM tells<br> you if the creature is your equal,<br> superior, or inferior in regard<br> to two of the following<br> characteristics of your<br> choice:
+You can take a second reaction each round.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
-
-- Strength score
-- Dexterity score
-- Wisdom score
-- Charisma score
-- Armor Class
-- Current hit points
-- Total class levels (if any)
-- Total Forcecaster levels (if any)
 
 ### Glancing Blow
 _**Makashi Form:** 15th level_<br>
@@ -2623,15 +2633,20 @@ You are a duelist of the highest caliber.  Your Dexterity and Wisdom or Charisma
 - All melee attacks have disadvantage against you.
 - Your melee weapon attacks inflict an additional damage die.
 
-This effect ends early if<br> you are incapacitated or die.<br> Once you've used this<br> feature, you can't use it<br> again until you<br> finish a long rest.
+This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/7D6BGbm.png' style='position:absolute;bottom:2px;right:5px;width:628px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/7D6BGbm.png' style='position:absolute;bottom:0px;right:5px;width:688px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
 \pagebreakNum
 
+<div class='wide'>
+
 ## Niman Form
+
+</div>
+
 Niman Form, also known as Moderation Form, strikes a balance between bladework and force powers. Those guardians who focus on Niman Form weave Force manipulation with their melee weapon strikes, pushing their opponents off-balance to create an opening.
 
 ### Form Basics
@@ -2642,11 +2657,9 @@ You gain the Niman lightsaber form, detailed in Chapter 6. If you already know t
 _**Niman Form:** 3rd level_<br>
 As a bonus action, you can enter a balanced stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, when you use your action to cast a force power, you can make one melee weapon attack. Additionally, for the duration, you can use Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls of your melee weapon attacks. You must use the same modifier for both rolls.
 
+This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
+
 \columnbreak
-
-<div style='margin-top:28px'></div>
-
-&emsp; This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
 ### Channel the Force
 _**Niman Form:** 3rd level_<br>
@@ -2657,7 +2670,7 @@ When you deal damage with an at-will force power that requires a force attack or
 
 ### Enlightenment
 _**Niman Form:** 7th level_<br>
-You can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any saving throw you make that doesn't already include that modifier. 
+When you reduce a hostile creature to 0 hit points with a force power, or you restore hit points to a friendly creature that is at 0 hit points with a force power, you gain temporary force points equal to your Wisdom or Charisma modifier (your choice, minimum of one). Once you've done so, you can't do so again until you complete a short or long rest.
 
 ### Redirect
 _**Niman Form:** 15th level_<br>
@@ -2674,7 +2687,7 @@ The Force flows in perfect concert with your weapon attacks. Your Dexterity and 
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/O0yLCKg.png' style='position:absolute;bottom:-22px;left:-50px;width:533px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/O0yLCKg.png' style='position:absolute;bottom:-18px;left:-40px;width:500px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | GUARDIAN</div>
 
@@ -2693,7 +2706,7 @@ You gain your choice of the Shien or Djem So lightsaber form, detailed in Chapte
 
 ### The Way of the Krayt Dragon
 _**Shien/Djem So Form:** 3rd level_<br>
-As a bonus action, you can take a threatening stance for one minute. While in this stance, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
+As a bonus action, you can take a threatening stance for one minute. While in this stance, the first time you hit with a melee weapon attack using Strength each turn, you can choose to deal additional damage equal to your Strength modifier. If there is another creature within 5 feet of the original target and within your reach, you can attempt to deal the additional damage to that creature instead. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -2727,7 +2740,7 @@ You gain one of the following features. Choose Aggressive Negotiations for Shien
 You gain proficiency in Intimidation or Persuasion. Additionally, while you are wielding a weapon with which you are proficient, you can't have disadvantage on Charisma (Intimidation) and Charisma (Persuasion) checks, and if the target would make a contested check, they can't have advantage on it.
 
 #### Reliable Vigor
-If your total for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the total.
+If d20 result for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the result. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Presence
 _**Shien/Djem So Form:** 15th level_<br>
@@ -2737,7 +2750,7 @@ You gain one of the following features. Choose Precise Reflection for Shien or B
 When you hit with an attack made by the *saber reflect* power, you can expend force points to deal additional damage to the target, which is the same type as the weapon's damage. The additional damage is 1d8 for each point spent in this way. You can't deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.
 
 #### Brutal Strikes
-The Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+The Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can treat the result of the die as a 3.
 
 Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.
 
@@ -2769,7 +2782,7 @@ You gain the Soresu lightsaber form, detailed in Chapter 6. If you already know 
 
 ### The Way of the Mynock
 _**Soresu Form:** 3rd level_<br>
-As a bonus action, you can enter a defensive stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the *saber ward* power. When you do so, you have a number of special reactions equal to your proficiency bonus that you can only use to cast the *saber reflect* force power. You can only take one reaction per turn.
+As a bonus action, you can enter a defensive stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the *saber ward* power. When you do so, you have a number of special reactions equal to your proficiency bonus that you can only use to cast the *saber reflect* force power. 
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -2896,7 +2909,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** None
-- **Weapons:** Simple blasters, simple vibroweapons, chakrams, techblades
+- **Weapons:** Simple blasters, simple vibroweapons, martial vibroweapons that lack the dexterity, heavy, special, and two-handed properties
 - **Tools:** None
 ___
 - **Saving Throws:** Strength, Dexterity
@@ -2923,17 +2936,17 @@ In lieu of the equipment granted by your class and background, you can elect to 
 
 ### Martial Arts
 _**Monk:** 1st level_<br> 
-Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are chakrams, techblades, and any simple vibroweapons that don't have the two-handed property.
+Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are vibroweapons with which you are proficient that lack the dexterity, heavy, special, and two-handed properties.
 
 You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:
 - Your unarmed strikes and monk weapons gain the finesse property.
 - You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the monk table.
 - You can use Dexterity instead of Strength whenever you would make a Strength (Athletics) check to grapple, shove, or trip a creature.
 - When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. 
-- You can take the Dash and Disengage actions as a bonus action.
+- You can take the Dash or Disengage actions as a bonus action.
 
 > ##### Variant: Monks with Lightweapons
-> If monks gain lightweapon proficiency, consider letting them use lightweapons as monk weapons, provided the lightweapon has a vibroweapon analogue that would also count as a monk weapon. For instance, chakrams count as monk weapons. If a monk gains proficiency with a light ring, they could also use it as a monk weapon.
+> If monks gain lightweapon proficiency, consider letting them use lightweapons as monk weapons, provided the weapon lacks the dexterity, heavy, special, and two-handed properties.
 
 ### Unarmored Defense
 _**Monk:** 1st level_<br>
@@ -2971,7 +2984,7 @@ ___
 When you make your Martial Arts bonus action attack, you can spend 1 focus point to make an additional unarmed strike (no action required). At 11th level, you can instead spend 2 focus points to make two additional unarmed strikes.
 
 #### Patient Defense
-When you use your bonus action to Disengage, you can spend 1 focus point to also Dodge (no action required). At 11th level, you can instead spend 2 focus points to Dodge and gain an additional reaction until the start of your next turn. You can only take one reaction per turn.
+When you use your bonus action to Disengage, you can spend 1 focus point to also Dodge (no action required). At 11th level, you can instead spend 2 focus points to Dodge and gain an additional reaction until the start of your next turn. 
 
 #### Step of the Wind
 When you use your bonus action to Dash, you can spend 1 focus point to double your jump distance for the turn. At 11th level, you can instead spend 2 focus points to gain a flying speed equal to your walking speed until the end of your turn, though you fall if you end your speed in the air and nothing else is holding you aloft.
@@ -3048,7 +3061,7 @@ You can use your action to spend 4 focus points to become invisible for 1 minute
 
 ### Perfect Self
 _**Monk:** 20th level_<br>
-You've gained perfect control over your body. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, when you roll for initiative and have fewer than 6 focus points remaining, you regain up to 6 focus points.
+You've gained perfect control over your body. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, when you roll for Initiative and have fewer than 6 focus points remaining, you regain up to 6 focus points.
 
 ### Monastic Vows
 The vows are presented in alphabetical order. If a vow has prerequisites, you must meet them to learn it. You can learn a vow at the same time you meet its prerequisites. You can't take a vow more than once.
@@ -3104,7 +3117,7 @@ This feature ends early if you attack another creature, if you target another ho
 \columnbreak
 
 #### Vow of the Open Mind
-You gain proficiency in a skill of your choice. Additionally, you can spend 1 focus point and 10 minutes meditating on a skill in which you are proficient. If you do so, when you make an ability check with the chosen skill, you can add your Wisdom or Charisma modifier to the check if it doesn't already include that modifier. You can only have one instance of this feature active at a time.
+You gain proficiency in a skill of your choice. Additionally, you can spend 1 focus point and 10 minutes meditating on a skill in which you are proficient. If you do so, when you make an ability check with the chosen skill, you can add your Wisdom or Charisma modifier to the check. You can only have one instance of this feature active at a time.
 
 #### Vow of Precision
 _**Prerequisite:** 13th level_<br>
@@ -3223,7 +3236,7 @@ Monks of the Matukai Order center their philosophy around  a balance and harmony
 
 ### Force-Enhanced Strikes
 _**Matukai Order:** 3rd level_<br>
-You learn to channel the Force into your unarmed strikes and monk weapons, further enhancing your melee strikes. When you hit a creature with an unarmed strike or melee weapon attack with a monk weapon, you can spend 1 focus point to force the creature to make a Strength saving throw. On a failed save, it takes 2d6 force damage and is pushed up to 15 feet away from you. On a successful save, the creature only takes half as much damage and isn't pushed.
+You learn to channel the Force into your unarmed strikes and monk weapons, further enhancing your melee strikes. When you hit a creature with an unarmed strike or melee weapon attack with a monk weapon, you can spend 1 focus point to force the creature to make a Strength saving throw against your focus save DC. On a failed save, it takes 2d6 force damage and is pushed up to 15 feet away from you. On a successful save, the creature only takes half as much damage and isn't pushed.
 
 ### Instinctive Leap
 _**Matukai Order:** 6th level_<br>
@@ -3250,7 +3263,7 @@ Monks of the Nightsister Order utilize an innate Force-sensitivity to commune wi
 
 ### Ichor Lightning
 _**Nightsister Order:** 3rd level_<br>
-You gain a new attack option that you can use with the Attack action. This special attack is a ranged focus attack with a range of 30 feet. You are proficient with it, and you add your focus ability modifier to its attack and damage rolls. Its damage is necrotic, and it uses your Martial Arts die for its damage die.
+You gain a new attack option that you can use with the Attack action. This special attack is a ranged focus attack with a range of 30 feet. You are proficient with it, and you add your focus ability modifier to its attack and damage rolls. Its damage is necrotic, it counts as an unarmed strike for the sake of your Martial Arts feature, and it uses your Martial Arts die for its damage die.
 
 \columnbreak
 
@@ -3258,7 +3271,7 @@ You gain a new attack option that you can use with the Attack action. This speci
 
 &emsp;When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can replace the attack with this one.
 
-When you reduce a creature to 0 hit points with this attack, you gain temporary hit points equal to your focus ability modifier + your monk level (your choice, minimum of one).
+When you reduce a creature to 0 hit points with this attack, you gain temporary hit points equal to your focus ability modifier (your choice, minimum of one) + your monk level.
 
 ### Dark Magick
 _**Nightsister Order:** 6th level_<br>
@@ -3270,9 +3283,9 @@ When you are reduced to 0 hit points, you can expend 1 focus point (no action re
 
 ### Spirit Blade Assault
 _**Nightsister Order:** 17th level_<br>
-As an action, you conjure a blade of spirit energy and strike one creature within 5 feet of you with it, expending 1 to 10 focus points. The target must make a Constitution saving throw. On a failed save, it takes<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2d10 necrotic damage per focus point<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;spent, or half as much on a successful<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;one. 
+As an action, you conjure a blade of spirit energy and strike one creature within 5 feet of you with it, expending 1 to 10 focus points. The target must make a Constitution saving throw against your focus save DC. On a failed save, it takes 2d10 necrotic damage per<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;focus point spent, or half as much on a<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;successful one. 
 
-<img src='https://www.gmbinder.com/images/R0ZTJew.png' style='position:absolute;bottom:24px;left:-10px;width:685px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/R0ZTJew.png' style='position:absolute;bottom:25px;left:-0px;width:665px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
@@ -3357,7 +3370,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple blasters, simple vibroweapons, blaster pistol, hidden blade, techblade, vibrorapier
+- **Weapons:** Simple blasters, simple vibroweapons, martial blasters that lack the auto, special, strength, and two-handed properties, martial vibroweapons with the finesse property
 - **Tools:** One specialist's kit of your choice
 ___
 - **Saving Throws:** Dexterity, Intelligence
@@ -3400,7 +3413,7 @@ The amount of the extra damage increases as you gain levels in this class, as sh
 
 ### Cunning Action
 _**Operative:** 2nd level_<br>
-Your quick thinking and agility allow you to move and act quickly. You can take the Dash, Disengage, and Hide actions as a bonus action.
+Your quick thinking and agility allow you to move and act quickly. You can take the Dash, Disengage, or Hide actions as a bonus action.
 
 ### Operative Exploits
 _**Operative:** 2nd, 7th, 13th, and 17th level_<br>
@@ -3408,7 +3421,7 @@ You've adopted two exploits, as detailed at the end of the class description. Yo
 
 ### Bad Feeling
 _**Operative:** 3rd level_<br>
-You have a wary eye, bordering on paranoia. When you roll for initiative, you can move up to your speed. This movement happens before the initiative order is determined. 
+You have a wary eye, bordering on paranoia. When you roll for Initiative, you can move up to your speed. This movement happens before the Initiative order is determined. 
 
 Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -3453,7 +3466,7 @@ You have an uncanny knack for succeeding when you need to. Your Dexterity and In
 Once you've used this feature, you can't use it again until you finish a short or long rest.
 
 ### Operative Exploits
-The exploits are presented in alphabetical order. If an exploit has prerequisites, you must meet them to learn it. You can learn an exploit at the same time you meet its prerequisites.
+The exploits are presented in alphabetical order. If an exploit has prerequisites, you must meet them to learn it. You can learn an exploit at the same time you meet its prerequisites. You can't take an exploit more than once.
 
 #### Commander's Exploit
 You gain proficiency in medium armor.
@@ -3611,9 +3624,9 @@ Your agility in the air grants you the following benefits:
 
 ### Thief's Reflexes
 _**Acquisitions Practice:** 17th level_<br>
-You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
+You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10. You can't use this feature when you are surprised.
 
-Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can deal three additional weapon dice worth of damage and the creature must make a Dexterity saving throw or be knocked prone.
+Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can deal three additional weapon dice worth of damage and the creature must succeed on a Dexterity saving throw against your Deft Hands save DC or be knocked prone.
 
 <img src='https://www.gmbinder.com/images/rBgHouo.png' style='position:absolute;bottom:26px;left:135px;width:295px;z-index:1000;' />
 
@@ -3917,7 +3930,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple blasters, simple vibroweapons, techblades
+- **Weapons:** Simple blasters, simple vibroweapons, martial vibroweapons with the finesse property
 - **Tools:** Any one
 ___
 - **Saving Throws:** Intelligence, Wisdom
@@ -3972,9 +3985,9 @@ ___
 
 ### Critical Analysis
 _**Scholar:** 1st level_<br>
-You are able to analyze a target, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a bonus action on your turn, you can analyze a target you can see within 60 feet of you. For the next minute, or until you analyze another target, you gain the following benefits:
+You are able to analyze a creature, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a bonus action on your turn, you can analyze a creature you can see within 60 feet of you. For the next minute, or until you analyze another target, you gain the following benefits:
 - When you analyze a hostile creature, your attack and damage rolls made with weapons with the finesse property or blaster weapons against that target may use your Critical Analysis ability modifier, which is Intelligence, instead of Strength or Dexterity. You must use the same modifier for both rolls.
-- When you analyze a friendly creature, the target can end your Critical Analysis on them (no action required) to add your Critical Analysis ability modifier to one attack roll, ability check, or saving throw. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
+- When you analyze a friendly creature, the target can end your Critical Analysis on them (no action required) to add your Critical Analysis ability modifier, which is Intelligence, to one attack roll, ability check, or saving throw. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
 
 \columnbreak
 
@@ -4006,7 +4019,7 @@ You can increase one ability score by 2, or you can increase two ability scores 
 
 ### Multitasker
 _**Scholar:** 5th level_<br>
-You can take a second reaction each round. You can only take one reaction per turn.
+You can take a second reaction each round. 
 
 Additionally, when a friendly creature you can see that can hear you is forced to make a saving throw, you can use your reaction to target them with your Critical Analysis feature.
 
@@ -4077,6 +4090,9 @@ When you use your Sage Advice feature, the targeted creatures retain the benefit
 #### Malleable Maneuvering
 You learn two additional maneuvers. When you complete a short rest, you can replace one of these maneuvers with another one. When you complete a long rest, you can replace both of these maneuvers with other ones.
 
+#### Maneuver Versatility
+Choose two maneuvers you know. The chosen maneuvers count as general maneuvers for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know.
+
 #### Master's Advice
 _**Prerequisite:** 11th level, Expert's Advice_<br>
 When you use your Sage Advice feature, the first time each targeted creature makes the chosen skill check, they gain an additional bonus to the roll equal to your Critical Analysis ability modifier.
@@ -4089,11 +4105,11 @@ _**Prerequisite:** 5th level_<br>
 You gain proficiency in medium armor.
 
 #### Perfect Maneuver
-When you roll a 1 on a superiority die, you can reroll the die and must use the new roll. 
+When you roll a 1 on a superiority die, you can treat the result of the die as a 3.
 
 #### Quick Analysis
 _**Prerequisite:** 9th level_<br>
-When you roll initiative and aren't surprised, you can use your reaction to use your Critical Analysis feature.
+When you roll Initiative and aren't surprised, you can use your reaction to use your Critical Analysis feature.
 
 #### Rancor's Discipline
 You can substitute Wisdom or Charisma (chosen when you study this discipline) for Intelligence for your scholar class features, except for other discoveries and Academic Pursuit features.
@@ -4105,10 +4121,10 @@ When you make an Intelligence (Lore) or Intelligence (Nature) skill check that l
 #### Resolute
 When you make a saving throw to resist charm and fear effects, you may add your Intelligence modifier to the roll.
 
+\columnbreak
+
 #### Running on Fumes
 You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits. Lastly, you have advantage on saving throws against exhaustion.
-
-\columnbreak
 
 #### Survival Expert
 When you make a Survival skill check, you may use your Critical Analysis ability modifier instead of your Wisdom modifier.
@@ -4130,7 +4146,7 @@ You can communicate simple ideas with any creature with an Intelligence score of
 ## Academic Pursuits
 Your pursuit is a representation of which fields you have studied or how you practically apply your knowledge. Your pursuit grants you features at 3rd, 6th, 9th, and 17th level.
 
-<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:19px;right:-40px;width:615px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:21px;right:30px;width:500px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
@@ -4186,7 +4202,7 @@ Whenever you make a Dexterity (Sleight of Hand) or Charisma (Deception) check, y
 Whenever you would make a Charisma (Persuasion) check involving haggling, you can instead challenge the target to a game of chance. If they accept your offer, you can make an ability check with an available gaming set. If you win the challenge, you automatically succeed on the Charisma (Persuasion) check.
 
 #### Ante Up
-When you roll initiative, are not surprised, and end up first in the initiative order, you can take one additional action on top of your regular action and a possible bonus action during your first turn in combat.
+When you roll Initiative, are not surprised, and end up first in the Initiative order, you can take one additional action on top of your regular action and a possible bonus action during your first turn in combat.
 
 #### Calculated Bluff
 When you make an ability check using Charisma, you can choose to instead make the check using your Intelligence or Wisdom modifier (your choice).
@@ -4691,7 +4707,7 @@ You are also aware of the location of any invisible creature within 30 feet of y
 _**Scout:** 20th level_<br>
 You become an unparalleled hunter. Your Strength or Dexterity score increases by 2, and your Intelligence score increases by 2. Your maximum for those scores increases by 2.
 
-Additionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
+Additionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make. 
 
 ### Scout Routines
 The routines are presented in alphabetical order. If multiple scouts grant the same routine, affected creatures can only benefit from it once. You must be conscious to grant the benefit of your routines.
@@ -4701,28 +4717,28 @@ At the start of each of your turns, you can choose an ability score with a savin
 
 \columnbreak
 
-you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.
+you can choose to extend this benefit to allies within 5 feet of you.
 
 #### Maven's Routine
-At the start of each of your turns, you can choose to gain resistance to damage from tech powers until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.
+At the start of each of your turns, you can choose to gain resistance to damage from tech powers until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.
 
 #### Mesmer's Routine
-At the start of each of your turns, you can choose to have advantage on saving throws against effects that would incapacitate you or put you to sleep until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.
+At the start of each of your turns, you can choose to have advantage on saving throws against effects that would incapacitate you or put you to sleep until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.
 
 #### Nomad's Routine
-At the start of each of your turns, you can choose to gain advantage on Constitution saving throws to avoid exhaustion from unenhanced sources, as well as being naturally adapted to both hot and cold climates. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.
+At the start of each of your turns, you can choose to gain advantage on Constitution saving throws to avoid exhaustion from unenhanced sources, as well as being naturally adapted to both hot and cold climates. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.
 
 #### Responder's Routine
-When you roll initiative, you can choose to add your proficiency bonus to the initiative roll and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each creature within 5 feet of you, including you, to add half your proficiency bonus to the initiative roll and have advantage on the first attack roll they make against a creature that has not yet acted.
+When you roll Initiative, you can choose to add your proficiency bonus to the Initiative check and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your proficiency bonus to the Initiative check and have advantage on the first attack roll they make against a creature that has not yet acted.
 
 #### Sharpshooter's Routine
-At the start of each of your turns, you can choose to gain a bonus to the first weapon attack roll you make before the start of your next turn equal to your Intelligence modifier. Alternatively, you can choose to allow each creature within 5 feet of you, including you, to add half your Intelligence modifier to the first weapon attack roll they make before the start of your next turn.
+At the start of each of your turns, you can choose to gain a bonus to the first weapon attack roll you make before the start of your next turn equal to your Intelligence modifier. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your Intelligence modifier to the first weapon attack roll they make before the start of your next turn.
 
 #### Strider's Routine
-At the start of each of your turns, you can choose to have each slowed level only reduce your speed by 5 feet, unless it would reduce your speed to 0 until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.
+At the start of each of your turns, you can choose to have each slowed level only reduce your speed by 5 feet, unless it would reduce your speed to 0 until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.
 
 #### Warden's Routine
-At the start of each of your turns, you can choose to gain a climbing and swimming speed equal to your walking speed until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.
+At the start of each of your turns, you can choose to gain a crawling, climbing, and swimming speed equal to your walking speed until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.
 
 ## Scout Techniques
 Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Your technique grants you features at 3rd, 7th, 11th, and 15th level.
@@ -5006,7 +5022,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor
-- **Weapons:** Simple vibroweapons, simple lightweapons, chakram, doubleblade, doublesaber, doubleshoto, doublesword, hidden blade, lightfoil, light ring, saberwhip, techblade vibrorapier, vibrowhip
+- **Weapons:** Simple lightweapons, simple vibroweapons, martial lightweapons with the finesse property, martial vibroweapons with the finesse property
 - **Tools:** One specialist's kit of your choice
 ___
 - **Saving Throws:** Dexterity, Charisma
@@ -5070,7 +5086,7 @@ You can add half your proficiency bonus to any ability check you make that doesn
 
 ### Force-Empowered Self
 _**Sentinel:** 2nd level_<br>
-Your training allows you to harness the mystical energy of the Force throughout your body. You learn three effects: Deflection, Double Strike, and Slow Time. Each effect costs 1 point and uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You can only use each effect once per round.
+Your training allows you to harness the mystical energy of the Force throughout your body. You learn three effects: Deflection, Double Strike, and Slow Time. Each effect costs 1 force point and uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You can only use each effect once per round.
 
 \columnbreak
 
@@ -5105,11 +5121,11 @@ You can attack twice, instead of once, whenever you take the Attack action on yo
 
 ### Battle Readiness
 _**Sentinel:** 10th level_<br>
-You have fully learned how to meld your physical self with the Force. When you take the Dodge or Disengage actions, or use your action to cast a force power, you can make one melee weapon attack as a bonus action.
+You have fully learned how to meld your physical self with the Force. When you take the Dodge or Disengage actions, or use your action to cast a force power, you can make one weapon attack as a bonus action.
 
 ### Enlightened Evasion
 _**Sentinel:** 15th level_<br>
-When you are subjected to an effect that forces you to make a saving throw, you can spend 2 force points to add your Wisdom or Charisma modifier (your choice, minimum of one) to the saving throw if doesn't already include that modifier. If you do so, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. You can wait until after you roll the d20 to use this feature, but you must decide before the GM says it succeeds or fails.
+When you are subjected to an effect that forces you to make a saving throw, you can spend 2 force points to add your Wisdom or Charisma modifier (your choice, minimum of one) to the saving throw. If you do so, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. 
 
 <div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
@@ -5130,7 +5146,7 @@ You gain a swimming speed and a climbing speed equal to your walking speed. When
 Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, opportunity attacks against you are made with disadvantage.
 
 #### Ideal of the Artisan
-Choose one of your skill or tool proficiencies. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any check you make that doesn't already include that modifier.
+Choose one of your skill or tool proficiencies. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, minimum of one).
 
 Additionally, as an action, you can manifest this ideal in a brief surge of energy. For the next 10 minutes, the bonus increases to your Wisdom or Charisma modifier, and you can choose a second skill or tool to extend this feature to.
 

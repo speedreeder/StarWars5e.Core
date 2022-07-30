@@ -2,6 +2,9 @@
 
 # Appendix A: Enhanced Items
 
+### Cumulative Bonuses
+Many enhanced items offer a flat bonus that is cumulative with other items, such as Fine Armor and Jedi Knight's Robes adding a bonus to AC. Such bonuses cannot cumulatively exceed a +6.
+
 \pagebreak
 
 <div class='wide'>
@@ -340,6 +343,7 @@ This backpack comes with a main compartment that stores 12 lb., not exceeding 3/
 |	Item	|	Rarity |
 |	:--	|	:--:	| 
 |	_Body_ 	                ||
+|	&emsp;<font style="color:#4a5568">Flightsuit</font>  | <font style="color:#4a5568">Standard</font> |  |
 |	&emsp;<font style="color:#4a5568">Tunic Chassis (Standard)</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:green">Clothes, Clandestine (Fine)</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Jedi Padawan's Robe</font> | <font style="color:green">Premium</font> |
@@ -379,6 +383,10 @@ _**Adventuring gear** (body), <font style="color:purple">**advanced**</font>_<br
 These clothes come with six hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 24 Investigation check.
 
 \columnbreak
+
+#### Flightsuit
+_**Adventuring gear** (body), <font style="color:#4a5568">**standard**</font>_<br>
+While you are wearing no armor, this clothing has the impermeable 2 (space suit, diving suit) property.
 
 #### Jedi Knight's Robe
 _**Adventuring gear** (body), <font style="color:blue">**prototype**</font>_<br>
@@ -1200,7 +1208,7 @@ _This belt increases a users physical power with pneumaticized assistance joists
 
 <div class='wide'>
 
-## Adventuring Gear (Wrists)
+## Adventuring Gear (Forearms)
 
 </div>
 
@@ -1211,7 +1219,7 @@ _This belt increases a users physical power with pneumaticized assistance joists
 |	&emsp;<font style="color:green">Vambraces of the Outrider</font> | <font style="color:green">Premium</font> |
 
 #### Vambraces of the Outrider
-_**Adventuring gear** (wrists), <font style="color:blue">**prototype**</font>_<br>
+_**Adventuring gear** (forearms), <font style="color:blue">**prototype**</font>_<br>
 _**Requires attunement**_<br>
 _**Prerequisite:** at least 3 levels in scout_<br>
 This item can hold a number of charges equal to half your scout level (rounded up). When you complete a long rest, this item regains all missing charges. When you cast a tech power of 1st level or higher, you can expend one or more charges to reduce the tech power's cost by 1 per charge spent, to a minimum of 1.
@@ -1225,7 +1233,7 @@ When you reach 17th level in scout, when you miss with a tech or weapon attack, 
 _This pair of matching vambraces are inlaid with the etched visage of an eagle. One contains an integrated wristpad, while the other contains an integrated wrist launcher._
 
 #### Wrist-Mounted Grappling Hook
-_**Adventuring gear** (wrist), <font style="color:#4a5568">**standard**</font>_<br>
+_**Adventuring gear** (forearm), <font style="color:#4a5568">**standard**</font>_<br>
 You craft a wrist-mounted grappling hook weapon attached to a tightly coiled cord. With this grappler, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.
 
 A creature struck by this attack is impaled by the hook. As an action, a creature can attempt to remove the hook. Removing the hook requires a DC 13 Strength check. While the hook is stuck in the target, you are connected to the target by a 60 foot cable.
@@ -1234,7 +1242,7 @@ While the hook is deployed, you can use your bonus action to activate the reel, 
 
 Once you've used this feature, you can't use it again until you recover and reinsert the hook as an action.
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ADVENTURING GEAR (WRIST)</div>
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ADVENTURING GEAR (FOREARM)</div>
 
 \pagebreakNum
 
@@ -3646,17 +3654,17 @@ When you are subjected to an effect that allows you to make a Wisdom or Charisma
 |	&emsp;<font style="color:red">Wristpad Chassis (Artifact)</font> | <font style="color:red">Artifact</font> |  
 
 #### Focus Generator (Fine)
-_**Focus** (focus), <font style="color:green">**premium**</font>_<br>
+_**Focus** (force), <font style="color:green">**premium**</font>_<br>
 _**Requires attunement**_<br>
 You gain a +1 bonus to the force attack rolls for force powers you cast through this focus generator.
 
 #### Focus Generator (Improved)
-_**Focus** (focus), <font style="color:blue">**prototype**</font>_<br>
+_**Focus** (force), <font style="color:blue">**prototype**</font>_<br>
 _**Requires attunement**_<br>
 You gain a +2 bonus to the force attack rolls for force powers you cast through this focus generator.
 
 #### Focus Generator (Superior)
-_**Focus** (focus), <font style="color:purple">**advanced**</font>_<br>
+_**Focus** (force), <font style="color:purple">**advanced**</font>_<br>
 _**Requires attunement**_<br>
 You gain a +3 bonus to the force attack rolls for force powers you cast through this focus generator.
 
@@ -3762,7 +3770,7 @@ This modifiable wristpad chassis comes with vacant modification slots for wristp
 |	&emsp;<font style="color:#4a5568">Fadecasting Underlay Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Gauntlet Armoring</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:#4a5568">Hydraulic Equalizer</font>  | <font style="color:#4a5568">Standard</font> |
-|	&emsp;<font style="color:#4a5568">Impermeable Armoring</font>  | <font style="color:#4a5568">Standard</font> |
+|	&emsp;<font style="color:#4a5568">Impermeable Overlay Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Inconspicuous Shielding</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:#4a5568">Insulated Reinforcement (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Lambent Shielding</font>  | <font style="color:#4a5568">Standard</font> |
@@ -3807,6 +3815,7 @@ This modifiable wristpad chassis comes with vacant modification slots for wristp
 |	&emsp;<font style="color:green">Heavy Suit</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Horizontal Exojets</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Hydraulic Equalizer Mk II</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Impermeable Overlay Mk II</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Insulated Reinforcement (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Interlocking Shielding</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Magnetized Shield (Fine)</font> | <font style="color:green">Premium</font> |
@@ -3838,6 +3847,7 @@ This modifiable wristpad chassis comes with vacant modification slots for wristp
 |	&emsp;<font style="color:blue">Gauntlet Armoring Mk II</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Grappling Harpoon</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Hydraulic Equalizer Mk III</font> | <font style="color:blue">Prototype</font> |
+|	&emsp;<font style="color:blue">Impermeable Overlay Mk III</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Insulated Reinforcement (Improved)</font> | <font style="color:blue">Prototype</font> | 
 |	&emsp;<font style="color:blue">Integrated Jetboosters Mk I</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Magnetized Shield (Improved)</font> | <font style="color:blue">Prototype</font> |
@@ -3869,6 +3879,7 @@ This modifiable wristpad chassis comes with vacant modification slots for wristp
 |	&emsp;<font style="color:purple">Fadecasting Overlay (Adept)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Fadecasting Underlay Mk IV</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Hydraulic Equalizer Mk IV</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Impermeable Overlay Mk IV</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Insulated Reinforcement (Superior)</font> | <font style="color:purple">Advanced</font> | 
 |	&emsp;<font style="color:purple">Interlocking Shielding Mk II</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Magnetized Shield (Superior)</font> | <font style="color:purple">Advanced</font> |
@@ -3891,6 +3902,7 @@ This modifiable wristpad chassis comes with vacant modification slots for wristp
 |	&emsp;<font style="color:#dd6b20">Exceptional Ballistic Polymer</font> | <font style="color:#dd6b20">Legendary</font> |  
 |	&emsp;<font style="color:#dd6b20">Gauntlet Armoring Mk III</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Hydraulic Equalizer Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Impermeable Overlay Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Insulated Reinforcement (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Magnetized Shield (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Powered Armoring Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
@@ -3901,6 +3913,7 @@ This modifiable wristpad chassis comes with vacant modification slots for wristp
 |	&emsp;<font style="color:red">Bioenhancement Matrix Mk III</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Charging Reinforcement Mk III</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Hydraulic Equalizer Mk VI</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Impermeable Overlay Mk VI</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Insulated Reinforcement (Champion)</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Interlocking Shielding Mk III</font> | <font style="color:red">Artifact</font> |
 
@@ -3968,7 +3981,7 @@ You can use this feature twice. You regain all expended uses when you complete a
 
 #### Avoidant Reinforcement
 _**Item modification** (armor), <font style="color:green">**premium**</font>_<br>
-This armor or shield gains the avoidant 1 property. If it already has the avoidant property, its avoidant property increases by 1, to a maximum of 3. 
+This armor or shield gains the avoidant 1 property. If it already has the avoidant property, its avoidant number increases by 1, to a maximum of 3. 
 
 #### Avoidant Reinforcement Mk II
 _**Item modification** (armor), <font style="color:purple">**advanced**</font>_<br>
@@ -4193,10 +4206,35 @@ This armor or shield's strength number is reduced by five steps (from 21 to 11).
 _**Item modification** (armor), <font style="color:red">**artifact**</font>_<br>
 This armor or shield loses the strength property.
 
-#### Impermeable Armoring
+#### Impermeable Overlay Mk I
 _**Item modification** (armor), <font style="color:#4a5568">**standard**</font>_<br>
 _**Prerequisite:** Armor_<br>
-This armor gains the impermeable property.
+This armor gains the impermeable 2 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases by 2, to a maximum of 9.
+
+#### Impermeable Overlay Mk II
+_**Item modification** (armor), <font style="color:green">**premium**</font>_<br>
+_**Prerequisite:** Armor_<br>
+This armor gains the impermeable 3 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases by 3, to a maximum of 9.
+
+#### Impermeable Overlay Mk III
+_**Item modification** (armor), <font style="color:blue">**prototype**</font>_<br>
+_**Prerequisite:** Armor_<br>
+This armor gains the impermeable 5 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases by 5, to a maximum of 9.
+
+#### Impermeable Overlay Mk IV
+_**Item modification** (armor), <font style="color:purple">**advanced**</font>_<br>
+_**Prerequisite:** Armor_<br>
+This armor gains the impermeable 6 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases by 6, to a maximum of 9.
+
+#### Impermeable Overlay Mk V
+_**Item modification** (armor), <font style="color:#dd6b20">**legendary**</font>_<br>
+_**Prerequisite:** Armor_<br>
+This armor gains the impermeable 8 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases by 8, to a maximum of 9.
+
+#### Impermeable Overlay Mk VI
+_**Item modification** (armor), <font style="color:red">**artifact**</font>_<br>
+_**Prerequisite:** Armor_<br>
+This armor gains the impermeable 9 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases to 9.
 
 #### Inconspicuous Shielding
 _**Item modification** (armor), <font style="color:#4a5568">**standard**</font>_<br> 
@@ -4217,7 +4255,7 @@ This armor or shield gains the insulated 7 property. If it already has the insul
 
 #### Insulated Reinforcement (Superior)
 _**Item modification** (armor), <font style="color:purple">**advanced**</font>_<br>
-This armor or shield gains the insulated 8 property. If it already has the insulated property, its insulated number increases by 4, to a maximum of 3.
+This armor or shield gains the insulated 8 property. If it already has the insulated property, its insulated number increases by 4, to a maximum of 10.
 
 #### Insulated Reinforcement (Exceptional)
 _**Item modification** (armor), <font style="color:#dd6b20">**legendary**</font>_<br>
@@ -4947,126 +4985,123 @@ Your Wisdom score increases by 1, and your maximum for this score increases by 1
 
 |	Item	|	Rarity | 
 |	:--	|	:--:	|
-|	&emsp;<font style="color:#4a5568">Accuracy Focus Mk I</font>  | <font style="color:#4a5568">Standard</font> |  		
+|	&emsp;<font style="color:#4a5568">Accuracy Focus Mk I</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Amplifying Barrel (Basic)</font>  | <font style="color:#4a5568">Standard</font> |  
-|	&emsp;<font style="color:#4a5568">Collapsible Stock</font>  | <font style="color:#4a5568">Standard</font> |		
-|	&emsp;<font style="color:#4a5568">Corellian Crippler Matrix</font>  | <font style="color:#4a5568">Standard</font> |  		
-|	&emsp;<font style="color:#4a5568">Disguised Stock</font>  | <font style="color:#4a5568">Standard</font> |		
-|	&emsp;<font style="color:#4a5568">Disintegration Core</font>  | <font style="color:#4a5568">Standard</font> |		
+|	&emsp;<font style="color:#4a5568">Collapsible Stock</font>  | <font style="color:#4a5568">Standard</font> |
+|	&emsp;<font style="color:#4a5568">Corellian Crippler Matrix</font>  | <font style="color:#4a5568">Standard</font> |  
+|	&emsp;<font style="color:#4a5568">Disguised Stock</font>  | <font style="color:#4a5568">Standard</font> |
+|	&emsp;<font style="color:#4a5568">Disintegration Core</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:#4a5568">Expanded Magazine</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:#4a5568">Fadecasting Core (Training)</font>  | <font style="color:#4a5568">Standard</font> |  		
-|	&emsp;<font style="color:#4a5568">Flashlight Attachment</font>  | <font style="color:#4a5568">Standard</font> |  		
-|	&emsp;<font style="color:#4a5568">Focusing Scope</font>  | <font style="color:#4a5568">Standard</font> |		
-|	&emsp;<font style="color:#4a5568">Maser Core</font>  | <font style="color:#4a5568">Standard</font> |  		
-|	&emsp;<font style="color:#4a5568">Precision Chamber Mk I</font>  | <font style="color:#4a5568">Standard</font> |		
+|	&emsp;<font style="color:#4a5568">Fadecasting Core (Training)</font>  | <font style="color:#4a5568">Standard</font> |  
+|	&emsp;<font style="color:#4a5568">Flashlight Attachment</font>  | <font style="color:#4a5568">Standard</font> |  
+|	&emsp;<font style="color:#4a5568">Focusing Scope</font>  | <font style="color:#4a5568">Standard</font> |
+|	&emsp;<font style="color:#4a5568">Maser Core</font>  | <font style="color:#4a5568">Standard</font> |  
+|	&emsp;<font style="color:#4a5568">Precision Chamber Mk I</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:#4a5568">Recoil Dampener</font> | <font style="color:#4a5568">Standard</font> |  
-|	&emsp;<font style="color:#4a5568">Rendcasting Core (Training)</font>  | <font style="color:#4a5568">Standard</font> | 		
-|	&emsp;<font style="color:#4a5568">Siege Weapon</font>  | <font style="color:#4a5568">Standard</font> |  		
-|	&emsp;<font style="color:#4a5568">Silencer</font>  | <font style="color:#4a5568">Standard</font> |  		
+|	&emsp;<font style="color:#4a5568">Rendcasting Core (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Siege Weapon</font>  | <font style="color:#4a5568">Standard</font> |  
+|	&emsp;<font style="color:#4a5568">Silencer</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Smart Interface (Basic)</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Targeting Amplifier (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Targeting Rangefinder (Training)</font>  | <font style="color:#4a5568">Standard</font> |
-|	&emsp;<font style="color:#4a5568">Withercasting Core (Training)</font>  | <font style="color:#4a5568">Standard</font> | 		
-|	&emsp;<font style="color:#4a5568">Wrist Mount Attachment</font>  | <font style="color:#4a5568">Standard</font> |		
-|	&emsp;<font style="color:green">Accuracy Focus Mk II</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Amplifying Barrel (Fine)</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Bayonet</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Brutal Scope</font>  | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Burst Core</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Confounding Attachment</font> | <font style="color:green">Premium</font> |		
-|	&emsp;<font style="color:green">Dire Fighting Scope</font> | <font style="color:green">Premium</font> |		
+|	&emsp;<font style="color:#4a5568">Withercasting Core (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Wrist Mount Attachment</font>  | <font style="color:#4a5568">Standard</font> |
+|	&emsp;<font style="color:green">Accuracy Focus Mk II</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Amplifying Barrel (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Bayonet</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Brutal Scope</font>  | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Burst Core</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Confounding Attachment</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Dire Fighting Scope</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Disintegration Core Mk II</font> | <font style="color:green">Premium</font> |	
-|	&emsp;<font style="color:green">Disruption Core</font> | <font style="color:green">Premium</font> |		
+|	&emsp;<font style="color:green">Disruption Core</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Expanded Magazine (Fine)</font> | <font style="color:green">Premium</font> | 
-|	&emsp;<font style="color:green">Fadecasting Core (Fighting)</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Ion Amplifying Core</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Keen Core</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Light Core</font> | <font style="color:green">Premium</font> |		
-|	&emsp;<font style="color:green">Mighty Core</font> | <font style="color:green">Premium</font> |		
-|	&emsp;<font style="color:green">Penetrating Core</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Piercing Core</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Precision Chamber Mk II</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Rapid Core</font> | <font style="color:green">Premium</font> |		
+|	&emsp;<font style="color:green">Fadecasting Core (Fighting)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Ion Amplifying Core</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Keen Core</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Light Core</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Mighty Core</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Piercing Core</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Precision Chamber Mk II</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Rapid Core</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Recoil Dampener (Fine)</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Rendcasting Core (Fighting)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Smart Interface (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Targeting Amplifier (Fighting)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Targeting Rangefinder (Fighting)</font> | <font style="color:green">Premium</font> | 		
+|	&emsp;<font style="color:green">Targeting Rangefinder (Fighting)</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Vicious Fighting Core</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Withercasting Core (Fighting)</font> | <font style="color:green">Premium</font> |  	
 
 |	Item	|	Rarity | 
 |	:--	|	:--:	|
-|	&emsp;<font style="color:green">Withercasting Core (Fighting)</font> | <font style="color:green">Premium</font> |  	
-|	&emsp;<font style="color:blue">Accuracy Focus Mk III</font> | <font style="color:blue">Prototype</font> |  		
-|	&emsp;<font style="color:blue">Amplifying Barrel (Improved)</font> | <font style="color:blue">Prototype</font> |  		
-|	&emsp;<font style="color:blue">Disintegration Core Mk III</font> | <font style="color:blue">Prototype</font> |		
+|	&emsp;<font style="color:blue">Accuracy Focus Mk III</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Amplifying Barrel (Improved)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Disintegration Core Mk III</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Expanded Magazine (Improved)</font> | <font style="color:blue">Prototype</font> |	 
 |	&emsp;<font style="color:blue">Fadecasting Core (Dueling)</font> | <font style="color:blue">Prototype</font> |  	
-|	&emsp;<font style="color:blue">Harpoon Reel Attachment</font> | <font style="color:blue">Prototype</font> |  		
-|	&emsp;<font style="color:blue">Precision Chamber Mk III</font> | <font style="color:blue">Prototype</font> |  		
-|	&emsp;<font style="color:blue">Quantum Splitter Mk I</font> | <font style="color:blue">Prototype</font> |  		
+|	&emsp;<font style="color:blue">Harpoon Reel Attachment</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Precision Chamber Mk III</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Quantum Splitter Mk I</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Recoil Dampener (Improved)</font> | <font style="color:blue">Prototype</font> |
-|	&emsp;<font style="color:blue">Rendcasting Core (Dueling)</font> | <font style="color:blue">Prototype</font> |  		
-|	&emsp;<font style="color:blue">Rylith Power Core</font> | <font style="color:blue">Prototype</font> |  		
-|	&emsp;<font style="color:blue">Semiauto Core</font> | <font style="color:blue">Prototype</font> |		
+|	&emsp;<font style="color:blue">Rendcasting Core (Dueling)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Rylith Power Core</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Semiauto Core</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Smart Interface (Improved)</font> | <font style="color:blue">Prototype</font> | 
 |	&emsp;<font style="color:blue">Targeting Amplifier (Dueling)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Targeting Rangefinder (Dueling)</font> | <font style="color:blue">Prototype</font> | 
-|	&emsp;<font style="color:blue">Withercasting Core (Dueling)</font> | <font style="color:blue">Prototype</font> |   		
-|	&emsp;<font style="color:purple">Accuracy Focus Mk IV</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:blue">Withercasting Core (Dueling)</font> | <font style="color:blue">Prototype</font> |   
+|	&emsp;<font style="color:purple">Accuracy Focus Mk IV</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Amplifying Barrel (Superior)</font> | <font style="color:purple">Advanced</font>  |	
 |	&emsp;<font style="color:purple">Brutal Scope (Major)</font> | <font style="color:purple">Advanced</font> |	
-|	&emsp;<font style="color:purple">Burst Core (Superior)</font> | <font style="color:purple">Advanced</font> |   		
-|	&emsp;<font style="color:purple">Compensating Attachment</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Czerka Attenuating Pulsator</font> | <font style="color:purple">Advanced</font> | 		
-|	&emsp;<font style="color:purple">Dire Mastery Scope</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Disintegration Core Mk IV</font> | <font style="color:purple">Advanced</font> |		
+|	&emsp;<font style="color:purple">Burst Core (Superior)</font> | <font style="color:purple">Advanced</font> |   
+|	&emsp;<font style="color:purple">Compensating Attachment</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Czerka Attenuating Pulsator</font> | <font style="color:purple">Advanced</font> | 
+|	&emsp;<font style="color:purple">Dire Mastery Scope</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Disintegration Core Mk IV</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Expanded Magazine (Superior)</font> | <font style="color:purple">Advanced</font> |	 
 |	&emsp;<font style="color:purple">Fadecasting Core (Mastery)</font> | <font style="color:purple">Advanced</font> |  	
-|	&emsp;<font style="color:purple">Keen Core (Deadly)</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Ostrine Splitter Mk I</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Penetrating Core (Superior)</font> | <font style="color:purple">Advanced</font> |	
-|	&emsp;<font style="color:purple">Piercing Core (Deadly)</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Precision Chamber Mk IV</font> | <font style="color:purple">Advanced</font> |  		
-|	&emsp;<font style="color:purple">Quantum Splitter Mk II</font> | <font style="color:purple">Advanced</font>  |		
-|	&emsp;<font style="color:purple">Rapid Core (Superior)</font> | <font style="color:purple">Advanced</font> |		
+|	&emsp;<font style="color:purple">Keen Core (Deadly)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Ostrine Splitter Mk I</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Piercing Core (Deadly)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Precision Chamber Mk IV</font> | <font style="color:purple">Advanced</font> |  
+|	&emsp;<font style="color:purple">Quantum Splitter Mk II</font> | <font style="color:purple">Advanced</font>  |
+|	&emsp;<font style="color:purple">Rapid Core (Superior)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Recoil Dampener (Superior)</font> | <font style="color:purple">Advanced</font> |
-|	&emsp;<font style="color:purple">Rendcasting Core (Mastery)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Rendcasting Core (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Smart Interface (Superior)</font> | <font style="color:purple">Advanced</font> | 	
 |	&emsp;<font style="color:purple">Targeting Amplifier (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Targeting Rangefinder (Mastery)</font> | <font style="color:purple">Advanced</font> |  	
-|	&emsp;<font style="color:purple">Vicious Mastery Core</font> | <font style="color:purple">Advanced</font> |		
+|	&emsp;<font style="color:purple">Vicious Mastery Core</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Withercasting Core (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:#dd6b20">Aratech Recycler Core Mk II</font> | <font style="color:#dd6b20">Legendary</font> |	
-|	&emsp;<font style="color:#dd6b20">Disintegration Core Mk V</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:#dd6b20">Expanded Magazine (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:#dd6b20">Ostrine Splitter Mk II</font> | <font style="color:#dd6b20">Legendary</font> |		
+|	&emsp;<font style="color:#dd6b20">Disintegration Core Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Expanded Magazine (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Ostrine Splitter Mk II</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Precision Chamber Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Quantum Splitter Mk III</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Recoil Dampener (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (BLASTER)</div>
 
 \pagebreakNum
 
 |	Item	|	Rarity | 
-|	:--	|	:--:	|		
-|	&emsp;<font style="color:#dd6b20">Quantum Splitter Mk III</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:#dd6b20">Recoil Dampener (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:#dd6b20">Smart Interface (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:red">Burst Core (Champion)</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Brutal Scope (Lethal)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Dire Ascendancy Scope</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Disintegration Core Mk VI</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Expanded Magazine (Champion)</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Keen Core (Devastating)</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Multispectral Optics (Champion)</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Ostrine Splitter Mk III</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Penetrating Core (Champion)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Piercing Core (Devastating)</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Precision Chamber Mk VI</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Quantum Splitter Mk IV</font> | <font style="color:red">Artifact</font> |		
+|	:--	|	:--:	|
+|	&emsp;<font style="color:#dd6b20">Smart Interface (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:red">Burst Core (Champion)</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Brutal Scope (Lethal)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Dire Ascendancy Scope</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Disintegration Core Mk VI</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Expanded Magazine (Champion)</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Keen Core (Devastating)</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Multispectral Optics (Champion)</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Ostrine Splitter Mk III</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Piercing Core (Devastating)</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Precision Chamber Mk VI</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Quantum Splitter Mk IV</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Rapid Core (Champion)</font> | <font style="color:red">Artifact</font> |	
 |	&emsp;<font style="color:red">Recoil Dampener (Champion)</font> | <font style="color:red">Artifact</font> |
-|	&emsp;<font style="color:red">Smart Interface (Champion)</font> | <font style="color:red">Artifact</font> |		
+|	&emsp;<font style="color:red">Smart Interface (Champion)</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Vicious Ascendancy Core</font> | <font style="color:red">Artifact</font> |	
 
 #### Accuracy Focus Mk I
@@ -5549,7 +5584,6 @@ This weapon gains the fixed property.
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (BLASTER)</div>
 
 \pagebreakNum
-
 <div class='wide'>
 
 ## Item Modifications (Clothing)
@@ -5557,10 +5591,11 @@ This weapon gains the fixed property.
 </div>
 
 |	Item	|	Rarity | 	
-|	:--	|	:--:	|		
+|	:--	|	:--:	|
 |	&emsp;<font style="color:#4a5568">Ace Pilot's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Acrobat's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Animal Handler's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Bonded Weave (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Brawny Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Charisma Weave (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Charmer's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 	
@@ -5568,91 +5603,90 @@ This weapon gains the fixed property.
 |	&emsp;<font style="color:#4a5568">Empathic Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Fadecasting Inlay (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Fadecasting Stitching Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Impermeable Inlay (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Inlay Amplifier (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:#4a5568">Inlay Rangefinder (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 		
+|	&emsp;<font style="color:#4a5568">Inlay Rangefinder (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Insulated Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Intelligence Weave (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Investigator's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Lightweight Weave</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Loremaster's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Medic's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Naturalist's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Perceptive Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Performer's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Quick-Fingered Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Reinforced Stitching (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Rendcasting Inlay (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Rendcasting Stitching Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Silver-Tongued Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Stealthy Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Stitching Amplifier Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:#4a5568">Stitching Rangefinder Mk I</font>  | <font style="color:#4a5568">Standard</font> | 			
+|	&emsp;<font style="color:#4a5568">Stitching Rangefinder Mk I</font>  | <font style="color:#4a5568">Standard</font> | 	
 |	&emsp;<font style="color:#4a5568">Strength Weave (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Survivalist's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Techie's Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Threatening Pattern (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Withercasting Inlay (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Withercasting Stitching Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:green">Ace Pilot's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
-|	&emsp;<font style="color:green">Acrobat's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Animal Handler's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Brawny Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
-|	&emsp;<font style="color:green">Charmer's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Clandestine Stitching (Fine)</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Constitution Weave (Fine)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Dexterity Weave (Fine)</font> | <font style="color:green">Premium</font> |   				
-|	&emsp;<font style="color:green">Empathic Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Fadecasting Inlay (Apprentice)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Fadecasting Stitching Mk II</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Inlay Amplifier (Apprentice)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Inlay Rangefinder (Apprentice)</font> | <font style="color:green">Premium</font> |				
-|	&emsp;<font style="color:green">Investigator's Pattern (Fine)</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Ace Pilot's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Acrobat's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Animal Handler's Pattern (Fine)</font> | <font style="color:green">Premium</font> | 
+|	&emsp;<font style="color:green">Avoidant Weave (Basic)</font> | <font style="color:green">Premium</font> | 
+|	&emsp;<font style="color:green">Bonded Weave (Fine)</font> | <font style="color:green">Premium</font> |    	
+|	&emsp;<font style="color:green">Brawny Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Charmer's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Clandestine Stitching (Fine)</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Constitution Weave (Fine)</font> | <font style="color:green">Premium</font> | 
 
 |	Item	|	Rarity | 	
-|	:--	|	:--:	|	  				
-|	&emsp;<font style="color:green">Loremaster's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
-|	&emsp;<font style="color:green">Medic's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
+|	:--	|	:--:	|	  	 	
+|	&emsp;<font style="color:green">Dexterity Weave (Fine)</font> | <font style="color:green">Premium</font> |   
+|	&emsp;<font style="color:green">Empathic Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Fadecasting Inlay (Apprentice)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Fadecasting Stitching Mk II</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Impermeable Inlay (Fine)</font> | <font style="color:green">Premium</font> |    
+|	&emsp;<font style="color:green">Inlay Amplifier (Apprentice)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Inlay Rangefinder (Apprentice)</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Insulated Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Investigator's Pattern (Fine)</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Loremaster's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Medic's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Naturalist's Pattern (Fine)</font> | <font style="color:green">Premium</font> | 
-|	&emsp;<font style="color:green">Perceptive Pattern (Fine)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Performer's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
+|	&emsp;<font style="color:green">Obscured Stitching</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Perceptive Pattern (Fine)</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Performer's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Quick-Fingered Pattern (Fine)</font> | <font style="color:green">Premium</font> | 
+|	&emsp;<font style="color:green">Reactive Stitching (Adequate)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Regulated Weave</font> | <font style="color:green">Premium</font> | 
+|	&emsp;<font style="color:green">Reinforced Stitching (Fine)</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Rendcasting Inlay (Apprentice)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Rendcasting Stitching Mk II</font> | <font style="color:green">Premium</font> |    				
-|	&emsp;<font style="color:green">Silver-Tongued Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
+|	&emsp;<font style="color:green">Rendcasting Stitching Mk II</font> | <font style="color:green">Premium</font> |    	   
+|	&emsp;<font style="color:green">Silent Stitching</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Silver-Tongued Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Stealthy Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Stitching Amplifier Mk II</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Stitching Rangefinder Mk II</font> | <font style="color:green">Premium</font> |  				
-|	&emsp;<font style="color:green">Survivalist's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
-|	&emsp;<font style="color:green">Techie's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  				
-|	&emsp;<font style="color:green">Threatening Pattern (Fine)</font> | <font style="color:green">Premium</font> | 			
+|	&emsp;<font style="color:green">Stitching Rangefinder Mk II</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Survivalist's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Techie's Pattern (Fine)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Threatening Pattern (Fine)</font> | <font style="color:green">Premium</font> | 	
 |	&emsp;<font style="color:green">Wisdom Weave (Fine)</font> | <font style="color:green">Premium</font> |   
 |	&emsp;<font style="color:green">Withercasting Inlay (Apprentice)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Withercasting Stitching Mk II</font> | <font style="color:green">Premium</font> | 	
-|	&emsp;<font style="color:blue">Ace Pilot's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Acrobat's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Animal Handler's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> | 			
+|	&emsp;<font style="color:blue">Ace Pilot's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Acrobat's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Animal Handler's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> | 	
+|	&emsp;<font style="color:blue">Bonded Weave (Favored)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Brawny Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Charisma Weave (Improved)</font> | <font style="color:blue">Prototype</font> |  					
+|	&emsp;<font style="color:blue">Charisma Weave (Improved)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Charmer's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> | 	
-|	&emsp;<font style="color:blue">Clandestine Stitching (Improved)</font> | <font style="color:blue">Prototype</font> |			
+|	&emsp;<font style="color:blue">Clandestine Stitching (Improved)</font> | <font style="color:blue">Prototype</font> |	
 |	&emsp;<font style="color:blue">Empathic Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Fadecasting Inlay (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Fadecasting Stitching Mk III</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Impermeable Inlay (Improved)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Inlay Amplifier (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Inlay Rangefinder (Journeyman)</font> | <font style="color:blue">Prototype</font> |			
-|	&emsp;<font style="color:blue">Intelligence Weave (Improved)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Investigator's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  			
-|	&emsp;<font style="color:blue">Loremaster's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  			
-|	&emsp;<font style="color:blue">Medic's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Naturalist's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  			
-|	&emsp;<font style="color:blue">Perceptive Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Performer's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Quick-Fingered Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |
-|	&emsp;<font style="color:blue">Rendcasting Inlay (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Rendcasting Stitching Mk III</font> | <font style="color:blue">Prototype</font> |   			
-|	&emsp;<font style="color:blue">Silver-Tongued Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  			
-|	&emsp;<font style="color:blue">Stealthy Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Stitching Amplifier Mk III</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Stitching Rangefinder Mk III</font> | <font style="color:blue">Prototype</font> | 				
-|	&emsp;<font style="color:blue">Strength Weave (Improved)</font> | <font style="color:blue">Prototype</font> |  	  				
-|	&emsp;<font style="color:blue">Survivalist's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> | 
+|	&emsp;<font style="color:blue">Inlay Rangefinder (Journeyman)</font> | <font style="color:blue">Prototype</font> |	
 
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
@@ -5661,88 +5695,127 @@ This weapon gains the fixed property.
 
 |	Item	|	Rarity | 	
 |	:--	|	:--:	|	
-|	&emsp;<font style="color:blue">Techie's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  				
+|	&emsp;<font style="color:blue">Insulated Pattern (Improved)</font> | <font style="color:blue">Prototype</font> | 
+|	&emsp;<font style="color:blue">Intelligence Weave (Improved)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Investigator's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  	
+|	&emsp;<font style="color:blue">Loremaster's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  	
+|	&emsp;<font style="color:blue">Medic's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Naturalist's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  	
+|	&emsp;<font style="color:blue">Perceptive Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Performer's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Quick-Fingered Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |
+|	&emsp;<font style="color:blue">Reinforced Stitching (Improved)</font> | <font style="color:blue">Prototype</font> |   
+|	&emsp;<font style="color:blue">Rendcasting Inlay (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Rendcasting Stitching Mk III</font> | <font style="color:blue">Prototype</font> |   	
+|	&emsp;<font style="color:blue">Silver-Tongued Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  	
+|	&emsp;<font style="color:blue">Stealthy Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Stitching Amplifier Mk III</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Stitching Rangefinder Mk III</font> | <font style="color:blue">Prototype</font> | 
+|	&emsp;<font style="color:blue">Strength Weave (Improved)</font> | <font style="color:blue">Prototype</font> |  	  
+|	&emsp;<font style="color:blue">Survivalist's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> | 
+|	&emsp;<font style="color:blue">Techie's Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Threatening Pattern (Favored)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Withercasting Inlay (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Withercasting Stitching Mk III</font> | <font style="color:blue">Prototype</font> | 	 
-|	&emsp;<font style="color:purple">Ace Pilot's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Acrobat's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Animal Handler's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |		
+|	&emsp;<font style="color:purple">Ace Pilot's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Acrobat's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Animal Handler's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Avoidant Weave (Choice)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Bonded Weave (Choice)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Brawny Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Charmer's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
-|	&emsp;<font style="color:purple">Clandestine Stitching (Superior)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Constitution Weave (Superior)</font> | <font style="color:purple">Advanced</font> |  		
-|	&emsp;<font style="color:purple">Dexterity Weave (Superior)</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Clandestine Stitching (Superior)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Constitution Weave (Superior)</font> | <font style="color:purple">Advanced</font> |  
+|	&emsp;<font style="color:purple">Dexterity Weave (Superior)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Empathic Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Fadecasting Inlay (Adept)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Fadecasting Stitching Mk IV</font> | <font style="color:purple">Advanced</font> |     
+|	&emsp;<font style="color:purple">Fadecasting Stitching Mk IV</font> | <font style="color:purple">Advanced</font> |    
+|	&emsp;<font style="color:purple">Impermeable Inlay (Superior)</font> | <font style="color:purple">Advanced</font> | 
 |	&emsp;<font style="color:purple">Inlay Amplifier (Adept)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Inlay Rangefinder (Adept)</font> | <font style="color:purple">Advanced</font> |   			
-|	&emsp;<font style="color:purple">Investigator's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Loremaster's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Medic's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Naturalist's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Perceptive Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Performer's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Inlay Rangefinder (Adept)</font> | <font style="color:purple">Advanced</font> |   
+|	&emsp;<font style="color:purple">Insulated Pattern (Superior)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Investigator's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Loremaster's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Medic's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Naturalist's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Perceptive Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Performer's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Quick-Fingered Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Reactive Stitching (Excellent)</font> | <font style="color:purple">Advanced</font> |
+
+|	Item	|	Rarity | 	
+|	:--	|	:--:	|	 	
+|	&emsp;<font style="color:purple">Reinforced Stitching (Superior)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Rendcasting Inlay (Adept)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Rendcasting Stitching Mk IV</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Silver-Tongued Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Rendcasting Stitching Mk IV</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Silver-Tongued Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Stealthy Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Stitching Amplifier Mk IV</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Stitching Rangefinder Mk IV</font> | <font style="color:purple">Advanced</font> |  			
-|	&emsp;<font style="color:purple">Survivalist's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Techie's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Threatening Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Stitching Rangefinder Mk IV</font> | <font style="color:purple">Advanced</font> |  	
+|	&emsp;<font style="color:purple">Survivalist's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Techie's Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Threatening Pattern (Choice)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Wisdom Weave (Superior)</font> | <font style="color:purple">Advanced</font> | 	
 |	&emsp;<font style="color:purple">Withercasting Stitching Mk IV</font> | <font style="color:purple">Advanced</font> | 
 |	&emsp;<font style="color:purple">Withercasting Inlay (Adept)</font> | <font style="color:purple">Advanced</font> | 	
-|	&emsp;<font style="color:#dd6b20">Ace Pilot's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  			
-|	&emsp;<font style="color:#dd6b20">Acrobat's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |   			
+|	&emsp;<font style="color:#dd6b20">Ace Pilot's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  	
+|	&emsp;<font style="color:#dd6b20">Acrobat's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |   	
 |	&emsp;<font style="color:#dd6b20">Animal Handler's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  	
-|	&emsp;<font style="color:#dd6b20">Brawny (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 		
-|	&emsp;<font style="color:#dd6b20">Charisma Weave (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |  		
-|	&emsp;<font style="color:#dd6b20">Charmer's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  		
+|	&emsp;<font style="color:#dd6b20">Brawny (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 
+|	&emsp;<font style="color:#dd6b20">Charisma Weave (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |  
+|	&emsp;<font style="color:#dd6b20">Charmer's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  
 |	&emsp;<font style="color:#dd6b20">Clandestine Stitching (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |	
-|	&emsp;<font style="color:#dd6b20">Empathic Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  		
+|	&emsp;<font style="color:#dd6b20">Empathic Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  	
+|	&emsp;<font style="color:#dd6b20">Impermeable Inlay (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Insulated Pattern (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |	
 |	&emsp;<font style="color:#dd6b20">Intelligence Weave (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |  	
-|	&emsp;<font style="color:#dd6b20">Investigator's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  		
+|	&emsp;<font style="color:#dd6b20">Investigator's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  
 |	&emsp;<font style="color:#dd6b20">Loremaster's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |
-
-|	Item	|	Rarity | 	
-|	:--	|	:--:	|	 			
-|	&emsp;<font style="color:#dd6b20">Medic's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  			
-|	&emsp;<font style="color:#dd6b20">Naturalist's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  		
-|	&emsp;<font style="color:#dd6b20">Perceptive Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  			
-|	&emsp;<font style="color:#dd6b20">Performer's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  			
-|	&emsp;<font style="color:#dd6b20">Quick-Fingered Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:#dd6b20">Silver-Tongued Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 		
+|	&emsp;<font style="color:#dd6b20">Medic's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  	
+|	&emsp;<font style="color:#dd6b20">Naturalist's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  
+|	&emsp;<font style="color:#dd6b20">Perceptive Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  	
+|	&emsp;<font style="color:#dd6b20">Performer's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  	
+|	&emsp;<font style="color:#dd6b20">Quick-Fingered Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Silver-Tongued Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 
 |	&emsp;<font style="color:#dd6b20">Stealthy Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |
-|	&emsp;<font style="color:#dd6b20">Strength Weave (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 			
-|	&emsp;<font style="color:#dd6b20">Survivalist's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 		
-|	&emsp;<font style="color:#dd6b20">Techie's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |  			
+|	&emsp;<font style="color:#dd6b20">Strength Weave (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 
+|	&emsp;<font style="color:#dd6b20">Survivalist's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Techie's Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 
 |	&emsp;<font style="color:#dd6b20">Threatening Pattern (Elite)</font> | <font style="color:#dd6b20">Legendary</font> | 
 |	&emsp;<font style="color:red">Ace Pilot's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Acrobat's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
-|	&emsp;<font style="color:red">Animal Handler's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
+|	&emsp;<font style="color:red">Animal Handler's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	
+|	&emsp;<font style="color:red">Avoidant Weave (Exquisite)</font> | <font style="color:red">Artifact</font> | 	
 |	&emsp;<font style="color:red">Brawny (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Charmer's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |
-|	&emsp;<font style="color:red">Clandestine Stitching (Champion)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Constitution Weave (Champion)</font> | <font style="color:red">Artifact</font> |  			
+|	&emsp;<font style="color:red">Clandestine Stitching (Champion)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Constitution Weave (Champion)</font> | <font style="color:red">Artifact</font> |  	
 |	&emsp;<font style="color:red">Dexterity Weave (Champion)</font> | <font style="color:red">Artifact</font> |    	 	
-|	&emsp;<font style="color:red">Empathic Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
+|	&emsp;<font style="color:red">Empathic Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> | 
+
+
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
+
+|	Item	|	Rarity | 	
+|	:--	|	:--:	|	
+|	&emsp;<font style="color:red">Impermeable Inlay (Champion)</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Insulated Pattern (Champion)</font> | <font style="color:red">Artifact</font> | 	 	
 |	&emsp;<font style="color:red">Investigator's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Loremaster's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Medic's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Naturalist's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Perceptive Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Performer's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
-|	&emsp;<font style="color:red">Quick-Fingered Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
+|	&emsp;<font style="color:red">Quick-Fingered Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> | 
+|	&emsp;<font style="color:red">Reactive Stitching (Prime)</font> | <font style="color:red">Artifact</font> | 	 	
 |	&emsp;<font style="color:red">Silver-Tongued Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Stealthy Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Survivalist's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
 |	&emsp;<font style="color:red">Techie's Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> |  	 	
-|	&emsp;<font style="color:red">Threatening Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> | 			
+|	&emsp;<font style="color:red">Threatening Pattern (Exquisite)</font> | <font style="color:red">Artifact</font> | 	
 |	&emsp;<font style="color:red">Wisdom Weave (Champion)</font> | <font style="color:red">Artifact</font> |   	
 
 #### Ace Pilot's Pattern (Basic)
@@ -5757,10 +5830,6 @@ Your level of proficiency in Piloting increases by four steps (to mastery, from 
 _**Item modification** (clothing), <font style="color:#db6220">**legendary**</font>_<br>
 Your level of proficiency in Piloting increases by five steps (to high mastery or from trained to grand mastery).
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
-
 #### Ace Pilot's Pattern (Exquisite)
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
 You gain grand mastery in Piloting.
@@ -5772,6 +5841,8 @@ Your level of proficiency in Piloting increases by three steps (to expertise, fr
 #### Ace Pilot's Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Piloting increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
+
+\columnbreak
 
 #### Acrobat's Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -5801,8 +5872,6 @@ Your level of proficiency in Acrobatics increases by two steps (to proficient, f
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
 Your level of proficiency in Animal Handling increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
 
-\columnbreak
-
 #### Animal Handler's Pattern (Choice)
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 Your level of proficiency in Animal Handling increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery).
@@ -5819,9 +5888,41 @@ You gain grand mastery in Animal Handling.
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 Your level of proficiency in Animal Handling increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Animal Handler's Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Animal Handling increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
+
+#### Avoidant Weave (Basic)
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the avoidant 1 armor property. If it already has the avoidant armor property, its avoidant number increases by 1, to a maximum of 3. 
+
+#### Avoidant Weave (Choice)
+_**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
+This clothing gains the avoidant 2 armor property. If it already has the avoidant armor property, its avoidant number increases by 2, to a maximum of 3.
+
+#### Avoidant Weave (Exquisite)
+_**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
+This clothing gains the avoidant 3 armor property. If it already has the avoidant armor property, its avoidant number increases to 3.
+
+#### Bonded Weave (Basic)
+_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
+You gain a +1 bonus to AC against melee attacks and a -1 penalty to AC against ranged attacks while wearing this clothing.
+
+#### Bonded Weave (Choice)
+_**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
+You gain a +3 bonus to AC against melee attacks while wearing this clothing.
+
+#### Bonded Weave (Favored)
+_**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
+You gain a +2 bonus to AC against melee attacks while wearing this clothing.
+
+#### Bonded Weave (Fine)
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+You gain a +1 bonus to AC against melee attacks while wearing this clothing.
 
 #### Brawny Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -5839,6 +5940,8 @@ Your level of proficiency in Athletics increases by five steps (to high mastery 
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
 You gain grand mastery in Athletics.
 
+\columnbreak
+
 #### Brawny Pattern (Favored)
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 Your level of proficiency in Athletics increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
@@ -5846,10 +5949,6 @@ Your level of proficiency in Athletics increases by three steps (to expertise, f
 #### Brawny Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Athletics increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
 
 #### Charisma Weave (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -5883,6 +5982,10 @@ You gain grand mastery in Persuasion.
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 Your level of proficiency in Persuasion increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Charmer's Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Persuasion increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
@@ -5890,8 +5993,6 @@ Your level of proficiency in Persuasion increases by two steps (to proficient, f
 #### Clandestine Stitching (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
 This article of clothing come with one hidden pocket, which can store up to 1 lb. Finding this hidden pocket requires a DC 15 Investigation check. 
-
-\columnbreak
 
 #### Clandestine Stitching (Champion)
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
@@ -5925,6 +6026,8 @@ Your level of proficiency in Constitution saving throws increases by one step (t
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 Your level of proficiency in Constitution saving throws increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
 
+\columnbreak
+
 #### Dexterity Weave (Champion)
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
 Your level of proficiency in Dexterity saving throws increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
@@ -5932,10 +6035,6 @@ Your level of proficiency in Dexterity saving throws increases by three steps (t
 #### Dexterity Weave (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Dexterity saving throws increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
 
 #### Dexterity Weave (Superior)
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
@@ -5969,6 +6068,10 @@ Your level of proficiency in Insight increases by two steps (to proficient, from
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 While using this item as your focus, you gain a +3 bonus to the force save DC of powers that require a Strength or Constitution saving throw.
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Fadecasting Inlay (Apprentice)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 While using this item as your focus, you gain a +1 bonus to the force save DC of powers that require a Strength or Constitution saving throw.
@@ -5976,8 +6079,6 @@ While using this item as your focus, you gain a +1 bonus to the force save DC of
 #### Fadecasting Inlay (Journeyman)
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 While using this item as your focus, you gain a +2 bonus to the force save DC of powers that require a Strength or Constitution saving throw.
-
-\columnbreak
 
 #### Fadecasting Inlay (Novice)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -5998,6 +6099,32 @@ While using this item as your focus, you gain a +2 bonus to the tech save DC of 
 #### Fadecasting Stitching Mk IV
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 While using this item as your focus, you gain a +3 bonus to the tech save DC of powers that require a Strength or Constitution saving throw.
+
+#### Impermeable Inlay (Basic)
+_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
+This clothing gains the impermeable 2 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 2, to a maximum of 9.
+
+#### Impermeable Inlay (Champion)
+_**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
+This clothing gains the impermeable 9 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases to 9.
+
+#### Impermeable Inlay (Exceptional)
+_**Item modification** (clothing), <font style="color:#dd6b20">**legendary**</font>_<br>
+This clothing gains the impermeable 8 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 8, to a maximum of 9.
+
+\columnbreak
+
+#### Impermeable Inlay (Fine)
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the impermeable 3 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 3, to a maximum of 9.
+
+#### Impermeable Inlay (Improved)
+_**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
+This clothing gains the impermeable 5 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 5, to a maximum of 9.
+
+#### Impermeable Inlay (Superior)
+_**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
+This clothing gains the impermeable 6 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 6, to a maximum of 9.
 
 #### Inlay Amplifier (Adept)
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
@@ -6027,13 +6154,37 @@ While using this item as your focus, you gain a +1 bonus to ranged force attacks
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 While using this item as your focus, you gain a +2 bonus to ranged force attacks.
 
+#### Inlay Rangefinder (Novice)
+_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
+While using this item as your focus, you gain a +1 bonus to ranged force attacks and a -1 penalty to melee force attacks.
+
+#### Insulated Pattern (Basic)
+_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
+This clothing gains the insulated 5 armor property. If it already has the insulated armor property, its insulated number increases by 1, to a maximum of 10. 
+
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
 
 \pagebreakNum
 
-#### Inlay Rangefinder (Novice)
-_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
-While using this item as your focus, you gain a +1 bonus to ranged force attacks and a -1 penalty to melee force attacks.
+#### Insulated Pattern (Champion)
+_**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
+This clothing gains the insulated 10 armor property. If it already has the insulated armor property, its insulated number increases to 10.
+
+#### Insulated Pattern (Exceptional)
+_**Item modification** (clothing), <font style="color:#dd6b20">**legendary**</font>_<br>
+This clothing gains the insulated 9 armor property. If it already has the insulated armor property, its insulated number increases by 5, to a maximum of 10. 
+
+#### Insulated Pattern (Fine)
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the insulated 6 armor property. If it already has the insulated armor property, its insulated number increases by 2, to a maximum of 10. 
+
+#### Insulated Pattern (Improved)
+_**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
+This clothing gains the insulated 7 armor property. If it already has the insulated armor property, its insulated number increases by 3, to a maximum of 10. 
+
+#### Insulated Pattern (Superior)
+_**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
+This clothing gains the insulated 8 armor property. If it already has the insulated armor property, its insulated number increases by 4, to a maximum of 3.
 
 #### Intelligence Weave (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -6055,6 +6206,8 @@ Your level of proficiency in Investigation increases by one step (to trained, fr
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 Your level of proficiency in Investigation increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery).
 
+\columnbreak
+
 #### Investigator's Pattern (Elite)
 _**Item modification** (clothing), <font style="color:#db6220">**legendary**</font>_<br>
 Your level of proficiency in Investigation increases by five steps (to high mastery or from trained to grand mastery).
@@ -6071,7 +6224,9 @@ Your level of proficiency in Investigation increases by three steps (to expertis
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Investigation increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
 
-\columnbreak
+#### Lightweight Weave
+_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
+This clothing gains the lightweight armor property.
 
 #### Loremaster's Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -6097,6 +6252,10 @@ Your level of proficiency in Lore increases by three steps (to expertise, from t
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Lore increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Medic's Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
 Your level of proficiency in Medicine increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
@@ -6116,10 +6275,6 @@ You gain grand mastery in Medicine.
 #### Medic's Pattern (Favored)
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 Your level of proficiency in Medicine increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
 
 #### Medic's Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
@@ -6145,9 +6300,15 @@ You gain grand mastery in Nature.
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 Your level of proficiency in Nature increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
 
+\columnbreak
+
 #### Naturalist's Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Nature increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
+
+#### Obscured Stitching
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the obscured armor property.
 
 #### Perceptive Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -6164,8 +6325,6 @@ Your level of proficiency in Perception increases by five steps (to high mastery
 #### Perceptive Pattern (Exquisite)
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
 You gain grand mastery in Perception.
-
-\columnbreak
 
 #### Perceptive Pattern (Favored)
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
@@ -6187,6 +6346,10 @@ Your level of proficiency in Performance increases by four steps (to mastery, fr
 _**Item modification** (clothing), <font style="color:#db6220">**legendary**</font>_<br>
 Your level of proficiency in Performance increases by five steps (to high mastery or from trained to grand mastery).
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Performer's Pattern (Exquisite)
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
 You gain grand mastery in Performance.
@@ -6207,10 +6370,6 @@ Your level of proficiency in Sleight of Hand increases by one step (to trained, 
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 Your level of proficiency in Sleight of Hand increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery).
 
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
-
 #### Quick-Fingered Pattern (Elite)
 _**Item modification** (clothing), <font style="color:#db6220">**legendary**</font>_<br>
 Your level of proficiency in Sleight of Hand increases by five steps (to high mastery or from trained to grand mastery).
@@ -6226,6 +6385,40 @@ Your level of proficiency in Sleight of Hand increases by three steps (to expert
 #### Quick-Fingered Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Sleight of Hand increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
+
+#### Reactive Stitching (Adequate)
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the reactive 1 armor property. If it already has the reactive armor property, its reactive number increases by 1, to a maximum of 3.
+
+#### Reactive Stitching (Excellent)
+_**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
+This clothing gains the reactive 2 armor property. If it already has the reactive armor property, its reactive number increases by 2, to a maximum of 3.
+
+\columnbreak
+
+#### Reactive Stitching (Prime)
+_**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
+This clothing gains the reactive 3 armor property. If it already has the reactive armor property, its reactive number increases to 3.
+
+#### Regulated Weave
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the regulated armor property.
+
+#### Reinforced Stitching (Basic)
+_**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
+You gain a +1 bonus to AC against ranged attacks and a -1 penalty to AC against melee attacks while wearing this clothing.
+
+#### Reinforced Stitching (Fine)
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+You gain a +1 bonus to AC against ranged attacks while wearing this clothing.
+
+#### Reinforced Stitching (Improved)
+_**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
+You gain a +2 bonus to AC against ranged attacks while wearing this clothing.
+
+#### Reinforced Stitching (Superior)
+_**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
+You gain a +3 bonus to AC against ranged attacks while wearing this clothing.
 
 #### Rendcasting Inlay (Adept)
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
@@ -6247,11 +6440,14 @@ While using this item as your focus, you gain a +1 bonus to the force save DC of
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
 While using this item as your focus, you gain a +1 bonus to the tech save DC of powers that require a Dexterity or Intelligence saving throw and a -1 penalty to the tech save DC of powers that require a Wisdom or Charisma saving throw.
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
+
 #### Rendcasting Stitching Mk II
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 While using this item as your focus, you gain a +1 bonus to the tech save DC of powers that require a Dexterity or Intelligence saving throw.
-
-\columnbreak
 
 #### Rendcasting Stitching Mk III
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
@@ -6260,6 +6456,10 @@ While using this item as your focus, you gain a +2 bonus to the tech save DC of 
 #### Rendcasting Stitching Mk IV
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 While using this item as your focus, you gain a +3 bonus to the tech save DC of powers that require a Dexterity or Intelligence saving throw.
+
+#### Silent Stitching
+_**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
+This clothing gains the silent armor property.
 
 #### Silver-Tongued Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -6289,13 +6489,11 @@ Your level of proficiency in Deception increases by two steps (to proficient, fr
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
 Your level of proficiency in Stealth increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
 
+\columnbreak
+
 #### Stealthy Pattern (Choice)
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 Your level of proficiency in Stealth increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery).
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
 
 #### Stealthy Pattern (Elite)
 _**Item modification** (clothing), <font style="color:#db6220">**legendary**</font>_<br>
@@ -6341,11 +6539,13 @@ While using this item as your focus, you gain a +1 bonus to ranged tech attacks.
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 While using this item as your focus, you gain a +2 bonus to ranged tech attacks.
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Stitching Rangefinder Mk IV
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
 While using this item as your focus, you gain a +3 bonus to ranged tech attacks.
-
-\columnbreak
 
 #### Strength Weave (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
@@ -6383,13 +6583,11 @@ Your level of proficiency in Survival increases by three steps (to expertise, fr
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Survival increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
 
+\columnbreak
+
 #### Techie's Pattern (Basic)
 _**Item modification** (clothing), <font style="color:#4a5568">**standard**</font>_<br>
 Your level of proficiency in Technology increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
 
 #### Techie's Pattern (Choice)
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
@@ -6431,11 +6629,13 @@ You gain grand mastery in Intimidation.
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 Your level of proficiency in Intimidation increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery).
 
+<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
+
+\pagebreakNum
+
 #### Threatening Pattern (Fine)
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 Your level of proficiency in Intimidation increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery).
-
-\columnbreak
 
 #### Wisdom Weave (Champion)
 _**Item modification** (clothing), <font style="color:red">**artifact**</font>_<br>
@@ -6473,13 +6673,11 @@ While using this item as your focus, you gain a +1 bonus to the tech save DC of 
 _**Item modification** (clothing), <font style="color:green">**premium**</font>_<br>
 While using this item as your focus, you gain a +1 bonus to the tech save DC of powers that require a Wisdom or Charisma saving throw.
 
+\columnbreak
+
 #### Withercasting Stitching Mk III
 _**Item modification** (clothing), <font style="color:blue">**prototype**</font>_<br>
 While using this item as your focus, you gain a +2 bonus to the tech save DC of powers that require a Wisdom or Charisma saving throw.
-
-<div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
-
-\pagebreakNum
 
 #### Withercasting Stitching Mk IV
 _**Item modification** (clothing), <font style="color:purple">**advanced**</font>_<br>
@@ -6488,6 +6686,7 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (CLOTHING)</div>
 
 \pagebreakNum
+
 
 <div class='wide'>
 
@@ -6520,20 +6719,20 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	&emsp;<font style="color:#4a5568">T-Cycle Reinforcer (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Withercasting Channel (Training)</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:green">Absorbing Conductor (Apprentice)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Accessing Cycler (Chipped)</font> | <font style="color:green">Premium</font> |  			
+|	&emsp;<font style="color:green">Accessing Cycler (Chipped)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Amplifying Channel (Fighting)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Bolstering Channel (Apprentice)</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Channeling Amplifier (Fighting)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Channeling Rangefinder (Fighting)</font> | <font style="color:green">Premium</font> |   	
 |	&emsp;<font style="color:green">Constitution Emitter (Fine)</font> | <font style="color:green">Premium</font> |  	
-|	&emsp;<font style="color:green">Dispelling Emitter (Fine)</font> | <font style="color:green">Premium</font> |  		
+|	&emsp;<font style="color:green">Dispelling Emitter (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Duplexed Extender Channel (Fine)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Elongating Emitter (Apprentice)</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Enlarging Channel (Chipped)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Expanding Conductor (Fine)</font> | <font style="color:green">Premium</font> | 	
 |	&emsp;<font style="color:green">Extending Cycler (Fine)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Fadecasting Channel (Fighting)</font> | <font style="color:green">Premium</font> | 	 		
-|	&emsp;<font style="color:green">Fading Cycler (Fighting)</font> | <font style="color:green">Premium</font> |  			
+|	&emsp;<font style="color:green">Fadecasting Channel (Fighting)</font> | <font style="color:green">Premium</font> | 	 
+|	&emsp;<font style="color:green">Fading Cycler (Fighting)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Forged Ferricite Fighting Channel</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Increasing Cycler (Apprentice)</font> | <font style="color:green">Premium</font> |   
 |	&emsp;<font style="color:green">Inflating Conductor (Chipped)</font> | <font style="color:green">Premium</font> |  	
@@ -6542,7 +6741,7 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	&emsp;<font style="color:green">Rendcasting Channel (Fighting)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Rending Conductor (Fighting)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Repelling Cycler (Chipped)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Storing Emitter (Fine)</font> | <font style="color:green">Premium</font> |  		
+|	&emsp;<font style="color:green">Storing Emitter (Fine)</font> | <font style="color:green">Premium</font> |  
 
 |	Item	|	Rarity | 
 |	:--	|	:--: |	
@@ -6550,24 +6749,24 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	&emsp;<font style="color:green">Withercasting Channel (Fighting)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Withering Channel (Fighting)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:blue">Absorbing Conductor (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Accessing Cycler (Flawed)</font> | <font style="color:blue">Prototype</font> |  				
+|	&emsp;<font style="color:blue">Accessing Cycler (Flawed)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Bolstering Channel (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Channeling Amplifier (Dueling)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Channeling Rangefinder (Dueling)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Constitution Emitter (Improved)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Dispelling Emitter (Improved)</font> | <font style="color:blue">Prototype</font> |  	
-|	&emsp;<font style="color:blue">Elongating Emitter (Journeyman)</font> | <font style="color:blue">Prototype</font> |  		
+|	&emsp;<font style="color:blue">Elongating Emitter (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Enlarging Channel (Flawed)</font> | <font style="color:blue">Prototype</font> |  	 
 |	&emsp;<font style="color:blue">Expanding Conductor (Improved)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Extending Cycler (Improved)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Fadecasting Channel (Dueling)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Forged Ferricite Dueling Channel</font> | <font style="color:blue">Prototype</font> |  			
+|	&emsp;<font style="color:blue">Forged Ferricite Dueling Channel</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Increasing Cycler (Journeyman)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Inflating Conductor (Flawed)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Mitigating Channel (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Phobium Echoer (Improved)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Rendcasting Channel (Dueling)</font> | <font style="color:blue">Prototype</font> |  	
-|	&emsp;<font style="color:blue">Repelling Cycler (Flawed)</font> | <font style="color:blue">Prototype</font> |  			
+|	&emsp;<font style="color:blue">Repelling Cycler (Flawed)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Storing Emitter (Improved)</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Withercasting Channel (Dueling)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:purple">Absorbing Conductor (Adept)</font> | <font style="color:purple">Advanced</font> |  
@@ -6575,19 +6774,19 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	&emsp;<font style="color:purple">Amplifying Channel (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Bolstering Channel (Adept)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Channeling Amplifier (Mastery)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Channeling Rangefinder (Mastery)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Channeling Rangefinder (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Constitution Emitter (Superior)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Dispelling Emitter (Superior)</font> | <font style="color:purple">Advanced</font> |  	
-|	&emsp;<font style="color:purple">Elongating Emitter (Adept)</font> | <font style="color:purple">Advanced</font> |  		 
+|	&emsp;<font style="color:purple">Elongating Emitter (Adept)</font> | <font style="color:purple">Advanced</font> |   
 |	&emsp;<font style="color:purple">Enlarging Channel (Regular)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Expanding Conductor (Superior)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Extending Cycler (Superior)</font> | <font style="color:purple">Advanced</font> |  	
-|	&emsp;<font style="color:purple">Fadecasting Channel (Mastery)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Fadecasting Channel (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Fading Cycler (Mastery)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Forged Ferricite Mastery Channel</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Forged Ferricite Mastery Channel</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Increasing Cycler (Adept)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Inflating Conductor (Regular)</font> | <font style="color:purple">Advanced</font> |  	
-|	&emsp;<font style="color:purple">Mitigating Channel (Adept)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Mitigating Channel (Adept)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Phobium Echoer (Superior)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Ranging Emitter (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Rendcasting Channel (Mastery)</font> | <font style="color:purple">Advanced</font> |  
@@ -6600,7 +6799,7 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	Item	|	Rarity | 
 |	:--	|	:--: |
 |	&emsp;<font style="color:purple">Repelling Cycler (Regular)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Storing Emitter (Superior)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Storing Emitter (Superior)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Withercasting Channel (Mastery)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Withering Channel (Mastery)</font> | <font style="color:purple">Advanced</font> | 	
 |	&emsp;<font style="color:#dd6b20">Absorbing Conductor (Master)</font> | <font style="color:#dd6b20">Legendary</font> | 	
@@ -6623,7 +6822,7 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	&emsp;<font style="color:red">Amplifying Channel (Ascendancy)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Bolstering Channel (Ancient)</font> | <font style="color:red">Artifact</font> | 
 |	&emsp;<font style="color:red">Constitution Emitter (Champion)</font> | <font style="color:red">Artifact</font> | 
-|	&emsp;<font style="color:red">Dispelling Emitter (Champion)</font> | <font style="color:red">Artifact</font> | 		
+|	&emsp;<font style="color:red">Dispelling Emitter (Champion)</font> | <font style="color:red">Artifact</font> | 
 |	&emsp;<font style="color:red">Elongating Emitter (Ancient)</font> | <font style="color:red">Artifact</font> |  	
 |	&emsp;<font style="color:red">Enlarging Channel (Perfect)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Expanding Conductor (Champion)</font> | <font style="color:red">Artifact</font> |   
@@ -6633,7 +6832,7 @@ While using this item as your focus, you gain a +3 bonus to the tech save DC of 
 |	&emsp;<font style="color:red">Increasing Cycler (Ancient)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Inflating Conductor (Perfect)</font> | <font style="color:red">Artifact</font> | 
 |	&emsp;<font style="color:red">Mitigating Channel (Ancient)</font> | <font style="color:red">Artifact</font> |  	 	
-|	&emsp;<font style="color:red">Ranging Emitter (Ascendancy)</font> | <font style="color:red">Artifact</font> |  		
+|	&emsp;<font style="color:red">Ranging Emitter (Ascendancy)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Rending Conductor (Ascendancy)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Repelling Cycler (Perfect)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Storing Emitter (Champion)</font> | <font style="color:red">Artifact</font> |  
@@ -7213,100 +7412,100 @@ This item gains the withering 2 property. If it already has the withering proper
 
 |	Item	|	Rarity | 	
 |	:--	|	:--:	| 
-|	&emsp;<font style="color:#4a5568">Adegan Crystal (Cracked)</font>  | <font style="color:#4a5568">Standard</font> |  			
+|	&emsp;<font style="color:#4a5568">Adegan Crystal (Cracked)</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Biometric Safety Measures</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Biting Crystal (Novice)</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Bright Crystal (Novice)</font>  | <font style="color:#4a5568">Standard</font> |	
-|	&emsp;<font style="color:#4a5568">Burning Cell</font>  | <font style="color:#4a5568">Standard</font> |  			
+|	&emsp;<font style="color:#4a5568">Burning Cell</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Collapsible Hilt</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Corruption Crystal (Novice)</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:#4a5568">Crystalizing Amplifier (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Crystalizing Rangefinder (Training)</font>  | <font style="color:#4a5568">Standard</font> | 	
-|	&emsp;<font style="color:#4a5568">Disarming Cell</font>  | <font style="color:#4a5568">Standard</font> |			
+|	&emsp;<font style="color:#4a5568">Disarming Cell</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Disguised Hilt</font>  | <font style="color:#4a5568">Standard</font> |
-|	&emsp;<font style="color:#4a5568">Fadecasting Crystal (Training)</font>  | <font style="color:#4a5568">Standard</font> | 		
-|	&emsp;<font style="color:#4a5568">Gloom Cell</font>  | <font style="color:#4a5568">Standard</font> |			
-|	&emsp;<font style="color:#4a5568">Magnetic-Lock Grip</font>  | <font style="color:#4a5568">Standard</font> |  			
+|	&emsp;<font style="color:#4a5568">Fadecasting Crystal (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Gloom Cell</font>  | <font style="color:#4a5568">Standard</font> |	
+|	&emsp;<font style="color:#4a5568">Magnetic-Lock Grip</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Ossus Training Lens</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:#4a5568">Rendcasting Crystal (Training)</font>  | <font style="color:#4a5568">Standard</font> |  		
-|	&emsp;<font style="color:#4a5568">Returning Weapon Hilt</font> | <font style="color:#4a5568">Standard</font> |					
+|	&emsp;<font style="color:#4a5568">Rendcasting Crystal (Training)</font>  | <font style="color:#4a5568">Standard</font> |  
+|	&emsp;<font style="color:#4a5568">Returning Weapon Hilt</font> | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Stabilizer Training Cell</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Throwing Weapon Hilt (Basic)</font>  | <font style="color:#4a5568">Standard</font> |	
-|	&emsp;<font style="color:#4a5568">Withercasting Crystal (Training)</font>  | <font style="color:#4a5568">Standard</font> | 		
-|	&emsp;<font style="color:#4a5568">Wrist Mount Hilt</font>  | <font style="color:#4a5568">Standard</font> |			
+|	&emsp;<font style="color:#4a5568">Withercasting Crystal (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Wrist Mount Hilt</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:green">Adegan Crystal (Chipped)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Biting Crystal (Apprentice)</font> | <font style="color:green">Premium</font> |
-|	&emsp;<font style="color:green">Bright Crystal (Apprentice)</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Brutal Cell</font>  | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Bright Crystal (Apprentice)</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Brutal Cell</font>  | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Comfortable Handle</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Corruption Crystal (Apprentice)</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Corruption Crystal (Apprentice)</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Crossguard Hilt</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Crystalizing Amplifier (Fighting)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Crystalizing Rangefinder (Fighting)</font> | <font style="color:green">Premium</font> |  		
-|	&emsp;<font style="color:green">Dire Fighting Hilt</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Crystalizing Rangefinder (Fighting)</font> | <font style="color:green">Premium</font> |  
+|	&emsp;<font style="color:green">Dire Fighting Hilt</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Disruption Cell</font> | <font style="color:green">Premium</font> |
-|	&emsp;<font style="color:green">Fadecasting Crystal (Fighting)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Heavy Cell</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Helisaber Attachment</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Hilt Blaster</font> | <font style="color:green">Premium</font> |						
-|	&emsp;<font style="color:green">Light Cell</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Ossus Fighting Lens</font> | <font style="color:green">Premium</font> |  			
+|	&emsp;<font style="color:green">Fadecasting Crystal (Fighting)</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Heavy Cell</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Helisaber Attachment</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Hilt Blaster</font> | <font style="color:green">Premium</font> |
+|	&emsp;<font style="color:green">Light Cell</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Ossus Fighting Lens</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Piercing Cell</font> | <font style="color:green">Premium</font> |
-|	&emsp;<font style="color:green">Rendcasting Crystal (Fighting)</font> | <font style="color:green">Premium</font> | 				
+|	&emsp;<font style="color:green">Rendcasting Crystal (Fighting)</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Stabilizer Fighting Cell</font> | <font style="color:green">Premium</font> |	
-|	&emsp;<font style="color:green">Throwing Weapon Hilt (Fine)</font> | <font style="color:green">Premium</font> | 		
-|	&emsp;<font style="color:green">Ventilation Stabilizer</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Throwing Weapon Hilt (Fine)</font> | <font style="color:green">Premium</font> | 
+|	&emsp;<font style="color:green">Ventilation Stabilizer</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Versatile Handle</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Vicious Fighting Hilt</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Withercasting Crystal (Fighting)</font> | <font style="color:green">Premium</font> | 
 
 |	Item	|	Rarity | 	
-|	:--	|	:--:	| 			 			
+|	:--	|	:--:	| 	 	
 |	&emsp;<font style="color:blue">Adegan Crystal (Flawed)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Biting Crystal (Journeyman)</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Bright Crystal (Journeyman)</font> | <font style="color:blue">Prototype</font> |	 
 |	&emsp;<font style="color:blue">Corruption Crystal (Journeyman)</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Crystalizing Amplifier (Dueling)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Crystalizing Rangefinder (Dueling)</font> | <font style="color:blue">Prototype</font> | 			
+|	&emsp;<font style="color:blue">Crystalizing Rangefinder (Dueling)</font> | <font style="color:blue">Prototype</font> | 	
 |	&emsp;<font style="color:blue">Damind Crystal (Flawed)</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Fadecasting Crystal (Dueling)</font> | <font style="color:blue">Prototype</font> |    
 |	&emsp;<font style="color:blue">Ossus Dueling Lens</font> | <font style="color:blue">Prototype</font> | 
-|	&emsp;<font style="color:blue">Rendcasting Crystal (Dueling)</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Stabilizier Dueling Cell</font> | <font style="color:blue">Prototype</font> |		
+|	&emsp;<font style="color:blue">Rendcasting Crystal (Dueling)</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Stabilizier Dueling Cell</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Throwing Weapon Hilt (Improved)</font> | <font style="color:blue">Prototype</font> |	
 |	&emsp;<font style="color:blue">Withercasting Crystal (Dueling)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:purple">Adegan Crystal (Regular)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Biting Crystal (Adept)</font> | <font style="color:purple">Advanced</font> |
-|	&emsp;<font style="color:purple">Bright Crystal (Adept)</font> | <font style="color:purple">Advanced</font> |  			
-|	&emsp;<font style="color:purple">Brutal Cell (Deadly)</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Corruption Crystal (Adept)</font> | <font style="color:purple">Advanced</font> |		
+|	&emsp;<font style="color:purple">Bright Crystal (Adept)</font> | <font style="color:purple">Advanced</font> |  	
+|	&emsp;<font style="color:purple">Brutal Cell (Deadly)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Corruption Crystal (Adept)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Crossguard Hilt (Superior)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Crystalizing Amplifier (Mastery)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Crystalizing Rangefinder (Mastery)</font> | <font style="color:purple">Advanced</font> |  		
-|	&emsp;<font style="color:purple">Damind Crystal (Regular)</font> | <font style="color:purple">Advanced</font> |  			
-|	&emsp;<font style="color:purple">Dire Mastery Hilt</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Double Hilt</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Crystalizing Rangefinder (Mastery)</font> | <font style="color:purple">Advanced</font> |  
+|	&emsp;<font style="color:purple">Damind Crystal (Regular)</font> | <font style="color:purple">Advanced</font> |  	
+|	&emsp;<font style="color:purple">Dire Mastery Hilt</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Double Hilt</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Extended Beam</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Fadecasting Crystal (Mastery)</font> | <font style="color:purple">Advanced</font> |   			
-|	&emsp;<font style="color:purple">Keen Beam (Deadly)</font> | <font style="color:purple">Advanced</font> |  				
-|	&emsp;<font style="color:purple">Ossus Mastery Lens</font> | <font style="color:purple">Advanced</font> |  			
+|	&emsp;<font style="color:purple">Fadecasting Crystal (Mastery)</font> | <font style="color:purple">Advanced</font> |   	
+|	&emsp;<font style="color:purple">Keen Beam (Deadly)</font> | <font style="color:purple">Advanced</font> |  
+|	&emsp;<font style="color:purple">Ossus Mastery Lens</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Piercing Cell (Deadly)</font> | <font style="color:purple">Advanced</font> |
-|	&emsp;<font style="color:purple">Rendcasting Crystal (Mastery)</font> | <font style="color:purple">Advanced</font> |  			
+|	&emsp;<font style="color:purple">Rendcasting Crystal (Mastery)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Stabilizer Mastery Cell</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:purple">Throwing Weapon Hilt (Superior)</font> | <font style="color:purple">Advanced</font> |	
-|	&emsp;<font style="color:purple">Versatile Handle (Superior)</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Versatile Handle (Superior)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Vicious Mastery Hilt</font> | <font style="color:purple">Advanced</font> |
-|	&emsp;<font style="color:purple">Withercasting Crystal (Mastery)</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Withercasting Crystal (Mastery)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:#dd6b20">Biting Crystal (Master)</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Bright Crystal (Master)</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Corruption Crystal (Master)</font> | <font style="color:#dd6b20">Legendary</font> |	
-|	&emsp;<font style="color:#dd6b20">Damind Crystal (Flawless)</font> | <font style="color:#dd6b20">Legendary</font> |  			
-|	&emsp;<font style="color:#dd6b20">Lightweight Stabilizer Frame</font> | <font style="color:#dd6b20">Legendary</font> |		
-|	&emsp;<font style="color:#dd6b20">Stabilizer Supremacy Cell</font> | <font style="color:#dd6b20">Legendary</font> |		
+|	&emsp;<font style="color:#dd6b20">Damind Crystal (Flawless)</font> | <font style="color:#dd6b20">Legendary</font> |  	
+|	&emsp;<font style="color:#dd6b20">Lightweight Stabilizer Frame</font> | <font style="color:#dd6b20">Legendary</font> |
+|	&emsp;<font style="color:#dd6b20">Stabilizer Supremacy Cell</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Throwing Weapon Hilt (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:red">Biting Crystal (Ancient)</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Bright Crystal (Ancient)</font> | <font style="color:red">Artifact</font> |
-|	&emsp;<font style="color:red">Brutal Cell (Devastating)</font> | <font style="color:red">Artifact</font> |		
+|	&emsp;<font style="color:red">Brutal Cell (Devastating)</font> | <font style="color:red">Artifact</font> |
 |	&emsp;<font style="color:red">Corruption Crystal (Ancient)</font> | <font style="color:red">Artifact</font> |
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (LIGHTWEAPON)</div>
@@ -7315,15 +7514,15 @@ This item gains the withering 2 property. If it already has the withering proper
 
 |	Item	|	Rarity | 	
 |	:--	|	:--:	|   
-|	&emsp;<font style="color:red">Crossguard Hilt (Champion)</font> | <font style="color:red">Artifact</font> |  			
-|	&emsp;<font style="color:red">Damind Crystal (Perfect)</font> | <font style="color:red">Artifact</font> |  			
-|	&emsp;<font style="color:red">Dire Ascendancy Hilt</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Keen Beam (Devastating)</font> | <font style="color:red">Artifact</font> |  			
+|	&emsp;<font style="color:red">Crossguard Hilt (Champion)</font> | <font style="color:red">Artifact</font> |  	
+|	&emsp;<font style="color:red">Damind Crystal (Perfect)</font> | <font style="color:red">Artifact</font> |  	
+|	&emsp;<font style="color:red">Dire Ascendancy Hilt</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Keen Beam (Devastating)</font> | <font style="color:red">Artifact</font> |  	
 |	&emsp;<font style="color:red">Piercing Cell (Devastating)</font> | <font style="color:red">Artifact</font> |	
 |	&emsp;<font style="color:red">Stabilizer Ascendancy Cell</font> | <font style="color:red">Artifact</font> |
-|	&emsp;<font style="color:red">Versatile Handle (Champion)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Vicious Ascendancy Hilt</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Throwing Weapon Hilt (Champion)</font> | <font style="color:red">Artifact</font> |		
+|	&emsp;<font style="color:red">Versatile Handle (Champion)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Vicious Ascendancy Hilt</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Throwing Weapon Hilt (Champion)</font> | <font style="color:red">Artifact</font> |
 
 #### Adegan Crystal (Chipped)
 _**Item modification** (lightweapon), <font style="color:green">**premium**</font>_<br>
@@ -7408,7 +7607,7 @@ This weapon gains the brutal 3 property. If it already has the brutal property, 
 \pagebreakNum
 
 #### Brutal Cell (Deadly)
-_**Item modification** (lightweapon), <font style="color:purple">**advanceed**</font>_<br>
+_**Item modification** (lightweapon), <font style="color:purple">**advanced**</font>_<br>
 This weapon gains the brutal 2 property. If it already has the brutal property, its brutal number increases by 2, to a maximum of 3.
 
 #### Burning Cell
@@ -7778,101 +7977,101 @@ This weapon gains the fixed property.
 </div>
 
 |	Item	|	Rarity | 	
-|	:--	|	:--:	| 		
-|	&emsp;<font style="color:#4a5568">Celerity Oscillator</font>  | <font style="color:#4a5568">Standard</font> |  			
-|	&emsp;<font style="color:#4a5568">Collapsible Frame</font>  | <font style="color:#4a5568">Standard</font> |  			
-|	&emsp;<font style="color:#4a5568">Compensation Oscillator</font>  | <font style="color:#4a5568">Standard</font> |			
-|	&emsp;<font style="color:#4a5568">Contoured Grip (Basic)</font>  | <font style="color:#4a5568">Standard</font> |  			
-|	&emsp;<font style="color:#4a5568">Disarming Oscillator</font>  | <font style="color:#4a5568">Standard</font> |			
+|	:--	|	:--:	| 
+|	&emsp;<font style="color:#4a5568">Celerity Oscillator</font>  | <font style="color:#4a5568">Standard</font> |  	
+|	&emsp;<font style="color:#4a5568">Collapsible Frame</font>  | <font style="color:#4a5568">Standard</font> |  	
+|	&emsp;<font style="color:#4a5568">Compensation Oscillator</font>  | <font style="color:#4a5568">Standard</font> |	
+|	&emsp;<font style="color:#4a5568">Contoured Grip (Basic)</font>  | <font style="color:#4a5568">Standard</font> |  	
+|	&emsp;<font style="color:#4a5568">Disarming Oscillator</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Disguised Guard</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:#4a5568">Fadecasting Guard (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:#4a5568">Fadecasting Oscillator Mk I</font>  | <font style="color:#4a5568">Standard</font> | 		
-|	&emsp;<font style="color:#4a5568">Flashlight Guard</font>  | <font style="color:#4a5568">Standard</font> |  		
+|	&emsp;<font style="color:#4a5568">Fadecasting Oscillator Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
+|	&emsp;<font style="color:#4a5568">Flashlight Guard</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Guard Amplifier (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Guard Rangefinder (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 	
-|	&emsp;<font style="color:#4a5568">Nagai Edge (Basic)</font>  | <font style="color:#4a5568">Standard</font> |			
-|	&emsp;<font style="color:#4a5568">Neuralizing Oscillator</font>  | <font style="color:#4a5568">Standard</font> |			
+|	&emsp;<font style="color:#4a5568">Nagai Edge (Basic)</font>  | <font style="color:#4a5568">Standard</font> |	
+|	&emsp;<font style="color:#4a5568">Neuralizing Oscillator</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Neutronium Edge (Minor)</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Oscillating Amplifier Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Oscillating Rangefinder Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Rendcasting Guard (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Rendcasting Oscillator Mk I</font>  | <font style="color:#4a5568">Standard</font> | 	
-|	&emsp;<font style="color:#4a5568">Returning Weapon Guard</font> | <font style="color:#4a5568">Standard</font> |				
-|	&emsp;<font style="color:#4a5568">Shocking Oscillator</font>  | <font style="color:#4a5568">Standard</font> |			
-|	&emsp;<font style="color:#4a5568">Sonorous Oscillator</font>  | <font style="color:#4a5568">Standard</font> |			
+|	&emsp;<font style="color:#4a5568">Returning Weapon Guard</font> | <font style="color:#4a5568">Standard</font> |
+|	&emsp;<font style="color:#4a5568">Shocking Oscillator</font>  | <font style="color:#4a5568">Standard</font> |	
+|	&emsp;<font style="color:#4a5568">Sonorous Oscillator</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Staggering Oscillator</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Throwing Weapon Guard (Basic)</font>  | <font style="color:#4a5568">Standard</font> |	
 |	&emsp;<font style="color:#4a5568">Withercasting Guard (Novice)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Withercasting Oscillator Mk I</font>  | <font style="color:#4a5568">Standard</font> | 	
 |	&emsp;<font style="color:#4a5568">Wrist Mount Guard</font>  | <font style="color:#4a5568">Standard</font> |	
-|	&emsp;<font style="color:green">Brutal Oscillator</font>  | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Compensation Oscillator (Fine)</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Contoured Grip (Fine)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Defensive Guard</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Dire Fighting Guard</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Brutal Oscillator</font>  | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Compensation Oscillator (Fine)</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Contoured Grip (Fine)</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Defensive Guard</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Dire Fighting Guard</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Disruption Oscillator</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Fadecasting Guard (Apprentice)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Fadecasting Oscillator Mk II</font> | <font style="color:green">Premium</font> | 			
-|	&emsp;<font style="color:green">Finesse Oscillator</font> | <font style="color:green">Premium</font> |			 
+|	&emsp;<font style="color:green">Fadecasting Oscillator Mk II</font> | <font style="color:green">Premium</font> | 	
+|	&emsp;<font style="color:green">Finesse Oscillator</font> | <font style="color:green">Premium</font> |	 
 |	&emsp;<font style="color:green">Guard Amplifier (Apprentice)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Guard Rangefinder (Apprentice)</font> | <font style="color:green">Premium</font> | 
-|	&emsp;<font style="color:green">Heavy Oscillator</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Keen Oscillator</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Light Oscillator</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Monomolecular Oscillator Mk I</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Neuralizing Oscillator Mk II</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Heavy Oscillator</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Keen Oscillator</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Light Oscillator</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Monomolecular Oscillator Mk I</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Neuralizing Oscillator Mk II</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Neutronium Edge (Average)</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Oscillating Amplifier Mk II</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Oscillating Rangefinder Mk II</font> | <font style="color:green">Premium</font> |   			
+|	&emsp;<font style="color:green">Oscillating Rangefinder Mk II</font> | <font style="color:green">Premium</font> |   	
 |	&emsp;<font style="color:green">Pacnorval Chem Integrator</font> | <font style="color:green">Premium</font> |  	
 
 |	Item	|	Rarity | 	
-|	:--	|	:--:	| 				
-|	&emsp;<font style="color:green">Piercing Oscillator</font> | <font style="color:green">Premium</font> |				
+|	:--	|	:--:	| 
+|	&emsp;<font style="color:green">Piercing Oscillator</font> | <font style="color:green">Premium</font> |
 |	&emsp;<font style="color:green">Rendcasting Guard (Apprentice)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Rendcasting Oscillator Mk II</font> | <font style="color:green">Premium</font> |  	
-|	&emsp;<font style="color:green">Shocking Oscillator Mk II</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Shocking Oscillator Mk II</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Sonorous Oscillator Mk II</font> | <font style="color:green">Premium</font> |	
-|	&emsp;<font style="color:green">Throwing Weapon Guard (Fine)</font> | <font style="color:green">Premium</font> |  			
-|	&emsp;<font style="color:green">Versatile Frame</font> | <font style="color:green">Premium</font> |			
-|	&emsp;<font style="color:green">Vicious Fighting Guard</font> | <font style="color:green">Premium</font> |			
+|	&emsp;<font style="color:green">Throwing Weapon Guard (Fine)</font> | <font style="color:green">Premium</font> |  	
+|	&emsp;<font style="color:green">Versatile Frame</font> | <font style="color:green">Premium</font> |	
+|	&emsp;<font style="color:green">Vicious Fighting Guard</font> | <font style="color:green">Premium</font> |	
 |	&emsp;<font style="color:green">Withercasting Guard (Apprentice)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Withercasting Oscillator Mk II</font> | <font style="color:green">Premium</font> |  	
-|	&emsp;<font style="color:blue">Compensation Oscillator (Improved)</font> | <font style="color:blue">Prototype</font> |			
-|	&emsp;<font style="color:blue">Contoured Grip (Improved)</font> | <font style="color:blue">Prototype</font> |  			
+|	&emsp;<font style="color:blue">Compensation Oscillator (Improved)</font> | <font style="color:blue">Prototype</font> |	
+|	&emsp;<font style="color:blue">Contoured Grip (Improved)</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Electrifying Oscillator</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Fadecasting Guard (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Fadecasting Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Guard Amplifier (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Guard Rangefinder (Journeyman)</font> | <font style="color:blue">Prototype</font> |			
-|	&emsp;<font style="color:blue">Harpoon Reel Guard</font> | <font style="color:blue">Prototype</font> |  			
-|	&emsp;<font style="color:blue">Nagai Edge (Improved)</font> | <font style="color:blue">Prototype</font> |			
-|	&emsp;<font style="color:blue">Neuralizing Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |			
+|	&emsp;<font style="color:blue">Guard Rangefinder (Journeyman)</font> | <font style="color:blue">Prototype</font> |	
+|	&emsp;<font style="color:blue">Harpoon Reel Guard</font> | <font style="color:blue">Prototype</font> |  	
+|	&emsp;<font style="color:blue">Nagai Edge (Improved)</font> | <font style="color:blue">Prototype</font> |	
+|	&emsp;<font style="color:blue">Neuralizing Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |	
 |	&emsp;<font style="color:blue">Neutronium Edge (Major)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Oscillating Amplifier Mk III</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Oscillating Rangefinder Mk III</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Rendcasting Guard (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Rendcasting Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |  				
-|	&emsp;<font style="color:blue">Serrated Edge Mk I</font> | <font style="color:blue">Prototype</font> |  			
-|	&emsp;<font style="color:blue">Shocking Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |			
+|	&emsp;<font style="color:blue">Rendcasting Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |  
+|	&emsp;<font style="color:blue">Serrated Edge Mk I</font> | <font style="color:blue">Prototype</font> |  	
+|	&emsp;<font style="color:blue">Shocking Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |	
 |	&emsp;<font style="color:blue">Sonorous Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |
-|	&emsp;<font style="color:blue">Throwing Weapon Guard (Improved)</font> | <font style="color:blue">Prototype</font> |			
+|	&emsp;<font style="color:blue">Throwing Weapon Guard (Improved)</font> | <font style="color:blue">Prototype</font> |	
 |	&emsp;<font style="color:blue">Venomous Oscillator</font> | <font style="color:blue">Prototype</font> |
 |	&emsp;<font style="color:blue">Withercasting Guard (Journeyman)</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Withercasting Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |   		
-|	&emsp;<font style="color:purple">Brutal Oscillator (Deadly)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Compensation Oscillator (Superior)</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Contoured Grip (Superior)</font> | <font style="color:purple">Advanced</font> |  			
-|	&emsp;<font style="color:purple">Defensive Guard (Superior)</font> | <font style="color:purple">Advanced</font> |  			
-|	&emsp;<font style="color:purple">Dire Mastery Guard</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:blue">Withercasting Oscillator Mk III</font> | <font style="color:blue">Prototype</font> |   
+|	&emsp;<font style="color:purple">Brutal Oscillator (Deadly)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Compensation Oscillator (Superior)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Contoured Grip (Superior)</font> | <font style="color:purple">Advanced</font> |  	
+|	&emsp;<font style="color:purple">Defensive Guard (Superior)</font> | <font style="color:purple">Advanced</font> |  	
+|	&emsp;<font style="color:purple">Dire Mastery Guard</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Double Guard</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Fadecasting Guard (Adept)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Fadecasting Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> ||    
 |	&emsp;<font style="color:purple">Guard Amplifier (Adept)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Guard Rangefinder (Adept)</font> | <font style="color:purple">Advanced</font> |  		
-|	&emsp;<font style="color:purple">Keen Oscillator (Deadly)</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Monomolecular Oscillator Mk II</font> | <font style="color:purple">Advanced</font> | 		
-|	&emsp;<font style="color:purple">Neuralizing Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> | 			
+|	&emsp;<font style="color:purple">Guard Rangefinder (Adept)</font> | <font style="color:purple">Advanced</font> |  
+|	&emsp;<font style="color:purple">Keen Oscillator (Deadly)</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Monomolecular Oscillator Mk II</font> | <font style="color:purple">Advanced</font> | 
+|	&emsp;<font style="color:purple">Neuralizing Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> | 	
 |	&emsp;<font style="color:purple">Neutronium Edge (Deadly)</font> | <font style="color:purple">Advanced</font> |
 
 <div class='footnote'>APPENDIX A | ENHANCED ITEMS | ITEM MODIFICATIONS (VIBROWEAPON)</div>
@@ -7880,45 +8079,45 @@ This weapon gains the fixed property.
 \pagebreakNum
 
 |	Item	|	Rarity | 	
-|	:--	|	:--:	| 		 
+|	:--	|	:--:	|  
 |	&emsp;<font style="color:purple">Oscillating Amplifier Mk IV</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Oscillating Rangefinder Mk IV</font> | <font style="color:purple">Advanced</font> |   			
-|	&emsp;<font style="color:purple">Ostrine Edge (Deadly)</font> | <font style="color:purple">Advanced</font> |			
+|	&emsp;<font style="color:purple">Oscillating Rangefinder Mk IV</font> | <font style="color:purple">Advanced</font> |   	
+|	&emsp;<font style="color:purple">Ostrine Edge (Deadly)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Piercing Oscillator (Deadly)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Rendcasting Guard (Adept)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Rendcasting Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> 			
-|	&emsp;<font style="color:purple">RZ-3 Extender Frame</font> | <font style="color:purple">Advanced</font> | 			
-|	&emsp;<font style="color:purple">Serrated Edge Mk II</font> | <font style="color:purple">Advanced</font> |  			
-|	&emsp;<font style="color:purple">Shocking Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> |			
-|	&emsp;<font style="color:purple">Sonorous Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Throwing Weapon Guard (Superior)</font> | <font style="color:purple">Advanced</font> |		
-|	&emsp;<font style="color:purple">Versatile Frame (Superior)</font> | <font style="color:purple">Advanced</font> | 			
+|	&emsp;<font style="color:purple">Rendcasting Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> 	
+|	&emsp;<font style="color:purple">RZ-3 Extender Frame</font> | <font style="color:purple">Advanced</font> | 	
+|	&emsp;<font style="color:purple">Serrated Edge Mk II</font> | <font style="color:purple">Advanced</font> |  	
+|	&emsp;<font style="color:purple">Shocking Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> |	
+|	&emsp;<font style="color:purple">Sonorous Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Throwing Weapon Guard (Superior)</font> | <font style="color:purple">Advanced</font> |
+|	&emsp;<font style="color:purple">Versatile Frame (Superior)</font> | <font style="color:purple">Advanced</font> | 	
 |	&emsp;<font style="color:purple">Vicious Mastery Guard</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Withercasting Oscillator Mk IV</font> | <font style="color:purple">Advanced</font> | 
-|	&emsp;<font style="color:purple">Withercasting Guard (Adept)</font> | <font style="color:purple">Advanced</font> |				
+|	&emsp;<font style="color:purple">Withercasting Guard (Adept)</font> | <font style="color:purple">Advanced</font> |
 |	&emsp;<font style="color:#dd6b20">Compensation Oscillator (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> |	
-|	&emsp;<font style="color:#dd6b20">Fiber-alloy Guard</font> | <font style="color:#dd6b20">Legendary</font> | 			
-|	&emsp;<font style="color:#dd6b20">Nagai Edge (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 			
-|	&emsp;<font style="color:#dd6b20">Neuralizing Oscillator Mk V</font> | <font style="color:#dd6b20">Legendary</font> | 		
-|	&emsp;<font style="color:#dd6b20">Ostrine Edge (Lethal)</font> | <font style="color:#dd6b20">Legendary</font> | 			
-|	&emsp;<font style="color:#dd6b20">Serrated Edge Mk III</font> | <font style="color:#dd6b20">Legendary</font> |  			
+|	&emsp;<font style="color:#dd6b20">Fiber-alloy Guard</font> | <font style="color:#dd6b20">Legendary</font> | 	
+|	&emsp;<font style="color:#dd6b20">Nagai Edge (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 	
+|	&emsp;<font style="color:#dd6b20">Neuralizing Oscillator Mk V</font> | <font style="color:#dd6b20">Legendary</font> | 
+|	&emsp;<font style="color:#dd6b20">Ostrine Edge (Lethal)</font> | <font style="color:#dd6b20">Legendary</font> | 	
+|	&emsp;<font style="color:#dd6b20">Serrated Edge Mk III</font> | <font style="color:#dd6b20">Legendary</font> |  	
 |	&emsp;<font style="color:#dd6b20">Shocking Oscillator Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Sonorous Oscillator Mk V</font> | <font style="color:#dd6b20">Legendary</font> |
 |	&emsp;<font style="color:#dd6b20">Throwing Weapon Guard (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 	
 |	&emsp;<font style="color:red">Brutal Oscillator (Lethal)</font> | <font style="color:red">Artifact</font> |	
 |	&emsp;<font style="color:red">Compensation Oscillator (Champion)</font> | <font style="color:red">Artifact</font> |
-|	&emsp;<font style="color:red">Defensive Guard (Champion)</font> | <font style="color:red">Artifact</font> |  			
-|	&emsp;<font style="color:red">Dire Ascendancy Guard</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Keen Oscillator (Devastating)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Neuralizing Oscillator Mk VI</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Ostrine Edge (Devastating)</font> | <font style="color:red">Artifact</font> |  			
-|	&emsp;<font style="color:red">Piercing Oscillator (Devastating)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Serrated Edge Mk IV</font> | <font style="color:red">Artifact</font> |  			
-|	&emsp;<font style="color:red">Shocking Oscillator Mk VI</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Sonorous Oscillator Mk VI</font> | <font style="color:red">Artifact</font> |		
-|	&emsp;<font style="color:red">Throwing Weapon Guard (Champion)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Versatile Frame (Champion)</font> | <font style="color:red">Artifact</font> |			
-|	&emsp;<font style="color:red">Vicious Ascendancy Guard</font> | <font style="color:red">Artifact</font> |			
+|	&emsp;<font style="color:red">Defensive Guard (Champion)</font> | <font style="color:red">Artifact</font> |  	
+|	&emsp;<font style="color:red">Dire Ascendancy Guard</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Keen Oscillator (Devastating)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Neuralizing Oscillator Mk VI</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Ostrine Edge (Devastating)</font> | <font style="color:red">Artifact</font> |  	
+|	&emsp;<font style="color:red">Piercing Oscillator (Devastating)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Serrated Edge Mk IV</font> | <font style="color:red">Artifact</font> |  	
+|	&emsp;<font style="color:red">Shocking Oscillator Mk VI</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Sonorous Oscillator Mk VI</font> | <font style="color:red">Artifact</font> |
+|	&emsp;<font style="color:red">Throwing Weapon Guard (Champion)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Versatile Frame (Champion)</font> | <font style="color:red">Artifact</font> |	
+|	&emsp;<font style="color:red">Vicious Ascendancy Guard</font> | <font style="color:red">Artifact</font> |	
 
 #### Brutal Oscillator
 _**Item modification** (vibroweapon), <font style="color:green">**premium**</font>_<br>
@@ -8509,7 +8708,7 @@ This weapon gains the fixed property.
 |	Item	|	Rarity | 
 |	:--	|	:--: |
 |	&emsp;<font style="color:#4a5568">Absorbing Amplifier Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
-|	&emsp;<font style="color:#4a5568">Accessing Motherboard (Simple)</font>  | <font style="color:#4a5568">Standard</font> |  		
+|	&emsp;<font style="color:#4a5568">Accessing Motherboard (Simple)</font>  | <font style="color:#4a5568">Standard</font> |  
 |	&emsp;<font style="color:#4a5568">Constitution Dataport (Basic)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Dispelling Dataport (Basic)</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Elongating Dataport Mk I</font>  | <font style="color:#4a5568">Standard</font> |  
@@ -8520,7 +8719,7 @@ This weapon gains the fixed property.
 |	&emsp;<font style="color:#4a5568">Focused Amplifier</font>  | <font style="color:#4a5568">Standard</font> |    	 
 |	&emsp;<font style="color:#4a5568">Increasing Motherboard Mk I</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Inflating Amplifier (Simple)</font>  | <font style="color:#4a5568">Standard</font> |  	
-|	&emsp;<font style="color:#4a5568">MerenData Excelcior</font>  | <font style="color:#4a5568">Standard</font> |  			
+|	&emsp;<font style="color:#4a5568">MerenData Excelcior</font>  | <font style="color:#4a5568">Standard</font> |  	
 |	&emsp;<font style="color:#4a5568">Mitigating Processor Mk I</font>  | <font style="color:#4a5568">Standard</font> |   
 |	&emsp;<font style="color:#4a5568">Processing Amplifier (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
 |	&emsp;<font style="color:#4a5568">Processing Rangefinder (Training)</font>  | <font style="color:#4a5568">Standard</font> | 
@@ -8531,14 +8730,14 @@ This weapon gains the fixed property.
 |	&emsp;<font style="color:#4a5568">Withercasting Processor (Training)</font>  | <font style="color:#4a5568">Standard</font> |
 |	&emsp;<font style="color:green">Absorbing Amplifier Mk II</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Accessing Motherboard (Adequate)</font> | <font style="color:green">Premium</font> |  
-|	&emsp;<font style="color:green">Amplifying Processor (Fighting)</font> | <font style="color:green">Premium</font> | 		
+|	&emsp;<font style="color:green">Amplifying Processor (Fighting)</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Bansche Purifier MENAD Pro Mk I</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Constitution Dataport (Fine)</font> | <font style="color:green">Premium</font> |  	
-|	&emsp;<font style="color:green">Dispelling Dataport (Fine)</font> | <font style="color:green">Premium</font> |  		
+|	&emsp;<font style="color:green">Dispelling Dataport (Fine)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Elongating Dataport Mk II</font> | <font style="color:green">Premium</font> | 
 |	&emsp;<font style="color:green">Enlarging Processor (Adequate)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Expanding Amplifier (Fine)</font> | <font style="color:green">Premium</font> | 	
-|	&emsp;<font style="color:green">Extending Motherboard (Fine)</font> | <font style="color:green">Premium</font> |  		 	
+|	&emsp;<font style="color:green">Extending Motherboard (Fine)</font> | <font style="color:green">Premium</font> |   	
 |	&emsp;<font style="color:green">Fadecasting Processor (Fighting)</font> | <font style="color:green">Premium</font> |  
 |	&emsp;<font style="color:green">Fading Motherboard (Fighting)</font> | <font style="color:green">Premium</font> |  	
 |	&emsp;<font style="color:green">Increasing Motherboard Mk II</font> | <font style="color:green">Premium</font> |   	
@@ -8558,11 +8757,11 @@ This weapon gains the fixed property.
 |	Item	|	Rarity | 
 |	:--	|	:--: |
 |	&emsp;<font style="color:blue">Absorbing Amplifier Mk III</font> | <font style="color:blue">Prototype</font> |  
-|	&emsp;<font style="color:blue">Accessing Motherboard (Leading)</font> | <font style="color:blue">Prototype</font> |  		
+|	&emsp;<font style="color:blue">Accessing Motherboard (Leading)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Bansche Advanced 2ZBc</font> | <font style="color:blue">Prototype</font> |  	
 |	&emsp;<font style="color:blue">Constitution Dataport (Improved)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Dispelling Dataport (Improved)</font> | <font style="color:blue">Prototype</font> |  	
-|	&emsp;<font style="color:blue">Elongating Dataport Mk III</font> | <font style="color:blue">Prototype</font> |  		
+|	&emsp;<font style="color:blue">Elongating Dataport Mk III</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Enlarging Processor (Leading)</font> | <font style="color:blue">Prototype</font> |  	 
 |	&emsp;<font style="color:blue">Expanding Amplifier (Improved)</font> | <font style="color:blue">Prototype</font> |  
 |	&emsp;<font style="color:blue">Extending Motherboard (Improved)</font> | <font style="color:blue">Prototype</font> |  	
@@ -8583,12 +8782,12 @@ This weapon gains the fixed property.
 |	&emsp;<font style="color:purple">Amplifying Processor (Mastery)</font> | <font style="color:purple">Advanced</font> | 	 	
 |	&emsp;<font style="color:purple">Constitution Dataport (Superior)</font> | <font style="color:purple">Advanced</font> |	
 |	&emsp;<font style="color:purple">Dispelling Dataport (Superior)</font> | <font style="color:purple">Advanced</font> |  	
-|	&emsp;<font style="color:purple">Elongating Dataport Mk IV</font> | <font style="color:purple">Advanced</font> |  		 
+|	&emsp;<font style="color:purple">Elongating Dataport Mk IV</font> | <font style="color:purple">Advanced</font> |   
 |	&emsp;<font style="color:purple">Enlarging Processor (Excellent)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Expanding Amplifier (Superior)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Extending Motherboard (Superior)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Fadecasting Processor (Mastery)</font> | <font style="color:purple">Advanced</font> |  
-|	&emsp;<font style="color:purple">Fading Motherboard (Mastery)</font> | <font style="color:purple">Advanced</font> |  		
+|	&emsp;<font style="color:purple">Fading Motherboard (Mastery)</font> | <font style="color:purple">Advanced</font> |  
 |	&emsp;<font style="color:purple">Increasing Motherboard Mk IV</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Inflating Amplifier (Excellent)</font> | <font style="color:purple">Advanced</font> |  	
 |	&emsp;<font style="color:purple">Mitigating Processor Mk IV</font> | <font style="color:purple">Advanced</font> |  
@@ -8614,7 +8813,7 @@ This weapon gains the fixed property.
 |	:--	|	:--: |
 |	&emsp;<font style="color:#dd6b20">Accessing Motherboard (Outstanding)</font> | <font style="color:#dd6b20">Legendary</font> | 
 |	&emsp;<font style="color:#dd6b20">Constitution Dataport (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 
-|	&emsp;<font style="color:#dd6b20">Czerka Elite Pro Mk V</font> | <font style="color:#dd6b20">Legendary</font> | 			
+|	&emsp;<font style="color:#dd6b20">Czerka Elite Pro Mk V</font> | <font style="color:#dd6b20">Legendary</font> | 	
 |	&emsp;<font style="color:#dd6b20">Dispelling Dataport (Exceptional)</font> | <font style="color:#dd6b20">Legendary</font> | 
 |	&emsp;<font style="color:#dd6b20">Elongating Dataport Mk V</font> | <font style="color:#dd6b20">Legendary</font> | 	
 |	&emsp;<font style="color:#dd6b20">Enlarging Processor (Outstanding)</font> | <font style="color:#dd6b20">Legendary</font> | 
@@ -8631,7 +8830,7 @@ This weapon gains the fixed property.
 |	&emsp;<font style="color:red">Accessing Motherboard (Prime)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Amplifying Processor (Ascendancy)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Constitution Dataport (Champion)</font> | <font style="color:red">Artifact</font> | 
-|	&emsp;<font style="color:red">Dispelling Dataport (Champion)</font> | <font style="color:red">Artifact</font> | 		
+|	&emsp;<font style="color:red">Dispelling Dataport (Champion)</font> | <font style="color:red">Artifact</font> | 
 |	&emsp;<font style="color:red">Elongating Dataport Mk VI</font> | <font style="color:red">Artifact</font> |  	
 |	&emsp;<font style="color:red">Enlarging Processor (Prime)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Expanding Amplifier (Champion)</font> | <font style="color:red">Artifact</font> |   
@@ -8640,7 +8839,7 @@ This weapon gains the fixed property.
 |	&emsp;<font style="color:red">Increasing Motherboard Mk VI</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Inflating Amplifier (Prime)</font> | <font style="color:red">Artifact</font> | 
 |	&emsp;<font style="color:red">Mitigating Processor Mk VI</font> | <font style="color:red">Artifact</font> |  	 	
-|	&emsp;<font style="color:red">Ranging Dataport (Ascendancy)</font> | <font style="color:red">Artifact</font> |  		
+|	&emsp;<font style="color:red">Ranging Dataport (Ascendancy)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Rending Amplifier (Ascendancy)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Repelling Motherboard (Prime)</font> | <font style="color:red">Artifact</font> |  
 |	&emsp;<font style="color:red">Storing Dataport (Champion)</font> | <font style="color:red">Artifact</font> |  

@@ -86,7 +86,7 @@ Durafiber armor and shields have their strength number reduced by one step (from
 Armor and shields made from duranium gain the reactive 1 and responsive 1 properties, respectively, but also the cumbersome property.
 
 #### Durasteel
-Durasteel armor has the impermeable and rigid properties. Durasteel shields have the interlocking and imbalanced properties.
+Durasteel armor has the impermeable 2 and rigid properties. Durasteel shields have the interlocking and imbalanced properties.
 
 #### Duravlex 
 Armor and shields made from duravlex have the silent and concealing properties, respectively, but suffer a -1 penalty to Armor Class.
@@ -145,8 +145,17 @@ While wearing armor with this property, your unarmed strikes deal kinetic damage
 #### Imbalanced
 When you are critically hit while wielding a shield with this property, you can't take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn.
 
-#### Impermeable
-Armor with this property functions as an enviro-suit, flight suit, and water suit.
+#### Impermeable 2
+Armor with this property includes the limited functions of a number of enviromental suits equal the impermeable number from the list below, which are either included in parentheses with the property or determined by the GM. Additionally, it includes 4 hours' capacity of oxygen, which can be replenished by oxygen tanks.
+- **Chemical Suit:** You are immune to the corroded condition.
+- **Conductive Suit:** You are immune to the shocked condition.
+- **Dampening Suit:** You are immune to the deafened condition, and you can't have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks that rely on sound.
+- **Diving Suit:** You are protected from the hazards associated with high pressure environments.
+- **Flame-Proof Suit:** You are immune to the ignited condition.
+- **Hazard Suit:** You are immune to the poisoned condition.
+- **Mind-Shielding Suit:** You have advantage on saving throws to avoid being frightened, and you have advantage on saving throws to avoid having your mind read or affected.
+- **Space Suit:** You are protected from the hazards associated with low pressure environments.
+- **Stabilizer Suit:** You have advantage on ability checks and saving throws to avoid being moved.
 
 #### Insulated
 When you make a saving throw against an effect that would deal ion or lightning damage while wearing armor or wielding a shield with this property, you can treat a d20 roll of below the insulated number as the insulated number.
@@ -212,13 +221,13 @@ A shield with this property can be used with one or two hands. While wielded in 
 |&emsp;Duravlex fiber armor     |  1,450 cr&nbsp;&nbsp;|	11 + Dex modifier|13.00 lb&nbsp;&nbsp;|Silent|
 |&emsp;Fleximetal fiber armor	|  1,450 cr&nbsp;&nbsp;|	12 + Dex modifier|13.00 lb&nbsp;&nbsp;|Avoidant 1, strength 11|
 |_Medium Armor_	||||||
-|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20.00 lb&nbsp;&nbsp;|Insulated 1, strength 11|
+|&emsp;Neutronium mesh 	        |  2,500 cr&nbsp;&nbsp;|	13 + Dex modifier (max 2)|20.00 lb&nbsp;&nbsp;|Insulated 5, strength 11|
 |&emsp;Beskar weave armor	    |  3,000 cr&nbsp;&nbsp;|	14 + Dex modifier (max 2)|25.00 lb&nbsp;&nbsp;|Regulated, strength 11|
 |&emsp;Plastoid composite       |  4,500 cr&nbsp;&nbsp;|	15 + Dex modifier (max 2)|45.00 lb&nbsp;&nbsp;|Bulky, reinforced, rigid|
 |_Heavy Armor_	||||||
 |&emsp;Durafiber battle armor	|  6,750 cr&nbsp;&nbsp;|	15	|55.00 lb&nbsp;&nbsp;|Bulky, strength 11|
 |&emsp;Laminanium assault       |  8,000 cr&nbsp;&nbsp;|	17	|60.00 lb&nbsp;&nbsp;|Bulky, cumbersome, obscured, strength 15|
-|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65.00 lb&nbsp;&nbsp;|Bulky, impermeable, rigid, strength 17|
+|&emsp;Durasteel exoskeleton 	| 15,000 cr&nbsp;&nbsp;|	18	|65.00 lb&nbsp;&nbsp;|Bulky, impermeable 2, rigid, strength 17|
 |_Shield_		||||||
 |&emsp;Bone light shield        |    300 cr&nbsp;&nbsp;|	+0	| 6.00 lb&nbsp;&nbsp;|Spiked (1d4)|
 |&emsp;Crystadium medium shield  |	 900 cr&nbsp;&nbsp;|	+2	|18.00 lb&nbsp;&nbsp;|Absorptive 1, imbalanced, strength 13|
@@ -286,6 +295,9 @@ When you hit a creature with a weapon with the neuralizing property, you can for
 #### Piercing
 Before you make a weapon attack with a weapon with the piercing property, you can choose to gain a bonus to the attack roll up to the piercing number. If you do so and you hit with it, you suffer an equivalent penalty to the damage roll.
 
+#### Reckless
+When you make your first attack on your turn with a weapon with the reckless property, you can choose to gain a penalty to AC up to the reckless number. If you do so, you gain the same bonus to attack and damage rolls with that weapon. These effects last until the start of your next turn, as long as you're holding the weapon.
+
 #### Shocking
 When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.
 
@@ -347,32 +359,32 @@ Projector tanks require your target to make a saving throw to resist the tank’s 
 |	_Simple Blasters_	|||||
 | &emsp;Cryo carbine        |1,250 cr&nbsp;&nbsp;   |1d6 cold |6.00 lb&nbsp;     |Power cell (range 45/180), reload 12, two-handed, vicious 1 |
 | &emsp;Cryo pistol         |750 cr&nbsp;&nbsp;     |1d4 cold |2.00 lb&nbsp;     |Power cell (range 30/120), reload 8, vicious 1 |
-| &emsp;Disruptor carbine   |1,450 cr&nbsp;&nbsp;   |1d8 acid |8.50 lb&nbsp;   |Power cell (range 60/240), disintegrate 13, reload 8, strength 11, <br>two-handed|
-| &emsp;Disruptor pistol    |750 cr&nbsp;&nbsp;     |1d6 acid |4.50 lb&nbsp;   |Power cell (range 45/180), disintegrate 13, reload 12, strength 11|
-| &emsp;Incinerator carbine |1,650 cr&nbsp;&nbsp;   |1d6 fire |7.50 lb&nbsp;   |Power cell (range 60/240), dire 1, disintegrate 13, reload 12, <br>strength 11, two-handed |
-| &emsp;Incinerator pistol  |1,250 cr&nbsp;&nbsp;   |1d4 fire |3.50 lb&nbsp;   |Power cell (range 40/160), dire 1, disintegrate 13, reload 16, <br>strength 11 |
+| &emsp;Disruptor carbine   |1,450 cr&nbsp;&nbsp;   |1d8 acid |8.50 lb&nbsp;   |Disintegrate 13, power cell (range 60/240), reload 8, strength 11, <br>two-handed|
+| &emsp;Disruptor pistol    |750 cr&nbsp;&nbsp;     |1d6 acid |4.50 lb&nbsp;   |Disintegrate 13, power cell (range 45/180), reload 12, strength 11|
+| &emsp;Incinerator carbine |1,650 cr&nbsp;&nbsp;   |1d6 fire |7.50 lb&nbsp;   |Dire 1, disintegrate 13, power cell (range 60/240), reload 12, <br>strength 11, two-handed |
+| &emsp;Incinerator pistol  |1,250 cr&nbsp;&nbsp;   |1d4 fire |3.50 lb&nbsp;   |Dire 1, disintegrate 13, power cell (range 40/160), reload 16, <br>strength 11 |
 |	_Martial Blasters_	|||||
-| &emsp;BKG                 |2,750 cr&nbsp;&nbsp;   |3d4 energy     |19.00 lb&nbsp;    |Power cell (range 120/480), auto, burst 2, disintegrate 13, reload 2, <br>strength 19, two-handed, vicious 1|
-| &emsp;Chaingun            |1,325 cr&nbsp;&nbsp;   |2d4 kinetic    |10.50 lb&nbsp;  |Slug cartridge (range 80/320), auto, rapid 2, reload 8, strength 13, <br>two-handed, vicious 1 |
-| &emsp;Cryo Cannon         |3,300 cr&nbsp;&nbsp;   |2d4 cold       |12.50 lb&nbsp;  |Power cell (range 75/300), auto, burst 2, reload 4, strength 13, <br>two-handed, vicious 1 |
-| &emsp;Cryo Rifle          |2,400 cr&nbsp;&nbsp;   |2d4 cold       |10.50 lb&nbsp;  |Power cell (range 50/200), reload 4, strength 11, two-handed, vicious 1 |
-| &emsp;Disruptor rifle     |2,900 cr&nbsp;&nbsp;   |1d10 acid      |13.50 lb&nbsp;  |Power cell (range 60/240), disintegrate 13, reload 4, strength 13, <br>two-handed|
-| &emsp;Disruptor sniper    |3,300 cr&nbsp;&nbsp;   |1d12 acid      |15.00 lb&nbsp;    |Power cell (range 120/480), disintegrate 13, reload 2, strength 15, <br>two-handed|
-| &emsp;Flechette cannon    |2,300 cr&nbsp;&nbsp;   |—              |13.00 lb&nbsp;    |Ammunition (range special), reload 6, special, strength 13, two-handed |
-| &emsp;Grenade launcher    |1,800 cr&nbsp;&nbsp;   |—              |11.50 lb&nbsp;  |Ammunition (range 90/360), reload 16, special, strength 11, two-handed |
-| &emsp;Hand BKG            |1,550 cr&nbsp;&nbsp;   |1d10 energy    |10.00 lb&nbsp;    |Power cell (range 50/200), brutal 1, disintegrate 1, keen 1, reload 4, strength 15 |
-| &emsp;Hand blaster        |500 cr&nbsp;&nbsp;     |1d4 kinetic    |.50 lb&nbsp;   |Power cell (range 40/160), keen 1, light, reload 8 |
-| &emsp;Hand cannon         |1,300 cr&nbsp;&nbsp;   |1d10 kinetic   |10.50 lb&nbsp;  |Slug cartridge  (range 25/100), brutal 1, reload 8, strength 11, <br>two-handed |
-| &emsp;Incinerator rifle   |1,950 cr&nbsp;&nbsp;   |1d8 fire       |9.50 lb&nbsp;   |Power cell (range 80/320), dire 1, disintegrate 13, reload 8, <br>strength 11, two-handed |
-| &emsp;Incinerator sniper  |3,300 cr&nbsp;&nbsp;   |1d10 fire      |14.50 lb&nbsp;  |Power cell (range 120/480), dire 1, disintegrate 13, reload 2, <br>strength 15, two-handed |
-| &emsp;Lightbow            |1,800 cr&nbsp;&nbsp;   |2d6 energy     |14.00 lb&nbsp;    |Power cell (range 60/240), piercing 1, reload 2, strength 15, <br>two-handed |
-| &emsp;Railgun             |1,900 cr&nbsp;&nbsp;   |2d6 kinetic    |16.00 lb&nbsp;    |Slug cartridge (range 150/600), piercing 1, reload 2, strength 17, <br>two-handed |
-| &emsp;Rocket Launcher     |2,250 cr&nbsp;&nbsp;   |—              |14.00 lb&nbsp;    |Ammunition (range 150/600), reload 1, special, strength 13, <br>two-handed |
-| &emsp;Shoulder Blaster    |1,275 cr&nbsp;&nbsp;   |1d6 energy     |3.00 lb&nbsp;     |Power cell (range 40/160), rapid 4, reload 16, smart (15/+2), special |
-| &emsp;Shoulder Cannon     |1,625 cr&nbsp;&nbsp;   |1d8 energy     |8.50 lb&nbsp;   |Power cell (range 60/240), auto, burst 8, reload 8, smart (15/+2), special, strength 11 |
-| &emsp;Smart Cannon        |2,250 cr&nbsp;&nbsp;   |1d10 kinetic   |13.50 lb&nbsp;  |Slug cartridge (range 75/300), auto, burst 2, rapid 2, reload 4, <br>smart (15/+2), strength 15, two-handed |
-| &emsp;Smart Pistol        |1,075 cr&nbsp;&nbsp;   |1d6 kinetic    |4.00 lb&nbsp;     |Slug cartridge (range 40/160), piercing 1, rapid 2, reload 16, <br>smart (15/+2), strength 11 |
-| &emsp;Vapor Projector     |2,300 cr&nbsp;&nbsp;   |—              |13.00 lb&nbsp;    |Ammunition (range special), reload 6, special, strength 13, two-handed |
+| &emsp;BKG                 |2,750 cr&nbsp;&nbsp;   |3d4 energy     |19.00 lb&nbsp;    |Auto, burst 2, disintegrate 13, power cell (range 120/480), reload 2, <br>strength 19, two-handed, vicious 1|
+| &emsp;Chaingun            |1,325 cr&nbsp;&nbsp;   |2d4 kinetic    |10.50 lb&nbsp;  |Auto, rapid 2, reload 8, slug cartridge (range 80/320), strength 13, <br>two-handed, vicious 1 |
+| &emsp;Cryo cannon         |3,300 cr&nbsp;&nbsp;   |2d4 cold       |12.50 lb&nbsp;  |Auto, burst 2, power cell (range 75/300), reload 4, strength 13, <br>two-handed, vicious 1 |
+| &emsp;Cryo rifle          |2,400 cr&nbsp;&nbsp;   |2d4 cold       |10.50 lb&nbsp;  |Power cell (range 50/200), reload 4, strength 11, two-handed, vicious 1 |
+| &emsp;Disruptor rifle     |2,900 cr&nbsp;&nbsp;   |1d10 acid      |13.50 lb&nbsp;  |Disintegrate 13, power cell (range 60/240), reload 4, strength 13, <br>two-handed|
+| &emsp;Disruptor sniper    |3,300 cr&nbsp;&nbsp;   |1d12 acid      |15.00 lb&nbsp;    |Disintegrate 13, power cell (range 120/480), reload 2, strength 15, <br>two-handed|
+| &emsp;Flechette cannon    |2,300 cr&nbsp;&nbsp;   |—              |13.00 lb&nbsp;    |Reload 6, special (range special), strength 13, two-handed |
+| &emsp;Grenade launcher    |1,800 cr&nbsp;&nbsp;   |—              |11.50 lb&nbsp;  |Reload 1, special (range 90/360), strength 11, two-handed |
+| &emsp;Hand BKG            |1,550 cr&nbsp;&nbsp;   |1d10 energy    |10 lb&nbsp;    |Brutal 1, disintegrate 13, keen 1, power cell (range 50/200), reload 4, strength 15 |
+| &emsp;Hand blaster        |500 cr&nbsp;&nbsp;     |1d4 energy    |.50 lb&nbsp;   |Keen 1, light, power cell (range 40/160), reload 8 |
+| &emsp;Hand cannon         |1,300 cr&nbsp;&nbsp;   |1d10 kinetic   |10.50 lb&nbsp;  |Brutal 1, slug cartridge (range 25/100), reload 8, strength 11, <br>two-handed |
+| &emsp;Incinerator rifle   |1,950 cr&nbsp;&nbsp;   |1d8 fire       |9.50 lb&nbsp;   |Dire 1, disintegrate 13, power cell (range 80/320), reload 8, <br>strength 11, two-handed |
+| &emsp;Incinerator sniper  |3,300 cr&nbsp;&nbsp;   |1d10 fire      |14.50 lb&nbsp;  |Dire 1, disintegrate 13, power cell (range 120/480), reload 2, <br>strength 15, two-handed |
+| &emsp;Lightbow            |1,800 cr&nbsp;&nbsp;   |2d6 energy     |14.00 lb&nbsp;    |Piercing 1, power cell (range 60/240), reload 2, strength 15, <br>two-handed |
+| &emsp;Railgun             |1,900 cr&nbsp;&nbsp;   |2d6 kinetic    |16.00 lb&nbsp;    |Piercing 1, reload 2, slug cartridge (range 150/600), strength 17, <br>two-handed |
+| &emsp;Rocket launcher     |2,250 cr&nbsp;&nbsp;   |—              |14.00 lb&nbsp;    |Reload 1, special (range 150/600), strength 13, <br>two-handed |
+| &emsp;Shoulder blaster    |1,275 cr&nbsp;&nbsp;   |1d6 energy     |3.00 lb&nbsp;     |Power cell (range 40/160), rapid 4, reload 16, smart (15/+2), special |
+| &emsp;Shoulder cannon     |1,625 cr&nbsp;&nbsp;   |1d8 energy     |8.50 lb&nbsp;   |Auto, burst 8, power cell (range 60/240), reload 8, smart (15/+2), special, strength 11 |
+| &emsp;Smart cannon        |2,250 cr&nbsp;&nbsp;   |1d10 kinetic   |13.50 lb&nbsp;  |Auto, burst 2, rapid 2, reload 4, slug cartridge (range 75/300)<br>, smart (15/+2), strength 15, two-handed |
+| &emsp;Smart pistol        |1,075 cr&nbsp;&nbsp;   |1d6 kinetic    |4.00 lb&nbsp;     |Piercing 1, rapid 2, reload 16, <br>slug cartridge (range 40/160), smart (15/+2), strength 11 |
+| &emsp;Vapor projector     |2,300 cr&nbsp;&nbsp;   |—              |13.00 lb&nbsp;    |Reload 6, special (range special), strength 13, two-handed |
 
 </div>	
 
@@ -386,21 +398,21 @@ Projector tanks require your target to make a saving throw to resist the tank’s 
 |Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|Cost&nbsp;|Damage&emsp;&nbsp;&nbsp;|Weight&nbsp;&nbsp;|Properties&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---|---:|:---|-:|:---|
 |	_Simple Lightweapons_	|||||||
-| &emsp;Saber-mace			|950 cr&nbsp;   |1d8 energy   |2.75 lb&nbsp;&nbsp;  |Brutal 1, dexterity 13, hidden, luminous, versatile (1d10) |
-| &emsp;Sickle-saber		|700 cr&nbsp;   |1d6 energy   |1.00 lb&nbsp;&nbsp;     |Dexterity 11, dire 1, hidden, light, luminous|
+| &emsp;Sabermace			|950 cr&nbsp;   |1d8 energy   |2.75 lb&nbsp;&nbsp;  |Brutal 1, dexterity 13, hidden, luminous, versatile (1d10) |
+| &emsp;Sicklesaber		|700 cr&nbsp;   |1d6 energy   |1.00 lb&nbsp;&nbsp;     |Dexterity 11, dire 1, hidden, light, luminous|
 |	_Martial Lightweapons_	|||||||
-| &emsp;Bite-saber			|1,800 cr&nbsp; |1d6 energy   |2.50 lb&nbsp;&nbsp;   |Biting 13, hidden, luminous, versatile (2d4)|
-| &emsp;Blight-saber		|1,800 cr&nbsp; |1d6 energy   |2.50 lb&nbsp;&nbsp;   |Corruption 13, hidden, luminous, versatile (2d4)|
-| &emsp;Bright-saber		|1,800 cr&nbsp; |1d6 energy   |2.50 lb&nbsp;&nbsp;   |Bright 13, hidden, luminous, versatile (2d4)|
-| &emsp;Broad-saber			|1,000 cr&nbsp; |2d4 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 13, dire 1, luminous, versatile (1d8)|
-| &emsp;Buster-saber		|2,900 cr&nbsp; |1d12 energy  |7.25 lb&nbsp;&nbsp;  |Brutal 1, dexterity 19, heavy, keen 1, luminous, reach, two-handed|
+| &emsp;Bitesaber          |1,800 cr&nbsp; |1d6 acid     |2.50 lb&nbsp;&nbsp;   |Biting 13, hidden, luminous, versatile (2d4)|
+| &emsp;Blightsaber        |1,800 cr&nbsp; |1d6 necrotic |2.50 lb&nbsp;&nbsp;   |Corruption 13, hidden, versatile (2d4)|
+| &emsp;Brightsaber        |1,800 cr&nbsp; |1d6 fire     |2.50 lb&nbsp;&nbsp;   |Bright 13, hidden, luminous, versatile (2d4)|
+| &emsp;Broadsaber			|1,000 cr&nbsp; |2d4 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 13, dire 1, luminous, versatile (1d8)|
+| &emsp;Bustersaber		|2,900 cr&nbsp; |1d12 energy  |7.25 lb&nbsp;&nbsp;  |Brutal 1, dexterity 19, heavy, keen 1, luminous, reach, two-handed|
 | &emsp;Crossguard saber	|725 cr&nbsp;   |1d8 energy   |3.25 lb&nbsp;&nbsp;  |Defensive 1, dexterity 13, heavy, luminous, versatile (1d10)|
 | &emsp;Dual-phase saber	|1,250 cr&nbsp; |2d4 energy   |3.00 lb&nbsp;&nbsp;     |Dexterity 13, hidden, luminous, versatile (1d12), vicious 1|
 | &emsp;Guard shoto			|375 cr&nbsp;   |1d4 energy   |1.25 lb&nbsp;&nbsp;  |Defensive 1, finesse, hidden, light luminous|
-| &emsp;Light-glaive		|2,050 cr&nbsp; |1d10 energy  |5.75 lb&nbsp;&nbsp;  |Brutal 1, dexterity 13, luminous, reach, two-handed|
-| &emsp;Light-katana	    |925 cr&nbsp;   |1d8 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 11, hidden, luminous, piercing 1, versatile (1d10)|
-| &emsp;Light-nodachi	    |3,050 cr&nbsp; |3d4 energy   |4.50 lb&nbsp;&nbsp;   |Dexterity 17, luminous, piercing 1, two-handed, vicious 1 |
-| &emsp;Sith Saber			|925 cr&nbsp;   |2d4 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 11, hidden, keen 1, versatile (1d10) |
+| &emsp;Lightglaive		|2,050 cr&nbsp; |1d10 energy  |5.75 lb&nbsp;&nbsp;  |Brutal 1, dexterity 13, luminous, reach, two-handed|
+| &emsp;Lightkatana	    |925 cr&nbsp;   |1d8 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 11, hidden, luminous, piercing 1, versatile (1d10)|
+| &emsp;Lightnodachi	    |3,050 cr&nbsp; |3d4 energy   |4.50 lb&nbsp;&nbsp;   |Dexterity 17, luminous, piercing 1, two-handed, vicious 1 |
+| &emsp;Sith saber			|925 cr&nbsp;   |2d4 energy   |2.75 lb&nbsp;&nbsp;  |Dexterity 11, hidden, keen 1, versatile (1d10) |
 | &emsp;Warsaber			|2,175 cr&nbsp; |2d6 energy   |4.25 lb&nbsp;&nbsp;  |Dexterity 15, reckless 1, two-handed, vicious 1 |
 
 <div style='margin-top:17px'></div>
@@ -410,25 +422,25 @@ Projector tanks require your target to make a saving throw to resist the tank’s 
 |:---|---:|:---|-:|:---|
 |	_Simple Vibroweapons_	|||||
 | &emsp;Diresword       |300 cr&nbsp;&nbsp;     |1d6 kinetic    |3.75 lb&nbsp;&nbsp;    |Dexterity 11, dire 1, heavy |
-| &emsp;Nerve-baton     |375 cr&nbsp;&nbsp;     |1d4 kinetic    |2.00 lb&nbsp;&nbsp;       |Disruptive, neuralizing 13 |
-| &emsp;Vibro-sabre     |300 cr&nbsp;&nbsp;     |1d6 kinetic    |1.75 lb&nbsp;&nbsp;    |Dexterity 11, keen 1, light|
+| &emsp;Nervebaton     |375 cr&nbsp;&nbsp;     |1d4 kinetic    |2.00 lb&nbsp;&nbsp;       |Disruptive, neuralizing 13 |
+| &emsp;Vibrosabre     |300 cr&nbsp;&nbsp;     |1d6 kinetic    |1.75 lb&nbsp;&nbsp;    |Dexterity 11, keen 1, light|
 |	_Martial Vibroweapons_	|||||
-| &emsp;Dire Vibroblade |550 cr&nbsp;&nbsp;     |1d8 kinetic	|7.00 lb&nbsp;&nbsp;       |Dexterity 13, dire 1, versatile (1d10) |
+| &emsp;Dire vibroblade |550 cr&nbsp;&nbsp;     |1d8 kinetic	|7.00 lb&nbsp;&nbsp;       |Dexterity 13, dire 1, versatile (1d10) |
 | &emsp;Echostaff       |600 cr&nbsp;&nbsp;     |1d6 kinetic	|5.00 lb&nbsp;&nbsp;       |Double (1d6 kinetic), finesse, sonorous 13 |
-| &emsp;Electro-baton   |275 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, light, shocking 13 |
-| &emsp;Electro-hammer  |950 cr&nbsp;&nbsp;     |1d10 kinetic	|8.75 lb&nbsp;&nbsp;    |Dexterity 11, Heavy, shocking 13, two-handed |
-| &emsp;Electro-staff   |600 cr&nbsp;&nbsp;     |1d6 kinetic	|5.00 lb&nbsp;&nbsp;       |Double (1d6 kinetic), finesse, shocking 13 |
-| &emsp;Vibro-battleaxe |1,200 cr&nbsp;&nbsp;   |1d12 kinetic	|10.00 lb&nbsp;&nbsp;      |Brutal 1, dexterity 13, heavy, two-handed |
-| &emsp;Vibro-buster    |1,850 cr&nbsp;&nbsp;   |1d12 kinetic	|13.25 lb&nbsp;&nbsp;   |Brutal 1, dexterity 19, heavy, keen 1, reach, two-handed |
-| &emsp;Vibro-flail     |500 cr&nbsp;&nbsp;     |2d4 kinetic	|4.75 lb&nbsp;&nbsp;    |Dexterity 11, reckless 1 |
-| &emsp;Vibro-glaive    |1,200 cr&nbsp;&nbsp;   |1d10 kinetic	|10.00 lb&nbsp;&nbsp;      |Brutal 1, dexterity 13, reach, two-handed |
-| &emsp;Vibro-hammer    |600 cr&nbsp;&nbsp;     |2d4 kinetic	|7.50 lb&nbsp;&nbsp;     |Heavy, two-handed, vicious 1 |
-| &emsp;Vibro-katana    |450 cr&nbsp;&nbsp;     |1d8 kinetic	|5.75 lb&nbsp;&nbsp;    |Dexterity 11, piercing 1, versatile (1d10) |
-| &emsp;Vibro-knife     |225 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, light, piercing 1 |
-| &emsp;Vibro-nodachi   |2,200 cr&nbsp;&nbsp;   |3d4 kinetic	|12.00 lb&nbsp;&nbsp;      |Dexterity 17, piercing 1, two-handed, versatile (1d10) |
-| &emsp;Vibro-shield    |325 cr&nbsp;&nbsp;     |1d8 kinetic	|3.75 lb&nbsp;&nbsp;    |Defensive 1, fixed |
-| &emsp;Vibro-stiletto  |250 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, keen 1, light, thrown (range 30/90) |
-| &emsp;Vibro-tonfa     |225 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Defensive 1, finesse, light |
+| &emsp;Electrobaton   |275 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, light, shocking 13 |
+| &emsp;Electrohammer  |950 cr&nbsp;&nbsp;     |1d10 kinetic	|8.75 lb&nbsp;&nbsp;    |Dexterity 11, Heavy, shocking 13, two-handed |
+| &emsp;Electrostaff   |600 cr&nbsp;&nbsp;     |1d6 kinetic	|5.00 lb&nbsp;&nbsp;       |Double (1d6 kinetic), finesse, shocking 13 |
+| &emsp;Vibrobattleaxe |1,200 cr&nbsp;&nbsp;   |1d12 kinetic	|10.00 lb&nbsp;&nbsp;      |Brutal 1, dexterity 13, heavy, two-handed |
+| &emsp;Vibrobuster    |1,850 cr&nbsp;&nbsp;   |1d12 kinetic	|13.25 lb&nbsp;&nbsp;   |Brutal 1, dexterity 19, heavy, keen 1, reach, two-handed |
+| &emsp;Vibroflail     |500 cr&nbsp;&nbsp;     |2d4 kinetic	|4.75 lb&nbsp;&nbsp;    |Dexterity 11, reckless 1 |
+| &emsp;Vibroglaive    |1,200 cr&nbsp;&nbsp;   |1d10 kinetic	|10.00 lb&nbsp;&nbsp;      |Brutal 1, dexterity 13, reach, two-handed |
+| &emsp;Vibrohammer    |600 cr&nbsp;&nbsp;     |2d4 kinetic	|7.50 lb&nbsp;&nbsp;     |Heavy, two-handed, vicious 1 |
+| &emsp;Vibrokatana    |450 cr&nbsp;&nbsp;     |1d8 kinetic	|5.75 lb&nbsp;&nbsp;    |Dexterity 11, piercing 1, versatile (1d10) |
+| &emsp;Vibroknife     |225 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, light, piercing 1 |
+| &emsp;Vibronodachi   |2,200 cr&nbsp;&nbsp;   |3d4 kinetic    |12.00 lb&nbsp;&nbsp;      |Dexterity 17, piercing 1, two-handed, vicious 1 |
+| &emsp;Vibroshield    |325 cr&nbsp;&nbsp;     |1d8 kinetic	|3.75 lb&nbsp;&nbsp;    |Defensive 1, fixed |
+| &emsp;Vibrostiletto  |250 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Finesse, keen 1, light, thrown (range 30/90) |
+| &emsp;Vibrotonfa     |225 cr&nbsp;&nbsp;     |1d4 kinetic	|1.00 lb&nbsp;&nbsp;       |Defensive 1, finesse, light |
 | &emsp;War hat         |350 cr&nbsp;&nbsp;     |1d6 kinetic	|3.25 lb&nbsp;&nbsp;    |Defensive 1, disguised, returning, thrown (range 30/90) |
 | &emsp;Warsword        |1,650 cr&nbsp;&nbsp;   |2d6 kinetic	|10.75 lb&nbsp;&nbsp;   |Dexterity 15, reckless 1, two-handed, vicious 1 |
 
@@ -696,7 +708,7 @@ This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Also on a hit,
 Additionally, on a failed save, a creature becomes frightened of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.
 
 #### Power Generator
-Power generators energize the rotary cannon.
+Power generators energize the blaster cannon.
 
 #### Projector Canister, Corrosive
 When triggered, this wrist launcher ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes 1d6 acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. If you lack proficiency in the wrist launcher, you have disadvantage on damage rolls with it

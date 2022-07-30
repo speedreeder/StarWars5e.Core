@@ -19,10 +19,10 @@
 |&emsp;Beastmaster Approach (Companion)      |
 |&emsp;Bloodstorm Approach      |
 |&emsp;Brawling Approach        |
-|&emsp;Cyclone Approach         |
 |&emsp;Frenzied Approach        |
 |&emsp;Industrial Approach      |
-|&emsp;Juggernaut Approach      |
+|&emsp;Precision Approach       |
+|&emsp;Warchief Approach        |
 |Consular||
 |&emsp;Way of Confluence        |
 |&emsp;Way of Endurance         |
@@ -43,12 +43,12 @@
 |&emsp;Cybertech Engineering    |
 |Fighter||
 |&emsp;Adept Specialist         |
-|&emsp;Blademaster Specialist   |
 |&emsp;Demolitions Specialist   |
 |&emsp;Enhancement Specialist   |
 |&emsp;Exhibition Specialist    |
 |&emsp;Fireteam Specialist      |
 |&emsp;Fireteam Specialist (Companion)     |
+|&emsp;Heavy Weapons Specialist |
 |&emsp;Mounted Specialist       |
 |&emsp;Praetorian Specialist    |
 |&emsp;Totem Specialist         |
@@ -429,10 +429,10 @@ _**Cyclone Approach:** 10th level_<br>
 The distance you can jump is doubled, and you do not provoke attacks of opportunity if you leave a hostile creature's reach while jumping.
 
 ### Tornado
-_**Cyclone Approach:** 14th level_<br>
+_**Cyclone Approach:** 14th and 17th level_<br>
 You can become a tornado of attacks. When you take the Attack action on your turn, you can forgo one of your regular attacks to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. If you are wielding a separate melee weapon in each hand, each successful hit against a target deals damage equal to the damage dice of both weapons + your ability modifier + any other modifiers.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the berserker table. You regain all expended uses when you finish a short or long rest.
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest.
 
 <img src='https://www.gmbinder.com/images/N7AJIeU.png' style='position:absolute;bottom:-116px;right:0px;width:825px;z-index:1000;' />
 
@@ -530,10 +530,10 @@ Casting tech powers during rage counts as attacking for the purposes of maintain
 \pagebreak
 
 ### Explosive Resilience
-_**Industrial Approach:** 6th level_<br>
+_**Industrial Approach:** 6th, 9th, 13th, and 17th level_<br>
 Once per round, when you deal damage that includes your rage damage, you can cause a localized explosion around the recipient of that damage. Each creature within 5 feet of the damaged creature other than you takes acid, cold, fire, ion, or lightning damage (your choice) equal to your rage damage bonus, and you gain resistance to the chosen damage type until the end of your next turn.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the berserker table. You regain all expended uses when you complete a short or long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 ### Painkiller
 _**Industrial Approach:** 10th level_<br>
@@ -577,42 +577,71 @@ When you are reduced to 0 hit points but not killed outright, and you have at le
 
 \pagebreak
 
-## Juggernaut Approach
-Certain berserkers find that the strongest offense is a good defense. Berserkers of the Juggernaut Approach wear the heaviest of armor not because they fear injury, but to strike fear in their hapless attackers.
+## Precision Approach
+Some berserkers have learned to channel their rage into a method of increasing their focus and precision to supernatural levels. Those berserkers who choose the Precision Approach hone their rage to a fine point, becoming agile warriors who ruthlessly dispatch their foes.
 
-### Armored Brute
-_**Juggernaut Approach:** 3rd level_<br>
-You've learned to fight in the heaviest of armors, using your weight to your advantage. You gain proficiency in heavy armor, you can enter a rage while wearing heavy armor, and you can gain the benefits of your Rage feature while wearing heavy armor. 
+### Careful Steps
+_**Precision Approach:** 3rd level_<br>
+You gain skills that represent your precise movement. You gain proficiency in your choice of Acrobatics or Stealth. While raging, you have advantage on checks you make with the chosen skill.
 
-### Unstoppable Force
-_**Juggernaut Approach:** 3rd level_<br>
-Your momentum makes you nigh unstoppable. While raging, you can move through a hostile creature's space regardless of that creature's size. When you do so, you must make a Strength (Athletics) check contested by the target's Strength (Athletics) check. If you move at least 10 feet before moving through a hostile creature's space, and that creature is your size or smaller, they have disadvantage on the check. If you succeed, you don't treat the movement as difficult terrain, the creature is pushed 5 feet in a direction of your choice, and you don't provoke opportunity attacks from that creature until the end of your turn.
+### Focused Rage
+_**Precision Approach:** 3rd level_<br>
+You hone your rage to a razor sharp focus. While raging, when you make a melee weapon attack using Dexterity, you add your rage damage to the damage roll. Additionally, you can use your Reckless Attack feature to give you advantage on melee weapon attacks using Dexterity during your turn.
 
-### Raging Bulwark
-_**Juggernaut Approach:** 6th level_<br>
-Your imposing form acts as a shield for your allies. When a friendly creature you can see is<br> the target of a ranged attack, or forced to make a Dexterity saving throw, and you can see the source<br> of the effect, you can use your reaction to move up to half your speed towards the friendly creature. You must end this move closer to the ally than you started. If you end this movement between your ally and the source of the effect, you provide cover for the attack.
+### Battle Anticipation
+_**Precision Approach:** 6th level_<br>
+While raging, your critical hit range with melee weapon attacks using Dexterity increases by 1.
 
-Additionally, you provide three-quarters cover, instead of half-cover, to creatures your size, and you provide full cover to creatures smaller than you.
+### Improved Danger Sense
+_**Precision Approach:** 10th level_<br>
+While raging, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage against effects that you can see, such as traps and powers, you are treated as proficient in the save, and you instead take no damage if you succeed on a saving throw, and only half damage if you fail.
+
+### Calm Within the Storm
+_**Precision Approach:** 14th level_<br>
+The precision with which you act during your rage causes you to become a storm of reactive lethality. When you use your Reckless Attack feature, you can make a number of opportunity attacks equal to your proficiency bonus without using your reaction, and when a creature within 5 feet of you misses you with an attack, you can use your reaction to make a melee weapon attack using Dexterity against that creature. 
+
+<img src='https://www.gmbinder.com/images/WTnjBcN.png' style='position:absolute;bottom:-20px;right:-48px;width:550px;z-index:1000;' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
+
+\pagebreakNum
+
+## Warchief Approach
+For some berserkers, it is their duty or birthright to lead their tribe and kin to battle and victory. The Warchief Approach is one forged from alliances, bonds, and strategy. In combat, your rages are less mindless, and more focused. Ignoring the distractions of unimportant events, your attention hones in on the battlefield and how best to direct and control it. You guide your allies' strikes, and your presence is enough to wash away their fatigue.
 
 \columnbreak
 
 <div style='margin-top:28px'></div>
 
-### Overwhelming Cleave
-_**Juggernaut Approach:** 10th level_<br>
-When you successfully push a creature into a surface or another creature while raging, the pushed creature takes kinetic damage equal to your Rage Damage. Additionally, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.
+### Savage Diplomat
+_**Warchief Approach:** 3rd level_<br>
+Your path necessitates that you build relationships with others, for the betterment of your tribe or yourself. You gain proficiency in one of the following skills of your choice: Persuasion or Intimidation. You can choose to learn one language in place of the skill proficiency.
 
-### Relentless Assault
-_**Juggernaut Approach:** 14th level_<br>
-You're able to charge in unerring bursts. As an action, you can charge up to twice your speed in a straight line without provoking opportunity attacks. Each creature within 5 feet of your path must make a Strength or Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier, the target chooses the ability they use use). On a failed save, a creature takes damage equal to your Strength modifier + your Rage Bonus and is pushed back 5 feet in a direction of your choice. Creatures smaller than you make this save with disadvantage. When you end this movement, if a creature is within 5 feet of you, you can make one melee weapon attack (no action required). On a hit, the creature takes additional damage equal to your berserker level.
+### Commanding Rage
+_**Warchief Approach:** 3rd level_<br>
+You become more aware of your allies, and their intent when fighting at your side. While you are raging, when an ally within 10 feet of you makes an attack roll against an enemy, you can use your reaction to grant advantage to that attack and add your rage damage bonus to the damage roll, if the attack hits.
 
-Once you've used this feature, you must complete<br> a short or long rest before you can use it again.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
-<img src='https://www.gmbinder.com/images/TRHOCmr.png' style='position:absolute;bottom:-50px;right:8px;width:535px;transform:scaleX(-1);z-index:1000'/>
+### Inspiring Presence
+_**Warchief Approach:** 6th level_<br>
+Your mere presence on the battlefield rallies your allies. When you rage, choose up to 3 allies that you can see within 30 feet of you. Each creature gains temporary hit points equal to half your berserker level + your Charisma modifier (minimum of +1).
+
+### Raid Planning
+_**Warchief Approach:** 10th level_<br>
+You learn to flare up your allies' drive for combat, urging them to follow you into the fray. During a long rest, you tell sagas, sing battle songs, and give inspiring speeches. At the end of the long rest choose up to 5 creatures that can hear and understand you (which can include yourself) to add your Charisma modifier (minimum of +1) to their next Initiative check, and a 10 foot bonus to their speed on their first turn of combat.
+
+### War Chant
+_**Warchief Approach:** 14th level_<br>
+You have memorized the litanies, songs, and chants of your people and their dedication to war. When you enter a rage on your turn, you can enter a commanding rage for one minute. When you do so, during this turn and at the start of each of your turns, you have a number of special reactions equal to your proficiency bonus you can only use for your Commanding Rage feature. When you use Commanding Rage with these special reactions, they do not count against your uses of that feature. You can only use one reaction per turn. Additionally, during this rage, when an enemy within 10 feet of you makes an attack roll against an ally, you can use your reaction to reduce the attack by an amount equal to your Charisma modifier.
+
+Once you've used this feature, you must complete a long rest before you can use it again.
+
+<img src='https://www.gmbinder.com/images/Fztc5iP.png' style='position:absolute;bottom:6px;left:-210px;width:835px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Way of Confluence
 The Force binds us, creating an intangible bridge connecting all living things. Those consulars who follow the Way of Confluence master this power, manipulating those connections to both sustain and torment.
@@ -634,10 +663,10 @@ You can use your powerful connection to the<br> Force to keep fighting when othe
 <div style='margin-top:27px'></div>
 
 ### Interconnectedness
-_**Way of Confluence:** 14th level_<br>
+_**Way of Confluence:** 14th and 17th level_<br>
 When you cast a 5th level or lower force power that deals damage or restores hit points and targets only one creature, the power can instead target two creatures within range and within 5 feet of each other. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a long rest.
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a long rest.
 
 ### Dynamic Attachment
 _**Way of Confluence:** 18th level_<br>
@@ -689,7 +718,7 @@ As an action, you can choose a point within 60 feet. Each creature of your choic
 
 For each creature that fails this saving throw, a friendly creature within 30 feet of them can regain hit points equal to the amount of damage dealt. A friendly creature can only gain this benefit once per turn.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a long rest.
+You can use this feature six times. You regain all expended uses when you finish a long rest.
 
 <img src='https://www.gmbinder.com/images/HNr2yz4.png' style='position:absolute;bottom:0px;right:-10px;width:650px;z-index:1000;' />
 
@@ -746,10 +775,10 @@ When you reduce a hostile creature to 0 hit points while Saber Storm is active, 
 Some force users seek mastery over the fundamentals of energy manipulation, known as tutaminis. Those consulars who follow the Way of Negation harness this power to limit the havoc that other force-wielders might wreak.
 
 ### Force Deflection
-_**Way of Negation:** 3rd level_<br>
+_**Way of Negation:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 When you fail a saving throw, you can use your reaction to gain a bonus to that saving throw equal to your Wisdom or Charisma modifier (your choice, minimum of +1).
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.
 
 ### Power Surge
 _**Way of Negation:** 6th level_<br>
@@ -793,12 +822,12 @@ _**Way of the Seer:** 3rd level_<br>
 Glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.
 
 ### Powerful Mind
-_**Way of the Seer:** 6th level_<br>
+_**Way of the Seer:** 6th, 9th, 13th, and 17th level_<br>
 You can use your force abilities to read a creature's thoughts. You can then use your access to the creature's mind to command it.
 
 As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw against your universal force save DC. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest. If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and cast the *coerce mind* force power at its base level on the creature without expending force points. The target automatically fails its saving throw against the power. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.
 
 \columnbreak
 
@@ -830,10 +859,10 @@ The visions in your dreams intensify and paint a more<br> &emsp;&emsp;&emsp;accu
 While many Forcewielders eschew the use of technology, other choose to embrace it. Those consulars who follow the Way of Technology pair their mastery of the Force with the versatility of technology, applying the knowledge in tandem to perform unseen feats.
  
 ### Fundamentals of Mechu-deru
-_**Way of Technology:** 3rd level_<br>
+_**Way of Technology:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 You've dabbled in adapting your use of the Force, melding it with technology. You gain proficiency in the Technology skill, as well as simple blasters. When you cast a force power that calls for a melee weapon attack, and you are wielding a blaster with which you are proficient, you can instead make a ranged weapon attack.
 
-Additionally, you've learned to manipulate the Force to be able to manipulate technology when it couldn't previously. When you cast a force power that could not affect droids or constructs, you can choose to have it affect droids or constructs. If it would affect multiple targets, you must expend additional uses of this feature for each additional target. You can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you complete a long rest.
+Additionally, you've learned to manipulate the Force to be able to manipulate technology when it couldn't previously. When you cast a force power that could not affect droids or constructs, you can choose to have it affect droids or constructs. If it would affect multiple targets, you must expend additional uses of this feature for each additional target. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Techcasting Secrets
 _**Way of Technology:** 6th, 7th, 13th, and 17th level_<br>
@@ -887,10 +916,10 @@ You can manipulate creatures of Huge size or<br> smaller with your force powers 
 &emsp;Additionally, when you use your action to cast a force power, you can use a bonus action to fly up to 10 feet without provoking opportunity attacks.
 
 ### Repulsing Wave
-_**Way of Telekinetics:** 14th level_<br>
+_**Way of Telekinetics:** 14th and 17th level_<br>
 When you are dealt damage by a creature within 5 feet of you, you can use your reaction to deal force damage to the creature equal to your consular level + your Wisdom or Charisma modifier (your choice, minimum of +1). If the attacker is Huge or smaller, it must also make a Strength saving throw against your universal force save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a short or long rest.
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest.
 
 ### My Ally is the Force
 _**Way of Telekinetics:** 18th level_<br>
@@ -1164,10 +1193,10 @@ Once per round, when you deal damage to a droid or construct, you can expend one
 The damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.
 
 ### Direct Controller
-_**Astrotech Engineering:** 6th level_<br>
+_**Astrotech Engineering:** 6th, 9th, 13th, and 17th level_<br>
 Your mastery of droids improves your ability to manipulate them. When you cast a power that could affect only droids or constructs, and you only affect droids with the power, you can choose to treat the power as if cast at your Max Power Level.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Systems Hijack
 _**Astrotech Engineering:** 14th level_<br>
@@ -1310,7 +1339,7 @@ You gain a +1 bonus to the tech save DC of powers you cast that requires a Dexte
 
 #### Sensor Scramblers
 _**Prerequisite:** 5th level_<br>
-All creatures within 10 feet of you become undetectable to electronic sensors and cameras. Anything these creatures are wearing or carrying is also undetectable, so long as it's on the creature's person. The creatures are still visible to regular vision.
+All creatures within 10 feet of you become undetectable to electronic sensors and cameras for the next 10 minutes. Anything these creatures are wearing or carrying is also undetectable, so long as it's on the creature's person. The creatures are still visible to regular vision.
 
 Once you've used this feature, you must complete a long rest before you can use it again.
 
@@ -1379,10 +1408,10 @@ _**Astrotech Engineering:** 3rd level_<br>
 When your droid makes an attack roll, you can use your reaction to expend one use of your Potent Aptitude to give it a boost. Roll the die and add it to both the attack and damage rolls, if the attack hits.
 
 ### Direct Controller
-_**Astrotech Engineering:** 6th level_<br>
+_**Astrotech Engineering:** 6th, 9th, 13th, and 17th level_<br>
 Your mastery of droids improves your ability to manipulate them. When you cast a power that could affect only droids or constructs, and you only affect droids with the power, you can choose to treat the power as if cast at your Max Power Level.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Coordinated Attack
 _**Astrotech Engineering:** 14th level_<br>
@@ -1504,9 +1533,9 @@ Once you've used this feature, you must complete a long rest before you can use 
 
 #### Finding My Way
 _**Prerequisite:** Rush_<br>
-While you are playing an enhanced song, when a creature makes a melee attack roll against you, you can use your reaction to move 5 feet without provoking opportunity attacks, imposing disadvantage on the roll. 
+While you are playing an enhanced song, when a creature would make a melee attack roll against you, you can use your reaction to move 5 feet without provoking opportunity attacks, imposing disadvantage on the roll. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Hypnotic Melody
 As an action while wielding your modified instrument, you can begin to play a song woven with subtle hypnotic influence. Choose a number of creature up to your Intelligence modifier. If those creatures listen to this song for a full minute, they must succeed on a Wisdom saving throw or become charmed by you for 1 minute. Creatures that succeed the saving throw are not aware that you attempted to influence them, nor are creatures that failed their saving throw once the power ends.
@@ -1571,7 +1600,7 @@ While using your instrument as a tech focus, you gain a +1 bonus to your tech sa
 #### Simple Melodies
 When you are holding your modified instrument, and not actively playing a song, any tech power that you could cast that could have its damage type altered by your Potent Amplitude feature can be cast as if used with Potent Amplitude. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Sonar Pulse
 As an action while wielding your modified instrument, you can release a wave of sound that provides feedback on your surroundings. For the next minute, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks to search for hidden doors, traps, or invisible creatures.
@@ -1666,17 +1695,17 @@ You can select this modification multiple times. Each time you do so, you must c
 #### Countertoxin
 When you or an ally within 30 feet of you is suffering from the poisoned condition, you may use your reaction on your turn to end the poisoned condition on that creature. The creature also gains immunity to the poisoned condition for one minute.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Detachable Distribution System
 You upgrade your distributor with a secondary, detachable distributor. As a bonus action, you can throw your detachable distributor at a point within range. Your detachable distributor has a range equal to 30 feet + your Strength modifier x 5. Your detachable distributor works for 1 minute before coming inert. Once it does so, you can't use it again until you recover it as an action.
 
-Additionally, while your detachable distributor is within 100 feet of you, when you use your action to activate your distributor, you can choose to affect each creature within 5 feet of your detachable distributor. You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+Additionally, while your detachable distributor is within 100 feet of you, when you use your action to activate your distributor, you can choose to affect each creature within 5 feet of your detachable distributor. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Drone Distribution System
 You upgrade your distributor, interfacing it with the target of your *tracker droid interface* power. When you use your action to activate your distributor, while your tracker droid is within 100 feet of you, you can choose to have your tracker droid deliver the mixture. Your tracker droid must use its reaction to deliver the mixture.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You 
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You 
 
 \columnbreak
 
@@ -1688,19 +1717,19 @@ regain all expended uses when you complete a short or long rest.
 _**Prerequisite:** 5th level_<br>
 You add additional chemicals to your modified biochemist's pack. When you deal fire damage with a tech power or class feature, you can use your Biochemist's Touch and Potent Mixture features.
 
-Additionally, when a creature fails their Dexterity saving throw against your Corrosive Mixtures feature, you can choose to instead deal fire damage. If you do so, each creature within 5 feet of the target takes fire damage equal to your Intelligence modifier. You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+Additionally, when a creature fails their Dexterity saving throw against your Corrosive Mixtures feature, you can choose to instead deal fire damage. If you do so, each creature within 5 feet of the target takes fire damage equal to your Intelligence modifier. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Expanded Chemicals: Cryogenics
 _**Prerequisite:** 5th level_<br>
 You add additional chemicals to your modified biochemist's pack. When you deal cold damage with a tech power or class feature, you can use your Biochemist's Touch and Potent Mixture features.
 
-Additionally, when a creature fails their Constitution saving throw against your Noxious Mixtures feature, you can choose to instead deal cold damage. If you do so, it gains 1 slowed level until the start of your next turn. You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+Additionally, when a creature fails their Constitution saving throw against your Noxious Mixtures feature, you can choose to instead deal cold damage. If you do so, it gains 1 slowed level until the start of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Expanded Chemicals: Restorative
 _**Prerequisite:** 5th level_<br>
 You add additional chemicals to your modified biochemist's pack. When you restore hit points with a tech power or class feature, you can use your Biochemist's Touch and Potent Mixture features.
 
-Additionally, when you use your Invigorating Mixture to grant temporary hit points to a creature, you can choose to restore that many hit points to the same creature. You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+Additionally, when you use your Invigorating Mixture to grant temporary hit points to a creature, you can choose to restore that many hit points to the same creature. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Expanded Mixtures: Adhesive
 You've created a new mixture from your chemicals that you can use when you activate your distributor. When you do so, the target creature must make a Strength saving throw. If the creature is Large or larger, it has advantage on the saving throw. On a failed save, a creature gains 4 slowed levels until the start of your next turn. As an action on their turn, an affected creature can repeat this saving throw, ending the effect on a success. 
@@ -1724,7 +1753,7 @@ This feature has no effect on droids or constructs.
 #### Explosive Distribution System
 You upgrade your distributor, granting it the ability to create a volley. When you use your action to activate your distributor, you can choose to affect each creature in a 10-foot-radius sphere centered on a point you can see within 30 feet.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Injection Apparatus
 You install a wrist mounted injection apparatus into your modified biochemist's pack. It is a simple vibroweapon with the finesse and light properties, and deals 1d4 kinetic damage on a hit. Your injection apparatus does not fill the hand slot, but you can't use it while the hand is full.
@@ -1748,7 +1777,7 @@ You upgrade your distributor, improving the range. When you use your action to a
 
 you can choose to increase the range to 60 feet.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Luminous Gel
 You've added a light-emitting gel to your modified biochemist's pack. As an action, you can coat an item, object, or location up to 5-foot-square with this gel. When you do so, the gel sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The gel lasts for 1 hour before losing its potency. You can end this effect as a bonus action.
@@ -1777,7 +1806,7 @@ When you activate your distributor, you can choose a number of creature equal to
 #### Spray Distribution System
 You upgrade your distributor, granting it the ability to spray in a cone. When you use your action to activate your distributor, you can choose to affect each creature in a 15-foot cone.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | ENGINEER</div>
 
@@ -2110,10 +2139,10 @@ _**Cybertech Engineering:** 3rd level_<br>
 When you miss with a tech attack roll, or a creature succeeds on a saving throw against a tech power you cast, you can expend one use of your Potent Aptitude to overwhelm them. Roll the die, and either add it to the attack roll or subtract it from their saving throw.
 
 ### Adaptable Applications
-_**Cybertech Engineering:** 6th level_<br>
+_**Cybertech Engineering:** 6th, 9th, 13th, and 17th level_<br>
 When you cast a tech power of 1st level or higher, you can choose to deal additional damage or provide additional healing with that power. The additional damage or healing equals half your engineer level.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the engineer table. You regain all expended uses when you complete a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Combat Contrivances
 _**Cybertech Engineering:** 14th level_<br>
@@ -2307,10 +2336,10 @@ ___
 ___
 
 ### Growing Momentum
-_**Adept Specialist:** 3rd level_<br>
+_**Adept Specialist:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 You can cast the *burst of speed* force power targeting yourself at 1st-level without expending force points. At 10th level, when you do so, your speed increases by an additional 10 feet. At 18th level, when you do so, your speed increases by an additional 10 feet.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the fighter table. You regain any expended uses when you finish a long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a long rest.
 
 <img src='https://www.gmbinder.com/images/RUmDcAB.png' style='position:absolute;bottom:0px;right:0px;width:600px;z-index:1000;' />
 
@@ -2363,56 +2392,6 @@ _**Adept Specialist:** 18th level_<br>
 You reach the pinnacle of your training, moving faster than eyes or most sensors can track. When you use Action Surge feature, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action.
 
 <img src='https://www.gmbinder.com/images/O85GUMO.png' style='position:absolute;bottom:-27px;left:-40px;width:520px;z-index:1000;' />
-
-<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
-
-\pagebreak
-
-## Blademaster Specialist
-Those fighters who choose to become Blademaster Specialists hone their focus to a blade's edge, becoming so in tune with their arsenal that it becomes both their weapon and their armor.
-
-### Unarmored Defense
-_**Blademaster Specialist:** 3rd level_<br>
-While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Strength modifier.
-
-### Adaptive Fighting
-_**Blademaster Specialist:** 3rd level_<br>
-You've learned to make adaptations to your fighting style on the fly. You have three such effects: Change Up, Draw, and Stow. When you use your Adaptive Fighting, you choose which effect to create.
-
-You can use this features a number of times equal to your Strength or Dexterity modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.
-
-#### Change Up
-You can use your object interaction and expend a use of your Adaptive Fighting to change the Fighting Style option granted to you by your fighter class feature.
-
-#### Draw
-When you use your object interaction to draw one or more weapons, you can expend a use of your Adaptive Fighting (no action required) to increase your critical hit range by 1 with the weapon(s) until the start of your next turn.
-
-#### Stow
-When you use your object interaction to stow a weapon, you can expend a use of your Adaptive Fighting (no action required) to take the Disengage action.
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-### Dervish
-_**Blademaster Specialist:** 7th level_<br>
-When you score a critical hit with a melee weapon attack, you regain an expended use of your Adaptive Fighting.
-
-### Resilient Fighting
-_**Blademaster Specialist:** 10th level_<br>
-When you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn.
-
-### Adrenaline Rush
-_**Blademaster Specialist:** 15th level_<br>
-When you use your Action Surge feature, you can take an extra bonus action on top of the additional action.
-
-### Bladestorm
-_**Blademaster Specialist:** 18th level_<br>
-You can use your action to make a single melee weapon attack against each creature within your reach. Make a separate attack roll against each target. The first attack gains a +1 bonus to its attack roll, and each attack after the first gains an additional +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6. If you are wielding two light- or vibro-weapons, or a weapon with the double property, you also add this bonus to your damage rolls, and you can use your bonus action to engage in Double- or Two-Weapon Fighting.
-
-Once you've used this feature, you must complete a short or long rest before you can use it again.
-
-<img src='https://www.gmbinder.com/images/vLDR8kY.png' style='position:absolute;bottom:18px;right:65px;width:680px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
 
@@ -2797,6 +2776,43 @@ While under the effects of On Your Six, if either you or your companion are redu
 
 \pagebreak
 
+## Heavy Weapons Specialist
+Some manned instruments of war require their user to have superior physical prowess to overcome their weight and encumbrance. Those fighters who choose to become Heavy Weapons Specialists use their powerful bodies, and powerful armaments, to overwhelm their foes.
+
+### Rock Steady
+_**Heavy Weapons Specialist:** 3rd level_<br>
+You have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.
+
+### My Little Friend Says Hello There
+_**Heavy Weapons Specialist:** 3rd level_<br>
+You know how to use the sheer size of your weapon to strike fear in those around you. You can add your Strength modifier to any Charisma (Intimidation) check you make while wielding a weapon with the heavy or strength properties.
+
+\columnbreak
+
+<div style='margin-top:28px'></div>
+
+### Maximum Output
+_**Heavy Weapons Specialist:** 7th level_<br>
+When you take the Attack action while wielding a weapon with the heavy or strength properties, you can forgo one or more attacks. If you do so, the first time you deal damage with the weapon before the start of your next turn, you deal additional damage of the same type as the weapon's damage. If this instance would deal damage to multiple creatures, you can only apply this additional damage to one of them. For each attack you forgo, you deal additional damage equal to 1d12 + half your fighter level. If you miss with the first attack roll you make before the end of your next turn, or one target succeeds on the saving throw against your weapon's burst or rapid property, you instead deal normal weapon damage.
+
+### Straight Through
+_**Heavy Weapons Specialist:** 10th level_<br>
+When you score a critical hit on your turn while wielding a weapon with the heavy or strength properties, you can make one weapon attack against a creature within 5 feet of the target using your reaction.
+
+### Overwhelm
+_**Heavy Weapons Specialist:** 15th level_<br>
+When you use your Second Wind while wielding a weapon with the heavy or strength properties, if you hit with the first attack roll you make, or if one creatures fails the saving throw against your weapon's burst or rapid property, before the end of your next turn, you treat the hit as a critical hit. If you miss with the first attack roll you make before the end of your next turn, or one target succeeds on the saving throw against your weapon's burst or rapid property, you instead deal normal weapon damage.
+
+### Pure Performance
+_**Heavy Weapons Specialist:** 18th level_<br>
+At 18th level, attack rolls you make while wielding a weapon with the heavy or strength properties can't suffer from disadvantage.
+
+<img src='https://www.gmbinder.com/images/0MwwE14.png' style='position:absolute; bottom:0px; left:0px; width:530px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | FIGHTER</div>
+
+\pagebreak
+
 ## Mounted Specialist
 Those fighters who choose to become Mounted Specialists excel at mounted combat. Mounted Specialists are most dangerous from the seat of a speeder or saddle of a varactyl, though they can hold their own from the ground. Their versatility often has them leading the charge or protecting the team.
 
@@ -2819,10 +2835,10 @@ Additionally, if a creature marked by you deals damage to anyone other than you,
 Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
 ### Warding Maneuver
-_**Mounted Specialist:** 7th level_<br>
-You learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is dealt damage by an attack, you can roll ld8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
+_**Mounted Specialist:** 7th, 9th, 13th, and 17th level_<br>
+You learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is dealt damage by an attack, you can roll 1d8 as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the fighter table. You regain all expended uses of it when you finish a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses of it when you finish a long rest.
 
 \columnbreak
 
@@ -3000,7 +3016,7 @@ You have learned to blend your technological aptitude with the Force. Choose two
 You learn two additional powers at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can choose one of the tech powers you know and replace it with another tech power of no higher level than your Max Power Level.
 
 ### Droid Companion
-_**Aqinos Form:** 3rd, 11th, and 17th level_<br>
+_**Aqinos Form:** 3rd, 5th, 9th, 11th, 13th, and 17th level_<br>
 You learn to employ all the knowledge you've accumulated to create, customize, and bond with your own droid companion.
 
 Create your droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
@@ -3015,11 +3031,7 @@ In addition to its traits and features, your droid companion gains additional be
 
 <div style='margin-top:28px'></div>
 
-&emsp;Lastly, while bonded and within 10 feet of you, your companion can cast the tech powers you know without expending tech points. If your companion casts an at-will power in this way, it does not scale normally at higher levels. Instead, if it would scale at 5th level, it instead scales at 11th level, and if it would scale at 11th level, it instead scales at 17th level. If your companion casts a power of 2nd-level or higher, it consumes a number of uses of this feature equal to that power's level.
-
-At 11th level, your droid companion must be within 30 feet of you to benefit from this feature. At 17th level, your droid companion must be within 60 feet.
-
-You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you finish a long rest.
+&emsp;Lastly, while bonded and within 10 feet of you, your companion can cast the tech powers you know without expending tech points. If your companion casts an at-will power in this way, it does not scale normally at higher levels. Instead, if it would scale at 5th level, it instead scales at 11th level, and if it would scale at 11th level, it instead scales at 17th level. If your companion casts a power of 2nd-level or higher, it consumes a number of uses of this feature equal to that power's level. At 11th level, your droid companion must be within 30 feet of you to benefit from this feature. At 17th level, your droid companion must be within 60 feet. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.
 
 ### Channel the Force
 _**Aqinos Form:** 7th level_<br>
@@ -3205,7 +3217,7 @@ When you score a critical hit with a melee weapon attack, you gain a bonus to th
 #### Their Power, My Strength
 When you are dealt damage by a force power, you<br> can reduce that damage by an amount equal to your guardian level (no action required).
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you complete a short or long rest.
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a short or long rest.
 
 \columnbreak
 
@@ -3242,7 +3254,7 @@ _**Shii-Cho Form:** 3rd level_<br>
 You gain the following Channel the Force option.
 
 #### Disarming Slash
-When you hit a creature with a melee weapon attack, you can expend a use of your Channel the Force (no action required)  to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The creature must make a Strength saving throw. On a failed save, it drops the object you choose. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet.
+When you hit a creature with a melee weapon attack, you can expend a use of your Channel the Force (no action required)  to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The creature must make a Strength saving throw against your universal force save DC. On a failed save, it drops the object you choose. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet.
 
 ### Unpredictable Motion
 _**Shii-Cho Form:** 7th level_<br>
@@ -4186,13 +4198,13 @@ Your first ranged weapon attack and your first melee weapon attack each turn dea
 Those operatives who choose the Bolstering Practice use precise strikes and brilliant use of small unit tactics to overwhelm enemies through superior teamwork.
 
 ### Articulate Authority
-_**Bolstering Practice:** 3rd level_<br>
+_**Bolstering Practice:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 When you use your Cunning Action feature to take the Dash, Disengage, or Hide actions, a number of friendly creatures up to your Charisma modifier within 30 feet of you who can hear you and who can understand you can use their reaction to gain an effect, determined by the action you took:
 - **Dash:** The creature can move up to half their speed. They must end this movement within 30 feet of you.
 - **Disengage:** The creature can move up to 5 feet. If this movement would provoke an opportunity attack, the opportunity attack is made with disadvantage.
 - **Hide:** The creature has advantage on the first attack roll they make before the end of their next turn against a creature you successfully hide from.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the operative table. You regain all expended uses when you finish a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a short or long rest.
 
 ### Fireteam Commander
 _**Bolstering Practice:** 3rd level_<br>
@@ -4280,7 +4292,7 @@ You learn to manipulate the body of a grappled target to make attacks against yo
 
 ### Kiss the Wall
 _**Disabling Practice:** 13th level_<br>
-You can use your surroundings to further punish the target of your grapple. When you roll a 1 or 2 on a Sneak Attack damage die for an unarmed strike you make against a creature grappled by you, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+You can use your surroundings to further punish the target of your grapple. When you roll a 1 or 2 on a Sneak Attack damage die for an unarmed strike you make against a creature grappled by you, you can treat the result of the die as a 3.
 
 ### Neck Snap
 _**Disabling Practice:** 17th level_<br>
@@ -4589,7 +4601,7 @@ You use a wristpad (found in chapter 5) as a techcasting focus for your tech pow
 \pagebreak
 
 ### Tracker Droid Companion
-_**Saboteur Practice:** 3rd level_<br>
+_**Saboteur Practice:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 You learn to employ all the knowledge you've accumulated to create and customize your own tracker droid companion.
 
 Create your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
@@ -4601,7 +4613,7 @@ Lastly, when you cast a tech power of 1st-level or higher that would affect only
 
 At 11th level, your tracker droid companion must be within 30 feet of you or your target to benefit from this feature. At 17th level, your tracker droid companion must be within 60 feet.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the operative table. You regain all expended uses when you complete a long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Powered Ambush
 _**Saboteur Practice:** 9th level_<br>
@@ -4751,7 +4763,7 @@ You attempt to knock the target prone while within 15 feet of it. The target mus
 You attempt to stun the target while within 15 feet of it. The target must make a Constitution saving throw or be stunned until the start of its next turn.
 
 #### Shank Shot
-You attempt to hamper the target while within 15 feet of it. The target must make a Dexterity saving throw. If it fails, its movement speed is to 0 and it makes Dexterity saving throws with disadvantage until the end of its next turn.
+You attempt to hamper the target while within 15 feet of it. The target must make a Dexterity saving throw. If it fails, it gains 1 slowed level and makes Dexterity saving throws with disadvantage until the end of its next turn.
 
 ### Sleight of Foot
 _**Scrapper Practice:** 9th level_<br>
@@ -5333,10 +5345,10 @@ _**Occultist Pursuit:** 3rd level_<br>
 You gain proficiency in the Lore and Nature skills. Additionally, you can't have disadvantage on checks you make with them.
 
 ### Curse of Objurgation 
-_**Occultist Pursuit:** 3rd level_<br>
+_**Occultist Pursuit:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 When you target a creature with your Critical Analysis, you can choose one ability. While it can see you, the target has disadvantage on ability checks made with the chosen ability.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scholar table. You regain all expended uses when you complete a long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Heightened Hex
 _**Occultist Pursuit:** 6th level_<br>
@@ -5550,7 +5562,7 @@ When you hit a creature with an at-will tech power that requires an attack roll,
 #### Sleeper Program
 Whenever you cast a tech power with a casting time of 1 action, you can choose to delay the power's activation up to a minute. When you do so, you cast the power as normal, but holds its energy for the duration of the delay. Holding onto the power's effect requires concentration. If your concentration is broken before the delay ends, the power dissipates without taking effect. You can use your reaction to activate the power at any time.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scholar table. You regain all expended uses  when you finish a long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses  when you finish a long rest.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SCHOLAR</div>
 
@@ -5850,7 +5862,7 @@ If your attack hits, either impose disadvantage on the enemy creature's opportun
 Among the galaxy you may find the various infiltrators and agents who make ample use of holographic technology to get themselves in and out of danger. Followers of the Illusionist Technique make use of this holographic technology to give themselves an illusory edge in combat.
 
 ### Holographic Decoy
-_**Illusionist Technique:** 3rd level_<br>
+_**Illusionist Technique:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 As an action, you can create a perfect illusion of yourself that lasts for 10 minutes, or until you lose your concentration (as if you were concentrating on a power). The decoy appears in an unoccupied space that you can see within 30 feet of you. The decoy is purely visual. If anything passes through it, it is revealed to be an illusion. For the duration, you can cast tech powers as though you were in the decoy's space. Both your decoy and the target of your tech power must be within your line of sight.
 
 You can use your bonus action to cause the decoy to move up to 30 feet. As your decoy changes location, you can alter its appearance so that its movements appear natural for the decoy. If your decoy is ever more than 120 feet away from you, it immediately disappears.
@@ -5859,7 +5871,7 @@ Additionally, when both you and your decoy are within 5 feet of a creature that 
 
 A creature that uses its action to examine your decoy can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you finish a short or long rest. 
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a short or long rest. 
 
 \columnbreak
 
@@ -5905,17 +5917,16 @@ When the target of your Ranger's Quarry feature is within 15 feet of you, you ga
 The radius of this feature increases to 30<br> feet at 11th level and 60 feet at 17th<br> level.
 
 ### Sense Force
-_**Inquisitor Technique:** 7th level_<br>
+_**Inquisitor Technique:** 7th, 9th, 13th, and 17th level_<br>
 You can use your action to gain the benefits of the *force sight* force power until the end of your next turn.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you finish a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.
 
 ### Force Resistance
 _**Inquisitor Technique:** 11th and 17th level_<br>
 While the target of your Ranger's Quarry feature is within 30 feet of you, you gain the following benefits:
 - You have advantage on saving throws against force powers they cast.
 - You have resistance to damage dealt by force powers they cast. 
-
 
 The radius of this feature increases to 60 feet at 17th level.
 
@@ -5927,7 +5938,7 @@ The radius of this feature increases to 60 feet at 17th level.
 _**Inquisitor Technique:** 15th and 17th level_<br>
 You can cast the *force suppression* and *sever force* force powers at 3rd level against the target of your Ranger's Quarry without expending tech points. If they are within 30 feet of you, you have advantage on the forcecasting ability check for these powers.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you finish a long rest.
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a long rest.
 
 The radius of this feature increases to 60 feet at 17th level.
 
@@ -6014,12 +6025,12 @@ As a bonus action, you can cause the target of your Ranger's Quarry to emit an i
 \pagebreak
 
 ### Potent Tech
-_**Mechanist Technique:** 7th level_<br>
+_**Mechanist Technique:** 7th, 9th, 13th, and 17th level_<br>
 You can use your ingenuity to bolster yourself or an ally. As an action, you can touch one creature (which can be yourself) and confer one of the following benefits of your choice to that creature:
 - For 10 minutes, the creature can roll a d3 whenever making an attack roll or an ability check and add the number rolled to the d20 roll. Once a creature receives this benefit, that creature can't receive it again until it finishes a short or long rest.
 - Roll a d4. The creature regains a number of tech points equal to the result. Once a creature receives this benefit, that creature can't receive it again until it finishes a long rest.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you finish a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.
 
 ### High Voltage
 _**Mechanist Technique:** 11th level_<br>
@@ -6034,23 +6045,23 @@ Additionally, whenever you deal ion damage to a creature, you can spend a tech p
 ##### Mechanist Technique Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
-|  3rd |  7 |  4 | 2nd |
+|  3rd |  7 |  5 | 2nd |
 |  4th |  8 |  6 | 2nd |
-|  5th |  9 |  7 | 2nd |
+|  5th |  9 |  8 | 2nd |
 |  6th | 11 |  9 | 3rd |
-|  7th | 12 | 10 | 3rd |
+|  7th | 12 | 11 | 3rd |
 |  8th | 13 | 12 | 3rd |
-|  9th | 15 | 13 | 4th |
+|  9th | 15 | 14 | 4th |
 | 10th | 16 | 15 | 4th |
-| 11th | 17 | 16 | 5th |
+| 11th | 17 | 17 | 5th |
 | 12th | 18 | 18 | 5th |
-| 13th | 19 | 19 | 5th |
+| 13th | 19 | 20 | 5th |
 | 14th | 20 | 21 | 6th |
-| 15th | 21 | 22 | 6th |
+| 15th | 21 | 23 | 6th |
 | 16th | 22 | 24 | 6th |
-| 17th | 23 | 25 | 7th |
+| 17th | 23 | 26 | 7th |
 | 18th | 24 | 27 | 7th |
-| 19th | 25 | 28 | 7th |
+| 19th | 25 | 29 | 7th |
 | 20th | 26 | 30 | 7th |
 
 </div>
@@ -6095,7 +6106,7 @@ Your Max Power Level becomes 2nd, instead of 1st, and it increases at higher lev
 You may only cast tech powers at 5th, 6th, and 7th-level once, instead of 4th and 5th. You regain the ability to do so after a long rest.
 
 ### Tracker Droid Companion
-_**Mechanist Technique:** 3rd level_<br>
+_**Mechanist Technique:** 3rd, 5th, 9th, 11th, 13th, and 17th level_<br>
 You learn to employ all the knowledge you've accumulated to create and customize your own tracker droid companion.
 
 Create your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.
@@ -6111,11 +6122,7 @@ In addition to its traits and features, your tracker droid companion gains an ad
 
 <div style='margin-top:400px'></div>
 
-&emsp;Lastly, while your tracker droid companion is bonded and within 10 feet of you, you can use your action to learn the location of any droid or construct, tech focus, tech power or enhanced item within 60 feet of you or your tracker droid that isn't behind total cover. When you sense a tech power in this way, you learn what the power is.
-
-At 11th level, your tracker droid companion must be within 30 feet of you or your target to benefit from this feature. At 17th level, your tracker droid companion must be within 60 feet.
-
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you complete a long rest.
+&emsp;Lastly, while your tracker droid companion is bonded and within 10 feet of you, you can use your action to learn the location of any droid or construct, tech focus, tech power or enhanced item within 60 feet of you or your tracker droid that isn't behind total cover. When you sense a tech power in this way, you learn what the power is. At 11th level, your tracker droid companion must be within 30 feet of you or your target to benefit from this feature. At 17th level, your tracker droid companion must be within 60 feet. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Mark of the Mechanist
 _**Mechanist Technique:** 7th level_<br>
@@ -6128,23 +6135,23 @@ As a bonus action, you can cause the target of your Ranger's Quarry to emit an i
 ##### Mechanist Technique Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
-|  3rd |  7 |  4 | 2nd |
+|  3rd |  7 |  5 | 2nd |
 |  4th |  8 |  6 | 2nd |
-|  5th |  9 |  7 | 2nd |
+|  5th |  9 |  8 | 2nd |
 |  6th | 11 |  9 | 3rd |
-|  7th | 12 | 10 | 3rd |
+|  7th | 12 | 11 | 3rd |
 |  8th | 13 | 12 | 3rd |
-|  9th | 15 | 13 | 4th |
+|  9th | 15 | 14 | 4th |
 | 10th | 16 | 15 | 4th |
-| 11th | 17 | 16 | 5th |
+| 11th | 17 | 17 | 5th |
 | 12th | 18 | 18 | 5th |
-| 13th | 19 | 19 | 5th |
+| 13th | 19 | 20 | 5th |
 | 14th | 20 | 21 | 6th |
-| 15th | 21 | 22 | 6th |
+| 15th | 21 | 23 | 6th |
 | 16th | 22 | 24 | 6th |
-| 17th | 23 | 25 | 7th |
+| 17th | 23 | 26 | 7th |
 | 18th | 24 | 27 | 7th |
-| 19th | 25 | 28 | 7th |
+| 19th | 25 | 29 | 7th |
 | 20th | 26 | 30 | 7th |
 
 </div>
@@ -6175,10 +6182,10 @@ _**Predator Technique:** 3rd level_<br>
 You gain proficiency in heavy armor.
 
 ### Hunting Party
-_**Predator Technique:** 3rd level_<br>
+_**Predator Technique:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 When you take the Attack action on your turn, you can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses of it when you finish a long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses of it when you finish a long rest.
 
 \columnbreak
 
@@ -6219,14 +6226,10 @@ _**Teleportation Technique:** 3rd level_<br>
 You gain proficiency in tinker's implements.
 
 ### Personal Teleporter
-_**Teleportation Technique:** 3rd level_<br>
+_**Teleportation Technique:** 3rd, 5th, 9th, 13th, 17th, and 20th level_<br>
 You can use portable teleporters as a bonus action, instead of an action. 
 
-Additionally, while you are wielding a tech focus, you can use your bonus action to create a pair of linked portals: one portal appears in a space within 5 feet of you, and the other portal appears in an unoccupied space you can see up to 30 feet away. These portals last until the start of your next turn, and they are large enough to accommodate Medium and smaller creatures and objects. Portals take the appearance of an elongated, shimmering mirror, and looking through a portal, a creature can see through the linked portal as if looking through a window. A creature or object who passes through a portal immediately appears in a space within 5 feet of the linked portal. You can use your reaction to end your portals early. If a creature is partially within your portals, it is shunted back to the space it previously occupied and it must make a Dexterity saving throw against your a tech save DC. On a failed save, it takes energy damage equal to your scout level + your Intelligence modifier.
-
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you complete a short or long rest. At the beginning of each of your turns while you have a pair of portals active, you can expend a use of this feature to extend the duration of the portals until the start of your next turn (no action required).
-
-The distance at which you can create portals increases at higher levels. It increases to 60 feet at 5th level, 90 feet at 9th level, 150 feet at 13th level, 300 feet at 17th level, and 1,000 feet at 20th level.
+Additionally, while you are wielding a tech focus, you can use your bonus action to create a pair of linked portals: one portal appears in a space within 5 feet of you, and the other portal appears in an unoccupied space you can see up to 30 feet away. These portals last until the start of your next turn, and they are large enough to accommodate Medium and smaller creatures and objects. Portals take the appearance of an elongated, shimmering mirror, and looking through a portal, a creature can see through the linked portal as if looking through a window. A creature or object who passes through a portal immediately appears in a space within 5 feet of the linked portal. You can use your reaction to end your portals early. If a creature is partially within your portals, it is shunted back to the space it previously occupied and it must make a Dexterity saving throw against your a tech save DC. On a failed save, it takes energy damage equal to your scout level + your Intelligence modifier. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest. At the beginning of each of your turns while you have a pair of portals active, you can expend a use of this feature to extend the duration of the portals until the start of your next turn (no action required). The distance at which you can create portals increases at higher levels. It increases to 60 feet at 5th level, 90 feet at 9th level, 150 feet at 13th level, 300 feet at 17th level, and 1,000 feet at 20th level.
 
 ### Mark of the Teleporter
 _**Teleportation Technique:** 3rd level_<br>
@@ -6274,10 +6277,10 @@ You learn new ways to use your Ranger's Quarry.
 - While a friendly creature is the target of your Ranger's Quarry, you have advantage on Wisdom (Medicine) checks made to stabilize it. Additionally, if the target is within 60 feet of you, you can use your bonus action and roll your Ranger's Quarry and either restore hit points equal to the amount rolled, or grant temporary hit points equal to the amount rolled. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.
 
 ### Double Dose
-_**Triage Technique:** 7th level_<br>
+_**Triage Technique:** 7th, 9th, 13th, and 17th level_<br>
 Your application of medicine does not interfere with your own ability to recover from injuries. When you restore hit points or grant temporary hit points to another creature with a tech power or class feature, you recover the same amount of hit points or gain the same number of temporary hit points. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you complete a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Experimental Infusion
 _**Triage Technique:** 11th level_<br>
@@ -6311,7 +6314,7 @@ _**Path of Communion:** 3rd level_<br>
 You learn the *feedback* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use the Double Strike Force-Empowered Self option when you cast it as your action and the target fails its saving throw. Finally, when you deal psychic damage with the *feedback* force power, you deal additional psychic damage equal to your Wisdom or Charisma modifier (your choice, minimum of one) if it doesn't already include that modifier.
 
 ### Symbiot Spirit
-_**Path of Communion:** 3rd level_<br>
+_**Path of Communion:** 3rd, 5th, 9th, 13th, and 17th level_<br>
 You attract the attention of the spirit of a Force ghost. Over the course of one hour, you can attune to the spirit, forging a lasting connection. While attuned to a spirit, you gain the following benefits:
 - Your spirit is always audible and visible to you. Your spirit can choose to make itself audible and visible or inaudible and invisible to other creatures (no action required), but it is always visible to beings with truesight.
 - Your spirit can not interact with the corporeal world, but it is also not impeded by unenhanced walls or barriers.
@@ -6328,7 +6331,7 @@ You can only attune to one spirit at a time. If you attempt to attune to another
 
 <div style='margin-top:28px'></div>
 
-&emsp;Additionally, your spirit can briefly interact with the physical world. When you would make a melee attack, your spirit can deliver the attack as if it had made it. Your spirit must be within 100 feet of you, and it must use its reaction to deliver the attack. It uses your modifiers for the attack and damage rolls. You can use this feature a number of times equal to your proficiency bonus, as shown in the sentinel table. You regain all expended uses when you complete a short or long rest.
+&emsp;Additionally, your spirit can briefly interact with the physical world. When you would make a melee attack, your spirit can deliver the attack as if it had made it. Your spirit must be within 100 feet of you, and it must use its reaction to deliver the attack. It uses your modifiers for the attack and damage rolls. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 ### Invasive Presence
 _**Path of Communion:** 7th level_<br>
@@ -6494,10 +6497,10 @@ Additionally, when you make an Intelligence (Technology) check, or a check with 
 Finally, when you deal damage with a tech power or your Double Strike Force Empowered Self option, you can choose to substitute the damage dealt as ion.
 
 ### Force-Empowered Tech
-_**Path of Synthesis:** 7th level_<br>
+_**Path of Synthesis:** 7th, 9th, 13th, and 17th level_<br>
 You learn to fully blend your technological aptitude with your use of the Force. You have three such effects: Disruption Pulse, Force Override, and Techcasting Insight. When you use your Force-Empowered Tech, you choose which effect to create.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the sentinel table. You regain all expended uses when you finish a short or long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or long rest.
 
 #### Disruption Pulse
 As an action, you can send out a 30 foot cone of electromagnetically-charged energy to overload enemy weapons. Each creature within the cone that is wearing or carrying a weapon with electric components must make an Intelligence saving throw. If the weapon is being worn, this save is made with disadvantage. On a failed save, the first attack they attempt to make with that weapon has disadvantage. A creature with multiple weapons must make a separate save for each weapon.
@@ -6561,7 +6564,7 @@ Additionally, if allies within 5 feet of you are gaining the benefit of your *sa
 _**Path of Tenacity:** 18th level_<br>
 You can protect allies even further from you. When a creature within 30 feet of you is hit by a melee weapon attack, you can use your reaction to teleport to them and extend your Kinetic Ward. If this damage is not reduced to 0, the warded creature takes any remaining damage. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the sentinel table. You regain all expended uses when you finish a long rest.
+You can use this feature six times. You regain all expended uses when you finish a long rest.
 
 <img src='https://www.gmbinder.com/images/uUGZB8C.png' style='position:absolute;bottom:27px;right:0px;width:803px;z-index:1000;' />
 
@@ -6604,10 +6607,10 @@ You've learned to attune your senses with nature. If you spend at least 1 minute
 Once you've used this feature, you must complete a short or long rest before you can use it again.
 
 ### Waters of Life
-_**Path of Witchcraft:** 13th level_<br>
+_**Path of Witchcraft:** 13th and 17th level_<br>
 You've learned to absorb the fleeting magicks of your familiar. When your familiar is destroyed by taking damage, you can choose to grant temporary hit points equal to 2d8 + your Wisdom or Charisma modifier (your choice) to one friendly creature of your choice you can see within 30 feet.
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the sentinel table. You regain all expended uses when you finish a long rest.
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a long rest.
 
 ### Stormcaller
 _**Path of Witchcraft:** 18th level_<br>

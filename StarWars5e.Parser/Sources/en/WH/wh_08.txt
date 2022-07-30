@@ -529,7 +529,7 @@ You gain additional insight when inspecting areas within structures, because you
 \pagebreakNum
 
 ## Cybertech's Implements
-Cybertech's implements include all of the necessary components to modify and maintain datacrons, gadgets, and wristpads.
+Cybertech's implements include all of the necessary components to modify and maintain datacrons and wristpads.
 
 #### Lore
 Your knowledge allows you greater insight into the history and origin of datacrons.
@@ -802,6 +802,8 @@ Working with poisons enables you to acquire lore about which plants and animals 
 ### Feature
 *Feature that utilizes the tool in some capacity.*
 > Over the course of a short or long rest, you can make a DC 15 poisoner's kit check to temporarily improve the potency of one dose of poison. To use this benefit, you must have a poisoner's kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra poison damage equal to your Intelligence modifier.
+>
+> Additionally, you can improve the capability of one dose of poison. To use this benefit, you must have a poisoner’s kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, the target has disadvantage on the saving throw made to resist your poison. Once you've used this feature, you must complete a long rest before you can use it again.
 
 ##### Sample Activities
 |Activity|DC|
@@ -1018,9 +1020,8 @@ With access to your tools, you can repair small items. For any object, you need 
 #### Skill 3
 *Skill and tool description interaction.*
 
-### Feature
-*Feature that utilizes the tool in some capacity.*
-> Over the course of a short or long rest, you can make a DC 15 
+### Publish or Perish
+Over the course of a short or long rest, you can make a DC 15 writer's implements check to create an instruction manual for a skill or tool in which you are proficient. To use this benefit, you must have writer's implements and a source on which to scribe your instruction. On a success, once before your next short or long rest, a creature with an Intelligence score of 6 or higher can spend 10 minutes reading your manual, after which they gain proficiency in the chosen skill or tool. This benefit lasts until you or the creature complete a short or long rest.
 
 ##### Sample Activities
 |Activity|DC|
