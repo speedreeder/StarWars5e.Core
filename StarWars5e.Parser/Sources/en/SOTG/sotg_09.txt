@@ -36,7 +36,7 @@ the initiative for that ship.
 > **4. Start a ship turn.** When your ship activates based on the initiative order, the ship's reactor replenishes power dice and the crew determines how these dice are distributed through the power coupling. The crew should also decide if they want to activate their shield generator's regeneration at the start of the ship's turn. All PCs on a ship then take their
 individual turns on their ship's turn in an order agreed
 upon by the crew for that ship turn.  In case of
-disputes, the designated pilot has final say.  The order of character
+disputes, the helm has final say.  The order of character
 turns on a ship's turn may change from round to
 round.
 >
@@ -50,9 +50,9 @@ until the fighting stops.
 <div style='margin-top:29px'></div>
 
 ### Your Role On Your Turn
-All PCs on a ship take their individual turns on their ship’s turn in an order agreed upon by the crew for that ship turn. The crew should also decide if they want to activate their shield generator's regeneration at the start of the ship turn. In case of disputes, the pilot has final say. This is also when the ship's reactor would replenish power dice to its coupling. The order of character turns on a ship’s turn may change from round to round.
+All PCs on a ship take their individual turns on their ship’s turn in an order agreed upon by the crew for that ship turn. The crew should also decide if they want to activate their shield generator's regeneration at the start of the ship turn. In case of disputes, the crewmember at the helm has final say. This is also when the ship's reactor would replenish power dice to its coupling. The order of character turns on a ship’s turn may change from round to round.
 
-Your abilities depend on where you are deployed during space combat. In a snubfighter, you control all aspects of your craft: movement and maneuvering, weapons, operation, and engines. In a larger craft, however, only one player can take pilot actions.  
+Your abilities depend on where you are deployed during space combat. In a snubfighter, you control all aspects of your craft: movement and maneuvering, weapons, operation, and engines. In a larger craft, however, only one player can take helm actions.  
 
 The "Movement and Position" section later in this chapter gives the rules for your move.
 
@@ -63,7 +63,7 @@ only be taken once per round unless otherwise stated. For example, although
 two different crewmembers could both cast the same
 force power or make an ability check with the Medicine
 skill, they could not both take an action granted by a ship modification or the Boost Engines action,
-described below. Only the designated pilot can take pilot
+described below. Only the crewmember at the helm can take helm
 actions, but all other actions may be taken by anyone
 on the ship as logic dictates.
 
@@ -74,12 +74,10 @@ Various class or deployment features, powers, and other abilities let you take a
 
 \pagebreakNum
 
-
-
 #### Other Activity on Your Turn
 Your turn can include a variety of flourishes that require neither your action nor your move.
 
-You can communicate however you are able, through brief utterances and gestures, as you take your turn.
+You can communicate however you are able as you take your turn.
 
 You can also interact with one object or feature of the environment for free, during either your move or your action.
 
@@ -92,7 +90,7 @@ When you take a reaction, you can't take another one until the start of your nex
 ## Movement and Position
 In combat, ships are in constant motion, often using movement and position to gain the upper hand.
 
-On your turn, the designated pilot can move the ship a distance up to its speed. The ship can use as much or as little of its speed as desired, following the rules here.
+On your turn, the crewmember at the helm can move the ship a distance up to its speed. The ship can use as much or as little of its speed as desired, following the rules here.
 
 Starships come equipped with two speeds: **flying speed** and **turning speed**. 
 
@@ -109,6 +107,7 @@ A ship's unmodified flying speed is determined in **Chapter 3: Starships** by th
 
 Typically games are played with turning limited to 90 degree increments, but, if your group has the desire and capability to track smaller angles, this is allowed.
 
+
 A ship can turn more (or less, if your group agrees) than 90 degrees on its turn, by spending a proportionate amount of movement.
 
 If a ship's turning speed exceeds its flying speed, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's turning speed and/or flying speed or the Hard Turn action.
@@ -118,7 +117,7 @@ A ship's unmodified turning speed is determined in **Chapter 3: Starships** by t
 \columnbreak
 
 ### Breaking Up Your Move
-The pilot can break up your ship's movement on its turn, using some flying speed before and after various crew actions. For example, if your ship has a speed of 300 feet, it can move 100 feet, two players can take actions, and then it can move 200 feet.
+The crewmember at the helm can break up your ship's movement on its turn, using some flying speed before and after various crew actions. For example, if your ship has a speed of 300 feet, it can move 100 feet, two players can take actions, and then it can move 200 feet.
 
 #### Moving Between Attacks
 If you take an action that includes more than one ship attack, you can break up your movement even further by moving between those attacks. For example, a ship that can make two attacks and that has a speed of 300 feet could move 100 feet, make an attack, move 200 feet, and then attack again.
@@ -182,15 +181,15 @@ When you take your action on your turn, you can take one of the actions presente
 
 When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
-Actions possible by a given character in a given circumstance are determined by the GM as logic dictates.  For example, a snub-fighter control system allows for all actions to be useable from the cock-pit.  In Large and larger ships, players typically control a crew that carries out their actions, and, therefore, need not worry about which precise equipment is right in front of them.  In medium ships, things are most complicated.  Only one player may normally take pilot
+Actions possible by a given character in a given circumstance are determined by the GM as logic dictates.  For example, a snub-fighter control system allows for all actions to be useable from the cock-pit.  In Large and larger ships, players typically control a crew that carries out their actions, and, therefore, need not worry about which precise equipment is right in front of them.  In medium ships, things are most complicated.  Only one player may normally take helm
 actions: the player in the pilot seat. However, if
 disabled, a co-pilot may be able to immediately take
 over without switching stations. Typically, other crew stations are general purpose, allowing
 any non-restricted actions to be taken at them.  
 
 
-### Attack Run (Pilot Only)
-When you move at least 150 feet towards a target, you may declare an Attack Run as an action. You must have a clear path towards your target, and nothing should hinder your path (such as difficult terrain or obstacles). If you finish this movement within range of your target, you may follow it with one of these options:
+### Boost
+You can attempt to boost a function of your ship. Each function can only be boosted once on each of the ship's turns, and each time you try to boost a function of the ship after the first, the DC increases by 5, cumulatively, until the start of your next turn.
 
 \columnbreak
 
@@ -198,25 +197,29 @@ When you move at least 150 feet towards a target, you may declare an Attack Run 
 <div style='margin-top:23px'></div>
 
 
-&emsp;**Fire.** You may make a ship weapon attack from a forward-facing limited arc without suffering the normal disadvantage. If you attack with a tertiary or quaternary weapon, the attack deals additional damage equal to the distance of your attack run divided by 50, up to your ship's Strength modifier (minimum of 1). 
+#### Boost Engines
+You can attempt to boost your speed.  When you take the Boost Engines action, you make a DC 10 Strength (Boost) check. On a success you increase your speed by 50 until the end of your ship's next turn.
 
+#### Boost Shields
+You can attempt to boost your shields. When you take the Boost Shields action, you make a DC 10 Strength (Boost) check.  On a success, you roll a shield die, without expending it, and gain temporary shield points equal to the result that last until the start of your ship's next turn.
 
-**Ram.** You may make a Ram attempt with advantage on your Strength (Ram) check.  If you succeed, the target ship takes additional damage equal to the distance of your Attack Run divided by 50, up to your ship's Constitution modifier (minimum of +1). 
+#### Boost Weapons
+You can attempt to boost your weapon output. When you take the Boost Weapons action, the next time this turn your ship would deal damage, you make a DC 10 Strength (Boost) check.  On a success, you have advantage on the damage roll. 
 
-Only the pilot can take the Attack Run action.
+### Detect
+When you take the Detect action, you devote your attention to finding something. Depending on the nature of your detection, the DM might have you make a Wisdom (Scan) check or an Intelligence (Probe) check. 
 
+### Direct
+When you take the Direct action, the creature gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature that can hear you in attacking another target. If your ally attacks the target before the start of your next turn, the first attack roll is made with advantage.  The Direct action can be taken multiple times on a ship's turn.
 
-### Boost Engines
-You can attempt to boost your speed.  When you take the Boost Engines action, you make a DC 12 Strength (Boost) check. On a success you increase your speed by 50 until the end of your ship's next turn.  The Boost Engines action can only be taken once each ship turn.
-
-### Boost Shields
-You can attempt to boost your shields. When you take the Boost Shields action, you make a DC 12 Strength (Boost) check.  On a success, you roll a shield die, without expending it, and gain temporary shield points equal to the result that last until the start of your ship's next turn. The Boost Shields action can only be taken once each ship turn.
-
-### Boost Weapons
-You can attempt to boost your weapon output. When you take the Boost Weapons action, the next time this turn your ship deals damage, you make a DC 12 Strength (Boost) check.  On a success, you can reroll one damage die and keep the higher amount. The Boost Weapons action can only be taken once each ship turn.
-
-### Cast a Power
-As normal, you can cast force or tech powers. You cannot target a hostile creature with a power unless you are aware of their presence and location. The Cast a Power action can be taken multiple times on a ship's turn.
+### Fire
+The most common action to take in combat is the Fire
+action. With this action, you can make an attack (or
+attacks) with one ship weapon. See the
+"Making an Attack" section for the rules that govern
+attacks. The Fire action may be taken multiple times
+on a ship's turn, but normally only once per weapon. A crewmember Firing from the helm has disadvantage on attack
+rolls with primary and secondary weapons.
 
 <br>
 
@@ -228,57 +231,53 @@ As normal, you can cast force or tech powers. You cannot target a hostile creatu
 
 \pagebreakNum
 
-### Conceal (Pilot Only)
+### Helm
+When you take the Helm action, you choose from the following options to utilize. Only one Helm action can be taken per turn.
+
+#### Attack Run
+When you move at least 150 feet towards a target, you may declare an Attack Run as an action. You must have a clear path towards your target, and nothing should hinder your path (such as difficult terrain or obstacles). If you finish this movement within range of your target, you may follow it with one of these options:
+
+
+**Fire.** You may make a ship weapon attack from a forward-facing limited arc without suffering the normal disadvantage. If you attack with a tertiary or quaternary weapon, the attack deals additional damage equal to the distance of your attack run divided by 50, up to your ship's Strength modifier (minimum of 1). 
+
+**Ram.** You may make a Ram attempt with advantage on your Strength (Ram) check.  If you succeed, the target ship takes additional damage equal to the distance of your Attack Run divided by 50, up to your ship's Constitution modifier (minimum of +1). 
+
+#### Conceal
 When you take the Conceal action, you make a Dexterity (Hide) check in an attempt to Conceal your ship, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the “Unseen Attackers and Targets” section later in this chapter.
 
-Only the pilot can take the Conceal action.
-
-### Direct
-When you take the Direct action, the creature gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature that can hear you in attacking another target. If your ally attacks the target before the start of your next turn, the first attack roll is made with advantage.  The Direct action can be taken multiple times on a ship's turn.
-
-### Dogfight (Pilot Only)
+#### Dogfight
 When you engage a single enemy, you duck and weave, vying for a good shot while avoiding theirs.  You choose a target and make an opposed Dexterity (Maneuvering) check.  On a success, you cause the next attack made against your ship by the target to suffer from disadvantage, but you grant the next attack made against your ship by a different target advantage.  Additionally, you can perform a primary or tertiary weapon attack from a forward facing limited firing arc against that ship without suffering the normal disadvantage.
 
-Only the pilot can take the Dogfight action.
-
-### Evade (Pilot Only)
+#### Evade
 When you take the Evade action, you focus entirely on avoiding attacks. Until the start of your next turn, any Attack roll made against you has disadvantage if you can see the attacker on your instruments, and you make Dexterity Saving Throws with advantage.  
 
 This action affects your entire ship: any ability check or
 attack made by your ship or anyone on it has
-disadvantage until the end of your ship's next turn. The effects of Evade end if you are Incapacitated or if your speed drops to 0.  
+disadvantage until the end of your ship's next turn. The effects of Evade end if you are Incapacitated or if your speed drops to 0.
 
-Only the pilot can take the Evade action.
-
-### Fire
-The most common action to take in combat is the Fire
-action. With this action, you can make an attack (or
-attacks) with one ship weapon. See the
-"Making an Attack" section for the rules that govern
-attacks. The Fire action may be taken multiple times
-on a ship's turn, but normally only once per weapon. A
-pilot taking the Fire action has disadvantage on attack
-rolls with primary and secondary weapons.
+#### Fly
+When you take the Fly action, you gain extra Movement for the current turn. The increase equals your speed, after applying any modifiers. 
 
 \columnbreak
 
-### Fly (Pilot Only)
-When you take the Fly action, you gain extra Movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 300 feet, for example, your ship can move up to 600 feet on its turn if you Fly. Any increase or decrease to your speed changes this additional Movement by the same amount. If your ship's speed of 300 feet is reduced to 150 feet, for instance, your ship can move up to 300 feet this turn if you Fly.
+<div style='margin-top:23px'></div>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;With a speed of 300 feet, for example, your ship can move up to 600 feet on its turn if you Fly. Any increase or decrease to your speed changes this additional Movement by the same amount. If your ship's speed of 300 feet is reduced to 150 feet, for instance, your ship can move up to 300 feet this turn if you Fly.
 
 This action affects your ship's ability to stay on target: any ability check or attack made by your ship or anyone on it has disadvantage until the end of your ship's next turn.
 
-Only the pilot can take the Fly action.
 
-
-### Harass (Pilot Only)
+#### Harass 
 You can harass an enemy and lock them into a series of close-combat maneuvers in order to prevent their escape.  When you take the harass action, make an opposed Dexterity (Maneuvering) check against a target within one size category of you and within normal range of at least one of your forward facing primary weapons. This weapon cannot be Fired this turn.  On a success, if the target voluntarily leaves it's square before the beginning of your next turn, it takes damage as though it suffered a critical hit with the primary weapon used to harass.
 
-Only the pilot can take the Harass action.
-
-### Hard Turn (Pilot Only)
+#### Hard Turn
 When you take the Hard Turn action, you coax your ship into a tight maneuver, turning your ship 90 degrees without expending any of your flying speed.
 
-Only the pilot can take the Hard Turn action.
+
+#### Ram 
+You can attempt to ram another ship while flying through its space. When you take the ram action, you make a Strength (Ram) check opposed by the target's Dexterity (Maneuvering) check. On a failed check the ramming action fails.  On a success, both you and the target ship take kinetic damage equal to two of your ship's Hull Dice + your ship's Strength modifier. If your ship has shield points remaining, your ship instead takes half this damage. 
+
 
 ### Interfere
 You can attempt to interfere with another creature within 1,000 feet, in the attempt of a task. When you take the Interfere action, you make a Charisma (Interfere) check contested by the target's Wisdom (Scan) check. If you succeed, the subject has disadvantage on the next ability check or attack roll it makes before the start of your next turn. The Interfere action can be taken multiple times on a ship's turn.
@@ -286,32 +285,13 @@ You can attempt to interfere with another creature within 1,000 feet, in the att
 ### Patch
 You can attempt to patch up damage a ship has taken, using one of its Hull Dice. When you take the Patch action, you make a Constitution (Patch) check (DC = 10 or half the ship's missing hull points, whichever number is higher). On a failure, you roll the Hull Die twice and take the lesser amount. On a success you roll the Hull Die normally. The Patch action can be taken multiple times on a ship's turn.
 
+
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
 
-### Ram (Pilot Only)
-You can attempt to ram another ship while flying through its space. When you take the ram action, you make a Strength (Ram) check opposed by the target's Dexterity (Maneuvering) check. On a failed check the ramming action fails.  On a success, both you and the target ship take kinetic damage equal to two of your ship's Hull Dice + your ship's Strength modifier. If your ship has shield points remaining, your ship instead takes half this damage. 
-
-Only the pilot can take the Ram action.
-
-### Ready
-Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction.
-
-First, you decide what circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger. For instance, "When the enemy appears, I'll Fire my railgun at it." 
-
-When the trigger occurs, you can take your reaction right after the trigger finishes or ignore the trigger. 
-
-
 ### Regenerate Shields
 You can attempt to regenerate your shields faster, spending one of your Shield Dice. When you take the Regenerate Shields action, you make a Strength (Boost) check (DC = 10 or half the ship's missing shield points, whichever number is higher). On a failure, you roll the Shield Die twice and take the lesser amount. On a success you roll the Shield Die normally. The Regenerate Shields action can only be taken once each ship turn.
-
-### Search
-When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make a Wisdom (Scan) check or an Intelligence (Probe) check. 
-
-### Use an Object
-When an object requires your action for its use, you take the Use an Object action: useful when you want to interact with more than one object on your turn. 
-
 
 ## Making an Attack
 Whether you're shooting your laser cannons or a railgun, an attack has a simple structure.
@@ -321,8 +301,6 @@ Whether you're shooting your laser cannons or a railgun, an attack has a simple 
 **2. Determine modifiers.** The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.
 
 **3. Resolve the attack.** You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
-
-\columnbreak
 
 ### Attack Rolls
 When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20, add your proficiency bonus (if you have at least one deployment rank), the ship's Wisdom modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits. 
@@ -344,6 +322,9 @@ Ship weaponry typically has two ranges. The value of these ranges depends on the
 #### Ranged Attacks in Close combat
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a ship weapon, a power, you have disadvantage on the attack roll if you are within 50 feet of your target.
 
+
+\columnbreak
+
 ### Firing Arc
 Ships have a firing arc, which is determined by the hardpoint on which they are mounted. Fixed hardpoints offer a limited firing arc, while turret hardpoints add an unlimited firing arc.
 
@@ -354,12 +335,6 @@ Weapons with a limited firing arc only fire at targets within a 90 degree arc, w
 
 #### Unlimited Firing Arc
 Weapons with an unlimited firing arc can fire at any target within range and line of sight.
-
-<div class='footnote'>CHAPTER 9 | COMBAT</div>
-
-\pagebreakNum
-
-<div style='margin-top:355px'></div>
 
 ### Saving Throws
 While many weapons utilize an attack roll, tertiary and quaternary weapons, as well as primary weapons on Huge and larger ships, instead call for a saving throw. When an ability grants advantage or disadvantage on an attack and the attack calls for a saving throw instead of an attack roll, unless stated otherwise, the saving throw is made with disadvantage or advantage, respectively. The saving throw is calculated as follows:
@@ -374,13 +349,13 @@ ___
 
 ___
 
+
 ### Damage Rolls
 Each ship weapon specifies the damage it deals. You roll the damage die or dice, add the ship's Strength modifier to damage from primary and secondary weapons, and apply the damage to your target. Higher quality weapons, special abilities, and other factors can grant a bonus to damage.
 
 
 #### Critical Hits
 When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.
-
 
 #### DAMAGE TYPES
 Starship combat damage types are generally similar to ground combat damage types with a few minor differences.  Most notably, in space, no one can hear you scream (no sonic damage).
@@ -394,7 +369,15 @@ dealing only half damage to shields.
 ***Energy.*** The most common type of damage, it deals
 normal damage to hull and shields.
 
-\columnbreak
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
+
+<div style='margin-top:475px'></div>
+
+
+
+
 
 &emsp;***Fire.*** Fire damage is less effective against shields,
 dealing only half damage to shields.
@@ -431,6 +414,11 @@ dealing only half damage to hull and shields.
 >
 > ***Hull & Shield Immunities:*** Poison, Psychic
 
+
+\columnbreak
+
+<div style='margin-top:325px'></div>
+
 ### Damage Resistance and Vulnerability
 Some ships might have resistance or vulnerability to a damage type. If a ship has resistance to a damage type, damage of that type is halved against it. If a ship has vulnerability to a damage type, damage of that type is doubled against it.
 
@@ -447,15 +435,17 @@ A target with **one-quarter cover** has a +2 bonus to AC and Dexterity saving th
 
 A target with **half cover** has a +3 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of it.
 
-<img src='https://cdn.discordapp.com/attachments/469499280994992128/778729720148787210/ULMy4hn.png' style='position:absolute;top:0px;left:0px;width:440px;z-index:1000;filter:brightness(100%)contrast(100%) grayscale(0%)hue-rotate(0deg) opacity(100%)saturate(100%)sepia(0%);mix-blend-mode:darken;transform:scalex(1)' />
-
-<div class='footnote'>CHAPTER 9 | COMBAT</div>
-
-\pagebreakNum
 
 A target with **three-quarters** cover has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is covered by an obstacle. 
 
 A target with **total cover** can’t be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.
+
+
+<img src='https://cdn.discordapp.com/attachments/469499280994992128/778729720148787210/ULMy4hn.png' style='position:absolute;top:0px;left:0px;width:600px;z-index:1000;filter:brightness(100%)contrast(100%) grayscale(0%)hue-rotate(0deg) opacity(100%)saturate(100%)sepia(0%);mix-blend-mode:darken;transform:scalex(1)' />
+
+<div class='footnote'>CHAPTER 9 | COMBAT</div>
+
+\pagebreakNum
 
 
 ## Damage and Repairs
@@ -479,8 +469,9 @@ When a ship receives repairs of any kind, hull points regained are added to its 
 ### Dropping to 0 Hull Points
 When a ship is reduced to 0 hull points, it is either destroyed or disabled. If the ship is not instantly destroyed, the ship suffers 1 level of system damage and becomes disabled.
 
+<br>
 
-> ##### Describing the Effects of Damage
+> #### Describing the Effects of Damage
 > GMs describe hull point loss in different ways. When your ship's current hull point total is half or more of your hull point maximum, it typically shows no signs of damage. When it drops below half its hull point maximum, it show signs of wear, such as electrical fires or dislodged machinery. An attack that reduces your ship to 0 hit points strikes directly, leaving a massive hole or otherwise disables the ship.
 
 \columnbreak
@@ -491,7 +482,7 @@ When a ship is reduced to 0 hull points, it is either destroyed or disabled. If 
 Massive damage can destroy a ship instantly. When damage reduces a ship to 0 hull points and there is damage remaining, the ship explodes if the remaining damage equals or exceeds its hull point maximum.
 
 #### Destruction Saving Throws
-At the start of the pilot's turn, if the ship has 0 hull points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn't tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success has no effect by itself; on your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
+At the start of the ship's turn, if the ship has 0 hull points, you must make a special saving throw, called a destruction saving throw, to determine whether or not you're able to salvage your ship. Unlike other saving throws, this one isn't tied to any ability score; you are in the hands of fate now. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success has no effect by itself; on your third success, your ship becomes stable (see below). On a failure, your ship suffers 1 level of system damage. The successes don't need to be consecutive; keep track of both until you collect three successes, or your ship's primary systems fail. 
 
 ***Rolling 1 or 20.*** When you make a destruction saving throw and roll a 1 on the d20, it counts as two failures, causing 2 levels of system damage. If you roll a 20 on the d20, your ship regains 1 hull point.
 
@@ -518,3 +509,4 @@ the instant the damage is dealt, unless the damage dealt is ion damage, which ca
 <div class='footnote'>CHAPTER 9 | COMBAT</div>
 
 \pagebreakNum
+

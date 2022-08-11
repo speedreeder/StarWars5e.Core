@@ -109,7 +109,7 @@ Certain features, such as Active Camouflage or a Boarding Harpoon, let your ship
 <div class='classTable wide' style='position:absolute;bottom:35px;left:75px;width:687px'>
 
 ##### Proficiently Equipping a Ship
-|  Skill | Modification(s) that<br> Proficiently Equip | Modification(s) that<br> Expertly Equip | Skill Description|
+|  Skill | Modification(s) that<br> Proficiently Equip | Modification(s) that<br> Expertly Equip | Skill Description|
 |:----|:---|:---|:---|
 |	_Str_	    ||||
 | &emsp; Boost| Cryogenic Capacitor, Mk I| Cryogenic Capacitor, Mk II|push your ship to or beyond its limits|
@@ -149,7 +149,7 @@ To make an ability check, roll a d20 and add the relevant ability modifier. As w
 When making an ability check that involves your ship's abilities, you use the ship's score instead of your own, as dictated by logic.
 
 ### Contests
-Sometimes one ship's or crewmember's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal�for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.
+Sometimes one ship's or crewmember's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.
 
 Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That ship or crewmember either succeeds at the action or prevents the other one from succeeding.
 
@@ -191,7 +191,7 @@ Your GM may call for Strength checks when you undergo interactions not covered b
 ***Boost.*** Use the Boost skill when you attempt to push your ship to or beyond its limits.  A successful Boost check can break ties in straight-line speed contests or to determine how fast your ship can accelerate to top speed.  You also make boost checks in response to taking the boost engines, boost shields, and boost weapons actions.  
 
 #### Strength Saving Throws
-Certain features, such as a Tractor Beam, call for a Strength saving throw. When you make a Strength saving throw, you roll a d20 and add your ship's Strength modifier to the roll. If your ship is proficiently equipped for the saving throw, you also add the pilot's proficiency bonus to the result of the roll.
+Certain features, such as a Tractor Beam, call for a Strength saving throw. When you make a Strength saving throw, you roll a d20 and add your ship's Strength modifier to the roll. If your ship is proficiently equipped for the saving throw, you also add the proficiency bonus of the crewmember at the helm to the result of the roll.
 
 #### Damage Rolls
 You add your ship's Strength modifier to ship weapon damage rolls.
@@ -238,9 +238,9 @@ The Hide skill is generally contested by a passive Wisdom (Scan) score if the sh
 
 When you would make a Dexterity (Maneuvering) check, you may instead make an Intelligence (Piloting) check at disadvantage.
 
-Your ship is considered proficiently equipped in this skill if the designated pilot is proficient in Piloting. 
+Your ship is considered proficiently equipped in this skill if the crewmember at the helm is proficient in Piloting. 
 
-Your ship is considered expertly equipped in this skill if the designated pilot has expertise in Piloting.
+Your ship is considered expertly equipped in this skill if the crewmember at the helm has expertise in Piloting.
 
 
 > ##### Hiding
@@ -259,7 +259,7 @@ Your ship is considered expertly equipped in this skill if the designated pilot 
 
 
 #### Dexterity Saving Throws
-Certain features, such as burst weapons, call for a Dexterity saving throw. When you make a Dexterity saving throw, you roll a d20 and add your ship's Dexterity modifier to the roll. If your ship is proficiently equipped for the saving throw, you also add the pilot's proficiency bonus to the result of the roll.
+Certain features, such as burst weapons, call for a Dexterity saving throw. When you make a Dexterity saving throw, you roll a d20 and add your ship's Dexterity modifier to the roll. If your ship is proficiently equipped for the saving throw, you also add the proficiency bonus of the crewmember at the helm to the result of the roll.
 
 
 
@@ -328,7 +328,7 @@ When you would make a Constitution (Regulation) check, you may instead make an I
 \pagebreakNum
 
 #### Constitution Saving Throws
-Certain features, such as a Heavy Ion Cannon, call for a Constitution saving throw. When you make a Constitution saving throw, you roll a d20 and add your ship's Constitution modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the pilot's proficiency bonus to the result of the roll.
+Certain features, such as a Heavy Ion Cannon, call for a Constitution saving throw. When you make a Constitution saving throw, you roll a d20 and add your ship's Constitution modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the proficiency bonus of the crewmember at the helm to the result of the roll.
 
 #### Hull Points
 Your ship's Constitution modifier contributes to its hull points. Typically, your ship adds its Constitution modifier to each Hull Die it rolls for its hull points.
@@ -362,7 +362,7 @@ When you would make an Intelligence (Astrogation) check, you may instead make an
 When you would make an Intelligence (Probe) check, you may instead make an Intelligence (Investigation) check at disadvantage using your own Intelligence modifier.
 
 #### Intelligence Saving Throws
-Certain features call for an Intelligence saving throw. When you make an Intelligence saving throw, you roll a d20 and add your ship's Intelligence modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the pilot's proficiency bonus to the result of the roll.
+Certain features call for an Intelligence saving throw. When you make an Intelligence saving throw, you roll a d20 and add your ship's Intelligence modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the proficiency bonus of the crewmember at the helm to the result of the roll.
 
 
 
@@ -377,7 +377,7 @@ A Wisdom check comes into play when you need to draw on the ship's ability to se
 When you would make a Wisdom (Scan) check, you may instead make a Wisdom (Perception) check at disadvantage using your own Wisdom modifier.
 
 #### Wisdom Saving Throws
-Certain features call for a Wisdom saving throw. When you make a Wisdom saving throw, you roll a d20 and add your ship's Wisdom modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the pilot's proficiency bonus to the result of the roll.
+Certain features call for a Wisdom saving throw. When you make a Wisdom saving throw, you roll a d20 and add your ship's Wisdom modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the proficiency bonus of the crewmember at the helm to the result of the roll.
 
 #### Attack Rolls and Weapon Saves
 You add your ship's Wisdom modifier to ship weapon attack rolls and to the DC of saves called for by ship weapons.
@@ -408,8 +408,9 @@ When you would make a Charisma (Impress) check, you may instead choose to make a
 When you would make a Charisma (Swindle) check, you may instead choose to make a Charisma (Deception) check at disadvantage using your own Charisma modifier.
 
 #### Charisma Saving Throws
-Certain features call for a Charisma saving throw. When you make a Charisma saving throw, you roll a d20 and add your ship's Charisma modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the pilot's proficiency bonus to the result of the roll.
+Certain features call for a Charisma saving throw. When you make a Charisma saving throw, you roll a d20 and add your ship's Charisma modifier to the roll. If your ship is proficiently equipped in the saving throw, you also add the proficiency bonus of the crewmember at the helm to the result of the roll.
 
 <div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
 \pagebreakNum
+

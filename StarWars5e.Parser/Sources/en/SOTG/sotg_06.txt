@@ -13,7 +13,7 @@ Ships are locked to their respective size-driven tiers and have no multiclass pa
 ## Multispecializing
 Multispecializing allows you to gain ranks in multiple deployment specializations. Doing so lets you mix the abilities of those deployments to realize a character concept that might not be reflected in one of the standard specialization options.
 
-With this rule, you have the option of gaining a rank in a new specialization whenever you advance in rank, instead of gaining a rank in your current specialization. Your ranks in all your deployments are added together to determine your character rank. For example, if you have two ranks in ace and one in gunner, you're a 3rd-rank character.
+With this rule, you have the option of gaining a rank in a new specialization whenever you advance in rank, instead of gaining a rank in your current specialization. Your ranks in all your deployments are added together to determine your character rank. For example, if you have two ranks in pilot and one in gunner, you're a 3rd-rank character.
 
 As you advance in ranks, you might primarily remain a member of your original deployment with just a single rank in another specialization, or you might change course entirely, never looking back at the deployment you left behind. You might even start progressing in a third or fourth specialization. Compared to a single-specialized character of the same rank, you'll sacrifice some focus in exchange for versatility.
 
@@ -21,9 +21,9 @@ As you advance in ranks, you might primarily remain a member of your original de
 
 > #### Multispecializing Example
 > 
->Drew is playing a 1st-rank ace. When his character is ready to progress to 2nd rank, Drew decides that his character will multispec instead of continuing to progress as an ace. Drew's character has been spending a lot of time with Rickey's gunner, and has even been doing some simulations. Drew decides that his character will multispec into the gunner deployment, and thus his character becomes a 1st-rank ace and 1st-rank gunner (written as ace 1/gunner 1).
+>Drew is playing a 1st-rank pilot. When his character is ready to progress to 2nd rank, Drew decides that his character will multispec instead of continuing to progress as a pilot. Drew's character has been spending a lot of time with Rickey's gunner, and has even been doing some simulations. Drew decides that his character will multispec into the gunner deployment, and thus his character becomes a 1st-rank pilot and 1st-rank gunner (written as pilot 1/gunner 1).
 > 
->When Drew's character is ready to progress to 3rd rank, he can decide whether to add another ace rank (becoming an ace 2/gunner 1), another gunner rank (becoming an ace 1/gunner 2), or a rank in a third deployment, perhaps dabbling in the inner workings of the ship (becoming an ace 1/gunner 1/mechanic 1).
+>When Drew's character is ready to progress to 3rd rank, he can decide whether to add another pilot rank (becoming a pilot 2/gunner 1), another gunner rank (becoming a pilot 1/gunner 2), or a rank in a third deployment, perhaps dabbling in the inner workings of the ship (becoming a pilot 1/gunner 1/mechanic 1).
 
 
 \columnbreak
@@ -42,7 +42,7 @@ Ships do not have a proficiency bonus. When a feature references a proficiency b
 If a deployment feature or venture allows you to forgo your proficiency bonus, you may only do so once.
 
 #### Expertise
-If you have expertise in a skill as well as a feature that lets you forgo your proficiency bonus, you can only forgo your proficiency bonus once. For instance, if you are a 5th-level, 4th-rank ace with an 18 in Intelligence and expertise in Piloting, you add 10 to your Piloting checks (4 + 2 x 3). If you use the 4th-rank ace feature "That's a Good Trick" to forgo your proficiency bonus, you instead add 7 for the Piloting check as a part of that Evade action (4 + 2 x 3 - 3).
+If you have expertise in a skill as well as a feature that lets you forgo your proficiency bonus, you can only forgo your proficiency bonus once. For instance, if you are a 5th-level, 4th-rank pilot with an 18 in Intelligence and expertise in Piloting, you add 10 to your Piloting checks (4 + 2 x 3). If you use the 4th-rank pilot feature "That's a Good Trick" to forgo your proficiency bonus, you instead add 7 for the Piloting check as a part of that Evade action (4 + 2 x 3 - 3).
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
@@ -153,7 +153,7 @@ When you take the Fire action, you can spend 1 force point to make an additional
 ### Force Piloting
 _**Prerequisite:** The ability to cast force powers_<br>
 
-When you make an Dexterity (Manuever) check while aboard your ship, you may add half (round up) your Wisdom or Charisma modifier (your choice), to your result. Additionally, you can add half (round up) your Wisdom or Charisma modifier (your choice) to your ship's AC while designated as the pilot.
+When you make an Dexterity (Manuever) check while aboard your ship, you may add half (round up) your Wisdom or Charisma modifier (your choice), to your result. Additionally, you can add half (round up) your Wisdom or Charisma modifier (your choice) to your ship's AC while at the helm.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
@@ -293,12 +293,12 @@ When you take the Interfere action and succeed on the contest, the target has di
 ### Pilot Adept
 _**Prerequisite:** Rank 2_<br>
 
-You have pilot training that allows you to perform special combat tactics. You learn two tactics of your choice from among those available to the ace deployment. 
+You have pilot training that allows you to perform special combat tactics. You learn two tactics of your choice from among those available to the Pilot deployment. 
 
 \columnbreak
 
 ### Pilot in Training
-When you make a Dexterity (Maneuvering) check while designated as a pilot, you can add your proficiency bonus to checks you make if you do not already do so.
+When you make a Dexterity (Maneuvering) check while at the helm, you can add your proficiency bonus to checks you make if you do not already do so.
 
 ### Precision GUNNER
 When you make an attack roll with a primary ship
@@ -350,9 +350,9 @@ _**Prerequisite:** at least 1 rank in operator_<br>
 Once per round, when you roll a power die as part of an operator's disruption, you can roll the die twice and take either result.
 
 ### Resourceful Tactics
-_**Prerequisite:** at least 1 rank in ace_<br>
+_**Prerequisite:** at least 1 rank in pilot_<br>
 
-Once per round, when you roll a power die as part of an ace's tactic, you can roll the die twice and take either result.
+Once per round, when you roll a power die as part of a pilot's tactic, you can roll the die twice and take either result.
 
 ### Resourceful Technician
 _**Prerequisite:** at least 1 rank in technician_<br>
@@ -382,13 +382,13 @@ _**Prerequisite:** at least 1 level in operative_<br>
 
 Once per turn, you can deal an extra 1d6 damage to one ship you hit with a ship attack if you have advantage on the attack roll.  You can select this venture multiple times.
 
+\columnbreak
+
 ### Spacecasting
 _**Prerequisite:** The ability to cast force or tech powers_<br>
 
 When casting a force or tech power while aboard your ship and in space, the power's range is multiplied by 2. You can not target a hostile creature with a power unless you are aware of their presence and location.
 
-
-\columnbreak
 
 ###  Spacecasting, Greater
 _**Prerequisite:** Spacecasting, Improved_<br>
@@ -422,6 +422,8 @@ Additionally, when casting a force or tech power while aboard your ship and in s
 
 Lastly, when casting a force or tech power while aboard your ship and in space, you instead divide by 2 when scaling damage against Small and smaller ships.
 
+\pagebreakNum
+
 ### Space Explorer
 _**Prerequisite:** at least 1 level in scout_<br>
 
@@ -431,8 +433,6 @@ While deployed, parts of your Skilled Explorer class feature extend to your ship
 - Your ship can move stealthily at a normal pace.
 
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
-
-\pagebreakNum
 
 ### Storming Gunner
 You can use your immense strength to steady primary weapons with the burst, rapid, or saturate features.  When you make an attack roll with a primary ship weapon having at least one of these features while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Wisdom modifier, for the attack rolls or setting the DC for the targets' saves.
@@ -451,55 +451,45 @@ When you expend a power die or another die granted by a Deployment, roll the die
 
 
 
-### TARGET ENGINES
+### TARGETING FIRE
 _**Prerequisite:** at least 1 rank in gunner_<br>
 
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to make the target gain 1 slowed level until the end of its turn as it suffers damage to its engines.
+When you take this Venture, you may select two areas that you are adept at targeting.  You may take this Venture multiple times.  Each time you do so, you may select two additional target areas.
 
-### Target Fire Control System
-_**Prerequisite:** at least 1 rank in gunner_<br>
+Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to target a specific area of the ship causing targeted damage there:
 
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to damage the target's targeting systems.  The first time the target forces you to make a saving throw before the start of your next turn, the target takes an additional 1d6 ionic damage, and you can roll 1d4 and add the number rolled to your saving throw. 
+#### ENGINES
+The target gain 1 slowed level until the end of its turn as it suffers damage to its engines.
 
+#### Fire Control System
+You damage the target's targeting systems.  The first time the target forces you to make a saving throw before the start of your next turn, the target takes an additional 1d6 ionic damage, and you can roll 1d4 and add the number rolled to your saving throw. 
 
-### TARGET Gravity Generator
-_**Prerequisite:** at least 1 rank in gunner_<br>
-
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to cause each Large or smaller ship within 100 feet of the target to make a Strength saving throw (DC = 8 + your proficiency bonus + your ship's Strength modifier).  On a failure, that ship is pulled to the nearest unoccupied space adjacent to the target.
-
-> #### GM Note:
->
-> If a ship being fought does not have the system that is targeted in a venture of that name (e.g., an X-Wing hit by an attack utilizing Target Gravity Generator does not have a gravity generator), then consider allowing the venture's effects to work via alternative means (e.g., the hyperdrive is hit instead). 
+#### Gravity Generator
+You cause each Large or smaller ship within 100 feet of the target to make a Strength saving throw (DC = 8 + your proficiency bonus + your ship's Strength modifier).  On a failure, that ship is pulled to the nearest unoccupied space adjacent to the target.
 
 
 \columnbreak
 
-### Target Reactor
-_**Prerequisite:** at least 1 rank in gunner_<br>
 
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to destabilize the ship's reactor. Until the start of your next turn, if the target becomes tractored, ionized, or shocked, the reactor suffers damaging feedback, causing the ship to immediately take 1d8 ionic damage.
+#### Reactor
+You destabilize the ship's reactor. Until the start of your next turn, if the target becomes tractored, ionized, or shocked, the reactor suffers damaging feedback, causing the ship to immediately take 1d8 ionic damage.
 
-
-### Target Sensors
-_**Prerequisite:** at least 1 rank in gunner_<br>
-
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to create an illusory duplicate of your ship in your space that only the target can see. The target has disadvantage on the next attack roll it makes against your ship before the start of your next turn.
+#### Sensors
+You create an illusory duplicate of your ship in your space that only the target can see. The target has disadvantage on the next attack roll it makes against your ship before the start of your next turn.
 
 
-### Target Shields
-_**Prerequisite:** at least 1 rank in gunner_<br>
+#### Shields
+You cause the target to take additional damage to the target's shields equal to your techcasting ability modifier at the start of your next turn. 
 
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to cause the target to take additional damage to the target's shields equal to your techcasting ability modifier at the start of your next turn. 
+#### Static Discharge Vanes
+You cause the target to become shocked until the end of your ship's next turn. When this attack hits a target, if there is a ship within 300 feet who is shocked, an arc of lightning courses between the two ships, dealing 1d6 lightning damage to both of them. If there are multiple other ships who are shocked, the lightning leaps to the closest ship.
 
-### Target Static Discharge Vanes
-_**Prerequisite:** at least 1 rank in gunner_<br>
+#### Weapons
+You damage the ship's weapon systems.  The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6.
 
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to cause the target to become shocked until the end of your ship's next turn. When this attack hits a target, if there is a ship within 300 feet who is shocked, an arc of lightning courses between the two ships, dealing 1d6 lightning damage to both of them. If there are multiple other ships who are shocked, the lightning leaps to the closest ship.
-
-### Target Weapons
-_**Prerequisite:** at least 1 rank in gunner_<br>
-
-Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to damage the ship's weapon systems.  The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6.
+> #### GM Note:
+>
+> If a ship being fought does not have the system that is targeted in the Targeting Fire venture (e.g., an X-Wing hit by an attack utilizing Targeting Fire: Gravity Generator does not have a gravity generator), then consider allowing the venture's effects to work via alternative means (e.g., the hyperdrive is hit instead). 
 
 
 ### Technological Knowledge
@@ -507,12 +497,9 @@ _**Prerequisite:** at least 3 levels in engineer_<br>
 
 Ships become a valid target of your potent aptitude ability.
 
-<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
-
-\pagebreakNum
 
 ### Thread the Needle
-_**Prerequisite:** at least 3 ranks in ace_<br>
+_**Prerequisite:** at least 3 ranks in pilot_<br>
 
 When you take the Evade action, you can gain the benefits of Evade against only a single target in order to avoid the penalty of disadvantage on any skill check or attack roll made by your ship or anyone on it.
 
@@ -520,6 +507,10 @@ When you take the Evade action, you can gain the benefits of Evade against only 
 _**Prerequisite:** at least 10 levels in sentinel_<br>
 
 When you take the Dogfight action, you can make a Dexterity (Maneuvering) check (DC = 10 + the number of enemy ships you can see).  On a success, the next attack made against your ship by any ship you can see is not granted advantage by the Dogfight action.
+
+<div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
+
+\pagebreakNum
 
 ### Weapon Enhancement
 _**Prerequisite:** The ability to cast 3rd level tech powers_<br>
@@ -535,3 +526,4 @@ As a bonus action, you may spend three tech points to empower a ship weapon on y
 <div class='footnote'>CHAPTER 6 | CUSTOMIZATION OPTIONS</div>
 
 \pagebreakNum
+

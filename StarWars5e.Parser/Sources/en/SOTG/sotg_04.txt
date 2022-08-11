@@ -1,5 +1,4 @@
 
-
 # Chapter 4: Modifications
 
 <img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:76px;width:35px' />
@@ -98,7 +97,7 @@ High-grade modifications are more costly, using scarce
 materials to construct and install. When purchasing
 and installing a modification with a listed grade,
 multiply the final cost of the modification by the
-modificationís grade, if Grade 1 or higher. As an example, a Grade 2 modification would
+modification‚Äôs grade, if Grade 1 or higher. As an example, a Grade 2 modification would
 have two times the final cost of a Grade 0 or 1 modification. 
 
 \columnbreak
@@ -108,7 +107,7 @@ have two times the final cost of a Grade 0 or 1 modification.
 Additionally, these modifications require more precise skill to install, as shown below in the Modification Grade Installation by Ship Tier table. However, ships of higher quality (high tier) make it easier to install these high-quality (high grade) modifications.  
 
 ### Modification Installation Check
-When making a modification, the foremost mechanic must make an Intelligence (Mechanicís Kit) check to correctly install modifications. A GM may decide to assume that this check is automatically passed when a party contracts out the instalation of a modification to a shipyard adequately equipped to routinely handle such an installation. The DC for the check varies based on the grade of the modification and the tier of the ship, as shown below in the Modification Grade Installation by Ship Tier table below.
+When making a modification, the foremost mechanic must make an Intelligence (Mechanic‚Äôs Kit) check to correctly install modifications. A GM may decide to assume that this check is automatically passed when a party contracts out the instalation of a modification to a shipyard adequately equipped to routinely handle such an installation. The DC for the check varies based on the grade of the modification and the tier of the ship, as shown below in the Modification Grade Installation by Ship Tier table below.
 
 ##### Modification Grade Installation by Ship Tier  
 |Modification<br> Grade|Tier<br> 0|Tier<br> 1|Tier<br> 2|Tier<br> 3|Tier<br> 4|Tier<br> 5|
@@ -171,7 +170,7 @@ Suite systems add additional functionality to the ship in the form of bays, stat
 ##### Starship Size Maximum Suites
 | Starship Size | Maximum Suites |
 |:----:|:----:|
-| Tiny  | ó |
+| Tiny  | ‚Äî |
 | Small  | -1 + con. mod. |
 | Medium  | 3 + con. mod. |
 | Large  | 3 + 2x con. mod. |
@@ -183,7 +182,7 @@ Additionally, unless otherwise specified, each suite system can accommodate a st
 ##### Starship Size Suite Capacity
 | Starship Size | Suite Capacity |
 |:----:|:----:|
-| Tiny  | ó |
+| Tiny  | ‚Äî |
 | Small  | 1 |
 | Medium  | 4 |
 | Large  | 400 |
@@ -234,7 +233,7 @@ _**Prerequisite:** Hardened Prow_<br>
 
 Your ship has been further modified with a massive grappling harpoon, through which creatures can pass. Your ship is expertly equipped for Strength (Ram) checks.
 
-Additionally, when a designated pilot takes the Ram action, on a success, the ships become harpooned. While harpooned, your ship and the target ship are slowed as show in the Harpooned and Harpooning Ships Slowed Level tables, below. Your ship's pilot can release the harpooned ship at any time (no action required). The harpooned ship is automatically released if your ship becomes disabled, or if it is forcefully moved more than 100 feet away from your ship.
+Additionally, when a crewmember takes the Ram action, on a success, the ships become harpooned. While harpooned, your ship and the target ship are slowed as show in the Harpooned and Harpooning Ships Slowed Level tables, below. A crewmember can release the harpooned ship at any time (no action required). The harpooned ship is automatically released if your ship becomes disabled, or if it is forcefully moved more than 100 feet away from your ship.
 
 
 \columnbreak
@@ -249,9 +248,9 @@ Additionally, when a designated pilot takes the Ram action, on a success, the sh
 | **Tiny**  | 3 |4 |4 |4|4 |4 |
 | **Small**  | 2|3 |4 |4 |4 |4 |
 | **Medium**  | 1 |2 |3 |4 |4 |4 |
-| **Large**  | ó |1 |2 |3 |4 |4 |
-| **Huge** | ó |ó |1 |2 |3 |4 |
-| **Gargantuan** | ó | ó | ó | 1 | 2 | 3 |
+| **Large**  | ‚Äî |1 |2 |3 |4 |4 |
+| **Huge** | ‚Äî |‚Äî |1 |2 |3 |4 |
+| **Gargantuan** | ‚Äî | ‚Äî | ‚Äî | 1 | 2 | 3 |
 
 <div style='margin-top:33px'></div>
 
@@ -259,16 +258,16 @@ Additionally, when a designated pilot takes the Ram action, on a success, the sh
 ##### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Your Ship Size
 | Target <br>Ship Size | Tiny |Small |Med. |Large |Huge |Garg. |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| **Tiny**  | 2 |1 |ó |ó |ó |ó |
-| **Small**  | 3|2 |1 |ó |ó |ó |
-| **Medium**  | 4 |3 |2 |1 |ó |ó |
-| **Large**  | 4 |4 |3 |2 |1 |ó |
+| **Tiny**  | 2 |1 |‚Äî |‚Äî |‚Äî |‚Äî |
+| **Small**  | 3|2 |1 |‚Äî |‚Äî |‚Äî |
+| **Medium**  | 4 |3 |2 |1 |‚Äî |‚Äî |
+| **Large**  | 4 |4 |3 |2 |1 |‚Äî |
 | **Huge** | 4 |4 |4 |3 |2 |1 |
 | **Gargantuan** | 4 |4 |4 |4 |3 |2 |
 
 <div style='margin-top:33px'></div>
 
-&emsp;***Removing the Harpoon.*** A harpooned shipís pilot can use its action to make a contested Strength (Boost) check, ending the effect on a success.
+&emsp;***Removing the Harpoon.*** A crewmember at the helm of the harpooned ship can use its action to make a contested Strength (Boost) check, ending the effect on a success.
 
 ***Moving a Harpooned Ship.*** When your ship moves, it can drag the harpooned ship with it.
 
@@ -286,7 +285,7 @@ _**Modification Grade:** 2_<br>
 
 As an action, a crewmember may scatter a large number of Buzz Droids across space in a 200-foot radius sphere centered on a point within 1500 feet. These Buzz Droids tear apart the hull of any ship that encounters them. The area becomes difficult terrain for up to a number of minutes equal to you ship's tier. When a ship moves into or within the area, it takes 2d4 kinetic damage directly to the hull for every 50 feet it travels.
 
-The Buzz Droids are nearly invisible in the darkness of space. Any creature or ship that canít see the area at the time the area is created must make a Wisdom (Scan) check (DC 15) to notice the Buzz Droids before entering the area.
+The Buzz Droids are nearly invisible in the darkness of space. Any creature or ship that can‚Äôt see the area at the time the area is created must make a Wisdom (Scan) check (DC 15) to notice the Buzz Droids before entering the area.
 
 The effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.
 
@@ -304,7 +303,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 2_<br>
 _**Prerequisite:** Carbonite Launcher, Mk I_<br>
 
-As an action, a crewmember may cause an explosion of cold energy to erupt from a point it chooses within 900 feet. Each ship in a 50-foot-radius sphere centered on that point must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's wisdom modifier). On a failed save, a ship takes 3d6 cold damage, and gains 1 slowed level until the start of your next turn. On a successful save, a ship takes half as much damage and isnít slowed.
+As an action, a crewmember may cause an explosion of cold energy to erupt from a point it chooses within 900 feet. Each ship in a 50-foot-radius sphere centered on that point must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's wisdom modifier). On a failed save, a ship takes 3d6 cold damage, and gains 1 slowed level until the start of your next turn. On a successful save, a ship takes half as much damage and isn‚Äôt slowed.
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -319,7 +318,7 @@ A storm of cryogenic energy encompasses space in a 300-foot-radius sphere center
 
 <div style='margin-top:23px'></div>
 
-&emsp;The stormís area of effect becomes difficult terrain until the end of your next turn.
+&emsp;The storm‚Äôs area of effect becomes difficult terrain until the end of your next turn.
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -329,7 +328,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 4_<br>
 _**Prerequisite:** Carbonite Launcher, Mk III_<br>
 
-As an action, your ship can create a cloud of icy fog in a 200-foot-radius sphere centered on a point within 1200 feet. The sphere extends around objects, and its area is heavily obscured. The fog is semi-solid, and its area is considered difficult terrain. Each ship that enters the area for the first time on a turn or starts its turn there takes 4d6 cold damage and gains 1 slowed level until the end of its turn. The fog lasts for a number of rounds equal to your ship's tier (minimum of one) or until itís dispersed.
+As an action, your ship can create a cloud of icy fog in a 200-foot-radius sphere centered on a point within 1200 feet. The sphere extends around objects, and its area is heavily obscured. The fog is semi-solid, and its area is considered difficult terrain. Each ship that enters the area for the first time on a turn or starts its turn there takes 4d6 cold damage and gains 1 slowed level until the end of its turn. The fog lasts for a number of rounds equal to your ship's tier (minimum of one) or until it‚Äôs dispersed.
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -366,7 +365,7 @@ Additionally, your ship is proficiently equipped for Constitution (Patch) checks
 
 As an action a crewmember may cause your ship to emit a burst of electricity. Each ship within 150 feet, other than you, must succeed on a Dexterity saving throw (DC = 8 + prof. bonus + ship's strength modifier) or take 1d6 lightning damage.
 
-This powerís damage increases by 1d6 for every tier your ship is above first tier: 2nd tier (2d6), 3rd tier (3d6), 4th tier (4d6), and 5th tier (5d6).
+This power‚Äôs damage increases by 1d6 for every tier your ship is above first tier: 2nd tier (2d6), 3rd tier (3d6), 4th tier (4d6), and 5th tier (5d6).
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -374,9 +373,9 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 ### Electromagnetic Scrambler, Mk I
 _**Modification Grade:** 1_<br>
 
-As an action, a crewmember can cause a ship you can see within 300 feet to become shrouded with electronic interference and holographic illusions. The target must succeed on a Wisdom saving throw (DC = 8 + prof. bonus + ship's charisma modifier), or it takes 1d6 lightning damage and moves 50 feet in a random direction if it can move and its speed is at least 50 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. If the direction rolled is blocked, the target doesnít move.
+As an action, a crewmember can cause a ship you can see within 300 feet to become shrouded with electronic interference and holographic illusions. The target must succeed on a Wisdom saving throw (DC = 8 + prof. bonus + ship's charisma modifier), or it takes 1d6 lightning damage and moves 50 feet in a random direction if it can move and its speed is at least 50 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. If the direction rolled is blocked, the target doesn‚Äôt move.
 
-This powerís damage increases by 1d6 for every tier your ship is above first tier: 2nd tier (2d6), 3rd tier (3d6), 4th tier (4d6), and 5th tier (5d6).
+This power‚Äôs damage increases by 1d6 for every tier your ship is above first tier: 2nd tier (2d6), 3rd tier (3d6), 4th tier (4d6), and 5th tier (5d6).
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -396,9 +395,9 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Electromagnetic Scrambler, Mk II_<br>
 
-As an action, a crewmember may choose one ship you can see within 1200 feet and scramble its ability to differentiate targets. The target must make a Wisdom saving throw (DC = 8 + prof. bonus + ship's charisma modifier). If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to the pilotís Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all ships it can see as enemies for up to one minute until the power ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
+As an action, a crewmember may choose one ship you can see within 1200 feet and scramble its ability to differentiate targets. The target must make a Wisdom saving throw (DC = 8 + prof. bonus + ship's charisma modifier). If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to that crewmember‚Äôs Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all ships it can see as enemies for up to one minute until the power ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
 
-Whenever the affected ship chooses another target, it must choose the target at random from among the ships it can see within range of the attack, power, or other ability itís using. 
+Whenever the affected ship chooses another target, it must choose the target at random from among the ships it can see within range of the attack, power, or other ability it‚Äôs using. 
 
 The effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.
 
@@ -408,7 +407,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 4_<br>
 _**Prerequisite:** Electromagnetic Scrambler, Mk III_<br>
 
-As an action, a crewmember may scramble the targeting protocols of nearby ships. Each ship in a 300-foot-radius sphere centered on a point within 1200 feet must make a Wisdom saving throw (DC = 8 + prof. bonus + ship's charisma modifier).  If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to the pilotís Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies up to a minute, until the ability ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.  
+As an action, a crewmember may scramble the targeting protocols of nearby ships. Each ship in a 300-foot-radius sphere centered on a point within 1200 feet must make a Wisdom saving throw (DC = 8 + prof. bonus + ship's charisma modifier).  If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to that crewmember‚Äôs Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies up to a minute, until the ability ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.  
 
 Whenever the affected ship chooses another target, it must choose the target at random from among the ships it can see within range of the attack, power, or other ability it's using. 
 
@@ -451,7 +450,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 4_<br>
 _**Prerequisite:** Gravity Well Projector_<br>
 
-As an action, a crewmember can use a ship's gravity well projector to target a ship within 600 feet and within that projector's limited arc. The beam disrupts matter on an atomic level, causing it to rip apart. The target must make a Constitution saving throw (DC = 8 + ship tier + the shipís Strength modifier). The target takes 8d8 true damage on a failed save, or half<br> as much damage on a successful one.
+As an action, a crewmember can use a ship's gravity well projector to target a ship within 600 feet and within that projector's limited arc. The beam disrupts matter on an atomic level, causing it to rip apart. The target must make a Constitution saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). The target takes 8d8 true damage on a failed save, or half<br> as much damage on a successful one.
 
 This feature can be used a number of<br> times equal to your ship's tier (a<br> minimum of once). All expended uses<br> are regained when the ship recharges.
 
@@ -462,7 +461,7 @@ This feature can be used a number of<br> times equal to your ship's tier (a<br> 
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Gravity Well Projector in each limited arc_<br>
 
-As an action, a crewmember can release a circular gravitic burst. Each ship within 200 feet must make a Dexterity saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, a ship takes 8d6 true damage and, if the ship is the same size or smaller, is pushed back 50 feet. On a successful save, a ship takes half damage and isnít pushed.
+As an action, a crewmember can release a circular gravitic burst. Each ship within 200 feet must make a Dexterity saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, a ship takes 8d6 true damage and, if the ship is the same size or smaller, is pushed back 50 feet. On a successful save, a ship takes half damage and isn‚Äôt pushed.
 
 All objects one size category smaller than the ship or smaller are also pushed 50 feet back.
 
@@ -480,7 +479,7 @@ The effects of this feature last until the beginning of your next turn unless th
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
 ### Hardened Prow
-Your ship has been modified to to be more effective at ramming. When a pilot takes the Ram action, and the target fails the contested check, the damage dealt is increased by an amount equal to two of your ship's Hull Dice. 
+Your ship has been modified to to be more effective at ramming. When a crewmember takes the Ram action, and the target fails the contested check, the damage dealt is increased by an amount equal to two of your ship's Hull Dice. 
 
 Additionally, your ship is proficiently equipped for Strength (Ram) checks.  
 
@@ -496,7 +495,7 @@ _**Prerequisite:** Ship size Large or larger_<br>
 
 As an action, a crewmember can create a turbulent field of tiny spheres of hyper-energy that buffets ships around you. The field extends out to a distance of 150 feet around your ship for a number of rounds up to your ship's tier (minimum of one).
 
-When you activate this feature, you can designate any number of ships you can see to be unaffected by it. An affected ship gains 1 slowed level while in the area, and when the ship enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, the ship takes 3d8 energy damage. On a successful save, the ship takes half as much damage.
+When you activate this feature, you can designate any number of ships you can see to be unaffected by it. An affected ship gains 1 slowed level while in the area, and when the ship enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, the ship takes 3d8 energy damage. On a successful save, the ship takes half as much damage.
 
 The effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.
 
@@ -552,7 +551,7 @@ As an action, a crewmember may jettison a clump of refuse or junk that expands i
 
 The junk field's area of effect becomes difficult terrain for one minute or until cleared.
 
-This feature can be used a number of times equal to your shipís tier (a minimum of once). All expended uses are regained when the ship recharges.
+This feature can be used a number of times equal to your ship‚Äôs tier (a minimum of once). All expended uses are regained when the ship recharges.
 
 ### MINING LASER
 Your ship is equipped with a laser used to extract ores and other minerals from objects such as asteroids.  Checks made while using the mining laser for determining outcomes of work (for example, using downtime rules from Wretched Hives) are made with advantage. If you already have advantage on the roll, you can instead reroll one of the dice once.
@@ -592,7 +591,7 @@ Once this feature has been used, it can't be used again until the ship recharges
 _**Modification Grade:** 1_<br>
 _**Prerequisite:** Ship size Large or larger, Tractor Beam_<br>
 
-As an action, a crewmember can choose one ship or object within 600 feet that is two or more size categories smaller than your ship and in an arc of a tractor beam of the ship. The ship or object is pushed 600 feet in a direction of your choice. If the ship or object collides with any one target during its travel, both the ship or object and the target take 3d8 kinetic damage. If the target is a ship, it must make a Dexterity saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, it takes 3d8 kinetic damage, or half as much on a successful one.
+As an action, a crewmember can choose one ship or object within 600 feet that is two or more size categories smaller than your ship and in an arc of a tractor beam of the ship. The ship or object is pushed 600 feet in a direction of your choice. If the ship or object collides with any one target during its travel, both the ship or object and the target take 3d8 kinetic damage. If the target is a ship, it must make a Dexterity saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, it takes 3d8 kinetic damage, or half as much on a successful one.
 
 This feature shares uses with the ship's Tractor Beam, and grants an additional such use.
 
@@ -602,7 +601,7 @@ This feature shares uses with the ship's Tractor Beam, and grants an additional 
 _**Modification Grade:** 1_<br>
 _**Prerequisite:** Ship size Large or larger, Tractor Beam_<br>
 
-As an action, a crewmember can unleash a burst of energy from a selected tractor beam of the ship. Each ship in the tractor beam arc and within 150 feet must make a Strength saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, a ship takes 3d6 kinetic damage and, if it is one size category larger than your ship or smaller, is also pushed back 50 feet. On a successful save, a ship takes half as much damage and isnít pushed. All objects your ship's size category or smaller within the area of effect are also pushed 50 feet.
+As an action, a crewmember can unleash a burst of energy from a selected tractor beam of the ship. Each ship in the tractor beam arc and within 150 feet must make a Strength saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, a ship takes 3d6 kinetic damage and, if it is one size category larger than your ship or smaller, is also pushed back 50 feet. On a successful save, a ship takes half as much damage and isn‚Äôt pushed. All objects your ship's size category or smaller within the area of effect are also pushed 50 feet.
 
 This feature shares uses with the ship's Tractor Beam, and grants an additional such use.
 
@@ -611,7 +610,7 @@ This feature shares uses with the ship's Tractor Beam, and grants an additional 
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Pressor Beam Generator_<br>
 
-As an action, a crewmember can choose a ship within 600 feet within an arc of a tractor beam of the ship. The target must make a Constitution saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save the target takes 5d8 kinetic damage and is tractored until the end of your next turn. On a successful save, the target takes half as much damage and is not tractored.
+As an action, a crewmember can choose a ship within 600 feet within an arc of a tractor beam of the ship. The target must make a Constitution saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save the target takes 5d8 kinetic damage and is tractored until the end of your next turn. On a successful save, the target takes half as much damage and is not tractored.
 
 The same crewmember can use a bonus action while the target is tractored to move the target up to 50 feet in any direction.
 
@@ -621,7 +620,7 @@ This feature shares uses with the ship's Tractor Beam, and grants an additional 
 _**Modification Grade:** 5_<br>
 _**Prerequisite:** Pressor Lensing_<br>
 
-As an action, a crewmember can unleash a beam of focused energy from a tractor beam of the ship in a 50-foot-wide, 600-foot-long line. Each ship in the line must make a Constitution saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, a ship takes 8d6 kinetic damage and is shocked until the beginning of their next turn. On a successful save, it takes half as much damage and isnít shocked.
+As an action, a crewmember can unleash a beam of focused energy from a tractor beam of the ship in a 50-foot-wide, 600-foot-long line. Each ship in the line must make a Constitution saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, a ship takes 8d6 kinetic damage and is shocked until the beginning of their next turn. On a successful save, it takes half as much damage and isn‚Äôt shocked.
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -664,7 +663,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 2_<br>
 _**Prerequisite:** Ship Slicer, Mk I_<br>
 
-As an action, a crewmember may upload a computer virus that stalls a ship within 900 feet. Roll 7d6; if the shipís remaining hull points are less than the total, the ship is stalled for one minute or until the ship takes damage.
+As an action, a crewmember may upload a computer virus that stalls a ship within 900 feet. Roll 7d6; if the ship‚Äôs remaining hull points are less than the total, the ship is stalled for one minute or until the ship takes damage.
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -675,7 +674,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Ship Slicer, Mk II_<br>
 
-As an action, a crewmember can dictate a one-word command to a ship you can see within 600 feet. The target must succeed on an Intelligence saving throw (DC = 8 + prof. bonus + ship's charisma modifier) or follow the command on its next turn. If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to the pilotís Intelligence modifier. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target canít follow your command, the ability ends.
+As an action, a crewmember can dictate a one-word command to a ship you can see within 600 feet. The target must succeed on an Intelligence saving throw (DC = 8 + prof. bonus + ship's charisma modifier) or follow the command on its next turn. If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to that crewmember‚Äôs Intelligence modifier. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can‚Äôt follow your command, the ability ends.
 
 
 **Approach.** The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.
@@ -684,7 +683,7 @@ As an action, a crewmember can dictate a one-word command to a ship you can see 
 
 **Flee.** The target spends its turn moving away from you by the fastest available means.
 
-**Halt.** The target doesnít move and takes no actions. 
+**Halt.** The target doesn‚Äôt move and takes no actions. 
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -708,11 +707,11 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 5_<br>
 _**Prerequisite:** Ship Slicer, Mk IV_<br>
 
-As an action, a crewmember can choose one ship you can see within 600 feet and attempt to remotely override its controls. The target must make an Intelligence saving throw (DC = 8 + prof. bonus + ship's charisma modifier). If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to the pilotís Intelligence modifier. If you or ships that are friendly to you are fighting it, it has advantage on the saving throw. On a failed save, the ship is charmed by you for the duration.
+As an action, a crewmember can choose one ship you can see within 600 feet and attempt to remotely override its controls. The target must make an Intelligence saving throw (DC = 8 + prof. bonus + ship's charisma modifier). If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to that crewmember‚Äôs Intelligence modifier. If you or ships that are friendly to you are fighting it, it has advantage on the saving throw. On a failed save, the ship is charmed by you for the duration.
 
-While the ship is charmed, you have a wireless link with it as long as the two of you are within the same system. Via your ship, you can use this link to issue commands to the ship while you are conscious (using a bonus action), which it does its best to obey. You can specify a simple and general course of action, such as ìAttack that ship,î ìMove over there,î or ìFly casual.î If the ship completes the order and doesnít receive further direction from you, it defends and preserves itself to the best of its ability.
+While the ship is charmed, you have a wireless link with it as long as the two of you are within the same system. Via your ship, you can use this link to issue commands to the ship while you are conscious (using a bonus action), which it does its best to obey. You can specify a simple and general course of action, such as ‚ÄúAttack that ship,‚Äù ‚ÄúMove over there,‚Äù or ‚ÄúFly casual.‚Äù If the ship completes the order and doesn‚Äôt receive further direction from you, it defends and preserves itself to the best of its ability.
 
-You can use your action to take total and precise control of the target. Until the end of your next turn, the ship takes only the actions you choose, and doesnít do anything that you donít allow it to do. During this time, you can also cause the ship to use a reaction, but this requires you to use your own reaction as well.  For every action, bonus action, or reaction you make the ship use, you must spend an equivalent action.
+You can use your action to take total and precise control of the target. Until the end of your next turn, the ship takes only the actions you choose, and doesn‚Äôt do anything that you don‚Äôt allow it to do. During this time, you can also cause the ship to use a reaction, but this requires you to use your own reaction as well.  For every action, bonus action, or reaction you make the ship use, you must spend an equivalent action.
 
 Each time the target takes damage, it makes a new Intelligence saving throw against the power. If the saving throw succeeds, the power ends.
 
@@ -747,7 +746,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** SLAM_<br>
 
-Your ship's SubLight Acceleration Motor (SLAM) has been enhanced, granting more utility.  When a pilot takes the Fly action, the increase now equals twice your speed, after applying any modifiers. With a speed of 300 feet, for example, your ship can move up to 900 feet on its turn if you Fly. Any increase or decrease to your speed changes this additional Movement by the same amount. If your ship's speed of 300 feet is reduced to 150 feet, for instance, your ship can move up to 450 feet this turn if you Fly.
+Your ship's SubLight Acceleration Motor (SLAM) has been enhanced, granting more utility.  When a crewmember takes the Fly action, the increase now equals twice your speed, after applying any modifiers. With a speed of 300 feet, for example, your ship can move up to 900 feet on its turn if you Fly. Any increase or decrease to your speed changes this additional Movement by the same amount. If your ship's speed of 300 feet is reduced to 150 feet, for instance, your ship can move up to 450 feet this turn if you Fly.
 
 This action still affects your entire ship: any skill check or attack roll made by your ship or anyone on it has disadvantage.
 
@@ -757,11 +756,11 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 ### Super-Heavy Ion Cannon
 _**Prerequisite:** Ship size Medium or larger_<br>
 
-Your ship is equipped with a weapon designed to disable enemy ships without damaging them through use of a specialized ion cannon that delivers a powerful electromagnetic burst. A crewmember can fire the super-heavy ion cannon at a target as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. The target must make a Constitution saving throw (DC = 8 + the crewmemberís proficiency bonus + the shipís Strength modifier). On a failed save, a ship is stunned for 1 minute. As an action on each of the shipís turns, a crewmember can repeat the saving throw, ending the effect on a success.
+Your ship is equipped with a weapon designed to disable enemy ships without damaging them through use of a specialized ion cannon that delivers a powerful electromagnetic burst. A crewmember can fire the super-heavy ion cannon at a target as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. The target must make a Constitution saving throw (DC = 8 + the crewmember‚Äôs proficiency bonus + the ship‚Äôs Strength modifier). On a failed save, a ship is stunned for 1 minute. As an action on each of the ship‚Äôs turns, a crewmember can repeat the saving throw, ending the effect on a success.
 
 If a ship is targeted by a ship two or more sizes larger than them, it has disadvantage on the initial saving throw. If targeted by a ship two or more sizes smaller, it instead has advantage.
 
-This feature can be used a number of times equal to your shipís tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Super-Heavy Ion Cannon installed, they all share this amount of uses, and each Super-Heavy Ion Cannon past the first grants an additional use.
+This feature can be used a number of times equal to your ship‚Äôs tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Super-Heavy Ion Cannon installed, they all share this amount of uses, and each Super-Heavy Ion Cannon past the first grants an additional use.
 
 
 <div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
@@ -806,13 +805,13 @@ _**Prerequisite:** Tibanna Gas Projector, Mk III_<br>
 
 As an action, a crewmember can create a wall of fire within 1200 feet. You can make the wall up to 300 feet on a side and 10 feet thick, or a spherical shell up to 150 feet in diameter, and 10 feet thick. The wall is opaque and lasts for up to a number of rounds equal to your ship's tier.
 
-Each ship that enters the fire or starts it turn there must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's constitution modifier). On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.
-
 \columnbreak
 
 <div style='margin-top:23px'></div>
 
-&emsp;The fire ignites any flammable objects in the area.
+&emsp;Each ship that enters the fire or starts it turn there must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's constitution modifier). On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.
+
+The fire ignites any flammable objects in the area.
 
 The effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.
 
@@ -831,11 +830,11 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 ### Tractor Beam
 This modification adds a tractor beam to a ship, which can be used to grasp and guide vessels and debris.
 
-As an action, a crewmember can activate the tractor beam, which has a range of 600 feet and a limited firing arc, as described in Chapter 9. Each ship or object of your size or smaller within the firing arc must make a Strength saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, a ship is tractored. An object automatically fails this saving throw. 
+As an action, a crewmember can activate the tractor beam, which has a range of 600 feet and a limited firing arc, as described in Chapter 9. Each ship or object of your size or smaller within the firing arc must make a Strength saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, a ship is tractored. An object automatically fails this saving throw. 
 
 As a bonus action, a crewmember can move a tractored ship or object in any direction.  A ship or object two or more sizes smaller than you can be moved up to 200 feet, a ship or object one size category smaller than you can be moved up to 100 feet, and a ship or object your size can be moved up to 50 feet. If at the end of this movement the ship or object strikes another ship or object, it must make a Dexterity saving throw. An object automatically fails this saving throw. On a failed save, they both take 1d4 kinetic damage. 
 
-As an action, a pilot of a tractored ship can repeat the saving throw, ending the effect on a success.
+As an action, a crewmember at the helm of the tractored ship can repeat the saving throw, ending the effect on a success.
 
 The saving throws are made with disadvantage if the ship is smaller than you.
 
@@ -843,18 +842,19 @@ If you attempt to tractor a ship or object larger than you, you can choose to ga
 
 You can end the tractor beam at any time (no action required).
 
-This feature can be used a number of times equal to your shipís tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Tractor Beam installed, they all share this amount of uses, and each Tractor Beam past the first grants an additional use.
-
-
 <div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
+
+<div style='margin-top:23px'></div>
+
+&emsp;This feature can be used a number of times equal to your ship‚Äôs tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Tractor Beam installed, they all share this amount of uses, and each Tractor Beam past the first grants an additional use.
 
 ### Tractor Beam Heavy Capacitors
 _**Modification Grade:** 2_<br>
 _**Prerequisite:** Tractor Beam_<br>
 
-As an action, a crewmember can use a ship's tractor beam to move a ship or object one size category larger than the ship or smaller within 900 feet and within the tractor beam's arc. The target must make a Strength saving throw (DC = 8 + ship tier + the shipís Strength modifier). An object automatically fails this saving throw. On a failed save, the ship or object moves a number of feet in a direction of your choice based on its size. A ship or object two or more size categories smaller than your ship can be moved up to 900 feet, a ship or object one size category smaller can be moved up to 600 feet, a ship or object of the same size category can be moved up to 300 feet, and a ship or object one size category larger can be moved up to 100 feet. If at the end of this movement the ship or object strikes another ship or object, they both take 2d8 kinetic damage.
+As an action, a crewmember can use a ship's tractor beam to move a ship or object one size category larger than the ship or smaller within 900 feet and within the tractor beam's arc. The target must make a Strength saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). An object automatically fails this saving throw. On a failed save, the ship or object moves a number of feet in a direction of your choice based on its size. A ship or object two or more size categories smaller than your ship can be moved up to 900 feet, a ship or object one size category smaller can be moved up to 600 feet, a ship or object of the same size category can be moved up to 300 feet, and a ship or object one size category larger can be moved up to 100 feet. If at the end of this movement the ship or object strikes another ship or object, they both take 2d8 kinetic damage.
 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
@@ -862,7 +862,7 @@ This feature can be used a number of times equal to your ship's tier (a minimum 
 _**Modification Grade:** 5_<br>
 _**Prerequisite:** Gravitic Polarization Beam_<br>
 
-As an action, a crewmember can use a gravity well projector to wrack the hull of a Large or larger ship that you can see within the projector's arc with violent gravwaves. The target must make a Constitution saving throw (DC = 8 + ship tier + the shipís Strength modifier). On a failed save, it takes 14d6 kinetic damage, or half as much damage on a successful save. The damage canít reduce the targetís hull points below 1. If the target fails the saving throw, its hull point maximum is reduced until the ship is recharged by an amount equal to the kinetic damage it took.
+As an action, a crewmember can use a gravity well projector to wrack the hull of a Large or larger ship that you can see within the projector's arc with violent gravwaves. The target must make a Constitution saving throw (DC = 8 + ship tier + the ship‚Äôs Strength modifier). On a failed save, it takes 14d6 kinetic damage, or half as much damage on a successful save. The damage can‚Äôt reduce the target‚Äôs hull points below 1. If the target fails the saving throw, its hull point maximum is reduced until the ship is recharged by an amount equal to the kinetic damage it took.
 
 This feature can be used once before a ship recharges.
 
@@ -871,16 +871,16 @@ This feature can be used once before a ship recharges.
 ### Upgraded RETROROCKETS
 _**Prerequisite:** Ship size Medium or smaller_
 
-Your ship's retrorockets allow it to abruptly reverse its thrust. As a reaction on this ship's turn, the designated pilot can activate the retrorockets and immediately move the ship 100 feet directly backward from the direction the ship is facing.
+Your ship's retrorockets allow it to abruptly reverse its thrust. As a reaction on this ship's turn, a crewmember at the helm can activate the retrorockets and immediately move the ship 100 feet directly backward from the direction the ship is facing.
 
-This feature can be used a number of times equal to your shipís tier (a minimum of once). All expended uses are regained when the ship recharges.
+This feature can be used a number of times equal to your ship‚Äôs tier (a minimum of once). All expended uses are regained when the ship recharges.
 
 ### Warhead Launcher
 _**Modification Grade:** 5_<br>
 
-As an action, a crewmember may generate a nuclear explosion in a 400-foot-radius sphere centered on a point within 1500 feet.  Every ship in that sphere must make a Dexterity saving throw (DC = 8 + ship tier + the shipís Constitution modifier). On a failed save, a target takes 40d6 fire damage and is shocked until the end of it's next turn from an electromagnetic pulse.  On a success, a ship takes half damage and is not shocked.
+As an action, a crewmember may generate a nuclear explosion in a 400-foot-radius sphere centered on a point within 1500 feet.  Every ship in that sphere must make a Dexterity saving throw (DC = 8 + ship tier + the ship‚Äôs Constitution modifier). On a failed save, a target takes 40d6 fire damage and is shocked until the end of it's next turn from an electromagnetic pulse.  On a success, a ship takes half damage and is not shocked.
 
-The explosion spreads around corners. It ignites flammable objects in the area that arenít being worn or carried.
+The explosion spreads around corners. It ignites flammable objects in the area that aren‚Äôt being worn or carried.
 
 This feature can be used once before a ship is refitted.
 
@@ -909,7 +909,7 @@ This modification cannot be installed in a ship that already has Co-Pilot Seat i
 This system adds an additional stealth function to your ship, adding a true cloaking device. As an action, your ship and everything within it is invisible for one minute.  The invisibility ends if your ship fires it's weapons, or otherwise takes a hostile action.  
 Additionally, when your ship makes a Dexterity (Hide) check while your cloaking device is active, it has advantage on the roll. If your ship already has advantage on the roll, you can instead reroll one of the dice once.
 
-This feature can be used a number of times equal to your shipís tier (a minimum of once). All expended uses are regained when the ship undergoes refitting.
+This feature can be used a number of times equal to your ship‚Äôs tier (a minimum of once). All expended uses are regained when the ship undergoes refitting.
 
 ### Cloaking Field
 ***Modification Grade** 5* <br>
@@ -935,7 +935,7 @@ Finally, your ship is proficiently equipped for Intelligence (Data) checks. If y
 
 This modification improves the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships in the same region as you as long as they are similarly equipped.
 
-Additionally, when your ship sends out communications, those communications can be encrypted, only understandable by recipients with the cipher. A crewmember can encrypt communications by making an Intelligence (Data) check, setting the decrypt DC. Your ship can also decode encrypted communications within your communications range by spending 1 minute to detect and decode communications. If any communications are intercepted, a crewmember can decrypt the message by using the correct cipher if they know it or by making an Intelligence (Data) check against the decrypt DC of the intercepted message. On a success, they decrypt the message. On a failure, they do not decrypt the encrypted message, and canít attempt to do so on the same target again for one day. 
+Additionally, when your ship sends out communications, those communications can be encrypted, only understandable by recipients with the cipher. A crewmember can encrypt communications by making an Intelligence (Data) check, setting the decrypt DC. Your ship can also decode encrypted communications within your communications range by spending 1 minute to detect and decode communications. If any communications are intercepted, a crewmember can decrypt the message by using the correct cipher if they know it or by making an Intelligence (Data) check against the decrypt DC of the intercepted message. On a success, they decrypt the message. On a failure, they do not decrypt the encrypted message, and can‚Äôt attempt to do so on the same target again for one day. 
 
 Finally, your ship is expertly equipped for Intelligence (Data) checks. If your ship is already proficiently equipped, it is instead has advantage on Intelligence (Data) checks.
 
@@ -955,7 +955,7 @@ Additionally, your ship has advantage on Intelligence (Data) checks. If they alr
 ### Communications Suppressor, Mk I
 ***Modification Grade** 1* <br>
 
-This modification adds a device designed to suppress the communications of a space station or starship within 1,000 feet of your ship. As an action, a crewmember can attempt to suppress the targetís communications by forcing them to succeed at a Charisma saving throw (DC equal to 8 + your Charisma (Interfere) bonus). On a failure, the targetís communications are suppressed for 1 hour, preventing any communication to or from external sources. On a success, they become immune to this feature for one day.
+This modification adds a device designed to suppress the communications of a space station or starship within 1,000 feet of your ship. As an action, a crewmember can attempt to suppress the target‚Äôs communications by forcing them to succeed at a Charisma saving throw (DC equal to 8 + your Charisma (Interfere) bonus). On a failure, the target‚Äôs communications are suppressed for 1 hour, preventing any communication to or from external sources. On a success, they become immune to this feature for one day.
 
 Additionally, your ship is proficiently equipped for Charisma (Interfere) checks.
 
@@ -991,7 +991,7 @@ This modification adds a reusable EMP device to disable nearby electronics.  As 
 This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.
 
 ### Flight Computer
-Once per round, this system allows a crewmember to take the Fly, Evade, or Regenerate Shield action as a bonus action on their turn, rather than as an action.
+Once per round, this system allows a crewmember at the helm to take the Fly or Evade action as a bonus action, or a crewmember to take the Regenerate Shield action as a bonus action, on their turn, rather than as an action.
 
 ### Hyperdrive, Backup
 _**Prerequisite:** Hyperdrive Slot_<br>
@@ -1096,7 +1096,7 @@ _**Modification Grade:** 2_<br>
 
 This modification adds a shield disruptor to a ship, which is used to interfere with another ship's shield. As an action, a crewmember can activate the shield disruptor and choose a ship they can see within 1,000 feet. 
 
-You make a Charisma (Interfere) check contested by the targetís Constitution (Regulate) check. On a failed save, the shipís shield regeneration rate is reduced by half for 1 minute. Additionally they take damage to their shields equal to two of their shield dice.
+You make a Charisma (Interfere) check contested by the target‚Äôs Constitution (Regulate) check. On a failed save, the ship‚Äôs shield regeneration rate is reduced by half for 1 minute. Additionally they take damage to their shields equal to two of their shield dice.
 
 At the start of each of the target ship's turns, a crewmember can use an action to repeat the saving throw, ending the effect on a success.
 
@@ -1129,7 +1129,7 @@ Finally, your ship is proficiently equipped for Dexterity (Hide) checks.  If you
 
 This system improves the stealth mode function on your ship. While your stealth device is active, your ship no longer has disadvantage on Intelligence (Probe) and Wisdom (Scan) checks that rely on scanners, and no longer has to roll on the Hyperspace Mishaps table before entering hyperspace while stealth mode is active.
 
-Additionally, your ship is expertly equipped for Dexterity (Hide) checks. If it is already expertly equipped, it instead gains a bonus equal to half the shipís tier (rounded up).
+Additionally, your ship is expertly equipped for Dexterity (Hide) checks. If it is already expertly equipped, it instead gains a bonus equal to half the ship‚Äôs tier (rounded up).
 
 ### Stealth Field
 ***Modification Grade** 3* <br>
@@ -1137,7 +1137,7 @@ Additionally, your ship is expertly equipped for Dexterity (Hide) checks. If it 
 
 This system improves the stealth mode function on your ship. While is active, your ship extends all effects of it's Stealth Device to nearby starships for one hour.
 
-Additionally, for the duration, each starship you choose within 300 feet of you has a +10 bonus to Dexterity (Hide) checks and canít be tracked except by enhanced means while within this radius.
+Additionally, for the duration, each starship you choose within 300 feet of you has a +10 bonus to Dexterity (Hide) checks and can‚Äôt be tracked except by enhanced means while within this radius.
 
 ### Threat Tracker
 You equip your ship with a specialized defensive computer system.  When you would make a Dexterity saving throw, you
@@ -1157,11 +1157,11 @@ Wisdom modifier.  All expended uses are regained when the ship recharges.
 The systems are presented in alphabetical order. If a system has prerequisites, you must meet them to install it. You can install the system at the same time that you meet its prerequisites.
 
 ### Armory
-This suite comes with storage for weapons and armor to outfit a number of crewmembers equal to twice the shipís suite capacity by size, as shown in the **Starship Size Suite Capacity** table. When installed it comes fully stocked with blaster pistols, blaster rifles, techblades, and vibroblades, as well as combat suits, mesh armor, battle armor, and light and medium shields.
+This suite comes with storage for weapons and armor to outfit a number of crewmembers equal to twice the ship‚Äôs suite capacity by size, as shown in the **Starship Size Suite Capacity** table. When installed it comes fully stocked with blaster pistols, blaster rifles, techblades, and vibroblades, as well as combat suits, mesh armor, battle armor, and light and medium shields.
 
 The armory is also equipped with both a key and a code lock. The armory can be accessed with a DC 20 Intelligence (Security Kit) check. When the armory is accessed, an alarm sounds in the Bridge and Security Suite (if it exists). If a player rolls a 25 or higher on the Intelligence (Security Kit) check to unlock the armory, or has the key or code, the alarm can be bypassed.
 
-Additionally, it comes with a number of weapon training simulators equal to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table.
+Additionally, it comes with a number of weapon training simulators equal to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table.
 
 Lastly, when a creature completes a long rest involving this suite, they gain advantage on the first attack roll they make before the start of their next long rest.
 
@@ -1174,7 +1174,7 @@ _**Prerequisite:** Ship size Large or larger_<br>
 
 This suite adds boarding pods to your ship. Boarding pods are designed to be fired at a ship, burrow into the ship's hull, and inject host droids to overcome the target ship. Each boarding pod can support ten Medium or smaller droids. The quantity of boarding pods is equal to one-hundredth of the ship's suite capacity, as shown in the **Starship Size Suite Capacity** table.
 
-Boarding pods are Small size and have a flying speed of 200 feet, a turning speed of 100 feet, an AC of 12, and 10 hull points. Boarding pods do not have weapons, but the pilot can take the Ram action. The DC for the saving throw is 12, and the target has disadvantage. On a failure, the ship takes 2d4 kinetic damage, and the pod burrows into the ship's hull, releasing its contents on the target ship.
+Boarding pods are Small size and have a flying speed of 200 feet, a turning speed of 100 feet, an AC of 12, and 10 hull points. Boarding pods do not have weapons, but can take the Ram action. The DC for the saving throw is 12, and the target has disadvantage. On a failure, the ship takes 2d4 kinetic damage, and the pod burrows into the ship's hull, releasing its contents on the target ship.
 
 
 
@@ -1226,7 +1226,7 @@ This suite comes equipped with an integrated mechanic's kit and has space for al
 
 Alternatively, this suite can house multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger.  Up to two docking bays can be combined to combine their storage capacity.
 
-Over the course of 1 minute, a pilot can launch or dock in the docking bay.
+Over the course of 1 minute, a crewmember at the helm can launch or dock in the docking bay.
 
 
 \columnbreak
@@ -1242,7 +1242,7 @@ This suite has space for all of the necessary equipment to launch and house othe
 
 Alternatively, this suite can house multiple ships of smaller size. A Large ship takes up the space of 10 Medium ships, which in turn takes up the place of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger.
 
-A pilot present in their ship can launch their ship from the rapid launch bay as an action.  A launched ship cannot be received by a rapid launch bay, and must instead be received in a docking bay of the same ship.
+A crewmember at the helm of their ship can launch their ship from the rapid launch bay as an action.  A launched ship cannot be received by a rapid launch bay, and must instead be received in a docking bay of the same ship.
 
 <div style='margin-top:24px'></div>
 
@@ -1261,7 +1261,7 @@ This suite adds an equipment room, adding 4 modification slots to your base modi
 ### Escape Pods
 _**Prerequisite:** Ship size Medium or larger_<br>
 
-This suite adds escape pods to your ship. Each escape pod comes equipped with 5 units of fuel and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in chapter 5 of the Dungeon Masterís Guide. The quantity of escape pods is equal to one-fourth the shipís suite capacity, as shown in the **Starship Size Suite Capacity** table.  
+This suite adds escape pods to your ship. Each escape pod comes equipped with 5 units of fuel and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in chapter 5 of the Dungeon Master‚Äôs Guide. The quantity of escape pods is equal to one-fourth the ship‚Äôs suite capacity, as shown in the **Starship Size Suite Capacity** table.  
 
 All expended escape pods are replaced when the ship undergoes refitting.
 
@@ -1273,7 +1273,7 @@ All expended escape pods are replaced when the ship undergoes refitting.
 ### Escape Pods, Hyperspace Capable
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Ship size Medium or larger_<br>
-This suite adds escape pods to your ship. Each escape pod comes equipped with a Class 15 hyperdrive, 5 units of fuel, and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in chapter 5 of the Dungeon Masterís Guide. The quantity of escape pods is equal to one-fourth the shipís suite capacity, as shown in the **Starship Size Suite Capacity** table.  
+This suite adds escape pods to your ship. Each escape pod comes equipped with a Class 15 hyperdrive, 5 units of fuel, and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in chapter 5 of the Dungeon Master‚Äôs Guide. The quantity of escape pods is equal to one-fourth the ship‚Äôs suite capacity, as shown in the **Starship Size Suite Capacity** table.  
 
 All expended escape pods are replaced when the ship undergoes refitting.
 
@@ -1287,7 +1287,7 @@ external docking system. While a ship is coupled to
 your ship, the ships can share primary systems as
 appropriate, and creatures can transfer between ships
 readily. If at least one external docking system is occupied
-by at least one ship, your shipís flying speed decreases
+by at least one ship, your ship‚Äôs flying speed decreases
 by 50 feet (to a minimum of 50 feet), its turning speed
 increases by 50 feet, and its hyperdrive is considered
 one class greater (to a maximum of Class 20) for
@@ -1311,7 +1311,7 @@ This suite comes equipped with hidden storage compartments, which have a capacit
 
 
 ### HOLDING CELLS
-This suite includes a security post and a number of individual holding cells equal to the shipís suite capacity by size, as shown in the **Starship Size Suite Capacity** table, equipped with both a key and a code lock. Holding cell doors are magnetically sealed to prevent them opening in the event of power failure.
+This suite includes a security post and a number of individual holding cells equal to the ship‚Äôs suite capacity by size, as shown in the **Starship Size Suite Capacity** table, equipped with both a key and a code lock. Holding cell doors are magnetically sealed to prevent them opening in the event of power failure.
 
 
 ### Hydroponics Garden
@@ -1331,7 +1331,7 @@ This suite includes all of the necessary implements and apparatuses necessary to
 
 ### Investigation Suite
 
-This suite comes with a number of investigation rooms equal up to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Investigation rooms are equipped with an integrated archaeologist kit, disguise kit, forgery kit, jewelerís implements, security kit, slicerís kit, and surveyorís implements.
+This suite comes with a number of investigation rooms equal up to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Investigation rooms are equipped with an integrated archaeologist kit, disguise kit, forgery kit, jeweler‚Äôs implements, security kit, slicer‚Äôs kit, and surveyor‚Äôs implements.
 
 While making a check with any of these tools in an investigation room, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
@@ -1356,7 +1356,7 @@ Lastly, this suite can house a number of medium beasts equal to half of the ship
 Alternatively, this suite can house beasts of other sizes. A Huge beast takes up the space of two Large beasts, which in turn takes up the place of two Medium beasts, and so on.
 
 ### Laboratory
-This suite comes with a number of laboratories equal up to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Laboratories are equipped with an integrated alchemist's kit, biotechís implements, geneticist's implements, poisonerís kit, and a spicerís kit.
+This suite comes with a number of laboratories equal up to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Laboratories are equipped with an integrated alchemist's kit, biotech‚Äôs implements, geneticist's implements, poisoner‚Äôs kit, and a spicer‚Äôs kit.
 
 While making a check with any of these tools in a laboratory, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
@@ -1367,18 +1367,18 @@ Lastly, when a creature completes a long rest involving this suite, they gain ad
 \columnbreak
 
 ### Mechanic's Shop
-This suite comes with a number of mechanical rooms equal up to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Mechanical rooms are equipped with an integrated artilleristís kit, astrotechís implements, constructorís implements, mechanicís kit, and a scavenging kit.
+This suite comes with a number of mechanical rooms equal up to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Mechanical rooms are equipped with an integrated artillerist‚Äôs kit, astrotech‚Äôs implements, constructor‚Äôs implements, mechanic‚Äôs kit, and a scavenging kit.
 
 While making a check with any of these tools in a workshop, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
 Additionally, while crafting in a mechanic's shop using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your proficiency bonus to checks you make with them, the market value increases by 10 x your character level.
 
-Lastly, this suite can house droids and constructs, depending on the shipís size:
-- **Small:** A Small mechanicís shop can house one Medium droid or construct.
-- **Medium:** A Medium mechanicís shop can house one Huge droid or construct.
-- **Large:** A Large mechanicís shop can house one Gargantuan droid or construct.
-- **Huge:** A Huge mechanicís shop can house 10 Gargantuan droids or constructs.
-- **Gargantuan:** A Gargantuan mechanicís shop can house 100 Gargantuan droids or constructs.
+Lastly, this suite can house droids and constructs, depending on the ship‚Äôs size:
+- **Small:** A Small mechanic‚Äôs shop can house one Medium droid or construct.
+- **Medium:** A Medium mechanic‚Äôs shop can house one Huge droid or construct.
+- **Large:** A Large mechanic‚Äôs shop can house one Gargantuan droid or construct.
+- **Huge:** A Huge mechanic‚Äôs shop can house 10 Gargantuan droids or constructs.
+- **Gargantuan:** A Gargantuan mechanic‚Äôs shop can house 100 Gargantuan droids or constructs.
 
 Alternatively, this suite can house constructs or droids of smaller sizes. A Gargantuan construct or droid takes up the space of two Huge constructs or droids, which in turn takes up the space of two Large constructs or droids, and so on.
 
@@ -1397,9 +1397,9 @@ When this suite is installed it comes stocked with the following items.
 - **Huge:** 100 biobeds and 40 bacta tanks.
 - **Gargantuan:** 100 biobeds and 400 bacta tanks.
 
-For every two hours spent in a biobed or one hour spent in a bacta tank, a creatureís exhaustion level is reduced by 1, and it can roll a Hit Die to recover hit points without expending the die. After two hours, a creature in a bacta tank is also cured of any poison, disease, or harmful condition (such as blinded, corroded, deafened, paralyzed, poisoned, or weakened).
+For every two hours spent in a biobed or one hour spent in a bacta tank, a creature‚Äôs exhaustion level is reduced by 1, and it can roll a Hit Die to recover hit points without expending the die. After two hours, a creature in a bacta tank is also cured of any poison, disease, or harmful condition (such as blinded, corroded, deafened, paralyzed, poisoned, or weakened).
 
-This suite also offers a number of medical stations equal up to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Medical stations are equipped with an integrated biochemistís kit and a bioanalysis kit.
+This suite also offers a number of medical stations equal up to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Medical stations are equipped with an integrated biochemist‚Äôs kit and a bioanalysis kit.
 
 While making a check with any of these tools at a medical station, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
@@ -1410,12 +1410,12 @@ Additionally, while crafting at a medical station using the integrated tools, th
 
 ### Meditation Chamber
 
-This suite comes with a number of separate unique chambers equal to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. When a forcecaster completes a long rest involving this suite, they gain temporary force points equal to their force power maximum power level + their Wisdom or Charisma modifier (their choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next long rest. 
+This suite comes with a number of separate unique chambers equal to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. When a forcecaster completes a long rest involving this suite, they gain temporary force points equal to their force power maximum power level + their Wisdom or Charisma modifier (their choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next long rest. 
 
-Additionally each chamber is equipped with integrated artificerís implements. While making a check with these tools in a meditation chamber, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
+Additionally each chamber is equipped with integrated artificer‚Äôs implements. While making a check with these tools in a meditation chamber, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
 ### Mess Hall
-This suite comes with dining areas, that can accommodate a number of civilians, crewmembers, or troopers equal to twice the shipís suite capacity by size, as shown in the **Starship Size Suite Capacity** table, as well as kitchens equal up to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Kitchens are equipped with an integrated brewerís kit and a chefís kit.
+This suite comes with dining areas, that can accommodate a number of civilians, crewmembers, or troopers equal to twice the ship‚Äôs suite capacity by size, as shown in the **Starship Size Suite Capacity** table, as well as kitchens equal up to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Kitchens are equipped with an integrated brewer‚Äôs kit and a chef‚Äôs kit.
 
 While making a check with any of these tools in a kitchen, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
@@ -1448,7 +1448,7 @@ This suite features separate rooms to house a number of creatures equal to half 
 When a creature completes a long rest involving this suite, they regain all spent Hit Dice, instead of only half, and their exhaustion level is reduced by 2, instead of only 1.
 
 ### Recreation
-This suite comes with a number of recreational areas equal up to one-fourth the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Recreational areas are equipped with integrated artistís implements, gaming sets, musical instruments, and writer's implements.
+This suite comes with a number of recreational areas equal up to one-fourth the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. Recreational areas are equipped with integrated artist‚Äôs implements, gaming sets, musical instruments, and writer's implements.
 
 While making a check with any of these tools in a recreational area, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. 
 
@@ -1464,7 +1464,7 @@ Lastly, when a creature completes a long rest involving this suite, they gain ad
 ### Remote Control Console
 _**Prerequisite:** Ship size Medium or larger_<br>
 
-This suite includes the proper equipment necessary for a crewmember to take remote control of another ship from the safety of their own ship. A number of crewmembers can be deployed at a time in remote ships from this suite equal to one quarter of the shipís suite capacity by size, as shown in the **Starship Size Suite Capacity** table. The distance at which this suite can connect to remote ships is limited by the communications of the ship this suite is installed in.
+This suite includes the proper equipment necessary for a crewmember to take remote control of another ship from the safety of their own ship. A number of crewmembers can be deployed at a time in remote ships from this suite equal to one quarter of the ship‚Äôs suite capacity by size, as shown in the **Starship Size Suite Capacity** table. The distance at which this suite can connect to remote ships is limited by the communications of the ship this suite is installed in.
 
 <div style='margin-top:20px'></div>
 
@@ -1498,10 +1498,10 @@ This suite increases the cargo capacity on your ship by its base cargo capacity,
 
 This suite comes with a number of separate unique stations equal to one-fourth the ship's suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. When a techcaster completes a long rest involving this suite, as long as they have their techcasting focus, they gain temporary tech points equal to their tech power maximum power level + their Intelligence modifier (minimum of one). When you would spend a tech point while you have temporary tech points, the temporary tech points are spent first. All temporary tech points are lost at the end of your next long rest.
 
-Additionally each station is equipped with integrated cybertechís implements. While making a check with these tools in a supercharger station, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
+Additionally each station is equipped with integrated cybertech‚Äôs implements. While making a check with these tools in a supercharger station, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
 ### Transportation
-This suite offers a single room, or series of rooms, typically located near the cockpit or entrance ramp, featuring a number of seats and individual storage, as well as communal refresher stations (one for every 16 seats), to transport a number of humanoids equal to four times the shipís suite capacity by size, as shown in the **Starship Size Suite Capacity** table.
+This suite offers a single room, or series of rooms, typically located near the cockpit or entrance ramp, featuring a number of seats and individual storage, as well as communal refresher stations (one for every 16 seats), to transport a number of humanoids equal to four times the ship‚Äôs suite capacity by size, as shown in the **Starship Size Suite Capacity** table.
 
 ### Vault
 This suite comes equipped with a vault, which has a capacity equal to half your ship's base cargo capacity, as shown in the **Starship Size Cargo Capacity** table on page 79. The vault is equipped with both a key and a code lock, and is magnetically sealed to prevent it opening in the event of power failure. The vault can be accessed with a DC 25 Intelligence (Security Kit) check. When the vault is accessed, an alarm sounds in the Bridge and Security Suite (if it exists). If a player rolls a 30 or higher on the Intelligence (Security Kit) check to unlock the vault, or has the key or code, the alarm can be bypassed.
@@ -1510,7 +1510,7 @@ This suite comes equipped with a vault, which has a capacity equal to half your 
 
 ### Workshop
 
-This suite comes with a number of workshops equal up to one-half the shipís suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. The workshops are equipped with an integrated armormechís implements, armstechís implements, artificerís implements, audiotech's implements, cybertechís implements, demolitions kit, gadgeteer's implements, munitions kit, tinkerís implements, and a trapper's kit.
+This suite comes with a number of workshops equal up to one-half the ship‚Äôs suite capacity by size (minimum of one), as shown in the **Starship Size Suite Capacity** table. The workshops are equipped with an integrated armormech‚Äôs implements, armstech‚Äôs implements, artificer‚Äôs implements, audiotech's implements, cybertech‚Äôs implements, demolitions kit, gadgeteer's implements, munitions kit, tinker‚Äôs implements, and a trapper's kit.
 
 While making a check with any of these tools in a workshop, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.
 
@@ -1571,7 +1571,7 @@ You install a central computer, complete with artificial intelligence, in your s
 _**Modification Grade:** 1_<br>
 _**Prerequisite:** Central Computer, Makeshift_<br>
 
-You improve your ship's central computer. Your ship can now take bonus actions granted by modifications.  Additionally, your ship can now take any standard action except the attack action and pilot-only actions.  
+You improve your ship's central computer. Your ship can now take bonus actions granted by modifications.  Additionally, your ship can now take any standard action except the Fire and Helm actions.  
 
 Finally, your ship gains advantage on Intelligence (Astrogation) checks.
 
@@ -1580,13 +1580,13 @@ Finally, your ship gains advantage on Intelligence (Astrogation) checks.
 _**Modification Grade:** 2_<br>
 _**Prerequisite:** Central Computer, Mk I_<br>
 
-You further improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 3. Additionally, your ship can now take reactions granted by modifications and can take the attack action with ship weapons.  It is proficient in ship weapons.  It is still limited to one action per turn.
+You further improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 3. Additionally, your ship can now take reactions granted by modifications and can take the Fire action with ship weapons.  It is proficient in ship weapons.  It is still limited to one action per turn.
 
 ### Central Computer, Mk III
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Central Computer, Mk II_<br>
 
-You greatly improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 4. Additionally, your artificial intelligence gains proficiency in Piloting, can move the ship during combat conditions, and can take pilot-only actions if designated as the pilot. 
+You greatly improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 4. Additionally, your artificial intelligence gains proficiency in Piloting, can move the ship during combat conditions, and can take the Helm action if at the helm. 
 
 ### Central Computer, Mk IV
 _**Modification Grade:** 4_<br>
@@ -1601,19 +1601,19 @@ _**Prerequisite:** Central Computer, Mk IV_<br>
 You ship's central computer has reached its maximum potential. Your artificial intelligence's proficiency bonus increases to 6. Additionally, it gains expertise in Piloting.
 
 ### Combat Thrusters, Makeshift
-Your shipís turning speed decreases by 50 feet and flying speed decreases by 50 feet.
+Your ship‚Äôs turning speed decreases by 50 feet and flying speed decreases by 50 feet.
 
 ### Combat Thrusters, Mk I
 _**Modification Grade:** 1_ <br>
 ***Prerequisite:** Dexterity 9* <br>
 
-Your shipís turning speed decreases by 50 feet.
+Your ship‚Äôs turning speed decreases by 50 feet.
 
 ### Combat Thrusters, Mk II
 _**Modification Grade:** 2_ <br>
 ***Prerequisite:** Dexterity 11, Combat Thrusters, Mk I* <br>
 
-Your shipís turning speed decreases by 50 feet.
+Your ship‚Äôs turning speed decreases by 50 feet.
 
 \columnbreak
 
@@ -1621,20 +1621,20 @@ Your shipís turning speed decreases by 50 feet.
 _**Modification Grade:** 3_ <br>
 ***Prerequisite:** Dexterity 13, Combat Thrusters, Mk II* <br>
 
-Your shipís turning speed decreases by 50 feet.
+Your ship‚Äôs turning speed decreases by 50 feet.
 
 ### Combat Thrusters, Mk IV
 _**Modification Grade:** 4_ <br>
 ***Prerequisite:** Dexterity 15, Combat Thrusters, Mk III* <br>
 
-Your shipís turning speed decreases by 50 feet.
+Your ship‚Äôs turning speed decreases by 50 feet.
 
 
 ### Combat Thrusters, Mk V
 _**Modification Grade:** 5_ <br>
 ***Prerequisite:** Dexterity 17, Combat Thrusters, Mk IV* <br>
 
-Your shipís turning speed decreases by 50 feet.
+Your ship‚Äôs turning speed decreases by 50 feet.
 
 ### Co-pilot Seat
 _**Modification Grade:** 2_<br>
@@ -1927,7 +1927,7 @@ _**Prerequisite:** Ship size Small or smaller_<br>
 
 You install a remote override that can allow your ship to be controlled from afar, provided the controller has access to a console and transmitter to control the ship from.  If proper credentials are not supplied, a successful Intelligence (Slicer Kit) check (DC = 10 + the ship's Tier + the ship's Intelligence Modifier) is required to control the ship.  If the ship is currently controlled by another party, the check is made with disadvantage.
 
-Your shipís maximum and minimum crew requirement become 1: the remote controller.  Your starship cannot benefit from features that would increase or decrease its crew capacity. The controller instead controls all aspects of the ship, as if they were deployed inside of it. 
+Your ship‚Äôs maximum and minimum crew requirement become 1: the remote controller.  Your starship cannot benefit from features that would increase or decrease its crew capacity. The controller instead controls all aspects of the ship, as if they were deployed inside of it. 
 
 The starship has disadvantage on attack rolls and ability checks while being remote controlled.
 
@@ -1951,13 +1951,13 @@ This modification allows the ship it is installed in to be remotely controlled f
 _**Modification Grade:** 3_<br>
 _**Prerequisite:** Remote Override, Mk II_<br>
 
-Additionally, your starshipís maximum crew requirement becomes 2, and can support 2 remote controllers.
+Additionally, your starship‚Äôs maximum crew requirement becomes 2, and can support 2 remote controllers.
 
 ### Remote Override, Mk IV
 _**Modification Grade:** 4_<br>
 _**Prerequisite:** Remote Override, Mk III_<br>
 
-Your starshipís maximum crew requirement becomes 3, and can support 3 remote controllers.
+Your starship‚Äôs maximum crew requirement becomes 3, and can support 3 remote controllers.
 
 Additionally, your ship can be remotely controlled from anywhere in the sector by a properly equipped controller.
 
@@ -2059,7 +2059,7 @@ _**Prerequisite:** Slave Circuit Automation_<br>
 Your ship's slave circuit automates crew functions seamlessly. You reduce the minimum crew requirement to one eighth (minimum of 1), instead of to one quarter.
 
 ### Sublight Drive, Makeshift
-Your shipís flying speed increases by 50 feet and turning speed increases by 50 feet.
+Your ship‚Äôs flying speed increases by 50 feet and turning speed increases by 50 feet.
 
 <div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
@@ -2069,32 +2069,32 @@ Your shipís flying speed increases by 50 feet and turning speed increases by 50 
 _**Modification Grade:** 1_ <br>
 ***Prerequisite:** Strength 9* <br>
 
-Your shipís flying speed increases by 50 feet.
+Your ship‚Äôs flying speed increases by 50 feet.
  
 ### Sublight Drive, Mk II
 _**Modification Grade:** 2_ <br>
 ***Prerequisite:** Strength 11, Sublight Drive, Mk I* <br>
 
-Your shipís flying speed increases by 50 feet.
+Your ship‚Äôs flying speed increases by 50 feet.
  
 ### Sublight Drive, Mk III
 _**Modification Grade:** 3_ <br>
 ***Prerequisite:** Strength 13, Sublight Drive, Mk II* <br>
 
-Your shipís flying speed increases by 50 feet.
+Your ship‚Äôs flying speed increases by 50 feet.
 
 
 ### Sublight Drive, Mk IV
 _**Modification Grade:** 4_ <br>
 ***Prerequisite:** Strength 15, Sublight Drive, Mk III* <br>
 
-Your shipís flying speed increases by 50 feet.
+Your ship‚Äôs flying speed increases by 50 feet.
 
 ### Sublight Drive, Mk V
 _**Modification Grade:** 5_ <br>
 ***Prerequisite:** Strength 17, Sublight Drive, Mk IV* <br>
 
-Your shipís flying speed increases by 50 feet.
+Your ship‚Äôs flying speed increases by 50 feet.
 
  
 ### Surge Protector
@@ -2107,7 +2107,7 @@ Through vicious-looking weaponry, forboding structure, or overwhelming displays 
 _**Modification Grade:** 1_<br>
 _**Prerequisite:** Threatening Design_<br>
 
-Your ship gains the ability to fine-tune the readings it displays to enemy craft so as to project how dangerous it is directly to their sensor readouts. As an action, a crewmember can attempt to demoralize one ship within 1,000 feet of your ships that can sense your ship by forcing it to succeed at a Wisdom saving throw (DC equal to 8 + your Charisma (Menace) bonus). On a failed save, the target cannot willingly move closer to your ship and has disadvantage on ability checks and attack rolls while it can sense your ship until the end of your ship's next turn. On a success, the target canít be affected by this modification for 1 hour.
+Your ship gains the ability to fine-tune the readings it displays to enemy craft so as to project how dangerous it is directly to their sensor readouts. As an action, a crewmember can attempt to demoralize one ship within 1,000 feet of your ships that can sense your ship by forcing it to succeed at a Wisdom saving throw (DC equal to 8 + your Charisma (Menace) bonus). On a failed save, the target cannot willingly move closer to your ship and has disadvantage on ability checks and attack rolls while it can sense your ship until the end of your ship's next turn. On a success, the target can‚Äôt be affected by this modification for 1 hour.
 
 If your ship has advantage on Charisma (Menace) checks, the targeted ship makes its saving throw at disadvantage.
 
@@ -2248,7 +2248,7 @@ When you Fire a primary weapon equipped to this hardpoint, you can use an object
 _**Modification Grade:** 1_<br>
 ***Prerequisite:*** *Fire-Linked Mounting*<br>
 
-When you make a bonus attack with a weapon equipped to this mounting, you can add the ship's damage modifier to the damage roll of the bonus attack as long as it doesnít already include that modifier.
+When you make a bonus attack with a weapon equipped to this mounting, you can add the ship's damage modifier to the damage roll of the bonus attack as long as it doesn‚Äôt already include that modifier.
 
 ### Fire-Linked Variable Compensator
 _**Modification Grade:** 2_<br>
@@ -2356,17 +2356,18 @@ The Turret Hardpoint is a modification to a Hardpoint that grants an improved fi
 _**Modification Grade:** 1_<br>
 _**Prerequisite:** Hardpoint_<br>
 
-A weapon slave array is attached to a hardpoint and used to fire the weapon effectively from a remote station.  A designated pilot taking the Attack Run, Dogfight, or Harass action and using a weapon equipped to this hardpoint is no longer limited to a forward facing arc.  
+A weapon slave array is attached to a hardpoint and used to fire the weapon effectively from a remote station.  A crewmember taking the Attack Run, Dogfight, or Harass action and using a weapon equipped to this hardpoint is no longer limited to a forward facing arc.  
 
-Additionally, when taking the Fire action with a weapon equipped to this hardpoint, a designated pilot no longer suffers disadvantage with a forward-facing limited arc. 
+Additionally, when taking the Fire action with a weapon equipped to this hardpoint, a crewmwmber at the helm no longer suffers disadvantage with a forward-facing limited arc. 
 
 ### Weapon Slave Array, Mk II
 _**Modification Grade:** 2_<br>
 _**Prerequisite:** Weapon Slave Array_<br>
 
-A designated pilot, when taking the Fire action with a weapon equipped to this hardpoint, no longer suffers disadvantage.
+A crewmember at the helm, when taking the Fire action with a weapon equipped to this hardpoint, no longer suffers disadvantage.
 
 
 <div class='footnote'>CHAPTER 4 | MODIFICATIONS</div>
 
 \pagebreakNum
+

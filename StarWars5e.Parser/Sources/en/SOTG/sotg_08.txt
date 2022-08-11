@@ -184,20 +184,19 @@ If a character already had a flying speed, they instead do not treat zero gravit
 
 <div class='classTable wide'>
 
-#### Base Hyperspace Travel Times (Hours)
-
-||***Region <br> Traveling to*** |**Deep<br> Core**|**Core**|**Colonies**|**Inner<br> Rim**|**Expansion <br>Region**|**Mid <br>Rim**|**Outer<br> Rim**|**Wild<br> Space**|**Unknown<br> Regions**|
-|:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|***Region <br>Traveling from***| -| -| -| -| -| -|-|-|-|
-|**Deep Core**       | -| 12| 18| 24| 48| 72| 96|120|144|168|
-|**Core**            | -| 24|  6| 24| 36| 60| 84| 96|120|144|
-|**Colonies**        | -| 48| 24| 12| 24| 48| 72| 96|120| 96|
-|**Inner Rim**       | -| 72| 36| 24| 18| 24| 48| 72| 96| 72|
-|**Expansion Region**| -| 96| 60| 48| 24| 24| 24| 48| 72| 96|
-|**Mid Rim**         | -|120| 84| 72| 48| 24| 36| 24| 48| 72|
-|**Outer Rim**       | -|144| 96| 96| 72| 48| 24| 48| 24| 60|
-|**Wild Space**      | -|168|120|120| 96| 72| 48| 24| 12|120|
-|**Unknown Regions** | -|192|144| 96| 72| 60| 72| 96|120| 48|
+#### Base Hyperspace Travel Times (Hours)   
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***Region Traveling to*** 
+|***Region <br>Traveling from***|**Deep<br> Core**|**Core**|**Colonies**|**Inner<br> Rim**|**Expansion <br>Region**|**Mid <br>Rim**|**Outer<br> Rim**|**Wild<br> Space**|**Unknown<br> Regions**|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|**Deep Core**       | 12| 18| 24| 48| 72| 96|120|144|168|
+|**Core**            | 24|  6| 24| 36| 60| 84| 96|120|144|
+|**Colonies**        | 48| 24| 12| 24| 48| 72| 96|120| 96|
+|**Inner Rim**       | 72| 36| 24| 18| 24| 48| 72| 96| 72|
+|**Expansion Region**| 96| 60| 48| 24| 24| 24| 48| 72| 96|
+|**Mid Rim**         |120| 84| 72| 48| 24| 36| 24| 48| 72|
+|**Outer Rim**       |144| 96| 96| 72| 48| 24| 48| 24| 60|
+|**Wild Space**      |168|120|120| 96| 72| 48| 24| 12|120|
+|**Unknown Regions** |192|144| 96| 72| 60| 72| 96|120| 48|
 
 </div>
 
@@ -262,7 +261,7 @@ When a starship enters or exits hyperspace, it generates a short burst of Cronau
 |D20&emsp;|Result|
 |:--:|:--|
 |20+    |   The ship suffers no adverse consequences.|
-|18-19    | The ship encounters dumped cargo, setting off a collision alarm. The Pilot must make a DC 15 Constitution save.  On a failure, the ship takes 3 hull dice of damage;  the ship takes half damage on a suc-<br>cess. The cargo is salvageable, it consists of 10d10 tons of cargo, each with a value of 10d10x10 credits.|
+|18-19    | The ship encounters dumped cargo, setting off a collision alarm. The ship must make a DC 15 Constitution save.  On a failure, the ship takes 3 hull dice of damage;  the ship takes half damage on a suc-<br>cess. The cargo is salvageable, it consists of 10d10 tons of cargo, each with a value of 10d10x10 credits.|
 |15-17  | The ship passes through an uncharted dust cloud, clogging sensors and communications equipment. Scan and Probe checks aboard the ship are made with disadvantage until the ship is refitted. |
 |12-14  | The ship passes too close to a supernova, overloading computer systems with solar radiation. Intelligence checks aboard the ship have disadvantage until the ship is refitted.|
 |9-11  | The ship passes through an unexpected gravity field, causing structural stress. Maneuver checks are made with disadvantage until the ship is refitted.|
@@ -330,7 +329,7 @@ When a ship is run with a crew one-tenth the size of the minimum effective crew,
 A ship cannot operate with a skeleton crew if the skeleton crew would cause the ship to operate as though it had 5 or more levels of system damage.
 
 #### Potential Damage
-At the end of every full day of operation with a skeleton crew, the pilot must make an Intelligence (Piloting) check to determine if the ship has suffered any damage as a result of operating with less than a minimum effective crew.  The DC for the check is 10 + 2 for every level of system damage the ship is operating at when the check is made.
+At the end of every full day of operation with a skeleton crew, the crewmember at the helm must make an Intelligence (Piloting) check to determine if the ship has suffered any damage as a result of operating with less than a minimum effective crew.  The DC for the check is 10 + 2 for every level of system damage the ship is operating at when the check is made.
 
 ### Maximum Crew Size
 
@@ -344,7 +343,7 @@ Some players may find themselves lacking the requisite number of crewmembers to 
 
 ##### Joining a Faction
 
-Joining a large faction, such as the Galactic Republic or the Empire might merit being given charge of a crew. Generally, the crew is still loyal to the faction, but will continue to follow the orders of the party as long as they are not at odds with the faction’s goals. Refusing missions or violating the faction’s rule may lead to a labor strike, crew abandonment, or even mutiny.
+Joining a large faction, such as the Galactic Republic or the Empire might merit being given charge of a crew. Generally, the crew is still loyal to the faction, but will continue to follow the orders of the party as long as they are not at odds with the factionâ€™s goals. Refusing missions or violating the factionâ€™s rule may lead to a labor strike, crew abandonment, or even mutiny.
 
 
 ##### Salaried Crew
@@ -360,14 +359,14 @@ The party could seek to hire a reputable crew by offering to pay them wages for 
 
 ##### Dispensational Crew
 
-The party could seek to hire a less reputable crew by offering a portion of the ship’s profits. A dispensational crew generally requires 60% of profits split amongst the crew. Such a crew has no aversions to any actions or choices made by the crew. Failing to divide profits, however, may lead to a labor strike, crew abandonment, and a higher chance of mutiny. 
+The party could seek to hire a less reputable crew by offering a portion of the shipâ€™s profits. A dispensational crew generally requires 60% of profits split amongst the crew. Such a crew has no aversions to any actions or choices made by the crew. Failing to divide profits, however, may lead to a labor strike, crew abandonment, and a higher chance of mutiny. 
 
 ##### Droid Crew
 
 The party could seek to build or purchase droids to crew their ship. Droid crews are different than humanoid crews in several different ways.
 - Droids do not require pay, but do cost 900 credits per unit to purchase (half if built by the party) and cost 2 credits per day in maintenance. 
 - Droid NPC crewmembers are considered medium-sized when determining housing arrangements. 
-- Droids do not eat, but the ship has higher energy needs to keep droids powered up. For every suite capacity worth of droid NPC crewmembers (rounded down), the ship’s fuel usage increases by 10%. 
+- Droids do not eat, but the ship has higher energy needs to keep droids powered up. For every suite capacity worth of droid NPC crewmembers (rounded down), the shipâ€™s fuel usage increases by 10%. 
 - While droids will not cause a labor strike, abandon the ship, or mutiny, failing to provide adequate power leads to one level of exhaustion for every droid NPC crewmember every day they are without power.
  
 
@@ -423,7 +422,7 @@ Starting up a starship requires many systems to boot, diagnostics to run, and me
 
 </div>
 
-&emsp;When under duress, such as in combat situations, a pilot can lead their crew through an emergency start-up procedure by having a number of crew equal to the minimum crew size spend an action to complete initiation procedures.  On their turn, the pilot leading the effort makes an Intelligence (Piloting) check as an action on their turn, and then consults the **Start-Up Procedures Results** table.
+&emsp;When under duress, such as in combat situations, a pilot can lead their crew through an emergency start-up procedure by having a number of crew equal to the minimum crew size spend an action to complete initiation procedures.  On their turn, the crewmember leading the effort makes an Intelligence (Piloting) check as an action on their turn, and then consults the **Start-Up Procedures Results** table.
 
 #### Start-Up Procedures Results
 |d20|	Result|
@@ -435,7 +434,7 @@ Starting up a starship requires many systems to boot, diagnostics to run, and me
 |26-29 | Your procedures are masterful, resulting in four completed initiation procedures.|
 |30+   |Your procedures are perfect, resulting in five completed initiation procedures.|
 
-Additionally, the ease of the check is affected by the state of repair of the ship. If the ship has maximum hull and shield points, the pilot has advantage on the check. If the ship has less than its maximum hull points, however, they have disadvantage on the check.
+Additionally, the ease of the check is affected by the state of repair of the ship. If the ship has maximum hull and shield points, the crewmember has advantage on the check. If the ship has less than its maximum hull points, however, they have disadvantage on the check.
 
 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
@@ -562,3 +561,4 @@ Repairing primary systems costs a number of credits proportionate to the ship's 
 <div class='footnote'>CHAPTER 8 | ADVENTURING</div>
 
 \pagebreakNum
+

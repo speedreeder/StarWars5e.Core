@@ -1,5 +1,3 @@
-
-
 # Chapter 10: Generating Encounters
 
 <img src='https://www.gmbinder.com/images/4mYR4C0.png' style='position:absolute;top:90px;left:75px;width:30px' />
@@ -54,7 +52,7 @@ Space is a lot less empty than one might think, and an environment that contains
 Though most combat takes place in a vacuum, some battle might take place in thick dust clouds, the upper atmosphere of a corrosive gas giant, electromagnetically charged nebulae, or even in close proximity to a star--and any of these features can damage a ship. Each hazard functions differently.
 
 #### Corrosive Gases
-Occasionally encountered in planetary atmospheres and some nebulae, corrosive gases can also be the result of massive industrial accident. If a starship enters a corrosive gas field or starts its turn there, the pilot must make a DC 12 Intelligence (Piloting) check. A starship takes 1d6 kinetic damage on a failed check, or half as much on a successful one.
+Occasionally encountered in planetary atmospheres and some nebulae, corrosive gases can also be the result of massive industrial accident. If a starship enters a corrosive gas field or starts its turn there, the crewmember at the helm must make a DC 12 Intelligence (Piloting) check. A starship takes 1d6 kinetic damage on a failed check, or half as much on a successful one.
 
 #### Dust Clouds
 Usually encountered as a part of an asteroid field, or as a part of a planetary ring system, light and moderate dust clouds provide very poor visibility. While in a dust cloud, a starship is considered *heavily obscured*.
@@ -101,3 +99,4 @@ At the beginning of every combat, PC ships typically role group initiative.  NPC
 <div class='footnote'>CHAPTER 10 | GENERATING ENCOUNTERS</div>
 
 \pagebreakNum
+

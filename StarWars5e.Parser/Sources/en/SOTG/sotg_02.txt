@@ -1,12 +1,10 @@
-
-
 # Chapter 2: Deployments
 
 <img src='https://www.gmbinder.com/images/TP83mUX.png' style='position:absolute;top:90px;left:75px;width:35px' />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dventurers are extraordinary people, driven<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can't stand against.
 
-Deployments are roles your characters can fill that are not directly correlated with their class. A character can then specialize in a specific deployment, granting a variety of features, such as the gunner's gambits or the ace's tactics. As you progress in your deployment specialization, you gain more powerful features, and some features improve. Each deployment specialization entry in this chapter includes a table summarizing the benefits you gain at every rank, and a detailed explanation of each one.
+Deployments are roles your characters can fill that are not directly correlated with their class. A character can then specialize in a specific deployment, granting a variety of features, such as the gunner's gambits or the pilot's tactics. As you progress in your deployment specialization, you gain more powerful features, and some features improve. Each deployment specialization entry in this chapter includes a table summarizing the benefits you gain at every rank, and a detailed explanation of each one.
 
 A character can fill multiple roles simultaneously, provided it can reach the appropriate equipment to utilize that deployment's features.
 
@@ -21,11 +19,11 @@ Unlike classes, when players achieve the space portion of the game, they start a
 ##### Deployments
 |Deployment  |Description|
 |:--|:--|
-|Ace|Controls the movement and tactics of the ship|
 |Coordinator|Provides motivation and organization to the crew and between ships|
 |Gunner|Controls one or more weapon emplacements|
 |Mechanic|Controls the energy production and flow of the ship|
 |Operator|Uses ship systems to locate, monitor, interfere with, and disable the enemy|
+|Pilot|Controls the movement and tactics of the ship|
 |Technician|Coordinates the defenses of the ship including running the shield projectors|
 
 </div>
@@ -36,128 +34,7 @@ Unlike classes, when players achieve the space portion of the game, they start a
 
 <img src='https://www.gmbinder.com/images/OLqIigd.png' style='position:absolute;bottom:-10px;left:0px;width:840px;z-index:1000' />
 
-\pagebreakNum
 
-## Ace
-<span style="font-variant: small-caps">Frantically, the human pilot jukes his x-wing from side-to-side,</span> trying desperately to shake his tail. In a last ditch effort, the pilot hauls back on the yolk, inverting his fighter, before quickly snapping off two proton torpedoes and vaporizing his opponent.
-
-The sullustan maneuvers his B-Wing into position above the Star Destroyer's shield batteries before dropping his payload. As he turns his craft to flee, he takes one last glance over his shoulder, just in time to see the bombs detonate the shield generator in a massive eruption.
-
-As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The twi'lek pilot immediately takes evasive maneuvers, dodging the incoming volley, before giving her ship's line of fire on the offenders.
-
-Regardless of their choice of career, their origin, and their species, all ace pilots share one thing in common; the love of flight. They thrive under pressure, be it a dogfight, a bombing run, or smuggler evading the law.
-
-\columnbreak
-
-<div class='classTable'>
-
-##### The Ace
-| Rank | Feature |
-|:---:|:---|
-| 1st | Venture, Piloting Procedure |
-| 2nd | I'll Try Spinning, Uncanny Dodge |
-| 3rd | Dependable Pilot, Cunning Avoidance |
-| 4th | That's a Good Trick, Evasion  |
-| 5th | Paragon Pilot, Ace Extraordinaire |
-
-</div>
-
-
-### Venture
-Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
-
-### Piloting Procedure
-Also at 1st rank, you learn tactics that are fueled by special dice called power dice.
-
-#### Tactics
-You learn two tactics of your choice, which are detailed under "Tactics" below. You can use only one tactic per turn, and you can only use each tactic once per round.
-
-You learn an additional tactic at 2nd, 3rd, 4th, and 5th rank in this deployment. Each time you learn a new tactic, you can also replace one tactic you know with a different one.
-
-#### Power Dice
-A power die is expended when you use it. Your ship must have a power die at the required system in order to use the tactic.  
-
-Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
-
-### Tactics
-The tactics are presented in alphabetical order.
-
-#### Attack Pattern Delta
-_**Power Die Location:** Engines_<br>
-When your ship makes a ship attack while there is a friendly ship within 100 feet of you, you can expend a power die to grant advantage to the roll. If the attack hits, add the result of the die to the attack's damage roll.
-
-
-#### Barrel Roll
-_**Power Die Location:** Engines_<br>
-When you are the target of an attack roll, you can expend a power die and attempt to maneuver out of the line of fire. Roll the die, take the result, and multiply it by 50. You immediately move that many feet in a direction of your choice. The orientation of your ship does not change.
-
-
-<img src='https://www.gmbinder.com/images/vmwsYtZ.png' style='position:absolute;bottom:4px;left:-110px;width:672px;z-index:1000;transform:scaleX(-1)' />
-
-<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
-
-\pagebreakNum
-
-<div style='margin-top:23px'></div>
-
-
-#### Break the Lock
-_**Power Die Location:** Engines_<br>
-When the ship fails a Strength, Dexterity, or Constitution saving throw, as a reaction, you can expend a power die to attempt to recover. Roll the die and add the result to the saving throw.
-
-#### Defense Screen
-_**Power Die Location:** Engines_<br>
-As a bonus action, you can expend a power die and take a defensive formation as long as there is a friendly ship within 100 feet of you. When you do so, your AC increases by the amount rolled on the die until the start of your next turn.
-
-#### Skim the Surface
-_**Power Die Location:** Engines_<br>
-As a bonus action, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's flying speed increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn.
-
-#### Snap Roll
-_**Power Die Location:** Engines_<br>
-When you are hit by a ship attack, you can expend a power die and attempt to roll to mitigate the damage. When you do so, the damage you take from the attack is reduced by the amount rolled on the die.
-
-#### Starship Charge
-_**Power Die Location:** Engines_<br>
-When you take the Ram action, you can expend a power die to increase the damage. On a failed save, the target ship takes additional kinetic damage equal to the amount rolled on the die + your ship's Strength modifier. Your ship has resistance to the additional damage dealt by this tactic.
-
-#### Target Acquired
-_**Power Die Location:** Engines_<br>
-As a bonus action, you can expend a power die and hone in on a target you can see. The next attack roll made by your ship has advantage, and if the attack hits, add the result of the die to the attack's damage roll.
-
-### I'll Try Spinning
-At 2nd rank, when you use take the Dogfight action, you can choose to have all attacks against you from the target ship have disadvantage until the beginning of your ship's next turn.
-
-Once you've used this feature, you can't use it again until you finish a long rest.
-
-\columnbreak
-
-### Uncanny Dodge
-Also at 2nd rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack's damage against your ship.
-
-### Dependable Pilot
-Starting at 3rd rank, when you would make a Dexterity (Maneuvering) check while assigned as a pilot, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. You may use this feature a number of times equal to your ranks in Ace.  You regain all expended uses when you complete a long rest.
-
-### Cunning Avoidance
-Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make a Dexterity (Maneuvering) check, and instead use that value for your AC or saving throw.
-
-### That's a Good Trick
-At 4th rank, you can take a reaction to give disadvantage to an attack declared against your ship.
-
-Once you've used this feature, you can't use it again until you finish a long rest.
-
-### Evasion
-Also at 4th rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.
-
-### Paragon Pilot
-As of 5th tier, you are a paragon of your deployment. When you would expend a power die, you can use a d4 instead of expending a die. You can only use this feature once per round.
-
-### Ace Extraordinaire
-Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Dexterity (Maneuvering) checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against your ship have disadvantage.
-
-Once you've used this feature, you can't use it again until you finish a short or long rest.
-
-<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -296,11 +173,6 @@ Finally, when a creature uses an Inspiring Display die, they take the maximum in
 \pagebreakNum
 
 
-<img src='https://www.sterlingsheehy.com/images/2015/08/The-Ghost-Crew-Toasts-Brad-Rau.jpg' style='position:absolute;bottom:0px;left:-480px;width:1676px;z-index:1000' />
-
-<div class='cover-header' style="font-family:SerifGothicStd-Black; font-size:28px; color:#222; text-shadow:none; margin-top:250px;">ART PAGE</div>
-
-\pagebreakNum
 
 
 
@@ -709,9 +581,132 @@ Once you've use this feature, you must finish a short or long rest before you ca
 \pagebreakNum
 
 
-<img src='https://cdn.discordapp.com/attachments/469499280994992128/989175546187505714/unknown.png' style='position:absolute;bottom:0px;left:0px;width:840px;z-index:1000' />
+<img src='https://www.sterlingsheehy.com/images/2015/08/The-Ghost-Crew-Toasts-Brad-Rau.jpg' style='position:absolute;bottom:0px;left:-480px;width:1676px;z-index:1000' />
 
 <div class='cover-header' style="font-family:SerifGothicStd-Black; font-size:28px; color:#222; text-shadow:none; margin-top:250px;">ART PAGE</div>
+
+\pagebreakNum
+
+## Pilot
+<span style="font-variant: small-caps">Frantically, the human pilot jukes his x-wing from side-to-side,</span> trying desperately to shake his tail. In a last ditch effort, the pilot hauls back on the yolk, inverting his fighter, before quickly snapping off two proton torpedoes and vaporizing his opponent.
+
+The sullustan maneuvers his B-Wing into position above the Star Destroyer's shield batteries before dropping his payload. As he turns his craft to flee, he takes one last glance over his shoulder, just in time to see the bombs detonate the shield generator in a massive eruption.
+
+As the light freighter exits hyperspace, the hull starts to vibrate with the impacts of cannon fire. The twi'lek pilot immediately takes evasive maneuvers, dodging the incoming volley, before giving her ship's line of fire on the offenders.
+
+Regardless of their choice of career, their origin, and their species, all ace pilots share one thing in common; the love of flight. They thrive under pressure, be it a dogfight, a bombing run, or smuggler evading the law.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### The Pilot
+| Rank | Feature |
+|:---:|:---|
+| 1st | Venture, Piloting Procedure |
+| 2nd | I'll Try Spinning, Uncanny Dodge |
+| 3rd | Dependable Pilot, Cunning Avoidance |
+| 4th | That's a Good Trick, Evasion  |
+| 5th | Paragon Pilot, Pilot Extraordinaire |
+
+</div>
+
+
+### Venture
+Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures).
+
+### Piloting Procedure
+Also at 1st rank, you learn tactics that are fueled by special dice called power dice.
+
+#### Tactics
+You learn two tactics of your choice, which are detailed under "Tactics" below. You can use only one tactic per turn, and you can only use each tactic once per round.
+
+You learn an additional tactic at 2nd, 3rd, 4th, and 5th rank in this deployment. Each time you learn a new tactic, you can also replace one tactic you know with a different one.
+
+#### Power Dice
+A power die is expended when you use it. Your ship must have a power die at the required system in order to use the tactic.  
+
+Your ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.
+
+### Tactics
+The tactics are presented in alphabetical order.
+
+#### Attack Pattern Delta
+_**Power Die Location:** Engines_<br>
+When your ship makes a ship attack while there is a friendly ship within 100 feet of you, you can expend a power die to grant advantage to the roll. If the attack hits, add the result of the die to the attack's damage roll.
+
+
+#### Barrel Roll
+_**Power Die Location:** Engines_<br>
+When you are the target of an attack roll, you can expend a power die and attempt to maneuver out of the line of fire. Roll the die, take the result, and multiply it by 50. You immediately move that many feet in a direction of your choice. The orientation of your ship does not change.
+
+
+<img src='https://www.gmbinder.com/images/vmwsYtZ.png' style='position:absolute;bottom:4px;left:-110px;width:672px;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
+
+\pagebreakNum
+
+<div style='margin-top:23px'></div>
+
+
+#### Break the Lock
+_**Power Die Location:** Engines_<br>
+When the ship fails a Strength, Dexterity, or Constitution saving throw, as a reaction, you can expend a power die to attempt to recover. Roll the die and add the result to the saving throw.
+
+#### Defense Screen
+_**Power Die Location:** Engines_<br>
+As a bonus action, you can expend a power die and take a defensive formation as long as there is a friendly ship within 100 feet of you. When you do so, your AC increases by the amount rolled on the die until the start of your next turn.
+
+#### Skim the Surface
+_**Power Die Location:** Engines_<br>
+As a bonus action, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's flying speed increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn.
+
+#### Snap Roll
+_**Power Die Location:** Engines_<br>
+When you are hit by a ship attack, you can expend a power die and attempt to roll to mitigate the damage. When you do so, the damage you take from the attack is reduced by the amount rolled on the die.
+
+#### Starship Charge
+_**Power Die Location:** Engines_<br>
+When you take the Ram action, you can expend a power die to increase the damage. On a failed save, the target ship takes additional kinetic damage equal to the amount rolled on the die + your ship's Strength modifier. Your ship has resistance to the additional damage dealt by this tactic.
+
+#### Target Acquired
+_**Power Die Location:** Engines_<br>
+As a bonus action, you can expend a power die and hone in on a target you can see. The next attack roll made by your ship has advantage, and if the attack hits, add the result of the die to the attack's damage roll.
+
+### I'll Try Spinning
+At 2nd rank, when you use take the Dogfight action, you can choose to have all attacks against you from the target ship have disadvantage until the beginning of your ship's next turn.
+
+Once you've used this feature, you can't use it again until you finish a long rest.
+
+\columnbreak
+
+### Uncanny Dodge
+Also at 2nd rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack's damage against your ship.
+
+### Dependable Pilot
+Starting at 3rd rank, when you would make a Dexterity (Maneuvering) check while assigned as a pilot, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. You may use this feature a number of times equal to your ranks in Pilot.  You regain all expended uses when you complete a long rest.
+
+### Cunning Avoidance
+Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make a Dexterity (Maneuvering) check, and instead use that value for your AC or saving throw.
+
+### That's a Good Trick
+At 4th rank, you can take a reaction to give disadvantage to an attack declared against your ship.
+
+Once you've used this feature, you can't use it again until you finish a long rest.
+
+### Evasion
+Also at 4th rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.
+
+### Paragon Pilot
+As of 5th tier, you are a paragon of your deployment. When you would expend a power die, you can use a d4 instead of expending a die. You can only use this feature once per round.
+
+### Pilot Extraordinaire
+Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Dexterity (Maneuvering) checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against your ship have disadvantage.
+
+Once you've used this feature, you can't use it again until you finish a short or long rest.
+
+<div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
 
@@ -836,3 +831,4 @@ Once you've used this feature, you must finish a long rest before you can use it
 <div class='footnote'>CHAPTER 2 | DEPLOYMENTS</div>
 
 \pagebreakNum
+

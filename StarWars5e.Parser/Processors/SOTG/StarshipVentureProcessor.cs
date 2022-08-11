@@ -36,7 +36,7 @@ namespace StarWars5e.Parser.Processors.SOTG
             {
                 if (!ventureLines[i].StartsWith("### ")) continue;
 
-                var endIndex = ventureLines.FindIndex(i + 1, string.IsNullOrWhiteSpace);
+                var endIndex = ventureLines.FindIndex(i + 1, i => i.StartsWith("### "));
                 var currentVentureLines = ventureLines.Skip(i).Take((endIndex == -1 ? ventureLines.Count - 1 : endIndex) - i).ToList();
 
                 var venture = new StarshipVenture
