@@ -111,6 +111,7 @@
 |&emsp;Path of Communion        |
 |&emsp;Path of the Corsair      |
 |&emsp;Path of Ethereality      |
+|&emsp;Path of Iron             |
 |&emsp;Path of Meditation       |
 |&emsp;Path of Synthesis        |
 |&emsp;Path of Tenacity         |
@@ -547,7 +548,7 @@ When you are reduced to 0 hit points but not killed outright, and you have at le
 
 <div class='classTable'>
 
-##### Industrial Approach Techcasting
+##### Industrial Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 |  3rd |  3 |  2 | 1st |
@@ -2355,7 +2356,7 @@ Your constant blur of motion and attacks becomes an unending barrage as you buil
 
 <div class='classTable'>
 
-##### Adept Specialist Forcecasting
+##### Adept Forcecasting
 | Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 | 3rd| 4| 3|1st|
@@ -2619,10 +2620,10 @@ _**Fireteam Specialist:** 3rd level_<br>
 Your tactical skill in combat improves, granting bonuses to your Combat Superiority.
 
 #### Improved Maneuvers 
-You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Specialist Combat Superiority table.
+You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Superiority table.
 
 #### Improved Superiority Dice
-You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Fireteam Specialist Combat Superiority table.
+You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Fireteam Superiority table.
 
 ### Lead By Example
 _**Fireteam Specialist:** 3rd level_<br>
@@ -2646,27 +2647,27 @@ This effect ends early if either you or your ally are incapacitated or die. Once
 
 <div class='classTable'>
 
-##### Fireteam Specialist<br> Combat Superiority
-| Level | Superiority<br> Dice | Maneuvers<br> Known |
+##### Fireteam Superiority
+|Level|Maneuvers<br> Known|Superiority<br> Dice Quantity|
 |:---:|:---:|:---:|:---:|
-| 3rd|4|4|
-| 4th|4|5|
-| 5th|5|6|
-| 6th|5|7|
-| 7th|6|9|
-| 8th|6|10|
-| 9th|7|11|
-|10th|7|12|
-|11th|8|14|
-|12th|8|15|
-|13th|9|16|
-|14th|9|17|
-|15th|10|19|
-|16th|10|20|
-|17th|11|21|
-|18th|11|22|
-|19th|12|23|
-|20th|12|24|
+| 3rd| 4| 4|
+| 4th| 5| 4|
+| 5th| 6| 5|
+| 6th| 7| 5|
+| 7th| 9| 6|
+| 8th|10| 6| 
+| 9th|11| 7|
+|10th|12| 7|
+|11th|14| 8|
+|12th|15| 8|
+|13th|16| 9|
+|14th|17| 9|
+|15th|19|10|
+|16th|20|10|
+|17th|21|11|
+|18th|22|11|
+|19th|23|12|
+|20th|24|12|
 
 </div>
 
@@ -2703,10 +2704,10 @@ _**Fireteam Specialist:** 3rd level_<br>
 Your tactical skill in combat improves, granting bonuses to your Combat Superiority.
 
 #### Improved Maneuvers 
-You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Specialist Combat Superiority table.
+You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Superiority table.
 
 #### Improved Superiority Dice
-You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Fireteam Specialist Combat Superiority table.
+You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Fireteam Superiority table.
 
 ### Humanoid Companion
 _**Fireteam Specialist:** 3rd, 11th, and 17th level_<br>
@@ -2736,27 +2737,27 @@ While your companion is within 5 feet of you, you can use your bonus action to b
 
 <div class='classTable'>
 
-##### Fireteam Specialist<br> Combat Superiority
-| Level | Superiority<br> Dice | Maneuvers<br> Known |
+##### Fireteam Superiority
+|Level|Maneuvers<br> Known|Superiority<br> Dice Quantity|
 |:---:|:---:|:---:|:---:|
-| 3rd|4|4|
-| 4th|4|5|
-| 5th|5|6|
-| 6th|5|7|
-| 7th|6|9|
-| 8th|6|10|
-| 9th|7|11|
-|10th|7|12|
-|11th|8|14|
-|12th|8|15|
-|13th|9|16|
-|14th|9|17|
-|15th|10|19|
-|16th|10|20|
-|17th|11|21|
-|18th|11|22|
-|19th|12|23|
-|20th|12|24|
+| 3rd| 4| 4|
+| 4th| 5| 4|
+| 5th| 6| 5|
+| 6th| 7| 5|
+| 7th| 9| 6|
+| 8th|10| 6| 
+| 9th|11| 7|
+|10th|12| 7|
+|11th|14| 8|
+|12th|15| 8|
+|13th|16| 9|
+|14th|17| 9|
+|15th|19|10|
+|16th|20|10|
+|17th|21|11|
+|18th|22|11|
+|19th|23|12|
+|20th|24|12|
 
 </div>
 
@@ -4028,7 +4029,7 @@ Additionally, when you use a Focus feature, you gain the following tech enhancem
 
 <div class='classTable'>
 
-##### Rakatan Order Techcasting
+##### Rakatan Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 |  3rd |  3 |  2 | 1st |
@@ -4627,7 +4628,7 @@ As a bonus action on your turn, you can expend one or more of your tracker droid
 
 <div class='classTable'>
 
-##### Saboteur Practice Techcasting
+##### Saboteur Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 |  3rd |  3 |  2 | 1st |
@@ -4795,7 +4796,7 @@ Those operatives who choose the Shadow Killer Practice are master assassins, the
 _**Shadow Killer Practice:** 3rd, 5th, 9th, 13th, and 17th<br> &emsp;level_<br>
 You gain proficiency with the poisoner's kit, and you can apply a poison as a bonus action.
 
-Additionally, you learn to create a number of special poison vials. Over the course of a short or long rest, you can create a two doses of poison. You must have a poisoner's kit in order to create these doses. Your doses can only be used by you, and they lose their potency at the end of your next short or long rest.
+Additionally, you learn to create a number of special poison vials. Over the course of a short or long rest, you can create two doses of poison. You must have a poisoner's kit in order to create these doses. Your doses can only be used by you, and they lose their potency at the end of your next short or long rest.
 
 As an action, you can use one of your doses to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the coated weapon must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier), taking 1d4 + your Intelligence modifier poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying.
 
@@ -4896,7 +4897,7 @@ ___
 
 <div class='classTable'>
 
-##### Archaeologist Pursuit Forcecasting
+##### Archaeologist Forcecasting
 | Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 | 3rd| 4| 3|1st|
@@ -5484,7 +5485,7 @@ You use a wristpad (found in chapter 5 of the Player's Handbook) as a tech focus
 
 <div class='classTable'>
 
-##### Slicer Pursuit Techcasting
+##### Slicer Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 |  3rd |  3 |  2 | 1st |
@@ -5781,17 +5782,17 @@ Some scouts become legends written in blaster burns. Followers of the Deadeye Te
 
 Due to their uncanny focus, Deadeyes can make shots that other marksmen would never dare to attempt. Deadeyes know how to make the most of ranged weapons and can use them to greater effect than other Scouts.
 
-### Focused Superiority
+### Deadeye Superiority
 _**Deadeye Technique:** 3rd level_<br>
 You learn maneuvers that are fueled by special dice called superiority dice. See chapter 13 for the maneuvers list.
 
 #### Maneuvers Known
-You learn two maneuvers of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the Focused Superiority table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.
+You learn two maneuvers of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the Deadeye Superiority table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.
 
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
 
 #### Superiority Dice
-You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the Focused Superiority table. This die changes as you gain scout levels, as shown in the Combat Superiority column of the scout table. A superiority die is expended when you use it. 
+You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Deadeye Superiority table. This die changes as you gain scout levels, as shown in the Superiority Dice Size column of the Deadeye Superiority table. A superiority die is expended when you use it. 
 
 You regain all of your expended superiority dice when you finish a short or long rest.
 
@@ -5820,27 +5821,27 @@ Attack rolls made against you on your turn are made with disadvantage.
 
 <div class='classTable'>
 
-##### Deadeye Technique<br> Focused Superiority
-|Level|Focused Superiority|Superiority Dice|Maneuvers Known|
+##### Deadeye Superiority
+|Level|Maneuvers<br> Known|Superiority<br> Dice Quantity|Superiority<br> Dice Size|
 |:--:|:--:|:--:|:--:|
-| 3rd| d4|2|2|
-| 4th| d4|2|2|
-| 5th| d6|3|4|
-| 6th| d6|3|4|
-| 7th| d6|3|5|
-| 8th| d6|3|5|
-| 9th| d8|4|6|
-|10th| d8|4|6|
-|11th| d8|4|7|
-|12th| d8|4|7|
-|13th|d10|5|9|
-|14th|d10|5|9|
-|15th|d10|5|10|
-|16th|d10|5|10|
-|17th|d12|6|11|
-|18th|d12|6|11|
-|19th|d12|6|12|
-|20th|d12|6|12|
+| 3rd| 2|2| d4|
+| 4th| 2|2| d4|
+| 5th| 4|3| d6|
+| 6th| 4|3| d6|
+| 7th| 5|3| d6|
+| 8th| 5|3| d6|
+| 9th| 6|4| d8|
+|10th| 6|4| d8|
+|11th| 7|4| d8|
+|12th| 7|4| d8|
+|13th| 9|5|d10|
+|14th| 9|5|d10|
+|15th|10|5|d10|
+|16th|10|5|d10|
+|17th|11|6|d12|
+|18th|11|6|d12|
+|19th|12|6|d12|
+|20th|12|6|d12|
 
 </div>
 
@@ -6042,7 +6043,7 @@ Additionally, whenever you deal ion damage to a creature, you can spend a tech p
 
 <div class='classTable'>
 
-##### Mechanist Technique Techcasting
+##### Mechanist Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 |  3rd |  7 |  5 | 2nd |
@@ -6132,7 +6133,7 @@ As a bonus action, you can cause the target of your Ranger's Quarry to emit an i
 
 <div class='classTable'>
 
-##### Mechanist Technique Techcasting
+##### Mechanist Techcasting
 | Level | Tech Powers<br> Known | Tech<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 |  3rd |  7 |  5 | 2nd |
@@ -6426,6 +6427,65 @@ _**Path of Ethereality:** 18th level_<br>
 You no longer suffer the frailty of old age, and you can't be aged abnormally. You can still die of old age, however. Additionally, you no longer need food or water, and you no longer need to sleep. Lastly, the first time you take damage on each of your turns, you can roll your Kinetic Combat die and reduce the damage by that amount.
 
 <img src='https://www.gmbinder.com/images/U2oBpf4.png' style='position:absolute;bottom:0px;left:-70px;width:610px;;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
+
+<div class='wide'>
+
+## Path of Iron 
+
+</div>
+
+Many sentinels choose to focus on a discipline that demands physical strength, reflexes, and fortitude. Those sentinels who follow the Path of Iron train their bodies to their physical peak, able to withstand nigh intolerable punishment and bolster their physical combat capabilities. 
+
+### Form Combat Training
+_**Path of Iron:** 3rd level_<br>
+You learn one lightsaber form, as detailed in the Customization Options document for Expanded Content. 
+
+Additionally, you gain proficiency in all martial light- and vibro- weapons.
+
+### Physical Conditioning
+_**Path of Iron:** 3rd level_<br>
+You've undergone special training, increasing your physical capabilities. You gain the following benefits: 
+- You gain proficiency in medium armor. If you are already proficient in medium armor, you then gain proficiency in heavy armor. While you are wearing light or medium armor, you can use your Wisdom or Charisma modifier (your choice) instead of your Dexterity modifier when determining your AC.
+- Your hit point maximum increases by 3, and it increases by 1 again whenever you gain a level in this class.
+
+\columnbreak
+
+### Enhanced Force-Empowered Self
+_**Path of Iron:** 7th level_<br>
+Through intense physical training, you've improved your body's ability to access and channel the force flowing within you. 
+
+When you would use a Force-Empowered Self option, you can choose to bolster the option, gaining an additional effect as listed below. You can only bolster a Force-Empowered Self option once per turn. 
+
+You can use these features a combined three times. You gain an additional use at 9th, 13th, and 17th level. You regain any expended uses when you finish a short or long rest.
+
+While you have no remaining uses of this feature, you can instead expend 1 force point to use it.
+
+#### Aegis
+When you bolster Deflection, when an attack would hit you before the start of your next turn, you subtract the same value rolled for Deflection from the damage taken.
+
+#### Cleave
+When you bolster Double Strike, you choose another creature within 5 feet of your target. They take damage of the same type equal to the result of the die rolled for Double Strike.
+
+#### Momentum
+When you bolster Slow Time, until the end of your turn you ignore difficult terrain, and can move along vertical surfaces and across liquids without falling during the move.
+
+### Follow Through
+_**Path of Iron:** 13th level_<br>
+When you take the Attack action on your turn, you can spend 2 force points and forgo one of your attacks to cast an at-will force power which requires you to make a melee weapon attack.
+
+### Kinetic Mastery
+_**Path of Iron:** 18th level_<br>
+Choose a lightsaber form you know. Once on each of your turns, you can use the chosen form without using your bonus action. 
+
+You can do so six times. You regain all expended uses when you complete a long rest.
+
+While you have no remaining uses of this feature, you can instead expend 1 force point to use it.
+
+<img src='https://www.gmbinder.com/images/QeDQQUo.png' style='position:absolute;bottom:15px;left:140px;width:430px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 

@@ -37,6 +37,7 @@
 |	Culisetto  	        |
 |	Dashade   	        |
 |	Defel   	        |
+|	Diathim        	    |
 |	Dowutin        	    |
 |	Draethos        	|
 |	Dug	                |
@@ -120,6 +121,7 @@
 |	Verpine	            |
 |	Voss	            |
 |	Vurk            	|
+|	Xexto               |
 |	Yevetha             |
 |	Zeltron             |
 |	Zilkin              |
@@ -2070,6 +2072,83 @@ As a defel, you have the following special traits.
 \pagebreak
 
 ___
+> ## Diathim
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Glowing white|
+> |***Hair Color***|  |Blonde, light brown|
+> |***Eye Color***|  |Varies|
+> |***Distinctions***|  |Six wings, yellow aura, hypnotic abilities|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |6'6"|+2d10"|
+> |***Weight***|  |80 lb.|x(1d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Iego|
+> |***Language***|  |Galactic Basic|
+
+<div style='margin-top:62px'></div>
+
+### Biology and Appearance
+Diathim are a mysterious species of winged sentients famed for their radiance and beauty. They often make appearances as angelic figures in the folklore of numerous species. Their bodies naturally give off an intense light, obfuscating their physical forms to the naked eye. They have three pairs of thin, translucent wings that appear fragile, but are more than capable of flight. Diathim have been known to survive in the vacuum of space without the need for protective gear, and have a mild hypnotic effect on others in their presence, adding to the legends surrounding them.
+
+### Society and Culture
+The diathim give off an aura of kindness, and are consistently described as benevolent by spacers, causing tales of their rare appearances to morph over time into the grandiose mythology of the "Angels." The diathim are reputed for their beauty, and the way in which they appear varies depending on the beholder. Diathim are fascinated by spacecraft, which often prompted them to mob any ships that found themselves in the vicinity of their homeworld Iego and its largest moon Millius Prime.
+
+Diathim have only commonly been seen gathering in flocks to welcome arriving ships, and knowledge of their habitat remains a mystery to outsiders. Although they have no apparent language of their own, they have readily adopted Galactic Basic, the common language of the galaxy.
+
+### Names
+Traditional diathim names are difficult to pronounce. When among other species, they tend to simply go by shortened nicknames for others to refer to them by.
+
+**Birth Names.** Aiubhirr'merh, D'yz'xarh, Ihuithrhe, Vyxendel'ahitraxr
+
+**Nicknames.** Mirra, Diz, Huu, Vix
+
+\columnbreak
+
+<div style='margin-top:280px'></div>
+
+### Diathim Traits
+As a diathim, you have the following special traits.
+
+***Ability Score Increase.*** Your Charisma score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Diathim reach adulthood in their late teens and live about 100 years.
+
+***Alignment.*** Diathim are naturally empathetic, causing them to tend toward the light side, though there are exceptions.
+
+***Size.*** Diathim typically stand 6 to 9 feet tall and generally weigh about 100 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Type.*** Your creature type is both aberration and humanoid.
+
+***Celestial Physiology.*** You can survive for one day within the vacuum of space.
+
+***Enthralling Hypnosis.*** You can use your psychic aura to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs.
+
+***Flight.*** You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half.
+
+***Fragile.*** Diathim are too weak to pack much of a punch. You have disadvantage on Strength saving throws, and when determining your bonus to attack and damage rolls for weapon attacks using Strength, you can’t add more than +3.
+
+***Luminescent Aura.*** Starting at 3rd level, you can use your action to amplify your radiant aura, causing a searing light to radiate from you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take psychic damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra psychic damage to one target when you deal damage to it with an attack or a power. The extra psychic damage equals your level.
+
+***Languages.*** You can speak, read, and write Galactic Basic and one extra language of your choice.
+
+<img src='https://www.gmbinder.com/images/p62j6QK.png' style='position:absolute;top:45px;right:100px;width:183px;transform:scaleX(1)' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
 > ## Dowutin, Young
 > ___
 > #### Visual Characteristics
@@ -3217,6 +3296,7 @@ ___
 > |Dashade|Force Contention|
 > |Defel|Hidden Step|
 > |Devaronian|Two Livered|
+> |Diathim|Luminescent Aura|
 > |Dowutin|Hide|
 > |Draethos|Darkvision|
 > |Dug|Fury of the Small|
@@ -3314,6 +3394,7 @@ ___
 > |Vurk|Darkvision|
 > |Weequay|Darkvision|
 > |Wookiee|Darkvision|
+> |Xexto|Split Mind|
 > |Yevetha|Aggressive|
 > |Zabrak|Darkvision|
 > |Zeltron|Two Livered|
@@ -8019,6 +8100,85 @@ As a vurk, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic and Semblan. Semblan has a very melodic feel and often evokes images of waterfalls to those who don't understand its meanings.
 
 <img src='https://www.gmbinder.com/images/68bFzyf.png' style='position:absolute;top:57px;right:92px;width:261px;z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Xexto
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Chalk white to pale yellow|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Dark blue or black|
+> |***Distinctions***|  |Four arms, long necks, spindly limbs|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |2'10"|+2d10"|
+> |***Weight***|  |45 lb.|x1 lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Troiken|
+> |***Language***|  |Xextese|
+
+<div style='margin-top:62px'></div>
+
+### Biology and Appearance
+Xexto are spindly invertebrates with four arms with six fingers and two legs with ten toes. Almond-shaped eyes dominate a small head perched atop a long neck. Their brain is split between two parts of their body; the part located in the skull controls primitive emotions and basic body functions, while another portion in their chest controls higher functions such as creative thinking and logic. It's believed that xexto's body structure and lightning-fast reflexes developed to help them escape predators while pursuing their own prey, there is no question that genetic manipulation forever altered their evolutionary development.
+
+### Society and Culture
+Although the Old Republic had long since outlawed experimentation on sentient beings, unscrupulous arkanian geneticists continued to search for primitive sentients on distant planets as fodder for their experiments. One such group found the xexto's forbears- a society of loosely organized hunter-gatherer tribes taking shelter in the trees of Troiken. Independently, they developed technologically advanced civilizations, and were on the verge of attaining interstellar travel when Republic scouts contacted them. Difficult terrain and dangerous predators found on their homeworld have led many Xexto to admire and encourage risk-taking. Despite their thrillseeking nature and willingness to take risks, xexto are generally well mannered and even-tempered. Questioning a Xexto's bravery is one way to make him or her angry. 
+
+### Names
+Xexto have very unique names, often sounding odd to outsiders. Surnames are familiar but optional.
+
+**First Names.** Babading, Cicity, Gastoro, Maila, Qinla
+
+**Surnames.** Cherum, Hevad, Qatabas, Riived, Serap
+
+\columnbreak
+
+<div style='margin-top:280px'></div>
+
+### Xexto Traits
+As a xexto, you have the following special traits.
+
+***Ability Score Increase.*** Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Xexto reach adulthood at 9 and live less than a century.
+
+***Alignment.*** Despite being avid thrillseekers, xexto are calm and even tempered, tending them towards balanced alignments, though there are exceptions.
+
+***Size.*** Xexto typically stand 3 to 5 feet tall and generally weigh about 50 lbs. Regardless of your position in that range, your size is Small.
+
+***Speed.*** Your base walking speed is 25 feet.
+
+***Dexterous.*** You have proficiency in one of the following skills: Acrobatics, Piloting, or Sleight of Hand.
+
+***Fearless.*** You have advantage on saving throws against being frightened.
+
+***Four-Armed.*** Xexto have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).
+
+***Jungle Dweller.*** Growing up in the rainforests of Troiken has left an impact. You don’t treat jungle terrain as difficult terrain.
+
+***Racer's Reflexes.*** Whenever you make a Dexterity ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You cannot do so again until you complete a short or long rest.
+
+***Split Mind.*** When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you've done so, you must complete a short or long rest before you can do so again.
+
+***Treeclimber.*** You have a climbing speed equal to your walking speed. You have advantage on Strength ability checks and saving throws that involve climbing.
+
+***Undersized.*** Your small stature makes it hard for you to wield bigger weapons. You can’t use heavy shields. Additionally, you can’t use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Xextese. Xextese is a blubbering sort of language, with many metaphors for natural phenomenon found in its vocabulary.
+
+<img src='https://www.gmbinder.com/images/JKS4d7h.png' style='position:absolute;top:-25px;right:150px;width:189px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
