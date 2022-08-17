@@ -19,6 +19,7 @@
 |&emsp;Beastmaster Approach (Companion)      |
 |&emsp;Bloodstorm Approach      |
 |&emsp;Brawling Approach        |
+|&emsp;Champion Approach        |
 |&emsp;Frenzied Approach        |
 |&emsp;Industrial Approach      |
 |&emsp;Precision Approach       |
@@ -86,6 +87,7 @@
 |&emsp;Saboteur Practice        |
 |&emsp;Sawbones Practice        |
 |&emsp;Scrapper Practice        |
+|&emsp;Shadow Killer Practice   |
 |Scholar||
 |&emsp;Archaeologist Pursuit    |
 |&emsp;Chef Pursuit             |
@@ -406,36 +408,88 @@ When you would make an unarmed strike or attack with an improvised weapon with a
 
 \pagebreak
 
-## Cyclone Approach
-The Cyclone Approach empowers the berserker's ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a whirlwind of fury and steel, cleaving through hordes of enemies.
+<div class='wide'>
 
-### Dual Wielder
-_**Cyclone Approach:** 3rd level_<br>
-When you engage in Two-Weapon Fighting, you can add your Strength or Dexterity modifier (your choice) to the damage of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.
+## Champion Approach
 
-### Double Swing
-_**Cyclone Approach:** 3rd level_<br>
-Once on each of your turns when you miss with an attack while raging, you can immediately make a melee attack with the weapon in your other hand. 
+</div>
 
-### Twisting Winds
-_**Cyclone Approach:** 6th level_<br>
-Your unpredictable movement makes you harder to hit and pin down. When you make a saving throw or ability checks to avoid being knocked prone, pushed, grappled, or restrained, it gains a bonus equal to your Strength or Dexterity modifier (your choice) as long as it doesn't already include that modifier.
+Some berserkers revel in battle for battle's sake. For berserkers of the Champion Approach, this revelry is the goal to which they constantly strive.
+
+### Champion Superiority
+_**Champion Approach:** 3rd level_<br>
+You learn maneuvers that are fueled by special dice called superiority dice. See chapter 13 for the maneuvers list.
+
+#### Maneuvers Known
+You learn two maneuvers of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the Champion Superiority table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.
+
+Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+#### Superiority Dice
+You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Champion Superiority table. This die changes as you gain berserker levels, as shown in the Superiority Dice Size column of the Champion Superiority table. A superiority die is expended when you use it. 
+
+You regain all of your expended superiority dice when you finish a short or long rest.
+
+#### Maneuver Ability
+Your maneuver ability varies based on the type of the maneuver you use. You use Strength, Dexterity, or Constitution for physical maneuvers (your choice), Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers. You use this ability whenever a maneuver refers to your maneuver ability. Additionally, you use this ability modifier when setting the saving throw DC for a maneuver you use.
+
+___
+
+<div align="center">
+
+**Maneuver save DC** = 8 + your proficiency bonus + <br>your maneuver ability modifier
+
+</div>
+
+___
+
+### Reckless Maneuvers
+_**Champion Approach:** 3rd level_<br>
+When you use your Reckless Attack feature, you have advantage on superiority die rolls that would be added to the attack or damage rolls of your affected attacks.
 
 \columnbreak
 
-<div style='margin-top:27px'></div>
+<div class='classTable'>
 
-### Mighty Leap
-_**Cyclone Approach:** 10th level_<br>
-The distance you can jump is doubled, and you do not provoke attacks of opportunity if you leave a hostile creature's reach while jumping.
+##### Champion Superiority
+|Level|Maneuvers<br> Known|Superiority<br> Dice Quantity|Superiority<br> Dice Size|
+|:--:|:--:|:--:|:--:|
+| 3rd| 2|2| d4|
+| 4th| 2|2| d4|
+| 5th| 4|3| d6|
+| 6th| 4|3| d6|
+| 7th| 5|3| d6|
+| 8th| 5|3| d6|
+| 9th| 6|4| d8|
+|10th| 6|4| d8|
+|11th| 7|4| d8|
+|12th| 7|4| d8|
+|13th| 9|5|d10|
+|14th| 9|5|d10|
+|15th|10|5|d10|
+|16th|10|5|d10|
+|17th|11|6|d12|
+|18th|11|6|d12|
+|19th|12|6|d12|
+|20th|12|6|d12|
 
-### Tornado
-_**Cyclone Approach:** 14th and 17th level_<br>
-You can become a tornado of attacks. When you take the Attack action on your turn, you can forgo one of your regular attacks to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. If you are wielding a separate melee weapon in each hand, each successful hit against a target deals damage equal to the damage dice of both weapons + your ability modifier + any other modifiers.
+</div>
 
-You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest.
+### The Thrill
+_**Champion Approach:** 6th level_<br>
+You have advantage on ability checks and saving throws to avoid being charmed or frightened, and creatures can't have advantage on ability checks or saving throws to avoid being charmed or frightened by effects that you control.
 
-<img src='https://www.gmbinder.com/images/N7AJIeU.png' style='position:absolute;bottom:-116px;right:0px;width:825px;z-index:1000;' />
+### Battlefield Euphoria
+_**Champion Approach:** 10th level_<br>
+While raging, when you score a critical hit with a melee weapon attack, and when you reduce a hostile creature to 0 hit points with a melee weapon attack, you recover an expended superiority die.
+
+### Furious Influence
+_**Champion Approach:** 14th level_<br>
+While raging, you gain the following benefits:
+- You are resistant to psychic damage.
+- When you affect an ally with a maneuver, they gain the benefit of one of your damage resistances until the start of your next turn.
+
+<img src='https://www.gmbinder.com/images/nHytg2E.png' style='position:absolute;bottom:0px;left:100px;width:270px;z-index:1000;' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | BERSERKER</div>
 
