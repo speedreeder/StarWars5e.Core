@@ -100,8 +100,8 @@ ___
 ___
 - Acid Dart
 - Capacity Boost
-- Cryogenic Volley
 - Concealed Caltrops
+- Cryogenic Volley
 - Darkvision
 - Detect Invisibility
 - Detect Traps
@@ -116,8 +116,8 @@ ___
 - Infiltrate
 - Kolto Dispenser
 - Lock
-- Magnetic Hold
 - Magnetic Field
+- Magnetic Hold
 
 \columnbreak
 ___
@@ -154,8 +154,8 @@ ___
 - Protection from Energy
 - Read Memory
 - Remove Virus
-- Scramble Interface
 - Sabotage Charges
+- Scramble Interface
 - Sending
 - Slow-release Medpac
 - Tactical Advantage
@@ -207,8 +207,8 @@ ___
 - Carbon Fog
 - Carbonite
 - Contingency
-- Disperse Energy
 - Disintegrate
+- Disperse Energy
 - Find the Path
 - Firestorm
 - Kolto Infusion
@@ -700,13 +700,13 @@ ___
 - **Range:** 30 feet
 - **Duration:** Concentration, up to 1 minute
 
-Choose up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Dexterity saving throw or be affected by this power for the duration.
+Choose up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Constitution saving throw or be affected by this power for the duration.
 
 An affected target gains 1 slowed level, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or items, it can't make more than one melee or ranged attack during its turn.
 
 If the creature attempts to cast a power with a casting time of 1 action, roll a d20. On an 11 or higher, the power doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the power. If it can't, the power is wasted.	
 
-A creature affected by this power makes another Dexterity saving throw at the end of its turn. On a successful save, the effect ends for it.
+A creature affected by this power makes another Constitution saving throw at the end of its turn. On a successful save, the effect ends for it.
 
 \columnbreak
 
@@ -1701,7 +1701,7 @@ ___
 - **Range:** 60 feet
 - **Duration:** Instantaneous 
 
-Choose up to six droids or constructs in a 30-foot-radius sphere centered on a point. Each target regains hit points equal to 3d8 + your techcasting ability modifier. This power only effects droids and constructs.
+Choose up to six droids or constructs in a 30-foot-radius sphere centered on a point. Each target regains hit points equal to 3d8 + your techcasting ability modifier. This power only affects droids and constructs.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.
 
@@ -1712,7 +1712,7 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous
 
-This ability repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn strap, or a leaking cup. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
+This ability repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn strap, or a leaking cup. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage. If you target a droid or construction with this feature, it can spend and roll one of its Hit Dice and regain that many hit points.
 
 #### Minor Defibrillation
 _At-will tech power_
@@ -2104,7 +2104,7 @@ ___
 - **Range:** Touch
 - **Duration:** Instantaneous 
 
-A droid or construct you touch regains a number of hit points equal to 1d8 + your techcasting ability modifier. This power only effects droids and constructs.
+A droid or construct you touch regains a number of hit points equal to 1d8 + your techcasting ability modifier.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
 
@@ -2340,7 +2340,7 @@ ___
 - **Range:** Touch
 - **Duration:** 1 hour
 
-This power wards a willing creature you touch and creates an energy link between you and the target until the power ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.
+This power wards a willing ally you touch and creates an energy link between you and the target until the power ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.
 
 The power ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the power is cast again on either of the connected creatures. You can also dismiss the power as an action.
 

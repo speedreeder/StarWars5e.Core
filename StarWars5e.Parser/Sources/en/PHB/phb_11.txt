@@ -101,8 +101,8 @@ ___
 - Force Concealment
 - Force Confusion
 - <div style="color:blue">Force Enlightenment</div>
-- Force Throw
 - Force Sight
+- Force Throw
 - Force Vision
 - <div style="color:red">Hallucination</div>
 - Improved Saber Throw
@@ -168,8 +168,8 @@ ___
 - <div style="color:red">Dominate Mind</div>
 - Force Breach
 - <div style="color:red">Greater Feedback</div>
-- Greater Saber Throw
 - Force Meld
+- Greater Saber Throw
 - Improved Battle Meditation
 - <div style="color:blue">Improved Force Barrier</div>
 
@@ -224,8 +224,8 @@ ___
 - Earthquake
 - Force Link
 - <div style="color:red">Maddening Darkness</div>
-- Master Force Immunity
 - <div style="color:blue">Master Force Barrier</div>
+- Master Force Immunity
 - <div style="color:red">Master Force Scream</div>
 - Mind Blank
 - <div style="color:blue">Stasis Field</div>
@@ -1423,7 +1423,7 @@ ___
 - **Range:** Touch 
 - **Duration:** Instantaneous
 
-Placing your hand on another creature you can transfer your own life force to them. You spend and roll one of your hit dice and the creature regains that many hit points. This power has no effect on droids or constructs.
+Placing your hand on another creature you can transfer your own life force to them. You spend and roll one of your Hit Dice and the creature regains that many hit points. This power has no effect on droids or constructs.
 
 \columnbreak
 
@@ -1449,7 +1449,7 @@ ___
 
 You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this power. A target takes 8d6 psychic damage on a failed save, or half as much damage on a successful one.
 
-After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success.
+After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 #### Greater Heal
 _6th-level light side power_

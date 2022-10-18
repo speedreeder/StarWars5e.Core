@@ -19,6 +19,75 @@ A feat represents a talent or an area of expertise that gives character special 
 
 You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Inspiring Leader feat requires you to have a Charisma of 13 or higher. If your Charisma is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Inspiring Leader feat until your Charisma is restored.
 
+### Spiritual Techcaster
+_**Prerequisite:** The ability to cast tech powers_<br>
+You've developed a transcendent approach to your tech prowess. Choose one from Wisdom or Charisma. You gain the following benefits:
+- Increase the chosen ability score by 1, to a maximum of 20.
+- You can use the chosen ability instead of Intelligence as your techcasting ability.
+- You can add the chosen ability instead of Intelligence when determining your maximum tech points.
+
+### Cunning Forcecaster
+_**Prerequisite:** The ability to cast force powers_<br>
+You've discovered a clever avenue to your study of the Force. Choose one from Wisdom or Charisma. You gain the following benefits:
+- Increase your Intelligence score by 1, to a maximum of 20.
+- You can use Intelligence instead of the chosen ability as your forcecasting ability.
+- You can add Intelligence instead of the chosen ability when determining your maximum force points.
+
+### Auditory Dampening
+You've developed resilience against debilitating noises, gaining the following benefits:
+- Increase your Constitution, Intelligence, or Wisdom score by 1, to a maximum of 20.
+- While you are deafened, you can make ability checks that rely on hearing with disadvantage, instead of automatically failing them.
+- You have advantage on saving throws made to avoid sonic damage.
+
+### Chemical Buffer
+You're able to neutralize caustic chemicals, mitigating their worst effects. You gain the following benefits:
+- Increase your Dexterity, Constitution, or Intelligence score by 1, to a maximum of 20.
+- You cannot be disintegrated, and you ignore the first corroded level you receive.
+- You have advantage on saving throws made to avoid acid damage.
+
+### Electrical Grounding
+You're able to avoid the brunt of electric shocks. You gain the following benefits:
+- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+- At the start of each of your turns while shocked, you can choose to have a reaction, or you can choose to be able to take both an action and a bonus action on your turn.
+- You have advantage on saving throws made to avoid lightning damage.
+
+### Force Frustrater
+You've practiced techniques to resist being manipulated by the Force. You gain the following benefits:
+- Increase your Strength, Wisdom, or Charisma score by 1, to a maximum of 20.
+- When a creature attempts to move you against your will using a force power, the maximum distance it can move you is halved.
+- You have advantage on saving throws made to avoid force damage.
+
+### Heat Shielded
+You can tolerate extremely hot temperatures. You gain the following benefits:
+- Increase your Dexterity, Consitution, or Intelligence score by 1, to a maximum of 20.
+- You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat, and you can use your bonus action to end the ignited condition on yourself, instead of your action.
+- You have advantage on saving throws made to avoid fire damage.
+
+### Metabolic Tolerance
+You've developed resilience against many poisons, gaining the following benefits:
+- Increase your Constitution, Intelligence, or Charisma score by 1, to a maximum of 20.
+- As an action or bonus action, you can expend a Hit Die to end the poisoned condition on yourself.
+- You have advantage on saving throws made to avoid poison damage.
+
+### Mindful Meditator
+You've learned meditation techniques to calm your mind. You gain the following benefits:
+- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+- You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits.
+- You have advantage on saving throws made to avoid psychic damage.
+
+### Vigorous Virility
+Thanks to the strength of your vitality, you gain the following benefits:
+- Increase your Constitution, Intelligence, or Charisma score by 1, to a maximum of 20.
+- As an action, you can expend a Hit Die to end the weakened condition on yourself.
+- Once per long rest, when you complete a short rest, you can expend a Hit Die to remove 1 level of exhaustion.
+- You have advantage on saving throws made to avoid necrotic damage.
+
+### Well-Insulated
+You can tolerate extremely cold temperatures. You gain the following benefits:
+- Increase your Dexterity, Constitution, or Intelligence score by 1, to a maximum of 20.
+- You have advantage on Constitution saving throws made to avoid exhaustion due to extreme cold, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.
+- You have advantage on saving throws made to avoid cold damage.
+
 ### Exotic Weapon Training
 Mastery of simple and martial weapons has unlocked new potential for you. You gain the following benefits:
 - Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.

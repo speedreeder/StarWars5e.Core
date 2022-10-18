@@ -19,7 +19,7 @@ ___
 
 Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities—a creature's assets as well as weaknesses.
 
-The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
+The three main rolls of the game—the ability check, the attack roll, and the saving throw—rely on the six ability scores. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
 
 This chapter focuses on how to use ability checks and saving throws, covering the fundamental activities that creatures attempt in the game. Rules for attack rolls appear in chapter 9.
 
@@ -86,7 +86,14 @@ For instance, the second bullet of the Weapon Expert feat grants conditional adv
 
 \pagebreakNum
 
-&emsp;If granting advantage or disadvantage on a roll that would have negative consequences, rather than positive benefits, advantage and disadvantage should be reversed (as logic dictates). For instance, if a creature has a penalty die on a d20 roll, such as a d4 penalty die from the *denounce* force power, and they get disadvantage on that die roll, they should roll the d4 twice and take the higher roll, instead of the lower.
+<div style='margin-top:28px'></div>
+
+&emsp;If granting advantage or disadvantage on a roll that would have negative consequences rather than positive benefits, advantage and disadvantage should be reversed (as logic dictates). For instance, if a creature has a penalty die on a d20 roll, such as a d4 penalty die from the *denounce* force power, and they get disadvantage on that die roll, they should roll the d4 twice and take the higher roll, instead of the lower.
+
+## Minimum Roll Threshold
+Certain features, such as the Great Weapon fighting style, add a minimum roll threshold, which means your dice can no longer roll below a certain amount, instead treating the die's result as the threshold. This threshold varies depending on the die size: 2 for d4, 2 for d6, 3 for d8, 4 for d10, 5 for d12, and 8 for d20.
+
+For instance, a character with the Great Weapon fight style wielding a two-handed weapon that deals 1d12 rolls a 3 on a damage die, they treat the result as if they'd rolled a 5.
 
 ## Proficiency Bonus
 Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.
@@ -103,6 +110,8 @@ In general, you don't multiply your proficiency bonus for attack rolls or saving
 Certain features, such as the Expertise class feature or Ace Pilot feat, grant expertise in a skill or tool, letting you double your proficiency bonus with that skill or tool. As usual, you can only gain expertise in a skill or tool once.
 
 Far less common, though still possible, a creature can gain expertise in a saving throw. Creatures cannot gain expertise in weapons, however.
+
+\columnbreak
 
 ## Ability Checks
 An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
@@ -128,9 +137,9 @@ If the contest results in a tie, the situation remains the same as it was before
 |Very hard	|25|
 |Nearly impossible|	30|
 
-<img src='https://www.gmbinder.com/images/gwye6qA.png' style='position:absolute;bottom:-40px;right:-180px;width:1040px;z-index:1000;' />
+<div class='footnote'>CHAPTER 7 | USING ABILITY SCORES</div>
 
-\pagebreak
+\pagebreakNum
 
 ### Additional Dice
 When making an ability check, attack roll, or saving throw, some features grant an additional die when you make the d20 roll. If features would grant multiple additional dice in such a way, you can only benefit from one of them when you make the d20 roll (you choose which effect to use). For instance, if a creature is forced to make a saving throw, and it is benefiting from both a Potent Aptitude die and the *resistance* force power, it can only use the additional die granted by one of those effects. Conversely, the same is true for penalty dice.
@@ -139,7 +148,7 @@ When making an ability check, attack roll, or saving throw, some features grant 
 In some instances, a party might be relying on the outcome made by a single party member's ability check. If multiple party members could grant that character an additional die, while that character couldn't apply multiple dice to the roll, you might consider allowing them to use the larger die provided, and to roll the die with advantage.
 
 ### Multiple Modifiers
-As with additional dice, when making an ability check, attack roll, or saving throw, some features might allow multiple modifiers being added to the check. In these cases, only two modifiers may be added to a roll, and the same modifier can't be added twice unless an effect says so. For instance, if a friendly creature makes a Constitution saving throw within range of a guardian's Aura of Presence, and that creature is also the target of a scholar's Critical Analysis, and they chose to end that Critical Analysis on themselves, they could add either that guardian's Wisdom modifier or the scholar's Intelligence modifier to their Constitution save, but not both.
+As with additional dice, when making an ability check, attack roll, or saving throw, some features might allow multiple modifiers being added to the roll. In these cases, only two modifiers may be added to a roll, and the same modifier can't be added twice unless an effect says so. For instance, if a friendly creature makes a Constitution saving throw within range of a guardian's Aura of Presence, and that creature is also the target of a scholar's Critical Analysis, and they chose to end that Critical Analysis on themselves, they could add either that guardian's Wisdom modifier or the scholar's Intelligence modifier to their Constitution save, but not both.
 
 > #### Applying During the d20 Roll
 > Some features, such as engineer's Potent Aptitude or scholar's Critical Analysis, allow a creature to choose to add an additional die or ability modifier to an ability check, attack roll, or saving throw. Unless the effect specifically says otherwise, it can be applied before or after the roll, but it must be applied before the GM determines whether the roll succeeds or fails.

@@ -405,7 +405,7 @@ As a chiss, you have the following special traits.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
-***Martial Proficiency.*** You have proficiency with light and medium armor as well as the blaster pistol, heavy pistol, and sniper rifle.
+***Martial Proficiency.*** You have proficiency with light and medium armor as well as the heavy pistol and sniper rifle.
 
 ***Politically Minded.*** You have proficiency in the Insight skill.
 
@@ -1228,7 +1228,7 @@ As a Gungan, you have the following special traits.
 
 ***Heat Sensitivity.*** You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme heat.
 
-***Martial Proficiency.*** You have proficiency with light and medium armor as well as the vibrospear and vibropike.
+***Martial Proficiency.*** You have proficiency with light and medium armor as well as the techstaff and vibropike.
 
 ***Strong-Legged.*** When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.
 
@@ -2368,3 +2368,11 @@ As a zabrak, you have the following special traits.
 <div class='footnote'>CHAPTER 2 | SPECIES</div>
 
 \pagebreakNum
+
+<style>
+  .phb#p39:after { display:none; }
+</style>
+
+<img src='https://www.gmbinder.com/images/2ETxkMF.png' style="position:absolute; right:-400px; bottom:0px; width:2600px;" />
+
+\pagebreak

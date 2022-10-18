@@ -9,6 +9,7 @@ ___
 - Detonator
 - Dismantle
 - Itemize
+- Production Values
 - Stinger
 - Tri-Shot
 - Warp Strike
@@ -20,6 +21,7 @@ ___
 - Barrage
 - Cryogenic Blow
 - Delayed Detonator
+- Fabricate Minor Trap
 - Jump
 - Jump Jet
 - Time Bomb
@@ -28,11 +30,14 @@ ___
 ___
 - Alter Self
 - Burst of Flame
+- Construct Droid
 - Greater Energy Shield
 - Irradiate
 - Jump Pad
 - Lesser Mislead
 - Spectrum Discharge
+- Transposition
+- Tune-Up
 - Wire Tow
 
 #### 3rd-level
@@ -123,6 +128,55 @@ You expel a burst of flame in a line 30 feet long and 5 feet wide, originating f
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
 
+#### Construct Droid
+_2nd-level tech power_
+___
+- **Casting Time:** 1 minute
+- **Range:** 10 feet
+- **Duration:** Concentration, up to 1 hour
+
+You construct a droid, which is deployed in an unoccupied space that you can see within range. This droid uses the Constructed Droid stat block. When you cast the power, choose a design: Probe, Pyro, or Battle. The droid resembles a Class IV droid, and the design determines certain traits in its stat block. The droid falls to pieces and disintegrates when it drops to 0 hit points or when the power ends.
+
+The droid is an ally to you and your companions. In combat, the droid shares your initiative count, but it takes its turn immediately after yours. It obeys your commands you issue through your tech focus (no action required). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.
+
+The droid is a valid target for the _tracker droid interface_ power. If that power is cast targeting the constructed droid, it only takes 1 minute to synchronize with the droid.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, use the higher level wherever the power’s level appears in the stat block.
+
+___
+> ## Constructed Droid
+>_Medium droid, unaligned_
+> ___
+> - **Armor Class** 11 + the level of the power (natural armor)
+> - **Hit Points** 20 (Probe only) or 30 (Pyro and Battle only) + 10 for each slot level above 2nd
+> - **Speed** 30 ft. (Pyro and Battle only); 0 ft. and fly 60 ft. (Probe only)
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)| 14 (+2)| 16 (+3)| 18 (+4)| 14 (+2)| 8 (-1)|
+>___
+> - **Damage Vulnerabilities** ion
+> - **Damage Resistances** necrotic, poison, psychic
+> - **Condition Immunities** disease, poisoned
+> - **Senses** darkvision 60 ft, passive Perception 12
+> - **Languages** Galactic Basic, Binary, understands the languages you speak
+> - **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Circuitry.*** The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.
+>
+> ***Surveillance (Probe Only).*** The probe is proficient in Perception and one other skill or tool of your choice.
+> ___
+> ### Actions
+> ***Multiattack.*** The droid makes a number of attacks equal to half this power’s level (rounded down).
+>
+> ***Blaster.*** *Ranged Weapon Attack:* your tech attack modifier to hit, range 60/240 ft., one target. Hit: 1d6 + 3 + the power's level energy damage.
+>
+> ***Vibroweapon. (Battle Only)*** *Melee Weapon Attack:* your tech attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the power's level kinetic damage.
+>
+> ***Flamethrower. (Pyro Only)*** The droid shoots a stream of flame from itself in a 15-foot cone. Creatures in the cone must make a Dexterity saving throw (DC = your tech save DC). On a failure, the creature takes 1d8 fire damage + 1d8 fire damage for each power level above 2nd. On a success, the creature takes half as much damage. This cannot be used with Multiattack.
+>
+
 #### Cryogenic Blow
 _1st-level tech power_
 ___
@@ -191,6 +245,26 @@ For example, you can fabricate a wooden bridge from a clump of trees, a rope fro
 Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the power is commensurate with the quality of the raw materials.
 
 Creatures or enhanced items can't be created by this power. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of tool used to craft such objects.
+
+#### Fabricate Minor Trap
+_1st-level tech power_
+___
+- **Casting Time:** 1 minute
+- **Range:** Self (30-foot radius sphere)
+- **Duration:** 24 hours, or until triggered
+
+You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can’t see the area at the time the power is cast must make a Wisdom (Perception) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your reaction to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your techcasting ability modifier.
+
+***Blaster.*** This power creates a blaster turret which fires at the target when triggered. The creature must make a Dexterity saving throw. It takes 2d10 energy damage on a failed save, or half as much on a successful one.
+
+***Pitfall.*** This power creates a 5-foot diameter, 15-foot deep pitfall in the ground beneath the creature when triggered, which must make a Dexterity saving throw. On a failed saving throw, the creature falls into the pitfall. On a success, the creature falls prone in a space within 5 feet of the pitfall. This pitfall cannot be created through manufactured terrain. Otherwise, the hole is well constructed and lasts even after the power's duration. Flying creatures avoid this trap.
+
+***Snare.*** This power creates a snare of rope, wire, vine, or webs that entangle the creature. The creature must make a Strength saving throw. A Large or larger creature has advantage on this saving throw. On a failed save, the creature takes 1d6 kinetic damage and is restrained until the start of its next turn. On a success, the creature takes half as much damage and ends its movement.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the effects increase, based on the trap.
+*Blaster.* The damage increases by 1d10 for each slot level above 1st. If cast using a slot of 3rd level or higher, this power targets creatures in a sphere centered on the triggering creature within the warded area, the radius of which is 5 feet for every two slot levels above 1st.
+*Pitfall.* The depth of the pitfall increases by 5 feet for each slot level above 1st. If cast using a slot of 3rd level or higher, the diameter of the pit is 5 feet wider for every two slot levels above 1st.
+*Snare.* The damage increases by 1d6 for each slot level above 1st. If cast using a slot of 3rd level or higher, Large creatures no longer have advantage on their saving throw. This size category increases for every two slot levels above 1st.
 
 #### Greater Energy Shield
 _2nd-level tech power_
@@ -296,6 +370,28 @@ You alter your body with tech, temporarily gaining new properties which last for
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd.
 
+#### Production Values
+_At-will tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Duration:** 1 minute
+
+You cause a minor effect within range. Choose one of the following:
+- Your natural voice booms up to three times louder than normal for 1 minute. You can also alter the sound of your voice to achieve a certain effect--to sound more intimidating, for example.
+- You cause unenhanced electronic lights to flicker, brighten, dim, or change color for 1 minute.
+- You cause harmless tremors in the ground for 1 minute.
+- You create a sound within range for up to 1 minute. The sound can range in volume from a whisper to a scream.
+- You instantaneously cause an unlocked door or window to fly open or slam shut.
+- You alter the appearance of your eyes for 1 minute.
+- You create an illusory image of an object no larger than a 5 foot cube. The illusion is purely visual.
+
+If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.
+
+A creature that witnesses the effects of this power can use its action to make an Intelligence (Investigation) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.
+
+The maximum number of active effects increases by 3 when you reach 5th level (6), 11th level (9), and 17th level (12).
+
 #### Skill Protocol
 _5th-level tech power_
 ___
@@ -361,6 +457,17 @@ A creature affected by this power can use an action to attempt to remove the det
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the kinetic damage increases by 1d6 for each slot level above 1st.
 
+#### Transposition
+_2nd-level tech power_
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Duration:** Instantaneous
+
+Another creature you can see within range has its form shimmer in a holographic configuration before collapsing. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the range of the power increases by 30 feet for each slot level above 2nd.
+
 #### Tri-Shot
 _At-will tech power_
 ___
@@ -371,6 +478,17 @@ ___
 Choose up to three creatures within range, none of whom can be more than 10 feet apart. If you choose three creatures, each target must succeed on a Dexterity saving throw or take 1d4 energy damage. If you choose two creatures, each target takes 1d6 energy damage on a failed save instead. If you choose only one creature, the target takes 1d8 energy damage on a failed save.
 
 This power's damage increases by one die when you reach 5th level (two dice), 11th level (three dice), and 17th level (four dice).
+
+#### Tune-up
+_2nd-level tech power_
+___
+- **Casting Time:** 10 minutes
+- **Range:** 30 feet
+- **Duration:** Instantaneous
+
+Up to six droids or constructs of your choice that you can see within range each regain hit points equal to 2d8 + your techcasting ability modifier.
+
+***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.
 
 #### Warp Strike
 _At-will tech power_
@@ -397,4 +515,3 @@ If a creature you grapple with this power uses its action to escape, it must suc
 This power ends if the attack misses or the grapple ends.
 
 ***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
-

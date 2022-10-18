@@ -6,6 +6,24 @@
 
 <div class='wide'>
 
+## Compound Checks
+
+</div>
+
+Occasionally, as GM, you might put forth a task for your players that is more difficult than they might be prepared for, and that task might have multiple ways to accomplish it, such as asking your operative to make an ability check to conceal a device on a highly perceptive individual. This task could be reasonable accomplished with a (Dexterity) Sleight of Hand check or a Charisma (Deception) check. Rather than choosing between the two possible checks, the player could elect to do both. If they do so, they must make two separate ability checks, but the target DC for the checks should be reduced by 5.
+
+For instance, using the above example, you might set the DC for the initial check to be 25, allowing the character to perform a Dexterity (Sleight of Hand) check or Charisma (Deception) check. The player might instead decide to attempt both checks. If they do so, they must instead succeed on a DC 20 Dexterity (Sleight of Hand) check and a DC 20 Charisma (Deception) check. If they succeed on both checks, they accomplish their task. If the fail on either check, they fail the task regardless of the outcome of the other check.
+
+### Minimum DC
+For even more difficult tasks with multiple possible solutions, characters can attempt even more ability checks. For each ability check beyond the first, the DC should decrease by 5, cumulatively, to a minimum DC of 20. For instance, a DC 30 check could instead be accomplished by two separate DC 25 ability checks or even three DC 20 ability checks, provided there are sufficient different ability checks that could apply.
+
+### Degrees of Failure
+You might also consider implementing degrees of failure if a character attempts to perform compound checks and fails one or more of them. For instance, if a character attempts a compound check with two separate ability checks and fails on one or both, you might determine the outcome for failing both to be significantly worse than only failing one.
+
+\pagebreak
+
+<div class='wide'>
+
 ## Strenuous Combat
 
 </div>

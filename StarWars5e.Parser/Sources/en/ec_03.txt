@@ -80,7 +80,8 @@
 |Operative||
 |&emsp;Bolstering Practice      |
 |&emsp;Disabling Practice       |
-|&emsp;Lethality Practice       |
+|&emsp;Gunslinger Practice      |
+|&emsp;Maverick Practice        |
 |&emsp;Performance Practice     |
 |&emsp;Pugnacity Practice       |
 |&emsp;Ruffian Practice         |
@@ -110,8 +111,8 @@
 |&emsp;Teleportation Technique  |
 |&emsp;Triage Technique         |
 |Sentinel||
+|&emsp;Path of Aggression       |
 |&emsp;Path of Communion        |
-|&emsp;Path of the Corsair      |
 |&emsp;Path of Ethereality      |
 |&emsp;Path of Iron             |
 |&emsp;Path of Meditation       |
@@ -755,7 +756,7 @@ This die increases when you reach certain levels<br> in this class: to 1d8 at 9t
 _**Way of Endurance:** 10th level_<br>
 When you take damage, you can use your reaction and expend a force point to regain health equal to 1d8 + your Wisdom or Charisma modifier (your choice, minimum of one) as long as the damage would not reduce your hit points to 0. 
 
-This die increases when you reach certain levels in this class: to 1d10 at 14th level, and to 1d12 at 18th level.
+This die increases when you reach certain levels in this class: to 1d10 at 13th level, and to 1d12 at 17th level.
 
 \columnbreak
 
@@ -4361,67 +4362,152 @@ Once you've used this feature, you must complete a short or long rest before you
 
 \pagebreak
 
-## Lethality Practice
-Those operatives who choose the Lethality Practice use disguises to get close to their enemies, then leverage the toxic power of poisons to debilitate them and capitalize on their weaknesses. 
+<div class='wide'>
 
-### Bonus Proficiencies
-_**Lethality Practice:** 3rd level_<br>
-You gain proficiency with the disguise kit and the poisoner's kit.
+## Gunslinger Practice
 
-### Assassinate
-_**Lethality Practice:** 3rd level_<br>
-You are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. Additionally, any hit you score against a creature that is surprised is a critical hit.
+</div>
 
-### Lethal Strikes
-_**Lethality Practice:** 3rd level_<br>
-You learn how to read your foes and strikes their weak points. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a lethal strike. 
+Those operatives who choose the Gunslinger Practice are the masters of the trick shot. The Gunslinger and his blaster are the perfect team, utilizing knowledge of their enemies' vulnerabilities to take advantage of every opportunity.
 
-Some of your lethal strikes require your target to make a saving throw to resist the lethal strike's effects. The saving throw DC is calculated as follows: 
+### Dive For Cover
+_**Gunslinger Practice:** 3rd, 5th, 9th, 13th, and 17th level_<br>
+You learn to quickly move into cover when under fire. Once per round, when you are the target of a ranged attack, or you are subjected to an effect that allows you to make a Dexterity saving throw, and there is cover within 10 feet of you, you can move up to 10 feet (no action required). You must end this movement in cover.
+
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
+
+### Trick Shooter
+_**Gunslinger Practice:** 3rd level_<br>
+You learn a number of trick shots you can use to debilitate enemies and impress allies. When you deal Sneak Attack damage to a creature,<br> you may choose to forgo<br> two of your Sneak Attack<br> dice to make the attack a trick shot. 
+
+Some of your trick shots require your target to make a saving throw to resist the trick shot's effects. The saving throw DC is calculated as follows: 
 
 ___
 
 <div align="center">
 
-**Lethal Strike save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
+**Trick Shot save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
 
 </div>
 
 ___
 
-#### Priming Attack
-You attempt to prime the target. The target must make a Dexterity, Constitution, or Wisdom saving throw (your choice). On a failed save, the next time you deal Sneak Attack damage against the target before the end of your next turn, you roll four additional Sneak Attack dice.
+#### Blinding Shot
+You attempt to blind the target. The target must make a Constitution saving throw or be blinded until the end of your next turn. 
 
-#### Target Assessment
-You attempt to infer crucial details about your foe. The creature must make a Charisma saving throw. On a failed save, the GM tells you two of the following characteristics of your choice:
-- Highest ability score
-- Lowest ability score
-- Strongest saving throw
-- Weakest saving throw
+#### Brutal Shot
+You attempt to knock the target prone. The target must make a Strength saving throw or be knocked prone.  
 
-#### Vulnerable Strike
-You attempt to stagger the target. The target must make a Wisdom saving throw. On a failed save, the next time you would make an attack roll against the target before the end of your next turn, you can instead force the target to make a saving throw with the ability score of your choice. On a failed save, the creature takes normal weapon damage and you can apply your Sneak Attack dice to the roll.
+#### Hampering Shot
+You attempt to hobble the enemy's movement. The target must make a Dexterity saving throw. If it fails, it gains 1 slowed level and it has disadvantage on Dexterity saving throws until the end of its next turn.
+
+### Spinning Flourish
+_**Gunslinger Practice:** 9th level_<br>
+You can flourish your weapon in an intimidating or charming manner. As an action, you can cause one creature within 60 feet to make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier). On a failed save, the target is charmed or frightened by you (your choice) until the end of your next turn. 
 
 \columnbreak
 
-<div style='margin-top:28px'></div>
+### Ricochet Shot
+_**Gunslinger Practice:** 13th level_<br>
+You learn how to work all the angles. Once per turn, when you take the Attack action and miss with a ranged weapon attack, you can repeat the attack against a different target within 10 feet of the original target (no action required).
 
-### Poisoner
-_**Lethality Practice:** 9th level_<br>
-You are a master of poisons. You can apply a poison as a bonus action, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal the application of poisons. 
+### Quickdraw
+_**Gunslinger Practice:** 17th level_<br>
+You learn to perform miracles with just a blaster and some nerve. On your first turn in combat, if you aren't surprised, you can use your action to attack creatures that have not yet acted. Choose up to six such creatures that you can see, making a ranged weapon attack against each. On a hit, you deal normal weapon damage and can apply a single trick shot to each attack made this way. 
 
-Additionally, you can improve the capability of one dose of poison. To use this benefit, you must have a poisoner's kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, the target has disadvantage on the saving throw made to resist your poison. Once you've used this feature, you must complete a long rest before you can use it again.
+Once you've used this feature, you must<br> complete a short or long rest before you<br> can use it again.
 
-### Impostor
-_**Lethality Practice:** 13th level_<br>
-You gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least 1 minute studying these three components of the person's behavior: listening to speech, examining handwriting, and observing mannerisms. If you can only study some of these aspects (such as only having writing samples, or only audio recordings), you can mimic that aspect of the person, but not other aspects you have not studied.
+<img src='https://www.gmbinder.com/images/XjjiVJp.png' style='position:absolute;bottom:8px;right:-115px;width:730px;transform:scaleX(-1);z-index:1000;' />
 
-Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
-### Death Strike
-_**Lethality Practice:** 17th level_<br>
-You've become a<br> master of instant<br> death. When you<br> deal weapon<br> damage to a<br> creature that is<br> surprised, it must<br> make a Constitution<br> saving throw against<br> your lethal strike<br> save DC. On a <br>failed save, double<br> the damage of<br> your attack against<br> the creature.
+\pagebreak
 
-<img src='https://www.gmbinder.com/images/I1BaV1C.png' style='position:absolute;bottom:17px;right:-40px;width:515px;z-index:1000;' />
+<div class='wide'>
+
+## Maverick Practice
+
+</div>
+
+There are those who, when thrust into danger, use unexpected methods to achieve victory. Those operatives who choose the Maverick Practice draw on a wide array of skills, learning new ways to apply them, as their strongest asset.
+
+### Maverick Superiority
+_**Maverick Practice:** 3rd level_<br>
+You learn maneuvers that are fueled by special dice called superiority dice. See chapter 13 for the maneuvers list.
+
+#### Maneuvers Known
+You learn two maneuvers of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the Maverick Superiority table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.
+
+Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+#### Superiority Dice
+You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Maverick Superiority table. This die changes as you gain operative levels, as shown in the Superiority Dice Size column of the Maverick Superiority table. A superiority die is expended when you use it. 
+
+You regain all of your expended superiority dice when you finish a short or long rest.
+
+#### Maneuver Ability
+Your maneuver ability varies based on the type of the maneuver you use. You use Strength, Dexterity, or Constitution for physical maneuvers (your choice), Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers. You use this ability whenever a maneuver refers to your maneuver ability. Additionally, you use this ability modifier when setting the saving throw DC for a maneuver you use.
+
+___
+
+<div align="center">
+
+**Maneuver save DC** = 8 + your proficiency bonus + <br>your maneuver ability modifier
+
+</div>
+
+___
+
+### Know a Bit
+_**Maverick Practice:** 3rd level_<br>
+You can add half your proficiency bonus to any ability check you make that doesn't already include your proficiency bonus.
+
+### Outplayed
+_**Maverick Practice:** 9th level_<br>
+When a creature fails a saving throw or ability check against you or an effect you control, you don't need advantage on your attack roll to use Sneak Attack, you can't have disadvantage on attack rolls against that creature, and that creature can't have advantage on ability checks and saving throws against effects you control. These effects last until the end of your next turn.
+
+\columnbreak
+
+<div class='classTable'>
+
+##### Maverick Superiority
+|Level|Maneuvers<br> Known|Superiority<br> Dice Quantity|Superiority<br> Dice Size|
+|:--:|:--:|:--:|:--:|
+| 3rd| 2|2| d4|
+| 4th| 2|2| d4|
+| 5th| 4|3| d6|
+| 6th| 4|3| d6|
+| 7th| 5|3| d6|
+| 8th| 5|3| d6|
+| 9th| 6|4| d8|
+|10th| 6|4| d8|
+|11th| 7|4| d8|
+|12th| 7|4| d8|
+|13th| 9|5|d10|
+|14th| 9|5|d10|
+|15th|10|5|d10|
+|16th|10|5|d10|
+|17th|11|6|d12|
+|18th|11|6|d12|
+|19th|12|6|d12|
+|20th|12|6|d12|
+
+</div>
+
+### Practice Makes Perfect
+_**Maverick Practice:** 13th and 17th level_<br>
+When you make an ability check as part of or that is affected by a maneuver you use, you can choose to increase your level of proficiency in that check by one step (from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).
+
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a long rest.
+
+### Flow State
+_**Maverick Practice:** 17th level_<br>
+As an action, you can choose to intensely focus for one minute, gaining the following benefits:
+- Once on each of your turns, when you use a maneuver, you can use a d4 instead of expending a superiority die.
+- You can't have disadvantage on ability checks or saving throws.
+- Creatures can't have advantage on attack rolls against you.
+
+Once you've used this feature, you must complete a long rest before you can use it again.
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | OPERATIVE</div>
 
@@ -6361,6 +6447,44 @@ Your healing becomes even more potent. When you restore hit points or grant temp
 
 \pagebreak
 
+<div class='wide'>
+
+## Path of Aggression
+
+</div>
+
+From the murky depths of the dark side comes seething fury. Those sentinels who follow the Path of Aggression charge their weapon with lightning, culminating in a massive discharge that can ravage their opponents.
+
+### Voltaic Slash
+_**Path of Aggression:** 3rd level_<br>
+Starting when you choose this calling at 3rd level, you learn the *lightning charge* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and when you deal lightning damage with the *lightning charge* force power, you deal additional lightning damage equal to half your Wisdom or Charisma modifier (your choice, minimum of one) if it doesn't already include that modifier.
+
+### Thunderous Momentum
+_**Path of Aggression:** 3rd level_<br>
+Your stride becomes nigh unbreakable. You are immune to the shocked condition, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.
+
+\columnbreak
+
+### Entropic Rush
+_**Path of Aggression:** 7th level_<br>
+You've learned to move with speed and precision, discharging your lightning in a massive burst. When you move at least half your speed before casting *lightning charge*, you make the attack roll with advantage. Additionally, on a hit, the lightning can leap a second time, to a third creature within range or back to the first creature.
+
+### Living Current
+_**Path of Aggression:** 13th level_<br>
+You've learned to channel the damage done to you to enhance your strikes. The first time you deal damage on your turn, if you took damage since the start of your last turn, you can deal additional lightning damage equal to your Kinetic Combat die + half the amount of damage taken.
+
+You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest.
+
+### Retaliatory Strike
+_**Path of Aggression:** 18th level_<br>
+When a creature hits you with an attack while within 5 feet of you, you can use your reaction to cast the *lightning charge* force power, targeting them.
+
+<img src='https://www.gmbinder.com/images/DSR5EWH.png' style='position:absolute;bottom:14px;left:66px;width:730px;;z-index:1000;transform:scaleX(-1)' />
+
+<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
+
+\pagebreak
+
 ## Path of Communion
 Those who master the Force can transcend death, persisting beyond their natural experation. Those sentinels who follow the Path of Communion bond with a Force ghost, developing a symbiotic relationship which alters the way they perceive their surroundings.
 
@@ -6409,43 +6533,6 @@ When a creature fails its saving throw against your Invasive Presence feature, t
 While the target is charmed, you and your spirit have a telepathic link with it as long as you are within 100 feet of it. You and your spirit can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
 You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
-
-<div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
-
-\pagebreak
-
-## Path of the Corsair
-There may come a time when a sentinel finds themselves stranded, hunted, or in any situation where they must hide their nature as a force wielder. Those sentinels who follow the Path of the Corsair make use of alternative weaponry not commonly associated with force-wielders to great effect.
-
-### Scavenger's Reach
-_**Path of the Corsair:** 3rd level_<br>
-You learn the *force disarm* force power, which does not count against your total powers known. Additionally, you can use Double Strike Force-Empowered Self option to deal kinetic damage when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* force power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.
-
-### Corsair Weapons
-_**Path of the Corsair:** 3rd level_<br>
-You can use the force to quickly learn the use of unfamiliar weapons. When you hold a weapon that you are not proficient in, you can spend 1 force point (no action required) to gain proficiency with that weapon until the end of your next long rest. 
-
-Additionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range.
-
-### Force-Empowered Detonators
-_**Path of the Corsair:** 7th level_<br>
-You learn to infuse a number of small detonators with the Force. Over the course of a short or long rest, you can create a number of detonators equal to your Wisdom or Charisma modifier (your choice, minimum of one). Your detonators can only be used by you, and they lose their potency at the end of your next short or long rest.
-
-As a bonus action on each of your turns, you can throw one of your detonators at a point within range. Your detonators have a range equal to 30 feet + your Wisdom or Charisma modifier x 5. Make a universal ranged force attack. On a hit, the detonator adheres to the target, and if the target is a Large or smaller creature, it is pushed back 5 feet. On a miss, it falls to the ground. Hit or miss, the detonator then explodes. The target and each creature within 5 feet must make a Dexterity saving throw against your universal force save DC. If the detonator adhered to a target, the creature has disadvantage on the saving throw. A creature takes force damage using your Kinetic Combat die + your Wisdom or Charisma modifier (your choice) on a failed save, or half as much on a successful one.
-
-\columnbreak
-
-<div style='margin-top:28px'></div>
-
-### Energized Kinetics
-_**Path of the Corsair:** 13th level_<br>
-Once per turn, when you deal damage with a Force-Empowered Detonator or your Double Strike feature, you can deal additional damage using your Kinetic Combat die. The damage type is force, lightning, necrotic, or psychic (your choice).
-
-### Disorienting Detonations
-_**Path of the Corsair:** 18th level_<br>
-When a creature fails the saving throw against your Force-Empowered Detonators feature, you can spend 2 force points to subject it to the effects of one of the following force powers: *affliction, force blind/deafen, stun,* or *stun droid*. They automatically fail the saving throw for the selected power, but the effects only last until the end of your next turn.
-
-<img src='https://www.gmbinder.com/images/GSI1y6J.png' style='position:absolute;bottom:28px;right:35px;width:400px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>EXPANDED CONTENT | ARCHETYPES | SENTINEL</div>
 

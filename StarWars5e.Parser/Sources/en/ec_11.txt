@@ -8,6 +8,7 @@
 ___
 - Break
 - <div style="color:blue">Defensive Technique</div>
+- Phaseshift
 - Pyrokinesis
 - Wall Run
 
@@ -26,24 +27,32 @@ ___
 #### 2nd-level
 ___
 - Battle Mind
+- Improved Force Intuition
 - Improved Pyrokinesis
 - <div style="color:red">Kinetite</div>
 - <div style="color:red">Probe Mind</div>
 - Pull Earthward
 - Saber Strike
+- Sense Shatterpoint
+- Vitality Shield
 - Wakefulness
 
 #### 3rd-level
 ___
 - Art of Movement
+- Saber Slash
 
 #### 4th-level
 ___
 - Greater Pyrokinesis
+- <div style="color:red">Improved Kinetite</div>
+- Saber Dance
 - Saber Onslaught
 
 #### 5th-level
 ___
+- <div style="color:red">Greater Kinetite</div>
+- Reveal Shatterpoint
 
 #### 6th-level
 ___
@@ -148,6 +157,20 @@ Your senses attune to your environment for the duration, allowing you to see thi
 
 In addition, once during the duration of this power, if you are surprised at the start of combat, rather than being completely unable to act, you can still use a reaction, and take an action on your first turn in combat. This action can be used only to take one of the following actions: Dash, Disengage, Dodge, Hide, or Use an Object.
 
+#### Greater Kinetite
+_5th-level dark side power_
+___
+- **Prerequisite:** Kinetite
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Duration:** Concentration, up to 1 minute
+
+A 5-foot diameter sphere of compressed lightning appears in an unoccupied space of your choice and lasts for the duration. Each creature within 5 feet of the sphere when the power is cast must make a Dexterity saving throw. A creature takes 5d8 lightning damage on a failed save, or half as much damage on a successful one. 
+
+As a bonus action on each of your turns, you can move the ball of lightning up to 30 feet vertically or horizontally. If you ram the sphere into a creature, that creature must make a Dexterity saving throw or take 5d8 kinetic damage (or half as much damage on a success), and the sphere stops moving this turn. A creature takes half as damage on a successful Dexterity saving throw.
+
+***Force Potency.*** When you cast this power with a force slot of 6th level or higher, both the lightning and kinetic damage increase by 1d8 for each slot level above 5th.
+
 #### Greater Pyrokinesis
 _4th-level universal power_
 ___
@@ -172,6 +195,32 @@ ___
 - **Duration:** 1 round
 
 Through the Force, you sense a sudden shift in your environment, and can seize on it with great speed. You gain advantage on your initiative check, and until the end of your first turn in combat, your walking speed increases by 30 feet.
+
+#### Improved Force Intuition
+_2nd-level universal power_
+___
+- **Prerequisite:** Force Intuition
+- **Casting Time:** 1 reaction, which you take when you would roll initiative
+- **Range:** Self
+- **Duration:** Concentration, up to 1 minute
+
+You make your initiative check at advantage, and gain a +2 bonus to AC until the power ends. In addition, until the end of your first turn in the combat, your speed increases by 10 feet and you add 1d4 to your attack rolls. This power ends early if you fail a saving throw or are hit by an attack.
+
+#### Improved Kinetite
+_4th-level dark side power_
+___
+- **Prerequisite:** Kinetite
+- **Casting Time:** 1 action
+- **Range:** 150 feet
+- **Duration:** Concentration, up to 1 minute
+
+A 20-foot-radius sphere of compressed lightning springs into existence centered on a point you choose within range. The sphere remains for the power’s duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take 2d6 kinetic damage. The sphere’s space is difficult terrain.
+
+Until the power ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged force attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes 4d6 lightning damage.
+
+Creatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) checks made to listen.
+
+***Force Potency.*** When you cast this power with a force slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th.
 
 #### Improved Pyrokinesis
 _2nd-level universal power_
@@ -246,6 +295,15 @@ A storm made up of sheets of roaring, Force-enhanced flame appears in a location
 
 The flame damages objects in the area and ignites flammable objects that aren't being worn or carried.
 
+#### Phaseshift
+_At-will universal power_
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Duration:** Instantaneous
+
+Too quickly for untrained eyes to perceive, you shift in position. You can move up to 5 feet, and this movement does not provoke opportunity attacks.
+
 #### Probe Mind
 _2nd-level dark side power_
 ___
@@ -293,6 +351,16 @@ The fire ignites flammable objects in its area that aren't being worn or carried
 
 The power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
+#### Reveal Shatterpoint
+_5th-level universal power_
+___
+- **Prerequisite:** Sense Shatterpoint
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Duration:** Concentration, up to 1 minute
+
+You focus on a creature you can see within range, and gain uncanny insight on its defenses and capabilities through the Force. The target must make a Charisma saving throw. On a failed save, you have advantage on attack rolls against that creature, and it has disadvantage on attack rolls against you for the duration. On a successful save, you have advantage on the next attack roll you make against that creature, and it has disadvantage on its next attack roll against you. Once both attacks have been made, the power ends.
+
 #### Saber Assault
 _1st-level universal power_
 ___
@@ -309,6 +377,22 @@ The first time you take the Attack action during your turn, you can simultaneous
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by 1d6 for every two slot levels above 1st.
 
+#### Saber Dance
+_4th-level universal power_
+___
+- **Prerequisite:** Animate Weapon
+- **Casting Time:** 1 action
+- **Range:** Self (10-foot radius)
+- **Duration:** Concentration, up to 1 minute
+
+A light- or vibro-weapon of your choice that you are wearing or carrying begins to animate, spinning around your body at high speeds in a 10-foot radius centered on you. For the duration, your movement speed is halved, and the weapon moves with you.
+
+When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must make a Dexterity saving throw or take 4d10 damage of the weapon's type, or half as much damage on a successful saving throw.
+
+When this power ends, you can immediately recall the weapon to your hand.
+
+***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the radius of the power increases to 15 feet, and the power's damage increases by 1d10 for each slot level above 4th.
+
 #### Saber Onslaught
 _4th-level universal power_
 ___
@@ -320,6 +404,28 @@ ___
 You assume a battle stance. Until the end of your turn, your movement does not provoke opportunity attacks. Additionally, whenever you move, you can make one melee weapon attack against each creature you move within 5 feet of for the first time this turn. On a hit, the attack deals an extra 1d6 damage of the weapon's type, and the target must make a Strength saving throw. On a failed save, you can choose to either knock the target prone, or push it 5 feet away from you.
 
 ***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by 1d6 for each slot level above 4th.
+
+#### Saber Slash
+_3rd-level universal power_
+___
+- **Prerequisite:** Saber Strike
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Duration:** Instantaneous
+
+You move in a burst of speed to deliver a deadly blow. When you cast this power, you must be wielding a melee weapon with which you are proficient, otherwise, the power fails. As part of the action used to cast this power, you move in a straight line to an unoccupied space within the power's range and strike a creature within your weapon's range. Opportunity attacks provoked by this movement have disadvantage. The creature must make a Dexterity saving throw. On a failed save, it takes damage equal to three rolls of the weapon's damage dice + 4d4 force damage, or half as much damage on a successful one.
+
+***Force Potency.*** When you cast this power using a force slot of 4th level or higher, the force damage increases by 1d4 for each slot level above 3rd.
+
+#### Sense Shatterpoint
+_2nd-level universal power_
+___
+- **Prerequisite:** Battle Insight
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Duration:** Concentration, up to 1 round
+
+You seek deeper insight into the defenses of a creature you can see within range. Until the end of your next turn, you have advantage on your next two attack rolls against the target.
 
 #### Saber Strike
 _2nd-level universal power_
@@ -355,6 +461,18 @@ You establish a telepathic link with one willing creature you touch. Until the p
 You don't need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. The creature can respond to you telepathically as well, but it must understand at least one language in order to communicate this way. This power has no effect on droids or constructs.
 
 ***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the duration increases to concentration, up to 1 hour, and if either you or the creature you are linked to are surprised while the other isn't, and both of you can see each other, the surprised creature can still act normally on its first turn in combat, as if it were not surprised.
+
+#### Vitality Shield
+_2nd-level universal power_
+___
+- **Prerequisite:** Force Body
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Duration:** 1 hour
+
+You siphon some of your own vitality to create a barrier in the Force around yourself. You take 2d8 true damage, and gain a number of temporary hit points equal to twice the amount of damage you took. If this damage would reduce your hit points to 0, the power fails. While you have these temporary hit points, you have advantage on Strength, Dexterity and Constitution saving throws. Any remaining temporary hit points are lost when this power ends.
+
+***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the true damage increases by 1d8 for each slot level above 2nd.
 
 #### Wakefulness
 _2nd-level universal power_

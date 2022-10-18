@@ -17,6 +17,7 @@
 |	Aing-Tii        	|
 |	Aleena              |
 |	Anomid        	    |
+|	Anx        	        |
 |	Anzellan        	|
 |	Aqualish        	|
 |	Arcona       	    |
@@ -97,6 +98,7 @@
 |	Pau'an	            |
 |	Pyke	            |
 |	Quarren	            |
+|	Quermian       	    |
 |	Rakata        	    |
 |	Rattataki	        |
 |	Rishii	            |
@@ -117,6 +119,7 @@
 |	Togorian           	|
 |	Toydarian       	|
 |	Ugnaught	        |
+|	Ugor	            |
 |   Umbaran             |
 |	Verpine	            |
 |	Voss	            |
@@ -507,6 +510,83 @@ As an anomid, you have the following special traits.
 ***Languages.*** You can speak, read, and write Galactic Basic through the use of your vocalizer. You can also use Anomid Sign Language, which is an elaborate language requiring six-fingered hands.
 
 <img src='https://www.gmbinder.com/images/qQvZOKy.png' style='position:absolute;top:45px;right:146px;width:160px;transform:scaleX(-1);z-index:1000' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
+> ## Anx
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Blue, yellow|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Black|
+> |***Distinctions***|  |Hunched stature, mood sensitive crests, tails|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |7'0"|+2d10"|
+> |***Weight***|  |200 lb.|x(2d6) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Gravlex Med|
+> |***Language***|  |Anx|
+
+<div style='margin-top:62px'></div>
+
+### Biology and Appearance
+The anx are a bipedal, reptilian species discernible by their height, their tall crests, and their tails. Originating from a world with higher-than-average gravity, the anx possess a stooped stature. Their heads are tall and blade-shaped, with a soaring crest which acts as a sinus cavity. While their crests change color to reflect their moods, its primary function gives anx a low rumbling voice. An anx's large, muscular tail serves as a counterbalance for running.
+
+Anx have long necks and limbs, and would appear taller if they didn't walk with their shoulders stooped and their crested heads held out in front of them.
+
+### Society and Culture
+The anx are serene giants who assume many roles in the Republic. Evolving from herd animals, the anx are a placid, sociable race known for developing a near fanatical interest in groups they related to. Living in complicated clan structures, anx enjoy the company of their large families and are more comfortable in groups. 
+
+An innate trait among the anx is a formidable knowledge of anatomy, especially in regard to nerves, muscles and bone structures. Due to this extensive knowledge, even by species they have never encountered, the anx are considered dangerous unarmed combatants and skilled warriors, capable of incapacitating opponents with a single, well-placed strike.
+
+### Names
+Anx names are less harsh-sounding compared to those of other reptilian species. Surnames are familial.
+
+**Male Names.** Drexol, Graxol, Horox, Theen
+
+**Female Names.** Kendiula, Madurrin, Pipalidi, Quiyya
+
+**Surnames.** Fida, Jur, Kelvyyn, Ryyd
+
+\columnbreak
+
+<div style='margin-top:296px'></div>
+
+### Anx Traits
+As an anx, you have the following special traits:
+
+***Ability Score Increase.*** Your Constitution score increases by 2, and your Wisdom score increases by 1.
+
+***Age.*** Anx reach adulthood in their late teens and live up to 120 years.
+
+***Alignment.*** The anx's social nature causes them to tend toward the light side, though there are exceptions.
+
+***Size.*** Anx stand at around 8 feet tall and weigh about 200 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Acute Smell.*** Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise in the Perception skill.
+
+***Anatomical Knowledge.*** You have proficiency in the Medicine skill.
+
+***Subsonic Bellow.*** As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.
+
+***Surgical Strikes.*** Your unarmed strikes deal 1d4 kinetic damage. Additionally, as a bonus action, you can perform a special pressure point attack. On a hit, the target suffers the attack’s normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is stunned until the end of its next turn, and you can’t use this feature again until you complete a short or long rest.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Anx. Anx is mostly characterized by low, rumbling noises made by the throat, amplified by an anx's crest. Anx are able to communicate over long distances with each other by using loud low-frequency sounds. 
+
+<img src='https://www.gmbinder.com/images/rdUb3Mt.png' style='position:absolute;top:17px;right:84px;width:245px;transform:scaleX(-1);z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 
@@ -3275,6 +3355,7 @@ ___
 > |Aing-Tii|Armored Plates|
 > |Aleena|Racer's Reflexes|
 > |Anomid|Tech Resistance|
+> |Anx|Acute Smell|
 > |Aqualish|Darkvision|
 > |Arcona|Keen Smell|
 > |Ardennian|Darkvision|
@@ -3362,6 +3443,7 @@ ___
 > |Patrolian|Darkvision|
 > |Pau'an|Darkvision|
 > |Pyke|Mercantile<br> Notorious Slavers|
+> |Quermian|Two Brains|
 > |Rakata|Darkvision|
 > |Rattataki|Surprise Attack|
 > |Rishii|Keen Hearing and Sight|
@@ -6305,6 +6387,81 @@ As a quarren, you have the following special traits.
 \pagebreak
 
 ___
+> ## Quermian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Grey to pasty white|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Brown or Red|
+> |***Distinctions***|  |Long necks, two brains, two pairs of arms|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |6'8"|+2d6"|
+> |***Weight***|  |110 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Quermia|
+> |***Language***|  |Quermian|
+
+<div style='margin-top:62px'></div>
+
+### Biology and Appearance
+Created by arkanian scientists from the DNA of the xexto species, the quermians were designed to be taller than their fore-bearers and were left to evolve without any predators on their terraformed garden homeworld. Equipped with long necks for peering over vegetation mats, bulbous heads with a permanently bemused smile, and two sets of spindly arms, they also have two brains, one located in the chest cavity. Their two brains can cause mental problems when each brain developed a different personality, but also gives them a type of "telepathy" which they attribute to an ability to better observe and understand body language. Possessing no noses, the olfactory glands of this species are found in the hands.
+
+### Society and Culture
+Quermians are a gentle, unassuming people. They embrace reason, shun violence, and enjoy interacting with members of other species and cultures. A peaceful society developed on Quermia without arkanian interference, as the quermians evolved on their own in the absence of any predators or outside intervention. As a race they are dedicated to complex philosophical ideas, and many of the galaxy's most prominent diplomats and thinkers are found among their ranks. While they have four arms and are capable of using both sets with ease, they prefer to keep the lower set hidden beneath their robes when dealing with offworlders.
+
+### Names
+Quermian names are usually one to three syllables long, featuring hard or soft consonants.
+
+**Male Names.** Murk, Koa, Jedoo, Vinian 
+
+**Female Names.** Gouren, Kindee, Meroo, Kiaa  
+
+**Surnames.** Kreen, Lundi, Raelo, Bactra
+
+\columnbreak
+
+<div style='margin-top:398px'></div>
+
+### Quermian Traits
+As a quermian, you have the following special traits.
+
+***Ability Score Increase.*** Your Wisdom score increases by 2, and your Intelligence score increases by 1.
+
+***Age.*** Quermians reach adulthood in their early teens and live a little under a century.
+
+***Alignment.*** Querians philosophic culture causes them to tend toward light alignments, though there are exceptions.
+
+***Size.*** Quermians typically stand 7 to 8 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Diplomatic.*** You have proficiency with Insight or Persuasion (your choice).
+
+***Four-Armed.*** Quermians have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).
+
+***Natural Empathy.*** Quermians' talent at reading the body language of others allow them to sense the emotions in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.
+
+***Two Brains.*** When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you've done so, you must complete a short or long rest before you can do so again.
+
+***Watchful.*** You have proficiency in the Perception skill.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Quermian. You can also communicate with other quermians more effectively through a thorough understanding of body language that xenobiologists widely attribute to latent telepathy.
+
+<img src='https://vignette.wikia.nocookie.net/starwars/images/9/9a/XextoQuermian.jpg' style='position:absolute;top:17px;right:120px;width:247px;transform:scaleX(-1);mix-blend-mode:darken' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
 > ## Rakata
 > ___
 > #### Visual Characteristics
@@ -7806,6 +7963,77 @@ As an ugnaught, you have the following special traits.
 \pagebreak
 
 ___
+> ## Ugor
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Clear, green, blue, or brown|
+> |***Hair Color***|  | None|
+> |***Eye Color***|  |Varies|
+> |***Distinctions***|  |Unicellular organism|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'6"|+1d12"|
+> |***Weight***|  |200 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Paradise System|
+> |***Language***|  |Ugor|
+
+<div style='margin-top:30px'></div>
+
+### Biology and Appearance
+Ugors are sentient, unicellular protozoans. Considered exotic for being one of the few sentient species to fall outside the standard classificiations of birds, mammals, etc. Their bodies consist of cytoplasm, which can vary in colors and shade, bound by a slime-coated membrane. Being amorphic, ugors can assume nearly any shape, and can exude pseudopodia limbs such as crude arms, mouths, and sensory organs, although a globular form was the most comfortable and easy to maintain. Due to their unique physiology and evolution, they are able to digest substances that would prove toxic to other species, and can subsist on other species' trash. While most maintain globular form, some who interact with humanoid species will wear EVA suits or armor to give themselves a humanoid appearence. 
+
+### Society and Culture
+Ugor society revolves around trading and scavenging; they are famed for providing equipment to nascent civilizations and for salvaging wreckage from failed ones. The beings are supremely adaptable and astutely able to get what they want from others. Ugor business deals are extremely complex, incorporating opaque knots of loans, interest, and payment plans. Ugors have an intense love of trash, which they base their religions off, and excel at those skills that are useful in their pursuit of rubbish collection: a member of the species' education emphasizes skills related to scavenging and starship operation (although members of the species rarely became more than passable pilots).
+
+### Names
+Ugor names typically consisted of two parts, with no notable difference between the genders. Ugor do not use surnames.
+
+**Names.** ArrGack, GrrKack, SplrMuck
+
+\columnbreak
+
+<div style='margin-top:303px'></div>
+
+### Ugor Traits
+As an ugor, you have the following special traits.
+
+***Ability Score Increase.*** Your Constitution score increases by 2, and your Intelligence score increases by 1.
+
+***Age.***  Ugors reach adulthood in their early teens and live about 70 years, though some live to be over 100.
+
+***Alignment.*** Ugors are loyal to their theocratic state and see outsiders as expendable. Many follow a Lawful Balanced alignment, though there are exceptions.
+
+***Size.*** Ugors typically stand between 5 and 6 feet tall and weigh 130 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 25 feet.
+
+***Amorphous Form.*** You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.
+
+***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+***Galactic Scavengers.*** You have proficiency in mechanic's kits or scavenging kits (your choice).
+
+***Natural Resilience.*** You have resistance to poison damage, and you have advantage on saving throws against poison.
+
+***Shape Self.*** If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required). As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container. The pseudopod can’t attack, activate enhanced items, or carry more than 10 pounds.
+
+***Languages.*** You can speak, read and write in Galactic Basic and Ugor. Additionally, Your vocal range allows you to speak languages other species might have difficulty with.
+
+<img src='https://cdn.discordapp.com/attachments/434903464414412821/956271335535951922/ugor.png' style='position:absolute;top:17px;right:120px;width:180px;transform:scaleX(1)' />
+
+<div class='footnote'>EXPANDED CONTENT | SPECIES</div>
+
+\pagebreak
+
+___
 > ## Umbaran
 > ___
 > #### Visual Characteristics
@@ -8178,7 +8406,7 @@ As a xexto, you have the following special traits.
 
 ***Languages.*** You can speak, read, and write Galactic Basic and Xextese. Xextese is a blubbering sort of language, with many metaphors for natural phenomenon found in its vocabulary.
 
-<img src='https://www.gmbinder.com/images/JKS4d7h.png' style='position:absolute;top:-25px;right:150px;width:189px;z-index:1000' />
+<img src='https://www.gmbinder.com/images/VCJvfDw.png' style='position:absolute;top:-25px;right:150px;width:189px;z-index:1000' />
 
 <div class='footnote'>EXPANDED CONTENT | SPECIES</div>
 

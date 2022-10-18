@@ -52,7 +52,7 @@ You choose when to take a bonus action during your turn, unless the bonus action
 #### Object Interaction
 You can also interact with one object or feature of the environment at any time on your turn, even during your move or your action, as your object interaction. For example, you could open a door as you stride toward a foe, you could stow your weapon as you run, or you could grasp a two-handed weapon you are wielding in one hand with your other hand as you attack with it (releasing it requires no action).
 
-If you want to interact with an additional object, you need to use your action or bonus action (your choice. Some enhanced items and other special objects always require an action to use, as stated in their descriptions.
+If you want to interact with an additional object, you need to use your action or bonus action (your choice). Some enhanced items and other special objects always require an action to use, as stated in their descriptions.
 
 The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.
 
@@ -220,14 +220,14 @@ If you take the Disengage action, your movement doesn't provoke opportunity atta
 When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in appendix A) or if your speed drops to 0.
 
 ### Guard
-You can defend a creature within 5 feet of you. When you take the Guard action, you focus entirely on preventing attacks from reaching your ally. Until the start of your next turn, any attack roll made against the guarded ally has disadvantage if you can see the attacker, as long as the ally is within 5 feet of you. 
+You can defend an ally within 5 feet of you. When you take the Guard action, you focus entirely on preventing attacks from reaching your ally. Until the start of your next turn, any attack roll made against the guarded ally has disadvantage if you can see the attacker, as long as the ally is within 5 feet of you. 
 
 Additionally, if an attack would hit the guarded ally, you can instead have it hit you (no action required). If you do so, the attacker chooses the maximum amount of damage instead of rolling.
 
 ### Help
-You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.
+You can lend your aid to an ally in the completion of a task. When you take the Help action, the ally you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.
 
-Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage.
+Alternatively, you can aid an ally in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage.
 
 \columnbreak
 
@@ -307,7 +307,7 @@ Used in hand-to-hand combat, a melee attack allows you to attack a foe within yo
 
 Most creatures have a 5-foot **reach** and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 5 feet, as noted in their descriptions.
 
-When you are **unarmed,** you can fight in melee by making an unarmed strike. Your unarmed strikes are a weapon with which you are proficient and, unless otherwise indicated, they do 1 + your Strength modifier kinetic damage.
+Regardless of whether or not you are armed, you can fight in melee by making an unarmed strike. Your unarmed strikes are a weapon with which you are proficient and, unless otherwise indicated, they do 1 + your Strength modifier kinetic damage.
 
 #### Opportunity Attacks
 In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack. 

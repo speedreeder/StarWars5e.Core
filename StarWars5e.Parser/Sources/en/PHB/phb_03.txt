@@ -8,17 +8,18 @@
 
 Class is the primary definition of what your character can do. It's more than a profession; it's your character's calling. Class shapes the way you think about the world and interact with it and your relationship with other people and powers in the galaxy. A fighter, for example, might view the world in pragmatic terms of strategy and maneuvering, and see herself as just a pawn in a much larger game. A consular, by contrast, might see himself as a willing servant of the Force. While the fighter has contacts in a mercenary company or army, the consular might know a number of Jedi or Sith who share his faith.
 
-Your class gives you a variety of special features, such as a fighter's mastery of weapons and armor, and an engineer's powers. At low levels, your class gives you only two or three features, but as you advance in level you gain more and your existing features often improve. Each class entry in this chapter includes a table summarizing the benefits you gain at every level, and a detailed explanation of each one.
+Your class gives you a variety of special features, such as a fighter's mastery of weapons and armor, and an engineer's powers. At low levels, your class gives you only two or three features, but as you advance in level you gain more and your existing features often improve. Each class entry in this chapter includes a table summarizing the benefits you gain at every level, as well as a detailed explanation of each one.
+
+At 3rd level, each class gains an archetype, or subclass, that helps that class focus in a specific 
 
 \columnbreak
 
-&emsp;Adventurers sometimes advance in more than one class. An operative might switch direction in life and become an engineer. A berserker might discover latent force sensitivity and dabble in the guardian class while continuing to advance as a berserker. Sith purebloods are known to combine martial mastery with force training and advance as fighters and consulars simultaneously. Optional rules for combining classes in this way, called multiclassing, appear in chapter 6.
+direction or enable an entirely new playstyle, such as allowing raging in heavy armor for Juggernaut Approach berserkers or granting techcasting to Shield Specialist fighters. Each archetype grants additional features at higher levels, varying by class, as shown in the class table.
 
-> Many classes and archetypes add material costs to obtain features integral to the class while most others don't. Your GM can choose to waive the time and cost component if they choose to do so.
->
-> Additionally, certain classes and subclasses will often find themselves with a singular force or tech point, with which they can do nothing. Any character with the force- or tech-casting feature also gains the following feature:
-> 
-> When you fail an ability check, if you added your proficiency bonus to the check and you did not have advantage or disadvantage, you can spend 1 force or tech point to reroll the die. You can only use this feature once per ability check, and you must use the new roll.
+Additionally, each class has a second level of customization, such as a consular's Force-Empowered Casting or a scholar's Discoveries. The level at which each class obtains this second level varies. If a class's customization requires a level, that refers to class level. If a customization has prerequisites, the character must meet them to learn it. A character can learn a customization at the same time it meets the customization's prerequisites. Unless otherwise specified, a customization can only be taken once.
+
+> #### Multiclassing
+> Adventurers sometimes advance in more than one class. An operative might switch direction in life and become an engineer, or a berserker might discover latent Force-sensitivity and dabble in the guardian class while continuing to advance as a berserker. Optional rules for combining classes in this way, called multiclassing, appear in chapter 6.
 
 Choose from the following class options:
 
@@ -118,14 +119,14 @@ You can make a berserker quickly by following these suggestions. First, put your
 |	10th	|	+4	|	Approach feature	                    |	4	|	+3	| 3 |
 |	11th	|	+4	|	Relentless Rage	                        |	4	|	+3	| 3 |
 |	12th	|	+4	|	Ability Score Improvement   	        |	5	|	+3	| 3 |
-|	13th	|	+5	|	Brutal Critical (two dice)    	        |	5	|	+3	| 4 |
-|	14th	|	+5	|	Approach feature                	    |	5	|	+3	| 4 |
-|	15th	|	+5	|	Persistent Rage	                        |	5	|	+3	| 4 |
+|	13th	|	+5	|	Brutal Critical (two dice)    	        |	5	|	+4	| 4 |
+|	14th	|	+5	|	Approach feature                	    |	5	|	+4	| 4 |
+|	15th	|	+5	|	Persistent Rage	                        |	5	|	+4	| 4 |
 |	16th	|	+5	|	Ability Score Improvement   	        |	5	|	+4	| 4 |
-|	17th	|	+6	|	Brutal Critical (three dice)	        |	6	|	+4	| 5 |
-|	18th	|	+6	|	Indomitable Might           	        |	6	|	+4	| 5 |
-|	19th	|	+6	|	Ability Score Improvement   	        |	6	|	+4	| 5 |
-|	20th	|	+6	|	Primal Champion	                        | Unlimited	|	+4	| 5 |
+|	17th	|	+6	|	Brutal Critical (three dice)	        |	6	|	+5	| 5 |
+|	18th	|	+6	|	Indomitable Might           	        |	6	|	+5	| 5 |
+|	19th	|	+6	|	Ability Score Improvement   	        |	6	|	+5	| 5 |
+|	20th	|	+6	|	Primal Champion	                        | Unlimited	|	+5	| 5 |
 
 </div>
 
@@ -183,7 +184,7 @@ If you are able to cast powers, you can't cast them or concentrate on them while
 
 Your rage lasts for 1 minute. It ends early if you are knocked unconscious, you don heavy armor, or if your turn ends and you haven't taken a hostile action or taken damage since your last turn. You can also end your rage on your turn as a bonus action.
 
-You can enter a rage a number of times as shown for your berserker level in the Rages column of the berserker table. You regain all expended uses when you complete a long rest.
+You can enter a rage a number of times as shown in the Rages column of the berserker table. You regain all expended uses when you complete a long rest.
 
 ### Unarmored Defense
 _**Berserker:** 1st level_<br>
@@ -195,7 +196,7 @@ You can throw aside all concern for defense to attack with fierce desperation. W
 
 ### Berserker Instincts
 _**Berserker:** 2nd level_<br>
-You've honed two instincts, as detailed at the end of the class description. You hone an additional instinct at 7th, 13th, and 17th level.
+You've honed two instincts, as detailed at the end of the class description, and you hone more at higher levels, as shown in the Berserker Instincts column of the berserker table.
 
 ### Danger Sense
 _**Berserker:** 3rd level_<br>
@@ -217,7 +218,7 @@ You can attack twice, instead of once, whenever you take the Attack action on yo
 
 ### Feral Impulse
 _**Berserker:** 7th level_<br>
-Your instincts are so honed that you have advantage on Initiative checks.
+Your instincts are so honed that you have advantage on initiative checks.
 
 Additionally, if you are surprised at the start of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
 
@@ -250,7 +251,7 @@ Additionally, you can enter rage an unlimited number of times, and entering rage
 \pagebreakNum
 
 ### Berserker Instincts
-The instincts are presented in alphabetical order. If an instinct has prerequisites, you must meet them to learn it. You can learn an instinct at the same time you meet its prerequisites. You can't take an instinct more than once.
+The instincts are presented in alphabetical order. 
 
 #### Acklay's Instinct
 While raging, you have advantage on Constitution saving throws.
@@ -341,7 +342,7 @@ You gain proficiency in martial blasters with the burst or rapid property. Addit
 ### Explosive
 _**Ballistic Approach:** 3rd and 9th level_<br>
 While raging, you gain the following benefits:
-- When you roll a 1 or 2 on a damage die for an attack made with a blaster weapon, you can treat the result of the die as a 3.
+- Your blaster weapon damage rolls gain a minimum roll threshold, discussed in chapter 7.
 - You add your rage damage to damage rolls from ranged weapon attacks using Strength. 
 - At 9th level, when a creature rolls a 1 on a saving throw against your burst or rapid property, you can add your Brutal Critical dice to the damage.
 
@@ -396,7 +397,7 @@ You can use this feature five times. You gain an additional use at 17th level. Y
 
 <div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Juggernaut Approach
 Certain berserkers find that the strongest offense is a good defense. Berserkers of the Juggernaut Approach wear the heaviest of armor not because they fear injury, but to strike fear in their hapless attackers.
@@ -433,7 +434,7 @@ Once you've used this feature, you must complete<br> a short or long rest before
 
 <div class='footnote'>CHAPTER 3 | CLASSES | BERSERKER</div>
 
-\pagebreak
+\pagebreakNum
 
 ## Marauder Approach
 Few things are more terrifying than being in the path of a Berserker who has learned the ways of the Force. Those who follow this path unlock something deep within them, a well of untamed power from the depths of their fury. When a marauder unleashes their rage, they channel their brute strength into primal might, and uses it to devastate his foes in a hail of fire, blades, and blood. Due to the uncontrolled nature of their powers, marauders have a dangerous predilection for the strength and raw power offered by the dark side, and many fall into it's clutches. Even those who do not are always temped by the voices of fury barely contained within.
@@ -496,7 +497,7 @@ Weapons and the force are equally an extension of your rage. While you are ragin
 
 <div class='classTable'>
 
-##### Marauder Approach Forcecasting
+##### Marauder Forcecasting
 | Level | Force Powers<br> Known | Force<br> Points | Max Power<br> Level |
 |:---:|:---:|:---:|:---:|
 | 3rd| 4| 3|1st|
@@ -576,28 +577,28 @@ You can make a consular quickly by following these suggestions. First, make Wisd
 <div class='classTable wide'>
 
 ##### The Consular
-|	Level	|	Proficiency<br> Bonus	|	Features	|	Force Powers<br> Known	|Force<br> Points| Max Power<br> Level|
-|:--:|:--:|:--|:--:|:--:|:--:|
-|	1st	|	+2	|	Forcecasting, Force Recovery				        |	 9	|	 4	|	 1st	|
-|	2nd	|	+2	|	Force-Empowered Casting, Force Shield		        |	11	|	 8	|	 1st	|
-|	3rd	|	+2	|	Force Affinity, Consular Tradition                  |	13	|	12	|	 2nd	|
-|	4th	|	+2	|	Ability Score Improvement	    		    		|	15	|	16	|	 2nd	|
-|	5th	|	+3	|	—								    		    	|	17	|	20	|	 3rd	|
-|	6th	|	+3	|	Tradition feature					    		    |	19	|	24	|	 3rd	|
-|	7th	|	+3	|	—						        					|	21	|	28	|	 4th	|
-|	8th	|	+3	|	Ability Score Improvement		        			|	23	|	32	|	 4th	|
-|	9th	|	+4	|	Force-Empowered Casting (three options)				|	25	|	36	|	 5th	|
-|	10th|	+4	|	Tradition feature		        					|	26	|	40	|	 5th	|
-|	11th|	+4	|	—								        			|	28	|	44	|	 6th	|
-|	12th|	+4	|	Ability Score Improvement       					|	29	|	48	|	 6th	|
-|	13th|	+5	|	—								        			|	31	|	52	|	 7th	|
-|	14th|	+5	|	Tradition feature						        	|	32	|	56	|	 7th	|
-|	15th|	+5	|	—	        										|	34	|	60	|	 8th	|
-|	16th|	+5	|	Ability Score Improvement       					|	35	|	64	|	 8th	|
-|	17th|	+6	|	Force-Empowered Casting (four options)				|	37	|	68	|	 9th	|
-|	18th|	+6	|	Tradition feature			        				|	38	|	72	|	 9th	|
-|	19th|	+6	|	Ability Score Improvement	        				|	39	|	76	|	 9th	|
-|	20th|	+6	|	One with the Force			        				|	40	|	80	|	 9th	|
+|Level|Proficiency<br> Bonus|Features|Force Powers<br> Known|Force<br> Points|Max Power<br> Level|Force-Empowered<br> Casting Options|
+|:--:|:--:|:--|:--:|:--:|:--:|:--:|
+| 1st|+2|Forcecasting, Force Recovery				        | 9| 4|1st|—|
+| 2nd|+2|Force-Empowered Casting, Force Shield		        |11| 8|1st|2|
+| 3rd|+2|Force Affinity, Consular Tradition                 |13|12|2nd|2|
+| 4th|+2|Ability Score Improvement	    		            |15|16|2nd|2|
+| 5th|+3|—								    		    	|17|20|3rd|2|
+| 6th|+3|Tradition feature					    		    |19|24|3rd|2|
+| 7th|+3|—						        					|21|28|4th|2|
+| 8th|+3|Ability Score Improvement		        			|23|32|4th|2|
+| 9th|+4|—                                                  |25|36|5th|3|
+|10th|+4|Tradition feature		        					|26|40|5th|3|
+|11th|+4|—								        			|28|44|6th|3|
+|12th|+4|Ability Score Improvement       					|29|48|6th|3|
+|13th|+5|—								        			|31|52|7th|3|
+|14th|+5|Tradition feature						        	|32|56|7th|3|
+|15th|+5|—	        										|34|60|8th|3|
+|16th|+5|Ability Score Improvement       					|35|64|8th|3|
+|17th|+6|—                                                  |37|68|9th|4|
+|18th|+6|Tradition feature			        				|38|72|9th|4|
+|19th|+6|Ability Score Improvement	        				|39|76|9th|4|
+|20th|+6|One with the Force			        				|40|80|9th|4|
 
 </div>
 
@@ -680,8 +681,8 @@ You have learned to regain some of your energy by briefly meditating. When you f
 \columnbreak
 
 ### Force-Empowered Casting
-_**Consular:** 2nd, 9th, and 17th level_<br>
-You gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two of the following Force-Empowered Casting options of your choice, located at the end of the class description. You gain another one at 9th and 17th level.
+_**Consular:** 2nd level_<br>
+You gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two Force-Empowered Casting options, located at the end of the class description, and you learn more at higher levels, as shown in the Force-Empowered Casting Options of the cnosular table.
 
 You can use only one Force-Empowered Casting option on a power when you cast it, unless otherwise noted.
 
@@ -702,7 +703,7 @@ When you successfully cast a light side power, either your or the target's (your
 You can add both your Wisdom and Charisma modifier to your maximum number of force points, instead of just one.
 
 #### Bogan
-When you roll a 1 or 2 on a damage die for a dark side power, you can treat the result of the die as a 3.
+Your dark side power damage rolls gain a minimum roll threshold, discussed in chapter 7.
 
 ### Consular Tradition
 _**Consular:** 3rd, 6th, 10th, 14th, and 18th level_<br>
@@ -768,7 +769,7 @@ If you miss with a force power that calls for an attack roll, you can spend 2 fo
 You can use Seeking Power even if you have already used a different Force-Empowered Casting option during the casting of the power.
 
 #### Twinned Power
-When you cast a power that targets only one creature and doesn't have a range of self, you can spend a number of additional force points equal to the power's level to target a second creature in range with the same power (1 force point if the power is at-will).
+When you cast a power that can only have one target and doesn't have a range of self, you can spend a number of additional force points equal to the power's level to choose a second target in range with the same power (1 force point if the power is at-will).
 
 ## Consular Traditions
 Different consulars select different traditions, called Ways, to follow as they hone their powers. Your tradition grants you features at 3rd, 6th, 10th, 14th, and 18th level.
@@ -869,10 +870,10 @@ When you cast a force power that restores hit points, you can use Wisdom or Char
 Additionally, whenever you use a force power of 1st level or higher to restore hit points to a creature, the creature regains extra hit points equal to 2 + the power's level.
 
 ### Preserve Life
-_**Way of the Sage:** 6th level_<br>
+_**Way of the Sage:** 6th, 9th, 13th, and 17th level_<br>
 As an action, you can channel the Force and evoke healing energy that restores a number of hit points equal to five times your consular level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half its hit point maximum. This feature has no effect on droids or constructs.
 
-You can use this feature a<br> number of times equal to your<br> proficiency bonus, as shown in the consular table. You regain all<br> expended uses when you<br> finish a long rest.
+You can use this feature three times.<br> You gain an additional use at 9th,<br> 13th, and 17th level. You regain<br> all expended uses when you<br> finish a long rest.
 
 ### Blessed Healer
 _**Way of the Sage:** 10th level_<br>
@@ -892,7 +893,7 @@ Once you've used this feature, you can't use it again until you finish a long re
 _**Way of the Sage:** 18th level_<br>
 When you would normally roll one or more dice to restore hit points with a power, you instead use the highest number possible for each die. For instance, instead of restoring 2d6 hit points to a creature, you restore 12.
 
-<img src='https://www.gmbinder.com/images/Aceclyv.png' style='position:absolute;bottom:0px;right:-100px;width:700px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/Aceclyv.png' style='position:absolute;bottom:0px;right:-110px;width:700px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | CONSULAR</div>
 
@@ -1129,7 +1130,7 @@ You can increase one ability score by 2, or you can increase two ability scores 
 _**Engineer:** 20th level_<br>
 Your mastery of technology is unrivaled. Your Constitution and Intelligence scores increase by 2. Your maximum for those scores increases by 2.
 
-Additionally, when you roll Initiative and have no uses of Potent Aptitude left, you regain one use.
+Additionally, when you roll initiative and have no uses of Potent Aptitude left, you regain one use.
 
 ## Engineering Disciplines
 Each discipline focuses on maximizing the personal use of a certain tool. Your discipline grants you features at 3rd, 6th, 14th, and 18th level.
@@ -1175,7 +1176,7 @@ You can use this feature five times. You gain an additional use at 17th level. Y
 
 ### Suit Reliability
 _**Armormech Engineering:** 18th level_<br>
-Your suit is like a second skin. Whenever you make an ability check or saving throw that uses Strength, Dexterity,or Constitution, you can treat a d20 roll of 9 or lower as a 10. You must be wearing your modified armor or wielding your modified shield to gain this benefit.
+Your suit is like a second skin. Ability checks and saving throws you make that use Strength, Dexterity, or Constitution gain a minimum roll threshold, discussed in chapter 7. You must be wearing your modified armor or wielding your modified shield to gain this benefit.
 
 <img src='https://www.gmbinder.com/images/68MyqCJ.png' style='position:absolute;bottom:28px;left:-23px;width:480px;z-index:1000;transform:scaleX(-1)' />
 
@@ -1184,7 +1185,7 @@ Your suit is like a second skin. Whenever you make an ability check or saving th
 \pagebreakNum
 
 ### Armormech Modifications
-If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
+The modifications are presented in alphabetical order.
 
 #### Absorption Shield
 _**Prerequisite:** Physical Shield_<br>
@@ -1381,7 +1382,7 @@ When you use your Targeting Matrix feature, and the tech power would affect more
 \pagebreakNum
 
 ### Armstech Modifications
-If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
+The modifications are presented in alphabetical order.
 
 #### Accuracy Focus
 _**Prerequisite:** 5th level, Blaster_<br>
@@ -1591,7 +1592,7 @@ When a creature who has one of your barriers within 30 feet of you that you can 
 \pagebreakNum
 
 ### Gadgeteer Modifications
-If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.
+The modifications are presented in alphabetical order.
 
 #### Advanced Grounding System
 _**Prerequisite:** 13th level, Prototype Grounding System_<br>
@@ -1901,28 +1902,28 @@ You can make a fighter quickly by following these<br> suggestions. First, make S
 <div class='classTable wide'>
 
 ##### The Fighter
-|	Level	|	Proficiency Bonus	|	Features	|   Combat<br> Superiority | Superiority<br> Dice    | Maneuvers<br> Known |	
-|	:--:	|	:--:	|	:--	|   :--:    |   :--:    |   :--:    |
-|	 1st	|	+2	|	Fighting Style, Second Wind	                        |—|—|—|
-|	 2nd	|	+2	|	Action Surge (one use), Combat Superiority        	| d4|2|1|
-|	 3rd	|	+2	|	Fighter Strategies, Fighter Specialty	            | d4|2|2|
-|	 4th	|	+2	|	Ability Score Improvement                       	| d4|2|2|
-|	 5th	|	+3	|	Extra Attack                                    	| d6|3|4|
-|	 6th	|	+3	|	Ability Score Improvement                       	| d6|3|4|
-|	 7th	|	+3	|	Specialty feature                       	        | d6|3|5|
-|	 8th	|	+3	|	Ability Score Improvement                       	| d6|3|5|
-|	 9th	|	+4	|	Indomitable (one use)                               | d8|4|6|
-|	10th	|	+4	|	Specialty feature                       	        | d8|4|6|
-|	11th	|	+4	|	Greater Extra Attack                               	| d8|4|7|
-|	12th	|	+4	|	Ability Score Improvement                       	| d8|4|7|
-|	13th	|	+5	|	Indomitable (two uses)                          	|d10|5|9|
-|	14th	|	+5	|	Ability Score Improvement                       	|d10|5|9|
-|	15th	|	+5	|	Specialty feature	                                |d10|5|10|
-|	16th	|	+5	|	Ability Score Improvement                       	|d10|5|10|
-|	17th	|	+6	|	Action Surge (two uses), Indomitable (three uses)	|d12|6|11|
-|	18th	|	+6	|	Specialty feature                       	        |d12|6|11|
-|	19th	|	+6	|	Ability Score Improvement                       	|d12|6|12|
-|	20th	|	+6	|	Master of Combat                                	|d12|6|12|
+|Level|Proficiency<br> Bonus|Features|Maneuvers<br> Known|Superiority<br> Dice Quantity|Superiority<br> Dice Size|Strategies<br> Known|
+|:--:|:--:|:--|:--:|:--:|:--:|:--:|
+| 1st|+2|Fighting Style, Second Wind	                    | —|—|  —|—|
+| 2nd|+2|Action Surge (one use), Combat Superiority        	| 1|2| d4|—|
+| 3rd|+2|Fighter Strategies, Fighter Specialty	            | 2|2| d4|1|
+| 4th|+2|Ability Score Improvement                       	| 2|2| d4|1|
+| 5th|+3|Extra Attack                                    	| 4|3| d6|1|
+| 6th|+3|Ability Score Improvement                       	| 4|3| d6|1|
+| 7th|+3|Specialty feature                       	        | 5|3| d6|2|
+| 8th|+3|Ability Score Improvement                       	| 5|3| d6|2|
+| 9th|+4|Indomitable (one use)                              | 6|4| d8|2|
+|10th|+4|Specialty feature                       	        | 6|4| d8|2|
+|11th|+4|Greater Extra Attack                               | 7|4| d8|2|
+|12th|+4|Ability Score Improvement                       	| 7|4| d8|2|
+|13th|+5|Indomitable (two uses)                          	| 9|5|d10|3|
+|14th|+5|Ability Score Improvement                       	| 9|5|d10|3|
+|15th|+5|Specialty feature	                                |10|5|d10|3|
+|16th|+5|Ability Score Improvement                       	|10|5|d10|3|
+|17th|+6|Action Surge (two uses), Indomitable (three uses)  |11|6|d12|4|
+|18th|+6|Specialty feature                       	        |11|6|d12|4|
+|19th|+6|Ability Score Improvement                       	|12|6|d12|4|
+|20th|+6|Master of Combat                                	|12|6|d12|4|
 
 </div>
 
@@ -1994,7 +1995,7 @@ You learn one maneuver of your choice, and you earn more at higher levels, as sh
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
 
 #### Superiority Dice
-You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the fighter table. This die changes as you gain fighter levels, as shown in the Combat Superiority column of the fighter table. A superiority die is expended when you use it. 
+You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the fighter table. This die changes as you gain fighter levels, as shown in the Superiority Dice Size column of the fighter table. A superiority die is expended when you use it. 
 
 You regain all of your expended superiority dice when you finish a short or long rest.
 
@@ -2015,7 +2016,7 @@ ___
 
 ### Fighter Strategies
 _**Fighter:** 3rd level_<br>
-You've adopted a fighter strategy, as detailed at the end of the class description. You adopt an additional strategy at 7th, 13th, and 17th level.
+You've adopted a fighter strategy, as detailed at the end of the class description, and you adopt more at higher levels, as shown in the Strategies Known column of the fighter table.
 
 ### Fighter Specialty
 _**Fighter:** 3rd, 7th, 10th, 15th, and 18th level_<br>
@@ -2047,14 +2048,14 @@ You are the master of combat. Your Strength or Dexterity score increases by 2, a
 
 Additionally, you can attack four times, instead of three times, whenever you take the Attack action on your turn.
 
-<img src='https://www.gmbinder.com/images/4NMSS97.png' style='position:absolute;bottom:0px;right:80px;width:300px;z-index:1000;transform:scaleX(-1)' />
+<img src='https://www.gmbinder.com/images/4NMSS97.png' style='position:absolute;bottom:0px;right:80px;width:285px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
 \pagebreakNum
 
 ### Fighter Strategies
-The strategies are presented in alphabetical order. You can't take a strategy more than once.
+The strategies are presented in alphabetical order.
 
 #### Cover Strategist
 You treat partial cover as one step higher (from one-quarter to half or half to three-quarters). While in cover, your attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter).
@@ -2149,7 +2150,7 @@ While you are wearing no armor and not wielding a shield, your AC equals 10 + yo
 _**Blademaster Specialist:** 3rd level_<br>
 You've learned to make adaptations to your fighting style on the fly. You have three such effects: Change Up, Draw, and Stow. When you use your Adaptive Fighting, you choose which effect to create.
 
-You can use this features a number of times equal to your Strength or Dexterity modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.
+You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.
 
 #### Change Up
 You can use your object interaction and expend a use of your Adaptive Fighting to change the Fighting Style option granted to you by your fighter class feature.
@@ -2284,7 +2285,12 @@ You can choose two allies within 60 feet of you, rather than one, when you using
 
 \pagebreakNum
 
+<div class='wide'>
+
 ## Tactical Specialist
+
+</div>
+
 Those fighters who choose to become Tactical Specialists employ martial techniques passed down through generations. To a Tactical Specialist, combat is an academic field, sometimes including subjects beyond battle such as armstech or armormech. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Tactical Specialty, but those who do are well-rounded fighters of great skill and knowledge.
 
 ### Bonus Proficiencies
@@ -2296,14 +2302,16 @@ _**Tactical Specialist:** 3rd level_<br>
 Your tactical skill in combat improves, granting bonuses to your Combat Superiority.
 
 #### Improved Maneuvers 
-You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Specialist Combat Superiority table.
+You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Superiority table.
 
 #### Improved Superiority Dice
-You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Tactical Specialist Combat Superiority table.
+You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Tactical Superiority table.
 
 ### Maneuver Versatility
 _**Tactical Specialist:** 3rd level_<br>
-Choose two maneuvers you know. The chosen maneuvers count as general maneuvers for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know.
+You can use each maneuver twice per turn, instead of once.
+
+Additionally, choose two maneuvers you know. The chosen maneuvers count as general maneuvers for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know.
 
 ### Know Your Enemy
 _**Tactical Specialist:** 7th level_<br>
@@ -2313,27 +2321,27 @@ If you spend at least 1 minute observing or interacting with another creature ou
 
 <div class='classTable'>
 
-##### Tactical Specialist<br> Combat Superiority
-| Level | Superiority<br> Dice | Maneuvers<br> Known |
+##### Tactical Superiority
+Level|Maneuvers<br> Known|Superiority<br> Dice Quantity|
 |:---:|:---:|:---:|:---:|
-| 3rd|4|4|
-| 4th|4|5|
-| 5th|5|6|
-| 6th|5|7|
-| 7th|6|9|
-| 8th|6|10|
-| 9th|7|11|
-|10th|7|12|
-|11th|8|14|
-|12th|8|15|
-|13th|9|16|
-|14th|9|17|
-|15th|10|19|
-|16th|10|20|
-|17th|11|21|
-|18th|11|22|
-|19th|12|23|
-|20th|12|24|
+| 3rd| 4| 4|
+| 4th| 5| 4|
+| 5th| 6| 5|
+| 6th| 7| 5|
+| 7th| 9| 6|
+| 8th|10| 6|
+| 9th|11| 7|
+|10th|12| 7|
+|11th|14| 8|
+|12th|15| 8|
+|13th|16| 9|
+|14th|17| 9|
+|15th|19|10|
+|16th|20|10|
+|17th|21|11|
+|18th|22|11|
+|19th|23|12|
+|20th|24|12|
 
 </div>
 
@@ -2347,17 +2355,17 @@ If you spend at least 1 minute observing or interacting with another creature ou
 
 ### Maneuver Adept
 _**Tactical Specialist:** 10th level_<br>
-Once per turn, when you roll below a four on a maneuver die, you can treat the die as if you'd rolled a four. This increase to five at 13th level and six at 17th level.
+Once per turn, your superiority dice rolls gain a minimum roll threshold, discussed in chapter 7.
 
 ### Relentless
 _**Tactical Specialist:** 15th level_<br>
-When you roll Initiative and have no Superiority Dice remaining, you regain 1 Superiority Die.
+When you roll initiative and have no superiority dice remaining, you regain 1 superiority die.
 
 ### Maneuver Mastery
 _**Tactical Specialist:** 18th level_<br>
-Once per round, when you would roll a Superiority Die, you can instead choose the maximum.
+Once per round, when you would roll a superiority die, you can instead choose the maximum.
 
-<img src='https://www.gmbinder.com/images/iIVXSKe.png' style='position:absolute;bottom:0px;left:45px;width:340px;;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/iIVXSKe.png' style='position:absolute;bottom:0px;left:85px;width:305px;;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | FIGHTER</div>
 
@@ -2401,28 +2409,28 @@ You can make a guardian quickly by following these suggestions. First, make Stre
 <div class='classTable wide'>
 
 ##### The Guardian
-|	Level	|	Proficiency<br> Bonus	|	Features	|	Force Powers<br> Known	|Force<br> Points| Max Power<br> Level|Focused<br> Strikes |   
-|	:--:	|	:--:	|	:--	|	:--:	|	:--:	|	:--:	|   :--:|
-|	 1st	|	+2	|	Forcecasting, Channel the Force	    		| 	 5	|	 2	|	 1st	|—|
-|	 2nd	|	+2	|	Force-Empowered Strikes, Fighting Style		|	 7	|	 4	|	 1st	|2d8|
-|	 3rd	|	+2	|	Guardian Aura, Guardian Focus               |	 9	|	 6	|	 1st	|2d8|
-|	 4th	|	+2	|	Ability Score Improvement					|	10	|	 8	|	 1st	|2d8|
-|	 5th	|	+3	|	Extra Attack								|	12	|	10	|	 2nd	|3d8|
-|	 6th	|	+3	|	Force Purity    							|	13	|	12	|	 2nd	|3d8|
-|	 7th	|	+3	|	Focus feature   							|	14	|	14	|	 2nd	|3d8|
-|	 8th	|	+3	|	Ability Score Improvement					|	15	|	16	|	 2nd	|3d8|
-|	 9th	|	+4	|	Guardian Aura (15-foot radius)	            |	17	|	18	|	 3rd	|4d8|
-|	10th	|	+4	|	Guardian Aura (two auras)                   |	18	|	20	|	 3rd	|4d8|
-|	11th	|	+4	|	Improved Force-Empowered Strikes			|	19	|	22	|	 3rd	|4d8|
-|	12th	|	+4	|	Ability Score Improvement					|	20	|	24	|	 3rd	|4d8|
-|	13th	|	+5	|	—											|	22	|	26	|	 4th	|5d8|
-|	14th	|	+5	|	Cleansing Touch								|	23	|	28	|	 4th	|5d8|
-|	15th	|	+5	|	Focus feature	    						|	24	|	30	|	 4th	|5d8|
-|	16th	|	+5	|	Ability Score Improvement					|	25	|	32	|	 4th	|5d8|
-|	17th	|	+6	|	Guardian Aura (30-foot radius)				|	27	|	34	|	 5th	|6d8|
-|	18th	|	+6	|	Guardian Aura (three auras)				    |	28	|	36	|	 5th	|6d8|
-|	19th	|	+6	|	Ability Score Improvement					|	29	|	38	|	 5th	|6d8|
-|	20th	|	+6	|	Focus feature	    						|	30	|	40	|	 5th	|6d8|
+|Level|Proficiency<br> Bonus|Features|Force Powers<br> Known|Force<br> Points|Max Power<br> Level|Focused<br> Strikes |Auras<br> Known|Aura<br> Radius|
+|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1st|+2|Forcecasting, Channel the Force	    	| 5| 2|1st|  —|—|     —|
+| 2nd|+2|Force-Empowered Strikes, Fighting Style	| 7| 4|1st|2d8|—|     —|
+| 3rd|+2|Guardian Aura, Guardian Focus              | 9| 6|1st|2d8|1| 5 ft.|
+| 4th|+2|Ability Score Improvement					|10| 8|1st|2d8|1| 5 ft.|
+| 5th|+3|Extra Attack                               |12|10|2nd|3d8|1| 5 ft.|
+| 6th|+3|Force Purity                               |13|12|2nd|3d8|1| 5 ft.|
+| 7th|+3|Focus feature                              |14|14|2nd|3d8|1| 5 ft.|
+| 8th|+3|Ability Score Improvement                  |15|16|2nd|3d8|1| 5 ft.|
+| 9th|+4|—                                          |17|18|3rd|4d8|1|15 ft.|
+|10th|+4|—                                          |18|20|3rd|4d8|2|15 ft.|
+|11th|+4|Improved Force-Empowered Strikes           |19|22|3rd|4d8|2|15 ft.|
+|12th|+4|Ability Score Improvement                  |20|24|3rd|4d8|2|15 ft.|
+|13th|+5|—                                          |22|26|4th|5d8|2|15 ft.|
+|14th|+5|Cleansing Touch                            |23|28|4th|5d8|2|15 ft.|
+|15th|+5|Focus feature                              |24|30|4th|5d8|2|15 ft.|
+|16th|+5|Ability Score Improvement                  |25|32|4th|5d8|2|15 ft.|
+|17th|+6|—                                          |27|34|5th|6d8|2|30 ft.|
+|18th|+6|—                                          |28|36|5th|6d8|3|30 ft.|
+|19th|+6|Ability Score Improvement                  |29|38|5th|6d8|3|30 ft.|
+|20th|+6|Focus feature                              |30|40|5th|6d8|3|30 ft.|
 
 </div>
 
@@ -2526,8 +2534,8 @@ _**Guardian:** 2nd level_<br>
 You adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6. 
 
 ### Guardian Aura
-_**Guardian:** 3rd, 9th, 10th, 17th, and 18th level_<br>
-You gain an aura of your choice, as detailed at the end of the class description. The range of your auras increases to 15 feet at 9th level and 30 feet at 17th level, and you gain an additional aura at 10th and 18th level.
+_**Guardian:** 3rd level_<br>
+You gain an aura of your choice, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Auras Known column of the guardian table. Your aura has a radius of 5 feet, which increases at higher levels, as shown in the Aura Radius column of the guardian table.
 
 ### Guardian Focus
 _**Guardian:** 3rd, 7th, 15th, and 20th level_<br>
@@ -2572,7 +2580,7 @@ You and friendly creatures within 5 feet of you have advantage on saving throws 
 You and friendly creatures within 5 feet of you gain a bonus to the first melee weapon damage rolls you make each round equal to your Charisma modifier (minimum of +1).
 
 #### Aura of Presence
-Whenever you or a friendly creature within 5 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Wisdom modifier (minimum of +1). 
+Whenever you or a friendly creature within 5 feet of you must make a saving throw, the creature can add your Wisdom modifier to the saving throw. 
 
 #### Aura of Protection
 Whenever a creature within 5 feet of you takes damage, you can use your reaction to take that damage instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way.
@@ -2740,7 +2748,7 @@ You gain one of the following features. Choose Aggressive Negotiations for Shien
 You gain proficiency in Intimidation or Persuasion. Additionally, while you are wielding a weapon with which you are proficient, you can't have disadvantage on Charisma (Intimidation) and Charisma (Persuasion) checks, and if the target would make a contested check, they can't have advantage on it.
 
 #### Reliable Vigor
-If d20 result for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the result. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
+If the d20 result for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the result. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
 
 ### Presence
 _**Shien/Djem So Form:** 15th level_<br>
@@ -2750,9 +2758,7 @@ You gain one of the following features. Choose Precise Reflection for Shien or B
 When you hit with an attack made by the *saber reflect* power, you can expend force points to deal additional damage to the target, which is the same type as the weapon's damage. The additional damage is 1d8 for each point spent in this way. You can't deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.
 
 #### Brutal Strikes
-The Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can treat the result of the die as a 3.
-
-Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.
+The Force flowing through you grants you incredible strength. Your Force-Empowered Strikes and Improved Force-Empowered Strikes damage rolls gain a minimum roll threshold, discussed in chapter 7. Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.
 
 ### Master of Perseverance
 _**Shien/Djem So Form:** 20th level_<br>
@@ -2794,10 +2800,10 @@ You gain the following Channel the Force option.
 When you cast the *saber reflect* power, you can expend a use of your Channel the Force to move up to 10 feet as a part of that same reaction. This movement does not provoke opportunity attacks.
 
 ### Circle of Shelter
-_**Soresu Form:** 7th level_<br>
+_**Soresu Form:** 7th, 9th, 13th, and 17th level_<br>
 You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your reaction to ward the creature if you're wielding a melee weapon or a shield. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage. 
 
-You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table, and you regain all expended uses when you finish a long rest.
+You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.
 
 \columnbreak
 
@@ -2990,7 +2996,7 @@ When you use your bonus action to Disengage, you can spend 1 focus point to also
 When you use your bonus action to Dash, you can spend 1 focus point to double your jump distance for the turn. At 11th level, you can instead spend 2 focus points to gain a flying speed equal to your walking speed until the end of your turn, though you fall if you end your speed in the air and nothing else is holding you aloft.
 
 ### Monastic Vows
-_**Monk:** 2nd, 7th, 13th, and 17th level_<br>
+_**Monk:** 2nd level_<br>
 You've sworn two vows, as detailed at the end of the class description. You swear an additional vow at 7th, 13th, and 17th level.
 
 ### Unarmored Movement
@@ -3061,10 +3067,10 @@ You can use your action to spend 4 focus points to become invisible for 1 minute
 
 ### Perfect Self
 _**Monk:** 20th level_<br>
-You've gained perfect control over your body. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, when you roll for Initiative and have fewer than 6 focus points remaining, you regain up to 6 focus points.
+You've gained perfect control over your body. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, when you roll for initiative and have fewer than 6 focus points remaining, you regain up to 6 focus points.
 
 ### Monastic Vows
-The vows are presented in alphabetical order. If a vow has prerequisites, you must meet them to learn it. You can learn a vow at the same time you meet its prerequisites. You can't take a vow more than once.
+The vows are presented in alphabetical order.
 
 #### Vow of Deflection
 You can use your reaction to divert a strike when you are dealt damage by a melee weapon attack. When you do so, the damage taken by the attack is reduced by 1d10 + your Dexterity modifier + your monk level.
@@ -3160,13 +3166,13 @@ Additionally, you've learned to adapt to new weaponry. Over the course of an hou
 
 ### Crimson Squall
 _**Crimson Order:** 6th, 11th, and 17th level_<br>
-You've learned to enhance your kata. As a bonus action while wielding a monk weapon, you can expend 1 focus point to cause the area within 5 feet of you to become difficult terrain for 1 minute. This area travels with you, and creatures within the area can not make opportunity attacks.
+You've learned to enhance your kata. As a bonus action while wielding a monk weapon, you can expend 1 focus point to cause the area within 5 feet of you to become difficult terrain for hostile creatures for 1 minute. This area travels with you, and affected creatures within the area can not make opportunity attacks.
 
 At 11th level, the range of this area increases to<br> 15 feet, and at 17th level, the range of this area increases to 30 feet.
 
 ### Vigilant Sentinel
 _**Crimson Order:** 11th level_<br>
-When you attempt to perceive your surroundings on your turn, you can opt to not move on that turn.<br> If you avoid moving, you gain a +10 bonus<br> to your Wisdom (Perception) checks until<br> the start of your next turn. You lose<br> this benefit if you move or<br> fall prone, either<br> voluntarily or<br> because of<br> some external<br> effect.
+When you attempt to perceive your surroundings<br> on your turn, you can opt to not move on that turn.<br> If you avoid moving, you gain a +10 bonus to your<br> Wisdom (Perception) checks until the start<br> of your next turn. You lose this benefit if<br> you move or fall prone, either<br> voluntarily or because of<br> some external effect.
 
 \columnbreak
 
@@ -3182,7 +3188,7 @@ Your mastery of focus has allowed you to unlock your fullest potential in combat
 
 This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.
 
-<img src='https://www.gmbinder.com/images/5JR9GaI.png' style='position:absolute;bottom:4px;right:-42px;width:750px;z-index:1000;' />
+<img src='https://www.gmbinder.com/images/5JR9GaI.png' style='position:absolute;bottom:4px;right:-49px;width:750px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | MONK</div>
 
@@ -3416,12 +3422,12 @@ _**Operative:** 2nd level_<br>
 Your quick thinking and agility allow you to move and act quickly. You can take the Dash, Disengage, or Hide actions as a bonus action.
 
 ### Operative Exploits
-_**Operative:** 2nd, 7th, 13th, and 17th level_<br>
+_**Operative:** 2nd level_<br>
 You've adopted two exploits, as detailed at the end of the class description. You adopt an additional exploit at 7th, 13th, and 17th level.
 
 ### Bad Feeling
 _**Operative:** 3rd level_<br>
-You have a wary eye, bordering on paranoia. When you roll for Initiative, you can move up to your speed. This movement happens before the Initiative order is determined. 
+You have a wary eye, bordering on paranoia. When you roll for initiative, you can move up to your speed. This movement happens before the initiative order is determined. 
 
 Once you've used this feature, you can't use it again until you finish a long rest.
 
@@ -3445,7 +3451,7 @@ When you are subjected to an effect that allows you to make a Dexterity saving t
 
 ### Reliable Talent
 _**Operative:** 11th level_<br>
-You have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.
+You have refined your chosen skills until they approach perfection. Ability checks you make that let you add your proficiency bonus gain a minimum roll threshold, discussed in chapter 7.
 
 ### Blindsense
 _**Operative:** 14th level_<br>
@@ -3466,7 +3472,7 @@ You have an uncanny knack for succeeding when you need to. Your Dexterity and In
 Once you've used this feature, you can't use it again until you finish a short or long rest.
 
 ### Operative Exploits
-The exploits are presented in alphabetical order. If an exploit has prerequisites, you must meet them to learn it. You can learn an exploit at the same time you meet its prerequisites. You can't take an exploit more than once.
+The exploits are presented in alphabetical order. 
 
 #### Commander's Exploit
 You gain proficiency in medium armor.
@@ -3503,7 +3509,7 @@ Once per turn, whenever both you and a friendly creature within 60 feet that can
 #### Skill's Exploit
 You learn an exploit that enhances your ability to apply your knowledge to combat situations. You can take this exploit multiple times.
 
-When you take the Attack action, you can use one of your skill exploits granted by this feature. You can use these features a combined number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+When you take the Attack action, you can use one of your skill exploits granted by this feature. You can use these features a combined two times. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a long rest.
 
 Choose from the following. You must be proficient in the skill in order to take that skill's exploit. 
 
@@ -3624,7 +3630,7 @@ Your agility in the air grants you the following benefits:
 
 ### Thief's Reflexes
 _**Acquisitions Practice:** 17th level_<br>
-You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10. You can't use this feature when you are surprised.
+You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
 
 Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can deal three additional weapon dice worth of damage and the creature must succeed on a Dexterity saving throw against your Deft Hands save DC or be knocked prone.
 
@@ -3733,59 +3739,68 @@ As a bonus action, you can mask yourself<br> with the Force for 1 minute or unti
 
 \pagebreak
 
-## Gunslinger Practice
-Those operatives who choose the Gunslinger Practice are the masters of the trick shot. The Gunslinger and his blaster are the perfect team, utilizing knowledge of their enemies' vulnerabilities to take advantage of every opportunity.
+<div class='wide'>
 
-### Dive For Cover
-_**Gunslinger Practice:** 3rd, 5th, 9th, 13th, and 17th level_<br>
-You learn to quickly move into cover when under fire. Once per round, when you are the target of a ranged attack, or you are subjected to an effect that allows you to make a Dexterity saving throw, and there is cover within 10 feet of you, you can move up to 10 feet (no action required). You must end this movement in cover.
+## Lethality Practice
 
-You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.
+</div>
 
-### Trick Shooter
-_**Gunslinger Practice:** 3rd level_<br>
-You learn a number of trick shots you can use to debilitate enemies and impress allies. When you deal Sneak Attack damage to a creature,<br> you may choose to forgo<br> two of your Sneak Attack<br> dice to make the attack a trick shot. 
+Those operatives who choose the Lethality Practice hone their skills in the art of death. They use precise and surprising attacks to dispatch their foes with fatal efficiency.
 
-Some of your trick shots require your target to make a saving throw to resist the trick shot's effects. The saving throw DC is calculated as follows: 
+### Assassinate
+_**Lethality Practice:** 3rd level_<br>
+When you hit a creature that you are hidden from with a weapon attack, you can choose to turn that hit into a critical hit. If the attack reduces the creature to 0 hit points, it does not automatically reveal your presence to any remaining creatures. Make a Dexterity (Stealth) check contested by the creatures' Wisdom (Perception) check. On a success, you remain hidden. If you would already be able to make a Dexterity (Stealth) check to remain hidden as part of the attack, you instead gain advantage on the check.
+
+You can use this feature once. You gain an additional use at 9th and 17th level. You regain all expended uses when you finish a long rest.
+
+### Lethal Strikes
+_**Lethality Practice:** 3rd level_<br>
+You learn how to read your foes and strikes their weak points. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a lethal strike. 
+
+Some of your lethal strikes require your target to make a saving throw to resist the lethal strike's effects. The saving throw DC is calculated as follows: 
 
 ___
 
 <div align="center">
 
-**Trick Shot save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
+**Lethal Strike save DC** = 8 + your proficiency bonus + <br>your Dexterity modifier
 
 </div>
 
 ___
 
-#### Blinding Shot
-You attempt to blind the target. The target must make a Constitution saving throw or be blinded until the end of your next turn. 
+#### Priming Attack
+You attempt to prime the target. The target must make a Dexterity, Constitution, or Wisdom saving throw (your choice). On a failed save, the next time you deal Sneak Attack damage against the target before the end of your next turn, you roll four additional Sneak Attack dice.
 
-#### Brutal Shot
-You attempt to knock the target prone. The target must make a Strength saving throw or be knocked prone.  
+#### Target Assessment
+You attempt to infer crucial details about your foe. The creature must make a Charisma saving throw. On a failed save, the GM tells you two of the following characteristics of your choice:
+- Highest ability score
+- Lowest ability score
+- Strongest saving throw
+- Weakest saving throw
 
-#### Hampering Shot
-You attempt to hobble the enemy's movement. The target must make a Dexterity saving throw. If it fails, it gains 1 slowed level and it has disadvantage on Dexterity saving throws until the end of its next turn.
-
-### Spinning Flourish
-_**Gunslinger Practice:** 9th level_<br>
-You can flourish your weapon in an intimidating or charming manner. As an action, you can cause one creature within 60 feet to make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier). On a failed save, the target is charmed or frightened by you (your choice) until the end of your next turn. 
+#### Vulnerable Strike
+You attempt to stagger the target. The target must make a Wisdom saving throw. On a failed save, the next time you would make an attack roll against the target before the end of your next turn, you can instead force the target to make a saving throw with the ability score of your choice. On a failed save, the creature takes normal weapon damage, is subjected to any additional effects that would occur on a hit, and you can apply your Sneak Attack damage to the roll.
 
 \columnbreak
 
-<div style='margin-top:27px'></div>
+### Infiltrator
+_**Lethality Practice:** 9th level_<br>
+You have become a master at avoiding detection.
 
-### Ricochet Shot
-_**Gunslinger Practice:** 13th level_<br>
-You learn how to work all the angles. Once per turn, when you take the Attack action and miss with a ranged weapon attack, you can repeat the attack against a different target within 10 feet of the original target (no action required).
+When you or a creature within 5 feet of you fails a Dexterity (Stealth) check, you can use your reaction to allow that creature to reroll the check. It must use the new roll.
 
-### Quickdraw
-_**Gunslinger Practice:** 17th level_<br>
-You learn to perform miracles with just a blaster and some nerve. On your first turn in combat, if you aren't surprised, you can use your action to attack creatures that have not yet acted. Choose up to six such creatures that you can see, making a ranged weapon attack against each. On a hit, you deal normal weapon damage and can apply a single trick shot to each attack made this way. 
+### Bushmaster
+_**Lethality Practice:** 13th level_<br>
+You excel at leading ambushes and acting first in a fight.
 
-Once you've used this feature, you must<br> complete a short or long rest before you<br> can use it again.
+You have advantage on initiative checks. Additionally, the first creature you hit during the first round of a combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn.
 
-<img src='https://www.gmbinder.com/images/XjjiVJp.png' style='position:absolute;bottom:8px;right:-115px;width:730px;transform:scaleX(-1);z-index:1000;' />
+### Death Strike
+_**Lethality Practice:** 17th level_<br>
+You've become a master of instant death. When you deal weapon damage to a creature that you are hidden from or that is surprised, you can force it to make a Constitution saving throw against your lethal strike save DC. On a failed save, double the damage of your attack against the creature, and you can't use this feature again until you finish a long rest.
+
+<img src='https://www.gmbinder.com/images/I1BaV1C.png' style='position:absolute;bottom:15px;right:-50px;width:590px;z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | OPERATIVE</div>
 
@@ -3889,28 +3904,28 @@ You can make a scholar quickly by following these suggestions. First, make Intel
 <div class='classTable wide'>
 
 ##### The Scholar
-| Level | Proficiency<br> Bonus | Features |  Academic<br> Superiority | Superiority<br> Dice | Maneuvers<br> Known| Discoveries |
+|Level|Proficiency<br> Bonus|Features|Maneuvers<br> Known|Superiority<br> Dice Quantity|Superiority<br> Dice Size|Discoveries|
 |:---:|:---:|:---|:---:|:---:|:---:|:--:|
-|  1st | +2 | Academic Superiority, Critical Analysis           |  d4  | 3 |  1 | — |
-|  2nd | +2 | Discovery, Sage Advice (long rest)                |  d4  | 3 |  2 | 2 |
-|  3rd | +2 | Expertise, Academic Pursuit                       |  d4  | 4 |  4 | 4 |
-|  4th | +2 | Ability Score Improvement                         |  d4  | 4 |  5 | 4 |
-|  5th | +3 | Multitasker                                       |  d6  | 5 |  6 | 5 |
-|  6th | +3 | Pursuit feature                                   |  d6  | 5 |  7 | 5 |
-|  7th | +3 | —                                                 |  d6  | 6 |  9 | 5 |
-|  8th | +3 | Ability Score Improvement                         |  d6  | 6 | 10 | 5 |
-|  9th | +4 | Pursuit feature                                   |  d8  | 7 | 11 | 6 |
-| 10th | +4 | Expertise                                         |  d8  | 7 | 12 | 6 |
-| 11th | +4 | —                                   				|  d8  | 8 | 14 | 7 |
-| 12th | +4 | Ability Score Improvement                         |  d8  | 8 | 15 | 7 |
-| 13th | +5 | Sage Advice (short rest)                          | d10  | 9 | 16 | 8 |
-| 14th | +5 | Calm and Collected                                | d10  | 9 | 17 | 8 |
-| 15th | +5 | —                                                 | d10  |10 | 19 | 8 |
-| 16th | +5 | Ability Score Improvement                         | d10  |10 | 20 | 8 |
-| 17th | +6 | Pursuit feature                                   | d12  |11 | 21 | 9 |
-| 18th | +6 | Adaptable Intellectual                            | d12  |11 | 22 | 9 |
-| 19th | +6 | Ability Score Improvement                         | d12  |12 | 23 | 9 |
-| 20th | +6 | Knowledge Unbound                                 | d12  |12 | 24 | 9 |
+| 1st|+2|Academic Superiority, Critical Analysis           | 1| 3| d4|—|
+| 2nd|+2|Discovery, Sage Advice (long rest)                | 2| 3| d4|2|
+| 3rd|+2|Expertise, Academic Pursuit                       | 4| 4| d4|4|
+| 4th|+2|Ability Score Improvement                         | 5| 4| d4|4|
+| 5th|+3|Multitasker                                       | 6| 5| d6|5|
+| 6th|+3|Pursuit feature                                   | 7| 5| d6|5|
+| 7th|+3|—                                                 | 9| 6| d6|5|
+| 8th|+3|Ability Score Improvement                         |10| 6| d6|5|
+| 9th|+4|Pursuit feature                                   |11| 7| d8|6|
+|10th|+4|Expertise                                         |12| 7| d8|6|
+|11th|+4|—                                   			   |14| 8| d8|7|
+|12th|+4|Ability Score Improvement                         |15| 8| d8|7|
+|13th|+5|Sage Advice (short rest)                          |16| 9|d10|8|
+|14th|+5|Calm and Collected                                |17| 9|d10|8|
+|15th|+5|—                                                 |19|10|d10|8|
+|16th|+5|Ability Score Improvement                         |20|10|d10|8|
+|17th|+6|Pursuit feature                                   |21|11|d12|9|
+|18th|+6|Adaptable Intellectual                            |22|11|d12|9|
+|19th|+6|Ability Score Improvement                         |23|12|d12|9|
+|20th|+6|Knowledge Unbound                                 |24|12|d12|9|
 
 </div>
 
@@ -3966,7 +3981,7 @@ You learn one maneuver of your choice, and you earn more at higher levels, as sh
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
 
 #### Superiority Dice
-You have three superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the scholar table. This die changes as you gain scholar levels, as shown in the Academic Superiority column of the scholar table. A superiority die is expended when you use it. 
+You have three superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the scholar table. This die changes as you gain scholar levels, as shown in the Superiority Dice Size column of the scholar table. A superiority die is expended when you use it. 
 
 You regain all of your expended superiority dice when you finish a short or long rest.
 
@@ -4044,7 +4059,7 @@ _**Scholar:** 20th level_<br>
 You are the pinnacle of your pursuit. Your Intelligence score increases by 4. Your maximum for that score increases by 4. Additionally, you can use any maneuver you know without expending a superiority die, rolling a d4 instead.
 
 ### Discoveries
-The discoveries are presented in alphabetical order. If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time you meet its prerequisites.
+The discoveries are presented in alphabetical order. 
 
 #### Academic Memory
 You can recall anything you have read in the past month that you understand. This includes but is not limited to books, maps, signs, and lists.
@@ -4090,9 +4105,6 @@ When you use your Sage Advice feature, the targeted creatures retain the benefit
 #### Malleable Maneuvering
 You learn two additional maneuvers. When you complete a short rest, you can replace one of these maneuvers with another one. When you complete a long rest, you can replace both of these maneuvers with other ones.
 
-#### Maneuver Versatility
-Choose two maneuvers you know. The chosen maneuvers count as general maneuvers for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know.
-
 #### Master's Advice
 _**Prerequisite:** 11th level, Expert's Advice_<br>
 When you use your Sage Advice feature, the first time each targeted creature makes the chosen skill check, they gain an additional bonus to the roll equal to your Critical Analysis ability modifier.
@@ -4105,18 +4117,18 @@ _**Prerequisite:** 5th level_<br>
 You gain proficiency in medium armor.
 
 #### Perfect Maneuver
-When you roll a 1 on a superiority die, you can treat the result of the die as a 3.
+Your superiority die rolls gain a minimum roll threshold, discussed in chapter 7.
 
 #### Quick Analysis
 _**Prerequisite:** 9th level_<br>
-When you roll Initiative and aren't surprised, you can use your reaction to use your Critical Analysis feature.
+When you roll initiative and aren't surprised, you can use your reaction to use your Critical Analysis feature.
 
 #### Rancor's Discipline
 You can substitute Wisdom or Charisma (chosen when you study this discipline) for Intelligence for your scholar class features, except for other discoveries and Academic Pursuit features.
 
 #### Reliable Sources
 _**Prerequisite:** 9th level_<br>
-When you make an Intelligence (Lore) or Intelligence (Nature) skill check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.
+Intelligence (Lore) or Intelligence (Nature) skill check that lets you add your proficiency bonus gain a minimum roll threshold, discussed in chapter 7.
 
 #### Resolute
 When you make a saving throw to resist charm and fear effects, you may add your Intelligence modifier to the roll.
@@ -4143,10 +4155,13 @@ You can select this discovery multiple times. Each time you do so, you must choo
 #### Universal Language
 You can communicate simple ideas with any creature with an Intelligence score of 6 or higher through basic expressions and gestures.
 
+#### Versatile Maneuvers
+Choose two maneuvers you know. The chosen maneuvers count as general maneuvers for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know.
+
 ## Academic Pursuits
 Your pursuit is a representation of which fields you have studied or how you practically apply your knowledge. Your pursuit grants you features at 3rd, 6th, 9th, and 17th level.
 
-<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:21px;right:30px;width:500px;transform:scaleX(-1);z-index:1000;' />
+<img src='https://www.gmbinder.com/images/oOPlRxo.png' style='position:absolute;bottom:22px;right:70px;width:387px;transform:scaleX(-1);z-index:1000;' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | SCHOLAR</div>
 
@@ -4202,7 +4217,7 @@ Whenever you make a Dexterity (Sleight of Hand) or Charisma (Deception) check, y
 Whenever you would make a Charisma (Persuasion) check involving haggling, you can instead challenge the target to a game of chance. If they accept your offer, you can make an ability check with an available gaming set. If you win the challenge, you automatically succeed on the Charisma (Persuasion) check.
 
 #### Ante Up
-When you roll Initiative, are not surprised, and end up first in the Initiative order, you can take one additional action on top of your regular action and a possible bonus action during your first turn in combat.
+When you roll initiative, are not surprised, and end up first in the initiative order, you can take one additional action on top of your regular action and a possible bonus action during your first turn in combat.
 
 #### Calculated Bluff
 When you make an ability check using Charisma, you can choose to instead make the check using your Intelligence or Wisdom modifier (your choice).
@@ -4398,7 +4413,7 @@ The range on the your Motivating Diplomat feature is increased to 15 feet.
 
 #### Reliable Words
 _**Prerequisite:** 9th level_<br>
-When you make a Deception, Intimidation, or Persuasion skill check, you may treat any roll 9 or lower as if you had rolled a 10.
+Charisma (Deception, Intimidation, or Persuasion) checks you make gain a minimum roll threshold, discussed in chapter 7.
 
 #### Social Opportunist
 You can add half your proficiency bonus to any Charisma check you make that doesn't already include your proficiency bonus.
@@ -4522,28 +4537,28 @@ You can make a scout quickly by following these suggestions. First, make Strengt
 <div class='classTable wide'>
 
 ##### The Scout
-|	Level	|	Proficiency<br> Bonus	|	Features	| Ranger's<br> Quarry | Tech Powers<br> Known	|	Tech<br> Points	| Max Power<br> Level| 
-|:--:|:--:|:--|:--:|:--:|:--:|:--:|
-|	 1st|	+2	|   Ranger's Quarry, Pathfinder			                | d4 |	 —	|	 —	|	—   |
-|    2nd|   +2  |   Techcasting, Fighting Style         			    | d4 |	 4	|	 2	|	1st	|
-|	 3rd|	+2	|   Scout Routine, Scout Technique	        	    	| d4 |	 5	|	 3	|	1st	|
-|	 4th|	+2	|   Ability Score Improvement			        		| d4 |	 6	|	 4	|	1st	|
-|	 5th|	+3	|   Extra Attack					        			| d6 |	 7	|	 5  |   2nd	|
-|	 6th|	+3	|   Expertise           						        | d6 |	 8	|	 6  |   2nd	|
-|	 7th|	+3	|   Technique feature, Scout Routine (two routines)	    | d6 |   9	|	 7  |   2nd	|
-|	 8th|	+3	|   Ability Score Improvement                        	| d6 | 	10	|	 8  |   2nd	|
-|	 9th|	+4	|   Scout Routine (15-foot radius)		        		| d8 |  12	|	 9	|	3rd	|
-|	10th|	+4	|   Commando        					        		| d8 | 	13	|	10	|	3rd	|
-|	11th|	+4	|   Technique feature				            		| d8 | 	14	|	11	|	3rd	|
-|	12th|	+4	|   Ability Score Improvement		        			| d8 |	15	|	12	|	3rd	|
-|	13th|	+5	|	—								        			| d10|  16	|	13	|	4th	|
-|	14th|	+5	|   Expertise, Combat Tech			        			| d10|  17	|	14	|	4th	|
-|	15th|	+5	|   Technique feature, Scout Routine (three routines)	| d10|	18	|	15	|   4th	|
-|	16th|	+5	|   Ability Score Improvement				        	| d10|  19	|	16	|	4th	|
-|	17th|	+6	|   Scout Routine (30-foot radius)			        	| d12|  20	|	17	|	5th	|
-|	18th|	+6	|   Supreme Awareness					        		| d12|  21	|	18	|	5th	|
-|	19th|	+6	|   Ability Score Improvement			        		| d12|  22	|	19	|	5th	|
-|	20th|	+6	|   Foe Slayer								        	| d12|  23	|	20	|	5th	|
+|Level|Proficiency<br> Bonus|Features|Ranger's<br> Quarry|Tech Powers<br> Known|Tech<br> Points|Max Power<br> Level|Routines<br> Known|Routine<br> Radius|
+|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1st|+2|Ranger's Quarry, Pathfinder			            | d4| —| —|	 —|—|     —|
+| 2nd|+2|Techcasting, Fighting Style         			    | d4| 4| 2|1st|—|     —|
+| 3rd|+2|Scout Routine, Scout Technique	        	    	| d4| 5| 3|1st|1| 5 ft.|
+| 4th|+2|Ability Score Improvement			        		| d4| 6| 4|1st|1| 5 ft.|
+| 5th|+3|Extra Attack					        			| d6| 7| 5|2nd|1| 5 ft.|
+| 6th|+3|Expertise           						        | d6| 8| 6|2nd|1| 5 ft.|
+| 7th|+3|Technique feature                                  | d6| 9| 7|2nd|2| 5 ft.|
+| 8th|+3|Ability Score Improvement                        	| d6|10| 8|2nd|2| 5 ft.|
+| 9th|+4|—	        		                                | d8|12| 9|3rd|2|15 ft.|
+|10th|+4|Commando        					        		| d8|13|10|3rd|2|15 ft.|
+|11th|+4|Technique feature				            		| d8|14|11|3rd|2|15 ft.|
+|12th|+4|Ability Score Improvement		        			| d8|15|12|3rd|2|15 ft.|
+|13th|+5|—								                    |d10|16|13|4th|2|15 ft.|
+|14th|+5|Expertise, Combat Tech			                    |d10|17|14|4th|2|15 ft.|
+|15th|+5|Technique feature                                  |d10|18|15|4th|3|15 ft.|
+|16th|+5|Ability Score Improvement				            |d10|19|16|4th|3|15 ft.|
+|17th|+6|—                                                  |d12|20|17|5th|3|30 ft.|
+|18th|+6|Supreme Awareness					                |d12|21|18|5th|3|30 ft.|
+|19th|+6|Ability Score Improvement			                |d12|22|19|5th|3|30 ft.|
+|20th|+6|Foe Slayer								            |d12|23|20|5th|3|30 ft.|
 
 </div>
 
@@ -4656,10 +4671,8 @@ _**Scout:** 2nd level_<br>
 You adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6. 
 
 ### Scout Routine
-_**Scout:** 3rd, 7th, 9th, 15th, and 17th level_<br>
-You've developed one routine, as detailed at the end of the class description. You develop an additional routine at 7th and 15th level.
-
-At 9th level, the range of your routines increases to 15 feet, and at 17th level, the range of these routines increases to 30 feet
+_**Scout:** 3rd level_<br>
+You've developed one routine, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Routines Known column of the scout table. Your routine has a radius of 5 feet, which increases at higher levels, as shown in the Routine Radius column of the scout table.
 
 ### Scout Technique 
 _**Scout:** 3rd, 7th, 11th, and 15th level_<br>
@@ -4729,7 +4742,7 @@ At the start of each of your turns, you can choose to have advantage on saving t
 At the start of each of your turns, you can choose to gain advantage on Constitution saving throws to avoid exhaustion from unenhanced sources, as well as being naturally adapted to both hot and cold climates. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.
 
 #### Responder's Routine
-When you roll Initiative, you can choose to add your proficiency bonus to the Initiative check and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your proficiency bonus to the Initiative check and have advantage on the first attack roll they make against a creature that has not yet acted.
+When you roll initiative, you can choose to add your proficiency bonus to the initiative check and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your proficiency bonus to the initiative check and have advantage on the first attack roll they make against a creature that has not yet acted.
 
 #### Sharpshooter's Routine
 At the start of each of your turns, you can choose to gain a bonus to the first weapon attack roll you make before the start of your next turn equal to your Intelligence modifier. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your Intelligence modifier to the first weapon attack roll they make before the start of your next turn.
@@ -4981,28 +4994,28 @@ You can make a sentinel quickly by following these suggestions. First, make Dext
 <div class='classTable wide'>
 
 ##### The Sentinel
-|	Level	|	Proficiency<br> Bonus	|	Features	|	Force Powers<br> Known	|Force<br> Points  | Max Power<br> Level|Kinetic<br> Combat |	
-|	:--:	|	:--:	|	:--    |	:--: |	:--:	|	:--:	|	:--:	|
-|	 1st	|	+2	|	Forcecasting, Led by the Force			    |	 7	|	 3	|	 1st	| 	—	|
-|	 2nd	|	+2	|	Force-Empowered Self, Sentinel Ideals		| 	 9	|	 6	|	 1st	|	d4	|
-|	 3rd	|	+2	|	Sentinel Calling			                |	11	|	 9	|	 2nd	|	d4	|
-|	 4th	|	+2	|	Ability Score Improvement					|	13	|	12	|	 2nd	|	d4	|
-|	 5th	|	+3	|   Extra Attack								|	15	|	15	|	 2nd	|	d6	|
-|	 6th	|	+3	|	Sentinel Ideals (three ideals)				|	17	|	18	|	 3rd	|	d6	|
-|	 7th	|	+3	|	Calling feature   				    		|	18	|	21	|	 3rd	|	d6	|
-|	 8th	|	+3	|	Ability Score Improvement					|	19	|	24	|	 3rd	|	d6	|
-|	 9th	|	+4	|	Sentinel Ideals (three manifestations)      |	21	|	27	|	 4th	|	d8	|
-|	10th	|	+4	|	Battle Readiness   							|	22	|	30	|	 4th	|	d8	|
-|	11th	|	+4	|	Sentinel Ideals (four ideals)               |	24	|	33	|	 5th	|	d8	|
-|	12th	|	+4	|	Ability Score Improvement					|	25	|	36	|	 5th	|	d8	|
-|	13th	|	+5	|	Calling feature			    				|	26	|	39	|	 5th	|   d10	|
-|	14th	|	+5	|	—           								|	28	|	42	|	 6th	|	d10	|
-|	15th	|	+5	|	Enlightened Evasion							|	29	|	45	|	 6th	|	d10	|
-|	16th	|	+5	|	Ability Score Improvement					|	30	|	48	|	 6th	|	d10	|
-|	17th	|	+6	|	Sentinel Ideals (four manifestations)       |	32	|	51	|	 7th	|   d12	|
-|	18th	|	+6	|	Calling feature	        					|	33	|	54	|	 7th	|   d12	|
-|	19th	|	+6	|	Ability Score Improvement					|	34	|	57	|	 7th	|   d12	|
-|	20th	|	+6	|	Center of the Force                			|	35	|	60	|	 7th	|   d12	|
+|Level|Proficiency<br> Bonus|Features|Force Powers<br> Known|Force<br> Points|Max Power<br> Level|Kinetic<br> Combat|Ideals<br> Known|Ideal<br> Manifests|
+|:--:|:--:|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1st|+2|Forcecasting, Led by the Force			    | 7| 3|1st|  —|—|—|
+| 2nd|+2|Force-Empowered Self, Sentinel Ideals		| 9| 6|1st|	d4|2|2|
+| 3rd|+2|Sentinel Calling			                |11| 9|2nd| d4|2|2|
+| 4th|+2|Ability Score Improvement                  |13|12|2nd| d4|2|2|
+| 5th|+3|Extra Attack                               |15|15|2nd| d6|2|2|
+| 6th|+3|—                                          |17|18|3rd| d6|3|2|
+| 7th|+3|Calling feature   				    		|18|21|3rd| d6|3|2|
+| 8th|+3|Ability Score Improvement                  |19|24|3rd| d6|3|2|
+| 9th|+4|3                                          |21|27|4th| d8|3|3|
+|10th|+4|Battle Readiness   						|22|30|4th| d8|3|3|
+|11th|+4|—                                          |24|33|5th| d8|4|3|
+|12th|+4|Ability Score Improvement                  |25|36|5th| d8|4|3|
+|13th|+5|Calling feature			                |26|39|5th|d10|4|3|
+|14th|+5|—                                          |28|42|6th|d10|4|3|
+|15th|+5|Enlightened Evasion                        |29|45|6th|d10|4|3|
+|16th|+5|Ability Score Improvement                  |30|48|6th|d10|4|3|
+|17th|+6|—                                          |32|51|7th|d12|4|4|
+|18th|+6|Calling feature	                        |33|54|7th|d12|4|4|
+|19th|+6|Ability Score Improvement                  |34|57|7th|d12|4|4|
+|20th|+6|Center of the Force                        |35|60|7th|d12|4|4|
 
 </div>
 
@@ -5093,7 +5106,7 @@ Your training allows you to harness the mystical energy of the Force throughout 
 <div style='margin-top:23px'></div>
 
 #### Deflection
-When you are the target of an attack, you can roll a Kinetic Combat die and add it to your AC against one attack before the start of your next turn (no action required). You can do so before or after the attack is made, but you must choose to do so before the GM determines if the attack hits.
+When you are the target of an attack, you can roll a Kinetic Combat die and add it to your AC (no action required). You can do so before or after the attack is made, but you must choose to do so before the GM determines if the attack hits.
 
 #### Double Strike
 When you hit a creature with a weapon attack, you can roll a Kinetic Combat die and deal additional damage of the same type equal to the amount rolled.
@@ -5102,10 +5115,10 @@ When you hit a creature with a weapon attack, you can roll a Kinetic Combat die 
 When you move on your turn, you can roll a Kinetic Combat die to increase your speed by 5 x the amount rolled until the end of your turn.
 
 ### Sentinel Ideals
-_**Sentinel:** 2nd, 6th, 9th, 11th, and 17th level_<br>
-You adopt ideals that exemplify your bond with the Force. You adopt two ideals of your choice, as detailed at the end of the class description. You adopt an additional ideal at 6th and 11th level. 
+_**Sentinel:** 2nd level_<br>
+You adopt ideals that exemplify your bond with the Force. You adopt two ideals of your choice, as detailed at the end of the class description, and you adopt more at higher levels, as shown in the Ideals Known column of the sentinel table.
 
-You can manifest your ideals a combined total of twice. You gain an additional use at 9th and 17th level. You regain all expended uses when you finish a long rest. 
+You can manifest your ideals a combined total of twice, and you can manifest them more times at higher levels as shown in the Ideal Manifests column of the sentinel table.
 
 ### Sentinel Calling
 _**Sentinel:** 3rd, 7th, 13th, and 18th level_<br>
@@ -5138,7 +5151,7 @@ You are perfectly centered with the Force. Your Dexterity and Wisdom or Charisma
 Additionally, once per turn, when you would roll a Kinetic Combat die, you can instead choose the maximum.
 
 ### Sentinel Ideals
-The ideals are presented in alphabetical order. You can't benefit from a Sentinel Ideal option more than once, even if you later get to choose again.
+The ideals are presented in alphabetical order.
 
 #### Ideal of the Agile
 You gain a swimming speed and a climbing speed equal to your walking speed. When you make a long jump, you can cover a number of feet up to twice your Wisdom or Charisma score (your choice). When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Wisdom or Charisma modifier (your choice).
@@ -5196,36 +5209,45 @@ Different sentinels select different callings, called Paths, to follow as they h
 
 \pagebreakNum
 
-## Path of Aggression
-From the murky depths of the dark side comes seething fury. Those sentinels who follow the Path of Aggression charge their weapon with lightning, culminating in a massive discharge that can ravage their opponents.
+<div class='wide'>
 
-### Voltaic Slash
-_**Path of Aggression:** 3rd level_<br>
-Starting when you choose this calling at 3rd level, you learn the *lightning charge* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and when you deal lightning damage with the *lightning charge* force power, you deal additional lightning damage equal to half your Wisdom or Charisma modifier (your choice, minimum of one) if it doesn't already include that modifier.
+## Path of the Corsair
 
-### Thunderous Momentum
-_**Path of Aggression:** 3rd level_<br>
-Your stride becomes nigh unbreakable. You are immune to the shocked condition, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.
+</div>
 
-\columnbreak
+There may come a time when a sentinel finds themselves stranded, hunted, or in any situation where they must hide their nature as a force wielder. Those sentinels who follow the Path of the Corsair make use of alternative weaponry not commonly associated with force-wielders to great effect.
 
-<div style='margin-top:27px'></div>
+### Bonus Proficiencies
+_**Path of the Corsair:** 3rd level_<br>
+You gain proficiency with demolitions kits and three blasters of your choice.
 
-### Entropic Rush
-_**Path of Aggression:** 7th level_<br>
-You've learned to move with speed and precision, discharging your lightning in a massive burst. When you move at least half your speed before casting *lightning charge*, you make the attack roll with advantage. Additionally, on a hit, the lightning can leap a second time, to a third creature within range or back to the first creature.
+### Corsair Munitions
+_**Path of the Corsair:** 3rd level_<br>
+You can throw grenades and set mines with your bonus action, instead of your action. Additionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range. Lastly, when determining the save DC of a charge, grenade, mine, missile, or rocket you control, you can use your universal force save DC, if it would be higher than the item's DC.
 
-### Living Current
-_**Path of Aggression:** 13th level_<br>
-You've learned to channel the damage done to you to enhance your strikes. The first time you deal damage on your turn, if you took damage since the start of your last turn, you can deal additional lightning damage equal to your Kinetic Combat die + half the amount of damage taken.
+### Force-Empowered Detonators
+_**Path of the Corsair:** 3rd, 5th, 9th, 13th, and 17th<br> &emsp;level_<br>
+You learn to create a number of small but potent grenades. Over the course of a short or long rest, you can create two grenades. You must have a demolitions kit in order to create these grenades. Your grenades can only be used by you, and they lose their potency at the end of your next short or long rest.
 
-You can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest.
+Your grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw one of these grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 5 feet must make a Dexterity, Constitution, or Wisdom saving throw (your choice when you generate the grenade) against your universal force save DC. A creature takes damage using your Kinetic Combat die + your Wisdom or Charisma modifier (your choice) on a failed save, or half as much on a successful one. The damage is force for Dexterity, necrotic for Constitution, or psychic for Wisdom.
 
-### Retaliatory Strike
-_**Path of Aggression:** 18th level_<br>
-When a creature hits you with an attack while within 5 feet of you, you can use your reaction to cast the *lightning charge* force power, targeting them.
+You can make additional grenades at higher level: three at 5th level, four at 9th level, five at 13th level, and six at 17th level.
 
-<img src='https://www.gmbinder.com/images/DSR5EWH.png' style='position:absolute;bottom:14px;left:66px;width:730px;;z-index:1000;transform:scaleX(-1)' />
+### Remote Start
+_**Path of the Corsair:** 7th level_<br>
+You learn to easily detonate primed explosives. As a bonus action on your turn, you can detonate a primed explosive you can see within 60 feet. Alternatively, if you take the Attack action on your turn and you are wielding a blaster weapon with which you are proficient, you can choose to shoot the explosive rather than use your bonus action to detonate it as long as you wouldn't have disadvantage on the attack roll.
+
+When you do so, the explosive immediately detonates, and you have advantage on the damage roll you make with that explosive. 
+
+### Energized Kinetics
+_**Path of the Corsair:** 13th level_<br>
+Once per turn, when you deal damage with a Force-Empowered Detonator or your Double Strike feature, you can deal additional damage using your Kinetic Combat die. The damage type is force, lightning, necrotic, or psychic (your choice).
+
+### Disorienting Detonations
+_**Path of the Corsair:** 18th level_<br>
+When a creature fails the saving throw against a Force-Empowered Detonator, you can spend 2 force points to subject it to one of the following conditions until the end of your next turn: blinded, deafened, ignited (1d12), shocked, or slowed.
+
+<img src='https://www.gmbinder.com/images/GSI1y6J.png' style='position:absolute;bottom:29px;right:35px;width:420px;z-index:1000;transform:scaleX(-1)' />
 
 <div class='footnote'>CHAPTER 3 | CLASSES | SENTINEL</div>
 
