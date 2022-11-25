@@ -86,12 +86,13 @@ namespace StarWars5e.Api
                     });
             });
 
+            var searchEndpoint = Configuration["SearchEndpoint"] ?? "https://sw5esearch.search.windows.net";
             var tableStorage = new AzureTableStorage(Configuration["StorageAccountConnectionString"]);
             var cloudStorageAccount = CloudStorageAccount.Parse(Configuration["StorageAccountConnectionString"]);
             var cloudTableClient = cloudStorageAccount.CreateCloudTableClient();
             var cloudBlobClient = new BlobServiceClient(Configuration["StorageAccountConnectionString"]);
-            var searchIndexClient = new SearchIndexClient(new Uri("https://sw5esearch.search.windows.net"), new AzureKeyCredential(Configuration["SearchKey"]));
-            var searchClient = new SearchClient(new Uri("https://sw5esearch.search.windows.net"), "searchterms-index", new AzureKeyCredential(Configuration["SearchKey"]));
+            var searchIndexClient = new SearchIndexClient(new Uri(searchEndpoint), new AzureKeyCredential(Configuration["SearchKey"]));
+            var searchClient = new SearchClient(new Uri(searchEndpoint), "searchterms-index", new AzureKeyCredential(Configuration["SearchKey"]));
 
             services.AddSingleton<IAzureTableStorage>(tableStorage);
 
