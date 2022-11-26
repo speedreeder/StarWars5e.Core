@@ -536,6 +536,30 @@ namespace StarWars5e.Parser.Managers
                 Console.WriteLine("Failed to upload PHB maneuvers.");
             }
 
+
+            try
+            {
+                var fightingStrategies =
+                    await new ExpandedContentFightingStrategiesProcessor(_localization).Process(_phbFilesNames.Where(p => p.Equals("PHB.phb_03.txt")).ToList(), _localization, ContentType.Core);
+
+                foreach (var strategy in fightingStrategies)
+                {
+                    strategy.ContentSourceEnum = ContentSource.PHB;
+
+                    var strategySearchTerm = _globalSearchTermRepository.CreateSearchTerm(strategy.Name,
+                        GlobalSearchTermType.FightingStrategy, ContentType.Core,
+                        $"/classes/fighter");
+                    _globalSearchTermRepository.SearchTerms.Add(strategySearchTerm);
+                }
+
+                await _tableStorage.AddBatchAsync<FightingStrategy>($"fightingStrategies{_localization.Language}", fightingStrategies,
+                    new BatchOperationOptions { BatchInsertMethod = BatchInsertMethod.InsertOrReplace });
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine("Failed to upload PHB fighting strategies.");
+            }
+
             foreach (var referenceName in ReferenceNames)
             {
                 var referenceSearchTerm = _globalSearchTermRepository.CreateSearchTerm(referenceName.name, referenceName.globalSearchTermType, ContentType.Core,
