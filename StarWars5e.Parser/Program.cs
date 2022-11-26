@@ -62,9 +62,10 @@ namespace StarWars5e.Parser
 
             if (!string.IsNullOrWhiteSpace(config["SearchKey"]))
             {
-                var searchIndexClient = new SearchIndexClient(new Uri("https://sw5esearch.search.windows.net"),
+                var searchEndpoint = config["SearchEndpoint"] ?? "https://sw5esearch.search.windows.net";
+                var searchIndexClient = new SearchIndexClient(new Uri(searchEndpoint),
                     new AzureKeyCredential(config["SearchKey"]));
-                var searchIndexerClient = new SearchIndexerClient(new Uri("https://sw5esearch.search.windows.net"),
+                var searchIndexerClient = new SearchIndexerClient(new Uri(searchEndpoint),
                     new AzureKeyCredential(config["SearchKey"]));
 
                 serviceProvider.AddSingleton(searchIndexClient);
